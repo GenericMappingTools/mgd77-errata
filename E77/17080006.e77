@@ -1,0 +1,60 @@
+# Cruise 17080006 ID A112L31 MGD77 FILE VERSION: 19900702 N_RECS: 23617
+# Examined: Mon Sep  6 12:35:13 2010 by mtchandl
+# Arguments:  -R263.3/276.95/0.35/13.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-17080006-H04-03: Invalid Survey Departure Day: (22) [23]
+N-E-17080006-H04-06: Invalid Survey Arrival Day: (17) [15]
+Y-E-17080006-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-17080006-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [3]
+Y-W-17080006-H16-06: Ten Degree Identifier 5008 marked in header but was not crossed
+Y-W-17080006-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-17080006-depth-01: RLS m: 1.00124 b: 0 rms: 40.7529 r: 0.996134 sig: 1 dec: 0
+N-E-17080006-depth-02: Regression slope 1.00124 different from 1. Recommended: [1]
+Y-W-17080006-depth-12: Integer precision
+# Errata: Data
+?	17080006	1985-09-26T21:01:04.98	4006	0-0-K	 GRAD: twt excessive
+?	17080006	1985-09-28T22:25:04.02	6664	0-0-KL	 GRAD: twt, depth excessive
+?	17080006	1985-09-29T02:50:01.98	6914	0-0-K	 GRAD: twt excessive
+?	17080006	1985-09-29T03:11:04.98	6934	0-0-K	 GRAD: twt excessive
+?	17080006	1985-09-29T04:11:24.00	6992	0-0-KL	 GRAD: twt, depth excessive
+Y	17080006	1985-09-29T07:11:01.98	7164	C-0-0	 NAV: excessive speed
+Y	17080006	1985-09-29T07:12:03.00	7165	C-0-0	 NAV: excessive speed
+?	17080006	1985-09-30T08:21:16.02	8606	0-0-K	 GRAD: twt excessive
+Y	17080006	1985-09-30T23:59:40.02	9516	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-01T00:00:55.02	9518	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-01T00:01:55.98	9520	B-0-0	 NAV: non-increasing time
+?	17080006	1985-10-02T23:10:15.00	10930	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-02T23:11:16.02	10931	0-0-KL	 GRAD: twt, depth excessive
+?	17080006	1985-10-03T11:35:04.98	11651	0-0-K	 GRAD: twt excessive
+Y	17080006	1985-10-04T00:02:09.00	12375	C-0-0	 NAV: excessive speed
+Y	17080006	1985-10-04T21:01:06.00	13532	C-0-0	 NAV: excessive speed
+Y	17080006	1985-10-04T23:57:58.98	13704	C-0-0	 NAV: excessive speed
+Y	17080006	1985-10-04T23:59:00.00	13706	C-0-0	 NAV: excessive speed
+?	17080006	1985-10-05T09:32:33.00	14236	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-05T09:34:43.98	14238	0-0-KL	 GRAD: twt, depth excessive
+Y	17080006	1985-10-05T23:58:36.00	15043	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-05T23:59:37.02	15045	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-06T00:00:52.02	15047	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-06T00:01:52.98	15048	C-0-0	 NAV: excessive speed
+Y	17080006	1985-10-06T00:02:54.00	15049	C-0-0	 NAV: excessive speed
+Y	17080006	1985-10-07T23:58:12.00	16464	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-07T23:59:13.98	16466	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-08T00:00:28.98	16468	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-08T23:58:57.00	17210	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-09T00:00:12.00	17212	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-09T00:01:13.02	17214	B-0-0	 NAV: non-increasing time
+?	17080006	1985-10-09T04:12:09.00	17459	0-0-K	 GRAD: twt excessive
+Y	17080006	1985-10-10T23:58:10.02	18928	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-10T23:59:25.02	18930	B-0-0	 NAV: non-increasing time
+Y	17080006	1985-10-11T00:00:25.98	18932	B-0-0	 NAV: non-increasing time
+?	17080006	1985-10-14T03:44:18.00	21569	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-14T05:52:06.00	21694	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-14T06:28:21.00	21729	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-14T06:29:22.02	21730	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-14T07:02:10.98	21760	0-0-K	 GRAD: twt excessive
+?	17080006	1985-10-14T07:03:27.00	21761	0-0-K	 GRAD: twt excessive

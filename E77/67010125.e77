@@ -1,0 +1,93 @@
+# Cruise 67010125 ID 83004711 MGD77 FILE VERSION: 19860605 N_RECS: 23255
+# Examined: Sat Jul 30 19:23:32 2011 by mtchandl
+# Arguments:  -R-17.65/5.85/35.85/47.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa and magnetic anomalies.
+# Errata: Header
+Y-W-67010125-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-67010125-depth-01: RLS m: 1.00012 b: 0 rms: 13.201 r: 0.999964 sig: 1 dec: 0
+Y-I-67010125-faa-01: RLS m: 1.02356 b: -0.48898 rms: 11.3898 r: 0.99545 sig: 1 dec: 1
+N-E-67010125-faa-02: Regression slope 1.02356 different from 1. Recommended: [1]
+N-E-67010125-faa-06: Anomaly differs from gobs-IGF80 (m: 0.876827 b: 24.6688 rms: 38.8654 r: 0.955843 sig: 1 dec: 1). [Recompute]
+Y-E-67010125-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00565 b: -9.91726 rms: 9.88388 r: 0.999806 sig: 1 dec: 0). [Recompute]
+Y-W-67010125-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-67010125-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999521 b: -136.535 rms: 136.715 r: 0.998222 sig: 1 dec: 0). [Recompute]
+Y-W-67010125-depth-12: Integer precision
+Y-W-67010125-mtf1-12: Integer precision
+# Errata: Data
+?	67010125	1983-10-25T09:18:00.00	762	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-26T22:59:00.00	2841	0-0-VW	 GRAD: eot, faa excessive
+Y	67010125	1983-10-27T08:16:00.00	3331	C-0-0	 NAV: excessive speed
+?	67010125	1983-10-27T08:17:00.00	3332	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-27T16:17:00.00	3797	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-27T16:47:00.00	3827	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-27T19:45:00.00	4003	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-27T21:30:00.00	4103	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-28T16:00:00.00	5166	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-29T08:54:00.00	6122	0-0-UW	 GRAD: gobs, faa excessive
+?	67010125	1983-10-29T08:56:00.00	6124	0-0-UW	 GRAD: gobs, faa excessive
+?	67010125	1983-10-29T16:18:00.00	6553	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-29T16:19:00.00	6554	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-10-29T17:42:00.00	6635	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-29T18:46:00.00	6698	0-0-W	 GRAD: faa excessive
+?	67010125	1983-10-29T21:23:00.00	6845	0-0-W	 GRAD: faa excessive
+?	67010125	1983-10-30T08:52:00.00	7500	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-30T08:55:00.00	7503	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-30T08:56:00.00	7504	0-0-U	 GRAD: gobs excessive
+?	67010125	1983-10-31T10:38:00.00	8991	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-10-31T10:39:00.00	8992	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-10-31T10:40:00.00	8993	0-0-UW	 GRAD: gobs, faa excessive
+?	67010125	1983-10-31T20:10:00.00	9541	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-31T22:05:00.00	9652	0-0-V	 GRAD: eot excessive
+?	67010125	1983-10-31T22:06:00.00	9653	0-0-U	 GRAD: gobs excessive
+?	67010125	1983-11-01T09:19:00.00	10292	0-0-W	 GRAD: faa excessive
+?	67010125	1983-11-01T09:20:00.00	10293	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-11-01T09:21:00.00	10294	0-0-U	 GRAD: gobs excessive
+?	67010125	1983-11-01T09:37:00.00	10310	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-01T09:38:00.00	10311	0-0-U	 GRAD: gobs excessive
+?	67010125	1983-11-01T19:15:00.00	10863	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-03T07:47:00.00	11862	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-03T07:48:00.00	11863	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-11-04T20:12:00.00	13887	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-04T20:38:00.00	13913	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-04T20:54:00.00	13925	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-05T00:19:00.00	14095	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-05T08:30:00.00	14511	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-05T08:50:00.00	14527	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-11-05T18:18:00.00	15064	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-11-05T22:58:00.00	15284	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-06T10:29:00.00	15931	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-06T10:35:00.00	15937	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-07T03:30:00.00	16924	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-07T03:31:00.00	16925	0-0-V	 GRAD: eot excessive
+?	67010125	1983-11-07T10:34:00.00	17328	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-11-07T10:35:00.00	17329	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-11-07T10:36:00.00	17330	0-0-W	 GRAD: faa excessive
+?	67010125	1983-11-07T10:37:00.00	17331	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-11-08T06:56:00.00	18493	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T06:57:00.00	18494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T06:58:00.00	18495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:02:00.00	18499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:03:00.00	18500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:04:00.00	18501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:06:00.00	18503	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:07:00.00	18504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:08:00.00	18505	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:10:00.00	18507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:12:00.00	18509	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:13:00.00	18510	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:15:00.00	18512	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:16:00.00	18513	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:17:00.00	18514	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:18:00.00	18515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:26:00.00	18523	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-08T07:27:00.00	18524	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010125	1983-11-09T15:13:00.00	20365	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-11-10T08:22:00.00	21348	0-0-VW	 GRAD: eot, faa excessive
+?	67010125	1983-11-10T08:23:00.00	21349	0-0-UW	 GRAD: gobs, faa excessive
+?	67010125	1983-11-10T08:24:00.00	21350	0-0-UW	 GRAD: gobs, faa excessive
+?	67010125	1983-11-10T16:23:00.00	21407	0-0-UV	 GRAD: gobs, eot excessive
+?	67010125	1983-11-11T05:37:00.00	22164	0-0-VW	 GRAD: eot, faa excessive

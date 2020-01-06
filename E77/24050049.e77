@@ -1,0 +1,45 @@
+# Cruise 24050049 ID GA-0136 MGD77 FILE VERSION: 20080522 N_RECS: 42421
+# Examined: Mon Feb 14 21:46:19 2011 by mtchandl
+# Arguments:  -R113.2/118.6/-23.95/-18.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050049-H04-06: Invalid Survey Arrival Day: (16) [13]
+N-E-24050049-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050049-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050049-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050049-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050049-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-I-24050049-depth-01: RLS m: 0.969365 b: 0 rms: 10.6379 r: 0.999624 sig: 1 dec: 0
+N-E-24050049-depth-02: Regression slope 0.969365 different from 1. Recommended: [1]
+Y-W-24050049-twt-11: More recent bathymetry correction table available
+Y-W-24050049-depth-12: Integer precision
+Y-W-24050049-mtf1-12: Integer precision
+# Errata: Data
+?	24050049	1994-10-20T11:38:00.00	8652	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-24T21:44:00.00	15018	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-25T04:09:00.00	15403	0-0-K	 GRAD: twt excessive
+?	24050049	1994-10-26T11:03:00.00	17257	0-0-K	 GRAD: twt excessive
+?	24050049	1994-10-31T04:57:00.00	23959	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T04:58:00.00	23960	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T04:59:00.00	23961	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:00:00.00	23962	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:01:00.00	23963	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:02:00.00	23964	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:03:00.00	23965	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:04:00.00	23966	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:05:00.00	23967	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-10-31T05:06:00.00	23968	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-02T01:31:00.00	26633	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-02T09:46:00.00	27128	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-03T07:24:00.00	28426	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-03T15:26:00.00	28908	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-03T15:27:00.00	28909	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-03T15:28:00.00	28910	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-05T02:51:00.00	31033	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-05T02:52:00.00	31034	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-06T09:34:00.00	32876	0-0-O	 GRAD: mtf1 excessive
+?	24050049	1994-11-12T02:44:00.00	41106	0-0-K	 GRAD: twt excessive

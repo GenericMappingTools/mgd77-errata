@@ -1,0 +1,35 @@
+# Cruise 01030252 ID V3621 MGD77 FILE VERSION: 19910924 N_RECS: 4104
+# Examined: Fri Mar 19 01:35:41 2010 by mtchandl
+# Arguments:  -R286.25/334.9/16.8/40.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic and faa (w/ eot) anomalies.
+# Errata: Header
+Y-E-01030252-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01030252-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030252-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030252-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030252-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030252-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030252-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01030252-depth-01: RLS m: 1.00024 b: 0 rms: 40.4689 r: 0.999333 sig: 1 dec: 0
+Y-I-01030252-faa-01: RLS m: 0.912664 b: -8.57438 rms: 10.2156 r: 0.971626 sig: 1 dec: 0
+N-E-01030252-faa-02: Regression slope 0.912664 different from 1. Recommended: [1]
+Y-W-01030252-faa-03: Regression offset -8.57438 different from 0.
+N-E-01030252-faa-06: Anomaly differs from gobs-IGF80 (m: 0.994913 b: -79.6494 rms: 80.0733 r: 0.993621 sig: 1 dec: 0). [Recompute]
+Y-E-01030252-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01030252-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01030252-mag-07: Anomaly differs from mtf1-IGRF (m: 0.5378 b: -660.966 rms: 691.97 r: 0.235547 sig: 1 dec: 0). [Recompute]
+Y-W-01030252-twt-11: More recent bathymetry correction table available
+Y-W-01030252-mtf1-12: Integer precision
+# Errata: Data
+?	01030252	1981-02-22T20:12:00.00	3078	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:18:00.00	3079	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:24:00.00	3080	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:30:00.00	3081	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:36:00.00	3082	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:42:00.00	3083	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-22T20:48:00.00	3084	0-Q-0	 VAL: mag invalid
+?	01030252	1981-02-23T15:36:00.00	3281	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,22 @@
+# Cruise 15060014 ID JPYN02BD MGD77 FILE VERSION: 19800226 N_RECS: 8380
+# Examined: Sat May 31 10:14:19 2008 by mtchandl
+# Arguments:  -R139.9/201.85/21.3/40.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060014-H04-05: Invalid Survey Arrival Month: (07) [06]
+N-E-15060014-H04-06: Invalid Survey Arrival Day: (01) [30]
+Y-I-15060014-depth-01: RLS m: 1 b: 0 rms: 149.879 r: 0.996455 sig: 1 dec: 1
+Y-E-15060014-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.05286 b: 72.9069 rms: 95.051 r: 0.971591 sig: 1 dec: 1). [Recompute]
+Y-W-15060014-twt-11: More recent bathymetry correction table available
+Y-W-15060014-mtf1-12: Integer multiple of 5 precision
+Y-W-15060014-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060014	1961-06-28T19:06:00.00	7596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060014	1961-06-28T19:12:00.00	7598	0-Q-0	 VAL: mag invalid
+?	15060014	1961-06-28T19:18:00.00	7600	0-Q-0	 VAL: mag invalid
+?	15060014	1961-06-28T19:24:00.00	7602	0-Q-0	 VAL: mag invalid
+?	15060014	1961-06-28T19:30:00.00	7604	0-Q-0	 VAL: mag invalid

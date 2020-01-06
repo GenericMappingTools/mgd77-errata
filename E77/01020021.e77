@@ -1,0 +1,72 @@
+# Cruise 01020021 ID ELT21 MGD77 FILE VERSION: 19790127 N_RECS: 16996
+# Examined: Wed Jul  8 20:39:58 2009 by mtchandl
+# Arguments:  -R239.55/289.25/-62.55/-32.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01020021-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-01020021-depth-01: RLS m: 1.00012 b: 0 rms: 15.3673 r: 0.999971 sig: 1 dec: 0
+Y-E-01020021-mag-07: Anomaly differs from mtf1-IGRF (m: 0.963214 b: -67.1265 rms: 116.108 r: 0.921201 sig: 1 dec: 1). [Recompute]
+N-E-01020021-depth-08: Extended offset from grid [4-1112]
+N-E-01020021-depth-08: Extended offset from grid [1184-5021]
+N-E-01020021-depth-08: Extended offset from grid [5022-8267]
+N-E-01020021-depth-08: Extended offset from grid [8270-10288]
+N-E-01020021-depth-08: Extended offset from grid [10290-11041]
+N-E-01020021-depth-08: Extended offset from grid [11044-11169]
+N-E-01020021-depth-08: Extended offset from grid [11170-16018]
+N-E-01020021-depth-08: Extended offset from grid [16020-16996]
+Y-W-01020021-twt-11: More recent bathymetry correction table available
+Y-W-01020021-mtf1-12: Integer precision
+Y-W-01020021-mag-12: Integer precision
+# Errata: Data
+?	01020021	1965-11-25T11:45:00.00	665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-11-27T00:11:00.00	1193	0-0-K	 GRAD: twt excessive
+?	01020021	1965-11-28T06:45:00.00	1668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-11-28T07:30:00.00	1680	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-11-28T07:31:00.00	1681	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-11-29T00:08:00.00	1772	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-02T00:00:00.00	2830	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-12-02T03:32:00.00	2925	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-02T15:54:00.00	3245	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-03T17:58:00.00	3600	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-04T15:01:00.00	3987	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-04T16:05:00.00	4017	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-05T01:43:00.00	4294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-05T01:51:00.00	4299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-05T01:55:00.00	4301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-05T18:19:00.00	4673	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-12-05T18:35:00.00	4676	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-12-06T22:17:00.00	5022	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-09T07:23:00.00	6104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T06:00:00.00	7455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T14:04:00.00	7647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T14:08:00.00	7649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T14:36:00.00	7663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T14:52:00.00	7670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T16:16:00.00	7709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T16:32:00.00	7718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T16:36:00.00	7720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020021	1965-12-12T16:40:00.00	7723	0-0-Q	 GRAD: mag excessive
+?	01020021	1965-12-23T17:41:00.00	11879	0-0-K	 GRAD: twt excessive
+?	01020021	1965-12-25T00:01:00.00	12085	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1965-12-25T22:32:00.00	12468	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1966-01-03T11:16:00.00	15412	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1966-01-03T11:18:00.00	15414	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1966-01-03T14:07:00.00	15485	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1966-01-03T15:58:00.00	15533	0-0-K	 GRAD: twt excessive
+?	01020021	1966-01-03T15:59:00.00	15534	0-0-K	 GRAD: twt excessive
+?	01020021	1966-01-07T07:56:00.00	16775	0-0-KL	 GRAD: twt, depth excessive
+?	01020021	1966-01-07T07:58:00.00	16776	0-0-KL	 GRAD: twt, depth excessive
+Y	01020021	1966-01-07T13:48:00.00	16887	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T13:51:00.00	16888	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T13:54:00.00	16889	D-0-0	 NAV: on land
+?	01020021	1966-01-07T13:57:00.00	16890	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T14:03:00.00	16892	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T14:07:00.00	16893	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T14:21:00.00	16897	D-0-0	 NAV: on land
+?	01020021	1966-01-07T14:25:00.00	16898	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T17:39:00.00	16946	D-0-0	 NAV: on land
+Y	01020021	1966-01-07T17:43:00.00	16947	D-0-0	 NAV: on land

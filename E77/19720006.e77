@@ -1,0 +1,18 @@
+# Cruise 19720006 ID JCR10L01 MGD77 FILE VERSION: 19961008 N_RECS: 5801
+# Examined: Mon Oct 18 15:36:23 2010 by mtchandl
+# Arguments:  -R288.4/305.7/-68.3/-51.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19720006-H04-06: Invalid Survey Arrival Day: (30) [28]
+Y-W-19720006-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-19720006-depth-01: RLS m: 1.00035 b: 0 rms: 14.88 r: 0.999936 sig: 1 dec: 0
+N-E-19720006-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+# Errata: Data
+?	19720006	1994-11-15T20:10:00.00	1690	0-0-L	 GRAD: depth excessive
+?	19720006	1994-11-25T18:45:00.00	4528	0-0-L	 GRAD: depth excessive
+?	19720006	1994-11-25T19:03:00.00	4536	D-0-0	 NAV: on land
+Y	19720006	1994-11-25T19:05:00.00	4537	D-0-0	 NAV: on land

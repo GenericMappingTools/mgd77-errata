@@ -1,0 +1,34 @@
+# Cruise 08020018 ID 8508 MGD77 FILE VERSION: 19890113 N_RECS: 35795
+# Examined: Fri Jul 30 11:14:02 2010 by mtchandl
+# Arguments:  -R278.5/282.85/9.2/10.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08020018-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-08020018-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-08020018-depth-01: RLS m: 0.998256 b: 0 rms: 27.6736 r: 0.999372 sig: 1 dec: 0
+N-E-08020018-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+Y-E-08020018-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958501 b: -125.434 rms: 129.717 r: 0.976952 sig: 1 dec: 1). [Recompute]
+Y-W-08020018-twt-11: More recent bathymetry correction table available
+Y-W-08020018-mtf1-12: Integer precision
+Y-W-08020018-mag-12: Integer precision
+# Errata: Data
+Y	08020018	1985-05-12T10:04:00.00	688	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-12T10:07:00.00	689	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-12T10:10:00.00	690	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-13T22:55:40.02	3372	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-13T22:56:00.00	3373	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-13T22:56:40.02	3374	B-0-0	 NAV: non-increasing time
+?	08020018	1985-05-17T02:45:00.00	8440	0-M-0	 VAL: bcc invalid
+Y	08020018	1985-05-15T06:59:00.00	8441	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-15T06:59:40.02	8442	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-15T07:00:00.00	8443	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-15T07:00:19.98	8444	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-17T12:32:19.98	10287	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-17T12:33:00.00	10288	B-0-0	 NAV: non-increasing time
+Y	08020018	1985-05-17T12:33:40.02	10289	B-0-0	 NAV: non-increasing time
+?	08020018	1985-05-27T20:21:00.00	26637	0-0-K	 GRAD: twt excessive
+?	08020018	1985-05-27T20:22:19.98	26638	0-0-K	 GRAD: twt excessive

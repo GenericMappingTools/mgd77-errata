@@ -1,0 +1,29 @@
+# Cruise 06990025 ID 1986N7 MGD77 FILE VERSION: 19890801 N_RECS: 16813
+# Examined: Fri Jul 16 17:28:32 2010 by mtchandl
+# Arguments:  -R268.8/269.3/28.8/29.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Shoal survey with depths < 6 meters.
+# Errata: Header
+Y-W-06990025-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-06990025-depth-01: RLS m: 0.342377 b: 0 rms: 4.68628 r: 0.140754 sig: 1 dec: 0
+N-E-06990025-depth-02: Regression slope 0.342377 different from 1. Recommended: [1]
+# Errata: Data
+Y	06990025	1986-08-05T02:05:36.72	587	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T02:28:41.40	615	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T05:06:00.00	1885	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:28:39.00	4063	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:29:26.88	4069	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:30:30.78	4077	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:39:25.80	4144	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:41:33.60	4160	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:41:57.60	4163	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:43:17.40	4173	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T14:46:37.08	4198	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T17:24:44.40	4892	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T20:29:21.30	5922	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T21:26:12.90	6041	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T23:46:36.48	7178	C-0-0	 NAV: excessive speed
+Y	06990025	1986-08-05T23:52:44.88	7233	C-0-0	 NAV: excessive speed

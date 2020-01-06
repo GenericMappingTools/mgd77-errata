@@ -1,0 +1,86 @@
+# Cruise 23090001 ID BH512G89 MGD77 FILE VERSION: 19900913 N_RECS: 24500
+# Examined: Thu Feb  3 14:09:06 2011 by mtchandl
+# Arguments:  -R121.9/126.25/27.3/31.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23090001-H04-02: Invalid Survey Departure Month: (09) [10]
+N-E-23090001-H04-03: Invalid Survey Departure Day: (29) [06]
+N-E-23090001-H04-06: Invalid Survey Arrival Day: (28) [26]
+Y-W-23090001-nav-00: Flagged 0.28 % of records with bad navigation
+Y-I-23090001-depth-01: RLS m: 1.00385 b: 0 rms: 1.08998 r: 0.998926 sig: 1 dec: 0
+N-E-23090001-depth-02: Regression slope 1.00385 different from 1. Recommended: [1]
+Y-W-23090001-depth-12: Integer precision
+# Errata: Data
+Y	23090001	1989-10-06T08:32:42.00	47	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-06T09:56:40.98	75	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-06T11:41:40.98	110	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-06T11:44:42.00	111	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T03:08:51.00	332	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T03:11:49.98	333	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T03:14:48.96	334	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T15:15:39.96	531	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T18:27:40.98	595	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-07T20:18:40.98	632	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-20T08:11:45.00	4278	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-20T15:12:31.98	4481	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-22T00:27:45.00	6332	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-22T00:58:43.98	6363	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-30T11:08:54.00	7019	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-30T13:41:18.96	7152	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-30T13:42:18.00	7153	C-0-0	 NAV: excessive speed
+Y	23090001	1989-10-30T13:43:19.98	7154	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-02T09:25:21.96	8253	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-02T09:26:24.00	8254	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-02T09:27:24.00	8255	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-02T14:22:12.00	8531	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-02T14:23:13.98	8532	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T05:05:33.96	9399	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T05:06:33.96	9400	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T11:45:00.00	9719	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T11:46:00.00	9720	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T11:47:00.00	9721	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T13:59:00.00	9853	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-03T15:47:58.98	9962	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T03:20:09.00	10649	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T04:42:09.00	10731	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T04:43:09.00	10732	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T04:44:09.00	10733	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T04:45:09.00	10734	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T07:53:22.98	10841	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-04T13:35:51.96	11173	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T06:08:30.00	12160	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T06:09:30.00	12161	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T06:10:28.98	12162	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T06:11:28.98	12163	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T09:18:45.00	12327	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T09:56:45.00	12365	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T09:57:45.00	12366	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T09:58:43.98	12367	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T11:12:45.00	12441	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T11:13:43.98	12442	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T11:14:43.98	12443	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-05T14:42:45.00	12651	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T04:19:48.00	13464	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T04:20:48.00	13465	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T04:21:48.00	13466	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T05:45:46.98	13550	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T05:46:48.96	13551	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T05:47:48.96	13552	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T08:56:15.00	13709	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-06T08:57:15.00	13710	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-07T10:39:42.00	15214	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-07T14:16:13.98	15412	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-07T15:19:15.00	15475	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-07T17:06:13.98	15582	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-07T22:22:13.98	15898	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-08T00:05:15.00	16001	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-20T16:13:10.98	16749	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-22T22:38:04.98	19190	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-23T01:03:45.00	19315	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-24T07:33:27.00	21130	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-25T07:26:18.96	22352	C-0-0	 NAV: excessive speed
+Y	23090001	1989-11-26T19:47:42.96	24294	C-0-0	 NAV: excessive speed

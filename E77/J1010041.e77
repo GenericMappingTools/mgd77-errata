@@ -1,0 +1,23 @@
+# Cruise J1010041 ID HT89T202 MGD77 FILE VERSION: 19961031 N_RECS: 2354
+# Examined: Thu Aug  4 20:12:11 2011 by mtchandl
+# Arguments:  -R131.65/135.05/29.95/33.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-W-J1010041-time-01: 3 of 2354 records contain invalid time
+N-E-J1010041-H04-03: Invalid Survey Departure Day: (28) [30]
+N-E-J1010041-H04-06: Invalid Survey Arrival Day: (19) [18]
+Y-I-J1010041-depth-01: RLS m: 1 b: 0 rms: 19.4165 r: 0.999799 sig: 1 dec: 0
+Y-I-J1010041-faa-01: RLS m: 1.01282 b: -0.949195 rms: 2.70002 r: 0.994692 sig: 1 dec: 0
+N-E-J1010041-faa-02: Regression slope 1.01282 different from 1. Recommended: [1]
+Y-W-J1010041-faa-03: Regression offset -0.949195 different from 0.
+Y-W-J1010041-depth-12: Integer precision
+Y-W-J1010041-mag-12: Integer precision
+Y-W-J1010041-faa-12: Integer precision
+# Errata: Data
+Y	J1010041	NaN	569	E-0-0	 NAV: navigation undefined
+Y	J1010041	NaN	1499	E-0-0	 NAV: navigation undefined
+Y	J1010041	NaN	1501	E-0-0	 NAV: navigation undefined

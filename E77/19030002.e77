@@ -1,0 +1,15 @@
+# Cruise 19030002 ID 19920006 MGD77 FILE VERSION: 19951102 N_RECS: 308
+# Examined: Mon Sep  6 12:44:03 2010 by mtchandl
+# Arguments:  -R-0.05/0.1/5.3/5.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19030002-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-19030002-H16-01: Invalid Number of Ten Degree Identifiers: ( 1) [2]
+Y-W-19030002-H16-06: Ten Degree Identifier 1000 not marked in header but block was crossed
+Y-I-19030002-depth-01: RLS m: 1.11311 b: 0 rms: 7.05747 r: 0.993009 sig: 1 dec: 0
+N-E-19030002-depth-02: Regression slope 1.11311 different from 1. Recommended: [1]
+# Errata: Data

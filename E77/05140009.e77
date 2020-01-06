@@ -1,0 +1,38 @@
+# Cruise 05140009 ID HC9002 MGD77 FILE VERSION: 20080804 N_RECS: 3141
+# Examined: Fri May 21 12:52:50 2010 by mtchandl
+# Arguments:  -R176.45/181.05/-40.9/-38 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05140009-H13-10: Survey year (1990) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140009-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140009-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140009-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140009-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05140009-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-W-05140009-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05140009-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05140009-nav-00: Flagged 0.25 % of records with bad navigation
+Y-E-05140009-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00677 b: -18.7649 rms: 22.9201 r: 0.997713 sig: 1 dec: 1). [Recompute]
+Y-W-05140009-mtf1-12: Integer precision
+# Errata: Data
+Y	05140009	1990-06-15T01:31:00.00	411	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:32:00.00	412	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:33:00.00	413	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:35:00.00	414	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:36:00.00	415	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:37:00.00	416	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:38:00.00	417	C-0-0	 NAV: excessive speed
+Y	05140009	1990-06-15T01:39:00.00	418	C-0-0	 NAV: excessive speed
+?	05140009	1990-06-18T17:41:00.00	1307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-19T01:08:00.00	1565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-19T01:14:00.00	1568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-19T01:25:00.00	1575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-19T01:35:00.00	1582	0-0-Q	 GRAD: mag excessive
+?	05140009	1990-06-19T19:23:00.00	2330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-19T19:31:00.00	2334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-20T08:09:00.00	2885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140009	1990-06-20T08:10:00.00	2886	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,53 @@
+# Cruise J4010017 ID KH7402 MGD77 FILE VERSION: 19880219 N_RECS: 8913
+# Examined: Sun Aug  7 13:21:32 2011 by mtchandl
+# Arguments:  -R139.45/204.1/20.3/50 -Llimits.d -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged largest depth offsets and flagged faa outliers.
+# Errata: Header
+Y-W-J4010017-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-W-J4010017-H16-06: Ten Degree Identifier 1418 marked in header but was not crossed
+Y-W-J4010017-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-J4010017-depth-01: RLS m: 1.00072 b: 0 rms: 17.9599 r: 0.999902 sig: 1 dec: 0
+N-E-J4010017-depth-02: Regression slope 1.00072 different from 1. Recommended: [1]
+Y-I-J4010017-faa-01: RLS m: 1.00105 b: 7.19068 rms: 18.9706 r: 0.989543 sig: 1 dec: 1
+Y-W-J4010017-faa-03: Regression offset 7.19068 different from 0.
+Y-E-J4010017-depth-08: Extended offset from grid [75-85]
+Y-E-J4010017-depth-08: Extended offset from grid [3022-3067]
+Y-W-J4010017-depth-12: Integer precision
+Y-W-J4010017-faa-12: Integer precision
+# Errata: Data
+Y	J4010017	1974-05-04T12:05:00.00	1081	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010017	1974-05-04T12:10:00.00	1082	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-05-04T18:30:00.00	1158	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010017	1974-05-04T18:35:00.00	1159	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-05-16T10:45:00.00	2726	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010017	1974-05-16T10:50:00.00	2727	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-05-19T05:50:00.00	3324	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010017	1974-05-19T05:55:00.00	3325	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-05-22T12:35:00.00	3739	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T12:40:00.00	3740	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T12:45:00.00	3741	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T12:50:00.00	3742	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T12:55:00.00	3743	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T13:00:00.00	3744	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T13:05:00.00	3745	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T13:10:00.00	3746	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-22T13:15:00.00	3747	C-0-0	 NAV: excessive speed
+Y	J4010017	1974-05-29T04:55:00.00	5139	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010017	1974-05-29T05:00:00.00	5140	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-06-19T06:15:00.00	7682	0-W-0	 VAL: faa invalid
+Y	J4010017	1974-06-19T06:20:00.00	7683	0-0-W	 GRAD: faa excessive
+Y	J4010017	1974-06-22T20:20:00.00	8671	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:25:00.00	8672	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:30:00.00	8673	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:35:00.00	8674	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:40:00.00	8675	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:45:00.00	8676	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:50:00.00	8677	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T20:55:00.00	8678	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T21:00:00.00	8679	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T21:05:00.00	8680	0-L-0	 VAL: depth invalid
+Y	J4010017	1974-06-22T21:10:00.00	8681	0-L-0	 VAL: depth invalid

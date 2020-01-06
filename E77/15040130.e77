@@ -1,0 +1,20 @@
+# Cruise 15040130 ID MRTN08WT MGD77 FILE VERSION: 19870128 N_RECS: 30507
+# Examined: Sat May 24 11:22:32 2008 by mtchandl
+# Arguments:  -R303.75/320.55/-42.05/-34.9 -Ifaa,1,30507 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler (Revised 4 Feb 2009 by M. T. Chandler)
+# Comments: Recommend disregarding gravity until fixed by source institution.
+# Errata: Header
+Y-W-15040130-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15040130-depth-01: RLS m: 0.996125 b: 0 rms: 39.4167 r: 0.999524 sig: 1 dec: 1
+Y-E-15040130-faa-10: Invalid data records: [1-30507]
+Y-W-15040130-twt-11: More recent bathymetry correction table available
+Y-W-15040130-faa-12: Integer multiple of 5 precision
+N-E-15040130-faa-06: Anomaly differs from gobs-IGF80 (m: 0.64002 b: -38.8241 rms: 42.786 r: 0.927306 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+Y	15040130	1984-10-27T00:30:00.00	501	C-0-0	 NAV: excessive speed
+Y	15040130	1984-10-27T00:31:00.00	502	C-0-0	 NAV: excessive speed
+Y	15040130	1984-10-27T00:32:00.00	503	C-0-0	 NAV: excessive speed
+?	15040130	1984-10-31T15:24:00.00	7155	0-0-U	 GRAD: gobs excessive

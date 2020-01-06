@@ -1,0 +1,21 @@
+# Cruise 19180040 ID CD8594 MGD77 FILE VERSION: 19950628 N_RECS: 67295
+# Examined: Mon Sep 20 13:26:58 2010 by mtchandl
+# Arguments:  -R343.45/351.8/48.95/50.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19180040-H04-06: Invalid Survey Arrival Day: (06) [05]
+Y-I-19180040-depth-01: RLS m: 0.997525 b: 0 rms: 5.00055 r: 0.999986 sig: 1 dec: 0
+N-E-19180040-depth-02: Regression slope 0.997525 different from 1. Recommended: [1]
+Y-W-19180040-depth-12: Integer precision
+# Errata: Data
+?	19180040	1994-04-28T11:33:30.00	45651	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-28T11:37:00.00	45658	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-29T17:54:00.00	49292	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-29T17:55:30.00	49295	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-30T00:38:30.00	50101	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-30T00:42:00.00	50108	0-0-L	 GRAD: depth excessive
+?	19180040	1994-04-30T05:28:30.00	50681	0-0-L	 GRAD: depth excessive

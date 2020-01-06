@@ -1,0 +1,57 @@
+# Cruise 35230001 ID 03973 MGD77 FILE VERSION: 19880323 N_RECS: 22873
+# Examined: Mon Nov 23 16:06:08 2009 by mtchandl
+# Arguments:  -R130/196.75/-24/16.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged navigation errors.
+# Errata: Header
+Y-W-35230001-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-35230001-depth-01: RLS m: 1.03116 b: 0 rms: 108.628 r: 0.999511 sig: 1 dec: 0
+N-E-35230001-depth-02: Regression slope 1.03116 different from 1. Recommended: [1]
+Y-W-35230001-depth-12: Integer precision
+# Errata: Data
+Y	35230001	9140.91	1408	D-0-0	 NAV: on land
+Y	35230001	20530.3	2793	D-0-0	 NAV: on land
+?	35230001	27630	3776	D-0-0	 NAV: on land
+Y	35230001	27630.2	3777	D-0-0	 NAV: on land
+Y	35230001	27631	3778	D-0-0	 NAV: on land
+Y	35230001	27631.6	3779	D-0-0	 NAV: on land
+Y	35230001	27631.6	3780	D-0-0	 NAV: on land
+Y	35230001	27632.2	3781	D-0-0	 NAV: on land
+Y	35230001	27632.8	3782	D-0-0	 NAV: on land
+Y	35230001	27633.1	3783	D-0-0	 NAV: on land
+Y	35230001	27633.1	3784	D-0-0	 NAV: on land
+Y	35230001	27633.1	3785	D-0-0	 NAV: on land
+Y	35230001	27633.5	3786	D-0-0	 NAV: on land
+Y	35230001	27634.3	3787	D-0-0	 NAV: on land
+Y	35230001	27634.6	3788	D-0-0	 NAV: on land
+Y	35230001	27636.1	3789	D-0-0	 NAV: on land
+Y	35230001	27636.6	3790	D-0-0	 NAV: on land
+?	35230001	27637.5	3791	D-0-0	 NAV: on land
+Y	35230001	27641.9	3796	D-0-0	 NAV: on land
+Y	35230001	27643	3797	D-0-0	 NAV: on land
+Y	35230001	27643.4	3798	D-0-0	 NAV: on land
+Y	35230001	27645.7	3799	D-0-0	 NAV: on land
+?	35230001	29533.9	4234	D-0-0	 NAV: on land
+Y	35230001	29535	4235	D-0-0	 NAV: on land
+Y	35230001	29538.4	4236	D-0-0	 NAV: on land
+Y	35230001	29543.7	4237	D-0-0	 NAV: on land
+Y	35230001	33581.8	5057	D-0-0	 NAV: on land
+?	35230001	33582.1	5058	D-0-0	 NAV: on land
+?	35230001	33586.6	5060	D-0-0	 NAV: on land
+?	35230001	33713.1	5111	0-0-L	 GRAD: depth excessive
+?	35230001	69555.6	12165	0-0-L	 GRAD: depth excessive
+?	35230001	71937	12697	0-0-L	 GRAD: depth excessive
+?	35230001	79670.7	14752	0-0-L	 GRAD: depth excessive
+?	35230001	115458	19702	0-0-L	 GRAD: depth excessive
+?	35230001	126831	21718	0-0-L	 GRAD: depth excessive
+?	35230001	133964	22113	0-0-L	 GRAD: depth excessive
+?	35230001	133964	22114	0-0-L	 GRAD: depth excessive
+?	35230001	134868	22348	0-0-L	 GRAD: depth excessive
+Y	35230001	134930	22382	D-0-0	 NAV: on land
+Y	35230001	134930	22383	D-0-0	 NAV: on land
+Y	35230001	134931	22384	D-0-0	 NAV: on land
+Y	35230001	134931	22385	D-0-0	 NAV: on land
+?	35230001	134932	22386	D-0-0	 NAV: on land

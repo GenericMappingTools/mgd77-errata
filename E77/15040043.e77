@@ -1,0 +1,47 @@
+# Cruise 15040043 ID SOTW03WT MGD77 FILE VERSION: 19800226 N_RECS: 3357
+# Examined: Thu May 22 09:37:08 2008 by mtchandl
+# Arguments:  -R285.75/289.5/-37.05/-23.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+N-E-15040043-H04-06: Invalid Survey Arrival Day: (21) [20]
+Y-W-15040043-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040043-nav-00: Flagged 0.66 % of records with excessive speed or invalid navigation
+Y-I-15040043-depth-01: RLS m: 1 b: 0 rms: 139.298 r: 0.997945 sig: 1 dec: 1
+Y-E-15040043-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.965313 b: 3.1443 rms: 26.3316 r: 0.985348 sig: 1 dec: 1). [Recompute]
+Y-E-15040043-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15040043-twt-11: More recent bathymetry correction table available
+Y-W-15040043-mtf1-12: Integer multiple of 5 precision
+Y-W-15040043-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15040043	1972-04-10T18:35:00.00	2194	D-0-0	 NAV: on land
+Y	15040043	1972-04-10T18:40:00.00	2195	D-0-0	 NAV: on land
+Y	15040043	1972-04-10T18:45:00.00	2196	D-0-0	 NAV: on land
+?	15040043	1972-04-10T18:50:00.00	2197	D-0-0	 NAV: on land
+?	15040043	1972-04-12T18:15:00.00	2543	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T18:20:00.00	2544	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T18:25:00.00	2545	D-0-0	 NAV: on land
+?	15040043	1972-04-12T18:30:00.00	2546	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T18:35:00.00	2547	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:13:00.00	2563	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:15:00.00	2564	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:29:00.00	2565	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:34:00.00	2566	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:39:00.00	2567	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T20:50:00.00	2568	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T21:10:00.00	2569	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T21:15:00.00	2570	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T21:19:00.00	2571	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T21:45:00.00	2572	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T21:50:00.00	2573	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T22:45:00.00	2574	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T22:50:00.00	2575	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T22:55:00.00	2576	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T23:00:00.00	2577	D-0-0	 NAV: on land
+Y	15040043	1972-04-12T23:15:00.00	2578	D-0-0	 NAV: on land
+?	15040043	1972-04-12T23:20:00.00	2579	D-0-0	 NAV: on land
+?	15040043	1972-04-19T23:15:00.00	3236	0-0-KL	 GRAD: twt, depth excessive
+?	15040043	1972-04-19T23:45:00.00	3242	0-0-KL	 GRAD: twt, depth excessive

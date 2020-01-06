@@ -1,0 +1,51 @@
+# Cruise 02030025 ID KN145L12 MGD77 FILE VERSION: 20031224 N_RECS: 8946
+# Examined: Fri Apr  2 15:40:26 2010 by mtchandl
+# Arguments:  -R104.9/116.1/-18.35/0.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Apparent loss of bottom tracking ~2400 km along-track.
+# Errata: Header
+Y-E-02030025-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [4]
+Y-W-02030025-H16-06: Ten Degree Identifier 1010 not marked in header but block was crossed
+Y-W-02030025-nav-00: Flagged 0.30 % of records with bad navigation
+Y-I-02030025-depth-01: RLS m: 1.0035 b: 0 rms: 113.395 r: 0.997874 sig: 1 dec: 0
+N-E-02030025-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-E-02030025-depth-08: Extended offset from grid [4529-5738]
+Y-W-02030025-depth-12: Integer precision
+# Errata: Data
+Y	02030025	1995-11-02T07:11:04.98	163	C-0-0	 NAV: excessive speed
+Y	02030025	1995-11-02T07:46:03.00	202	C-0-0	 NAV: excessive speed
+Y	02030025	1995-11-02T07:59:00.00	221	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-02T21:50:00.00	330	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-02T22:07:01.98	355	C-0-0	 NAV: excessive speed
+Y	02030025	1995-11-02T22:59:58.98	414	B-0-0	 NAV: non-increasing time
+?	02030025	1995-11-02T23:01:55.02	415	0-0-L	 GRAD: depth excessive
+?	02030025	1995-11-02T23:06:00.00	416	0-0-L	 GRAD: depth excessive
+Y	02030025	1995-11-02T23:23:01.98	423	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-02T23:24:01.02	424	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-02T23:34:01.02	428	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-02T23:36:00.00	429	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:34:03.00	475	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:35:01.98	476	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:35:09.00	479	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:36:03.00	480	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:37:01.98	481	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:36:00.00	482	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:37:00.00	483	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:54:22.98	498	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:54:58.98	499	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:57:00.00	501	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T00:58:00.00	502	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T01:28:00.00	530	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T01:29:00.00	531	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T01:37:01.02	539	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T01:37:04.02	540	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T01:38:01.02	541	B-0-0	 NAV: non-increasing time
+Y	02030025	1995-11-03T02:07:01.02	557	B-0-0	 NAV: non-increasing time
+?	02030025	1995-11-04T06:41:58.02	2032	0-0-L	 GRAD: depth excessive
+?	02030025	1995-11-06T01:42:04.98	4332	0-0-L	 GRAD: depth excessive
+?	02030025	1995-11-06T01:43:04.02	4333	0-0-L	 GRAD: depth excessive
+?	02030025	1995-11-09T02:24:01.02	8651	0-0-L	 GRAD: depth excessive
+?	02030025	1995-11-09T02:47:58.98	8669	0-0-L	 GRAD: depth excessive

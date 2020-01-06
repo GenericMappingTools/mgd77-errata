@@ -1,0 +1,25 @@
+# Cruise 02020105 ID A124 MGD77 FILE VERSION: 19960809 N_RECS: 14774
+# Examined: Fri Apr  2 15:31:06 2010 by mtchandl
+# Arguments:  -R286.9/289.1/38.35/41.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02020105-depth-01: RLS m: 1.00326 b: 0 rms: 49.5577 r: 0.997537 sig: 1 dec: 0
+N-E-02020105-depth-02: Regression slope 1.00326 different from 1. Recommended: [1]
+Y-W-02020105-depth-12: Integer precision
+# Errata: Data
+?	02020105	1989-12-11T02:42:00.00	6728	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-11T04:20:01.98	6826	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-11T06:29:55.98	6953	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-15T13:05:00.00	11512	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-17T04:01:58.98	12354	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-17T14:31:00.00	12490	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-18T10:09:01.02	13415	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-18T13:10:01.98	13596	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-18T14:45:01.98	13690	0-0-KL	 GRAD: twt, depth excessive
+?	02020105	1989-12-18T16:07:00.00	13753	0-0-K	 GRAD: twt excessive
+?	02020105	1989-12-18T16:28:01.02	13774	0-0-KL	 GRAD: twt, depth excessive
+?	02020105	1989-12-19T12:29:00.00	14746	0-0-KL	 GRAD: twt, depth excessive

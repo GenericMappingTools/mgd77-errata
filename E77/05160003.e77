@@ -1,0 +1,25 @@
+# Cruise 05160003 ID TS9401 MGD77 FILE VERSION: 20080806 N_RECS: 5754
+# Examined: Fri May 21 13:06:14 2010 by mtchandl
+# Arguments:  -R159.65/175/-41.5/-34 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05160003-H13-10: Survey year (1994) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05160003-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05160003-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05160003-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05160003-H16-06: Ten Degree Identifier 3316 not marked in header but block was crossed
+Y-W-05160003-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05160003-H16-06: Ten Degree Identifier 3415 not marked in header but block was crossed
+Y-W-05160003-H16-06: Ten Degree Identifier 3416 not marked in header but block was crossed
+Y-I-05160003-depth-01: RLS m: 0.999651 b: 0 rms: 7.10973 r: 0.99999 sig: 1 dec: 0
+N-E-05160003-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-05160003-faa-01: RLS m: 0.983625 b: -6.29456 rms: 7.17828 r: 0.993455 sig: 1 dec: 0
+N-E-05160003-faa-02: Regression slope 0.983625 different from 1. Recommended: [1]
+Y-W-05160003-faa-03: Regression offset -6.29456 different from 0.
+Y-E-05160003-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00282 b: -9.66829 rms: 12.3939 r: 0.999632 sig: 1 dec: 1). [Recompute]
+Y-W-05160003-depth-12: Integer precision
+# Errata: Data

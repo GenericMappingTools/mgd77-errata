@@ -1,0 +1,40 @@
+# Cruise 35400001 ID 05874 MGD77 FILE VERSION: 19880323 N_RECS: 278
+# Examined: Wed Jul 27 19:31:09 2011 by mtchandl
+# Arguments:  -R-70/-52.1/-65.05/-62.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-35400001-H11-03: Invalid Bottommost Latitude: (-65) [-66]
+Y-W-35400001-nav-00: Flagged 7.55 % of records with bad navigation
+Y-I-35400001-depth-01: RLS m: 1.07061 b: 0 rms: 44.4499 r: 0.987062 sig: 1 dec: 0
+N-E-35400001-depth-02: Regression slope 1.07061 different from 1. Recommended: [1]
+Y-W-35400001-depth-12: Integer precision
+# Errata: Data
+Y	35400001	469.441	2	D-0-0	 NAV: on land
+Y	35400001	1068.71	43	D-0-0	 NAV: on land
+Y	35400001	1068.96	44	D-0-0	 NAV: on land
+Y	35400001	1069.08	45	D-0-0	 NAV: on land
+Y	35400001	1069.35	46	D-0-0	 NAV: on land
+?	35400001	1069.61	47	D-0-0	 NAV: on land
+?	35400001	1072.19	63	D-0-0	 NAV: on land
+?	35400001	1072.19	64	D-0-0	 NAV: on land
+Y	35400001	1072.36	65	D-0-0	 NAV: on land
+Y	35400001	1072.48	66	D-0-0	 NAV: on land
+Y	35400001	1072.65	67	D-0-0	 NAV: on land
+Y	35400001	1072.81	68	D-0-0	 NAV: on land
+Y	35400001	1072.98	69	D-0-0	 NAV: on land
+Y	35400001	1073.1	70	D-0-0	 NAV: on land
+Y	35400001	1073.21	71	D-0-0	 NAV: on land
+Y	35400001	1073.59	72	D-0-0	 NAV: on land
+Y	35400001	1073.83	73	D-0-0	 NAV: on land
+Y	35400001	1073.93	74	D-0-0	 NAV: on land
+Y	35400001	1074.17	75	D-0-0	 NAV: on land
+Y	35400001	1074.34	76	D-0-0	 NAV: on land
+Y	35400001	1074.34	77	D-0-0	 NAV: on land
+Y	35400001	1074.5	78	D-0-0	 NAV: on land
+Y	35400001	1074.62	79	D-0-0	 NAV: on land
+Y	35400001	1074.73	80	D-0-0	 NAV: on land
+?	35400001	1960.12	170	0-0-L	 GRAD: depth excessive

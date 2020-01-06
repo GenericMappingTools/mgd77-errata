@@ -1,0 +1,48 @@
+# Cruise 01030027 ID V1810 MGD77 FILE VERSION: 19790619 N_RECS: 2571
+# Examined: Thu Jul  9 15:44:49 2009 by mtchandl
+# Arguments:  -R18.2/57.45/-39.1/-15.8 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030027-depth-01: RLS m: 1.00031 b: 0 rms: 7.36111 r: 0.999995 sig: 1 dec: 0
+N-E-01030027-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+Y-I-01030027-faa-01: RLS m: 1.11526 b: 4.60112 rms: 27.5891 r: 0.79166 sig: 1 dec: 1
+N-E-01030027-faa-02: Regression slope 1.11526 different from 1. Recommended: [1]
+Y-W-01030027-faa-03: Regression offset 4.60112 different from 0.
+Y-E-01030027-mag-07: Anomaly differs from mtf1-IGRF (m: 0.888639 b: -35.3686 rms: 93.8445 r: 0.88532 sig: 1 dec: 1). [Recompute]
+N-E-01030027-depth-08: Extended offset from grid [12-2571]
+Y-W-01030027-twt-11: More recent bathymetry correction table available
+Y-W-01030027-mtf1-12: Integer precision
+Y-W-01030027-mag-12: Integer precision
+# Errata: Data
+?	01030027	1962-06-03T16:19:00.00	8	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T16:20:00.00	9	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T16:22:00.00	11	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T16:23:00.00	12	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T16:58:00.00	18	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T16:59:00.00	19	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T17:22:00.00	26	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T17:23:00.00	27	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T18:17:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T18:35:00.00	43	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T18:36:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T18:39:00.00	46	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T18:41:00.00	47	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T21:24:00.00	81	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T21:28:00.00	84	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T21:29:00.00	85	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T22:16:00.00	96	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T22:53:00.00	109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T22:56:00.00	110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T23:38:00.00	115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T23:46:00.00	119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T23:47:00.00	120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T23:52:00.00	123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-03T23:56:00.00	124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-04T10:39:00.00	165	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-04T10:40:00.00	166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030027	1962-06-19T06:16:00.00	2419	0-0-K	 GRAD: twt excessive
+?	01030027	1962-06-20T03:20:00.00	2567	0-0-OQ	 GRAD: mtf1, mag excessive

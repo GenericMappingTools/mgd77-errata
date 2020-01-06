@@ -1,0 +1,15 @@
+# Cruise 12040037 ID HU71032 MGD77 FILE VERSION: 19860605 N_RECS: 10895
+# Examined: Tue Aug 24 14:15:34 2010 by mtchandl
+# Arguments:  -R277.35/309.7/44.5/77.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-12040037-H12-01: Invalid Bathymetry Digitizing Rate: (513) [513]
+Y-W-12040037-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-12040037-depth-01: RLS m: 1.00035 b: 0 rms: 5.91008 r: 0.999968 sig: 1 dec: 0
+N-E-12040037-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+# Errata: Data
+Y	12040037	17016.9	10030	D-0-0	 NAV: on land

@@ -1,0 +1,39 @@
+# Cruise 23060045 ID ODP141JR MGD77 FILE VERSION: 19931021 N_RECS: 15931
+# Examined: Thu Feb  3 13:32:05 2011 by mtchandl
+# Arguments:  -R-81.6/-71.55/-46.6/9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged excessive bathymetry offset.
+# Errata: Header
+Y-W-23060045-H13-10: Survey year (1991-1992) outside magnetic reference field IGRF-85 time range (1945-1990)
+Y-I-23060045-depth-01: RLS m: 0.99655 b: 0 rms: 78.0755 r: 0.999072 sig: 1 dec: 0
+N-E-23060045-depth-02: Regression slope 0.99655 different from 1. Recommended: [1]
+Y-E-23060045-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990934 b: -48.7367 rms: 56.6182 r: 0.991284 sig: 1 dec: 1). [Recompute]
+Y-E-23060045-depth-08: Extended offset from grid [997-1346]
+Y-W-23060045-twt-11: More recent bathymetry correction table available
+Y-W-23060045-depth-12: Integer precision
+Y-W-23060045-mtf1-12: Integer precision
+# Errata: Data
+?	23060045	1991-11-15T01:57:00.00	1	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:26:00.00	2	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:30:00.00	3	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:44:00.00	4	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:50:00.00	5	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:55:00.00	6	D-0-0	 NAV: on land
+?	23060045	1991-11-15T20:58:00.00	7	D-0-0	 NAV: on land
+?	23060045	1991-11-15T21:03:00.00	8	D-0-0	 NAV: on land
+?	23060045	1991-11-23T20:55:00.00	8905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-23T20:56:00.00	8906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-23T20:57:00.00	8907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-23T20:58:00.00	8908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-23T20:59:00.00	8909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-23T21:00:00.00	8910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-25T05:32:00.00	10846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-25T05:33:00.00	10847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-25T21:35:00.00	10974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-25T21:36:00.00	10975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-25T23:17:00.00	11076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-26T03:21:00.00	11318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060045	1991-11-26T03:22:00.00	11319	0-0-OQ	 GRAD: mtf1, mag excessive

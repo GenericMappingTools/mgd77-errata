@@ -1,0 +1,60 @@
+# Cruise 08050002 ID 67102100 MGD77 FILE VERSION: 19840223 N_RECS: 7812
+# Examined: Mon Nov 23 15:29:11 2009 by mtchandl
+# Arguments:  -R152.05/202.2/-9.45/21.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged extended depth offset from S2004.
+# Errata: Header
+Y-W-08050002-H13-10: Survey year (1967-1968) outside magnetic reference field Unused time range (9999-9999)
+Y-E-08050002-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08050002-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-E-08050002-H16-01: Invalid Number of Ten Degree Identifiers: (10) [9]
+Y-W-08050002-H16-06: Ten Degree Identifier 1015 marked in header but was not crossed
+Y-W-08050002-nav-00: Flagged 0.46 % of records with bad navigation
+Y-I-08050002-depth-01: RLS m: 1 b: 0 rms: 23.5618 r: 0.999869 sig: 1 dec: 0
+Y-E-08050002-depth-08: Extended offset from grid [5478-5519]
+N-E-08050002-twt-13: Encountered possible PDR wrap errors (5.1) [5.0]
+Y-W-08050002-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08050002	1967-10-22T02:45:00.00	1	D-0-0	 NAV: on land
+?	08050002	1967-11-15T07:17:00.00	1836	0-0-KL	 GRAD: twt, depth excessive
+?	08050002	1967-11-15T07:30:00.00	1837	0-0-KL	 GRAD: twt, depth excessive
+Y	08050002	1967-11-20T04:00:00.00	2404	D-0-0	 NAV: on land
+Y	08050002	1967-11-20T04:00:00.96	2405	D-0-0	 NAV: on land
+?	08050002	1967-12-16T15:45:00.00	4650	0-0-KL	 GRAD: twt, depth excessive
+?	08050002	1967-12-16T15:52:00.00	4661	0-0-K	 GRAD: twt excessive
+Y	08050002	1967-12-17T22:30:00.00	4780	D-0-0	 NAV: on land
+Y	08050002	1967-12-17T22:30:00.96	4781	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:00:00.00	5488	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:15:00.00	5489	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:22:00.00	5490	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:28:00.00	5491	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:30:00.00	5492	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:45:00.00	5493	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T06:51:00.00	5494	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:00:00.00	5495	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:05:00.00	5496	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:15:00.00	5497	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:23:00.00	5498	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:27:00.00	5499	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:30:00.00	5500	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:45:00.00	5501	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:48:00.00	5502	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T07:54:00.00	5503	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T08:00:00.00	5504	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T08:12:00.00	5505	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T08:15:00.00	5506	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T08:30:00.00	5507	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T08:45:00.00	5508	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T09:00:00.00	5509	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T09:15:00.00	5510	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T09:22:00.00	5511	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T09:30:00.00	5512	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T09:45:00.00	5513	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T10:00:00.00	5514	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T10:03:00.00	5515	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T12:25:00.00	5537	D-0-0	 NAV: on land
+Y	08050002	1967-12-26T13:40:00.00	5538	D-0-0	 NAV: on land
+Y	08050002	1968-01-23T14:30:00.00	7812	D-0-0	 NAV: on land

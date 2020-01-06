@@ -1,0 +1,20 @@
+# Cruise 09780019 ID WI343802 MGD77 FILE VERSION: 19800219 N_RECS: 869
+# Examined: Mon Aug 16 16:20:46 2010 by mtchandl
+# Arguments:  -R64.5/65.9/21.65/23.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09780019-H04-03: Invalid Survey Departure Day: (05) [06]
+N-E-09780019-H04-06: Invalid Survey Arrival Day: (27) [06]
+Y-E-09780019-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780019-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09780019-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1
+Y-W-09780019-depth-02: Ship and /Users/data/GRIDS/topo1.grd grid appear identical (m=1,b=0,s=0)
+Y-E-09780019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03366 b: -527.766 rms: 529.385 r: 0.999267 sig: 1 dec: 0). [Recompute]
+Y-W-09780019-mag-09: only found negative values
+Y-W-09780019-depth-12: Integer precision
+Y-W-09780019-mag-12: Integer precision
+# Errata: Data

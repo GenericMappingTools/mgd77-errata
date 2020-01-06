@@ -1,0 +1,18 @@
+# Cruise 15040018 ID ERDC10WT MGD77 FILE VERSION: 19800226 N_RECS: 9467
+# Examined: Wed May 21 11:30:02 2008 by mtchandl
+# Arguments:  -R160.8/173.85/5.3/20.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040018-H04-06: Invalid Survey Arrival Day: (13) [12]
+Y-W-15040018-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040018-depth-01: RLS m: 1 b: 0 rms: 144.332 r: 0.992126 sig: 1 dec: 1
+Y-E-15040018-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.966192 b: -73.6909 rms: 76.831 r: 0.991515 sig: 1 dec: 1). [Recompute]
+Y-W-15040018-twt-11: More recent bathymetry correction table available
+Y-W-15040018-mtf1-12: Integer precision
+Y-W-15040018-mag-12: Integer precision
+# Errata: Data
+?	15040018	1975-06-07T02:40:00.00	8046	0-0-K	 GRAD: twt excessive

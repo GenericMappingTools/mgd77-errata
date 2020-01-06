@@ -1,0 +1,22 @@
+# Cruise 01010171 ID RC2008 MGD77 FILE VERSION: 19800908 N_RECS: 2991
+# Examined: Mon Jul  6 16:27:35 2009 by mtchandl
+# Arguments:  -R121.8/144.8/13.55/24.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010171-H13-06: Invalid Magnetics Reference Field Code: (76) [76]
+Y-I-01010171-depth-01: RLS m: 1 b: 0 rms: 8.82794 r: 0.999994 sig: 1 dec: 0
+Y-I-01010171-faa-01: RLS m: 1.00441 b: -0.950544 rms: 6.69762 r: 0.995077 sig: 1 dec: 1
+Y-E-01010171-mag-07: Anomaly differs from mtf1-IGRF (m: 0.906716 b: 80.1499 rms: 94.7611 r: 0.952179 sig: 1 dec: 1). [Recompute]
+N-E-01010171-depth-08: Extended offset from grid [6-2991]
+Y-W-01010171-twt-11: More recent bathymetry correction table available
+Y-W-01010171-mtf1-12: Integer precision
+Y-W-01010171-mag-12: Integer precision
+# Errata: Data
+?	01010171	1976-12-25T10:24:00.00	697	0-0-KL	 GRAD: twt, depth excessive
+?	01010171	1976-12-25T10:30:00.00	698	0-0-KL	 GRAD: twt, depth excessive
+?	01010171	1976-12-27T02:18:00.00	1307	0-0-KL	 GRAD: twt, depth excessive
+?	01010171	1976-12-27T02:24:00.00	1309	0-0-KL	 GRAD: twt, depth excessive

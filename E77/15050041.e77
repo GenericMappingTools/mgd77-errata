@@ -1,0 +1,84 @@
+# Cruise 15050041 ID DSDP43GC MGD77 FILE VERSION: 19800226 N_RECS: 11161
+# Examined: Fri May 30 09:57:02 2008 by mtchandl
+# Arguments:  -R-74.75/28.8/31.1/40.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15050041-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15050041-nav-00: Flagged 0.14 % of records with excessive speed or invalid navigation
+Y-I-15050041-depth-01: RLS m: 1.00388 b: 0 rms: 128.479 r: 0.996688 sig: 1 dec: 1
+Y-E-15050041-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.06461 b: -303.113 rms: 339.764 r: 0.803789 sig: 1 dec: 1). [Recompute]
+Y-W-15050041-twt-11: More recent bathymetry correction table available
+Y-W-15050041-mtf1-12: Integer precision
+Y-W-15050041-mag-12: Integer precision
+# Errata: Data
+Y	15050041	1975-06-13T18:20:00.00	133	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T18:25:00.00	134	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T18:30:00.00	135	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T18:35:00.00	136	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T18:40:00.00	137	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T18:45:00.00	138	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T20:50:00.00	163	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T20:55:00.00	164	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:00:00.00	165	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:05:00.00	166	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:10:00.00	167	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:15:00.00	168	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:20:00.00	169	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:25:00.00	170	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:30:00.00	171	D-0-0	 NAV: on land
+Y	15050041	1975-06-13T21:35:00.00	172	D-0-0	 NAV: on land
+?	15050041	1975-06-17T00:05:00.00	1066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-17T14:45:00.00	1242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-24T12:15:00.00	3228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-27T07:20:00.00	4033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-27T14:40:00.00	4121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T12:30:00.00	4383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T12:35:00.00	4384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:05:00.00	4462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:10:00.00	4463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:15:00.00	4464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:20:00.00	4465	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:30:00.00	4467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T19:50:00.00	4471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T20:50:00.00	4483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T21:00:00.00	4485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T21:15:00.00	4488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T22:25:00.00	4502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T22:40:00.00	4505	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T22:45:00.00	4506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-06-28T22:50:00.00	4507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T14:40:00.00	7727	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T14:45:00.00	7728	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T14:50:00.00	7729	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T14:55:00.00	7730	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T15:25:00.00	7736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T15:45:00.00	7740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T15:50:00.00	7741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T15:55:00.00	7742	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15050041	1975-07-17T16:00:00.00	7743	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T16:40:00.00	7751	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T18:40:00.00	7775	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T18:45:00.00	7776	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-17T18:55:00.00	7778	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:00:00.00	7779	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:05:00.00	7780	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:10:00.00	7781	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:15:00.00	7782	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:20:00.00	7783	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:25:00.00	7784	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:30:00.00	7785	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-17T19:35:00.00	7786	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-18T01:20:00.00	7855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-18T01:25:00.00	7856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-18T04:50:00.00	7897	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-18T04:55:00.00	7898	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-18T05:00:00.00	7899	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-18T05:05:00.00	7900	0-Q-0	 VAL: mag invalid
+?	15050041	1975-07-18T05:15:00.00	7902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-18T05:20:00.00	7903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-18T05:30:00.00	7905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050041	1975-07-22T01:50:00.00	8797	0-0-OQ	 GRAD: mtf1, mag excessive

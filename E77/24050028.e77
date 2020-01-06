@@ -1,0 +1,76 @@
+# Cruise 24050028 ID GA-0095 MGD77 FILE VERSION: 20080519 N_RECS: 45703
+# Examined: Mon Feb 14 19:41:41 2011 by mtchandl
+# Arguments:  -R112.8/130.9/-32.1/-11.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-24050028-H04-03: Invalid Survey Departure Day: (28) [27]
+N-E-24050028-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050028-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050028-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050028-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050028-H16-06: Ten Degree Identifier 3112 not marked in header but block was crossed
+Y-W-24050028-H16-06: Ten Degree Identifier 3113 not marked in header but block was crossed
+Y-W-24050028-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-W-24050028-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-I-24050028-depth-01: RLS m: 0.996202 b: 0 rms: 57.513 r: 0.99904 sig: 1 dec: 0
+N-E-24050028-depth-02: Regression slope 0.996202 different from 1. Recommended: [1]
+Y-W-24050028-twt-11: More recent bathymetry correction table available
+Y-W-24050028-depth-12: Integer precision
+Y-W-24050028-mtf1-12: Integer precision
+# Errata: Data
+?	24050028	1990-05-13T20:38:00.00	22959	0-0-K	 GRAD: twt excessive
+?	24050028	1990-05-13T20:39:00.00	22960	0-0-K	 GRAD: twt excessive
+?	24050028	1990-05-15T07:40:00.00	25061	0-0-KL	 GRAD: twt, depth excessive
+?	24050028	1990-05-15T07:41:00.00	25062	0-0-KL	 GRAD: twt, depth excessive
+?	24050028	1990-05-28T22:21:00.00	44662	D-0-0	 NAV: on land
+?	24050028	1990-05-28T22:22:00.00	44663	D-0-0	 NAV: on land
+?	24050028	1990-05-28T22:23:00.00	44664	D-0-0	 NAV: on land
+?	24050028	1990-05-28T22:24:00.00	44665	D-0-0	 NAV: on land
+?	24050028	1990-05-28T22:25:00.00	44666	D-0-0	 NAV: on land
+?	24050028	1990-05-28T22:26:00.00	44667	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:14:00.00	45015	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:15:00.00	45016	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:16:00.00	45017	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:17:00.00	45018	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:18:00.00	45019	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:19:00.00	45020	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:20:00.00	45021	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:21:00.00	45022	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:22:00.00	45023	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:23:00.00	45024	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:24:00.00	45025	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:25:00.00	45026	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:26:00.00	45027	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:27:00.00	45028	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:28:00.00	45029	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:29:00.00	45030	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:30:00.00	45031	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:31:00.00	45032	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:32:00.00	45033	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:33:00.00	45034	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:34:00.00	45035	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:35:00.00	45036	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:36:00.00	45037	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:37:00.00	45038	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:38:00.00	45039	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:39:00.00	45040	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:40:00.00	45041	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:41:00.00	45042	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:42:00.00	45043	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:43:00.00	45044	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:44:00.00	45045	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:45:00.00	45046	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:46:00.00	45047	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:47:00.00	45048	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:48:00.00	45049	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:49:00.00	45050	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:50:00.00	45051	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:51:00.00	45052	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:52:00.00	45053	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:53:00.00	45054	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:54:00.00	45055	D-0-0	 NAV: on land
+?	24050028	1990-05-29T04:55:00.00	45056	D-0-0	 NAV: on land

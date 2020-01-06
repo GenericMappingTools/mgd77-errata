@@ -1,0 +1,39 @@
+# Cruise 01020002 ID ELT02 MGD77 FILE VERSION: 19800908 N_RECS: 1534
+# Examined: Wed Jul  8 20:18:08 2009 by mtchandl
+# Arguments:  -R290.6/313.7/40.2/59.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01020002-H12-01: Invalid Bathymetry Digitizing Rate: (952) [600]
+Y-W-01020002-nav-00: Flagged 1.11 % of records with excessive speed or invalid navigation
+Y-I-01020002-depth-01: RLS m: 1 b: 0 rms: 65.6347 r: 0.99905 sig: 1 dec: 1
+Y-E-01020002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.876381 b: 22.6763 rms: 52.3968 r: 0.962755 sig: 1 dec: 0). [Recompute]
+Y-W-01020002-mtf1-12: Integer precision
+Y-W-01020002-mag-12: Integer precision
+# Errata: Data
+Y	01020002	1962-03-18T07:15:00.00	115	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-18T07:30:00.00	116	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-18T07:45:00.00	117	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-18T08:00:00.00	118	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-18T08:15:00.00	119	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-20T14:15:00.00	286	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-20T14:30:00.00	287	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-20T14:45:00.00	288	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-20T15:00:00.00	289	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-24T07:15:00.00	538	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-24T07:30:00.00	539	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-24T07:45:00.00	540	C-0-0	 NAV: excessive speed
+Y	01020002	1962-03-24T08:00:00.00	541	C-0-0	 NAV: excessive speed
+?	01020002	1962-04-11T13:15:00.00	1168	0-Q-0	 VAL: mag invalid
+?	01020002	1962-04-11T13:24:00.00	1169	0-Q-0	 VAL: mag invalid
+?	01020002	1962-04-11T13:30:00.00	1170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020002	1962-04-11T16:15:00.00	1182	0-Q-0	 VAL: mag invalid
+?	01020002	1962-04-11T16:20:00.00	1183	0-Q-0	 VAL: mag invalid
+?	01020002	1962-04-11T16:30:00.00	1184	0-Q-0	 VAL: mag invalid
+Y	01020002	1962-04-11T17:15:00.00	1187	C-0-0	 NAV: excessive speed
+Y	01020002	1962-04-11T17:30:00.00	1188	C-0-0	 NAV: excessive speed
+Y	01020002	1962-04-11T17:45:00.00	1189	C-0-0	 NAV: excessive speed
+Y	01020002	1962-04-11T18:00:00.00	1190	C-0-0	 NAV: excessive speed

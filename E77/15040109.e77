@@ -1,0 +1,22 @@
+# Cruise 15040109 ID RAMA03WT MGD77 FILE VERSION: 19851028 N_RECS: 8997
+# Examined: Sat May 24 09:48:10 2008 by mtchandl
+# Arguments:  -R140.4/182.1/28.7/56.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040109-depth-01: RLS m: 0.996139 b: 0 rms: 114.028 r: 0.99736 sig: 1 dec: 1
+Y-E-15040109-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.967917 b: 1.79392 rms: 67.7347 r: 0.964868 sig: 1 dec: 1). [Recompute]
+Y-W-15040109-twt-11: More recent bathymetry correction table available
+Y-W-15040109-mtf1-12: Integer precision
+Y-W-15040109-mag-12: Integer precision
+# Errata: Data
+?	15040109	1980-06-03T05:35:00.00	2565	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040109	1980-06-03T05:40:00.00	2566	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040109	1980-06-03T05:45:00.00	2567	0-Q-0	 VAL: mag invalid
+?	15040109	1980-06-03T05:50:00.00	2568	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040109	1980-06-03T05:55:00.00	2569	0-Q-0	 VAL: mag invalid
+?	15040109	1980-06-03T06:00:00.00	2570	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040109	1980-06-03T06:05:00.00	2571	0-0-OQ	 GRAD: mtf1, mag excessive

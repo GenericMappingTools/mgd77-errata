@@ -1,0 +1,22 @@
+# Cruise 17080014 ID A118L21 MGD77 FILE VERSION: 19900702 N_RECS: 12612
+# Examined: Mon Sep  6 12:39:18 2010 by mtchandl
+# Arguments:  -R229.05/235.65/44.25/46.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-17080014-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-W-17080014-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-17080014-depth-01: RLS m: 0.997908 b: 0 rms: 77.3579 r: 0.992623 sig: 1 dec: 0
+Y-W-17080014-depth-12: Integer precision
+# Errata: Data
+Y	17080014	1987-09-14T23:53:57.00	381	C-0-0	 NAV: excessive speed
+Y	17080014	1987-09-15T14:17:25.02	1096	C-0-0	 NAV: excessive speed
+?	17080014	1987-09-22T09:46:16.02	5963	0-0-K	 GRAD: twt excessive
+?	17080014	1987-09-26T00:11:46.98	7637	0-0-KL	 GRAD: twt, depth excessive
+Y	17080014	1987-10-05T00:09:10.02	11669	C-0-0	 NAV: excessive speed
+Y	17080014	1987-10-05T00:10:22.02	11670	C-0-0	 NAV: excessive speed
+Y	17080014	1987-10-05T00:11:34.02	11671	C-0-0	 NAV: excessive speed
+Y	17080014	1987-10-05T00:12:46.02	11672	C-0-0	 NAV: excessive speed

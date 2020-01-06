@@ -1,0 +1,38 @@
+# Cruise 15050018 ID DSDP20GC MGD77 FILE VERSION: 19800226 N_RECS: 6794
+# Examined: Wed May 28 12:51:43 2008 by mtchandl
+# Arguments:  -R139.7/178.4/-18.65/34.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+N-E-15050018-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-W-15050018-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15050018-depth-01: RLS m: 1 b: 0 rms: 128.833 r: 0.997339 sig: 1 dec: 1
+Y-E-15050018-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03228 b: -11.9361 rms: 50.8821 r: 0.97993 sig: 1 dec: 1). [Recompute]
+N-E-15050018-depth-08: Extended offset from grid [2310-2342]
+N-E-15050018-depth-08: Extended offset from grid [2819-2850]
+Y-E-15050018-twt-13: Encountered possible PDR wrap errors (9.5) [10.0]
+Y-W-15050018-twt-11: More recent bathymetry correction table available
+Y-W-15050018-mtf1-12: Integer multiple of 5 precision
+Y-W-15050018-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050018	1971-09-17T13:45:00.00	125	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-09T14:00:00.00	1499	0-0-K	 GRAD: twt excessive
+?	15050018	1971-10-09T15:20:00.00	1515	0-0-K	 GRAD: twt excessive
+?	15050018	1971-10-16T23:50:00.00	2320	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-17T01:35:00.00	2341	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-19T12:50:00.00	2803	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-19T13:20:00.00	2809	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-19T14:10:00.00	2819	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-10-19T16:20:00.00	2845	0-0-KL	 GRAD: twt, depth excessive
+?	15050018	1971-11-07T20:10:00.00	6223	0-Q-0	 VAL: mag invalid
+?	15050018	1971-11-07T20:15:00.00	6224	0-Q-0	 VAL: mag invalid
+?	15050018	1971-11-07T20:20:00.00	6225	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15050018	1971-11-07T20:25:00.00	6226	0-Q-0	 VAL: mag invalid
+?	15050018	1971-11-07T20:30:00.00	6227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050018	1971-11-07T20:35:00.00	6228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050018	1971-11-07T21:00:00.00	6233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050018	1971-11-07T21:05:00.00	6234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050018	1971-11-07T21:40:00.00	6241	0-0-OQ	 GRAD: mtf1, mag excessive

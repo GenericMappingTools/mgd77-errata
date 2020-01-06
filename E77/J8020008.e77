@@ -1,0 +1,53 @@
+# Cruise J8020008 ID JARE37 MGD77 FILE VERSION: 20050922 N_RECS: 1114
+# Examined: Mon Aug  8 16:10:18 2011 by mtchandl
+# Arguments:  -R39.9/43.05/-67.35/-66.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-J8020008-H04-01: Invalid Survey Departure Year: (1995) [1996]
+Y-E-J8020008-H04-02: Invalid Survey Departure Month: (12) [02]
+Y-E-J8020008-H04-03: Invalid Survey Departure Day: (03) [13]
+Y-E-J8020008-H04-05: Invalid Survey Arrival Month: (03) [02]
+Y-E-J8020008-H04-06: Invalid Survey Arrival Day: (20) [14]
+Y-E-J8020008-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A5,A6,I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+N-E-J8020008-H11-02: Invalid Topmost Latitude : (-67) [-66]
+Y-W-J8020008-nav-00: Flagged 2.96 % of records with bad navigation
+Y-I-J8020008-depth-01: RLS m: 0.998256 b: 0 rms: 32.6003 r: 0.996727 sig: 1 dec: 0
+Y-W-J8020008-depth-12: Integer precision
+# Errata: Data
+Y	J8020008	1996-02-13T07:06:00.00	67	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T07:43:00.00	104	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T07:44:00.00	105	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T07:45:00.00	106	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T07:46:00.00	107	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T09:05:00.00	186	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T09:31:00.00	212	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T09:47:00.00	228	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:07:00.00	248	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:18:00.00	259	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:41:00.00	282	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:44:00.00	285	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:46:00.00	287	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:56:00.00	297	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T10:59:00.00	300	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T11:03:00.00	304	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T11:08:00.00	309	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T11:49:00.00	350	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T12:36:00.00	397	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T12:44:00.00	405	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T13:22:00.00	443	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T14:22:00.00	503	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T14:35:00.00	516	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T14:36:00.00	517	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T14:37:00.00	518	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T16:01:00.00	602	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T16:12:00.00	613	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T16:52:00.00	653	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T17:40:00.00	701	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T17:41:00.00	702	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T17:42:00.00	703	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T17:43:00.00	704	C-0-0	 NAV: excessive speed
+Y	J8020008	1996-02-13T17:44:00.00	705	C-0-0	 NAV: excessive speed

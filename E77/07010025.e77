@@ -1,0 +1,70 @@
+# Cruise 07010025 ID YAQ704 MGD77 FILE VERSION: 19840214 N_RECS: 6823
+# Examined: Fri Jul 16 17:35:02 2010 by mtchandl
+# Arguments:  -R210.6/229.1/50.15/60 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010025-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-07010025-depth-01: RLS m: 1 b: 0 rms: 10.2674 r: 0.999928 sig: 1 dec: 0
+Y-I-07010025-faa-01: RLS m: 1.19594 b: 1.18156 rms: 6.96182 r: 0.964136 sig: 1 dec: 0
+N-E-07010025-faa-02: Regression slope 1.19594 different from 1. Recommended: [1]
+Y-W-07010025-faa-03: Regression offset 1.18156 different from 0.
+Y-E-07010025-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00878 b: 183.686 rms: 184.056 r: 0.995967 sig: 1 dec: 0). [Recompute]
+Y-W-07010025-twt-11: More recent bathymetry correction table available
+Y-W-07010025-mtf1-12: Integer precision
+Y-W-07010025-mag-12: Integer precision
+# Errata: Data
+Y	07010025	1970-09-15T18:40:00.00	6	D-0-0	 NAV: on land
+?	07010025	1970-09-15T18:41:00.00	7	D-0-0	 NAV: on land
+Y	07010025	1970-09-26T02:41:00.00	2866	B-0-0	 NAV: non-increasing time
+Y	07010025	1970-09-28T13:49:00.00	3608	B-0-0	 NAV: non-increasing time
+Y	07010025	1970-09-30T11:01:00.00	4217	B-0-0	 NAV: non-increasing time
+?	07010025	1970-10-06T17:30:00.00	6321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T17:59:00.00	6333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:00:00.00	6334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:04:00.00	6337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:05:00.00	6338	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:06:00.00	6339	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:07:00.00	6340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:08:00.00	6341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:09:00.00	6342	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:12:00.00	6344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:14:00.00	6346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-06T18:30:00.00	6354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T06:05:00.00	6551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:29:00.00	6574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:32:00.00	6576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:41:00.00	6582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:42:00.00	6583	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:45:00.00	6584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:46:00.00	6585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:49:00.00	6586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:51:00.00	6588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:53:00.00	6589	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T07:54:00.00	6590	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:00:00.00	6594	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:01:00.00	6595	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:02:00.00	6596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:04:00.00	6597	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:05:00.00	6598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:06:00.00	6599	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T08:10:00.00	6600	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010025	1970-10-07T08:16:00.00	6603	B-0-0	 NAV: non-increasing time
+?	07010025	1970-10-07T10:00:00.00	6642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T10:28:00.00	6650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T12:10:00.00	6680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T12:22:00.00	6684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:00:00.00	6709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:02:00.00	6710	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:03:00.00	6711	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:05:00.00	6713	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:09:00.00	6714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T14:10:00.00	6715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T15:25:00.00	6739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T15:50:00.00	6746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T16:17:00.00	6754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T16:40:00.00	6762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010025	1970-10-07T16:43:00.00	6763	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

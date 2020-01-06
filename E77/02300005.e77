@@ -1,0 +1,26 @@
+# Cruise 02300005 ID FA023L01 MGD77 FILE VERSION: 19820805 N_RECS: 1312
+# Examined: Fri Apr  9 13:11:03 2010 by mtchandl
+# Arguments:  -R288.45/291.6/40.45/42.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02300005-nav-00: Flagged 0.76 % of records with bad navigation
+Y-I-02300005-faa-01: RLS m: 0.987606 b: 0.115787 rms: 3.26176 r: 0.960534 sig: 1 dec: 0
+Y-I-02300005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02300005-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.148072 b: 3.29857 rms: 30.7119 r: 0.419725 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+?	02300005	1976-09-12T18:25:00.00	57	0-0-V	 GRAD: eot excessive
+Y	02300005	1976-09-17T08:00:00.00	1270	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T09:30:00.00	1288	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T09:35:00.00	1289	D-0-0	 NAV: on land
+?	02300005	1976-09-17T10:55:00.00	1305	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:00:00.00	1306	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:05:00.00	1307	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:10:00.00	1308	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:15:00.00	1309	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:20:00.00	1310	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:25:00.00	1311	D-0-0	 NAV: on land
+Y	02300005	1976-09-17T11:30:00.00	1312	D-0-0	 NAV: on land

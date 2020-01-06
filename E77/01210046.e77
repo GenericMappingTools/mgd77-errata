@@ -1,0 +1,21 @@
+# Cruise 01210046 ID EW9005 MGD77 FILE VERSION: 19960829 N_RECS: 4244
+# Examined: Fri Mar 26 19:43:26 2010 by mtchandl
+# Arguments:  -R336.4/339.3/59.45/64.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Apparent Potsdam offset.
+# Errata: Header
+Y-E-01210046-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01210046-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01210046-H13-10: Survey year (1990) outside magnetic reference field Unused time range (9999-9999)
+Y-E-01210046-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-I-01210046-depth-01: RLS m: 0.995778 b: 0 rms: 27.0707 r: 0.999879 sig: 1 dec: 0
+N-E-01210046-depth-02: Regression slope 0.995778 different from 1. Recommended: [1]
+Y-I-01210046-faa-01: RLS m: 1.01233 b: 14.6496 rms: 15.0988 r: 0.994181 sig: 1 dec: 0
+N-E-01210046-faa-02: Regression slope 1.01233 different from 1. Recommended: [1]
+Y-W-01210046-faa-03: Regression offset 14.6496 different from 0.
+Y-W-01210046-faa-09: only found positive values
+Y-W-01210046-depth-12: Integer precision
+# Errata: Data

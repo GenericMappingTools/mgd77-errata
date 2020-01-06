@@ -1,0 +1,37 @@
+# Cruise 15020019 ID CATO04MV MGD77 FILE VERSION: 19830818 N_RECS: 6771
+# Examined: Wed May 14 08:34:55 2008 by mtchandl
+# Arguments:  -R210.45/288.5/-33.05/-17.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020019-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020019-nav-00: Flagged 0.07 % of records with excessive speed or invalid navigation
+Y-I-15020019-depth-01: RLS m: 1 b: 0 rms: 139.852 r: 0.992585 sign: 1 dec: 1
+Y-E-15020019-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.934424 b: -172.486 rms: 202.537 r: 0.887482 sig: 1 dec: 1). [Recompute]
+Y-W-15020019-mtf1-12: Integer multiple of 5 precision
+Y-W-15020019-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020019	1972-09-13T04:46:00.00	22	0-Q-0	 VAL: mag invalid
+?	15020019	1972-09-13T04:51:00.00	24	0-Q-0	 VAL: mag invalid
+?	15020019	1972-09-13T04:56:00.00	26	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-13T05:06:00.00	30	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-13T05:13:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-13T05:18:00.00	33	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-13T05:38:00.00	41	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-13T05:43:00.00	43	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-18T19:35:00.00	2636	D-0-0	 NAV: on land
+?	15020019	1972-09-19T00:18:00.00	2719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-19T00:23:00.00	2721	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020019	1972-09-19T00:28:00.00	2723	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020019	1972-09-19T00:33:00.00	2725	0-Q-0	 VAL: mag invalid
+?	15020019	1972-09-19T00:38:00.00	2727	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020019	1972-09-19T00:43:00.00	2729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020019	1972-09-19T00:48:00.00	2731	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15020019	1972-10-04T10:10:00.00	6767	D-0-0	 NAV: on land
+Y	15020019	1972-10-04T10:15:00.00	6768	D-0-0	 NAV: on land
+Y	15020019	1972-10-04T10:20:00.00	6769	D-0-0	 NAV: on land
+Y	15020019	1972-10-04T10:25:00.00	6770	D-0-0	 NAV: on land
+Y	15020019	1972-10-04T10:30:00.00	6771	D-0-0	 NAV: on land

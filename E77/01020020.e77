@@ -1,0 +1,150 @@
+# Cruise 01020020 ID ELT20 MGD77 FILE VERSION: 19790127 N_RECS: 29451
+# Examined: Wed Jul  8 20:37:16 2009 by mtchandl
+# Arguments:  -R175.7/288.25/-62.2/-33 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01020020-depth-01: RLS m: 0.999302 b: 0 rms: 11.8728 r: 0.999984 sig: 1 dec: 0
+N-E-01020020-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-E-01020020-mag-07: Anomaly differs from mtf1-IGRF (m: 0.951595 b: -106.087 rms: 121.327 r: 0.948197 sig: 1 dec: 0). [Recompute]
+N-E-01020020-depth-08: Extended offset from grid [4-1147]
+N-E-01020020-depth-08: Extended offset from grid [1153-8185]
+N-E-01020020-depth-08: Extended offset from grid [8187-8222]
+N-E-01020020-depth-08: Extended offset from grid [8243-23806]
+N-E-01020020-depth-08: Extended offset from grid [23810-26189]
+N-E-01020020-depth-08: Extended offset from grid [26190-29451]
+Y-W-01020020-twt-11: More recent bathymetry correction table available
+Y-W-01020020-mtf1-12: Integer precision
+Y-W-01020020-mag-12: Integer precision
+# Errata: Data
+?	01020020	1965-09-16T15:46:00.00	1358	0-0-K	 GRAD: twt excessive
+?	01020020	1965-09-18T13:14:00.00	2368	0-0-K	 GRAD: twt excessive
+?	01020020	1965-09-18T16:13:00.00	2457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-18T16:17:00.00	2459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-18T16:25:00.00	2464	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020020	1965-09-18T16:29:00.00	2467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-18T16:33:00.00	2469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-18T16:37:00.00	2472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-29T10:40:00.00	6921	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T10:41:00.00	6922	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T10:43:00.00	6923	0-0-K	 GRAD: twt excessive
+?	01020020	1965-09-29T10:45:00.00	6925	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T10:46:00.00	6926	0-0-K	 GRAD: twt excessive
+?	01020020	1965-09-29T13:03:00.00	6984	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-09-29T13:08:00.00	6987	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T13:16:00.00	6993	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T22:54:00.00	7160	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-09-29T23:21:00.00	7169	0-0-K	 GRAD: twt excessive
+?	01020020	1965-09-30T00:01:00.00	7175	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-10-01T19:49:00.00	7651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-04T15:41:00.00	8322	0-0-K	 GRAD: twt excessive
+?	01020020	1965-10-08T10:26:00.00	9944	0-0-K	 GRAD: twt excessive
+?	01020020	1965-10-08T16:43:00.00	10107	0-0-K	 GRAD: twt excessive
+?	01020020	1965-10-10T05:49:00.00	10585	0-0-K	 GRAD: twt excessive
+?	01020020	1965-10-16T13:09:00.00	12390	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-10-17T12:46:00.00	12704	0-0-KL	 GRAD: twt, depth excessive
+?	01020020	1965-10-27T15:13:00.00	17623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-27T15:18:00.00	17626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-27T18:57:00.00	17747	0-0-O	 GRAD: mtf1 excessive
+?	01020020	1965-10-27T20:49:00.00	17821	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T01:49:00.00	17998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T01:54:00.00	18001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T03:15:00.00	18051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T05:13:00.00	18127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T05:19:00.00	18131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T05:47:00.00	18151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T07:51:00.00	18226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T08:33:00.00	18250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T13:30:00.00	18435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T13:31:00.00	18436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T13:32:00.00	18437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T13:47:00.00	18448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T16:09:00.00	18539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-28T16:12:00.00	18541	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T01:06:00.00	18867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T02:04:00.00	18898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T02:09:00.00	18900	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T02:11:00.00	18901	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T02:16:00.00	18904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:07:00.00	18966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:12:00.00	18969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:14:00.00	18970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:15:00.00	18971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:22:00.00	18976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:40:00.00	18989	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:41:00.00	18990	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T04:44:00.00	18993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:12:00.00	19009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:16:00.00	19013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:17:00.00	19014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:23:00.00	19018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:42:00.00	19030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:45:00.00	19032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:47:00.00	19033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T05:53:00.00	19037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T06:49:00.00	19074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T06:51:00.00	19076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T06:53:00.00	19078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T06:57:00.00	19081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:31:00.00	19103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:32:00.00	19104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:34:00.00	19105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:36:00.00	19106	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:37:00.00	19107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:38:00.00	19108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:39:00.00	19109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T07:43:00.00	19111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T10:10:00.00	19205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T10:11:00.00	19206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T10:18:00.00	19210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T10:19:00.00	19211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T11:30:00.00	19254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T11:38:00.00	19259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:01:00.00	19275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:03:00.00	19276	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:07:00.00	19279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:42:00.00	19301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:45:00.00	19304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-29T12:47:00.00	19305	0-0-Q	 GRAD: mag excessive
+?	01020020	1965-10-29T12:52:00.00	19307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-31T23:25:00.00	21696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-10-31T23:58:00.00	21726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T02:11:00.00	21834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T02:14:00.00	21837	0-0-O	 GRAD: mtf1 excessive
+?	01020020	1965-11-01T03:38:00.00	21905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T03:39:00.00	21906	0-0-Q	 GRAD: mag excessive
+?	01020020	1965-11-01T05:02:00.00	21974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T05:05:00.00	21976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T05:06:00.00	21977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T06:10:00.00	22028	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T07:47:00.00	22101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:05:00.00	22117	0-0-O	 GRAD: mtf1 excessive
+?	01020020	1965-11-01T08:08:00.00	22119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:11:00.00	22122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:12:00.00	22123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:13:00.00	22124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:14:00.00	22125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T08:15:00.00	22126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T10:17:00.00	22225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T13:03:00.00	22354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T13:07:00.00	22358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T15:31:00.00	22456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-01T15:34:00.00	22458	0-0-Q	 GRAD: mag excessive
+?	01020020	1965-11-01T15:48:00.00	22470	0-0-O	 GRAD: mtf1 excessive
+?	01020020	1965-11-01T15:49:00.00	22471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T17:46:00.00	23062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T18:07:00.00	23077	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T18:10:00.00	23079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T18:11:00.00	23080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T18:14:00.00	23082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T23:31:00.00	23289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T23:33:00.00	23291	0-0-O	 GRAD: mtf1 excessive
+?	01020020	1965-11-02T23:36:00.00	23293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-02T23:53:00.00	23304	0-0-Q	 GRAD: mag excessive
+?	01020020	1965-11-03T11:48:00.00	23735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020020	1965-11-07T03:50:00.00	26093	0-0-K	 GRAD: twt excessive
+?	01020020	1965-11-07T04:09:00.00	26104	0-0-K	 GRAD: twt excessive
+?	01020020	1965-11-09T15:50:00.00	27494	0-0-K	 GRAD: twt excessive

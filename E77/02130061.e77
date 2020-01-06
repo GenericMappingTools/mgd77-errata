@@ -1,0 +1,29 @@
+# Cruise 02130061 ID AT3L58 MGD77 FILE VERSION: 20040308 N_RECS: 6478
+# Examined: Fri Apr  9 13:03:46 2010 by mtchandl
+# Arguments:  -R265.4/275.25/25.35/28.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some discrepancies between reported and predicted bathymetry.
+# Errata: Header
+Y-W-02130061-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-02130061-depth-01: RLS m: 1.00344 b: 0 rms: 39.8411 r: 0.999032 sig: 1 dec: 0
+N-E-02130061-depth-02: Regression slope 1.00344 different from 1. Recommended: [1]
+Y-W-02130061-depth-12: Integer precision
+# Errata: Data
+?	02130061	2000-10-29T00:18:01.02	5481	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-29T00:19:03.00	5482	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-29T00:19:57.00	5483	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-29T01:43:04.02	5566	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-29T22:27:01.98	5631	0-0-L	 GRAD: depth excessive
+Y	02130061	2000-10-29T23:59:58.98	5724	C-0-0	 NAV: excessive speed
+?	02130061	2000-10-30T06:55:58.02	6140	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T07:03:57.00	6148	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T07:26:03.00	6170	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T07:36:04.98	6180	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T10:08:04.02	6332	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T10:08:58.02	6333	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T10:18:57.00	6343	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T10:52:57.00	6377	0-0-L	 GRAD: depth excessive
+?	02130061	2000-10-30T10:53:58.02	6378	0-0-L	 GRAD: depth excessive

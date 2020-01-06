@@ -1,0 +1,50 @@
+# Cruise 03050022 ID POL7001 MGD77 FILE VERSION: 19800213 N_RECS: 7833
+# Examined: Thu Mar 18 23:33:10 2010 by mtchandl
+# Arguments:  -R204.5/235.25/19.95/59.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-03050022-H12-01: Invalid Bathymetry Digitizing Rate: (446) [446]
+N-E-03050022-H13-01: Invalid Magnetics Digitizing Rate: (489) [489]
+Y-W-03050022-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-03050022-depth-01: RLS m: 0.999543 b: 0 rms: 18.5071 r: 0.999947 sig: 1 dec: 0
+N-E-03050022-depth-02: Regression slope 0.999543 different from 1. Recommended: [1]
+Y-E-03050022-mag-07: Anomaly differs from mtf1-IGRF (m: 0.896134 b: -122.562 rms: 138.117 r: 0.885414 sig: 1 dec: 0). [Recompute]
+Y-W-03050022-twt-11: More recent bathymetry correction table available
+Y-W-03050022-mtf1-12: Integer precision
+Y-W-03050022-mag-12: Integer precision
+# Errata: Data
+?	03050022	1970-01-22T00:00:00.00	207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T02:15:00.00	234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T02:25:00.00	236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T03:50:00.00	253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T03:55:00.00	254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T06:15:00.00	282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-22T16:25:00.00	404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-23T16:35:00.00	698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-24T03:00:00.00	823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-24T03:05:00.00	824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-24T07:15:00.00	874	0-0-O	 GRAD: mtf1 excessive
+Y	03050022	1970-01-24T13:20:00.00	947	B-0-0	 NAV: non-increasing time
+Y	03050022	1970-01-24T13:25:00.00	948	B-0-0	 NAV: non-increasing time
+Y	03050022	1970-01-24T13:30:00.00	949	C-0-0	 NAV: excessive speed
+Y	03050022	1970-01-24T13:35:00.00	950	C-0-0	 NAV: excessive speed
+?	03050022	1970-01-25T16:20:00.00	1271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-25T16:25:00.00	1272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T03:45:00.00	1695	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T03:50:00.00	1696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T05:50:00.00	1719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T06:45:00.00	1729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T06:50:00.00	1730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T09:10:00.00	1758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-27T09:15:00.00	1759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-31T19:10:00.00	3039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-01-31T19:20:00.00	3041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-04-03T07:50:00.00	6062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-04-03T08:00:00.00	6064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-04-03T08:05:00.00	6065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050022	1970-04-03T09:50:00.00	6087	0-0-O	 GRAD: mtf1 excessive
+Y	03050022	1970-05-01T20:16:00.00	6232	B-0-0	 NAV: non-increasing time

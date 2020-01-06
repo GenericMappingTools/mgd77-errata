@@ -1,0 +1,50 @@
+# Cruise 67010200 ID 88003311 MGD77 FILE VERSION: 19920924 N_RECS: 4331
+# Examined: Sun Jul 31 21:44:21 2011 by mtchandl
+# Arguments:  -R2.6/15.45/36.6/39.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Added 40 mGal to faa.
+# Errata: Header
+Y-W-67010200-nav-00: Flagged 0.51 % of records with bad navigation
+Y-I-67010200-depth-01: RLS m: 0.999105 b: 0 rms: 24.3453 r: 0.999733 sig: 1 dec: 0
+Y-I-67010200-faa-01: RLS m: 1.02096 b: -39.9533 rms: 39.6236 r: 0.994754 sig: 1 dec: 0
+N-E-67010200-faa-02: Regression slope 1.02096 different from 1. Recommended: [1]
+Y-E-67010200-faa-03: Regression offset -39.9533 different from 0. Recommended: [40.0]
+Y-I-67010200-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010200-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.981776 b: -58.2188 rms: 58.9419 r: 0.984206 sig: 1 dec: 0). [Recompute]
+N-E-67010200-faa-08: Extended offset from grid [1-4331]
+Y-W-67010200-depth-12: Integer precision
+# Errata: Data
+?	67010200	1988-11-23T10:30:00.00	77	0-0-V	 GRAD: eot excessive
+?	67010200	1988-11-23T10:34:00.00	81	0-0-UW	 GRAD: gobs, faa excessive
+?	67010200	1988-11-26T07:03:00.00	4190	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010200	1988-11-26T07:36:00.00	4223	0-0-UW	 GRAD: gobs, faa excessive
+?	67010200	1988-11-26T08:01:00.00	4248	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010200	1988-11-26T08:59:00.00	4306	D-0-0	 NAV: on land
+?	67010200	1988-11-26T09:00:00.00	4307	D-0-0	 NAV: on land
+?	67010200	1988-11-26T09:01:00.00	4308	D-0-0	 NAV: on land
+?	67010200	1988-11-26T09:02:00.00	4309	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:03:00.00	4310	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:04:00.00	4311	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:05:00.00	4312	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:06:00.00	4313	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:07:00.00	4314	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:08:00.00	4315	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:09:00.00	4316	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:10:00.00	4317	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:11:00.00	4318	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:12:00.00	4319	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:13:00.00	4320	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:14:00.00	4321	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:15:00.00	4322	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:16:00.00	4323	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:17:00.00	4324	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:18:00.00	4325	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:19:00.00	4326	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:20:00.00	4327	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:21:00.00	4328	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:22:00.00	4329	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:23:00.00	4330	D-0-0	 NAV: on land
+Y	67010200	1988-11-26T09:24:00.00	4331	D-0-0	 NAV: on land

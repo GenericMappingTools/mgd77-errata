@@ -1,0 +1,223 @@
+# Cruise 67010038 ID 73002521 MGD77 FILE VERSION: 19830804 N_RECS: 5036
+# Examined: Thu Jul 28 18:46:49 2011 by mtchandl
+# Arguments:  -R-18/-5.3/47.65/62.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Some bathymetry outliers.
+# Errata: Header
+Y-W-67010038-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-67010038-depth-01: RLS m: 0.999302 b: 0 rms: 11.8474 r: 0.999978 sig: 1 dec: 0
+N-E-67010038-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-E-67010038-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00959 b: 138.074 rms: 143.719 r: 0.992486 sig: 1 dec: 1). [Recompute]
+Y-W-67010038-twt-11: More recent bathymetry correction table available
+Y-W-67010038-mtf1-12: Integer precision
+Y-W-67010038-mag-12: Integer precision
+# Errata: Data
+?	67010038	1973-07-07T14:35:00.00	22	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:37:00.00	23	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:42:00.00	25	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:44:00.00	27	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:49:00.00	30	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:50:00.00	31	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:52:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:53:00.00	33	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:55:00.00	34	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:57:00.00	35	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T14:58:00.00	36	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:01:00.00	38	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:03:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:04:00.00	40	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:05:00.00	41	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:07:00.00	42	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:08:00.00	43	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:10:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:11:00.00	45	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:12:00.00	46	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:14:00.00	47	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:18:00.00	51	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:19:00.00	52	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:21:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:23:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:25:00.00	57	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:26:00.00	58	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:31:00.00	63	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:36:00.00	66	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:42:00.00	69	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:44:00.00	70	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:49:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T15:52:00.00	75	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:02:00.00	82	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:03:00.00	83	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:09:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:14:00.00	91	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:17:00.00	94	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:23:00.00	97	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:26:00.00	98	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:42:00.00	111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:49:00.00	115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T16:51:00.00	116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T17:05:00.00	123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T17:23:00.00	132	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T17:42:00.00	144	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T18:06:00.00	161	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T19:26:00.00	210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T20:17:00.00	243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-07T20:28:00.00	252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T05:48:00.00	481	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T05:51:00.00	482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T05:52:00.00	483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T05:53:00.00	484	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T05:54:00.00	485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:02:00.00	526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:12:00.00	532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:19:00.00	536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:22:00.00	538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:24:00.00	540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:29:00.00	544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:57:00.00	560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T07:58:00.00	561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:03:00.00	566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:05:00.00	567	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:06:00.00	568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:12:00.00	572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:15:00.00	574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:16:00.00	575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:22:00.00	579	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:27:00.00	582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:29:00.00	584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T08:32:00.00	586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T09:00:00.00	605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T09:02:00.00	607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T09:04:00.00	608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T09:07:00.00	611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T10:32:00.00	665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-08T19:18:00.00	930	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T13:41:00.00	1314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T13:43:00.00	1315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T13:53:00.00	1321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T14:09:00.00	1333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T16:10:00.00	1351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T16:18:00.00	1358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T16:53:00.00	1372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T16:56:00.00	1374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T16:58:00.00	1376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:01:00.00	1378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:04:00.00	1379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:05:00.00	1380	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:06:00.00	1381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:08:00.00	1382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:09:00.00	1383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:13:00.00	1385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:19:00.00	1388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:24:00.00	1390	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:26:00.00	1391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:27:00.00	1392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:28:00.00	1393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:31:00.00	1396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:32:00.00	1397	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:33:00.00	1398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:34:00.00	1399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:36:00.00	1401	0-0-O	 GRAD: mtf1 excessive
+?	67010038	1973-07-09T17:39:00.00	1403	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:40:00.00	1404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:43:00.00	1406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:45:00.00	1407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:47:00.00	1408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:50:00.00	1410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:53:00.00	1412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:57:00.00	1415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T17:59:00.00	1417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:00:00.00	1418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:02:00.00	1419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:05:00.00	1421	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:06:00.00	1422	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:08:00.00	1423	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:10:00.00	1424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:11:00.00	1425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:15:00.00	1427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:20:00.00	1431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:21:00.00	1432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:23:00.00	1433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:24:00.00	1434	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:25:00.00	1435	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:26:00.00	1436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:30:00.00	1439	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:33:00.00	1440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:34:00.00	1441	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:36:00.00	1443	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T18:47:00.00	1450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:49:00.00	1451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:50:00.00	1452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T18:58:00.00	1456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:00:00.00	1457	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:01:00.00	1458	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:02:00.00	1459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:03:00.00	1460	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:05:00.00	1461	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T19:07:00.00	1462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:09:00.00	1464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:18:00.00	1469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:24:00.00	1473	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:26:00.00	1474	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T19:27:00.00	1475	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:28:00.00	1476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:31:00.00	1478	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:32:00.00	1479	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T19:34:00.00	1480	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T19:36:00.00	1482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:40:00.00	1483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:42:00.00	1485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:45:00.00	1486	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:48:00.00	1487	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:50:00.00	1488	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:52:00.00	1489	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:55:00.00	1490	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:56:00.00	1491	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T19:58:00.00	1492	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-09T20:00:00.00	1494	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:02:00.00	1495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:10:00.00	1501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:16:00.00	1506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:17:00.00	1507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:21:00.00	1509	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:23:00.00	1511	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T20:27:00.00	1514	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:09:00.00	1534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:14:00.00	1537	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:16:00.00	1538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:17:00.00	1539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:20:00.00	1542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:23:00.00	1544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:32:00.00	1551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:36:00.00	1554	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:42:00.00	1558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:44:00.00	1559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:51:00.00	1565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T22:59:00.00	1571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T23:09:00.00	1576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T23:28:00.00	1588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-09T23:29:00.00	1589	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T00:43:00.00	1608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T10:58:00.00	1902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T12:05:00.00	1953	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T12:06:00.00	1954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T12:09:00.00	1956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T12:24:00.00	1968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-10T22:12:00.00	2198	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010038	1973-07-10T23:00:00.00	2227	B-0-0	 NAV: non-increasing time
+?	67010038	1973-07-11T01:18:00.00	2278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T01:21:00.00	2280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T01:30:00.00	2286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T01:43:00.00	2293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T01:44:00.00	2294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:10:00.00	2309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:13:00.00	2311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:17:00.00	2313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:18:00.00	2314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:20:00.00	2315	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010038	1973-07-11T02:23:00.00	2317	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-11T02:24:00.00	2318	0-Q-0	 VAL: mag invalid
+?	67010038	1973-07-11T02:35:00.00	2328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010038	1973-07-16T10:19:00.00	4309	0-0-K	 GRAD: twt excessive

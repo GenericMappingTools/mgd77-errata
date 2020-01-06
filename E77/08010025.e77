@@ -1,0 +1,71 @@
+# Cruise 08010025 ID 74010901 MGD77 FILE VERSION: 19830518 N_RECS: 17454
+# Examined: Mon Jul 26 15:52:46 2010 by mtchandl
+# Arguments:  -R202.1/282.85/-12.15/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010025-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010025-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010025-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-E-08010025-H16-01: Invalid Number of Ten Degree Identifiers: (14) [15]
+Y-W-08010025-H16-06: Ten Degree Identifier 5010 not marked in header but block was crossed
+Y-W-08010025-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-08010025-depth-01: RLS m: 1.00029 b: 0 rms: 28.4523 r: 0.999701 sig: 1 dec: 0
+Y-I-08010025-faa-01: RLS m: 1.01186 b: -0.808764 rms: 3.56437 r: 0.997962 sig: 1 dec: 0
+N-E-08010025-faa-02: Regression slope 1.01186 different from 1. Recommended: [1]
+Y-W-08010025-faa-03: Regression offset -0.808764 different from 0.
+Y-E-08010025-mag-07: Anomaly differs from mtf1-IGRF (m: 0.820888 b: 162.409 rms: 213.035 r: 0.619868 sig: 1 dec: 1). [Recompute]
+Y-W-08010025-twt-11: More recent bathymetry correction table available
+Y-W-08010025-mtf1-12: Integer precision
+Y-W-08010025-mag-12: Integer precision
+Y-W-08010025-faa-12: Integer precision
+# Errata: Data
+Y	08010025	1974-01-09T23:35:00.00	1	D-0-0	 NAV: on land
+?	08010025	1974-01-10T09:16:30.00	205	0-0-Q	 GRAD: mag excessive
+?	08010025	1974-01-10T09:28:00.00	213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010025	1974-01-10T09:50:00.00	229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010025	1974-01-10T16:03:48.00	429	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T16:08:17.94	430	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T16:11:30.00	431	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T16:12:42.00	432	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T16:15:23.94	435	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T22:05:42.00	588	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T22:05:54.00	589	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T22:07:54.00	590	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:14:17.94	637	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:15:36.00	639	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:16:48.00	641	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:18:05.94	642	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:19:30.00	643	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:21:05.94	644	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:22:54.00	645	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:24:36.00	646	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:26:00.00	648	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:27:17.94	649	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:28:30.00	651	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:29:42.00	652	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:30:54.00	655	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:32:23.94	657	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:34:42.00	658	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:46:17.94	661	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:50:30.00	662	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-10T23:58:17.94	665	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:03:30.00	667	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:05:30.00	668	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:05:42.00	669	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:05:54.00	670	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:07:54.00	672	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:10:17.94	674	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:13:23.94	676	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:16:11.94	678	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:19:17.94	679	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:21:30.00	680	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:23:00.00	681	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:24:23.94	682	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:26:05.94	683	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:26:30.00	684	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:29:05.94	685	0-Q-0	 VAL: mag invalid
+?	08010025	1974-01-11T00:31:11.94	687	0-Q-0	 VAL: mag invalid

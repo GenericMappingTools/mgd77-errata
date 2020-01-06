@@ -1,0 +1,28 @@
+# Cruise 06050041 ID L1180WO MGD77 FILE VERSION: 19871208 N_RECS: 4300
+# Examined: Fri May 21 15:06:13 2010 by mtchandl
+# Arguments:  -R233.2/236.6/45.7/48.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-06050041-H15-01: Invalid Gravity Departure Base Station Value: (9688711) [9688711]
+Y-W-06050041-nav-00: Flagged 0.02 % of records with bad navigation
+Y-E-06050041-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01579 b: -52.4903 rms: 54.3633 r: 0.992995 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	06050041	1980-10-19T14:44:00.00	1	D-0-0	 NAV: on land
+?	06050041	1980-10-19T15:05:00.00	2	D-0-0	 NAV: on land
+?	06050041	1980-10-21T00:16:00.00	950	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-21T00:48:00.00	971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-22T18:15:00.00	2003	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-24T15:31:00.00	3263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T14:40:00.00	3974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T14:41:00.00	3975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T14:59:00.00	3983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T15:00:00.00	3985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T15:30:00.00	3998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T15:42:00.00	4004	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T15:43:00.00	4005	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050041	1980-10-25T15:44:00.00	4007	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06050041	1980-10-26T05:10:00.00	4300	D-0-0	 NAV: on land

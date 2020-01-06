@@ -1,0 +1,42 @@
+# Cruise 02020095 ID A2097L01 MGD77 FILE VERSION: 19820805 N_RECS: 14945
+# Examined: Fri Apr  2 15:25:16 2010 by mtchandl
+# Arguments:  -R284.3/293.9/17.3/41.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020095-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-02020095-depth-01: RLS m: 1 b: 0 rms: 42.0609 r: 0.999633 sig: 1 dec: 0
+Y-I-02020095-faa-01: RLS m: 1.00178 b: 1.78887 rms: 5.47232 r: 0.997291 sig: 1 dec: 0
+N-E-02020095-faa-02: Regression slope 1.00178 different from 1. Recommended: [1]
+Y-W-02020095-faa-03: Regression offset 1.78887 different from 0.
+Y-I-02020095-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020095-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.89869 b: -5.22144 rms: 20.6417 r: 0.963754 sig: 1 dec: 0). [Recompute]
+Y-E-02020095-mag-07: Anomaly differs from mtf1-IGRF (m: 0.965533 b: -519.656 rms: 524.715 r: 0.966912 sig: 1 dec: 1). [Recompute]
+Y-W-02020095-twt-11: More recent bathymetry correction table available
+Y-W-02020095-mtf1-12: Integer precision
+Y-W-02020095-mag-12: Integer precision
+# Errata: Data
+Y	02020095	1978-01-06T18:15:00.00	1	D-0-0	 NAV: on land
+Y	02020095	1978-01-06T18:20:00.00	2	D-0-0	 NAV: on land
+Y	02020095	1978-01-06T18:25:00.00	3	D-0-0	 NAV: on land
+?	02020095	1978-01-13T09:30:00.00	4139	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-13T23:04:00.00	4532	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-13T23:20:00.00	4540	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-15T06:57:00.00	5384	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-15T14:23:00.00	5593	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-15T16:37:00.00	5645	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-15T16:53:00.00	5660	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-15T18:16:00.00	5743	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-15T20:22:00.00	5838	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-18T14:21:00.00	7458	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-18T20:00:00.00	7653	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-21T18:50:00.00	9048	0-0-KL	 GRAD: twt, depth excessive
+?	02020095	1978-01-22T15:30:00.00	9467	0-0-V	 GRAD: eot excessive
+?	02020095	1978-01-23T14:04:00.00	9870	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-29T15:30:00.00	12424	0-0-K	 GRAD: twt excessive
+?	02020095	1978-01-31T12:55:00.00	13136	0-0-K	 GRAD: twt excessive
+?	02020095	1978-02-01T11:20:00.00	13485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020095	1978-02-04T01:16:00.00	14623	0-0-KL	 GRAD: twt, depth excessive

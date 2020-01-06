@@ -1,0 +1,18 @@
+# Cruise 15040058 ID TSDY06WT MGD77 FILE VERSION: 19851028 N_RECS: 10794
+# Examined: Thu May 22 09:48:14 2008 by mtchandl
+# Arguments:  -R80.2/103.9/1.1/20.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040058-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040058-depth-01: RLS m: 1 b: 0 rms: 86.006 r: 0.997213 sig: 1 dec: 1
+Y-E-15040058-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.988416 b: -302.832 rms: 306.978 r: 0.926849 sig: 1 dec: 1). [Recompute]
+Y-W-15040058-twt-11: More recent bathymetry correction table available
+Y-W-15040058-mtf1-12: Integer precision
+Y-W-15040058-mag-12: Integer precision
+# Errata: Data
+?	15040058	1973-11-06T14:10:00.00	6981	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040058	1973-11-08T09:45:00.00	7504	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,23 @@
+# Cruise 01030105 ID V2601 MGD77 FILE VERSION: 19790920 N_RECS: 9333
+# Examined: Thu Jul  9 17:26:12 2009 by mtchandl
+# Arguments:  -R286.15/308.3/32.1/40.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030105-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01030105-depth-01: RLS m: 1 b: 0 rms: 13.8319 r: 0.999983 sig: 1 dec: 0
+Y-E-01030105-mag-07: Anomaly differs from mtf1-IGRF (m: 0.932351 b: -135.547 rms: 151.573 r: 0.912735 sig: 1 dec: 1). [Recompute]
+N-E-01030105-depth-08: Extended offset from grid [3-9333]
+Y-W-01030105-twt-11: More recent bathymetry correction table available
+Y-W-01030105-mtf1-12: Integer precision
+Y-W-01030105-mag-12: Integer precision
+# Errata: Data
+?	01030105	1968-08-09T16:16:00.00	6702	0-0-K	 GRAD: twt excessive
+?	01030105	1968-08-12T04:01:00.00	7612	0-0-K	 GRAD: twt excessive
+?	01030105	1968-08-13T23:35:00.00	8321	0-0-K	 GRAD: twt excessive
+?	01030105	1968-08-16T05:14:00.00	9331	D-0-0	 NAV: on land
+?	01030105	1968-08-16T05:30:00.00	9332	D-0-0	 NAV: on land
+Y	01030105	1968-08-16T07:02:00.00	9333	D-0-0	 NAV: on land

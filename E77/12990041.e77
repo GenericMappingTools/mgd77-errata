@@ -1,0 +1,14 @@
+# Cruise 12990041 ID 86104 MGD77 FILE VERSION: 19880608 N_RECS: 369
+# Examined: Mon Aug 30 16:00:50 2010 by mtchandl
+# Arguments:  -R269.3/274.3/67.15/69.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-12990041-depth-01: RLS m: 1.0325 b: 0 rms: 5.37863 r: 0.996725 sig: 1 dec: 0
+N-E-12990041-depth-02: Regression slope 1.0325 different from 1. Recommended: [1]
+# Errata: Data
+?	12990041	2106.96	137	D-0-0	 NAV: on land
+?	12990041	2181.42	145	D-0-0	 NAV: on land

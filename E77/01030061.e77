@@ -1,0 +1,21 @@
+# Cruise 01030061 ID V2012 MGD77 FILE VERSION: 19790619 N_RECS: 2815
+# Examined: Thu Jul  9 16:37:33 2009 by mtchandl
+# Arguments:  -R295.4/329.9/-8.1/33.8 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa offset near ~4600 km along-track.
+# Errata: Header
+Y-I-01030061-depth-01: RLS m: 0.998881 b: 0 rms: 12.4455 r: 0.999986 sig: 1 dec: 0
+N-E-01030061-depth-02: Regression slope 0.998881 different from 1. Recommended: [1]
+Y-I-01030061-faa-01: RLS m: 1.03749 b: 9.23788 rms: 29.258 r: 0.83427 sig: 1 dec: 1
+Y-W-01030061-faa-03: Regression offset 9.23788 different from 0.
+Y-E-01030061-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995931 b: -34.9818 rms: 89.64 r: 0.858202 sig: 1 dec: 1). [Recompute]
+N-E-01030061-depth-08: Extended offset from grid [5-2815]
+Y-W-01030061-twt-11: More recent bathymetry correction table available
+Y-W-01030061-mtf1-12: Integer precision
+Y-W-01030061-mag-12: Integer precision
+# Errata: Data
+?	01030061	1964-11-29T23:15:00.00	2368	0-0-K	 GRAD: twt excessive
+?	01030061	1964-12-02T07:47:00.00	2673	0-Q-0	 VAL: mag invalid

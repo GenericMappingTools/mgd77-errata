@@ -1,0 +1,34 @@
+# Cruise 67010120 ID 83000111 MGD77 FILE VERSION: 19860605 N_RECS: 16531
+# Examined: Sat Jul 30 19:19:57 2011 by mtchandl
+# Arguments:  -R-40.3/-6.55/29.95/48.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010120-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-67010120-depth-01: RLS m: 1 b: 0 rms: 13.0227 r: 0.999854 sig: 1 dec: 0
+Y-W-67010120-depth-12: Integer precision
+# Errata: Data
+Y	67010120	1983-06-23T19:52:00.00	2225	C-0-0	 NAV: excessive speed
+Y	67010120	1983-06-25T17:06:00.00	3453	C-0-0	 NAV: excessive speed
+Y	67010120	1983-06-25T18:07:00.00	3510	C-0-0	 NAV: excessive speed
+Y	67010120	1983-06-26T04:09:00.00	4084	C-0-0	 NAV: excessive speed
+Y	67010120	1983-06-26T05:08:00.00	4143	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:30:00.00	10671	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:43:00.00	10684	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:44:00.00	10685	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:45:00.00	10686	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:46:00.00	10687	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:47:00.00	10688	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:48:00.00	10689	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:49:00.00	10690	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-02T21:50:00.00	10691	C-0-0	 NAV: excessive speed
+?	67010120	1983-07-04T15:42:00.00	12554	0-0-L	 GRAD: depth excessive
+?	67010120	1983-07-05T01:51:00.00	12597	0-0-L	 GRAD: depth excessive
+Y	67010120	1983-07-08T12:02:00.00	14167	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-08T12:03:00.00	14168	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-08T12:04:00.00	14169	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-08T12:05:00.00	14170	C-0-0	 NAV: excessive speed
+Y	67010120	1983-07-09T11:58:00.00	15333	C-0-0	 NAV: excessive speed

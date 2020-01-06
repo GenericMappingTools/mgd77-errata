@@ -1,0 +1,23 @@
+# Cruise J1010068 ID HT93T294 MGD77 FILE VERSION: 19980513 N_RECS: 178
+# Examined: Sat Aug  6 18:12:50 2011 by mtchandl
+# Arguments:  -R140/141.85/21/23.8 -Imag,1,178 -Llimits.d -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all magnetics as bad (all zeros).
+# Errata: Header
+N-E-J1010068-H04-03: Invalid Survey Departure Day: (04) [06]
+N-E-J1010068-H04-06: Invalid Survey Arrival Day: (21) [08]
+Y-W-J1010068-H13-10: Survey year (1993) outside magnetic reference field IGRF1990 time range (1995-2000)
+Y-E-J1010068-H15-01: Invalid Gravity Departure Base Station Value: (  -8704) [  -8704]
+Y-E-J1010068-H15-03: Invalid Gravity Arrival Base Station Value: (  -8704) [  -8704]
+Y-I-J1010068-depth-01: RLS m: 1 b: 0 rms: 27.7598 r: 0.999788 sig: 1 dec: 0
+Y-I-J1010068-faa-01: RLS m: 1.04643 b: -3.04661 rms: 4.16421 r: 0.991359 sig: 1 dec: 0
+N-E-J1010068-faa-02: Regression slope 1.04643 different from 1. Recommended: [1]
+Y-W-J1010068-faa-03: Regression offset -3.04661 different from 0.
+Y-W-J1010068-faa-09: all values greater than or equal to zero
+Y-E-J1010068-mag-10: Invalid data records: [1-178]
+Y-W-J1010068-depth-12: Integer precision
+Y-W-J1010068-faa-12: Integer precision
+# Errata: Data

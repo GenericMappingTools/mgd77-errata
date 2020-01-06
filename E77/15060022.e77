@@ -1,0 +1,17 @@
+# Cruise 15060022 ID PAPA03BD MGD77 FILE VERSION: 19800226 N_RECS: 1952
+# Examined: Sat May 31 10:19:18 2008 by mtchandl
+# Arguments:  -R239.45/255.65/15.95/32.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15060022-depth-01: RLS m: 1 b: 0 rms: 141.005 r: 0.988412 sig: 1 dec: 1
+Y-E-15060022-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.08632 b: -27.9645 rms: 91.1568 r: 0.858435 sig: 1 dec: 1). [Recompute]
+Y-W-15060022-twt-11: More recent bathymetry correction table available
+Y-W-15060022-mtf1-12: Integer multiple of 5 precision
+Y-W-15060022-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060022	1965-08-03T16:30:00.00	414	0-0-K	 GRAD: twt excessive
+?	15060022	1965-08-04T14:54:00.00	604	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

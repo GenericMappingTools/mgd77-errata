@@ -1,0 +1,137 @@
+# Cruise 05010002 ID CP7602 MGD77 FILE VERSION: 19840921 N_RECS: 16596
+# Examined: Fri Apr 30 13:10:31 2010 by mtchandl
+# Arguments:  -R164.95/181.3/-55.65/-42.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010002-time-01: 1 of 16596 records contain invalid time
+N-E-05010002-H04-06: Invalid Survey Arrival Day: (30) [29]
+Y-W-05010002-H13-09: Unknown IGRF specified (PGRF-75)
+N-E-05010002-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-05010002-H16-06: Ten Degree Identifier 5418 not marked in header but block was crossed
+Y-W-05010002-nav-00: Flagged 0.32 % of records with bad navigation
+Y-I-05010002-depth-01: RLS m: 1.0035 b: 0 rms: 16.4421 r: 0.999664 sig: 1 dec: 0
+N-E-05010002-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-E-05010002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999062 b: -24.4341 rms: 29.0083 r: 0.998642 sig: 1 dec: 1). [Recompute]
+Y-W-05010002-depth-12: Integer precision
+Y-W-05010002-mtf1-12: Integer precision
+Y-W-05010002-mag-12: Integer precision
+# Errata: Data
+Y	05010002	1976-11-16T07:26:18.00	4	C-0-0	 NAV: excessive speed
+?	05010002	1976-11-16T12:26:36.00	280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T12:31:48.00	283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T12:59:48.00	315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T13:02:24.00	318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T13:15:30.00	326	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T14:38:24.00	421	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-16T14:58:30.00	444	0-0-O	 GRAD: mtf1 excessive
+Y	05010002	1976-11-16T21:34:42.00	895	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-17T06:07:06.00	1473	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-18T00:43:12.00	2362	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-18T12:01:30.00	3118	C-0-0	 NAV: excessive speed
+?	05010002	1976-11-18T22:45:42.00	3829	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-18T22:46:36.00	3830	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-18T22:56:18.00	3835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T06:46:48.00	3866	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T06:49:30.00	3869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T06:50:24.00	3870	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T06:53:06.00	3872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:07:18.00	3888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:08:18.00	3889	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:09:06.00	3890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:14:30.00	3896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:15:24.00	3897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:19:48.00	3898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:26:00.00	3905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:27:00.00	3906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:29:36.00	3909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T07:30:30.00	3910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T12:59:18.00	4268	0-0-Q	 GRAD: mag excessive
+?	05010002	1976-11-19T14:13:18.00	4349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T15:48:30.00	4452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T16:03:30.00	4469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T18:45:18.00	4633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T19:11:00.00	4662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T19:44:36.00	4690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T19:53:24.00	4694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T20:23:06.00	4729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T20:32:00.00	4731	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T20:38:06.00	4738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-19T20:42:30.00	4739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-20T08:43:12.00	5406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-20T08:45:00.00	5408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-20T08:46:42.00	5410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-20T08:48:30.00	5412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-20T09:17:36.00	5445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-21T00:44:48.00	6434	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05010002	1976-11-21T09:09:36.00	6958	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-21T11:16:06.00	7081	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-22T02:04:06.00	7849	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-22T02:04:42.00	7852	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-22T02:38:18.00	7895	C-0-0	 NAV: excessive speed
+?	05010002	1976-11-22T08:01:00.00	8183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-22T08:32:48.00	8220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-22T09:56:12.00	8303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-22T10:27:06.00	8333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-22T15:41:36.00	8690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-23T01:44:48.00	8704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-23T01:47:30.00	8707	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05010002	1976-11-23T03:09:00.00	8783	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-23T06:29:18.00	8973	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-26T11:00:00.00	13354	B-0-0	 NAV: non-increasing time
+?	05010002	1976-11-26T12:33:06.00	13449	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T12:47:24.00	13451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T15:58:00.00	13648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:06:00.00	13653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:07:42.00	13655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:09:24.00	13657	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:20:48.00	13670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:22:36.00	13672	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:24:18.00	13674	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:26:06.00	13676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010002	1976-11-26T16:27:48.00	13678	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05010002	1976-11-26T22:08:06.00	14015	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:08:48.00	14016	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:09:36.00	14017	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:10:30.00	14018	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:11:24.00	14019	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:12:18.00	14020	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:13:12.00	14021	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:36:06.00	14022	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:37:00.00	14023	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:38:00.00	14024	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:38:48.00	14025	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:39:36.00	14026	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:40:30.00	14027	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:41:24.00	14028	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:42:18.00	14029	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:43:12.00	14030	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:44:00.00	14031	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:45:00.00	14032	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:45:48.00	14033	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:46:42.00	14034	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:47:36.00	14035	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:48:30.00	14036	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:49:18.00	14037	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:50:12.00	14038	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:51:06.00	14039	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:52:00.00	14040	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:53:00.00	14041	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:53:48.00	14042	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:54:36.00	14043	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:55:30.00	14044	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:56:24.00	14045	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:57:18.00	14046	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T22:58:12.00	14047	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T23:01:42.00	14048	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T23:07:00.00	14049	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T23:08:00.00	14050	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T23:08:48.00	14051	B-0-0	 NAV: non-increasing time
+Y	05010002	1976-11-26T23:09:36.00	14052	B-0-0	 NAV: non-increasing time
+?	05010002	1976-11-26T23:52:00.00	14081	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05010002	NaN	14255	E-0-0	 NAV: navigation undefined
+Y	05010002	1976-11-27T19:24:30.00	15269	C-0-0	 NAV: excessive speed
+Y	05010002	1976-11-27T20:27:18.00	15333	C-0-0	 NAV: excessive speed

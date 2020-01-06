@@ -1,0 +1,47 @@
+# Cruise 03010015 ID UMPPION MGD77 FILE VERSION: 19980205 N_RECS: 15332
+# Examined: Fri Apr  9 13:21:15 2010 by mtchandl
+# Arguments:  -R226.85/239.25/30.05/39.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-03010015-H11-03: Invalid Bottommost Latitude: (+34) [+30]
+Y-E-03010015-H15-01: Invalid Gravity Departure Base Station Value: (97996.9) [97996.9]
+Y-E-03010015-H15-03: Invalid Gravity Arrival Base Station Value: (97999.5) [97999.5]
+Y-W-03010015-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-03010015-depth-01: RLS m: 1 b: 0 rms: 18.2247 r: 0.999881 sig: 1 dec: 0
+Y-I-03010015-faa-01: RLS m: 0.979837 b: -5.10797 rms: 14.1955 r: 0.926778 sig: 1 dec: 1
+Y-W-03010015-faa-03: Regression offset -5.10797 different from 0.
+N-E-03010015-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-03010015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99652 b: -149.357 rms: 152.824 r: 0.992837 sig: 1 dec: 1). [Recompute]
+Y-W-03010015-depth-12: Integer precision
+Y-W-03010015-mtf1-12: Integer precision
+Y-W-03010015-mag-12: Integer precision
+Y-W-03010015-gobs-12: Integer precision
+Y-W-03010015-faa-12: Integer precision
+# Errata: Data
+Y	03010015	1965-07-28T04:05:00.00	2030	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	03010015	1965-07-30T00:25:00.00	2560	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010015	1965-07-30T00:30:00.00	2561	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03010015	1965-08-21T21:15:00.00	6775	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-08-21T21:20:00.00	6777	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-08-21T21:25:00.00	6779	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-08-21T21:30:00.00	6781	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-08-21T21:35:00.00	6783	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-08-21T21:40:00.00	6785	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T13:45:00.00	9795	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T13:50:00.00	9797	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T13:55:00.00	9799	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T14:00:00.00	9801	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T14:05:00.00	9803	B-0-0	 NAV: non-increasing time
+Y	03010015	1965-09-01T14:10:00.00	9805	B-0-0	 NAV: non-increasing time
+?	03010015	1965-09-24T17:25:00.00	12606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-24T17:30:00.00	12607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-24T17:45:00.00	12610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-24T22:10:00.00	12663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-24T22:15:00.00	12664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-25T01:40:00.00	12705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010015	1965-09-25T03:25:00.00	12726	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010015	1965-09-25T03:30:00.00	12727	0-0-OQ	 GRAD: mtf1, mag excessive

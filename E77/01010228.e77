@@ -1,0 +1,18 @@
+# Cruise 01010228 ID RC2403 MGD77 FILE VERSION: 19870305 N_RECS: 6367
+# Examined: Fri Mar 19 00:41:42 2010 by mtchandl
+# Arguments:  -R-14.2/3.55/-8.4/5.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01010228-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-01010228-depth-01: RLS m: 1 b: 0 rms: 24.8082 r: 0.999067 sig: 1 dec: 0
+Y-W-01010228-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01010228	1983-03-20T17:48:00.00	1406	0-0-KL	 GRAD: twt, depth excessive
+Y	01010228	1983-03-24T08:46:00.00	2341	C-0-0	 NAV: excessive speed
+?	01010228	1983-04-01T16:36:00.00	4380	0-0-KL	 GRAD: twt, depth excessive
+?	01010228	1983-04-02T03:06:00.00	4489	0-0-K	 GRAD: twt excessive
+?	01010228	1983-04-05T18:06:00.00	5370	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,63 @@
+# Cruise J2020001 ID NATSUS84 MGD77 FILE VERSION: 19961230 N_RECS: 7686
+# Examined: Fri Jul 10 20:58:06 2009 by mtchandl
+# Arguments:  -R178.2/188.1/-18.75/-14.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-J2020001-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-W-J2020001-nav-00: Flagged 0.16 % of records with excessive speed or invalid navigation
+Y-I-J2020001-depth-01: RLS m: 0.998556 b: 0 rms: 4.68377 r: 0.999992 sig: 1 dec: 0
+N-E-J2020001-depth-02: Regression slope 0.998556 different from 1. Recommended: [1]
+Y-E-J2020001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00019 b: -12.3359 rms: 15.7076 r: 0.999488 sig: 1 dec: 1). [Recompute]
+N-E-J2020001-depth-08: Extended offset from grid [4-3638]
+N-E-J2020001-depth-08: Extended offset from grid [3647-7686]
+Y-W-J2020001-twt-11: More recent bathymetry correction table available
+Y-W-J2020001-depth-12: Integer precision
+Y-W-J2020001-mtf1-12: Integer precision
+# Errata: Data
+?	J2020001	1984-11-15T03:46:00.00	130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-22T06:36:00.00	974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-22T12:51:00.00	1105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-22T13:06:00.00	1111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-24T01:46:00.00	1977	0-0-KL	 GRAD: twt, depth excessive
+?	J2020001	1984-11-24T02:36:00.00	1997	0-0-K	 GRAD: twt excessive
+?	J2020001	1984-11-24T03:16:00.00	2013	0-0-K	 GRAD: twt excessive
+?	J2020001	1984-11-25T23:36:00.00	2157	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-27T23:00:00.00	2563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-28T01:00:00.00	2611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-28T01:05:00.00	2613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-28T01:15:00.00	2617	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-28T01:20:00.00	2619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-28T01:25:00.00	2621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-29T00:22:00.00	3171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-11-29T00:27:00.00	3173	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2020001	1984-12-01T00:02:00.00	3648	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:03:00.00	3649	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:07:00.00	3650	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:08:00.00	3651	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:12:00.00	3652	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:13:00.00	3653	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:17:00.00	3654	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:18:00.00	3655	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:22:00.00	3656	C-0-0	 NAV: excessive speed
+Y	J2020001	1984-12-01T00:23:00.00	3657	C-0-0	 NAV: excessive speed
+?	J2020001	1984-12-02T16:44:00.00	4093	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T16:49:00.00	4094	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T17:14:00.00	4099	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T17:19:00.00	4100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T17:24:00.00	4101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T17:29:00.00	4102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-02T17:34:00.00	4103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-03T00:19:00.00	4184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-03T19:30:00.00	4266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-07T02:05:00.00	5794	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-07T02:10:00.00	5795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-11T05:24:00.00	6629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-11T17:09:00.00	6911	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2020001	1984-12-12T11:11:00.00	7342	C-0-0	 NAV: excessive speed
+?	J2020001	1984-12-12T11:50:00.00	7357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2020001	1984-12-12T12:00:00.00	7361	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2020001	1984-12-13T01:31:00.00	7686	C-0-0	 NAV: excessive speed

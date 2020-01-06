@@ -1,0 +1,65 @@
+# Cruise 67010174 ID 87001211 MGD77 FILE VERSION: 19931231 N_RECS: 16237
+# Examined: Fri Jul 10 20:40:16 2009 by mtchandl
+# Arguments:  -R166.6/210.45/-22.45/-17.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Recommend not recomputing faa - recomputing faa using gobs-IGF80+eot introduces error by applying eotvos twice.
+# Errata: Header
+Y-W-67010174-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-67010174-depth-01: RLS m: 0.999589 b: 0 rms: 32.3974 r: 0.999771 sig: 1 dec: 0
+N-E-67010174-depth-02: Regression slope 0.999589 different from 1. Recommended: [1]
+Y-I-67010174-faa-01: RLS m: 0.996456 b: -1.46905 rms: 3.45767 r: 0.998194 sig: 1 dec: 0
+N-E-67010174-faa-02: Regression slope 0.996456 different from 1. Recommended: [1]
+Y-W-67010174-faa-03: Regression offset -1.46905 different from 0.
+Y-I-67010174-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010174-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.949817 b: 71.5324 rms: 76.7024 r: 0.990339 sig: 1 dec: 1). [Recompute]
+Y-E-67010174-mag-07: Anomaly differs from mtf1-IGRF (m: 0.98445 b: -39.689 rms: 48.7797 r: 0.996438 sig: 1 dec: 1). [Recompute]
+N-E-67010174-faa-08: Extended offset from grid [7726-12411]
+N-E-67010174-depth-08: Extended offset from grid [159-16237]
+Y-W-67010174-depth-12: Integer precision
+Y-W-67010174-mtf1-12: Integer precision
+Y-W-67010174-mag-12: Integer precision
+# Errata: Data
+?	67010174	1987-03-28T20:30:00.00	96	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-03-28T20:31:00.00	97	0-0-V	 GRAD: eot excessive
+?	67010174	1987-03-31T02:47:00.00	3339	0-0-K	 GRAD: twt excessive
+?	67010174	1987-04-02T03:00:00.00	6232	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-02T22:53:00.00	7425	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-03T01:09:00.00	7561	0-0-K	 GRAD: twt excessive
+?	67010174	1987-04-03T09:18:00.00	8050	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-04T00:41:00.00	8973	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-04T11:54:00.00	9646	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-04T11:55:00.00	9647	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-04T23:43:00.00	10355	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T06:37:00.00	10769	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T06:38:00.00	10770	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-05T06:39:00.00	10771	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-05T09:28:00.00	10940	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T09:59:00.00	10971	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T10:01:00.00	10973	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-05T10:02:00.00	10974	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-05T11:33:00.00	11065	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T13:20:00.00	11172	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-05T13:44:00.00	11196	0-0-V	 GRAD: eot excessive
+?	67010174	1987-04-06T05:23:00.00	12135	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-07T06:53:00.00	13665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:54:00.00	13666	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:55:00.00	13667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:56:00.00	13668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:57:00.00	13669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:58:00.00	13670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T06:59:00.00	13671	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T07:00:00.00	13672	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010174	1987-04-07T07:08:00.00	13680	0-Q-0	 VAL: mag invalid
+?	67010174	1987-04-07T07:09:00.00	13681	0-Q-0	 VAL: mag invalid
+?	67010174	1987-04-07T07:10:00.00	13682	0-Q-0	 VAL: mag invalid
+?	67010174	1987-04-07T07:11:00.00	13683	0-Q-0	 VAL: mag invalid
+?	67010174	1987-04-07T07:12:00.00	13684	0-Q-0	 VAL: mag invalid
+?	67010174	1987-04-07T18:57:00.00	14389	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010174	1987-04-08T20:30:00.00	15922	0-0-K	 GRAD: twt excessive
+?	67010174	1987-04-08T23:03:00.00	16075	0-0-UW	 GRAD: gobs, faa excessive
+?	67010174	1987-04-09T00:43:00.00	16175	D-0-0	 NAV: on land
+Y	67010174	1987-04-09T00:44:00.00	16176	D-0-0	 NAV: on land
+?	67010174	1987-04-09T00:45:00.00	16177	D-0-0	 NAV: on land

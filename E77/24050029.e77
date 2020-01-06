@@ -1,0 +1,50 @@
+# Cruise 24050029 ID GA-0096 MGD77 FILE VERSION: 20080519 N_RECS: 34114
+# Examined: Thu Feb  3 14:13:55 2011 by mtchandl
+# Arguments:  -R107.75/120.2/-32.05/-12.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some bathymetry outliers.
+# Errata: Header
+N-E-24050029-H04-06: Invalid Survey Arrival Day: (11) [10]
+N-E-24050029-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050029-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050029-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050029-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050029-H16-06: Ten Degree Identifier 3112 not marked in header but block was crossed
+Y-W-24050029-H16-06: Ten Degree Identifier 3210 not marked in header but block was crossed
+Y-W-24050029-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-W-24050029-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-24050029-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-24050029-depth-01: RLS m: 1.00099 b: 0 rms: 115.867 r: 0.997164 sig: 1 dec: 0
+N-E-24050029-depth-02: Regression slope 1.00099 different from 1. Recommended: [1]
+Y-W-24050029-twt-11: More recent bathymetry correction table available
+Y-W-24050029-depth-12: Integer precision
+# Errata: Data
+Y	24050029	1990-09-05T05:22:00.00	26008	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:23:00.00	26009	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:24:00.00	26010	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:25:00.00	26011	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:26:00.00	26012	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:27:00.00	26013	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:28:00.00	26014	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:29:00.00	26015	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:30:00.00	26016	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:31:00.00	26017	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:32:00.00	26018	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:33:00.00	26019	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:34:00.00	26020	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:35:00.00	26021	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:36:00.00	26022	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:37:00.00	26023	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:38:00.00	26024	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:39:00.00	26025	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:40:00.00	26026	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:41:00.00	26027	C-0-0	 NAV: excessive speed
+Y	24050029	1990-09-05T05:42:00.00	26028	C-0-0	 NAV: excessive speed
+?	24050029	1990-09-06T08:57:00.00	27634	0-0-KL	 GRAD: twt, depth excessive
+?	24050029	1990-09-06T08:58:00.00	27635	0-0-KL	 GRAD: twt, depth excessive
+?	24050029	1990-09-08T15:25:00.00	30800	0-0-KL	 GRAD: twt, depth excessive
+?	24050029	1990-09-10T11:56:00.00	33471	0-0-K	 GRAD: twt excessive
+Y	24050029	1990-09-10T22:38:00.00	34113	B-0-0	 NAV: non-increasing time

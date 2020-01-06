@@ -1,0 +1,49 @@
+# Cruise 11010002 ID DF86 MGD77 FILE VERSION: 19880322 N_RECS: 1340
+# Examined: Tue Aug 24 14:06:19 2010 by mtchandl
+# Arguments:  -R289.05/306.8/-68.65/-60.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-11010002-H11-06: Invalid Rightmost Longitude: (-054) [-053]
+Y-W-11010002-nav-00: Flagged 2.76 % of records with bad navigation
+Y-I-11010002-depth-01: RLS m: 0.996191 b: 0 rms: 66.3791 r: 0.991396 sig: 1 dec: 0
+N-E-11010002-twt-13: Encountered possible PDR wrap errors (11.4) [10.0]
+# Errata: Data
+Y	11010002	1986-01-24T02:15:00.00	14	C-0-0	 NAV: excessive speed
+Y	11010002	1986-01-26T01:30:00.00	131	C-0-0	 NAV: excessive speed
+Y	11010002	1986-01-26T09:45:00.00	146	C-0-0	 NAV: excessive speed
+Y	11010002	1986-01-27T05:30:00.00	159	C-0-0	 NAV: excessive speed
+Y	11010002	1986-01-28T17:32:00.00	246	C-0-0	 NAV: excessive speed
+Y	11010002	1986-01-31T19:00:00.00	438	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-01T21:18:00.00	473	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-01T21:30:00.00	474	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-01T21:46:00.00	475	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-01T22:00:00.00	476	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-02T08:30:00.00	498	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-02T11:45:00.00	511	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T08:15:00.00	567	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T19:15:00.00	601	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T19:30:00.00	602	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T19:45:00.00	603	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T21:30:00.00	609	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-03T23:52:00.00	614	D-0-0	 NAV: on land
+Y	11010002	1986-02-04T00:00:00.00	615	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-04T03:05:00.00	627	D-0-0	 NAV: on land
+Y	11010002	1986-02-06T20:55:00.00	813	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-07T12:30:00.00	832	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-07T15:32:00.00	843	CD-0-0	 NAV: excessive speed, on land
+?	11010002	1986-02-07T17:15:00.00	850	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+Y	11010002	1986-02-08T00:48:00.00	876	D-0-0	 NAV: on land
+Y	11010002	1986-02-08T02:02:00.00	879	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-08T16:40:00.00	900	D-0-0	 NAV: on land
+Y	11010002	1986-02-08T17:18:00.00	902	D-0-0	 NAV: on land
+Y	11010002	1986-02-10T11:15:00.00	986	D-0-0	 NAV: on land
+Y	11010002	1986-02-11T14:15:00.00	1034	CD-0-0	 NAV: excessive speed, on land
+Y	11010002	1986-02-11T21:30:00.00	1061	CD-0-0	 NAV: excessive speed, on land
+Y	11010002	1986-02-12T15:15:00.00	1107	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-13T11:00:00.00	1170	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-16T02:30:00.00	1318	C-0-0	 NAV: excessive speed
+Y	11010002	1986-02-16T07:00:00.00	1327	C-0-0	 NAV: excessive speed

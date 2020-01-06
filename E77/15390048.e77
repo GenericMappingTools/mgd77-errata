@@ -1,0 +1,22 @@
+# Cruise 15390048 ID SEAW04RR MGD77 FILE VERSION: 20040602 N_RECS: 18656
+# Examined: Thu Jun  5 00:20:49 2008 by mtchandl
+# Arguments:  -R193.45/202.15/21.2/28.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15390048-H04-03: Invalid Survey Departure Day: (28) [29]
+N-E-15390048-H04-06: Invalid Survey Arrival Day: (11) [10]
+Y-W-15390048-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15390048-depth-01: RLS m: 1 b: 0 rms: 250.917 r: 0.989096 sig: 1 dec: 1
+Y-W-15390048-depth-12: Integer precision
+# Errata: Data
+Y	15390048	2001-03-29T00:49:00.00	1	D-0-0	 NAV: on land
+Y	15390048	2001-03-29T00:50:00.00	2	D-0-0	 NAV: on land
+?	15390048	2001-03-29T00:51:00.00	3	D-0-0	 NAV: on land
+?	15390048	2001-03-29T04:05:00.00	194	0-0-KL	 GRAD: twt, depth excessive
+?	15390048	2001-04-10T06:54:00.00	17634	0-0-K	 GRAD: twt excessive
+?	15390048	2001-04-10T06:55:00.00	17635	0-0-KL	 GRAD: twt, depth excessive
+?	15390048	2001-04-10T06:56:00.00	17636	0-0-KL	 GRAD: twt, depth excessive

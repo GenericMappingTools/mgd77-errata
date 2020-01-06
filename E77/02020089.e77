@@ -1,0 +1,87 @@
+# Cruise 02020089 ID A2096L03 MGD77 FILE VERSION: 19820805 N_RECS: 15219
+# Examined: Fri Apr  2 15:21:19 2010 by mtchandl
+# Arguments:  -R295.25/319.85/22.8/32.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020089-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-02020089-depth-01: RLS m: 0.997211 b: 0 rms: 93.482 r: 0.994824 sig: 1 dec: 0
+N-E-02020089-depth-02: Regression slope 0.997211 different from 1. Recommended: [1]
+Y-I-02020089-faa-01: RLS m: 1.0394 b: 0.72096 rms: 11.2428 r: 0.995432 sig: 1 dec: 1
+N-E-02020089-faa-02: Regression slope 1.0394 different from 1. Recommended: [1]
+Y-I-02020089-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020089-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.468335 b: 2.16712 rms: 46.2202 r: 0.713023 sig: 1 dec: 1). [Recompute]
+Y-E-02020089-mag-07: Anomaly differs from mtf1-IGRF (m: 0.679711 b: -529.652 rms: 550.215 r: 0.576962 sig: 1 dec: 1). [Recompute]
+Y-W-02020089-mag-09: only found negative values
+Y-W-02020089-twt-11: More recent bathymetry correction table available
+Y-W-02020089-mtf1-12: Integer precision
+Y-W-02020089-mag-12: Integer precision
+# Errata: Data
+Y	02020089	1977-11-01T13:05:00.00	1	D-0-0	 NAV: on land
+Y	02020089	1977-11-01T13:10:00.00	2	D-0-0	 NAV: on land
+Y	02020089	1977-11-01T13:15:00.00	3	D-0-0	 NAV: on land
+Y	02020089	1977-11-01T13:20:00.00	4	D-0-0	 NAV: on land
+Y	02020089	1977-11-01T13:25:00.00	5	D-0-0	 NAV: on land
+?	02020089	1977-11-01T13:30:00.00	6	D-0-0	 NAV: on land
+?	02020089	1977-11-03T00:20:00.00	819	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-03T00:50:00.00	834	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-03T03:22:00.00	900	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-03T10:01:00.00	1066	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-04T02:47:00.00	1524	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-04T03:50:00.00	1553	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-05T07:51:00.00	2292	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-07T02:45:00.00	3088	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-08T15:15:00.00	3814	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-08T17:30:00.00	3842	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-08T21:20:00.00	3890	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-11T15:37:00.00	5135	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-11T15:45:00.00	5138	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-11T20:10:00.00	5213	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-12T22:15:00.00	5773	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-12T22:20:00.00	5774	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-13T00:40:00.00	5809	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-13T00:50:00.00	5813	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-13T01:00:00.00	5817	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-13T06:25:00.00	5981	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-13T12:05:00.00	6086	0-0-KV	 GRAD: twt, eot excessive
+?	02020089	1977-11-13T19:40:00.00	6186	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-13T23:40:00.00	6271	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-14T02:45:00.00	6312	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-17T01:42:00.00	7467	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-17T01:43:00.00	7468	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-17T01:44:00.00	7469	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-17T06:00:00.00	7545	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-17T12:36:00.00	7643	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-19T05:30:00.00	8192	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-19T17:27:00.00	8354	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-20T01:25:00.00	8506	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-20T01:45:00.00	8513	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-20T05:05:00.00	8560	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-20T16:18:00.00	8710	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-20T19:25:00.00	8764	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-21T04:00:00.00	8918	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-21T06:15:00.00	8967	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-21T08:30:00.00	9005	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-21T14:42:00.00	9101	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-21T20:55:00.00	9193	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-22T00:00:00.00	9246	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-22T04:15:00.00	9314	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-22T20:35:00.00	9629	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-23T03:15:00.00	9730	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-23T05:00:00.00	9753	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-23T06:15:00.00	9769	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-23T08:20:00.00	9794	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-24T00:35:00.00	10018	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-26T10:20:00.00	11303	0-0-V	 GRAD: eot excessive
+?	02020089	1977-11-28T03:35:00.00	12464	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-30T00:10:00.00	13672	0-0-K	 GRAD: twt excessive
+?	02020089	1977-11-30T00:21:00.00	13678	0-0-KL	 GRAD: twt, depth excessive
+?	02020089	1977-11-30T01:52:00.00	13719	0-0-K	 GRAD: twt excessive
+Y	02020089	1977-12-02T11:10:00.00	15215	D-0-0	 NAV: on land
+Y	02020089	1977-12-02T11:15:00.00	15216	D-0-0	 NAV: on land
+Y	02020089	1977-12-02T11:20:00.00	15217	D-0-0	 NAV: on land
+Y	02020089	1977-12-02T11:25:00.00	15218	D-0-0	 NAV: on land
+Y	02020089	1977-12-02T11:30:00.00	15219	D-0-0	 NAV: on land

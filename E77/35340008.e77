@@ -1,0 +1,28 @@
+# Cruise 35340008 ID 26869G MGD77 FILE VERSION: 19880322 N_RECS: 17414
+# Examined: Wed Jul 27 19:27:52 2011 by mtchandl
+# Arguments:  -R15/20/35/40 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged depth offsets.
+# Errata: Header
+Y-W-35340008-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-35340008-depth-01: RLS m: 1.00388 b: 0 rms: 70.4302 r: 0.998881 sig: 1 dec: 0
+N-E-35340008-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-E-35340008-depth-08: Extended offset from grid [4830-5027]
+Y-E-35340008-depth-08: Extended offset from grid [7643-7961]
+Y-E-35340008-depth-08: Extended offset from grid [15506-15703]
+Y-W-35340008-depth-12: Integer precision
+# Errata: Data
+?	35340008	9809.52	3595	0-0-L	 GRAD: depth excessive
+?	35340008	14732.2	6797	D-0-0	 NAV: on land
+Y	35340008	14733.5	6798	D-0-0	 NAV: on land
+Y	35340008	14734.8	6799	D-0-0	 NAV: on land
+Y	35340008	14736.2	6800	D-0-0	 NAV: on land
+Y	35340008	14737.5	6801	D-0-0	 NAV: on land
+Y	35340008	15028.7	7044	D-0-0	 NAV: on land
+Y	35340008	17732.9	8940	D-0-0	 NAV: on land
+Y	35340008	17734	8941	D-0-0	 NAV: on land
+Y	35340008	26141.9	13689	D-0-0	 NAV: on land
+Y	35340008	26143.1	13690	D-0-0	 NAV: on land

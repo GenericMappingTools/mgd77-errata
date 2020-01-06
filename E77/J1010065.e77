@@ -1,0 +1,46 @@
+# Cruise J1010065 ID HT93T291 MGD77 FILE VERSION: 19980513 N_RECS: 146
+# Examined: Sat Aug  6 18:24:21 2011 by mtchandl
+# Arguments:  -R140.8/143/23.75/24.1 -Llimits.d -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged largest faa gradients to remove false zero values. Magnetic anomalies could be outdated, no total field data for recalculation.
+# Errata: Header
+N-E-J1010065-H04-03: Invalid Survey Departure Day: (08) [18]
+N-E-J1010065-H04-06: Invalid Survey Arrival Day: (22) [19]
+Y-W-J1010065-H13-10: Survey year (1993) outside magnetic reference field IGRF1990 time range (1995-2000)
+Y-E-J1010065-H15-01: Invalid Gravity Departure Base Station Value: (  -9612) [  -9612]
+Y-E-J1010065-H15-03: Invalid Gravity Arrival Base Station Value: (  -9622) [  -9622]
+Y-I-J1010065-depth-01: RLS m: 1.00093 b: 0 rms: 17.7287 r: 0.999639 sig: 1 dec: 0
+Y-I-J1010065-faa-01: RLS m: 0.997416 b: -4.23846 rms: 5.89256 r: 0.994109 sig: 1 dec: 1
+Y-W-J1010065-faa-03: Regression offset -4.23846 different from 0.
+Y-W-J1010065-depth-12: Integer multiple of 5 precision
+Y-W-J1010065-mag-12: Integer precision
+Y-W-J1010065-faa-12: Integer precision
+# Errata: Data
+Y	J1010065	1993-01-18T02:10:00.00	2	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T02:40:00.00	5	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T05:40:00.00	22	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T06:50:00.00	29	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T07:10:00.00	31	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T07:20:00.00	32	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T10:20:00.00	49	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T10:30:00.00	50	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T10:40:00.00	51	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T10:50:00.00	52	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T11:00:00.00	53	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T11:20:00.00	55	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T11:30:00.00	56	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T12:10:00.00	60	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T14:50:00.00	75	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T15:00:00.00	76	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T15:50:00.00	81	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T16:00:00.00	82	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T19:50:00.00	105	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-18T20:00:00.00	106	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-19T01:40:00.00	138	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-19T01:50:00.00	139	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-19T02:20:00.00	142	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-19T02:30:00.00	143	0-0-W	 GRAD: faa excessive
+Y	J1010065	1993-01-19T03:00:00.00	146	0-0-W	 GRAD: faa excessive

@@ -1,0 +1,40 @@
+# Cruise 24100001 ID FR8910 MGD77 FILE VERSION: 20010822 N_RECS: 11674
+# Examined: Mon Feb 14 22:03:30 2011 by mtchandl
+# Arguments:  -R146.75/172.95/-43.95/-26.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-24100001-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-24100001-depth-01: RLS m: 0.999745 b: 0 rms: 8.6212 r: 0.999988 sig: 1 dec: 0
+N-E-24100001-depth-02: Regression slope 0.999745 different from 1. Recommended: [1]
+Y-W-24100001-depth-12: Integer precision
+# Errata: Data
+Y	24100001	1989-08-18T17:05:00.00	1033	C-0-0	 NAV: excessive speed
+Y	24100001	1989-08-20T20:00:00.00	1640	C-0-0	 NAV: excessive speed
+Y	24100001	1989-08-28T17:45:00.00	3904	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-04T04:25:00.00	5745	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-05T16:00:00.00	6170	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-05T16:05:00.00	6171	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-05T16:10:00.00	6172	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-05T16:15:00.00	6173	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-05T16:20:00.00	6174	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-10T08:50:00.00	7115	C-0-0	 NAV: excessive speed
+?	24100001	1989-09-11T03:35:00.00	7339	D-0-0	 NAV: on land
+?	24100001	1989-09-11T03:40:00.00	7340	D-0-0	 NAV: on land
+Y	24100001	1989-09-23T23:50:00.00	10983	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:15:00.00	11606	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:20:00.00	11607	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:25:00.00	11608	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:30:00.00	11609	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:35:00.00	11610	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:40:00.00	11611	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:45:00.00	11612	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T05:50:00.00	11613	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T06:15:00.00	11618	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T07:15:00.00	11630	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T07:20:00.00	11631	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T07:25:00.00	11632	C-0-0	 NAV: excessive speed
+Y	24100001	1989-09-26T07:30:00.00	11633	C-0-0	 NAV: excessive speed

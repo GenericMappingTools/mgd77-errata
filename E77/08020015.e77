@@ -1,0 +1,34 @@
+# Cruise 08020015 ID 8505 MGD77 FILE VERSION: 19890113 N_RECS: 7141
+# Examined: Fri Jul 30 11:12:12 2010 by mtchandl
+# Arguments:  -R279.15/282.9/-12.1/-8.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-08020015-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-08020015-depth-01: RLS m: 0.999611 b: 0 rms: 22.8674 r: 0.999933 sig: 1 dec: 0
+Y-W-08020015-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020015	1985-03-16T14:26:19.98	11	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:29:19.98	12	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:32:19.98	13	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:35:19.98	14	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:38:19.98	15	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:41:19.98	16	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:44:19.98	17	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:47:19.98	18	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:50:19.98	19	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:53:19.98	20	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:56:19.98	21	D-0-0	 NAV: on land
+?	08020015	1985-03-16T14:59:19.98	22	D-0-0	 NAV: on land
+?	08020015	1985-03-16T15:02:19.98	23	D-0-0	 NAV: on land
+?	08020015	1985-03-16T15:05:19.98	24	D-0-0	 NAV: on land
+?	08020015	1985-03-16T15:08:19.98	25	D-0-0	 NAV: on land
+?	08020015	1985-03-19T12:32:00.00	1749	0-0-KL	 GRAD: twt, depth excessive
+?	08020015	1985-03-20T22:35:40.02	2593	0-0-K	 GRAD: twt excessive
+Y	08020015	1985-03-17T20:50:40.02	5086	B-0-0	 NAV: non-increasing time
+Y	08020015	1985-03-17T20:53:40.02	5087	B-0-0	 NAV: non-increasing time
+Y	08020015	1985-03-17T20:55:19.98	5088	B-0-0	 NAV: non-increasing time
+Y	08020015	1985-03-17T20:58:19.98	5089	B-0-0	 NAV: non-increasing time

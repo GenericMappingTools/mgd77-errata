@@ -1,0 +1,15 @@
+# Cruise 19420012 ID 19940038 MGD77 FILE VERSION: 19951102 N_RECS: 1388
+# Examined: Mon Sep 20 13:47:55 2010 by mtchandl
+# Arguments:  -R311.05/333.2/-76.55/35.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19420012-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-19420012-H16-01: Invalid Number of Ten Degree Identifiers: (11) [10]
+Y-W-19420012-H16-06: Ten Degree Identifier 5002 marked in header but was not crossed
+Y-I-19420012-depth-01: RLS m: 0.999632 b: 0 rms: 20.057 r: 0.999939 sig: 1 dec: 0
+Y-W-19420012-depth-12: Integer precision
+# Errata: Data

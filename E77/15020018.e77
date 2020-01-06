@@ -1,0 +1,35 @@
+# Cruise 15020018 ID CATO03MV MGD77 FILE VERSION: 19830818 N_RECS: 8582
+# Examined: Wed May 14 08:34:03 2008 by mtchandl
+# Arguments:  -R181.85/210.5/-17.5/10.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020018-H04-03: Invalid Survey Departure Day: (14) [15]
+N-E-15020018-H11-02: Invalid Topmost Latitude : (-06) [+11]
+N-E-15020018-H11-05: Invalid Leftmost Longitude: (-170) [-179]
+Y-W-15020018-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15020018-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [5]
+Y-W-15020018-H16-06: Ten Degree Identifier 7117 not marked in header but block was crossed
+Y-W-15020018-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15020018-depth-01: RLS m: 1 b: 0 rms: 152.196 r: 0.992734 sign: 1 dec: 1
+Y-E-15020018-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00559 b: -47.0668 rms: 67.7069 r: 0.977388 sig: 1 dec: 1). [Recompute]
+Y-W-15020018-mtf1-12: Integer multiple of 5 precision
+Y-W-15020018-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020018	1972-08-15T05:43:00.00	75	0-Q-0	 VAL: mag invalid
+?	15020018	1972-08-15T05:48:00.00	77	0-Q-0	 VAL: mag invalid
+?	15020018	1972-08-17T23:55:00.00	1193	0-0-K	 GRAD: twt excessive
+Y	15020018	1972-08-28T17:04:00.00	4230	C-0-0	 NAV: excessive speed
+?	15020018	1972-09-06T23:56:00.00	7820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T00:04:00.00	7823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T00:14:00.00	7827	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T18:50:00.00	8125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T21:40:00.00	8159	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T21:50:00.00	8161	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-07T21:55:00.00	8162	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-08T00:14:00.00	8203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-08T00:19:00.00	8205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020018	1972-09-08T00:37:00.00	8212	0-0-OQ	 GRAD: mtf1, mag excessive

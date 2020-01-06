@@ -1,0 +1,23 @@
+# Cruise 03030004 ID DILANTLS MGD77 FILE VERSION: 19800213 N_RECS: 942
+# Examined: Fri Apr 16 13:19:53 2010 by mtchandl
+# Arguments:  -R298.85/300.55/13.3/14.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa anomalies that should be positive appear to be negative and should be disregarded until fixed.
+# Errata: Header
+Y-E-03030004-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-03030004-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-I-03030004-depth-01: RLS m: 0.999119 b: 0 rms: 50.7561 r: 0.997607 sig: 1 dec: 0
+Y-I-03030004-faa-01: RLS m: -0.930508 b: 2.32128 rms: 142.236 r: 0.995541 sig: 1 dec: 0
+N-E-03030004-faa-02: Regression slope -0.930508 different from 1. Recommended: [1]
+Y-W-03030004-faa-03: Regression offset 2.32128 different from 0.
+Y-E-03030004-mag-07: Anomaly differs from mtf1-IGRF (m: 0.899963 b: -55.5445 rms: 75.0565 r: 0.967431 sig: 1 dec: 1). [Recompute]
+Y-W-03030004-faa-09: only found negative values
+Y-E-03030004-faa-10: Invalid data records: [1-942]
+Y-W-03030004-mtf1-12: Integer precision
+Y-W-03030004-mag-12: Integer precision
+# Errata: Data
+?	03030004	1970-09-09T14:05:00.00	424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03030004	1970-09-09T15:37:00.00	456	0-0-OQ	 GRAD: mtf1, mag excessive

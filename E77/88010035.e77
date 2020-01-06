@@ -1,0 +1,15 @@
+# Cruise 88010035 ID NBP98-5 MGD77 FILE VERSION: 20000706 N_RECS: 5756
+# Examined: Thu Aug  4 19:36:47 2011 by mtchandl
+# Arguments:  -R-75.8/-70.8/-53.95/-45.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Large discrepancies between ship and satellite derived gravity, possibly due to intercoastal survey setting.
+# Errata: Header
+Y-E-88010035-H04-03: Invalid Survey Departure Day: (25) [22]
+N-E-88010035-H04-05: Invalid Survey Arrival Month: (08) [07]
+N-E-88010035-H04-06: Invalid Survey Arrival Day: (19) [25]
+Y-E-88010035-H14-01: Invalid Gravity Digitizing Rate: (1.0) [1.0]
+Y-E-88010035-H15-01: Invalid Gravity Departure Base Station Value: (981320) [9813200]
+Y-W-88010035-nav-00: Flagged 9.78 % of records with bad navigation

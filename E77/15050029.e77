@@ -1,0 +1,87 @@
+# Cruise 15050029 ID DSDP31GC MGD77 FILE VERSION: 19800226 N_RECS: 4895
+# Examined: Wed May 28 13:02:45 2008 by mtchandl
+# Arguments:  -R83/144.6/12.65/73.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050029-H11-02: Invalid Topmost Latitude : (+42) [+74]
+N-E-15050029-H11-05: Invalid Leftmost Longitude: (+124) [+083]
+Y-W-15050029-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15050029-H16-01: Invalid Number of Ten Degree Identifiers: ( 7) [8]
+Y-W-15050029-H16-06: Ten Degree Identifier 1708 not marked in header but block was crossed
+Y-W-15050029-nav-00: Flagged 0.61 % of records with excessive speed or invalid navigation
+Y-I-15050029-depth-01: RLS m: 0.996125 b: 0 rms: 118.834 r: 0.997249 sig: 1 dec: 1
+Y-E-15050029-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03439 b: -100.612 rms: 161.547 r: 0.771746 sig: 1 dec: 1). [Recompute]
+Y-W-15050029-mtf1-12: Integer multiple of 5 precision
+Y-W-15050029-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050029	1973-06-29T19:10:00.00	1841	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15050029	1973-06-29T19:15:00.00	1842	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:20:00.00	1843	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:25:00.00	1844	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:30:00.00	1845	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:35:00.00	1846	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:40:00.00	1847	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:45:00.00	1848	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:50:00.00	1849	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T19:55:00.00	1850	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:00:00.00	1851	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:05:00.00	1852	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:10:00.00	1853	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:15:00.00	1854	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:20:00.00	1855	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:25:00.00	1856	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:30:00.00	1857	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:35:00.00	1858	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:40:00.00	1859	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:45:00.00	1860	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:50:00.00	1861	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T20:55:00.00	1862	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:00:00.00	1863	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:05:00.00	1864	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:10:00.00	1865	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:15:00.00	1866	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:20:00.00	1867	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:25:00.00	1868	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:30:00.00	1869	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:35:00.00	1870	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:40:00.00	1871	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:45:00.00	1872	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:50:00.00	1873	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T21:55:00.00	1874	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T22:00:00.00	1875	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T22:05:00.00	1876	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T22:10:00.00	1877	0-Q-0	 VAL: mag invalid
+Y	15050029	1973-06-29T22:15:00.00	1878	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:20:00.00	1879	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:25:00.00	1880	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:30:00.00	1881	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:35:00.00	1882	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:40:00.00	1883	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:45:00.00	1884	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:50:00.00	1885	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T22:55:00.00	1886	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:00:00.00	1887	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:05:00.00	1888	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:10:00.00	1889	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:15:00.00	1890	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:20:00.00	1891	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	15050029	1973-06-29T23:25:00.00	1892	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+?	15050029	1973-06-29T23:30:00.00	1893	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T23:35:00.00	1894	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T23:40:00.00	1895	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T23:45:00.00	1896	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T23:50:00.00	1897	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-29T23:55:00.00	1898	0-Q-0	 VAL: mag invalid
+?	15050029	1973-06-30T00:00:00.00	1899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-24T23:35:00.00	3855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-24T23:45:00.00	3857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T00:20:00.00	3864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T00:35:00.00	3867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T01:15:00.00	3875	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T01:20:00.00	3876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T01:35:00.00	3879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050029	1973-07-25T02:25:00.00	3889	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,15 @@
+# Cruise 23060079 ID LEG174AJ MGD77 FILE VERSION: 19991223 N_RECS: 37446
+# Examined: Thu Feb  3 13:49:28 2011 by mtchandl
+# Arguments:  -R-74.1/-63.4/39.2/44.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-23060079-H13-10: Survey year (1997) outside magnetic reference field Unused time range (9999-9999)
+Y-I-23060079-depth-01: RLS m: 1.00374 b: 0 rms: 38.5546 r: 0.998762 sig: 1 dec: 0
+Y-W-23060079-twt-11: More recent bathymetry correction table available
+Y-W-23060079-depth-12: Integer precision
+# Errata: Data
+?	23060079	1997-07-19T11:59:20.04	37446	D-0-0	 NAV: on land

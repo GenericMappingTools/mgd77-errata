@@ -1,0 +1,29 @@
+# Cruise 01030251 ID V3620 MGD77 FILE VERSION: 19910924 N_RECS: 7132
+# Examined: Fri Mar 19 01:34:27 2010 by mtchandl
+# Arguments:  -R-24.95/31.25/-35.25/16.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:	Recommend recomputing magnetic anomalies. Recommend recomputing faa with eot.
+# Errata: Header
+Y-E-01030251-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01030251-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030251-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030251-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030251-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030251-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030251-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01030251-depth-01: RLS m: 1 b: 0 rms: 10.4698 r: 0.999978 sig: 1 dec: 0
+Y-I-01030251-faa-01: RLS m: 0.976167 b: -20.1224 rms: 22.5165 r: 0.973688 sig: 1 dec: 1
+Y-W-01030251-faa-03: Regression offset -20.1224 different from 0.
+N-E-01030251-faa-06: Anomaly differs from gobs-IGF80 (m: 0.762103 b: -52.0868 rms: 67.8397 r: 0.816245 sig: 1 dec: 1). [Recompute]
+Y-E-01030251-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.994441 b: -15.9783 rms: 15.9455 r: 0.999788 sig: 1 dec: 0). [Recompute]
+Y-W-01030251-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01030251-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.997849 b: 0.0682146 rms: 0.209982 r: 0.99996 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01030251-mag-07: Anomaly differs from mtf1-IGRF (m: 0.937565 b: -29.4842 rms: 96.5291 r: 0.775407 sig: 1 dec: 0). [Recompute]
+N-E-01030251-faa-08: Extended offset from grid [2425-7132]
+Y-W-01030251-twt-11: More recent bathymetry correction table available
+Y-W-01030251-mtf1-12: Integer precision
+# Errata: Data
+?	01030251	1981-02-05T17:24:00.00	5369	0-0-OQ	 GRAD: mtf1, mag excessive

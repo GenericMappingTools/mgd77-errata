@@ -1,0 +1,59 @@
+# Cruise 01010292 ID RC2905 MGD77 FILE VERSION: 19960809 N_RECS: 38869
+# Examined: Fri Mar 19 01:04:13 2010 by mtchandl
+# Arguments:  -R325.1/346.8/-13.05/-7.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01010292-H04-03: Invalid Survey Departure Day: (03) [28]
+Y-W-01010292-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-01010292-depth-01: RLS m: 1.00333 b: 0 rms: 133.685 r: 0.987731 sig: 1 dec: 0
+N-E-01010292-depth-02: Regression slope 1.00333 different from 1. Recommended: [1]
+Y-W-01010292-depth-12: Integer precision
+# Errata: Data
+Y	01010292	1988-04-28T07:52:01.98	458	C-0-0	 NAV: excessive speed
+Y	01010292	1988-04-28T07:53:01.98	459	C-0-0	 NAV: excessive speed
+?	01010292	1988-04-30T07:34:01.02	1212	0-0-K	 GRAD: twt excessive
+?	01010292	1988-04-30T10:40:58.02	1389	0-0-K	 GRAD: twt excessive
+?	01010292	1988-04-30T10:42:58.02	1391	0-0-K	 GRAD: twt excessive
+?	01010292	1988-04-30T18:20:58.98	1826	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-01T09:39:57.00	2729	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-01T15:32:00.00	3076	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-01T18:59:58.02	3279	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-01T21:26:04.02	3424	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-05T13:37:01.98	8686	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-06T04:22:00.00	9556	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-06T04:51:01.98	9584	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-06T12:35:01.02	10041	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-07T05:22:00.00	11035	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-07T05:58:01.02	11065	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-07T18:39:04.02	11809	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-08T21:33:58.98	13399	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-09T11:06:58.98	14207	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-09T12:17:00.00	14276	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-09T19:41:58.02	14698	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-09T19:49:58.02	14706	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-09T23:46:58.02	14941	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-10T14:43:00.00	15831	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-10T23:48:03.00	16370	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T05:50:01.02	16729	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T12:01:58.98	17092	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T15:39:58.98	17296	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T16:43:57.00	17360	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T17:36:01.98	17411	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T18:21:04.02	17456	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-11T19:18:04.02	17513	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-12T07:49:01.02	18248	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-12T10:20:57.00	18396	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-12T17:08:58.02	18803	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-13T15:56:01.02	20162	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-15T08:07:01.02	22538	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-15T15:58:01.02	22999	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-15T16:09:01.02	23008	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-20T13:22:58.02	29998	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-20T13:24:01.02	29999	0-0-KL	 GRAD: twt, depth excessive
+?	01010292	1988-05-21T07:10:01.98	31044	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-22T05:40:01.02	32341	0-0-K	 GRAD: twt excessive
+?	01010292	1988-05-22T23:57:58.02	33420	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,87 @@
+# Cruise 06910008 ID P584AT MGD77 FILE VERSION: 19870929 N_RECS: 21349
+# Examined: Fri Jul 16 17:05:50 2010 by mtchandl
+# Arguments:  -R289.7/302.75/43.05/44.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Gobs corrected for Eotvos but Eotvos column also present.
+# Errata: Header
+Y-W-06910008-nav-00: Flagged 0.26 % of records with bad navigation
+Y-I-06910008-faa-01: RLS m: 1.01014 b: 1.42489 rms: 3.86014 r: 0.986754 sig: 1 dec: 0
+N-E-06910008-faa-02: Regression slope 1.01014 different from 1. Recommended: [1]
+Y-W-06910008-faa-03: Regression offset 1.42489 different from 0.
+Y-I-06910008-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910008-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.452172 b: -2.32782 rms: 35.6205 r: 0.700777 sig: 1 dec: 1). [Recompute]
+N-E-06910008-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.547192 b: -19.1572 rms: 43.5015 r: 0.809719 sig: 1 dec: 1). [Adjust to IGF 1980]
+# Errata: Data
+?	06910008	1984-09-17T11:42:00.00	1	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:43:00.00	2	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:44:00.00	3	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:45:00.00	4	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:46:00.00	5	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:47:00.00	6	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:48:00.00	7	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:49:00.00	8	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:50:00.00	9	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:51:00.00	10	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:52:00.00	11	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:53:00.00	12	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:54:00.00	13	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T11:55:00.00	14	D-0-0	 NAV: on land
+?	06910008	1984-09-17T11:56:00.00	15	D-0-0	 NAV: on land
+?	06910008	1984-09-17T11:57:00.00	16	D-0-0	 NAV: on land
+?	06910008	1984-09-17T11:58:00.00	17	D-0-0	 NAV: on land
+?	06910008	1984-09-17T11:59:00.00	18	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:00:00.00	19	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:01:00.00	20	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:02:00.00	21	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:03:00.00	22	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:04:00.00	23	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:20:00.00	39	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:21:00.00	40	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T12:22:00.00	41	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T12:23:00.00	42	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T12:24:00.00	43	D-0-0	 NAV: on land
+Y	06910008	1984-09-17T12:25:00.00	44	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:26:00.00	45	D-0-0	 NAV: on land
+?	06910008	1984-09-17T12:27:00.00	46	D-0-0	 NAV: on land
+Y	06910008	1984-09-25T09:29:00.00	11328	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T00:00:00.00	13615	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T00:01:00.00	13616	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T00:02:00.00	13617	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T00:03:00.00	13618	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T08:32:00.00	14113	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T08:33:00.00	14114	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T08:57:00.00	14138	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T08:58:00.00	14139	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T08:59:00.00	14140	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T16:22:00.00	14577	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-27T16:23:00.00	14578	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-28T06:18:00.00	15413	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:19:00.00	16794	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:20:00.00	16795	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:21:00.00	16796	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:22:00.00	16797	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:23:00.00	16798	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T05:24:00.00	16799	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-29T23:59:00.00	17914	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-30T00:00:00.00	17915	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-30T09:28:00.00	18466	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-30T09:29:00.00	18467	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-30T10:17:00.00	18515	C-0-0	 NAV: excessive speed
+Y	06910008	1984-09-30T10:18:00.00	18516	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-01T05:37:00.00	19675	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-01T05:38:00.00	19676	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-01T21:13:00.00	20590	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:39:00.00	21021	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:40:00.00	21022	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:41:00.00	21023	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:42:00.00	21024	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:43:00.00	21025	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:44:00.00	21026	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:45:00.00	21027	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:46:00.00	21028	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:47:00.00	21029	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:48:00.00	21030	C-0-0	 NAV: excessive speed
+Y	06910008	1984-10-02T04:49:00.00	21031	C-0-0	 NAV: excessive speed

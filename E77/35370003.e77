@@ -1,0 +1,39 @@
+# Cruise 35370003 ID 09877 MGD77 FILE VERSION: 19880322 N_RECS: 7025
+# Examined: Wed Jul 27 19:30:41 2011 by mtchandl
+# Arguments:  -R-157.65/-123.7/21.25/39.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Grid appears to be inaccurate, shallow survey.
+# Errata: Header
+Y-I-35370003-depth-01: RLS m: 1.00273 b: 0 rms: 61.9474 r: 0.998337 sig: 1 dec: 0
+N-E-35370003-depth-02: Regression slope 1.00273 different from 1. Recommended: [1]
+Y-W-35370003-depth-12: Integer precision
+# Errata: Data
+?	35370003	812.409	425	0-0-L	 GRAD: depth excessive
+?	35370003	825.289	432	0-0-L	 GRAD: depth excessive
+?	35370003	827.533	433	0-0-L	 GRAD: depth excessive
+?	35370003	836.42	439	0-0-L	 GRAD: depth excessive
+?	35370003	838.649	440	0-0-L	 GRAD: depth excessive
+?	35370003	1396.07	567	0-0-L	 GRAD: depth excessive
+?	35370003	1396.82	568	0-0-L	 GRAD: depth excessive
+?	35370003	3852.95	1171	0-0-L	 GRAD: depth excessive
+?	35370003	3895.62	1196	0-0-L	 GRAD: depth excessive
+?	35370003	4496.3	1489	0-0-L	 GRAD: depth excessive
+?	35370003	4497.36	1490	0-0-L	 GRAD: depth excessive
+?	35370003	4994.8	1668	0-0-L	 GRAD: depth excessive
+?	35370003	6098.16	2088	0-0-L	 GRAD: depth excessive
+?	35370003	6670.87	2199	0-0-L	 GRAD: depth excessive
+?	35370003	6695.93	2221	0-0-L	 GRAD: depth excessive
+?	35370003	6696.95	2222	0-0-L	 GRAD: depth excessive
+?	35370003	7839.91	2644	0-0-L	 GRAD: depth excessive
+?	35370003	7840.48	2645	0-0-L	 GRAD: depth excessive
+?	35370003	8351.07	2859	0-0-L	 GRAD: depth excessive
+?	35370003	12044.5	3601	0-0-L	 GRAD: depth excessive
+?	35370003	12526.9	3901	0-0-L	 GRAD: depth excessive
+?	35370003	15880.7	5461	0-0-L	 GRAD: depth excessive
+?	35370003	16184.1	5709	0-0-L	 GRAD: depth excessive
+?	35370003	16184.9	5710	0-0-L	 GRAD: depth excessive
+?	35370003	17050.2	6171	0-0-L	 GRAD: depth excessive
+?	35370003	17051	6172	0-0-L	 GRAD: depth excessive

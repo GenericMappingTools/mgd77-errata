@@ -1,0 +1,37 @@
+# Cruise 02020079 ID A2093L14 MGD77 FILE VERSION: 19820805 N_RECS: 15741
+# Examined: Fri Apr  2 15:08:38 2010 by mtchandl
+# Arguments:  -R103.85/130.8/-16.75/1.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020079-depth-01: RLS m: 1 b: 0 rms: 16.5657 r: 0.999968 sig: 1 dec: 0
+Y-I-02020079-faa-01: RLS m: 1.00849 b: -0.305628 rms: 8.2431 r: 0.994066 sig: 1 dec: 1
+Y-I-02020079-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020079-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.862991 b: 36.9307 rms: 47.3927 r: 0.920994 sig: 1 dec: 0). [Recompute]
+Y-E-02020079-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00001 b: -16.3342 rms: 22.121 r: 0.999196 sig: 1 dec: 1). [Recompute]
+Y-W-02020079-twt-11: More recent bathymetry correction table available
+Y-W-02020079-mtf1-12: Integer precision
+Y-W-02020079-mag-12: Integer precision
+# Errata: Data
+?	02020079	1976-11-06T03:30:00.00	4450	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-06T03:35:00.00	4451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020079	1976-11-11T00:30:00.00	7365	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-11T17:50:00.00	7789	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-12T05:29:00.00	8081	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-12T05:30:00.00	8082	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-14T08:45:00.00	9341	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-16T04:15:00.00	10509	0-0-KL	 GRAD: twt, depth excessive
+?	02020079	1976-11-16T14:00:00.00	10773	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-16T14:05:00.00	10775	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-16T21:20:00.00	10992	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-17T09:20:00.00	11148	0-0-K	 GRAD: twt excessive
+?	02020079	1976-11-17T18:15:00.00	11309	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T01:19:00.00	15358	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T01:47:00.00	15386	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T02:16:00.00	15415	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T02:17:00.00	15416	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T02:46:00.00	15445	0-0-V	 GRAD: eot excessive
+?	02020079	1976-11-25T02:47:00.00	15446	0-0-V	 GRAD: eot excessive

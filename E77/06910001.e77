@@ -1,0 +1,18 @@
+# Cruise 06910001 ID P283AT MGD77 FILE VERSION: 19870929 N_RECS: 10789
+# Examined: Fri Jul 16 16:56:03 2010 by mtchandl
+# Arguments:  -R279.4/280.25/26.95/28.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Ship gravity anomalies generally smaller amplitude than satellite anomalies.
+# Errata: Header
+Y-I-06910001-depth-01: RLS m: 0.965352 b: 0 rms: 3.4759 r: 0.996877 sig: 1 dec: 0
+N-E-06910001-depth-02: Regression slope 0.965352 different from 1. Recommended: [1]
+Y-I-06910001-faa-01: RLS m: 0.901359 b: 0.628683 rms: 2.90908 r: 0.972796 sig: 1 dec: 0
+N-E-06910001-faa-02: Regression slope 0.901359 different from 1. Recommended: [1]
+Y-W-06910001-faa-03: Regression offset 0.628683 different from 0.
+N-E-06910001-faa-06: Anomaly differs from gobs-IGF80 (m: 0.0861535 b: 5.17515 rms: 45.3279 r: 0.265244 sig: 1 dec: 1). [Recompute]
+N-E-06910001-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.0003 b: 0.818723 rms: 0.824389 r: 0.999979 sig: 1 dec: 0). [Recompute]
+Y-W-06910001-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+# Errata: Data

@@ -1,0 +1,16 @@
+# Cruise 15370002 ID TRTL01LC MGD77 FILE VERSION: 19951214 N_RECS: 7045
+# Examined: Wed Jun  4 22:28:11 2008 by mtchandl
+# Arguments:  -R231.55/240.05/32.1/33.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-15370002-H11-02: Invalid Topmost Latitude : (+33) [+34]
+Y-W-15370002-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15370002-depth-01: RLS m: 1.00388 b: 0 rms: 177.298 r: 0.987988 sig: 1 dec: 1
+Y-W-15370002-twt-11: More recent bathymetry correction table available
+Y-W-15370002-depth-12: Integer precision
+# Errata: Data
+Y	15370002	1989-10-17T04:55:00.00	4213	C-0-0	 NAV: excessive speed

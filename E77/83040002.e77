@@ -1,0 +1,13 @@
+# Cruise 83040002 ID CGAUS MGD77 FILE VERSION: 19910531 N_RECS: 2035
+# Examined: Wed Aug  3 07:11:02 2011 by mtchandl
+# Arguments:  -R-37.7/-23.1/63.75/67.45 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-83040002-depth-01: RLS m: 1.00381 b: 0 rms: 8.42752 r: 0.999438 sig: 1 dec: 0
+N-E-83040002-depth-02: Regression slope 1.00381 different from 1. Recommended: [1]
+Y-W-83040002-depth-12: Integer precision
+# Errata: Data

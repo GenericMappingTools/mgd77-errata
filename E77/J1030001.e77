@@ -1,0 +1,21 @@
+# Cruise J1030001 ID HM6802 MGD77 FILE VERSION: 19880928 N_RECS: 2048
+# Examined: Sun Aug  7 07:20:35 2011 by mtchandl
+# Arguments:  -R139.75/148.05/34.85/42 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J1030001-depth-01: RLS m: 0.999244 b: 0 rms: 24.9211 r: 0.999937 sig: 1 dec: 0
+N-E-J1030001-depth-02: Regression slope 0.999244 different from 1. Recommended: [1]
+Y-I-J1030001-faa-01: RLS m: 1.04747 b: -29.7637 rms: 34.0348 r: 0.986347 sig: 1 dec: 0
+N-E-J1030001-faa-02: Regression slope 1.04747 different from 1. Recommended: [1]
+Y-W-J1030001-faa-03: Regression offset -29.7637 different from 0.
+Y-I-J1030001-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1030001-faa-08: Extended offset from grid [113-576]
+N-E-J1030001-faa-08: Extended offset from grid [577-2048]
+Y-W-J1030001-depth-12: Integer precision
+Y-W-J1030001-mtf1-12: Integer multiple of 5 precision
+Y-W-J1030001-gobs-12: Integer precision
+# Errata: Data

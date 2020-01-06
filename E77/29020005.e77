@@ -1,0 +1,104 @@
+# Cruise 29020005 ID VIT43 MGD77 FILE VERSION: 19921231 N_RECS: 2238
+# Examined: Mon Nov 23 15:55:41 2009 by mtchandl
+# Arguments:  -R139.8/209/-16.35/41.7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bad navigation.
+# Errata: Header
+N-E-29020005-H16-01: Invalid Number of Ten Degree Identifiers: (15) [14]
+Y-W-29020005-H16-06: Ten Degree Identifier 5016 marked in header but was not crossed
+Y-W-29020005-nav-00: Flagged 3.75 % of records with bad navigation
+Y-I-29020005-depth-01: RLS m: 0.965689 b: 0 rms: 162.833 r: 0.998737 sig: 1 dec: 0
+N-E-29020005-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-I-29020005-faa-01: RLS m: 0.985456 b: -5.75577 rms: 18.1279 r: 0.982424 sig: 1 dec: 1
+Y-W-29020005-faa-03: Regression offset -5.75577 different from 0.
+Y-I-29020005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-29020005-depth-12: Integer precision
+Y-W-29020005-gobs-12: Integer precision
+# Errata: Data
+Y	29020005	1968-03-11T09:04:00.00	22	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-11T09:16:00.00	23	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-14T11:07:00.00	200	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-14T16:30:00.00	222	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-14T18:26:00.00	233	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-19T13:43:00.00	256	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-19T16:05:00.00	267	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-20T16:33:00.00	329	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-21T05:33:00.00	387	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-21T13:46:00.00	441	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-23T16:02:00.00	509	C-0-0	 NAV: excessive speed
+Y	29020005	1968-03-26T03:11:00.00	591	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-28T03:17:00.00	752	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-28T18:03:00.00	776	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-03-28T21:55:00.00	795	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-02T13:05:00.00	855	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-02T19:03:00.00	881	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-03T12:22:00.00	957	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-04T19:56:00.00	1045	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-04T20:06:00.00	1046	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-11T12:07:00.00	1179	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-17T17:53:00.00	1286	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T04:09:00.00	1336	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-18T04:35:00.00	1337	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-18T04:48:00.00	1338	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-18T05:01:00.00	1339	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T05:27:00.00	1340	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T05:53:00.00	1341	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:06:00.00	1342	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:19:00.00	1343	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:32:00.00	1344	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:45:00.00	1345	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:58:00.00	1346	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-18T06:12:00.00	1355	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-22T18:00:00.00	1491	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-25T20:02:00.00	1633	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T20:15:00.00	1634	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T20:28:00.00	1635	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T20:41:00.00	1636	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T20:54:00.00	1637	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T21:07:00.00	1638	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T21:20:00.00	1639	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T21:33:00.00	1640	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T21:46:00.00	1641	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T21:59:00.00	1642	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T22:12:00.00	1643	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T22:25:00.00	1644	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T22:38:00.00	1645	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T22:51:00.00	1646	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T23:04:00.00	1647	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T23:17:00.00	1648	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-25T23:30:00.00	1649	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-28T04:12:00.00	1844	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-28T04:25:00.00	1845	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-28T04:38:00.00	1846	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-28T04:51:00.00	1847	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-28T05:04:00.00	1848	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T05:17:00.00	1849	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T05:30:00.00	1850	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T05:43:00.00	1851	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T05:56:00.00	1852	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T06:09:00.00	1853	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T06:22:00.00	1854	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T06:35:00.00	1855	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-28T06:48:00.00	1856	C-0-0	 NAV: excessive speed
+Y	29020005	1968-04-01T01:13:00.00	2082	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-01T02:44:00.00	2089	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-05-01T04:07:00.00	2100	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-05-01T04:20:00.00	2101	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-04-01T04:33:00.00	2102	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-05-01T04:46:00.00	2103	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-05-01T04:07:00.00	2104	B-0-0	 NAV: non-increasing time
+Y	29020005	1968-05-01T05:12:00.00	2105	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T05:32:00.00	2106	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T05:41:00.00	2107	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T05:50:00.00	2108	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T05:59:00.00	2109	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T06:08:00.00	2110	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T06:17:00.00	2111	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T06:26:00.00	2112	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T06:35:00.00	2113	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T06:44:00.00	2114	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-01T07:38:00.00	2120	C-0-0	 NAV: excessive speed
+Y	29020005	1968-05-10T13:51:00.00	2231	C-0-0	 NAV: excessive speed

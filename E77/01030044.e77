@@ -1,0 +1,56 @@
+# Cruise 01030044 ID V1908 MGD77 FILE VERSION: 19790619 N_RECS: 2238
+# Examined: Thu Jul  9 16:07:53 2009 by mtchandl
+# Arguments:  -R103.85/120.95/1.2/15.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01030044-H04-06: Invalid Survey Arrival Day: (09) [08]
+Y-I-01030044-depth-01: RLS m: 0.999609 b: 0 rms: 16.2433 r: 0.999966 sig: 1 dec: 0
+Y-I-01030044-faa-01: RLS m: 1.0558 b: -5.23237 rms: 18.7302 r: 0.963338 sig: 1 dec: 1
+N-E-01030044-faa-02: Regression slope 1.0558 different from 1. Recommended: [1]
+Y-W-01030044-faa-03: Regression offset -5.23237 different from 0.
+Y-E-01030044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.955387 b: 9.14601 rms: 19.4012 r: 0.981992 sig: 1 dec: 0). [Recompute]
+N-E-01030044-depth-08: Extended offset from grid [5-2020]
+Y-W-01030044-twt-11: More recent bathymetry correction table available
+Y-W-01030044-mtf1-12: Integer precision
+Y-W-01030044-mag-12: Integer precision
+# Errata: Data
+?	01030044	1963-06-22T18:35:00.00	177	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-22T18:40:00.00	178	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-23T00:41:00.00	271	0-0-K	 GRAD: twt excessive
+?	01030044	1963-06-24T02:30:00.00	399	0-0-KL	 GRAD: twt, depth excessive
+?	01030044	1963-06-25T13:16:00.00	564	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-25T13:30:00.00	565	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-25T13:40:00.00	566	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-26T02:56:00.00	657	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-06-26T08:00:00.00	672	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-06-26T08:09:00.00	674	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-06-26T08:26:00.00	678	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-06-26T08:30:00.00	679	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-06-26T17:16:00.00	737	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-28T16:08:00.00	944	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-28T16:25:00.00	946	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-29T14:50:00.00	1053	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-29T15:00:00.00	1054	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-29T15:15:00.00	1055	0-M-0	 VAL: bcc invalid
+?	01030044	1963-06-30T17:30:00.00	1218	0-M-0	 VAL: bcc invalid
+?	01030044	1963-07-02T03:37:00.00	1292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-02T10:00:00.00	1342	0-M-0	 VAL: bcc invalid
+?	01030044	1963-07-02T10:15:00.00	1343	0-M-0	 VAL: bcc invalid
+?	01030044	1963-07-08T04:52:00.00	2074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T06:50:00.00	2097	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T07:00:00.00	2098	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T08:56:00.00	2122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T09:33:00.00	2133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T09:39:00.00	2136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T10:58:00.00	2151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T11:00:00.00	2152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T11:04:00.00	2153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T11:43:00.00	2162	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T11:50:00.00	2164	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T14:50:00.00	2184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T16:08:00.00	2195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030044	1963-07-08T16:10:00.00	2196	0-0-OQ	 GRAD: mtf1, mag excessive

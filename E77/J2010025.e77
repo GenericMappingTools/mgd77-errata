@@ -1,0 +1,66 @@
+# Cruise J2010025 ID GH814-A MGD77 FILE VERSION: 19921231 N_RECS: 7731
+# Examined: Mon Nov 23 16:27:42 2009 by mtchandl
+# Arguments:  -R139.65/194.7/-14.4/34.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010025-H13-09: Unknown IGRF specified (DGRF1980)
+Y-W-J2010025-nav-00: Flagged 0.45 % of records with bad navigation
+Y-I-J2010025-depth-01: RLS m: 1 b: 0 rms: 19.7535 r: 0.999487 sig: 1 dec: 0
+Y-I-J2010025-faa-01: RLS m: 0.988477 b: 1.04581 rms: 8.40576 r: 0.997293 sig: 1 dec: 1
+N-E-J2010025-faa-02: Regression slope 0.988477 different from 1. Recommended: [1]
+Y-W-J2010025-faa-03: Regression offset 1.04581 different from 0.
+Y-I-J2010025-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010025-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.960197 b: -57.3176 rms: 65.5587 r: 0.964097 sig: 1 dec: 1). [Recompute]
+Y-E-J2010025-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994721 b: -5.89373 rms: 11.5419 r: 0.999299 sig: 1 dec: 1). [Recompute]
+Y-W-J2010025-twt-11: More recent bathymetry correction table available
+Y-W-J2010025-depth-12: Integer precision
+Y-W-J2010025-mtf1-12: Integer precision
+Y-W-J2010025-mag-12: Integer precision
+# Errata: Data
+Y	J2010025	1981-08-14T11:00:00.00	19	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:05:00.00	20	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:10:00.00	21	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:15:00.00	22	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:20:00.00	23	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:25:00.00	24	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:30:00.00	25	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:35:00.00	26	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:40:00.00	27	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T11:45:00.00	28	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T12:50:00.00	41	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T12:55:00.00	42	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T13:05:00.00	43	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T13:10:00.00	44	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T13:15:00.00	45	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T14:55:00.00	65	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:00:00.00	66	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:05:00.00	67	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:10:00.00	68	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:15:00.00	69	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:20:00.00	70	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:25:00.00	71	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:30:00.00	72	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T15:35:00.00	73	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T16:40:00.00	86	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T16:45:00.00	87	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T16:50:00.00	88	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T17:40:00.00	98	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T19:05:00.00	115	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T19:10:00.00	116	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T22:15:00.00	153	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-14T22:20:00.00	154	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-08-17T00:05:00.00	751	C-0-0	 NAV: excessive speed
+?	J2010025	1981-08-19T14:05:00.00	1495	0-Q-0	 VAL: mag invalid
+?	J2010025	1981-08-19T14:10:00.00	1496	0-Q-0	 VAL: mag invalid
+?	J2010025	1981-08-19T14:15:00.00	1497	0-Q-0	 VAL: mag invalid
+?	J2010025	1981-08-27T06:00:00.00	3701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010025	1981-08-27T06:05:00.00	3702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010025	1981-08-28T18:00:00.00	4133	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	J2010025	1981-08-30T03:05:00.00	4530	0-0-V	 GRAD: eot excessive
+Y	J2010025	1981-09-03T05:40:00.00	5712	C-0-0	 NAV: excessive speed
+Y	J2010025	1981-09-06T18:00:00.00	6724	C-0-0	 NAV: excessive speed
+?	J2010025	1981-09-07T18:55:00.00	7022	0-0-OQ	 GRAD: mtf1, mag excessive

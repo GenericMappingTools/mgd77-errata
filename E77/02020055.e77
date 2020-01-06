@@ -1,0 +1,69 @@
+# Cruise 02020055 ID A2075L05 MGD77 FILE VERSION: 19800206 N_RECS: 4034
+# Examined: Fri Mar 26 21:41:19 2010 by mtchandl
+# Arguments:  -R333.5/344.7/14.5/28.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020055-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-02020055-nav-00: Flagged 1.17 % of records with bad navigation
+Y-I-02020055-depth-01: RLS m: 0.999581 b: 0 rms: 9.65975 r: 0.999979 sig: 1 dec: 0
+N-E-02020055-depth-02: Regression slope 0.999581 different from 1. Recommended: [1]
+Y-I-02020055-faa-01: RLS m: 0.969566 b: 1.34607 rms: 7.70406 r: 0.991206 sig: 1 dec: 1
+N-E-02020055-faa-02: Regression slope 0.969566 different from 1. Recommended: [1]
+Y-E-02020055-mag-07: Anomaly differs from mtf1-IGRF (m: 0.856592 b: 241.249 rms: 244.539 r: 0.785713 sig: 1 dec: 0). [Recompute]
+Y-W-02020055-twt-11: More recent bathymetry correction table available
+Y-W-02020055-mtf1-12: Integer precision
+Y-W-02020055-mag-12: Integer precision
+# Errata: Data
+Y	02020055	1973-05-09T14:25:00.00	1061	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T14:36:00.00	1066	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T14:45:00.00	1069	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T14:56:00.00	1074	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T15:46:00.00	1083	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T15:55:00.00	1087	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T16:15:00.00	1094	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T16:36:00.00	1099	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T16:45:00.00	1102	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T16:55:00.00	1106	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T17:05:00.00	1110	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T17:15:00.00	1114	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-09T17:25:00.00	1118	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-11T20:25:00.00	1564	C-0-0	 NAV: excessive speed
+?	02020055	1973-05-14T17:04:00.00	2142	0-0-K	 GRAD: twt excessive
+?	02020055	1973-05-14T17:39:00.00	2160	0-0-K	 GRAD: twt excessive
+Y	02020055	1973-05-20T17:55:00.00	3416	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T18:05:00.00	3418	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T18:15:00.00	3421	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T18:25:00.00	3424	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T18:35:00.00	3426	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T18:45:00.00	3428	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T19:25:00.00	3437	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T19:35:00.00	3441	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T19:45:00.00	3444	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:05:00.00	3447	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:15:00.00	3451	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:25:00.00	3456	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:35:00.00	3460	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:45:00.00	3463	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T20:55:00.00	3465	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T21:05:00.00	3467	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T21:15:00.00	3469	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T21:25:00.00	3471	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T21:35:00.00	3473	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-20T21:45:00.00	3475	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T00:20:00.00	3478	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T00:30:00.00	3480	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:05:00.00	3522	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:15:00.00	3524	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:25:00.00	3526	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:35:00.00	3528	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:45:00.00	3530	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T04:55:00.00	3532	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T05:05:00.00	3534	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T05:15:00.00	3536	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T05:25:00.00	3538	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T08:15:00.00	3540	C-0-0	 NAV: excessive speed
+Y	02020055	1973-05-21T08:25:00.00	3542	C-0-0	 NAV: excessive speed

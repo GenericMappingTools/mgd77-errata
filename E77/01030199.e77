@@ -1,0 +1,85 @@
+# Cruise 01030199 ID V3303 MGD77 FILE VERSION: 19800908 N_RECS: 7777
+# Examined: Fri Jul 10 13:32:00 2009 by mtchandl
+# Arguments:  -R114.3/144.6/-39.3/-31.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-330 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01030199-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030199-depth-01: RLS m: 1 b: 0 rms: 7.53085 r: 0.999995 sig: 1 dec: 0
+Y-I-01030199-faa-01: RLS m: 0.958316 b: -0.0441837 rms: 8.44563 r: 0.975609 sig: 1 dec: 1
+N-E-01030199-faa-02: Regression slope 0.958316 different from 1. Recommended: [1]
+Y-E-01030199-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00261 b: -330.632 rms: 331.403 r: 0.997341 sig: 1 dec: 1). [Recompute]
+N-E-01030199-faa-08: Extended offset from grid [3801-7594]
+N-E-01030199-depth-08: Extended offset from grid [3-7777]
+Y-W-01030199-mtf1-12: Integer precision
+Y-W-01030199-mag-12: Integer precision
+# Errata: Data
+?	01030199	1976-01-21T13:00:00.00	278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T13:06:00.00	279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T13:42:00.00	285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T14:06:00.00	289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T14:30:00.00	293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T15:06:00.00	300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T15:24:00.00	303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T16:06:00.00	310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T19:12:00.00	344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T19:18:00.00	345	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-21T19:30:00.00	347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-24T07:54:00.00	943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-24T09:48:00.00	962	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-01-24T09:54:00.00	963	0-Q-0	 VAL: mag invalid
+?	01030199	1976-01-24T10:00:00.00	964	0-Q-0	 VAL: mag invalid
+?	01030199	1976-01-24T10:06:00.00	965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-24T10:12:00.00	966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-24T10:18:00.00	967	0-0-O	 GRAD: mtf1 excessive
+?	01030199	1976-01-30T16:48:00.00	2360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T17:54:00.00	2372	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T18:00:00.00	2373	0-Q-0	 VAL: mag invalid
+?	01030199	1976-01-30T18:06:00.00	2374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T18:12:00.00	2375	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T18:24:00.00	2377	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T18:30:00.00	2378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T18:36:00.00	2379	0-0-O	 GRAD: mtf1 excessive
+?	01030199	1976-01-30T19:12:00.00	2386	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T19:18:00.00	2387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T19:30:00.00	2389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T19:48:00.00	2392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-30T19:54:00.00	2394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T16:36:00.00	2456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T19:48:00.00	2499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T20:12:00.00	2504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T20:36:00.00	2508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T21:06:00.00	2515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T21:18:00.00	2517	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T21:36:00.00	2520	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T21:42:00.00	2521	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-01-31T22:00:00.00	2525	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T00:30:00.00	3494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T00:36:00.00	3495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T00:54:00.00	3500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T01:36:00.00	3511	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T01:48:00.00	3514	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T02:54:00.00	3527	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T03:18:00.00	3532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T03:36:00.00	3536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T17:06:00.00	3601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T20:30:00.00	3644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T21:42:00.00	3660	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T23:12:00.00	3680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-04T23:48:00.00	3687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T04:00:00.00	3744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T04:06:00.00	3745	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T04:12:00.00	3747	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T04:18:00.00	3748	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:24:00.00	3750	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:30:00.00	3751	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:36:00.00	3752	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:42:00.00	3754	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:48:00.00	3755	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T04:54:00.00	3757	0-Q-0	 VAL: mag invalid
+?	01030199	1976-02-05T05:00:00.00	3758	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T05:06:00.00	3759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030199	1976-02-05T05:12:00.00	3761	0-0-OQ	 GRAD: mtf1, mag excessive

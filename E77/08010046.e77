@@ -1,0 +1,205 @@
+# Cruise 08010046 ID 78123007 MGD77 FILE VERSION: 19801229 N_RECS: 15032
+# Examined: Mon Jul 26 16:15:26 2010 by mtchandl
+# Arguments:  -R260.05/269.75/-0.85/16.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010046-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-08010046-depth-01: RLS m: 0.998256 b: 0 rms: 29.9531 r: 0.999786 sig: 1 dec: 0
+N-E-08010046-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+Y-I-08010046-faa-01: RLS m: 0.985484 b: -6.80465 rms: 9.54314 r: 0.988552 sig: 1 dec: 1
+Y-W-08010046-faa-03: Regression offset -6.80465 different from 0.
+Y-E-08010046-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995863 b: -9.36148 rms: 23.652 r: 0.99823 sig: 1 dec: 1). [Recompute]
+Y-W-08010046-twt-11: More recent bathymetry correction table available
+Y-W-08010046-mtf1-12: Integer precision
+Y-W-08010046-mag-12: Integer precision
+# Errata: Data
+?	08010046	1979-06-16T15:04:00.00	1	D-0-0	 NAV: on land
+Y	08010046	1979-06-16T15:05:00.00	2	D-0-0	 NAV: on land
+Y	08010046	1979-06-16T15:08:00.00	3	D-0-0	 NAV: on land
+?	08010046	1979-06-16T15:10:00.00	4	D-0-0	 NAV: on land
+?	08010046	1979-06-16T18:37:00.00	123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:38:00.00	125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:39:00.00	126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:41:00.00	128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:42:00.00	130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:43:00.00	131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:44:00.00	133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:45:00.00	134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:47:00.00	138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:49:00.00	141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T18:50:00.00	143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:04:00.00	166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:05:00.00	168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:06:00.00	170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:12:00.00	181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:13:00.00	183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:28:00.00	206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:32:00.00	212	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:33:00.00	213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:34:00.00	216	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:35:00.00	218	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:36:00.00	220	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:37:00.00	222	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:38:00.00	224	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:39:00.00	225	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:40:00.00	226	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:41:00.00	227	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:42:00.00	229	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:43:00.00	230	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:44:00.00	231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:50:00.00	239	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:51:00.00	241	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:52:00.00	243	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:53:00.00	244	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:54:00.00	247	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:55:00.00	249	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-16T19:56:00.00	251	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:57:00.00	252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:58:00.00	253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T19:59:00.00	254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T20:00:00.00	256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T20:01:00.00	257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-16T20:02:00.00	259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:31:51.00	674	0-0-K	 GRAD: twt excessive
+?	08010046	1979-06-17T01:39:00.00	684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:40:00.00	685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:41:00.00	687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:42:00.00	688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:43:00.00	689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T01:44:00.00	692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T02:04:00.00	726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T02:05:00.00	728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T02:06:00.00	730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T02:18:00.00	750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T02:19:00.00	752	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:52:00.00	883	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:53:00.00	885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:54:00.00	886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:55:00.00	888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:56:00.00	890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T03:57:00.00	892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:53:00.00	973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:54:00.00	974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:55:00.00	976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:56:00.00	977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:57:00.00	978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:58:00.00	979	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T04:59:00.00	980	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:00:00.00	982	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:01:00.00	983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:02:00.00	985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:05:00.00	989	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:06:00.00	991	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:07:00.00	993	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:08:00.00	994	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:09:00.00	996	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:10:00.00	997	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:11:00.00	999	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:12:00.00	1001	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:13:00.00	1002	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:14:00.00	1004	0-Q-0	 VAL: mag invalid
+?	08010046	1979-06-17T05:15:00.00	1006	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:16:00.00	1007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:17:00.00	1008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:18:00.00	1009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:19:00.00	1011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:20:00.00	1012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:21:00.00	1014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:22:00.00	1015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:23:00.00	1017	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:24:00.00	1018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T05:25:00.00	1019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:08:00.00	1081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:09:00.00	1082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:10:00.00	1083	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:11:00.00	1085	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:12:00.00	1087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:13:00.00	1088	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:14:00.00	1090	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:15:00.00	1091	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:16:00.00	1093	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:22:00.00	1100	0-0-O	 GRAD: mtf1 excessive
+?	08010046	1979-06-17T06:23:00.00	1101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:24:00.00	1103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:25:00.00	1105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:26:00.00	1107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:27:00.00	1109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:28:00.00	1110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:29:00.00	1112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T06:30:00.00	1114	0-0-O	 GRAD: mtf1 excessive
+?	08010046	1979-06-17T08:42:00.00	1310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T08:43:00.00	1312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T08:44:00.00	1313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T08:45:00.00	1314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T08:46:00.00	1315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T08:47:00.00	1317	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:09:00.00	1435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:10:00.00	1436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:11:00.00	1437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:12:00.00	1438	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:13:00.00	1440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:14:00.00	1441	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:15:00.00	1443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:16:00.00	1444	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:17:00.00	1446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:27:00.00	1462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:28:00.00	1463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:29:00.00	1464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:30:00.00	1466	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:31:00.00	1468	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T10:32:00.00	1469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:34:00.00	1560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:35:00.00	1561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:36:00.00	1562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:37:00.00	1563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:38:00.00	1564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:39:00.00	1565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:40:00.00	1566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:41:00.00	1568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:42:00.00	1569	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:43:00.00	1570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:44:00.00	1572	0-0-Q	 GRAD: mag excessive
+?	08010046	1979-06-17T11:51:00.00	1582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:52:00.00	1584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:53:00.00	1586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:54:00.00	1587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:55:00.00	1589	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:56:00.00	1591	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T11:57:00.00	1592	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T14:36:00.00	1812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T14:37:00.00	1813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T14:38:00.00	1815	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:01:00.00	1848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:02:00.00	1850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:03:00.00	1851	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:04:00.00	1853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:05:00.00	1855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:06:00.00	1857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:23:00.00	1882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:25:00.00	1884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T15:26:00.00	1886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:46:00.00	2072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:47:00.00	2073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:48:00.00	2074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:49:00.00	2075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:50:00.00	2076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:51:00.00	2077	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:52:00.00	2079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-17T17:53:00.00	2081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010046	1979-06-19T11:30:00.00	5058	0-0-W	 GRAD: faa excessive
+?	08010046	1979-06-21T09:35:32.04	8528	0-0-KL	 GRAD: twt, depth excessive
+?	08010046	1979-06-22T08:58:37.02	9156	0-0-K	 GRAD: twt excessive
+?	08010046	1979-06-26T11:00:01.98	14861	0-0-K	 GRAD: twt excessive
+Y	08010046	1979-06-26T14:21:40.02	15024	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:24:40.02	15025	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:27:40.02	15026	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:30:03.96	15027	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:33:19.98	15028	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:36:19.98	15029	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:39:19.98	15030	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:42:19.98	15031	D-0-0	 NAV: on land
+Y	08010046	1979-06-26T14:54:00.00	15032	D-0-0	 NAV: on land

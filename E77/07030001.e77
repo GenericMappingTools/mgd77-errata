@@ -1,0 +1,39 @@
+# Cruise 07030001 ID YOC63MAY MGD77 FILE VERSION: 19840131 N_RECS: 1461
+# Examined: Mon Jul 26 15:28:44 2010 by mtchandl
+# Arguments:  -R228.1/236/39.6/47 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-07030001-nav-00: Flagged 1.44 % of records with bad navigation
+Y-I-07030001-depth-01: RLS m: 0.999651 b: 0 rms: 47.4499 r: 0.999018 sig: 1 dec: 0
+Y-I-07030001-faa-01: RLS m: 0.983995 b: 6.69184 rms: 8.93058 r: 0.962186 sig: 1 dec: 0
+N-E-07030001-faa-02: Regression slope 0.983995 different from 1. Recommended: [1]
+Y-W-07030001-faa-03: Regression offset 6.69184 different from 0.
+Y-W-07030001-twt-11: More recent bathymetry correction table available
+Y-W-07030001-faa-12: Integer precision
+# Errata: Data
+Y	07030001	1963-05-10T09:41:00.00	493	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T09:46:00.00	494	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T09:50:00.00	495	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T10:03:00.00	496	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T10:08:00.00	497	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T10:17:00.00	498	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T10:28:00.00	499	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-10T10:37:00.00	500	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-11T01:44:00.00	583	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-11T06:04:00.00	597	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-11T09:13:00.00	617	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-12T06:44:00.00	728	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-12T17:13:00.00	786	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-12T18:08:00.00	792	B-0-0	 NAV: non-increasing time
+Y	07030001	1963-05-12T19:50:00.00	802	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-21T16:09:00.00	1023	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-21T18:53:00.00	1037	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-21T23:21:00.00	1065	C-0-0	 NAV: excessive speed
+?	07030001	1963-05-22T02:15:00.00	1078	0-M-0	 VAL: bcc invalid
+Y	07030001	1963-05-22T09:00:00.00	1102	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-26T15:40:00.00	1201	C-0-0	 NAV: excessive speed
+Y	07030001	1963-05-26T15:52:00.00	1202	C-0-0	 NAV: excessive speed

@@ -1,0 +1,18 @@
+# Cruise 01010174 ID RC2011 MGD77 FILE VERSION: 19800908 N_RECS: 8480
+# Examined: Mon Jul  6 16:31:45 2009 by mtchandl
+# Arguments:  -R202/281.7/3.9/21.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010174-H04-01: Invalid Survey Departure Year: (1970) [1977]
+N-E-01010174-H13-06: Invalid Magnetics Reference Field Code: (77) [77]
+Y-I-01010174-depth-01: RLS m: 1 b: 0 rms: 21.7565 r: 0.999861 sig: 1 dec: 0
+Y-E-01010174-mag-07: Anomaly differs from mtf1-IGRF (m: 0.825555 b: 60.8842 rms: 76.5328 r: 0.826597 sig: 1 dec: 0). [Recompute]
+N-E-01010174-depth-08: Extended offset from grid [3-8480]
+Y-W-01010174-mtf1-12: Integer precision
+Y-W-01010174-mag-12: Integer precision
+# Errata: Data
+?	01010174	1977-04-02T23:54:00.00	4817	0-0-K	 GRAD: twt excessive

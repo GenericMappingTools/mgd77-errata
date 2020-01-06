@@ -1,0 +1,89 @@
+# Cruise 01030156 ID V2909 MGD77 FILE VERSION: 19790919 N_RECS: 7592
+# Examined: Fri Jul 10 12:22:32 2009 by mtchandl
+# Arguments:  -R330.55/346.05/28.1/64.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030156-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030156-depth-01: RLS m: 0.999651 b: 0 rms: 4.83401 r: 0.999996 sig: 1 dec: 0
+N-E-01030156-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030156-faa-01: RLS m: 1.0302 b: 1.2238 rms: 7.42416 r: 0.98578 sig: 1 dec: 1
+Y-E-01030156-mag-07: Anomaly differs from mtf1-IGRF (m: 0.847879 b: 115.005 rms: 174.173 r: 0.862501 sig: 1 dec: 1). [Recompute]
+N-E-01030156-faa-08: Extended offset from grid [1487-3851]
+N-E-01030156-depth-08: Extended offset from grid [4-7592]
+Y-W-01030156-twt-11: More recent bathymetry correction table available
+Y-W-01030156-mtf1-12: Integer precision
+Y-W-01030156-mag-12: Integer precision
+# Errata: Data
+?	01030156	1972-07-21T05:18:00.00	2109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-07-21T05:54:00.00	2117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-07-21T06:24:00.00	2124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-07-30T22:30:00.00	5019	0-Q-0	 VAL: mag invalid
+?	01030156	1972-07-30T22:36:00.00	5020	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-04T22:42:00.00	6595	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-04T22:48:00.00	6596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-04T22:54:00.00	6598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T20:12:00.00	6848	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:18:00.00	6849	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:24:00.00	6851	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:30:00.00	6852	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:36:00.00	6853	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:42:00.00	6855	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-05T20:48:00.00	6856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T21:06:00.00	6860	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T21:12:00.00	6862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T21:24:00.00	6865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T21:48:00.00	6871	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T22:06:00.00	6875	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T22:12:00.00	6877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T22:18:00.00	6878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T22:30:00.00	6881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:00:00.00	6888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:12:00.00	6891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:18:00.00	6892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:24:00.00	6894	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:30:00.00	6895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:36:00.00	6896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-05T23:48:00.00	6899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T00:24:00.00	6909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T00:54:00.00	6916	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T01:00:00.00	6917	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T01:06:00.00	6918	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T01:18:00.00	6921	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T01:24:00.00	6923	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T01:36:00.00	6926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T01:48:00.00	6929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T02:00:00.00	6932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T02:12:00.00	6935	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T02:18:00.00	6936	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T02:24:00.00	6938	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T02:30:00.00	6939	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T02:36:00.00	6940	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T04:06:00.00	6962	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T04:18:00.00	6965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T04:24:00.00	6967	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T04:30:00.00	6968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T05:18:00.00	6979	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T05:24:00.00	6981	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T05:30:00.00	6982	0-Q-0	 VAL: mag invalid
+?	01030156	1972-08-06T05:54:00.00	6988	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T06:48:00.00	7001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-06T09:36:00.00	7040	0-0-O	 GRAD: mtf1 excessive
+?	01030156	1972-08-06T22:48:00.00	7221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T01:42:00.00	7262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T02:30:00.00	7272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T02:36:00.00	7273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T03:30:00.00	7285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T05:18:00.00	7312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T07:24:00.00	7344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T07:36:00.00	7347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T07:48:00.00	7349	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T07:54:00.00	7350	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T08:00:00.00	7351	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T08:06:00.00	7352	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T08:18:00.00	7355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T08:30:00.00	7359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030156	1972-08-07T08:48:00.00	7362	0-0-OQ	 GRAD: mtf1, mag excessive

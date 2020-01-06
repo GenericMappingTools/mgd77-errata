@@ -1,0 +1,17 @@
+# Cruise 35080008 ID 25274 MGD77 FILE VERSION: 19880322 N_RECS: 497
+# Examined: Tue Jul 26 18:47:00 2011 by mtchandl
+# Arguments:  -R110/129.45/16.35/35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-35080008-nav-00: Flagged 0.40 % of records with bad navigation
+Y-I-35080008-depth-01: RLS m: 1.0319 b: 0 rms: 56.2457 r: 0.999928 sig: 1 dec: 0
+N-E-35080008-depth-02: Regression slope 1.0319 different from 1. Recommended: [1]
+Y-W-35080008-depth-12: Integer precision
+# Errata: Data
+?	35080008	2987.89	132	0-0-L	 GRAD: depth excessive
+Y	35080008	4507.31	243	D-0-0	 NAV: on land
+Y	35080008	7817.53	371	D-0-0	 NAV: on land

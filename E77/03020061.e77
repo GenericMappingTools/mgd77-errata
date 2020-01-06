@@ -1,0 +1,15 @@
+# Cruise 03020061 ID B00038 MGD77 FILE VERSION: 19921231 N_RECS: 4648
+# Examined: Fri Apr  9 14:53:09 2010 by mtchandl
+# Arguments:  -R235.45/235.8/38.95/39.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Discrepancies between ship and predicted bathymetry.
+# Errata: Header
+Y-W-03020061-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-03020061-depth-01: RLS m: 1.00336 b: 0 rms: 46.5886 r: 0.997228 sig: 1 dec: 0
+N-E-03020061-depth-02: Regression slope 1.00336 different from 1. Recommended: [1]
+Y-W-03020061-depth-12: Integer precision
+# Errata: Data
+Y	03020061	1985-11-07T13:53:58.98	2361	C-0-0	 NAV: excessive speed

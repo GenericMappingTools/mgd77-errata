@@ -1,0 +1,70 @@
+# Cruise J1020036 ID HS880621 MGD77 FILE VERSION: 19921231 N_RECS: 20143
+# Examined: Sat Aug  6 11:46:43 2011 by mtchandl
+# Arguments:  -R140.3/141.75/30.65/32.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J1020036-depth-01: RLS m: 1.00052 b: 0 rms: 24.2994 r: 0.999619 sig: 1 dec: 0
+N-E-J1020036-depth-02: Regression slope 1.00052 different from 1. Recommended: [1]
+Y-I-J1020036-faa-01: RLS m: 0.996861 b: -4.6001 rms: 5.31574 r: 0.99804 sig: 1 dec: 0
+N-E-J1020036-faa-02: Regression slope 0.996861 different from 1. Recommended: [1]
+Y-W-J1020036-faa-03: Regression offset -4.6001 different from 0.
+Y-I-J1020036-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020036-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.584285 b: 7.2476 rms: 51.4431 r: 0.753252 sig: 1 dec: 1). [Recompute]
+Y-W-J1020036-depth-12: Integer precision
+# Errata: Data
+?	J1020036	1988-06-21T05:12:00.00	197	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-21T05:13:00.00	198	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-21T05:14:00.00	199	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-21T06:46:00.00	260	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-21T07:00:00.00	272	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-21T12:12:00.00	519	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T02:36:00.00	1205	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T02:48:00.00	1217	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T15:41:00.00	1848	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T16:04:00.00	1871	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T16:25:00.00	1892	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T18:24:00.00	1983	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T18:39:00.00	1998	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-22T19:21:00.00	2039	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-23T10:27:00.00	2740	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-23T11:30:00.00	2766	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-24T07:06:00.00	3596	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-24T17:19:00.00	4010	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-25T02:19:00.00	4421	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-25T05:42:00.00	4525	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-25T13:30:00.00	4850	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-25T13:38:00.00	4855	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-26T10:50:00.00	5753	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-26T13:55:00.00	5867	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-27T05:50:00.00	6558	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-27T23:05:00.00	7321	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-27T23:24:00.00	7340	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-27T23:26:00.00	7342	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-27T23:44:00.00	7358	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-29T04:11:00.00	8500	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-29T04:13:00.00	8502	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-30T06:59:00.00	9720	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-06-30T07:01:00.00	9722	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-05T22:53:00.00	10626	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-07T09:12:00.00	12202	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-07T09:26:00.00	12216	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-08T17:11:00.00	13763	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-09T09:06:00.00	14542	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-10T01:50:00.00	15371	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-10T17:26:00.00	16055	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-10T17:27:00.00	16056	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-10T18:39:00.00	16091	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-10T18:43:00.00	16095	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-11T08:46:00.00	16578	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-11T11:22:00.00	16711	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-11T12:28:00.00	16770	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-11T16:27:00.00	16926	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-12T07:58:00.00	17548	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-12T21:12:00.00	18169	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-14T00:55:00.00	19235	0-0-L	 GRAD: depth excessive
+?	J1020036	1988-07-14T17:05:00.00	19317	0-0-V	 GRAD: eot excessive
+?	J1020036	1988-07-14T19:17:00.00	19366	0-0-L	 GRAD: depth excessive

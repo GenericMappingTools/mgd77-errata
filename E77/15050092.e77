@@ -1,0 +1,20 @@
+# Cruise 15050092 ID DSDP92GC MGD77 FILE VERSION: 19840611 N_RECS: 8258
+# Examined: Fri May 30 10:29:57 2008 by mtchandl
+# Arguments:  -R210.35/279.85/-19.5/7.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15050092-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15050092-depth-01: RLS m: 1 b: 0 rms: 141.492 r: 0.988497 sig: 1 dec: 1
+Y-E-15050092-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00205 b: -33.5815 rms: 72.5947 r: 0.921013 sig: 1 dec: 1). [Recompute]
+Y-W-15050092-mtf1-12: Integer precision
+Y-W-15050092-mag-12: Integer precision
+# Errata: Data
+?	15050092	1983-03-17T07:00:00.00	2733	0-0-K	 GRAD: twt excessive
+?	15050092	1983-03-17T07:05:00.00	2734	0-0-K	 GRAD: twt excessive
+?	15050092	1983-03-17T07:25:00.00	2738	0-0-KL	 GRAD: twt, depth excessive
+?	15050092	1983-04-07T05:45:00.00	7538	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	15050092	1983-04-07T05:50:00.00	7539	0-0-Q	 GRAD: mag excessive

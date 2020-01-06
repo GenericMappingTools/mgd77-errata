@@ -1,0 +1,20 @@
+# Cruise 77030003 ID VI49 MGD77 FILE VERSION: 19800409 N_RECS: 6993
+# Examined: Mon Nov 23 16:10:20 2009 by mtchandl
+# Arguments:  -R132.95/187.85/-46.6/42.7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-77030003-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-77030003-depth-01: RLS m: 0.995778 b: 0 rms: 62.0094 r: 0.999393 sig: 1 dec: 0
+N-E-77030003-depth-02: Regression slope 0.995778 different from 1. Recommended: [1]
+Y-I-77030003-faa-01: RLS m: 1.0113 b: -9.25247 rms: 14.0411 r: 0.98586 sig: 1 dec: 0
+N-E-77030003-faa-02: Regression slope 1.0113 different from 1. Recommended: [1]
+Y-W-77030003-faa-03: Regression offset -9.25247 different from 0.
+Y-I-77030003-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-77030003-faa-08: Extended offset from grid [6085-6513]
+Y-W-77030003-depth-12: Integer precision
+# Errata: Data
+Y	77030003	1971-02-14T23:40:00.00	4706	C-0-0	 NAV: excessive speed

@@ -1,0 +1,25 @@
+# Cruise 03020013 ID CMAPSU5A MGD77 FILE VERSION: 19800213 N_RECS: 2853
+# Examined: Fri Apr  9 13:36:07 2010 by mtchandl
+# Arguments:  -R179.95/189.15/42/48 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-E-03020013-H12-01: Invalid Bathymetry Digitizing Rate: (579) [579]
+Y-E-03020013-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-03020013-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-03020013-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-03020013-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-I-03020013-depth-01: RLS m: 0.999302 b: 0 rms: 28.0557 r: 0.993324 sig: 1 dec: 0
+Y-I-03020013-faa-01: RLS m: -0.838807 b: -11.2916 rms: 24.1646 r: 0.814494 sig: 1 dec: 0
+N-E-03020013-faa-02: Regression slope -0.838807 different from 1. Recommended: [1]
+Y-W-03020013-faa-03: Regression offset -11.2916 different from 0.
+Y-E-03020013-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0066 b: -118.385 rms: 119.821 r: 0.997429 sig: 1 dec: 1). [Recompute]
+Y-W-03020013-faa-09: all values less than or equal to zero
+Y-E-03020013-faa-10: Invalid data records: [1-2853]
+Y-W-03020013-mtf1-12: Integer precision
+Y-W-03020013-mag-12: Integer precision
+Y-W-03020013-faa-12: Integer precision
+# Errata: Data

@@ -1,0 +1,108 @@
+# Cruise 01010061 ID RC1206 MGD77 FILE VERSION: 19790619 N_RECS: 5663
+# Examined: Mon Jan 26 17:27:25 2009 by mtchandl
+# Arguments:  -R126.85/139.8/29.05/35.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010061-nav-00: Flagged 0.49 % of records with excessive speed or invalid navigation
+Y-I-01010061-depth-01: RLS m: 1 b: 0 rms: 14.6782 r: 0.999974 sig: 1 dec: 0
+Y-I-01010061-faa-01: RLS m: 0.987286 b: -1.70476 rms: 12.0543 r: 0.976059 sig: 1 dec: 1
+Y-W-01010061-faa-03: Regression offset -1.70476 different from 0.
+Y-E-01010061-mag-07: Anomaly differs from mtf1-IGRF (m: 0.980725 b: 27.8469 rms: 36.58 r: 0.995493 sig: 1 dec: 1). [Recompute]
+Y-W-01010061-twt-11: More recent bathymetry correction table available
+Y-W-01010061-mtf1-12: Integer precision
+Y-W-01010061-mag-12: Integer precision
+# Errata: Data
+?	01010061	1968-06-03T14:41:00.00	27	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T14:45:00.00	28	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T14:52:00.00	30	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T14:54:00.00	31	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T14:55:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:00:00.00	34	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:01:00.00	35	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:03:00.00	36	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:45:00.00	49	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:52:00.00	52	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:53:00.00	53	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:55:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:56:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T15:59:00.00	57	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:00:00.00	58	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:01:00.00	59	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:02:00.00	60	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:03:00.00	61	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:04:00.00	62	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:06:00.00	64	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:14:00.00	67	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:15:00.00	68	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:17:00.00	69	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:21:00.00	72	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:39:00.00	77	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-03T16:45:00.00	78	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-12T03:24:00.00	2041	0-0-K	 GRAD: twt excessive
+?	01010061	1968-06-13T00:27:00.00	2266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-15T18:00:00.00	2896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-15T18:03:00.00	2897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-15T18:06:00.00	2898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:25:00.00	3257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:35:00.00	3261	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:40:00.00	3263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:42:00.00	3264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:43:00.00	3265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:45:00.00	3266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:47:00.00	3267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:50:00.00	3269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T21:55:00.00	3271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T22:00:00.00	3273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T22:05:00.00	3274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T22:08:00.00	3276	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-16T22:10:00.00	3277	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:11:00.00	3278	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:12:00.00	3279	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:15:00.00	3280	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:17:00.00	3281	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:18:00.00	3282	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:19:00.00	3283	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:21:00.00	3284	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:22:00.00	3285	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:24:00.00	3286	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:25:00.00	3287	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:28:00.00	3288	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	01010061	1968-06-16T22:30:00.00	3289	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:35:00.00	3290	D-0-0	 NAV: on land
+Y	01010061	1968-06-16T22:36:00.00	3291	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:18:00.00	3387	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:24:00.00	3388	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:30:00.00	3389	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:36:00.00	3390	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:42:00.00	3391	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:48:00.00	3392	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T06:54:00.00	3393	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:00:00.00	3394	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:06:00.00	3395	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:12:00.00	3396	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:18:00.00	3397	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:24:00.00	3398	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T07:30:00.00	3399	D-0-0	 NAV: on land
+Y	01010061	1968-06-17T23:08:00.00	3424	D-0-0	 NAV: on land
+?	01010061	1968-06-17T23:15:00.00	3425	D-0-0	 NAV: on land
+?	01010061	1968-06-25T17:23:00.00	5462	0-0-O	 GRAD: mtf1 excessive
+?	01010061	1968-06-25T17:25:00.00	5463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-25T17:27:00.00	5464	0-0-Q	 GRAD: mag excessive
+?	01010061	1968-06-26T00:22:00.00	5587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:25:00.00	5588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:38:00.00	5592	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:41:00.00	5595	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:43:00.00	5596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:48:00.00	5598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T00:52:00.00	5601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T01:42:00.00	5620	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T02:45:00.00	5639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T03:00:00.00	5642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T03:01:00.00	5643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T03:04:00.00	5644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T03:10:00.00	5645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010061	1968-06-26T03:15:00.00	5646	0-0-OQ	 GRAD: mtf1, mag excessive

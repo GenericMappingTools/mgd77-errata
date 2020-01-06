@@ -1,0 +1,17 @@
+# Cruise 19470002 ID 19920154 MGD77 FILE VERSION: 19931231 N_RECS: 2305
+# Examined: Mon Oct 18 15:22:53 2010 by mtchandl
+# Arguments:  -R57.25/109.65/-8.3/1.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Survey distance exaggerated by large gaps in navigation.
+# Errata: Header
+Y-E-19470002-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-19470002-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-W-19470002-H13-10: Survey year (1992) outside magnetic reference field Unused time range (9999-9999)
+Y-E-19470002-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-I-19470002-depth-01: RLS m: 1 b: 0 rms: 8.44154 r: 0.999993 sig: 1 dec: 0
+?-E-19470002-twt-13: Encountered possible PDR wrap errors (5.3) [5.0]
+# Errata: Data
+?	19470002	32069.4	1378	0-0-KL	 GRAD: twt, depth excessive

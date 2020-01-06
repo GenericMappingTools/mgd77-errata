@@ -1,0 +1,20 @@
+# Cruise 02020019 ID A2042L06 MGD77 FILE VERSION: 19800206 N_RECS: 3934
+# Examined: Fri Mar 26 21:20:51 2010 by mtchandl
+# Arguments:  -R289.15/340.95/15.3/41.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-02020019-H04-03: Invalid Survey Departure Day: (28) [29]
+Y-I-02020019-depth-01: RLS m: 0.998256 b: 0 rms: 54.4 r: 0.998743 sig: 1 dec: 0
+N-E-02020019-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+# Errata: Data
+?	02020019	1968-07-04T22:50:00.00	632	0-0-KL	 GRAD: twt, depth excessive
+?	02020019	1968-07-11T04:10:00.00	1731	0-0-KL	 GRAD: twt, depth excessive
+?	02020019	1968-07-11T09:45:00.00	1751	0-0-KL	 GRAD: twt, depth excessive
+?	02020019	1968-07-11T10:15:00.00	1757	0-0-KL	 GRAD: twt, depth excessive
+?	02020019	1968-07-12T19:55:00.00	2112	0-0-KL	 GRAD: twt, depth excessive
+?	02020019	1968-07-16T01:33:00.00	2880	0-0-K	 GRAD: twt excessive
+?	02020019	1968-07-18T22:40:00.00	2995	0-0-K	 GRAD: twt excessive

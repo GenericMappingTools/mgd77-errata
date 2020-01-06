@@ -1,0 +1,21 @@
+# Cruise J8020002 ID ANTAC26 MGD77 FILE VERSION: 19900413 N_RECS: 1618
+# Examined: Mon Aug  8 16:06:10 2011 by mtchandl
+# Arguments:  -R23.9/114.95/-70.2/-20.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J8020002-H04-02: Invalid Survey Departure Month: (11) [12]
+N-E-J8020002-H04-03: Invalid Survey Departure Day: (14) [03]
+N-E-J8020002-H04-06: Invalid Survey Arrival Day: (19) [14]
+Y-W-J8020002-nav-00: Flagged 0.31 % of records with bad navigation
+Y-I-J8020002-depth-01: RLS m: 1 b: 0 rms: 9.20694 r: 0.99996 sig: 1 dec: 0
+Y-W-J8020002-depth-12: Integer precision
+# Errata: Data
+Y	J8020002	1984-12-03T17:20:00.00	20	C-0-0	 NAV: excessive speed
+Y	J8020002	1984-12-03T18:00:00.00	22	C-0-0	 NAV: excessive speed
+Y	J8020002	1985-03-06T14:20:00.00	1150	C-0-0	 NAV: excessive speed
+Y	J8020002	1985-03-06T14:40:00.00	1151	C-0-0	 NAV: excessive speed
+Y	J8020002	1985-03-06T15:00:00.00	1152	C-0-0	 NAV: excessive speed

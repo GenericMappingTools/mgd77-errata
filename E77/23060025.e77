@@ -1,0 +1,22 @@
+# Cruise 23060025 ID ODP122JR MGD77 FILE VERSION: 19891220 N_RECS: 5404
+# Examined: Tue Oct 19 15:20:11 2010 by mtchandl
+# Arguments:  -R104.25/115.75/-20.65/1.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Noisy bathymetry, flagged two excessive offsets.
+# Errata: Header
+Y-W-23060025-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-23060025-depth-01: RLS m: 0.999546 b: 0 rms: 8.36026 r: 0.999991 sig: 1 dec: 0
+N-E-23060025-depth-02: Regression slope 0.999546 different from 1. Recommended: [1]
+Y-E-23060025-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999321 b: -117.118 rms: 117.589 r: 0.999704 sig: 1 dec: 1). [Recompute]
+Y-E-23060025-depth-08: Extended offset from grid [3546-3800]
+Y-E-23060025-depth-08: Extended offset from grid [3806-4495]
+Y-W-23060025-depth-12: Integer precision
+Y-W-23060025-mtf1-12: Integer precision
+# Errata: Data
+Y	23060025	1988-07-05T13:00:00.00	58	C-0-0	 NAV: excessive speed
+?	23060025	1988-08-22T12:13:00.00	3370	0-Q-0	 VAL: mag invalid
+?	23060025	1988-08-22T12:16:00.00	3372	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060025	1988-08-22T12:19:00.00	3373	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

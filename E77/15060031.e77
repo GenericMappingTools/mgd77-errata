@@ -1,0 +1,44 @@
+# Cruise 15060031 ID RISP03BD MGD77 FILE VERSION: 19800226 N_RECS: 10881
+# Examined: Sat May 31 10:26:33 2008 by mtchandl
+# Arguments:  -R210.4/242.25/-17.5/32.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060031-H04-03: Invalid Survey Departure Day: (03) [04]
+Y-W-15060031-nav-00: Flagged 0.20 % of records with excessive speed or invalid navigation
+Y-I-15060031-depth-01: RLS m: 1.00388 b: 0 rms: 182.008 r: 0.991952 sig: 1 dec: 1
+Y-E-15060031-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.946487 b: -45.7013 rms: 117.46 r: 0.82547 sig: 1 dec: 1). [Recompute]
+Y-W-15060031-mtf1-12: Integer multiple of 5 precision
+Y-W-15060031-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15060031	1962-01-07T01:21:00.00	932	C-0-0	 NAV: excessive speed
+Y	15060031	1962-01-07T01:24:00.00	933	C-0-0	 NAV: excessive speed
+Y	15060031	1962-01-07T01:27:00.00	934	C-0-0	 NAV: excessive speed
+Y	15060031	1962-01-07T01:30:00.00	935	C-0-0	 NAV: excessive speed
+Y	15060031	1962-01-07T01:33:00.00	936	C-0-0	 NAV: excessive speed
+Y	15060031	1962-01-10T02:54:00.00	1612	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T02:57:00.00	1613	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:00:00.00	1614	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:03:00.00	1615	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:06:00.00	1616	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:09:00.00	1617	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:12:00.00	1618	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T03:15:00.00	1619	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T08:48:00.00	1639	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T08:51:00.00	1640	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T08:54:00.00	1641	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T08:57:00.00	1642	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T09:00:00.00	1643	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T09:03:00.00	1644	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T09:06:00.00	1645	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T09:09:00.00	1646	D-0-0	 NAV: on land
+Y	15060031	1962-01-10T09:12:00.00	1647	D-0-0	 NAV: on land
+?	15060031	1962-01-10T10:06:00.00	1665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060031	1962-02-05T07:42:00.00	10789	0-Q-0	 VAL: mag invalid
+?	15060031	1962-02-05T07:48:00.00	10791	0-Q-0	 VAL: mag invalid
+?	15060031	1962-02-05T07:54:00.00	10793	0-Q-0	 VAL: mag invalid
+?	15060031	1962-02-05T08:06:00.00	10797	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060031	1962-02-05T08:12:00.00	10799	0-0-OQ	 GRAD: mtf1, mag excessive

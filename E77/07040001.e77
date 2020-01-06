@@ -1,0 +1,15 @@
+# Cruise 07040001 ID SUR64FEB MGD77 FILE VERSION: 19840131 N_RECS: 114
+# Examined: Mon Jul 26 15:29:10 2010 by mtchandl
+# Arguments:  -R235.3/235.85/38.05/47.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-07040001-nav-00: Flagged 0.88 % of records with bad navigation
+Y-I-07040001-faa-01: RLS m: 1.02617 b: 3.12447 rms: 5.46608 r: 0.977591 sig: 1 dec: 1
+Y-W-07040001-faa-03: Regression offset 3.12447 different from 0.
+Y-W-07040001-faa-12: Integer precision
+# Errata: Data
+Y	07040001	1964-02-12T18:14:00.00	24	C-0-0	 NAV: excessive speed

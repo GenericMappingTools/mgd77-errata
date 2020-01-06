@@ -1,0 +1,30 @@
+# Cruise 05010004 ID CP7702 MGD77 FILE VERSION: 19840921 N_RECS: 8172
+# Examined: Fri Apr 30 13:12:07 2010 by mtchandl
+# Arguments:  -R164.75/175.3/-54.05/-42 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010004-H13-09: Unknown IGRF specified (PGRF-75)
+Y-I-05010004-depth-01: RLS m: 0.996804 b: 0 rms: 15.97 r: 0.999746 sig: 1 dec: 0
+N-E-05010004-depth-02: Regression slope 0.996804 different from 1. Recommended: [1]
+Y-E-05010004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00704 b: -25.6904 rms: 28.8913 r: 0.997992 sig: 1 dec: 1). [Recompute]
+Y-W-05010004-depth-12: Integer precision
+Y-W-05010004-mtf1-12: Integer precision
+Y-W-05010004-mag-12: Integer precision
+# Errata: Data
+?	05010004	1977-09-27T17:17:00.00	2133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-09-27T17:19:00.00	2135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-09-28T07:20:00.00	2927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-09-28T07:24:00.00	2930	0-0-Q	 GRAD: mag excessive
+?	05010004	1977-10-02T22:32:00.00	5244	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T08:27:00.00	7498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T08:30:00.00	7500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T08:35:00.00	7503	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T18:12:00.00	7784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T18:13:00.00	7785	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T18:15:00.00	7787	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T18:16:00.00	7788	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010004	1977-10-06T18:17:00.00	7789	0-0-O	 GRAD: mtf1 excessive

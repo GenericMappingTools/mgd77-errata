@@ -1,0 +1,33 @@
+# Cruise 09050031 ID KA343618 MGD77 FILE VERSION: 19791128 N_RECS: 2685
+# Examined: Mon Aug  9 11:32:28 2010 by mtchandl
+# Arguments:  -R348.75/352.9/37.55/47.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09050031-H04-03: Invalid Survey Departure Day: (22) [23]
+Y-E-09050031-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050031-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09050031-nav-00: Flagged 0.52 % of records with bad navigation
+Y-I-09050031-depth-01: RLS m: 1.00015 b: 0 rms: 5.13322 r: 0.999984 sig: 1 dec: 0
+Y-E-09050031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997086 b: -135.051 rms: 135.173 r: 0.998904 sig: 1 dec: 0). [Recompute]
+Y-W-09050031-depth-12: Integer precision
+Y-W-09050031-mag-12: Integer precision
+# Errata: Data
+Y	09050031	1976-06-23T16:22:00.00	490	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T19:19:00.00	667	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T19:24:00.00	672	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T19:47:00.00	695	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T19:59:00.00	707	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T20:46:00.00	754	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T23:31:00.00	919	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-23T23:59:00.00	948	B-0-0	 NAV: non-increasing time
+Y	09050031	1976-06-24T00:11:00.00	959	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-24T00:33:00.00	981	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-24T00:54:00.00	1002	C-0-0	 NAV: excessive speed
+?	09050031	1976-06-24T03:55:00.00	1183	0-0-K	 GRAD: twt excessive
+Y	09050031	1976-06-24T05:15:00.00	1263	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-24T06:20:00.00	1328	C-0-0	 NAV: excessive speed
+Y	09050031	1976-06-24T07:49:00.00	1417	C-0-0	 NAV: excessive speed

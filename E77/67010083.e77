@@ -1,0 +1,18 @@
+# Cruise 67010083 ID 77005113 MGD77 FILE VERSION: 19840123 N_RECS: 15704
+# Examined: Fri Jul 29 16:35:33 2011 by mtchandl
+# Arguments:  -R-60.25/-19.35/10.65/14.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all bathymetry after 2000 km along track, bad navigation.
+# Errata: Header
+Y-I-67010083-depth-01: RLS m: 1.00387 b: 0 rms: 330.84 r: 0.942216 sig: 1 dec: 0
+N-E-67010083-depth-08: Extended offset from grid [8345-9042]
+N-E-67010083-depth-08: Extended offset from grid [10227-12467]
+N-E-67010083-depth-08: Extended offset from grid [12518-15704]
+Y-E-67010083-depth-10: Invalid data records: [7536-15704]
+Y-W-67010083-depth-12: Integer precision
+# Errata: Data
+?	67010083	1977-11-20T14:10:06.00	7679	0-0-L	 GRAD: depth excessive
+?	67010083	1977-11-22T06:31:00.00	9532	0-0-L	 GRAD: depth excessive

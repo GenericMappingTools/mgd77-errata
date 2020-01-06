@@ -1,0 +1,19 @@
+# Cruise 02010044 ID CH099L04 MGD77 FILE VERSION: 19900209 N_RECS: 8051
+# Examined: Fri Mar 26 20:47:04 2010 by mtchandl
+# Arguments:  -R5.2/33.6/-35/-8.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-I-02010044-depth-01: RLS m: 0.999651 b: 0 rms: 15.9143 r: 0.999941 sig: 1 dec: 0
+Y-E-02010044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.959221 b: 24.7435 rms: 45.5642 r: 0.968365 sig: 1 dec: 0). [Recompute]
+Y-W-02010044-mtf1-12: Integer precision
+Y-W-02010044-mag-12: Integer precision
+# Errata: Data
+?	02010044	1970-06-18T10:25:00.00	3290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010044	1970-06-24T07:56:00.00	5276	0-0-K	 GRAD: twt excessive
+?	02010044	1970-06-24T07:57:00.00	5277	0-0-K	 GRAD: twt excessive
+?	02010044	1970-06-24T08:02:00.00	5279	0-0-KL	 GRAD: twt, depth excessive
+?	02010044	1970-06-24T17:16:00.00	5387	0-0-K	 GRAD: twt excessive

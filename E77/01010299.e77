@@ -1,0 +1,74 @@
+# Cruise 01010299 ID RC2911 MGD77 FILE VERSION: 19910319 N_RECS: 38488
+# Examined: Wed Jul  8 19:20:40 2009 by mtchandl
+# Arguments:  -R-7/4.7/35.15/41.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010299-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010299-H13-10: Survey year (1988) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010299-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010299-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [3]
+Y-W-01010299-H16-06: Ten Degree Identifier 7400 marked in header but was not crossed
+Y-W-01010299-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-I-01010299-depth-01: RLS m: 1.0035 b: 0 rms: 140.273 r: 0.983263 sig: 1 dec: 1
+Y-I-01010299-faa-01: RLS m: 0.95451 b: 3.1719 rms: 5.21653 r: 0.991367 sig: 1 dec: 0
+N-E-01010299-faa-02: Regression slope 0.95451 different from 1. Recommended: [1]
+Y-W-01010299-faa-03: Regression offset 3.1719 different from 0.
+N-E-01010299-faa-06: Anomaly differs from gobs-IGF80 (m: 0.616388 b: -10.2416 rms: 29.0444 r: 0.801417 sig: 1 dec: 0). [Recompute]
+N-E-01010299-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010299-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010299-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994665 b: 34.7231 rms: 35.8637 r: 0.99817 sig: 1 dec: 1). [Recompute]
+N-E-01010299-depth-08: Extended offset from grid [11-38488]
+Y-W-01010299-twt-11: More recent bathymetry correction table available
+Y-W-01010299-mtf1-12: Integer precision
+Y-W-01010299-mag-12: Integer precision
+# Errata: Data
+Y	01010299	1988-11-02T20:28:00.00	140	C-0-0	 NAV: excessive speed
+Y	01010299	1988-11-02T20:29:00.00	141	C-0-0	 NAV: excessive speed
+Y	01010299	1988-11-02T20:30:00.00	142	C-0-0	 NAV: excessive speed
+?	01010299	1988-11-11T16:13:00.00	12944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010299	1988-11-20T10:54:00.00	25676	0-0-U	 GRAD: gobs excessive
+?	01010299	1988-11-23T16:42:00.00	30381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010299	1988-11-24T11:45:00.00	31534	0-0-UV	 GRAD: gobs, eot excessive
+?	01010299	1988-11-24T16:14:00.00	31804	0-0-U	 GRAD: gobs excessive
+?	01010299	1988-11-24T18:53:00.00	31964	0-0-O	 GRAD: mtf1 excessive
+?	01010299	1988-11-24T22:44:00.00	32198	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010299	1988-11-24T22:45:00.00	32199	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010299	1988-11-24T22:47:00.00	32201	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010299	1988-11-28T20:26:00.00	37851	0-0-U	 GRAD: gobs excessive
+?	01010299	1988-11-28T22:03:00.00	37948	0-0-U	 GRAD: gobs excessive
+?	01010299	1988-11-29T06:30:00.00	38457	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:31:00.00	38458	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:32:00.00	38459	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:33:00.00	38460	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:34:00.00	38461	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:34:48.72	38462	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:35:00.00	38463	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:36:00.00	38464	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:37:00.00	38465	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:38:00.00	38466	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:39:00.00	38467	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:40:00.00	38468	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:41:00.00	38469	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:42:00.00	38470	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:43:00.00	38471	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:44:00.00	38472	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:45:00.00	38473	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:46:00.00	38474	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:47:00.00	38475	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:48:00.00	38476	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:49:00.00	38477	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:50:00.00	38478	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:51:00.00	38479	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:52:00.00	38480	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:53:00.00	38481	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:54:00.00	38482	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:55:00.00	38483	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:56:00.00	38484	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:57:00.00	38485	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:58:00.00	38486	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:59:00.00	38487	D-0-0	 NAV: on land
+Y	01010299	1988-11-29T06:59:37.50	38488	D-0-0	 NAV: on land

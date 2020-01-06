@@ -1,0 +1,116 @@
+# Cruise 19100016 ID DI106 MGD77 FILE VERSION: 19851016 N_RECS: 12222
+# Examined: Mon Sep  6 13:17:11 2010 by mtchandl
+# Arguments:  -R-66.1/1.95/18.5/55.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100016-H13-10: Survey year (1979) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-19100016-nav-00: Flagged 0.43 % of records with bad navigation
+Y-I-19100016-depth-01: RLS m: 0.999184 b: 0 rms: 24.89 r: 0.999787 sig: 1 dec: 0
+Y-E-19100016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996418 b: -515.077 rms: 600.404 r: 0.558611 sig: 1 dec: 0). [Recompute]
+Y-W-19100016-depth-12: Integer precision
+Y-W-19100016-mtf1-12: Integer precision
+Y-W-19100016-mag-12: Integer precision
+# Errata: Data
+Y	19100016	1979-12-05T16:00:00.00	4	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:02:00.00	5	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:04:00.00	6	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:06:00.00	7	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:08:00.00	8	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:10:00.00	9	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:12:00.00	10	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:14:00.00	11	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:16:00.00	12	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:18:00.00	13	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:20:00.00	14	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:22:00.00	15	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:24:00.00	16	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:26:00.00	17	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:28:00.00	18	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:30:00.00	19	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:32:00.00	20	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:34:00.00	21	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:36:00.00	22	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:38:00.00	23	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-05T16:40:00.00	24	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-06T16:24:00.00	736	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-06T16:26:00.00	737	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-06T16:28:00.00	738	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-06T17:18:00.00	764	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:18:00.00	765	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:18:00.00	766	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:18:00.00	767	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:18:00.00	768	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:38:00.00	779	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:38:00.00	780	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-06T17:38:00.00	781	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-07T00:00:00.00	972	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-07T00:02:00.00	973	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-07T00:04:00.00	974	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-07T19:22:00.00	1554	B-0-0	 NAV: non-increasing time
+?	19100016	1979-12-08T15:44:00.00	2165	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-08T15:48:00.00	2167	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-08T15:50:00.00	2168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-08T15:56:00.00	2171	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-08T15:58:00.00	2172	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-08T16:00:00.00	2173	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-08T16:02:00.00	2174	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100016	1979-12-10T01:16:00.00	3172	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-10T01:16:00.00	3173	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-10T01:16:00.00	3174	B-0-0	 NAV: non-increasing time
+?	19100016	1979-12-12T15:34:00.00	5043	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-12T15:40:00.00	5046	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100016	1979-12-12T16:58:00.00	5086	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-12T16:58:00.00	5087	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-12T16:58:00.00	5088	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-12T16:58:00.00	5089	B-0-0	 NAV: non-increasing time
+?	19100016	1979-12-12T22:56:00.00	5268	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-12T22:58:00.00	5269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-12T23:48:00.00	5294	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-12T23:50:00.00	5295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T08:18:00.00	5549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T08:20:00.00	5550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T11:34:00.00	5647	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T11:36:00.00	5648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T11:42:00.00	5651	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T11:44:00.00	5652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T12:26:00.00	5673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T12:30:00.00	5675	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-13T12:32:00.00	5676	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100016	1979-12-14T18:18:00.00	6569	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-14T18:20:00.00	6570	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-14T18:22:00.00	6571	C-0-0	 NAV: excessive speed
+Y	19100016	1979-12-15T14:30:00.00	7176	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-15T14:30:00.00	7177	B-0-0	 NAV: non-increasing time
+?	19100016	1979-12-16T17:58:00.00	8001	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-16T18:00:00.00	8002	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100016	1979-12-16T21:34:00.00	8113	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-16T21:36:00.00	8114	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-16T21:38:00.00	8115	B-0-0	 NAV: non-increasing time
+Y	19100016	1979-12-16T21:40:00.00	8116	B-0-0	 NAV: non-increasing time
+?	19100016	1979-12-17T16:58:00.00	8695	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100016	1979-12-17T17:00:00.00	8696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-18T02:38:00.00	8985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100016	1979-12-22T10:44:00.00	12108	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T10:46:00.00	12109	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T10:48:00.00	12110	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T10:50:00.00	12111	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T10:52:00.00	12112	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T10:54:00.00	12113	0-Q-0	 VAL: mag invalid
+?	19100016	1979-12-22T12:24:00.00	12158	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:26:00.00	12159	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:28:00.00	12160	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:30:00.00	12161	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:32:00.00	12162	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:34:00.00	12163	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:36:00.00	12164	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:38:00.00	12165	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:40:00.00	12166	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:42:00.00	12167	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:44:00.00	12168	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:46:00.00	12169	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:48:00.00	12170	0-0-O	 GRAD: mtf1 excessive
+?	19100016	1979-12-22T12:50:00.00	12171	0-0-O	 GRAD: mtf1 excessive

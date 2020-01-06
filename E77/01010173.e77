@@ -1,0 +1,28 @@
+# Cruise 01010173 ID RC2010 MGD77 FILE VERSION: 19800908 N_RECS: 7192
+# Examined: Mon Jul  6 16:30:00 2009 by mtchandl
+# Arguments:  -R144.55/202.1/6.2/21.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010173-H13-06: Invalid Magnetics Reference Field Code: (77) [77]
+Y-I-01010173-depth-01: RLS m: 1 b: 0 rms: 12.3514 r: 0.999946 sig: 1 dec: 0
+Y-E-01010173-mag-07: Anomaly differs from mtf1-IGRF (m: 0.96203 b: -7.7551 rms: 43.7438 r: 0.984893 sig: 1 dec: 1). [Recompute]
+N-E-01010173-depth-08: Extended offset from grid [3-7192]
+Y-W-01010173-mtf1-12: Integer precision
+Y-W-01010173-mag-12: Integer precision
+# Errata: Data
+?	01010173	1977-02-08T19:36:00.00	2573	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T19:42:00.00	2574	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T19:48:00.00	2575	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T19:54:00.00	2577	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:00:00.00	2578	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:06:00.00	2579	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:12:00.00	2580	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:18:00.00	2581	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:24:00.00	2582	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:30:00.00	2583	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:36:00.00	2584	0-Q-0	 VAL: mag invalid
+?	01010173	1977-02-08T20:42:00.00	2585	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,46 @@
+# Cruise 08020021 ID 8516TR MGD77 FILE VERSION: 19890113 N_RECS: 12192
+# Examined: Mon Nov 23 15:01:28 2009 by mtchandl
+# Arguments:  -R159.85/201.9/-9.3/21.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged nav errors.
+# Errata: Header
+Y-W-08020021-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-08020021-depth-01: RLS m: 0.999602 b: 0 rms: 15.7297 r: 0.999918 sig: 1 dec: 0
+N-E-08020021-depth-02: Regression slope 0.999602 different from 1. Recommended: [1]
+Y-W-08020021-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020021	1985-11-16T07:00:00.00	71	0-0-K	 GRAD: twt excessive
+?	08020021	1985-11-16T07:03:19.98	75	0-0-KL	 GRAD: twt, depth excessive
+Y	08020021	1985-11-16T09:41:00.00	240	C-0-0	 NAV: excessive speed
+?	08020021	1985-11-16T18:39:38.04	672	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-17T08:11:40.02	1233	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-17T15:05:00.00	1490	0-0-KL	 GRAD: twt, depth excessive
+Y	08020021	1985-11-17T08:50:00.00	1796	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-17T08:51:19.98	1797	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-17T08:53:00.00	1798	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-17T08:55:00.00	1799	B-0-0	 NAV: non-increasing time
+?	08020021	1985-11-18T15:06:00.00	2589	0-0-K	 GRAD: twt excessive
+?	08020021	1985-11-18T17:33:00.00	2691	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-18T17:35:19.98	2693	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-18T17:38:18.96	2696	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-19T00:15:19.98	2951	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-19T01:25:19.98	2998	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-19T03:20:42.00	3073	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-19T18:05:53.04	3602	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-19T21:00:40.02	3716	0-0-K	 GRAD: twt excessive
+?	08020021	1985-11-20T01:06:00.00	3898	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-20T01:28:19.98	3918	0-0-K	 GRAD: twt excessive
+?	08020021	1985-11-20T07:14:00.00	4176	0-0-K	 GRAD: twt excessive
+Y	08020021	1985-11-19T23:50:40.02	4918	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-19T23:51:19.98	4919	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-19T23:52:19.98	4920	B-0-0	 NAV: non-increasing time
+Y	08020021	1985-11-19T23:53:40.02	4921	B-0-0	 NAV: non-increasing time
+?	08020021	1985-11-21T09:06:06.96	5201	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-23T18:44:00.00	7488	0-0-KL	 GRAD: twt, depth excessive
+?	08020021	1985-11-23T21:14:00.00	7596	0-0-K	 GRAD: twt excessive
+?	08020021	1985-11-24T02:40:19.98	7836	0-0-KL	 GRAD: twt, depth excessive
+Y	08020021	1985-11-24T23:29:00.00	8582	C-0-0	 NAV: excessive speed
+?	08020021	1985-11-27T00:26:40.02	10434	0-0-K	 GRAD: twt excessive

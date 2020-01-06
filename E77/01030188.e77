@@ -1,0 +1,29 @@
+# Cruise 01030188 ID V3207 MGD77 FILE VERSION: 19800908 N_RECS: 11530
+# Examined: Fri Jul 10 13:14:45 2009 by mtchandl
+# Arguments:  -R293.85/311.05/13.1/26.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-520 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01030188-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030188-depth-01: RLS m: 0.999302 b: 0 rms: 22.423 r: 0.999968 sig: 1 dec: 0
+N-E-01030188-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-01030188-faa-01: RLS m: 0.999631 b: -2.92529 rms: 5.51744 r: 0.99871 sig: 1 dec: 1
+Y-W-01030188-faa-03: Regression offset -2.92529 different from 0.
+Y-E-01030188-mag-07: Anomaly differs from mtf1-IGRF (m: 0.922239 b: -519.018 rms: 522.572 r: 0.923409 sig: 1 dec: 1). [Recompute]
+N-E-01030188-faa-08: Extended offset from grid [5956-11208]
+N-E-01030188-depth-08: Extended offset from grid [3-11530]
+Y-W-01030188-mag-09: only found negative values
+Y-W-01030188-mtf1-12: Integer precision
+Y-W-01030188-mag-12: Integer precision
+# Errata: Data
+?	01030188	1975-03-27T22:57:00.00	1550	0-0-K	 GRAD: twt excessive
+?	01030188	1975-03-27T23:46:00.00	1569	0-0-K	 GRAD: twt excessive
+?	01030188	1975-03-30T19:48:00.00	2835	0-0-K	 GRAD: twt excessive
+?	01030188	1975-04-05T03:18:00.00	4664	0-0-K	 GRAD: twt excessive
+?	01030188	1975-04-08T09:00:00.00	6125	0-0-KL	 GRAD: twt, depth excessive
+?	01030188	1975-04-09T01:55:00.00	6372	0-0-K	 GRAD: twt excessive
+?	01030188	1975-04-09T03:08:00.00	6391	0-0-K	 GRAD: twt excessive
+?	01030188	1975-04-17T22:39:00.00	10279	0-0-K	 GRAD: twt excessive

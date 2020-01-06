@@ -1,0 +1,19 @@
+# Cruise 01010020 ID RC0902 MGD77 FILE VERSION: 19790920 N_RECS: 6672
+# Examined: Thu Jun 26 13:00:20 2008 by mtchandl
+# Arguments:  -R262.9/283.5/17.3/29.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, possible Potsdam offset.
+# Errata: Header
+Y-I-01010020-depth-01: RLS m: 1 b: 0 rms: 161.564 r: 0.993266 sig: 1 dec: 1
+Y-I-01010020-faa-01: RLS m: 1.01081 b: -3.34619 rms: 16.4231 r: 0.947618 sig: 1 dec: 1
+Y-W-01010020-faa-03: Regression offset -3.34619 different from 0.
+Y-E-01010020-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.925467 b: 2.36166 rms: 31.8045 r: 0.964491 sig: 1 dec: 1). [Recompute]
+Y-W-01010020-mtf1-12: Integer precision
+Y-W-01010020-mag-12: Integer precision
+# Errata: Data
+?	01010020	1964-11-26T03:02:00.00	3579	0-0-K	 GRAD: twt excessive
+?	01010020	1964-12-07T18:44:00.00	6073	0-0-K	 GRAD: twt excessive
+?	01010020	1964-12-08T15:04:00.00	6552	0-0-K	 GRAD: twt excessive

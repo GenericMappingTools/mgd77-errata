@@ -1,0 +1,21 @@
+# Cruise 10020038 ID IG2601 MGD77 FILE VERSION: 19890926 N_RECS: 6373
+# Examined: Tue Aug 24 13:47:05 2010 by mtchandl
+# Arguments:  -R263.75/275/20/29.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-10020038-H04-03: Invalid Survey Departure Day: (01) [02]
+Y-E-10020038-H04-06: Invalid Survey Arrival Day: (22) [23]
+Y-E-10020038-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020038-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-I-10020038-depth-01: RLS m: 1.00063 b: 0 rms: 9.29753 r: 0.999966 sig: 1 dec: 0
+N-E-10020038-depth-02: Regression slope 1.00063 different from 1. Recommended: [1]
+Y-E-10020038-mag-07: Anomaly differs from mtf1-IGRF (m: 0.409349 b: 282.016 rms: 296.39 r: 0.503734 sig: 1 dec: 1). [Recompute]
+Y-W-10020038-mag-09: only found positive values
+Y-W-10020038-depth-12: Integer precision
+Y-W-10020038-mtf1-12: Integer precision
+Y-W-10020038-mag-12: Integer precision
+# Errata: Data

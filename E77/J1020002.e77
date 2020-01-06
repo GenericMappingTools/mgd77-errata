@@ -1,0 +1,27 @@
+# Cruise J1020002 ID HS7602 MGD77 FILE VERSION: 19880928 N_RECS: 4830
+# Examined: Sat Aug  6 11:05:06 2011 by mtchandl
+# Arguments:  -R124.75/128.45/25.1/27.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1020002-H04-03: Invalid Survey Departure Day: (12) [14]
+N-E-J1020002-H04-06: Invalid Survey Arrival Day: (21) [18]
+Y-W-J1020002-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1020002-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-J1020002-depth-01: RLS m: 1.00057 b: 0 rms: 25.5056 r: 0.999241 sig: 1 dec: 0
+Y-I-J1020002-faa-01: RLS m: 0.961946 b: 2.84277 rms: 6.59947 r: 0.991399 sig: 1 dec: 0
+N-E-J1020002-faa-02: Regression slope 0.961946 different from 1. Recommended: [1]
+Y-W-J1020002-faa-03: Regression offset 2.84277 different from 0.
+Y-I-J1020002-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.474545 b: 10.575 rms: 62.4291 r: 0.668601 sig: 1 dec: 1). [Recompute]
+N-E-J1020002-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.92657 b: -17.0394 rms: 27.1784 r: 0.947411 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-J1020002-depth-12: Integer precision
+# Errata: Data
+Y	J1020002	1976-04-30T03:45:00.00	2677	C-0-0	 NAV: excessive speed
+Y	J1020002	1976-05-06T09:35:00.00	3125	C-0-0	 NAV: excessive speed
+Y	J1020002	1976-05-07T09:25:00.00	3372	C-0-0	 NAV: excessive speed
+?	J1020002	1976-05-11T13:35:00.00	4191	0-0-V	 GRAD: eot excessive
+Y	J1020002	1976-05-13T03:00:00.00	4515	C-0-0	 NAV: excessive speed

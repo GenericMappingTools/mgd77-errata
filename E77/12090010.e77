@@ -1,0 +1,33 @@
+# Cruise 12090010 ID PZ72000 MGD77 FILE VERSION: 19860717 N_RECS: 4329
+# Examined: Mon Aug 30 15:51:27 2010 by mtchandl
+# Arguments:  -R180.1/235.1/34.85/65.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged questionable depths from ~5000 to ~13000 km along-track.
+# Errata: Header
+Y-E-12090010-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-12090010-nav-00: Flagged 0.14 % of records with bad navigation
+Y-I-12090010-depth-01: RLS m: 0.997347 b: 0 rms: 136.601 r: 0.997206 sig: 1 dec: 0
+N-E-12090010-depth-02: Regression slope 0.997347 different from 1. Recommended: [1]
+N-E-12090010-depth-08: Extended offset from grid [1016-1246]
+N-E-12090010-depth-08: Extended offset from grid [1259-1322]
+N-E-12090010-depth-08: Extended offset from grid [1322-1361]
+N-E-12090010-depth-08: Extended offset from grid [1377-1444]
+N-E-12090010-depth-08: Extended offset from grid [1449-1561]
+N-E-12090010-depth-08: Extended offset from grid [1577-1700]
+N-E-12090010-depth-08: Extended offset from grid [1982-2057]
+N-E-12090010-depth-08: Extended offset from grid [2064-2170]
+N-E-12090010-depth-08: Extended offset from grid [2170-2370]
+N-E-12090010-depth-08: Extended offset from grid [2446-2612]
+N-E-12090010-depth-08: Extended offset from grid [2688-2852]
+Y-E-12090010-depth-10: Invalid data records: [1000-2850]
+# Errata: Data
+Y	12090010	6035.96	1292	D-0-0	 NAV: on land
+Y	12090010	6037.96	1293	D-0-0	 NAV: on land
+Y	12090010	6039.97	1294	D-0-0	 NAV: on land
+Y	12090010	6041.97	1295	D-0-0	 NAV: on land
+Y	12090010	6045.98	1296	D-0-0	 NAV: on land
+Y	12090010	6047.99	1297	D-0-0	 NAV: on land
+?	12090010	9154.74	2184	0-M-0	 VAL: bcc invalid

@@ -1,0 +1,20 @@
+# Cruise 01030034 ID V1817 MGD77 FILE VERSION: 19790619 N_RECS: 2196
+# Examined: Thu Jul  9 15:55:26 2009 by mtchandl
+# Arguments:  -R270.6/284.4/9.4/28.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Gravity data offset from satellite gravity.
+# Errata: Header
+Y-I-01030034-depth-01: RLS m: 1 b: 0 rms: 18.6752 r: 0.999934 sig: 1 dec: 0
+Y-I-01030034-faa-01: RLS m: 0.994617 b: -1.35212 rms: 3.59696 r: 0.992525 sig: 1 dec: 0
+Y-W-01030034-faa-03: Regression offset -1.35212 different from 0.
+Y-E-01030034-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990277 b: 16.0283 rms: 33.6621 r: 0.976308 sig: 1 dec: 0). [Recompute]
+N-E-01030034-depth-08: Extended offset from grid [3-2196]
+Y-W-01030034-mtf1-12: Integer precision
+Y-W-01030034-mag-12: Integer precision
+# Errata: Data
+?	01030034	1962-11-01T13:42:00.00	639	0-Q-0	 VAL: mag invalid
+?	01030034	1962-11-08T01:06:00.00	1539	0-0-K	 GRAD: twt excessive
+?	01030034	1962-11-11T10:40:00.00	2119	0-0-K	 GRAD: twt excessive

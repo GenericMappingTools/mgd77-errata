@@ -1,0 +1,39 @@
+# Cruise 01010198 ID RC2206 MGD77 FILE VERSION: 19870305 N_RECS: 3466
+# Examined: Mon Jul  6 17:12:31 2009 by mtchandl
+# Arguments:  -R280.15/296.75/9.55/44.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-650 nT average offset from recomputed mag.
+# Errata: Header
+N-E-01010198-H04-03: Invalid Survey Departure Day: (13) [14]
+N-E-01010198-H13-06: Invalid Magnetics Reference Field Code: (79) [79]
+Y-I-01010198-depth-01: RLS m: 1 b: 0 rms: 4.79774 r: 0.999998 sig: 1 dec: 0
+Y-I-01010198-faa-01: RLS m: 0.985443 b: 2.20688 rms: 8.15991 r: 0.99525 sig: 1 dec: 1
+N-E-01010198-faa-02: Regression slope 0.985443 different from 1. Recommended: [1]
+Y-W-01010198-faa-03: Regression offset 2.20688 different from 0.
+Y-E-01010198-mag-07: Anomaly differs from mtf1-IGRF (m: 0.844358 b: -644.658 rms: 646.871 r: 0.766616 sig: 1 dec: 0). [Recompute]
+N-E-01010198-depth-08: Extended offset from grid [8-3466]
+Y-W-01010198-twt-11: More recent bathymetry correction table available
+Y-W-01010198-mtf1-12: Integer precision
+Y-W-01010198-mag-12: Integer precision
+# Errata: Data
+?	01010198	1979-04-18T06:36:00.00	1405	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-18T06:42:00.00	1407	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-18T06:48:00.00	1408	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T09:30:00.00	3070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010198	1979-04-24T09:36:00.00	3071	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T09:42:00.00	3073	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T09:48:00.00	3074	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T09:54:00.00	3076	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:00:00.00	3077	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:06:00.00	3078	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:12:00.00	3079	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:18:00.00	3080	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:24:00.00	3082	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:30:00.00	3083	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-24T10:36:00.00	3084	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-25T08:18:00.00	3385	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-25T08:24:00.00	3387	0-Q-0	 VAL: mag invalid
+?	01010198	1979-04-25T08:30:00.00	3388	0-Q-0	 VAL: mag invalid

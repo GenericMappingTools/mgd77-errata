@@ -1,0 +1,26 @@
+# Cruise 02020040 ID A2067L01 MGD77 FILE VERSION: 19820805 N_RECS: 4996
+# Examined: Fri Mar 26 21:24:52 2010 by mtchandl
+# Arguments:  -R288.8/342.4/14.65/41.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-I-02020040-depth-01: RLS m: 1.00014 b: 0 rms: 39.4746 r: 0.999325 sig: 1 dec: 0
+Y-I-02020040-faa-01: RLS m: 0.965484 b: 3.18231 rms: 4.08735 r: 0.989478 sig: 1 dec: 0
+N-E-02020040-faa-02: Regression slope 0.965484 different from 1. Recommended: [1]
+Y-W-02020040-faa-03: Regression offset 3.18231 different from 0.
+N-E-02020040-faa-06: Anomaly differs from gobs-IGF80 (m: 0.945337 b: -12.8813 rms: 13.6917 r: 0.99815 sig: 1 dec: 0). [Recompute]
+N-E-02020040-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.664856 b: -56.5867 rms: 85.3282 r: 0.950849 sig: 1 dec: 0). [Recompute]
+N-E-02020040-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1.00002 b: 0.00141991 rms: 0.0409938 r: 0.999997 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-02020040-mag-07: Anomaly differs from mtf1-IGRF (m: 0.763902 b: -193.29 rms: 245.119 r: 0.612862 sig: 1 dec: 1). [Recompute]
+Y-W-02020040-twt-11: More recent bathymetry correction table available
+Y-W-02020040-mtf1-12: Integer precision
+Y-W-02020040-mag-12: Integer precision
+# Errata: Data
+?	02020040	1972-01-25T06:31:00.00	1289	0-0-K	 GRAD: twt excessive
+?	02020040	1972-01-25T15:05:00.00	1440	0-0-K	 GRAD: twt excessive
+?	02020040	1972-01-26T15:57:00.00	1972	0-0-K	 GRAD: twt excessive
+?	02020040	1972-01-27T06:02:00.00	2178	0-0-KL	 GRAD: twt, depth excessive
+?	02020040	1972-02-01T10:10:00.00	4574	0-0-OQ	 GRAD: mtf1, mag excessive

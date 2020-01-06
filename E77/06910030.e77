@@ -1,0 +1,179 @@
+# Cruise 06910030 ID P183GM MGD77 FILE VERSION: 19890117 N_RECS: 5004
+# Examined: Fri Jul 16 17:20:29 2010 by mtchandl
+# Arguments:  -R277.55/279.05/24.95/26.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Faa needs to be recomputed, do not use reported faa.
+# Errata: Header
+N-E-06910030-H11-03: Invalid Bottommost Latitude: (+25) [+24]
+N-E-06910030-H11-06: Invalid Rightmost Longitude: (-081) [-080]
+Y-W-06910030-nav-00: Flagged 3.24 % of records with bad navigation
+Y-I-06910030-faa-01: RLS m: 0.0914626 b: -0.00174502 rms: 25.7122 r: 0.90138 sig: 1 dec: 0
+N-E-06910030-faa-02: Regression slope 0.0914626 different from 1. Recommended: [10]
+N-E-06910030-faa-06: Insignificant regression: reported versus gobs-IGF80 (m: 0 b: 0 rms: 63.3566 r: nan sig: 0 dec: 1). [Recompute]
+Y-E-06910030-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.0999426 b: 0.0404205 rms: 22.9853 r: 0.998476 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	06910030	1983-01-07T01:34:00.00	1896	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:35:00.00	1897	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:36:00.00	1898	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:37:00.00	1899	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:38:00.00	1900	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:39:00.00	1901	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:40:00.00	1902	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:41:00.00	1903	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:42:00.00	1904	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:43:00.00	1905	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:44:00.00	1906	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:45:00.00	1907	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:46:00.00	1908	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:47:00.00	1909	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:48:00.00	1910	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:49:00.00	1911	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:50:00.00	1912	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T01:51:00.00	1913	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:23:00.00	1914	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:24:00.00	1915	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:25:00.00	1916	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:26:00.00	1917	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:27:00.00	1918	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:28:00.00	1919	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:29:00.00	1920	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:30:00.00	1921	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:31:00.00	1922	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:32:00.00	1923	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:33:00.00	1924	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:34:00.00	1925	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:35:00.00	1926	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:36:00.00	1927	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:37:00.00	1928	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:38:00.00	1929	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:39:00.00	1930	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:40:00.00	1931	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:41:00.00	1932	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:42:00.00	1933	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:43:00.00	1934	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:44:00.00	1935	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:45:00.00	1936	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:46:00.00	1937	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:47:00.00	1938	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:48:00.00	1939	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:49:00.00	1940	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:50:00.00	1941	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:51:00.00	1942	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:52:00.00	1943	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:53:00.00	1944	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:54:00.00	1945	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:55:00.00	1946	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:56:00.00	1947	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:57:00.00	1948	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:58:00.00	1949	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T02:59:00.00	1950	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:00:00.00	1951	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:01:00.00	1952	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:02:00.00	1953	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:03:00.00	1954	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06910030	1983-01-07T03:04:00.00	1955	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:05:00.00	1956	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:06:00.00	1957	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06910030	1983-01-07T03:07:00.00	1958	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06910030	1983-01-07T03:08:00.00	1959	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06910030	1983-01-07T03:09:00.00	1960	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:10:00.00	1961	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:11:00.00	1962	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:12:00.00	1963	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:13:00.00	1964	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:14:00.00	1965	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:15:00.00	1966	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:16:00.00	1967	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:17:00.00	1968	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:18:00.00	1969	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:20:00.00	1971	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:21:00.00	1972	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:22:00.00	1973	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:23:00.00	1974	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:24:00.00	1975	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:25:00.00	1976	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:26:00.00	1977	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:27:00.00	1978	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:28:00.00	1979	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:29:00.00	1980	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:30:00.00	1981	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:31:00.00	1982	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:32:00.00	1983	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:33:00.00	1984	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:34:00.00	1985	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:35:00.00	1986	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:36:00.00	1987	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:37:00.00	1988	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:38:00.00	1989	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:39:00.00	1990	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:40:00.00	1991	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:41:00.00	1992	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:42:00.00	1993	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:43:00.00	1994	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:44:00.00	1995	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:45:00.00	1996	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:46:00.00	1997	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:47:00.00	1998	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:48:00.00	1999	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:49:00.00	2000	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:50:00.00	2001	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:51:00.00	2002	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:52:00.00	2003	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:53:00.00	2004	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:54:00.00	2005	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:55:00.00	2006	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:56:00.00	2007	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:57:00.00	2008	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:58:00.00	2009	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T03:59:00.00	2010	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:00:00.00	2011	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:01:00.00	2012	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:02:00.00	2013	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:03:00.00	2014	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:04:00.00	2015	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:05:00.00	2016	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:06:00.00	2017	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:07:00.00	2018	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:08:00.00	2019	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:09:00.00	2020	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:10:00.00	2021	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:11:00.00	2022	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:12:00.00	2023	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:13:00.00	2024	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:14:00.00	2025	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:15:00.00	2026	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:16:00.00	2027	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:17:00.00	2028	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:18:00.00	2029	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:19:00.00	2030	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:20:00.00	2031	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:21:00.00	2032	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:22:00.00	2033	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:23:00.00	2034	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:24:00.00	2035	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:25:00.00	2036	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:26:00.00	2037	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:27:00.00	2038	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:28:00.00	2039	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:29:00.00	2040	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:30:00.00	2041	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:31:00.00	2042	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:32:00.00	2043	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:33:00.00	2044	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:34:00.00	2045	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:35:00.00	2046	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:36:00.00	2047	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:37:00.00	2048	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:38:00.00	2049	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:39:00.00	2050	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:40:00.00	2051	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:41:00.00	2052	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:42:00.00	2053	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:43:00.00	2054	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:44:00.00	2055	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:45:00.00	2056	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:46:00.00	2057	C-0-0	 NAV: excessive speed
+Y	06910030	1983-01-07T04:47:00.00	2058	C-0-0	 NAV: excessive speed

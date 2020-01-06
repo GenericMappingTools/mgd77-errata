@@ -1,0 +1,26 @@
+# Cruise 35060002 ID 26774 MGD77 FILE VERSION: 19880323 N_RECS: 7773
+# Examined: Tue Jul 26 18:45:07 2011 by mtchandl
+# Arguments:  -R-36.85/-8.95/36.9/55.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-35060002-depth-01: RLS m: 1.03955 b: 0 rms: 157.495 r: 0.988121 sig: 1 dec: 0
+N-E-35060002-depth-02: Regression slope 1.03955 different from 1. Recommended: [1]
+Y-W-35060002-depth-12: Integer precision
+# Errata: Data
+?	35060002	5.91246	89	0-0-L	 GRAD: depth excessive
+?	35060002	2914.39	2528	0-0-L	 GRAD: depth excessive
+?	35060002	3254.91	2834	0-0-L	 GRAD: depth excessive
+?	35060002	3262.41	2851	0-0-L	 GRAD: depth excessive
+?	35060002	3284.89	2896	0-0-L	 GRAD: depth excessive
+?	35060002	3317.06	2945	0-0-L	 GRAD: depth excessive
+?	35060002	3445.6	3286	0-0-L	 GRAD: depth excessive
+?	35060002	4800.05	3634	0-0-L	 GRAD: depth excessive
+?	35060002	4804.64	3649	0-0-L	 GRAD: depth excessive
+?	35060002	5863.21	4047	0-0-L	 GRAD: depth excessive
+?	35060002	8069.58	5126	0-0-L	 GRAD: depth excessive
+?	35060002	10042.5	5860	0-0-L	 GRAD: depth excessive
+?	35060002	14187.9	6708	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,29 @@
+# Cruise 29050001 ID AKU05 MGD77 FILE VERSION: 19851230 N_RECS: 6405
+# Examined: Mon Feb 14 22:28:18 2011 by mtchandl
+# Arguments:  -R-73/-5.65/-23.1/49 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: faa computed using IGF30, recommend recomputing.
+# Errata: Header
+N-E-29050001-H04-02: Invalid Survey Departure Month: (01) [02]
+N-E-29050001-H04-03: Invalid Survey Departure Day: (31) [04]
+N-E-29050001-H04-06: Invalid Survey Arrival Day: (19) [15]
+Y-W-29050001-nav-00: Flagged 0.14 % of records with bad navigation
+Y-I-29050001-depth-01: RLS m: 1 b: 0 rms: 10.6298 r: 0.999979 sig: 1 dec: 0
+Y-I-29050001-faa-01: RLS m: 0.972263 b: -9.13451 rms: 19.7332 r: 0.977151 sig: 1 dec: 1
+N-E-29050001-faa-02: Regression slope 0.972263 different from 1. Recommended: [1]
+Y-W-29050001-faa-03: Regression offset -9.13451 different from 0.
+Y-E-29050001-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00014 b: -15.5995 rms: 15.6122 r: 0.999888 sig: 1 dec: 0). [Recompute]
+Y-W-29050001-depth-12: Integer precision
+# Errata: Data
+Y	29050001	1969-04-11T05:10:00.00	4285	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T05:20:00.00	4286	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T05:30:00.00	4287	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T05:40:00.00	4288	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T05:50:00.00	4289	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T06:00:00.00	4290	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T06:10:00.00	4291	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T06:20:00.00	4292	C-0-0	 NAV: excessive speed
+Y	29050001	1969-04-11T06:30:00.00	4293	C-0-0	 NAV: excessive speed

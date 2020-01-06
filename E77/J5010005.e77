@@ -1,0 +1,45 @@
+# Cruise J5010005 ID YUKIA MGD77 FILE VERSION: 19860213 N_RECS: 878
+# Examined: Mon Aug  8 15:54:59 2011 by mtchandl
+# Arguments:  -R131.5/134.2/35.95/41.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged excessive speeds up to 3400 m/s. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J5010005-nav-00: Flagged 2.62 % of records with bad navigation
+Y-I-J5010005-depth-01: RLS m: 0.999267 b: 0 rms: 10.0576 r: 0.999954 sig: 1 dec: 0
+N-E-J5010005-depth-02: Regression slope 0.999267 different from 1. Recommended: [1]
+Y-E-J5010005-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00458 b: -149.069 rms: 150.052 r: 0.994935 sig: 1 dec: 0). [Recompute]
+Y-W-J5010005-depth-12: Integer precision
+Y-W-J5010005-mtf1-12: Integer precision
+Y-W-J5010005-mag-12: Integer precision
+# Errata: Data
+?	J5010005	1970-10-06T08:25:00.00	121	0-0-L	 GRAD: depth excessive
+Y	J5010005	1970-10-06T14:40:00.00	196	B-0-0	 NAV: non-increasing time
+Y	J5010005	1970-10-06T22:05:00.00	271	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:10:00.00	272	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:15:00.00	273	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:20:00.00	274	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:25:00.00	275	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:30:00.00	276	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:35:00.00	277	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:40:00.00	278	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:45:00.00	279	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T22:50:00.00	280	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:00:00.00	282	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:05:00.00	283	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:10:00.00	284	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:15:00.00	285	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:20:00.00	286	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:25:00.00	287	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:30:00.00	288	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:35:00.00	289	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:40:00.00	290	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:45:00.00	291	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:50:00.00	292	C-0-0	 NAV: excessive speed
+Y	J5010005	1970-10-06T23:55:00.00	293	C-0-0	 NAV: excessive speed
+?	J5010005	1970-10-08T02:20:00.00	607	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J5010005	1970-10-08T02:25:00.00	608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5010005	1970-10-08T04:55:00.00	638	0-0-Q	 GRAD: mag excessive
+?	J5010005	1970-10-08T11:55:00.00	722	0-0-OQ	 GRAD: mtf1, mag excessive

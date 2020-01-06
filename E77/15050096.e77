@@ -1,0 +1,16 @@
+# Cruise 15050096 ID DSDP96GC MGD77 FILE VERSION: 19840611 N_RECS: 2766
+# Examined: Fri May 30 10:33:03 2008 by mtchandl
+# Arguments:  -R268.55/280/24.2/29.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15050096-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15050096-depth-01: RLS m: 0.996125 b: 0 rms: 63.5341 r: 0.997446 sig: 1 dec: 1
+Y-E-15050096-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.835502 b: 168.33 rms: 160.456 r: 0.973984 sig: 1 dec: 1). [Recompute]
+Y-W-15050096-mag-09: only found positive values
+Y-W-15050096-mtf1-12: Integer precision
+Y-W-15050096-mag-12: Integer precision
+# Errata: Data

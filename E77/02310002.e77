@@ -1,0 +1,14 @@
+# Cruise 02310002 ID FL001L02 MGD77 FILE VERSION: 19820805 N_RECS: 949
+# Examined: Fri Apr  9 13:11:52 2010 by mtchandl
+# Arguments:  -R279.7/283.45/30.55/33.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02310002-faa-01: RLS m: 1.00014 b: 0.219225 rms: 2.51368 r: 0.99707 sig: 1 dec: 0
+Y-W-02310002-faa-03: Regression offset 0.219225 different from 0.
+Y-I-02310002-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02310002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.897747 b: -23.1563 rms: 26.6021 r: 0.949197 sig: 1 dec: 0). [Recompute]
+# Errata: Data

@@ -1,0 +1,48 @@
+# Cruise 71020008 ID TD419 MGD77 FILE VERSION: 19961016 N_RECS: 6277
+# Examined: Sun Jul 31 22:14:06 2011 by mtchandl
+# Arguments:  -R-4.4/14.5/-28.05/-19.45 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-71020008-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-71020008-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-71020008-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-71020008-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-71020008-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-71020008-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-71020008-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-71020008-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-71020008-nav-00: Flagged 0.37 % of records with bad navigation
+Y-I-71020008-depth-01: RLS m: 0.999679 b: 0 rms: 19.8984 r: 0.999912 sig: 1 dec: 0
+Y-W-71020008-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	71020008	1981-08-14T01:25:00.00	1929	0-0-KL	 GRAD: twt, depth excessive
+?	71020008	1981-08-15T20:30:00.00	2447	0-0-K	 GRAD: twt excessive
+?	71020008	1981-08-21T19:25:00.00	4231	0-0-K	 GRAD: twt excessive
+?	71020008	1981-08-21T21:05:00.00	4251	0-0-K	 GRAD: twt excessive
+Y	71020008	1981-08-25T06:30:00.00	5270	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:35:00.00	5271	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:40:00.00	5272	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:45:00.00	5273	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:48:00.00	5274	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:50:00.00	5275	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T06:55:00.00	5276	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:00:00.00	5277	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:05:00.00	5278	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:10:00.00	5279	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:15:00.00	5280	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:25:00.00	5282	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:30:00.00	5283	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:35:00.00	5284	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:40:00.00	5285	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:45:00.00	5286	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:50:00.00	5287	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T07:55:00.00	5288	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T08:00:00.00	5289	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T08:05:00.00	5290	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T08:10:00.00	5291	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T08:15:00.00	5292	C-0-0	 NAV: excessive speed
+Y	71020008	1981-08-25T08:20:00.00	5293	C-0-0	 NAV: excessive speed

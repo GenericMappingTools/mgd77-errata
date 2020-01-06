@@ -1,0 +1,70 @@
+# Cruise 02010024 ID CH055L01 MGD77 FILE VERSION: 19820805 N_RECS: 7914
+# Examined: Fri Mar 26 20:28:59 2010 by mtchandl
+# Arguments:  -R272/296.6/9.4/41.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomptuing magnetic anomalies using the latest IGRF and faa using IGF80.
+# Errata: Header
+Y-I-02010024-depth-01: RLS m: 0.999651 b: 0 rms: 17.5289 r: 0.999948 sig: 1 dec: 0
+N-E-02010024-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-02010024-faa-01: RLS m: 1.03215 b: 1.8739 rms: 10.9671 r: 0.962147 sig: 1 dec: 0
+N-E-02010024-faa-02: Regression slope 1.03215 different from 1. Recommended: [1]
+Y-W-02010024-faa-03: Regression offset 1.8739 different from 0.
+Y-E-02010024-faa-06: Anomaly differs from gobs-IGF80 (m: 0.989069 b: -13.8674 rms: 14.0122 r: 0.998611 sig: 1 dec: 0). [Recompute]
+N-E-02010024-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.492833 b: -14.6361 rms: 61.9839 r: 0.770885 sig: 1 dec: 1). [Recompute]
+Y-E-02010024-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01337 b: -46.0733 rms: 64.4545 r: 0.988226 sig: 1 dec: 0). [Recompute]
+Y-W-02010024-mtf1-12: Integer precision
+Y-W-02010024-mag-12: Integer precision
+# Errata: Data
+?	02010024	1965-11-14T21:35:00.00	449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-11-16T07:15:00.00	801	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-11-16T07:20:00.00	802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-11-25T12:28:00.00	3160	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-11-30T13:52:00.00	3919	0-0-KL	 GRAD: twt, depth excessive
+?	02010024	1965-11-30T22:22:00.00	4002	0-0-K	 GRAD: twt excessive
+?	02010024	1965-12-02T01:08:00.00	4290	0-0-V	 GRAD: eot excessive
+?	02010024	1965-12-09T18:02:00.00	6064	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T18:07:00.00	6065	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T18:12:00.00	6066	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T18:17:00.00	6067	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T18:22:00.00	6068	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T18:27:00.00	6069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T18:37:00.00	6071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T18:42:00.00	6072	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T19:17:00.00	6079	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T19:22:00.00	6080	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T19:27:00.00	6081	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T19:32:00.00	6082	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T19:37:00.00	6083	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T19:52:00.00	6086	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T19:57:00.00	6087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T20:02:00.00	6088	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T20:07:00.00	6089	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T20:52:00.00	6098	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T20:57:00.00	6099	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:02:00.00	6100	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:07:00.00	6101	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:12:00.00	6102	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:17:00.00	6103	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:22:00.00	6104	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:27:00.00	6105	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:32:00.00	6106	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:37:00.00	6107	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:42:00.00	6108	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:47:00.00	6109	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:52:00.00	6110	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T21:57:00.00	6111	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:02:00.00	6112	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T22:07:00.00	6113	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:12:00.00	6114	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:17:00.00	6115	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:22:00.00	6116	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:27:00.00	6117	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:32:00.00	6118	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:37:00.00	6119	0-Q-0	 VAL: mag invalid
+?	02010024	1965-12-09T22:42:00.00	6120	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010024	1965-12-09T22:47:00.00	6121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-13T08:26:00.00	6450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010024	1965-12-13T08:31:00.00	6451	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,28 @@
+# Cruise 07150002 ID MARSUR78 MGD77 FILE VERSION: 19840120 N_RECS: 12317
+# Examined: Mon Jul 26 15:34:40 2010 by mtchandl
+# Arguments:  -R243.1/259.75/15/31.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07150002-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-07150002-depth-01: RLS m: 0.99756 b: 0 rms: 57.5394 r: 0.998603 sig: 1 dec: 0
+N-E-07150002-depth-02: Regression slope 0.99756 different from 1. Recommended: [1]
+Y-I-07150002-faa-01: RLS m: 0.999326 b: 2.68001 rms: 6.63343 r: 0.980801 sig: 1 dec: 0
+Y-W-07150002-faa-03: Regression offset 2.68001 different from 0.
+Y-E-07150002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993976 b: -9.0195 rms: 71.6487 r: 0.924675 sig: 1 dec: 1). [Recompute]
+Y-W-07150002-twt-11: More recent bathymetry correction table available
+Y-W-07150002-mtf1-12: Integer precision
+Y-W-07150002-mag-12: Integer precision
+# Errata: Data
+?	07150002	1978-06-21T12:05:00.00	150	0-0-K	 GRAD: twt excessive
+?	07150002	1978-06-24T00:12:42.00	1555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150002	1978-06-27T04:14:12.00	3424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150002	1978-06-27T05:24:42.00	3443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150002	1978-06-27T13:46:00.00	3681	0-0-KL	 GRAD: twt, depth excessive
+Y	07150002	1978-06-28T18:56:00.00	4226	B-0-0	 NAV: non-increasing time
+?	07150002	1978-07-06T03:25:00.00	6251	0-0-K	 GRAD: twt excessive
+Y	07150002	1978-07-10T08:28:00.00	8187	B-0-0	 NAV: non-increasing time
+?	07150002	1978-07-20T02:47:00.00	9367	0-0-K	 GRAD: twt excessive

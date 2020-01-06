@@ -1,0 +1,30 @@
+# Cruise 02020047 ID A2068L01 MGD77 FILE VERSION: 19820805 N_RECS: 8537
+# Examined: Fri Mar 26 21:33:02 2010 by mtchandl
+# Arguments:  -R-38.6/13.25/-16.3/-8.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020047-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020047-depth-01: RLS m: 1 b: 0 rms: 42.0018 r: 0.99924 sig: 1 dec: 0
+Y-E-02020047-mag-07: Anomaly differs from mtf1-IGRF (m: 1.26561 b: 5.97221 rms: 58.2767 r: 0.901832 sig: 1 dec: 1). [Recompute]
+Y-W-02020047-mtf1-12: Integer precision
+Y-W-02020047-mag-12: Integer precision
+# Errata: Data
+?	02020047	1972-07-10T21:01:00.00	1364	0-0-KL	 GRAD: twt, depth excessive
+?	02020047	1972-07-12T02:40:00.00	2300	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-14T08:37:00.00	3969	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-14T10:00:00.00	4026	0-0-KL	 GRAD: twt, depth excessive
+?	02020047	1972-07-16T06:40:00.00	5243	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-16T22:41:00.00	5662	0-0-KL	 GRAD: twt, depth excessive
+?	02020047	1972-07-16T22:42:00.00	5663	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-17T23:38:00.00	6219	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-23T15:38:00.00	7664	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-23T15:40:00.00	7665	0-0-KL	 GRAD: twt, depth excessive
+?	02020047	1972-07-23T15:42:00.00	7666	0-0-KL	 GRAD: twt, depth excessive
+?	02020047	1972-07-23T15:48:00.00	7669	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-23T18:54:00.00	7680	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-23T19:01:00.00	7684	0-0-K	 GRAD: twt excessive
+?	02020047	1972-07-23T19:34:00.00	7702	0-0-K	 GRAD: twt excessive

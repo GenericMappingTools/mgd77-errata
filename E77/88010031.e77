@@ -1,0 +1,49 @@
+# Cruise 88010031 ID NBP97-4A MGD77 FILE VERSION: 20000706 N_RECS: 25145
+# Examined: Thu Aug  4 19:35:36 2011 by mtchandl
+# Arguments:  -R175.75/285.25/-37.75/-36.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-88010031-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-E-88010031-H13-01: Invalid Magnetics Digitizing Rate: (1.0) [1.0]
+Y-W-88010031-H13-10: Survey year (1997) outside magnetic reference field IGRF-85 time range (1945-1990)
+Y-I-88010031-depth-01: RLS m: 1 b: 0 rms: 21.1378 r: 0.99968 sig: 1 dec: 0
+Y-E-88010031-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03336 b: -46.3185 rms: 104.317 r: 0.927395 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	88010031	1997-05-20T10:13:00.00	84	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010031	1997-05-21T09:51:00.00	1497	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-22T05:09:00.00	2629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010031	1997-05-23T07:24:00.00	4204	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-23T08:17:00.00	4257	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-23T12:12:00.00	4490	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-25T12:06:00.00	7307	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-26T20:35:00.00	9238	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-27T09:16:00.00	9982	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-27T13:03:00.00	10208	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-28T09:27:00.00	11413	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-28T21:22:00.00	12128	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-29T19:31:00.00	13429	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-29T21:08:00.00	13518	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-30T04:33:00.00	13945	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-30T12:18:00.00	14409	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-30T12:19:00.00	14410	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-30T14:38:00.00	14549	0-0-L	 GRAD: depth excessive
+?	88010031	1997-05-30T21:24:00.00	14955	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-01T05:50:00.00	16878	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-01T05:54:00.00	16882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010031	1997-06-01T05:55:00.00	16883	0-0-O	 GRAD: mtf1 excessive
+?	88010031	1997-06-01T05:56:00.00	16884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010031	1997-06-01T05:57:00.00	16885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010031	1997-06-03T16:40:00.00	20402	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-03T17:05:00.00	20427	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T04:01:00.00	21074	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T04:11:00.00	21084	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T04:12:00.00	21085	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T20:29:00.00	22061	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T20:45:00.00	22077	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-04T21:00:00.00	22092	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-05T02:02:00.00	22393	0-0-L	 GRAD: depth excessive
+?	88010031	1997-06-05T18:37:00.00	23386	0-0-L	 GRAD: depth excessive

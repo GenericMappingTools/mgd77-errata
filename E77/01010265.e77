@@ -1,0 +1,98 @@
+# Cruise 01010265 ID RC2705 MGD77 FILE VERSION: 19910319 N_RECS: 19974
+# Examined: Wed Jul  8 17:19:31 2009 by mtchandl
+# Arguments:  -R78.75/91.3/2.95/8.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010265-H04-06: Invalid Survey Arrival Day: (05) [04]
+Y-E-01010265-H11-03: Invalid Bottommost Latitude: (+03) [+02]
+Y-E-01010265-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010265-H13-10: Survey year (1986) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010265-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010265-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010265-depth-01: RLS m: 1 b: 0 rms: 4.59402 r: 0.999997 sig: 1 dec: 0
+Y-I-01010265-faa-01: RLS m: 1.01683 b: -0.631703 rms: 3.15395 r: 0.997418 sig: 1 dec: 0
+N-E-01010265-faa-02: Regression slope 1.01683 different from 1. Recommended: [1]
+Y-W-01010265-faa-03: Regression offset -0.631703 different from 0.
+N-E-01010265-faa-06: Anomaly differs from gobs-IGF80 (m: 0.399118 b: -33.0942 rms: 54.0561 r: 0.68621 sig: 1 dec: 0). [Recompute]
+N-E-01010265-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010265-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010265-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01859 b: -32.4538 rms: 64.1174 r: 0.931261 sig: 1 dec: 1). [Recompute]
+N-E-01010265-faa-08: Extended offset from grid [342-4654]
+N-E-01010265-depth-08: Extended offset from grid [234-19471]
+Y-W-01010265-mtf1-12: Integer precision
+# Errata: Data
+?	01010265	1986-06-20T16:34:00.00	169	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-20T17:02:00.00	185	0-0-V	 GRAD: eot excessive
+?	01010265	1986-06-20T17:06:00.00	189	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-20T19:45:00.00	334	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-21T17:47:00.00	1656	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-23T01:54:00.00	3574	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-23T04:26:00.00	3726	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-24T03:42:00.00	5122	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-28T16:36:00.00	11656	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-28T17:47:00.00	11727	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-29T16:22:00.00	13078	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-29T18:55:00.00	13225	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-30T02:14:00.00	13644	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-30T02:17:00.00	13647	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-06-30T02:41:00.00	13666	0-0-V	 GRAD: eot excessive
+?	01010265	1986-06-30T05:02:00.00	13804	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T05:09:00.00	13811	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T05:17:00.00	13819	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T06:20:00.00	13882	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T06:46:00.00	13908	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T06:47:00.00	13909	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T06:54:00.00	13916	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T06:58:00.00	13920	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T07:14:00.00	13936	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T07:17:00.00	13939	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T07:18:00.00	13940	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T07:22:00.00	13944	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T07:25:00.00	13947	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T07:48:00.00	13970	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T07:49:00.00	13971	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T08:00:00.00	13982	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T08:16:00.00	13998	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T10:46:00.00	14148	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T10:49:00.00	14151	0-0-K	 GRAD: twt excessive
+?	01010265	1986-06-30T10:54:00.00	14156	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-06-30T17:13:00.00	14535	0-0-U	 GRAD: gobs excessive
+?	01010265	1986-07-01T00:23:00.00	14962	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-01T03:33:00.00	15152	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-01T03:37:00.00	15156	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-01T03:50:00.00	15169	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-01T04:08:00.00	15187	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-01T05:39:00.00	15275	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-01T06:01:00.00	15295	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-01T20:20:00.00	15780	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-01T20:21:00.00	15781	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-01T20:47:00.00	15807	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-02T06:57:00.00	16411	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-02T10:15:00.00	16608	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-02T12:38:00.00	16751	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-02T14:13:00.00	16825	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-02T14:16:00.00	16828	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-02T19:48:00.00	17160	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-02T20:11:00.00	17183	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-02T20:25:00.00	17197	0-0-U	 GRAD: gobs excessive
+?	01010265	1986-07-02T20:41:00.00	17213	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-02T20:42:00.00	17214	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-02T21:08:00.00	17240	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-02T21:09:00.00	17241	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-02T21:35:00.00	17266	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-02T21:51:00.00	17282	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-02T22:06:00.00	17297	0-0-U	 GRAD: gobs excessive
+?	01010265	1986-07-02T22:10:00.00	17301	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-02T23:45:00.00	17396	0-0-U	 GRAD: gobs excessive
+?	01010265	1986-07-03T03:08:00.00	17563	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-03T03:12:00.00	17566	0-0-KL	 GRAD: twt, depth excessive
+?	01010265	1986-07-03T17:47:00.00	18438	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-03T17:48:00.00	18439	0-0-K	 GRAD: twt excessive
+?	01010265	1986-07-03T21:55:00.00	18685	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-04T06:47:00.00	19207	0-0-UV	 GRAD: gobs, eot excessive
+?	01010265	1986-07-04T09:43:00.00	19364	0-0-U	 GRAD: gobs excessive
+?	01010265	1986-07-04T10:07:00.00	19387	0-0-U	 GRAD: gobs excessive

@@ -1,0 +1,189 @@
+# Cruise 06050029 ID L878NP MGD77 FILE VERSION: 19870917 N_RECS: 15318
+# Examined: Fri May 21 14:57:03 2010 by mtchandl
+# Arguments:  -R186.45/201.7/21.45/54.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-06050029-depth-01: RLS m: 0.999613 b: 0 rms: 24.4013 r: 0.999887 sig: 1 dec: 0
+N-E-06050029-depth-02: Regression slope 0.999613 different from 1. Recommended: [1]
+Y-E-06050029-mag-07: Anomaly differs from mtf2-IGRF (m: 0.999 b: -0.674382 rms: 4.00201 r: 0.999682 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+?	06050029	1978-09-26T02:32:00.00	1	D-0-0	 NAV: on land
+?	06050029	1978-09-26T17:13:00.00	555	0-0-K	 GRAD: twt excessive
+?	06050029	1978-09-26T17:19:00.00	561	0-0-K	 GRAD: twt excessive
+?	06050029	1978-09-26T21:25:00.00	807	0-0-K	 GRAD: twt excessive
+?	06050029	1978-09-27T01:28:00.00	1035	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T01:29:00.00	1036	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:30:00.00	1037	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:31:00.00	1038	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:32:00.00	1039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T01:35:00.00	1042	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:36:00.00	1043	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:37:00.00	1044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T01:41:00.00	1048	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T01:42:00.00	1049	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T01:43:00.00	1050	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:44:00.00	1051	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:45:00.00	1052	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:46:00.00	1053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T01:53:00.00	1060	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T01:54:00.00	1061	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:55:00.00	1062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T01:58:00.00	1065	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T01:59:00.00	1066	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:00:00.00	1067	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:02:00.00	1069	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:03:00.00	1070	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:05:00.00	1072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T02:06:00.00	1073	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T02:07:00.00	1074	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:08:00.00	1075	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:10:00.00	1077	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:11:00.00	1078	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:13:00.00	1080	0-0-O	 GRAD: mtf1 excessive
+?	06050029	1978-09-27T02:21:00.00	1088	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:22:00.00	1089	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:23:00.00	1090	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:24:00.00	1091	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:25:00.00	1092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T02:29:00.00	1096	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:30:00.00	1097	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T02:31:00.00	1098	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:26:00.00	1213	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:27:00.00	1214	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:28:00.00	1215	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:29:00.00	1216	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:30:00.00	1217	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:31:00.00	1218	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:32:00.00	1219	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:34:00.00	1221	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T04:35:00.00	1222	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T04:36:00.00	1223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:07:00.00	1254	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:08:00.00	1255	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:10:00.00	1257	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:11:00.00	1258	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:12:00.00	1259	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:19:00.00	1266	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:21:00.00	1268	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:27:00.00	1274	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:31:00.00	1278	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:32:00.00	1279	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:33:00.00	1280	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:34:00.00	1281	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:35:00.00	1282	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:36:00.00	1283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:37:00.00	1284	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:38:00.00	1285	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:39:00.00	1286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:40:00.00	1287	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:41:00.00	1288	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:42:00.00	1289	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:43:00.00	1290	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:44:00.00	1291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:45:00.00	1292	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:46:00.00	1293	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:47:00.00	1294	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:49:00.00	1296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:50:00.00	1297	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:52:00.00	1299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T05:53:00.00	1300	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T05:55:00.00	1302	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T05:56:00.00	1303	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:11:00.00	1318	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:12:00.00	1319	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:13:00.00	1320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T06:14:00.00	1321	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-09-27T06:16:00.00	1323	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:17:00.00	1324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T06:18:00.00	1325	0-0-O	 GRAD: mtf1 excessive
+?	06050029	1978-09-27T06:19:00.00	1326	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:25:00.00	1332	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:26:00.00	1333	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-27T06:27:00.00	1334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T12:52:00.00	1702	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T12:53:00.00	1703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:37:00.00	1747	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:38:00.00	1748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:39:00.00	1749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:40:00.00	1750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:43:00.00	1753	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T13:44:00.00	1754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:21:00.00	1779	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:22:00.00	1780	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:23:00.00	1781	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:24:00.00	1782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:27:00.00	1785	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:28:00.00	1786	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:29:00.00	1787	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:30:00.00	1788	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:31:00.00	1789	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:32:00.00	1790	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:36:00.00	1794	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:37:00.00	1795	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:38:00.00	1796	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:39:00.00	1797	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:40:00.00	1798	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:41:00.00	1799	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:44:00.00	1802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T14:45:00.00	1803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T15:09:00.00	1827	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T15:10:00.00	1828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T15:13:00.00	1831	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T15:14:00.00	1832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-09-27T16:02:00.00	1880	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-09-29T18:36:00.00	4434	0-0-K	 GRAD: twt excessive
+?	06050029	1978-10-02T03:13:00.00	7755	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T03:14:00.00	7756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:29:00.00	7803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:30:00.00	7804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:31:00.00	7805	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:32:00.00	7806	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:37:00.00	7811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:38:00.00	7812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:42:00.00	7816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:43:00.00	7817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:44:00.00	7818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:45:00.00	7819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:47:00.00	7821	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:48:00.00	7822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:49:00.00	7823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:50:00.00	7824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:55:00.00	7829	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:56:00.00	7830	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:57:00.00	7831	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T04:58:00.00	7832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:07:00.00	7841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:08:00.00	7842	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:09:00.00	7843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:10:00.00	7844	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:11:00.00	7845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050029	1978-10-02T05:43:00.00	7877	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:44:00.00	7878	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:45:00.00	7879	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:46:00.00	7880	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:47:00.00	7881	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:48:00.00	7882	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:49:00.00	7883	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:50:00.00	7884	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:51:00.00	7885	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:52:00.00	7886	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:53:00.00	7887	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:54:00.00	7888	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:55:00.00	7889	0-0-P	 GRAD: mtf2 excessive
+?	06050029	1978-10-02T05:56:00.00	7890	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T05:57:00.00	7891	0-0-OPQ	 GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T05:58:00.00	7892	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T05:59:00.00	7893	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:00:00.00	7894	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:01:00.00	7895	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:02:00.00	7896	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:03:00.00	7897	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:04:00.00	7898	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:05:00.00	7899	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:06:00.00	7900	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:07:00.00	7901	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive
+?	06050029	1978-10-02T06:08:00.00	7902	0-Q-OPQ	 VAL: mag invalid - GRAD: mtf1, mtf2, mag excessive

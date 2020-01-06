@@ -1,0 +1,39 @@
+# Cruise 19180030 ID CD4890 MGD77 FILE VERSION: 19950628 N_RECS: 11722
+# Examined: Mon Sep 20 13:18:33 2010 by mtchandl
+# Arguments:  -R-10.1/1.4/47.95/52.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetric outliers should be reviewed by source institution.
+# Errata: Header
+Y-W-19180030-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-19180030-depth-01: RLS m: 1.0035 b: 0 rms: 2.65181 r: 0.999802 sig: 1 dec: 0
+N-E-19180030-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-W-19180030-depth-12: Integer precision
+# Errata: Data
+Y	19180030	1990-06-22T19:07:00.00	4035	C-0-0	 NAV: excessive speed
+Y	19180030	1990-06-23T05:14:00.00	5249	C-0-0	 NAV: excessive speed
+?	19180030	1990-06-23T05:23:00.00	5267	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:26:00.00	5273	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:27:00.00	5275	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:29:30.00	5280	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:30:30.00	5282	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:34:30.00	5290	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T05:35:30.00	5292	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:00:30.00	5582	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:03:30.00	5588	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:04:30.00	5590	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:06:30.00	5594	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:28:30.00	5638	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:29:30.00	5640	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:30:00.00	5641	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T08:33:00.00	5647	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T09:32:00.00	5765	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T09:32:30.00	5766	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T10:07:30.00	5835	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T10:11:00.00	5842	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T10:16:00.00	5852	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T10:16:30.00	5853	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T10:20:00.00	5860	0-0-L	 GRAD: depth excessive
+?	19180030	1990-06-23T12:33:00.00	6126	0-0-L	 GRAD: depth excessive

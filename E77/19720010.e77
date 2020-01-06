@@ -1,0 +1,47 @@
+# Cruise 19720010 ID JCR10 MGD77 FILE VERSION: 20010424 N_RECS: 28729
+# Examined: Mon Oct 18 15:37:28 2010 by mtchandl
+# Arguments:  -R290.95/343.5/-72.5/-22.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19720010-H11-05: Invalid Leftmost Longitude: (-069) [-070]
+Y-W-19720010-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19720010-depth-01: RLS m: 1.00019 b: 0 rms: 7.05649 r: 0.999994 sig: 1 dec: 0
+N-E-19720010-depth-02: Regression slope 1.00019 different from 1. Recommended: [1]
+# Errata: Data
+Y	19720010	1995-03-20T12:08:30.00	1	D-0-0	 NAV: on land
+Y	19720010	1995-03-20T12:10:00.00	2	D-0-0	 NAV: on land
+?	19720010	1995-03-24T05:31:30.00	7541	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-26T01:41:00.00	8438	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-26T06:00:30.00	8556	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-26T16:24:00.00	8804	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-26T16:59:30.00	8826	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-27T03:39:00.00	9032	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-29T19:45:00.00	9880	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-29T20:28:30.00	9891	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-29T20:38:30.00	9893	0-0-L	 GRAD: depth excessive
+?	19720010	1995-03-29T22:02:30.00	9901	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-06T23:25:00.00	14180	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-07T06:26:30.00	14293	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-07T06:52:30.00	14300	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-09T13:46:00.00	15360	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-10T03:35:30.00	15415	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-10T03:39:00.00	15417	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-10T04:51:00.00	15428	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-10T14:12:00.00	15579	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-12T08:40:00.00	16371	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-12T08:40:30.00	16372	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-13T00:16:30.00	17405	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-14T06:46:30.00	17891	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-15T13:49:00.00	18397	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-16T16:30:00.00	18777	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-24T13:09:30.00	23428	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-30T10:43:30.00	25256	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-30T11:39:00.00	25267	0-0-L	 GRAD: depth excessive
+?	19720010	1995-04-30T12:01:30.00	25272	0-0-L	 GRAD: depth excessive
+?	19720010	1995-05-03T15:20:30.00	27033	0-0-L	 GRAD: depth excessive
+?	19720010	1995-05-03T18:52:00.00	27058	0-0-L	 GRAD: depth excessive
+?	19720010	1995-05-04T05:09:00.00	27200	0-0-L	 GRAD: depth excessive

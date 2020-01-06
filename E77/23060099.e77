@@ -1,0 +1,46 @@
+# Cruise 23060099 ID ODP193JR MGD77 FILE VERSION: 20041001 N_RECS: 16359
+# Examined: Thu Feb  3 13:59:47 2011 by mtchandl
+# Arguments:  -R144.5/152.5/-18.4/13.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry offsets near 2000 km, suggest manual editing.
+# Errata: Header
+N-E-23060099-H04-03: Invalid Survey Departure Day: (07) [13]
+Y-W-23060099-H13-10: Survey year (2000-2001) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060099-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-23060099-depth-01: RLS m: 0.997254 b: 0 rms: 23.3504 r: 0.999869 sig: 1 dec: 0
+N-E-23060099-depth-02: Regression slope 0.997254 different from 1. Recommended: [1]
+Y-W-23060099-twt-11: More recent bathymetry correction table available
+Y-W-23060099-depth-12: Integer precision
+Y-W-23060099-mtf1-12: Integer precision
+# Errata: Data
+?	23060099	2000-11-18T01:37:40.32	9174	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T01:38:40.32	9175	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T01:58:41.40	9195	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T01:59:41.40	9196	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T02:12:42.48	9209	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T02:13:42.48	9210	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T04:50:51.48	9367	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T04:51:51.48	9368	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:34:52.68	9411	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:35:52.80	9412	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:43:53.94	9420	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:44:53.70	9421	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:46:53.70	9423	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:47:54.00	9424	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:49:54.00	9426	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:50:54.00	9427	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:55:54.06	9432	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-11-18T05:56:54.18	9433	0-0-O	 GRAD: mtf1 excessive
+Y	23060099	2000-11-28T19:54:25.44	9661	C-0-0	 NAV: excessive speed
+Y	23060099	2000-11-28T20:30:27.60	9665	C-0-0	 NAV: excessive speed
+Y	23060099	2000-11-28T20:41:27.60	9667	C-0-0	 NAV: excessive speed
+Y	23060099	2000-11-28T20:48:29.10	9669	C-0-0	 NAV: excessive speed
+?	23060099	2000-12-31T12:10:42.54	12399	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-12-31T12:11:42.54	12400	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-12-31T12:12:42.54	12401	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-12-31T12:13:42.54	12402	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-12-31T12:14:42.54	12403	0-0-O	 GRAD: mtf1 excessive
+?	23060099	2000-12-31T12:15:42.54	12404	0-0-O	 GRAD: mtf1 excessive

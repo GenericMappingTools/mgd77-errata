@@ -1,0 +1,62 @@
+# Cruise 15010005 ID CIRC02AR MGD77 FILE VERSION: 19800226 N_RECS: 35176
+# Examined: Mon May 12 16:55:24 2008 by mtchandl
+# Arguments:  -R103.55/201.95/1.1/24.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010005-H04-06: Invalid Survey Arrival Day: (29) [27]
+Y-W-15010005-H16-06: Ten Degree Identifier 1016 marked in header but was not crossed
+Y-W-15010005-H16-06: Ten Degree Identifier 7218 not marked in header but block was crossed
+Y-W-15010005-nav-00: Flagged 0.08 % of records with excessive speed or invalid navigation
+Y-I-15010005-depth-01: RLS m: 0.996125 b: 0 rms: 257.93 r: 0.99348 significant: 1 decimation: 1
+Y-E-15010005-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.952419 b: -26.5533 rms: 61.6996 r: 0.949532 sig: 1 dec: 1). [Recompute]
+Y-W-15010005-mtf1-12: Integer multiple of 5 precision
+Y-W-15010005-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010005	1968-03-31T20:51:00.00	501	C-0-0	 NAV: excessive speed
+?	15010005	1968-04-03T08:48:00.00	3970	0-0-KL	 GRAD: twt, depth excessive
+?	15010005	1968-04-04T07:22:00.00	5312	0-0-K	 GRAD: twt excessive
+Y	15010005	1968-04-06T15:29:00.00	8634	C-0-0	 NAV: excessive speed
+?	15010005	1968-04-08T17:36:00.00	11409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010005	1968-04-08T17:42:00.00	11415	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010005	1968-04-08T17:48:00.00	11421	0-Q-0	 VAL: mag invalid
+?	15010005	1968-04-08T17:54:00.00	11427	0-Q-0	 VAL: mag invalid
+?	15010005	1968-04-08T18:00:00.00	11433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010005	1968-04-08T19:15:00.00	11508	0-0-K	 GRAD: twt excessive
+Y	15010005	1968-04-08T21:37:00.00	11650	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-09T23:14:00.00	12953	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-11T00:00:00.00	14367	C-0-0	 NAV: excessive speed
+?	15010005	1968-04-17T03:19:00.00	21720	0-0-K	 GRAD: twt excessive
+?	15010005	1968-04-18T02:29:00.00	23082	0-0-K	 GRAD: twt excessive
+?	15010005	1968-04-18T02:38:00.00	23091	0-0-K	 GRAD: twt excessive
+Y	15010005	1968-04-18T20:34:00.00	24114	C-0-0	 NAV: excessive speed
+?	15010005	1968-04-19T16:48:00.00	25302	0-0-KL	 GRAD: twt, depth excessive
+?	15010005	1968-04-19T21:12:00.00	25566	0-0-K	 GRAD: twt excessive
+?	15010005	1968-04-21T19:29:00.00	27571	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:30:00.00	27572	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:31:00.00	27573	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:32:00.00	27574	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:33:00.00	27575	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:34:00.00	27576	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:35:00.00	27577	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:36:00.00	27578	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:37:00.00	27579	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:38:00.00	27580	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:39:00.00	27581	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:40:00.00	27582	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:41:00.00	27583	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:42:00.00	27584	D-0-0	 NAV: on land
+Y	15010005	1968-04-21T19:43:00.00	27585	D-0-0	 NAV: on land
+?	15010005	1968-04-21T22:24:00.00	27746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010005	1968-04-21T23:49:00.00	27831	0-0-KL	 GRAD: twt, depth excessive
+Y	15010005	1968-04-25T04:27:00.00	31723	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T04:28:00.00	31724	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T04:29:00.00	31725	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T04:30:00.00	31726	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T04:31:00.00	31727	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T11:44:00.00	32160	C-0-0	 NAV: excessive speed
+Y	15010005	1968-04-25T20:45:00.00	32701	C-0-0	 NAV: excessive speed
+?	15010005	1968-04-26T21:06:00.00	34162	0-0-OQ	 GRAD: mtf1, mag excessive

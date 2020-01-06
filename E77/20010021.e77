@@ -1,0 +1,122 @@
+# Cruise 20010021 ID TTN015 MGD77 FILE VERSION: 19931231 N_RECS: 21740
+# Examined: Tue Oct 19 14:45:01 2010 by mtchandl
+# Arguments:  -R202.1/225/-12/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry data appear to be unprocessed and should be re-processed by the source institution. Flagged several offsets from predicted bathymetry.
+# Errata: Header
+N-E-20010021-H04-03: Invalid Survey Departure Day: (15) [17]
+Y-W-20010021-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-20010021-depth-01: RLS m: 1.00132 b: 0 rms: 56.5213 r: 0.997502 sig: 1 dec: 0
+N-E-20010021-depth-02: Regression slope 1.00132 different from 1. Recommended: [1]
+Y-E-20010021-depth-08: Extended offset from grid [2648-2760]
+Y-E-20010021-depth-08: Extended offset from grid [3840-4172]
+Y-E-20010021-depth-08: Extended offset from grid [4830-5045]
+Y-E-20010021-depth-08: Extended offset from grid [5305-5549]
+Y-E-20010021-depth-08: Extended offset from grid [12394-12764]
+Y-E-20010021-depth-08: Extended offset from grid [18450-18596]
+Y-E-20010021-depth-08: Extended offset from grid [19186-19326]
+N-E-20010021-twt-13: Encountered possible PDR wrap errors (6.3) [5.0]
+# Errata: Data
+Y	20010021	1993-01-17T19:13:33.00	1	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:14:31.98	2	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:15:31.98	3	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:16:31.98	4	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:17:31.98	5	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:18:30.96	6	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:19:31.98	7	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:20:31.98	8	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:21:31.98	9	D-0-0	 NAV: on land
+Y	20010021	1993-01-17T19:22:30.96	10	D-0-0	 NAV: on land
+?	20010021	1993-01-17T19:23:30.96	11	D-0-0	 NAV: on land
+?	20010021	1993-01-17T21:51:42.00	158	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T00:36:00.96	323	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T00:39:03.00	326	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T11:15:06.00	962	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T16:13:09.00	1260	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T17:22:01.98	1329	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T17:23:00.96	1330	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-18T18:29:04.98	1396	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T20:55:01.98	1542	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-18T21:56:04.98	1603	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-18T22:05:03.00	1612	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-19T09:08:45.96	2276	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-19T17:11:39.00	2759	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-19T22:57:33.00	3105	0-0-KL	 GRAD: twt, depth excessive
+Y	20010021	1993-01-20T00:17:16.98	3184	C-0-0	 NAV: excessive speed
+?	20010021	1993-01-20T02:18:15.00	3303	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-20T17:47:33.00	4171	0-0-KL	 GRAD: twt, depth excessive
+Y	20010021	1993-01-20T18:54:10.98	4239	B-0-0	 NAV: non-increasing time
+Y	20010021	1993-01-20T18:55:09.96	4240	B-0-0	 NAV: non-increasing time
+Y	20010021	1993-01-20T18:56:09.96	4241	B-0-0	 NAV: non-increasing time
+Y	20010021	1993-01-20T18:57:10.98	4242	B-0-0	 NAV: non-increasing time
+Y	20010021	1993-01-20T18:58:10.98	4243	B-0-0	 NAV: non-increasing time
+Y	20010021	1993-01-20T18:59:12.00	4244	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:00:12.00	4245	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:01:12.00	4246	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:02:12.00	4247	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:03:12.00	4248	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:04:12.96	4249	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:05:12.96	4250	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:06:12.00	4251	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:07:12.96	4252	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:08:12.96	4253	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:09:13.98	4254	C-0-0	 NAV: excessive speed
+Y	20010021	1993-01-20T19:10:13.98	4255	C-0-0	 NAV: excessive speed
+?	20010021	1993-01-21T02:51:06.96	4717	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-21T03:10:07.98	4736	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T03:41:09.00	4767	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T04:12:06.00	4798	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T05:49:07.98	4895	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-21T07:12:15.00	4978	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-21T08:18:15.00	5044	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T08:58:13.98	5084	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T10:23:15.00	5169	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T10:47:15.96	5193	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T16:42:34.98	5548	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-21T16:43:33.96	5549	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-23T00:30:03.00	7457	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-23T00:31:03.00	7458	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-24T04:11:30.96	8690	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-24T07:47:36.00	8906	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-25T04:52:57.00	10171	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-26T08:34:12.96	10896	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-26T08:41:13.98	10903	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-26T12:01:21.96	11103	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-26T19:15:45.96	11537	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-27T10:40:09.00	12461	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-27T14:37:12.96	12698	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-27T14:38:12.00	12699	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-27T14:52:09.96	12713	0-0-K	 GRAD: twt excessive
+?	20010021	1993-01-27T14:53:09.96	12714	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-28T11:40:16.98	13187	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-01-28T19:16:22.98	13336	0-0-KL	 GRAD: twt, depth excessive
+Y	20010021	1993-02-02T02:20:09.96	14407	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-02T02:21:09.00	14408	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-02T02:22:09.00	14409	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-02T02:23:10.98	14410	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-02T02:24:12.00	14411	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-03T00:09:00.96	14838	C-0-0	 NAV: excessive speed
+Y	20010021	1993-02-03T00:10:00.00	14839	C-0-0	 NAV: excessive speed
+?	20010021	1993-02-07T12:11:24.96	16696	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-07T12:12:24.96	16697	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-08T03:35:03.96	17620	0-0-K	 GRAD: twt excessive
+?	20010021	1993-02-08T19:51:10.98	18595	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-08T20:38:09.96	18642	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-09T00:24:03.96	18868	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-09T01:26:06.96	18930	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-09T04:57:19.98	19141	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-09T04:58:21.00	19142	0-0-K	 GRAD: twt excessive
+?	20010021	1993-02-09T05:28:21.00	19172	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-09T07:48:22.98	19312	0-0-KL	 GRAD: twt, depth excessive
+Y	20010021	1993-02-09T14:22:42.96	19705	C-0-0	 NAV: excessive speed
+?	20010021	1993-02-09T14:44:42.00	19727	0-0-K	 GRAD: twt excessive
+?	20010021	1993-02-10T08:21:43.98	19986	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-10T19:21:01.98	20644	0-0-K	 GRAD: twt excessive
+?	20010021	1993-02-10T19:43:04.98	20666	0-0-K	 GRAD: twt excessive
+?	20010021	1993-02-10T19:51:06.96	20674	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-10T19:59:04.98	20682	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-10T21:00:06.00	20743	0-0-KL	 GRAD: twt, depth excessive
+?	20010021	1993-02-10T22:55:06.96	20858	0-0-KL	 GRAD: twt, depth excessive

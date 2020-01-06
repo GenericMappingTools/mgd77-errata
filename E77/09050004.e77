@@ -1,0 +1,56 @@
+# Cruise 09050004 ID KA68E MGD77 FILE VERSION: 19810713 N_RECS: 19420
+# Examined: Mon Aug  9 11:20:55 2010 by mtchandl
+# Arguments:  -R331.9/343.4/14.8/27.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-09050004-depth-01: RLS m: 0.999651 b: 0 rms: 4.00318 r: 0.999987 sig: 1 dec: 0
+N-E-09050004-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-E-09050004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04902 b: 181.939 rms: 186.82 r: 0.970372 sig: 1 dec: 1). [Recompute]
+Y-W-09050004-twt-11: More recent bathymetry correction table available
+Y-W-09050004-mtf1-12: Integer precision
+# Errata: Data
+?	09050004	1968-07-30T14:14:00.00	2195	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-30T21:10:00.00	2253	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-30T21:51:00.00	2276	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T07:41:00.00	2306	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-31T07:47:00.00	2309	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-31T07:49:00.00	2310	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T07:51:00.00	2311	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-31T07:53:00.00	2312	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T07:55:00.00	2313	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-31T07:57:00.00	2314	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T08:21:00.00	2331	0-0-K	 GRAD: twt excessive
+?	09050004	1968-07-31T08:28:00.00	2337	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T08:34:00.00	2340	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T08:36:00.00	2341	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T13:25:00.00	2389	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-07-31T17:57:00.00	2429	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-01T04:09:00.00	2822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T04:10:00.00	2823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T07:23:00.00	2887	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-01T11:28:00.00	3131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T11:35:00.00	3138	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-01T16:16:00.00	3419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T16:40:00.00	3443	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-01T16:43:00.00	3446	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-01T16:48:00.00	3451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T16:49:00.00	3452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-01T20:38:00.00	3502	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-02T02:12:00.00	3591	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-03T12:47:00.00	5155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-04T05:32:00.00	5872	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T04:55:00.00	11275	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T04:56:00.00	11276	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T04:57:00.00	11277	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T04:58:00.00	11278	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T04:59:00.00	11279	0-0-KL	 GRAD: twt, depth excessive
+?	09050004	1968-08-09T05:15:00.00	11294	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-09T05:29:00.00	11308	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-11T00:59:00.00	13042	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050004	1968-08-11T01:01:00.00	13044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050004	1968-08-15T02:02:00.00	18011	0-0-K	 GRAD: twt excessive
+?	09050004	1968-08-15T09:30:00.00	18140	0-0-K	 GRAD: twt excessive

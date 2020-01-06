@@ -1,0 +1,18 @@
+# Cruise 08020012 ID 8502TR MGD77 FILE VERSION: 19890113 N_RECS: 37710
+# Examined: Fri Jul 30 11:07:32 2010 by mtchandl
+# Arguments:  -R270/288.4/-33.05/-1.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-08020012-depth-01: RLS m: 1.00032 b: 0 rms: 16.7053 r: 0.999609 sig: 1 dec: 0
+Y-E-08020012-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00024 b: 244.919 rms: 247.18 r: 0.983742 sig: 1 dec: 1). [Recompute]
+Y-W-08020012-twt-11: More recent bathymetry correction table available
+Y-W-08020012-mtf1-12: Integer precision
+Y-W-08020012-mag-12: Integer precision
+# Errata: Data
+?	08020012	1985-01-25T15:11:55.02	3716	0-0-KL	 GRAD: twt, depth excessive
+?	08020012	1985-01-29T10:00:00.00	20120	0-0-KL	 GRAD: twt, depth excessive
+?	08020012	1985-01-30T01:11:40.02	22865	0-0-K	 GRAD: twt excessive

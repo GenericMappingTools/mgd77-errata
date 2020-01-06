@@ -1,0 +1,43 @@
+# Cruise 01010135 ID RC1802 MGD77 FILE VERSION: 19800908 N_RECS: 11719
+# Examined: Mon Jul  6 15:48:13 2009 by mtchandl
+# Arguments:  -R280.35/293.8/-60/-43.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010135-H13-06: Invalid Magnetics Reference Field Code: (75) [75]
+Y-I-01010135-depth-01: RLS m: 0.995777 b: 0 rms: 120.838 r: 0.995881 sig: 1 dec: 1
+Y-I-01010135-faa-01: RLS m: 1.00398 b: 8.13588 rms: 13.7523 r: 0.982876 sig: 1 dec: 1
+Y-W-01010135-faa-03: Regression offset 8.13588 different from 0.
+Y-E-01010135-mag-07: Anomaly differs from mtf1-IGRF (m: 0.906461 b: -27.7645 rms: 100.343 r: 0.86975 sig: 1 dec: 1). [Recompute]
+N-E-01010135-depth-08: Extended offset from grid [7-11719]
+Y-W-01010135-twt-11: More recent bathymetry correction table available
+Y-W-01010135-mtf1-12: Integer precision
+Y-W-01010135-mag-12: Integer precision
+# Errata: Data
+?	01010135	1975-03-15T08:25:00.00	31	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T08:30:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T15:20:00.00	176	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T15:25:00.00	178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T15:35:00.00	180	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T15:50:00.00	186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T15:55:00.00	188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T18:05:00.00	230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T18:30:00.00	239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T19:25:00.00	259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T19:50:00.00	267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T20:35:00.00	280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T21:05:00.00	291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-15T21:45:00.00	307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-03-22T13:30:00.00	3399	0-0-K	 GRAD: twt excessive
+?	01010135	1975-04-08T11:25:00.00	10790	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T11:30:00.00	10791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T11:40:00.00	10795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T11:45:00.00	10798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T12:00:00.00	10804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T12:05:00.00	10805	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010135	1975-04-08T12:10:00.00	10807	0-Q-0	 VAL: mag invalid
+?	01010135	1975-04-08T12:15:00.00	10809	0-Q-0	 VAL: mag invalid
+?	01010135	1975-04-08T12:20:00.00	10811	0-Q-0	 VAL: mag invalid

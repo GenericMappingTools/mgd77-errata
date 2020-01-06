@@ -1,0 +1,17 @@
+# Cruise 19660010 ID 19930094 MGD77 FILE VERSION: 19961008 N_RECS: 4126
+# Examined: Mon Oct 18 15:31:55 2010 by mtchandl
+# Arguments:  -R61.25/70.85/19.45/24.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19660010-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-I-19660010-depth-01: RLS m: 1 b: 0 rms: 9.69312 r: 0.999957 sig: 1 dec: 0
+Y-W-19660010-depth-12: Integer precision
+# Errata: Data
+?	19660010	864.689	1582	0-0-L	 GRAD: depth excessive
+?	19660010	865.279	1583	0-0-L	 GRAD: depth excessive
+?	19660010	1951.03	3593	0-0-L	 GRAD: depth excessive
+?	19660010	1952.01	3595	0-0-L	 GRAD: depth excessive

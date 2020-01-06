@@ -1,0 +1,77 @@
+# Cruise J4010016 ID KH7304 MGD77 FILE VERSION: 19880322 N_RECS: 14489
+# Examined: Mon Nov 23 16:34:02 2009 by mtchandl
+# Arguments:  -R123.6/177.9/-18.9/33.7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J4010016-H16-01: Invalid Number of Ten Degree Identifiers: (21) [22]
+Y-W-J4010016-H16-06: Ten Degree Identifier 3013 not marked in header but block was crossed
+Y-W-J4010016-nav-00: Flagged 0.31 % of records with bad navigation
+Y-I-J4010016-depth-01: RLS m: 0.996218 b: 0 rms: 31.0437 r: 0.999854 sig: 1 dec: 0
+N-E-J4010016-depth-02: Regression slope 0.996218 different from 1. Recommended: [1]
+Y-I-J4010016-faa-01: RLS m: 0.98786 b: -9.58005 rms: 27.5706 r: 0.978515 sig: 1 dec: 1
+Y-W-J4010016-faa-03: Regression offset -9.58005 different from 0.
+N-E-J4010016-faa-08: Extended offset from grid [717-1766]
+N-E-J4010016-faa-08: Extended offset from grid [2647-3729]
+N-E-J4010016-faa-08: Extended offset from grid [5402-7208]
+N-E-J4010016-faa-08: Extended offset from grid [7636-9070]
+Y-W-J4010016-depth-12: Integer precision
+Y-W-J4010016-faa-12: Integer precision
+# Errata: Data
+?	J4010016	1973-07-29T15:40:00.00	4364	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-07-29T15:45:00.00	4365	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-07-31T15:10:00.00	4801	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-07-31T15:15:00.00	4802	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-08-01T02:15:00.00	4934	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-08-19T03:35:00.00	8355	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-08-21T18:00:00.00	9070	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-08-21T18:05:00.00	9071	0-0-W	 GRAD: faa excessive
+?	J4010016	1973-09-08T17:45:00.00	12415	D-0-0	 NAV: on land
+Y	J4010016	1973-09-08T17:50:00.00	12416	D-0-0	 NAV: on land
+Y	J4010016	1973-09-15T13:05:00.00	12693	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:10:00.00	12694	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:15:00.00	12695	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:20:00.00	12696	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:25:00.00	12697	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:30:00.00	12698	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:35:00.00	12699	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:40:00.00	12700	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:45:00.00	12701	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:50:00.00	12702	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T13:55:00.00	12703	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:00:00.00	12704	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:05:00.00	12705	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:10:00.00	12706	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:15:00.00	12707	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:20:00.00	12708	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:25:00.00	12709	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:30:00.00	12710	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:35:00.00	12711	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:40:00.00	12712	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:45:00.00	12713	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:50:00.00	12714	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T14:55:00.00	12715	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:00:00.00	12716	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:05:00.00	12717	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:10:00.00	12718	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:15:00.00	12719	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:20:00.00	12720	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:25:00.00	12721	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:30:00.00	12722	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:35:00.00	12723	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:40:00.00	12724	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:45:00.00	12725	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:50:00.00	12726	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T15:55:00.00	12727	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:00:00.00	12728	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:05:00.00	12729	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:10:00.00	12730	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:15:00.00	12731	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:25:00.00	12733	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:30:00.00	12734	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:35:00.00	12735	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:40:00.00	12736	C-0-0	 NAV: excessive speed
+Y	J4010016	1973-09-15T16:45:00.00	12737	C-0-0	 NAV: excessive speed

@@ -1,0 +1,22 @@
+# Cruise 23060108 ID ODP202JR MGD77 FILE VERSION: 20041101 N_RECS: 26716
+# Examined: Thu Feb  3 14:02:17 2011 by mtchandl
+# Arguments:  -R-86.5/82.8/-41.05/8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060108-H04-03: Invalid Survey Departure Day: (01) [04]
+Y-E-23060108-H11-03: Invalid Bottommost Latitude: (-41) [-42]
+Y-E-23060108-H11-05: Invalid Leftmost Longitude: (-087) [+082]
+Y-W-23060108-H13-10: Survey year (2002) outside magnetic reference field Unused time range (9999-9999)
+Y-E-23060108-H16-01: Invalid Number of Ten Degree Identifiers: (10) [11]
+Y-W-23060108-H16-06: Ten Degree Identifier 3008 not marked in header but block was crossed
+Y-W-23060108-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-23060108-depth-01: RLS m: 0.998483 b: 0 rms: 25.0656 r: 0.999818 sig: 1 dec: 0
+N-E-23060108-depth-02: Regression slope 0.998483 different from 1. Recommended: [1]
+Y-W-23060108-twt-11: More recent bathymetry correction table available
+Y-W-23060108-depth-12: Integer precision
+# Errata: Data
+Y	23060108	2002-05-06T03:28:22.20	20159	C-0-0	 NAV: excessive speed

@@ -1,0 +1,25 @@
+# Cruise 23060038 ID ODP134JR MGD77 FILE VERSION: 19920228 N_RECS: 8620
+# Examined: Tue Oct 19 15:28:30 2010 by mtchandl
+# Arguments:  -R151.5/178.4/-23.85/-14.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged two magnetic outliers.
+# Errata: Header
+Y-W-23060038-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-23060038-depth-01: RLS m: 0.998953 b: 0 rms: 19.0355 r: 0.999824 sig: 1 dec: 0
+N-E-23060038-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-E-23060038-mag-07: Anomaly differs from mtf1-IGRF (m: 0.991787 b: -77.1465 rms: 78.7752 r: 0.998413 sig: 1 dec: 1). [Recompute]
+Y-W-23060038-twt-11: More recent bathymetry correction table available
+Y-W-23060038-depth-12: Integer precision
+Y-W-23060038-mtf1-12: Integer precision
+# Errata: Data
+Y	23060038	1990-10-17T08:06:00.00	117	0-Q-0	 VAL: mag invalid
+Y	23060038	1990-10-18T11:22:00.00	1621	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060038	1990-10-18T11:23:00.00	1622	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	23060038	1990-11-20T21:09:00.00	4967	D-0-0	 NAV: on land
+Y	23060038	1990-11-20T21:12:00.00	4968	D-0-0	 NAV: on land
+Y	23060038	1990-11-20T21:28:00.00	4973	D-0-0	 NAV: on land
+Y	23060038	1990-11-20T21:29:00.00	4974	D-0-0	 NAV: on land
+?	23060038	1990-11-20T21:32:00.00	4975	D-0-0	 NAV: on land

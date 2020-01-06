@@ -1,0 +1,37 @@
+# Cruise J1030006 ID HM7201 MGD77 FILE VERSION: 19880928 N_RECS: 1519
+# Examined: Mon Nov  7 17:26:42 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset.
+# Errata: Header
+N-E-J1030006-H04-03: Invalid Survey Departure Day: (11) [18]
+N-E-J1030006-H04-06: Invalid Survey Arrival Day: (26) [23]
+Y-W-J1030006-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1030006-nav-00: Flagged 1.05 % of records with bad navigation
+Y-I-J1030006-depth-01: RLS m: 0.995846 b: 0 rms: 54.7414 r: 0.998869 sig: 1 dec: 0
+N-E-J1030006-depth-02: Regression slope 0.995846 different from 1. Recommended: [1]
+Y-I-J1030006-faa-01: RLS m: 0.994407 b: -20.6093 rms: 24.4468 r: 0.939423 sig: 1 dec: 0
+Y-W-J1030006-faa-03: Regression offset -20.6093 different from 0.
+Y-I-J1030006-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-J1030006-depth-08: Extended offset from grid [741-780]
+Y-W-J1030006-depth-12: Integer precision
+Y-W-J1030006-gobs-12: Integer precision
+# Errata: Data
+Y	J1030006	1972-06-10T12:40:00.00	774	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T12:50:00.00	775	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T13:00:00.00	776	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T13:10:00.00	777	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T13:30:00.00	778	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T13:40:00.00	779	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-10T13:50:00.00	780	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-18T06:10:00.00	1045	CD-0-0	 NAV: excessive speed, on land
+Y	J1030006	1972-06-18T18:20:00.00	1090	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-20T09:50:00.00	1263	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-21T05:40:00.00	1356	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-21T05:50:00.00	1357	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-21T06:00:00.00	1358	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-21T06:10:00.00	1359	C-0-0	 NAV: excessive speed
+Y	J1030006	1972-06-22T19:40:00.00	1498	C-0-0	 NAV: excessive speed

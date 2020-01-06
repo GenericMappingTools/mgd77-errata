@@ -1,0 +1,25 @@
+# Cruise 23060034 ID ODP130JR MGD77 FILE VERSION: 19910830 N_RECS: 15736
+# Examined: Tue Oct 19 15:25:09 2010 by mtchandl
+# Arguments:  -R144.55/161.7/0.3/13.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-23060034-H16-01: Invalid Number of Ten Degree Identifiers: ( 6) [4]
+Y-W-23060034-H16-06: Ten Degree Identifier 3015 marked in header but was not crossed
+Y-W-23060034-H16-06: Ten Degree Identifier 3016 marked in header but was not crossed
+Y-I-23060034-depth-01: RLS m: 1.00033 b: 0 rms: 8.34122 r: 0.999963 sig: 1 dec: 0
+Y-E-23060034-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99896 b: -6.16342 rms: 10.1049 r: 0.999734 sig: 1 dec: 1). [Recompute]
+Y-W-23060034-depth-12: Integer precision
+Y-W-23060034-mtf1-12: Integer precision
+# Errata: Data
+?	23060034	1990-01-23T18:34:00.00	951	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-01-23T18:35:00.00	952	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:24:00.00	14700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:25:00.00	14701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:26:00.00	14702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:27:00.00	14703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:28:00.00	14704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060034	1990-03-25T19:29:00.00	14705	0-0-OQ	 GRAD: mtf1, mag excessive

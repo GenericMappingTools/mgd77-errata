@@ -1,0 +1,107 @@
+# Cruise 67010136 ID 84002111 MGD77 FILE VERSION: 19860605 N_RECS: 24475
+# Examined: Sat Jul 30 19:47:41 2011 by mtchandl
+# Arguments:  -R132.25/138.7/30.6/35.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: Recommend updating gravity anomalies as gobs-IGF80+eot. Recommend recomputing magnetic anomalies.
+# Comments:
+# Errata: Header
+Y-W-67010136-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-67010136-depth-01: RLS m: 1.00083 b: 0 rms: 29.659 r: 0.999316 sig: 1 dec: 0
+N-E-67010136-depth-02: Regression slope 1.00083 different from 1. Recommended: [1]
+Y-I-67010136-faa-01: RLS m: 1.00417 b: -12.7814 rms: 13.2564 r: 0.992548 sig: 1 dec: 0
+N-E-67010136-faa-02: Regression slope 1.00417 different from 1. Recommended: [1]
+Y-W-67010136-faa-03: Regression offset -12.7814 different from 0.
+N-E-67010136-faa-06: Anomaly differs from gobs-IGF80 (m: 0.546672 b: -10.8933 rms: 36.6921 r: 0.723223 sig: 1 dec: 1). [Recompute]
+Y-E-67010136-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-67010136-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-67010136-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00659 b: 65.4757 rms: 66.941 r: 0.99875 sig: 1 dec: 1). [Recompute]
+Y-W-67010136-depth-12: Integer precision
+Y-W-67010136-mtf1-12: Integer precision
+# Errata: Data
+Y	67010136	1984-05-31T23:16:00.00	1	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:17:00.00	2	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:18:00.00	3	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:19:00.00	4	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:20:00.00	5	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:21:00.00	6	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:22:00.00	7	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:23:00.00	8	D-0-V	 NAV: on land - GRAD: eot excessive
+?	67010136	1984-05-31T23:24:00.00	9	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:25:00.00	10	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:26:00.00	11	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:28:00.00	12	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:29:00.00	13	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:30:00.00	14	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:31:00.00	15	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:32:00.00	16	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:33:00.00	17	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:34:00.00	18	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:35:00.00	19	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:36:00.00	20	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:37:00.00	21	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:38:00.00	22	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:40:00.00	23	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:41:00.00	24	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:42:00.00	25	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:43:00.00	26	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:44:00.00	27	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:45:00.00	28	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:46:00.00	29	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:47:00.00	30	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:48:00.00	31	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:49:00.00	32	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:50:00.00	33	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:52:00.00	34	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:53:00.00	35	D-0-0	 NAV: on land
+Y	67010136	1984-05-31T23:54:00.00	36	D-0-0	 NAV: on land
+?	67010136	1984-05-31T23:55:00.00	37	D-0-0	 NAV: on land
+?	67010136	1984-06-03T22:01:00.00	3910	0-0-VW	 GRAD: eot, faa excessive
+?	67010136	1984-06-03T22:02:00.00	3911	0-0-VW	 GRAD: eot, faa excessive
+?	67010136	1984-06-07T22:40:00.00	9403	0-0-VW	 GRAD: eot, faa excessive
+?	67010136	1984-06-10T00:30:00.00	12214	0-0-V	 GRAD: eot excessive
+?	67010136	1984-06-10T02:27:00.00	12324	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-10T02:28:00.00	12325	0-0-UW	 GRAD: gobs, faa excessive
+?	67010136	1984-06-10T02:29:00.00	12326	0-0-W	 GRAD: faa excessive
+?	67010136	1984-06-10T02:32:00.00	12329	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-10T23:52:00.00	13552	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-10T23:53:00.00	13553	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-11T14:05:00.00	14387	0-0-V	 GRAD: eot excessive
+?	67010136	1984-06-11T14:07:00.00	14389	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-13T09:22:00.00	16794	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-17T05:15:00.00	22027	0-0-U	 GRAD: gobs excessive
+?	67010136	1984-06-17T15:47:00.00	22636	0-0-UW	 GRAD: gobs, faa excessive
+?	67010136	1984-06-18T18:43:00.00	24166	0-0-UW	 GRAD: gobs, faa excessive
+?	67010136	1984-06-18T23:21:00.00	24444	D-0-0	 NAV: on land
+?	67010136	1984-06-18T23:22:00.00	24445	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:23:00.00	24446	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:24:00.00	24447	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:25:00.00	24448	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:26:00.00	24449	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:27:00.00	24450	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:28:00.00	24451	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:29:00.00	24452	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:30:00.00	24453	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:31:00.00	24454	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:32:00.00	24455	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:33:00.00	24456	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:34:00.00	24457	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:35:00.00	24458	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:36:00.00	24459	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:37:00.00	24460	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:38:00.00	24461	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:39:00.00	24462	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:40:00.00	24463	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:41:00.00	24464	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:42:00.00	24465	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:43:00.00	24466	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:44:00.00	24467	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:45:00.00	24468	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:46:00.00	24469	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:47:00.00	24470	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:48:00.00	24471	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:49:00.00	24472	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:50:00.00	24473	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:51:00.00	24474	D-0-0	 NAV: on land
+Y	67010136	1984-06-18T23:52:00.00	24475	D-0-0	 NAV: on land

@@ -1,0 +1,23 @@
+# Cruise 20010032 ID TN048 MGD77 FILE VERSION: 19960418 N_RECS: 24242
+# Examined: Tue Oct 19 14:49:37 2010 by mtchandl
+# Arguments:  -R57.3/65/14.4/23.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-20010032-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-20010032-depth-01: RLS m: 0.999651 b: 0 rms: 5.33474 r: 0.999981 sig: 1 dec: 0
+N-E-20010032-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+# Errata: Data
+?	20010032	1995-06-21T06:30:00.00	87	0-0-KL	 GRAD: twt, depth excessive
+?	20010032	1995-06-21T06:31:00.00	88	0-0-K	 GRAD: twt excessive
+?	20010032	1995-06-21T06:32:00.00	89	0-0-K	 GRAD: twt excessive
+?	20010032	1995-06-21T06:33:00.00	90	0-0-K	 GRAD: twt excessive
+Y	20010032	1995-06-24T18:59:00.00	4742	C-0-0	 NAV: excessive speed
+Y	20010032	1995-06-28T07:51:00.00	8247	C-0-0	 NAV: excessive speed
+?	20010032	1995-07-09T13:07:00.00	21208	0-0-KL	 GRAD: twt, depth excessive
+?	20010032	1995-07-11T06:26:00.00	22600	0-0-K	 GRAD: twt excessive
+?	20010032	1995-07-12T23:08:00.00	24106	0-0-K	 GRAD: twt excessive
+?	20010032	1995-07-13T00:09:00.00	24167	0-0-KL	 GRAD: twt, depth excessive

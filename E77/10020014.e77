@@ -1,0 +1,47 @@
+# Cruise 10020014 ID IG2405 MGD77 FILE VERSION: 19900913 N_RECS: 5849
+# Examined: Mon Aug 16 17:22:39 2010 by mtchandl
+# Arguments:  -R260.2/270.05/12.05/16.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020014-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020014-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-I-10020014-depth-01: RLS m: 0.997908 b: 0 rms: 36.8953 r: 0.999846 sig: 1 dec: 0
+N-E-10020014-depth-02: Regression slope 0.997908 different from 1. Recommended: [1]
+Y-E-10020014-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02114 b: 548.42 rms: 551.42 r: 0.964934 sig: 1 dec: 1). [Recompute]
+Y-W-10020014-mag-09: only found positive values
+Y-W-10020014-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020014-depth-12: Integer precision
+Y-W-10020014-mtf1-12: Integer precision
+Y-W-10020014-mag-12: Integer precision
+# Errata: Data
+?	10020014	1977-06-06T14:20:00.00	3031	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:25:00.00	3032	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:30:00.00	3033	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:35:00.00	3034	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:40:00.00	3035	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:45:00.00	3036	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:50:00.00	3037	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T14:55:00.00	3038	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:00:00.00	3040	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:05:00.00	3041	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:10:00.00	3042	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:15:00.00	3043	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:20:00.00	3044	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:25:00.00	3045	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:30:00.00	3046	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:35:00.00	3047	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T15:40:00.00	3048	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:15:00.00	3055	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:20:00.00	3056	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:25:00.00	3057	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:30:00.00	3058	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:35:00.00	3059	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:40:00.00	3060	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:45:00.00	3061	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-06T16:50:00.00	3062	0-Q-0	 VAL: mag invalid
+?	10020014	1977-06-09T10:25:00.00	3856	0-0-L	 GRAD: depth excessive
+?	10020014	1977-06-14T10:30:00.00	5292	0-0-L	 GRAD: depth excessive

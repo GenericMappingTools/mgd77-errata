@@ -1,0 +1,29 @@
+# Cruise 02020087 ID A2096L01 MGD77 FILE VERSION: 19820805 N_RECS: 6848
+# Examined: Fri Apr  2 15:18:13 2010 by mtchandl
+# Arguments:  -R285.9/296.8/31.95/41.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Eotvos corrections appear to be inadequate.
+# Errata: Header
+Y-E-02020087-H11-03: Invalid Bottommost Latitude: (+32) [+31]
+Y-W-02020087-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-02020087-depth-01: RLS m: 0.999651 b: 0 rms: 8.69625 r: 0.999986 sig: 1 dec: 0
+N-E-02020087-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-02020087-faa-01: RLS m: 0.988207 b: -1.0627 rms: 4.76037 r: 0.94154 sig: 1 dec: 0
+Y-W-02020087-faa-03: Regression offset -1.0627 different from 0.
+N-E-02020087-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999947 b: 0.943655 rms: 0.945452 r: 0.999996 sig: 1 dec: 0). [Recompute]
+N-E-02020087-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.184135 b: -16.0013 rms: 33.9686 r: 0.510001 sig: 1 dec: 0). [Recompute]
+Y-E-02020087-mag-07: Anomaly differs from mtf1-IGRF (m: 0.761756 b: -604.114 rms: 612.375 r: 0.887922 sig: 1 dec: 0). [Recompute]
+Y-W-02020087-mag-09: only found negative values
+Y-W-02020087-twt-11: More recent bathymetry correction table available
+Y-W-02020087-mtf1-12: Integer precision
+Y-W-02020087-mag-12: Integer precision
+# Errata: Data
+Y	02020087	1977-09-14T19:05:00.00	1	D-0-0	 NAV: on land
+Y	02020087	1977-09-14T19:10:00.00	2	D-0-0	 NAV: on land
+?	02020087	1977-09-14T19:15:00.00	3	D-0-0	 NAV: on land
+?	02020087	1977-09-17T07:35:00.00	853	0-0-V	 GRAD: eot excessive
+?	02020087	1977-09-18T01:10:00.00	1064	0-0-V	 GRAD: eot excessive
+?	02020087	1977-09-21T19:40:00.00	2226	0-0-V	 GRAD: eot excessive

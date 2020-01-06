@@ -1,0 +1,23 @@
+# Cruise J1010137 ID HT01T543 MGD77 FILE VERSION: 20080215 N_RECS: 406
+# Examined: Sat Aug  6 11:01:51 2011 by mtchandl
+# Arguments:  -R157.15/160.05/19/20.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010137-H04-03: Invalid Survey Departure Day: (19) [26]
+N-E-J1010137-H04-05: Invalid Survey Arrival Month: (12) [11]
+N-E-J1010137-H04-06: Invalid Survey Arrival Day: (10) [30]
+Y-E-J1010137-H15-01: Invalid Gravity Departure Base Station Value: ( -13276) [ -13276]
+Y-E-J1010137-H15-03: Invalid Gravity Arrival Base Station Value: ( -13250) [ -13250]
+Y-I-J1010137-depth-01: RLS m: 1.0009 b: 0 rms: 39.2894 r: 0.99905 sig: 1 dec: 0
+Y-I-J1010137-faa-01: RLS m: 0.988013 b: -6.60517 rms: 6.96595 r: 0.998139 sig: 1 dec: 0
+N-E-J1010137-faa-02: Regression slope 0.988013 different from 1. Recommended: [1]
+Y-W-J1010137-faa-03: Regression offset -6.60517 different from 0.
+Y-W-J1010137-depth-12: Integer precision
+Y-W-J1010137-mag-12: Integer precision
+Y-W-J1010137-faa-12: Integer precision
+# Errata: Data
+?	J1010137	2001-11-28T09:30:00.00	182	0-Q-0	 VAL: mag invalid

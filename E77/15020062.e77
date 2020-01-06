@@ -1,0 +1,43 @@
+# Cruise 15020062 ID FD7706MV MGD77 FILE VERSION: 19810325 N_RECS: 8592
+# Examined: Fri May 16 11:33:08 2008 by mtchandl
+# Arguments:  -R250.6/280.5/6.9/23.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020062-H04-03: Invalid Survey Departure Day: (30) [31]
+Y-W-15020062-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020062-nav-00: Flagged 0.23 % of records with excessive speed or invalid navigation
+Y-I-15020062-depth-01: RLS m: 0.996125 b: 0 rms: 130.943 r: 0.996222 sig: 1 dec: 1
+Y-E-15020062-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.99671 b: 61.5624 rms: 70.5675 r: 0.991434 sig: 1 dec: 1). [Recompute]
+Y-W-15020062-twt-11: More recent bathymetry correction table available
+Y-W-15020062-mtf1-12: Integer precision
+Y-W-15020062-mag-12: Integer precision
+# Errata: Data
+?	15020062	1977-06-18T17:05:00.00	5372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020062	1977-06-29T19:30:00.00	8569	D-0-0	 NAV: on land
+?	15020062	1977-06-29T19:35:00.00	8570	D-0-0	 NAV: on land
+?	15020062	1977-06-29T19:40:00.00	8571	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T19:45:00.00	8572	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T19:50:00.00	8573	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T19:55:00.00	8574	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:00:00.00	8575	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:05:00.00	8576	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:10:00.00	8577	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:15:00.00	8578	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:20:00.00	8579	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:25:00.00	8580	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:30:00.00	8581	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:35:00.00	8582	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:40:00.00	8583	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:45:00.00	8584	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:50:00.00	8585	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T20:55:00.00	8586	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T21:00:00.00	8587	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T21:05:00.00	8588	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T21:10:00.00	8589	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T21:15:00.00	8590	D-0-0	 NAV: on land
+Y	15020062	1977-06-29T21:20:00.00	8591	D-0-0	 NAV: on land
+?	15020062	1977-06-29T21:25:00.00	8592	D-0-0	 NAV: on land

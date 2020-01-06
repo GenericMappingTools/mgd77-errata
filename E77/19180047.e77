@@ -1,0 +1,17 @@
+# Cruise 19180047 ID CD9295L1 MGD77 FILE VERSION: 19971208 N_RECS: 3004
+# Examined: Mon Sep 20 13:32:46 2010 by mtchandl
+# Arguments:  -R349.95/350.95/56.45/57.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged two bathymetric offsets > 1000 meter*km (in depth vs distance along-track space).
+# Errata: Header
+N-E-19180047-H04-03: Invalid Survey Departure Day: (06) [07]
+N-E-19180047-H04-06: Invalid Survey Arrival Day: (13) [11]
+Y-I-19180047-depth-01: RLS m: 0.995886 b: 0 rms: 10.2283 r: 0.999941 sig: 1 dec: 0
+N-E-19180047-depth-02: Regression slope 0.995886 different from 1. Recommended: [1]
+Y-E-19180047-depth-08: Extended offset from grid [2178-2268]
+Y-E-19180047-depth-08: Extended offset from grid [2271-2370]
+Y-W-19180047-depth-12: Integer precision
+# Errata: Data

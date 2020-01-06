@@ -1,0 +1,119 @@
+# Cruise 08020037 ID MW9009 MGD77 FILE VERSION: 19900924 N_RECS: 35913
+# Examined: Fri Jul 30 11:39:21 2010 by mtchandl
+# Arguments:  -R158.15/198.65/7/20.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Eotvos reported twice (included in gobs and in eot column), recommend not recomputing faa.
+# Errata: Header
+Y-W-08020037-H13-10: Survey year (1990) outside magnetic reference field IGRF-85 time range (1995-2000)
+Y-I-08020037-depth-01: RLS m: 1.00016 b: 0 rms: 13.8983 r: 0.999927 sig: 1 dec: 0
+Y-I-08020037-faa-01: RLS m: 1.0131 b: -3.07153 rms: 4.40593 r: 0.998282 sig: 1 dec: 0
+N-E-08020037-faa-02: Regression slope 1.0131 different from 1. Recommended: [1]
+Y-W-08020037-faa-03: Regression offset -3.07153 different from 0.
+N-E-08020037-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00235 b: -0.635214 rms: 0.963035 r: 0.999921 sig: 1 dec: 0). [Recompute]
+N-E-08020037-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.888854 b: -58.6715 rms: 66.4934 r: 0.954237 sig: 1 dec: 0). [Recompute]
+Y-E-08020037-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00481 b: 62.8049 rms: 64.4436 r: 0.999282 sig: 1 dec: 1). [Recompute]
+Y-W-08020037-twt-11: More recent bathymetry correction table available
+Y-W-08020037-mtf1-12: Integer precision
+# Errata: Data
+?	08020037	1990-07-10T14:05:43.02	1539	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-10T14:47:13.98	1597	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-10T15:53:04.02	1722	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-11T01:08:19.98	2604	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-11T05:08:49.98	2990	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-11T11:56:25.98	3639	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-11T13:37:28.98	3809	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-11T16:43:00.00	4141	0-0-UW	 GRAD: gobs, faa excessive
+?	08020037	1990-07-12T01:11:34.98	4882	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-12T12:59:16.02	6049	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-12T13:13:00.00	6074	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020037	1990-07-12T13:24:40.02	6094	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-13T20:33:00.00	9212	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T20:34:00.00	9213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:06:00.00	9263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:07:00.00	9265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:08:00.00	9266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:09:00.00	9268	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:10:00.00	9270	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:11:00.00	9271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:12:00.00	9273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:13:00.00	9274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:14:00.00	9276	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:15:00.00	9277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:16:00.00	9279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:17:00.00	9280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:18:00.00	9282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T21:19:00.00	9283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-13T23:36:28.98	9496	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-13T23:36:45.00	9497	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-14T04:15:00.00	9975	0-0-V	 GRAD: eot excessive
+?	08020037	1990-07-15T06:16:00.00	12501	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:17:00.00	12502	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:18:00.00	12504	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:19:00.00	12505	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:20:00.00	12507	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:21:00.00	12509	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:22:00.00	12511	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:23:00.00	12512	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:24:00.00	12514	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:25:00.00	12515	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:26:00.00	12517	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:27:00.00	12518	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:28:00.00	12520	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:29:00.00	12522	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:30:00.00	12523	0-Q-0	 VAL: mag invalid
+?	08020037	1990-07-15T06:31:00.00	12525	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08020037	1990-07-15T16:58:52.98	13598	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-16T09:47:00.00	15333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:48:00.00	15334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:49:00.00	15336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:50:00.00	15338	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:51:00.00	15339	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:52:00.00	15341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:53:00.00	15343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:54:00.00	15345	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:55:00.00	15347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:56:00.00	15349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:57:00.00	15351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T09:58:00.00	15354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020037	1990-07-16T15:49:40.98	15983	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-17T02:50:04.02	17164	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T06:41:19.98	20151	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T07:01:19.02	20198	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T14:20:07.02	21023	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:38:04.02	21072	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:39:36.00	21078	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:45:01.98	21099	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:45:04.98	21100	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:45:07.02	21101	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T14:45:09.00	21102	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T16:58:06.00	21446	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:01:10.02	21459	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:01:22.98	21460	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:01:33.00	21461	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:01:46.98	21462	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:07:22.02	21481	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:07:31.02	21482	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:08:01.02	21486	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T17:08:01.98	21487	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T17:08:13.98	21489	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T17:08:40.98	21491	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:09:36.00	21496	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-18T17:10:28.02	21501	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:15:49.02	21528	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-18T17:26:55.98	21569	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-19T05:44:34.02	22921	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-19T06:14:04.02	23001	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-19T06:21:58.98	23034	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-19T06:31:18.00	23065	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-19T06:31:37.98	23068	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-21T06:33:42.00	27745	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-21T07:09:49.98	27797	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-21T21:20:48.00	29059	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-21T21:59:52.98	29116	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-22T00:32:48.00	29335	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-22T12:38:39.00	30386	0-0-KL	 GRAD: twt, depth excessive
+?	08020037	1990-07-22T21:25:52.98	31146	0-0-K	 GRAD: twt excessive
+?	08020037	1990-07-22T21:53:52.98	31187	0-0-KL	 GRAD: twt, depth excessive

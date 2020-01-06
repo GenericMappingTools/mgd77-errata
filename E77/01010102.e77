@@ -1,0 +1,24 @@
+# Cruise 01010102 ID RC1506 MGD77 FILE VERSION: 19790619 N_RECS: 13496
+# Examined: Mon Jul  6 14:42:55 2009 by mtchandl
+# Arguments:  -R292.05/314.45/-54.35/-35.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010102-H04-05: Invalid Survey Arrival Month: (03) [04]
+Y-E-01010102-H04-06: Invalid Survey Arrival Day: (14) [12]
+N-E-01010102-H13-06: Invalid Magnetics Reference Field Code: (72) [72]
+Y-I-01010102-depth-01: RLS m: 0.995777 b: 0 rms: 44.5377 r: 0.999716 sig: 1 dec: 1
+N-E-01010102-depth-02: Regression slope 0.995777 different from 1. Recommended: [1]
+Y-I-01010102-faa-01: RLS m: 0.948471 b: 6.36984 rms: 10.2317 r: 0.975347 sig: 1 dec: 1
+N-E-01010102-faa-02: Regression slope 0.948471 different from 1. Recommended: [1]
+Y-W-01010102-faa-03: Regression offset 6.36984 different from 0.
+Y-E-01010102-mag-07: Anomaly differs from mtf1-IGRF (m: 0.956045 b: -67.3995 rms: 79.7801 r: 0.957673 sig: 1 dec: 1). [Recompute]
+N-E-01010102-depth-08: Extended offset from grid [18-13496]
+Y-W-01010102-twt-11: More recent bathymetry correction table available
+Y-W-01010102-mtf1-12: Integer precision
+Y-W-01010102-mag-12: Integer precision
+# Errata: Data
+?	01010102	1972-04-01T00:50:00.00	8048	0-0-OQ	 GRAD: mtf1, mag excessive

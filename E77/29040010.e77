@@ -1,0 +1,19 @@
+# Cruise 29040010 ID DME28 MGD77 FILE VERSION: 19851230 N_RECS: 3945
+# Examined: Mon Nov 23 16:02:39 2009 by mtchandl
+# Arguments:  -R135.1/214/-15.65/28.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend updating faa from IGF 1930 to IGF 1980.
+# Errata: Header
+N-E-29040010-H04-03: Invalid Survey Departure Day: (10) [13]
+N-E-29040010-H04-05: Invalid Survey Arrival Month: (04) [03]
+Y-I-29040010-depth-01: RLS m: 0.999651 b: 0 rms: 22.2337 r: 0.999543 sig: 1 dec: 0
+Y-I-29040010-faa-01: RLS m: 1.00161 b: -13.2919 rms: 16.805 r: 0.987301 sig: 1 dec: 1
+Y-W-29040010-faa-03: Regression offset -13.2919 different from 0.
+Y-E-29040010-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-29040010-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.172239 b: -13.1556 rms: 79.7229 r: 0.44455 sig: 1 dec: 1). [Recompute]
+N-E-29040010-faa-08: Extended offset from grid [1163-2591]
+N-E-29040010-faa-08: Extended offset from grid [2604-3844]
+# Errata: Data

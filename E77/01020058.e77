@@ -1,0 +1,62 @@
+# Cruise 01020058 ID EL54A MGD77 FILE VERSION: 19790205 N_RECS: 12930
+# Examined: Wed Jul  8 22:15:52 2009 by mtchandl
+# Arguments:  -R114.05/144.95/-53.05/-31.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-240 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01020058-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01020058-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-01020058-depth-01: RLS m: 1.0035 b: 0 rms: 147.359 r: 0.994522 sig: 1 dec: 1
+Y-I-01020058-faa-01: RLS m: 1.06514 b: 9.13147 rms: 15.0366 r: 0.926936 sig: 1 dec: 1
+Y-W-01020058-faa-03: Regression offset 9.13147 different from 0.
+Y-E-01020058-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981673 b: -236.155 rms: 241.807 r: 0.975756 sig: 1 dec: 1). [Recompute]
+N-E-01020058-depth-08: Extended offset from grid [7-12930]
+Y-W-01020058-twt-11: More recent bathymetry correction table available
+Y-W-01020058-mtf1-12: Integer precision
+Y-W-01020058-mag-12: Integer precision
+# Errata: Data
+?	01020058	1972-07-30T18:43:00.00	323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-30T18:47:00.00	325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-30T18:55:00.00	328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-30T18:59:00.00	329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-31T08:13:00.00	694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-31T13:15:00.00	822	0-0-K	 GRAD: twt excessive
+?	01020058	1972-07-31T14:07:00.00	843	0-0-K	 GRAD: twt excessive
+?	01020058	1972-07-31T14:10:00.00	845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-31T14:22:00.00	852	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-07-31T14:26:00.00	855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-02T07:41:00.00	1989	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-04T04:06:00.00	3197	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-04T21:56:00.00	3677	0-Q-0	 VAL: mag invalid
+?	01020058	1972-08-04T22:08:00.00	3682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-04T22:36:00.00	3694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-04T22:48:00.00	3698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T01:00:00.00	3754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T14:22:00.00	4091	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T15:02:00.00	4108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T15:10:00.00	4111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T15:18:00.00	4114	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T15:22:00.00	4116	0-Q-0	 VAL: mag invalid
+?	01020058	1972-08-05T15:26:00.00	4118	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T15:30:00.00	4119	0-Q-0	 VAL: mag invalid
+?	01020058	1972-08-05T15:34:00.00	4120	0-Q-0	 VAL: mag invalid
+?	01020058	1972-08-05T15:42:00.00	4124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T18:34:00.00	4183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-05T21:08:00.00	4221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-06T20:34:00.00	4808	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-06T20:36:00.00	4810	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-08T20:45:00.00	5847	0-0-KL	 GRAD: twt, depth excessive
+?	01020058	1972-08-09T09:42:00.00	6135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020058	1972-08-10T02:10:00.00	6545	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-10T10:31:00.00	6754	0-0-KL	 GRAD: twt, depth excessive
+?	01020058	1972-08-13T00:28:00.00	7499	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-13T23:57:00.00	7976	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-16T00:53:00.00	8994	0-0-KL	 GRAD: twt, depth excessive
+?	01020058	1972-08-16T17:26:00.00	9247	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-17T14:43:00.00	9708	0-0-K	 GRAD: twt excessive
+?	01020058	1972-08-21T13:58:00.00	12276	0-0-K	 GRAD: twt excessive
+Y	01020058	1972-08-23T00:53:00.00	12929	D-0-0	 NAV: on land
+Y	01020058	1972-08-23T00:54:00.00	12930	D-0-0	 NAV: on land

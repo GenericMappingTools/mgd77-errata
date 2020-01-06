@@ -1,0 +1,49 @@
+# Cruise 01020044 ID ELT42 MGD77 FILE VERSION: 19790127 N_RECS: 18160
+# Examined: Wed Jul  8 21:30:15 2009 by mtchandl
+# Arguments:  -R137/284.4/-70.05/-35.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01020044-H16-01: Invalid Number of Ten Degree Identifiers: (23) [22]
+Y-W-01020044-H16-06: Ten Degree Identifier 3518 marked in header but was not crossed
+Y-W-01020044-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01020044-depth-01: RLS m: 1 b: 0 rms: 0.917494 r: 1 sig: 1 dec: 0
+Y-I-01020044-faa-01: RLS m: 1.00735 b: 12.9618 rms: 20.0197 r: 0.965996 sig: 1 dec: 1
+Y-W-01020044-faa-03: Regression offset 12.9618 different from 0.
+Y-E-01020044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.986152 b: -35.9941 rms: 130.95 r: 0.834889 sig: 1 dec: 1). [Recompute]
+N-E-01020044-depth-08: Extended offset from grid [4-18160]
+Y-W-01020044-twt-11: More recent bathymetry correction table available
+Y-W-01020044-mtf1-12: Integer precision
+Y-W-01020044-mag-12: Integer precision
+# Errata: Data
+Y	01020044	1970-02-28T04:30:00.00	2	D-0-0	 NAV: on land
+Y	01020044	1970-02-28T05:00:00.00	3	D-0-0	 NAV: on land
+?	01020044	1970-02-28T05:05:00.00	4	D-0-0	 NAV: on land
+?	01020044	1970-03-07T22:15:00.00	3468	0-0-KL	 GRAD: twt, depth excessive
+?	01020044	1970-03-07T22:39:00.00	3474	0-0-K	 GRAD: twt excessive
+?	01020044	1970-03-08T08:23:00.00	3608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-08T14:22:00.00	3737	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-13T04:08:00.00	5678	0-0-K	 GRAD: twt excessive
+?	01020044	1970-03-13T09:11:00.00	5798	0-0-KL	 GRAD: twt, depth excessive
+?	01020044	1970-03-14T06:02:00.00	6110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T13:51:00.00	6233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T13:55:00.00	6234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T14:11:00.00	6240	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T14:43:00.00	6251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T14:55:00.00	6256	0-Q-0	 VAL: mag invalid
+?	01020044	1970-03-14T15:07:00.00	6260	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T17:47:00.00	6332	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T18:07:00.00	6341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T18:15:00.00	6344	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T18:19:00.00	6345	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	01020044	1970-03-14T18:23:00.00	6347	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T18:31:00.00	6350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-14T19:43:00.00	6376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020044	1970-03-24T07:17:00.00	10694	0-0-K	 GRAD: twt excessive
+?	01020044	1970-03-24T07:35:00.00	10708	0-0-K	 GRAD: twt excessive
+?	01020044	1970-03-24T07:36:00.00	10709	0-0-KL	 GRAD: twt, depth excessive
+?	01020044	1970-03-24T07:40:00.00	10712	0-0-K	 GRAD: twt excessive
+?	01020044	1970-04-04T16:28:00.00	15606	0-0-KL	 GRAD: twt, depth excessive

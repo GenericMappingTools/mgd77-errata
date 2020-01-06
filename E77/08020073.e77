@@ -1,0 +1,48 @@
+# Cruise 08020073 ID MW9202 MGD77 FILE VERSION: 19940713 N_RECS: 45894
+# Examined: Mon Nov 23 15:13:32 2009 by mtchandl
+# Arguments:  -R145.8/201.35/-5.25/20 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged nav errors.
+# Errata: Header
+N-E-08020073-H04-03: Invalid Survey Departure Day: (23) [24]
+N-E-08020073-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [13]
+Y-W-08020073-H16-06: Ten Degree Identifier 7017 not marked in header but block was crossed
+Y-W-08020073-H16-06: Ten Degree Identifier 1015 not marked in header but block was crossed
+Y-W-08020073-H16-06: Ten Degree Identifier 1016 not marked in header but block was crossed
+Y-W-08020073-H16-06: Ten Degree Identifier 1017 not marked in header but block was crossed
+Y-W-08020073-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08020073-depth-01: RLS m: 0.999431 b: 0 rms: 14.9624 r: 0.999948 sig: 1 dec: 0
+N-E-08020073-depth-02: Regression slope 0.999431 different from 1. Recommended: [1]
+Y-W-08020073-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08020073	1992-01-24T19:46:00.00	559	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-24T19:49:00.00	564	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-24T23:34:00.00	958	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-24T23:52:00.00	990	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T00:33:00.00	1068	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T01:06:00.00	1128	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T01:54:00.00	1208	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T02:31:00.00	1270	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T06:59:00.00	1719	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T09:39:00.00	1979	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T10:16:00.00	2037	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T11:47:00.00	2183	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T11:48:00.00	2185	C-0-0	 NAV: excessive speed
+Y	08020073	1992-01-25T12:04:00.00	2211	C-0-0	 NAV: excessive speed
+?	08020073	1992-01-27T03:19:52.02	5910	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-01-27T03:22:43.02	5915	0-0-K	 GRAD: twt excessive
+?	08020073	1992-01-27T03:49:52.98	5973	0-0-K	 GRAD: twt excessive
+?	08020073	1992-01-27T03:52:31.02	5978	0-0-K	 GRAD: twt excessive
+?	08020073	1992-01-27T03:58:01.02	5990	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-01-29T14:42:04.98	11774	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-01-30T22:06:25.02	14531	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-01-30T22:26:37.02	14571	0-0-K	 GRAD: twt excessive
+?	08020073	1992-02-01T05:27:25.98	17799	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-02-01T05:39:25.98	17821	0-0-KL	 GRAD: twt, depth excessive
+?	08020073	1992-02-02T03:45:48.00	20073	0-0-K	 GRAD: twt excessive
+?	08020073	1992-02-05T14:05:13.02	27787	0-0-K	 GRAD: twt excessive
+?	08020073	1992-02-11T19:15:36.00	41054	0-0-K	 GRAD: twt excessive
+?	08020073	1992-02-11T22:34:58.98	41350	0-0-KL	 GRAD: twt, depth excessive

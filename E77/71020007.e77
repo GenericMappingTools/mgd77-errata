@@ -1,0 +1,57 @@
+# Cruise 71020007 ID TBD396 MGD77 FILE VERSION: 19891220 N_RECS: 5569
+# Examined: Sun Jul 31 22:13:47 2011 by mtchandl
+# Arguments:  -R13.65/20.75/-38.6/-31.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by:
+# Comments: Flagged all bathy records > 2474 as bad. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-71020007-H13-09: Unknown IGRF specified (DGRF-75)
+Y-I-71020007-depth-01: RLS m: 1.00388 b: 0 rms: 181.003 r: 0.991207 sig: 1 dec: 0
+Y-E-71020007-mag-07: Anomaly differs from mtf1-IGRF (m: 0.987915 b: -120.827 rms: 127.581 r: 0.986229 sig: 1 dec: 1). [Recompute]
+N-E-71020007-depth-08: Extended offset from grid [2475-2930]
+N-E-71020007-depth-08: Extended offset from grid [2930-3271]
+N-E-71020007-depth-08: Extended offset from grid [3271-3521]
+N-E-71020007-depth-08: Extended offset from grid [3522-3632]
+N-E-71020007-depth-08: Extended offset from grid [3632-3761]
+N-E-71020007-depth-08: Extended offset from grid [3762-4009]
+N-E-71020007-depth-08: Extended offset from grid [4009-4531]
+N-E-71020007-depth-08: Extended offset from grid [4551-5007]
+N-E-71020007-depth-08: Extended offset from grid [5034-5343]
+N-E-71020007-depth-08: Extended offset from grid [5343-5569]
+Y-E-71020007-depth-10: Invalid data records: [2474-5569]
+Y-W-71020007-twt-11: More recent bathymetry correction table available
+Y-W-71020007-mtf1-12: Integer precision
+# Errata: Data
+?	71020007	1979-09-04T15:10:00.00	3337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-04T15:15:00.00	3338	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-04T15:20:00.00	3339	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	71020007	1979-09-04T15:25:00.00	3341	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-04T15:35:00.00	3343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-04T15:40:00.00	3344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-09T00:10:00.00	4661	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:15:00.00	4662	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:20:00.00	4664	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:25:00.00	4665	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:30:00.00	4666	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:35:00.00	4667	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:40:00.00	4668	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:45:00.00	4669	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:50:00.00	4670	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T00:55:00.00	4671	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:00:00.00	4673	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:05:00.00	4674	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:10:00.00	4675	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:15:00.00	4676	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:20:00.00	4677	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:25:00.00	4678	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:30:00.00	4679	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:35:00.00	4680	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:40:00.00	4681	0-Q-0	 VAL: mag invalid
+?	71020007	1979-09-09T01:45:00.00	4682	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	71020007	1979-09-09T01:50:00.00	4683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-09T01:55:00.00	4684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-09T06:45:00.00	4747	0-0-KL	 GRAD: twt, depth excessive
+?	71020007	1979-09-10T04:20:00.00	5021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	71020007	1979-09-10T04:25:00.00	5022	0-0-OQ	 GRAD: mtf1, mag excessive

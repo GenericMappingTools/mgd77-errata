@@ -1,0 +1,29 @@
+# Cruise 01030390 ID V1610 MGD77 FILE VERSION: 19910319 N_RECS: 3760
+# Examined: Fri Mar 19 01:40:12 2010 by mtchandl
+# Arguments:  -R291.95/305.85/-55.2/-35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01030390-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-E-01030390-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030390-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030390-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030390-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030390-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030390-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01030390-depth-01: RLS m: 0.99888 b: 0 rms: 18.7127 r: 0.999898 sig: 1 dec: 0
+N-E-01030390-depth-02: Regression slope 0.99888 different from 1. Recommended: [1]
+Y-E-01030390-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03031 b: -203.076 rms: 207.427 r: 0.950703 sig: 1 dec: 0). [Recompute]
+Y-W-01030390-twt-11: More recent bathymetry correction table available
+Y-W-01030390-mtf1-12: Integer precision
+# Errata: Data
+?	01030390	1960-06-01T09:21:00.00	2595	0-0-KL	 GRAD: twt, depth excessive
+?	01030390	1960-06-02T15:17:00.00	2830	0-0-KL	 GRAD: twt, depth excessive
+?	01030390	1960-06-02T17:27:00.00	2835	0-0-KL	 GRAD: twt, depth excessive
+?	01030390	1960-06-02T19:41:00.00	2858	0-0-K	 GRAD: twt excessive
+?	01030390	1960-06-04T04:21:00.00	3056	0-0-KL	 GRAD: twt, depth excessive
+?	01030390	1960-06-07T19:00:00.00	3480	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030390	1960-06-07T19:30:00.00	3485	0-0-OQ	 GRAD: mtf1, mag excessive

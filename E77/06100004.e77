@@ -1,0 +1,16 @@
+# Cruise 06100004 ID K181HW MGD77 FILE VERSION: 19910418 N_RECS: 7451
+# Examined: Fri May 28 14:35:17 2010 by mtchandl
+# Arguments:  -R201.6/204.8/18.8/21.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-06100004-H04-06: Invalid Survey Arrival Day: (05) [04]
+Y-I-06100004-depth-01: RLS m: 1.0336 b: 0 rms: 202.366 r: 0.965629 sig: 1 dec: 0
+N-E-06100004-depth-02: Regression slope 1.0336 different from 1. Recommended: [1]
+# Errata: Data
+?	06100004	1981-01-26T21:41:00.00	431	0-0-KL	 GRAD: twt, depth excessive
+?	06100004	1981-02-02T08:14:00.00	5794	0-0-K	 GRAD: twt excessive
+?	06100004	1981-02-02T08:15:00.00	5795	0-0-K	 GRAD: twt excessive

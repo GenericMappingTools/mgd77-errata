@@ -1,0 +1,54 @@
+# Cruise 19180021 ID CD7292 MGD77 FILE VERSION: 19941231 N_RECS: 11691
+# Examined: Mon Sep 20 13:10:34 2010 by mtchandl
+# Arguments:  -R342.55/356.4/48.75/51.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset near ~2800 km along-track.
+# Errata: Header
+Y-I-19180021-depth-01: RLS m: 1 b: 0 rms: 2.78138 r: 0.999999 sig: 1 dec: 0
+N-E-19180021-twt-13: Encountered possible PDR wrap errors (4.7) [5.0]
+Y-E-19180021-depth-10: Invalid data records: [7581-7689]
+Y-W-19180021-depth-12: Integer precision
+# Errata: Data
+?	19180021	1992-08-26T19:38:00.00	775	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T19:44:00.00	778	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T19:54:00.00	783	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T20:04:00.00	788	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T20:16:00.00	794	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T20:30:00.00	801	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-26T20:44:00.00	808	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-08-30T19:34:00.00	3653	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-01T21:04:00.00	5138	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-02T16:06:00.00	5709	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-02T16:38:00.00	5725	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-02T16:48:00.00	5730	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T06:30:00.00	7581	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T12:28:00.00	7760	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T12:34:00.00	7763	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T21:20:00.00	8026	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	19180021	1992-09-05T21:24:00.00	8028	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T22:10:00.00	8051	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-05T23:10:00.00	8081	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-05T23:22:00.00	8087	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-06T04:46:00.00	8249	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-06T06:46:00.00	8309	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-07T00:26:00.00	8839	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-07T00:30:00.00	8841	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-07T15:46:00.00	9299	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T16:20:00.00	9316	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T16:22:00.00	9317	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T16:30:00.00	9321	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T16:42:00.00	9327	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T18:28:00.00	9380	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T19:08:00.00	9400	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T19:16:00.00	9404	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T19:58:00.00	9425	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-07T20:16:00.00	9434	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-08T07:58:00.00	9785	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-08T08:02:00.00	9787	0-0-K	 GRAD: twt excessive
+?	19180021	1992-09-08T08:08:00.00	9790	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-08T08:22:00.00	9797	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-08T09:08:00.00	9820	0-0-KL	 GRAD: twt, depth excessive
+?	19180021	1992-09-09T04:44:00.00	10408	0-0-KL	 GRAD: twt, depth excessive

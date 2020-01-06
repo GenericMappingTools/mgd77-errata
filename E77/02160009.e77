@@ -1,0 +1,23 @@
+# Cruise 02160009 ID EQUANTI1 MGD77 FILE VERSION: 20080220 N_RECS: 13879
+# Examined: Fri Apr  9 13:06:23 2010 by mtchandl
+# Arguments:  -R321.5/325.05/-5.2/-3.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02160009-H13-10: Survey year (1987) outside magnetic reference field IGRF-85 time range (1995-2000)
+Y-E-02160009-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                              NOTE:)
+Y-E-02160009-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                              NOTE:)
+Y-E-02160009-H16-05-01: Invalid Ten Degree Identifier longitude: (                                                                              NOTE:)
+Y-E-02160009-H16-06-01: Invalid Ten Degree Identifier: (                                                                              NOTE:)
+Y-W-02160009-H16-06: Ten Degree Identifier 5003 not marked in header but block was crossed
+Y-I-02160009-depth-01: RLS m: 1.00168 b: 0 rms: 24.2085 r: 0.999744 sig: 1 dec: 0
+N-E-02160009-depth-02: Regression slope 1.00168 different from 1. Recommended: [1]
+Y-E-02160009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.867595 b: -72.0767 rms: 78.0484 r: 0.936179 sig: 1 dec: 0). [Recompute]
+Y-W-02160009-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	02160009	1987-08-28T19:30:00.00	1771	0-0-KL	 GRAD: twt, depth excessive
+?	02160009	1987-09-01T12:34:00.00	7093	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02160009	1987-09-03T14:49:00.00	10108	0-0-K	 GRAD: twt excessive

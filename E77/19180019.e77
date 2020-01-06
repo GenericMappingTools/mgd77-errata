@@ -1,0 +1,23 @@
+# Cruise 19180019 ID CD6992 MGD77 FILE VERSION: 19941231 N_RECS: 13049
+# Examined: Tue Sep 14 17:26:13 2010 by mtchandl
+# Arguments:  -R347.95/358.45/55.7/59.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19180019-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-19180019-depth-01: RLS m: 0.999651 b: 0 rms: 2.99162 r: 0.999994 sig: 1 dec: 0
+N-E-19180019-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-W-19180019-depth-12: Integer precision
+# Errata: Data
+Y	19180019	1992-06-30T14:48:00.00	10264	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T14:50:00.00	10265	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T14:52:00.00	10266	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T14:54:00.00	10267	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T14:56:00.00	10268	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T14:58:00.00	10269	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T15:00:00.00	10270	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T15:02:00.00	10271	C-0-0	 NAV: excessive speed
+Y	19180019	1992-06-30T15:04:00.00	10272	C-0-0	 NAV: excessive speed

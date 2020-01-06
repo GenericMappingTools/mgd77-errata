@@ -1,0 +1,48 @@
+# Cruise 07010028 ID YAQ7103 MGD77 FILE VERSION: 19790101 N_RECS: 7295
+# Examined: Fri Jul 16 17:37:04 2010 by mtchandl
+# Arguments:  -R273.6/279.45/-2.8/9.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-07010028-H04-06: Invalid Survey Arrival Day: (13) [14]
+Y-W-07010028-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07010028-nav-00: Flagged 0.37 % of records with bad navigation
+Y-I-07010028-depth-01: RLS m: 0.999302 b: 0 rms: 28.6641 r: 0.998402 sig: 1 dec: 0
+Y-E-07010028-mag-07: Anomaly differs from mtf1-IGRF (m: 0.961507 b: -162.279 rms: 164.36 r: 0.974468 sig: 1 dec: 0). [Recompute]
+Y-W-07010028-mtf1-12: Integer precision
+Y-W-07010028-mag-12: Integer precision
+# Errata: Data
+?	07010028	1971-09-19T17:08:00.00	161	0-0-K	 GRAD: twt excessive
+Y	07010028	1971-09-20T10:55:00.00	408	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-20T11:00:00.00	409	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-20T11:01:00.00	410	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-20T11:05:00.00	411	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-20T11:10:00.00	412	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-21T06:00:00.00	653	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-23T06:00:00.00	1243	B-0-0	 NAV: non-increasing time
+?	07010028	1971-09-23T20:55:00.00	1401	0-0-K	 GRAD: twt excessive
+Y	07010028	1971-09-24T05:35:00.00	1506	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-24T05:40:00.00	1507	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-24T05:44:00.00	1508	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-24T05:45:00.00	1509	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-24T05:48:00.00	1510	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-24T06:00:00.00	1515	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-25T06:00:00.00	1806	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-25T10:20:00.00	1850	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-25T10:25:00.00	1851	C-0-0	 NAV: excessive speed
+Y	07010028	1971-09-25T10:30:00.00	1852	C-0-0	 NAV: excessive speed
+?	07010028	1971-09-25T11:30:00.00	1865	0-0-K	 GRAD: twt excessive
+Y	07010028	1971-09-26T06:00:00.00	2140	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-28T06:00:00.00	2727	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-29T06:00:00.00	3115	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-09-30T06:00:00.00	3476	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-10-01T06:00:00.00	3815	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-10-02T06:00:00.00	4158	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-10-03T06:00:00.00	4523	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-10-04T06:00:00.00	4898	B-0-0	 NAV: non-increasing time
+?	07010028	1971-10-07T04:53:00.00	5822	0-0-K	 GRAD: twt excessive
+Y	07010028	1971-10-07T06:00:00.00	5829	B-0-0	 NAV: non-increasing time
+Y	07010028	1971-10-13T05:00:00.00	6988	B-0-0	 NAV: non-increasing time

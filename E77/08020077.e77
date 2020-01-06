@@ -1,0 +1,31 @@
+# Cruise 08020077 ID MW9219 MGD77 FILE VERSION: 19941231 N_RECS: 58750
+# Examined: Fri Jul 30 13:32:24 2010 by mtchandl
+# Arguments:  -R144.55/156.15/-2/13.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-08020077-H04-03: Invalid Survey Departure Day: (12) [13]
+Y-I-08020077-depth-01: RLS m: 0.999651 b: 0 rms: 9.89785 r: 0.999979 sig: 1 dec: 0
+N-E-08020077-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-W-08020077-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020077	1992-12-14T19:31:49.98	3584	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1992-12-15T15:02:18.00	5477	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-14T21:20:22.02	53709	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-15T01:22:13.02	54273	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T01:35:39.00	54297	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-15T02:07:19.02	54365	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T03:32:34.98	54560	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T03:52:22.02	54599	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T03:53:43.98	54602	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T05:04:28.02	54761	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-15T13:30:55.98	55656	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-15T13:53:49.02	55692	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-16T12:11:15.00	57784	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-16T14:18:03.00	58022	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-16T14:53:52.02	58095	0-0-KL	 GRAD: twt, depth excessive
+?	08020077	1993-01-16T14:57:15.00	58102	0-0-K	 GRAD: twt excessive
+?	08020077	1993-01-16T14:58:21.00	58105	0-0-K	 GRAD: twt excessive

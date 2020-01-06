@@ -1,0 +1,19 @@
+# Cruise 03990005 ID OMCO7801 MGD77 FILE VERSION: 19890418 N_RECS: 402
+# Examined: Fri Apr 30 12:20:54 2010 by mtchandl
+# Arguments:  -R230.95/232/12.8/13.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03990005-time-01: 2 of 402 records contain invalid time
+Y-W-03990005-nav-00: Flagged 0.75 % of records with bad navigation
+Y-I-03990005-depth-01: RLS m: 0.998256 b: 0 rms: 33.1205 r: 0.821537 sig: 1 dec: 0
+Y-W-03990005-depth-12: Integer precision
+# Errata: Data
+Y	03990005	NaN	35	E-0-0	 NAV: navigation undefined
+Y	03990005	NaN	114	E-0-0	 NAV: navigation undefined
+Y	03990005	1978-06-08T22:54:00.00	163	B-0-0	 NAV: non-increasing time
+Y	03990005	1978-06-12T12:11:00.00	348	B-0-0	 NAV: non-increasing time
+Y	03990005	1978-06-12T20:46:00.00	389	B-0-0	 NAV: non-increasing time

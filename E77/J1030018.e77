@@ -1,0 +1,21 @@
+# Cruise J1030018 ID HM7807 MGD77 FILE VERSION: 19810916 N_RECS: 1446
+# Examined: Sun Aug  7 07:27:42 2011 by mtchandl
+# Arguments:  -R141.6/142.7/38/38.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Magnetic anomalies could be outdated and lack time information required for recalculation.
+# Errata: Header
+Y-E-J1030018-H13-01: Invalid Magnetics Digitizing Rate: (419) [419]
+Y-W-J1030018-mtf1-12: Integer multiple of 5 precision
+# Errata: Data
+?	J1030018	22.8082	17	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	24.1537	18	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	91.4948	77	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	92.3492	78	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	1421.25	952	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J1030018	1422.62	953	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	1534.23	1040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	1616.09	1107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030018	1656.32	1146	0-0-OQ	 GRAD: mtf1, mag excessive

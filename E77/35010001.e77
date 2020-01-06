@@ -1,0 +1,35 @@
+# Cruise 35010001 ID 19685 MGD77 FILE VERSION: 19870917 N_RECS: 9649
+# Examined: Tue Jul 26 18:41:42 2011 by mtchandl
+# Arguments:  -R-90.35/-87.65/22.9/24.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Depth data contain outliers, recommend processing by source institution.
+# Errata: Header
+N-E-35010001-H12-01: Invalid Bathymetry Digitizing Rate: (352) [352]
+Y-I-35010001-depth-01: RLS m: 0.996345 b: 0 rms: 7.46651 r: 0.999789 sig: 1 dec: 0
+N-E-35010001-depth-02: Regression slope 0.996345 different from 1. Recommended: [1]
+Y-W-35010001-depth-12: Integer precision
+# Errata: Data
+?	35010001	4370.65	2623	0-0-L	 GRAD: depth excessive
+?	35010001	4371.73	2627	0-0-L	 GRAD: depth excessive
+?	35010001	4584.9	3223	0-0-L	 GRAD: depth excessive
+?	35010001	4585.72	3227	0-0-L	 GRAD: depth excessive
+?	35010001	4857.12	3681	0-0-L	 GRAD: depth excessive
+?	35010001	4907.09	3823	0-0-L	 GRAD: depth excessive
+?	35010001	4907.24	3824	0-0-L	 GRAD: depth excessive
+?	35010001	4907.59	3826	0-0-L	 GRAD: depth excessive
+?	35010001	4907.78	3827	0-0-L	 GRAD: depth excessive
+?	35010001	4948.51	3930	0-0-L	 GRAD: depth excessive
+?	35010001	5038.93	4183	0-0-L	 GRAD: depth excessive
+?	35010001	5039.11	4184	0-0-L	 GRAD: depth excessive
+?	35010001	5138.98	4423	0-0-L	 GRAD: depth excessive
+?	35010001	5201.59	4599	0-0-L	 GRAD: depth excessive
+?	35010001	5201.73	4600	0-0-L	 GRAD: depth excessive
+?	35010001	5319.81	5023	0-0-L	 GRAD: depth excessive
+?	35010001	5321.22	5027	0-0-L	 GRAD: depth excessive
+?	35010001	7842.99	6827	0-0-L	 GRAD: depth excessive
+?	35010001	8734.28	7427	0-0-L	 GRAD: depth excessive
+?	35010001	10811.3	8627	0-0-L	 GRAD: depth excessive
+?	35010001	11812.5	9227	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,48 @@
+# Cruise 15020189 ID AVON05MV MGD77 FILE VERSION: 20040518 N_RECS: 11591
+# Examined: Mon May 19 04:31:50 2008 by mtchandl
+# Arguments:  -R188.2/202.15/-13.85/21.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15020189-H13-10: Survey year (1999) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15020189-H15-01: Invalid Gravity Departure Base Station Value: (978610.) [9786100]
+Y-E-15020189-H15-03: Invalid Gravity Arrival Base Station Value: (978923.) [9789230]
+Y-W-15020189-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-I-15020189-depth-01: RLS m: 1.00388 b: 0 rms: 356.704 r: 0.953985 sig: 1 dec: 1
+Y-I-15020189-faa-01: RLS m: 1.00064 b: 0.12715 rms: 11.562 r: 0.987716 sig: 1 dec: 1
+N-E-15020189-faa-06: Anomaly differs from gobs - IGF80 (m: 0.970465 b: 26.3621 rms: 27.9729 r: 0.988897 sig: 1 dec: 1). [Recompute]
+N-E-15020189-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.959331 b: 43.3422 rms: 44.6984 r: 0.9863 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020189-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01284 b: -29.484 rms: 37.7351 r: 0.996171 sig: 1 dec: 1). [Recompute]
+Y-W-15020189-twt-11: More recent bathymetry correction table available
+Y-W-15020189-depth-12: Integer precision
+Y-W-15020189-mtf1-12: Integer precision
+# Errata: Data
+?	15020189	1999-04-15T20:32:00.00	103	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-15T20:34:00.00	105	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-15T20:36:00.00	107	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-15T20:38:00.00	109	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-15T20:39:00.00	110	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-15T20:40:00.00	111	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-19T01:54:00.00	4745	0-0-KL	 GRAD: twt, depth excessive
+?	15020189	1999-04-19T02:54:00.00	4805	0-0-K	 GRAD: twt excessive
+?	15020189	1999-04-19T03:03:00.00	4814	0-0-K	 GRAD: twt excessive
+?	15020189	1999-04-23T18:39:00.00	11510	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:40:00.00	11511	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:41:00.00	11512	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:42:00.00	11513	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:43:00.00	11514	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:44:00.00	11515	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:45:00.00	11516	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:46:00.00	11517	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:47:00.00	11518	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:48:00.00	11519	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:49:00.00	11520	D-0-0	 NAV: on land
+Y	15020189	1999-04-23T18:50:00.00	11521	D-0-0	 NAV: on land
+?	15020189	1999-04-23T18:51:00.00	11522	D-0-0	 NAV: on land
+?	15020189	1999-04-23T18:52:00.00	11523	D-0-0	 NAV: on land
+?	15020189	1999-04-23T18:53:00.00	11524	D-0-0	 NAV: on land
+?	15020189	1999-04-23T18:54:00.00	11525	D-0-0	 NAV: on land

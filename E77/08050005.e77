@@ -1,0 +1,32 @@
+# Cruise 08050005 ID KI-80-1 MGD77 FILE VERSION: 19830311 N_RECS: 3215
+# Examined: Mon Nov 23 15:30:12 2009 by mtchandl
+# Arguments:  -R188.6/192.05/-14.35/-1.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged nav errors.
+# Errata: Header
+Y-E-08050005-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08050005-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08050005-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08050005-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08050005-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08050005-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08050005-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08050005-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08050005-nav-00: Flagged 0.31 % of records with bad navigation
+Y-I-08050005-depth-01: RLS m: 0.999651 b: 0 rms: 35.3809 r: 0.99925 sig: 1 dec: 0
+Y-W-08050005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08050005	1980-02-09T19:17:00.00	1	D-0-0	 NAV: on land
+Y	08050005	1980-02-09T20:00:00.00	2	D-0-0	 NAV: on land
+Y	08050005	1980-02-09T21:00:00.00	3	D-0-0	 NAV: on land
+Y	08050005	1980-02-11T14:30:40.02	417	B-0-0	 NAV: non-increasing time
+?	08050005	1980-02-12T01:34:12.96	543	0-0-KL	 GRAD: twt, depth excessive
+Y	08050005	1980-02-21T19:00:00.00	2337	D-0-0	 NAV: on land
+Y	08050005	1980-02-21T20:00:00.00	2338	D-0-0	 NAV: on land
+Y	08050005	1980-02-21T21:00:00.00	2339	D-0-0	 NAV: on land
+Y	08050005	1980-02-21T22:00:00.00	2340	D-0-0	 NAV: on land
+Y	08050005	1980-02-21T23:00:00.00	2341	D-0-0	 NAV: on land
+Y	08050005	1980-02-21T23:40:00.00	2342	D-0-0	 NAV: on land

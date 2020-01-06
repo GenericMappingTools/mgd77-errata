@@ -1,0 +1,116 @@
+# Cruise 19100046 ID DIS202 MGD77 FILE VERSION: 19941231 N_RECS: 18220
+# Examined: Mon Sep  6 13:41:56 2010 by mtchandl
+# Arguments:  -R-2.05/18.5/-37.45/-28.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Noisy bathymetric data.
+# Errata: Header
+Y-W-19100046-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-19100046-depth-01: RLS m: 1.0007 b: 0 rms: 11.9283 r: 0.999946 sig: 1 dec: 0
+N-E-19100046-depth-02: Regression slope 1.0007 different from 1. Recommended: [1]
+N-E-19100046-twt-13: Encountered possible PDR wrap errors (5.0) [5.0]
+Y-W-19100046-depth-12: Integer precision
+# Errata: Data
+Y	19100046	1993-05-07T07:18:00.00	1	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:20:00.00	2	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:22:00.00	3	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:24:00.00	4	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:26:00.00	5	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:28:00.00	6	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:30:00.00	7	D-0-0	 NAV: on land
+Y	19100046	1993-05-07T07:32:00.00	8	D-0-0	 NAV: on land
+Y	19100046	1993-05-08T11:18:00.00	841	C-0-0	 NAV: excessive speed
+?	19100046	1993-05-09T15:12:00.00	1678	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-09T18:56:00.00	1790	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-09T18:58:00.00	1791	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-09T19:34:00.00	1809	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-11T03:46:00.00	2775	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-11T03:56:00.00	2780	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-11T04:32:00.00	2798	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-11T04:38:00.00	2801	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-11T04:46:00.00	2805	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-11T04:48:00.00	2806	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-11T05:36:00.00	2830	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-11T23:04:00.00	3354	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-11T23:08:00.00	3356	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-12T02:58:00.00	3471	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T10:54:00.00	4429	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T11:16:00.00	4440	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-13T11:18:00.00	4441	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T11:20:00.00	4442	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T16:20:00.00	4592	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T16:34:00.00	4599	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-13T17:28:00.00	4626	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-13T19:20:00.00	4682	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-14T15:40:00.00	5292	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T00:38:00.00	5561	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T00:50:00.00	5567	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T00:54:00.00	5569	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T03:04:00.00	5634	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T03:58:00.00	5661	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T04:50:00.00	5687	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T10:00:00.00	5842	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T10:02:00.00	5843	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T10:24:00.00	5854	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T10:26:00.00	5855	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T12:04:00.00	5904	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-15T19:16:00.00	6120	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T19:18:00.00	6121	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-15T21:46:00.00	6195	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-17T12:48:00.00	7366	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-17T12:50:00.00	7367	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-18T04:34:00.00	7839	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-18T04:36:00.00	7840	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-18T07:02:00.00	7913	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-18T07:08:00.00	7916	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-18T10:52:00.00	8028	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-18T10:54:00.00	8029	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-20T09:46:00.00	9424	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-20T13:12:00.00	9527	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T00:56:00.00	9879	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T01:02:00.00	9882	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T08:30:00.00	10106	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-21T08:32:00.00	10107	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T14:06:00.00	10274	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-21T14:16:00.00	10279	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T15:08:00.00	10305	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T20:50:00.00	10476	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-21T21:06:00.00	10484	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-21T22:56:00.00	10539	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-22T00:26:00.00	10584	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T02:46:00.00	10654	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T05:46:00.00	10744	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T05:58:00.00	10750	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T08:04:00.00	10813	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T08:26:00.00	10824	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T12:12:00.00	10937	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-22T15:28:00.00	11035	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T21:48:00.00	11225	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T22:14:00.00	11238	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T22:26:00.00	11244	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T22:36:00.00	11249	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T23:00:00.00	11261	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-22T23:26:00.00	11274	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T01:22:00.00	11332	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-23T02:32:00.00	11367	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-23T02:52:00.00	11377	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T04:42:00.00	11432	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-23T04:48:00.00	11435	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-23T05:22:00.00	11452	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-23T17:36:00.00	11819	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T20:02:00.00	11892	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T20:24:00.00	11903	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T22:36:00.00	11969	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-23T22:38:00.00	11970	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-24T03:12:00.00	12107	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-24T03:28:00.00	12115	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-24T05:26:00.00	12174	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-24T09:20:00.00	12291	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-25T00:06:00.00	12734	0-0-K	 GRAD: twt excessive
+?	19100046	1993-05-25T00:28:00.00	12745	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-25T02:04:00.00	12793	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-25T02:14:00.00	12798	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-28T11:06:00.00	15224	0-0-KL	 GRAD: twt, depth excessive
+?	19100046	1993-05-31T22:32:00.00	17727	0-0-KL	 GRAD: twt, depth excessive

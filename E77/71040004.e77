@@ -1,0 +1,16 @@
+# Cruise 71040004 ID AG06 MGD77 FILE VERSION: 19880325 N_RECS: 2137
+# Examined: Wed Aug  3 06:50:44 2011 by mtchandl
+# Arguments:  -R-11.1/16.3/-53.6/-36.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-71040004-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-71040004-depth-01: RLS m: 1.00012 b: 0 rms: 15.0348 r: 0.999822 sig: 1 dec: 0
+Y-W-71040004-depth-12: Integer precision
+Y-W-71040004-mtf1-12: Integer precision
+# Errata: Data
+Y	71040004	1979-07-22T08:05:00.00	1166	B-0-0	 NAV: non-increasing time
+Y	71040004	1979-07-24T19:05:00.00	1593	B-0-0	 NAV: non-increasing time

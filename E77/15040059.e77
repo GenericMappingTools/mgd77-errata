@@ -1,0 +1,32 @@
+# Cruise 15040059 ID TSDY07WT MGD77 FILE VERSION: 19830819 N_RECS: 6959
+# Examined: Thu May 22 09:49:44 2008 by mtchandl
+# Arguments:  -R103.85/144.7/1.2/18.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-W-15040059-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040059-nav-00: Flagged 0.13 % of records with excessive speed or invalid navigation
+Y-I-15040059-depth-01: RLS m: 1.00382 b: 0 rms: 109.066 r: 0.998499 sig: 1 dec: 1
+Y-E-15040059-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.11284 b: -67.4093 rms: 105.511 r: 0.785027 sig: 1 dec: 1). [Recompute]
+N-E-15040059-depth-08: Extended offset from grid [4429-4455]
+Y-E-15040059-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15040059-twt-11: More recent bathymetry correction table available
+Y-W-15040059-mtf1-12: Integer precision
+Y-W-15040059-mag-12: Integer precision
+# Errata: Data
+?	15040059	1973-11-27T16:35:00.00	130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040059	1973-12-12T15:00:00.00	4430	0-0-KL	 GRAD: twt, depth excessive
+?	15040059	1973-12-12T17:00:00.00	4454	0-0-KL	 GRAD: twt, depth excessive
+Y	15040059	1973-12-21T08:45:00.00	6946	D-0-0	 NAV: on land
+?	15040059	1973-12-21T09:10:00.00	6951	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:15:00.00	6952	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:20:00.00	6953	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:25:00.00	6954	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:30:00.00	6955	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:35:00.00	6956	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:40:00.00	6957	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:45:00.00	6958	D-0-0	 NAV: on land
+Y	15040059	1973-12-21T09:50:00.00	6959	D-0-0	 NAV: on land

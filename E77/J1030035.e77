@@ -1,0 +1,64 @@
+# Cruise J1030035 ID HM000802 MGD77 FILE VERSION: 20050923 N_RECS: 1928
+# Examined: Sun Aug  7 07:38:22 2011 by mtchandl
+# Arguments:  -R139.1/139.4/34.05/34.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-J1030035-H13-01: Invalid Magnetics Digitizing Rate: (401) [401]
+Y-W-J1030035-nav-00: Flagged 0.05 % of records with bad navigation
+Y-E-J1030035-mag-07: Anomaly differs from mtf1-IGRF (m: 0.97984 b: -43.2966 rms: 42.5362 r: 0.997013 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	J1030035	2000-08-02T01:01:30.00	22	C-0-0	 NAV: excessive speed
+?	J1030035	2000-08-02T01:34:30.00	220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:34:39.96	221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:34:49.98	222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:00.00	223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:09.96	224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:19.98	225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:30.00	226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:39.96	227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:35:49.98	228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:36:00.00	229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:36:30.00	232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:36:39.96	233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:36:49.98	234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:37:00.00	235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:37:09.96	236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:37:19.98	237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:37:30.00	238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:37:39.96	239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:38:00.00	241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:38:09.96	242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:38:19.98	243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:40:19.98	255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:40:30.00	256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T01:40:39.96	257	0-0-O	 GRAD: mtf1 excessive
+?	J1030035	2000-08-02T01:40:49.98	258	0-0-Q	 GRAD: mag excessive
+?	J1030035	2000-08-02T02:24:00.00	475	0-0-S	 GRAD: diur excessive
+?	J1030035	2000-08-02T02:24:39.96	479	0-0-S	 GRAD: diur excessive
+?	J1030035	2000-08-02T02:47:00.00	613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:02:30.00	706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:02:39.96	707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:00.00	721	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:09.96	722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:19.98	723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:30.00	724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:39.96	725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:05:49.98	726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:06:00.00	727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:30:19.98	834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:30:30.00	835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T03:36:30.00	871	0-0-S	 GRAD: diur excessive
+?	J1030035	2000-08-02T04:02:30.00	1027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T04:02:39.96	1028	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T05:37:00.00	1549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T05:37:09.96	1550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T05:47:30.00	1612	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T05:47:39.96	1613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T06:26:49.98	1848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T06:27:00.00	1849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T06:31:19.98	1875	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030035	2000-08-02T06:31:30.00	1876	0-0-OQ	 GRAD: mtf1, mag excessive

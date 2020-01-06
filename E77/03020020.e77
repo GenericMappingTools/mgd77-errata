@@ -1,0 +1,58 @@
+# Cruise 03020020 ID CMAPSU7W MGD77 FILE VERSION: 19800213 N_RECS: 16044
+# Examined: Fri Apr  9 13:39:45 2010 by mtchandl
+# Arguments:  -R185/195/24/30 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-W-03020020-time-01: 1 of 16044 records contain invalid time
+Y-E-03020020-H12-01: Invalid Bathymetry Digitizing Rate: (513) [513]
+Y-E-03020020-H13-01: Invalid Magnetics Digitizing Rate: (697) [697]
+Y-E-03020020-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-03020020-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-03020020-depth-01: RLS m: 0.998953 b: 0 rms: 29.7502 r: 0.999463 sig: 1 dec: 0
+N-E-03020020-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-I-03020020-faa-01: RLS m: -0.864096 b: -15.0484 rms: 203.288 r: 0.96315 sig: 1 dec: 1
+N-E-03020020-faa-02: Regression slope -0.864096 different from 1. Recommended: [1]
+Y-W-03020020-faa-03: Regression offset -15.0484 different from 0.
+Y-E-03020020-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999721 b: -21.441 rms: 33.2632 r: 0.983029 sig: 1 dec: 0). [Recompute]
+Y-W-03020020-faa-09: all values less than or equal to zero
+Y-E-03020020-faa-10: Invalid data records: [1-16044]
+Y-W-03020020-mtf1-12: Integer precision
+Y-W-03020020-mag-12: Integer precision
+Y-W-03020020-faa-12: Integer precision
+# Errata: Data
+Y	03020020	1963-03-09T17:53:00.00	619	C-0-0	 NAV: excessive speed
+Y	03020020	1963-03-10T01:41:00.00	717	C-0-0	 NAV: excessive speed
+Y	03020020	1963-03-14T08:57:00.00	1193	C-0-0	 NAV: excessive speed
+Y	03020020	1963-03-14T16:07:00.00	1281	C-0-0	 NAV: excessive speed
+Y	03020020	1963-03-14T16:41:00.00	1289	C-0-0	 NAV: excessive speed
+?	03020020	1963-03-30T00:06:00.00	2241	0-0-K	 GRAD: twt excessive
+?	03020020	1963-04-08T10:32:00.00	3017	0-0-K	 GRAD: twt excessive
+Y	03020020	1963-04-08T11:22:00.00	3029	C-0-0	 NAV: excessive speed
+Y	03020020	1963-04-08T16:12:00.00	3093	C-0-0	 NAV: excessive speed
+Y	03020020	1963-04-08T17:22:00.00	3113	C-0-0	 NAV: excessive speed
+Y	03020020	1963-04-08T18:02:00.00	3123	C-0-0	 NAV: excessive speed
+Y	03020020	1963-04-09T03:52:00.00	3246	C-0-0	 NAV: excessive speed
+Y	03020020	1963-04-09T04:16:00.00	3254	C-0-0	 NAV: excessive speed
+?	03020020	1965-03-09T05:25:00.00	8018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1965-03-18T05:45:00.00	8972	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020020	1965-03-21T13:52:00.00	9609	C-0-0	 NAV: excessive speed
+?	03020020	1965-03-21T17:30:00.00	9653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1965-04-06T09:15:00.00	10455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1965-04-06T15:55:00.00	10536	0-0-O	 GRAD: mtf1 excessive
+Y	03020020	NaN	11802	E-0-0	 NAV: navigation undefined
+?	03020020	1970-10-13T20:18:00.00	13027	0-0-K	 GRAD: twt excessive
+?	03020020	1970-10-13T20:20:00.00	13028	0-0-K	 GRAD: twt excessive
+?	03020020	1970-10-13T23:33:00.00	13070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-14T00:00:00.00	13078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-22T08:20:00.00	13461	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-22T09:05:00.00	13471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-22T09:07:00.00	13472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-22T09:20:00.00	13476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-26T03:55:00.00	14569	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-26T04:05:00.00	14571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-26T04:15:00.00	14573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020020	1970-10-26T18:00:00.00	14743	0-0-K	 GRAD: twt excessive

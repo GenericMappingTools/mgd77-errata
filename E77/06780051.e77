@@ -1,0 +1,32 @@
+# Cruise 06780051 ID FARN3B85 MGD77 FILE VERSION: 19941231 N_RECS: 6682
+# Examined: Fri Jul 16 16:34:57 2010 by mtchandl
+# Arguments:  -R274.75/292.45/17.6/21.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic outliers, flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06780051-depth-01: RLS m: 0.998427 b: 0 rms: 70.8345 r: 0.998077 sig: 1 dec: 0
+Y-E-06780051-mag-07: Anomaly differs from mtf1-IGRF (m: 0.803426 b: 88.1042 rms: 81.3012 r: 0.962364 sig: 1 dec: 0). [Recompute]
+Y-E-06780051-mag-10: Invalid data records: [4531-4568]
+Y-W-06780051-depth-12: Integer precision
+Y-W-06780051-mtf1-12: Integer precision
+Y-W-06780051-mag-12: Integer precision
+# Errata: Data
+?	06780051	1985-10-24T15:40:00.00	656	0-0-KL	 GRAD: twt, depth excessive
+?	06780051	1985-10-24T15:42:00.00	657	0-0-KL	 GRAD: twt, depth excessive
+?	06780051	1985-10-30T01:00:00.00	4532	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:06:00.00	4535	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:12:00.00	4538	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:14:00.00	4539	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:16:00.00	4540	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:26:00.00	4545	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:32:00.00	4548	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:56:00.00	4560	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T01:58:00.00	4561	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-10-30T02:12:00.00	4568	0-0-O	 GRAD: mtf1 excessive
+?	06780051	1985-11-01T22:08:00.00	6600	0-0-K	 GRAD: twt excessive
+?	06780051	1985-11-01T22:10:00.00	6601	0-0-K	 GRAD: twt excessive
+?	06780051	1985-11-01T22:12:00.00	6602	0-0-K	 GRAD: twt excessive
+

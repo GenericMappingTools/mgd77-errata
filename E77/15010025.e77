@@ -1,0 +1,23 @@
+# Cruise 15010025 ID LUSI01AR MGD77 FILE VERSION: 19800226 N_RECS: 5709
+# Examined: Mon May 12 17:03:16 2008 by mtchandl
+# Arguments:  -R119.65/242.7/14.35/35.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wrap.
+# Errata: Header
+N-E-15010025-H04-03: Invalid Survey Departure Day: (15) [16]
+Y-W-15010025-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15010025-depth-01: RLS m: 0.996154 b: 0 rms: 179.82 r: 0.995567 significant: 1 decimation: 1
+Y-E-15010025-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.937234 b: -1.09406 rms: 115.048 r: 0.80354 sig: 1 dec: 1). [Recompute]
+N-E-15010025-depth-08: Extended offset from grid [4136-4158]
+Y-E-15010025-twt-13: Encountered possible PDR wrap errors (9.2) [10.0]
+Y-W-15010025-mtf1-12: Integer multiple of 5 precision
+Y-W-15010025-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010025	1962-06-04T21:54:00.00	4139	0-0-KL	 GRAD: twt, depth excessive
+?	15010025	1962-06-04T23:24:00.00	4154	0-0-KL	 GRAD: twt, depth excessive
+Y	15010025	1962-06-06T16:01:00.00	4570	C-0-0	 NAV: excessive speed
+Y	15010025	1962-06-08T00:30:00.00	4968	C-0-0	 NAV: excessive speed
+?	15010025	1962-06-10T09:36:00.00	5559	0-0-OQ	 GRAD: mtf1, mag excessive

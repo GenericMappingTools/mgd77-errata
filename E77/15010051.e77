@@ -1,0 +1,19 @@
+# Cruise 15010051 ID NOVA04AR MGD77 FILE VERSION: 19800226 N_RECS: 7083
+# Examined: Tue May 13 09:06:23 2008 by mtchandl
+# Arguments:  -R144/177.9/-22.55/-8.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010051-H04-06: Invalid Survey Arrival Day: (08) [07]
+Y-W-15010051-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15010051-depth-01: RLS m: 1 b: 0 rms: 150.82 r: 0.99343 sign: 1 dec: 1
+Y-E-15010051-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00408 b: 72.538 rms: 87.5534 r: 0.971171 sig: 1 dec: 1). [Recompute]
+Y-W-15010051-mtf1-12: Integer multiple of 5 precision
+Y-W-15010051-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010051	1967-08-01T04:15:00.00	5316	C-0-0	 NAV: excessive speed
+Y	15010051	1967-08-03T09:05:00.00	5950	C-0-0	 NAV: excessive speed
+Y	15010051	1967-08-03T09:09:00.00	5951	C-0-0	 NAV: excessive speed

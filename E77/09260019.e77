@@ -1,0 +1,91 @@
+# Cruise 09260019 ID LY73E MGD77 FILE VERSION: 19810609 N_RECS: 13642
+# Examined: Mon Aug 16 15:42:51 2010 by mtchandl
+# Arguments:  -R333.6/356/66.3/72.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09260019-time-01: 8 of 13642 records contain invalid time
+Y-E-09260019-H04-04: Invalid Survey Arrival Year: (1979) [1973]
+Y-E-09260019-H04-06: Invalid Survey Arrival Day: (31) [30]
+Y-W-09260019-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09260019-depth-01: RLS m: 0.999156 b: 0 rms: 17.0433 r: 0.999691 sig: 1 dec: 0
+N-E-09260019-depth-02: Regression slope 0.999156 different from 1. Recommended: [1]
+Y-E-09260019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00753 b: 127.581 rms: 128.13 r: 0.999287 sig: 1 dec: 1). [Recompute]
+Y-W-09260019-mtf1-12: Integer precision
+# Errata: Data
+?	09260019	1973-09-18T02:20:36.00	898	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-18T03:05:54.00	952	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-18T10:36:18.00	1591	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-18T16:16:11.94	1924	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-21T06:37:12.00	4308	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-21T06:48:12.00	4318	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-21T17:28:06.00	4706	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-21T21:09:42.00	4835	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T04:37:12.00	5202	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T04:37:36.00	5203	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-22T05:23:24.00	5228	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T06:18:00.00	5279	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-22T08:36:42.00	5396	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T08:37:18.00	5397	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T16:59:06.00	5500	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-22T17:38:06.00	5533	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-22T20:13:18.00	5631	0-Q-0	 VAL: mag invalid
+?	09260019	1973-09-22T20:14:00.00	5633	0-Q-0	 VAL: mag invalid
+?	09260019	1973-09-22T20:15:18.00	5637	0-Q-0	 VAL: mag invalid
+?	09260019	1973-09-22T20:17:42.00	5642	0-Q-0	 VAL: mag invalid
+?	09260019	1973-09-22T22:10:36.00	5744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:18:42.00	5756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:18:54.00	5757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:22:18.00	5762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:40:24.00	5779	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:41:12.00	5780	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T22:42:18.00	5782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T23:21:24.00	5857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T23:27:42.00	5864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T23:41:30.00	5890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-22T23:47:42.00	5901	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-23T01:06:30.00	6003	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-23T01:39:36.00	6050	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-23T02:19:30.00	6101	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-23T03:46:48.00	6196	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-23T06:18:54.00	6341	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-23T06:27:12.00	6348	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-23T06:37:00.00	6357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-23T13:57:36.00	6876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-23T13:58:48.00	6878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-23T15:20:30.00	7003	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-23T18:40:18.00	7154	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-23T20:52:30.00	7271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T04:38:12.00	7741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:22:06.00	7876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:23:54.00	7877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:25:42.00	7879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:27:06.00	7881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:27:12.00	7882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:28:12.00	7884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T07:30:18.00	7887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260019	1973-09-24T13:14:48.00	8083	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-24T13:22:06.00	8086	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-25T22:13:54.00	9057	0-0-KL	 GRAD: twt, depth excessive
+Y	09260019	NaN	9563	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9564	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9565	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9566	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9567	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9568	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9569	E-0-0	 NAV: navigation undefined
+Y	09260019	NaN	9570	E-0-0	 NAV: navigation undefined
+?	09260019	1973-09-27T16:37:00.00	10275	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-27T17:01:36.00	10287	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-27T17:07:06.00	10291	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-27T17:35:00.00	10306	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-27T17:38:18.00	10309	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-27T17:39:18.00	10310	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-27T20:14:00.00	10529	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-27T20:49:42.00	10567	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-28T01:08:42.00	10723	0-0-KL	 GRAD: twt, depth excessive
+?	09260019	1973-09-28T01:25:12.00	10748	0-0-K	 GRAD: twt excessive
+?	09260019	1973-09-28T02:19:42.00	10841	0-0-KL	 GRAD: twt, depth excessive

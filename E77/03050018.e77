@@ -1,0 +1,26 @@
+# Cruise 03050018 ID POL6365 MGD77 FILE VERSION: 19800213 N_RECS: 1655
+# Examined: Fri Apr 16 13:55:37 2010 by mtchandl
+# Arguments:  -R152.15/182.55/17.4/28.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-03050018-nav-00: Flagged 0.73 % of records with bad navigation
+Y-E-03050018-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00254 b: 60.3836 rms: 62.3036 r: 0.996429 sig: 1 dec: 1). [Recompute]
+Y-W-03050018-mtf1-12: Integer precision
+Y-W-03050018-mag-12: Integer precision
+# Errata: Data
+Y	03050018	1963-07-28T13:00:00.00	1599	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:05:00.00	1600	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:10:00.00	1601	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:15:00.00	1602	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:20:00.00	1607	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:25:00.00	1608	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:30:00.00	1609	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:35:00.00	1610	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:40:00.00	1615	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:45:00.00	1616	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:50:00.00	1617	B-0-0	 NAV: non-increasing time
+Y	03050018	1963-07-28T13:55:00.00	1618	B-0-0	 NAV: non-increasing time

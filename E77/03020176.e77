@@ -1,0 +1,15 @@
+# Cruise 03020176 ID SU-95-02 MGD77 FILE VERSION: 19971215 N_RECS: 5257
+# Examined: Fri Apr 16 13:18:18 2010 by mtchandl
+# Arguments:  -R227.95/235/40.35/48.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-03020176-depth-01: RLS m: 0.998849 b: 0 rms: 22.1372 r: 0.998741 sig: 1 dec: 0
+Y-W-03020176-depth-12: Integer precision
+# Errata: Data
+?	03020176	1995-05-11T08:00:03.00	711	0-0-K	 GRAD: twt excessive
+?	03020176	1995-05-11T12:42:01.98	985	0-0-K	 GRAD: twt excessive
+?	03020176	1995-05-11T12:49:01.98	992	0-0-K	 GRAD: twt excessive

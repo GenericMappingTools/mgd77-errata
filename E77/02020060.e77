@@ -1,0 +1,47 @@
+# Cruise 02020060 ID A2093L01 MGD77 FILE VERSION: 19820805 N_RECS: 14642
+# Examined: Fri Apr  2 14:44:14 2010 by mtchandl
+# Arguments:  -R288.05/324.15/-1.45/41.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020060-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020060-depth-01: RLS m: 1.00017 b: 0 rms: 50.9894 r: 0.99819 sig: 1 dec: 0
+Y-I-02020060-faa-01: RLS m: 0.96835 b: 2.33729 rms: 4.55521 r: 0.983227 sig: 1 dec: 0
+N-E-02020060-faa-02: Regression slope 0.96835 different from 1. Recommended: [1]
+Y-W-02020060-faa-03: Regression offset 2.33729 different from 0.
+Y-I-02020060-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020060-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.28535 b: -15.6091 rms: 50.6827 r: 0.532339 sig: 1 dec: 1). [Recompute]
+Y-E-02020060-mag-07: Anomaly differs from mtf1-IGRF (m: 1.06508 b: -446.756 rms: 463.525 r: 0.679689 sig: 1 dec: 1). [Recompute]
+Y-W-02020060-twt-11: More recent bathymetry correction table available
+Y-W-02020060-mtf1-12: Integer precision
+Y-W-02020060-mag-12: Integer precision
+# Errata: Data
+?	02020060	1975-11-03T10:32:00.00	3966	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-03T12:05:00.00	4027	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-04T00:10:00.00	4574	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-04T02:08:00.00	4646	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-04T06:22:00.00	4843	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-04T06:46:00.00	4867	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-04T09:06:00.00	4989	0-0-KL	 GRAD: twt, depth excessive
+?	02020060	1975-11-04T09:48:00.00	5023	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-05T22:49:00.00	6754	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-06T12:26:00.00	7412	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-07T07:06:00.00	8307	0-0-KL	 GRAD: twt, depth excessive
+?	02020060	1975-11-07T07:07:00.00	8308	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-07T21:34:00.00	8963	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-09T11:32:00.00	10551	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-10T11:05:00.00	11607	0-0-KL	 GRAD: twt, depth excessive
+?	02020060	1975-11-11T05:49:00.00	12570	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-11T07:04:00.00	12642	0-0-K	 GRAD: twt excessive
+?	02020060	1975-11-11T12:11:00.00	12898	0-0-KL	 GRAD: twt, depth excessive
+?	02020060	1975-11-12T06:15:00.00	13544	0-0-UW	 GRAD: gobs, faa excessive
+?	02020060	1975-11-12T06:20:00.00	13547	0-0-UW	 GRAD: gobs, faa excessive
+?	02020060	1975-11-13T14:07:00.00	14518	0-0-V	 GRAD: eot excessive
+?	02020060	1975-11-13T14:08:00.00	14519	0-0-V	 GRAD: eot excessive
+?	02020060	1975-11-13T14:27:00.00	14538	0-0-V	 GRAD: eot excessive
+?	02020060	1975-11-13T14:28:00.00	14539	0-0-V	 GRAD: eot excessive
+?	02020060	1975-11-13T14:48:00.00	14559	0-0-V	 GRAD: eot excessive
+?	02020060	1975-11-13T14:49:00.00	14560	0-0-V	 GRAD: eot excessive

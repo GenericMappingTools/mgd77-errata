@@ -1,0 +1,14 @@
+# Cruise 19540001 ID 19930009 MGD77 FILE VERSION: 19951102 N_RECS: 168
+# Examined: Mon Oct 18 15:27:01 2010 by mtchandl
+# Arguments:  -R301.25/302.9/-62.35/-61.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19540001-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-I-19540001-depth-01: RLS m: 0.965014 b: 0 rms: 47.2895 r: 0.990295 sig: 1 dec: 0
+N-E-19540001-depth-02: Regression slope 0.965014 different from 1. Recommended: [1]
+Y-W-19540001-depth-12: Integer precision
+# Errata: Data

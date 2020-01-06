@@ -1,0 +1,50 @@
+# Cruise 08020079 ID MW9302 MGD77 FILE VERSION: 19941231 N_RECS: 54616
+# Examined: Mon Nov 23 15:17:10 2009 by mtchandl
+# Arguments:  -R144.55/170.1/-8/13.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged nav errors.
+# Errata: Header
+N-E-08020079-H04-05: Invalid Survey Arrival Month: (04) [03]
+N-E-08020079-H04-06: Invalid Survey Arrival Day: (01) [31]
+N-E-08020079-H16-01: Invalid Number of Ten Degree Identifiers: ( 7) [8]
+Y-W-08020079-H16-06: Ten Degree Identifier 1017 not marked in header but block was crossed
+Y-W-08020079-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08020079-depth-01: RLS m: 0.999564 b: 0 rms: 9.93033 r: 0.999948 sig: 1 dec: 0
+N-E-08020079-depth-02: Regression slope 0.999564 different from 1. Recommended: [1]
+Y-W-08020079-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020079	1993-03-04T13:30:21.00	2121	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-04T14:02:52.02	2169	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-05T15:15:22.98	4789	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-27T22:03:48.00	48042	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-27T22:32:39.00	48089	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-28T02:30:19.02	48452	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-28T02:40:43.02	48471	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-28T02:40:46.98	48472	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-28T03:22:00.00	48514	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:23:00.00	48515	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:24:00.00	48516	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:25:00.00	48517	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:26:00.00	48518	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:27:00.00	48519	D-0-0	 NAV: on land
+Y	08020079	1993-03-28T03:28:00.00	48520	D-0-0	 NAV: on land
+?	08020079	1993-03-28T03:29:00.00	48521	D-0-0	 NAV: on land
+?	08020079	1993-03-28T19:50:31.02	48585	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-28T19:51:19.98	48587	0-0-K	 GRAD: twt excessive
+?	08020079	1993-03-31T03:54:13.02	53045	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-31T19:55:04.02	54399	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-31T20:46:15.00	54490	0-0-KL	 GRAD: twt, depth excessive
+?	08020079	1993-03-31T21:33:55.98	54590	0-0-KL	 GRAD: twt, depth excessive
+Y	08020079	1993-03-31T21:50:00.00	54607	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:51:00.00	54608	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:52:00.00	54609	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:53:00.00	54610	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:54:00.00	54611	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:55:00.00	54612	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:56:00.00	54613	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:57:00.00	54614	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:58:00.00	54615	D-0-0	 NAV: on land
+Y	08020079	1993-03-31T21:59:00.00	54616	D-0-0	 NAV: on land

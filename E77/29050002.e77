@@ -1,0 +1,17 @@
+# Cruise 29050002 ID AKU15 MGD77 FILE VERSION: 19851230 N_RECS: 3533
+# Examined: Mon Feb 14 22:28:46 2011 by mtchandl
+# Arguments:  -R-49.75/6.85/48.1/70.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Suggest not recomputing faa.
+# Errata: Header
+Y-I-29050002-depth-01: RLS m: 1.00136 b: 0 rms: 26.4524 r: 0.99965 sig: 1 dec: 0
+N-E-29050002-depth-02: Regression slope 1.00136 different from 1. Recommended: [1]
+Y-I-29050002-faa-01: RLS m: 0.996781 b: 8.35371 rms: 10.8981 r: 0.956908 sig: 1 dec: 0
+Y-W-29050002-faa-03: Regression offset 8.35371 different from 0.
+N-E-29050002-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00236 b: -4.73255 rms: 4.64949 r: 0.999935 sig: 1 dec: 0). [Recompute]
+Y-W-29050002-twt-11: More recent bathymetry correction table available
+Y-W-29050002-depth-12: Integer precision
+# Errata: Data

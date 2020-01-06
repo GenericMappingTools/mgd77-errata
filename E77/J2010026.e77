@@ -1,0 +1,34 @@
+# Cruise J2010026 ID GH814-B MGD77 FILE VERSION: 19921231 N_RECS: 6384
+# Examined: Mon Nov 23 16:29:21 2009 by mtchandl
+# Arguments:  -R140.45/194.65/-14.4/34.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-J2010026-H04-03: Invalid Survey Departure Day: (16) [17]
+N-E-J2010026-H04-06: Invalid Survey Arrival Day: (12) [11]
+Y-W-J2010026-H13-09: Unknown IGRF specified (DGRF1980)
+Y-W-J2010026-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-J2010026-depth-01: RLS m: 1 b: 0 rms: 22.1096 r: 0.999113 sig: 1 dec: 0
+Y-I-J2010026-faa-01: RLS m: 1.00242 b: 1.90008 rms: 5.23874 r: 0.999267 sig: 1 dec: 1
+Y-W-J2010026-faa-03: Regression offset 1.90008 different from 0.
+Y-I-J2010026-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010026-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.234449 b: 6.80298 rms: 61.5666 r: 0.489672 sig: 1 dec: 1). [Recompute]
+Y-E-J2010026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997147 b: -3.93401 rms: 10.9993 r: 0.999382 sig: 1 dec: 1). [Recompute]
+Y-W-J2010026-twt-11: More recent bathymetry correction table available
+Y-W-J2010026-depth-12: Integer precision
+Y-W-J2010026-mtf1-12: Integer precision
+Y-W-J2010026-mag-12: Integer precision
+# Errata: Data
+Y	J2010026	1981-09-17T03:10:00.00	1	D-0-0	 NAV: on land
+Y	J2010026	1981-09-17T03:15:00.00	2	D-0-0	 NAV: on land
+Y	J2010026	1981-09-17T03:20:00.00	3	D-0-0	 NAV: on land
+Y	J2010026	1981-09-18T15:30:00.00	437	C-0-0	 NAV: excessive speed
+?	J2010026	1981-09-25T09:50:00.00	2170	0-0-V	 GRAD: eot excessive
+?	J2010026	1981-09-25T11:25:00.00	2189	0-0-V	 GRAD: eot excessive
+?	J2010026	1981-09-28T14:00:00.00	2869	0-0-V	 GRAD: eot excessive
+Y	J2010026	1981-10-03T05:30:00.00	4143	C-0-0	 NAV: excessive speed
+Y	J2010026	1981-10-06T08:25:00.00	5041	C-0-0	 NAV: excessive speed
+?	J2010026	1981-10-10T06:15:00.00	6167	0-0-KL	 GRAD: twt, depth excessive

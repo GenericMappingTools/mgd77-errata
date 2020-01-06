@@ -1,0 +1,21 @@
+# Cruise 15020040 ID GECS-GMV MGD77 FILE VERSION: 19800226 N_RECS: 7962
+# Examined: Thu May 15 08:29:19 2008 by mtchandl
+# Arguments:  -R169.2/187/-69.15/-43.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020040-H04-06: Invalid Survey Arrival Day: (06) [04]
+Y-W-15020040-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020040-depth-01: RLS m: 1 b: 0 rms: 73.606 r: 0.998175 sig: 1 dec: 1
+Y-E-15020040-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.965946 b: 67.1534 rms: 76.017 r: 0.986647 sig: 1 dec: 1). [Recompute]
+Y-W-15020040-twt-11: More recent bathymetry correction table available
+Y-W-15020040-mtf1-12: Integer precision
+Y-W-15020040-mag-12: Integer precision
+# Errata: Data
+?	15020040	1974-02-18T22:40:00.00	3957	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020040	1974-02-18T22:45:00.00	3958	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020040	1974-02-22T19:15:00.00	5068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020040	1974-02-22T20:20:00.00	5081	0-0-OQ	 GRAD: mtf1, mag excessive

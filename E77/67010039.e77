@@ -1,0 +1,38 @@
+# Cruise 67010039 ID 73000711 MGD77 FILE VERSION: 19830804 N_RECS: 2907
+# Examined: Thu Jul 28 18:47:07 2011 by mtchandl
+# Arguments:  -R-9.9/-5/31.8/47.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all bathymetry as bad, recommend review by source institution. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010039-depth-01: RLS m: 0.998579 b: 0 rms: 193.16 r: 0.988186 sig: 1 dec: 0
+Y-E-67010039-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00077 b: -113.611 rms: 114.502 r: 0.985662 sig: 1 dec: 0). [Recompute]
+N-E-67010039-depth-08: Extended offset from grid [255-759]
+N-E-67010039-depth-08: Extended offset from grid [2156-2274]
+Y-E-67010039-depth-10: Invalid data records: [1-2907]
+Y-W-67010039-twt-11: More recent bathymetry correction table available
+Y-W-67010039-mtf1-12: Integer precision
+Y-W-67010039-mag-12: Integer precision
+# Errata: Data
+?	67010039	1973-07-21T16:29:00.00	192	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-21T16:40:00.00	198	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-21T17:39:00.00	236	0-0-KL	 GRAD: twt, depth excessive
+?	67010039	1973-07-22T20:43:00.00	1179	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-22T22:42:00.00	1262	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-22T23:27:00.00	1293	0-0-KL	 GRAD: twt, depth excessive
+?	67010039	1973-07-23T03:05:00.00	1446	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-23T05:21:00.00	1555	0-0-KL	 GRAD: twt, depth excessive
+?	67010039	1973-07-23T10:57:00.00	1763	0-0-K	 GRAD: twt excessive
+?	67010039	1973-07-23T10:59:00.00	1765	0-0-KL	 GRAD: twt, depth excessive
+?	67010039	1973-07-23T13:24:00.00	1829	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T14:51:00.00	1885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T14:56:00.00	1888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:26:00.00	1906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:31:00.00	1910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:32:00.00	1911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:37:00.00	1915	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:58:00.00	1929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T15:59:00.00	1930	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010039	1973-07-23T16:11:00.00	1939	0-0-OQ	 GRAD: mtf1, mag excessive

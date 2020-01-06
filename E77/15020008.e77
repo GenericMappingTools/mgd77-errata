@@ -1,0 +1,16 @@
+# Cruise 15020008 ID ANTP11MV MGD77 FILE VERSION: 19800226 N_RECS: 10993
+# Examined: Wed May 14 08:26:35 2008 by mtchandl
+# Arguments:  -R79.15/100.3/-1.05/21.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020008-H04-06: Invalid Survey Arrival Day: (02) [21]
+Y-W-15020008-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020008-depth-01: RLS m: 1 b: 0 rms: 75.4165 r: 0.998638 sign: 1 dec: 1
+Y-E-15020008-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01596 b: -243.217 rms: 249.781 r: 0.927278 sig: 1 dec: 1). [Recompute]
+Y-W-15020008-mtf1-12: Integer multiple of 5 precision
+Y-W-15020008-mag-12: Integer multiple of 5 precision
+# Errata: Data

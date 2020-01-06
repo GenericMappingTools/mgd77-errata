@@ -1,0 +1,23 @@
+# Cruise J2010021 ID GH771-B MGD77 FILE VERSION: 19921231 N_RECS: 4529
+# Examined: Mon Nov 23 16:24:46 2009 by mtchandl
+# Arguments:  -R171.15/188.25/-13.55/11.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Caution recomputing magnetic anomalies.
+# Errata: Header
+N-E-J2010021-H04-06: Invalid Survey Arrival Day: (13) [12]
+Y-W-J2010021-H13-09: Unknown IGRF specified (DGRF1975)
+Y-I-J2010021-depth-01: RLS m: 1 b: 0 rms: 24.0115 r: 0.999298 sig: 1 dec: 0
+Y-I-J2010021-faa-01: RLS m: 1.03888 b: 2.31395 rms: 11.7099 r: 0.981386 sig: 1 dec: 1
+N-E-J2010021-faa-02: Regression slope 1.03888 different from 1. Recommended: [1]
+Y-W-J2010021-faa-03: Regression offset 2.31395 different from 0.
+Y-I-J2010021-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010021-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.128407 b: -1.13405 rms: 56.6386 r: 0.416942 sig: 1 dec: 1). [Recompute]
+Y-E-J2010021-mag-07: Anomaly differs from mtf1-IGRF (m: 0.998369 b: -0.735947 rms: 1.86668 r: 0.999895 sig: 1 dec: 0). [Recompute]
+Y-W-J2010021-depth-12: Integer precision
+Y-W-J2010021-mtf1-12: Integer precision
+Y-W-J2010021-mag-12: Integer precision
+# Errata: Data
+?	J2010021	1977-02-11T05:55:00.00	4210	0-0-OQ	 GRAD: mtf1, mag excessive

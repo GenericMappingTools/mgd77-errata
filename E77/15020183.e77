@@ -1,0 +1,13 @@
+# Cruise 15020183 ID WEST00MV MGD77 FILE VERSION: 20040317 N_RECS: 3341
+# Examined: Mon May 19 04:17:39 2008 by mtchandl
+# Arguments:  -R241.85/242.8/32.5/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-15020183-depth-01: RLS m: 0.964286 b: 0 rms: 125.095 r: 0.969596 sig: 1 dec: 1
+N-E-15020183-depth-02: Regression slope 0.964286 different from 1. Recommended: [1]
+Y-W-15020183-depth-12: Integer precision
+# Errata: Data

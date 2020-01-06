@@ -1,0 +1,57 @@
+# Cruise 19180006 ID CD3388 MGD77 FILE VERSION: 19931021 N_RECS: 17470
+# Examined: Fri Jul 10 20:09:10 2009 by mtchandl
+# Arguments:  -R181.5/185.65/-33.1/-16.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-19180006-H13-10: Survey year (1988) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19180006-depth-01: RLS m: 1.00146 b: 0 rms: 46.5129 r: 0.999353 sig: 1 dec: 0
+N-E-19180006-depth-02: Regression slope 1.00146 different from 1. Recommended: [1]
+Y-I-19180006-faa-01: RLS m: 0.976913 b: 1.65124 rms: 8.26523 r: 0.995913 sig: 1 dec: 1
+N-E-19180006-faa-02: Regression slope 0.976913 different from 1. Recommended: [1]
+Y-W-19180006-faa-03: Regression offset 1.65124 different from 0.
+Y-E-19180006-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988917 b: -21.934 rms: 26.6119 r: 0.99847 sig: 1 dec: 1). [Recompute]
+N-E-19180006-faa-08: Extended offset from grid [2-5517]
+N-E-19180006-depth-08: Extended offset from grid [2-17470]
+Y-W-19180006-depth-12: Integer precision
+Y-W-19180006-mtf1-12: Integer precision
+Y-W-19180006-mag-12: Integer precision
+Y-W-19180006-faa-12: Integer precision
+# Errata: Data
+?	19180006	1988-05-07T00:50:00.00	986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T01:38:00.00	1010	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T01:40:00.00	1011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T02:24:00.00	1033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T02:26:00.00	1034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T12:36:00.00	1339	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T12:38:00.00	1340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T13:22:00.00	1362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T13:24:00.00	1363	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T14:10:00.00	1386	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-07T14:12:00.00	1387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T00:20:00.00	1691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T00:22:00.00	1692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T01:54:00.00	1738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T01:56:00.00	1739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T12:52:00.00	2067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-08T12:54:00.00	2068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-15T08:44:00.00	6950	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-15T08:46:00.00	6951	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-15T08:48:00.00	6952	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-20T16:20:00.00	10778	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-20T16:22:00.00	10779	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-23T21:42:00.00	13071	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-23T21:48:00.00	13074	0-0-K	 GRAD: twt excessive
+?	19180006	1988-05-26T13:34:00.00	14969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-26T13:36:00.00	14970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-26T23:54:00.00	15279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-26T23:56:00.00	15280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T10:04:00.00	15584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T10:06:00.00	15585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T10:52:00.00	15608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T10:54:00.00	15609	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T21:02:00.00	15911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180006	1988-05-27T21:04:00.00	15912	0-0-OQ	 GRAD: mtf1, mag excessive

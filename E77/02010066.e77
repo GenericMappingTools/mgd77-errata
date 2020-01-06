@@ -1,0 +1,38 @@
+# Cruise 02010066 ID CH115L06 MGD77 FILE VERSION: 19820805 N_RECS: 12239
+# Examined: Fri Mar 26 21:12:48 2010 by mtchandl
+# Arguments:  -R316.8/325.3/-31/-8.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010066-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02010066-depth-01: RLS m: 0.999108 b: 0 rms: 26.6101 r: 0.99969 sig: 1 dec: 0
+N-E-02010066-depth-02: Regression slope 0.999108 different from 1. Recommended: [1]
+Y-I-02010066-faa-01: RLS m: 1.01989 b: 2.6001 rms: 4.49713 r: 0.979395 sig: 1 dec: 0
+N-E-02010066-faa-02: Regression slope 1.01989 different from 1. Recommended: [1]
+Y-W-02010066-faa-03: Regression offset 2.6001 different from 0.
+N-E-02010066-faa-06: Anomaly differs from gobs-IGF80 (m: 0.998259 b: 0.962221 rms: 0.977931 r: 0.999995 sig: 1 dec: 0). [Recompute]
+N-E-02010066-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.33034 b: -7.96715 rms: 46.1488 r: 0.651133 sig: 1 dec: 1). [Recompute]
+Y-E-02010066-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996689 b: 156.584 rms: 157.017 r: 0.998459 sig: 1 dec: 1). [Recompute]
+Y-W-02010066-twt-11: More recent bathymetry correction table available
+Y-W-02010066-mtf1-12: Integer precision
+Y-W-02010066-mag-12: Integer precision
+# Errata: Data
+?	02010066	1974-04-23T13:10:00.00	297	0-0-U	 GRAD: gobs excessive
+?	02010066	1974-04-23T13:15:00.00	299	0-0-U	 GRAD: gobs excessive
+?	02010066	1974-04-25T18:40:00.00	1528	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-29T01:05:00.00	3210	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-29T02:40:00.00	3258	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-29T03:50:00.00	3291	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-29T05:20:00.00	3339	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-29T06:45:00.00	3375	0-0-KLV	 GRAD: twt, depth, eot excessive
+?	02010066	1974-04-29T07:40:00.00	3401	0-0-V	 GRAD: eot excessive
+?	02010066	1974-04-30T05:15:00.00	3802	0-0-KL	 GRAD: twt, depth excessive
+?	02010066	1974-04-30T09:39:00.00	3878	0-0-K	 GRAD: twt excessive
+?	02010066	1974-05-02T10:40:00.00	4876	0-0-V	 GRAD: eot excessive
+?	02010066	1974-05-03T01:10:00.00	5179	0-0-K	 GRAD: twt excessive
+?	02010066	1974-05-09T01:54:00.00	7740	0-0-KL	 GRAD: twt, depth excessive
+?	02010066	1974-05-11T18:47:00.00	8937	0-0-K	 GRAD: twt excessive
+?	02010066	1974-05-12T20:45:00.00	9443	0-0-V	 GRAD: eot excessive

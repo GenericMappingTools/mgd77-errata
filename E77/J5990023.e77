@@ -1,0 +1,44 @@
+# Cruise J5990023 ID RF72 MGD77 FILE VERSION: 19860213 N_RECS: 628
+# Examined: Mon Aug  8 15:58:42 2011 by mtchandl
+# Arguments:  -R141.45/151.35/29.35/33.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J5990023-nav-00: Flagged 4.46 % of records with bad navigation
+Y-E-J5990023-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00442 b: 33.6776 rms: 34.1741 r: 0.999476 sig: 1 dec: 0). [Recompute]
+Y-W-J5990023-mtf1-12: Integer precision
+Y-W-J5990023-mag-12: Integer precision
+# Errata: Data
+Y	J5990023	1972-10-09T15:20:00.00	197	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:25:00.00	198	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:30:00.00	199	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:35:00.00	200	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:40:00.00	201	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:45:00.00	202	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:50:00.00	203	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T15:55:00.00	204	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-09T16:00:00.00	205	C-0-0	 NAV: excessive speed
+?	J5990023	1972-10-10T14:40:00.00	333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990023	1972-10-10T14:45:00.00	334	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	J5990023	1972-10-10T20:40:00.00	365	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T20:45:00.00	366	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T20:50:00.00	367	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T20:55:00.00	368	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:00:00.00	369	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:05:00.00	370	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:10:00.00	371	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:15:00.00	372	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:20:00.00	373	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-10T21:25:00.00	374	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T04:35:00.00	504	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T04:40:00.00	505	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T04:45:00.00	506	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T04:50:00.00	507	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T04:55:00.00	508	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T05:00:00.00	509	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T05:05:00.00	510	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T05:10:00.00	511	C-0-0	 NAV: excessive speed
+Y	J5990023	1972-10-13T05:15:00.00	512	C-0-0	 NAV: excessive speed

@@ -1,0 +1,13 @@
+# Cruise 03020177 ID SU-90-01 MGD77 FILE VERSION: 20040218 N_RECS: 5428
+# Examined: Fri Apr 16 13:18:29 2010 by mtchandl
+# Arguments:  -R231.2/232.05/12.6/13.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-03020177-H11-06: Invalid Rightmost Longitude: (-128) [-127]
+Y-I-03020177-depth-01: RLS m: 0.998849 b: 0 rms: 55.2875 r: 0.481875 sig: 1 dec: 0
+Y-W-03020177-depth-12: Integer precision
+# Errata: Data

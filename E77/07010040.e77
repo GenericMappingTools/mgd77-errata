@@ -1,0 +1,36 @@
+# Cruise 07010040 ID YAQ7307 MGD77 FILE VERSION: 19840131 N_RECS: 13464
+# Examined: Fri Jul 16 17:44:30 2010 by mtchandl
+# Arguments:  -R279.65/288.1/-19.8/-12.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010040-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07010040-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-07010040-depth-01: RLS m: 0.999189 b: 0 rms: 44.3171 r: 0.999639 sig: 1 dec: 0
+N-E-07010040-depth-02: Regression slope 0.999189 different from 1. Recommended: [1]
+Y-I-07010040-faa-01: RLS m: 1.00445 b: 0.802632 rms: 3.19404 r: 0.998746 sig: 1 dec: 0
+N-E-07010040-faa-02: Regression slope 1.00445 different from 1. Recommended: [1]
+Y-W-07010040-faa-03: Regression offset 0.802632 different from 0.
+Y-E-07010040-mag-07: Anomaly differs from mtf1-IGRF (m: 0.952173 b: -14.1048 rms: 35.5592 r: 0.981003 sig: 1 dec: 1). [Recompute]
+Y-W-07010040-twt-11: More recent bathymetry correction table available
+Y-W-07010040-mtf1-12: Integer precision
+Y-W-07010040-mag-12: Integer precision
+# Errata: Data
+?	07010040	1974-02-20T22:00:00.00	1912	0-0-K	 GRAD: twt excessive
+?	07010040	1974-02-24T12:24:00.00	3869	0-0-K	 GRAD: twt excessive
+?	07010040	1974-02-24T13:02:00.00	3887	0-0-K	 GRAD: twt excessive
+?	07010040	1974-02-25T16:11:00.00	4508	0-0-KL	 GRAD: twt, depth excessive
+?	07010040	1974-02-25T16:40:00.00	4521	0-0-K	 GRAD: twt excessive
+?	07010040	1974-02-26T08:55:00.00	4769	0-0-KL	 GRAD: twt, depth excessive
+?	07010040	1974-02-26T20:25:00.00	5071	0-0-K	 GRAD: twt excessive
+?	07010040	1974-02-28T19:45:00.00	5979	0-0-K	 GRAD: twt excessive
+?	07010040	1974-03-04T21:41:00.00	8613	0-0-KL	 GRAD: twt, depth excessive
+Y	07010040	1974-03-05T14:06:00.00	9054	D-0-0	 NAV: on land
+Y	07010040	1974-03-05T14:10:00.00	9055	D-0-0	 NAV: on land
+Y	07010040	1974-03-05T14:15:00.00	9056	D-0-0	 NAV: on land
+Y	07010040	1974-03-05T17:24:00.00	9057	D-0-0	 NAV: on land
+Y	07010040	1974-03-05T19:06:00.00	9058	D-0-0	 NAV: on land
+Y	07010040	1974-03-05T21:30:00.00	9059	D-0-0	 NAV: on land

@@ -1,0 +1,20 @@
+# Cruise 06890002 ID N184EG MGD77 FILE VERSION: 19870929 N_RECS: 116
+# Examined: Thu Jul 22 16:10:57 2010 by mtchandl
+# Arguments:  -R223.4/223.5/58.85/59 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Many of the reported depths are above sealevel in Becker 2008.
+# Errata: Header
+Y-W-06890002-nav-00: Flagged 5.17 % of records with bad navigation
+Y-I-06890002-depth-01: RLS m: 1.03915 b: 0 rms: 69.414 r: 0.606126 sig: 1 dec: 0
+# Errata: Data
+?	06890002	1984-06-02T13:39:00.00	38	D-0-0	 NAV: on land
+?	06890002	1984-06-02T14:06:00.00	46	D-0-0	 NAV: on land
+Y	06890002	1984-06-02T14:41:00.00	56	D-0-0	 NAV: on land
+Y	06890002	1984-06-02T15:20:00.00	73	D-0-0	 NAV: on land
+Y	06890002	1984-06-02T15:53:00.00	77	D-0-0	 NAV: on land
+Y	06890002	1984-06-02T15:54:00.00	78	D-0-0	 NAV: on land
+Y	06890002	1984-06-03T11:00:00.00	111	D-0-0	 NAV: on land
+Y	06890002	1984-06-03T11:35:00.00	114	D-0-0	 NAV: on land

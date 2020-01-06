@@ -1,0 +1,23 @@
+# Cruise 15040176 ID CRGN05WT MGD77 FILE VERSION: 19900321 N_RECS: 5086
+# Examined: Mon May 26 16:19:09 2008 by mtchandl
+# Arguments:  -R200.8/204.15/21/23.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-15040176-H04-03: Invalid Survey Departure Day: (10) [09]
+Y-W-15040176-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15040176-depth-01: RLS m: 1.00388 b: 0 rms: 141.304 r: 0.994575 sig: 1 dec: 1
+Y-W-15040176-twt-11: More recent bathymetry correction table available
+Y-W-15040176-depth-12: Integer precision
+# Errata: Data
+?	15040176	1987-06-10T01:56:00.00	36	D-0-0	 NAV: on land
+?	15040176	1987-06-10T01:57:00.00	37	D-0-0	 NAV: on land
+?	15040176	1987-06-10T02:02:00.00	38	D-0-0	 NAV: on land
+?	15040176	1987-06-10T02:05:00.00	39	D-0-0	 NAV: on land
+?	15040176	1987-06-10T02:08:00.00	40	D-0-0	 NAV: on land
+?	15040176	1987-06-13T09:32:00.00	4652	0-0-KL	 GRAD: twt, depth excessive
+Y	15040176	1987-06-13T17:45:00.00	5081	D-0-0	 NAV: on land
+?	15040176	1987-06-13T17:55:00.00	5082	D-0-0	 NAV: on land

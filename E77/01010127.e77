@@ -1,0 +1,44 @@
+# Cruise 01010127 ID RC1708 MGD77 FILE VERSION: 19790919 N_RECS: 13342
+# Examined: Mon Jul  6 15:27:16 2009 by mtchandl
+# Arguments:  -R69.6/89.25/-6/15.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. -436 nT average offset from recomputed mag.
+# Errata: Header
+N-E-01010127-H13-06: Invalid Magnetics Reference Field Code: (74) [74]
+Y-I-01010127-depth-01: RLS m: 1 b: 0 rms: 71.8795 r: 0.998758 sig: 1 dec: 1
+Y-I-01010127-faa-01: RLS m: 1.0042 b: 2.99015 rms: 8.16497 r: 0.983712 sig: 1 dec: 1
+Y-W-01010127-faa-03: Regression offset 2.99015 different from 0.
+Y-E-01010127-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00698 b: -436.259 rms: 436.368 r: 0.992183 sig: 1 dec: 0). [Recompute]
+N-E-01010127-faa-08: Extended offset from grid [3691-8652]
+N-E-01010127-depth-08: Extended offset from grid [16-13342]
+N-E-01010127-faa-08: Extended offset from grid [10965-13342]
+Y-W-01010127-twt-11: More recent bathymetry correction table available
+Y-W-01010127-mtf1-12: Integer precision
+Y-W-01010127-mag-12: Integer precision
+# Errata: Data
+?	01010127	1974-06-22T19:15:00.00	128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010127	1974-06-22T19:20:00.00	130	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:25:00.00	132	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:30:00.00	133	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:35:00.00	134	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:40:00.00	136	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:45:00.00	138	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:50:00.00	140	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T19:55:00.00	142	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:00:00.00	143	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:05:00.00	144	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:10:00.00	147	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:15:00.00	149	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:20:00.00	151	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-22T20:25:00.00	153	0-Q-0	 VAL: mag invalid
+?	01010127	1974-06-23T00:05:00.00	222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010127	1974-06-23T00:10:00.00	224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010127	1974-06-23T00:15:00.00	226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010127	1974-07-06T13:50:00.00	6527	0-Q-0	 VAL: mag invalid
+?	01010127	1974-07-06T13:55:00.00	6529	0-Q-0	 VAL: mag invalid
+?	01010127	1974-07-06T14:00:00.00	6530	0-Q-0	 VAL: mag invalid
+?	01010127	1974-07-06T14:05:00.00	6531	0-Q-0	 VAL: mag invalid
+?	01010127	1974-07-06T14:10:00.00	6533	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,19 @@
+# Cruise 02300002 ID FA017L01 MGD77 FILE VERSION: 19820805 N_RECS: 2587
+# Examined: Fri Apr  9 13:09:51 2010 by mtchandl
+# Arguments:  -R279.25/283.05/26.05/33.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Apparent DC shift in reported and recomputed faa (Potsdam offset?).
+# Errata: Header
+Y-W-02300002-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-02300002-faa-01: RLS m: 0.999312 b: 16.3569 rms: 16.631 r: 0.991978 sig: 1 dec: 0
+Y-W-02300002-faa-03: Regression offset 16.3569 different from 0.
+Y-I-02300002-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02300002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.426459 b: 10.9762 rms: 29.5876 r: 0.706235 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+Y	02300002	1976-06-20T16:00:00.00	1	D-0-0	 NAV: on land
+?	02300002	1976-06-23T13:10:00.00	822	0-0-V	 GRAD: eot excessive
+?	02300002	1976-06-26T10:55:00.00	1658	0-0-V	 GRAD: eot excessive
+?	02300002	1976-06-28T07:20:00.00	2191	0-0-V	 GRAD: eot excessive

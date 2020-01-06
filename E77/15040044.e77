@@ -1,0 +1,27 @@
+# Cruise 15040044 ID SOTW04WT MGD77 FILE VERSION: 19800226 N_RECS: 3074
+# Examined: Thu May 22 09:37:44 2008 by mtchandl
+# Arguments:  -R282.05/289.8/-23.8/-11.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-W-15040044-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040044-depth-01: RLS m: 0.996125 b: 0 rms: 112.89 r: 0.99869 sig: 1 dec: 1
+N-E-15040044-depth-02: Regression slope 0.996125 different from 1. Recommended: [1]
+Y-E-15040044-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992658 b: -13.1526 rms: 19.1485 r: 0.989352 sig: 1 dec: 1). [Recompute]
+N-E-15040044-depth-08: Extended offset from grid [1136-1234]
+Y-E-15040044-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15040044-mtf1-12: Integer multiple of 5 precision
+Y-W-15040044-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040044	1972-04-28T17:25:00.00	288	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-04-30T06:10:00.00	844	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-04-30T06:20:00.00	849	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-04T12:35:00.00	1318	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-04T14:40:00.00	1338	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-04T23:05:00.00	1423	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-05T04:05:00.00	1436	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-06T04:25:00.00	1714	0-0-KL	 GRAD: twt, depth excessive
+?	15040044	1972-05-06T05:40:00.00	1732	0-0-KL	 GRAD: twt, depth excessive

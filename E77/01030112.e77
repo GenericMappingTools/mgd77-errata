@@ -1,0 +1,26 @@
+# Cruise 01030112 ID V2608 MGD77 FILE VERSION: 19790919 N_RECS: 15627
+# Examined: Thu Jul  9 17:41:48 2009 by mtchandl
+# Arguments:  -R266.4/293.9/14/26.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030112-depth-01: RLS m: 0.999651 b: 0 rms: 4.30315 r: 0.999997 sig: 1 dec: 0
+N-E-01030112-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030112-faa-01: RLS m: 1.01991 b: -6.35582 rms: 13.3305 r: 0.974209 sig: 1 dec: 1
+Y-W-01030112-faa-03: Regression offset -6.35582 different from 0.
+Y-E-01030112-mag-07: Anomaly differs from mtf1-IGRF (m: 0.900321 b: -145.082 rms: 163.584 r: 0.897539 sig: 1 dec: 1). [Recompute]
+N-E-01030112-faa-08: Extended offset from grid [7893-11110]
+N-E-01030112-depth-08: Extended offset from grid [5-15627]
+Y-W-01030112-twt-11: More recent bathymetry correction table available
+Y-W-01030112-mtf1-12: Integer precision
+Y-W-01030112-mag-12: Integer precision
+# Errata: Data
+?	01030112	1969-03-05T23:34:00.00	340	0-0-K	 GRAD: twt excessive
+?	01030112	1969-03-05T23:38:00.00	344	0-0-K	 GRAD: twt excessive
+?	01030112	1969-03-05T23:45:00.00	350	0-0-KL	 GRAD: twt, depth excessive
+?	01030112	1969-03-18T16:36:00.00	7268	0-0-K	 GRAD: twt excessive
+?	01030112	1969-03-18T16:37:00.00	7269	0-0-K	 GRAD: twt excessive
+?	01030112	1969-03-23T21:37:00.00	9310	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,30 @@
+# Cruise 01010030 ID RC0911B MGD77 FILE VERSION: 19790619 N_RECS: 3181
+# Examined: Thu Jun 26 13:07:52 2008 by mtchandl
+# Arguments:  -R13.45/32.55/31.3/40.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, possible Potsdam offset.
+# Errata: Header
+Y-W-01010030-nav-00: Flagged 0.19 % of records with excessive speed or invalid navigation
+Y-I-01010030-depth-01: RLS m: 0.965014 b: 0 rms: 132.133 r: 0.992949 sig: 1 dec: 1
+N-E-01010030-depth-02: Regression slope 0.965014 different from 1. Recommended: [1]
+Y-I-01010030-faa-01: RLS m: 1.00102 b: -1.54788 rms: 7.75035 r: 0.995057 sig: 1 dec: 1
+Y-W-01010030-faa-03: Regression offset -1.54788 different from 0.
+Y-E-01010030-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.983615 b: 6.4869 rms: 80.7438 r: 0.844705 sig: 1 dec: 1). [Recompute]
+Y-W-01010030-mtf1-12: Integer precision
+Y-W-01010030-mag-12: Integer precision
+# Errata: Data
+?	01010030	1965-07-25T07:57:00.00	2864	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:00:00.00	2865	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:02:00.00	2866	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:03:00.00	2867	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:05:00.00	2868	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:06:00.00	2869	D-0-0	 NAV: on land
+Y	01010030	1965-07-25T08:07:00.00	2870	D-0-0	 NAV: on land
+?	01010030	1965-07-25T11:50:00.00	2938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010030	1965-07-25T11:53:00.00	2939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010030	1965-07-25T11:57:00.00	2942	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010030	1965-07-25T12:00:00.00	2943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010030	1965-07-25T13:02:00.00	2964	0-0-OQ	 GRAD: mtf1, mag excessive

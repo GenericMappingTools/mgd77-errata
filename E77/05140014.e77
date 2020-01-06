@@ -1,0 +1,28 @@
+# Cruise 05140014 ID NC8802 MGD77 FILE VERSION: 20080805 N_RECS: 16555
+# Examined: Fri May 21 12:56:25 2010 by mtchandl
+# Arguments:  -R175.05/187.05/-43.05/-39.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05140014-H13-10: Survey year (1988) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140014-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140014-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140014-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140014-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05140014-H16-06: Ten Degree Identifier 5417 not marked in header but block was crossed
+Y-W-05140014-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05140014-depth-01: RLS m: 0.998871 b: 0 rms: 54.0493 r: 0.99868 sig: 1 dec: 0
+Y-I-05140014-faa-01: RLS m: 1.0545 b: 11.8015 rms: 14.0132 r: 0.957361 sig: 1 dec: 0
+N-E-05140014-faa-02: Regression slope 1.0545 different from 1. Recommended: [1]
+Y-W-05140014-faa-03: Regression offset 11.8015 different from 0.
+Y-E-05140014-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00128 b: -19.4529 rms: 24.1047 r: 0.998086 sig: 1 dec: 1). [Recompute]
+Y-W-05140014-depth-12: Integer precision
+Y-W-05140014-mtf1-12: Integer precision
+# Errata: Data
+?	05140014	1988-04-30T07:53:00.00	3846	0-0-V	 GRAD: eot excessive
+?	05140014	1988-04-30T23:06:00.00	4306	0-0-L	 GRAD: depth excessive
+?	05140014	1988-04-30T23:07:00.00	4307	0-0-L	 GRAD: depth excessive
+?	05140014	1988-05-03T07:18:00.00	7424	0-0-Q	 GRAD: mag excessive

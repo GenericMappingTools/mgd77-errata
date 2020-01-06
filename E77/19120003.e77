@@ -1,0 +1,200 @@
+# Cruise 19120003 ID FAR381 MGD77 FILE VERSION: 19851016 N_RECS: 13025
+# Examined: Tue Sep 14 16:05:26 2010 by mtchandl
+# Arguments:  -R330.6/341.85/22.9/37.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Free-air gravity data scaled by 10, recommend scaling by .1. Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19120003-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19120003-depth-01: RLS m: 1 b: 0 rms: 2.36148 r: 0.999988 sig: 1 dec: 0
+Y-I-19120003-faa-01: RLS m: 9.70009 b: 153.609 rms: 152.205 r: 0.976997 sig: 1 dec: 0
+Y-E-19120003-faa-02: Regression slope 9.70009 different from 1. Recommended: [0.1]
+Y-W-19120003-faa-03: Regression offset 153.609 different from 0.
+Y-E-19120003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.83811 b: -61.9818 rms: 137.603 r: 0.626207 sig: 1 dec: 1). [Recompute]
+N-E-19120003-faa-08: Extended offset from grid [152-731]
+N-E-19120003-faa-08: Extended offset from grid [5254-7615]
+N-E-19120003-faa-08: Extended offset from grid [12230-12745]
+Y-W-19120003-depth-12: Integer precision
+Y-W-19120003-mtf1-12: Integer precision
+Y-W-19120003-mag-12: Integer precision
+Y-W-19120003-faa-12: Integer precision
+# Errata: Data
+?	19120003	1981-11-07T17:24:00.00	2	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T17:26:00.00	3	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T17:28:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T17:52:00.00	16	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T17:54:00.00	17	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T17:56:00.00	18	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T17:58:00.00	19	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:00:00.00	20	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:02:00.00	21	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:04:00.00	22	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:06:00.00	23	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:08:00.00	24	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:10:00.00	25	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:12:00.00	26	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:14:00.00	27	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:16:00.00	28	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:18:00.00	29	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:20:00.00	30	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:22:00.00	31	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:24:00.00	32	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:26:00.00	33	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:28:00.00	34	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:30:00.00	35	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:32:00.00	36	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:34:00.00	37	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:36:00.00	38	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:38:00.00	39	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:40:00.00	40	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:42:00.00	41	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:44:00.00	42	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:46:00.00	43	0-W-OQ	 VAL: faa invalid - GRAD: mtf1, mag excessive
+?	19120003	1981-11-07T18:48:00.00	44	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:50:00.00	45	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:52:00.00	46	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:54:00.00	47	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:56:00.00	48	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T18:58:00.00	49	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:00:00.00	50	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:02:00.00	51	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:04:00.00	52	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:06:00.00	53	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:08:00.00	54	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:10:00.00	55	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:12:00.00	56	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:14:00.00	57	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:16:00.00	58	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:18:00.00	59	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:20:00.00	60	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:22:00.00	61	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:24:00.00	62	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:26:00.00	63	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:28:00.00	64	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:30:00.00	65	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:32:00.00	66	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:34:00.00	67	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:36:00.00	68	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:38:00.00	69	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:40:00.00	70	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:42:00.00	71	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:44:00.00	72	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:46:00.00	73	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:48:00.00	74	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:50:00.00	75	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:52:00.00	76	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:54:00.00	77	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:56:00.00	78	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T19:58:00.00	79	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:00:00.00	80	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-07T20:10:00.00	85	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	19120003	1981-11-07T20:12:00.00	86	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:14:00.00	87	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:16:00.00	88	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:18:00.00	89	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:20:00.00	90	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:22:00.00	91	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:24:00.00	92	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:26:00.00	93	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:28:00.00	94	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:30:00.00	95	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:32:00.00	96	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:34:00.00	97	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:36:00.00	98	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:38:00.00	99	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:40:00.00	100	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:42:00.00	101	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:44:00.00	102	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:46:00.00	103	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:48:00.00	104	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:50:00.00	105	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:52:00.00	106	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:54:00.00	107	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:56:00.00	108	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T20:58:00.00	109	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T21:00:00.00	110	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T21:02:00.00	111	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T21:04:00.00	112	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-07T21:06:00.00	113	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:42:00.00	221	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:44:00.00	222	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:46:00.00	223	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:48:00.00	224	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:50:00.00	225	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:52:00.00	226	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:54:00.00	227	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:56:00.00	228	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T00:58:00.00	229	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:00:00.00	230	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:02:00.00	231	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:04:00.00	232	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:06:00.00	233	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:08:00.00	234	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:10:00.00	235	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:12:00.00	236	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:14:00.00	237	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:16:00.00	238	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:18:00.00	239	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:20:00.00	240	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:22:00.00	241	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:24:00.00	242	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:26:00.00	243	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:28:00.00	244	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:30:00.00	245	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:32:00.00	246	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:34:00.00	247	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:36:00.00	248	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:38:00.00	249	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:40:00.00	250	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:42:00.00	251	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:44:00.00	252	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:46:00.00	253	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:48:00.00	254	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:50:00.00	255	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:52:00.00	256	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:54:00.00	257	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:56:00.00	258	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T01:58:00.00	259	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:00:00.00	260	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:02:00.00	261	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:04:00.00	262	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:06:00.00	263	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:08:00.00	264	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T02:10:00.00	265	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:46:00.00	433	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:48:00.00	434	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:50:00.00	435	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:52:00.00	436	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:54:00.00	437	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:56:00.00	438	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T07:58:00.00	439	0-W-0	 VAL: faa invalid
+?	19120003	1981-11-08T23:46:00.00	913	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-08T23:48:00.00	914	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-08T23:50:00.00	915	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-08T23:58:00.00	919	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T04:28:00.00	1774	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T04:30:00.00	1775	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T04:38:00.00	1779	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T04:40:00.00	1780	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T17:10:00.00	2154	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-10T17:12:00.00	2155	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T02:50:00.00	2444	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T02:52:00.00	2445	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T03:00:00.00	2449	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T03:02:00.00	2450	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T05:16:00.00	2517	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T18:12:00.00	2905	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-11T18:22:00.00	2910	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-19T05:36:00.00	8287	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-19T05:40:00.00	8289	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-19T09:16:00.00	8397	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-19T12:24:00.00	8491	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T14:36:00.00	12157	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T14:44:00.00	12161	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T14:48:00.00	12163	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T17:48:00.00	12253	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T20:26:00.00	12332	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-24T20:32:00.00	12335	0-0-W	 GRAD: faa excessive
+?	19120003	1981-11-25T17:32:00.00	12965	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive

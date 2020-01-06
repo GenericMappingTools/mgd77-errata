@@ -1,0 +1,24 @@
+# Cruise J1010037 ID HT890713 MGD77 FILE VERSION: 19921231 N_RECS: 131
+# Examined: Thu Aug  4 20:10:48 2011 by mtchandl
+# Arguments:  -R139.1/139.2/34.95/35.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Poor correlation between ship and satellite gravity, possibly due to near shore setting. Flagged excessive depth gradients.
+# Errata: Header
+Y-I-J1010037-depth-01: RLS m: 1.03196 b: 0 rms: 7.0105 r: 0.977277 sig: 1 dec: 0
+Y-I-J1010037-faa-01: RLS m: 0.393285 b: 30.3417 rms: 13.9711 r: 0.392697 sig: 1 dec: 1
+N-E-J1010037-faa-02: Regression slope 0.393285 statistically identical to 0.1. Recommended: [10]
+Y-W-J1010037-faa-03: Regression offset 30.3417 different from 0.
+Y-I-J1010037-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1010037-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.704358 b: 15.9285 rms: 2.88004 r: 0.899983 sig: 1 dec: 0). [Recompute]
+Y-W-J1010037-faa-09: only found positive values
+Y-W-J1010037-depth-12: Integer precision
+# Errata: Data
+Y	J1010037	1989-07-13T01:48:00.00	30	0-0-L	 GRAD: depth excessive
+Y	J1010037	1989-07-13T01:57:00.00	31	0-0-L	 GRAD: depth excessive
+Y	J1010037	1989-07-13T02:00:00.00	34	0-0-L	 GRAD: depth excessive
+Y	J1010037	1989-07-13T02:01:00.00	35	0-0-L	 GRAD: depth excessive
+Y	J1010037	1989-07-13T02:40:00.00	48	0-0-L	 GRAD: depth excessive
+Y	J1010037	1989-07-13T02:42:00.00	49	0-0-L	 GRAD: depth excessive

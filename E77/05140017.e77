@@ -1,0 +1,63 @@
+# Cruise 05140017 ID TS8902 MGD77 FILE VERSION: 20080806 N_RECS: 7537
+# Examined: Fri May 21 12:59:08 2010 by mtchandl
+# Arguments:  -R172.45/175.2/-41.45/-39.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05140017-H13-10: Survey year (1989) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140017-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140017-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140017-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140017-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05140017-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05140017-depth-01: RLS m: 1.03445 b: 0 rms: 7.97913 r: 0.978046 sig: 1 dec: 0
+N-E-05140017-depth-02: Regression slope 1.03445 different from 1. Recommended: [1]
+Y-I-05140017-faa-01: RLS m: 1.00817 b: 0.497691 rms: 3.82086 r: 0.996326 sig: 1 dec: 0
+N-E-05140017-faa-02: Regression slope 1.00817 different from 1. Recommended: [1]
+Y-W-05140017-faa-03: Regression offset 0.497691 different from 0.
+Y-E-05140017-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00243 b: -18.361 rms: 22.4518 r: 0.998157 sig: 1 dec: 1). [Recompute]
+Y-W-05140017-depth-12: Integer precision
+Y-W-05140017-mtf1-12: Integer precision
+# Errata: Data
+?	05140017	1989-05-09T23:57:00.00	64	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-09T23:58:00.00	65	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-10T08:12:00.00	558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-10T08:13:00.00	559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-10T08:14:00.00	560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-10T08:16:00.00	562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-10T08:24:00.00	570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T03:48:00.00	1714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T03:49:00.00	1715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T03:57:00.00	1723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T03:58:00.00	1724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T15:13:00.00	2391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:12:00.00	2570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:13:00.00	2571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:18:00.00	2576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:19:00.00	2577	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:27:00.00	2585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:28:00.00	2586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:34:00.00	2592	0-0-Q	 GRAD: mag excessive
+?	05140017	1989-05-11T18:35:00.00	2593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:36:00.00	2594	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:37:00.00	2595	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-11T18:38:00.00	2596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-12T10:57:00.00	3574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-12T10:58:00.00	3575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-13T04:17:00.00	4614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-13T04:22:00.00	4619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-13T19:39:00.00	5536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-13T19:45:00.00	5542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:04:00.00	7421	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:05:00.00	7422	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:06:00.00	7423	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:07:00.00	7424	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:08:00.00	7425	0-Q-0	 VAL: mag invalid
+?	05140017	1989-05-15T03:09:00.00	7426	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:10:00.00	7427	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:11:00.00	7428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:12:00.00	7429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140017	1989-05-15T03:13:00.00	7430	0-0-OQ	 GRAD: mtf1, mag excessive

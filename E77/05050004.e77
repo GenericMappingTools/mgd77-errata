@@ -1,0 +1,127 @@
+# Cruise 05050004 ID MG6401 MGD77 FILE VERSION: 19840921 N_RECS: 3448
+# Examined: Fri Apr 30 13:39:46 2010 by mtchandl
+# Arguments:  -R161.95/173.2/-51/-43.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05050004-H13-09: Unknown IGRF specified (DGRF-65)
+Y-W-05050004-nav-00: Flagged 0.26 % of records with bad navigation
+Y-E-05050004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00063 b: -9.4957 rms: 16.9242 r: 0.999127 sig: 1 dec: 1). [Recompute]
+Y-W-05050004-mtf1-12: Integer precision
+Y-W-05050004-mag-12: Integer precision
+# Errata: Data
+?	05050004	1964-01-06T23:56:00.00	333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:00:00.00	334	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:05:00.00	335	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T00:09:00.00	336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:13:00.00	337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:18:00.00	338	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:22:00.00	339	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:26:00.00	340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:43:00.00	344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:47:00.00	345	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:52:00.00	346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T00:56:00.00	347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:21:00.00	353	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:26:00.00	354	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:30:00.00	355	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T03:34:00.00	356	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:39:00.00	357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:47:00.00	359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:51:00.00	360	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T03:56:00.00	361	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T04:00:00.00	362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:09:00.00	364	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:13:00.00	365	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:17:00.00	366	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:21:00.00	367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:26:00.00	368	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:30:00.00	369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:34:00.00	370	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T04:39:00.00	371	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T04:43:00.00	372	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T04:47:00.00	373	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T04:51:00.00	374	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-07T04:56:00.00	375	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T05:00:00.00	376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T05:26:00.00	382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T05:39:00.00	385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T05:43:00.00	386	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T05:51:00.00	388	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05050004	1964-01-07T06:00:00.00	389	C-0-0	 NAV: excessive speed
+?	05050004	1964-01-07T07:12:00.00	392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:16:00.00	393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:20:00.00	394	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:24:00.00	395	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:28:00.00	396	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:33:00.00	397	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:37:00.00	398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:41:00.00	399	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:49:00.00	401	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T07:53:00.00	402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:01:00.00	404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:06:00.00	405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:10:00.00	406	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:15:00.00	407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:19:00.00	408	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:24:00.00	409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:33:00.00	411	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:37:00.00	412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:42:00.00	413	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:46:00.00	414	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:51:00.00	415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T08:55:00.00	416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:00:00.00	417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:04:00.00	418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:12:00.00	420	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:24:00.00	423	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:28:00.00	424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:36:00.00	426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:52:00.00	430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T09:56:00.00	431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:03:00.00	517	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:12:00.00	519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:16:00.00	520	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:20:00.00	521	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:24:00.00	522	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:28:00.00	523	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:32:00.00	524	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:41:00.00	526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T16:53:00.00	529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:01:00.00	531	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:05:00.00	532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:14:00.00	534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:22:00.00	536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:30:00.00	538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:34:00.00	539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:38:00.00	540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T17:51:00.00	543	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T18:03:00.00	546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T18:07:00.00	547	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05050004	1964-01-07T20:00:00.00	574	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:04:00.00	575	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:08:00.00	576	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:12:00.00	577	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:16:00.00	578	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:20:00.00	579	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:24:00.00	580	C-0-0	 NAV: excessive speed
+Y	05050004	1964-01-07T20:28:00.00	581	C-0-0	 NAV: excessive speed
+?	05050004	1964-01-07T23:05:00.00	587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T23:09:00.00	588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-07T23:18:00.00	590	D-0-0	 NAV: on land
+?	05050004	1964-01-08T01:53:00.00	627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-08T02:43:00.00	639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-08T03:39:00.00	652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-11T02:16:00.00	1580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-23T07:15:00.00	2644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-24T08:05:00.00	2752	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-25T02:17:00.00	2956	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-25T02:21:00.00	2957	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-25T02:25:00.00	2958	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-25T02:29:00.00	2959	0-Q-0	 VAL: mag invalid
+?	05050004	1964-01-25T02:46:00.00	2963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-25T02:50:00.00	2964	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05050004	1964-01-25T11:20:00.00	3087	0-0-OQ	 GRAD: mtf1, mag excessive

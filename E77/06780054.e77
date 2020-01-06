@@ -1,0 +1,23 @@
+# Cruise 06780054 ID FARN0689 MGD77 FILE VERSION: 19941231 N_RECS: 12704
+# Examined: Fri Jul 16 16:35:28 2010 by mtchandl
+# Arguments:  -R207.75/219.2/54.25/59.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: One high amplitude predicted bathymetry feature missing in reported depth. Flagged ~5000 km of obviously bad magnetic data (instrument on deck?), flagged remaining magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06780054-depth-01: RLS m: 1 b: 0 rms: 5.81351 r: 0.999958 sig: 1 dec: 0
+Y-I-06780054-faa-01: RLS m: 1.00674 b: -0.746956 rms: 1.93109 r: 0.998416 sig: 1 dec: 0
+N-E-06780054-faa-02: Regression slope 1.00674 different from 1. Recommended: [1]
+Y-W-06780054-faa-03: Regression offset -0.746956 different from 0.
+Y-E-06780054-mag-07: Anomaly differs from mtf1-IGRF (m: 0.97198 b: 103.02 rms: 100.982 r: 0.99908 sig: 1 dec: 0). [Recompute]
+Y-E-06780054-mtf1-10: Invalid data records: [815-11581]
+Y-E-06780054-mag-10: Invalid data records: [815-11581]
+Y-W-06780054-depth-12: Integer precision
+Y-W-06780054-mtf1-12: Integer precision
+Y-W-06780054-mag-12: Integer precision
+Y-W-06780054-faa-12: Integer precision
+# Errata: Data
+?	06780054	1989-05-31T10:58:00.00	4238	0-0-K	 GRAD: twt excessive
+?	06780054	1989-05-31T11:00:00.00	4239	0-0-K	 GRAD: twt excessive

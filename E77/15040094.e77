@@ -1,0 +1,30 @@
+# Cruise 15040094 ID MARA01WT MGD77 FILE VERSION: 19820503 N_RECS: 2360
+# Examined: Fri May 23 09:58:56 2008 by mtchandl
+# Arguments:  -R202.15/242.8/21.2/32.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040094-nav-00: Flagged 0.30 % of records with excessive speed or invalid navigation
+Y-I-15040094-depth-01: RLS m: 1.00388 b: 0 rms: 112.525 r: 0.997651 sig: 1 dec: 1
+Y-E-15040094-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.991576 b: -82.9156 rms: 85.9512 r: 0.992557 sig: 1 dec: 1). [Recompute]
+Y-W-15040094-twt-11: More recent bathymetry correction table available
+Y-W-15040094-mtf1-12: Integer precision
+Y-W-15040094-mag-12: Integer precision
+# Errata: Data
+Y	15040094	1978-07-24T17:30:00.00	1	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T17:35:00.00	2	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T17:40:00.00	3	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T17:45:00.00	4	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T17:50:00.00	5	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T17:55:00.00	6	D-0-0	 NAV: on land
+Y	15040094	1978-07-24T18:00:00.00	7	D-0-0	 NAV: on land
+?	15040094	1978-07-24T18:05:00.00	8	D-0-0	 NAV: on land
+?	15040094	1978-07-24T18:10:00.00	9	D-0-0	 NAV: on land
+?	15040094	1978-07-24T18:15:00.00	10	D-0-0	 NAV: on land
+?	15040094	1978-07-24T18:20:00.00	11	D-0-0	 NAV: on land
+?	15040094	1978-07-24T18:25:00.00	12	D-0-0	 NAV: on land
+?	15040094	1978-07-30T00:10:00.00	1537	B-0-0	 NAV: decreasing time
+?	15040094	1978-07-30T22:50:00.00	1841	B-0-0	 NAV: decreasing time

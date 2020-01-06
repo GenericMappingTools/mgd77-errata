@@ -1,0 +1,33 @@
+# Cruise 84010014 ID EV1200 MGD77 FILE VERSION: 19880322 N_RECS: 4288
+# Examined: Wed Aug  3 07:26:33 2011 by mtchandl
+# Arguments:  -R168.5/176.1/-23.35/-19.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-84010014-H04-05: Invalid Survey Arrival Month: (11) [10]
+N-E-84010014-H04-06: Invalid Survey Arrival Day: ( 2) [30]
+Y-W-84010014-H13-10: Survey year (1983) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-84010014-H14-05: Invalid Gravity Reference System Code: (8) [8]
+Y-W-84010014-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-84010014-depth-01: RLS m: 1.00088 b: 0 rms: 44.3232 r: 0.99802 sig: 1 dec: 0
+Y-I-84010014-faa-01: RLS m: 1.00458 b: -2.23411 rms: 5.58065 r: 0.99417 sig: 1 dec: 0
+N-E-84010014-faa-02: Regression slope 1.00458 different from 1. Recommended: [1]
+Y-W-84010014-faa-03: Regression offset -2.23411 different from 0.
+Y-I-84010014-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-84010014-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993518 b: 37.9276 rms: 40.797 r: 0.998814 sig: 1 dec: 1). [Recompute]
+Y-W-84010014-depth-12: Integer multiple of 5 precision
+Y-W-84010014-mtf1-12: Integer precision
+Y-W-84010014-mag-12: Integer precision
+Y-W-84010014-faa-12: Integer precision
+# Errata: Data
+?	84010014	1983-10-17T10:45:00.00	284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010014	1983-10-19T23:10:00.00	1035	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010014	1983-10-20T18:06:00.00	1269	C-0-0	 NAV: excessive speed
+?	84010014	1983-10-28T01:10:00.00	3451	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010014	1983-10-28T06:40:00.00	3519	C-0-0	 NAV: excessive speed
+?	84010014	1983-10-28T06:45:00.00	3520	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010014	1983-10-28T18:40:00.00	3669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010014	1983-10-30T02:35:00.00	4023	0-0-OQ	 GRAD: mtf1, mag excessive

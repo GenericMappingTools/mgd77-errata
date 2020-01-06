@@ -1,0 +1,20 @@
+# Cruise 23060026 ID ODP123JR MGD77 FILE VERSION: 19891220 N_RECS: 4888
+# Examined: Tue Oct 19 15:20:38 2010 by mtchandl
+# Arguments:  -R105.15/117.95/-20.1/-6.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-23060026-H04-03: Invalid Survey Departure Day: (01) [04]
+N-E-23060026-H04-05: Invalid Survey Arrival Month: (11) [10]
+N-E-23060026-H04-06: Invalid Survey Arrival Day: (01) [29]
+Y-I-23060026-depth-01: RLS m: 0.999562 b: 0 rms: 10.5707 r: 0.999973 sig: 1 dec: 0
+N-E-23060026-depth-02: Regression slope 0.999562 different from 1. Recommended: [1]
+Y-E-23060026-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00585 b: -114.305 rms: 114.857 r: 0.998908 sig: 1 dec: 0). [Recompute]
+Y-W-23060026-twt-11: More recent bathymetry correction table available
+Y-W-23060026-depth-12: Integer precision
+Y-W-23060026-mtf1-12: Integer precision
+# Errata: Data
+?	23060026	1988-10-28T00:10:00.00	4262	0-0-K	 GRAD: twt excessive

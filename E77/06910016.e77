@@ -1,0 +1,45 @@
+# Cruise 06910016 ID P585AT MGD77 FILE VERSION: 19881202 N_RECS: 5417
+# Examined: Fri Jul 16 17:10:16 2010 by mtchandl
+# Arguments:  -R280.45/283.5/23.35/27.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (contained in gobs and in eot column).
+# Errata: Header
+Y-W-06910016-nav-00: Flagged 0.52 % of records with bad navigation
+Y-I-06910016-faa-01: RLS m: 0.980109 b: -0.54429 rms: 3.25862 r: 0.997558 sig: 1 dec: 0
+N-E-06910016-faa-02: Regression slope 0.980109 different from 1. Recommended: [1]
+Y-W-06910016-faa-03: Regression offset -0.54429 different from 0.
+N-E-06910016-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00029 b: 0.805806 rms: 0.80095 r: 0.999999 sig: 1 dec: 0). [Recompute]
+N-E-06910016-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.718124 b: 2.78095 rms: 29.1403 r: 0.880155 sig: 1 dec: 0). [Recompute]
+N-E-06910016-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1.12276 b: -20.4956 rms: 25.8832 r: 0.942768 sig: 1 dec: 0). [Adjust to IGF 1980]
+# Errata: Data
+Y	06910016	1985-04-24T04:57:00.00	2809	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:01:00.00	2813	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:02:00.00	2814	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:35:00.00	2847	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:36:00.00	2848	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:37:00.00	2849	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:38:00.00	2850	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:39:00.00	2851	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:40:00.00	2852	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:41:00.00	2853	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T05:42:00.00	2854	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-24T07:57:00.00	2923	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:07:00.00	3930	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:08:00.00	3931	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:09:00.00	3932	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:10:00.00	3933	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:11:00.00	3934	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:12:00.00	3935	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:13:00.00	3936	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:14:00.00	3937	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:15:00.00	3938	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:16:00.00	3939	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:17:00.00	3940	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:18:00.00	3941	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:19:00.00	3942	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:20:00.00	3943	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:21:00.00	3944	C-0-0	 NAV: excessive speed
+Y	06910016	1985-04-25T02:22:00.00	3945	C-0-0	 NAV: excessive speed

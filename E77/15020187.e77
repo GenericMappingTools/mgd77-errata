@@ -1,0 +1,72 @@
+# Cruise 15020187 ID AVON01MV MGD77 FILE VERSION: 20040517 N_RECS: 23420
+# Examined: Mon May 19 04:24:33 2008 by mtchandl
+# Arguments:  -R171.15/242.8/7.05/33.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anamolies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+N-E-15020187-H04-06: Invalid Survey Arrival Day: (23) [22]
+Y-W-15020187-H13-10: Survey year (1999) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15020187-H15-01: Invalid Gravity Departure Base Station Value: (979535.) [9795350]
+Y-E-15020187-H15-03: Invalid Gravity Arrival Base Station Value: (978319.) [9783190]
+Y-W-15020187-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15020187-depth-01: RLS m: 1.03125 b: 0 rms: 406.191 r: 0.96706 sig: 1 dec: 1
+N-E-15020187-depth-02: Regression slope 1.03125 different from 1. Recommended: [1]
+Y-I-15020187-faa-01: RLS m: 0.996725 b: -0.925866 rms: 8.03305 r: 0.995315 sig: 1 dec: 1
+N-E-15020187-faa-06: Anomaly differs from gobs - IGF80 (m: 0.996217 b: -68.292 rms: 69.545 r: 0.990521 sig: 1 dec: 1). [Recompute]
+N-E-15020187-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.9918 b: -53.1845 rms: 55.0451 r: 0.991665 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020187-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00594 b: -69.0148 rms: 72.181 r: 0.996147 sig: 1 dec: 1). [Recompute]
+Y-W-15020187-twt-11: More recent bathymetry correction table available
+Y-W-15020187-depth-12: Integer precision
+Y-W-15020187-mtf1-12: Integer precision
+# Errata: Data
+?	15020187	1999-01-06T16:00:00.00	1	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:01:00.00	2	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:02:00.00	3	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:03:00.00	4	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:04:00.00	5	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:05:00.00	6	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:06:00.00	7	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:07:00.00	8	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:08:00.00	9	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:09:00.00	10	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:10:00.00	11	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:11:00.00	12	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:12:00.00	13	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:13:00.00	14	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:14:00.00	15	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:15:00.00	16	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:16:00.00	17	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:17:00.00	18	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:18:00.00	19	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:19:00.00	20	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:20:00.00	21	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:21:00.00	22	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:22:00.00	23	D-0-0	 NAV: on land
+Y	15020187	1999-01-06T16:23:00.00	24	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:24:00.00	25	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:25:00.00	26	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:26:00.00	27	D-0-0	 NAV: on land
+?	15020187	1999-01-06T16:27:00.00	28	D-0-0	 NAV: on land
+?	15020187	1999-01-07T07:54:00.00	955	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020187	1999-01-07T07:55:00.00	956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-07T22:57:00.00	1858	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15020187	1999-01-07T22:58:00.00	1859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-09T18:55:00.00	4496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-09T18:59:00.00	4500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-09T19:00:00.00	4501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-09T19:01:00.00	4502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-09T19:02:00.00	4503	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020187	1999-01-15T21:34:00.00	13295	0-Q-0	 VAL: mag invalid
+?	15020187	1999-01-19T11:39:00.00	18460	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-19T11:40:00.00	18461	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-19T11:42:00.00	18463	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-19T11:43:00.00	18464	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-21T20:27:00.00	21868	0-0-K	 GRAD: twt excessive
+?	15020187	1999-01-22T17:18:00.00	23119	0-0-K	 GRAD: twt excessive
+?	15020187	1999-01-22T17:50:00.00	23151	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-22T17:51:00.00	23152	0-0-U	 GRAD: gobs excessive
+?	15020187	1999-01-22T17:52:00.00	23153	0-0-U	 GRAD: gobs excessive

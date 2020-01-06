@@ -1,0 +1,36 @@
+# Cruise 84020003 ID GEO300E MGD77 FILE VERSION: 19890630 N_RECS: 3983
+# Examined: Fri Jul 10 20:45:56 2009 by mtchandl
+# Arguments:  -R178.25/189.85/-35.5/-22.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-84020003-H04-06: Invalid Survey Arrival Day: (13) [14]
+Y-I-84020003-depth-01: RLS m: 0.996686 b: 0 rms: 30.5135 r: 0.999916 sig: 1 dec: 0
+N-E-84020003-depth-02: Regression slope 0.996686 different from 1. Recommended: [1]
+Y-E-84020003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990795 b: -87.8817 rms: 92.569 r: 0.988827 sig: 1 dec: 1). [Recompute]
+N-E-84020003-depth-08: Extended offset from grid [18-2839]
+N-E-84020003-depth-08: Extended offset from grid [2840-3983]
+Y-W-84020003-depth-12: Integer precision
+Y-W-84020003-mtf1-12: Integer precision
+Y-W-84020003-mag-12: Integer precision
+# Errata: Data
+?	84020003	1975-12-04T13:00:00.00	1402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-04T13:30:00.00	1408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-04T13:45:00.00	1411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-05T04:05:00.00	1576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-05T04:10:00.00	1577	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-05T14:45:00.00	1707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-06T09:15:00.00	1739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-06T13:50:00.00	1797	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-06T14:00:00.00	1799	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-07T04:55:00.00	1976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-12T02:15:00.00	3352	B-0-0	 NAV: decreasing time
+?	84020003	1975-12-14T03:45:00.00	3930	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-14T04:25:00.00	3938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-14T04:30:00.00	3939	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84020003	1975-12-14T04:40:00.00	3941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-14T04:45:00.00	3942	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84020003	1975-12-14T04:50:00.00	3943	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,23 @@
+# Cruise 01020030 ID ELT30 MGD77 FILE VERSION: 19790127 N_RECS: 11595
+# Examined: Wed Jul  8 20:55:57 2009 by mtchandl
+# Arguments:  -R153.15/237.25/-26.85/37.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01020030-H16-01: Invalid Number of Ten Degree Identifiers: (16) [15]
+Y-W-01020030-H16-06: Ten Degree Identifier 1018 marked in header but was not crossed
+Y-I-01020030-depth-01: RLS m: 0.999504 b: 0 rms: 12.5515 r: 0.999984 sig: 1 dec: 0
+N-E-01020030-depth-02: Regression slope 0.999504 different from 1. Recommended: [1]
+Y-I-01020030-faa-01: RLS m: 1.02188 b: -5.33186 rms: 10.0067 r: 0.98877 sig: 1 dec: 1
+Y-W-01020030-faa-03: Regression offset -5.33186 different from 0.
+Y-E-01020030-mag-07: Anomaly differs from mtf1-IGRF (m: 0.903751 b: 8.58258 rms: 58.1494 r: 0.896094 sig: 1 dec: 0). [Recompute]
+N-E-01020030-depth-08: Extended offset from grid [3-8623]
+N-E-01020030-depth-08: Extended offset from grid [8624-11595]
+Y-W-01020030-twt-11: More recent bathymetry correction table available
+Y-W-01020030-mtf1-12: Integer precision
+Y-W-01020030-mag-12: Integer precision
+# Errata: Data
+?	01020030	1967-08-16T23:30:00.00	1371	B-0-0	 NAV: decreasing time

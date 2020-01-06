@@ -1,0 +1,125 @@
+# Cruise 88010055 ID NBP9707 MGD77 FILE VERSION: 20060206 N_RECS: 26188
+# Examined: Mon Nov  7 17:21:14 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-88010055-H04-03: Invalid Survey Departure Day: (10) [09]
+Y-E-88010055-H04-06: Invalid Survey Arrival Day: (25) [27]
+Y-W-88010055-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-88010055-depth-01: RLS m: 1 b: 0 rms: 16.0209 r: 0.999914 sig: 1 dec: 0
+Y-E-88010055-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00138 b: -137.428 rms: 184.599 r: 0.866869 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	88010055	1997-10-15T03:51:00.00	7909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T03:52:00.00	7910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T04:08:00.00	7926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T04:10:00.00	7928	0-0-Q	 GRAD: mag excessive
+?	88010055	1997-10-15T06:00:00.00	8037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T06:01:00.00	8038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T06:02:00.00	8039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T06:03:00.00	8040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T06:04:00.00	8041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T09:14:00.00	8231	0-0-Q	 GRAD: mag excessive
+?	88010055	1997-10-15T09:15:00.00	8232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T09:16:00.00	8233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T09:17:00.00	8234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T09:44:00.00	8261	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T09:45:00.00	8262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T11:24:00.00	8361	0-0-O	 GRAD: mtf1 excessive
+?	88010055	1997-10-15T11:27:00.00	8364	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T11:47:00.00	8384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-15T20:00:00.00	8877	0-0-O	 GRAD: mtf1 excessive
+?	88010055	1997-10-15T20:35:00.00	8912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:39:00.00	20685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:40:00.00	20686	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:41:00.00	20687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:42:00.00	20688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:43:00.00	20689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:44:00.00	20690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:45:00.00	20691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:46:00.00	20692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:47:00.00	20693	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:48:00.00	20694	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T01:50:00.00	20696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:51:00.00	20697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:52:00.00	20698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:53:00.00	20699	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:54:00.00	20700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:55:00.00	20701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:56:00.00	20702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:57:00.00	20703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T01:58:00.00	20704	0-0-Q	 GRAD: mag excessive
+?	88010055	1997-10-24T01:59:00.00	20705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:51:00.00	21837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:52:00.00	21838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:53:00.00	21839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:54:00.00	21840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:55:00.00	21841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:56:00.00	21842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:57:00.00	21843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:58:00.00	21844	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T20:59:00.00	21845	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:00:00.00	21846	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:01:00.00	21847	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:02:00.00	21848	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:03:00.00	21849	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:04:00.00	21850	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:05:00.00	21851	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:06:00.00	21852	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:07:00.00	21853	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:08:00.00	21854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:10:00.00	21856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:19:00.00	21865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:20:00.00	21866	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:21:00.00	21867	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:22:00.00	21868	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:23:00.00	21869	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:24:00.00	21870	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:25:00.00	21871	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:26:00.00	21872	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:27:00.00	21873	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:28:00.00	21874	0-Q-0	 VAL: mag invalid
+?	88010055	1997-10-24T21:29:00.00	21875	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:30:00.00	21876	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:31:00.00	21877	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:32:00.00	21878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:33:00.00	21879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:34:00.00	21880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:35:00.00	21881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:36:00.00	21882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:37:00.00	21883	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:38:00.00	21884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-24T21:40:00.00	21886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-27T00:30:00.00	24902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-27T00:31:00.00	24903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-27T00:32:00.00	24904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-27T00:33:00.00	24905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010055	1997-10-27T21:31:00.00	26163	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:32:00.00	26164	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:33:00.00	26165	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:34:00.00	26166	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:35:00.00	26167	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:36:00.00	26168	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:37:00.00	26169	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:38:00.00	26170	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:39:00.00	26171	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:40:00.00	26172	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:41:00.00	26173	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:42:00.00	26174	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:43:00.00	26175	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:44:00.00	26176	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:45:00.00	26177	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:46:00.00	26178	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:47:00.00	26179	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:48:00.00	26180	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:49:00.00	26181	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:50:00.00	26182	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:51:00.00	26183	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:52:00.00	26184	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:53:00.00	26185	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:54:00.00	26186	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:55:00.00	26187	D-0-0	 NAV: on land
+Y	88010055	1997-10-27T21:56:00.00	26188	D-0-0	 NAV: on land

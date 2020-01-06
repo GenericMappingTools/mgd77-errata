@@ -1,0 +1,53 @@
+# Cruise 19100042 ID DIS131L2 MGD77 FILE VERSION: 19941231 N_RECS: 1604
+# Examined: Mon Sep  6 13:39:21 2010 by mtchandl
+# Arguments:  -R308.25/321.55/47.8/52.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100042-nav-00: Flagged 1.93 % of records with bad navigation
+Y-I-19100042-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1
+Y-W-19100042-depth-02: Ship and /Users/data/GRIDS/topo1.grd grid appear identical (m=1,b=0,s=0)
+Y-I-19100042-faa-01: RLS m: 0.996007 b: -1.6022 rms: 2.94279 r: 0.991223 sig: 1 dec: 0
+Y-W-19100042-faa-03: Regression offset -1.6022 different from 0.
+Y-E-19100042-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00035 b: 54.622 rms: 54.9804 r: 0.999733 sig: 1 dec: 1). [Recompute]
+Y-W-19100042-depth-12: Integer precision
+Y-W-19100042-mtf1-12: Integer precision
+Y-W-19100042-mag-12: Integer precision
+Y-W-19100042-faa-12: Integer precision
+# Errata: Data
+Y	19100042	1982-09-09T18:20:00.00	2	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:22:00.00	3	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:24:00.00	4	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:26:00.00	5	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:28:00.00	6	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:30:00.00	7	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:32:00.00	8	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:34:00.00	9	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:36:00.00	10	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-09T18:38:00.00	11	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T19:14:00.00	1470	B-0-0	 NAV: non-increasing time
+Y	19100042	1982-09-11T19:16:00.00	1472	B-0-0	 NAV: non-increasing time
+?	19100042	1982-09-11T20:30:00.00	1509	0-0-O	 GRAD: mtf1 excessive
+?	19100042	1982-09-11T20:32:00.00	1510	0-0-O	 GRAD: mtf1 excessive
+Y	19100042	1982-09-11T22:42:00.00	1575	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:00:00.00	1584	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:08:00.00	1588	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:10:00.00	1589	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:12:00.00	1590	C-0-O	 NAV: excessive speed - GRAD: mtf1 excessive
+Y	19100042	1982-09-11T23:14:00.00	1591	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:15:00.00	1592	C-0-O	 NAV: excessive speed - GRAD: mtf1 excessive
+Y	19100042	1982-09-11T23:16:00.00	1593	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:18:00.00	1594	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:20:00.00	1595	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:22:00.00	1596	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:24:00.00	1597	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:26:00.00	1598	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:28:00.00	1599	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:30:00.00	1600	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:32:00.00	1601	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:34:00.00	1602	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:36:00.00	1603	C-0-0	 NAV: excessive speed
+Y	19100042	1982-09-11T23:38:00.00	1604	C-0-0	 NAV: excessive speed

@@ -1,0 +1,97 @@
+# Cruise 88010057 ID NBP9908 MGD77 FILE VERSION: 20060206 N_RECS: 29607
+# Examined: Thu Aug  4 19:51:56 2011 by mtchandl
+# Arguments:  -R172.85/286.2/-44.55/-36.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-88010057-H04-06: Invalid Survey Arrival Day: (05) [07]
+Y-W-88010057-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-88010057-depth-01: RLS m: 1.00032 b: 0 rms: 21.4953 r: 0.99984 sig: 1 dec: 0
+N-E-88010057-depth-02: Regression slope 1.00032 different from 1. Recommended: [1]
+Y-I-88010057-faa-01: RLS m: 1.01474 b: -0.0156887 rms: 8.09098 r: 0.990186 sig: 1 dec: 1
+Y-I-88010057-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-88010057-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.944567 b: 49.4962 rms: 53.5406 r: 0.978445 sig: 1 dec: 1). [Recompute]
+Y-E-88010057-mag-07: Anomaly differs from mtf1-IGRF (m: 1.06779 b: -139.134 rms: 166.959 r: 0.936633 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	88010057	1999-08-20T03:10:00.00	3070	0-0-L	 GRAD: depth excessive
+?	88010057	1999-08-20T03:11:00.00	3071	0-0-L	 GRAD: depth excessive
+?	88010057	1999-08-20T03:12:00.00	3072	0-0-L	 GRAD: depth excessive
+?	88010057	1999-08-24T15:23:00.00	9494	0-0-Q	 GRAD: mag excessive
+?	88010057	1999-08-24T16:50:00.00	9581	0-0-O	 GRAD: mtf1 excessive
+?	88010057	1999-08-24T16:51:00.00	9582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-24T16:52:00.00	9583	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-24T16:53:00.00	9584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-24T21:20:00.00	9851	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-25T01:08:00.00	10077	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-25T01:09:00.00	10078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-08-25T01:10:00.00	10079	0-0-O	 GRAD: mtf1 excessive
+?	88010057	1999-08-25T01:11:00.00	10080	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	88010057	1999-08-26T02:22:00.00	11528	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:23:00.00	11529	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:24:00.00	11530	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:25:00.00	11531	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:26:00.00	11532	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:27:00.00	11533	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:28:00.00	11534	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:29:00.00	11535	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:30:00.00	11536	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:31:00.00	11537	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:32:00.00	11538	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:33:00.00	11539	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:34:00.00	11540	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:35:00.00	11541	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:36:00.00	11542	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:37:00.00	11543	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:38:00.00	11544	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:39:00.00	11545	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:40:00.00	11546	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:41:00.00	11547	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:42:00.00	11548	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:43:00.00	11549	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:44:00.00	11550	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:45:00.00	11551	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:46:00.00	11552	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:47:00.00	11553	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:48:00.00	11554	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:49:00.00	11555	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:50:00.00	11556	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:51:00.00	11557	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:52:00.00	11558	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:53:00.00	11559	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:54:00.00	11560	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:55:00.00	11561	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:56:00.00	11562	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:57:00.00	11563	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:58:00.00	11564	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T02:59:00.00	11565	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:00:00.00	11566	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:01:00.00	11567	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:02:00.00	11568	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:03:00.00	11569	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:04:00.00	11570	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:05:00.00	11571	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:06:00.00	11572	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:07:00.00	11573	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:08:00.00	11574	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:09:00.00	11575	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:10:00.00	11576	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:11:00.00	11577	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:12:00.00	11578	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:13:00.00	11579	C-0-0	 NAV: excessive speed
+Y	88010057	1999-08-26T03:14:00.00	11580	C-0-0	 NAV: excessive speed
+?	88010057	1999-08-30T09:18:00.00	17638	0-0-L	 GRAD: depth excessive
+?	88010057	1999-09-01T12:15:00.00	20691	0-0-L	 GRAD: depth excessive
+?	88010057	1999-09-03T20:47:00.00	24022	0-0-L	 GRAD: depth excessive
+?	88010057	1999-09-07T00:05:00.00	28491	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T00:06:00.00	28492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T00:49:00.00	28534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T00:50:00.00	28535	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T00:51:00.00	28536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T00:52:00.00	28537	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T01:12:00.00	28557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T01:13:00.00	28558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T02:05:00.00	28610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010057	1999-09-07T02:06:00.00	28611	0-0-OQ	 GRAD: mtf1, mag excessive

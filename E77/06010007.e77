@@ -1,0 +1,29 @@
+# Cruise 06010007 ID U771PR MGD77 FILE VERSION: 19870917 N_RECS: 5323
+# Examined: Fri May 21 14:07:41 2010 by mtchandl
+# Arguments:  -R293.2/295.05/18.05/18.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-06010007-depth-01: RLS m: 0.965689 b: 0 rms: 49.9379 r: 0.995914 sig: 1 dec: 0
+N-E-06010007-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-W-06010007-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06010007	1971-12-12T12:59:00.00	835	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T13:00:00.00	836	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T13:06:00.00	842	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T13:07:00.00	843	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T14:53:00.00	949	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T14:54:00.00	950	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T14:56:00.00	952	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T14:59:00.00	955	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T15:14:00.00	970	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T15:15:00.00	971	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T16:04:00.00	1020	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T16:10:00.00	1026	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T16:39:00.00	1055	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T16:40:00.00	1056	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T17:18:00.00	1094	0-0-L	 GRAD: depth excessive
+?	06010007	1971-12-12T17:21:00.00	1097	0-0-L	 GRAD: depth excessive

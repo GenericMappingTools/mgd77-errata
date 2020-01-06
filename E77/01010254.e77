@@ -1,0 +1,57 @@
+# Cruise 01010254 ID RC2608 MGD77 FILE VERSION: 19910319 N_RECS: 66619
+# Examined: Wed Jul  8 15:42:41 2009 by mtchandl
+# Arguments:  -R210.4/256.3/-22/18.8 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Although faa may have been computed using IGF 1930, DC shift for reported faa versus satellite faa < DC shift for recomputed faa.
+# Errata: Header
+Y-E-01010254-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010254-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010254-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010254-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010254-depth-01: RLS m: 1 b: 0 rms: 21.5918 r: 0.999798 sig: 1 dec: 0
+Y-I-01010254-faa-01: RLS m: 1.11564 b: -5.79285 rms: 9.74279 r: 0.922084 sig: 1 dec: 1
+Y-W-01010254-faa-03: Regression offset -5.79285 different from 0.
+N-E-01010254-faa-06: Anomaly differs from gobs-IGF80 (m: 0.0383925 b: -2.97227 rms: 35.0353 r: 0.176562 sig: 1 dec: 0). [Recompute]
+N-E-01010254-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00252 b: -15.2967 rms: 15.2707 r: 0.997624 sig: 1 dec: 0). [Recompute]
+Y-W-01010254-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01010254-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.995002 b: 0.0379974 rms: 0.127493 r: 0.999888 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01010254-mag-07: Anomaly differs from mtf1-IGRF (m: 0.924931 b: -112.544 rms: 130.638 r: 0.943148 sig: 1 dec: 1). [Recompute]
+N-E-01010254-depth-08: Extended offset from grid [2-9485]
+N-E-01010254-depth-08: Extended offset from grid [9486-62002]
+N-E-01010254-depth-08: Extended offset from grid [62003-65054]
+N-E-01010254-depth-08: Extended offset from grid [65056-66619]
+Y-W-01010254-twt-11: More recent bathymetry correction table available
+Y-W-01010254-mtf1-12: Integer precision
+# Errata: Data
+?	01010254	1985-06-25T00:47:00.00	163	0-0-K	 GRAD: twt excessive
+?	01010254	1985-06-25T18:53:00.00	1302	0-0-K	 GRAD: twt excessive
+?	01010254	1985-06-28T10:52:00.00	5314	0-0-K	 GRAD: twt excessive
+?	01010254	1985-06-28T11:07:00.00	5330	0-0-K	 GRAD: twt excessive
+?	01010254	1985-06-28T11:08:00.00	5331	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-01T01:11:00.00	9256	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-01T01:28:00.00	9274	0-0-KL	 GRAD: twt, depth excessive
+?	01010254	1985-07-01T01:29:00.00	9275	0-0-KL	 GRAD: twt, depth excessive
+?	01010254	1985-07-01T15:13:00.00	10136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010254	1985-07-01T19:38:00.00	10414	0-0-KL	 GRAD: twt, depth excessive
+?	01010254	1985-07-01T19:48:00.00	10424	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-04T10:15:00.00	14367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010254	1985-07-05T00:09:00.00	15239	0-0-KL	 GRAD: twt, depth excessive
+?	01010254	1985-07-08T16:04:00.00	20748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010254	1985-07-09T03:01:00.00	21443	0-0-U	 GRAD: gobs excessive
+?	01010254	1985-07-10T21:38:00.00	24133	0-0-UV	 GRAD: gobs, eot excessive
+?	01010254	1985-07-10T22:04:00.00	24160	0-0-UV	 GRAD: gobs, eot excessive
+?	01010254	1985-07-10T23:35:00.00	24255	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-11T21:30:00.00	25638	0-0-V	 GRAD: eot excessive
+?	01010254	1985-07-12T02:28:00.00	25955	0-0-U	 GRAD: gobs excessive
+?	01010254	1985-07-12T17:21:00.00	26890	0-0-UW	 GRAD: gobs, faa excessive
+?	01010254	1985-07-13T00:57:00.00	27371	0-0-U	 GRAD: gobs excessive
+?	01010254	1985-07-14T20:49:00.00	30136	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-15T23:27:00.00	31823	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-16T07:57:00.00	32358	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-23T02:43:00.00	42605	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-23T03:00:00.00	42623	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-24T07:13:00.00	44401	0-0-K	 GRAD: twt excessive
+?	01010254	1985-07-27T19:38:00.00	49721	0-0-K	 GRAD: twt excessive

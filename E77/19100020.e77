@@ -1,0 +1,33 @@
+# Cruise 19100020 ID DI109L1 MGD77 FILE VERSION: 19851016 N_RECS: 10022
+# Examined: Mon Sep  6 13:19:51 2010 by mtchandl
+# Arguments:  -R295.35/302.6/11.1/20 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100020-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-19100020-depth-01: RLS m: 0.999086 b: 0 rms: 32.4089 r: 0.999815 sig: 1 dec: 0
+N-E-19100020-depth-02: Regression slope 0.999086 different from 1. Recommended: [1]
+Y-I-19100020-faa-01: RLS m: 1.00217 b: 6.93453 rms: 7.43208 r: 0.999225 sig: 1 dec: 0
+N-E-19100020-faa-02: Regression slope 1.00217 different from 1. Recommended: [1]
+Y-W-19100020-faa-03: Regression offset 6.93453 different from 0.
+Y-W-19100020-depth-12: Integer precision
+Y-W-19100020-faa-12: Integer precision
+# Errata: Data
+Y	19100020	1980-03-11T04:10:00.00	2	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-11T04:12:00.00	3	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-11T04:14:00.00	4	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-11T04:16:00.00	5	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-16T12:00:00.00	3839	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-16T12:02:00.00	3840	B-0-0	 NAV: non-increasing time
+?	19100020	1980-03-18T08:12:00.00	5165	0-0-W	 GRAD: faa excessive
+?	19100020	1980-03-18T08:14:00.00	5166	0-0-W	 GRAD: faa excessive
+Y	19100020	1980-03-18T15:08:00.00	5374	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-18T15:08:00.00	5375	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-18T15:08:00.00	5376	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-18T15:08:00.00	5377	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-20T20:22:00.00	6975	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-20T20:22:00.00	6976	B-0-0	 NAV: non-increasing time
+Y	19100020	1980-03-21T13:16:00.00	7475	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,13 @@
+# Cruise J8010001 ID ANTAC7 MGD77 FILE VERSION: 19880219 N_RECS: 2355
+# Examined: Mon Aug  8 16:00:19 2011 by mtchandl
+# Arguments:  -R40.1/115.2/-68.5/-25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J8010001-depth-01: RLS m: 0.999974 b: 0 rms: 12.7012 r: 0.999919 sig: 1 dec: 0
+Y-W-J8010001-depth-12: Integer precision
+# Errata: Data
+?	J8010001	9575.21	1755	0-0-L	 GRAD: depth excessive

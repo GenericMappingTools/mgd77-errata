@@ -1,0 +1,27 @@
+# Cruise 03000001 ID DIATTRAV MGD77 FILE VERSION: 19800213 N_RECS: 3678
+# Examined: Fri Apr  9 13:15:37 2010 by mtchandl
+# Arguments:  -R301/339.1/13.75/24.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. All reported gravity anomalies are negative, flagged portion of cruise where satellite gravity suggest anomalies should be positive.
+# Errata: Header
+Y-W-03000001-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-03000001-depth-01: RLS m: 0.999247 b: 0 rms: 64.0073 r: 0.996245 sig: 1 dec: 0
+Y-I-03000001-faa-01: RLS m: 1.00137 b: -4.29757 rms: 5.22069 r: 0.985134 sig: 1 dec: 0
+Y-W-03000001-faa-03: Regression offset -4.29757 different from 0.
+Y-E-03000001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.952106 b: 16.155 rms: 43.872 r: 0.83997 sig: 1 dec: 0). [Recompute]
+Y-W-03000001-faa-09: only found negative values
+Y-E-03000001-faa-10: Invalid data records: [490-888]
+Y-W-03000001-mtf1-12: Integer precision
+Y-W-03000001-mag-12: Integer precision
+# Errata: Data
+Y	03000001	1970-08-30T00:45:00.00	1838	C-0-0	 NAV: excessive speed
+?	03000001	1970-08-30T03:31:00.00	1924	0-0-KL	 GRAD: twt, depth excessive
+Y	03000001	1970-08-30T05:03:00.00	1968	C-0-0	 NAV: excessive speed
+?	03000001	1970-08-30T06:50:30.00	2011	0-0-K	 GRAD: twt excessive
+Y	03000001	1970-08-30T09:10:00.00	2094	C-0-0	 NAV: excessive speed
+Y	03000001	1970-08-30T11:20:00.00	2163	C-0-0	 NAV: excessive speed
+Y	03000001	1970-09-01T10:00:00.00	3332	C-0-0	 NAV: excessive speed
+Y	03000001	1970-09-01T17:25:00.00	3491	C-0-0	 NAV: excessive speed

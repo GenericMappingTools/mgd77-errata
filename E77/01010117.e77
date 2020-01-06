@@ -1,0 +1,31 @@
+# Cruise 01010117 ID RC1611 MGD77 FILE VERSION: 19790619 N_RECS: 13043
+# Examined: Mon Jul  6 15:02:59 2009 by mtchandl
+# Arguments:  -R316.9/327.55/-23.15/-8.1 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010117-H13-06: Invalid Magnetics Reference Field Code: (73) [73]
+Y-I-01010117-depth-01: RLS m: 1.0035 b: 0 rms: 133.74 r: 0.995418 sig: 1 dec: 1
+Y-I-01010117-faa-01: RLS m: 1.00493 b: -4.62089 rms: 9.1696 r: 0.994613 sig: 1 dec: 1
+Y-W-01010117-faa-03: Regression offset -4.62089 different from 0.
+Y-E-01010117-mag-07: Anomaly equivalent to mtf1-IGRF (m: 0.972275 b: 112.062 rms: 118.368 r: 0.978135 sig: 1 dec: 1). [Recompute]
+N-E-01010117-depth-08: Extended offset from grid [4-13043]
+Y-W-01010117-twt-11: More recent bathymetry correction table available
+Y-W-01010117-mtf1-12: Integer precision
+Y-W-01010117-mag-12: Integer precision
+# Errata: Data
+?	01010117	1973-06-03T21:00:00.00	47	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-03T21:05:00.00	48	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-04T00:35:00.00	118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-04T09:20:00.00	294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-15T10:20:00.00	5131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-23T05:15:00.00	8558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-23T05:17:00.00	8559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-23T05:25:00.00	8563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-26T01:35:00.00	9807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-06-26T21:10:00.00	10159	0-0-W	 GRAD: faa excessive
+?	01010117	1973-07-01T04:55:00.00	12129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010117	1973-07-01T05:00:00.00	12130	0-0-OQ	 GRAD: mtf1, mag excessive

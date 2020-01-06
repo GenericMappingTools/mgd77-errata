@@ -1,0 +1,30 @@
+# Cruise 15070003 ID HILO03SM MGD77 FILE VERSION: 19800226 N_RECS: 4602
+# Examined: Sat May 31 10:34:30 2008 by mtchandl
+# Arguments:  -R204.05/239.05/19.7/29.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15070003-H04-03: Invalid Survey Departure Day: (16) [17]
+N-E-15070003-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-I-15070003-depth-01: RLS m: 1 b: 0 rms: 148.023 r: 0.990486 sig: 1 dec: 1
+Y-E-15070003-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00951 b: -108.62 rms: 119.285 r: 0.949244 sig: 1 dec: 1). [Recompute]
+Y-W-15070003-mtf1-12: Integer multiple of 5 precision
+Y-W-15070003-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15070003	1962-04-26T07:21:00.00	2104	0-0-KL	 GRAD: twt, depth excessive
+?	15070003	1962-04-26T07:45:00.00	2112	0-0-KL	 GRAD: twt, depth excessive
+?	15070003	1962-04-26T08:09:00.00	2120	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-26T09:33:00.00	2148	0-0-KL	 GRAD: twt, depth excessive
+?	15070003	1962-04-26T09:36:00.00	2149	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-26T10:00:00.00	2157	0-0-KL	 GRAD: twt, depth excessive
+?	15070003	1962-04-26T11:00:00.00	2177	0-0-KL	 GRAD: twt, depth excessive
+?	15070003	1962-04-26T11:54:00.00	2195	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-26T12:21:00.00	2204	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-26T12:24:00.00	2205	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-26T13:36:00.00	2226	0-0-K	 GRAD: twt excessive
+?	15070003	1962-04-28T05:12:00.00	2648	0-0-K	 GRAD: twt excessive
+?	15070003	1962-05-06T06:30:00.00	4588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15070003	1962-05-06T06:42:00.00	4590	0-0-OQ	 GRAD: mtf1, mag excessive

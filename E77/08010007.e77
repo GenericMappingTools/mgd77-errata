@@ -1,0 +1,32 @@
+# Cruise 08010007 ID 71042608 MGD77 FILE VERSION: 19830518 N_RECS: 14510
+# Examined: Mon Jul 26 15:45:35 2010 by mtchandl
+# Arguments:  -R247.95/282.9/-12.1/-8.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010007-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010007-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010007-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010007-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-08010007-depth-01: RLS m: 0.999299 b: 0 rms: 38.075 r: 0.998814 sig: 1 dec: 0
+Y-I-08010007-faa-01: RLS m: 0.967641 b: -3.55684 rms: 8.02149 r: 0.988709 sig: 1 dec: 1
+N-E-08010007-faa-02: Regression slope 0.967641 different from 1. Recommended: [1]
+Y-W-08010007-faa-03: Regression offset -3.55684 different from 0.
+Y-E-08010007-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03305 b: -15.7863 rms: 38.098 r: 0.990141 sig: 1 dec: 1). [Recompute]
+Y-W-08010007-twt-11: More recent bathymetry correction table available
+Y-W-08010007-mtf1-12: Integer precision
+Y-W-08010007-mag-12: Integer precision
+Y-W-08010007-faa-12: Integer precision
+# Errata: Data
+?	08010007	1972-02-07T09:40:11.94	5982	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T10:03:11.94	6012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T10:04:30.00	6014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T10:05:11.94	6015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T10:05:42.00	6016	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T10:08:11.94	6019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-07T11:02:00.00	6072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010007	1972-02-11T14:18:00.00	8398	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010007	1972-02-23T03:00:00.00	14510	D-0-0	 NAV: on land

@@ -1,0 +1,109 @@
+# Cruise 15040142 ID PASC03WT MGD77 FILE VERSION: 19870225 N_RECS: 36104
+# Examined: Sat May 24 10:34:49 2008 by mtchandl
+# Arguments:  -R245.6/251.6/-35.05/-25.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040142-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-W-15040142-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15040142-depth-01: RLS m: 0.996125 b: 0 rms: 183.171 r: 0.980541 sig: 1 dec: 1
+Y-E-15040142-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00345 b: -51.5296 rms: 59.9633 r: 0.996582 sig: 1 dec: 1). [Recompute]
+Y-W-15040142-twt-11: More recent bathymetry correction table available
+Y-W-15040142-mtf1-12: Integer precision
+Y-W-15040142-mag-12: Integer precision
+# Errata: Data
+?	15040142	1983-03-03T18:20:00.00	1	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:21:00.00	2	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:22:00.00	3	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:23:00.00	4	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:24:00.00	5	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:25:00.00	6	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:26:00.00	7	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:27:00.00	8	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:28:00.00	9	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:29:00.00	10	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:30:00.00	11	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:31:00.00	12	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:32:00.00	13	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:33:00.00	14	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:34:00.00	15	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:35:00.00	16	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:36:00.00	17	D-0-0	 NAV: on land
+?	15040142	1983-03-03T18:37:00.00	18	D-0-0	 NAV: on land
+?	15040142	1983-03-04T00:35:00.00	376	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:36:00.00	377	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:37:00.00	378	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:38:00.00	379	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:39:00.00	380	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:40:00.00	381	0-Q-0	 VAL: mag invalid
+?	15040142	1983-03-04T00:46:00.00	387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-05T08:32:00.00	2293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-06T01:11:00.00	3292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-06T05:05:00.00	3526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-06T05:10:00.00	3531	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-06T17:42:00.00	4283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-07T05:05:00.00	4966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-08T11:20:00.00	6781	0-0-Q	 GRAD: mag excessive
+?	15040142	1983-03-08T11:21:00.00	6782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-08T11:23:00.00	6784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-09T15:43:00.00	8484	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-10T12:43:00.00	9744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-11T00:41:00.00	10462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-11T09:09:00.00	10970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-11T21:19:00.00	11700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-11T21:21:00.00	11702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-12T00:31:00.00	11892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-12T00:36:00.00	11897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-12T14:18:00.00	12719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-12T14:19:00.00	12720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-12T14:20:00.00	12721	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-13T09:29:00.00	13870	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-13T10:34:00.00	13935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-13T11:35:00.00	13996	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-13T17:37:00.00	14358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-13T21:58:00.00	14619	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-13T22:10:00.00	14631	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-14T10:09:00.00	15350	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-14T15:03:00.00	15644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-14T22:02:00.00	16063	0-0-KL	 GRAD: twt, depth excessive
+?	15040142	1983-03-15T09:24:00.00	16745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T13:33:00.00	16994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T14:28:00.00	17049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:39:00.00	17600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:40:00.00	17601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:41:00.00	17602	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:42:00.00	17603	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:43:00.00	17604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:44:00.00	17605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:45:00.00	17606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-15T23:56:00.00	17617	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-15T23:57:00.00	17618	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-17T04:45:00.00	19346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-17T10:41:00.00	19702	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-17T11:45:00.00	19766	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-17T12:02:00.00	19783	0-0-KL	 GRAD: twt, depth excessive
+?	15040142	1983-03-17T12:43:00.00	19824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-17T12:46:00.00	19827	0-0-O	 GRAD: mtf1 excessive
+?	15040142	1983-03-18T04:55:00.00	20796	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-18T05:10:00.00	20811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-19T13:11:00.00	22732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-19T13:12:00.00	22733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-19T18:45:00.00	23066	0-0-Q	 GRAD: mag excessive
+?	15040142	1983-03-19T18:46:00.00	23067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-19T23:23:00.00	23344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-23T04:50:00.00	27991	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-25T16:14:00.00	31555	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-28T07:35:00.00	35356	0-0-K	 GRAD: twt excessive
+?	15040142	1983-03-28T09:34:00.00	35475	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040142	1983-03-28T19:55:00.00	36096	D-0-0	 NAV: on land
+?	15040142	1983-03-28T19:56:00.00	36097	D-0-0	 NAV: on land
+?	15040142	1983-03-28T19:57:00.00	36098	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T19:58:00.00	36099	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T19:59:00.00	36100	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T20:00:00.00	36101	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T20:01:00.00	36102	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T20:02:00.00	36103	D-0-0	 NAV: on land
+Y	15040142	1983-03-28T20:03:00.00	36104	D-0-0	 NAV: on land

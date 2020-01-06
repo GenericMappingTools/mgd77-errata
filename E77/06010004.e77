@@ -1,0 +1,201 @@
+# Cruise 06010004 ID U471CB MGD77 FILE VERSION: 19890113 N_RECS: 34182
+# Examined: Fri May 21 13:55:26 2010 by mtchandl
+# Arguments:  -R289.65/298.3/10.45/18.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend flagging all gravity anomalies until sign error is fixed. Flagged early magnetic anomaly spike.
+# Errata: Header
+Y-W-06010004-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-06010004-depth-01: RLS m: 0.999302 b: 0 rms: 26.5776 r: 0.99989 sig: 1 dec: 0
+N-E-06010004-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-06010004-faa-01: RLS m: 0.979584 b: -4.28355 rms: 6.62924 r: 0.994761 sig: 1 dec: 0
+N-E-06010004-faa-02: Regression slope 0.979584 different from 1. Recommended: [1]
+Y-W-06010004-faa-03: Regression offset -4.28355 different from 0.
+N-E-06010004-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-06010004-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.971765 b: 11.7978 rms: 12.8024 r: 0.998082 sig: 1 dec: 0). [Recompute]
+Y-E-06010004-mag-07: Anomaly differs from mtf1-IGRF (m: 0.951832 b: -149.329 rms: 158.292 r: 0.975292 sig: 1 dec: 1). [Recompute]
+N-E-06010004-depth-08: Extended offset from grid [2-801]
+Y-E-06010004-faa-10: Invalid data records: [1-34182]
+Y-E-06010004-mag-10: Invalid data records: [1-560]
+# Errata: Data
+?	06010004	1971-08-19T08:32:00.00	533	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:33:00.00	534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:34:00.00	535	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:35:00.00	536	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:36:00.00	537	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:37:00.00	538	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:38:00.00	539	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:39:00.00	540	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:40:00.00	541	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:41:00.00	542	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:42:00.00	543	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:43:00.00	544	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:44:00.00	545	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:45:00.00	546	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:46:00.00	547	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:47:00.00	548	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:48:00.00	549	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:49:00.00	550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:50:00.00	551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T08:51:00.00	552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:13:00.00	694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:14:00.00	695	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:15:00.00	696	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:16:00.00	697	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:17:00.00	698	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:18:00.00	699	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:19:00.00	700	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:20:00.00	701	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:21:00.00	702	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:22:00.00	703	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:23:00.00	704	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:24:00.00	705	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:25:00.00	706	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:26:00.00	707	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:27:00.00	708	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:28:00.00	709	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:29:00.00	710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-08-19T11:30:00.00	711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-06T01:26:00.00	4228	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:27:00.00	4229	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:28:00.00	4230	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:29:00.00	4231	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:30:00.00	4232	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:41:00.00	4243	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:42:00.00	4244	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:43:00.00	4245	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:44:00.00	4246	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:45:00.00	4247	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:46:00.00	4248	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:47:00.00	4249	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:48:00.00	4250	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:49:00.00	4251	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T01:50:00.00	4252	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T20:56:00.00	5398	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T20:57:00.00	5399	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T20:58:00.00	5400	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T20:59:00.00	5401	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:00:00.00	5402	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:01:00.00	5403	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:02:00.00	5404	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:03:00.00	5405	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:04:00.00	5406	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-06T21:05:00.00	5407	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-07T03:06:00.00	5768	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-07T03:07:00.00	5769	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-07T03:08:00.00	5770	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-07T03:09:00.00	5771	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-07T03:10:00.00	5772	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-08T23:06:00.00	8408	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-08T23:07:00.00	8409	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-08T23:08:00.00	8410	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-08T23:09:00.00	8411	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-08T23:10:00.00	8412	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:36:00.00	8618	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:37:00.00	8619	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:38:00.00	8620	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:39:00.00	8621	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:40:00.00	8622	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:41:00.00	8623	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:42:00.00	8624	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:43:00.00	8625	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:44:00.00	8626	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T02:45:00.00	8627	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:06:00.00	8708	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:07:00.00	8709	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:08:00.00	8710	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:09:00.00	8711	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:10:00.00	8712	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:11:00.00	8713	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:12:00.00	8714	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:13:00.00	8715	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:14:00.00	8716	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T04:15:00.00	8717	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T08:42:00.00	8984	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T08:43:00.00	8985	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T08:44:00.00	8986	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T08:45:00.00	8987	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T11:36:00.00	9158	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T11:37:00.00	9159	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T11:38:00.00	9160	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T11:39:00.00	9161	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T11:40:00.00	9162	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:46:00.00	9588	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:47:00.00	9589	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:48:00.00	9590	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:49:00.00	9591	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:50:00.00	9592	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:51:00.00	9593	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:52:00.00	9594	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:53:00.00	9595	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:54:00.00	9596	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:55:00.00	9597	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:56:00.00	9598	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:57:00.00	9599	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:58:00.00	9600	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T18:59:00.00	9601	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T19:00:00.00	9602	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:11:00.00	9853	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:12:00.00	9854	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:13:00.00	9855	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:14:00.00	9856	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:15:00.00	9857	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:16:00.00	9858	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:17:00.00	9859	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:18:00.00	9860	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:19:00.00	9861	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-09T23:20:00.00	9862	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-10T11:01:00.00	10504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-10T11:02:00.00	10505	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-10T11:03:00.00	10506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-10T11:05:00.00	10508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-10T11:06:00.00	10509	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-10T11:07:00.00	10510	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-10T11:08:00.00	10511	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-10T11:09:00.00	10512	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-10T11:10:00.00	10513	0-0-W	 GRAD: faa excessive
+Y	06010004	1971-08-20T02:14:00.00	12875	B-0-0	 NAV: non-increasing time
+Y	06010004	1971-08-20T02:15:00.00	12876	B-0-0	 NAV: non-increasing time
+Y	06010004	1971-08-20T02:16:00.00	12877	B-0-0	 NAV: non-increasing time
+?	06010004	1971-09-17T15:41:00.00	15574	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:42:00.00	15575	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:43:00.00	15576	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:44:00.00	15577	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:45:00.00	15578	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:46:00.00	15579	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:47:00.00	15580	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:48:00.00	15581	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:49:00.00	15582	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-17T15:50:00.00	15583	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-18T12:24:00.00	16817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-18T12:25:00.00	16818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-18T12:26:00.00	16819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-18T12:27:00.00	16820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-18T12:28:00.00	16821	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06010004	1971-09-12T21:34:00.00	17237	B-0-0	 NAV: non-increasing time
+Y	06010004	1971-09-12T21:35:00.00	17238	B-0-0	 NAV: non-increasing time
+Y	06010004	1971-09-12T21:36:00.00	17239	B-0-0	 NAV: non-increasing time
+Y	06010004	1971-09-12T21:37:00.00	17240	B-0-0	 NAV: non-increasing time
+?	06010004	1971-09-20T23:48:00.00	20379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-20T23:49:00.00	20380	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-20T23:51:00.00	20382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-20T23:52:00.00	20383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-20T23:53:00.00	20384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-20T23:54:00.00	20385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010004	1971-09-22T04:16:00.00	22087	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:17:00.00	22088	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:18:00.00	22089	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:19:00.00	22090	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:20:00.00	22091	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:21:00.00	22092	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:22:00.00	22093	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:23:00.00	22094	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:24:00.00	22095	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-22T04:25:00.00	22096	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-26T01:36:00.00	26098	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-26T01:37:00.00	26099	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-26T01:38:00.00	26100	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-26T01:39:00.00	26101	0-0-W	 GRAD: faa excessive
+?	06010004	1971-09-26T01:40:00.00	26102	0-0-W	 GRAD: faa excessive

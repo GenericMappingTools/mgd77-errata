@@ -1,0 +1,36 @@
+# Cruise 01030118 ID V2704 MGD77 FILE VERSION: 19790920 N_RECS: 8630
+# Examined: Fri Jul 10 11:09:47 2009 by mtchandl
+# Arguments:  -R-11.5/38.05/60.3/80.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030118-nav-00: Flagged 0.07 % of records with excessive speed or invalid navigation
+Y-I-01030118-depth-01: RLS m: 1.00021 b: 0 rms: 3.42711 r: 0.999996 sig: 1 dec: 0
+N-E-01030118-depth-02: Regression slope 1.00021 different from 1. Recommended: [1]
+Y-I-01030118-faa-01: RLS m: 1.0852 b: 5.42139 rms: 13.0466 r: 0.983555 sig: 1 dec: 1
+N-E-01030118-faa-02: Regression slope 1.0852 different from 1. Recommended: [1]
+Y-W-01030118-faa-03: Regression offset 5.42139 different from 0.
+Y-E-01030118-mag-07: Anomaly differs from mtf1-IGRF (m: 0.947359 b: -30.3034 rms: 80.0026 r: 0.921172 sig: 1 dec: 1). [Recompute]
+N-E-01030118-faa-08: Extended offset from grid [4277-5309]
+N-E-01030118-depth-08: Extended offset from grid [11-8630]
+Y-W-01030118-twt-11: More recent bathymetry correction table available
+Y-W-01030118-mtf1-12: Integer precision
+Y-W-01030118-mag-12: Integer precision
+# Errata: Data
+?	01030118	1969-08-19T22:32:00.00	2853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030118	1969-08-19T22:37:00.00	2855	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01030118	1969-08-20T14:36:00.00	2998	D-0-0	 NAV: on land
+Y	01030118	1969-08-20T14:37:00.00	2999	D-0-0	 NAV: on land
+Y	01030118	1969-08-20T14:42:00.00	3000	D-0-0	 NAV: on land
+Y	01030118	1969-08-20T14:48:00.00	3001	D-0-0	 NAV: on land
+Y	01030118	1969-08-20T14:50:00.00	3002	D-0-0	 NAV: on land
+Y	01030118	1969-08-20T14:54:00.00	3003	D-0-0	 NAV: on land
+?	01030118	1969-08-23T22:48:00.00	4026	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030118	1969-08-29T14:24:00.00	5759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030118	1969-08-29T14:36:00.00	5761	0-0-Q	 GRAD: mag excessive
+?	01030118	1969-09-03T08:42:00.00	7079	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030118	1969-09-03T08:54:00.00	7082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030118	1969-09-03T10:42:00.00	7110	0-0-OQ	 GRAD: mtf1, mag excessive

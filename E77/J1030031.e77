@@ -1,0 +1,37 @@
+# Cruise J1030031 ID HM941107 MGD77 FILE VERSION: 19971028 N_RECS: 995
+# Examined: Sun Aug  7 07:35:30 2011 by mtchandl
+# Arguments:  -R137.15/137.7/33.55/33.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1030031-H04-03: Invalid Survey Departure Day: (07) [08]
+N-E-J1030031-H04-06: Invalid Survey Arrival Day: (20) [22]
+Y-E-J1030031-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-J1030031-nav-00: Flagged 1.81 % of records with bad navigation
+Y-I-J1030031-faa-01: RLS m: 0.979461 b: -1.31075 rms: 5.81889 r: 0.965605 sig: 1 dec: 0
+N-E-J1030031-faa-02: Regression slope 0.979461 different from 1. Recommended: [1]
+Y-W-J1030031-faa-03: Regression offset -1.31075 different from 0.
+N-E-J1030031-faa-06: Anomaly differs from gobs-IGF80 (m: 0.997748 b: 1.80218 rms: 1.79824 r: 0.999994 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	J1030031	1994-11-08T23:49:00.00	15	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+?	J1030031	1994-11-08T23:52:00.00	16	0-0-U	 GRAD: gobs excessive
+Y	J1030031	1994-11-09T00:03:00.00	22	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T00:04:00.00	23	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T00:13:00.00	29	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T00:14:00.00	30	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T00:18:00.00	34	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T00:19:00.00	35	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T06:28:00.00	266	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T06:29:00.00	267	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T06:52:00.00	289	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T07:27:00.00	323	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T07:28:00.00	324	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T13:23:00.00	592	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T13:24:00.00	593	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T15:06:00.00	663	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T15:07:00.00	664	C-0-0	 NAV: excessive speed
+Y	J1030031	1994-11-09T22:13:00.00	902	B-0-0	 NAV: non-increasing time
+Y	J1030031	1994-11-09T22:14:00.00	903	C-0-0	 NAV: excessive speed

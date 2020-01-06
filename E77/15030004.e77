@@ -1,0 +1,45 @@
+# Cruise 15030004 ID GMBL01EB MGD77 FILE VERSION: 19800226 N_RECS: 3002
+# Examined: Tue May 20 12:41:13 2008 by mtchandl
+# Arguments:  -R241.75/249.75/21.45/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15030004-nav-00: Flagged 0.83 % of records with excessive speed or invalid navigation
+Y-I-15030004-depth-01: RLS m: 1 b: 0 rms: 146.742 r: 0.992743 sig: 1 dec: 1
+Y-E-15030004-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.0423 b: -44.7193 rms: 111.183 r: 0.847409 sig: 1 dec: 1). [Recompute]
+Y-W-15030004-mtf1-12: Integer multiple of 5 precision
+Y-W-15030004-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15030004	1968-10-03T10:00:00.00	176	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15030004	1968-10-10T14:45:00.00	2250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15030004	1968-10-10T15:45:00.00	2262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15030004	1968-10-12T07:15:00.00	2334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15030004	1968-10-13T05:45:00.00	2604	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15030004	1968-10-14T12:45:00.00	2976	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T12:50:00.00	2977	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T12:55:00.00	2978	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:00:00.00	2979	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:05:00.00	2980	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:10:00.00	2981	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:15:00.00	2982	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:20:00.00	2983	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:25:00.00	2984	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:30:00.00	2985	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:35:00.00	2986	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:40:00.00	2987	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:45:00.00	2988	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:50:00.00	2989	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T13:55:00.00	2990	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:00:00.00	2991	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:05:00.00	2992	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:10:00.00	2993	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:15:00.00	2994	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:20:00.00	2995	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:25:00.00	2996	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:30:00.00	2997	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:35:00.00	2998	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:40:00.00	2999	D-0-0	 NAV: on land
+Y	15030004	1968-10-14T14:45:00.00	3000	D-0-0	 NAV: on land

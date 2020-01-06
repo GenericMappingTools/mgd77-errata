@@ -1,0 +1,172 @@
+# Cruise 02010016 ID CH034L01 MGD77 FILE VERSION: 19820805 N_RECS: 19949
+# Examined: Fri Mar 26 20:12:15 2010 by mtchandl
+# Arguments:  -R288.15/296.15/18.35/41.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Poor navigation likely cause the numerous flagged depth offsets. Although reported faa visually plots closer to satellite faa, this may be due to poor navigation. Recommend updating faa using IGF80.
+# Errata: Header
+Y-W-02010016-nav-00: Flagged 0.41 % of records with bad navigation
+Y-I-02010016-depth-01: RLS m: 0.996015 b: 0 rms: 120.056 r: 0.995085 sig: 1 dec: 0
+N-E-02010016-depth-02: Regression slope 0.996015 different from 1. Recommended: [1]
+Y-I-02010016-faa-01: RLS m: 0.947728 b: 2.99496 rms: 11.094 r: 0.993491 sig: 1 dec: 0
+N-E-02010016-faa-02: Regression slope 0.947728 different from 1. Recommended: [1]
+Y-W-02010016-faa-03: Regression offset 2.99496 different from 0.
+N-E-02010016-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00191 b: -13.3131 rms: 13.4929 r: 0.999794 sig: 1 dec: 0). [Recompute]
+N-E-02010016-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.940356 b: -19.2933 rms: 23.0398 r: 0.980909 sig: 1 dec: 0). [Recompute]
+Y-E-02010016-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999677 b: 0.766654 rms: 1.53749 r: 0.99986 sig: 1 dec: 0). [Adjust to IGF 1980]
+N-E-02010016-depth-08: Extended offset from grid [1-1341]
+N-E-02010016-depth-08: Extended offset from grid [5867-6128]
+N-E-02010016-depth-08: Extended offset from grid [6129-6194]
+N-E-02010016-depth-08: Extended offset from grid [6365-6764]
+N-E-02010016-depth-08: Extended offset from grid [10635-10735]
+N-E-02010016-depth-08: Extended offset from grid [10735-10876]
+N-E-02010016-depth-08: Extended offset from grid [10876-11023]
+N-E-02010016-depth-08: Extended offset from grid [12714-12972]
+N-E-02010016-depth-08: Extended offset from grid [12973-13094]
+N-E-02010016-depth-08: Extended offset from grid [13111-13159]
+N-E-02010016-depth-08: Extended offset from grid [13166-13321]
+N-E-02010016-depth-08: Extended offset from grid [13321-13418]
+N-E-02010016-depth-08: Extended offset from grid [13508-13752]
+N-E-02010016-depth-08: Extended offset from grid [13753-13860]
+N-E-02010016-depth-08: Extended offset from grid [13893-14060]
+N-E-02010016-depth-08: Extended offset from grid [14309-14506]
+N-E-02010016-depth-08: Extended offset from grid [16701-16728]
+Y-W-02010016-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	02010016	1962-10-21T11:31:00.00	1	D-0-0	 NAV: on land
+?	02010016	1962-10-21T11:36:00.00	2	D-0-0	 NAV: on land
+?	02010016	1962-10-21T11:41:00.00	3	D-0-0	 NAV: on land
+Y	02010016	1962-10-21T11:51:00.00	5	C-0-0	 NAV: excessive speed
+?	02010016	1962-10-21T12:12:00.00	6	D-0-0	 NAV: on land
+Y	02010016	1962-10-21T12:32:00.00	10	D-0-0	 NAV: on land
+?	02010016	1962-10-21T12:37:00.00	11	D-0-0	 NAV: on land
+Y	02010016	1962-10-22T08:00:00.00	300	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-22T12:25:00.00	365	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-23T00:55:00.00	563	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-23T00:58:00.00	564	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-23T20:44:00.00	960	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-24T09:00:00.00	1132	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-24T18:15:00.00	1326	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-26T22:55:00.00	2299	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-26T23:00:00.00	2300	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-26T23:05:00.00	2301	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-26T23:10:00.00	2302	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-27T19:30:00.00	2564	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-27T19:35:00.00	2565	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-27T19:40:00.00	2566	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-27T19:45:00.00	2567	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-27T19:50:00.00	2568	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-28T04:07:00.00	2709	C-0-0	 NAV: excessive speed
+Y	02010016	1962-10-28T09:15:00.00	2830	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-01T01:30:00.00	4413	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-01T01:35:00.00	4414	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-02T01:05:00.00	4792	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-02T01:10:00.00	4793	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-02T01:15:00.00	4794	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:05:00.00	5804	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:07:00.00	5805	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:10:00.00	5806	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:12:00.00	5807	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:15:00.00	5808	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:17:00.00	5809	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:20:00.00	5810	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:22:00.00	5811	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T12:27:00.00	5813	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:20:00.00	5852	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:22:00.00	5853	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:25:00.00	5854	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:27:00.00	5855	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:40:00.00	5860	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T14:45:00.00	5861	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T22:00:00.00	5992	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T22:05:00.00	5993	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-04T22:07:00.00	5994	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:05:00.00	6173	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:06:00.00	6174	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:10:00.00	6175	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:11:00.00	6176	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:15:00.00	6177	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-05T07:16:00.00	6178	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-07T21:32:00.00	6243	C-0-0	 NAV: excessive speed
+?	02010016	1962-11-09T09:21:00.00	6884	0-0-U	 GRAD: gobs excessive
+?	02010016	1962-11-09T09:31:00.00	6888	0-0-U	 GRAD: gobs excessive
+?	02010016	1962-11-11T07:07:00.00	7709	0-0-V	 GRAD: eot excessive
+Y	02010016	1962-11-11T10:30:00.00	7790	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T18:55:00.00	8701	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:00:00.00	8702	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:05:00.00	8703	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:10:00.00	8704	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:15:00.00	8705	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:20:00.00	8706	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:25:00.00	8707	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-13T19:30:00.00	8708	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T11:55:00.00	8965	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T11:58:00.00	8966	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T12:00:00.00	8967	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T12:05:00.00	8968	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T12:10:00.00	8969	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-14T12:15:00.00	8970	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-15T00:05:00.00	9112	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-15T00:08:00.00	9113	C-0-0	 NAV: excessive speed
+?	02010016	1962-11-15T04:28:00.00	9209	0-0-V	 GRAD: eot excessive
+Y	02010016	1962-11-17T18:55:00.00	10295	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-17T19:00:00.00	10296	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-17T19:05:00.00	10297	C-0-0	 NAV: excessive speed
+?	02010016	1962-11-19T05:55:00.00	10905	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:00:00.00	10906	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:05:00.00	10907	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:10:00.00	10908	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:15:00.00	10909	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:20:00.00	10910	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:25:00.00	10911	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:30:00.00	10912	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:35:00.00	10913	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:40:00.00	10914	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:45:00.00	10915	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:50:00.00	10916	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T06:55:00.00	10917	0-M-0	 VAL: bcc invalid
+?	02010016	1962-11-19T07:00:00.00	10918	0-M-0	 VAL: bcc invalid
+Y	02010016	1962-11-23T18:40:00.00	13298	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-23T18:45:00.00	13299	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-23T18:50:00.00	13300	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-23T18:55:00.00	13301	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-23T19:00:00.00	13302	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-24T10:15:00.00	13587	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-24T10:20:00.00	13588	C-0-0	 NAV: excessive speed
+Y	02010016	1962-11-24T10:25:00.00	13589	C-0-0	 NAV: excessive speed
+?	02010016	1962-11-24T10:45:00.00	13593	0-0-KL	 GRAD: twt, depth excessive
+?	02010016	1962-11-25T17:30:00.00	14298	0-0-K	 GRAD: twt excessive
+?	02010016	1962-11-25T17:40:00.00	14302	0-0-K	 GRAD: twt excessive
+?	02010016	1962-11-29T08:05:00.00	14694	0-0-K	 GRAD: twt excessive
+?	02010016	1962-11-29T09:20:00.00	14724	0-0-KL	 GRAD: twt, depth excessive
+?	02010016	1962-11-29T10:20:00.00	14748	0-0-KL	 GRAD: twt, depth excessive
+?	02010016	1962-11-30T11:00:00.00	15304	0-0-KL	 GRAD: twt, depth excessive
+?	02010016	1962-11-30T14:50:00.00	15396	0-0-KL	 GRAD: twt, depth excessive
+?	02010016	1962-12-02T03:45:00.00	16255	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T03:50:00.00	16257	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T03:55:00.00	16259	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:00:00.00	16261	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:05:00.00	16263	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:10:00.00	16265	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:15:00.00	16267	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:20:00.00	16269	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:25:00.00	16271	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:30:00.00	16273	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:35:00.00	16275	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:40:00.00	16277	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:45:00.00	16279	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:50:00.00	16281	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T04:55:00.00	16283	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:00:00.00	16285	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:05:00.00	16287	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:10:00.00	16289	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:15:00.00	16291	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:20:00.00	16293	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:25:00.00	16295	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:30:00.00	16297	0-M-0	 VAL: bcc invalid
+?	02010016	1962-12-02T05:35:00.00	16299	0-M-0	 VAL: bcc invalid
+Y	02010016	1962-12-02T14:00:00.00	16496	C-0-0	 NAV: excessive speed
+Y	02010016	1962-12-02T14:05:00.00	16497	C-0-0	 NAV: excessive speed
+?	02010016	1962-12-08T10:54:00.00	18555	0-0-V	 GRAD: eot excessive

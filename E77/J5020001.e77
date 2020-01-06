@@ -1,0 +1,280 @@
+# Cruise J5020001 ID KOFU MGD77 FILE VERSION: 19860213 N_RECS: 982
+# Examined: Mon Aug  8 15:55:59 2011 by mtchandl
+# Arguments:  -R135.6/142.25/35.55/47.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged invalid magnetics near 1000 km along-track. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J5020001-time-01: 1 of 982 records contain invalid time
+?-E-J5020001-H11-02: Invalid Topmost Latitude : (+44) [+48]
+Y-W-J5020001-nav-00: Flagged 25.46 % of records with bad navigation
+Y-I-J5020001-depth-01: RLS m: 1.00035 b: 0 rms: 14.2614 r: 0.99568 sig: 1 dec: 0
+Y-E-J5020001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00927 b: -130.867 rms: 131.672 r: 0.999326 sig: 1 dec: 0). [Recompute]
+Y-E-J5020001-mag-10: Invalid data records: [395-406]
+Y-E-J5020001-mtf1-10: Invalid data records: [395-406]
+Y-W-J5020001-mtf1-12: Integer precision
+Y-W-J5020001-mag-12: Integer precision
+# Errata: Data
+?	J5020001	1970-05-03T01:10:00.00	22	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-03T02:45:00.00	41	0-0-L	 GRAD: depth excessive
+Y	J5020001	1970-05-03T15:55:00.00	211	B-0-0	 NAV: non-increasing time
+Y	J5020001	NaN	254	E-0-0	 NAV: navigation undefined
+Y	J5020001	1970-05-03T21:35:00.00	255	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-03T21:40:00.00	256	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-03T21:45:00.00	257	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-03T21:50:00.00	258	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-03T21:55:00.00	259	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-04T02:00:00.00	309	B-0-0	 NAV: non-increasing time
+?	J5020001	1970-05-04T02:14:00.00	311	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-04T02:20:00.00	313	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-04T04:47:00.00	343	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-04T04:50:00.00	344	0-0-L	 GRAD: depth excessive
+Y	J5020001	1970-05-04T09:05:00.00	395	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-04T09:10:00.00	396	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	J5020001	1970-05-04T09:15:00.00	397	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	J5020001	1970-05-04T09:20:00.00	398	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	J5020001	1970-05-04T09:25:00.00	399	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	J5020001	1970-05-04T09:30:00.00	400	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	J5020001	1970-05-04T09:35:00.00	401	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	J5020001	1970-05-04T09:40:00.00	402	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	J5020001	1970-05-04T09:45:00.00	403	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	J5020001	1970-05-04T09:50:00.00	404	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	J5020001	1970-05-04T09:55:00.00	405	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-04T18:00:00.00	500	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-04T17:30:00.00	501	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-04T17:35:00.00	502	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-04T17:40:00.00	503	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-04T17:45:00.00	504	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-04T17:50:00.00	505	B-0-0	 NAV: non-increasing time
+?	J5020001	1970-05-04T22:25:00.00	554	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-04T22:30:00.00	555	0-0-L	 GRAD: depth excessive
+Y	J5020001	1970-05-05T00:05:00.00	581	B-0-0	 NAV: non-increasing time
+?	J5020001	1970-05-05T11:18:00.00	708	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5020001	1970-05-05T11:20:00.00	709	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5020001	1970-05-05T13:10:00.00	730	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-05T13:15:00.00	731	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-05T13:20:00.00	732	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-05T13:25:00.00	733	C-0-0	 NAV: excessive speed
+Y	J5020001	1970-05-05T13:30:00.00	734	C-0-0	 NAV: excessive speed
+?	J5020001	1970-05-05T15:00:00.00	752	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-05T15:10:00.00	754	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-05T15:30:00.00	758	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-05T15:40:00.00	760	0-0-L	 GRAD: depth excessive
+?	J5020001	1970-05-05T16:00:00.00	764	0-0-L	 GRAD: depth excessive
+Y	J5020001	1970-05-06T22:15:00.00	767	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	J5020001	1970-05-05T16:20:00.00	768	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:25:00.00	769	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:30:00.00	770	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:35:00.00	771	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:40:00.00	772	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:45:00.00	773	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:50:00.00	774	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T16:55:00.00	775	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:00:00.00	776	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:05:00.00	777	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:10:00.00	778	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:15:00.00	779	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:00:00.00	780	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:05:00.00	781	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:10:00.00	782	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:15:00.00	783	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:20:00.00	784	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:25:00.00	785	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:30:00.00	786	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:35:00.00	787	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:40:00.00	788	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:45:00.00	789	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:50:00.00	790	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T01:55:00.00	791	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:00:00.00	792	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:05:00.00	793	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:10:00.00	794	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:15:00.00	795	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:20:00.00	796	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:25:00.00	797	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T02:30:00.00	798	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T03:45:00.00	799	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T03:50:00.00	800	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T03:55:00.00	801	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:00:00.00	802	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:05:00.00	803	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:10:00.00	804	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:15:00.00	805	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:20:00.00	806	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:25:00.00	807	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:30:00.00	808	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:35:00.00	809	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:40:00.00	810	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:45:00.00	811	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:50:00.00	812	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T04:55:00.00	813	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T05:00:00.00	814	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T05:05:00.00	815	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T05:10:00.00	816	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:00:00.00	817	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:05:00.00	818	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:10:00.00	819	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:15:00.00	820	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:20:00.00	821	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:25:00.00	822	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:30:00.00	823	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:35:00.00	824	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:40:00.00	825	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:45:00.00	826	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:50:00.00	827	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T06:55:00.00	828	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T07:00:00.00	829	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T07:05:00.00	830	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T07:10:00.00	831	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T07:15:00.00	832	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T07:30:00.00	833	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:25:00.00	834	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:30:00.00	835	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:35:00.00	836	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:40:00.00	837	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:45:00.00	838	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:50:00.00	839	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T08:55:00.00	840	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:00:00.00	841	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:05:00.00	842	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:10:00.00	843	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:15:00.00	844	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:20:00.00	845	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:25:00.00	846	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:30:00.00	847	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:35:00.00	848	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:40:00.00	849	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T09:50:00.00	850	B-0-L	 NAV: non-increasing time - GRAD: depth excessive
+Y	J5020001	1970-05-06T10:40:00.00	851	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T10:45:00.00	852	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T10:50:00.00	853	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T10:55:00.00	854	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:00:00.00	855	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:05:00.00	856	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:10:00.00	857	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:15:00.00	858	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:20:00.00	859	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:25:00.00	860	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:30:00.00	861	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:35:00.00	862	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T11:50:00.00	863	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T12:50:00.00	864	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T12:55:00.00	865	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:00:00.00	866	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:05:00.00	867	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:10:00.00	868	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:15:00.00	869	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:20:00.00	870	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:25:00.00	871	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:30:00.00	872	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:35:00.00	873	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:40:00.00	874	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:45:00.00	875	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T13:50:00.00	876	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T14:50:00.00	877	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T14:55:00.00	878	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:00:00.00	879	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:05:00.00	880	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:10:00.00	881	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:15:00.00	882	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:20:00.00	883	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:25:00.00	884	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:30:00.00	885	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:35:00.00	886	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:40:00.00	887	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:45:00.00	888	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T15:50:00.00	889	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:20:00.00	890	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:25:00.00	891	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:30:00.00	892	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:35:00.00	893	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:40:00.00	894	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:45:00.00	895	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:50:00.00	896	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T17:55:00.00	897	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:00:00.00	898	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:05:00.00	899	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:10:00.00	900	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:15:00.00	901	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:20:00.00	902	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:25:00.00	903	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:30:00.00	904	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:35:00.00	905	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:40:00.00	906	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:45:00.00	907	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:50:00.00	908	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T18:55:00.00	909	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:00:00.00	910	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:05:00.00	911	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:10:00.00	912	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:15:00.00	913	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:20:00.00	914	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:25:00.00	915	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:30:00.00	916	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:35:00.00	917	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:40:00.00	918	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:45:00.00	919	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:50:00.00	920	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T19:55:00.00	921	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:00:00.00	922	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:05:00.00	923	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:10:00.00	924	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:15:00.00	925	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:20:00.00	926	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:25:00.00	927	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:30:00.00	928	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:35:00.00	929	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:40:00.00	930	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:45:00.00	931	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:50:00.00	932	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T20:55:00.00	933	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:00:00.00	934	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:05:00.00	935	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:10:00.00	936	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:15:00.00	937	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:20:00.00	938	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:25:00.00	939	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:25:00.00	940	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:30:00.00	941	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:35:00.00	942	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:40:00.00	943	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:45:00.00	944	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:50:00.00	945	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T21:55:00.00	946	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:00:00.00	947	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:05:00.00	948	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:10:00.00	949	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:15:00.00	950	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:20:00.00	951	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:25:00.00	952	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:30:00.00	953	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:35:00.00	954	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:40:00.00	955	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:45:00.00	956	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:50:00.00	957	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T22:55:00.00	958	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:00:00.00	959	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:05:00.00	960	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:10:00.00	961	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:15:00.00	962	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:20:00.00	963	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:25:00.00	964	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:30:00.00	965	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:35:00.00	966	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:40:00.00	967	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:45:00.00	968	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:50:00.00	969	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-05T23:55:00.00	970	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:00:00.00	971	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:05:00.00	972	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:10:00.00	973	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:15:00.00	974	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:20:00.00	975	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:25:00.00	976	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:30:00.00	977	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:35:00.00	978	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:40:00.00	979	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:45:00.00	980	B-0-0	 NAV: non-increasing time
+Y	J5020001	1970-05-06T00:50:00.00	981	B-0-0	 NAV: non-increasing time

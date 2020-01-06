@@ -1,0 +1,24 @@
+# Cruise 15050019 ID DSDP21GC MGD77 FILE VERSION: 19800226 N_RECS: 6754
+# Examined: Wed May 28 12:52:44 2008 by mtchandl
+# Arguments:  -R145.35/185.95/-40.85/-9.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-E-15050019-H04-03: Invalid Survey Departure Day: (16) [15]
+Y-W-15050019-H13-10: Survey year (1971-1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15050019-depth-01: RLS m: 1 b: 0 rms: 82.0897 r: 0.998869 sig: 1 dec: 1
+Y-E-15050019-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.978109 b: -15.7814 rms: 47.9481 r: 0.987741 sig: 1 dec: 1). [Recompute]
+N-E-15050019-depth-08: Extended offset from grid [651-687]
+Y-E-15050019-twt-13: Encountered possible PDR wrap errors (9.7) [10.0]
+Y-W-15050019-mtf1-12: Integer multiple of 5 precision
+Y-W-15050019-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050019	1971-11-19T06:50:00.00	654	0-0-KL	 GRAD: twt, depth excessive
+?	15050019	1971-11-22T12:30:00.00	974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050019	1971-12-10T19:20:00.00	3723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050019	1971-12-10T21:35:00.00	3750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050019	1971-12-10T21:40:00.00	3751	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050019	1971-12-29T14:00:00.00	5934	0-0-K	 GRAD: twt excessive

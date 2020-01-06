@@ -1,0 +1,76 @@
+# Cruise 08010047 ID 78123008 MGD77 FILE VERSION: 19801229 N_RECS: 28108
+# Examined: Mon Jul 26 16:16:22 2010 by mtchandl
+# Arguments:  -R202.05/260.1/16.8/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-08010047-depth-01: RLS m: 1 b: 0 rms: 30.826 r: 0.999559 sig: 1 dec: 0
+Y-I-08010047-faa-01: RLS m: 1.00997 b: 0.0688545 rms: 7.62493 r: 0.997408 sig: 1 dec: 1
+Y-E-08010047-mag-07: Anomaly differs from mtf1-IGRF (m: 0.991137 b: -16.3517 rms: 69.2988 r: 0.975626 sig: 1 dec: 1). [Recompute]
+Y-W-08010047-twt-11: More recent bathymetry correction table available
+Y-W-08010047-mtf1-12: Integer precision
+Y-W-08010047-mag-12: Integer precision
+# Errata: Data
+?	08010047	1979-07-01T00:40:13.98	942	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-01T10:36:30.00	1828	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-01T19:09:19.98	2868	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-01T20:19:40.02	3017	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-02T20:23:11.94	5813	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-02T20:53:51.00	5880	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-02T21:33:24.96	5975	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-02T21:54:24.96	6031	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-02T22:18:49.02	6087	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-03T16:08:39.00	8167	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-03T16:42:06.96	8222	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-04T03:25:52.02	9545	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-05T13:42:04.98	13784	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-08T19:02:00.96	20779	0-0-KL	 GRAD: twt, depth excessive
+?	08010047	1979-07-13T00:06:00.00	27720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T00:07:00.00	27722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T00:08:00.00	27724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T00:34:39.00	27773	0-0-K	 GRAD: twt excessive
+?	08010047	1979-07-13T01:08:00.00	27827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:09:00.00	27828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:10:00.00	27831	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:22:00.00	27845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:23:00.00	27846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:24:00.00	27847	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:25:00.00	27848	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:26:00.00	27849	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	08010047	1979-07-13T01:27:00.00	27851	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:28:00.00	27852	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:29:00.00	27853	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:30:00.00	27854	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:31:00.00	27855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:32:00.00	27856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:37:00.00	27863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:38:00.00	27864	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:39:00.00	27865	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:40:00.00	27866	0-Q-0	 VAL: mag invalid
+?	08010047	1979-07-13T01:41:00.00	27867	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:42:00.00	27868	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:43:00.00	27869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:44:00.00	27871	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:45:00.00	27872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:46:00.00	27873	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:51:00.00	27878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:52:00.00	27879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:54:00.00	27881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:55:00.00	27882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T01:56:00.00	27884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:02:00.00	27891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:03:00.00	27892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:06:00.00	27895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:07:00.00	27896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:09:00.00	27898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:10:00.00	27899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:13:00.00	27903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:14:00.00	27904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:18:00.00	27908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:19:00.00	27909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T02:20:00.00	27910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T04:26:00.00	28066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010047	1979-07-13T04:27:00.00	28067	0-0-OQ	 GRAD: mtf1, mag excessive

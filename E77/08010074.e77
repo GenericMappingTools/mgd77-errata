@@ -1,0 +1,41 @@
+# Cruise 08010074 ID 78050400 MGD77 FILE VERSION: 19830311 N_RECS: 15033
+# Examined: Mon Jul 26 16:54:09 2010 by mtchandl
+# Arguments:  -R188.95/201.8/6.7/20.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-08010074-H11-05: Invalid Leftmost Longitude: (-171) [-172]
+Y-W-08010074-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-08010074-depth-01: RLS m: 1.00035 b: 0 rms: 13.8632 r: 0.998674 sig: 1 dec: 0
+Y-I-08010074-faa-01: RLS m: 1.00806 b: 2.24853 rms: 13.0384 r: 0.948428 sig: 1 dec: 1
+Y-E-08010074-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999337 b: 84.5982 rms: 84.6253 r: 0.99999 sig: 1 dec: 0). [Recompute]
+Y-W-08010074-twt-11: More recent bathymetry correction table available
+Y-W-08010074-mtf1-12: Integer precision
+Y-W-08010074-mag-12: Integer precision
+# Errata: Data
+?	08010074	1978-05-10T09:30:00.00	4368	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-12T19:05:00.00	6188	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-13T11:30:00.00	6667	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-13T21:25:00.00	6965	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-16T22:05:00.00	9096	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-20T21:15:00.00	12050	0-0-W	 GRAD: faa excessive
+?	08010074	1978-05-22T04:35:00.00	13049	0-0-W	 GRAD: faa excessive
+Y	08010074	1978-05-23T22:40:00.00	14150	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T22:43:00.00	14151	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T22:46:00.00	14152	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T22:58:00.00	14156	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:04:00.00	14158	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:07:00.00	14159	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:13:00.00	14161	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:16:00.00	14162	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:19:00.00	14163	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:22:00.00	14164	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:25:00.00	14165	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:28:00.00	14166	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:31:00.00	14167	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:34:00.00	14168	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:37:00.00	14169	C-0-0	 NAV: excessive speed
+Y	08010074	1978-05-23T23:40:00.00	14170	C-0-0	 NAV: excessive speed

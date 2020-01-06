@@ -1,0 +1,33 @@
+# Cruise 15040185 ID RNDB13WT MGD77 FILE VERSION: 19930804 N_RECS: 10306
+# Examined: Mon May 26 16:37:46 2008 by mtchandl
+# Arguments:  -R171.15/183.1/-18.3/7.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040185-H04-03: Invalid Survey Departure Day: (10) [09]
+Y-E-15040185-H04-06: Invalid Survey Arrival Day: (17) [19]
+Y-W-15040185-H13-10: Survey year (1989) outside magnetic reference field POGO 1068 time range (1965-1968)
+Y-I-15040185-depth-01: RLS m: 1.00388 b: 0 rms: 131.408 r: 0.995804 sig: 1 dec: 1
+Y-E-15040185-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992514 b: -34.4979 rms: 36.0293 r: 0.999445 sig: 1 dec: 1). [Recompute]
+Y-W-15040185-twt-11: More recent bathymetry correction table available
+Y-W-15040185-depth-12: Integer precision
+Y-W-15040185-mtf1-12: Integer precision
+# Errata: Data
+?	15040185	1989-01-10T07:07:00.00	113	0-0-KL	 GRAD: twt, depth excessive
+?	15040185	1989-01-11T20:36:00.00	2362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:24:00.00	2410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:25:00.00	2411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:26:00.00	2412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:28:00.00	2414	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:29:00.00	2415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T21:32:00.00	2418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T23:25:00.00	2531	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-11T23:26:00.00	2532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-15T22:15:00.00	8221	0-0-K	 GRAD: twt excessive
+?	15040185	1989-01-17T00:49:00.00	9814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040185	1989-01-18T20:40:00.00	10273	D-0-0	 NAV: on land
+?	15040185	1989-01-18T20:44:00.00	10274	D-0-0	 NAV: on land
+?	15040185	1989-01-18T20:50:00.00	10275	D-0-0	 NAV: on land

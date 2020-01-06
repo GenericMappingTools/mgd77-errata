@@ -1,0 +1,12 @@
+# Cruise 02130012 ID AT3L6 MGD77 FILE VERSION: 20031224 N_RECS: 653
+# Examined: Fri Apr  2 16:06:25 2010 by mtchandl
+# Arguments:  -R238.85/241.6/33.05/34.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Near shore survey does not agree well with predicted bathymetry.
+# Errata: Header
+Y-I-02130012-depth-01: RLS m: 1.0035 b: 0 rms: 115.431 r: 0.96675 sig: 1 dec: 0
+Y-W-02130012-depth-12: Integer precision
+# Errata: Data

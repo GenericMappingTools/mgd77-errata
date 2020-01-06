@@ -1,0 +1,66 @@
+# Cruise 07060001 ID ACO65SEP MGD77 FILE VERSION: 19840131 N_RECS: 1476
+# Examined: Mon Jul 26 15:29:56 2010 by mtchandl
+# Arguments:  -R223.85/237.6/47.65/59.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Inshore survey with large discrepancies from satellite derived gravity and predicted bathyemtry
+# Errata: Header
+Y-W-07060001-nav-00: Flagged 2.24 % of records with bad navigation
+Y-I-07060001-depth-01: RLS m: 1.10654 b: 0 rms: 86.6838 r: 0.856233 sig: 1 dec: 0
+N-E-07060001-depth-02: Regression slope 1.10654 different from 1. Recommended: [1]
+Y-I-07060001-faa-01: RLS m: 0.8455 b: -21.1982 rms: 26.2423 r: 0.710535 sig: 1 dec: 0
+N-E-07060001-faa-02: Regression slope 0.8455 different from 1. Recommended: [1]
+Y-W-07060001-faa-03: Regression offset -21.1982 different from 0.
+Y-W-07060001-twt-11: More recent bathymetry correction table available
+Y-W-07060001-faa-12: Integer precision
+# Errata: Data
+?	07060001	1965-09-08T21:05:00.00	1	D-0-0	 NAV: on land
+Y	07060001	1965-09-09T14:32:00.00	117	C-0-0	 NAV: excessive speed
+?	07060001	1965-09-11T00:44:00.00	356	D-0-0	 NAV: on land
+Y	07060001	1965-09-11T00:58:00.00	357	D-0-0	 NAV: on land
+?	07060001	1965-09-11T01:08:00.00	358	D-0-0	 NAV: on land
+Y	07060001	1965-09-11T16:43:00.00	461	D-0-0	 NAV: on land
+?	07060001	1965-09-12T01:05:00.00	516	D-0-0	 NAV: on land
+?	07060001	1965-09-12T01:10:00.00	517	D-0-0	 NAV: on land
+Y	07060001	1965-09-12T01:15:00.00	518	D-0-0	 NAV: on land
+Y	07060001	1965-09-12T18:37:00.00	519	D-0-0	 NAV: on land
+?	07060001	1965-09-13T12:43:00.00	645	D-0-0	 NAV: on land
+?	07060001	1965-09-13T13:06:00.00	646	D-0-0	 NAV: on land
+Y	07060001	1965-09-13T13:14:00.00	647	D-0-0	 NAV: on land
+Y	07060001	1965-09-13T13:44:00.00	648	D-0-0	 NAV: on land
+?	07060001	1965-09-14T03:35:00.00	683	D-0-0	 NAV: on land
+?	07060001	1965-09-14T08:25:00.00	708	D-0-0	 NAV: on land
+?	07060001	1965-09-14T12:49:00.00	742	D-0-0	 NAV: on land
+?	07060001	1965-09-14T16:27:00.00	757	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:02:00.00	812	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:10:00.00	813	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:15:00.00	814	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:19:00.00	815	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:42:00.00	816	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T01:50:00.00	817	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T14:07:00.00	886	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T14:15:00.00	888	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T14:35:00.00	891	D-0-0	 NAV: on land
+Y	07060001	1965-09-15T15:02:00.00	892	D-0-0	 NAV: on land
+?	07060001	1965-09-15T15:13:00.00	893	D-0-0	 NAV: on land
+?	07060001	1965-09-17T11:57:00.00	1136	D-0-0	 NAV: on land
+?	07060001	1965-09-17T12:30:00.00	1137	D-0-0	 NAV: on land
+Y	07060001	1965-09-18T20:14:00.00	1200	D-0-0	 NAV: on land
+Y	07060001	1965-09-18T20:18:00.00	1201	D-0-0	 NAV: on land
+?	07060001	1965-09-18T20:24:00.00	1202	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T07:20:00.00	1235	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T07:26:00.00	1236	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T13:44:00.00	1280	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T13:48:00.00	1281	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T13:56:00.00	1282	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:02:00.00	1283	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:06:00.00	1284	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:11:00.00	1285	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:31:00.00	1286	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:37:00.00	1287	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:41:00.00	1288	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:46:00.00	1289	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T14:56:00.00	1290	D-0-0	 NAV: on land
+Y	07060001	1965-09-19T18:34:00.00	1314	C-0-0	 NAV: excessive speed

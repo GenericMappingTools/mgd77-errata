@@ -1,0 +1,41 @@
+# Cruise 01010249 ID RC2603 MGD77 FILE VERSION: 19960809 N_RECS: 33870
+# Examined: Wed Jul  8 14:58:31 2009 by mtchandl
+# Arguments:  -R300.2/302.5/13.1/15.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-270 nT average offset from recomputed mag. Faa may have been computed using IGF 1930 but reported faa (DC shift -6.6 mGal) agrees with satellite faa better than recomputed faa (DC shift 11.6 mGal).
+# Errata: Header
+Y-E-01010249-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010249-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010249-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010249-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010249-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010249-depth-01: RLS m: 0.995777 b: 0 rms: 116.155 r: 0.995189 sig: 1 dec: 1
+Y-I-01010249-faa-01: RLS m: 0.991471 b: -6.55528 rms: 9.15282 r: 0.994632 sig: 1 dec: 1
+Y-W-01010249-faa-03: Regression offset -6.55528 different from 0.
+N-E-01010249-faa-06: Anomaly differs from gobs-IGF80 (m: 0.412334 b: -45.4669 rms: 47.4897 r: 0.538552 sig: 1 dec: 1). [Recompute]
+N-E-01010249-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010249-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010249-mag-07: Anomaly differs from mtf1-IGRF (m: 0.220251 b: -269.038 rms: 313.561 r: 0.478575 sig: 1 dec: 0). [Recompute]
+N-E-01010249-depth-08: Extended offset from grid [19443-25750]
+N-E-01010249-depth-08: Extended offset from grid [25751-29991]
+N-E-01010249-depth-08: Extended offset from grid [29992-32213]
+N-E-01010249-depth-08: Extended offset from grid [32214-33870]
+N-E-01010249-faa-08: Extended offset from grid [1126-33870]
+Y-W-01010249-mag-09: only found negative values
+Y-W-01010249-depth-12: Integer precision
+Y-W-01010249-mtf1-12: Integer precision
+# Errata: Data
+?	01010249	1985-03-03T20:37:00.00	1765	0-0-UV	 GRAD: gobs, eot excessive
+?	01010249	1985-03-12T05:00:00.00	12068	0-0-U	 GRAD: gobs excessive
+?	01010249	1985-03-13T14:51:00.00	14044	0-0-U	 GRAD: gobs excessive
+?	01010249	1985-03-02T17:56:58.98	19442	B-0-0	 NAV: decreasing time
+?	01010249	1985-03-02T22:25:58.98	19600	0-0-KL	 GRAD: twt, depth excessive
+?	01010249	1985-03-03T04:40:03.00	19951	0-0-K	 GRAD: twt excessive
+?	01010249	1985-03-03T04:41:03.00	19952	0-0-K	 GRAD: twt excessive
+?	01010249	1985-03-03T04:42:03.00	19953	0-0-KL	 GRAD: twt, depth excessive
+?	01010249	1985-03-03T04:43:03.00	19954	0-0-KL	 GRAD: twt, depth excessive
+?	01010249	1985-03-09T06:57:01.02	26511	0-0-K	 GRAD: twt excessive
+?	01010249	1985-03-15T06:04:00.00	31304	0-0-KL	 GRAD: twt, depth excessive

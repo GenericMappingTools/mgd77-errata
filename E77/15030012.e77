@@ -1,0 +1,15 @@
+# Cruise 15030012 ID SPL2-1EB MGD77 FILE VERSION: 19800226 N_RECS: 1149
+# Examined: Tue May 20 12:47:29 2008 by mtchandl
+# Arguments:  -R237.15/242.75/31/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15030012-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-E-15030012-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00532 b: -178.708 rms: 184.064 r: 0.953021 sig: 1 dec: 1). [Recompute]
+Y-W-15030012-mtf1-12: Integer multiple of 5 precision
+Y-W-15030012-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15030012	1969-08-29T19:15:00.00	1144	0-0-OQ	 GRAD: mtf1, mag excessive

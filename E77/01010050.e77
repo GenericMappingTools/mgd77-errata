@@ -1,0 +1,32 @@
+# Cruise 01010050 ID RC1107 MGD77 FILE VERSION: 19790619 N_RECS: 9262
+# Examined: Mon Jan 26 17:09:03 2009 by mtchandl
+# Arguments:  -R109.95/150/-32.05/35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010050-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-01010050-depth-01: RLS m: 1 b: 0 rms: 12.7528 r: 0.999985 sig: 1 dec: 0
+Y-I-01010050-faa-01: RLS m: 0.989444 b: -10.8668 rms: 18.8705 r: 0.989701 sig: 1 dec: 1
+Y-W-01010050-faa-03: Regression offset -10.8668 different from 0.
+Y-E-01010050-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972019 b: 8.865 rms: 59.7729 r: 0.95969 sig: 1 dec: 1). [Recompute]
+Y-W-01010050-twt-11: More recent bathymetry correction table available
+Y-W-01010050-mtf1-12: Integer precision
+Y-W-01010050-mag-12: Integer precision
+# Errata: Data
+?	01010050	1967-05-28T19:00:00.00	2624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-05-28T19:01:00.00	2625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-05-28T19:10:00.00	2630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-05-28T19:13:00.00	2632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-05-28T19:15:00.00	2633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-06-12T04:05:00.00	6581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-06-12T04:20:00.00	6587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-06-12T05:05:00.00	6603	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-06-12T07:50:00.00	6648	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01010050	1967-06-12T09:12:00.00	6666	D-0-0	 NAV: on land
+Y	01010050	1967-06-12T09:18:00.00	6667	D-0-0	 NAV: on land
+Y	01010050	1967-06-12T09:20:00.00	6668	D-0-0	 NAV: on land
+?	01010050	1967-06-18T12:58:00.00	8265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010050	1967-06-19T00:00:00.00	8409	0-0-Q	 GRAD: mag excessive

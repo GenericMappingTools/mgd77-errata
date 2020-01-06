@@ -1,0 +1,72 @@
+# Cruise 01020065 ID I1578 MGD77 FILE VERSION: 19800908 N_RECS: 18452
+# Examined: Wed Jul  8 22:31:04 2009 by mtchandl
+# Arguments:  -R303.45/358.35/-72.5/-35.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01020065-H04-03: Invalid Survey Departure Day: (08) [18]
+N-E-01020065-H13-06: Invalid Magnetics Reference Field Code: (78) [78]
+Y-W-01020065-nav-00: Flagged 0.23 % of records with excessive speed or invalid navigation
+Y-I-01020065-depth-01: RLS m: 1 b: 0 rms: 1.14961 r: 1 sig: 1 dec: 0
+Y-I-01020065-faa-01: RLS m: 1.00633 b: -6.63587 rms: 14.2839 r: 0.978999 sig: 1 dec: 1
+Y-W-01020065-faa-03: Regression offset -6.63587 different from 0.
+Y-E-01020065-mag-07: Anomaly differs from mtf1-IGRF (m: 1.10486 b: 11.4815 rms: 104.11 r: 0.858254 sig: 1 dec: 0). [Recompute]
+N-E-01020065-depth-08: Extended offset from grid [4-18452]
+Y-W-01020065-twt-11: More recent bathymetry correction table available
+Y-W-01020065-mtf1-12: Integer precision
+Y-W-01020065-mag-12: Integer precision
+# Errata: Data
+?	01020065	1978-01-22T17:30:00.00	1363	0-0-K	 GRAD: twt excessive
+?	01020065	1978-01-31T03:15:00.00	3604	0-0-K	 GRAD: twt excessive
+?	01020065	1978-02-05T16:06:00.00	5560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020065	1978-02-05T16:19:00.00	5565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020065	1978-02-11T14:06:00.00	7575	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020065	1978-02-11T15:17:00.00	7609	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:18:00.00	7610	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:20:00.00	7611	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:21:00.00	7612	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:24:00.00	7613	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:25:00.00	7614	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:27:00.00	7615	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:28:00.00	7616	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:30:00.00	7617	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:31:00.00	7618	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:34:00.00	7619	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:35:00.00	7620	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:37:00.00	7621	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:40:00.00	7622	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:43:00.00	7623	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:45:00.00	7624	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:46:00.00	7625	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:49:00.00	7626	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:50:00.00	7627	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:52:00.00	7628	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:55:00.00	7629	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T15:58:00.00	7630	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:00:00.00	7631	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:01:00.00	7632	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:04:00.00	7633	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:05:00.00	7634	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:07:00.00	7635	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:10:00.00	7636	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:15:00.00	7637	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:20:00.00	7638	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:25:00.00	7639	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:30:00.00	7640	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:35:00.00	7641	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:40:00.00	7642	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:43:00.00	7643	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:44:00.00	7644	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:45:00.00	7645	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:50:00.00	7646	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T16:55:00.00	7647	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T17:00:00.00	7648	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T17:16:00.00	7649	D-0-0	 NAV: on land
+Y	01020065	1978-02-11T19:36:00.00	7650	D-0-0	 NAV: on land
+?	01020065	1978-02-20T06:15:00.00	10832	0-0-K	 GRAD: twt excessive
+?	01020065	1978-02-20T17:35:00.00	10919	0-0-K	 GRAD: twt excessive
+?	01020065	1978-03-02T19:47:00.00	14289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020065	1978-03-04T05:00:00.00	14796	0-0-K	 GRAD: twt excessive

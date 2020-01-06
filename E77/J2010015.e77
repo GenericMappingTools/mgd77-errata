@@ -1,0 +1,159 @@
+# Cruise J2010015 ID GH7904 MGD77 FILE VERSION: 19810916 N_RECS: 7315
+# Examined: Mon Nov  7 17:30:42 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-J2010015-H11-03: Invalid Bottommost Latitude: (-29) [-01]
+N-E-J2010015-H11-05: Invalid Leftmost Longitude: (+137) [-161]
+N-E-J2010015-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [9]
+Y-W-J2010015-H16-06: Ten Degree Identifier 3000 not marked in header but block was crossed
+Y-W-J2010015-H16-06: Ten Degree Identifier 1014 not marked in header but block was crossed
+Y-W-J2010015-H16-06: Ten Degree Identifier 7306 not marked in header but block was crossed
+Y-W-J2010015-H16-06: Ten Degree Identifier 7316 not marked in header but block was crossed
+Y-W-J2010015-nav-00: Flagged 1.05 % of records with bad navigation
+Y-I-J2010015-depth-01: RLS m: 0.998556 b: 0 rms: 43.8486 r: 0.999798 sig: 1 dec: 0
+N-E-J2010015-depth-02: Regression slope 0.998556 different from 1. Recommended: [1]
+Y-I-J2010015-faa-01: RLS m: 0.999971 b: 1.1193 rms: 5.54351 r: 0.998626 sig: 1 dec: 0
+Y-W-J2010015-faa-03: Regression offset 1.1193 different from 0.
+N-E-J2010015-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00032 b: -12.4158 rms: 12.4046 r: 0.999996 sig: 1 dec: 0). [Recompute]
+Y-E-J2010015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.976309 b: 126.876 rms: 127.658 r: 0.99603 sig: 1 dec: 1). [Recompute]
+Y-E-J2010015-depth-08: Extended offset from grid [3444-3587]
+Y-E-J2010015-depth-08: Extended offset from grid [5804-5947]
+N-E-J2010015-twt-13: Encountered possible PDR wrap errors (9.8) [10.0]
+Y-W-J2010015-twt-11: More recent bathymetry correction table available
+Y-W-J2010015-depth-12: Integer precision
+Y-W-J2010015-mtf1-12: Integer precision
+Y-W-J2010015-mag-12: Integer precision
+# Errata: Data
+Y	J2010015	1979-07-14T23:20:00.00	542	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:15:00.00	585	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:20:00.00	586	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:25:00.00	587	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:30:00.00	588	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:35:00.00	589	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-15T03:40:00.00	590	C-0-0	 NAV: excessive speed
+?	J2010015	1979-07-17T00:20:00.00	1126	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010015	1979-07-17T10:15:00.00	1245	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	J2010015	1979-07-17T21:55:00.00	1385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-17T22:05:00.00	1387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-17T22:55:00.00	1397	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010015	1979-07-17T23:00:00.00	1398	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010015	1979-07-17T23:05:00.00	1399	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010015	1979-07-18T00:00:00.00	1410	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-18T00:05:00.00	1411	C-0-0	 NAV: excessive speed
+Y	J2010015	1979-07-18T00:10:00.00	1412	C-0-0	 NAV: excessive speed
+?	J2010015	1979-07-18T02:30:00.00	1440	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010015	1979-07-18T02:35:00.00	1441	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010015	1979-07-18T13:45:00.00	1575	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	J2010015	1979-07-20T01:20:00.00	2002	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-20T02:45:00.00	2019	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-20T02:55:00.00	2021	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-20T23:10:00.00	2264	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-20T23:15:00.00	2265	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-21T00:35:00.00	2281	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-21T09:10:00.00	2384	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-07-21T09:15:00.00	2385	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-07-21T10:45:00.00	2403	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-22T02:35:00.00	2593	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010015	1979-07-22T09:20:00.00	2674	C-MQ-0	 NAV: excessive speed - VAL: bcc, mag invalid
+?	J2010015	1979-07-22T13:10:00.00	2720	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	J2010015	1979-07-22T13:15:00.00	2721	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-07-25T09:15:00.00	2884	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-25T09:20:00.00	2885	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-25T09:25:00.00	2886	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-25T09:30:00.00	2887	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-25T09:35:00.00	2888	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-25T13:25:00.00	2934	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-26T16:30:00.00	3259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-27T05:00:00.00	3409	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-28T00:10:00.00	3586	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-28T08:35:00.00	3687	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010015	1979-07-28T08:40:00.00	3688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-28T17:35:00.00	3795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-07-30T00:35:00.00	4167	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-07-30T00:40:00.00	4168	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010015	1979-07-30T03:50:00.00	4206	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	J2010015	1979-07-31T14:50:00.00	4625	C-0-0	 NAV: excessive speed
+?	J2010015	1979-08-02T11:05:00.00	5156	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-08-02T11:10:00.00	5157	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-08-02T18:50:00.00	5249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-08-02T18:55:00.00	5250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-08-03T02:35:00.00	5342	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-08-03T02:45:00.00	5344	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-08-04T07:40:00.00	5691	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-08-04T17:05:00.00	5804	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010015	1979-08-04T23:20:00.00	5879	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:25:00.00	5880	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:30:00.00	5881	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:35:00.00	5882	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:40:00.00	5883	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:45:00.00	5884	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:50:00.00	5885	D-0-0	 NAV: on land
+Y	J2010015	1979-08-04T23:55:00.00	5886	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:00:00.00	5887	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:05:00.00	5888	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:10:00.00	5889	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:15:00.00	5890	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:20:00.00	5891	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:25:00.00	5892	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:30:00.00	5893	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T00:35:00.00	5894	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T01:00:00.00	5895	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T01:30:00.00	5896	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T02:00:00.00	5897	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T02:30:00.00	5898	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T03:00:00.00	5899	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T03:30:00.00	5900	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T04:00:00.00	5901	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T04:30:00.00	5902	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T05:00:00.00	5903	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T05:30:00.00	5904	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T06:00:00.00	5905	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T06:30:00.00	5906	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T07:00:00.00	5907	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T07:30:00.00	5908	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T08:00:00.00	5909	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T08:30:00.00	5910	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T09:00:00.00	5911	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T09:30:00.00	5912	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T10:00:00.00	5913	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T10:30:00.00	5914	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T11:00:00.00	5915	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T11:30:00.00	5916	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T12:00:00.00	5917	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T12:30:00.00	5918	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T13:00:00.00	5919	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T13:30:00.00	5920	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T14:00:00.00	5921	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T14:30:00.00	5922	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T15:00:00.00	5923	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T15:30:00.00	5924	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T16:00:00.00	5925	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T16:30:00.00	5926	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T17:00:00.00	5927	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T17:30:00.00	5928	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T18:00:00.00	5929	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T18:30:00.00	5930	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T19:00:00.00	5931	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T19:30:00.00	5932	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T20:30:00.00	5933	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T21:00:00.00	5934	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T22:30:00.00	5935	D-0-0	 NAV: on land
+Y	J2010015	1979-08-05T23:00:00.00	5936	D-0-0	 NAV: on land
+Y	J2010015	1979-08-06T00:00:00.00	5937	D-0-0	 NAV: on land
+Y	J2010015	1979-08-06T00:30:00.00	5938	D-0-0	 NAV: on land
+Y	J2010015	1979-08-06T01:00:00.00	5939	D-0-0	 NAV: on land
+Y	J2010015	1979-08-06T02:00:00.00	5940	D-0-0	 NAV: on land
+?	J2010015	1979-08-06T04:00:00.00	5946	0-0-KL	 GRAD: twt, depth excessive
+?	J2010015	1979-08-07T08:50:00.00	6292	0-0-K	 GRAD: twt excessive
+?	J2010015	1979-08-07T23:35:00.00	6469	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-08-08T00:35:00.00	6481	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010015	1979-08-08T00:40:00.00	6482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-08-08T03:45:00.00	6519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010015	1979-08-09T21:25:00.00	7019	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-08-09T21:30:00.00	7020	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010015	1979-08-10T03:05:00.00	7087	0-0-KL	 GRAD: twt, depth excessive

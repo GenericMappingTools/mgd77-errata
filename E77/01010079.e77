@@ -1,0 +1,20 @@
+# Cruise 01010079 ID RC1304 MGD77 FILE VERSION: 19790619 N_RECS: 11435
+# Examined: Mon Jan 26 18:01:27 2009 by mtchandl
+# Arguments:  -R176.65/201.8/-18.7/21.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010079-H16-01: Invalid Number of Ten Degree Identifiers: (11) [10]
+Y-W-01010079-H16-06: Ten Degree Identifier 7118 marked in header but was not crossed
+Y-I-01010079-depth-01: RLS m: 0.999651 b: 0 rms: 3.3861 r: 0.999999 sig: 1 dec: 0
+N-E-01010079-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-E-01010079-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981382 b: 19.837 rms: 34.3076 r: 0.994572 sig: 1 dec: 1). [Recompute]
+Y-W-01010079-twt-11: More recent bathymetry correction table available
+Y-W-01010079-mtf1-12: Integer precision
+Y-W-01010079-mag-12: Integer precision
+# Errata: Data
+?	01010079	1970-01-19T13:25:00.00	10658	0-0-O	 GRAD: mtf1 excessive
+?	01010079	1970-01-19T13:30:00.00	10660	0-0-OQ	 GRAD: mtf1, mag excessive

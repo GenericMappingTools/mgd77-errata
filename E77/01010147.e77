@@ -1,0 +1,51 @@
+# Cruise 01010147 ID RC0913 MGD77 FILE VERSION: 19790619 N_RECS: 8668
+# Examined: Mon Jul  6 16:09:46 2009 by mtchandl
+# Arguments:  -R286.9/355.65/39.1/56.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Some disagreement between ship and satellite gravity from ~7000 km to 8700 km along-track.
+# Errata: Header
+Y-I-01010147-depth-01: RLS m: 1 b: 0 rms: 2.84505 r: 0.999999 sig: 1 dec: 0
+Y-I-01010147-faa-01: RLS m: 0.99574 b: -5.12088 rms: 13.8401 r: 0.946544 sig: 1 dec: 1
+Y-W-01010147-faa-03: Regression offset -5.12088 different from 0.
+Y-E-01010147-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994873 b: -41.6417 rms: 69.7887 r: 0.950971 sig: 1 dec: 0). [Recompute]
+N-E-01010147-faa-08: Extended offset from grid [6547-8406]
+N-E-01010147-depth-08: Extended offset from grid [4-8668]
+Y-W-01010147-twt-11: More recent bathymetry correction table available
+Y-W-01010147-mtf1-12: Integer precision
+Y-W-01010147-mag-12: Integer precision
+# Errata: Data
+?	01010147	1965-08-29T17:50:00.00	456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T16:35:00.00	757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T18:34:00.00	808	B-0-0	 NAV: decreasing time
+?	01010147	1965-08-30T18:41:00.00	813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T18:58:00.00	827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T19:15:00.00	837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T19:24:00.00	841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T19:36:00.00	848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T19:57:00.00	858	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-30T20:30:00.00	878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-08-31T06:12:00.00	1108	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T06:13:00.00	1109	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T06:14:00.00	1110	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T06:15:00.00	1111	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T06:16:00.00	1112	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T06:17:00.00	1113	0-Q-0	 VAL: mag invalid
+?	01010147	1965-08-31T11:45:00.00	1207	0-0-O	 GRAD: mtf1 excessive
+?	01010147	1965-08-31T12:45:00.00	1221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-06T14:13:00.00	3476	0-0-KL	 GRAD: twt, depth excessive
+?	01010147	1965-09-08T00:18:00.00	4143	0-0-K	 GRAD: twt excessive
+?	01010147	1965-09-08T00:19:00.00	4144	0-0-K	 GRAD: twt excessive
+?	01010147	1965-09-08T08:30:00.00	4392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T08:35:00.00	4396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T08:37:00.00	4398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T09:20:00.00	4425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T09:24:00.00	4427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T11:02:00.00	4484	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010147	1965-09-08T13:32:00.00	4564	0-0-K	 GRAD: twt excessive
+?	01010147	1965-09-08T13:33:00.00	4565	0-0-K	 GRAD: twt excessive
+?	01010147	1965-09-08T14:27:00.00	4594	0-0-KL	 GRAD: twt, depth excessive
+?	01010147	1965-09-12T12:50:00.00	6003	0-0-K	 GRAD: twt excessive
+?	01010147	1965-09-12T12:52:00.00	6004	0-0-K	 GRAD: twt excessive

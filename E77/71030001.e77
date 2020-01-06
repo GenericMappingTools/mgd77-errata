@@ -1,0 +1,20 @@
+# Cruise 71030001 ID MN766 MGD77 FILE VERSION: 19800606 N_RECS: 3506
+# Examined: Wed Aug  3 06:49:59 2011 by mtchandl
+# Arguments:  -R31.15/40.75/-33.5/-21.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-71030001-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-71030001-depth-01: RLS m: 1.00027 b: 0 rms: 6.64703 r: 0.999986 sig: 1 dec: 0
+N-E-71030001-depth-02: Regression slope 1.00027 different from 1. Recommended: [1]
+Y-E-71030001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.923824 b: -421.297 rms: 424.308 r: 0.982143 sig: 1 dec: 1). [Recompute]
+Y-W-71030001-twt-11: More recent bathymetry correction table available
+Y-W-71030001-mtf1-12: Integer precision
+Y-W-71030001-mag-12: Integer precision
+# Errata: Data
+Y	71030001	1976-03-31T04:50:00.00	2613	B-0-0	 NAV: non-increasing time
+Y	71030001	1976-03-31T04:55:00.00	2614	B-0-0	 NAV: non-increasing time
+?	71030001	1976-04-01T16:15:00.00	3080	0-0-OQ	 GRAD: mtf1, mag excessive

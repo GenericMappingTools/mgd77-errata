@@ -1,0 +1,35 @@
+# Cruise 15020012 ID ANTP16MV MGD77 FILE VERSION: 19800226 N_RECS: 6076
+# Examined: Wed May 14 08:29:51 2008 by mtchandl
+# Arguments:  -R182.4/189.25/-21.45/-13.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020012-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020012-nav-00: Flagged 0.16 % of records with excessive speed or invalid navigation
+Y-I-15020012-depth-01: RLS m: 1 b: 0 rms: 153.977 r: 0.989105 sign: 1 dec: 1
+Y-E-15020012-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.994385 b: 5.11714 rms: 15.9861 r: 0.998514 sig: 1 dec: 1). [Recompute]
+Y-W-15020012-mtf1-12: Integer multiple of 5 precision
+Y-W-15020012-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020012	1971-08-27T02:08:00.00	277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-04T16:12:00.00	3814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-05T15:13:00.00	4278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-09T06:41:00.00	5846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-09T07:01:00.00	5854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-09T07:05:00.00	5855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-09T07:10:00.00	5856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020012	1971-09-09T15:11:00.00	5993	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15020012	1971-09-09T19:10:00.00	6066	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:11:00.00	6067	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:15:00.00	6068	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:16:00.00	6069	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:20:00.00	6070	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:21:00.00	6071	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:25:00.00	6072	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:26:00.00	6073	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:30:00.00	6074	D-0-0	 NAV: on land
+Y	15020012	1971-09-09T19:31:00.00	6075	D-0-0	 NAV: on land
+?	15020012	1971-09-09T19:35:00.00	6076	D-0-0	 NAV: on land

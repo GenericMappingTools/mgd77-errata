@@ -1,0 +1,35 @@
+# Cruise 01010178 ID RC2103 MGD77 FILE VERSION: 19800908 N_RECS: 10377
+# Examined: Mon Jul  6 16:38:45 2009 by mtchandl
+# Arguments:  -R282/300.65/10.35/15.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Extended faa offset from satellite gravity for the first ~3000 km along-track. 
+# Errata: Header
+N-E-01010178-H13-06: Invalid Magnetics Reference Field Code: (77) [77]
+Y-W-01010178-nav-00: Flagged 0.10 % of records with excessive speed or invalid navigation
+Y-I-01010178-depth-01: RLS m: 1 b: 0 rms: 5.98388 r: 0.999996 sig: 1 dec: 0
+Y-I-01010178-faa-01: RLS m: 1.03635 b: -11.0138 rms: 18.8713 r: 0.981276 sig: 1 dec: 1
+N-E-01010178-faa-02: Regression slope 1.03635 different from 1. Recommended: [1]
+Y-W-01010178-faa-03: Regression offset -11.0138 different from 0.
+Y-E-01010178-mag-07: Anomaly differs from mtf1-IGRF (m: 0.860426 b: -396.688 rms: 403.535 r: 0.912179 sig: 1 dec: 1). [Recompute]
+N-E-01010178-faa-08: Extended offset from grid [517-3969]
+N-E-01010178-depth-08: Extended offset from grid [4-10377]
+Y-W-01010178-twt-11: More recent bathymetry correction table available
+Y-W-01010178-mtf1-12: Integer precision
+Y-W-01010178-mag-12: Integer precision
+# Errata: Data
+?	01010178	1977-12-01T20:12:00.00	6328	D-0-0	 NAV: on land
+?	01010178	1977-12-01T20:18:00.00	6329	D-0-0	 NAV: on land
+?	01010178	1977-12-01T20:24:00.00	6330	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T20:30:00.00	6331	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T20:36:00.00	6332	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T20:42:00.00	6333	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T20:48:00.00	6334	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T20:54:00.00	6335	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T21:00:00.00	6336	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T21:06:00.00	6337	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T21:12:00.00	6338	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T21:18:00.00	6339	D-0-0	 NAV: on land
+Y	01010178	1977-12-01T21:24:00.00	6340	D-0-0	 NAV: on land

@@ -1,0 +1,19 @@
+# Cruise 19100041 ID DI188 MGD77 FILE VERSION: 19931231 N_RECS: 26755
+# Examined: Mon Sep  6 13:38:33 2010 by mtchandl
+# Arguments:  -R337.2/350.05/27.5/48 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged gravity tare starting at ~5000 km along-track.
+# Errata: Header
+Y-W-19100041-H13-10: Survey year (1990) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19100041-depth-01: RLS m: 1 b: 0 rms: 2.98125 r: 0.999979 sig: 1 dec: 0
+Y-I-19100041-faa-01: RLS m: 0.986543 b: -0.19508 rms: 3.78959 r: 0.99146 sig: 1 dec: 0
+N-E-19100041-faa-02: Regression slope 0.986543 different from 1. Recommended: [1]
+Y-W-19100041-faa-03: Regression offset -0.19508 different from 0.
+Y-E-19100041-faa-10: Invalid data records: [17018-26755]
+Y-W-19100041-depth-12: Integer precision
+Y-W-19100041-faa-12: Integer precision
+# Errata: Data
+?	19100041	1990-02-09T11:58:00.00	14143	0-0-W	 GRAD: faa excessive

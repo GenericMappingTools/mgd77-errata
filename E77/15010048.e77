@@ -1,0 +1,27 @@
+# Cruise 15010048 ID NOVA01AR MGD77 FILE VERSION: 19800226 N_RECS: 6984
+# Examined: Tue May 13 09:03:49 2008 by mtchandl
+# Arguments:  -R175.95/242.75/-14.75/34.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010048-H04-03: Invalid Survey Departure Day: (17) [18]
+Y-E-15010048-H16-01: Invalid Number of Ten Degree Identifiers: (14) [15]
+Y-W-15010048-H16-06: Ten Degree Identifier 7218 not marked in header but block was crossed
+Y-I-15010048-depth-01: RLS m: 1 b: 0 rms: 147.856 r: 0.995981 sign: 1 dec: 1
+Y-E-15010048-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02072 b: -8.6964 rms: 44.8823 r: 0.986862 sig: 1 dec: 1). [Recompute]
+Y-W-15010048-mtf1-12: Integer multiple of 5 precision
+Y-W-15010048-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010048	1967-05-01T20:30:00.00	3515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-01T20:35:00.00	3516	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-01T20:50:00.00	3519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-02T09:35:00.00	3593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-02T09:40:00.00	3594	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-02T10:10:00.00	3600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-12T19:45:00.00	5985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-12T21:10:00.00	6002	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010048	1967-05-12T21:15:00.00	6003	0-Q-0	 VAL: mag invalid
+?	15010048	1967-05-12T21:20:00.00	6004	0-Q-0	 VAL: mag invalid

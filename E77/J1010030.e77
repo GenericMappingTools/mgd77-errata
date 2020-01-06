@@ -1,0 +1,47 @@
+# Cruise J1010030 ID HT890107 MGD77 FILE VERSION: 19921231 N_RECS: 2732
+# Examined: Thu Aug  4 20:07:43 2011 by mtchandl
+# Arguments:  -R139.95/142.7/26.9/29.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+N-E-J1010030-H04-03: Invalid Survey Departure Day: (07) [09]
+N-E-J1010030-H04-06: Invalid Survey Arrival Day: (26) [25]
+Y-I-J1010030-depth-01: RLS m: 0.999192 b: 0 rms: 37.4946 r: 0.999534 sig: 1 dec: 0
+Y-I-J1010030-faa-01: RLS m: 1.00744 b: -2.78922 rms: 4.22781 r: 0.99955 sig: 1 dec: 0
+N-E-J1010030-faa-02: Regression slope 1.00744 different from 1. Recommended: [1]
+Y-W-J1010030-faa-03: Regression offset -2.78922 different from 0.
+Y-W-J1010030-depth-12: Integer precision
+Y-W-J1010030-mag-12: Integer precision
+Y-W-J1010030-faa-12: Integer precision
+# Errata: Data
+?	J1010030	1989-01-11T09:08:00.00	433	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-11T09:21:00.00	436	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-11T09:42:00.00	439	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J1010030	1989-01-11T09:50:00.00	440	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-12T05:40:00.00	592	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-12T06:30:00.00	598	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-13T09:07:00.00	805	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-13T09:10:00.00	806	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-13T14:33:00.00	848	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-13T21:05:00.00	897	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-13T21:10:00.00	898	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-14T13:30:00.00	1018	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-14T14:14:00.00	1024	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-14T15:34:00.00	1034	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-15T20:34:00.00	1246	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-17T03:30:00.00	1470	0-0-L	 GRAD: depth excessive
+?	J1010030	1989-01-21T00:56:00.00	1920	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T01:53:00.00	1930	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T03:00:00.00	1941	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T11:40:00.00	2010	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T11:44:00.00	2011	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T11:50:00.00	2012	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T12:14:00.00	2016	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T14:40:00.00	2034	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-21T14:50:00.00	2036	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-22T11:00:00.00	2184	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-22T22:50:00.00	2280	0-0-Q	 GRAD: mag excessive
+?	J1010030	1989-01-24T13:10:00.00	2560	0-0-Q	 GRAD: mag excessive

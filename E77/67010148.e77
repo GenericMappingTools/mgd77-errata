@@ -1,0 +1,21 @@
+# Cruise 67010148 ID 85002211 MGD77 FILE VERSION: 19880323 N_RECS: 28586
+# Examined: Sat Jul 30 20:11:21 2011 by mtchandl
+# Arguments:  -R144.6/165.1/13.4/33.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010148-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-67010148-depth-01: RLS m: 1 b: 0 rms: 8.20663 r: 0.999923 sig: 1 dec: 0
+Y-E-67010148-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00022 b: 108.522 rms: 108.676 r: 0.998925 sig: 1 dec: 0). [Recompute]
+Y-W-67010148-depth-12: Integer precision
+Y-W-67010148-mtf1-12: Integer precision
+# Errata: Data
+?	67010148	1985-06-28T06:05:00.00	1	D-0-0	 NAV: on land
+Y	67010148	1985-07-05T23:49:00.00	10616	C-0-0	 NAV: excessive speed
+Y	67010148	1985-07-07T02:45:00.00	12178	C-0-0	 NAV: excessive speed
+Y	67010148	1985-07-07T03:03:00.00	12196	C-0-0	 NAV: excessive speed
+Y	67010148	1985-07-07T07:34:00.00	12457	C-0-0	 NAV: excessive speed
+Y	67010148	1985-07-09T02:17:00.00	14904	C-0-0	 NAV: excessive speed

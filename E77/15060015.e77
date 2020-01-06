@@ -1,0 +1,19 @@
+# Cruise 15060015 ID JPYN04BD MGD77 FILE VERSION: 19800226 N_RECS: 7029
+# Examined: Sat May 31 10:15:06 2008 by mtchandl
+# Arguments:  -R139.7/201.9/21.25/34.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: 
+# Errata: Header
+Y-I-15060015-depth-01: RLS m: 0.996154 b: 0 rms: 167.261 r: 0.994605 sig: 1 dec: 1
+Y-E-15060015-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.972781 b: 57.1549 rms: 76.1318 r: 0.944034 sig: 1 dec: 1). [Recompute]
+Y-E-15060015-depth-08: Extended offset from grid [63-136]
+N-E-15060015-depth-08: Extended offset from grid [162-219]
+Y-E-15060015-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15060015-mtf1-12: Integer multiple of 5 precision
+Y-W-15060015-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060015	1961-08-01T22:36:00.00	163	0-0-KL	 GRAD: twt, depth excessive
+?	15060015	1961-08-02T01:06:00.00	213	0-0-KL	 GRAD: twt, depth excessive

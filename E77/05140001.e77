@@ -1,0 +1,139 @@
+# Cruise 05140001 ID BP8807 MGD77 FILE VERSION: 20080729 N_RECS: 5205
+# Examined: Fri Apr 30 13:44:56 2010 by mtchandl
+# Arguments:  -R176.05/177.6/-37.9/-36.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05140001-H13-10: Survey year (1988) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140001-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140001-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140001-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140001-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05140001-nav-00: Flagged 0.52 % of records with bad navigation
+Y-I-05140001-depth-01: RLS m: 0.998256 b: 0 rms: 32.9885 r: 0.998465 sig: 1 dec: 0
+Y-E-05140001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00601 b: -16.234 rms: 19.5076 r: 0.999184 sig: 1 dec: 1). [Recompute]
+Y-W-05140001-depth-12: Integer precision
+Y-W-05140001-mtf1-12: Integer precision
+# Errata: Data
+Y	05140001	1988-04-09T14:01:00.00	165	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-09T14:04:00.00	166	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-09T14:05:00.00	167	C-0-0	 NAV: excessive speed
+?	05140001	1988-04-10T14:05:00.00	897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:13:00.00	905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:14:00.00	906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:15:00.00	907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:16:00.00	908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:19:00.00	911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:20:00.00	912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:21:00.00	913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:23:00.00	915	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:24:00.00	916	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:25:00.00	917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:38:00.00	930	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:39:00.00	931	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:40:00.00	932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:42:00.00	934	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:43:00.00	935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:45:00.00	937	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:46:00.00	938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:47:00.00	939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:49:00.00	941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:50:00.00	942	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T14:51:00.00	943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:23:00.00	975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:24:00.00	976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:25:00.00	977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:26:00.00	978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:27:00.00	979	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:28:00.00	980	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:30:00.00	982	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:31:00.00	983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:33:00.00	985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:34:00.00	986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:35:00.00	987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:36:00.00	988	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:40:00.00	992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:41:00.00	993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:42:00.00	994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:43:00.00	995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:44:00.00	996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:45:00.00	997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:46:00.00	998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:48:00.00	1000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:53:00.00	1005	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:54:00.00	1006	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:55:00.00	1007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:56:00.00	1008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:57:00.00	1009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:58:00.00	1010	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T15:59:00.00	1011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-10T16:00:00.00	1012	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05140001	1988-04-10T22:25:00.00	1388	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:26:00.00	1389	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:27:00.00	1390	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:28:00.00	1391	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:29:00.00	1392	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:30:00.00	1393	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:32:00.00	1394	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:33:00.00	1395	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:34:00.00	1396	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:35:00.00	1397	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:36:00.00	1398	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:37:00.00	1399	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:38:00.00	1400	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:39:00.00	1401	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:40:00.00	1402	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:41:00.00	1403	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:42:00.00	1404	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:43:00.00	1405	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:44:00.00	1406	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:45:00.00	1407	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:46:00.00	1408	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:47:00.00	1409	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:48:00.00	1410	C-0-0	 NAV: excessive speed
+Y	05140001	1988-04-10T22:49:00.00	1411	C-0-0	 NAV: excessive speed
+?	05140001	1988-04-11T08:30:00.00	1983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:08:00.00	2735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:09:00.00	2736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:10:00.00	2737	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:11:00.00	2738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:14:00.00	2741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:17:00.00	2744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:18:00.00	2745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:19:00.00	2746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:20:00.00	2747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:22:00.00	2749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:23:00.00	2750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:29:00.00	2756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T03:30:00.00	2757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T08:55:00.00	3064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T09:01:00.00	3069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T09:02:00.00	3070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:16:00.00	3259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:49:00.00	3290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:56:00.00	3297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:57:00.00	3298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:58:00.00	3299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T20:59:00.00	3300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-12T21:01:00.00	3302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T05:28:00.00	3784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T05:29:00.00	3785	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T05:30:00.00	3786	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:40:00.00	3848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:41:00.00	3849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:42:00.00	3850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:45:00.00	3853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:46:00.00	3854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T20:47:00.00	3855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-13T21:01:00.00	3869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T09:41:00.00	5082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T10:02:00.00	5102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:23:00.00	5164	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:24:00.00	5165	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:31:00.00	5172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:32:00.00	5173	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:33:00.00	5174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140001	1988-04-15T11:34:00.00	5175	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,28 @@
+# Cruise 09860001 ID THSHMG81 MGD77 FILE VERSION: 19870606 N_RECS: 2813
+# Examined: Mon Aug 16 17:10:03 2010 by mtchandl
+# Arguments:  -R319.4/327.55/-25.7/-20.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09860001-H04-03: Invalid Survey Departure Day: (15) [16]
+Y-W-09860001-nav-00: Flagged 0.28 % of records with bad navigation
+Y-I-09860001-depth-01: RLS m: 1 b: 0 rms: 10.265 r: 0.999913 sig: 1 dec: 0
+# Errata: Data
+Y	09860001	1981-09-22T03:55:51.96	795	B-0-0	 NAV: non-increasing time
+Y	09860001	1981-09-25T00:15:16.98	1598	B-0-0	 NAV: non-increasing time
+?	09860001	1981-09-25T03:00:49.98	1698	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T03:03:27.96	1700	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T03:04:51.00	1701	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T03:07:36.96	1703	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T03:08:43.98	1704	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T04:14:54.00	1751	0-0-L	 GRAD: depth excessive
+?	09860001	1981-09-25T04:30:42.96	1764	0-0-L	 GRAD: depth excessive
+Y	09860001	1981-09-27T00:01:19.98	2443	C-0-0	 NAV: excessive speed
+Y	09860001	1981-09-27T00:02:49.98	2444	C-0-0	 NAV: excessive speed
+Y	09860001	1981-09-27T00:05:00.00	2445	C-0-0	 NAV: excessive speed
+Y	09860001	1981-09-27T00:07:51.00	2446	C-0-0	 NAV: excessive speed
+Y	09860001	1981-09-27T00:10:42.00	2447	C-0-0	 NAV: excessive speed
+Y	09860001	1981-09-27T00:13:16.98	2448	C-0-0	 NAV: excessive speed

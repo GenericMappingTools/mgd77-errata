@@ -1,0 +1,51 @@
+# Cruise 10020013 ID IG2403 MGD77 FILE VERSION: 19900913 N_RECS: 3183
+# Examined: Mon Aug 16 17:22:19 2010 by mtchandl
+# Arguments:  -R268.1/275.4/9.05/13.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020013-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020013-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020013-nav-00: Flagged 0.69 % of records with bad navigation
+Y-I-10020013-depth-01: RLS m: 1.00258 b: 0 rms: 7.78253 r: 0.999939 sig: 1 dec: 0
+N-E-10020013-depth-02: Regression slope 1.00258 different from 1. Recommended: [1]
+Y-E-10020013-mag-07: Anomaly differs from mtf1-IGRF (m: 1.08327 b: -186.561 rms: 188.163 r: 0.97028 sig: 1 dec: 1). [Recompute]
+Y-W-10020013-depth-12: Integer precision
+Y-W-10020013-mtf1-12: Integer precision
+Y-W-10020013-mag-12: Integer precision
+# Errata: Data
+Y	10020013	1977-04-03T16:04:00.00	77	B-0-0	 NAV: non-increasing time
+Y	10020013	1977-04-04T02:55:00.00	206	B-0-0	 NAV: non-increasing time
+Y	10020013	1977-04-05T21:45:00.00	707	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T21:49:00.00	708	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T21:50:00.00	709	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T21:55:00.00	710	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:00:00.00	711	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:05:00.00	712	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:10:00.00	713	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:15:00.00	714	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:20:00.00	715	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:25:00.00	716	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:30:00.00	717	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:35:00.00	718	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:40:00.00	719	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:45:00.00	720	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T22:50:00.00	721	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T23:05:00.00	724	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T23:10:00.00	725	D-0-0	 NAV: on land
+Y	10020013	1977-04-05T23:15:00.00	726	D-0-0	 NAV: on land
+?	10020013	1977-04-05T23:25:00.00	728	D-0-0	 NAV: on land
+?	10020013	1977-04-05T23:45:00.00	732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020013	1977-04-05T23:50:00.00	733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020013	1977-04-06T00:30:00.00	741	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020013	1977-04-06T01:20:00.00	748	D-0-0	 NAV: on land
+?	10020013	1977-04-11T15:10:00.00	1355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020013	1977-04-11T15:15:00.00	1356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020013	1977-04-11T16:55:00.00	1376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020013	1977-04-11T17:00:00.00	1377	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020013	1977-04-13T06:22:00.00	1842	B-0-0	 NAV: non-increasing time
+?	10020013	1977-04-16T11:35:00.00	2803	0-0-L	 GRAD: depth excessive
+?	10020013	1977-04-16T11:50:00.00	2806	0-0-L	 GRAD: depth excessive

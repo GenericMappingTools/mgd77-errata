@@ -1,0 +1,23 @@
+# Cruise 67010005 ID 69005651 MGD77 FILE VERSION: 19830804 N_RECS: 3584
+# Examined: Thu Jul 28 18:36:59 2011 by mtchandl
+# Arguments:  -R-10.65/-3/38.9/46.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010005-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-67010005-depth-01: RLS m: 0.999698 b: 0 rms: 12.3085 r: 0.999976 sig: 1 dec: 0
+Y-I-67010005-faa-01: RLS m: 0.987363 b: 6.13319 rms: 8.21755 r: 0.995778 sig: 1 dec: 0
+N-E-67010005-faa-02: Regression slope 0.987363 different from 1. Recommended: [1]
+Y-W-67010005-faa-03: Regression offset 6.13319 different from 0.
+Y-W-67010005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	67010005	1969-10-19T14:00:00.00	31	0-0-KL	 GRAD: twt, depth excessive
+?	67010005	1969-10-21T15:02:00.00	794	0-0-KL	 GRAD: twt, depth excessive
+Y	67010005	1969-10-23T23:00:00.00	1092	B-0-0	 NAV: non-increasing time
+?	67010005	1969-10-24T07:07:00.00	1245	0-0-KL	 GRAD: twt, depth excessive
+?	67010005	1969-10-24T21:40:00.00	1436	0-0-K	 GRAD: twt excessive
+Y	67010005	1969-10-27T23:00:00.00	2736	B-0-0	 NAV: non-increasing time
+Y	67010005	1969-10-29T23:00:00.00	3392	B-0-0	 NAV: non-increasing time

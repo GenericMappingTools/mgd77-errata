@@ -1,0 +1,30 @@
+# Cruise 07080005 ID WELOC772 MGD77 FILE VERSION: 19821020 N_RECS: 7972
+# Examined: Mon Jul 26 15:31:16 2010 by mtchandl
+# Arguments:  -R249.2/282.85/-12.1/6.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07080005-H16-06: Ten Degree Identifier 5008 not marked in header but block was crossed
+Y-W-07080005-H16-06: Ten Degree Identifier 7009 marked in header but was not crossed
+Y-W-07080005-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-07080005-depth-01: RLS m: 0.99925 b: 0 rms: 29.4288 r: 0.999329 sig: 1 dec: 0
+Y-E-07080005-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04403 b: -87.328 rms: 114.479 r: 0.940019 sig: 1 dec: 1). [Recompute]
+Y-W-07080005-twt-11: More recent bathymetry correction table available
+Y-W-07080005-mtf1-12: Integer precision
+Y-W-07080005-mag-12: Integer precision
+# Errata: Data
+?	07080005	1977-02-08T22:20:00.00	589	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-08T22:25:00.00	590	0-0-Q	 GRAD: mag excessive
+?	07080005	1977-02-09T05:00:00.00	672	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T06:15:00.00	688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T06:25:00.00	690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T06:35:00.00	692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T07:05:00.00	698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T07:15:00.00	700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T07:20:00.00	701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07080005	1977-02-09T09:05:00.00	723	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07080005	1977-02-12T00:00:00.00	1510	B-0-0	 NAV: non-increasing time
+Y	07080005	1977-03-06T09:32:00.00	7971	B-0-0	 NAV: non-increasing time

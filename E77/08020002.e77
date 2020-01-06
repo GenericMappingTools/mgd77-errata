@@ -1,0 +1,16 @@
+# Cruise 08020002 ID 74071700 MGD77 FILE VERSION: 19801229 N_RECS: 4574
+# Examined: Mon Jul 26 17:31:13 2010 by mtchandl
+# Arguments:  -R202.15/236.45/2.85/27.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08020002-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-I-08020002-depth-01: RLS m: 0.999302 b: 0 rms: 25.9552 r: 0.997015 sig: 1 dec: 0
+Y-W-08020002-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020002	1974-07-26T01:48:48.00	1154	0-0-K	 GRAD: twt excessive
+?	08020002	1974-08-06T17:30:19.98	3948	0-0-KL	 GRAD: twt, depth excessive
+?	08020002	1974-08-06T19:19:25.98	3984	0-0-K	 GRAD: twt excessive

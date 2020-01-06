@@ -1,0 +1,20 @@
+# Cruise 07080006 ID W7708C MGD77 FILE VERSION: 19821020 N_RECS: 5027
+# Examined: Mon Jul 26 15:31:52 2010 by mtchandl
+# Arguments:  -R232/235.75/40.15/44.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset.
+# Errata: Header
+Y-I-07080006-depth-01: RLS m: 0.995778 b: 0 rms: 31.4575 r: 0.99964 sig: 1 dec: 0
+N-E-07080006-depth-02: Regression slope 0.995778 different from 1. Recommended: [1]
+Y-E-07080006-depth-08: Extended offset from grid [4960-5017]
+Y-W-07080006-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	07080006	1977-09-07T00:00:00.00	1612	0-0-KL	 GRAD: twt, depth excessive
+?	07080006	1977-09-11T23:18:00.00	2274	0-0-KL	 GRAD: twt, depth excessive
+?	07080006	1977-09-13T07:56:00.00	2537	0-0-KL	 GRAD: twt, depth excessive
+?	07080006	1977-09-13T08:07:00.00	2542	0-0-K	 GRAD: twt excessive
+?	07080006	1977-09-20T04:10:00.00	4760	0-0-KL	 GRAD: twt, depth excessive
+?	07080006	1977-09-20T04:20:00.00	4762	0-0-KL	 GRAD: twt, depth excessive

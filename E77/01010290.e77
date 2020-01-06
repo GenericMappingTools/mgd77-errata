@@ -1,0 +1,21 @@
+# Cruise 01010290 ID RC2903 MGD77 FILE VERSION: 19900523 N_RECS: 14645
+# Examined: Fri Mar 19 01:03:34 2010 by mtchandl
+# Arguments:  -R289.25/314.95/-53.1/-35.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01010290-H13-10: Survey year (1988) outside magnetic reference field IGRF-85 time range (1995-2000)
+Y-W-01010290-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-01010290-depth-01: RLS m: 0.998415 b: 0 rms: 21.5283 r: 0.999973 sig: 1 dec: 0
+N-E-01010290-depth-02: Regression slope 0.998415 different from 1. Recommended: [1]
+Y-W-01010290-twt-11: More recent bathymetry correction table available
+Y-W-01010290-depth-12: Integer precision
+# Errata: Data
+?	01010290	1988-03-04T09:12:00.00	397	D-0-0	 NAV: on land
+Y	01010290	1988-03-04T09:13:00.00	398	D-0-0	 NAV: on land
+Y	01010290	1988-03-04T09:14:00.00	399	D-0-0	 NAV: on land
+?	01010290	1988-03-04T09:15:00.00	400	D-0-0	 NAV: on land
+?	01010290	1988-03-04T09:16:00.00	401	D-0-0	 NAV: on land

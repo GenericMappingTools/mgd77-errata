@@ -1,0 +1,26 @@
+# Cruise 24050056 ID GA-0163 MGD77 FILE VERSION: 20080522 N_RECS: 46300
+# Examined: Mon Feb 14 21:49:58 2011 by mtchandl
+# Arguments:  -R118.5/126.05/-20.35/-10.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-24050056-H04-06: Invalid Survey Arrival Day: (25) [26]
+N-E-24050056-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050056-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050056-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050056-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050056-H16-06: Ten Degree Identifier 3112 not marked in header but block was crossed
+Y-W-24050056-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-I-24050056-depth-01: RLS m: 1.00388 b: 0 rms: 15.3472 r: 0.992671 sig: 1 dec: 0
+N-E-24050056-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-W-24050056-twt-11: More recent bathymetry correction table available
+Y-W-24050056-depth-12: Integer precision
+Y-W-24050056-mtf1-12: Integer precision
+# Errata: Data
+?	24050056	1995-07-06T19:07:00.00	17948	0-0-K	 GRAD: twt excessive
+?	24050056	1995-07-06T20:06:00.00	18007	0-0-K	 GRAD: twt excessive
+?	24050056	1995-07-07T00:23:00.00	18264	0-0-K	 GRAD: twt excessive
+?	24050056	1995-07-09T15:21:00.00	22042	0-0-K	 GRAD: twt excessive

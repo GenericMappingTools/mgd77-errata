@@ -1,0 +1,113 @@
+# Cruise 08010117 ID 84042805 MGD77 FILE VERSION: 19870405 N_RECS: 33792
+# Examined: Mon Jul 26 17:27:37 2010 by mtchandl
+# Arguments:  -R178.9/202.15/21.25/30.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08010117-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08010117-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08010117-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-W-08010117-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-08010117-depth-01: RLS m: 0.998549 b: 0 rms: 46.7898 r: 0.999559 sig: 1 dec: 0
+N-E-08010117-depth-02: Regression slope 0.998549 different from 1. Recommended: [1]
+Y-I-08010117-faa-01: RLS m: 1.00305 b: 1.75031 rms: 5.69269 r: 0.997784 sig: 1 dec: 0
+N-E-08010117-faa-02: Regression slope 1.00305 different from 1. Recommended: [1]
+Y-W-08010117-faa-03: Regression offset 1.75031 different from 0.
+Y-W-08010117-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08010117	1984-07-13T20:14:00.00	34	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-14T07:18:40.02	897	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-14T11:58:19.98	1256	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-14T18:28:40.02	1734	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-14T21:21:00.00	1961	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-14T21:28:00.00	1971	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-15T17:26:00.00	3403	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-15T22:28:00.00	3789	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-15T23:36:19.98	3873	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-16T01:15:00.00	3997	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-16T01:17:00.00	4000	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-16T05:00:00.00	4255	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-16T14:39:00.00	4898	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-16T14:41:00.00	4902	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-16T18:28:40.02	5184	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-16T23:55:00.00	5599	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T00:50:00.00	5673	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T00:51:00.00	5675	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T01:00:00.00	5687	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T03:37:40.02	5872	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-17T04:01:00.00	5901	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T10:17:00.00	6317	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-17T11:37:00.00	6423	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T11:39:00.00	6426	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T11:54:00.00	6444	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T18:45:00.00	6914	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T20:34:00.00	7037	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T23:22:00.00	7220	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T23:23:00.00	7221	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-17T23:30:00.00	7229	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-18T00:15:40.02	7287	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-18T12:49:40.02	8229	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-18T13:39:00.00	8296	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-18T17:10:00.00	8581	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-19T03:42:00.00	9309	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-19T05:09:00.00	9411	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-19T06:19:00.00	9492	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-20T13:51:00.00	11849	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-21T03:00:00.00	12835	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-22T08:02:00.00	14953	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-22T14:34:00.00	15395	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-22T23:49:00.00	16022	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-23T01:01:00.00	16122	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-23T02:50:00.00	16244	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-23T02:51:00.00	16246	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-24T22:14:19.98	19236	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-26T06:49:19.98	21766	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-07-27T00:00:40.02	23170	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-27T13:54:00.00	24215	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-27T23:22:19.98	24845	0-0-K	 GRAD: twt excessive
+?	08010117	1984-07-28T00:31:00.00	24945	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T05:40:00.00	25300	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T06:00:00.00	25331	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T10:43:00.00	25648	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T12:37:00.00	25776	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T19:39:00.00	26378	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T20:25:00.00	26435	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T20:31:00.00	26441	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-28T22:04:00.00	26548	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T00:45:00.00	26763	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T00:48:00.00	26767	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T00:58:00.00	26780	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T00:59:00.00	26781	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:06:00.00	26861	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:07:00.00	26862	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:08:00.00	26864	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:09:00.00	26866	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:11:00.00	26870	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:13:00.00	26873	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:17:00.00	26879	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:18:00.00	26881	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T02:20:00.00	26884	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T03:43:00.00	26992	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T18:40:00.00	28122	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T22:11:00.00	28362	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-29T22:12:00.00	28363	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-30T00:53:00.00	28547	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-30T01:17:00.00	28575	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-30T03:19:00.00	28716	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-30T05:20:00.00	28859	0-0-W	 GRAD: faa excessive
+?	08010117	1984-07-30T13:30:00.00	29481	0-0-K	 GRAD: twt excessive
+?	08010117	1984-08-01T10:05:19.98	32663	0-0-KL	 GRAD: twt, depth excessive
+?	08010117	1984-08-02T00:26:00.00	33761	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:27:00.00	33762	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:28:00.00	33763	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:29:00.00	33764	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:30:00.00	33765	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:31:00.00	33766	D-0-0	 NAV: on land
+Y	08010117	1984-08-02T00:32:00.00	33767	D-0-0	 NAV: on land
+?	08010117	1984-08-02T00:33:00.00	33768	D-0-0	 NAV: on land
+?	08010117	1984-08-02T00:34:00.00	33769	D-0-0	 NAV: on land
+?	08010117	1984-08-02T00:38:00.00	33773	0-0-W	 GRAD: faa excessive
+?	08010117	1984-08-02T00:39:00.00	33774	0-0-W	 GRAD: faa excessive

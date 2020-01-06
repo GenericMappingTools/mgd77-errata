@@ -1,0 +1,56 @@
+# Cruise 01030074 ID V2111 MGD77 FILE VERSION: 19790920 N_RECS: 1421
+# Examined: Thu Jul  9 16:50:21 2009 by mtchandl
+# Arguments:  -R177.9/196.6/50.9/59.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030074-nav-00: Flagged 0.21 % of records with excessive speed or invalid navigation
+Y-I-01030074-depth-01: RLS m: 0.999651 b: 0 rms: 4.47162 r: 0.999997 sig: 1 dec: 0
+N-E-01030074-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030074-faa-01: RLS m: 0.745934 b: -0.280365 rms: 4.52269 r: 0.992456 sig: 1 dec: 0
+N-E-01030074-faa-02: Regression slope 0.745934 different from 1. Recommended: [1]
+Y-W-01030074-faa-03: Regression offset -0.280365 different from 0.
+Y-E-01030074-mag-07: Anomaly differs from mtf1-IGRF (m: 0.951547 b: -98.6163 rms: 107.969 r: 0.978414 sig: 1 dec: 1). [Recompute]
+N-E-01030074-depth-08: Extended offset from grid [5-1421]
+Y-W-01030074-twt-11: More recent bathymetry correction table available
+Y-W-01030074-mtf1-12: Integer precision
+Y-W-01030074-mag-12: Integer precision
+# Errata: Data
+?	01030074	1965-09-10T17:15:00.00	436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-10T18:12:00.00	446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-12T23:04:00.00	831	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-12T23:23:00.00	834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-12T23:24:00.00	835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T10:02:00.00	1198	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T10:40:00.00	1206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T10:45:00.00	1207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:05:00.00	1211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:14:00.00	1213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:15:00.00	1214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:20:00.00	1216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:28:00.00	1219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:30:00.00	1220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:33:00.00	1221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:36:00.00	1223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:37:00.00	1224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:46:00.00	1228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:48:00.00	1229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:49:00.00	1230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:50:00.00	1231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:51:00.00	1232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:53:00.00	1233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T11:57:00.00	1234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T12:00:00.00	1235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-15T12:07:00.00	1237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T09:00:00.00	1365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T09:33:00.00	1374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T10:02:00.00	1382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T11:05:00.00	1407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T11:09:00.00	1408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030074	1965-09-16T11:12:00.00	1410	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01030074	1965-09-16T12:15:00.00	1419	D-0-0	 NAV: on land
+Y	01030074	1965-09-16T12:17:00.00	1420	D-0-0	 NAV: on land
+Y	01030074	1965-09-16T12:20:00.00	1421	D-0-0	 NAV: on land

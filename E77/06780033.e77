@@ -1,0 +1,16 @@
+# Cruise 06780033 ID FRNL85-4 MGD77 FILE VERSION: 19930804 N_RECS: 19946
+# Examined: Fri May 28 16:44:36 2010 by mtchandl
+# Arguments:  -R291.4/296.1/15.1/21.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-I-06780033-depth-01: RLS m: 1.00035 b: 0 rms: 32.2335 r: 0.999826 sig: 1 dec: 0
+N-E-06780033-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-E-06780033-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988325 b: -90.8484 rms: 98.429 r: 0.987816 sig: 1 dec: 1). [Recompute]
+Y-W-06780033-depth-12: Integer precision
+Y-W-06780033-mtf1-12: Integer precision
+Y-W-06780033-mag-12: Integer precision
+# Errata: Data

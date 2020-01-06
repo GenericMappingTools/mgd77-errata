@@ -1,0 +1,29 @@
+# Cruise 10050003 ID FM0103 MGD77 FILE VERSION: 19920727 N_RECS: 8138
+# Examined: Tue Aug 24 13:52:12 2010 by mtchandl
+# Arguments:  -R-6.05/14.4/-27.05/-22.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Added anomaly differs, recompute line to errata to force recomputation, rmag and mag not actually equivalent.
+# Errata: Header
+Y-E-10050003-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050003-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10050003-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-10050003-depth-01: RLS m: 1 b: 0 rms: 15.2857 r: 0.999956 sig: 1 dec: 0
+Y-I-10050003-mag-07: Anomaly equivalent to mtf1-IGRF (m: 0.997887 b: 0.880957 rms: 37.6813 r: 0.984834 sig: 1 dec: 1)
+Y-E-10050003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997887 b: 0.880957 rms: 37.6813 r: 0.984834 sig: 1 dec: 1). [Recompute]
+Y-W-10050003-depth-12: Integer precision
+Y-W-10050003-mtf1-12: Integer precision
+Y-W-10050003-mag-12: Integer precision
+# Errata: Data
+?	10050003	1979-04-13T09:55:00.00	18	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10050003	1979-04-14T15:25:00.00	373	B-0-0	 NAV: non-increasing time
+Y	10050003	1979-04-15T02:45:00.00	510	B-0-0	 NAV: non-increasing time
+Y	10050003	1979-04-15T23:55:00.00	765	B-0-0	 NAV: non-increasing time
+Y	10050003	1979-04-16T01:10:00.00	781	B-0-0	 NAV: non-increasing time
+Y	10050003	1979-04-18T03:40:00.00	1381	B-0-0	 NAV: non-increasing time
+?	10050003	1979-04-20T22:25:00.00	2146	0-0-L	 GRAD: depth excessive
+?	10050003	1979-05-05T15:20:00.00	6568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050003	1979-05-06T00:00:00.00	6685	0-0-Q	 GRAD: mag excessive
+?	10050003	1979-05-09T18:20:00.00	7859	0-0-O	 GRAD: mtf1 excessive

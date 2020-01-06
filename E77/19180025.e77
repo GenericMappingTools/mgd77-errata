@@ -1,0 +1,34 @@
+# Cruise 19180025 ID CD7793 MGD77 FILE VERSION: 19941231 N_RECS: 13164
+# Examined: Mon Sep 20 13:14:29 2010 by mtchandl
+# Arguments:  -R314.95/318.15/23.3/29.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all bathymetry records as bad. Recommend disregarding bathymetry until problems are resolved by source institution.
+# Errata: Header
+Y-I-19180025-depth-01: RLS m: 0.965689 b: 0 rms: 158.756 r: 0.937558 sig: 1 dec: 0
+N-E-19180025-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+N-E-19180025-twt-13: Encountered possible PDR wrap errors (4.5) [5.0]
+Y-E-19180025-depth-10: Invalid data records: [1-13164]
+Y-W-19180025-depth-12: Integer precision
+# Errata: Data
+?	19180025	1993-03-26T20:32:00.00	3580	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-03-26T20:36:00.00	3582	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-03-26T22:36:00.00	3642	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-03-26T22:40:00.00	3644	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-03-27T00:52:00.00	3710	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-03-28T09:48:00.00	4698	0-0-K	 GRAD: twt excessive
+?	19180025	1993-03-29T20:06:00.00	5727	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-01T07:52:00.00	7520	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-07T01:42:00.00	11356	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-07T02:34:00.00	11382	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-07T07:10:00.00	11520	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-07T07:16:00.00	11523	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-07T17:46:00.00	11838	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-07T17:48:00.00	11839	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-07T17:50:00.00	11840	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-07T18:16:00.00	11853	0-0-KL	 GRAD: twt, depth excessive
+?	19180025	1993-04-07T19:38:00.00	11894	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-08T06:06:00.00	12208	0-0-K	 GRAD: twt excessive
+?	19180025	1993-04-08T18:10:00.00	12570	0-0-KL	 GRAD: twt, depth excessive

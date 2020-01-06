@@ -1,0 +1,19 @@
+# Cruise 06470007 ID S786CB MGD77 FILE VERSION: 19910719 N_RECS: 9009
+# Examined: Fri May 28 15:37:08 2010 by mtchandl
+# Arguments:  -R280.8/284.6/16/18.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+N-E-06470007-H04-03: Invalid Survey Departure Day: (22) [24]
+N-E-06470007-H04-06: Invalid Survey Arrival Day: (02) [01]
+Y-I-06470007-faa-01: RLS m: 1.01201 b: -1.15697 rms: 4.45694 r: 0.991496 sig: 1 dec: 0
+N-E-06470007-faa-02: Regression slope 1.01201 different from 1. Recommended: [1]
+Y-W-06470007-faa-03: Regression offset -1.15697 different from 0.
+N-E-06470007-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999782 b: 0.784537 rms: 0.78799 r: 0.999998 sig: 1 dec: 0). [Recompute]
+N-E-06470007-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.414895 b: -2.09642 rms: 49.7327 r: 0.783608 sig: 1 dec: 1). [Recompute]
+N-E-06470007-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.892974 b: -11.5658 rms: 18.7444 r: 0.952735 sig: 1 dec: 1). [Adjust to IGF 1980]
+# Errata: Data
+?	06470007	1986-10-28T06:53:00.00	3229	0-0-V	 GRAD: eot excessive

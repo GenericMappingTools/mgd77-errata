@@ -1,0 +1,135 @@
+# Cruise 01010247 ID RC2601 MGD77 FILE VERSION: 19910924 N_RECS: 35258
+# Examined: Fri Mar 19 00:44:52 2010 by mtchandl
+# Arguments:  -R345.5/347.8/-10.3/-6.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa with eot.
+# Errata: Header
+Y-E-01010247-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010247-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010247-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010247-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010247-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010247-depth-01: RLS m: 1.00245 b: 0 rms: 108.756 r: 0.986073 sig: 1 dec: 0
+N-E-01010247-depth-02: Regression slope 1.00245 different from 1. Recommended: [1]
+Y-I-01010247-faa-01: RLS m: 1.0225 b: -17.9116 rms: 18.0729 r: 0.988333 sig: 1 dec: 0
+N-E-01010247-faa-02: Regression slope 1.0225 different from 1. Recommended: [1]
+Y-W-01010247-faa-03: Regression offset -17.9116 different from 0.
+N-E-01010247-faa-06: Anomaly differs from gobs-IGF80 (m: 0.422465 b: -8.54497 rms: 59.6617 r: 0.643011 sig: 1 dec: 1). [Recompute]
+Y-E-01010247-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010247-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01010247-faa-08: Extended offset from grid [11428-26466]
+Y-W-01010247-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01010247	1985-01-11T02:02:00.00	484	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-12T00:06:00.00	1863	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-12T01:39:00.00	1961	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-12T06:14:00.00	2253	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-12T06:15:00.00	2254	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-12T22:32:00.00	3278	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-12T22:33:00.00	3279	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-13T21:34:00.00	4726	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T04:35:00.00	5165	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-14T06:50:00.00	5305	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T08:23:00.00	5402	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-14T09:25:00.00	5467	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-14T12:08:00.00	5640	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T13:45:00.00	5743	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T14:49:00.00	5808	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T21:56:00.00	6250	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T22:05:00.00	6259	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T22:06:00.00	6260	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-14T22:10:00.00	6264	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T22:41:00.00	6296	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-14T22:42:00.00	6298	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-15T02:05:00.00	6507	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-15T03:30:00.00	6599	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-15T06:48:00.00	6809	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-15T08:33:00.00	6914	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-15T08:34:00.00	6915	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-15T14:05:00.00	7262	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-15T14:06:00.00	7263	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-15T18:02:00.00	7512	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-15T21:24:00.00	7721	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-15T22:30:00.00	7789	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-16T01:00:00.00	7942	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-16T01:01:00.00	7943	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-16T01:14:00.00	7957	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-16T03:25:00.00	8092	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-16T05:28:00.00	8219	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-16T19:37:00.00	9101	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-16T22:40:00.00	9294	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-17T10:11:00.00	10022	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-17T13:21:00.00	10222	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-18T11:57:00.00	11496	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-18T13:07:00.00	11567	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-18T16:21:00.00	11774	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-18T18:07:00.00	11885	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-18T18:32:00.00	11910	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-18T18:34:00.00	11912	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-18T21:07:00.00	12072	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-19T01:02:00.00	12299	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T05:04:00.00	12549	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T07:45:00.00	12717	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-19T12:52:00.00	13039	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T13:06:00.00	13055	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T13:07:00.00	13056	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T16:10:00.00	13247	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T21:46:00.00	13593	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-19T22:15:00.00	13624	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T00:31:00.00	13764	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T01:06:00.00	13800	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T05:38:00.00	14083	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T09:39:00.00	14337	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T15:19:00.00	14696	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-20T17:20:00.00	14820	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-21T02:37:00.00	15405	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-21T04:54:00.00	15548	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-21T08:11:00.00	15760	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-21T10:13:00.00	15889	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-21T12:00:00.00	16000	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-22T02:48:00.00	16928	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-22T05:56:00.00	17126	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-22T07:39:00.00	17236	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-22T12:14:00.00	17523	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-22T15:27:00.00	17725	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T00:12:00.00	18275	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-23T00:47:00.00	18312	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T02:12:00.00	18401	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-23T05:31:00.00	18610	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T10:31:00.00	18926	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T15:03:00.00	19218	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-23T15:30:00.00	19247	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T19:12:00.00	19476	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T22:42:00.00	19697	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-23T23:55:00.00	19773	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-24T01:17:00.00	19857	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-24T01:18:00.00	19859	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-24T02:23:00.00	19926	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-24T02:30:00.00	19934	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-24T03:57:00.00	20026	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-24T10:36:00.00	20450	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-28T02:16:00.00	25951	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-28T05:57:00.00	26184	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-30T01:30:00.00	28917	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-30T14:03:00.00	29705	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-30T15:29:00.00	29793	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-30T15:50:00.00	29816	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-30T23:00:00.00	30264	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-01-30T23:22:00.00	30287	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T07:41:00.00	30806	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T09:58:00.00	30949	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T10:34:00.00	30987	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T10:35:00.00	30988	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T10:36:00.00	30989	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T10:41:00.00	30994	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T13:13:00.00	31154	0-0-K	 GRAD: twt excessive
+?	01010247	1985-01-31T22:26:00.00	31732	0-0-K	 GRAD: twt excessive
+?	01010247	1985-02-01T18:27:00.00	32996	0-0-K	 GRAD: twt excessive
+?	01010247	1985-02-01T19:30:00.00	33062	0-0-K	 GRAD: twt excessive
+?	01010247	1985-02-01T21:49:00.00	33207	0-0-K	 GRAD: twt excessive
+?	01010247	1985-02-02T00:55:00.00	33398	0-0-KL	 GRAD: twt, depth excessive
+?	01010247	1985-02-02T01:21:00.00	33424	0-0-K	 GRAD: twt excessive
+?	01010247	1985-02-03T06:52:00.00	35249	0-0-V	 GRAD: eot excessive

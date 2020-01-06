@@ -1,0 +1,29 @@
+# Cruise 15040151 ID ARIA03WT MGD77 FILE VERSION: 19870225 N_RECS: 31022
+# Examined: Mon May 26 14:49:59 2008 by mtchandl
+# Arguments:  -R242.75/275.25/8.85/32.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040151-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15040151-depth-01: RLS m: 1.00388 b: 0 rms: 272.125 r: 0.987326 sig: 1 dec: 1
+Y-E-15040151-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03257 b: 78.9695 rms: 101.467 r: 0.920071 sig: 1 dec: 1). [Recompute]
+Y-W-15040151-twt-11: More recent bathymetry correction table available
+Y-W-15040151-mtf1-12: Integer precision
+Y-W-15040151-mag-12: Integer precision
+# Errata: Data
+?	15040151	1982-04-07T14:48:00.00	847	0-0-KL	 GRAD: twt, depth excessive
+?	15040151	1982-04-07T15:07:00.00	866	0-0-KL	 GRAD: twt, depth excessive
+?	15040151	1982-04-13T07:36:00.00	9055	0-0-KL	 GRAD: twt, depth excessive
+?	15040151	1982-04-13T18:23:00.00	9702	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-14T18:49:00.00	11168	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-14T18:50:00.00	11169	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-17T13:03:00.00	15142	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-18T20:30:00.00	17029	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-19T18:22:00.00	18341	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-20T11:45:00.00	19384	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-21T04:47:00.00	20406	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-23T21:10:00.00	24269	0-0-K	 GRAD: twt excessive
+?	15040151	1982-04-25T00:02:00.00	25881	0-0-K	 GRAD: twt excessive

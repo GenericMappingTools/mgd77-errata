@@ -1,0 +1,15 @@
+# Cruise 12090012 ID 73804 MGD77 FILE VERSION: 19880608 N_RECS: 3009
+# Examined: Mon Aug 30 15:51:56 2010 by mtchandl
+# Arguments:  -R233.7/238.7/69.9/71.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-12090012-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-12090012-depth-01: RLS m: 0.999651 b: 0 rms: 7.43187 r: 0.998363 sig: 1 dec: 0
+# Errata: Data
+Y	12090012	1973-08-04T10:15:00.00	187	B-0-0	 NAV: non-increasing time
+Y	12090012	1973-08-09T13:40:00.00	1071	C-0-0	 NAV: excessive speed
+Y	12090012	1973-08-10T21:55:00.00	1240	C-0-0	 NAV: excessive speed

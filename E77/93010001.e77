@@ -1,0 +1,22 @@
+# Cruise 93010001 ID CHIL19VG MGD77 FILE VERSION: 19980504 N_RECS: 15280
+# Examined: Thu Aug  4 20:00:10 2011 by mtchandl
+# Arguments:  -R-117.4/-93.4/-3.65/29.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-93010001-H04-03: Invalid Survey Departure Day: (16) [17]
+N-E-93010001-H04-05: Invalid Survey Arrival Month: (11) [10]
+N-E-93010001-H04-06: Invalid Survey Arrival Day: (07) [28]
+Y-I-93010001-depth-01: RLS m: 1.00066 b: 0 rms: 27.5748 r: 0.99661 sig: 1 dec: 0
+Y-W-93010001-depth-12: Integer precision
+# Errata: Data
+?	93010001	1992-10-18T08:18:58.02	845	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-18T10:48:58.02	995	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-21T18:31:58.02	5541	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-21T21:12:03.00	5697	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-23T03:34:00.00	7514	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-23T05:30:58.02	7631	0-0-K	 GRAD: twt excessive
+?	93010001	1992-10-26T02:32:58.02	11738	0-0-K	 GRAD: twt excessive

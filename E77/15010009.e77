@@ -1,0 +1,28 @@
+# Cruise 15010009 ID CIRC06AR MGD77 FILE VERSION: 19810928 N_RECS: 7768
+# Examined: Mon May 12 17:25:36 2008 by mtchandl
+# Arguments:  -R57.2/72.6/-20.15/-8.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010009-H04-05: Invalid Survey Arrival Month: (09) [08]
+N-E-15010009-H04-06: Invalid Survey Arrival Day: (01) [31]
+Y-I-15010009-depth-01: RLS m: 1.00388 b: 0 rms: 268.535 r: 0.981171 significant: 1 decimation: 1
+Y-E-15010009-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.990559 b: -65.8239 rms: 78.904 r: 0.973886 sig: 1 dec: 1). [Recompute]
+N-E-15010009-twt-13: Encountered possible PDR wrap errors (4.2) [5.0]
+Y-W-15010009-mtf1-12: Integer precision
+Y-W-15010009-mag-12: Integer precision
+# Errata: Data
+?	15010009	1968-08-04T13:15:00.00	82	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-04T13:20:00.00	83	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-04T13:40:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-15T07:35:00.00	3182	0-0-K	 GRAD: twt excessive
+?	15010009	1968-08-25T22:15:00.00	6238	0-0-KL	 GRAD: twt, depth excessive
+?	15010009	1968-08-26T11:05:00.00	6392	0-0-K	 GRAD: twt excessive
+?	15010009	1968-08-26T13:20:00.00	6419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-27T18:20:00.00	6767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-27T18:35:00.00	6770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-29T21:05:00.00	7376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010009	1968-08-31T03:20:00.00	7739	0-0-OQ	 GRAD: mtf1, mag excessive

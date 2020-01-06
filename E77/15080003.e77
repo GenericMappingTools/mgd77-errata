@@ -1,0 +1,30 @@
+# Cruise 15080003 ID CAPH-CHO MGD77 FILE VERSION: 19800226 N_RECS: 4674
+# Examined: Sun Jun  1 14:17:24 2008 by mtchandl
+# Arguments:  -R220.1/248.3/-16.25/28.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Questionable magnetic data quality.
+# Errata: Header
+Y-W-15080003-H13-10: Survey year (1953) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15080003-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-E-15080003-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.928382 b: 59.6141 rms: 111.009 r: 0.977648 sig: 1 dec: 1). [Recompute]
+Y-W-15080003-mtf1-12: Integer multiple of 5 precision
+Y-W-15080003-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080003	1953-01-26T20:50:00.00	29	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T21:35:00.00	38	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T21:40:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T21:55:00.00	42	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T22:35:00.00	50	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T22:40:00.00	51	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T23:25:00.00	60	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-26T23:35:00.00	62	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15080003	1953-01-27T00:40:00.00	75	D-0-0	 NAV: on land
+Y	15080003	1953-01-27T00:45:00.00	76	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	15080003	1953-01-27T00:50:00.00	77	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+?	15080003	1953-01-27T01:10:00.00	78	D-0-0	 NAV: on land
+?	15080003	1953-01-27T01:15:00.00	79	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-27T03:10:00.00	102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080003	1953-01-27T03:15:00.00	103	0-0-OQ	 GRAD: mtf1, mag excessive

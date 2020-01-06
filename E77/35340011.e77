@@ -1,0 +1,13 @@
+# Cruise 35340011 ID 26869J MGD77 FILE VERSION: 19880325 N_RECS: 4862
+# Examined: Wed Jul 27 19:29:17 2011 by mtchandl
+# Arguments:  -R-30/26.05/40/49.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-35340011-depth-01: RLS m: 1.00129 b: 0 rms: 6.01949 r: 0.999964 sig: 1 dec: 0
+N-E-35340011-depth-02: Regression slope 1.00129 different from 1. Recommended: [1]
+Y-W-35340011-depth-12: Integer precision
+# Errata: Data

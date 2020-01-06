@@ -1,0 +1,41 @@
+# Cruise 02010048 ID CH099L08 MGD77 FILE VERSION: 19820805 N_RECS: 11118
+# Examined: Fri Mar 26 20:50:25 2010 by mtchandl
+# Arguments:  -R39.7/50.05/-17.45/-2.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-W-02010048-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-02010048-depth-01: RLS m: 1 b: 0 rms: 15.5452 r: 0.999892 sig: 1 dec: 0
+Y-I-02010048-faa-01: RLS m: 1.02263 b: -2.0965 rms: 4.49606 r: 0.991934 sig: 1 dec: 0
+N-E-02010048-faa-02: Regression slope 1.02263 different from 1. Recommended: [1]
+Y-W-02010048-faa-03: Regression offset -2.0965 different from 0.
+N-E-02010048-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010048-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.2365 b: -34.0944 rms: 47.3406 r: 0.688995 sig: 1 dec: 0). [Recompute]
+N-E-02010048-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999975 b: 0.000297933 rms: 0.0406788 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-02010048-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02421 b: -223.389 rms: 225.784 r: 0.955721 sig: 1 dec: 1). [Recompute]
+Y-W-02010048-mtf1-12: Integer precision
+Y-W-02010048-mag-12: Integer precision
+# Errata: Data
+?	02010048	1970-11-29T14:15:00.00	1792	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-01T14:05:00.00	2515	0-0-KL	 GRAD: twt, depth excessive
+?	02010048	1970-12-06T02:20:00.00	4660	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-07T21:10:00.00	5444	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T04:23:00.00	6827	0-0-KL	 GRAD: twt, depth excessive
+?	02010048	1970-12-09T04:55:00.00	6858	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T04:56:00.00	6859	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T05:00:00.00	6863	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T06:34:00.00	6955	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T06:35:00.00	6956	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T08:12:00.00	7051	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-09T18:10:00.00	7280	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-11T15:20:00.00	8537	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-11T19:48:00.00	8618	0-0-KL	 GRAD: twt, depth excessive
+?	02010048	1970-12-12T07:00:00.00	9015	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-12T15:00:00.00	9223	0-0-V	 GRAD: eot excessive
+?	02010048	1970-12-13T05:10:00.00	9543	0-0-KL	 GRAD: twt, depth excessive
+?	02010048	1970-12-13T06:00:00.00	9590	0-0-K	 GRAD: twt excessive
+?	02010048	1970-12-14T00:46:00.00	10078	0-0-K	 GRAD: twt excessive
+Y	02010048	1970-12-15T21:05:00.00	11006	C-0-0	 NAV: excessive speed

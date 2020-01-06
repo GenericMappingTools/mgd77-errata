@@ -1,0 +1,43 @@
+# Cruise 06990013 ID G179NP MGD77 FILE VERSION: 19870917 N_RECS: 4124
+# Examined: Fri Jul 23 11:08:55 2010 by mtchandl
+# Arguments:  -R162.35/180/12/20 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset, flagged magnetic anomalies for recalculation. Gobs appears to be corrected for Eotvos effects although Eotvos column is filled with zeros.
+# Errata: Header
+Y-I-06990013-depth-01: RLS m: 0.99955 b: 0 rms: 14.3555 r: 0.999919 sig: 1 dec: 0
+Y-I-06990013-faa-01: RLS m: 0.983753 b: -0.97224 rms: 3.71612 r: 0.990453 sig: 1 dec: 0
+N-E-06990013-faa-02: Regression slope 0.983753 different from 1. Recommended: [1]
+Y-W-06990013-faa-03: Regression offset -0.97224 different from 0.
+N-E-06990013-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00197 b: -14.6239 rms: 14.5974 r: 0.999919 sig: 1 dec: 0). [Recompute]
+N-E-06990013-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00197 b: -14.6239 rms: 14.5974 r: 0.999919 sig: 1 dec: 0). [Recompute]
+Y-E-06990013-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99846 b: 29.3116 rms: 29.8074 r: 0.999675 sig: 1 dec: 0). [Recompute]
+Y-E-06990013-depth-08: Extended offset from grid [1836-2115]
+Y-W-06990013-eot-12: Integer multiple of 5 precision
+# Errata: Data
+?	06990013	1979-01-18T23:51:00.00	387	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-18T23:52:00.00	388	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-18T23:53:00.00	389	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	06990013	1979-01-19T00:12:00.00	408	0-U-0	 VAL: gobs invalid
+?	06990013	1979-01-19T00:13:00.00	409	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T00:14:00.00	410	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T00:15:00.00	411	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T00:36:00.00	432	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T00:37:00.00	433	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T00:38:00.00	434	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	06990013	1979-01-19T01:17:00.00	473	0-U-0	 VAL: gobs invalid
+?	06990013	1979-01-19T01:18:00.00	474	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T01:19:00.00	475	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-01-19T01:20:00.00	476	0-0-U	 GRAD: gobs excessive
+?	06990013	1979-03-04T16:21:00.00	1110	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-04T16:22:00.00	1111	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-04T16:23:00.00	1112	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-04T16:24:00.00	1113	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-04T16:25:00.00	1114	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-05T09:01:00.00	2110	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-05T09:02:00.00	2111	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-05T09:03:00.00	2112	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-05T09:04:00.00	2113	0-0-L	 GRAD: depth excessive
+?	06990013	1979-03-05T09:05:00.00	2114	0-0-L	 GRAD: depth excessive

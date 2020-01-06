@@ -1,0 +1,39 @@
+# Cruise 01010134 ID RC1801 MGD77 FILE VERSION: 19800908 N_RECS: 12401
+# Examined: Mon Jul  6 15:45:36 2009 by mtchandl
+# Arguments:  -R293.35/315.3/-62/-50.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010134-time-01: 1 of 12401 records contain invalid time
+N-E-01010134-H13-06: Invalid Magnetics Reference Field Code: (75) [75]
+Y-W-01010134-nav-00: Flagged 0.11 % of records with excessive speed or invalid navigation
+Y-I-01010134-depth-01: RLS m: 1 b: 0 rms: 0.228045 r: 1 sig: 1 dec: 0
+Y-I-01010134-faa-01: RLS m: 1.00214 b: 6.57374 rms: 11.2154 r: 0.993577 sig: 1 dec: 1
+Y-W-01010134-faa-03: Regression offset 6.57374 different from 0.
+Y-E-01010134-mag-07: Anomaly differs from mtf1-IGRF (m: 1.17857 b: 114.954 rms: 149.219 r: 0.861453 sig: 1 dec: 1). [Recompute]
+N-E-01010134-depth-08: Extended offset from grid [6-12401]
+Y-W-01010134-twt-11: More recent bathymetry correction table available
+Y-W-01010134-mtf1-12: Integer precision
+Y-W-01010134-mag-12: Integer precision
+# Errata: Data
+Y	01010134	1975-02-20T22:03:00.00	5369	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:05:00.00	5370	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:12:00.00	5371	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:18:00.00	5372	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:24:00.00	5373	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:30:00.00	5374	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:32:00.00	5375	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:36:00.00	5376	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:42:00.00	5377	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:48:00.00	5378	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T22:54:00.00	5379	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T23:00:00.00	5380	D-0-0	 NAV: on land
+Y	01010134	1975-02-20T23:06:00.00	5381	D-0-0	 NAV: on land
+?	01010134	1975-02-21T06:45:00.00	5539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010134	1975-02-22T15:45:00.00	6000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010134	1975-03-02T01:06:00.00	8387	0-0-K	 GRAD: twt excessive
+?	01010134	1975-03-05T14:15:00.00	9727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010134	NaN	9788	E-0-0	 NAV: navigation undefined

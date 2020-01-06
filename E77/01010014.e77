@@ -1,0 +1,29 @@
+# Cruise 01010014 ID RC0808 MGD77 FILE VERSION: 19900821 N_RECS: 2085
+# Examined: Thu Jun 26 12:58:09 2008 by mtchandl
+# Arguments:  -R293.1/294.95/18.4/20.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01010014-H04-03: Invalid Survey Departure Day: (09) [08]
+Y-E-01010014-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010014-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010014-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010014-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010014-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010014-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010014-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010014-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010014-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-01010014-depth-01: RLS m: 1 b: 0 rms: 227.653 r: 0.992828 sig: 1 dec: 1
+Y-W-01010014-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	01010014	1964-05-11T11:05:00.00	35	D-0-0	 NAV: on land
+?	01010014	1964-05-17T11:06:00.00	759	0-0-K	 GRAD: twt excessive
+?	01010014	1964-05-17T11:12:00.00	760	0-0-KL	 GRAD: twt, depth excessive
+?	01010014	1964-05-25T01:48:00.00	1525	0-0-KL	 GRAD: twt, depth excessive
+?	01010014	1964-05-25T14:30:00.00	1617	0-0-KL	 GRAD: twt, depth excessive
+?	01010014	1964-05-28T03:06:00.00	2006	0-0-K	 GRAD: twt excessive
+?	01010014	1964-05-28T03:12:00.00	2007	0-0-K	 GRAD: twt excessive

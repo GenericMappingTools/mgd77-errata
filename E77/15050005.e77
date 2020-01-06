@@ -1,0 +1,33 @@
+# Cruise 15050005 ID DSDP07GC MGD77 FILE VERSION: 19810928 N_RECS: 14706
+# Examined: Tue May 27 11:14:24 2008 by mtchandl
+# Arguments:  -R141.7/202.1/-1.8/21.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050005-H04-05: Invalid Survey Arrival Month: (10) [09]
+N-E-15050005-H04-06: Invalid Survey Arrival Day: (02) [28]
+Y-W-15050005-nav-00: Flagged 0.10 % of records with excessive speed or invalid navigation
+Y-I-15050005-depth-01: RLS m: 0.996296 b: 0 rms: 117.689 r: 0.998142 sig: 1 dec: 1
+Y-E-15050005-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.986467 b: 32.1747 rms: 42.2344 r: 0.992897 sig: 1 dec: 1). [Recompute]
+Y-W-15050005-mtf1-12: Integer precision
+Y-W-15050005-mag-12: Integer precision
+# Errata: Data
+?	15050005	1969-08-08T03:30:00.00	1	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T03:35:00.00	2	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T03:40:00.00	3	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T03:45:00.00	4	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T03:50:00.00	5	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T03:55:00.00	6	D-0-0	 NAV: on land
+?	15050005	1969-08-08T04:30:00.00	13	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T04:35:00.00	14	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T04:40:00.00	15	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T04:45:00.00	16	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T04:50:00.00	17	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T04:55:00.00	18	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T05:00:00.00	19	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T05:05:00.00	20	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T05:10:00.00	21	D-0-0	 NAV: on land
+Y	15050005	1969-08-08T05:15:00.00	22	D-0-0	 NAV: on land

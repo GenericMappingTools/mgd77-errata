@@ -1,0 +1,26 @@
+# Cruise 19100035 ID DI144 MGD77 FILE VERSION: 19931231 N_RECS: 18834
+# Examined: Mon Sep  6 13:34:13 2010 by mtchandl
+# Arguments:  -R334.6/347.15/16.05/33.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100035-H13-10: Survey year (1984) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-19100035-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-19100035-depth-01: RLS m: 1 b: 0 rms: 2.78055 r: 0.999991 sig: 1 dec: 0
+Y-I-19100035-faa-01: RLS m: 0.991258 b: -0.540794 rms: 2.18138 r: 0.985806 sig: 1 dec: 0
+N-E-19100035-faa-02: Regression slope 0.991258 different from 1. Recommended: [1]
+Y-W-19100035-faa-03: Regression offset -0.540794 different from 0.
+Y-E-19100035-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04082 b: -64.0261 rms: 70.73 r: 0.955837 sig: 1 dec: 0). [Recompute]
+Y-W-19100035-depth-12: Integer precision
+Y-W-19100035-mtf1-12: Integer precision
+Y-W-19100035-mag-12: Integer precision
+Y-W-19100035-faa-12: Integer precision
+# Errata: Data
+?	19100035	1984-01-25T12:36:00.00	1733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100035	1984-01-25T12:38:00.00	1734	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100035	1984-01-31T18:00:00.00	6149	C-0-0	 NAV: excessive speed
+Y	19100035	1984-01-31T18:02:00.00	6150	C-0-0	 NAV: excessive speed
+Y	19100035	1984-01-31T18:04:00.00	6151	C-0-0	 NAV: excessive speed

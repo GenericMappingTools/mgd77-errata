@@ -1,0 +1,34 @@
+# Cruise 01010040 ID RC1009 MGD77 FILE VERSION: 19790619 N_RECS: 3324
+# Examined: Mon Jan 12 13:17:08 2009 by mtchandl
+# Arguments:  -R176.35/183.6/52/56 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010040-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [2]
+Y-W-01010040-H16-06: Ten Degree Identifier 1518 marked in header but was not crossed
+Y-I-01010040-depth-01: RLS m: 1 b: 0 rms: 82.2503 r: 0.997032 sig: 1 dec: 1
+Y-I-01010040-faa-01: RLS m: 0.996492 b: 3.49781 rms: 8.21741 r: 0.995565 sig: 1 dec: 1
+Y-W-01010040-faa-03: Regression offset 3.49781 different from 0.
+Y-E-01010040-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.978243 b: -128.524 rms: 130.095 r: 0.999151 sig: 1 dec: 1). [Recompute]
+Y-W-01010040-twt-11: More recent bathymetry correction table available
+Y-W-01010040-mtf1-12: Integer precision
+Y-W-01010040-mag-12: Integer precision
+# Errata: Data
+?	01010040	1966-07-08T08:27:00.00	1953	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T08:49:00.00	1966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T08:57:00.00	1970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:00:00.00	2036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:07:00.00	2038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:14:00.00	2042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:16:00.00	2043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:17:00.00	2044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:21:00.00	2047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:32:00.00	2051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:46:00.00	2061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:47:00.00	2062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-08T19:49:00.00	2064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-11T21:34:00.00	2774	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010040	1966-07-11T21:47:00.00	2782	0-0-OQ	 GRAD: mtf1, mag excessive

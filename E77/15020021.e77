@@ -1,0 +1,21 @@
+# Cruise 15020021 ID CATO06MV MGD77 FILE VERSION: 19830819 N_RECS: 14099
+# Examined: Thu May 15 08:15:52 2008 by mtchandl
+# Arguments:  -R309.75/334.85/-41.5/-23 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020021-H04-06: Invalid Survey Arrival Day: (16) [15]
+Y-W-15020021-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020021-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15020021-depth-01: RLS m: 1.00388 b: 0 rms: 63.7711 r: 0.999003 sig: 1 dec: 1
+Y-E-15020021-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.979604 b: 76.4988 rms: 87.0802 r: 0.977197 sig: 1 dec: 1). [Recompute]
+Y-W-15020021-twt-11: More recent bathymetry correction table available
+Y-W-15020021-mtf1-12: Integer multiple of 5 precision
+Y-W-15020021-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15020021	1972-12-04T11:55:00.00	9344	C-0-0	 NAV: excessive speed
+Y	15020021	1972-12-04T12:00:00.00	9345	C-0-0	 NAV: excessive speed
+Y	15020021	1972-12-07T01:20:00.00	10153	C-0-0	 NAV: excessive speed

@@ -1,0 +1,21 @@
+# Cruise 03020158 ID FOCI93 MGD77 FILE VERSION: 19931231 N_RECS: 12004
+# Examined: Fri Apr 16 13:10:18 2010 by mtchandl
+# Arguments:  -R179.45/226.15/50.7/57.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020158-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-03020158-depth-01: RLS m: 0.998862 b: 0 rms: 20.9125 r: 0.999853 sig: 1 dec: 0
+N-E-03020158-depth-02: Regression slope 0.998862 different from 1. Recommended: [1]
+Y-W-03020158-depth-12: Integer precision
+# Errata: Data
+Y	03020158	1993-09-07T11:47:00.00	4449	C-0-0	 NAV: excessive speed
+Y	03020158	1993-09-07T11:48:58.98	4450	C-0-0	 NAV: excessive speed
+Y	03020158	1993-09-07T11:49:58.98	4451	C-0-0	 NAV: excessive speed
+Y	03020158	1993-09-07T11:51:00.00	4452	C-0-0	 NAV: excessive speed
+Y	03020158	1993-09-22T01:47:00.00	7420	C-0-0	 NAV: excessive speed
+?	03020158	1993-09-22T03:58:01.02	7551	0-0-L	 GRAD: depth excessive
+Y	03020158	1993-09-27T01:57:57.96	11852	C-0-0	 NAV: excessive speed

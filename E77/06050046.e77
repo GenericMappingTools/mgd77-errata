@@ -1,0 +1,75 @@
+# Cruise 06050046 ID L279NC MGD77 FILE VERSION: 19870917 N_RECS: 780
+# Examined: Fri May 21 15:09:30 2010 by mtchandl
+# Arguments:  -R236.85/242.85/32.6/37.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing and filtering magnetic data. Flagged questionable data at start/end of survey.
+# Errata: Header
+Y-W-06050046-nav-00: Flagged 2.44 % of records with bad navigation
+Y-E-06050046-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99883 b: -70.3264 rms: 73.1833 r: 0.999992 sig: 1 dec: 1). [Recompute]
+Y-E-06050046-mag-10: Invalid data records: [1-43]
+Y-E-06050046-mtf1-10: Invalid data records: [1-43]
+Y-E-06050046-mag-10: Invalid data records: [432-439]
+Y-E-06050046-mtf1-10: Invalid data records: [432-439]
+# Errata: Data
+Y	06050046	1979-10-30T16:04:00.00	6	D-0-0	 NAV: on land
+Y	06050046	1979-10-30T16:14:00.00	7	D-0-0	 NAV: on land
+Y	06050046	1979-10-30T16:24:00.00	8	D-0-0	 NAV: on land
+Y	06050046	1979-10-30T16:34:00.00	9	D-0-0	 NAV: on land
+Y	06050046	1979-10-30T16:54:00.00	11	C-0-0	 NAV: excessive speed
+Y	06050046	1979-10-30T17:16:00.00	13	D-0-0	 NAV: on land
+?	06050046	1979-10-30T18:46:00.00	22	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T18:56:00.00	23	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:06:00.00	24	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:16:00.00	25	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:28:00.00	26	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:38:00.00	27	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:48:00.00	28	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T19:58:00.00	29	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T20:08:00.00	30	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T20:20:00.00	31	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T20:30:00.00	32	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T20:42:00.00	33	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T20:52:00.00	34	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T21:02:00.00	35	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T21:18:00.00	36	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T21:28:00.00	37	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T21:40:00.00	38	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T21:50:00.00	39	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T22:00:00.00	40	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T22:10:00.00	41	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T22:22:00.00	42	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T22:32:00.00	43	0-Q-0	 VAL: mag invalid
+?	06050046	1979-10-30T22:42:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T05:30:00.00	76	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T05:44:00.00	77	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T07:04:00.00	84	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T07:16:00.00	85	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T11:40:00.00	108	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T11:50:00.00	109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T16:50:00.00	133	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T16:58:00.00	134	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-10-31T17:14:00.00	135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-11-01T07:52:00.00	226	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-11-01T08:00:00.00	227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-11-02T22:20:00.00	432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050046	1979-11-02T22:54:00.00	435	0-Q-0	 VAL: mag invalid
+?	06050046	1979-11-02T23:02:00.00	436	0-Q-0	 VAL: mag invalid
+?	06050046	1979-11-02T23:14:00.00	437	0-Q-0	 VAL: mag invalid
+?	06050046	1979-11-02T23:26:00.00	438	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050046	1979-11-02T23:38:00.00	439	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	06050046	1979-11-04T10:58:00.00	612	C-0-0	 NAV: excessive speed
+Y	06050046	1979-11-04T11:10:00.00	613	C-0-0	 NAV: excessive speed
+Y	06050046	1979-11-04T11:22:00.00	614	C-0-0	 NAV: excessive speed
+Y	06050046	1979-11-04T13:13:00.00	624	C-0-0	 NAV: excessive speed
+Y	06050046	1979-11-04T13:14:00.00	625	C-0-0	 NAV: excessive speed
+Y	06050046	1979-11-05T16:24:00.00	773	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T16:34:00.00	774	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T16:44:00.00	775	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T16:54:00.00	776	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T17:04:00.00	777	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T17:14:00.00	778	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T17:24:00.00	779	D-0-0	 NAV: on land
+Y	06050046	1979-11-05T17:34:00.00	780	D-0-0	 NAV: on land

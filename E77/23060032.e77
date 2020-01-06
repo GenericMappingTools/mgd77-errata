@@ -1,0 +1,37 @@
+# Cruise 23060032 ID ODP128JR MGD77 FILE VERSION: 19910418 N_RECS: 6234
+# Examined: Tue Oct 19 15:24:04 2010 by mtchandl
+# Arguments:  -R129.35/138.25/35.15/40.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-23060032-H04-06: Invalid Survey Arrival Day: (15) [14]
+Y-I-23060032-depth-01: RLS m: 0.997233 b: 0 rms: 20.0553 r: 0.999732 sig: 1 dec: 0
+N-E-23060032-depth-02: Regression slope 0.997233 different from 1. Recommended: [1]
+Y-E-23060032-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993576 b: 13.6849 rms: 17.0499 r: 0.998455 sig: 1 dec: 1). [Recompute]
+Y-W-23060032-depth-12: Integer precision
+Y-W-23060032-mtf1-12: Integer precision
+# Errata: Data
+?	23060032	1989-08-26T07:25:00.00	714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-08-26T07:26:00.00	715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-08-26T07:44:00.00	732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-08-26T08:05:00.00	747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-01T14:55:00.00	2449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:03:00.00	3387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:04:00.00	3388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:09:00.00	3392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:13:00.00	3395	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:14:00.00	3396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:29:00.00	3408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:32:00.00	3411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:34:00.00	3412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:37:00.00	3415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T13:39:00.00	3416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-09-21T15:54:00.00	3489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-10-13T16:22:00.00	5566	0-0-O	 GRAD: mtf1 excessive
+?	23060032	1989-10-14T00:54:00.00	6007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-10-14T00:55:00.00	6008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-10-14T00:59:00.00	6012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060032	1989-10-14T01:18:00.00	6021	0-0-OQ	 GRAD: mtf1, mag excessive

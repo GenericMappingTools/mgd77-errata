@@ -1,0 +1,252 @@
+# Cruise 09780022 ID WI343422 MGD77 FILE VERSION: 19830818 N_RECS: 27145
+# Examined: Mon Aug 16 16:31:48 2010 by mtchandl
+# Arguments:  -R-26.95/4.85/29.65/60.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09780022-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780022-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780022-nav-00: Flagged 0.69 % of records with bad navigation
+Y-I-09780022-depth-01: RLS m: 1.00035 b: 0 rms: 8.83711 r: 0.99997 sig: 1 dec: 0
+N-E-09780022-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-E-09780022-mag-07: Anomaly differs from mtf1-IGRF (m: 0.905422 b: 18.0621 rms: 67.7381 r: 0.959272 sig: 1 dec: 1). [Recompute]
+Y-W-09780022-twt-11: More recent bathymetry correction table available
+Y-W-09780022-depth-12: Integer precision
+Y-W-09780022-mag-12: Integer precision
+# Errata: Data
+Y	09780022	1974-06-07T19:17:00.00	197	C-0-0	 NAV: excessive speed
+?	09780022	1974-06-07T22:21:00.00	381	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-10T07:15:00.00	3749	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-10T07:47:00.00	3781	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-10T12:36:00.00	4070	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-10T15:47:00.00	4261	0-0-KL	 GRAD: twt, depth excessive
+Y	09780022	1974-06-10T23:37:00.00	4754	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:38:00.00	4755	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:39:00.00	4756	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:40:00.00	4757	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:41:00.00	4758	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:42:00.00	4759	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:43:00.00	4760	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:44:00.00	4761	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:45:00.00	4762	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:46:00.00	4763	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:47:00.00	4764	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:48:00.00	4765	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:49:00.00	4766	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:50:00.00	4767	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:51:00.00	4768	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:52:00.00	4769	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:53:00.00	4770	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:54:00.00	4771	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:55:00.00	4772	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:56:00.00	4773	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:57:00.00	4774	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:58:00.00	4775	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-10T23:59:00.00	4776	B-0-0	 NAV: non-increasing time
+?	09780022	1974-06-11T06:13:00.00	5149	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-12T02:36:00.00	6371	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-12T11:16:00.00	6891	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-12T12:50:00.00	6985	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-12T15:47:00.00	7162	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-13T13:07:00.00	8441	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-13T18:32:00.00	8766	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-13T18:44:00.00	8778	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-13T22:31:00.00	9005	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-17T17:01:00.00	14428	0-0-K	 GRAD: twt excessive
+Y	09780022	1974-06-18T23:59:00.00	15967	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15968	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15969	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15970	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15971	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15972	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15973	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15974	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15975	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15976	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15977	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15978	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15979	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15980	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15981	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15982	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15983	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15984	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15985	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15986	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15987	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15988	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15989	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15990	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15991	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15992	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15993	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15994	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15995	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15996	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15997	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15998	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	15999	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16000	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16001	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16002	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16003	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16004	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16005	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16006	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16007	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16008	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16009	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16010	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16011	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16012	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16013	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16014	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16015	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16016	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16017	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16018	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16019	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16020	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16021	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16022	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16023	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16024	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16025	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16026	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16027	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16028	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16029	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16030	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16031	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16032	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16033	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16034	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16035	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16036	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16037	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16038	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16039	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16040	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16041	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16042	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16043	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16044	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16045	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16046	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16047	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16048	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16049	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16050	B-0-0	 NAV: non-increasing time
+Y	09780022	1974-06-18T23:59:00.00	16051	B-0-0	 NAV: non-increasing time
+?	09780022	1974-06-19T21:01:00.00	17312	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-19T23:46:00.00	17477	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-20T15:52:00.00	18442	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-20T16:26:00.00	18476	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-20T17:00:00.00	18510	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-20T17:01:00.00	18511	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-25T00:35:00.00	18875	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-25T00:52:00.00	18892	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-25T00:55:00.00	18895	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-25T01:16:00.00	18916	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-25T02:07:00.00	18964	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-25T02:16:00.00	18973	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-26T19:41:00.00	19040	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-26T19:46:00.00	19045	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-26T19:59:00.00	19058	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-27T15:28:00.00	20168	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-27T15:41:00.00	20181	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-27T15:59:00.00	20199	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-27T19:10:00.00	20390	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-27T19:11:00.00	20391	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-27T19:21:00.00	20401	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-27T19:31:00.00	20411	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-28T19:18:00.00	21837	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-29T04:48:00.00	22406	0-0-KL	 GRAD: twt, depth excessive
+?	09780022	1974-06-29T05:57:00.00	22475	0-0-K	 GRAD: twt excessive
+?	09780022	1974-06-30T05:33:00.00	23877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780022	1974-07-13T03:25:00.00	26479	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780022	1974-07-13T03:45:00.00	26483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780022	1974-07-13T03:50:00.00	26485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780022	1974-07-13T04:10:00.00	26489	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09780022	1974-07-14T15:50:00.00	26946	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T15:55:00.00	26947	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T16:46:00.00	26958	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T17:32:00.00	26968	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T18:52:00.00	26985	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T18:55:00.00	26986	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:00:00.00	26987	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:05:00.00	26988	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:10:00.00	26989	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:11:00.00	26990	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:15:00.00	26991	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:20:00.00	26992	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:25:00.00	26993	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:30:00.00	26994	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:35:00.00	26995	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:40:00.00	26996	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:45:00.00	26997	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:50:00.00	26998	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T19:55:00.00	26999	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:00:00.00	27000	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:05:00.00	27001	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:10:00.00	27002	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:12:00.00	27003	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:15:00.00	27004	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:20:00.00	27005	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:25:00.00	27006	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:30:00.00	27007	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:35:00.00	27008	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:40:00.00	27009	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:45:00.00	27010	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:50:00.00	27011	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T20:55:00.00	27012	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:00:00.00	27013	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:05:00.00	27014	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:10:00.00	27015	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:15:00.00	27016	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:20:00.00	27017	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:25:00.00	27018	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:30:00.00	27019	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:35:00.00	27020	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:40:00.00	27021	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:45:00.00	27022	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:50:00.00	27023	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T21:55:00.00	27024	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:00:00.00	27025	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:05:00.00	27026	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:10:00.00	27027	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:15:00.00	27028	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:16:00.00	27029	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:20:00.00	27030	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:25:00.00	27031	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:30:00.00	27032	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:35:00.00	27033	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:40:00.00	27034	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:45:00.00	27035	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:50:00.00	27036	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T22:55:00.00	27037	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:00:00.00	27038	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:05:00.00	27039	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:10:00.00	27040	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:15:00.00	27041	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:20:00.00	27042	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:25:00.00	27043	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:30:00.00	27044	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:35:00.00	27045	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:40:00.00	27046	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:42:00.00	27047	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:45:00.00	27048	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:50:00.00	27049	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-14T23:55:00.00	27050	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:00:00.00	27051	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:05:00.00	27052	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:10:00.00	27053	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:15:00.00	27054	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:20:00.00	27055	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:25:00.00	27056	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:26:00.00	27057	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:30:00.00	27058	C-0-0	 NAV: excessive speed
+Y	09780022	1974-07-15T00:35:00.00	27059	C-0-0	 NAV: excessive speed

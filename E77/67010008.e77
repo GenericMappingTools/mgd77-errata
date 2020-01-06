@@ -1,0 +1,35 @@
+# Cruise 67010008 ID 71003511 MGD77 FILE VERSION: 19830804 N_RECS: 5866
+# Examined: Thu Jul 28 18:38:07 2011 by mtchandl
+# Arguments:  -R9.75/13.5/-15.15/-4.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010008-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-67010008-depth-01: RLS m: 0.999276 b: 0 rms: 14.4029 r: 0.999943 sig: 1 dec: 0
+N-E-67010008-depth-02: Regression slope 0.999276 different from 1. Recommended: [1]
+Y-I-67010008-faa-01: RLS m: 0.987334 b: -2.52005 rms: 5.79492 r: 0.974726 sig: 1 dec: 0
+N-E-67010008-faa-02: Regression slope 0.987334 different from 1. Recommended: [1]
+Y-W-67010008-faa-03: Regression offset -2.52005 different from 0.
+Y-E-67010008-mag-07: Anomaly differs from mtf1-IGRF (m: 0.98857 b: 66.0882 rms: 69.0563 r: 0.995733 sig: 1 dec: 1). [Recompute]
+Y-W-67010008-twt-11: More recent bathymetry correction table available
+Y-W-67010008-mtf1-12: Integer precision
+Y-W-67010008-mag-12: Integer precision
+# Errata: Data
+Y	67010008	1971-07-05T14:00:00.00	2	C-0-0	 NAV: excessive speed
+Y	67010008	1971-07-05T14:03:00.00	3	C-0-0	 NAV: excessive speed
+Y	67010008	1971-07-05T14:07:00.00	4	C-0-0	 NAV: excessive speed
+Y	67010008	1971-07-05T14:09:00.00	5	C-0-0	 NAV: excessive speed
+Y	67010008	1971-07-05T14:11:00.00	6	C-0-0	 NAV: excessive speed
+Y	67010008	1971-07-05T14:13:00.00	7	C-0-0	 NAV: excessive speed
+?	67010008	1971-07-05T14:47:00.00	29	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010008	1971-07-05T14:49:00.00	30	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010008	1971-07-05T18:23:00.00	119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010008	1971-07-05T18:25:00.00	121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010008	1971-07-05T18:49:00.00	137	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010008	1971-07-05T19:15:00.00	149	0-0-K	 GRAD: twt excessive
+Y	67010008	1971-07-07T23:00:00.00	1103	B-0-0	 NAV: non-increasing time
+Y	67010008	1971-07-13T20:11:00.00	3809	B-0-0	 NAV: non-increasing time
+Y	67010008	1971-07-17T23:00:00.00	5672	B-0-0	 NAV: non-increasing time

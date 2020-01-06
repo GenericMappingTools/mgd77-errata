@@ -1,0 +1,115 @@
+# Cruise 15390021 ID DRFT15RR MGD77 FILE VERSION: 20040527 N_RECS: 18356
+# Examined: Wed Jun  4 23:24:58 2008 by mtchandl
+# Arguments:  -R195.65/208.35/16.4/28.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15390021-H13-10: Survey year (2002) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15390021-H15-01: Invalid Gravity Departure Base Station Value: (978923.) [9789230]
+Y-E-15390021-H15-03: Invalid Gravity Arrival Base Station Value: (978923.) [9789230]
+Y-W-15390021-nav-00: Flagged 0.37 % of records with excessive speed or invalid navigation
+Y-I-15390021-depth-01: RLS m: 1.03226 b: 0 rms: 274.015 r: 0.979857 sig: 1 dec: 1
+N-E-15390021-depth-02: Regression slope 1.03226 different from 1. Recommended: [1]
+Y-I-15390021-faa-01: RLS m: 0.983459 b: -0.456373 rms: 8.03737 r: 0.994983 sig: 1 dec: 1
+N-E-15390021-faa-02: Regression slope 0.983459 different from 1. Recommended: [1]
+N-E-15390021-faa-06: Anomaly differs from gobs - IGF80 (m: 0.589162 b: 20.7685 rms: 52.7274 r: 0.789038 sig: 1 dec: 1). [Recompute]
+N-E-15390021-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.565081 b: 26.6027 rms: 54.2108 r: 0.795578 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-15390021-twt-11: More recent bathymetry correction table available
+Y-W-15390021-depth-12: Integer precision
+# Errata: Data
+Y	15390021	2002-05-08T06:00:00.00	1	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:01:00.00	2	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:02:00.00	3	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:03:00.00	4	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:04:00.00	5	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:05:00.00	6	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:06:00.00	7	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:07:00.00	8	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:08:00.00	9	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:09:00.00	10	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:10:00.00	11	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:11:00.00	12	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:12:00.00	13	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:13:00.00	14	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:14:00.00	15	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:15:00.00	16	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:16:00.00	17	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:17:00.00	18	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:18:00.00	19	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:19:00.00	20	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:20:00.00	21	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:21:00.00	22	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:22:00.00	23	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:23:00.00	24	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:24:00.00	25	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:25:00.00	26	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:26:00.00	27	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:27:00.00	28	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:28:00.00	29	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:29:00.00	30	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:30:00.00	31	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:31:00.00	32	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:32:00.00	33	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:33:00.00	34	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:34:00.00	35	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:35:00.00	36	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:36:00.00	37	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:37:00.00	38	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:38:00.00	39	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:39:00.00	40	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:40:00.00	41	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:41:00.00	42	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:42:00.00	43	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:43:00.00	44	D-0-U	 NAV: on land - GRAD: gobs excessive
+Y	15390021	2002-05-08T06:44:00.00	45	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:45:00.00	46	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:46:00.00	47	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:47:00.00	48	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:48:00.00	49	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:49:00.00	50	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:50:00.00	51	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:51:00.00	52	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:52:00.00	53	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:53:00.00	54	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:54:00.00	55	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:55:00.00	56	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:56:00.00	57	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:57:00.00	58	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:58:00.00	59	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T06:59:00.00	60	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:00:00.00	61	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:01:00.00	62	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:02:00.00	63	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:03:00.00	64	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:04:00.00	65	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:05:00.00	66	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:06:00.00	67	D-0-0	 NAV: on land
+Y	15390021	2002-05-08T07:07:00.00	68	D-0-0	 NAV: on land
+?	15390021	2002-05-09T14:57:00.00	1978	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-09T15:00:00.00	1981	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-10T05:31:00.00	2852	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-10T05:32:00.00	2853	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-10T22:57:00.00	3898	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-10T22:58:00.00	3899	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-10T23:04:00.00	3905	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-11T02:39:00.00	4120	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-12T01:14:00.00	5475	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-12T01:15:00.00	5476	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-15T21:49:00.00	11030	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-15T21:50:00.00	11031	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-15T23:45:00.00	11146	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-15T23:56:00.00	11157	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-16T01:12:00.00	11233	0-0-W	 GRAD: faa excessive
+?	15390021	2002-05-17T19:35:00.00	13776	0-0-K	 GRAD: twt excessive
+?	15390021	2002-05-17T21:02:00.00	13863	0-0-KL	 GRAD: twt, depth excessive
+?	15390021	2002-05-19T03:35:00.00	15696	0-0-K	 GRAD: twt excessive
+?	15390021	2002-05-19T06:05:00.00	15846	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-19T11:10:00.00	16151	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-19T11:11:00.00	16152	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-19T15:37:00.00	16418	0-0-K	 GRAD: twt excessive
+?	15390021	2002-05-20T20:51:00.00	18172	0-0-U	 GRAD: gobs excessive
+?	15390021	2002-05-20T20:52:00.00	18173	0-0-U	 GRAD: gobs excessive

@@ -1,0 +1,41 @@
+# Cruise 17080016 ID A118L36 MGD77 FILE VERSION: 19900702 N_RECS: 9358
+# Examined: Mon Sep  6 12:39:46 2010 by mtchandl
+# Arguments:  -R234.4/235.25/44.5/45.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-17080016-H04-03: Invalid Survey Departure Day: (18) [19]
+Y-E-17080016-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-W-17080016-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-17080016-depth-01: RLS m: 0.996515 b: 0 rms: 38.1367 r: 0.998199 sig: 1 dec: 0
+N-E-17080016-depth-02: Regression slope 0.996515 different from 1. Recommended: [1]
+Y-W-17080016-depth-12: Integer precision
+# Errata: Data
+?	17080016	1988-06-19T13:39:33.00	617	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-19T15:43:25.02	669	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T02:12:39.00	984	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T14:38:16.02	1644	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T15:47:28.98	1678	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T15:48:49.02	1679	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T20:21:58.02	1837	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T21:32:54.00	1875	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-20T21:40:31.98	1880	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-22T05:54:46.98	2793	0-0-KL	 GRAD: twt, depth excessive
+Y	17080016	1988-06-22T09:28:00.00	3006	C-0-0	 NAV: excessive speed
+?	17080016	1988-06-22T14:19:52.02	3270	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-22T14:20:54.00	3271	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-23T02:51:30.00	3344	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-23T14:02:58.98	4002	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-23T14:58:10.98	4053	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-23T16:03:25.02	4116	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-24T04:44:24.00	4368	0-0-KL	 GRAD: twt, depth excessive
+?	17080016	1988-06-24T14:27:22.98	4774	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-24T22:14:43.02	4804	0-0-KL	 GRAD: twt, depth excessive
+Y	17080016	1988-06-25T00:00:46.98	4904	C-0-0	 NAV: excessive speed
+?	17080016	1988-06-28T22:59:30.00	7360	0-0-K	 GRAD: twt excessive
+?	17080016	1988-06-28T23:03:37.02	7363	0-0-K	 GRAD: twt excessive
+?	17080016	1988-07-01T03:21:39.00	8910	0-0-K	 GRAD: twt excessive
+Y	17080016	1988-07-02T00:00:42.00	9187	C-0-0	 NAV: excessive speed

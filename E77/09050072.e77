@@ -1,0 +1,25 @@
+# Cruise 09050072 ID KA70E MGD77 FILE VERSION: 19810713 N_RECS: 6331
+# Examined: Mon Aug  9 12:05:19 2010 by mtchandl
+# Arguments:  -R334.45/352/28.45/38.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-09050072-depth-01: RLS m: 1 b: 0 rms: 13.0754 r: 0.999919 sig: 1 dec: 0
+Y-E-09050072-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958863 b: 29.4227 rms: 65.7767 r: 0.933318 sig: 1 dec: 1). [Recompute]
+Y-W-09050072-twt-11: More recent bathymetry correction table available
+Y-W-09050072-mtf1-12: Integer precision
+# Errata: Data
+?	09050072	1970-11-15T20:58:18.00	1033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-15T20:58:48.00	1035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-15T20:59:06.00	1036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-15T20:59:48.00	1038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-15T21:00:18.00	1039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-20T04:00:54.00	2188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-20T18:00:54.00	2369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050072	1970-11-27T05:02:54.00	4466	0-0-KL	 GRAD: twt, depth excessive
+?	09050072	1970-11-27T11:30:36.00	4595	0-0-K	 GRAD: twt excessive
+?	09050072	1970-11-30T11:15:42.00	5774	0-0-KL	 GRAD: twt, depth excessive
+?	09050072	1970-12-02T00:41:36.00	6328	0-0-OQ	 GRAD: mtf1, mag excessive

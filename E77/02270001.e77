@@ -1,0 +1,58 @@
+# Cruise 02270001 ID WOCE_A16 MGD77 FILE VERSION: 20010425 N_RECS: 2045
+# Examined: Fri Apr  9 13:08:56 2010 by mtchandl
+# Arguments:  -R330.95/340.15/-3.05/63.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-02270001-H04-03: Invalid Survey Departure Day: (23) [24]
+N-E-02270001-H04-06: Invalid Survey Arrival Day: (27) [25]
+Y-W-02270001-nav-00: Flagged 2.05 % of records with bad navigation
+Y-I-02270001-depth-01: RLS m: 0.997096 b: 0 rms: 59.6707 r: 0.999062 sig: 1 dec: 0
+N-E-02270001-depth-02: Regression slope 0.997096 different from 1. Recommended: [1]
+Y-W-02270001-depth-12: Integer precision
+# Errata: Data
+Y	02270001	1988-07-26T05:20:00.00	132	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-07-26T14:31:00.00	160	C-0-0	 NAV: excessive speed
+Y	02270001	1988-07-26T14:30:00.00	161	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-07-27T12:50:00.00	231	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-07-27T19:10:00.00	253	C-0-0	 NAV: excessive speed
+Y	02270001	1988-07-30T15:50:00.00	526	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-07-31T10:40:00.00	589	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-01T07:40:00.00	657	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-01T13:20:00.00	682	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-01T18:21:00.00	693	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-01T18:20:00.00	694	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-01T19:40:00.00	703	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-02T14:51:00.00	770	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-02T14:50:00.00	771	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-03T19:00:00.00	857	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-04T01:00:00.00	876	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-04T07:10:00.00	892	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-04T08:10:00.00	898	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-04T20:10:00.00	926	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-04T20:20:00.00	927	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-05T13:10:00.00	979	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-05T20:00:00.00	999	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-06T01:00:00.00	1010	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-06T01:20:00.00	1012	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-06T08:10:00.00	1034	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-06T08:22:00.00	1035	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-06T08:30:00.00	1036	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-06T09:10:00.00	1040	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-12T15:10:00.00	1115	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-13T02:10:00.00	1149	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-13T03:00:00.00	1155	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-17T22:30:00.00	1407	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-17T23:00:00.00	1410	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-19T01:30:00.00	1498	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-19T09:10:00.00	1530	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-20T08:40:00.00	1615	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-20T20:30:00.00	1657	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-22T07:20:00.00	1792	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-22T12:20:00.00	1811	B-0-0	 NAV: non-increasing time
+Y	02270001	1988-08-22T14:00:00.00	1821	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-22T15:00:00.00	1827	C-0-0	 NAV: excessive speed
+Y	02270001	1988-08-22T21:00:00.00	1851	C-0-0	 NAV: excessive speed

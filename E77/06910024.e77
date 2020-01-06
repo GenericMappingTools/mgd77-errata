@@ -1,0 +1,19 @@
+# Cruise 06910024 ID P186AT MGD77 FILE VERSION: 19910719 N_RECS: 3001
+# Examined: Fri Jul 16 17:15:09 2010 by mtchandl
+# Arguments:  -R279.45/279.8/27.9/28.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-E-06910024-H04-02: Invalid Survey Departure Month: (08) [01]
+Y-E-06910024-H04-03: Invalid Survey Departure Day: (21) [13]
+Y-E-06910024-H04-05: Invalid Survey Arrival Month: (09) [01]
+Y-E-06910024-H04-06: Invalid Survey Arrival Day: (05) [16]
+Y-I-06910024-faa-01: RLS m: 0.975431 b: 1.7633 rms: 1.98468 r: 0.877772 sig: 1 dec: 0
+Y-W-06910024-faa-03: Regression offset 1.7633 different from 0.
+Y-I-06910024-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910024-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.0357667 b: 15.8752 rms: 13.8695 r: 0.148415 sig: 1 dec: 0). [Recompute]
+Y-W-06910024-faa-09: only found positive values
+# Errata: Data

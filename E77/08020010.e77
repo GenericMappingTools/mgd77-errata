@@ -1,0 +1,49 @@
+# Cruise 08020010 ID MW8705 MGD77 FILE VERSION: 19881130 N_RECS: 25166
+# Examined: Mon Jul 26 17:31:53 2010 by mtchandl
+# Arguments:  -R204.05/254.8/19.05/20.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Questionable offset from bathymetry grid near end of cruise.
+# Errata: Header
+Y-W-08020010-H13-10: Survey year (1987) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08020010-depth-01: RLS m: 0.999521 b: 0 rms: 26.3288 r: 0.999585 sig: 1 dec: 0
+Y-E-08020010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958521 b: -111.035 rms: 115.069 r: 0.978554 sig: 1 dec: 1). [Recompute]
+Y-W-08020010-twt-11: More recent bathymetry correction table available
+Y-W-08020010-mtf1-12: Integer precision
+# Errata: Data
+?	08020010	1987-04-30T11:55:04.02	7854	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-01T19:42:58.98	10980	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-04T05:00:07.02	16431	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-04T05:06:12.00	16443	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-04T05:15:49.02	16465	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-04T08:36:45.00	16693	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-04T10:27:45.00	16889	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-04T11:20:10.02	16978	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-05T15:25:25.02	18645	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-05T22:39:25.02	19432	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-05T22:51:16.98	19462	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-06T02:56:43.98	19851	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-06T06:42:24.00	20234	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-06T08:21:34.02	20411	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-06T08:58:31.02	20478	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-06T22:40:57.00	21936	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-06T23:02:18.00	21979	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T00:55:07.98	22163	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T01:13:52.02	22197	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-07T01:46:16.98	22260	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T03:05:04.02	22407	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T04:00:40.98	22497	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T05:11:39.00	22620	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-07T05:26:43.98	22645	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T06:00:54.00	22708	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T13:10:49.98	23395	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T14:29:34.02	23502	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-07T14:29:43.98	23503	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T14:34:33.00	23512	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-07T16:49:28.98	23712	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-07T18:47:51.00	23882	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-08T01:43:34.02	24514	0-0-K	 GRAD: twt excessive
+?	08020010	1987-05-08T03:07:48.00	24672	0-0-KL	 GRAD: twt, depth excessive
+?	08020010	1987-05-08T05:32:13.02	24911	0-0-K	 GRAD: twt excessive

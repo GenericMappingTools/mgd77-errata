@@ -1,0 +1,91 @@
+# Cruise J4010034 ID KH79 MGD77 FILE VERSION: 19880322 N_RECS: 15563
+# Examined: Mon Nov  7 17:35:59 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-J4010034-H16-01: Invalid Number of Ten Degree Identifiers: (17) [18]
+Y-W-J4010034-H16-06: Ten Degree Identifier 3013 not marked in header but block was crossed
+Y-W-J4010034-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-J4010034-depth-01: RLS m: 0.999509 b: 0 rms: 24.1038 r: 0.99993 sig: 1 dec: 0
+N-E-J4010034-depth-02: Regression slope 0.999509 different from 1. Recommended: [1]
+Y-I-J4010034-faa-01: RLS m: 0.995368 b: -4.87796 rms: 17.2274 r: 0.957266 sig: 1 dec: 0
+Y-W-J4010034-faa-03: Regression offset -4.87796 different from 0.
+N-E-J4010034-faa-08: Extended offset from grid [780-2538]
+N-E-J4010034-faa-08: Extended offset from grid [4455-6083]
+Y-E-J4010034-depth-08: Extended offset from grid [13323-13546]
+Y-W-J4010034-depth-12: Integer precision
+Y-W-J4010034-faa-12: Integer precision
+# Errata: Data
+Y	J4010034	1979-01-27T16:30:00.00	11	D-0-0	 NAV: on land
+Y	J4010034	1979-01-27T16:35:00.00	12	D-0-0	 NAV: on land
+?	J4010034	1979-01-27T19:00:00.00	41	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-01-27T19:05:00.00	42	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-03T18:50:00.00	1805	0-0-W	 GRAD: faa excessive
+Y	J4010034	1979-02-09T05:25:00.00	2126	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-02-09T05:30:00.00	2127	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-02-09T05:35:00.00	2128	C-0-0	 NAV: excessive speed
+?	J4010034	1979-02-22T09:20:00.00	3293	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-22T09:25:00.00	3294	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-22T16:00:00.00	3334	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-22T16:05:00.00	3335	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-28T08:25:00.00	4240	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-02-28T08:30:00.00	4241	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-02-28T08:35:00.00	4242	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-01T06:40:00.00	4437	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-03-01T06:45:00.00	4438	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-01T07:30:00.00	4447	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-03-01T07:35:00.00	4448	0-W-0	 VAL: faa invalid
+?	J4010034	1979-03-01T07:40:00.00	4449	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-01T07:45:00.00	4450	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-01T08:00:00.00	4453	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-01T08:05:00.00	4454	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-18T09:35:00.00	7077	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-18T09:40:00.00	7078	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-22T00:10:00.00	7569	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-03-22T00:15:00.00	7570	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-03T18:05:00.00	8461	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-05T12:30:00.00	8928	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-05T12:40:00.00	8930	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-06T11:30:00.00	9192	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-06T11:40:00.00	9194	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-07T16:15:00.00	9519	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-07T16:20:00.00	9520	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-05-07T16:25:00.00	9521	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-08T20:25:00.00	9845	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-22T10:35:00.00	10061	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-22T10:45:00.00	10063	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-23T12:25:00.00	10371	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-23T12:30:00.00	10372	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-30T08:00:00.00	10790	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-30T16:20:00.00	10890	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-30T16:25:00.00	10891	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-31T09:10:00.00	11080	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-31T09:15:00.00	11081	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-31T09:25:00.00	11083	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-05-31T09:30:00.00	11084	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-02T12:20:00.00	11669	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-02T12:25:00.00	11670	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-03T09:20:00.00	11897	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-03T09:25:00.00	11898	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-03T18:00:00.00	12001	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010034	1979-06-03T18:05:00.00	12002	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-04T09:10:00.00	12171	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-04T09:15:00.00	12172	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-04T18:00:00.00	12277	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-04T18:05:00.00	12278	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-05T09:20:00.00	12461	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-05T09:25:00.00	12462	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-05T19:30:00.00	12583	0-0-W	 GRAD: faa excessive
+?	J4010034	1979-06-05T19:35:00.00	12584	0-0-W	 GRAD: faa excessive
+Y	J4010034	1979-08-29T22:05:00.00	13616	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:10:00.00	13617	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:15:00.00	13618	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:20:00.00	13619	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:25:00.00	13620	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:30:00.00	13621	C-0-0	 NAV: excessive speed
+Y	J4010034	1979-08-29T22:35:00.00	13622	C-0-0	 NAV: excessive speed
+?	J4010034	1979-09-05T07:55:00.00	15149	0-0-W	 GRAD: faa excessive

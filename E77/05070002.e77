@@ -1,0 +1,27 @@
+# Cruise 05070002 ID TI6505 MGD77 FILE VERSION: 19840921 N_RECS: 1179
+# Examined: Fri Apr 30 13:43:19 2010 by mtchandl
+# Arguments:  -R172.35/181.85/-36.05/-28.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05070002-H13-01: Invalid Magnetics Digitizing Rate: (454) [454]
+Y-W-05070002-H13-09: Unknown IGRF specified (DGRF-65)
+Y-E-05070002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997412 b: -9.24066 rms: 12.696 r: 0.99971 sig: 1 dec: 1). [Recompute]
+Y-W-05070002-mtf1-12: Integer multiple of 5 precision
+Y-W-05070002-mag-12: Integer precision
+# Errata: Data
+?	05070002	1965-04-29T19:52:00.00	89	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05070002	1965-04-29T19:57:00.00	90	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070002	1965-04-30T08:07:00.00	233	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05070002	1965-04-30T08:12:00.00	234	0-Q-0	 VAL: mag invalid
+?	05070002	1965-04-30T08:17:00.00	235	0-Q-0	 VAL: mag invalid
+?	05070002	1965-04-30T08:32:00.00	238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070002	1965-04-30T09:43:00.00	242	0-Q-0	 VAL: mag invalid
+?	05070002	1965-05-01T01:37:00.00	409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070002	1965-05-01T01:47:00.00	411	0-Q-0	 VAL: mag invalid
+?	05070002	1965-05-01T01:52:00.00	412	0-Q-0	 VAL: mag invalid
+?	05070002	1965-05-01T06:53:00.00	443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070002	1965-05-01T06:58:00.00	444	0-0-OQ	 GRAD: mtf1, mag excessive

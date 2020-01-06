@@ -1,0 +1,52 @@
+# Cruise 06780029 ID FARN0988 MGD77 FILE VERSION: 19941231 N_RECS: 18704
+# Examined: Fri May 28 16:38:48 2010 by mtchandl
+# Arguments:  -R196.8/211.2/51.05/57.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-I-06780029-depth-01: RLS m: 0.999651 b: 0 rms: 14.2806 r: 0.999919 sig: 1 dec: 0
+N-E-06780029-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-06780029-faa-01: RLS m: 0.981312 b: 1.71295 rms: 3.76033 r: 0.996842 sig: 1 dec: 0
+N-E-06780029-faa-02: Regression slope 0.981312 different from 1. Recommended: [1]
+Y-W-06780029-faa-03: Regression offset 1.71295 different from 0.
+Y-E-06780029-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996772 b: -17.9841 rms: 39.7205 r: 0.99315 sig: 1 dec: 1). [Recompute]
+Y-W-06780029-depth-12: Integer precision
+Y-W-06780029-mtf1-12: Integer precision
+Y-W-06780029-mag-12: Integer precision
+Y-W-06780029-faa-12: Integer precision
+# Errata: Data
+?	06780029	1988-08-19T22:16:00.00	10200	0-0-W	 GRAD: faa excessive
+?	06780029	1988-08-23T22:14:00.00	13079	0-0-W	 GRAD: faa excessive
+?	06780029	1988-08-27T09:36:00.00	15554	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-27T09:38:00.00	15555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-27T09:40:00.00	15556	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-27T09:42:00.00	15557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-27T09:44:00.00	15558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T08:58:00.00	16975	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:00:00.00	16976	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:02:00.00	16977	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:04:00.00	16978	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:06:00.00	16979	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:08:00.00	16980	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:10:00.00	16981	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:12:00.00	16982	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:14:00.00	16983	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:16:00.00	16984	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:18:00.00	16985	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:20:00.00	16986	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:22:00.00	16987	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:24:00.00	16988	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:26:00.00	16989	0-Q-0	 VAL: mag invalid
+?	06780029	1988-08-29T09:28:00.00	16990	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:30:00.00	16991	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:32:00.00	16992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:34:00.00	16993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:36:00.00	16994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:38:00.00	16995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:40:00.00	16996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:42:00.00	16997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:44:00.00	16998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780029	1988-08-29T09:46:00.00	16999	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,58 @@
+# Cruise 67010004 ID 69005641 MGD77 FILE VERSION: 19830804 N_RECS: 3494
+# Examined: Thu Jul 28 18:36:43 2011 by mtchandl
+# Arguments:  -R-26.25/-8.3/35.6/38.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010004-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-67010004-depth-01: RLS m: 1 b: 0 rms: 26.0427 r: 0.999716 sig: 1 dec: 0
+Y-I-67010004-faa-01: RLS m: 0.996553 b: 3.86943 rms: 5.18469 r: 0.997278 sig: 1 dec: 0
+Y-W-67010004-faa-03: Regression offset 3.86943 different from 0.
+Y-E-67010004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00737 b: -24.6755 rms: 25.8962 r: 0.9996 sig: 1 dec: 1). [Recompute]
+Y-W-67010004-twt-11: More recent bathymetry correction table available
+Y-W-67010004-mtf1-12: Integer precision
+Y-W-67010004-mag-12: Integer precision
+# Errata: Data
+?	67010004	1969-10-06T12:15:00.00	21	0-0-KL	 GRAD: twt, depth excessive
+?	67010004	1969-10-06T12:51:00.00	39	0-0-KL	 GRAD: twt, depth excessive
+?	67010004	1969-10-06T13:24:00.00	55	0-0-K	 GRAD: twt excessive
+?	67010004	1969-10-06T15:00:00.00	80	0-0-K	 GRAD: twt excessive
+?	67010004	1969-10-06T15:07:00.00	83	0-0-K	 GRAD: twt excessive
+Y	67010004	1969-10-07T14:30:00.00	556	C-0-0	 NAV: excessive speed
+?	67010004	1969-10-08T15:23:00.00	1200	0-0-K	 GRAD: twt excessive
+?	67010004	1969-10-09T08:05:00.00	1673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:13:00.00	1678	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:23:00.00	1686	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:26:00.00	1689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:28:00.00	1690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:29:00.00	1691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:30:00.00	1692	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:32:00.00	1693	0-Q-0	 VAL: mag invalid
+?	67010004	1969-10-09T08:33:00.00	1694	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:34:00.00	1695	0-Q-0	 VAL: mag invalid
+?	67010004	1969-10-09T08:35:00.00	1696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:38:00.00	1699	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:40:00.00	1700	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:41:00.00	1701	0-Q-0	 VAL: mag invalid
+?	67010004	1969-10-09T08:43:00.00	1702	0-Q-0	 VAL: mag invalid
+?	67010004	1969-10-09T08:44:00.00	1703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:47:00.00	1706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:48:00.00	1707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:53:00.00	1710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:54:00.00	1711	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T08:57:00.00	1713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:02:00.00	1717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:03:00.00	1718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:08:00.00	1722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:12:00.00	1724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:13:00.00	1725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:14:00.00	1726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:16:00.00	1727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T09:26:00.00	1732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T16:42:00.00	1739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T16:44:00.00	1740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T16:45:00.00	1741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010004	1969-10-09T16:56:00.00	1746	0-0-OQ	 GRAD: mtf1, mag excessive

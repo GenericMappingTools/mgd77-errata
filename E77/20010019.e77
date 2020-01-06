@@ -1,0 +1,162 @@
+# Cruise 20010019 ID TTN012 MGD77 FILE VERSION: 19931231 N_RECS: 11973
+# Examined: Tue Oct 19 14:43:50 2010 by mtchandl
+# Arguments:  -R210.6/220.25/-17.2/0.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged several high amplitude bathymetric offsets.
+# Errata: Header
+N-E-20010019-H04-03: Invalid Survey Departure Day: (23) [25]
+N-E-20010019-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [5]
+Y-W-20010019-H16-06: Ten Degree Identifier 7013 not marked in header but block was crossed
+Y-W-20010019-H16-06: Ten Degree Identifier 7014 not marked in header but block was crossed
+Y-W-20010019-nav-00: Flagged 1.00 % of records with bad navigation
+Y-I-20010019-depth-01: RLS m: 1.00029 b: 0 rms: 12.5126 r: 0.999812 sig: 1 dec: 0
+Y-E-20010019-depth-10: Invalid data records: [4401-4429]
+Y-E-20010019-depth-10: Invalid data records: [5176-5220]
+Y-E-20010019-depth-10: Invalid data records: [5264-5296]
+Y-E-20010019-depth-10: Invalid data records: [5411-5481]
+N-E-20010019-twt-13: Encountered possible PDR wrap errors (5.9) [5.0]
+# Errata: Data
+?	20010019	1992-09-25T21:25:24.00	1172	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-09-25T21:26:24.96	1173	0-0-KL	 GRAD: twt, depth excessive
+Y	20010019	1992-09-27T18:52:45.96	2069	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:53:45.00	2070	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:54:45.00	2071	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:55:45.96	2072	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:56:45.00	2073	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:57:46.98	2074	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:58:45.96	2075	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T18:59:45.96	2076	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:00:45.96	2077	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:01:45.96	2078	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:02:45.96	2079	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:03:45.96	2080	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:04:46.98	2081	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:05:46.98	2082	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:06:45.96	2083	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:07:45.96	2084	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:08:45.96	2085	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:09:45.00	2086	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:10:45.00	2087	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:11:43.98	2088	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:12:45.00	2089	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:13:45.00	2090	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:14:45.96	2091	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:15:45.96	2092	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:16:45.00	2093	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:17:43.98	2094	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:18:43.98	2095	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:19:42.96	2096	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:20:42.96	2097	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:21:42.00	2098	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:22:42.96	2099	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:23:43.98	2100	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:24:45.00	2101	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:25:45.00	2102	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:26:43.98	2103	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:27:45.00	2104	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:28:45.00	2105	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-27T19:29:45.00	2106	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-28T12:38:01.98	2884	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-28T12:39:01.98	2885	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-28T12:40:00.96	2886	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-28T12:41:00.96	2887	C-0-0	 NAV: excessive speed
+Y	20010019	1992-09-28T12:42:01.98	2888	C-0-0	 NAV: excessive speed
+?	20010019	1992-09-28T17:11:36.00	3145	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-09-28T17:12:36.00	3146	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-09-28T17:55:15.96	3181	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-09-28T17:57:43.98	3183	0-0-KL	 GRAD: twt, depth excessive
+Y	20010019	1992-09-29T01:44:03.96	3628	C-0-0	 NAV: excessive speed
+?	20010019	1992-09-30T16:26:57.96	4430	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-01T14:52:00.00	4681	0-0-KL	 GRAD: twt, depth excessive
+Y	20010019	1992-10-02T00:12:57.96	4747	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:31:06.00	4885	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:32:04.98	4886	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:33:06.00	4887	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:34:06.00	4888	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:35:06.00	4889	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:36:06.00	4890	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:37:06.96	4891	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:38:07.98	4892	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:39:07.98	4893	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:40:09.00	4894	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:41:09.96	4895	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:42:09.96	4896	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:43:09.00	4897	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:44:09.96	4898	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:45:09.96	4899	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:46:09.00	4900	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:47:09.00	4901	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:48:09.00	4902	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:49:09.96	4903	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:50:09.00	4904	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:51:09.00	4905	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:52:09.00	4906	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:53:07.98	4907	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:54:07.98	4908	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:55:07.98	4909	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:56:06.96	4910	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:57:06.96	4911	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:58:06.96	4912	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T02:59:06.96	4913	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T03:00:06.96	4914	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T03:01:06.96	4915	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T05:07:16.98	5041	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-02T05:10:15.96	5044	C-0-0	 NAV: excessive speed
+?	20010019	1992-10-02T08:07:09.00	5221	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-02T09:05:06.00	5279	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-02T09:07:06.00	5281	0-0-K	 GRAD: twt excessive
+?	20010019	1992-10-02T09:08:06.00	5282	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-02T09:16:04.98	5290	0-0-K	 GRAD: twt excessive
+?	20010019	1992-10-02T09:17:03.96	5291	0-0-K	 GRAD: twt excessive
+?	20010019	1992-10-05T12:24:39.00	5472	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-13T17:05:46.98	5954	0-0-K	 GRAD: twt excessive
+?	20010019	1992-10-17T12:55:19.98	6506	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-17T12:56:21.00	6507	0-0-KL	 GRAD: twt, depth excessive
+?	20010019	1992-10-22T16:26:30.00	7784	0-0-KL	 GRAD: twt, depth excessive
+Y	20010019	1992-10-22T17:23:42.96	7841	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-22T17:24:43.98	7842	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-22T17:25:45.00	7843	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-22T23:18:33.00	8062	C-0-0	 NAV: excessive speed
+?	20010019	1992-10-23T04:51:18.96	8395	0-0-K	 GRAD: twt excessive
+Y	20010019	1992-10-24T16:01:57.96	10505	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-24T18:11:06.96	10634	C-0-0	 NAV: excessive speed
+?	20010019	1992-10-25T14:40:54.96	11414	0-0-KL	 GRAD: twt, depth excessive
+Y	20010019	1992-10-25T21:54:57.96	11848	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:09:07.98	11916	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:10:10.98	11917	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:11:12.00	11918	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:12:57.96	11919	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:13:57.96	11920	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:15:00.96	11921	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:16:03.96	11922	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:17:12.96	11923	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:24:09.00	11925	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:25:30.00	11926	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:26:30.00	11927	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:27:30.00	11928	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:28:37.98	11929	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:29:51.00	11930	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:31:03.00	11931	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:32:03.96	11932	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:34:09.96	11934	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:36:15.00	11936	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:38:19.98	11938	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:40:30.00	11940	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:48:45.00	11944	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:49:54.00	11945	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:53:27.00	11947	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:57:40.98	11949	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-25T23:58:42.00	11950	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:01:24.00	11952	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:05:09.96	11955	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:10:00.96	11959	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:16:09.96	11963	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:19:16.98	11965	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:20:16.98	11966	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:23:34.98	11969	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:24:34.98	11970	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:28:19.98	11972	C-0-0	 NAV: excessive speed
+Y	20010019	1992-10-26T00:29:18.96	11973	C-0-0	 NAV: excessive speed

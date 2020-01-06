@@ -1,0 +1,24 @@
+# Cruise 15040093 ID QUEB02WT MGD77 FILE VERSION: 19810928 N_RECS: 4540
+# Examined: Fri May 23 09:58:14 2008 by mtchandl
+# Arguments:  -R243.8/260.05/7.45/28.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040093-depth-01: RLS m: 0.965014 b: 0 rms: 283.882 r: 0.936648 sig: 1 dec: 1
+N-E-15040093-depth-02: Regression slope 0.965014 different from 1. Recommended: [1]
+Y-E-15040093-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00853 b: 144.223 rms: 150.441 r: 0.981712 sig: 1 dec: 1). [Recompute]
+Y-W-15040093-twt-11: More recent bathymetry correction table available
+Y-W-15040093-mtf1-12: Integer precision
+Y-W-15040093-mag-12: Integer precision
+# Errata: Data
+?	15040093	1969-12-16T01:30:00.00	3203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040093	1969-12-17T23:30:00.00	3755	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040093	1969-12-17T23:35:00.00	3756	0-Q-0	 VAL: mag invalid
+?	15040093	1969-12-17T23:50:00.00	3759	0-Q-0	 VAL: mag invalid
+?	15040093	1969-12-17T23:55:00.00	3760	0-Q-0	 VAL: mag invalid
+?	15040093	1969-12-18T00:00:00.00	3761	0-Q-0	 VAL: mag invalid
+?	15040093	1969-12-18T00:05:00.00	3762	0-Q-0	 VAL: mag invalid
+?	15040093	1969-12-18T00:30:00.00	3767	0-0-OQ	 GRAD: mtf1, mag excessive

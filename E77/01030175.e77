@@ -1,0 +1,41 @@
+# Cruise 01030175 ID V3102 MGD77 FILE VERSION: 19800908 N_RECS: 7879
+# Examined: Fri Jul 10 12:57:22 2009 by mtchandl
+# Arguments:  -R291.55/306.45/-55.1/-37.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030175-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030175-nav-00: Flagged 0.24 % of records with excessive speed or invalid navigation
+Y-I-01030175-depth-01: RLS m: 0.999651 b: 0 rms: 7.37465 r: 0.99999 sig: 1 dec: 0
+N-E-01030175-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030175-faa-01: RLS m: 0.966196 b: 4.6375 rms: 9.24804 r: 0.968263 sig: 1 dec: 1
+Y-W-01030175-faa-03: Regression offset 4.6375 different from 0.
+Y-E-01030175-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988822 b: -27.3142 rms: 42.9844 r: 0.968836 sig: 1 dec: 1). [Recompute]
+N-E-01030175-depth-08: Extended offset from grid [3-7879]
+Y-W-01030175-mtf1-12: Integer precision
+Y-W-01030175-mag-12: Integer precision
+# Errata: Data
+Y	01030175	1974-02-02T21:41:00.00	1	D-0-0	 NAV: on land
+?	01030175	1974-02-02T21:42:00.00	2	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:20:00.00	7848	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:24:00.00	7849	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:30:00.00	7850	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:36:00.00	7851	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:40:00.00	7852	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:42:00.00	7853	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:48:00.00	7854	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:50:00.00	7855	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:52:00.00	7856	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T03:54:00.00	7857	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T04:00:00.00	7858	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T04:06:00.00	7859	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:06:00.00	7873	D-0-0	 NAV: on land
+?	01030175	1974-03-02T05:10:00.00	7874	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:12:00.00	7875	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:18:00.00	7876	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:20:00.00	7877	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:24:00.00	7878	D-0-0	 NAV: on land
+Y	01030175	1974-03-02T05:30:00.00	7879	D-0-0	 NAV: on land

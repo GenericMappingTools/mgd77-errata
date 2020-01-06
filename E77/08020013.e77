@@ -1,0 +1,42 @@
+# Cruise 08020013 ID 8503 MGD77 FILE VERSION: 19890113 N_RECS: 28275
+# Examined: Fri Jul 30 11:08:59 2010 by mtchandl
+# Arguments:  -R282.7/289.6/-41.3/-12 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08020013-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08020013-depth-01: RLS m: 0.995872 b: 0 rms: 45.0678 r: 0.999636 sig: 1 dec: 0
+N-E-08020013-depth-02: Regression slope 0.995872 different from 1. Recommended: [1]
+Y-E-08020013-mag-07: Anomaly differs from mtf1-IGRF (m: 0.863998 b: 166.215 rms: 177.408 r: 0.841678 sig: 1 dec: 1). [Recompute]
+Y-W-08020013-twt-11: More recent bathymetry correction table available
+Y-W-08020013-mtf1-12: Integer precision
+Y-W-08020013-mag-12: Integer precision
+# Errata: Data
+?	08020013	1985-02-05T10:48:19.98	1	D-0-0	 NAV: on land
+?	08020013	1985-02-05T16:07:19.98	341	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-06T00:42:17.94	1129	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-06T21:09:00.00	2566	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-06T21:37:19.98	2604	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-07T07:47:40.02	3390	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-07T14:05:27.96	3888	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-08T07:11:00.00	5248	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-09T13:19:00.00	7575	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-09T19:47:00.00	8079	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-09T20:25:19.98	8127	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-11T08:58:00.00	10988	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-14T18:17:00.00	14307	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-16T00:04:00.00	15204	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-16T20:41:19.98	15959	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-18T02:13:00.00	16959	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-18T02:49:19.98	16981	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-18T18:38:40.02	17569	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-18T22:25:19.98	17785	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-19T00:14:40.02	17918	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-19T05:45:40.02	18217	0-0-KL	 GRAD: twt, depth excessive
+?	08020013	1985-02-19T18:06:19.98	19122	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-21T04:22:00.00	21723	0-M-0	 VAL: bcc invalid
+?	08020013	1985-02-21T04:43:00.00	21752	0-0-K	 GRAD: twt excessive
+?	08020013	1985-02-21T08:50:19.98	22050	0-0-K	 GRAD: twt excessive

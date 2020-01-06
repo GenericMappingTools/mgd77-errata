@@ -1,0 +1,57 @@
+# Cruise 15050054 ID DSDP55GC MGD77 FILE VERSION: 19800226 N_RECS: 9952
+# Examined: Fri May 30 10:05:55 2008 by mtchandl
+# Arguments:  -R140.7/240.65/21.25/51.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050054-H04-03: Invalid Survey Departure Day: (13) [14]
+Y-W-15050054-nav-00: Flagged 0.28 % of records with excessive speed or invalid navigation
+Y-I-15050054-depth-01: RLS m: 0.996125 b: 0 rms: 128.088 r: 0.997679 sig: 1 dec: 1
+Y-E-15050054-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.985443 b: -16.8962 rms: 65.9046 r: 0.97746 sig: 1 dec: 1). [Recompute]
+Y-W-15050054-twt-11: More recent bathymetry correction table available
+Y-W-15050054-mtf1-12: Integer precision
+Y-W-15050054-mag-12: Integer precision
+# Errata: Data
+?	15050054	1977-07-23T08:55:00.00	2698	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:00:00.00	2699	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:05:00.00	2700	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:10:00.00	2701	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:15:00.00	2702	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:20:00.00	2703	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T09:25:00.00	2704	D-0-0	 NAV: on land
+?	15050054	1977-07-23T09:30:00.00	2705	D-0-0	 NAV: on land
+?	15050054	1977-07-23T12:25:00.00	2740	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:30:00.00	2741	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:35:00.00	2742	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:40:00.00	2743	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:45:00.00	2744	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:50:00.00	2745	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T12:55:00.00	2746	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:00:00.00	2747	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:05:00.00	2748	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:10:00.00	2749	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:15:00.00	2750	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:20:00.00	2751	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:25:00.00	2752	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:30:00.00	2753	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:35:00.00	2754	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:40:00.00	2755	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:45:00.00	2756	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:50:00.00	2757	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T13:55:00.00	2758	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T14:00:00.00	2759	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T14:05:00.00	2760	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T14:10:00.00	2761	D-0-0	 NAV: on land
+Y	15050054	1977-07-23T14:15:00.00	2762	D-0-0	 NAV: on land
+?	15050054	1977-07-23T14:20:00.00	2763	D-0-0	 NAV: on land
+?	15050054	1977-07-31T23:35:00.00	5178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050054	1977-08-03T08:35:00.00	5284	0-0-O	 GRAD: mtf1 excessive
+?	15050054	1977-08-13T02:05:00.00	7118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050054	1977-08-13T06:00:00.00	7165	0-Q-0	 VAL: mag invalid
+?	15050054	1977-08-13T06:05:00.00	7166	0-Q-0	 VAL: mag invalid
+?	15050054	1977-08-13T06:10:00.00	7167	0-Q-0	 VAL: mag invalid
+?	15050054	1977-08-15T23:05:00.00	7946	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050054	1977-08-29T20:25:00.00	8154	0-0-OQ	 GRAD: mtf1, mag excessive

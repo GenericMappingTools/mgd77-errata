@@ -1,0 +1,58 @@
+# Cruise 10050006 ID FM0106 MGD77 FILE VERSION: 19920727 N_RECS: 6000
+# Examined: Tue Aug 24 13:53:57 2010 by mtchandl
+# Arguments:  -R299.4/325.65/-31.15/10.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported magnetic anomalies scaled by .1, flagged anomalies for recalculation.
+# Errata: Header
+Y-E-10050006-H04-03: Invalid Survey Departure Day: (19) [18]
+Y-E-10050006-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050006-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10050006-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-10050006-depth-01: RLS m: 1.00028 b: 0 rms: 8.15499 r: 0.999979 sig: 1 dec: 0
+N-E-10050006-depth-02: Regression slope 1.00028 different from 1. Recommended: [1]
+Y-E-10050006-mag-07: Anomaly differs from mtf1-IGRF (m: 0.0983521 b: 19.32 rms: 174.578 r: 0.990659 sig: 1 dec: 0). [Recompute]
+Y-W-10050006-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10050006-depth-12: Integer precision
+Y-W-10050006-mtf1-12: Integer precision
+Y-W-10050006-mag-12: Integer precision
+# Errata: Data
+Y	10050006	1979-07-20T13:50:00.00	266	B-0-0	 NAV: non-increasing time
+Y	10050006	1979-07-20T14:25:00.00	275	B-0-0	 NAV: non-increasing time
+?	10050006	1979-07-20T15:45:00.00	292	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T15:50:00.00	293	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:00:00.00	308	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:10:00.00	310	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:25:00.00	313	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:30:00.00	314	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:40:00.00	316	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:45:00.00	317	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:50:00.00	318	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T17:55:00.00	319	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T18:00:00.00	320	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T18:05:00.00	321	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T18:15:00.00	323	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T18:40:00.00	328	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T19:05:00.00	333	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T19:10:00.00	334	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T19:25:00.00	337	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T19:30:00.00	338	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T21:25:00.00	361	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-20T21:30:00.00	362	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-21T14:25:00.00	574	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-21T14:30:00.00	575	0-0-O	 GRAD: mtf1 excessive
+Y	10050006	1979-07-23T14:50:00.00	1135	B-0-0	 NAV: non-increasing time
+?	10050006	1979-07-25T20:25:00.00	1816	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-26T00:00:00.00	1863	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-26T00:05:00.00	1864	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-26T14:05:00.00	2038	0-0-L	 GRAD: depth excessive
+?	10050006	1979-07-26T14:10:00.00	2039	0-0-L	 GRAD: depth excessive
+?	10050006	1979-07-27T21:25:00.00	2436	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-27T21:30:00.00	2437	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-30T12:15:00.00	3202	0-0-O	 GRAD: mtf1 excessive
+?	10050006	1979-07-31T02:30:00.00	3385	0-0-L	 GRAD: depth excessive
+?	10050006	1979-07-31T02:35:00.00	3386	0-0-L	 GRAD: depth excessive
+?	10050006	1979-07-31T04:05:00.00	3404	0-0-L	 GRAD: depth excessive
+?	10050006	1979-08-04T09:00:00.00	3848	0-0-L	 GRAD: depth excessive

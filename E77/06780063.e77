@@ -1,0 +1,71 @@
+# Cruise 06780063 ID FARN0291 MGD77 FILE VERSION: 19941231 N_RECS: 10980
+# Examined: Fri Jul 16 16:48:07 2010 by mtchandl
+# Arguments:  -R186.95/193.45/13.2/18.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06780063-depth-01: RLS m: 1 b: 0 rms: 37.949 r: 0.999537 sig: 1 dec: 0
+Y-I-06780063-faa-01: RLS m: 1.00829 b: 9.0734 rms: 9.74802 r: 0.997701 sig: 1 dec: 0
+N-E-06780063-faa-02: Regression slope 1.00829 different from 1. Recommended: [1]
+Y-W-06780063-faa-03: Regression offset 9.0734 different from 0.
+Y-E-06780063-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995634 b: 57.6976 rms: 58.2453 r: 0.999757 sig: 1 dec: 0). [Recompute]
+Y-W-06780063-depth-12: Integer precision
+Y-W-06780063-mtf1-12: Integer precision
+Y-W-06780063-mag-12: Integer precision
+Y-W-06780063-faa-12: Integer precision
+# Errata: Data
+?	06780063	1991-02-09T09:34:00.00	4481	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T09:36:00.00	4482	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T09:38:00.00	4483	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T09:40:00.00	4484	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T11:58:00.00	4553	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:00:00.00	4554	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:02:00.00	4555	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:04:00.00	4556	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:06:00.00	4557	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:08:00.00	4558	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:10:00.00	4559	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:12:00.00	4560	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:14:00.00	4561	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:16:00.00	4562	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:18:00.00	4563	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:20:00.00	4564	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:22:00.00	4565	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:24:00.00	4566	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:26:00.00	4567	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:28:00.00	4568	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:30:00.00	4569	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:32:00.00	4570	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:34:00.00	4571	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-09T12:36:00.00	4572	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:16:00.00	9182	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:18:00.00	9183	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:20:00.00	9184	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:22:00.00	9185	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:24:00.00	9186	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:26:00.00	9187	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:28:00.00	9188	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:30:00.00	9189	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:32:00.00	9190	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:34:00.00	9191	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:36:00.00	9192	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:38:00.00	9193	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:40:00.00	9194	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:42:00.00	9195	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:44:00.00	9196	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-15T22:46:00.00	9197	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:12:00.00	9510	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:14:00.00	9511	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:16:00.00	9512	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:18:00.00	9513	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:20:00.00	9514	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:22:00.00	9515	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:24:00.00	9516	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:26:00.00	9517	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:28:00.00	9518	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:30:00.00	9519	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:32:00.00	9520	0-Q-0	 VAL: mag invalid
+?	06780063	1991-02-16T09:34:00.00	9521	0-Q-0	 VAL: mag invalid

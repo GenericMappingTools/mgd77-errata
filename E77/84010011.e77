@@ -1,0 +1,32 @@
+# Cruise 84010011 ID ZOE300 MGD77 FILE VERSION: 19880322 N_RECS: 3694
+# Examined: Wed Aug  3 07:26:05 2011 by mtchandl
+# Arguments:  -R162.9/169.1/-24.95/-18.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-84010011-H04-03: Invalid Survey Departure Day: (20) [19]
+Y-W-84010011-H13-10: Survey year (1984) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-84010011-nav-00: Flagged 0.32 % of records with bad navigation
+Y-I-84010011-depth-01: RLS m: 1 b: 0 rms: 15.7736 r: 0.999836 sig: 1 dec: 0
+Y-E-84010011-mag-07: Anomaly differs from mtf1-IGRF (m: 0.991826 b: 63.0314 rms: 64.4387 r: 0.996935 sig: 1 dec: 1). [Recompute]
+Y-W-84010011-depth-12: Integer multiple of 5 precision
+Y-W-84010011-mtf1-12: Integer precision
+Y-W-84010011-mag-12: Integer precision
+# Errata: Data
+Y	84010011	1984-10-19T21:35:00.00	1	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T21:40:00.00	2	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T21:42:00.00	3	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T21:45:00.00	4	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T21:50:00.00	5	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T21:55:00.00	6	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T22:00:00.00	7	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T22:05:00.00	8	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T22:10:00.00	9	D-0-0	 NAV: on land
+Y	84010011	1984-10-19T22:15:00.00	10	D-0-0	 NAV: on land
+Y	84010011	1984-10-20T00:35:00.00	41	C-0-0	 NAV: excessive speed
+?	84010011	1984-10-20T03:50:00.00	81	0-0-O	 GRAD: mtf1 excessive
+?	84010011	1984-10-20T03:55:00.00	82	0-0-O	 GRAD: mtf1 excessive
+Y	84010011	1984-10-20T09:21:00.00	152	C-0-0	 NAV: excessive speed

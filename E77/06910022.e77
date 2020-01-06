@@ -1,0 +1,130 @@
+# Cruise 06910022 ID P1185VI MGD77 FILE VERSION: 19881202 N_RECS: 9000
+# Examined: Fri Jul 16 17:13:57 2010 by mtchandl
+# Arguments:  -R294.9/296.6/17.9/19 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry data appear to be unprocessed. When predicted bathymetry > ~1000 m, reported depths tend to be close to zero, suggesting the use of an under-powered fathometer. Recommend flagging all bathymetry until processed by source institution. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-W-06910022-nav-00: Flagged 0.59 % of records with bad navigation
+Y-I-06910022-depth-01: RLS m: 0.964774 b: 0 rms: 206.439 r: 0.923512 sig: 1 dec: 0
+N-E-06910022-depth-02: Regression slope 0.964774 different from 1. Recommended: [1]
+Y-I-06910022-faa-01: RLS m: 0.992591 b: 0.589067 rms: 7.04556 r: 0.988881 sig: 1 dec: 0
+N-E-06910022-faa-02: Regression slope 0.992591 different from 1. Recommended: [1]
+Y-W-06910022-faa-03: Regression offset 0.589067 different from 0.
+Y-I-06910022-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910022-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00852 b: 53.961 rms: 53.5912 r: 0.999254 sig: 1 dec: 0). [Recompute]
+Y-E-06910022-depth-08: Extended offset from grid [8672-9000]
+Y-E-06910022-depth-10: Invalid data records: [1-9000]
+Y-W-06910022-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06910022	1985-11-23T15:19:00.00	1711	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-23T16:58:00.00	1810	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-23T17:04:00.00	1816	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T17:05:00.00	1817	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-23T17:19:00.00	1831	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T17:20:00.00	1832	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T17:21:00.00	1833	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T17:22:00.00	1834	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-23T18:54:00.00	1926	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T18:55:00.00	1927	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-23T18:56:00.00	1928	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-24T13:42:00.00	3054	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T13:43:00.00	3055	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T14:03:00.00	3075	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-24T14:04:00.00	3076	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-24T15:58:00.00	3190	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T17:42:00.00	3294	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T17:56:00.00	3308	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T18:00:00.00	3312	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-24T18:05:00.00	3317	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T23:55:00.00	3667	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-24T23:56:00.00	3668	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T01:16:00.00	3748	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T01:38:00.00	3770	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T12:32:00.00	4424	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T12:33:00.00	4425	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T22:25:00.00	5017	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-25T22:26:00.00	5018	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-25T22:47:00.00	5039	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T22:48:00.00	5040	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-25T22:49:00.00	5041	0-0-KL	 GRAD: twt, depth excessive
+Y	06910022	1985-11-26T11:07:00.00	5779	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:08:00.00	5780	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:09:00.00	5781	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:10:00.00	5782	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:11:00.00	5783	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:12:00.00	5784	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:13:00.00	5785	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:14:00.00	5786	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:15:00.00	5787	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:16:00.00	5788	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:17:00.00	5789	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:18:00.00	5790	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:19:00.00	5791	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:20:00.00	5792	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:21:00.00	5793	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:22:00.00	5794	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:23:00.00	5795	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:24:00.00	5796	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:25:00.00	5797	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-26T11:26:00.00	5798	C-0-0	 NAV: excessive speed
+?	06910022	1985-11-26T12:37:00.00	5869	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T12:38:00.00	5870	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T12:39:00.00	5871	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T12:40:00.00	5872	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T14:37:00.00	5989	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T14:38:00.00	5990	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-26T16:57:00.00	6129	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-27T18:49:00.00	7681	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T18:50:00.00	7682	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T20:50:00.00	7802	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-27T20:51:00.00	7803	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T21:30:00.00	7842	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T21:31:00.00	7843	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T21:32:00.00	7844	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-27T21:33:00.00	7845	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T00:04:00.00	7996	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T00:05:00.00	7997	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T00:10:00.00	8002	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T13:10:00.00	8555	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T13:38:00.00	8583	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-28T14:16:00.00	8621	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-28T14:18:00.00	8623	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T14:19:00.00	8624	0-0-KL	 GRAD: twt, depth excessive
+?	06910022	1985-11-28T14:20:00.00	8625	0-0-K	 GRAD: twt excessive
+?	06910022	1985-11-28T17:20:00.00	8805	0-0-KL	 GRAD: twt, depth excessive
+Y	06910022	1985-11-28T18:36:00.00	8881	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:37:00.00	8882	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:38:00.00	8883	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:39:00.00	8884	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:40:00.00	8885	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:41:00.00	8886	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:42:00.00	8887	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:43:00.00	8888	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:44:00.00	8889	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:45:00.00	8890	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:46:00.00	8891	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:47:00.00	8892	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:48:00.00	8893	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:49:00.00	8894	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:50:00.00	8895	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:51:00.00	8896	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:52:00.00	8897	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:53:00.00	8898	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:54:00.00	8899	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:55:00.00	8900	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:56:00.00	8901	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:57:00.00	8902	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:58:00.00	8903	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T18:59:00.00	8904	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:00:00.00	8905	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:01:00.00	8906	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:02:00.00	8907	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:03:00.00	8908	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:04:00.00	8909	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:05:00.00	8910	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:06:00.00	8911	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:07:00.00	8912	C-0-0	 NAV: excessive speed
+Y	06910022	1985-11-28T19:08:00.00	8913	C-0-0	 NAV: excessive speed

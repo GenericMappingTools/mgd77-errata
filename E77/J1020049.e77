@@ -1,0 +1,43 @@
+# Cruise J1020049 ID HS00T491 MGD77 FILE VERSION: 20080215 N_RECS: 1793
+# Examined: Sun Aug  7 07:13:45 2011 by mtchandl
+# Arguments:  -R156.9/160.05/21.8/24.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field data for anomaly recalculation, magnetic anomalies could be outdated.
+# Errata: Header
+N-E-J1020049-H04-03: Invalid Survey Departure Day: (16) [21]
+N-E-J1020049-H04-06: Invalid Survey Arrival Day: (07) [03]
+Y-E-J1020049-H15-01: Invalid Gravity Departure Base Station Value: (  -9658) [  -9658]
+Y-E-J1020049-H15-03: Invalid Gravity Arrival Base Station Value: (  -9643) [  -9643]
+Y-I-J1020049-depth-01: RLS m: 1.00019 b: 0 rms: 10.2501 r: 0.999909 sig: 1 dec: 0
+Y-I-J1020049-faa-01: RLS m: 1.00688 b: -3.25024 rms: 5.80067 r: 0.998081 sig: 1 dec: 1
+Y-W-J1020049-faa-03: Regression offset -3.25024 different from 0.
+Y-W-J1020049-depth-12: Integer multiple of 5 precision
+Y-W-J1020049-mag-12: Integer precision
+Y-W-J1020049-faa-12: Integer precision
+# Errata: Data
+?	J1020049	2000-10-21T05:20:00.00	22	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T05:30:00.00	23	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T05:40:00.00	24	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T06:20:00.00	28	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T06:30:00.00	29	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T06:40:00.00	30	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T15:40:00.00	83	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T15:50:00.00	84	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:00:00.00	85	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:10:00.00	86	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:20:00.00	87	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:30:00.00	88	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:40:00.00	89	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T16:50:00.00	90	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T17:00:00.00	91	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T17:10:00.00	92	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-10-21T17:20:00.00	93	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T16:20:00.00	1644	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T16:30:00.00	1645	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T16:40:00.00	1646	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T16:50:00.00	1647	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T17:00:00.00	1648	0-Q-0	 VAL: mag invalid
+?	J1020049	2000-11-01T17:10:00.00	1649	0-Q-0	 VAL: mag invalid

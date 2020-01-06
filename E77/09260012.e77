@@ -1,0 +1,55 @@
+# Cruise 09260012 ID LY72A MGD77 FILE VERSION: 19810609 N_RECS: 6981
+# Examined: Mon Aug  9 12:28:22 2010 by mtchandl
+# Arguments:  -R286.8/358.15/35.5/63.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09260012-time-01: 3 of 6981 records contain invalid time
+N-E-09260012-H11-06: Invalid Rightmost Longitude: (-024) [-001]
+N-E-09260012-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [13]
+Y-W-09260012-H16-06: Ten Degree Identifier 7400 not marked in header but block was crossed
+Y-W-09260012-H16-06: Ten Degree Identifier 7401 not marked in header but block was crossed
+Y-W-09260012-H16-06: Ten Degree Identifier 7402 not marked in header but block was crossed
+Y-W-09260012-H16-06: Ten Degree Identifier 7403 not marked in header but block was crossed
+Y-W-09260012-nav-00: Flagged 0.32 % of records with bad navigation
+Y-I-09260012-depth-01: RLS m: 1 b: 0 rms: 9.41809 r: 0.99998 sig: 1 dec: 0
+Y-E-09260012-mag-07: Anomaly differs from mtf1-IGRF (m: 0.931105 b: 208.555 rms: 235.712 r: 0.898681 sig: 1 dec: 1). [Recompute]
+Y-W-09260012-mtf1-12: Integer precision
+# Errata: Data
+Y	09260012	NaN	303	E-0-0	 NAV: navigation undefined
+?	09260012	1972-07-10T05:35:24.00	1015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260012	1972-07-10T05:38:12.00	1018	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09260012	1972-07-10T05:40:54.00	1020	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09260012	1972-07-10T05:43:24.00	1022	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09260012	1972-07-10T05:45:06.00	1024	0-Q-0	 VAL: mag invalid
+?	09260012	1972-07-10T05:47:24.00	1027	0-Q-0	 VAL: mag invalid
+?	09260012	1972-07-10T05:50:48.00	1031	0-Q-0	 VAL: mag invalid
+?	09260012	1972-07-10T05:57:42.00	1038	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09260012	NaN	1396	E-0-0	 NAV: navigation undefined
+Y	09260012	1972-07-12T21:12:24.00	2152	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:15:00.00	2153	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:18:36.00	2154	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	09260012	1972-07-12T21:20:00.00	2155	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:23:48.00	2156	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	09260012	1972-07-12T21:28:12.00	2157	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:30:00.00	2158	CD-0-0	 NAV: excessive speed, on land
+Y	09260012	1972-07-12T21:31:06.00	2159	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:35:48.00	2160	CD-0-0	 NAV: excessive speed, on land
+Y	09260012	1972-07-12T21:36:00.00	2161	CD-0-0	 NAV: excessive speed, on land
+Y	09260012	1972-07-12T21:40:00.00	2162	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:41:18.00	2163	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:47:00.00	2164	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:47:24.00	2165	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	09260012	1972-07-12T21:50:00.00	2166	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:52:36.00	2167	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	09260012	1972-07-12T21:53:00.00	2168	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:57:00.00	2169	C-0-0	 NAV: excessive speed
+Y	09260012	1972-07-12T21:58:36.00	2170	C-0-0	 NAV: excessive speed
+Y	09260012	NaN	3083	E-0-0	 NAV: navigation undefined
+?	09260012	1972-07-18T13:13:12.00	5256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260012	1972-07-20T06:23:24.00	6566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260012	1972-07-20T11:35:12.00	6766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260012	1972-07-20T11:37:30.00	6768	0-0-OQ	 GRAD: mtf1, mag excessive

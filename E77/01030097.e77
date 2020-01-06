@@ -1,0 +1,33 @@
+# Cruise 01030097 ID V2406 MGD77 FILE VERSION: 19790619 N_RECS: 2515
+# Examined: Thu Jul  9 17:15:39 2009 by mtchandl
+# Arguments:  -R117.45/120.95/13.7/19.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030097-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-01030097-depth-01: RLS m: 0.998758 b: 0 rms: 20.5218 r: 0.999928 sig: 1 dec: 0
+N-E-01030097-depth-02: Regression slope 0.998758 different from 1. Recommended: [1]
+Y-I-01030097-faa-01: RLS m: 0.986512 b: -11.9037 rms: 19.2702 r: 0.95664 sig: 1 dec: 1
+Y-W-01030097-faa-03: Regression offset -11.9037 different from 0.
+Y-E-01030097-mag-07: Anomaly differs from mtf1-IGRF (m: 0.96606 b: 15.1074 rms: 22.7751 r: 0.984876 sig: 1 dec: 1). [Recompute]
+N-E-01030097-depth-08: Extended offset from grid [3-2515]
+Y-W-01030097-twt-11: More recent bathymetry correction table available
+Y-W-01030097-mtf1-12: Integer precision
+Y-W-01030097-mag-12: Integer precision
+# Errata: Data
+?	01030097	1967-05-31T19:11:00.00	94	0-M-0	 VAL: bcc invalid
+?	01030097	1967-05-31T19:22:00.00	97	0-M-0	 VAL: bcc invalid
+?	01030097	1967-05-31T19:30:00.00	98	0-M-0	 VAL: bcc invalid
+?	01030097	1967-05-31T19:40:00.00	99	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T10:40:00.00	671	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T10:45:00.00	672	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T11:00:00.00	674	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T11:10:00.00	676	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T11:15:00.00	677	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-03T11:20:00.00	678	0-M-0	 VAL: bcc invalid
+?	01030097	1967-06-07T10:58:00.00	1560	0-0-KL	 GRAD: twt, depth excessive
+Y	01030097	1967-06-11T17:38:00.00	2498	D-0-0	 NAV: on land
+?	01030097	1967-06-11T17:44:00.00	2499	D-0-0	 NAV: on land

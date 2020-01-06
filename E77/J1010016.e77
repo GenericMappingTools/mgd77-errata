@@ -1,0 +1,43 @@
+# Cruise J1010016 ID HT860111 MGD77 FILE VERSION: 19900924 N_RECS: 2146
+# Examined: Thu Aug  4 20:04:23 2011 by mtchandl
+# Arguments:  -R139.95/142.55/23.95/27.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be outdated. Applied excessive mag gradient flags.
+# Errata: Header
+Y-I-J1010016-depth-01: RLS m: 0.999822 b: 0 rms: 22.8944 r: 0.999616 sig: 1 dec: 0
+Y-I-J1010016-faa-01: RLS m: 1.00282 b: -3.82082 rms: 4.63181 r: 0.998311 sig: 1 dec: 0
+N-E-J1010016-faa-02: Regression slope 1.00282 different from 1. Recommended: [1]
+Y-W-J1010016-faa-03: Regression offset -3.82082 different from 0.
+Y-W-J1010016-depth-12: Integer precision
+Y-W-J1010016-mag-12: Integer precision
+Y-W-J1010016-faa-12: Integer precision
+# Errata: Data
+Y	J1010016	1986-01-12T02:10:00.00	188	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-12T02:40:00.00	191	0-Q-0	 VAL: mag invalid
+Y	J1010016	1986-01-12T02:50:00.00	192	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-12T14:50:00.00	264	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-12T15:00:00.00	265	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-12T15:10:00.00	266	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-12T15:20:00.00	267	0-Q-0	 VAL: mag invalid
+Y	J1010016	1986-01-12T15:30:00.00	268	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-12T16:00:00.00	271	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-12T16:10:00.00	272	0-Q-0	 VAL: mag invalid
+Y	J1010016	1986-01-12T16:20:00.00	273	0-Q-0	 VAL: mag invalid
+Y	J1010016	1986-01-12T16:30:00.00	274	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-12T17:40:00.00	281	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-12T17:50:00.00	282	0-Q-0	 VAL: mag invalid
+Y	J1010016	1986-01-12T18:00:00.00	283	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-13T07:10:00.00	362	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-13T07:20:00.00	363	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-13T07:30:00.00	364	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-13T20:00:00.00	439	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-16T03:10:00.00	770	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-16T04:20:00.00	777	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-16T19:50:00.00	870	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-18T01:10:00.00	1046	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-19T19:10:00.00	1298	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	J1010016	1986-01-19T19:20:00.00	1299	0-0-Q	 GRAD: mag excessive
+Y	J1010016	1986-01-19T19:30:00.00	1300	0-0-Q	 GRAD: mag excessive

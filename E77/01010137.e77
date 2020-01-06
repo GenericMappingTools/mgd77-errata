@@ -1,0 +1,76 @@
+# Cruise 01010137 ID RC1804 MGD77 FILE VERSION: 19800908 N_RECS: 10621
+# Examined: Mon Jul  6 15:54:49 2009 by mtchandl
+# Arguments:  -R271/288.35/-33.55/8.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010137-time-01: 4 of 10621 records contain invalid time
+N-E-01010137-H13-06: Invalid Magnetics Reference Field Code: (75) [75]
+Y-W-01010137-nav-00: Flagged 1.04 % of records with excessive speed or invalid navigation
+Y-I-01010137-depth-01: RLS m: 1.0035 b: 0 rms: 133.882 r: 0.996008 sig: 1 dec: 1
+Y-I-01010137-faa-01: RLS m: 0.972347 b: -1.93294 rms: 7.88581 r: 0.994987 sig: 1 dec: 1
+N-E-01010137-faa-02: Regression slope 0.972347 different from 1. Recommended: [1]
+Y-W-01010137-faa-03: Regression offset -1.93294 different from 0.
+Y-E-01010137-mag-07: Anomaly differs from mtf1-IGRF (m: 0.897745 b: 38.565 rms: 44.895 r: 0.94239 sig: 1 dec: 0). [Recompute]
+N-E-01010137-faa-08: Extended offset from grid [99-1081]
+N-E-01010137-depth-08: Extended offset from grid [3-10621]
+Y-W-01010137-twt-11: More recent bathymetry correction table available
+Y-W-01010137-mtf1-12: Integer precision
+Y-W-01010137-mag-12: Integer precision
+# Errata: Data
+Y	01010137	1975-05-25T08:30:00.00	3258	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:35:00.00	3259	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:36:00.00	3260	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:42:00.00	3261	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:45:00.00	3262	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:48:00.00	3263	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:50:00.00	3264	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T08:54:00.00	3265	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:00:00.00	3266	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:05:00.00	3267	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:06:00.00	3268	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:12:00.00	3269	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:15:00.00	3270	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	NaN	3271	DE-0-0	 NAV: on land, navigation undefined
+Y	01010137	1975-05-25T09:20:00.00	3272	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:24:00.00	3273	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:25:00.00	3274	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:30:00.00	3275	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:35:00.00	3276	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:36:00.00	3277	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:40:00.00	3278	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:42:00.00	3279	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:45:00.00	3280	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:48:00.00	3281	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:50:00.00	3282	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:54:00.00	3283	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T09:55:00.00	3284	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:00:00.00	3285	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:05:00.00	3286	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:06:00.00	3287	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:10:00.00	3288	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:12:00.00	3289	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:15:00.00	3290	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	NaN	3291	DE-0-0	 NAV: on land, navigation undefined
+Y	01010137	1975-05-25T10:20:00.00	3292	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:24:00.00	3293	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:30:00.00	3294	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:35:00.00	3295	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:40:00.00	3296	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:42:00.00	3297	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:45:00.00	3298	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:50:00.00	3299	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:54:00.00	3300	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T10:55:00.00	3301	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:06:00.00	3303	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:15:00.00	3304	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	NaN	3305	DE-0-0	 NAV: on land, navigation undefined
+Y	01010137	1975-05-25T11:24:00.00	3306	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:25:00.00	3307	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:30:00.00	3308	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:35:00.00	3309	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	1975-05-25T11:36:00.00	3310	CD-0-0	 NAV: excessive speed, on land
+Y	01010137	NaN	3311	DE-0-0	 NAV: on land, navigation undefined

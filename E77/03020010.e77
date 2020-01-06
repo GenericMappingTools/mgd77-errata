@@ -1,0 +1,63 @@
+# Cruise 03020010 ID CMAPSU3S MGD77 FILE VERSION: 19800213 N_RECS: 3841
+# Examined: Fri Apr  9 13:34:03 2010 by mtchandl
+# Arguments:  -R194/207/48/54 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-E-03020010-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-03020010-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-03020010-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-03020010-nav-00: Flagged 0.83 % of records with bad navigation
+Y-I-03020010-depth-01: RLS m: 0.998235 b: 0 rms: 29.5032 r: 0.999813 sig: 1 dec: 0
+N-E-03020010-depth-02: Regression slope 0.998235 different from 1. Recommended: [1]
+Y-I-03020010-faa-01: RLS m: 0.930499 b: -4.68293 rms: 8.17996 r: 0.992822 sig: 1 dec: 1
+N-E-03020010-faa-02: Regression slope 0.930499 different from 1. Recommended: [1]
+Y-W-03020010-faa-03: Regression offset -4.68293 different from 0.
+?-E-03020010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990776 b: -118.116 rms: 118.668 r: 0.998522 sig: 1 dec: 0). [Recompute]
+Y-W-03020010-faa-09: all values less than or equal to zero
+Y-E-03020010-faa-10: Invalid data records: [1-3841]
+Y-W-03020010-mtf1-12: Integer precision
+Y-W-03020010-mag-12: Integer precision
+Y-W-03020010-faa-12: Integer precision
+# Errata: Data
+Y	03020010	1964-04-02T01:17:00.00	358	C-0-0	 NAV: excessive speed
+Y	03020010	1964-04-02T03:20:00.00	384	B-0-0	 NAV: non-increasing time
+Y	03020010	1964-07-22T15:19:00.00	464	C-0-0	 NAV: excessive speed
+Y	03020010	1964-07-25T11:17:00.00	1388	C-0-0	 NAV: excessive speed
+Y	03020010	1964-07-25T15:18:00.00	1490	B-0-0	 NAV: non-increasing time
+Y	03020010	1964-07-29T08:22:00.00	1542	B-0-0	 NAV: non-increasing time
+Y	03020010	1964-07-29T12:32:00.00	1614	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-06T11:11:00.00	1794	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-06T13:05:00.00	1820	B-0-0	 NAV: non-increasing time
+Y	03020010	1964-09-06T13:21:00.00	1825	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-06T16:51:00.00	1888	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-06T17:52:00.00	1904	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-07T00:12:00.00	1940	C-0-0	 NAV: excessive speed
+Y	03020010	1964-09-07T18:11:00.00	2034	C-0-0	 NAV: excessive speed
+Y	03020010	1966-09-12T20:26:00.00	2341	C-0-0	 NAV: excessive speed
+Y	03020010	1966-09-12T20:51:00.00	2349	C-0-0	 NAV: excessive speed
+Y	03020010	1966-09-13T11:56:00.00	2543	C-0-0	 NAV: excessive speed
+Y	03020010	1966-09-13T12:00:00.00	2545	B-0-0	 NAV: non-increasing time
+Y	03020010	1966-09-13T13:02:00.00	2560	C-0-0	 NAV: excessive speed
+Y	03020010	1966-09-13T13:45:00.00	2576	B-0-0	 NAV: non-increasing time
+Y	03020010	1966-09-13T13:50:00.00	2578	B-0-0	 NAV: non-increasing time
+Y	03020010	1966-09-13T14:51:00.00	2593	C-0-0	 NAV: excessive speed
+?	03020010	1967-09-14T17:12:00.00	2815	0-0-K	 GRAD: twt excessive
+?	03020010	1967-09-14T17:15:00.00	2817	0-0-KL	 GRAD: twt, depth excessive
+Y	03020010	1967-09-16T15:00:00.00	3079	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-16T15:05:00.00	3080	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-16T15:10:00.00	3081	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-16T15:15:00.00	3082	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-16T15:20:00.00	3083	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-16T15:25:00.00	3084	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-18T07:16:00.00	3528	C-0-0	 NAV: excessive speed
+?	03020010	1967-09-18T15:16:00.00	3630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020010	1967-09-18T16:15:00.00	3644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020010	1967-09-18T18:14:00.00	3675	0-0-KL	 GRAD: twt, depth excessive
+?	03020010	1967-09-18T19:35:00.00	3687	0-0-K	 GRAD: twt excessive
+Y	03020010	1967-09-18T22:03:00.00	3719	C-0-0	 NAV: excessive speed
+Y	03020010	1967-09-19T04:40:00.00	3809	B-0-0	 NAV: non-increasing time
+Y	03020010	1967-09-19T05:31:00.00	3825	B-0-0	 NAV: non-increasing time

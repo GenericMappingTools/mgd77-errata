@@ -1,0 +1,20 @@
+# Cruise 01030002 ID V1702 MGD77 FILE VERSION: 19790619 N_RECS: 2611
+# Examined: Wed Jul  8 22:37:57 2009 by mtchandl
+# Arguments:  -R278.15/295.4/17.95/32.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030002-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-01030002-depth-01: RLS m: 0.999449 b: 0 rms: 52.8876 r: 0.999783 sig: 1 dec: 0
+Y-E-01030002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.897059 b: 93.9545 rms: 88.6296 r: 0.951084 sig: 1 dec: 1). [Recompute]
+N-E-01030002-depth-08: Extended offset from grid [3-2611]
+Y-W-01030002-twt-11: More recent bathymetry correction table available
+Y-W-01030002-mtf1-12: Integer precision
+Y-W-01030002-mag-12: Integer precision
+# Errata: Data
+Y	01030002	1960-12-17T09:28:00.00	795	C-0-0	 NAV: excessive speed
+?	01030002	1960-12-19T16:48:00.00	1279	0-0-KL	 GRAD: twt, depth excessive
+?	01030002	1960-12-19T17:16:00.00	1286	0-0-K	 GRAD: twt excessive

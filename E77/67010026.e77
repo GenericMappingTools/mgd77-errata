@@ -1,0 +1,41 @@
+# Cruise 67010026 ID 72000511 MGD77 FILE VERSION: 19830804 N_RECS: 8385
+# Examined: Thu Jul 28 18:43:23 2011 by mtchandl
+# Arguments:  -R-5.1/10.4/35.25/38.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Noisy gravity, flagged the largest offsets. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010026-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-67010026-depth-01: RLS m: 0.996265 b: 0 rms: 32.4435 r: 0.99956 sig: 1 dec: 0
+N-E-67010026-depth-02: Regression slope 0.996265 different from 1. Recommended: [1]
+Y-I-67010026-faa-01: RLS m: 0.948242 b: 3.2941 rms: 8.81918 r: 0.975696 sig: 1 dec: 0
+N-E-67010026-faa-02: Regression slope 0.948242 different from 1. Recommended: [1]
+Y-W-67010026-faa-03: Regression offset 3.2941 different from 0.
+Y-E-67010026-faa-08: Extended offset from grid [604-1149]
+Y-E-67010026-faa-08: Extended offset from grid [2592-2851]
+Y-E-67010026-faa-08: Extended offset from grid [5586-5856]
+Y-E-67010026-faa-08: Extended offset from grid [7340-7584]
+Y-E-67010026-faa-08: Extended offset from grid [7723-7895]
+Y-E-67010026-faa-08: Extended offset from grid [7952-8155]
+Y-E-67010026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.979389 b: -174.899 rms: 179.527 r: 0.965062 sig: 1 dec: 1). [Recompute]
+Y-W-67010026-twt-11: More recent bathymetry correction table available
+Y-W-67010026-mtf1-12: Integer precision
+Y-W-67010026-mag-12: Integer precision
+# Errata: Data
+?	67010026	1972-04-26T01:45:00.00	134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010026	1972-04-29T01:33:00.00	2298	0-0-KL	 GRAD: twt, depth excessive
+Y	67010026	1972-04-30T23:00:00.00	3484	B-0-0	 NAV: non-increasing time
+Y	67010026	1972-04-30T23:35:00.00	3510	B-0-0	 NAV: non-increasing time
+Y	67010026	1972-04-30T23:49:00.00	3519	B-0-0	 NAV: non-increasing time
+Y	67010026	1972-05-01T12:34:00.00	3619	B-0-0	 NAV: non-increasing time
+?	67010026	1972-05-01T19:18:00.00	3799	0-0-KL	 GRAD: twt, depth excessive
+?	67010026	1972-05-03T12:11:00.00	5141	0-0-KL	 GRAD: twt, depth excessive
+?	67010026	1972-05-04T08:49:00.00	5792	0-0-K	 GRAD: twt excessive
+?	67010026	1972-05-04T12:50:00.00	5931	0-0-KL	 GRAD: twt, depth excessive
+Y	67010026	1972-05-04T20:56:00.00	6203	B-0-0	 NAV: non-increasing time
+?	67010026	1972-05-07T22:02:00.00	6887	0-0-K	 GRAD: twt excessive
+?	67010026	1972-05-08T18:10:00.00	7114	0-0-K	 GRAD: twt excessive
+?	67010026	1972-05-09T05:40:00.00	7149	0-0-K	 GRAD: twt excessive
+Y	67010026	1972-05-09T15:29:00.00	7338	B-0-0	 NAV: non-increasing time

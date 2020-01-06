@@ -1,0 +1,14 @@
+# Cruise 03180015 ID B00051 MGD77 FILE VERSION: 19961220 N_RECS: 14505
+# Examined: Fri Apr 30 12:08:37 2010 by mtchandl
+# Arguments:  -R235.1/235.75/44.45/45.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Deeper ship depths tend to be shoaler in predicted bathymetry.
+# Errata: Header
+Y-I-03180015-depth-01: RLS m: 0.995785 b: 0 rms: 2.66807 r: 0.998774 sig: 1 dec: 0
+N-E-03180015-depth-02: Regression slope 0.995785 different from 1. Recommended: [1]
+Y-W-03180015-depth-12: Integer precision
+# Errata: Data
+?	03180015	1986-06-13T07:35:21.00	6943	0-0-L	 GRAD: depth excessive

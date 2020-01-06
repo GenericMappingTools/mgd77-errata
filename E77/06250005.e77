@@ -1,0 +1,70 @@
+# Cruise 06250005 ID D580BS MGD77 FILE VERSION: 19870917 N_RECS: 4274
+# Examined: Fri May 28 15:24:46 2010 by mtchandl
+# Arguments:  -R179.75/189.7/51.85/61.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-06250005-nav-00: Flagged 0.42 % of records with bad navigation
+Y-I-06250005-depth-01: RLS m: 0.998605 b: 0 rms: 23.3484 r: 0.999847 sig: 1 dec: 0
+N-E-06250005-depth-02: Regression slope 0.998605 different from 1. Recommended: [1]
+Y-I-06250005-mag-07: Anomaly equivalent to mtf1-IGRF (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-06250005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06250005	1980-07-30T08:00:00.00	181	0-0-K	 GRAD: twt excessive
+?	06250005	1980-07-31T07:05:00.00	355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T07:13:00.00	357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T07:14:00.00	358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T07:15:00.00	359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T08:00:00.00	365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T08:15:00.00	367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T08:45:00.00	371	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-07-31T10:06:00.00	380	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06250005	1980-08-02T12:26:00.00	825	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-02T12:27:00.00	826	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-02T12:28:00.00	827	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-02T12:29:00.00	828	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-02T12:30:00.00	829	C-0-0	 NAV: excessive speed
+?	06250005	1980-08-07T17:30:00.00	2007	0-0-Q	 GRAD: mag excessive
+?	06250005	1980-08-07T21:43:00.00	2040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-07T21:44:00.00	2041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-07T21:45:00.00	2042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-09T20:16:00.00	2432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-09T20:40:00.00	2439	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-09T22:00:00.00	2454	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06250005	1980-08-12T10:45:00.00	2959	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T12:15:00.00	2965	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T12:26:00.00	2966	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T12:27:00.00	2967	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T12:28:00.00	2968	C-0-0	 NAV: excessive speed
+?	06250005	1980-08-12T14:57:00.00	2987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-12T14:58:00.00	2988	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06250005	1980-08-12T15:31:00.00	2993	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T15:32:00.00	2994	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T15:33:00.00	2995	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T15:34:00.00	2996	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T15:35:00.00	2997	C-0-0	 NAV: excessive speed
+Y	06250005	1980-08-12T15:45:00.00	2998	C-0-0	 NAV: excessive speed
+?	06250005	1980-08-12T15:57:00.00	3000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-12T15:58:00.00	3001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-12T15:59:00.00	3002	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-12T16:00:00.00	3003	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T08:45:00.00	3088	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T14:45:00.00	3136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T15:03:00.00	3140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T15:04:00.00	3141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T17:27:00.00	3168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T17:28:00.00	3169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T17:29:00.00	3170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T17:30:00.00	3171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-13T23:50:00.00	3215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-14T15:31:00.00	3466	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-14T15:32:00.00	3467	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06250005	1980-08-14T19:30:00.00	3504	C-0-0	 NAV: excessive speed
+?	06250005	1980-08-15T07:30:00.00	3586	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06250005	1980-08-16T05:15:00.00	3708	C-0-0	 NAV: excessive speed
+?	06250005	1980-08-16T11:15:00.00	3749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06250005	1980-08-16T15:45:00.00	3843	0-0-O	 GRAD: mtf1 excessive
+?	06250005	1980-08-18T14:55:00.00	4209	0-0-OQ	 GRAD: mtf1, mag excessive

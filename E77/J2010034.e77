@@ -1,0 +1,139 @@
+# Cruise J2010034 ID GH91-A MGD77 FILE VERSION: 19980512 N_RECS: 21213
+# Examined: Sun Aug  7 09:08:04 2011 by mtchandl
+# Arguments:  -R137.85/142.3/34.8/41.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010034-H13-09: Unknown IGRF specified (DGRF1990)
+Y-W-J2010034-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-J2010034-depth-01: RLS m: 0.996307 b: 0 rms: 8.77538 r: 0.999922 sig: 1 dec: 0
+N-E-J2010034-depth-02: Regression slope 0.996307 different from 1. Recommended: [1]
+Y-I-J2010034-faa-01: RLS m: 1.0194 b: -0.865135 rms: 4.66457 r: 0.985624 sig: 1 dec: 0
+N-E-J2010034-faa-02: Regression slope 1.0194 different from 1. Recommended: [1]
+Y-W-J2010034-faa-03: Regression offset -0.865135 different from 0.
+N-E-J2010034-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999981 b: 1.73466 rms: 1.73452 r: 0.999999 sig: 1 dec: 0). [Recompute]
+N-E-J2010034-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.455022 b: 24.5069 rms: 43.5511 r: 0.649786 sig: 1 dec: 1). [Recompute]
+N-E-J2010034-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.747424 b: -10.6932 rms: 43.3469 r: 0.835451 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-J2010034-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0033 b: 36.562 rms: 37.9866 r: 0.99882 sig: 1 dec: 1). [Recompute]
+Y-W-J2010034-twt-11: More recent bathymetry correction table available
+Y-W-J2010034-depth-12: Integer precision
+Y-W-J2010034-mtf1-12: Integer precision
+# Errata: Data
+?	J2010034	1991-06-22T21:51:00.00	3798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-22T21:54:00.00	3801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-22T22:15:00.00	3822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-23T13:15:00.00	4722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-23T20:55:00.00	5182	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-23T20:57:00.00	5184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-23T20:59:00.00	5186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-23T21:05:00.00	5192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T08:58:00.00	5905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T09:01:00.00	5908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T09:02:00.00	5909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T09:04:00.00	5911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T09:07:00.00	5914	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T09:19:00.00	5926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T10:02:00.00	5969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T10:05:00.00	5972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T10:13:00.00	5980	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T23:24:00.00	6771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-24T23:34:00.00	6781	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010034	1991-06-25T05:49:00.00	7156	C-0-0	 NAV: excessive speed
+Y	J2010034	1991-06-25T05:50:00.00	7157	C-0-0	 NAV: excessive speed
+?	J2010034	1991-06-25T08:54:00.00	7341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-26T23:48:00.00	9675	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-27T12:06:00.00	10413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-27T12:11:00.00	10418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-28T02:48:00.00	11295	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-28T03:20:00.00	11327	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-28T04:31:00.00	11398	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-29T07:04:00.00	12991	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T07:12:00.00	12999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:47:00.00	13274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:48:00.00	13275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:50:00.00	13277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:51:00.00	13278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:52:00.00	13279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:53:00.00	13280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:54:00.00	13281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:55:00.00	13282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:56:00.00	13283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:58:00.00	13285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T11:59:00.00	13286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:04:00.00	13291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:06:00.00	13293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:07:00.00	13294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:08:00.00	13295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:11:00.00	13298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:14:00.00	13301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:15:00.00	13302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:17:00.00	13304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:23:00.00	13310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T12:27:00.00	13314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T14:06:00.00	13413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T14:10:00.00	13417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T14:48:00.00	13455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T14:55:00.00	13462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T14:58:00.00	13465	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T15:00:00.00	13467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-29T23:19:00.00	13966	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-29T23:44:00.00	13991	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-30T01:10:00.00	14077	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-30T05:09:00.00	14316	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-06-30T20:59:00.00	15266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-06-30T21:04:00.00	15271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T01:55:00.00	15562	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-07-01T10:08:00.00	16055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T10:11:00.00	16058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T10:13:00.00	16060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T10:18:00.00	16065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T10:31:00.00	16078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T12:04:00.00	16171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T12:48:00.00	16215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T12:50:00.00	16217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T12:53:00.00	16220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T13:04:00.00	16231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T14:33:00.00	16320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T14:35:00.00	16322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T15:09:00.00	16356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T15:11:00.00	16358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-01T15:29:00.00	16376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T04:50:00.00	17177	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-07-02T10:35:00.00	17522	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T18:26:00.00	17993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T19:38:00.00	18065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T20:23:00.00	18110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T20:49:00.00	18136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T20:54:00.00	18141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T21:32:00.00	18179	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T21:37:00.00	18184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T21:41:00.00	18188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T22:18:00.00	18225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T22:19:00.00	18226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-02T22:20:00.00	18227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T00:29:00.00	18356	0-0-V	 GRAD: eot excessive
+?	J2010034	1991-07-03T07:28:00.00	18775	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T07:30:00.00	18777	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T07:33:00.00	18780	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T07:35:00.00	18782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T07:55:00.00	18802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T07:56:00.00	18803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:43:00.00	19030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:44:00.00	19031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:45:00.00	19032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:46:00.00	19033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:49:00.00	19036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:50:00.00	19037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:51:00.00	19038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:52:00.00	19039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:54:00.00	19041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T11:55:00.00	19042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T12:09:00.00	19056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T12:13:00.00	19060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T18:33:00.00	19440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T18:45:00.00	19452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T18:53:00.00	19460	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010034	1991-07-03T19:14:00.00	19481	0-0-OQ	 GRAD: mtf1, mag excessive

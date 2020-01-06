@@ -1,0 +1,20 @@
+# Cruise J8020011 ID JARE42 MGD77 FILE VERSION: 20050923 N_RECS: 819
+# Examined: Mon Aug  8 16:12:15 2011 by mtchandl
+# Arguments:  -R44.95/48.75/-67.15/-65.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-J8020011-H04-01: Invalid Survey Departure Year: (2000) [2001]
+Y-E-J8020011-H04-02: Invalid Survey Departure Month: (12) [02]
+Y-E-J8020011-H04-03: Invalid Survey Departure Day: (03) [23]
+Y-E-J8020011-H04-05: Invalid Survey Arrival Month: (03) [02]
+Y-E-J8020011-H04-06: Invalid Survey Arrival Day: (21) [26]
+Y-E-J8020011-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A5,A6,I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-J8020011-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-J8020011-depth-01: RLS m: 0.996666 b: 0 rms: 46.2666 r: 0.998336 sig: 1 dec: 0
+Y-W-J8020011-depth-12: Integer precision
+# Errata: Data
+Y	J8020011	2001-02-23T22:11:00.00	59	C-0-0	 NAV: excessive speed

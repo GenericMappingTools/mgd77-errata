@@ -1,0 +1,69 @@
+# Cruise J4010025 ID KH7601 MGD77 FILE VERSION: 19880219 N_RECS: 4045
+# Examined: Sun Aug  7 10:12:48 2011 by mtchandl
+# Arguments:  -R103.8/151.2/1.2/15.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive faa gradient flags to remove outliers.
+# Errata: Header
+Y-W-J4010025-nav-00: Flagged 0.27 % of records with bad navigation
+Y-I-J4010025-depth-01: RLS m: 0.998783 b: 0 rms: 17.7284 r: 0.999979 sig: 1 dec: 0
+N-E-J4010025-depth-02: Regression slope 0.998783 different from 1. Recommended: [1]
+Y-I-J4010025-faa-01: RLS m: 1.00308 b: -8.48666 rms: 22.5175 r: 0.981744 sig: 1 dec: 1
+Y-W-J4010025-faa-03: Regression offset -8.48666 different from 0.
+Y-W-J4010025-depth-12: Integer precision
+Y-W-J4010025-faa-12: Integer precision
+# Errata: Data
+Y	J4010025	1976-01-22T20:50:00.00	47	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-22T23:25:00.00	78	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-22T23:30:00.00	79	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-22T23:35:00.00	80	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-22T23:40:00.00	81	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-23T01:35:00.00	104	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-23T01:40:00.00	105	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-23T20:30:00.00	175	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-23T20:35:00.00	176	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-24T10:50:00.00	347	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-24T10:55:00.00	348	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-24T15:55:00.00	350	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-24T21:25:00.00	416	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-26T16:20:00.00	774	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-26T16:25:00.00	775	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-26T16:30:00.00	776	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-27T02:20:00.00	886	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-27T02:25:00.00	887	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-27T09:55:00.00	977	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-27T10:00:00.00	978	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-27T17:25:00.00	1021	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T07:10:00.00	1090	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T07:15:00.00	1091	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T07:45:00.00	1097	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T16:40:00.00	1162	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010025	1976-01-28T16:45:00.00	1163	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T16:50:00.00	1164	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T17:10:00.00	1168	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T17:15:00.00	1169	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T23:10:00.00	1240	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T23:20:00.00	1242	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-01-28T23:25:00.00	1243	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T09:30:00.00	1580	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T09:40:00.00	1582	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T11:45:00.00	1607	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T11:50:00.00	1608	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T14:45:00.00	1643	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T14:55:00.00	1645	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-06T15:00:00.00	1646	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-07T13:50:00.00	1920	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010025	1976-02-07T13:55:00.00	1921	0-0-W	 GRAD: faa excessive
+Y	J4010025	1976-02-17T04:05:00.00	3278	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:10:00.00	3279	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:15:00.00	3280	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:20:00.00	3281	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:25:00.00	3282	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:30:00.00	3283	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:35:00.00	3284	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:40:00.00	3285	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:45:00.00	3286	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:50:00.00	3287	C-0-0	 NAV: excessive speed
+Y	J4010025	1976-02-17T04:55:00.00	3288	C-0-0	 NAV: excessive speed

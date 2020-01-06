@@ -1,0 +1,48 @@
+# Cruise 67010061 ID 76001211 MGD77 FILE VERSION: 19800427 N_RECS: 3346
+# Examined: Fri Jul 29 16:28:01 2011 by mtchandl
+# Arguments:  -R-13.1/-8.7/47.7/48.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010061-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-67010061-depth-01: RLS m: 0.996307 b: 0 rms: 89.9807 r: 0.995262 sig: 1 dec: 0
+Y-E-67010061-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01977 b: -89.2775 rms: 89.6172 r: 0.999143 sig: 1 dec: 0). [Recompute]
+Y-W-67010061-twt-11: More recent bathymetry correction table available
+Y-W-67010061-mtf1-12: Integer precision
+Y-W-67010061-mag-12: Integer precision
+# Errata: Data
+?	67010061	1976-02-28T21:32:00.00	338	0-0-K	 GRAD: twt excessive
+?	67010061	1976-02-29T05:46:00.00	572	0-0-K	 GRAD: twt excessive
+?	67010061	1976-02-29T10:17:00.00	709	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-01T03:22:00.00	968	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-01T03:34:00.00	975	0-0-K	 GRAD: twt excessive
+Y	67010061	1976-03-01T22:03:00.00	1197	B-0-0	 NAV: non-increasing time
+?	67010061	1976-03-03T12:44:00.00	1493	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-03T20:28:00.00	1639	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-04T15:28:00.00	1828	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-04T15:37:00.00	1834	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-05T06:34:00.00	2194	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-05T06:35:00.00	2195	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-05T07:47:00.00	2221	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-05T09:24:00.00	2269	0-0-KL	 GRAD: twt, depth excessive
+Y	67010061	1976-03-05T15:22:00.00	2375	B-0-0	 NAV: non-increasing time
+Y	67010061	1976-03-05T15:26:00.00	2376	C-0-0	 NAV: excessive speed
+?	67010061	1976-03-05T19:16:00.00	2475	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-06T11:08:00.00	2763	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-06T11:09:00.00	2764	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-06T11:13:00.00	2766	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-06T15:15:00.00	2845	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-06T15:16:00.00	2846	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-06T16:00:00.00	2858	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-06T16:01:00.00	2859	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-06T16:10:00.00	2863	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-06T16:11:00.00	2864	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-07T07:20:00.00	3142	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-07T07:24:00.00	3145	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-07T13:32:00.00	3291	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-07T14:51:00.00	3330	0-0-KL	 GRAD: twt, depth excessive
+?	67010061	1976-03-07T15:00:00.00	3333	0-0-K	 GRAD: twt excessive
+?	67010061	1976-03-07T15:09:00.00	3337	0-0-K	 GRAD: twt excessive

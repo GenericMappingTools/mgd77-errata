@@ -1,0 +1,23 @@
+# Cruise 03990002 ID OMCO7901 MGD77 FILE VERSION: 19890418 N_RECS: 4122
+# Examined: Fri Apr 30 12:20:34 2010 by mtchandl
+# Arguments:  -R229.95/232/12.85/13.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03990002-nav-00: Flagged 0.24 % of records with bad navigation
+Y-I-03990002-depth-01: RLS m: 0.999302 b: 0 rms: 33.7344 r: 0.851271 sig: 1 dec: 0
+Y-W-03990002-depth-12: Integer precision
+# Errata: Data
+Y	03990002	1979-02-14T20:27:00.00	18	C-0-0	 NAV: excessive speed
+Y	03990002	1979-03-08T17:49:00.00	358	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-09T00:14:00.00	529	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-09T05:11:00.00	639	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-09T12:29:00.00	796	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-09T13:08:00.00	818	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-09T19:35:00.00	977	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-10T00:09:00.00	1096	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-10T23:58:00.00	2060	B-0-0	 NAV: non-increasing time
+Y	03990002	1979-03-13T06:13:00.00	4092	B-0-0	 NAV: non-increasing time

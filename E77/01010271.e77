@@ -1,0 +1,109 @@
+# Cruise 01010271 ID RC2711 MGD77 FILE VERSION: 19960809 N_RECS: 65963
+# Examined: Wed Jul  8 17:53:59 2009 by mtchandl
+# Arguments:  -R-41.65/17.2/-33.55/-22.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010271-H04-06: Invalid Survey Arrival Day: (02) [01]
+Y-E-01010271-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010271-H13-10: Survey year (1986-1987) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010271-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010271-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010271-depth-01: RLS m: 1.00035 b: 0 rms: 10.4252 r: 0.999989 sig: 1 dec: 0
+N-E-01010271-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-I-01010271-faa-01: RLS m: 1.03248 b: 0.330062 rms: 10.5837 r: 0.991046 sig: 1 dec: 1
+N-E-01010271-faa-02: Regression slope 1.03248 different from 1. Recommended: [1]
+N-E-01010271-faa-06: Anomaly differs from gobs-IGF80 (m: 0.301949 b: 6.02108 rms: 57.5945 r: 0.58865 sig: 1 dec: 1). [Recompute]
+N-E-01010271-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010271-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010271-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00602 b: -99.3598 rms: 116.713 r: 0.925882 sig: 1 dec: 0). [Recompute]
+N-E-01010271-depth-08: Extended offset from grid [2-65963]
+Y-W-01010271-mtf1-12: Integer precision
+# Errata: Data
+?	01010271	1986-12-06T02:09:07.50	5155	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-06T02:20:00.00	5168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-06T02:56:00.00	5206	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-06T14:40:00.00	6357	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-06T15:05:00.00	6385	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-06T15:12:00.00	6394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-06T15:14:00.00	6396	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	01010271	1986-12-06T15:35:00.00	6418	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-08T03:27:00.00	10225	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:29:00.00	10229	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:31:00.00	10233	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:33:00.00	10236	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:35:00.00	10239	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:37:00.00	10243	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T03:39:00.00	10246	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-08T04:04:11.22	10291	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-08T08:07:11.22	10675	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-10T08:42:22.50	15799	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-11T14:51:00.00	18871	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-11T17:41:00.00	19154	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-12T09:28:00.00	20801	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-12T14:19:00.00	21256	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-12T18:37:00.00	21662	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-12T20:31:00.00	21838	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-12T20:44:00.00	21860	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-13T15:41:00.00	23797	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-13T20:34:07.50	24266	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-13T20:47:00.00	24285	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-13T20:55:07.50	24300	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-13T21:18:00.00	24341	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-14T00:23:11.22	24676	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-14T00:41:00.00	24700	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-15T03:12:11.22	27306	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-15T08:18:00.00	27822	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-15T10:36:30.00	28054	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-15T10:37:00.00	28055	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-15T10:38:18.72	28057	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-15T10:40:00.00	28060	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T06:58:11.22	30007	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T06:59:11.22	30009	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T09:34:00.00	30254	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T10:03:11.22	30295	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T17:54:00.00	31030	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010271	1986-12-16T17:59:00.00	31035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-16T20:20:00.00	31270	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-16T22:22:07.50	31459	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-18T09:58:00.00	35042	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-18T20:54:00.00	36033	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-19T02:29:07.50	36595	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-19T02:55:07.50	36643	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-20T01:30:00.00	38842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-20T09:10:11.22	39612	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-20T09:20:00.00	39627	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-20T16:15:00.00	40251	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-20T17:21:00.00	40366	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-22T13:03:18.72	44819	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-22T13:04:30.00	44821	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-22T13:05:00.00	44822	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-23T01:16:00.00	46103	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-23T08:50:22.50	46900	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-24T01:37:07.50	48670	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-25T06:20:41.22	51303	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-26T05:18:00.00	53319	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-26T13:13:07.50	53986	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-26T15:50:00.00	54222	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010271	1986-12-26T15:52:00.00	54225	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-26T15:54:00.00	54229	0-Q-0	 VAL: mag invalid
+?	01010271	1986-12-26T15:59:00.00	54236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-26T23:54:07.50	54992	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-27T02:20:18.72	55222	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T08:54:30.00	55815	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T12:33:22.50	56129	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-27T12:35:00.00	56132	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T15:05:30.00	56351	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T19:56:07.50	56776	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T20:04:30.00	56788	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T20:05:00.00	56789	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-27T20:07:00.00	56792	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-27T20:08:22.50	56794	0-0-KL	 GRAD: twt, depth excessive
+?	01010271	1986-12-28T14:51:00.00	58458	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-29T14:54:37.50	60588	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-30T10:01:00.00	62290	0-0-K	 GRAD: twt excessive
+?	01010271	1986-12-30T22:29:00.00	63396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010271	1986-12-30T22:35:00.00	63402	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,42 @@
+# Cruise 10020015 ID IG2406 MGD77 FILE VERSION: 19900913 N_RECS: 7388
+# Examined: Mon Aug 16 17:23:06 2010 by mtchandl
+# Arguments:  -R260.6/274.9/9.5/16.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged one depth offset.
+# Errata: Header
+Y-E-10020015-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020015-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020015-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-10020015-depth-01: RLS m: 0.997892 b: 0 rms: 56.8215 r: 0.999485 sig: 1 dec: 0
+N-E-10020015-depth-02: Regression slope 0.997892 different from 1. Recommended: [1]
+Y-E-10020015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.929704 b: 572.888 rms: 571.718 r: 0.885535 sig: 1 dec: 1). [Recompute]
+Y-E-10020015-depth-08: Extended offset from grid [2051-2211]
+Y-W-10020015-mag-09: only found positive values
+Y-W-10020015-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020015-depth-12: Integer precision
+Y-W-10020015-mtf1-12: Integer precision
+Y-W-10020015-mag-12: Integer precision
+# Errata: Data
+Y	10020015	1977-06-21T21:32:00.00	568	B-0-0	 NAV: non-increasing time
+Y	10020015	1977-06-23T05:32:00.00	921	B-0-0	 NAV: non-increasing time
+?	10020015	1977-06-23T14:10:00.00	1032	0-0-L	 GRAD: depth excessive
+Y	10020015	1977-06-28T00:58:00.00	2264	B-0-0	 NAV: non-increasing time
+?	10020015	1977-06-28T19:35:00.00	2500	0-0-L	 GRAD: depth excessive
+?	10020015	1977-06-28T19:40:00.00	2501	0-0-L	 GRAD: depth excessive
+Y	10020015	1977-06-29T02:55:00.00	2594	D-0-0	 NAV: on land
+Y	10020015	1977-06-29T02:58:00.00	2595	D-0-0	 NAV: on land
+Y	10020015	1977-06-29T03:00:00.00	2596	D-0-0	 NAV: on land
+Y	10020015	1977-06-29T03:05:00.00	2597	D-0-0	 NAV: on land
+?	10020015	1977-07-02T21:20:00.00	3742	0-0-L	 GRAD: depth excessive
+?	10020015	1977-07-08T20:50:00.00	5491	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020015	1977-07-08T20:55:00.00	5493	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020015	1977-07-11T20:20:00.00	6404	B-0-0	 NAV: non-increasing time
+Y	10020015	1977-07-12T01:42:00.00	6456	B-0-0	 NAV: non-increasing time
+?	10020015	1977-07-13T16:20:00.00	6943	0-Q-0	 VAL: mag invalid
+?	10020015	1977-07-13T16:25:00.00	6944	0-Q-0	 VAL: mag invalid
+?	10020015	1977-07-13T16:30:00.00	6945	0-Q-0	 VAL: mag invalid
+?	10020015	1977-07-13T16:35:00.00	6946	0-Q-0	 VAL: mag invalid
+?	10020015	1977-07-13T16:40:00.00	6947	0-Q-0	 VAL: mag invalid

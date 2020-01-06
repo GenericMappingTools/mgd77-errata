@@ -1,0 +1,52 @@
+# Cruise 15390013 ID DRFT02RR MGD77 FILE VERSION: 20040519 N_RECS: 60416
+# Examined: Wed Jun  4 22:49:10 2008 by mtchandl
+# Arguments:  -R242.75/275.3/2.2/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15390013-H15-01: Invalid Gravity Departure Base Station Value: (979535) [9795350]
+Y-E-15390013-H15-03: Invalid Gravity Arrival Base Station Value: (978217) [9782170]
+Y-I-15390013-depth-01: RLS m: 1.03311 b: 0 rms: 251.048 r: 0.969909 sig: 1 dec: 1
+N-E-15390013-depth-02: Regression slope 1.03311 different from 1. Recommended: [1]
+Y-I-15390013-faa-01: RLS m: 1.03272 b: 3.41449 rms: 11.3696 r: 0.974344 sig: 1 dec: 1
+Y-W-15390013-faa-03: Regression offset 3.41449 different from 0.
+N-E-15390013-faa-06: Anomaly differs from gobs - IGF80 (m: 0.28488 b: 5.82013 rms: 50.5485 r: 0.548857 sig: 1 dec: 1). [Recompute]
+Y-W-15390013-twt-11: More recent bathymetry correction table available
+Y-W-15390013-depth-12: Integer precision
+# Errata: Data
+?	15390013	2001-06-25T06:22:00.00	15327	0-0-W	 GRAD: faa excessive
+?	15390013	2001-06-25T06:24:00.00	15329	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-06-26T12:35:00.00	17140	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-06-28T21:49:00.00	20574	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-06-29T05:23:00.00	21028	0-0-W	 GRAD: faa excessive
+?	15390013	2001-06-30T04:10:00.00	22395	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-06-30T19:14:00.00	23299	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-06-30T20:44:00.00	23389	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-04T21:17:00.00	29182	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-04T21:38:00.00	29203	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-05T13:05:00.00	30130	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-06T21:20:00.00	32065	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-06T21:21:00.00	32066	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-06T21:22:00.00	32067	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-06T21:58:00.00	32103	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-06T21:59:00.00	32104	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-12T19:51:00.00	40616	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-12T19:52:00.00	40617	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-13T05:00:00.00	41165	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-13T05:26:00.00	41191	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-13T20:16:00.00	42081	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-15T16:27:00.00	44732	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-17T21:11:00.00	47896	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-18T21:48:00.00	49373	0-0-W	 GRAD: faa excessive
+?	15390013	2001-07-18T22:04:00.00	49389	0-0-W	 GRAD: faa excessive
+?	15390013	2001-07-18T22:17:00.00	49402	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-18T22:34:00.00	49419	0-0-UW	 GRAD: gobs, faa excessive
+?	15390013	2001-07-18T22:37:00.00	49422	0-0-W	 GRAD: faa excessive
+?	15390013	2001-07-23T01:52:00.00	55377	0-0-K	 GRAD: twt excessive
+?	15390013	2001-07-23T17:53:00.00	56338	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-23T17:54:00.00	56339	0-0-U	 GRAD: gobs excessive
+?	15390013	2001-07-23T18:53:00.00	56398	0-0-U	 GRAD: gobs excessive

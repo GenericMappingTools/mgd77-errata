@@ -1,0 +1,24 @@
+# Cruise 08010006 ID 71042607 MGD77 FILE VERSION: 19910130 N_RECS: 12714
+# Examined: Mon Jul 26 15:44:59 2010 by mtchandl
+# Arguments:  -R210.4/282.9/-18.35/-11 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010006-H13-10: Survey year (1971-1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-08010006-depth-01: RLS m: 1.00032 b: 0 rms: 35.3876 r: 0.998694 sig: 1 dec: 0
+Y-I-08010006-faa-01: RLS m: 1.00196 b: 0.253436 rms: 7.54155 r: 0.979487 sig: 1 dec: 1
+Y-E-08010006-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03395 b: -42.3681 rms: 52.5823 r: 0.942863 sig: 1 dec: 0). [Recompute]
+Y-W-08010006-twt-11: More recent bathymetry correction table available
+Y-W-08010006-mtf1-12: Integer precision
+Y-W-08010006-mag-12: Integer precision
+Y-W-08010006-faa-12: Integer precision
+# Errata: Data
+?	08010006	1972-01-05T04:45:00.00	8144	0-0-KL	 GRAD: twt, depth excessive
+?	08010006	1972-01-06T05:44:54.00	8695	0-0-KL	 GRAD: twt, depth excessive
+?	08010006	1972-01-07T09:30:00.00	9239	0-0-K	 GRAD: twt excessive
+?	08010006	1972-01-08T01:45:11.94	9679	0-0-KL	 GRAD: twt, depth excessive
+?	08010006	1972-01-13T16:17:00.00	12178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010006	1972-01-15T12:30:00.00	12714	D-0-0	 NAV: on land

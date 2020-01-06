@@ -1,0 +1,40 @@
+# Cruise 07010039 ID YAQ7306 MGD77 FILE VERSION: 19840131 N_RECS: 8926
+# Examined: Fri Jul 16 17:43:41 2010 by mtchandl
+# Arguments:  -R282.7/289.6/-34.55/-12.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010039-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-07010039-depth-01: RLS m: 1.00035 b: 0 rms: 55.991 r: 0.999525 sig: 1 dec: 0
+Y-I-07010039-faa-01: RLS m: 1.00994 b: 2.08094 rms: 4.5398 r: 0.998675 sig: 1 dec: 0
+N-E-07010039-faa-02: Regression slope 1.00994 different from 1. Recommended: [1]
+Y-W-07010039-faa-03: Regression offset 2.08094 different from 0.
+Y-E-07010039-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972381 b: 19.1358 rms: 38.8524 r: 0.978834 sig: 1 dec: 1). [Recompute]
+Y-W-07010039-twt-11: More recent bathymetry correction table available
+Y-W-07010039-mtf1-12: Integer precision
+Y-W-07010039-mag-12: Integer precision
+# Errata: Data
+?	07010039	1974-01-23T01:56:00.00	1424	0-0-K	 GRAD: twt excessive
+?	07010039	1974-01-23T07:21:00.00	1509	0-0-KL	 GRAD: twt, depth excessive
+?	07010039	1974-01-23T16:20:00.00	1641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010039	1974-01-25T05:31:00.00	2264	0-0-K	 GRAD: twt excessive
+?	07010039	1974-01-29T01:05:00.00	3900	0-0-K	 GRAD: twt excessive
+?	07010039	1974-01-30T13:20:00.00	4525	0-0-K	 GRAD: twt excessive
+?	07010039	1974-01-31T15:10:00.00	4912	0-0-KL	 GRAD: twt, depth excessive
+?	07010039	1974-01-31T15:42:00.00	4922	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-02T11:55:00.00	5738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010039	1974-02-02T23:35:00.00	5904	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-03T00:10:00.00	5912	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-04T05:05:00.00	6400	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-05T09:05:00.00	6870	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T02:47:00.00	8117	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T03:51:00.00	8134	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T13:07:00.00	8287	0-0-KL	 GRAD: twt, depth excessive
+?	07010039	1974-02-08T13:33:00.00	8297	0-0-KL	 GRAD: twt, depth excessive
+?	07010039	1974-02-08T18:25:00.00	8379	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T22:09:00.00	8439	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T22:32:00.00	8445	0-0-K	 GRAD: twt excessive
+?	07010039	1974-02-08T22:45:00.00	8450	0-0-KL	 GRAD: twt, depth excessive

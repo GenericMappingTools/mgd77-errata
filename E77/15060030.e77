@@ -1,0 +1,130 @@
+# Cruise 15060030 ID RISP02BD MGD77 FILE VERSION: 19800226 N_RECS: 10111
+# Examined: Sat May 31 10:25:11 2008 by mtchandl
+# Arguments:  -R210.45/282.85/-17.5/-12 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15060030-nav-00: Flagged 1.13 % of records with excessive speed or invalid navigation
+Y-I-15060030-depth-01: RLS m: 1 b: 0 rms: 141.173 r: 0.993345 sig: 1 dec: 1
+Y-E-15060030-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.783681 b: -35.0792 rms: 92.7188 r: 0.830362 sig: 1 dec: 1). [Recompute]
+Y-W-15060030-mtf1-12: Integer multiple of 5 precision
+Y-W-15060030-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15060030	1961-11-30T21:24:00.00	169	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T15:36:00.00	437	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T15:42:00.00	439	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T15:48:00.00	441	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T15:54:00.00	443	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:00:00.00	445	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:06:00.00	447	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:12:00.00	449	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:18:00.00	451	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:24:00.00	453	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:30:00.00	455	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:36:00.00	457	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:42:00.00	459	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:48:00.00	461	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T16:54:00.00	463	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:00:00.00	465	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:06:00.00	467	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:12:00.00	469	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:18:00.00	471	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:24:00.00	473	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-01T17:30:00.00	475	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-07T20:18:00.00	2604	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-07T20:24:00.00	2606	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-07T20:30:00.00	2608	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-07T20:36:00.00	2610	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-10T22:21:00.00	3509	C-0-0	 NAV: excessive speed
+?	15060030	1961-12-21T19:15:00.00	6549	0-0-K	 GRAD: twt excessive
+Y	15060030	1961-12-21T19:30:00.00	6554	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T19:36:00.00	6556	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T19:42:00.00	6558	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T19:48:00.00	6560	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T19:54:00.00	6562	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T20:00:00.00	6564	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-21T20:04:00.00	6566	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T18:48:00.00	6941	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T18:54:00.00	6943	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:00:00.00	6945	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:06:00.00	6947	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:12:00.00	6949	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:18:00.00	6951	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:24:00.00	6953	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:30:00.00	6955	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:36:00.00	6957	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:42:00.00	6959	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:48:00.00	6961	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T19:54:00.00	6963	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:00:00.00	6965	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:06:00.00	6967	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:12:00.00	6969	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:18:00.00	6971	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:24:00.00	6973	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:30:00.00	6975	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:36:00.00	6977	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:42:00.00	6979	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:48:00.00	6981	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T20:54:00.00	6983	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:00:00.00	6985	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:06:00.00	6987	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:12:00.00	6989	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:18:00.00	6991	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:24:00.00	6993	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:30:00.00	6995	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:36:00.00	6997	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:42:00.00	6999	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:48:00.00	7001	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T21:54:00.00	7003	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:00:00.00	7005	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:06:00.00	7007	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:12:00.00	7009	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:18:00.00	7011	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:24:00.00	7013	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:30:00.00	7015	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:36:00.00	7017	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:42:00.00	7019	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:48:00.00	7021	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T22:54:00.00	7023	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:00:00.00	7025	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:06:00.00	7027	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:12:00.00	7029	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:18:00.00	7031	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:24:00.00	7033	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:30:00.00	7035	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:36:00.00	7037	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:42:00.00	7039	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:48:00.00	7041	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-22T23:54:00.00	7043	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:00:00.00	7045	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:06:00.00	7047	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:12:00.00	7049	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:18:00.00	7051	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:24:00.00	7053	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:30:00.00	7055	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:36:00.00	7057	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:42:00.00	7059	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:48:00.00	7061	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T00:54:00.00	7063	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:00:00.00	7065	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:06:00.00	7067	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:12:00.00	7069	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:18:00.00	7071	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:24:00.00	7073	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:30:00.00	7075	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:36:00.00	7077	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:42:00.00	7079	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:48:00.00	7081	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T01:54:00.00	7083	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:00:00.00	7085	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:06:00.00	7087	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:12:00.00	7089	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:18:00.00	7091	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:24:00.00	7093	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:30:00.00	7095	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:36:00.00	7097	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:42:00.00	7099	C-0-0	 NAV: excessive speed
+Y	15060030	1961-12-23T02:48:00.00	7101	C-0-0	 NAV: excessive speed

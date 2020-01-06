@@ -1,0 +1,114 @@
+# Cruise 10020023 ID IG0701 MGD77 FILE VERSION: 19890926 N_RECS: 2924
+# Examined: Mon Aug 16 17:25:50 2010 by mtchandl
+# Arguments:  -R263.35/271.85/21.9/29.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No correlation between reported and predicted bathymetry, flagged all depths as bad. Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-10020023-H04-03: Invalid Survey Departure Day: (20) [21]
+Y-E-10020023-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020023-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020023-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-10020023-depth-01: RLS m: 0.806428 b: 0 rms: 1093.45 r: 0.188399 sig: 1 dec: 0
+N-E-10020023-depth-02: Regression slope 0.806428 different from 1. Recommended: [1]
+Y-E-10020023-mag-07: Anomaly differs from mtf1-IGRF (m: 1.09662 b: -200.791 rms: 205.939 r: 0.992611 sig: 1 dec: 0). [Recompute]
+Y-E-10020023-depth-10: Invalid data records: [1-2924]
+Y-W-10020023-depth-12: Integer precision
+Y-W-10020023-mtf1-12: Integer precision
+Y-W-10020023-mag-12: Integer precision
+# Errata: Data
+?	10020023	1974-05-23T18:52:00.00	588	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-23T20:43:00.00	623	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T01:00:00.00	715	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T01:18:00.00	724	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T02:27:00.00	742	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:23:00.00	854	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:25:00.00	855	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:27:00.00	856	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:28:00.00	857	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:29:00.00	858	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T08:30:00.00	859	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:44:00.00	877	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:45:00.00	878	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:46:00.00	879	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:48:00.00	880	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:49:00.00	881	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T09:51:00.00	883	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T12:22:00.00	923	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:05:00.00	938	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:07:00.00	939	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:09:00.00	940	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:10:00.00	941	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:11:00.00	942	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:12:00.00	943	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:13:00.00	944	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:14:00.00	945	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:15:00.00	946	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:16:00.00	947	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:22:00.00	950	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T13:23:00.00	951	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:14:00.00	977	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:15:00.00	978	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:25:00.00	982	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:26:00.00	983	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:27:00.00	984	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:34:00.00	987	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T15:40:00.00	990	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:27:00.00	1019	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:28:00.00	1020	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:29:00.00	1021	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:31:00.00	1023	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:38:00.00	1026	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:39:00.00	1027	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T17:41:00.00	1029	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T20:00:00.00	1066	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T20:01:00.00	1067	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T20:03:00.00	1068	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T20:04:00.00	1069	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T21:09:00.00	1089	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T21:18:00.00	1094	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T22:15:00.00	1111	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-24T23:40:00.00	1135	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-25T00:19:00.00	1148	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-25T00:33:00.00	1155	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:06:00.00	1575	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:17:00.00	1580	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:33:00.00	1585	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:37:00.00	1587	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:38:00.00	1588	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T03:39:00.00	1589	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:10:00.00	1594	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:11:00.00	1595	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:12:00.00	1596	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:13:00.00	1597	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:16:00.00	1599	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:17:00.00	1600	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:18:00.00	1601	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:46:00.00	1605	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T04:47:00.00	1606	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:19:00.00	1614	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:20:00.00	1615	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:23:00.00	1617	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:24:00.00	1618	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:25:00.00	1619	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:28:00.00	1621	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:33:00.00	1623	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:34:00.00	1624	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:45:00.00	1629	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:46:00.00	1630	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:47:00.00	1631	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T05:52:00.00	1634	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T06:30:00.00	1640	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T06:46:00.00	1645	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T06:47:00.00	1646	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T06:48:00.00	1647	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T06:49:00.00	1648	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T11:52:00.00	1728	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T12:21:00.00	1744	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T12:45:00.00	1755	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T13:05:00.00	1763	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T13:07:00.00	1764	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T13:09:00.00	1766	0-0-L	 GRAD: depth excessive
+?	10020023	1974-05-26T15:12:00.00	1815	0-0-L	 GRAD: depth excessive

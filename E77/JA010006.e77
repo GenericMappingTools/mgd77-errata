@@ -1,0 +1,163 @@
+# Cruise JA010006 ID JARE28L1 MGD77 FILE VERSION: 19941231 N_RECS: 8950
+# Examined: Mon Aug  8 16:26:41 2011 by mtchandl
+# Arguments:  -R112/139.85/-31.45/35.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry may contain outliers, suggest manual editing.
+# Errata: Header
+Y-W-JA010006-nav-00: Flagged 1.52 % of records with bad navigation
+Y-I-JA010006-depth-01: RLS m: 1 b: 0 rms: 11.9842 r: 0.999978 sig: 1 dec: 0
+Y-I-JA010006-faa-01: RLS m: 0.984703 b: -5.13092 rms: 6.7846 r: 0.993466 sig: 1 dec: 0
+N-E-JA010006-faa-02: Regression slope 0.984703 different from 1. Recommended: [1]
+Y-W-JA010006-faa-03: Regression offset -5.13092 different from 0.
+Y-I-JA010006-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-JA010006-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.805284 b: 28.13 rms: 41.0293 r: 0.942658 sig: 1 dec: 0). [Recompute]
+Y-W-JA010006-depth-12: Integer precision
+# Errata: Data
+?	JA010006	1986-11-15T14:42:00.00	1093	0-0-KL	 GRAD: twt, depth excessive
+Y	JA010006	1986-11-16T00:10:00.00	1254	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:12:00.00	1255	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:14:00.00	1256	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:16:00.00	1257	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:18:00.00	1258	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:20:00.00	1259	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:22:00.00	1260	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:24:00.00	1261	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:26:00.00	1262	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:28:00.00	1263	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:30:00.00	1264	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:32:00.00	1265	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:34:00.00	1266	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:36:00.00	1267	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:38:00.00	1268	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:40:00.00	1269	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:42:00.00	1270	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:44:00.00	1271	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:46:00.00	1272	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:48:00.00	1273	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:50:00.00	1274	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:52:00.00	1275	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:54:00.00	1276	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:56:00.00	1277	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T00:58:00.00	1278	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:00:00.00	1279	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:02:00.00	1280	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:04:00.00	1281	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:06:00.00	1282	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:08:00.00	1283	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:10:00.00	1284	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:12:00.00	1285	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:14:00.00	1286	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:16:00.00	1287	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:18:00.00	1288	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:20:00.00	1289	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:22:00.00	1290	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:24:00.00	1291	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:26:00.00	1292	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:28:00.00	1293	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:30:00.00	1294	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:32:00.00	1295	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:34:00.00	1296	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:36:00.00	1297	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:38:00.00	1298	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:40:00.00	1299	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:42:00.00	1300	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:44:00.00	1301	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:46:00.00	1302	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:48:00.00	1303	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:50:00.00	1304	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:52:00.00	1305	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:54:00.00	1306	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:56:00.00	1307	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T01:58:00.00	1308	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:00:00.00	1309	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:02:00.00	1310	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:04:00.00	1311	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:06:00.00	1312	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:08:00.00	1313	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:10:00.00	1314	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:12:00.00	1315	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:14:00.00	1316	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:16:00.00	1317	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:18:00.00	1318	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:20:00.00	1319	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:22:00.00	1320	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:24:00.00	1321	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:26:00.00	1322	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:28:00.00	1323	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:30:00.00	1324	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:32:00.00	1325	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:34:00.00	1326	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:36:00.00	1327	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:38:00.00	1328	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:40:00.00	1329	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:42:00.00	1330	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:44:00.00	1331	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:46:00.00	1332	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:48:00.00	1333	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:50:00.00	1334	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:52:00.00	1335	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:54:00.00	1336	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:56:00.00	1337	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T02:58:00.00	1338	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-16T03:00:00.00	1339	C-0-0	 NAV: excessive speed
+?	JA010006	1986-11-18T23:40:00.00	3399	0-0-V	 GRAD: eot excessive
+?	JA010006	1986-11-22T11:14:00.00	5895	0-0-KL	 GRAD: twt, depth excessive
+?	JA010006	1986-11-22T11:16:00.00	5896	0-0-KL	 GRAD: twt, depth excessive
+?	JA010006	1986-11-23T18:06:00.00	6821	0-0-KL	 GRAD: twt, depth excessive
+Y	JA010006	1986-11-24T18:16:00.00	7533	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:18:00.00	7534	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:20:00.00	7535	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:22:00.00	7536	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:24:00.00	7537	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:26:00.00	7538	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:28:00.00	7539	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:30:00.00	7540	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:32:00.00	7541	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:34:00.00	7542	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:36:00.00	7543	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:38:00.00	7544	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:40:00.00	7545	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:42:00.00	7546	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:44:00.00	7547	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:46:00.00	7548	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:48:00.00	7549	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:50:00.00	7550	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:52:00.00	7551	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:54:00.00	7552	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:56:00.00	7553	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T18:58:00.00	7554	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:00:00.00	7555	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:02:00.00	7556	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:04:00.00	7557	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:06:00.00	7558	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:08:00.00	7559	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:10:00.00	7560	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:12:00.00	7561	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:14:00.00	7562	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:16:00.00	7563	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:18:00.00	7564	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:20:00.00	7565	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:22:00.00	7566	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:24:00.00	7567	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:26:00.00	7568	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:28:00.00	7569	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:30:00.00	7570	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:32:00.00	7571	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:34:00.00	7572	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:36:00.00	7573	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:38:00.00	7574	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:40:00.00	7575	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:42:00.00	7576	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:44:00.00	7577	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:46:00.00	7578	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:48:00.00	7579	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:50:00.00	7580	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:52:00.00	7581	C-0-0	 NAV: excessive speed
+Y	JA010006	1986-11-24T19:54:00.00	7582	C-0-0	 NAV: excessive speed
+?	JA010006	1986-11-26T13:52:00.00	8839	0-0-K	 GRAD: twt excessive
+?	JA010006	1986-11-26T14:24:00.00	8855	0-0-K	 GRAD: twt excessive
+?	JA010006	1986-11-26T15:54:00.00	8900	0-0-KL	 GRAD: twt, depth excessive
+?	JA010006	1986-11-26T16:18:00.00	8912	0-0-KL	 GRAD: twt, depth excessive

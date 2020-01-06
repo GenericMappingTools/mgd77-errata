@@ -1,0 +1,66 @@
+# Cruise 08150001 ID VA80-1 MGD77 FILE VERSION: 19860213 N_RECS: 11034
+# Examined: Fri Jul 30 14:15:02 2010 by mtchandl
+# Arguments:  -R165.2/169.55/-17.8/-12.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry and navigation poorly merged resulting in a large along-track shift compared to predicted depth. Recommend disregarding bathymetry until fixed by source institution.
+# Errata: Header
+Y-W-08150001-nav-00: Flagged 0.39 % of records with bad navigation
+Y-I-08150001-depth-01: RLS m: 0.624991 b: 0 rms: 1515.88 r: 0.181308 sig: 1 dec: 1
+N-E-08150001-depth-02: Regression slope 0.624991 different from 1. Recommended: [1]
+Y-E-08150001-depth-08: Extended offset from grid [1-11034]
+Y-W-08150001-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08150001	1980-07-29T16:07:00.00	800	0-0-KL	 GRAD: twt, depth excessive
+Y	08150001	1980-07-30T06:25:00.00	1010	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T05:45:00.00	2160	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T05:46:55.02	2161	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T05:50:00.00	2162	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T05:55:00.00	2163	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T05:57:31.02	2164	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:00:00.00	2165	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:03:08.94	2166	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:05:00.00	2167	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:10:00.00	2168	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:11:00.00	2169	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:13:16.98	2170	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:15:00.00	2171	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:20:00.00	2172	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:25:00.00	2173	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:26:19.98	2174	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:30:00.00	2175	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:35:00.00	2176	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:38:49.02	2177	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:40:00.00	2178	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:42:56.04	2179	D-0-0	 NAV: on land
+Y	08150001	1980-08-02T06:45:00.00	2180	D-0-0	 NAV: on land
+?	08150001	1980-08-02T09:52:27.96	2237	D-0-0	 NAV: on land
+?	08150001	1980-08-03T16:15:00.00	2859	D-0-0	 NAV: on land
+?	08150001	1980-08-03T16:16:04.98	2860	D-0-0	 NAV: on land
+?	08150001	1980-08-05T02:58:02.94	3679	0-0-KL	 GRAD: twt, depth excessive
+?	08150001	1980-08-05T20:06:18.96	4119	0-0-K	 GRAD: twt excessive
+Y	08150001	1980-08-10T13:00:00.00	5565	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T14:00:00.00	5566	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T15:00:00.00	5567	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T16:00:00.00	5568	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T17:00:00.00	5569	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T18:00:00.00	5570	D-0-0	 NAV: on land
+Y	08150001	1980-08-10T19:00:00.00	5571	D-0-0	 NAV: on land
+?	08150001	1980-08-13T17:04:58.02	6205	0-0-KL	 GRAD: twt, depth excessive
+?	08150001	1980-08-17T23:27:21.96	8503	0-0-K	 GRAD: twt excessive
+Y	08150001	1980-08-20T15:10:00.00	9846	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:15:00.00	9847	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:20:00.00	9848	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:25:00.00	9849	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:30:00.00	9850	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:30:06.96	9851	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:34:42.00	9852	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:35:00.00	9853	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:36:00.00	9854	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:37:23.94	9855	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:40:00.00	9856	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:41:46.02	9857	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:45:00.00	9858	C-0-0	 NAV: excessive speed
+Y	08150001	1980-08-20T15:47:08.94	9859	C-0-0	 NAV: excessive speed

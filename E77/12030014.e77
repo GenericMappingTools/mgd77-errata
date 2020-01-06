@@ -1,0 +1,15 @@
+# Cruise 12030014 ID BA66005 MGD77 FILE VERSION: 19860717 N_RECS: 1559
+# Examined: Tue Aug 24 14:07:47 2010 by mtchandl
+# Arguments:  -R298.05/328.45/38.15/45.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Disagreement between reported and predicted bathymetry increases with depth.
+# Errata: Header
+Y-E-12030014-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-I-12030014-depth-01: RLS m: 1.03223 b: 0 rms: 163.657 r: 0.99716 sig: 1 dec: 0
+N-E-12030014-depth-02: Regression slope 1.03223 different from 1. Recommended: [1]
+N-E-12030014-depth-08: Extended offset from grid [35-227]
+N-E-12030014-depth-08: Extended offset from grid [348-916]
+# Errata: Data

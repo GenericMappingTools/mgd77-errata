@@ -1,0 +1,13 @@
+# Cruise 12030026 ID BA73001 MGD77 FILE VERSION: 19860717 N_RECS: 537
+# Examined: Tue Aug 24 14:11:15 2010 by mtchandl
+# Arguments:  -R297/306.25/35/44.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset.
+# Errata: Header
+Y-E-12030026-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-I-12030026-depth-01: RLS m: 1.0007 b: 0 rms: 70.7842 r: 0.999809 sig: 1 dec: 0
+Y-E-12030026-depth-08: Extended offset from grid [2-190]
+# Errata: Data

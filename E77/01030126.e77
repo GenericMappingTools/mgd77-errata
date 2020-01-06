@@ -1,0 +1,19 @@
+# Cruise 01030126 ID V2712 MGD77 FILE VERSION: 19790919 N_RECS: 8481
+# Examined: Fri Mar 19 01:16:38 2010 by mtchandl
+# Arguments:  -R-4/18.35/-34.15/5.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01030126-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-01030126-depth-01: RLS m: 0.999651 b: 0 rms: 12.1239 r: 0.999959 sig: 1 dec: 0
+N-E-01030126-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030126-faa-01: RLS m: 1.01297 b: -1.81549 rms: 4.13522 r: 0.976989 sig: 1 dec: 0
+N-E-01030126-faa-02: Regression slope 1.01297 different from 1. Recommended: [1]
+Y-W-01030126-faa-03: Regression offset -1.81549 different from 0.
+Y-W-01030126-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	01030126	1970-02-15T22:40:00.00	655	B-0-0	 NAV: non-increasing time
+Y	01030126	1970-02-18T01:00:00.00	1339	B-0-0	 NAV: non-increasing time

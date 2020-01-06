@@ -1,0 +1,52 @@
+# Cruise J2010039 ID GH93-A MGD77 FILE VERSION: 19980512 N_RECS: 25587
+# Examined: Sun Aug  7 09:26:15 2011 by mtchandl
+# Arguments:  -R135.7/142.3/34.8/41.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010039-H13-09: Unknown IGRF specified (DGRF1990)
+Y-I-J2010039-depth-01: RLS m: 0.998221 b: 0 rms: 11.365 r: 0.999888 sig: 1 dec: 0
+N-E-J2010039-depth-02: Regression slope 0.998221 different from 1. Recommended: [1]
+Y-I-J2010039-faa-01: RLS m: 0.971143 b: 1.96452 rms: 3.02208 r: 0.995908 sig: 1 dec: 0
+N-E-J2010039-faa-02: Regression slope 0.971143 different from 1. Recommended: [1]
+Y-W-J2010039-faa-03: Regression offset 1.96452 different from 0.
+Y-E-J2010039-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: 1.73496 rms: 1.73549 r: 0.999999 sig: 1 dec: 0). [Recompute]
+N-E-J2010039-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.489328 b: 20.8379 rms: 45.5071 r: 0.693455 sig: 1 dec: 1). [Recompute]
+N-E-J2010039-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.780004 b: -13.7085 rms: 42.1748 r: 0.868097 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-J2010039-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999866 b: 59.1388 rms: 60.7712 r: 0.997772 sig: 1 dec: 1). [Recompute]
+Y-W-J2010039-twt-11: More recent bathymetry correction table available
+Y-W-J2010039-depth-12: Integer precision
+Y-W-J2010039-mtf1-12: Integer precision
+# Errata: Data
+?	J2010039	1993-06-23T03:51:00.00	2762	0-0-K	 GRAD: twt excessive
+?	J2010039	1993-06-23T07:14:00.00	2965	0-0-K	 GRAD: twt excessive
+?	J2010039	1993-06-23T08:04:00.00	3015	0-0-K	 GRAD: twt excessive
+?	J2010039	1993-06-23T11:48:00.00	3239	0-0-KL	 GRAD: twt, depth excessive
+?	J2010039	1993-06-23T20:51:00.00	3782	0-0-K	 GRAD: twt excessive
+?	J2010039	1993-06-25T04:46:00.00	5697	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-06-25T18:41:00.00	6532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-25T19:39:00.00	6590	0-0-Q	 GRAD: mag excessive
+?	J2010039	1993-06-25T19:40:00.00	6591	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-25T20:46:00.00	6657	0-0-KL	 GRAD: twt, depth excessive
+?	J2010039	1993-06-26T20:33:00.00	8084	0-0-KL	 GRAD: twt, depth excessive
+?	J2010039	1993-06-27T06:42:00.00	8693	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-27T06:45:00.00	8696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-27T06:46:00.00	8697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-27T07:21:00.00	8732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-28T10:10:00.00	10341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-28T14:27:00.00	10598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-28T15:50:00.00	10681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-28T15:52:00.00	10683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-06-28T19:30:00.00	10901	0-0-KL	 GRAD: twt, depth excessive
+?	J2010039	1993-07-02T09:00:00.00	16031	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-04T03:26:00.00	18577	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-04T11:12:00.00	19043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010039	1993-07-05T02:58:00.00	19989	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-06T00:44:00.00	21295	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-07T00:48:00.00	22739	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-07T00:49:00.00	22740	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-07T00:57:00.00	22748	0-0-V	 GRAD: eot excessive
+?	J2010039	1993-07-08T00:22:00.00	24153	0-0-OQ	 GRAD: mtf1, mag excessive

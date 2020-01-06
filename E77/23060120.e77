@@ -1,0 +1,42 @@
+# Cruise 23060120 ID ODP306JR MGD77 FILE VERSION: 20080303 N_RECS: 62783
+# Examined: Thu Feb  3 14:06:28 2011 by mtchandl
+# Arguments:  -R-33/3/37.7/67.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060120-H04-03: Invalid Survey Departure Day: (02) [07]
+Y-W-23060120-H13-10: Survey year (2005) outside magnetic reference field Unused time range (9999-9999)
+N-E-23060120-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-23060120-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-23060120-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-23060120-H16-06: Ten Degree Identifier 7302 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7303 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7402 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7403 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7500 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7501 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7502 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7503 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7600 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 7601 not marked in header but block was crossed
+Y-W-23060120-H16-06: Ten Degree Identifier 1600 not marked in header but block was crossed
+Y-W-23060120-nav-00: Flagged 0.00 % of records with bad navigation
+Y-W-23060120-mtf1-12: Integer precision
+# Errata: Data
+?	23060120	2005-04-10T17:25:50.28	42999	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:26:50.28	43000	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:27:52.26	43001	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:28:52.50	43002	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:29:52.50	43003	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:30:52.62	43004	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:31:52.74	43005	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:32:54.30	43006	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:33:54.30	43007	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:34:54.30	43008	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:35:54.30	43009	0-0-O	 GRAD: mtf1 excessive
+?	23060120	2005-04-10T17:36:54.30	43010	0-0-O	 GRAD: mtf1 excessive
+Y	23060120	2005-04-12T08:18:38.70	45250	C-0-0	 NAV: excessive speed
+Y	23060120	2005-04-22T00:19:37.44	58562	C-0-0	 NAV: excessive speed

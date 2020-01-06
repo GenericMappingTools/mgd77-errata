@@ -1,0 +1,30 @@
+# Cruise 03020016 ID CMAPSU5D MGD77 FILE VERSION: 19800213 N_RECS: 6131
+# Examined: Fri Apr  9 13:37:37 2010 by mtchandl
+# Arguments:  -R179.95/192/36/42 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-E-03020016-H12-01: Invalid Bathymetry Digitizing Rate: (483) [483]
+Y-E-03020016-H13-01: Invalid Magnetics Digitizing Rate: (965) [965]
+Y-E-03020016-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-03020016-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-03020016-depth-01: RLS m: 1 b: 0 rms: 26.3747 r: 0.996672 sig: 1 dec: 0
+Y-I-03020016-faa-01: RLS m: -0.0891538 b: -9.15282 rms: 9.36098 r: 0.0956477 sig: 1 dec: 0
+N-E-03020016-faa-02: Regression slope -0.0891538 different from 1. Recommended: [10]
+Y-W-03020016-faa-03: Regression offset -9.15282 different from 0.
+Y-E-03020016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.987771 b: -55.1819 rms: 60.7128 r: 0.989662 sig: 1 dec: 1). [Recompute]
+Y-W-03020016-faa-09: all values less than or equal to zero
+Y-E-03020016-faa-10: Invalid data records: [1-6131]
+Y-W-03020016-mtf1-12: Integer precision
+Y-W-03020016-mag-12: Integer precision
+Y-W-03020016-faa-12: Integer precision
+# Errata: Data
+Y	03020016	1963-02-27T23:27:00.00	241	C-0-0	 NAV: excessive speed
+?	03020016	1963-03-16T13:25:00.00	1219	0-0-K	 GRAD: twt excessive
+Y	03020016	1963-04-01T06:32:00.00	1916	C-0-0	 NAV: excessive speed
+Y	03020016	1963-05-14T16:17:00.00	3359	C-0-0	 NAV: excessive speed
+Y	03020016	1963-08-10T05:01:00.00	4107	C-0-0	 NAV: excessive speed
+Y	03020016	1963-08-10T05:30:00.00	4114	C-0-0	 NAV: excessive speed

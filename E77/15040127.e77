@@ -1,0 +1,42 @@
+# Cruise 15040127 ID MRTN05WT MGD77 FILE VERSION: 19860717 N_RECS: 13371
+# Examined: Sat May 24 10:05:05 2008 by mtchandl
+# Arguments:  -R189.6/201.85/-14.35/20.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040127-H13-10: Survey year (1984) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040127-depth-01: RLS m: 1 b: 0 rms: 154.982 r: 0.99384 sig: 1 dec: 1
+Y-E-15040127-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.997186 b: 1.74849 rms: 22.2865 r: 0.99749 sig: 1 dec: 1). [Recompute]
+Y-W-15040127-twt-11: More recent bathymetry correction table available
+Y-W-15040127-mtf1-12: Integer precision
+# Errata: Data
+?	15040127	1984-08-15T03:18:00.00	3951	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-15T03:19:00.00	3952	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-15T03:31:00.00	3964	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-15T03:32:00.00	3965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-15T03:35:00.00	3968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:50:00.00	13283	0-0-O	 GRAD: mtf1 excessive
+?	15040127	1984-08-21T14:51:00.00	13284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:52:00.00	13285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:53:00.00	13286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:54:00.00	13287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:55:00.00	13288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:56:00.00	13289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:57:00.00	13290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:58:00.00	13291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T14:59:00.00	13292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:00:00.00	13293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:01:00.00	13294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:02:00.00	13295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:03:00.00	13296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:04:00.00	13297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:05:00.00	13298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:06:00.00	13299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:07:00.00	13300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:48:00.00	13341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:49:00.00	13342	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:50:00.00	13343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040127	1984-08-21T15:51:00.00	13344	0-0-OQ	 GRAD: mtf1, mag excessive

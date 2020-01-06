@@ -1,0 +1,21 @@
+# Cruise 08050018 ID 66102601 MGD77 FILE VERSION: 19840223 N_RECS: 1114
+# Examined: Mon Nov 23 15:31:29 2009 by mtchandl
+# Arguments:  -R159.95/171.4/-10.4/7.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bad navigation.
+# Errata: Header
+Y-W-08050018-H13-10: Survey year (1966) outside magnetic reference field Unused time range (9999-9999)
+Y-E-08050018-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08050018-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08050018-nav-00: Flagged 0.36 % of records with bad navigation
+Y-I-08050018-depth-01: RLS m: 0.998869 b: 0 rms: 29.1555 r: 0.99973 sig: 1 dec: 0
+Y-W-08050018-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050018	1966-11-24T18:45:00.00	804	D-0-0	 NAV: on land
+Y	08050018	1966-11-24T18:55:00.00	805	D-0-0	 NAV: on land
+Y	08050018	1966-11-24T19:00:00.00	806	D-0-0	 NAV: on land
+Y	08050018	1966-11-26T06:59:00.00	900	D-0-0	 NAV: on land
+Y	08050018	1966-11-26T07:00:00.00	901	D-0-0	 NAV: on land

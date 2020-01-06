@@ -1,0 +1,30 @@
+# Cruise 88010029 ID NBP96-5 MGD77 FILE VERSION: 20000706 N_RECS: 23190
+# Examined: Thu Aug  4 19:34:13 2011 by mtchandl
+# Arguments:  -R168.05/190.45/-77.1/-45.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Subtracted 20 mGal from reported faa. 
+# Errata: Header
+N-E-88010029-H04-03: Invalid Survey Departure Day: (11) [12]
+N-E-88010029-H04-06: Invalid Survey Arrival Day: (30) [28]
+Y-E-88010029-H13-01: Invalid Magnetics Digitizing Rate: (1.0) [1.0]
+Y-E-88010029-H14-01: Invalid Gravity Digitizing Rate: (1.0) [1.0]
+Y-W-88010029-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-88010029-faa-01: RLS m: 1.12327 b: 22.8269 rms: 20.9283 r: 0.976171 sig: 1 dec: 0
+N-E-88010029-faa-02: Regression slope 1.12327 different from 1. Recommended: [1]
+Y-E-88010029-faa-03: Regression offset 22.8269 different from 0. Recommended: [-20.0]
+Y-I-88010029-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-88010029-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.923734 b: 0.659607 rms: 4.19264 r: 0.973675 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	88010029	1996-11-16T01:09:00.00	5796	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:39:00.00	20604	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:43:00.00	20608	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:44:00.00	20609	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:45:00.00	20610	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:46:00.00	20611	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:47:00.00	20612	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:48:00.00	20613	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:49:00.00	20614	C-0-0	 NAV: excessive speed
+Y	88010029	1996-11-27T04:50:00.00	20615	C-0-0	 NAV: excessive speed

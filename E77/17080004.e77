@@ -1,0 +1,98 @@
+# Cruise 17080004 ID A112L25 MGD77 FILE VERSION: 19960809 N_RECS: 20830
+# Examined: Mon Sep  6 12:34:08 2010 by mtchandl
+# Arguments:  -R255.05/259.85/9.7/16.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-17080004-time-01: 4 of 20830 records contain invalid time
+N-E-17080004-H04-03: Invalid Survey Departure Day: (13) [14]
+Y-E-17080004-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-W-17080004-nav-00: Flagged 0.26 % of records with bad navigation
+Y-I-17080004-depth-01: RLS m: 0.99749 b: 0 rms: 78.4245 r: 0.991553 sig: 1 dec: 0
+N-E-17080004-depth-02: Regression slope 0.99749 different from 1. Recommended: [1]
+Y-W-17080004-depth-12: Integer precision
+# Errata: Data
+Y	17080004	1985-05-14T23:58:04.02	781	B-0-0	 NAV: non-increasing time
+Y	17080004	1985-05-14T23:59:04.02	782	B-0-0	 NAV: non-increasing time
+Y	17080004	1985-05-15T00:00:18.00	783	B-0-0	 NAV: non-increasing time
+?	17080004	1985-05-15T18:09:49.98	1824	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-15T23:46:00.00	2160	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-15T23:56:00.00	2170	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-16T10:35:01.98	2426	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-16T10:46:01.98	2437	0-0-K	 GRAD: twt excessive
+?	17080004	1985-05-16T11:22:01.02	2473	0-0-KL	 GRAD: twt, depth excessive
+Y	17080004	1985-05-16T11:28:01.02	2479	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-16T13:00:09.00	2569	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-17T10:31:00.00	3717	0-0-K	 GRAD: twt excessive
+Y	17080004	1985-05-18T00:01:01.98	4512	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:02:01.98	4513	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:03:01.98	4514	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:04:01.98	4515	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:05:01.98	4516	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:06:01.98	4517	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:07:01.98	4518	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:09:01.98	4519	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T00:10:01.98	4520	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T01:01:01.98	4564	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T01:02:01.98	4565	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T10:15:01.98	5049	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T10:16:01.98	5050	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T10:18:01.98	5051	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T10:19:01.98	5052	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-18T12:24:58.98	5110	0-0-K	 GRAD: twt excessive
+Y	17080004	1985-05-18T12:31:01.02	5116	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T12:32:01.02	5117	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T12:33:01.02	5118	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-18T12:47:58.98	5127	0-0-K	 GRAD: twt excessive
+?	17080004	1985-05-18T20:36:00.00	5301	0-0-K	 GRAD: twt excessive
+?	17080004	1985-05-18T21:15:01.02	5336	0-0-K	 GRAD: twt excessive
+Y	17080004	1985-05-18T22:10:58.98	5385	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:11:58.98	5386	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:12:58.98	5387	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:13:58.98	5388	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:14:58.98	5389	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:15:58.98	5390	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:16:58.98	5391	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-18T22:17:58.02	5392	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-19T01:44:00.00	5545	0-0-K	 GRAD: twt excessive
+?	17080004	1985-05-19T05:27:01.02	5699	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-19T05:28:01.98	5700	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-19T22:59:43.98	5799	0-0-K	 GRAD: twt excessive
+?	17080004	1985-05-19T23:00:00.00	5800	0-0-KL	 GRAD: twt, depth excessive
+Y	17080004	1985-05-21T12:27:01.02	7834	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-21T13:08:58.98	7875	0-0-KL	 GRAD: twt, depth excessive
+?	17080004	1985-05-21T13:14:58.98	7881	0-0-K	 GRAD: twt excessive
+Y	17080004	1985-05-21T13:39:01.02	7904	C-0-0	 NAV: excessive speed
+Y	17080004	NaN	7967	E-0-0	 NAV: navigation undefined
+Y	17080004	NaN	7968	E-0-0	 NAV: navigation undefined
+Y	17080004	NaN	7969	E-0-0	 NAV: navigation undefined
+Y	17080004	NaN	7970	E-0-0	 NAV: navigation undefined
+Y	17080004	1985-05-23T05:50:58.02	8943	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-23T05:51:58.02	8944	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-23T08:03:01.98	9072	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-23T08:04:01.98	9073	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-23T08:04:58.98	9074	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-24T05:27:01.98	10317	0-0-KL	 GRAD: twt, depth excessive
+Y	17080004	1985-05-24T05:29:01.98	10319	C-0-0	 NAV: excessive speed
+?	17080004	1985-05-24T23:02:01.02	11283	0-0-K	 GRAD: twt excessive
+Y	17080004	1985-05-27T02:21:58.98	13920	B-0-0	 NAV: non-increasing time
+?	17080004	1985-05-29T00:00:16.02	16426	0-0-KL	 GRAD: twt, depth excessive
+Y	17080004	1985-05-30T03:16:58.98	17508	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T03:20:00.00	17511	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T09:21:01.98	17824	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T09:22:01.98	17825	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T21:13:01.02	18356	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T21:14:01.98	18357	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T21:14:58.98	18358	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T22:50:58.02	18441	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T22:51:58.02	18442	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T22:52:58.02	18443	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T22:53:58.02	18444	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-30T23:58:13.98	18503	B-0-0	 NAV: non-increasing time
+Y	17080004	1985-05-30T23:59:12.00	18504	C-0-0	 NAV: excessive speed
+Y	17080004	1985-05-31T23:59:40.98	19946	B-0-0	 NAV: non-increasing time
+Y	17080004	1985-06-01T00:00:55.02	19947	B-0-0	 NAV: non-increasing time
+Y	17080004	1985-06-01T00:01:55.02	19948	B-0-0	 NAV: non-increasing time

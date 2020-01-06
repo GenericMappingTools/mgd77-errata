@@ -1,0 +1,30 @@
+# Cruise 05060008 ID ES6609 MGD77 FILE VERSION: 19840921 N_RECS: 740
+# Examined: Fri Apr 30 13:41:40 2010 by mtchandl
+# Arguments:  -R170.45/173.45/-37.1/-32.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060008-H13-09: Unknown IGRF specified (DGRF-65)
+Y-E-05060008-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995249 b: -13.0958 rms: 17.1383 r: 0.999161 sig: 1 dec: 1). [Recompute]
+Y-W-05060008-mtf1-12: Integer precision
+Y-W-05060008-mag-12: Integer precision
+# Errata: Data
+?	05060008	1966-10-16T23:07:00.00	575	0-Q-0	 VAL: mag invalid
+?	05060008	1966-10-16T23:17:00.00	577	0-Q-0	 VAL: mag invalid
+?	05060008	1966-10-16T23:22:00.00	578	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T00:02:00.00	586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T03:23:00.00	627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T03:28:00.00	628	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T03:33:00.00	629	0-Q-0	 VAL: mag invalid
+?	05060008	1966-10-17T03:38:00.00	630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T03:47:00.00	632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T03:52:00.00	633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T04:07:00.00	636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T04:17:00.00	638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T04:22:00.00	639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T04:36:00.00	642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T05:39:00.00	655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060008	1966-10-17T05:44:00.00	656	0-0-OQ	 GRAD: mtf1, mag excessive

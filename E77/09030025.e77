@@ -1,0 +1,26 @@
+# Cruise 09030025 ID SI931005 MGD77 FILE VERSION: 19800219 N_RECS: 10154
+# Examined: Fri Jul 30 14:21:29 2010 by mtchandl
+# Arguments:  -R0/237/0/57.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset.
+# Errata: Header
+Y-W-09030025-time-01: 1 of 10154 records contain invalid time
+N-E-09030025-H04-06: Invalid Survey Arrival Day: (18) [17]
+N-E-09030025-H11-03: Invalid Bottommost Latitude: (+34) [+00]
+N-E-09030025-H11-05: Invalid Leftmost Longitude: (+139) [+000]
+Y-E-09030025-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+N-E-09030025-H16-01: Invalid Number of Ten Degree Identifiers: (16) [17]
+Y-W-09030025-H16-06: Ten Degree Identifier 1000 not marked in header but block was crossed
+Y-W-09030025-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-09030025-depth-01: RLS m: 1 b: 0 rms: 11.3218 r: 0.999931 sig: 1 dec: 0
+Y-E-09030025-depth-08: Extended offset from grid [9970-10154]
+Y-W-09030025-twt-11: More recent bathymetry correction table available
+Y-W-09030025-depth-12: Integer precision
+# Errata: Data
+Y	09030025	1970-10-11T07:00:00.00	1448	C-0-0	 NAV: excessive speed
+Y	09030025	NaN	5074	E-0-0	 NAV: navigation undefined
+Y	09030025	1970-11-08T09:05:00.00	5076	CD-0-0	 NAV: excessive speed, on land
+Y	09030025	1970-11-08T09:15:00.00	5078	C-0-0	 NAV: excessive speed

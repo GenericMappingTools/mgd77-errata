@@ -1,0 +1,31 @@
+# Cruise 08100001 ID TG761 MGD77 FILE VERSION: 19830311 N_RECS: 3707
+# Examined: Fri Jul 30 14:13:27 2010 by mtchandl
+# Arguments:  -R185/187/-21.15/-18 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08100001-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08100001-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08100001-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08100001-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08100001-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08100001-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08100001-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08100001-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08100001-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08100001-depth-01: RLS m: 1.0035 b: 0 rms: 55.7032 r: 0.998631 sig: 1 dec: 0
+N-E-08100001-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-W-08100001-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08100001	1976-04-26T15:34:28.98	5	D-0-0	 NAV: on land
+Y	08100001	1976-04-26T15:37:00.96	6	D-0-0	 NAV: on land
+?	08100001	1976-04-29T04:40:46.02	690	0-0-KL	 GRAD: twt, depth excessive
+?	08100001	1976-04-30T10:10:03.96	1049	0-0-K	 GRAD: twt excessive
+?	08100001	1976-05-02T07:14:15.96	1426	0-0-K	 GRAD: twt excessive
+?	08100001	1976-05-06T16:02:00.00	2326	0-0-K	 GRAD: twt excessive
+?	08100001	1976-05-06T23:34:59.04	2432	0-0-K	 GRAD: twt excessive
+?	08100001	1976-05-07T00:05:11.94	2439	0-0-K	 GRAD: twt excessive
+?	08100001	1976-05-07T00:32:05.94	2446	0-0-K	 GRAD: twt excessive

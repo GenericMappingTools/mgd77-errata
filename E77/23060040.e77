@@ -1,0 +1,39 @@
+# Cruise 23060040 ID ODP136JR MGD77 FILE VERSION: 19920630 N_RECS: 1312
+# Examined: Tue Oct 19 15:29:06 2010 by mtchandl
+# Arguments:  -R200.85/202.15/19.25/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-23060040-H04-03: Invalid Survey Departure Day: (03) [02]
+Y-W-23060040-H13-10: Survey year (1991) outside magnetic reference field IGRF-85 time range (1945-1990)
+Y-W-23060040-nav-00: Flagged 1.60 % of records with bad navigation
+Y-I-23060040-depth-01: RLS m: 0.996863 b: 0 rms: 13.8589 r: 0.995124 sig: 1 dec: 0
+Y-E-23060040-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0019 b: -13.6978 rms: 13.8207 r: 0.999992 sig: 1 dec: 0). [Recompute]
+Y-W-23060040-twt-11: More recent bathymetry correction table available
+Y-W-23060040-depth-12: Integer precision
+Y-W-23060040-mtf1-12: Integer precision
+# Errata: Data
+Y	23060040	1991-03-02T21:30:00.00	1	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T21:31:00.00	2	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T22:00:00.00	3	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T22:01:00.00	4	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T22:30:00.00	5	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T23:00:00.00	6	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T23:01:00.00	7	D-0-0	 NAV: on land
+Y	23060040	1991-03-02T23:30:00.00	8	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T00:00:00.00	9	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T00:02:00.00	10	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T00:30:00.00	11	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T02:02:00.00	12	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T02:30:00.00	13	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T02:32:00.00	14	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T03:00:00.00	15	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T03:02:00.00	16	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T03:30:00.00	17	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T04:00:00.00	18	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T04:28:00.00	19	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T04:30:00.00	20	D-0-0	 NAV: on land
+Y	23060040	1991-03-03T04:45:00.00	21	D-0-0	 NAV: on land

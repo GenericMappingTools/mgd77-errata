@@ -1,0 +1,22 @@
+# Cruise 15010011 ID CIRC08AR MGD77 FILE VERSION: 19800226 N_RECS: 6742
+# Examined: Mon May 12 16:59:48 2008 by mtchandl
+# Arguments:  -R5.05/29.25/-35.3/-8.8 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010011-H04-03: Invalid Survey Departure Day: (09) [12]
+Y-W-15010011-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15010011-depth-01: RLS m: 1 b: 0 rms: 77.3879 r: 0.998639 significant: 1 decimation: 1
+Y-E-15010011-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.974352 b: -7.6305 rms: 43.0863 r: 0.985122 sig: 1 dec: 1). [Recompute]
+Y-W-15010011-mtf1-12: Integer multiple of 5 precision
+Y-W-15010011-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010011	1968-10-15T17:00:00.00	996	0-0-K	 GRAD: twt excessive
+?	15010011	1968-10-19T10:25:00.00	2019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010011	1968-10-19T11:20:00.00	2047	0-0-KL	 GRAD: twt, depth excessive
+?	15010011	1968-10-20T13:11:00.00	2598	0-0-K	 GRAD: twt excessive
+?	15010011	1968-10-22T11:03:00.00	2940	0-0-K	 GRAD: twt excessive
+Y	15010011	1968-10-31T10:40:00.00	5158	C-0-0	 NAV: excessive speed

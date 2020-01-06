@@ -1,0 +1,57 @@
+# Cruise 15040015 ID ERDC07WT MGD77 FILE VERSION: 19800226 N_RECS: 7630
+# Examined: Wed May 21 11:28:12 2008 by mtchandl
+# Arguments:  -R123.6/144.6/8.9/13.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-W-15040015-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040015-depth-01: RLS m: 1 b: 0 rms: 392.74 r: 0.980354 sig: 1 dec: 1
+Y-E-15040015-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.993087 b: -13.7706 rms: 16.1826 r: 0.998528 sig: 1 dec: 1). [Recompute]
+N-E-15040015-depth-08: Extended offset from grid [298-409]
+N-E-15040015-depth-08: Extended offset from grid [429-469]
+N-E-15040015-depth-08: Extended offset from grid [481-512]
+N-E-15040015-depth-08: Extended offset from grid [529-614]
+N-E-15040015-depth-08: Extended offset from grid [625-717]
+N-E-15040015-depth-08: Extended offset from grid [734-806]
+N-E-15040015-depth-08: Extended offset from grid [827-3957]
+N-E-15040015-depth-08: Extended offset from grid [3982-5622]
+N-E-15040015-depth-08: Extended offset from grid [7221-7346]
+Y-E-15040015-twt-13: Encountered possible PDR wrap errors (9.7) [10.0]
+Y-W-15040015-twt-11: More recent bathymetry correction table available
+Y-W-15040015-mtf1-12: Integer precision
+Y-W-15040015-mag-12: Integer precision
+# Errata: Data
+?	15040015	1975-02-22T02:20:00.00	217	D-0-0	 NAV: on land
+?	15040015	1975-02-22T11:00:00.00	321	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-22T15:20:00.00	373	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-22T18:00:00.00	405	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-22T20:50:00.00	439	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-22T23:15:00.00	468	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T00:20:00.00	481	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T02:25:00.00	506	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T04:50:00.00	535	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T07:15:00.00	564	0-0-K	 GRAD: twt excessive
+?	15040015	1975-02-23T07:20:00.00	565	0-0-K	 GRAD: twt excessive
+?	15040015	1975-02-23T07:30:00.00	567	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T09:20:00.00	589	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T10:20:00.00	601	0-0-K	 GRAD: twt excessive
+?	15040015	1975-02-23T11:10:00.00	611	0-0-K	 GRAD: twt excessive
+?	15040015	1975-02-23T11:20:00.00	613	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T14:05:00.00	646	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T19:55:00.00	716	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-23T21:25:00.00	734	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-24T03:20:00.00	805	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-02-24T05:10:00.00	827	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-07T01:55:00.00	3956	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-07T04:45:00.00	3990	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-12T20:25:00.00	5618	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-14T21:20:00.00	6205	0-0-O	 GRAD: mtf1 excessive
+?	15040015	1975-03-14T21:25:00.00	6206	0-0-O	 GRAD: mtf1 excessive
+?	15040015	1975-03-16T23:15:00.00	6788	0-0-K	 GRAD: twt excessive
+?	15040015	1975-03-17T18:00:00.00	7013	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-17T18:55:00.00	7024	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-18T11:50:00.00	7227	0-0-KL	 GRAD: twt, depth excessive
+?	15040015	1975-03-18T21:20:00.00	7341	0-0-KL	 GRAD: twt, depth excessive

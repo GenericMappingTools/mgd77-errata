@@ -1,0 +1,32 @@
+# Cruise 01210016 ID EW9105 MGD77 FILE VERSION: 19960829 N_RECS: 63540
+# Examined: Fri Mar 19 01:49:22 2010 by mtchandl
+# Arguments:  -R247.55/280.35/-27.5/-6.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01210016-H04-06: Invalid Survey Arrival Day: (11) [17]
+Y-E-01210016-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01210016-H13-10: Survey year (1991) outside magnetic reference field IGRF-90 time range (1995-2000)
+Y-E-01210016-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-I-01210016-depth-01: RLS m: 0.995777 b: 0 rms: 61.8009 r: 0.991309 sig: 1 dec: 0
+N-E-01210016-depth-02: Regression slope 0.995777 different from 1. Recommended: [1]
+Y-I-01210016-faa-01: RLS m: 1.01018 b: 13.7049 rms: 16.3596 r: 0.985906 sig: 1 dec: 1
+Y-W-01210016-faa-03: Regression offset 13.7049 different from 0.
+Y-E-01210016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981541 b: 39.2963 rms: 42.2329 r: 0.994957 sig: 1 dec: 0). [Recompute]
+N-E-01210016-faa-08: Extended offset from grid [6-11729]
+N-E-01210016-faa-08: Extended offset from grid [20039-63540]
+Y-W-01210016-depth-12: Integer precision
+Y-W-01210016-mtf1-12: Integer precision
+Y-W-01210016-mag-12: Integer precision
+# Errata: Data
+?	01210016	1991-08-12T18:58:00.00	12619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210016	1991-08-14T15:19:00.00	15286	0-0-K	 GRAD: twt excessive
+?	01210016	1991-08-17T23:08:00.00	20083	0-0-K	 GRAD: twt excessive
+?	01210016	1991-08-20T00:34:00.00	23053	0-0-K	 GRAD: twt excessive
+?	01210016	1991-08-21T07:16:00.00	24897	0-0-K	 GRAD: twt excessive
+?	01210016	1991-08-22T02:57:00.00	26081	0-0-K	 GRAD: twt excessive
+?	01210016	1991-09-02T10:14:00.00	42393	0-0-K	 GRAD: twt excessive
+?	01210016	1991-09-13T22:52:00.00	59015	0-0-OQ	 GRAD: mtf1, mag excessive

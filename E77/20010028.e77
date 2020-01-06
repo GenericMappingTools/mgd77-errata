@@ -1,0 +1,59 @@
+# Cruise 20010028 ID TN040 MGD77 FILE VERSION: 19951012 N_RECS: 8986
+# Examined: Tue Oct 19 14:47:39 2010 by mtchandl
+# Arguments:  -R58.6/62/15.05/23.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry should be re-processed by the source institution.
+# Errata: Header
+Y-W-20010028-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-20010028-depth-01: RLS m: 1.00035 b: 0 rms: 5.6907 r: 0.999935 sig: 1 dec: 0
+N-E-20010028-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+N-E-20010028-twt-13: Encountered possible PDR wrap errors (4.1) [5.0]
+# Errata: Data
+?	20010028	1994-10-11T05:27:00.00	35	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T05:34:00.00	42	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T05:36:00.00	44	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T05:57:00.00	65	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T06:14:00.00	82	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T06:46:00.00	114	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T06:48:00.00	116	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T07:02:00.00	130	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T07:23:00.00	151	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T07:26:00.00	154	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T08:00:00.00	188	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T08:29:00.00	217	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T08:58:00.00	246	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-11T09:02:00.00	250	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T09:27:00.00	275	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-11T09:28:00.00	276	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-11T10:06:00.00	314	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T10:13:00.00	321	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T11:32:00.00	400	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T11:36:00.00	404	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T12:32:00.00	460	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T14:58:00.00	606	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-11T14:59:00.00	607	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-12T00:59:00.00	1178	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-12T01:01:00.00	1180	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-12T01:02:00.00	1181	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-12T01:03:00.00	1182	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-12T01:12:00.00	1191	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-12T01:24:00.00	1203	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-12T01:26:00.00	1205	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-12T05:51:00.00	1213	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-14T12:16:00.00	3196	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-14T22:08:00.00	3787	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-15T13:43:00.00	3936	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-17T23:45:00.00	4679	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-17T23:46:00.00	4680	0-0-KL	 GRAD: twt, depth excessive
+Y	20010028	1994-10-24T10:19:00.00	8040	C-0-0	 NAV: excessive speed
+?	20010028	1994-10-24T19:30:00.00	8558	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-24T19:36:00.00	8564	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-24T19:39:00.00	8567	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-24T19:48:00.00	8576	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-24T19:53:00.00	8581	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-24T19:57:00.00	8585	0-0-KL	 GRAD: twt, depth excessive
+?	20010028	1994-10-25T00:46:00.00	8843	0-0-K	 GRAD: twt excessive
+?	20010028	1994-10-25T02:23:00.00	8940	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,17 @@
+# Cruise 09260005 ID LY70E MGD77 FILE VERSION: 19810609 N_RECS: 4122
+# Examined: Mon Aug  9 12:25:50 2010 by mtchandl
+# Arguments:  -R283.7/300.05/21.65/28.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09260005-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-09260005-depth-01: RLS m: 1 b: 0 rms: 12.1694 r: 0.999163 sig: 1 dec: 0
+Y-E-09260005-mag-07: Anomaly differs from mtf1-IGRF (m: 0.931679 b: -224.16 rms: 239.307 r: 0.968493 sig: 1 dec: 1). [Recompute]
+Y-W-09260005-mtf1-12: Integer precision
+# Errata: Data
+?	09260005	1970-10-04T08:20:00.00	246	0-0-K	 GRAD: twt excessive
+Y	09260005	1970-10-13T07:50:00.00	2669	C-0-0	 NAV: excessive speed
+Y	09260005	1970-10-13T07:55:00.00	2670	C-0-0	 NAV: excessive speed

@@ -1,0 +1,58 @@
+# Cruise 06780041 ID F1188HW MGD77 FILE VERSION: 19920228 N_RECS: 17894
+# Examined: Fri Jul 16 16:02:34 2010 by mtchandl
+# Arguments:  -R200.85/203.5/21.2/24.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-06780041-depth-01: RLS m: 1.0035 b: 0 rms: 95.3345 r: 0.984335 sig: 1 dec: 0
+Y-I-06780041-faa-01: RLS m: 0.984629 b: 0.560878 rms: 8.19096 r: 0.994406 sig: 1 dec: 1
+N-E-06780041-faa-02: Regression slope 0.984629 different from 1. Recommended: [1]
+N-E-06780041-faa-06: Anomaly differs from gobs-IGF80 (m: 0.950183 b: 1.32121 rms: 5.01509 r: 0.97556 sig: 1 dec: 0). [Recompute]
+Y-I-06780041-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-06780041-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-06780041-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06780041	1988-10-26T15:20:00.00	1144	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-10-26T17:02:00.00	1246	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-10-27T09:50:00.00	2254	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-10-29T22:49:00.00	5850	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-10-29T22:50:00.00	5851	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-10-30T15:00:00.00	6810	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-01T12:00:00.00	9510	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-01T13:32:00.00	9602	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-01T13:33:00.00	9603	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-01T14:37:00.00	9667	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-02T12:42:00.00	10951	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-03T22:27:00.00	12966	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-03T22:28:00.00	12967	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-03T22:29:00.00	12968	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-04T15:25:00.00	13950	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:26:00.00	13951	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:27:00.00	13952	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:28:00.00	13953	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:29:00.00	13954	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:30:00.00	13955	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-04T15:57:00.00	13982	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-04T15:59:00.00	13984	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-04T17:38:00.00	14083	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-04T17:39:00.00	14084	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-04T17:46:00.00	14091	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-05T04:45:00.00	14750	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-05T04:46:00.00	14751	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-05T06:15:00.00	14840	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-05T06:16:00.00	14841	0-0-UW	 GRAD: gobs, faa excessive
+?	06780041	1988-11-05T16:58:00.00	15483	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-05T16:59:00.00	15484	0-0-U	 GRAD: gobs excessive
+?	06780041	1988-11-06T00:28:00.00	15933	0-0-KL	 GRAD: twt, depth excessive
+?	06780041	1988-11-06T00:29:00.00	15934	0-0-KL	 GRAD: twt, depth excessive
+?	06780041	1988-11-06T00:30:00.00	15935	0-0-KL	 GRAD: twt, depth excessive
+?	06780041	1988-11-06T00:31:00.00	15936	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T00:32:00.00	15937	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T00:33:00.00	15938	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T00:34:00.00	15939	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T00:35:00.00	15940	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T00:36:00.00	15941	0-0-K	 GRAD: twt excessive
+?	06780041	1988-11-06T21:44:00.00	17167	0-0-U	 GRAD: gobs excessive

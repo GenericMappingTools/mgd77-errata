@@ -1,0 +1,37 @@
+# Cruise 07150004 ID GOLFO843 MGD77 FILE VERSION: 19881130 N_RECS: 6320
+# Examined: Mon Jul 26 15:36:16 2010 by mtchandl
+# Arguments:  -R245.3/247.55/28.95/31.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-W-07150004-H13-10: Survey year (1984) outside magnetic reference field IGRF-80 time range (1995-2000)
+Y-W-07150004-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-07150004-depth-01: RLS m: 0.999302 b: 0 rms: 3.88332 r: 0.99936 sig: 1 dec: 0
+Y-I-07150004-faa-01: RLS m: 0.99102 b: 0.51918 rms: 3.23697 r: 0.890285 sig: 1 dec: 0
+Y-W-07150004-faa-03: Regression offset 0.51918 different from 0.
+N-E-07150004-faa-06: Anomaly differs from gobs-IGF80 (m: 0.995128 b: 1.30616 rms: 1.47418 r: 0.998991 sig: 1 dec: 0). [Recompute]
+N-E-07150004-faa-15: Insignificant regression: reported versus gobs-IGF80+eot (m: 0.0158466 b: -24.7151 rms: 53.0873 r: 0.0857091 sig: 0 dec: 1). [Recompute]
+N-E-07150004-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.179689 b: -25.0876 rms: 34.4689 r: 0.437865 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-07150004-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972558 b: 9.9855 rms: 20.0886 r: 0.983265 sig: 1 dec: 1). [Recompute]
+Y-W-07150004-twt-11: More recent bathymetry correction table available
+Y-W-07150004-mtf1-12: Integer precision
+# Errata: Data
+?	07150004	1984-05-01T16:04:00.00	666	0-0-V	 GRAD: eot excessive
+?	07150004	1984-05-01T18:32:00.00	814	0-0-O	 GRAD: mtf1 excessive
+?	07150004	1984-05-01T19:22:00.00	864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150004	1984-05-02T23:24:00.00	1839	0-0-V	 GRAD: eot excessive
+Y	07150004	1984-05-03T02:20:00.00	2019	B-0-0	 NAV: non-increasing time
+Y	07150004	1984-05-03T02:21:00.00	2020	B-0-0	 NAV: non-increasing time
+Y	07150004	1984-05-03T02:22:00.00	2021	B-0-0	 NAV: non-increasing time
+Y	07150004	1984-05-03T02:23:00.00	2022	B-0-0	 NAV: non-increasing time
+Y	07150004	1984-05-03T04:27:00.00	2134	C-0-0	 NAV: excessive speed
+Y	07150004	1984-05-03T04:28:00.00	2135	C-0-0	 NAV: excessive speed
+?	07150004	1984-05-03T11:25:00.00	2550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150004	1984-05-10T17:11:00.00	5462	0-0-V	 GRAD: eot excessive
+?	07150004	1984-05-10T17:12:00.00	5463	0-0-V	 GRAD: eot excessive
+?	07150004	1984-05-10T20:34:00.00	5664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07150004	1984-05-11T00:54:00.00	5920	0-0-V	 GRAD: eot excessive
+?	07150004	1984-05-11T04:27:00.00	6130	0-0-V	 GRAD: eot excessive

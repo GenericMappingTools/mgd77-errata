@@ -1,0 +1,14 @@
+# Cruise 88010050 ID NBP00-1 MGD77 FILE VERSION: 20001004 N_RECS: 64380
+# Examined: Thu Aug  4 19:48:08 2011 by mtchandl
+# Arguments:  -R163.55/298.35/-78.5/-58.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-88010050-H04-03: Invalid Survey Departure Day: (15) [14]
+N-E-88010050-H04-05: Invalid Survey Arrival Month: (04) [03]
+N-E-88010050-H04-06: Invalid Survey Arrival Day: (01) [30]
+Y-E-88010050-H10-02: Invalid Format Description: (I 1 A8 F5.2 4I2 F5.3 F8.5 F9.5 I1 F6.4 F6.1 I1 3F6.1 I1 F5.1 F6.0 F7.1     F6.1 F5.1 A8 4I) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-88010050-nav-00: Flagged 11.22 % of records with bad navigation

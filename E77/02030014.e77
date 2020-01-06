@@ -1,0 +1,13 @@
+# Cruise 02030014 ID KN031L05 MGD77 FILE VERSION: 19820805 N_RECS: 364
+# Examined: Fri Apr  2 15:37:43 2010 by mtchandl
+# Arguments:  -R279.65/284.65/28.55/31.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02030014-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02030014-depth-01: RLS m: 0.999557 b: 0 rms: 7.9024 r: 0.999993 sig: 1 dec: 0
+N-E-02030014-depth-02: Regression slope 0.999557 different from 1. Recommended: [1]
+# Errata: Data

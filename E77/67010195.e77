@@ -1,0 +1,41 @@
+# Cruise 67010195 ID 88006211 MGD77 FILE VERSION: 19920630 N_RECS: 25679
+# Examined: Sun Jul 31 21:41:19 2011 by mtchandl
+# Arguments:  -R166.45/178.45/-22.45/-16.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010195-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-67010195-depth-01: RLS m: 1.0004 b: 0 rms: 39.5399 r: 0.998465 sig: 1 dec: 0
+Y-W-67010195-depth-12: Integer precision
+# Errata: Data
+?	67010195	1988-11-13T01:44:00.00	102	D-0-0	 NAV: on land
+Y	67010195	1988-11-13T01:45:00.00	103	D-0-0	 NAV: on land
+Y	67010195	1988-11-13T01:46:00.00	104	D-0-0	 NAV: on land
+?	67010195	1988-11-13T01:47:00.00	105	D-0-0	 NAV: on land
+?	67010195	1988-11-13T07:32:00.00	450	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-14T15:14:00.00	2315	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-14T17:03:00.00	2424	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-15T18:23:00.00	3944	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-15T18:47:00.00	3968	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-15T19:03:00.00	3984	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-16T00:01:00.00	4282	0-0-KL	 GRAD: twt, depth excessive
+?	67010195	1988-11-16T00:06:00.00	4287	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-16T00:07:00.00	4288	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-16T00:18:00.00	4299	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-17T15:38:00.00	6329	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-20T08:14:00.00	10205	0-0-K	 GRAD: twt excessive
+Y	67010195	1988-11-20T17:20:00.00	10751	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-20T17:21:00.00	10752	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-20T19:24:00.00	10875	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-21T16:11:00.00	12122	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-21T16:12:00.00	12123	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-21T16:26:00.00	12137	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-21T16:27:00.00	12138	C-0-0	 NAV: excessive speed
+Y	67010195	1988-11-21T16:28:00.00	12139	C-0-0	 NAV: excessive speed
+?	67010195	1988-11-25T02:58:00.00	17089	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-25T16:09:00.00	17880	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-26T11:42:00.00	19053	0-0-K	 GRAD: twt excessive
+?	67010195	1988-11-28T09:43:00.00	21814	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,19 @@
+# Cruise 35010004 ID 14174 MGD77 FILE VERSION: 19880323 N_RECS: 7694
+# Examined: Tue Jul 26 18:42:35 2011 by mtchandl
+# Arguments:  -R-110/-78.05/-16/0 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-35010004-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-35010004-depth-01: RLS m: 1.00083 b: 0 rms: 34.1349 r: 0.99565 sig: 1 dec: 0
+Y-E-35010004-depth-08: Extended offset from grid [3597-3785]
+Y-W-35010004-depth-12: Integer precision
+# Errata: Data
+?	35010004	1007.16	731	0-0-L	 GRAD: depth excessive
+?	35010004	4083.45	2222	0-0-L	 GRAD: depth excessive
+?	35010004	7344.18	3581	0-0-L	 GRAD: depth excessive
+?	35010004	7470.56	3783	0-0-L	 GRAD: depth excessive
+Y	35010004	24586	7694	D-0-0	 NAV: on land

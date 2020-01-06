@@ -1,0 +1,28 @@
+# Cruise 09780014 ID WI913026 MGD77 FILE VERSION: 19791128 N_RECS: 1343
+# Examined: Mon Aug 16 16:13:14 2010 by mtchandl
+# Arguments:  -R283/284.35/28.35/29.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09780014-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780014-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09780014-depth-01: RLS m: 0.999651 b: 0 rms: 7.21841 r: 0.999993 sig: 1 dec: 0
+N-E-09780014-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-E-09780014-mag-07: Anomaly differs from mtf1-IGRF (m: 0.877048 b: -326.592 rms: 330.768 r: 0.948813 sig: 1 dec: 0). [Recompute]
+Y-W-09780014-mag-09: only found negative values
+Y-W-09780014-depth-12: Integer precision
+Y-W-09780014-mag-12: Integer precision
+# Errata: Data
+?	09780014	1973-04-15T15:40:00.00	564	0-0-KL	 GRAD: twt, depth excessive
+?	09780014	1973-04-15T19:42:00.00	806	0-0-K	 GRAD: twt excessive
+?	09780014	1973-04-15T19:47:00.00	811	0-0-KL	 GRAD: twt, depth excessive
+?	09780014	1973-04-15T19:49:00.00	813	0-0-K	 GRAD: twt excessive
+?	09780014	1973-04-15T19:51:00.00	815	0-0-KL	 GRAD: twt, depth excessive
+?	09780014	1973-04-15T23:32:00.00	1036	0-0-K	 GRAD: twt excessive
+?	09780014	1973-04-15T23:34:00.00	1038	0-0-KL	 GRAD: twt, depth excessive
+?	09780014	1973-04-15T23:41:00.00	1045	0-0-KL	 GRAD: twt, depth excessive
+?	09780014	1973-04-16T02:16:00.00	1199	0-0-K	 GRAD: twt excessive
+?	09780014	1973-04-16T03:03:00.00	1246	0-0-KL	 GRAD: twt, depth excessive

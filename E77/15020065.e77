@@ -1,0 +1,17 @@
+# Cruise 15020065 ID INMD17MV MGD77 FILE VERSION: 19880608 N_RECS: 5326
+# Examined: Fri May 16 11:49:31 2008 by mtchandl
+# Arguments:  -R243.2/253.65/20.75/31.6 -Idepth,249,277 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend fixing depth for records 249-277.
+# Errata: Header
+Y-W-15020065-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15020065-depth-01: RLS m: 0.996125 b: 0 rms: 108.493 r: 0.871598 sig: 1 dec: 1
+Y-E-15020065-depth-10: Invalid data records: [249-278]
+Y-W-15020065-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	15020065	1979-04-11T02:50:00.00	1	D-0-0	 NAV: on land
+Y	15020065	1979-04-11T02:55:00.00	2	D-0-0	 NAV: on land
+Y	15020065	1979-04-11T03:00:00.00	3	D-0-0	 NAV: on land

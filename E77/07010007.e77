@@ -1,0 +1,16 @@
+# Cruise 07010007 ID YAQ66JUL MGD77 FILE VERSION: 19840131 N_RECS: 475
+# Examined: Fri Jul 16 17:29:46 2010 by mtchandl
+# Arguments:  -R219.95/229.05/49.9/55.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-07010007-depth-01: RLS m: 1.00077 b: 0 rms: 24.0402 r: 0.99986 sig: 1 dec: 0
+Y-I-07010007-faa-01: RLS m: 0.975235 b: -1.07415 rms: 11.0635 r: 0.961341 sig: 1 dec: 1
+Y-W-07010007-twt-11: More recent bathymetry correction table available
+Y-W-07010007-faa-12: Integer precision
+# Errata: Data
+?	07010007	1966-07-21T07:03:00.00	263	0-0-K	 GRAD: twt excessive
+?	07010007	1966-07-21T07:05:00.00	264	0-0-KL	 GRAD: twt, depth excessive

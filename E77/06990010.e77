@@ -1,0 +1,12 @@
+# Cruise 06990010 ID P170WG MGD77 FILE VERSION: 19870917 N_RECS: 512
+# Examined: Fri Jul 16 17:22:17 2010 by mtchandl
+# Arguments:  -R208.1/210.05/58.5/59.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-06990010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988564 b: -4.33125 rms: 3.84495 r: 0.995185 sig: 1 dec: 0). [Recompute]
+Y-W-06990010-mag-09: only found negative values
+# Errata: Data

@@ -1,0 +1,32 @@
+# Cruise 15020022 ID CATO07MV MGD77 FILE VERSION: 19830819 N_RECS: 11377
+# Examined: Thu May 15 08:16:56 2008 by mtchandl
+# Arguments:  -R280.1/325.35/-23.1/12.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020022-H13-10: Survey year (1972-1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020022-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15020022-depth-01: RLS m: 0.996125 b: 0 rms: 145.445 r: 0.986958 sig: 1 dec: 1
+Y-E-15020022-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.826207 b: -230.783 rms: 291.214 r: 0.608062 sig: 1 dec: 1). [Recompute]
+Y-W-15020022-mtf1-12: Integer multiple of 5 precision
+Y-W-15020022-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020022	1972-12-21T01:35:00.00	95	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020022	1972-12-21T01:45:00.00	97	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15020022	1972-12-27T01:05:00.00	2974	C-0-0	 NAV: excessive speed
+?	15020022	1972-12-30T05:26:00.00	4556	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020022	1972-12-30T07:41:00.00	4610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020022	1973-01-02T12:14:00.00	6313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020022	1973-01-02T19:01:00.00	6427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020022	1973-01-07T20:10:00.00	8784	D-0-0	 NAV: on land
+?	15020022	1973-01-07T20:15:00.00	8785	D-0-0	 NAV: on land
+?	15020022	1973-01-08T12:15:00.00	9142	D-0-0	 NAV: on land
+?	15020022	1973-01-08T12:50:00.00	9149	D-0-0	 NAV: on land
+?	15020022	1973-01-08T12:55:00.00	9150	D-0-0	 NAV: on land
+?	15020022	1973-01-08T13:00:00.00	9151	D-0-0	 NAV: on land
+?	15020022	1973-01-08T13:04:00.00	9152	D-0-0	 NAV: on land
+?	15020022	1973-01-08T13:10:00.00	9153	D-0-0	 NAV: on land
+?	15020022	1973-01-08T13:11:00.00	9154	D-0-0	 NAV: on land

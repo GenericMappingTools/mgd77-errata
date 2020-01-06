@@ -1,0 +1,13 @@
+# Cruise 03030048 ID B00172 MGD77 FILE VERSION: 19931231 N_RECS: 5592
+# Examined: Fri Apr 16 13:34:02 2010 by mtchandl
+# Arguments:  -R236.65/237/37.45/37.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-03030048-depth-01: RLS m: 0.996799 b: 0 rms: 100.532 r: 0.973657 sig: 1 dec: 0
+Y-W-03030048-depth-12: Integer precision
+# Errata: Data
+?	03030048	1989-05-14T17:36:01.02	842	0-0-L	 GRAD: depth excessive

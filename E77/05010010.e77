@@ -1,0 +1,20 @@
+# Cruise 05010010 ID HT8103 MGD77 FILE VERSION: 19840921 N_RECS: 1492
+# Examined: Fri Apr 30 13:20:31 2010 by mtchandl
+# Arguments:  -R173.8/179.15/-43/-39.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010010-H13-10: Survey year (1981) outside magnetic reference field IGRF-80 time range (1995-2000)
+Y-W-05010010-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-05010010-depth-01: RLS m: 1.00146 b: 0 rms: 33.5629 r: 0.999456 sig: 1 dec: 0
+Y-E-05010010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999965 b: -23.3883 rms: 25.3139 r: 0.99482 sig: 1 dec: 0). [Recompute]
+Y-W-05010010-depth-12: Integer precision
+Y-W-05010010-mtf1-12: Integer precision
+Y-W-05010010-mag-12: Integer precision
+# Errata: Data
+Y	05010010	1981-04-11T00:28:00.00	72	B-0-0	 NAV: non-increasing time
+Y	05010010	1981-04-12T02:20:00.00	184	B-0-0	 NAV: non-increasing time
+?	05010010	1981-04-16T10:00:00.00	626	0-0-L	 GRAD: depth excessive

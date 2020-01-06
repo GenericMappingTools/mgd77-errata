@@ -1,0 +1,18 @@
+# Cruise 01030091 ID V2307 MGD77 FILE VERSION: 19790919 N_RECS: 1282
+# Examined: Thu Jul  9 17:08:48 2009 by mtchandl
+# Arguments:  -R285.95/299.9/32.35/40.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030091-depth-01: RLS m: 1.0035 b: 0 rms: 45.9036 r: 0.999481 sig: 1 dec: 1
+Y-I-01030091-faa-01: RLS m: 1.03112 b: -10.2951 rms: 12.6467 r: 0.989011 sig: 1 dec: 1
+Y-W-01030091-faa-03: Regression offset -10.2951 different from 0.
+Y-E-01030091-mag-07: Anomaly differs from mtf1-IGRF (m: 0.975701 b: -49.2412 rms: 60.9675 r: 0.967553 sig: 1 dec: 1). [Recompute]
+N-E-01030091-depth-08: Extended offset from grid [10-1282]
+Y-W-01030091-twt-11: More recent bathymetry correction table available
+Y-W-01030091-mtf1-12: Integer precision
+Y-W-01030091-mag-12: Integer precision
+# Errata: Data

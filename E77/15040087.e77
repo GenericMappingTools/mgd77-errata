@@ -1,0 +1,19 @@
+# Cruise 15040087 ID GUAY01WT MGD77 FILE VERSION: 19830819 N_RECS: 4299
+# Examined: Fri May 23 09:55:34 2008 by mtchandl
+# Arguments:  -R242.7/254.25/21.75/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040087-depth-01: RLS m: 1 b: 0 rms: 147.375 r: 0.988643 sig: 1 dec: 1
+Y-E-15040087-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00495 b: 4.86729 rms: 36.6088 r: 0.98797 sig: 1 dec: 1). [Recompute]
+Y-W-15040087-twt-11: More recent bathymetry correction table available
+Y-W-15040087-mtf1-12: Integer precision
+Y-W-15040087-mag-12: Integer precision
+# Errata: Data
+?	15040087	1978-02-14T17:05:00.00	1445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040087	1978-02-16T03:50:00.00	1862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040087	1978-02-24T12:05:00.00	4265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040087	1978-02-24T12:15:00.00	4267	0-0-OQ	 GRAD: mtf1, mag excessive

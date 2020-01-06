@@ -1,0 +1,115 @@
+# Cruise 02020020 ID A2049 MGD77 FILE VERSION: 19800206 N_RECS: 5359
+# Examined: Fri Mar 26 21:21:07 2010 by mtchandl
+# Arguments:  -R-65.95/41.45/36.4/44.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020020-time-01: 48 of 5359 records contain invalid time
+Y-E-02020020-H04-02: Invalid Survey Departure Month: (03) [01]
+Y-E-02020020-H04-03: Invalid Survey Departure Day: (20) [08]
+Y-W-02020020-nav-00: Flagged 0.62 % of records with bad navigation
+Y-I-02020020-depth-01: RLS m: 0.999337 b: 0 rms: 6.87986 r: 0.999884 sig: 1 dec: 0
+N-E-02020020-depth-02: Regression slope 0.999337 different from 1. Recommended: [1]
+Y-I-02020020-faa-01: RLS m: 1.01146 b: 5.47824 rms: 8.01935 r: 0.983112 sig: 1 dec: 0
+N-E-02020020-faa-02: Regression slope 1.01146 different from 1. Recommended: [1]
+Y-W-02020020-faa-03: Regression offset 5.47824 different from 0.
+Y-E-02020020-mag-07: Anomaly differs from mtf1-IGRF (m: 0.886808 b: -35.2073 rms: 101.144 r: 0.917698 sig: 1 dec: 1). [Recompute]
+Y-W-02020020-mtf1-12: Integer precision
+Y-W-02020020-mag-12: Integer precision
+# Errata: Data
+?	02020020	1969-01-13T19:45:00.00	841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-13T20:05:00.00	845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-13T20:10:00.00	846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-13T20:20:00.00	848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-13T20:25:00.00	850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-13T22:15:00.00	872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-16T09:58:00.00	1345	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020020	1969-01-16T10:05:00.00	1347	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020020	NaN	1618	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	1619	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-22T00:00:00.00	1620	B-0-0	 NAV: non-increasing time
+Y	02020020	1969-03-22T20:40:00.00	1727	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-22T21:40:00.00	1732	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-22T22:00:00.00	1734	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-22T22:20:00.00	1735	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-22T22:40:00.00	1736	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-23T00:00:00.00	1744	C-0-0	 NAV: excessive speed
+Y	02020020	NaN	1745	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	1746	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-23T00:00:00.00	1747	B-0-0	 NAV: non-increasing time
+Y	02020020	1969-03-23T03:00:00.00	1763	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-23T04:10:00.00	1766	C-0-0	 NAV: excessive speed
+Y	02020020	1969-03-23T04:40:00.00	1769	C-0-0	 NAV: excessive speed
+Y	02020020	NaN	1809	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	1810	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-24T00:00:00.00	1811	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	2018	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2019	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-26T00:00:00.00	2020	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	2148	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2149	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-27T00:00:00.00	2150	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	2266	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2267	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-28T00:00:00.00	2268	B-0-0	 NAV: non-increasing time
+?	02020020	1969-03-29T12:40:00.00	2441	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020020	NaN	2490	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2491	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2612	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2613	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-03-31T00:00:00.00	2614	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	2923	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	2924	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3049	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3050	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-05T00:00:00.00	3051	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	3156	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3157	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3229	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3230	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-07T00:00:00.00	3231	B-0-0	 NAV: non-increasing time
+?	02020020	1969-04-07T05:20:00.00	3263	0-Q-0	 VAL: mag invalid
+?	02020020	1969-04-07T05:40:00.00	3264	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020020	NaN	3594	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3595	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-15T00:00:00.00	3596	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	3738	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3739	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-16T00:00:00.00	3740	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	3867	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	3868	E-0-0	 NAV: navigation undefined
+?	02020020	1969-04-18T05:40:00.00	4038	0-0-O	 GRAD: mtf1 excessive
+Y	02020020	NaN	4217	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4218	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-20T00:00:00.00	4219	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	4348	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4349	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-21T00:00:00.00	4350	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	4488	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4489	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4615	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4616	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-23T00:00:00.00	4617	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	4725	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4726	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-24T00:00:00.00	4727	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	4806	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4807	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-25T00:00:00.00	4808	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	4888	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	4889	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-26T07:00:00.00	4930	C-0-0	 NAV: excessive speed
+Y	02020020	NaN	5017	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	5018	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-04-27T00:00:00.00	5019	B-0-0	 NAV: non-increasing time
+Y	02020020	NaN	5054	E-0-0	 NAV: navigation undefined
+Y	02020020	NaN	5055	E-0-0	 NAV: navigation undefined
+Y	02020020	1969-05-04T21:10:00.00	5309	C-0-0	 NAV: excessive speed
+Y	02020020	1969-05-04T21:20:00.00	5310	C-0-0	 NAV: excessive speed
+Y	02020020	1969-05-04T21:30:00.00	5311	C-0-0	 NAV: excessive speed
+Y	02020020	1969-05-04T21:40:00.00	5312	C-0-0	 NAV: excessive speed
+Y	02020020	1969-05-04T21:50:00.00	5313	C-0-0	 NAV: excessive speed
+Y	02020020	1969-05-04T22:00:00.00	5314	C-0-0	 NAV: excessive speed

@@ -1,0 +1,20 @@
+# Cruise 17010023 ID TR163 MGD77 FILE VERSION: 19871208 N_RECS: 5722
+# Examined: Mon Sep  6 12:31:28 2010 by mtchandl
+# Arguments:  -R266.15/278.85/-3.65/8.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-17010023-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [4]
+Y-W-17010023-H16-06: Ten Degree Identifier 5009 not marked in header but block was crossed
+Y-I-17010023-depth-01: RLS m: 1.00035 b: 0 rms: 19.882 r: 0.999698 sig: 1 dec: 0
+Y-W-17010023-twt-11: twt may be extracted from depth for Carter correction
+Y-W-17010023-depth-12: Integer precision
+# Errata: Data
+?	17010023	1975-02-12T17:47:00.00	5	0-0-L	 GRAD: depth excessive
+?	17010023	1975-02-12T17:48:00.00	6	0-0-L	 GRAD: depth excessive
+?	17010023	1975-02-12T18:00:00.00	17	0-0-L	 GRAD: depth excessive
+?	17010023	1975-02-12T18:02:00.00	18	0-0-L	 GRAD: depth excessive
+?	17010023	1975-02-23T11:32:00.00	3672	0-0-L	 GRAD: depth excessive

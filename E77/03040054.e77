@@ -1,0 +1,45 @@
+# Cruise 03040054 ID POL7008 MGD77 FILE VERSION: 19870305 N_RECS: 13327
+# Examined: Fri Apr 16 13:39:37 2010 by mtchandl
+# Arguments:  -R210.3/288.15/-62.3/37.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-03040054-H11-03: Invalid Bottommost Latitude: (-43) [-63]
+N-E-03040054-H16-01: Invalid Number of Ten Degree Identifiers: (26) [27]
+Y-W-03040054-H16-06: Ten Degree Identifier 5610 not marked in header but block was crossed
+Y-W-03040054-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-03040054-depth-01: RLS m: 1 b: 0 rms: 26.0781 r: 0.999342 sig: 1 dec: 0
+Y-I-03040054-faa-01: RLS m: 0.906362 b: -0.998601 rms: 14.8113 r: 0.969476 sig: 1 dec: 1
+N-E-03040054-faa-02: Regression slope 0.906362 different from 1. Recommended: [1]
+Y-E-03040054-mag-07: Anomaly differs from mtf1-IGRF (m: 0.885804 b: -103.068 rms: 149.305 r: 0.917087 sig: 1 dec: 1). [Recompute]
+Y-W-03040054-twt-11: More recent bathymetry correction table available
+Y-W-03040054-mtf1-12: Integer precision
+Y-W-03040054-mag-12: Integer precision
+# Errata: Data
+Y	03040054	1970-01-18T06:09:00.00	131	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T02:40:00.00	3908	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T02:45:00.00	3909	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T02:50:00.00	3910	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T02:55:00.00	3911	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T03:00:00.00	3912	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T03:05:00.00	3913	C-0-0	 NAV: excessive speed
+Y	03040054	1970-02-04T03:10:00.00	3914	C-0-0	 NAV: excessive speed
+?	03040054	1970-02-06T05:30:00.00	4543	0-0-W	 GRAD: faa excessive
+?	03040054	1970-02-06T05:35:00.00	4544	0-0-W	 GRAD: faa excessive
+?	03040054	1970-02-07T22:25:00.00	5031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-02-08T08:55:00.00	5162	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-02-12T20:35:00.00	6407	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040054	1970-01-05T14:29:00.00	8892	B-0-0	 NAV: non-increasing time
+?	03040054	1970-02-26T00:20:00.00	9293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-02-26T00:25:00.00	9294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-02-26T08:50:00.00	9399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-02-26T09:30:00.00	9407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-03-23T23:25:00.00	11496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-03-23T23:30:00.00	11497	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-03-23T23:35:00.00	11498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-03-23T23:40:00.00	11499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040054	1970-03-23T23:50:00.00	11501	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040054	1970-03-24T12:34:00.00	11663	C-0-0	 NAV: excessive speed

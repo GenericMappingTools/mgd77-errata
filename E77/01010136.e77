@@ -1,0 +1,70 @@
+# Cruise 01010136 ID RC1803 MGD77 FILE VERSION: 19800908 N_RECS: 12478
+# Examined: Mon Jul  6 15:51:01 2009 by mtchandl
+# Arguments:  -R259.55/288.3/-48.05/-33 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010136-time-01: 19 of 12478 records contain invalid time
+N-E-01010136-H13-06: Invalid Magnetics Reference Field Code: (75) [75]
+Y-W-01010136-nav-00: Flagged 0.28 % of records with excessive speed or invalid navigation
+Y-I-01010136-depth-01: RLS m: 1 b: 0 rms: 144.794 r: 0.99443 sig: 1 dec: 1
+Y-I-01010136-faa-01: RLS m: 0.991476 b: 4.28944 rms: 11.0165 r: 0.991429 sig: 1 dec: 1
+Y-W-01010136-faa-03: Regression offset 4.28944 different from 0.
+Y-E-01010136-mag-07: Anomaly differs from mtf1-IGRF (m: 0.886534 b: -114.56 rms: 162.784 r: 0.880894 sig: 1 dec: 1). [Recompute]
+N-E-01010136-depth-08: Extended offset from grid [4-12478]
+Y-W-01010136-twt-11: More recent bathymetry correction table available
+Y-W-01010136-mtf1-12: Integer precision
+Y-W-01010136-mag-12: Integer precision
+# Errata: Data
+?	01010136	1975-04-20T05:10:00.00	2199	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-04-21T08:10:00.00	2661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-04-22T11:05:00.00	3176	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-04-24T11:35:00.00	4052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-04-24T20:10:00.00	4158	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	NaN	4195	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4196	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4197	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4198	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4199	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4200	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4201	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4202	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4203	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4204	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4205	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4206	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4207	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4208	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4209	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4210	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4211	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4212	E-0-0	 NAV: navigation undefined
+?	01010136	NaN	4213	E-0-0	 NAV: navigation undefined
+?	01010136	1975-05-11T09:50:00.00	11594	0-0-O	 GRAD: mtf1 excessive
+Y	01010136	1975-05-11T10:48:00.00	11605	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T10:50:00.00	11606	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T10:54:00.00	11607	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:00:00.00	11608	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:06:00.00	11609	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:12:00.00	11610	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:18:00.00	11611	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:21:00.00	11612	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:24:00.00	11613	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:30:00.00	11614	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:36:00.00	11615	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:42:00.00	11616	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:48:00.00	11617	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T11:54:00.00	11618	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T12:00:00.00	11619	D-0-0	 NAV: on land
+Y	01010136	1975-05-11T12:18:00.00	11620	D-0-0	 NAV: on land
+?	01010136	1975-05-11T20:50:00.00	11647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-11T21:35:00.00	11661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-11T21:55:00.00	11669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-11T22:00:00.00	11670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-11T22:15:00.00	11675	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-12T01:15:00.00	11736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-12T01:38:00.00	11748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010136	1975-05-12T01:45:00.00	11752	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,18 @@
+# Cruise 09030028 ID SI933010 MGD77 FILE VERSION: 19801110 N_RECS: 5480
+# Examined: Thu Mar 18 23:48:13 2010 by mtchandl
+# Arguments:  -R139.6/237/21.2/38.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-09030028-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09030028-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09030028-depth-01: RLS m: 1 b: 0 rms: 20.2576 r: 0.999574 sig: 1 dec: 0
+Y-E-09030028-mag-07: Anomaly differs from mtf1-IGRF (m: 0.992155 b: -19.9101 rms: 48.8745 r: 0.956064 sig: 1 dec: 0). [Recompute]
+Y-W-09030028-depth-12: Integer precision
+Y-W-09030028-mtf1-12: Integer precision
+Y-W-09030028-mag-12: Integer precision
+# Errata: Data
+?	09030028	1972-11-29T19:45:00.00	3759	0-0-OQ	 GRAD: mtf1, mag excessive

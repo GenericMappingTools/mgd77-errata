@@ -1,0 +1,19 @@
+# Cruise 19180020 ID CD7092 MGD77 FILE VERSION: 19941231 N_RECS: 9338
+# Examined: Tue Sep 14 17:26:37 2010 by mtchandl
+# Arguments:  -R331.9/355.1/51.2/62.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19180020-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-19180020-depth-01: RLS m: 1.00044 b: 0 rms: 14.5632 r: 0.999861 sig: 1 dec: 0
+N-E-19180020-depth-02: Regression slope 1.00044 different from 1. Recommended: [1]
+Y-W-19180020-depth-12: Integer precision
+# Errata: Data
+Y	19180020	1992-07-14T10:58:00.00	2194	C-0-0	 NAV: excessive speed
+?	19180020	1992-07-17T14:04:00.00	4447	0-0-K	 GRAD: twt excessive
+?	19180020	1992-07-17T18:10:00.00	4570	0-0-KL	 GRAD: twt, depth excessive
+Y	19180020	1992-07-20T17:54:00.00	6722	C-0-0	 NAV: excessive speed
+Y	19180020	1992-07-21T19:34:00.00	7492	C-0-0	 NAV: excessive speed

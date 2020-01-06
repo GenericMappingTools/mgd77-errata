@@ -1,0 +1,42 @@
+# Cruise 05010003 ID HT7701 MGD77 FILE VERSION: 19840921 N_RECS: 6170
+# Examined: Fri Apr 30 13:11:39 2010 by mtchandl
+# Arguments:  -R174.75/179.95/-42.55/-35.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010003-H13-09: Unknown IGRF specified (PGRF-75)
+Y-W-05010003-nav-00: Flagged 0.39 % of records with bad navigation
+Y-I-05010003-depth-01: RLS m: 0.998849 b: 0 rms: 18.0438 r: 0.999643 sig: 1 dec: 0
+Y-E-05010003-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00812 b: -19.7168 rms: 22.7623 r: 0.997841 sig: 1 dec: 1). [Recompute]
+Y-W-05010003-depth-12: Integer precision
+Y-W-05010003-mtf1-12: Integer precision
+Y-W-05010003-mag-12: Integer precision
+# Errata: Data
+Y	05010003	1977-03-04T17:23:00.00	60	B-0-0	 NAV: non-increasing time
+?	05010003	1977-03-04T18:15:00.00	90	0-0-L	 GRAD: depth excessive
+Y	05010003	1977-03-05T01:06:00.00	328	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-06T05:02:00.00	1044	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-06T14:25:00.00	1365	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-06T23:02:00.00	1667	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-07T15:02:00.00	2098	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-08T06:22:00.00	2551	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-09T04:00:00.00	3206	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-09T13:56:00.00	3508	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-09T23:29:00.00	3845	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T08:29:00.00	4177	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T08:29:00.00	4178	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T09:19:00.00	4212	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T17:18:00.00	4374	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T17:18:00.00	4375	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T17:19:00.00	4377	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T17:19:00.00	4378	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-10T17:19:00.00	4379	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-11T14:18:00.00	4999	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-12T12:42:00.00	5155	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-12T13:01:00.00	5167	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-12T14:05:00.00	5205	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-13T10:45:00.00	5942	B-0-0	 NAV: non-increasing time
+Y	05010003	1977-03-13T11:00:00.00	5943	B-0-0	 NAV: non-increasing time

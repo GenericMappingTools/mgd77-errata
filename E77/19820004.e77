@@ -1,0 +1,16 @@
+# Cruise 19820004 ID 19970033 MGD77 FILE VERSION: 19991222 N_RECS: 1100
+# Examined: Tue Oct 19 14:38:46 2010 by mtchandl
+# Arguments:  -R34.3/42.5/14/27.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19820004-nav-00: Flagged 0.27 % of records with bad navigation
+Y-I-19820004-depth-01: RLS m: 1.00027 b: 0 rms: 16.3678 r: 0.998897 sig: 1 dec: 0
+Y-W-19820004-depth-12: Integer precision
+# Errata: Data
+Y	19820004	1996-12-04T17:35:00.00	421	C-0-0	 NAV: excessive speed
+Y	19820004	1996-12-04T17:40:00.00	422	C-0-0	 NAV: excessive speed
+Y	19820004	1996-12-04T17:45:00.00	423	C-0-0	 NAV: excessive speed

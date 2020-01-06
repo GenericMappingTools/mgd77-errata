@@ -1,0 +1,20 @@
+# Cruise J1010066 ID HT93T292 MGD77 FILE VERSION: 19980513 N_RECS: 1501
+# Examined: Sat Aug  6 18:20:31 2011 by mtchandl
+# Arguments:  -R139.9/143.75/20.95/24.8 -Ifaa,1130,1501 -Llimits.d -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all faa after ~3100 km along-track as bad (all zeros).
+# Errata: Header
+N-E-J1010066-H04-03: Invalid Survey Departure Day: (13) [16]
+N-E-J1010066-H04-06: Invalid Survey Arrival Day: (30) [27]
+Y-W-J1010066-H13-10: Survey year (1993) outside magnetic reference field IGRF1990 time range (1995-2000)
+Y-E-J1010066-H15-01: Invalid Gravity Departure Base Station Value: (  -9655) [  -9655]
+Y-E-J1010066-H15-03: Invalid Gravity Arrival Base Station Value: (  -9655) [  -9655]
+Y-I-J1010066-depth-01: RLS m: 1.0005 b: 0 rms: 19.9961 r: 0.999814 sig: 1 dec: 0
+Y-I-J1010066-faa-01: RLS m: -nan b: -nan rms: 110.666 r: -nan sig: 0 dec: 1
+Y-E-J1010066-faa-10: Invalid data records: [1130-1501]
+Y-W-J1010066-depth-12: Integer precision
+Y-W-J1010066-mag-12: Integer precision
+# Errata: Data

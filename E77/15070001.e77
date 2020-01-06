@@ -1,0 +1,17 @@
+# Cruise 15070001 ID HILO01SM MGD77 FILE VERSION: 19800226 N_RECS: 4345
+# Examined: Sat May 31 10:33:56 2008 by mtchandl
+# Arguments:  -R203.85/239.7/21.45/31.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15070001-H04-03: Invalid Survey Departure Day: (16) [18]
+Y-W-15070001-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-I-15070001-depth-01: RLS m: 0.996125 b: 0 rms: 116.742 r: 0.987816 sig: 1 dec: 1
+# Errata: Data
+Y	15070001	1962-03-26T04:45:00.00	2310	C-0-0	 NAV: excessive speed
+Y	15070001	1962-03-26T04:48:00.00	2311	C-0-0	 NAV: excessive speed
+Y	15070001	1962-03-26T04:51:00.00	2312	C-0-0	 NAV: excessive speed
+Y	15070001	1962-03-26T04:54:00.00	2313	C-0-0	 NAV: excessive speed

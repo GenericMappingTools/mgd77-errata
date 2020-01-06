@@ -1,0 +1,43 @@
+# Cruise 09880001 ID LAN-92 MGD77 FILE VERSION: 19971215 N_RECS: 11847
+# Examined: Mon Aug 16 17:10:28 2010 by mtchandl
+# Arguments:  -R202.95/205.9/18.45/21.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09880001-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-09880001-depth-01: RLS m: 1.00289 b: 0 rms: 99.6012 r: 0.998328 sig: 1 dec: 0
+N-E-09880001-depth-02: Regression slope 1.00289 different from 1. Recommended: [1]
+Y-W-09880001-depth-12: Integer precision
+# Errata: Data
+?	09880001	1992-09-18T10:05:01.98	292	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-18T10:14:00.00	300	0-0-K	 GRAD: twt excessive
+Y	09880001	1992-09-19T05:11:00.00	352	C-0-0	 NAV: excessive speed
+Y	09880001	1992-09-19T05:12:00.00	353	C-0-0	 NAV: excessive speed
+Y	09880001	1992-09-19T05:13:00.00	354	C-0-0	 NAV: excessive speed
+Y	09880001	1992-09-19T05:14:00.00	355	C-0-0	 NAV: excessive speed
+?	09880001	1992-09-19T12:43:00.00	778	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-19T13:26:01.02	799	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-19T17:14:01.98	999	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-19T18:01:58.98	1045	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-19T18:22:58.98	1066	0-0-K	 GRAD: twt excessive
+?	09880001	1992-09-19T19:47:58.98	1150	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-11T20:21:58.02	9884	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T02:52:00.00	10192	0-0-KL	 GRAD: twt, depth excessive
+?	09880001	1992-10-24T03:32:01.02	10228	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T03:54:00.00	10249	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T03:55:00.00	10250	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T04:26:04.02	10261	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T04:27:09.00	10262	0-0-KL	 GRAD: twt, depth excessive
+?	09880001	1992-10-24T04:48:58.02	10280	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T04:50:58.98	10282	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T05:16:10.02	10297	0-0-KL	 GRAD: twt, depth excessive
+?	09880001	1992-10-24T19:46:00.00	10339	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T20:29:00.00	10372	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T20:59:55.02	10389	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T21:53:01.98	10425	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-24T22:15:07.02	10438	0-0-K	 GRAD: twt excessive
+?	09880001	1992-10-27T04:56:01.02	11820	0-0-KL	 GRAD: twt, depth excessive
+?	09880001	1992-10-27T05:26:03.00	11839	0-0-K	 GRAD: twt excessive

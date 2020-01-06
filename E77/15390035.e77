@@ -1,0 +1,85 @@
+# Cruise 15390035 ID KIWI03RR MGD77 FILE VERSION: 20040528 N_RECS: 40078
+# Examined: Wed Jun  4 23:46:11 2008 by mtchandl
+# Arguments:  -R189.2/203.3/21.2/27.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Magnetic anomalies contain outliers.
+# Errata: Header
+Y-W-15390035-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-15390035-depth-01: RLS m: 1.03192 b: 0 rms: 260.382 r: 0.979362 sig: 1 dec: 1
+N-E-15390035-depth-02: Regression slope 1.03192 different from 1. Recommended: [1]
+Y-E-15390035-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01175 b: 8.13692 rms: 13.7171 r: 0.998945 sig: 1 dec: 1). [Recompute]
+Y-W-15390035-twt-11: More recent bathymetry correction table available
+Y-W-15390035-depth-12: Integer precision
+Y-W-15390035-mtf1-12: Integer precision
+# Errata: Data
+?	15390035	1997-08-24T23:12:00.00	12	D-0-0	 NAV: on land
+?	15390035	1997-08-24T23:13:00.00	13	D-0-0	 NAV: on land
+?	15390035	1997-08-24T23:14:00.00	14	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:15:00.00	15	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:16:00.00	16	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:17:00.00	17	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:18:00.00	18	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:19:00.00	19	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:20:00.00	20	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:21:00.00	21	D-0-0	 NAV: on land
+Y	15390035	1997-08-24T23:22:00.00	22	D-0-0	 NAV: on land
+?	15390035	1997-08-27T20:48:00.00	4188	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-08-27T20:49:00.00	4189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15390035	1997-08-27T20:51:00.00	4191	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-08-27T20:52:00.00	4192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15390035	1997-08-30T15:32:00.00	8192	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-01T23:58:00.00	11578	0-Q-0	 VAL: mag invalid
+?	15390035	1997-09-01T23:59:00.00	11579	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T00:00:00.00	11580	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T00:01:00.00	11581	0-Q-0	 VAL: mag invalid
+?	15390035	1997-09-02T00:02:00.00	11582	0-0-O	 GRAD: mtf1 excessive
+?	15390035	1997-09-02T00:03:00.00	11583	0-Q-O	 VAL: mag invalid - GRAD: mtf1 excessive
+?	15390035	1997-09-02T00:04:00.00	11584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T00:25:00.00	11605	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T00:26:00.00	11606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T02:22:00.00	11722	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15390035	1997-09-02T02:23:00.00	11723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15390035	1997-09-07T21:22:00.00	20062	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-12T08:38:00.00	26498	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-12T23:19:00.00	27379	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-13T11:30:00.00	28110	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-15T11:25:00.00	30985	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-15T14:05:00.00	31145	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-15T15:50:00.00	31250	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-15T15:51:00.00	31251	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-16T20:51:00.00	32991	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-16T20:52:00.00	32992	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T11:07:00.00	33847	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T11:09:00.00	33849	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T15:51:00.00	34131	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T15:52:00.00	34132	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T16:48:00.00	34188	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T16:50:00.00	34190	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-17T22:31:00.00	34531	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-17T22:32:00.00	34532	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-18T10:23:00.00	35243	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-18T10:24:00.00	35244	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-18T16:43:00.00	35623	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-18T16:44:00.00	35624	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-19T16:04:00.00	37024	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-19T16:05:00.00	37025	0-0-K	 GRAD: twt excessive
+?	15390035	1997-09-20T18:05:00.00	38585	0-0-KL	 GRAD: twt, depth excessive
+?	15390035	1997-09-20T18:10:00.00	38590	0-0-KL	 GRAD: twt, depth excessive
+Y	15390035	1997-09-21T18:10:00.00	40030	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:11:00.00	40031	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:12:00.00	40032	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:13:00.00	40033	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:14:00.00	40034	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:15:00.00	40035	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:16:00.00	40036	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:17:00.00	40037	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:18:00.00	40038	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:19:00.00	40039	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:20:00.00	40040	D-0-0	 NAV: on land
+Y	15390035	1997-09-21T18:21:00.00	40041	D-0-0	 NAV: on land
+?	15390035	1997-09-21T18:22:00.00	40042	D-0-0	 NAV: on land
+?	15390035	1997-09-21T18:23:00.00	40043	D-0-0	 NAV: on land
+?	15390035	1997-09-21T18:24:00.00	40044	D-0-0	 NAV: on land

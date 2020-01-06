@@ -1,0 +1,15 @@
+# Cruise 15040027 ID PIQR08WT MGD77 FILE VERSION: 19800226 N_RECS: 647
+# Examined: Wed May 21 11:35:04 2008 by mtchandl
+# Arguments:  -R273.9/281.3/-11.95/-0 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040027-H04-03: Invalid Survey Departure Day: (25) [26]
+N-E-15040027-H04-06: Invalid Survey Arrival Day: (05) [01]
+Y-E-15040027-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.977511 b: -171.221 rms: 178.551 r: 0.952487 sig: 1 dec: 1). [Recompute]
+Y-W-15040027-mtf1-12: Integer multiple of 5 precision
+Y-W-15040027-mag-12: Integer multiple of 5 precision
+# Errata: Data

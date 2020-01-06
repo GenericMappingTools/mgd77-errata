@@ -1,0 +1,45 @@
+# Cruise 01020045 ID ELT43 MGD77 FILE VERSION: 19790127 N_RECS: 19262
+# Examined: Wed Jul  8 21:33:54 2009 by mtchandl
+# Arguments:  -R172.95/292.3/-66.15/-41.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01020045-H15-03: Invalid Gravity Arrival Base Station Value: (980266) [9802660]
+Y-E-01020045-H16-01: Invalid Number of Ten Degree Identifiers: (23) [22]
+Y-W-01020045-H16-06: Ten Degree Identifier 5518 marked in header but was not crossed
+Y-I-01020045-depth-01: RLS m: 0.995777 b: 0 rms: 120.416 r: 0.996899 sig: 1 dec: 1
+Y-I-01020045-faa-01: RLS m: 1.03571 b: 4.1042 rms: 20.1251 r: 0.900934 sig: 1 dec: 1
+Y-W-01020045-faa-03: Regression offset 4.1042 different from 0.
+Y-E-01020045-mag-07: Anomaly differs from mtf1-IGRF (m: 0.929883 b: -44.878 rms: 139.717 r: 0.856235 sig: 1 dec: 1). [Recompute]
+N-E-01020045-depth-08: Extended offset from grid [2-19262]
+Y-W-01020045-twt-11: More recent bathymetry correction table available
+Y-W-01020045-mtf1-12: Integer precision
+Y-W-01020045-mag-12: Integer precision
+# Errata: Data
+?	01020045	1970-05-08T13:47:00.00	6292	0-0-K	 GRAD: twt excessive
+?	01020045	1970-05-09T07:31:00.00	6502	0-0-K	 GRAD: twt excessive
+?	01020045	1970-05-10T18:54:00.00	7427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-10T19:26:00.00	7442	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-21T20:47:00.00	12858	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-21T20:51:00.00	12859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-21T23:31:00.00	12924	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-21T23:35:00.00	12926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T06:56:00.00	13107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T11:37:00.00	13229	0-Q-0	 VAL: mag invalid
+?	01020045	1970-05-22T11:41:00.00	13231	0-Q-0	 VAL: mag invalid
+?	01020045	1970-05-22T11:49:00.00	13234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T11:53:00.00	13236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T11:57:00.00	13238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T12:01:00.00	13240	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T19:05:00.00	13423	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-22T20:57:00.00	13469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-05-25T21:51:00.00	15066	0-0-K	 GRAD: twt excessive
+?	01020045	1970-05-25T22:22:00.00	15078	0-0-K	 GRAD: twt excessive
+?	01020045	1970-05-26T00:01:00.00	15121	0-0-K	 GRAD: twt excessive
+?	01020045	1970-06-02T07:59:00.00	18500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-06-02T08:03:00.00	18502	0-Q-0	 VAL: mag invalid
+?	01020045	1970-06-02T08:11:00.00	18504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020045	1970-06-02T08:15:00.00	18505	0-0-OQ	 GRAD: mtf1, mag excessive

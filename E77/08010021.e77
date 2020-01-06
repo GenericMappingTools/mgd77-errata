@@ -1,0 +1,85 @@
+# Cruise 08010021 ID 72110806 MGD77 FILE VERSION: 19840223 N_RECS: 14383
+# Examined: Mon Jul 26 15:50:41 2010 by mtchandl
+# Arguments:  -R243/289.7/-27.15/-17.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010021-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010021-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010021-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010021-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-08010021-depth-01: RLS m: 1 b: 0 rms: 37.6201 r: 0.999084 sig: 1 dec: 0
+Y-I-08010021-faa-01: RLS m: 0.991257 b: 0.763195 rms: 2.66521 r: 0.998519 sig: 1 dec: 0
+N-E-08010021-faa-02: Regression slope 0.991257 different from 1. Recommended: [1]
+Y-W-08010021-faa-03: Regression offset 0.763195 different from 0.
+Y-E-08010021-mag-07: Anomaly differs from mtf1-IGRF (m: 0.962514 b: -200.781 rms: 206.619 r: 0.974301 sig: 1 dec: 0). [Recompute]
+Y-W-08010021-twt-11: More recent bathymetry correction table available
+Y-W-08010021-mtf1-12: Integer precision
+Y-W-08010021-mag-12: Integer precision
+Y-W-08010021-faa-12: Integer precision
+# Errata: Data
+Y	08010021	1973-04-03T21:38:00.00	1	D-0-0	 NAV: on land
+?	08010021	1973-04-11T22:45:17.94	4918	0-0-K	 GRAD: twt excessive
+?	08010021	1973-04-12T08:15:00.00	5132	0-0-K	 GRAD: twt excessive
+?	08010021	1973-04-18T07:34:23.94	8478	0-0-K	 GRAD: twt excessive
+?	08010021	1973-04-21T09:45:23.94	10202	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010021	1973-04-21T09:53:48.00	10206	0-Q-0	 VAL: mag invalid
+?	08010021	1973-04-25T02:27:00.00	12671	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-25T03:12:42.00	12697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-25T03:28:00.00	12713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-25T03:36:00.00	12722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-25T03:37:00.00	12724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-25T16:58:00.00	13121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:44:00.00	14142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:46:00.00	14145	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:48:00.00	14147	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:50:00.00	14149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:51:00.00	14153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:52:00.00	14158	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:53:00.00	14162	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:54:00.00	14167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:55:00.00	14168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:57:00.00	14170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:58:00.00	14171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T08:59:00.00	14173	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:00:00.00	14174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:02:00.00	14177	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:13:00.00	14189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:14:00.00	14192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:15:00.00	14195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:21:00.00	14207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:22:00.00	14208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:27:00.00	14218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:28:00.00	14221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:46:00.00	14249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:47:00.00	14251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:48:00.00	14252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:49:00.00	14253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T09:51:00.00	14255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T12:45:00.00	14339	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T12:48:00.00	14340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:11:00.00	14358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:13:00.00	14360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:14:00.00	14361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:15:00.00	14362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:16:00.00	14363	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:16:48.00	14365	D-0-0	 NAV: on land
+Y	08010021	1973-04-27T13:17:00.00	14366	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:17:11.94	14367	D-0-0	 NAV: on land
+Y	08010021	1973-04-27T13:17:37.02	14368	D-0-0	 NAV: on land
+Y	08010021	1973-04-27T13:18:00.00	14369	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:18:00.96	14370	D-0-0	 NAV: on land
+Y	08010021	1973-04-27T13:18:24.96	14371	D-0-0	 NAV: on land
+Y	08010021	1973-04-27T13:19:00.00	14372	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:20:00.00	14373	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:21:00.00	14374	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:22:00.00	14375	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:23:00.00	14376	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:24:00.00	14377	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	08010021	1973-04-27T13:25:00.00	14378	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+?	08010021	1973-04-27T13:27:00.00	14379	D-0-0	 NAV: on land
+?	08010021	1973-04-27T13:29:00.00	14380	D-0-0	 NAV: on land
+?	08010021	1973-04-27T13:30:00.00	14381	D-0-0	 NAV: on land

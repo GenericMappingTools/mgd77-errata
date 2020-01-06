@@ -1,0 +1,124 @@
+# Cruise 05060010 ID HT6705 MGD77 FILE VERSION: 19840921 N_RECS: 6233
+# Examined: Fri Apr 30 13:42:01 2010 by mtchandl
+# Arguments:  -R172.5/178/-44.05/-39.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060010-H13-09: Unknown IGRF specified (DGRF-65)
+Y-W-05060010-nav-00: Flagged 0.90 % of records with bad navigation
+Y-E-05060010-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00451 b: -6.97096 rms: 10.5874 r: 0.999572 sig: 1 dec: 1). [Recompute]
+Y-W-05060010-mtf1-12: Integer precision
+Y-W-05060010-mag-12: Integer precision
+# Errata: Data
+?	05060010	1967-09-25T20:48:00.00	697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T01:59:00.00	815	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:06:00.00	847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:08:00.00	848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:10:00.00	849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:12:00.00	850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:24:00.00	856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:40:00.00	864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:48:00.00	868	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:50:00.00	869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:52:00.00	870	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T03:54:00.00	871	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:04:00.00	876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:13:00.00	881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:14:00.00	882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:20:00.00	885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:27:00.00	889	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:31:00.00	891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:36:00.00	894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:42:00.00	898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:44:00.00	899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T04:45:00.00	900	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:03:00.00	907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:11:00.00	912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:13:00.00	913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:53:00.00	916	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:56:00.00	917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T05:58:00.00	918	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:02:00.00	920	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:04:00.00	921	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:08:00.00	923	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:10:00.00	924	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:12:00.00	925	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:14:00.00	926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:16:00.00	927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:18:00.00	928	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:19:00.00	929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:25:00.00	932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:31:00.00	935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T06:45:00.00	942	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060010	1967-09-26T06:48:00.00	944	C-0-0	 NAV: excessive speed
+?	05060010	1967-09-26T06:58:00.00	948	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-09-26T07:10:00.00	954	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060010	1967-09-26T09:39:00.00	1004	C-0-0	 NAV: excessive speed
+?	05060010	1967-09-27T00:21:00.00	1299	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060010	1967-09-28T18:44:00.00	2173	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-01T03:36:00.00	2842	C-0-0	 NAV: excessive speed
+?	05060010	1967-10-01T08:23:00.00	2909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-01T08:25:00.00	2910	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060010	1967-10-01T23:31:00.00	3071	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-01T23:33:00.00	3072	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-01T23:35:00.00	3073	C-0-0	 NAV: excessive speed
+?	05060010	1967-10-02T00:09:00.00	3089	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060010	1967-10-04T02:53:00.00	3718	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-04T05:32:00.00	3763	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-04T05:51:00.00	3773	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-04T06:13:00.00	3786	C-0-0	 NAV: excessive speed
+?	05060010	1967-10-04T09:14:00.00	3838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T09:16:00.00	3839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T09:18:00.00	3840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T10:44:00.00	3859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T10:46:00.00	3860	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T10:50:00.00	3862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060010	1967-10-04T10:52:00.00	3863	0-0-Q	 GRAD: mag excessive
+Y	05060010	1967-10-04T11:49:00.00	3891	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-05T19:12:00.00	4264	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-06T04:05:00.00	4370	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-06T04:16:00.00	4376	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T21:20:00.00	5185	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T21:22:00.00	5186	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T21:31:00.00	5191	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T21:33:00.00	5192	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T21:35:00.00	5193	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T22:24:00.00	5216	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T23:35:00.00	5253	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-07T23:52:00.00	5262	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-08T00:35:00.00	5285	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T05:45:00.00	5338	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T06:39:00.00	5365	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T06:54:00.00	5373	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T07:15:00.00	5384	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T13:14:00.00	5505	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T14:16:00.00	5537	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T14:18:00.00	5538	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T14:31:00.00	5544	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-09T14:55:00.00	5555	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-10T15:52:00.00	5989	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-10T18:00:00.00	5999	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:02:00.00	6000	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:04:00.00	6001	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:06:00.00	6002	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:08:00.00	6003	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:10:00.00	6004	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:12:00.00	6005	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:14:00.00	6006	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:16:00.00	6007	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:18:00.00	6008	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:20:00.00	6009	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:22:00.00	6010	D-0-0	 NAV: on land
+Y	05060010	1967-10-10T18:24:00.00	6011	D-0-0	 NAV: on land
+Y	05060010	1967-10-11T00:42:00.00	6132	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T00:49:00.00	6136	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T00:56:00.00	6140	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T02:57:00.00	6182	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T03:20:00.00	6193	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T05:18:00.00	6206	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T05:45:00.00	6220	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T05:57:00.00	6227	C-0-0	 NAV: excessive speed
+Y	05060010	1967-10-11T06:04:00.00	6230	C-0-0	 NAV: excessive speed

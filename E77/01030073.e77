@@ -1,0 +1,44 @@
+# Cruise 01030073 ID V2110 MGD77 FILE VERSION: 19790920 N_RECS: 3656
+# Examined: Thu Jul  9 16:48:45 2009 by mtchandl
+# Arguments:  -R118.9/183.5/14.35/58 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030073-depth-01: RLS m: 0.999651 b: 0 rms: 9.40112 r: 0.999993 sig: 1 dec: 0
+N-E-01030073-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030073-faa-01: RLS m: 0.94618 b: 0.967009 rms: 3.00091 r: 0.992664 sig: 1 dec: 0
+N-E-01030073-faa-02: Regression slope 0.94618 different from 1. Recommended: [1]
+Y-W-01030073-faa-03: Regression offset 0.967009 different from 0.
+Y-E-01030073-mag-07: Anomaly differs from mtf1-IGRF (m: 0.945884 b: 98.3826 rms: 106.576 r: 0.957852 sig: 1 dec: 0). [Recompute]
+N-E-01030073-depth-08: Extended offset from grid [12-3656]
+Y-W-01030073-twt-11: More recent bathymetry correction table available
+Y-W-01030073-mtf1-12: Integer precision
+Y-W-01030073-mag-12: Integer precision
+# Errata: Data
+?	01030073	1965-08-08T14:00:00.00	87	0-M-0	 VAL: bcc invalid
+?	01030073	1965-08-08T14:10:00.00	89	0-M-0	 VAL: bcc invalid
+?	01030073	1965-08-15T21:30:00.00	1299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T03:19:00.00	2998	0-Q-0	 VAL: mag invalid
+?	01030073	1965-08-29T03:23:00.00	3000	0-Q-0	 VAL: mag invalid
+?	01030073	1965-08-29T03:27:00.00	3001	0-Q-0	 VAL: mag invalid
+?	01030073	1965-08-29T03:55:00.00	3007	0-Q-0	 VAL: mag invalid
+?	01030073	1965-08-29T04:25:00.00	3014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:27:00.00	3015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:28:00.00	3016	0-0-O	 GRAD: mtf1 excessive
+?	01030073	1965-08-29T04:29:00.00	3017	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:30:00.00	3018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:34:00.00	3019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:35:00.00	3020	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:36:00.00	3021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:39:00.00	3023	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:41:00.00	3025	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-08-29T04:42:00.00	3026	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030073	1965-09-01T05:07:00.00	3427	0-0-Q	 GRAD: mag excessive
+?	01030073	1965-09-01T22:45:00.00	3549	0-Q-0	 VAL: mag invalid
+?	01030073	1965-09-01T23:15:00.00	3557	0-Q-0	 VAL: mag invalid
+?	01030073	1965-09-01T23:24:00.00	3558	0-Q-0	 VAL: mag invalid
+?	01030073	1965-09-01T23:30:00.00	3559	0-Q-0	 VAL: mag invalid
+?	01030073	1965-09-01T23:45:00.00	3564	0-Q-0	 VAL: mag invalid

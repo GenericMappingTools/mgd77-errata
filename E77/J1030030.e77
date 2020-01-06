@@ -1,0 +1,167 @@
+# Cruise J1030030 ID HM940526 MGD77 FILE VERSION: 19971028 N_RECS: 15731
+# Examined: Sun Aug  7 07:34:12 2011 by mtchandl
+# Arguments:  -R137.9/139.65/38.55/39.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1030030-H04-03: Invalid Survey Departure Day: (26) [28]
+N-E-J1030030-H04-06: Invalid Survey Arrival Day: (21) [16]
+Y-E-J1030030-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-J1030030-nav-00: Flagged 0.93 % of records with bad navigation
+Y-I-J1030030-faa-01: RLS m: 1.0214 b: -1.91368 rms: 5.26102 r: 0.955732 sig: 1 dec: 0
+N-E-J1030030-faa-02: Regression slope 1.0214 different from 1. Recommended: [1]
+Y-W-J1030030-faa-03: Regression offset -1.91368 different from 0.
+Y-I-J1030030-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+# Errata: Data
+?	J1030030	1994-05-29T09:49:00.00	1152	0-0-W	 GRAD: faa excessive
+?	J1030030	1994-05-29T10:42:00.00	1204	0-0-W	 GRAD: faa excessive
+?	J1030030	1994-05-29T13:35:00.00	1369	0-0-W	 GRAD: faa excessive
+Y	J1030030	1994-05-29T15:12:00.00	1466	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-29T15:13:00.00	1467	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-29T15:14:00.00	1468	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T05:30:00.00	2176	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T05:31:00.00	2177	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T11:18:00.00	2481	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T12:49:00.00	2558	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T13:49:00.00	2612	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T13:50:00.00	2613	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T13:51:00.00	2614	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T20:05:00.00	2941	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T20:06:00.00	2942	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T20:09:00.00	2945	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T20:10:00.00	2946	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T16:19:00.00	3113	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T23:28:00.00	3114	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-30T23:28:00.00	3115	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-30T23:29:00.00	3116	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-31T03:45:00.00	3339	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-05-31T03:46:00.00	3340	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-31T09:45:00.00	3669	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-05-31T16:51:00.00	4049	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-01T08:48:00.00	4865	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-01T08:53:00.00	4869	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-01T08:54:00.00	4870	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-01T10:38:00.00	4968	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-01T10:39:00.00	4969	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-05T08:10:00.00	7205	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-05T15:31:00.00	7561	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-05T15:32:00.00	7562	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-05T20:17:00.00	7804	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-05T20:18:00.00	7805	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-05T20:19:00.00	7806	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-06T06:08:00.00	8320	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-06T06:09:00.00	8321	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-06T20:44:00.00	9076	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-06T20:45:00.00	9077	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-06T20:48:00.00	9080	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-06T20:49:00.00	9081	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-07T04:31:00.00	9488	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-07T04:32:00.00	9489	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-07T11:45:00.00	9831	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-07T11:46:00.00	9832	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-07T18:44:00.00	10193	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-07T18:45:00.00	10194	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-07T19:32:00.00	10239	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-08T02:05:00.00	10582	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-08T02:06:00.00	10583	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-08T02:09:00.00	10586	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-08T02:10:00.00	10587	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-08T15:00:00.00	11288	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-08T15:47:00.00	11290	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-08T15:48:00.00	11291	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-08T15:49:00.00	11292	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T07:09:00.00	11782	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-13T07:10:00.00	11783	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T07:13:00.00	11786	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-13T07:14:00.00	11787	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T08:01:00.00	11827	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T08:02:00.00	11828	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T13:00:00.00	12102	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-13T13:01:00.00	12103	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T18:41:00.00	12362	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-13T18:42:00.00	12363	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T21:59:00.00	12525	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-13T22:01:00.00	12527	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T05:12:00.00	12903	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T05:13:00.00	12904	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T05:14:00.00	12905	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T09:58:00.00	13139	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T09:59:00.00	13140	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:00:00.00	13141	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:01:00.00	13142	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:02:00.00	13143	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:03:00.00	13144	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:04:00.00	13145	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:07:00.00	13146	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:09:00.00	13147	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:10:00.00	13148	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:11:00.00	13149	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:12:00.00	13150	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:13:00.00	13151	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:14:00.00	13152	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:15:00.00	13153	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:16:00.00	13154	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:17:00.00	13155	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T10:18:00.00	13156	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:19:00.00	13157	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:20:00.00	13158	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:21:00.00	13159	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:22:00.00	13160	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:23:00.00	13161	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:24:00.00	13162	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:25:00.00	13163	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:26:00.00	13164	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:27:00.00	13165	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:28:00.00	13166	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:29:00.00	13167	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:30:00.00	13168	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:31:00.00	13169	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:32:00.00	13170	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:35:00.00	13171	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:36:00.00	13172	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:37:00.00	13173	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:38:00.00	13174	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:39:00.00	13175	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:40:00.00	13176	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:41:00.00	13177	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:42:00.00	13178	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:43:00.00	13179	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:44:00.00	13180	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:45:00.00	13181	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:46:00.00	13182	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:47:00.00	13183	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:48:00.00	13184	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:49:00.00	13185	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:50:00.00	13186	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:51:00.00	13187	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:52:00.00	13188	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:53:00.00	13189	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T10:56:00.00	13190	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T12:33:00.00	13254	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T12:46:00.00	13267	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T12:47:00.00	13268	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T15:54:00.00	13421	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T15:55:00.00	13422	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T15:56:00.00	13423	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T20:02:00.00	13622	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-14T20:03:00.00	13623	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-14T20:04:00.00	13624	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-15T01:55:00.00	13982	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-15T15:55:00.00	14653	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-15T16:55:00.00	14709	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-15T20:23:00.00	14841	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-15T20:24:00.00	14842	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-15T23:55:00.00	15086	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T01:11:00.00	15102	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T01:12:00.00	15103	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-16T01:32:00.00	15123	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T01:33:00.00	15124	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-16T07:26:00.00	15423	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T07:27:00.00	15424	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-16T06:55:00.00	15444	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T08:10:00.00	15455	B-0-0	 NAV: non-increasing time
+Y	J1030030	1994-06-16T08:11:00.00	15456	C-0-0	 NAV: excessive speed
+Y	J1030030	1994-06-16T08:12:00.00	15457	C-0-0	 NAV: excessive speed

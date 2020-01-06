@@ -1,0 +1,13 @@
+# Cruise 71010004 ID RSA75-1 MGD77 FILE VERSION: 19870630 N_RECS: 1992
+# Examined: Sun Jul 31 22:11:48 2011 by mtchandl
+# Arguments:  -R-2.35/19.2/-69.5/-46.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Total field magnetic data not reported, magnetic anomalies appear to be unreliable.
+# Errata: Header
+Y-I-71010004-depth-01: RLS m: 1 b: 0 rms: 15.5418 r: 0.999851 sig: 1 dec: 0
+Y-E-71010004-mag-10: Invalid data records: [1-1992]
+Y-W-71010004-mag-12: Integer precision
+# Errata: Data

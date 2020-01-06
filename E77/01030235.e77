@@ -1,0 +1,18 @@
+# Cruise 01030235 ID V3604 MGD77 FILE VERSION: 19850827 N_RECS: 4099
+# Examined: Fri Mar 19 01:26:08 2010 by mtchandl
+# Arguments:  -R114.85/144.2/12.4/21.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030235-depth-01: RLS m: 0.999651 b: 0 rms: 24.4031 r: 0.999852 sig: 1 dec: 0
+Y-I-01030235-faa-01: RLS m: 1.00151 b: -6.65743 rms: 7.63198 r: 0.995053 sig: 1 dec: 0
+Y-W-01030235-faa-03: Regression offset -6.65743 different from 0.
+Y-E-01030235-mag-07: Anomaly differs from mtf1-IGRF (m: 0.983907 b: 182.774 rms: 183.52 r: 0.994153 sig: 1 dec: 0). [Recompute]
+Y-W-01030235-twt-11: More recent bathymetry correction table available
+Y-W-01030235-mtf1-12: Integer precision
+Y-W-01030235-mag-12: Integer precision
+# Errata: Data
+?	01030235	1979-11-12T15:24:00.00	124	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,25 @@
+# Cruise 88010021 ID NBP98-1 MGD77 FILE VERSION: 20000630 N_RECS: 47354
+# Examined: Thu Aug  4 19:26:33 2011 by mtchandl
+# Arguments:  -R165.1/184.7/-77.9/-70.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-88010021-H04-06: Invalid Survey Arrival Day: (19) [18]
+Y-E-88010021-H15-01: Invalid Gravity Departure Base Station Value: (982977) [9829770]
+Y-E-88010021-H15-03: Invalid Gravity Arrival Base Station Value: (982977) [9829770]
+Y-I-88010021-depth-01: RLS m: 1.03192 b: 0 rms: 16.7129 r: 0.999748 sig: 1 dec: 0
+N-E-88010021-depth-02: Regression slope 1.03192 different from 1. Recommended: [1]
+Y-I-88010021-faa-01: RLS m: 0.971034 b: -8.82049 rms: 10.2674 r: 0.968371 sig: 1 dec: 0
+N-E-88010021-faa-02: Regression slope 0.971034 different from 1. Recommended: [1]
+Y-W-88010021-faa-03: Regression offset -8.82049 different from 0.
+Y-I-88010021-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-88010021-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.881168 b: -2.82451 rms: 14.8482 r: 0.951334 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	88010021	1998-01-22T12:54:00.00	9187	0-0-L	 GRAD: depth excessive
+?	88010021	1998-01-27T03:16:00.00	15777	0-0-L	 GRAD: depth excessive
+?	88010021	1998-01-28T03:16:00.00	17089	0-0-L	 GRAD: depth excessive
+?	88010021	1998-01-28T04:00:00.00	17133	0-0-L	 GRAD: depth excessive
+?	88010021	1998-01-28T08:19:00.00	17392	0-0-L	 GRAD: depth excessive

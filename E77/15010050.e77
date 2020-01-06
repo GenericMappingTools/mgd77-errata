@@ -1,0 +1,15 @@
+# Cruise 15010050 ID NOVA03AR MGD77 FILE VERSION: 19800226 N_RECS: 3707
+# Examined: Tue May 13 09:05:46 2008 by mtchandl
+# Arguments:  -R178.5/201.95/-18.25/21.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010050-H04-03: Invalid Survey Departure Day: (16) [17]
+Y-I-15010050-depth-01: RLS m: 1.00388 b: 0 rms: 123.892 r: 0.997362 sign: 1 dec: 1
+Y-E-15010050-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00291 b: 6.45125 rms: 11.1289 r: 0.998766 sig: 1 dec: 1). [Recompute]
+Y-W-15010050-mtf1-12: Integer multiple of 5 precision
+Y-W-15010050-mag-12: Integer multiple of 5 precision
+# Errata: Data

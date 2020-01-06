@@ -1,0 +1,19 @@
+# Cruise 15010022 ID DODO09AR MGD77 FILE VERSION: 19810928 N_RECS: 4126
+# Examined: Mon May 12 17:02:25 2008 by mtchandl
+# Arguments:  -R79.7/105.3/-7.65/6.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies
+# Errata: Header
+N-E-15010022-H04-05: Invalid Survey Arrival Month: (11) [10]
+N-E-15010022-H04-06: Invalid Survey Arrival Day: (02) [30]
+Y-W-15010022-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-15010022-depth-01: RLS m: 1 b: 0 rms: 75.2333 r: 0.999016 significant: 1 decimation: 1
+Y-E-15010022-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.975173 b: -70.351 rms: 75.8711 r: 0.980378 sig: 1 dec: 1). [Recompute]
+Y-W-15010022-mtf1-12: Integer precision
+Y-W-15010022-mag-12: Integer precision
+# Errata: Data
+Y	15010022	1964-10-13T03:24:00.00	1	D-0-0	 NAV: on land
+Y	15010022	1964-10-13T03:30:00.00	2	D-0-0	 NAV: on land

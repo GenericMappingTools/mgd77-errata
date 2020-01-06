@@ -1,0 +1,14 @@
+# Cruise 67010122 ID 83003211 MGD77 FILE VERSION: 19860605 N_RECS: 2710
+# Examined: Sat Jul 30 19:20:42 2011 by mtchandl
+# Arguments:  -R-24.7/-17.8/38.15/44.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-67010122-depth-01: RLS m: 1.00061 b: 0 rms: 24.5292 r: 0.999203 sig: 1 dec: 0
+Y-W-67010122-depth-12: Integer precision
+# Errata: Data
+?	67010122	1983-07-19T06:35:00.00	1815	0-0-L	 GRAD: depth excessive
+?	67010122	1983-07-19T07:35:00.00	1875	0-0-L	 GRAD: depth excessive

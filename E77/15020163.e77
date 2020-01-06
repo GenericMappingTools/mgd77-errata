@@ -1,0 +1,216 @@
+# Cruise 15020163 ID SOJN06MV MGD77 FILE VERSION: 20011001 N_RECS: 43381
+# Examined: Sun May 18 11:25:08 2008 by mtchandl
+# Arguments:  -R139.8/147.5/-56.95/-42.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.  Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15020163-H15-01: Invalid Gravity Departure Base Station Value: (980437) [9804370]
+Y-E-15020163-H15-03: Invalid Gravity Arrival Base Station Value: (980437) [9804370]
+Y-W-15020163-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15020163-depth-01: RLS m: 1.00388 b: 0 rms: 283.22 r: 0.960633 sig: 1 dec: 1
+Y-I-15020163-faa-01: RLS m: 0.960853 b: 0.448941 rms: 8.44032 r: 0.957736 sig: 1 dec: 1
+N-E-15020163-faa-06: Anomaly differs from gobs - IGF80 (m: 0.38563 b: 4.17055 rms: 31.6228 r: 0.637543 sig: 1 dec: 1). [Recompute]
+N-E-15020163-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.401594 b: 8.32891 rms: 33.3309 r: 0.645223 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020163-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.997056 b: -13.3771 rms: 15.4327 r: 0.999276 sig: 1 dec: 1). [Recompute]
+Y-W-15020163-twt-11: More recent bathymetry correction table available
+Y-W-15020163-depth-12: Integer precision
+Y-W-15020163-mtf1-12: Integer precision
+# Errata: Data
+Y	15020163	1997-03-07T18:39:00.00	1	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:40:00.00	2	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:41:00.00	3	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:42:00.00	4	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:43:00.00	5	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:44:00.00	6	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:45:00.00	7	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:46:00.00	8	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:47:00.00	9	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:48:00.00	10	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:49:00.00	11	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:50:00.00	12	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:51:00.00	13	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:52:00.00	14	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:53:00.00	15	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:54:00.00	16	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:55:00.00	17	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:56:00.00	18	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:57:00.00	19	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:58:00.00	20	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T18:59:00.00	21	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:00:00.00	22	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:01:00.00	23	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:02:00.00	24	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:03:00.00	25	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:04:00.00	26	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:05:00.00	27	D-0-0	 NAV: on land
+Y	15020163	1997-03-07T19:06:00.00	28	D-0-U	 NAV: on land - GRAD: gobs excessive
+?	15020163	1997-03-07T19:07:00.00	29	D-0-0	 NAV: on land
+?	15020163	1997-03-08T06:52:00.00	734	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-08T06:53:00.00	735	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-08T07:23:00.00	765	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-08T07:24:00.00	766	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-08T10:12:00.00	934	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-09T03:33:00.00	1975	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-09T23:00:00.00	3142	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-10T07:47:00.00	3669	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-10T21:58:00.00	4520	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-11T05:46:00.00	4988	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-11T08:00:00.00	5122	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-11T14:54:00.00	5536	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-11T22:30:00.00	5992	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-11T22:32:00.00	5994	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-12T02:49:00.00	6251	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-12T02:50:00.00	6252	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-12T04:31:00.00	6353	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-12T06:05:00.00	6447	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-12T21:49:00.00	7391	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-13T04:35:00.00	7797	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-13T05:39:00.00	7861	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T01:02:00.00	9024	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T01:29:00.00	9051	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T02:40:00.00	9122	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T02:50:00.00	9132	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T03:32:00.00	9174	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T03:36:00.00	9178	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-14T03:49:00.00	9191	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T04:02:00.00	9204	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-14T05:01:00.00	9263	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-14T23:35:00.00	10377	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T23:37:00.00	10379	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T23:38:00.00	10380	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T23:39:00.00	10381	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-14T23:40:00.00	10382	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-16T18:04:00.00	12923	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-16T22:59:00.00	13218	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-17T03:14:00.00	13473	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-17T03:15:00.00	13474	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-17T06:05:00.00	13644	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-17T06:06:00.00	13645	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-17T06:07:00.00	13646	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-17T15:53:00.00	14232	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-17T18:52:00.00	14411	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-17T19:36:00.00	14455	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-17T22:27:00.00	14626	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-18T01:03:00.00	14782	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-18T01:04:00.00	14783	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-20T16:13:00.00	18567	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T02:58:00.00	19212	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T03:06:00.00	19220	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T17:51:00.00	20105	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T19:21:00.00	20195	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T21:18:00.00	20312	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-21T23:20:00.00	20434	0-0-W	 GRAD: faa excessive
+?	15020163	1997-03-22T00:08:00.00	20482	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-23T03:02:00.00	22085	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T03:03:00.00	22086	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T03:21:00.00	22104	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-23T03:30:00.00	22113	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T03:31:00.00	22114	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T04:04:00.00	22147	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-23T04:34:00.00	22177	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T04:47:00.00	22190	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T04:48:00.00	22191	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T05:00:00.00	22203	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T05:01:00.00	22204	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-23T23:28:00.00	23311	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-24T13:10:00.00	24133	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-24T15:18:00.00	24261	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-24T16:28:00.00	24331	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-24T17:14:00.00	24377	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-24T17:15:00.00	24378	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-24T18:45:00.00	24468	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-25T00:36:00.00	24819	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-28T19:51:00.00	30294	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-29T00:17:00.00	30560	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-29T02:49:00.00	30712	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-03-29T02:50:00.00	30713	0-0-KLU	 GRAD: twt, depth, gobs excessive
+?	15020163	1997-03-29T07:44:00.00	31007	0-U-0	 VAL: gobs invalid
+?	15020163	1997-03-29T07:44:58.98	31008	0-U-0	 VAL: gobs invalid
+?	15020163	1997-03-29T09:43:00.00	31130	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-03-29T09:44:00.00	31131	0-0-K	 GRAD: twt excessive
+?	15020163	1997-03-31T15:18:00.00	34325	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T01:58:00.00	34965	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T02:39:00.00	35006	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T02:40:00.00	35007	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T03:26:00.00	35053	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T03:46:00.00	35073	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T03:53:00.00	35080	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-01T19:19:00.00	36006	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-01T19:20:00.00	36007	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-03T04:08:00.00	37975	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-03T08:02:00.00	38209	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-03T09:07:00.00	38274	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-03T09:52:00.00	38319	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T01:55:00.00	39282	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T01:56:00.00	39283	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T02:53:00.00	39340	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T04:05:00.00	39412	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T04:11:00.00	39418	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T10:34:00.00	39796	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:40:00.00	39802	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T10:43:00.00	39805	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:44:00.00	39806	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:48:00.00	39810	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:49:00.00	39811	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:52:00.00	39814	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T10:53:00.00	39815	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T10:55:00.00	39817	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T10:57:00.00	39819	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:07:00.00	39829	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:08:00.00	39830	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:11:00.00	39833	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:12:00.00	39834	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:17:00.00	39839	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:36:00.00	39858	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T11:40:00.00	39862	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:41:00.00	39863	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:42:00.00	39864	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:43:00.00	39865	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:44:00.00	39866	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:45:00.00	39867	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:46:00.00	39868	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-04T11:52:00.00	39874	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T11:53:00.00	39875	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:55:00.00	39877	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T11:56:00.00	39878	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T11:57:00.00	39879	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:07:00.00	39889	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:08:00.00	39890	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:11:00.00	39893	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:12:00.00	39894	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:23:00.00	39905	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:24:00.00	39906	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:26:00.00	39908	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:28:00.00	39910	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:41:00.00	39923	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:43:00.00	39925	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T12:50:00.00	39932	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T12:51:00.00	39933	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T13:00:00.00	39942	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T13:02:00.00	39944	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T13:04:00.00	39946	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-04T13:13:00.00	39955	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T13:14:00.00	39956	0-0-K	 GRAD: twt excessive
+?	15020163	1997-04-04T22:41:00.00	40523	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T05:45:00.00	40947	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-05T05:46:00.00	40948	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-05T05:47:00.00	40949	0-0-KL	 GRAD: twt, depth excessive
+?	15020163	1997-04-05T06:06:00.00	40968	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:07:00.00	40969	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:08:00.00	40970	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:09:00.00	40971	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:10:00.00	40972	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:11:00.00	40973	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T06:12:00.00	40974	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T07:53:00.00	41075	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-05T08:35:00.00	41117	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-06T21:31:00.00	43333	0-0-U	 GRAD: gobs excessive
+?	15020163	1997-04-06T21:57:00.00	43359	D-0-0	 NAV: on land
+?	15020163	1997-04-06T21:58:00.00	43360	D-0-0	 NAV: on land
+?	15020163	1997-04-06T21:59:00.00	43361	D-0-0	 NAV: on land
+?	15020163	1997-04-06T22:00:00.00	43362	D-0-0	 NAV: on land
+?	15020163	1997-04-06T22:01:00.00	43363	D-0-0	 NAV: on land

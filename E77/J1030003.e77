@@ -1,0 +1,61 @@
+# Cruise J1030003 ID HM7002 MGD77 FILE VERSION: 19880928 N_RECS: 7209
+# Examined: Mon Nov  7 17:25:34 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J1030003-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-J1030003-depth-01: RLS m: 0.998148 b: 0 rms: 5.90847 r: 0.999895 sig: 1 dec: 0
+N-E-J1030003-depth-02: Regression slope 0.998148 different from 1. Recommended: [1]
+Y-I-J1030003-faa-01: RLS m: 0.953672 b: -4.45748 rms: 8.38749 r: 0.954634 sig: 1 dec: 0
+N-E-J1030003-faa-02: Regression slope 0.953672 different from 1. Recommended: [1]
+Y-W-J1030003-faa-03: Regression offset -4.45748 different from 0.
+Y-I-J1030003-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-J1030003-depth-12: Integer precision
+Y-W-J1030003-mtf1-12: Integer multiple of 5 precision
+Y-W-J1030003-gobs-12: Integer precision
+# Errata: Data
+?	J1030003	1664.55	619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	1670.66	628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	1808.39	681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	1809.02	682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	1968	745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	1971.63	749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	2499.04	919	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	2916.1	1075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	2917.21	1076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	2918.84	1078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3566.25	1300	0-0-Q	 GRAD: mag excessive
+?	J1030003	3568.35	1303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3651.49	1324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3735.3	1355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3735.79	1356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3739.05	1360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3815.52	1389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3816.94	1391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3817.88	1392	0-0-O	 GRAD: mtf1 excessive
+?	J1030003	3823	1396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3826.46	1399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3892.36	1420	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	3893	1421	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	5210.85	1804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	5511.03	1895	0-0-Q	 GRAD: mag excessive
+?	J1030003	6217	2116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	7708.45	2564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	9149.01	2999	0-0-O	 GRAD: mtf1 excessive
+?	J1030003	10012.8	3225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	10013.3	3226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	10014.7	3228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	10820.8	3551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	10905.6	3582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	10996.1	3621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	11296.7	3778	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	11297.1	3779	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1030003	11298	3781	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1030003	13857.5	4579	D-0-0	 NAV: on land
+Y	J1030003	17076.8	5513	D-0-0	 NAV: on land
+Y	J1030003	17373.4	5555	D-0-0	 NAV: on land
+?	J1030003	18163.7	5751	D-0-0	 NAV: on land

@@ -1,0 +1,42 @@
+# Cruise 16040003 ID X09953 MGD77 FILE VERSION: 19971218 N_RECS: 3014
+# Examined: Mon Sep  6 12:28:25 2010 by mtchandl
+# Arguments:  -R122.35/126.1/24.5/27 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-16040003-nav-00: Flagged 0.93 % of records with bad navigation
+Y-I-16040003-depth-01: RLS m: 1.00214 b: 0 rms: 12.2134 r: 0.999904 sig: 1 dec: 0
+N-E-16040003-depth-02: Regression slope 1.00214 different from 1. Recommended: [1]
+# Errata: Data
+Y	16040003	1995-04-29T13:30:00.00	45	C-0-0	 NAV: excessive speed
+Y	16040003	1995-04-30T11:40:00.00	259	C-0-0	 NAV: excessive speed
+Y	16040003	1995-04-30T11:45:00.00	260	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-03T22:25:00.00	673	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-03T22:35:00.00	674	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-03T22:45:00.00	675	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-03T22:50:00.00	676	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-09T13:00:00.00	1242	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-09T13:05:00.00	1244	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-09T13:10:00.00	1246	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-09T13:15:00.00	1248	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-09T20:15:00.00	1333	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-09T20:20:00.00	1335	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T03:20:00.00	1417	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-10T14:25:00.00	1551	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T14:30:00.00	1553	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T14:35:00.00	1555	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T14:40:00.00	1557	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T14:45:00.00	1559	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-10T14:50:00.00	1561	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-11T18:55:00.00	1814	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-11T22:00:00.00	1851	C-0-0	 NAV: excessive speed
+Y	16040003	1995-05-12T18:00:00.00	2073	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-05-12T18:05:00.00	2075	B-0-0	 NAV: non-increasing time
+Y	16040003	1995-06-03T00:30:00.00	2554	C-0-0	 NAV: excessive speed
+Y	16040003	1995-06-03T00:35:00.00	2555	C-0-0	 NAV: excessive speed
+Y	16040003	1995-06-03T01:50:00.00	2562	C-0-0	 NAV: excessive speed
+Y	16040003	1995-06-03T01:55:00.00	2563	C-0-0	 NAV: excessive speed
+?	16040003	1995-06-03T06:40:00.00	2578	0-0-L	 GRAD: depth excessive

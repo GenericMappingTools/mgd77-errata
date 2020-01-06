@@ -1,0 +1,52 @@
+# Cruise 19050013 ID BRST_667 MGD77 FILE VERSION: 19991208 N_RECS: 10321
+# Examined: Mon Sep  6 12:54:00 2010 by mtchandl
+# Arguments:  -R297.7/305.6/-63.3/-60.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050013-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19050013-H13-09: Unknown IGRF specified (DGRF)
+Y-W-19050013-nav-00: Flagged 0.33 % of records with bad navigation
+Y-I-19050013-depth-01: RLS m: 1.00274 b: 0 rms: 27.7414 r: 0.998709 sig: 1 dec: 0
+N-E-19050013-depth-02: Regression slope 1.00274 different from 1. Recommended: [1]
+Y-W-19050013-depth-12: Integer precision
+# Errata: Data
+Y	19050013	1966-12-17T12:08:00.00	549	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:09:00.00	550	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:10:00.00	551	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:11:00.00	552	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:12:00.00	553	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:13:00.00	554	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:14:00.00	555	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:15:00.00	556	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:16:00.00	557	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T12:17:00.00	558	D-0-0	 NAV: on land
+?	19050013	1966-12-17T12:18:00.00	559	D-0-0	 NAV: on land
+?	19050013	1966-12-17T22:41:00.00	1182	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T22:42:00.00	1183	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T22:43:00.00	1184	D-0-0	 NAV: on land
+Y	19050013	1966-12-17T22:44:00.00	1185	D-0-0	 NAV: on land
+Y	19050013	1966-12-20T04:16:00.00	4389	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:17:00.00	4390	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:18:00.00	4391	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:19:00.00	4392	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:20:00.00	4393	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:21:00.00	4394	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:22:00.00	4395	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:23:00.00	4396	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:24:00.00	4397	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:25:00.00	4398	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-20T04:26:00.00	4399	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-23T09:56:00.00	9046	CD-0-0	 NAV: excessive speed, on land
+Y	19050013	1966-12-23T09:57:00.00	9047	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-23T09:58:00.00	9048	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-23T09:59:00.00	9049	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-26T21:41:00.00	9446	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-26T21:42:00.00	9447	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-26T21:43:00.00	9448	C-0-0	 NAV: excessive speed
+Y	19050013	1966-12-26T21:44:00.00	9449	C-0-0	 NAV: excessive speed
+?	19050013	1967-01-14T12:24:00.00	10320	D-0-0	 NAV: on land
+Y	19050013	1967-01-14T12:25:00.00	10321	D-0-0	 NAV: on land

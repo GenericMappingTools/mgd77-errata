@@ -1,0 +1,43 @@
+# Cruise 08010029 ID 74010905 MGD77 FILE VERSION: 19830324 N_RECS: 10511
+# Examined: Mon Jul 26 15:55:23 2010 by mtchandl
+# Arguments:  -R276.4/289.85/-32.95/8.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010029-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010029-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010029-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010029-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-08010029-depth-01: RLS m: 0.998953 b: 0 rms: 38.064 r: 0.999722 sig: 1 dec: 0
+N-E-08010029-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-I-08010029-faa-01: RLS m: 0.990084 b: -0.548265 rms: 4.89085 r: 0.998375 sig: 1 dec: 0
+N-E-08010029-faa-02: Regression slope 0.990084 different from 1. Recommended: [1]
+Y-W-08010029-faa-03: Regression offset -0.548265 different from 0.
+Y-E-08010029-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03853 b: -12.9853 rms: 43.3947 r: 0.89036 sig: 1 dec: 0). [Recompute]
+Y-W-08010029-twt-11: More recent bathymetry correction table available
+Y-W-08010029-mtf1-12: Integer precision
+Y-W-08010029-mag-12: Integer precision
+Y-W-08010029-faa-12: Integer precision
+# Errata: Data
+?	08010029	1974-05-30T16:44:57.00	1939	0-0-KL	 GRAD: twt, depth excessive
+?	08010029	1974-05-30T16:47:28.98	1941	0-0-KL	 GRAD: twt, depth excessive
+?	08010029	1974-06-01T00:05:50.04	2657	0-0-KL	 GRAD: twt, depth excessive
+?	08010029	1974-06-01T00:22:27.96	2666	0-0-K	 GRAD: twt excessive
+?	08010029	1974-06-03T10:53:26.94	3722	0-0-K	 GRAD: twt excessive
+Y	08010029	1974-06-10T00:30:05.94	6758	C-0-0	 NAV: excessive speed
+Y	08010029	1974-06-11T08:05:05.94	7509	C-0-0	 NAV: excessive speed
+?	08010029	1974-06-14T18:48:00.00	9566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-14T18:59:00.00	9568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:24:00.00	10327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:26:00.00	10329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:27:00.00	10330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:44:00.00	10343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:45:00.00	10344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:46:00.00	10346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:47:00.00	10347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:50:00.00	10350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:54:00.00	10354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010029	1974-06-16T02:55:00.00	10355	0-0-OQ	 GRAD: mtf1, mag excessive

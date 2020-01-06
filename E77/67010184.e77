@@ -1,0 +1,42 @@
+# Cruise 67010184 ID 89001011 MGD77 FILE VERSION: 19920630 N_RECS: 4940
+# Examined: Sun Jul 31 21:23:42 2011 by mtchandl
+# Arguments:  -R-15.45/-8.7/28.1/42.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Insufficient bathymetry precision. 
+# Errata: Header
+Y-I-67010184-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: -2147483648 dec: 1
+Y-I-67010184-faa-01: RLS m: 0.99783 b: -8.16183 rms: 8.74037 r: 0.99824 sig: 1 dec: 0
+N-E-67010184-faa-02: Regression slope 0.99783 different from 1. Recommended: [1]
+Y-W-67010184-faa-03: Regression offset -8.16183 different from 0.
+Y-I-67010184-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010184-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.04115 b: 18.5729 rms: 19.2528 r: 0.985425 sig: 1 dec: 0). [Recompute]
+Y-W-67010184-depth-12: Integer precision
+# Errata: Data
+?	67010184	1989-06-27T11:22:00.00	104	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:23:00.00	105	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:24:00.00	106	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:35:00.00	107	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:36:00.00	108	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:37:00.00	109	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:38:00.00	110	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:39:00.00	111	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:40:00.00	112	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:41:00.00	113	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:42:00.00	114	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:43:00.00	115	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:44:00.00	116	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:45:00.00	117	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:46:00.00	118	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:47:00.00	119	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:48:00.00	120	D-0-0	 NAV: on land
+?	67010184	1989-06-27T11:49:00.00	121	D-0-0	 NAV: on land
+?	67010184	1989-06-27T12:13:00.00	145	D-0-0	 NAV: on land
+?	67010184	1989-06-29T05:33:00.00	2502	0-0-V	 GRAD: eot excessive
+?	67010184	1989-06-29T05:36:00.00	2505	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010184	1989-06-30T20:01:00.00	4710	0-0-V	 GRAD: eot excessive
+?	67010184	1989-06-30T20:02:00.00	4711	0-0-UW	 GRAD: gobs, faa excessive
+?	67010184	1989-06-30T20:03:00.00	4712	0-0-UW	 GRAD: gobs, faa excessive
+?	67010184	1989-06-30T20:05:00.00	4714	0-0-V	 GRAD: eot excessive

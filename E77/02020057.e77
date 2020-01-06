@@ -1,0 +1,29 @@
+# Cruise 02020057 ID A2075L07 MGD77 FILE VERSION: 19820805 N_RECS: 7787
+# Examined: Fri Mar 26 21:43:19 2010 by mtchandl
+# Arguments:  -R341.8/351.7/28.15/39.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa.
+# Errata: Header
+Y-I-02020057-depth-01: RLS m: 0.999651 b: 0 rms: 21.7639 r: 0.999859 sig: 1 dec: 0
+Y-I-02020057-faa-01: RLS m: 0.999595 b: 5.47963 rms: 9.35414 r: 0.996014 sig: 1 dec: 1
+Y-W-02020057-faa-03: Regression offset 5.47963 different from 0.
+N-E-02020057-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020057-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.714679 b: -4.67357 rms: 38.4747 r: 0.867142 sig: 1 dec: 1). [Recompute]
+Y-E-02020057-mag-07: Anomaly differs from mtf1-IGRF (m: 0.791849 b: 38.8998 rms: 92.6469 r: 0.783164 sig: 1 dec: 1). [Recompute]
+Y-W-02020057-mtf1-12: Integer precision
+Y-W-02020057-mag-12: Integer precision
+# Errata: Data
+?	02020057	1973-06-26T13:45:00.00	1471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020057	1973-06-26T13:50:00.00	1472	0-Q-0	 VAL: mag invalid
+?	02020057	1973-06-26T14:05:00.00	1477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020057	1973-06-26T14:10:00.00	1480	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020057	1973-06-26T14:20:00.00	1486	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020057	1973-06-27T00:15:00.00	1705	0-0-V	 GRAD: eot excessive
+?	02020057	1973-06-28T10:55:00.00	2422	0-0-V	 GRAD: eot excessive
+?	02020057	1973-06-29T15:40:00.00	3046	0-0-V	 GRAD: eot excessive
+?	02020057	1973-06-30T02:35:00.00	3280	0-0-V	 GRAD: eot excessive
+?	02020057	1973-06-30T11:25:00.00	3571	0-0-V	 GRAD: eot excessive
+?	02020057	1973-07-02T00:40:00.00	4424	0-0-V	 GRAD: eot excessive

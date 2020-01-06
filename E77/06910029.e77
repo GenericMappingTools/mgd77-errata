@@ -1,0 +1,68 @@
+# Cruise 06910029 ID P686CB MGD77 FILE VERSION: 19910418 N_RECS: 5863
+# Examined: Fri Jul 16 17:19:57 2010 by mtchandl
+# Arguments:  -R298.1/299.3/14.9/15.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+N-E-06910029-H04-03: Invalid Survey Departure Day: (11) [12]
+Y-W-06910029-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-06910029-depth-01: RLS m: 1.0035 b: 0 rms: 77.7309 r: 0.994796 sig: 1 dec: 0
+N-E-06910029-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-06910029-faa-01: RLS m: 0.982457 b: 4.17621 rms: 5.30491 r: 0.996225 sig: 1 dec: 0
+N-E-06910029-faa-02: Regression slope 0.982457 different from 1. Recommended: [1]
+Y-W-06910029-faa-03: Regression offset 4.17621 different from 0.
+Y-I-06910029-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910029-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.828793 b: 39.0948 rms: 41.9417 r: 0.905379 sig: 1 dec: 1). [Recompute]
+N-E-06910029-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.952725 b: 2.14086 rms: 10.7248 r: 0.976622 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-06910029-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06910029	1986-05-12T02:17:00.00	134	0-0-KL	 GRAD: twt, depth excessive
+Y	06910029	1986-05-13T04:29:00.00	922	D-0-0	 NAV: on land
+Y	06910029	1986-05-13T04:30:00.00	923	D-0-0	 NAV: on land
+?	06910029	1986-05-14T06:24:00.00	1644	D-0-0	 NAV: on land
+Y	06910029	1986-05-14T06:25:00.00	1645	D-0-0	 NAV: on land
+Y	06910029	1986-05-14T06:26:00.00	1646	D-0-0	 NAV: on land
+Y	06910029	1986-05-14T06:27:00.00	1647	D-0-0	 NAV: on land
+Y	06910029	1986-05-14T06:28:00.00	1648	D-0-0	 NAV: on land
+Y	06910029	1986-05-14T06:29:00.00	1649	D-0-0	 NAV: on land
+?	06910029	1986-05-14T06:30:00.00	1650	D-0-0	 NAV: on land
+?	06910029	1986-05-14T09:28:00.00	1667	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-14T09:29:00.00	1668	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-14T09:34:00.00	1673	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-14T09:45:00.00	1684	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-14T09:46:00.00	1685	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-15T12:01:00.00	2391	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-15T12:02:00.00	2392	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-17T09:24:00.00	3270	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-17T09:25:00.00	3271	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-17T09:27:00.00	3273	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-17T09:28:00.00	3274	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-17T09:30:00.00	3276	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-17T12:19:00.00	3445	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T05:01:00.00	3816	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:16:00.00	4062	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:23:00.00	4069	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-18T12:24:00.00	4070	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-18T12:26:00.00	4072	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:27:00.00	4073	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:29:00.00	4075	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:30:00.00	4076	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-18T12:36:00.00	4082	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-18T12:39:00.00	4085	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-20T02:29:00.00	4658	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-20T11:09:00.00	5070	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-20T11:10:00.00	5071	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-20T11:37:00.00	5098	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-20T11:44:00.00	5105	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-20T11:48:00.00	5109	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T02:18:00.00	5396	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T06:11:00.00	5552	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-21T06:12:00.00	5553	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T07:57:00.00	5658	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T07:58:00.00	5659	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T07:59:00.00	5660	0-0-KL	 GRAD: twt, depth excessive
+?	06910029	1986-05-21T10:22:00.00	5803	0-0-K	 GRAD: twt excessive
+?	06910029	1986-05-21T10:23:00.00	5804	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,27 @@
+# Cruise 08020005 ID 77102000 MGD77 FILE VERSION: 19840223 N_RECS: 2634
+# Examined: Mon Jul 26 17:31:31 2010 by mtchandl
+# Arguments:  -R279.35/300.4/10.6/28.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-08020005-H13-10: Survey year (1977) outside magnetic reference field Unused time range (9999-9999)
+Y-W-08020005-nav-00: Flagged 0.34 % of records with bad navigation
+Y-I-08020005-depth-01: RLS m: 0.999202 b: 0 rms: 24.4636 r: 0.999852 sig: 1 dec: 0
+Y-W-08020005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08020005	1977-10-21T11:46:00.00	18	D-0-0	 NAV: on land
+Y	08020005	1977-10-21T12:08:00.00	19	D-0-0	 NAV: on land
+Y	08020005	1977-10-21T12:13:00.00	20	D-0-0	 NAV: on land
+Y	08020005	1977-10-21T13:52:00.00	21	D-0-0	 NAV: on land
+Y	08020005	1977-10-21T21:30:00.00	22	D-0-0	 NAV: on land
+Y	08020005	1977-10-21T21:44:00.00	23	D-0-0	 NAV: on land
+?	08020005	1977-11-11T13:21:26.94	742	0-0-KL	 GRAD: twt, depth excessive
+?	08020005	1977-11-19T22:55:59.04	1684	0-0-KL	 GRAD: twt, depth excessive
+?	08020005	1977-11-19T22:59:59.04	1685	0-0-KL	 GRAD: twt, depth excessive
+Y	08020005	1977-11-26T22:43:00.00	2446	D-0-0	 NAV: on land
+Y	08020005	1977-11-29T04:58:00.00	2447	D-0-0	 NAV: on land
+Y	08020005	1977-11-29T08:54:00.00	2449	D-0-0	 NAV: on land
+?	08020005	1977-11-29T09:05:00.00	2450	D-0-0	 NAV: on land

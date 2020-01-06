@@ -1,0 +1,18 @@
+# Cruise 15080030 ID SIXP-1HO MGD77 FILE VERSION: 19800226 N_RECS: 6904
+# Examined: Sun Jun  1 14:27:40 2008 by mtchandl
+# Arguments:  -R192.9/206.95/8.95/21.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15080030-H04-03: Invalid Survey Departure Day: (30) [31]
+Y-E-15080030-H04-06: Invalid Survey Arrival Day: (18) [19]
+Y-I-15080030-depth-01: RLS m: 0.996125 b: 0 rms: 178.315 r: 0.991543 sig: 1 dec: 1
+Y-E-15080030-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.978584 b: -6.36615 rms: 44.6196 r: 0.958273 sig: 1 dec: 1). [Recompute]
+Y-W-15080030-mtf1-12: Integer multiple of 5 precision
+Y-W-15080030-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080030	1966-04-07T07:25:00.00	1750	0-0-K	 GRAD: twt excessive
+?	15080030	1966-04-13T05:55:00.00	4294	0-0-K	 GRAD: twt excessive

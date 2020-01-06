@@ -1,0 +1,49 @@
+# Cruise J1030010 ID HM7503 MGD77 FILE VERSION: 19880928 N_RECS: 2762
+# Examined: Sun Aug  7 07:25:26 2011 by mtchandl
+# Arguments:  -R130.05/131.9/33.8/36 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1030010-H04-03: Invalid Survey Departure Day: (19) [31]
+N-E-J1030010-H04-06: Invalid Survey Arrival Day: (23) [21]
+Y-W-J1030010-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1030010-nav-00: Flagged 0.98 % of records with bad navigation
+Y-I-J1030010-depth-01: RLS m: 1.00374 b: 0 rms: 1.39404 r: 0.999518 sig: 1 dec: 0
+N-E-J1030010-depth-02: Regression slope 1.00374 different from 1. Recommended: [1]
+Y-I-J1030010-faa-01: RLS m: 0.947024 b: 1.23989 rms: 6.68802 r: 0.872289 sig: 1 dec: 0
+N-E-J1030010-faa-02: Regression slope 0.947024 different from 1. Recommended: [1]
+Y-W-J1030010-faa-03: Regression offset 1.23989 different from 0.
+Y-I-J1030010-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1030010-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.319101 b: 11.9301 rms: 35.111 r: 0.582568 sig: 1 dec: 1). [Recompute]
+Y-W-J1030010-depth-12: Integer precision
+# Errata: Data
+Y	J1030010	1975-06-02T17:40:00.00	360	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-02T18:05:00.00	365	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-03T15:50:00.00	470	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-03T15:55:00.00	471	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-03T16:00:00.00	472	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-03T16:05:00.00	473	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-04T05:15:00.00	625	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-04T06:00:00.00	634	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-04T06:10:00.00	636	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-07T11:05:00.00	707	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-07T11:10:00.00	708	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T15:45:00.00	1008	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T15:50:00.00	1009	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T15:55:00.00	1010	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:00:00.00	1011	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:05:00.00	1012	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:10:00.00	1013	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:15:00.00	1014	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:20:00.00	1015	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:25:00.00	1016	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:30:00.00	1017	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-08T16:35:00.00	1018	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-20T01:45:00.00	2448	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-20T01:55:00.00	2450	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-20T05:55:00.00	2460	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-20T06:45:00.00	2470	C-0-0	 NAV: excessive speed
+Y	J1030010	1975-06-20T07:05:00.00	2474	C-0-0	 NAV: excessive speed

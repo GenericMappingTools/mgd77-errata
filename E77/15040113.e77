@@ -1,0 +1,19 @@
+# Cruise 15040113 ID RAMA07WT MGD77 FILE VERSION: 19870225 N_RECS: 9001
+# Examined: Sat May 24 09:51:45 2008 by mtchandl
+# Arguments:  -R103.95/144.6/1.2/13.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040113-depth-01: RLS m: 1 b: 0 rms: 158.846 r: 0.998627 sig: 1 dec: 1
+Y-E-15040113-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.998522 b: 167.84 rms: 169.511 r: 0.98763 sig: 1 dec: 1). [Recompute]
+Y-W-15040113-twt-11: More recent bathymetry correction table available
+Y-W-15040113-mtf1-12: Integer precision
+Y-W-15040113-mag-12: Integer precision
+# Errata: Data
+?	15040113	1980-11-07T17:00:00.00	2048	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040113	1980-11-07T17:05:00.00	2049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040113	1980-11-22T19:35:00.00	6399	0-0-K	 GRAD: twt excessive
+?	15040113	1980-11-24T04:30:00.00	6794	0-0-K	 GRAD: twt excessive

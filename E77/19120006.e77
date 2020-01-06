@@ -1,0 +1,89 @@
+# Cruise 19120006 ID FARN0887 MGD77 FILE VERSION: 19941231 N_RECS: 18470
+# Examined: Tue Sep 14 16:11:18 2010 by mtchandl
+# Arguments:  -R169.35/187.55/47.95/52.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied -61 mGal DC shift to faa. Flagged three bathymetry offsets. Flagged magnetic anomnalies for recalculation.
+# Errata: Header
+Y-W-19120006-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19120006-depth-01: RLS m: 1.00067 b: 0 rms: 34.4429 r: 0.999604 sig: 1 dec: 0
+N-E-19120006-depth-02: Regression slope 1.00067 different from 1. Recommended: [1]
+Y-I-19120006-faa-01: RLS m: 0.973118 b: 61.4042 rms: 62.4813 r: 0.999253 sig: 1 dec: 0
+N-E-19120006-faa-02: Regression slope 0.973118 different from 1. Recommended: [1]
+Y-E-19120006-faa-03: Regression offset 61.4042 different from 0. Recommended: [-61]
+Y-E-19120006-mag-07: Anomaly differs from mtf1-IGRF (m: 0.966846 b: -32.2286 rms: 43.7594 r: 0.996663 sig: 1 dec: 1). [Recompute]
+Y-E-19120006-depth-08: Extended offset from grid [13528-13873]
+Y-E-19120006-depth-08: Extended offset from grid [13873-14183]
+Y-E-19120006-depth-08: Extended offset from grid [15111-16713]
+N-E-19120006-faa-08: Extended offset from grid [1356-16742]
+N-E-19120006-faa-08: Extended offset from grid [16743-18470]
+Y-W-19120006-depth-12: Integer precision
+Y-W-19120006-mtf1-12: Integer precision
+Y-W-19120006-mag-12: Integer precision
+Y-W-19120006-faa-12: Integer precision
+# Errata: Data
+?	19120006	1987-09-10T18:20:00.00	8218	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-10T18:22:00.00	8219	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-10T18:24:00.00	8220	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-15T02:16:00.00	11329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T02:18:00.00	11330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T02:24:00.00	11333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T02:26:00.00	11334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:14:00.00	11388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:16:00.00	11389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:18:00.00	11390	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:20:00.00	11391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:22:00.00	11392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:24:00.00	11393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:26:00.00	11394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T04:46:00.00	11404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T19:38:00.00	11850	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-15T19:40:00.00	11851	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-15T19:42:00.00	11852	0-0-K	 GRAD: twt excessive
+?	19120006	1987-09-15T21:26:00.00	11904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-15T21:28:00.00	11905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T01:40:00.00	12031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T01:42:00.00	12032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T05:14:00.00	12138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T05:16:00.00	12139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T05:20:00.00	12141	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T05:22:00.00	12142	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T05:24:00.00	12143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T05:26:00.00	12144	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T05:28:00.00	12145	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T06:20:00.00	12171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T06:22:00.00	12172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T06:26:00.00	12174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T06:32:00.00	12177	0-0-O	 GRAD: mtf1 excessive
+?	19120006	1987-09-16T06:58:00.00	12190	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T07:32:00.00	12207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T07:34:00.00	12208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T07:36:00.00	12209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T16:32:00.00	12477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T16:34:00.00	12478	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T16:36:00.00	12479	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T16:38:00.00	12480	0-Q-O	 VAL: mag invalid - GRAD: mtf1 excessive
+?	19120006	1987-09-16T16:40:00.00	12481	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T16:42:00.00	12482	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T16:44:00.00	12483	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T16:46:00.00	12484	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T16:48:00.00	12485	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T16:50:00.00	12486	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T18:16:00.00	12529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:18:00.00	12530	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:20:00.00	12531	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:22:00.00	12532	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:24:00.00	12533	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T18:26:00.00	12534	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T18:28:00.00	12535	0-Q-0	 VAL: mag invalid
+?	19120006	1987-09-16T18:30:00.00	12536	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:32:00.00	12537	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:34:00.00	12538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:36:00.00	12539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-16T18:38:00.00	12540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19120006	1987-09-21T08:18:00.00	15617	D-0-0	 NAV: on land
+Y	19120006	1987-09-21T08:20:00.00	15618	D-0-0	 NAV: on land
+?	19120006	1987-09-21T08:22:00.00	15619	D-0-0	 NAV: on land
+?	19120006	1987-09-21T08:24:00.00	15620	D-0-0	 NAV: on land

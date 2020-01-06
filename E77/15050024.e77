@@ -1,0 +1,28 @@
+# Cruise 15050024 ID DSDP26GC MGD77 FILE VERSION: 19800226 N_RECS: 7135
+# Examined: Wed May 28 12:57:22 2008 by mtchandl
+# Arguments:  -R23.05/115.2/-83.1/-23.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050024-H11-03: Invalid Bottommost Latitude: (-38) [-84]
+N-E-15050024-H11-05: Invalid Leftmost Longitude: (+031) [+023]
+Y-W-15050024-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15050024-H16-01: Invalid Number of Ten Degree Identifiers: (14) [15]
+Y-W-15050024-H16-06: Ten Degree Identifier 3802 not marked in header but block was crossed
+Y-W-15050024-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15050024-depth-01: RLS m: 0.996125 b: 0 rms: 127.718 r: 0.995939 sig: 1 dec: 1
+Y-E-15050024-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03353 b: -276.447 rms: 299.452 r: 0.884262 sig: 1 dec: 1). [Recompute]
+Y-W-15050024-twt-11: More recent bathymetry correction table available
+Y-W-15050024-mtf1-12: Integer multiple of 5 precision
+Y-W-15050024-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15050024	1972-09-23T22:29:00.00	1877	CD-0-0	 NAV: excessive speed, on land
+?	15050024	1972-10-10T07:25:00.00	4698	0-0-KL	 GRAD: twt, depth excessive
+?	15050024	1972-10-10T17:55:00.00	4825	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050024	1972-10-10T18:10:00.00	4828	0-0-O	 GRAD: mtf1 excessive
+?	15050024	1972-10-10T18:35:00.00	4833	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050024	1972-10-10T18:40:00.00	4834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050024	1972-10-29T08:35:00.00	7027	0-0-OQ	 GRAD: mtf1, mag excessive

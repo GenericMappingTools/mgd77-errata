@@ -1,0 +1,19 @@
+# Cruise 67030006 ID 86002011 MGD77 FILE VERSION: 19880928 N_RECS: 27290
+# Examined: Sun Jul 31 22:06:06 2011 by mtchandl
+# Arguments:  -R32.4/35.65/25.3/29.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-67030006-H04-01: Invalid Survey Departure Year: (1988) [1986]
+Y-E-67030006-H04-04: Invalid Survey Arrival Year: (1988) [1986]
+Y-W-67030006-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-67030006-depth-01: RLS m: 0.996178 b: 0 rms: 11.7363 r: 0.999691 sig: 1 dec: 0
+N-E-67030006-depth-02: Regression slope 0.996178 different from 1. Recommended: [1]
+Y-W-67030006-depth-12: Integer precision
+# Errata: Data
+?	67030006	1986-03-23T19:12:00.00	4392	0-0-L	 GRAD: depth excessive
+Y	67030006	1986-03-29T05:29:00.00	12040	B-0-0	 NAV: non-increasing time
+?	67030006	1986-04-03T10:22:00.00	19124	0-0-L	 GRAD: depth excessive

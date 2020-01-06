@@ -1,0 +1,28 @@
+# Cruise 02030032 ID KN151L2 MGD77 FILE VERSION: 20031230 N_RECS: 49595
+# Examined: Fri Apr  2 15:45:51 2010 by mtchandl
+# Arguments:  -R304.65/351.75/37.65/64.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-02030032-H04-06: Invalid Survey Arrival Day: (04) [03]
+Y-W-02030032-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-02030032-depth-01: RLS m: 0.996417 b: 0 rms: 36.494 r: 0.999665 sig: 1 dec: 0
+N-E-02030032-depth-02: Regression slope 0.996417 different from 1. Recommended: [1]
+Y-W-02030032-depth-12: Integer precision
+# Errata: Data
+Y	02030032	1997-05-30T18:27:00.00	1133	C-0-0	 NAV: excessive speed
+?	02030032	1997-06-02T23:30:00.00	5738	0-0-L	 GRAD: depth excessive
+?	02030032	1997-06-10T00:06:00.00	15816	0-0-L	 GRAD: depth excessive
+?	02030032	1997-06-10T00:07:00.00	15817	0-0-L	 GRAD: depth excessive
+?	02030032	1997-06-10T00:09:00.00	15819	0-0-L	 GRAD: depth excessive
+?	02030032	1997-06-10T00:10:00.00	15820	0-0-L	 GRAD: depth excessive
+Y	02030032	1997-06-10T15:07:00.00	16712	C-0-0	 NAV: excessive speed
+?	02030032	1997-06-12T07:05:00.00	19106	0-0-L	 GRAD: depth excessive
+?	02030032	1997-06-12T07:07:00.00	19108	0-0-L	 GRAD: depth excessive
+Y	02030032	1997-06-12T19:04:00.00	19823	C-0-0	 NAV: excessive speed
+Y	02030032	1997-06-24T13:45:00.00	36754	C-0-0	 NAV: excessive speed
+Y	02030032	1997-06-24T13:49:00.00	36757	C-0-0	 NAV: excessive speed
+Y	02030032	1997-06-25T20:58:00.00	38623	C-0-0	 NAV: excessive speed

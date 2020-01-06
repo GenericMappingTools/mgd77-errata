@@ -1,0 +1,30 @@
+# Cruise 17080011 ID A118L12 MGD77 FILE VERSION: 19900702 N_RECS: 22844
+# Examined: Mon Sep  6 12:37:45 2010 by mtchandl
+# Arguments:  -R144.55/202.15/6.85/21.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-17080011-H04-06: Invalid Survey Arrival Day: (23) [31]
+Y-E-17080011-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-W-17080011-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-17080011-depth-01: RLS m: 1.00035 b: 0 rms: 12.0852 r: 0.999969 sig: 1 dec: 0
+N-E-17080011-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-W-17080011-depth-12: Integer precision
+# Errata: Data
+?	17080011	1987-03-04T19:39:01.02	3439	0-0-KL	 GRAD: twt, depth excessive
+?	17080011	1987-03-07T19:30:06.00	5460	0-0-K	 GRAD: twt excessive
+Y	17080011	1987-03-13T00:00:36.00	9025	C-0-0	 NAV: excessive speed
+Y	17080011	1987-03-18T23:26:12.00	13783	C-0-0	 NAV: excessive speed
+?	17080011	1987-03-25T17:41:13.98	17442	0-0-KL	 GRAD: twt, depth excessive
+?	17080011	1987-03-25T17:43:19.98	17444	0-0-K	 GRAD: twt excessive
+?	17080011	1987-03-25T18:04:52.02	17463	0-0-KL	 GRAD: twt, depth excessive
+Y	17080011	1987-03-26T11:40:10.02	17878	B-0-0	 NAV: non-increasing time
+Y	17080011	1987-03-27T22:49:04.98	19398	C-0-0	 NAV: excessive speed
+Y	17080011	1987-03-27T22:50:28.98	19399	C-0-0	 NAV: excessive speed
+Y	17080011	1987-03-27T22:51:51.00	19400	C-0-0	 NAV: excessive speed
+Y	17080011	1987-03-27T22:53:19.98	19401	C-0-0	 NAV: excessive speed
+Y	17080011	1987-03-27T22:54:22.02	19402	C-0-0	 NAV: excessive speed
+?	17080011	1987-03-28T00:46:52.98	19485	0-0-K	 GRAD: twt excessive

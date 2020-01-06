@@ -1,0 +1,50 @@
+# Cruise 08010048 ID 79080802 MGD77 FILE VERSION: 19830818 N_RECS: 22377
+# Examined: Mon Nov 23 14:48:57 2009 by mtchandl
+# Arguments:  -R200.4/212.2/-17.55/21.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-08010048-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-08010048-depth-01: RLS m: 0.999527 b: 0 rms: 34.5847 r: 0.999485 sig: 1 dec: 0
+Y-E-08010048-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02146 b: -6.66669 rms: 58.0008 r: 0.978567 sig: 1 dec: 1). [Recompute]
+Y-W-08010048-twt-11: More recent bathymetry correction table available
+Y-W-08010048-mtf1-12: Integer precision
+Y-W-08010048-mag-12: Integer precision
+# Errata: Data
+?	08010048	1979-09-13T11:32:47.04	11292	0-0-K	 GRAD: twt excessive
+?	08010048	1979-09-14T19:01:03.96	13803	0-0-K	 GRAD: twt excessive
+?	08010048	1979-09-14T22:33:00.00	14026	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:35:00.00	14027	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:38:00.00	14028	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:40:00.00	14029	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:43:00.00	14030	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:45:00.00	14031	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:48:00.00	14032	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:50:00.00	14033	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:53:00.00	14034	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:55:00.00	14035	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T22:58:00.00	14036	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T23:00:00.00	14037	D-0-0	 NAV: on land
+Y	08010048	1979-09-14T23:03:00.00	14038	D-0-0	 NAV: on land
+?	08010048	1979-09-15T00:33:00.00	14074	D-0-0	 NAV: on land
+Y	08010048	1979-09-15T00:35:00.00	14075	D-0-0	 NAV: on land
+Y	08010048	1979-09-15T00:38:00.00	14076	D-0-0	 NAV: on land
+Y	08010048	1979-09-15T00:40:00.00	14077	D-0-0	 NAV: on land
+Y	08010048	1979-09-15T00:43:00.00	14078	D-0-0	 NAV: on land
+Y	08010048	1979-09-15T00:45:00.00	14079	D-0-0	 NAV: on land
+?	08010048	1979-09-15T00:45:31.02	14080	D-0-0	 NAV: on land
+?	08010048	1979-09-16T22:32:00.00	16940	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010048	1979-09-16T22:34:00.00	16943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010048	1979-09-16T22:35:00.00	16944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010048	1979-09-16T22:36:00.00	16945	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010048	1979-09-19T20:45:00.00	22366	D-0-0	 NAV: on land
+Y	08010048	1979-09-19T20:48:00.00	22367	D-0-0	 NAV: on land
+Y	08010048	1979-09-19T20:50:00.00	22368	D-0-0	 NAV: on land
+Y	08010048	1979-09-19T20:53:00.00	22369	D-0-0	 NAV: on land
+?	08010048	1979-09-19T20:55:00.00	22370	D-0-0	 NAV: on land
+?	08010048	1979-09-19T21:08:00.00	22375	D-0-0	 NAV: on land
+?	08010048	1979-09-19T21:11:00.00	22376	D-0-0	 NAV: on land
+?	08010048	1979-09-19T21:14:00.00	22377	D-0-0	 NAV: on land

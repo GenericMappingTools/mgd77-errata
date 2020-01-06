@@ -1,0 +1,35 @@
+# Cruise 01020009 ID ELT09 MGD77 FILE VERSION: 19800718 N_RECS: 15451
+# Examined: Wed Jul  8 20:27:56 2009 by mtchandl
+# Arguments:  -R277.8/327.05/-59.25/-32.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01020009-depth-01: RLS m: 0.999267 b: 0 rms: 33.0971 r: 0.999763 sig: 1 dec: 0
+N-E-01020009-depth-02: Regression slope 0.999267 different from 1. Recommended: [1]
+Y-E-01020009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.9402 b: -144.975 rms: 167.185 r: 0.881997 sig: 1 dec: 1). [Recompute]
+N-E-01020009-depth-08: Extended offset from grid [283-15169]
+Y-W-01020009-twt-11: More recent bathymetry correction table available
+Y-W-01020009-mtf1-12: Integer precision
+Y-W-01020009-mag-12: Integer precision
+# Errata: Data
+?	01020009	1963-08-06T08:45:00.00	1065	0-0-K	 GRAD: twt excessive
+?	01020009	1963-08-10T10:31:00.00	2257	0-0-K	 GRAD: twt excessive
+?	01020009	1963-08-21T00:42:00.00	4391	0-0-K	 GRAD: twt excessive
+?	01020009	1963-08-23T17:36:00.00	5073	0-0-KL	 GRAD: twt, depth excessive
+?	01020009	1963-08-24T02:08:00.00	5172	0-0-KL	 GRAD: twt, depth excessive
+?	01020009	1963-08-24T03:19:00.00	5189	0-0-K	 GRAD: twt excessive
+?	01020009	1963-08-24T06:17:00.00	5216	0-0-KL	 GRAD: twt, depth excessive
+?	01020009	1963-08-24T23:45:00.00	5476	0-0-KL	 GRAD: twt, depth excessive
+?	01020009	1963-09-07T14:30:00.00	8637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020009	1963-09-07T14:45:00.00	8644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020009	1963-09-16T11:00:00.00	11035	0-0-KL	 GRAD: twt, depth excessive
+?	01020009	1963-09-19T17:00:00.00	12025	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-20T04:02:00.00	12223	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-20T04:16:00.00	12226	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-20T04:35:00.00	12233	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-20T17:48:00.00	12633	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-21T02:55:00.00	12849	0-0-K	 GRAD: twt excessive
+?	01020009	1963-09-24T08:16:00.00	14348	0-0-KL	 GRAD: twt, depth excessive

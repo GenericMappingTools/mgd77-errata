@@ -1,0 +1,28 @@
+# Cruise 03020005 ID POL7101 MGD77 FILE VERSION: 19870305 N_RECS: 11383
+# Examined: Fri Jul 10 17:07:12 2009 by mtchandl
+# Arguments:  -R178.35/282.8/-30.1/42.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-03020005-H13-01: Invalid Magnetics Digitizing Rate: (01.) [01.]
+Y-W-03020005-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-03020005-depth-01: RLS m: 0.999651 b: 0 rms: 27.676 r: 0.999729 sig: 1 dec: 0
+Y-I-03020005-faa-01: RLS m: 0.998834 b: -1.67671 rms: 8.35213 r: 0.997092 sig: 1 dec: 1
+Y-W-03020005-faa-03: Regression offset -1.67671 different from 0.
+Y-E-03020005-mag-07: Anomaly differs from mtf1-IGRF (m: 0.864406 b: -58.0719 rms: 132.91 r: 0.785767 sig: 1 dec: 1). [Recompute]
+N-E-03020005-faa-08: Extended offset from grid [9357-10495]
+N-E-03020005-depth-08: Extended offset from grid [3-11383]
+Y-W-03020005-mtf1-12: Integer precision
+Y-W-03020005-mag-12: Integer precision
+# Errata: Data
+?	03020005	1971-04-17T05:00:00.00	297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020005	1971-04-20T20:45:00.00	1251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020005	1971-04-20T23:15:00.00	1282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020005	1971-04-21T10:45:00.00	1431	0-0-KL	 GRAD: twt, depth excessive
+?	03020005	1971-04-27T04:06:00.00	3147	0-0-K	 GRAD: twt excessive
+?	03020005	1971-04-29T00:25:00.00	3709	0-0-K	 GRAD: twt excessive
+?	03020005	1971-05-05T03:46:00.00	5563	0-0-K	 GRAD: twt excessive
+?	03020005	1971-05-16T23:45:00.00	8257	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,36 @@
+# Cruise 01020015 ID ELT15 MGD77 FILE VERSION: 19800718 N_RECS: 12332
+# Examined: Fri Mar 19 01:13:43 2010 by mtchandl
+# Arguments:  -R174.75/288.4/-61.2/-33 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Loss of bottom tracking around 9500 km along-track.
+# Errata: Header
+Y-W-01020015-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-01020015-depth-01: RLS m: 0.996863 b: 0 rms: 137.8 r: 0.991884 sig: 1 dec: 0
+N-E-01020015-depth-02: Regression slope 0.996863 different from 1. Recommended: [1]
+Y-E-01020015-depth-08: Extended offset from grid [7939-8262]
+Y-W-01020015-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01020015	1964-10-15T00:26:00.00	3677	0-0-KL	 GRAD: twt, depth excessive
+?	01020015	1964-10-23T15:35:00.00	4857	0-0-K	 GRAD: twt excessive
+?	01020015	1964-10-23T22:56:00.00	4902	0-0-KL	 GRAD: twt, depth excessive
+Y	01020015	1964-10-26T16:18:00.00	5276	C-0-0	 NAV: excessive speed
+?	01020015	1964-10-28T07:00:00.00	5464	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-03T19:29:00.00	6389	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-04T19:01:00.00	6636	0-0-KL	 GRAD: twt, depth excessive
+?	01020015	1964-11-05T08:46:00.00	6820	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-05T08:47:00.00	6821	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-05T09:12:00.00	6825	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-06T00:04:00.00	6958	0-0-KL	 GRAD: twt, depth excessive
+?	01020015	1964-11-07T12:26:00.00	7284	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-07T16:02:00.00	7326	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-13T02:05:00.00	8272	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-15T15:20:00.00	8726	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-16T01:11:00.00	8818	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-16T02:04:00.00	8830	0-0-KL	 GRAD: twt, depth excessive
+?	01020015	1964-11-16T22:40:00.00	8930	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-17T00:16:00.00	8942	0-0-K	 GRAD: twt excessive
+?	01020015	1964-11-17T00:20:00.00	8943	0-0-KL	 GRAD: twt, depth excessive
+?	01020015	1964-11-17T21:27:00.00	9031	0-0-K	 GRAD: twt excessive

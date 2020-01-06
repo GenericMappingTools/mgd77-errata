@@ -1,0 +1,19 @@
+# Cruise 09100013 ID KEA07-68 MGD77 FILE VERSION: 19790329 N_RECS: 739
+# Examined: Mon Aug  9 12:11:44 2010 by mtchandl
+# Arguments:  -R278.7/284.85/30.1/36.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09100013-nav-00: Flagged 0.14 % of records with bad navigation
+Y-I-09100013-depth-01: RLS m: 1.00175 b: 0 rms: 4.32917 r: 0.9998 sig: 1 dec: 0
+Y-I-09100013-faa-01: RLS m: 0.919571 b: 1.68681 rms: 4.09395 r: 0.986588 sig: 1 dec: 0
+N-E-09100013-faa-02: Regression slope 0.919571 different from 1. Recommended: [1]
+Y-W-09100013-faa-03: Regression offset 1.68681 different from 0.
+Y-W-09100013-depth-12: Integer precision
+# Errata: Data
+?	09100013	1968-03-17T09:00:00.00	117	0-0-W	 GRAD: faa excessive
+?	09100013	1968-03-17T09:05:00.00	118	0-0-W	 GRAD: faa excessive
+Y	09100013	1968-03-17T15:35:00.00	193	C-0-0	 NAV: excessive speed

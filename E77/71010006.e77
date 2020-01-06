@@ -1,0 +1,16 @@
+# Cruise 71010006 ID RSA76 MGD77 FILE VERSION: 19931231 N_RECS: 19493
+# Examined: Sun Jul 31 22:11:58 2011 by mtchandl
+# Arguments:  -R-12.1/34.35/-70/-33.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-71010006-H11-05: Invalid Leftmost Longitude: (-012) [-013]
+Y-E-71010006-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-71010006-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-71010006-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-71010006-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-71010006-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-71010006-H14-03: Invalid Gravity Theoretical Formula Code: (9) [

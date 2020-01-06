@@ -1,0 +1,71 @@
+# Cruise 08010022 ID 72110807 MGD77 FILE VERSION: 19830518 N_RECS: 13938
+# Examined: Mon Jul 26 15:51:21 2010 by mtchandl
+# Arguments:  -R210.4/260.8/-28.05/-17.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010022-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-08010022-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010022-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010022-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010022-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-08010022-depth-01: RLS m: 1.00091 b: 0 rms: 41.5174 r: 0.997591 sig: 1 dec: 0
+Y-I-08010022-faa-01: RLS m: 0.99256 b: 1.29174 rms: 7.98228 r: 0.983295 sig: 1 dec: 1
+Y-E-08010022-mag-07: Anomaly differs from mtf1-IGRF (m: 0.961916 b: -225.197 rms: 230.964 r: 0.976167 sig: 1 dec: 0). [Recompute]
+Y-W-08010022-twt-11: More recent bathymetry correction table available
+Y-W-08010022-mtf1-12: Integer precision
+Y-W-08010022-mag-12: Integer precision
+Y-W-08010022-faa-12: Integer precision
+# Errata: Data
+?	08010022	1973-05-10T21:24:00.00	5088	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-15T12:10:36.00	7437	0-0-K	 GRAD: twt excessive
+?	08010022	1973-05-18T05:02:00.00	8750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-18T13:28:00.00	8960	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-20T11:25:11.94	9743	0-0-K	 GRAD: twt excessive
+?	08010022	1973-05-22T08:44:00.00	10820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-22T08:45:00.00	10822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:46:45.06	11528	D-0-0	 NAV: on land
+?	08010022	1973-05-23T12:48:00.00	11529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:50:00.00	11530	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:51:00.00	11532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:52:00.00	11534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:53:00.00	11535	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:54:00.00	11536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:57:00.00	11538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T12:58:00.00	11540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T13:47:00.00	11588	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:04:00.00	11637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:06:00.00	11638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:08:00.00	11640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:10:00.00	11646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:12:00.00	11649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:14:00.00	11650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T15:28:00.00	11668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-23T16:12:54.00	11688	D-0-0	 NAV: on land
+?	08010022	1973-05-23T16:13:00.00	11689	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T16:15:05.94	11690	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T16:16:00.00	11691	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T17:20:00.00	11692	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T19:08:00.00	11693	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T19:56:00.00	11694	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T21:42:00.00	11695	D-0-0	 NAV: on land
+Y	08010022	1973-05-23T22:30:00.00	11696	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:15:00.00	11697	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:16:00.00	11698	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:29:54.00	11699	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:45:00.00	11700	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:49:05.94	11701	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:53:00.00	11702	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:53:54.00	11703	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T00:55:54.00	11704	D-0-0	 NAV: on land
+Y	08010022	1973-05-24T01:00:00.00	11705	D-0-0	 NAV: on land
+?	08010022	1973-05-24T01:44:00.00	11745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-24T01:45:00.00	11747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-24T01:46:00.00	11748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-24T01:53:00.00	11755	0-0-O	 GRAD: mtf1 excessive
+?	08010022	1973-05-24T02:00:00.00	11759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-24T02:01:00.00	11760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010022	1973-05-27T04:35:00.00	13304	0-Q-0	 VAL: mag invalid

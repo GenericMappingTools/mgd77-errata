@@ -1,0 +1,136 @@
+# Cruise 67010168 ID 86005311 MGD77 FILE VERSION: 19931231 N_RECS: 12575
+# Examined: Sat Jul 30 20:37:49 2011 by mtchandl
+# Arguments:  -R-80.4/-61.5/9.3/16.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Turned on excessive gravity gradient flags to remove outliers.
+# Errata: Header
+Y-W-67010168-nav-00: Flagged 0.38 % of records with bad navigation
+Y-I-67010168-depth-01: RLS m: 1 b: 0 rms: 3.11685 r: 0.999994 sig: 1 dec: 0
+Y-I-67010168-faa-01: RLS m: 1.00086 b: 0.898116 rms: 2.90599 r: 0.997005 sig: 1 dec: 0
+Y-W-67010168-faa-03: Regression offset 0.898116 different from 0.
+Y-I-67010168-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010168-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.639973 b: 20.5665 rms: 57.6043 r: 0.882458 sig: 1 dec: 1). [Recompute]
+Y-W-67010168-depth-12: Integer precision
+# Errata: Data
+?	67010168	1986-11-19T21:12:00.00	8	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-21T12:01:00.00	2337	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-21T12:02:00.00	2338	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-21T12:03:00.00	2339	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-21T12:04:00.00	2340	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-22T01:28:00.00	3144	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-22T01:29:00.00	3145	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-22T01:30:00.00	3146	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-23T16:54:00.00	5510	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-23T16:55:00.00	5511	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-23T16:56:00.00	5512	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-24T01:08:00.00	6004	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-24T01:09:00.00	6005	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-24T01:11:00.00	6007	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-24T13:25:00.00	6741	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T01:07:00.00	7443	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T01:08:00.00	7444	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T01:09:00.00	7445	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T01:19:00.00	7455	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T01:20:00.00	7456	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T01:22:00.00	7458	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T01:55:00.00	7491	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T02:03:00.00	7499	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T02:05:00.00	7501	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T02:07:00.00	7503	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T09:26:00.00	7942	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T09:27:00.00	7943	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T10:27:00.00	8003	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T10:28:00.00	8004	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T10:30:00.00	8006	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T11:32:00.00	8068	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T11:35:00.00	8071	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T11:59:00.00	8095	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T12:01:00.00	8097	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T12:13:00.00	8109	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T12:14:00.00	8110	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T12:15:00.00	8111	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T12:16:00.00	8112	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T12:40:00.00	8136	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T13:07:00.00	8163	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T20:17:00.00	8593	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T21:19:00.00	8655	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-25T21:20:00.00	8656	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-25T21:21:00.00	8657	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-25T21:23:00.00	8659	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-26T04:02:00.00	9058	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T05:03:00.00	9119	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T05:09:00.00	9125	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T05:10:00.00	9126	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-26T05:12:00.00	9128	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T07:59:00.00	9295	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T16:09:00.00	9785	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T16:10:00.00	9786	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-26T17:06:00.00	9842	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-26T17:07:00.00	9843	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-26T17:30:00.00	9866	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-27T00:32:00.00	10288	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-27T00:34:00.00	10290	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-27T12:48:00.00	11024	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-27T13:44:00.00	11080	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-27T13:45:00.00	11081	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-27T13:46:00.00	11082	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-27T13:47:00.00	11083	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-27T23:59:00.00	11679	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-28T00:00:00.00	11680	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-28T12:18:00.00	12418	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-28T13:52:00.00	12512	0-0-V	 GRAD: eot excessive
+?	67010168	1986-11-28T13:53:00.00	12513	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-28T14:02:00.00	12522	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-28T14:03:00.00	12523	0-0-UW	 GRAD: gobs, faa excessive
+?	67010168	1986-11-28T14:07:00.00	12527	D-0-UVW	 NAV: on land - GRAD: gobs, eot, faa excessive
+?	67010168	1986-11-28T14:08:00.00	12528	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:09:00.00	12529	D-0-V	 NAV: on land - GRAD: eot excessive
+Y	67010168	1986-11-28T14:10:00.00	12530	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:11:00.00	12531	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010168	1986-11-28T14:12:00.00	12532	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:13:00.00	12533	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:14:00.00	12534	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:15:00.00	12535	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:16:00.00	12536	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:17:00.00	12537	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:18:00.00	12538	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:19:00.00	12539	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:20:00.00	12540	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:21:00.00	12541	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:22:00.00	12542	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:23:00.00	12543	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:24:00.00	12544	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:25:00.00	12545	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:26:00.00	12546	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:27:00.00	12547	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:28:00.00	12548	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:29:00.00	12549	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:30:00.00	12550	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:31:00.00	12551	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:32:00.00	12552	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:33:00.00	12553	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:34:00.00	12554	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:35:00.00	12555	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:36:00.00	12556	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:37:00.00	12557	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:38:00.00	12558	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:39:00.00	12559	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:40:00.00	12560	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:41:00.00	12561	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:42:00.00	12562	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:43:00.00	12563	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:44:00.00	12564	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:45:00.00	12565	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:46:00.00	12566	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:47:00.00	12567	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:48:00.00	12568	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:49:00.00	12569	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:50:00.00	12570	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:51:00.00	12571	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:52:00.00	12572	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:53:00.00	12573	D-0-0	 NAV: on land
+Y	67010168	1986-11-28T14:54:00.00	12574	BD-0-0	 NAV: non-increasing time, on land
+Y	67010168	1986-11-28T14:54:00.00	12575	D-0-0	 NAV: on land

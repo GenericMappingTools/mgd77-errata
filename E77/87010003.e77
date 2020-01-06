@@ -1,0 +1,18 @@
+# Cruise 87010003 ID IRI93-94 MGD77 FILE VERSION: 19951002 N_RECS: 951
+# Examined: Mon Nov  7 16:49:33 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Depths contain outliers.
+# Errata: Header
+Y-W-87010003-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-87010003-depth-01: RLS m: 0.999607 b: 0 rms: 10.367 r: 0.999986 sig: 1 dec: 0
+N-E-87010003-depth-02: Regression slope 0.999607 different from 1. Recommended: [1]
+Y-W-87010003-twt-11: twt may be extracted from depth for Carter correction
+Y-W-87010003-depth-12: Integer precision
+# Errata: Data
+Y	87010003	8097.98	266	D-0-0	 NAV: on land
+?	87010003	9367.55	402	0-0-L	 GRAD: depth excessive
+?	87010003	15547.3	888	D-0-0	 NAV: on land

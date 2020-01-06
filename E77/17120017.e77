@@ -1,0 +1,15 @@
+# Cruise 17120017 ID RC2501 MGD77 FILE VERSION: 19900702 N_RECS: 624
+# Examined: Mon Sep  6 12:41:19 2010 by mtchandl
+# Arguments:  -R289.85/290.1/35.4/35.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-17120017-H04-03: Invalid Survey Departure Day: (24) [28]
+N-E-17120017-H04-06: Invalid Survey Arrival Day: (30) [28]
+Y-E-17120017-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-I-17120017-depth-01: RLS m: 1.002 b: 0 rms: 17.9665 r: 0.978623 sig: 1 dec: 0
+Y-W-17120017-depth-12: Integer precision
+# Errata: Data

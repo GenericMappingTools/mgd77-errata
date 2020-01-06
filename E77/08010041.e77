@@ -1,0 +1,45 @@
+# Cruise 08010041 ID 77110901 MGD77 FILE VERSION: 19801230 N_RECS: 12736
+# Examined: Mon Jul 26 16:08:56 2010 by mtchandl
+# Arguments:  -R202.1/211.05/-17.55/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010041-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08010041-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010041-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010041-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-08010041-depth-01: RLS m: 1 b: 0 rms: 18.8076 r: 0.99983 sig: 1 dec: 0
+Y-I-08010041-faa-01: RLS m: 1.00218 b: -4.07319 rms: 14.94 r: 0.985175 sig: 1 dec: 1
+Y-W-08010041-faa-03: Regression offset -4.07319 different from 0.
+Y-E-08010041-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02592 b: -96.4666 rms: 97.6039 r: 0.999808 sig: 1 dec: 0). [Recompute]
+Y-W-08010041-mag-09: only found negative values
+Y-W-08010041-twt-11: More recent bathymetry correction table available
+Y-W-08010041-mtf1-12: Integer precision
+Y-W-08010041-mag-12: Integer precision
+# Errata: Data
+?	08010041	1977-11-09T14:08:00.00	9	D-0-0	 NAV: on land
+Y	08010041	1977-11-09T14:10:00.00	10	D-0-0	 NAV: on land
+Y	08010041	1977-11-09T14:13:00.00	11	D-0-0	 NAV: on land
+?	08010041	1977-11-09T14:15:00.00	12	D-0-0	 NAV: on land
+?	08010041	1977-11-10T05:55:19.98	454	0-0-KL	 GRAD: twt, depth excessive
+?	08010041	1977-11-11T10:50:00.00	1592	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-13T05:40:00.00	2732	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-13T05:45:00.00	2734	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-13T14:45:00.00	2944	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-14T00:10:00.00	3198	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-14T14:05:00.00	3531	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-17T17:00:01.98	5546	0-0-KL	 GRAD: twt, depth excessive
+?	08010041	1977-11-17T21:15:00.00	5676	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-19T12:10:00.00	6807	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-20T01:09:15.00	7173	0-0-KL	 GRAD: twt, depth excessive
+?	08010041	1977-11-20T17:48:46.02	7685	0-0-K	 GRAD: twt excessive
+?	08010041	1977-11-20T19:45:00.00	7741	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-21T15:45:00.00	8210	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-21T21:10:00.00	8384	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-26T00:00:18.96	11521	0-0-K	 GRAD: twt excessive
+?	08010041	1977-11-27T02:47:59.04	12362	0-0-K	 GRAD: twt excessive
+?	08010041	1977-11-27T14:30:00.00	12684	0-0-W	 GRAD: faa excessive
+?	08010041	1977-11-27T15:40:00.00	12712	0-0-W	 GRAD: faa excessive

@@ -1,0 +1,38 @@
+# Cruise 01010094 ID RC1405 MGD77 FILE VERSION: 19790619 N_RECS: 13567
+# Examined: Mon Jul  6 14:28:48 2009 by mtchandl
+# Arguments:  -R139.85/183.2/34.8/54.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010094-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-01010094-H16-01: Invalid Number of Ten Degree Identifiers: (10) [9]
+Y-W-01010094-H16-06: Ten Degree Identifier 1518 marked in header but was not crossed
+Y-I-01010094-depth-01: RLS m: 1 b: 0 rms: 10.9577 r: 0.999986 sig: 1 dec: 0
+Y-I-01010094-faa-01: RLS m: 0.991482 b: 4.52593 rms: 9.0833 r: 0.998292 sig: 1 dec: 1
+N-E-01010094-faa-02: Regression slope 0.991482 different from 1. Recommended: [1]
+Y-W-01010094-faa-03: Regression offset 4.52593 different from 0.
+Y-E-01010094-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988422 b: -153.735 rms: 155.409 r: 0.984005 sig: 1 dec: 0). [Recompute]
+N-E-01010094-depth-08: Extended offset from grid [3-13567]
+Y-W-01010094-twt-11: More recent bathymetry correction table available
+Y-W-01010094-mtf1-12: Integer precision
+Y-W-01010094-mag-12: Integer precision
+# Errata: Data
+?	01010094	1971-06-28T23:30:00.00	5779	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-05T14:09:00.00	8640	0-0-K	 GRAD: twt excessive
+?	01010094	1971-07-16T01:55:00.00	13261	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T01:56:00.00	13262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T01:58:00.00	13264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:02:00.00	13266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:03:00.00	13267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:04:00.00	13268	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:05:00.00	13269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:08:00.00	13272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:11:00.00	13275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:19:00.00	13279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:21:00.00	13281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:23:00.00	13282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:24:00.00	13283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010094	1971-07-16T02:28:00.00	13285	0-0-OQ	 GRAD: mtf1, mag excessive

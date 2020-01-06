@@ -1,0 +1,50 @@
+# Cruise 35150001 ID 26180 MGD77 FILE VERSION: 19871208 N_RECS: 14327
+# Examined: Mon Nov 23 16:04:56 2009 by mtchandl
+# Arguments:  -R117.6/235.95/-0.1/55.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged extended depth offsets from S2004.
+# Errata: Header
+Y-E-35150001-H16-01: Invalid Number of Ten Degree Identifiers: (30) [36]
+Y-W-35150001-H16-06: Ten Degree Identifier 5012 not marked in header but block was crossed
+Y-W-35150001-H16-06: Ten Degree Identifier 5013 not marked in header but block was crossed
+Y-W-35150001-H16-06: Ten Degree Identifier 5014 not marked in header but block was crossed
+Y-W-35150001-H16-06: Ten Degree Identifier 5015 not marked in header but block was crossed
+Y-W-35150001-H16-06: Ten Degree Identifier 5016 not marked in header but block was crossed
+Y-W-35150001-H16-06: Ten Degree Identifier 5017 not marked in header but block was crossed
+Y-W-35150001-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-35150001-depth-01: RLS m: 1.00337 b: 0 rms: 65.5674 r: 0.999439 sig: 1 dec: 0
+N-E-35150001-depth-02: Regression slope 1.00337 different from 1. Recommended: [1]
+Y-E-35150001-depth-08: Extended offset from grid [1206-1267]
+Y-E-35150001-depth-08: Extended offset from grid [7388-7472]
+Y-W-35150001-depth-12: Integer precision
+# Errata: Data
+?	35150001	6681.59	779	0-0-L	 GRAD: depth excessive
+?	35150001	7033.09	822	0-0-L	 GRAD: depth excessive
+?	35150001	14787.7	1842	0-0-L	 GRAD: depth excessive
+?	35150001	22883.4	2435	0-0-L	 GRAD: depth excessive
+?	35150001	23346.8	2574	0-0-L	 GRAD: depth excessive
+?	35150001	28818.2	3048	0-0-L	 GRAD: depth excessive
+?	35150001	62961.8	5460	0-0-L	 GRAD: depth excessive
+?	35150001	64879.8	5842	0-0-L	 GRAD: depth excessive
+?	35150001	66202.2	6024	0-0-L	 GRAD: depth excessive
+?	35150001	68199.8	6353	0-0-L	 GRAD: depth excessive
+?	35150001	68235.4	6397	0-0-L	 GRAD: depth excessive
+?	35150001	77350.2	8141	0-0-L	 GRAD: depth excessive
+?	35150001	77365.2	8159	0-0-L	 GRAD: depth excessive
+?	35150001	77451.8	8195	0-0-L	 GRAD: depth excessive
+?	35150001	88208.8	9378	0-0-L	 GRAD: depth excessive
+Y	35150001	91111.1	9719	D-0-0	 NAV: on land
+Y	35150001	91111.5	9720	D-0-0	 NAV: on land
+Y	35150001	91111.6	9721	D-0-0	 NAV: on land
+Y	35150001	91112.3	9722	D-0-0	 NAV: on land
+Y	35150001	91112.5	9723	D-0-0	 NAV: on land
+Y	35150001	91113.4	9724	D-0-0	 NAV: on land
+?	35150001	102471	13291	0-0-L	 GRAD: depth excessive
+?	35150001	106704	14233	0-0-L	 GRAD: depth excessive
+?	35150001	106705	14234	0-0-L	 GRAD: depth excessive
+?	35150001	106705	14236	0-0-L	 GRAD: depth excessive
+Y	35150001	107181	14322	D-0-0	 NAV: on land
+Y	35150001	107185	14323	D-0-0	 NAV: on land

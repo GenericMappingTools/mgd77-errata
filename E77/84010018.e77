@@ -1,0 +1,18 @@
+# Cruise 84010018 ID GEOT200 MGD77 FILE VERSION: 19890630 N_RECS: 596
+# Examined: Wed Aug  3 07:27:25 2011 by mtchandl
+# Arguments:  -R-180/-170.45/-21.8/-21.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-84010018-H04-02: Invalid Survey Departure Month: ( 3) [04]
+N-E-84010018-H04-03: Invalid Survey Departure Day: (27) [11]
+N-E-84010018-H04-06: Invalid Survey Arrival Day: (16) [13]
+Y-E-84010018-H11-05: Invalid Leftmost Longitude: (+180) [-180]
+Y-W-84010018-H16-06: Ten Degree Identifier 5218 not marked in header but block was crossed
+Y-W-84010018-H16-06: Ten Degree Identifier 3218 marked in header but was not crossed
+Y-I-84010018-depth-01: RLS m: 1.00167 b: 0 rms: 46.5891 r: 0.999603 sig: 1 dec: 0
+Y-W-84010018-depth-12: Integer multiple of 5 precision
+# Errata: Data

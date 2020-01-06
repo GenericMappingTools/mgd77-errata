@@ -1,0 +1,17 @@
+# Cruise 15020124 ID PLTO03MV MGD77 FILE VERSION: 19880608 N_RECS: 6031
+# Examined: Sat May 17 10:10:51 2008 by mtchandl
+# Arguments:  -R255.5/275.15/6.5/18.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020124-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-15020124-depth-01: RLS m: 0.996125 b: 0 rms: 132.156 r: 0.988619 sig: 1 dec: 1
+Y-E-15020124-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.965828 b: 106.203 rms: 111.197 r: 0.979448 sig: 1 dec: 1). [Recompute]
+Y-W-15020124-twt-11: More recent bathymetry correction table available
+Y-W-15020124-mtf1-12: Integer precision
+Y-W-15020124-mag-12: Integer precision
+# Errata: Data
+?	15020124	1981-10-29T06:10:00.00	5394	0-0-OQ	 GRAD: mtf1, mag excessive

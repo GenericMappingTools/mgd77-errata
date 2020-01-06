@@ -1,0 +1,24 @@
+# Cruise J1020063 ID HS99T472 MGD77 FILE VERSION: 20080215 N_RECS: 1559
+# Examined: Sun Aug  7 07:20:05 2011 by mtchandl
+# Arguments:  -R152.4/156.05/21.95/24.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1020063-H04-03: Invalid Survey Departure Day: (07) [11]
+N-E-J1020063-H04-06: Invalid Survey Arrival Day: (28) [23]
+Y-E-J1020063-H15-01: Invalid Gravity Departure Base Station Value: ( -10236) [ -10236]
+Y-E-J1020063-H15-03: Invalid Gravity Arrival Base Station Value: ( -10244) [ -10244]
+Y-I-J1020063-depth-01: RLS m: 1 b: 0 rms: 14.3495 r: 0.999921 sig: 1 dec: 0
+Y-I-J1020063-faa-01: RLS m: 0.991688 b: -4.5216 rms: 5.39772 r: 0.998943 sig: 1 dec: 0
+N-E-J1020063-faa-02: Regression slope 0.991688 different from 1. Recommended: [1]
+Y-W-J1020063-faa-03: Regression offset -4.5216 different from 0.
+Y-W-J1020063-depth-12: Integer precision
+Y-W-J1020063-mag-12: Integer precision
+Y-W-J1020063-faa-12: Integer precision
+# Errata: Data
+?	J1020063	2000-01-19T00:50:00.00	1048	0-Q-0	 VAL: mag invalid
+?	J1020063	2000-01-19T01:00:00.00	1049	0-Q-0	 VAL: mag invalid
+?	J1020063	2000-01-19T01:10:00.00	1050	0-Q-0	 VAL: mag invalid

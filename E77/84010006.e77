@@ -1,0 +1,81 @@
+# Cruise 84010006 ID EVA800 MGD77 FILE VERSION: 19870630 N_RECS: 4370
+# Examined: Mon Nov  7 16:46:05 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-84010006-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-84010006-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-84010006-depth-01: RLS m: 0.965689 b: 0 rms: 114.508 r: 0.999441 sig: 1 dec: 0
+N-E-84010006-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-E-84010006-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997795 b: 73.8003 rms: 74.6788 r: 0.999505 sig: 1 dec: 1). [Recompute]
+Y-W-84010006-depth-12: Integer precision
+Y-W-84010006-mtf1-12: Integer precision
+Y-W-84010006-mag-12: Integer precision
+# Errata: Data
+?	84010006	1981-10-14T09:45:00.00	235	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T09:50:00.00	236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T15:20:00.00	307	0-0-Q	 GRAD: mag excessive
+?	84010006	1981-10-14T16:45:00.00	325	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T16:50:00.00	326	0-Q-0	 VAL: mag invalid
+?	84010006	1981-10-14T17:20:00.00	332	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T17:25:00.00	333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T17:30:00.00	334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T17:40:00.00	336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:05:00.00	341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:10:00.00	342	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:15:00.00	343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:20:00.00	344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:25:00.00	346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:30:00.00	347	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:40:00.00	349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:45:00.00	350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:50:00.00	351	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T18:55:00.00	352	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T19:00:00.00	353	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T19:05:00.00	354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T23:05:00.00	405	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-14T23:10:00.00	407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T12:15:00.00	572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T12:55:00.00	580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T13:05:00.00	582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T13:20:00.00	585	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T14:25:00.00	600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T14:35:00.00	602	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T14:50:00.00	605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-15T23:25:00.00	710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-19T23:10:00.00	1899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-19T23:15:00.00	1900	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T21:25:00.00	2118	0-0-Q	 GRAD: mag excessive
+?	84010006	1981-10-20T21:30:00.00	2120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T21:35:00.00	2121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T21:45:00.00	2123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T21:50:00.00	2124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T21:55:00.00	2125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T22:00:00.00	2126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T22:05:00.00	2127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-20T22:10:00.00	2128	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010006	1981-10-21T19:42:00.00	2399	C-0-0	 NAV: excessive speed
+Y	84010006	1981-10-24T03:59:00.00	3052	C-0-0	 NAV: excessive speed
+?	84010006	1981-10-24T10:35:00.00	3135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T10:40:00.00	3136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T10:45:00.00	3137	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T10:50:00.00	3138	0-Q-0	 VAL: mag invalid
+?	84010006	1981-10-24T10:55:00.00	3139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:00:00.00	3140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:05:00.00	3141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:10:00.00	3142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:15:00.00	3143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:20:00.00	3144	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:25:00.00	3145	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-24T11:30:00.00	3146	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010006	1981-10-29T11:05:00.00	3705	C-0-0	 NAV: excessive speed
+?	84010006	1981-10-29T14:55:00.00	3752	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-29T15:00:00.00	3753	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-29T15:05:00.00	3754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-29T15:15:00.00	3756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010006	1981-10-30T22:55:00.00	4148	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010006	1981-10-30T23:00:00.00	4149	0-0-OQ	 GRAD: mtf1, mag excessive

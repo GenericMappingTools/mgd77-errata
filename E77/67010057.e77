@@ -1,0 +1,170 @@
+# Cruise 67010057 ID 75003113 MGD77 FILE VERSION: 19800427 N_RECS: 6221
+# Examined: Mon Nov  7 15:57:29 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010057-nav-00: Flagged 0.80 % of records with bad navigation
+Y-I-67010057-depth-01: RLS m: 1.00154 b: 0 rms: 17.887 r: 0.999844 sig: 1 dec: 0
+N-E-67010057-depth-02: Regression slope 1.00154 different from 1. Recommended: [1]
+Y-E-67010057-mag-07: Anomaly differs from mtf1-IGRF (m: 0.960619 b: 125.966 rms: 129.205 r: 0.994981 sig: 1 dec: 0). [Recompute]
+Y-W-67010057-twt-11: More recent bathymetry correction table available
+Y-W-67010057-mtf1-12: Integer precision
+Y-W-67010057-mag-12: Integer precision
+# Errata: Data
+?	67010057	1975-07-02T21:36:00.00	267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:38:00.00	268	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:40:00.00	269	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:44:00.00	273	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:46:00.00	274	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:48:00.00	275	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:50:00.00	276	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T21:52:00.00	278	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:54:00.00	279	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:56:00.00	280	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T21:58:00.00	281	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:00:00.00	282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:02:00.00	283	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:04:00.00	284	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:06:00.00	285	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:08:00.00	286	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:10:00.00	288	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:20:00.00	295	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:22:00.00	296	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T22:24:00.00	298	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T22:26:00.00	300	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T22:28:00.00	302	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T22:30:00.00	304	0-Q-0	 VAL: mag invalid
+?	67010057	1975-07-02T22:32:00.00	306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:35:00.00	308	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:37:00.00	310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:40:00.00	312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:41:00.00	313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:48:00.00	316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:51:00.00	318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:53:00.00	320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:56:00.00	322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T22:59:00.00	323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:01:00.00	324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:03:00.00	325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:07:00.00	327	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:11:00.00	329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:13:00.00	330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:15:00.00	331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:16:00.00	332	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-02T23:42:00.00	348	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T00:32:00.00	373	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T00:34:00.00	374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:06:00.00	423	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:08:00.00	425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:10:00.00	426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:12:00.00	428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:20:00.00	432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:24:00.00	434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:28:00.00	436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T02:30:00.00	437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T03:26:00.00	461	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T07:54:00.00	578	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T07:56:00.00	579	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T10:44:00.00	656	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T10:48:00.00	658	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T11:30:00.00	680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T11:32:00.00	681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T11:34:00.00	683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T13:20:00.00	744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T13:22:00.00	745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T14:16:00.00	777	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T14:18:00.00	778	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-03T14:20:00.00	779	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010057	1975-07-04T03:38:00.00	1074	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-04T11:56:00.00	1273	B-0-0	 NAV: non-increasing time
+?	67010057	1975-07-04T11:58:00.00	1274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T20:32:00.00	1550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T21:04:00.00	1568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T21:22:00.00	1581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T22:00:00.00	1600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:08:00.00	1639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:10:00.00	1640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:16:00.00	1645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:20:00.00	1648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:26:00.00	1652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:28:00.00	1653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:30:00.00	1655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:34:00.00	1658	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:36:00.00	1659	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:46:00.00	1667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-04T23:50:00.00	1671	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T01:46:00.00	1722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T03:24:00.00	1783	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T03:26:00.00	1784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T08:54:00.00	1931	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T09:04:00.00	1937	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T09:34:00.00	1954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T09:36:00.00	1955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T09:38:00.00	1956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T09:44:00.00	1960	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T10:06:00.00	1971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T20:36:00.00	2215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T20:38:00.00	2217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-05T22:42:00.00	2253	0-0-KL	 GRAD: twt, depth excessive
+?	67010057	1975-07-06T02:09:00.00	2337	0-0-K	 GRAD: twt excessive
+Y	67010057	1975-07-06T06:06:00.00	2422	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-06T06:06:00.00	2423	B-0-0	 NAV: non-increasing time
+?	67010057	1975-07-06T15:28:00.00	2670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:30:00.00	2671	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:32:00.00	2673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:34:00.00	2674	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:36:00.00	2675	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:42:00.00	2679	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-06T15:44:00.00	2680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-08T04:06:00.00	3584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010057	1975-07-08T10:17:00.00	3709	0-0-K	 GRAD: twt excessive
+Y	67010057	1975-07-09T12:21:00.00	4274	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-10T03:22:00.00	4611	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-11T00:04:00.00	5032	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-12T14:00:00.00	5704	B-0-0	 NAV: non-increasing time
+Y	67010057	1975-07-12T15:19:00.00	5729	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:22:00.00	5730	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:24:00.00	5731	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:25:00.00	5732	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:29:00.00	5733	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:30:00.00	5734	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:32:00.00	5735	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:34:00.00	5736	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:40:00.00	5737	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:41:00.00	5738	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:45:00.00	5739	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:48:00.00	5740	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:53:00.00	5741	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:54:00.00	5742	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T15:56:00.00	5743	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:02:00.00	5744	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:04:00.00	5745	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:10:00.00	5746	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:12:00.00	5747	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:16:00.00	5748	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:17:00.00	5749	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:24:00.00	5750	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:26:00.00	5751	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:30:00.00	5752	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:32:00.00	5753	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:34:00.00	5754	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:38:00.00	5755	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:44:00.00	5756	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:46:00.00	5757	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T16:52:00.00	5758	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:00:00.00	5759	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:02:00.00	5760	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:10:00.00	5761	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:12:00.00	5762	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:14:00.00	5763	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:16:00.00	5764	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:20:00.00	5765	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:22:00.00	5766	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:25:00.00	5767	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:26:00.00	5768	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:28:00.00	5769	C-0-0	 NAV: excessive speed
+Y	67010057	1975-07-12T17:30:00.00	5770	C-0-0	 NAV: excessive speed

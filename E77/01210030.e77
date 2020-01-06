@@ -1,0 +1,97 @@
+# Cruise 01210030 ID EW9104 MGD77 FILE VERSION: 19960829 N_RECS: 55116
+# Examined: Fri Mar 19 02:16:40 2010 by mtchandl
+# Arguments:  -R210.4/279.3/-35.25/-17.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Possible Potsdam offset in gravity.
+# Errata: Header
+N-E-01210030-H04-06: Invalid Survey Arrival Day: (27) [25]
+Y-E-01210030-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01210030-H13-10: Survey year (1991) outside magnetic reference field IGRF-90 time range (1995-2000)
+Y-E-01210030-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-I-01210030-depth-01: RLS m: 0.995781 b: 0 rms: 59.1635 r: 0.995906 sig: 1 dec: 0
+N-E-01210030-depth-02: Regression slope 0.995781 different from 1. Recommended: [1]
+Y-I-01210030-faa-01: RLS m: 0.955683 b: 15.9369 rms: 19.7043 r: 0.965208 sig: 1 dec: 1
+N-E-01210030-faa-02: Regression slope 0.955683 different from 1. Recommended: [1]
+Y-W-01210030-faa-03: Regression offset 15.9369 different from 0.
+Y-E-01210030-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996218 b: 126.246 rms: 130.439 r: 0.984766 sig: 1 dec: 0). [Recompute]
+Y-W-01210030-depth-12: Integer precision
+Y-W-01210030-mtf1-12: Integer precision
+Y-W-01210030-mag-12: Integer precision
+# Errata: Data
+?	01210030	1991-06-18T14:10:00.00	2562	0-0-K	 GRAD: twt excessive
+?	01210030	1991-06-21T18:57:00.00	7173	0-0-K	 GRAD: twt excessive
+?	01210030	1991-06-27T07:18:00.00	15120	0-0-K	 GRAD: twt excessive
+?	01210030	1991-06-28T12:58:00.00	16902	0-0-K	 GRAD: twt excessive
+?	01210030	1991-06-28T14:24:00.00	16988	0-0-K	 GRAD: twt excessive
+?	01210030	1991-06-28T16:26:00.00	17110	0-0-KL	 GRAD: twt, depth excessive
+?	01210030	1991-06-28T19:54:00.00	17318	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-01T03:32:00.00	20663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-01T03:52:00.00	20683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T00:55:00.00	21946	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-02T01:17:00.00	21968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T01:18:00.00	21969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T01:19:00.00	21970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T01:20:00.00	21971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T01:21:00.00	21972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T01:22:00.00	21973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T03:37:00.00	22108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T03:38:00.00	22109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T03:39:00.00	22110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T03:40:00.00	22111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T03:41:00.00	22112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-02T04:07:00.00	22138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-03T23:03:00.00	24718	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-03T23:16:00.00	24731	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-06T21:59:00.00	28979	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-06T22:01:00.00	28981	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-07T15:53:00.00	30055	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-07T16:26:00.00	30088	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-08T09:48:00.00	31133	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-08T15:36:00.00	31481	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-08T15:37:00.00	31482	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-08T16:37:00.00	31542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T03:22:00.00	35071	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-11T05:33:00.00	35202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:34:00.00	35203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:35:00.00	35204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:36:00.00	35205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:37:00.00	35206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:38:00.00	35207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T05:39:00.00	35208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-11T22:36:00.00	36226	0-0-KL	 GRAD: twt, depth excessive
+?	01210030	1991-07-11T22:37:00.00	36227	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-11T22:38:00.00	36228	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-11T22:39:00.00	36229	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-11T22:41:00.00	36231	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-12T08:16:00.00	36806	0-0-Q	 GRAD: mag excessive
+?	01210030	1991-07-12T08:17:00.00	36807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-12T08:18:00.00	36808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-14T08:49:00.00	39725	0-0-K	 GRAD: twt excessive
+?	01210030	1991-07-16T21:35:00.00	43373	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:36:00.00	43374	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:37:00.00	43375	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:38:00.00	43376	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:39:00.00	43377	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:40:00.00	43378	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:41:00.00	43379	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:42:00.00	43380	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:43:00.00	43381	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:44:00.00	43382	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:45:00.00	43383	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:46:00.00	43384	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:47:00.00	43385	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:48:00.00	43386	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:49:00.00	43387	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:50:00.00	43388	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:51:00.00	43389	0-Q-0	 VAL: mag invalid
+?	01210030	1991-07-16T21:52:00.00	43390	0-Q-O	 VAL: mag invalid - GRAD: mtf1 excessive
+?	01210030	1991-07-16T21:53:00.00	43391	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:54:00.00	43392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:55:00.00	43393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:56:00.00	43394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:57:00.00	43395	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:58:00.00	43396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210030	1991-07-16T21:59:00.00	43397	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,18 @@
+# Cruise 10020045 ID IG3601 MGD77 FILE VERSION: 19890926 N_RECS: 1436
+# Examined: Tue Aug 24 13:49:26 2010 by mtchandl
+# Arguments:  -R265.25/269.55/26.9/29.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-10020045-H04-03: Invalid Survey Departure Day: (21) [22]
+Y-W-10020045-nav-00: Flagged 0.14 % of records with bad navigation
+Y-I-10020045-depth-01: RLS m: 0.995827 b: 0 rms: 10.4882 r: 0.999906 sig: 1 dec: 0
+N-E-10020045-depth-02: Regression slope 0.995827 different from 1. Recommended: [1]
+Y-W-10020045-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020045-depth-12: Integer precision
+# Errata: Data
+Y	10020045	1981-05-23T14:57:00.00	393	C-0-0	 NAV: excessive speed
+Y	10020045	1981-05-24T17:01:00.00	691	C-0-0	 NAV: excessive speed

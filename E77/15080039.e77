@@ -1,0 +1,14 @@
+# Cruise 15080039 ID LUSI02HO MGD77 FILE VERSION: 19810928 N_RECS: 6614
+# Examined: Sun Jun  1 14:29:16 2008 by mtchandl
+# Arguments:  -R57.2/115.65/-41.05/-20.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15080039-H04-06: Invalid Survey Arrival Day: (28) [27]
+Y-I-15080039-depth-01: RLS m: 0.996125 b: 0 rms: 174.875 r: 0.993926 sig: 1 dec: 1
+# Errata: Data
+?	15080039	1962-11-17T15:30:00.00	4179	0-0-K	 GRAD: twt excessive
+?	15080039	1962-11-17T23:30:00.00	4259	0-0-KL	 GRAD: twt, depth excessive

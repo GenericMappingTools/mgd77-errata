@@ -1,0 +1,19 @@
+# Cruise 01030216 ID V3402 MGD77 FILE VERSION: 19800908 N_RECS: 7979
+# Examined: Fri Jul 10 13:56:28 2009 by mtchandl
+# Arguments:  -R132.65/144.65/13.5/18.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030216-depth-01: RLS m: 1 b: 0 rms: 24.4357 r: 0.99995 sig: 1 dec: 0
+Y-I-01030216-faa-01: RLS m: 1.00927 b: -23.6357 rms: 29.2717 r: 0.900276 sig: 1 dec: 1
+Y-W-01030216-faa-03: Regression offset -23.6357 different from 0.
+Y-E-01030216-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00151 b: 85.1371 rms: 89.7197 r: 0.980836 sig: 1 dec: 1). [Recompute]
+N-E-01030216-depth-08: Extended offset from grid [6-7979]
+Y-W-01030216-mtf1-12: Integer precision
+Y-W-01030216-mag-12: Integer precision
+# Errata: Data
+?	01030216	1977-04-04T02:06:00.00	2883	0-0-K	 GRAD: twt excessive
+?	01030216	1977-04-11T18:18:00.00	5116	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,17 @@
+# Cruise 15360001 ID ESTP01RY MGD77 FILE VERSION: 19951214 N_RECS: 5414
+# Examined: Wed Jun  4 22:25:24 2008 by mtchandl
+# Arguments:  -R254.95/286.2/-20.05/40.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15360001-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15360001-depth-01: RLS m: 0.996125 b: 0 rms: 195.063 r: 0.989392 sig: 1 dec: 1
+Y-W-15360001-twt-11: More recent bathymetry correction table available
+Y-W-15360001-depth-12: Integer precision
+# Errata: Data
+Y	15360001	1967-03-09T15:23:00.00	3852	D-0-0	 NAV: on land
+?	15360001	1967-03-17T17:15:00.00	4326	0-0-KL	 GRAD: twt, depth excessive
+Y	15360001	1967-03-23T13:15:00.00	4897	D-0-0	 NAV: on land

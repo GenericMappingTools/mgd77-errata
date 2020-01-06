@@ -1,0 +1,22 @@
+# Cruise 15020081 ID VLCN04MV MGD77 FILE VERSION: 19830606 N_RECS: 5084
+# Examined: Fri May 16 11:45:41 2008 by mtchandl
+# Arguments:  -R283.8/288.4/-42.2/-32.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15020081-depth-01: RLS m: 0.996125 b: 0 rms: 124.272 r: 0.996288 sig: 1 dec: 1
+Y-E-15020081-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.985767 b: 164.766 rms: 172.09 r: 0.905445 sig: 1 dec: 1). [Recompute]
+Y-W-15020081-twt-11: More recent bathymetry correction table available
+Y-W-15020081-mtf1-12: Integer precision
+Y-W-15020081-mag-12: Integer precision
+# Errata: Data
+?	15020081	1980-11-10T17:20:00.00	1	D-0-0	 NAV: on land
+?	15020081	1980-11-10T17:25:00.00	2	D-0-0	 NAV: on land
+?	15020081	1980-11-10T17:30:00.00	3	D-0-0	 NAV: on land
+?	15020081	1980-11-10T19:00:00.00	21	D-0-0	 NAV: on land
+?	15020081	1980-11-10T21:40:00.00	53	D-0-0	 NAV: on land
+?	15020081	1980-11-10T21:45:00.00	54	D-0-0	 NAV: on land
+?	15020081	1980-11-10T21:50:00.00	55	D-0-0	 NAV: on land

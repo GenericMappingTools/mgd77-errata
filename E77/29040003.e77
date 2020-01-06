@@ -1,0 +1,39 @@
+# Cruise 29040003 ID DME06 MGD77 FILE VERSION: 19851230 N_RECS: 4158
+# Examined: Mon Nov 23 15:58:03 2009 by mtchandl
+# Arguments:  -R104.7/188.15/-33.75/36.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Gravity computed using IGF-1930, recommend updating faa.
+# Errata: Header
+N-E-29040003-H04-03: Invalid Survey Departure Day: (18) [19]
+N-E-29040003-H04-06: Invalid Survey Arrival Day: (13) [04]
+N-E-29040003-H16-01: Invalid Number of Ten Degree Identifiers: (27) [25]
+Y-W-29040003-H16-06: Ten Degree Identifier 7017 marked in header but was not crossed
+Y-W-29040003-H16-06: Ten Degree Identifier 1015 marked in header but was not crossed
+Y-W-29040003-nav-00: Flagged 0.36 % of records with bad navigation
+Y-I-29040003-depth-01: RLS m: 0.999486 b: 0 rms: 23.7809 r: 0.999891 sig: 1 dec: 0
+Y-I-29040003-faa-01: RLS m: 0.989088 b: -4.8896 rms: 8.46549 r: 0.982386 sig: 1 dec: 0
+N-E-29040003-faa-02: Regression slope 0.989088 different from 1. Recommended: [1]
+Y-W-29040003-faa-03: Regression offset -4.8896 different from 0.
+N-E-29040003-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00505 b: -15.9667 rms: 15.8531 r: 0.99993 sig: 1 dec: 0). [Recompute]
+Y-E-29040003-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999989 b: -0.00325759 rms: 0.0449697 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-W-29040003-twt-11: More recent bathymetry correction table available
+Y-W-29040003-depth-12: Integer precision
+# Errata: Data
+Y	29040003	1971-07-03T21:59:00.00	884	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-04T03:59:00.00	920	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-04T10:07:00.00	929	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-19T19:15:00.00	1751	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-19T20:05:00.00	1756	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-19T20:15:00.00	1757	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-19T20:45:00.00	1760	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-19T20:55:00.00	1761	C-0-0	 NAV: excessive speed
+Y	29040003	1971-07-27T04:07:00.00	2251	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-10T23:34:00.00	3241	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-11T08:57:00.00	3280	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-21T13:37:00.00	3488	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-21T16:37:00.00	3506	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-21T18:07:00.00	3515	C-0-0	 NAV: excessive speed
+Y	29040003	1971-09-21T21:07:00.00	3533	C-0-0	 NAV: excessive speed

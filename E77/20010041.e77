@@ -1,0 +1,35 @@
+# Cruise 20010041 ID TN062 MGD77 FILE VERSION: 19961219 N_RECS: 7532
+# Examined: Tue Oct 19 14:55:13 2010 by mtchandl
+# Arguments:  -R233.9/242.8/32.55/48.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-20010041-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-20010041-depth-01: RLS m: 0.997459 b: 0 rms: 27.4833 r: 0.999695 sig: 1 dec: 0
+N-E-20010041-depth-02: Regression slope 0.997459 different from 1. Recommended: [1]
+# Errata: Data
+?	20010041	1996-07-09T12:00:00.00	758	0-0-K	 GRAD: twt excessive
+?	20010041	1996-07-09T21:11:00.00	1224	0-0-K	 GRAD: twt excessive
+Y	20010041	1996-07-18T19:13:00.00	4117	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:14:00.00	4118	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:15:00.00	4119	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:16:00.00	4120	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:17:00.00	4121	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:18:00.00	4122	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:19:00.00	4123	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:20:00.00	4124	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:21:00.00	4125	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:22:00.00	4126	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:23:00.00	4127	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:24:00.00	4128	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:25:00.00	4129	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:26:00.00	4130	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:27:00.00	4131	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:38:00.00	4142	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:39:00.00	4143	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:40:00.00	4144	D-0-0	 NAV: on land
+Y	20010041	1996-07-18T19:41:00.00	4145	D-0-0	 NAV: on land
+?	20010041	1996-07-18T19:42:00.00	4146	D-0-0	 NAV: on land

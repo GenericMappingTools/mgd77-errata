@@ -1,0 +1,25 @@
+# Cruise 01990003 ID THB80 MGD77 FILE VERSION: 19961016 N_RECS: 4044
+# Examined: Fri Mar 26 20:09:06 2010 by mtchandl
+# Arguments:  -R255.25/290.95/-70.25/-64.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01990003-H01-08: Invalid Parameter Survey Code (3.5 kHz): (9) [ ]
+Y-E-01990003-H01-09: Invalid Parameter Survey Code (Seismics): (9) [ ]
+Y-E-01990003-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01990003-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01990003-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01990003-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01990003-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01990003-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01990003-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01990003-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01990003-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-01990003-depth-01: RLS m: 0.999651 b: 0 rms: 5.92129 r: 0.99997 sig: 1 dec: 0
+N-E-01990003-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+# Errata: Data
+Y	01990003	1981-01-29T07:50:00.00	1007	C-0-0	 NAV: excessive speed
+Y	01990003	1981-01-29T07:55:00.00	1008	C-0-0	 NAV: excessive speed

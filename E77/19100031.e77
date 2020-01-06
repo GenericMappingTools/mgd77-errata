@@ -1,0 +1,124 @@
+# Cruise 19100031 ID DI131L1 MGD77 FILE VERSION: 19931231 N_RECS: 13325
+# Examined: Mon Sep  6 13:30:38 2010 by mtchandl
+# Arguments:  -R312.05/354.7/35.8/52.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100031-H13-10: Survey year (1982) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-19100031-nav-00: Flagged 0.48 % of records with bad navigation
+Y-I-19100031-depth-01: RLS m: 1 b: 0 rms: 32.9893 r: 0.99964 sig: 1 dec: 0
+Y-I-19100031-faa-01: RLS m: 0.99337 b: 14.8565 rms: 15.1176 r: 0.993199 sig: 1 dec: 0
+N-E-19100031-faa-02: Regression slope 0.99337 different from 1. Recommended: [1]
+Y-W-19100031-faa-03: Regression offset 14.8565 different from 0.
+Y-E-19100031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.724363 b: -67.1217 rms: 124.099 r: 0.816732 sig: 1 dec: 0). [Recompute]
+Y-W-19100031-depth-12: Integer precision
+Y-W-19100031-mtf1-12: Integer precision
+Y-W-19100031-mag-12: Integer precision
+Y-W-19100031-faa-12: Integer precision
+# Errata: Data
+Y	19100031	1982-08-13T14:42:00.00	640	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T21:12:00.00	835	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T21:14:00.00	836	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T21:16:00.00	837	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T21:18:00.00	838	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T21:20:00.00	839	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T23:00:00.00	889	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T23:02:00.00	890	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T23:04:00.00	891	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-13T23:06:00.00	892	C-0-0	 NAV: excessive speed
+?	19100031	1982-08-14T01:06:00.00	952	0-0-W	 GRAD: faa excessive
+Y	19100031	1982-08-14T01:08:00.00	954	B-0-W	 NAV: non-increasing time - GRAD: faa excessive
+?	19100031	1982-08-15T00:34:00.00	1407	0-0-Q	 GRAD: mag excessive
+Y	19100031	1982-08-15T02:20:00.00	1461	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-15T04:50:00.00	1537	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-15T05:08:00.00	1547	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-15T08:52:00.00	1658	C-0-0	 NAV: excessive speed
+?	19100031	1982-08-15T14:12:00.00	1712	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-16T03:14:00.00	2103	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-16T06:38:00.00	2205	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-18T05:30:00.00	3611	0-0-KL	 GRAD: twt, depth excessive
+Y	19100031	1982-08-19T14:42:00.00	4608	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-19T15:28:00.00	4632	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-19T15:30:00.00	4634	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-20T05:52:00.00	5066	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-20T08:36:00.00	5148	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-20T08:38:00.00	5149	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-20T14:02:00.00	5312	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-20T15:22:00.00	5352	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-20T15:24:00.00	5353	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-20T15:26:00.00	5354	C-0-0	 NAV: excessive speed
+?	19100031	1982-08-20T21:38:00.00	5540	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-20T21:40:00.00	5541	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T21:42:00.00	5542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T21:44:00.00	5543	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T22:38:00.00	5570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T22:40:00.00	5571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T22:42:00.00	5572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T22:44:00.00	5573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T22:46:00.00	5574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-20T23:32:00.00	5597	0-0-O	 GRAD: mtf1 excessive
+?	19100031	1982-08-20T23:34:00.00	5598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-21T01:42:00.00	5662	0-0-O	 GRAD: mtf1 excessive
+?	19100031	1982-08-21T01:44:00.00	5663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-21T01:46:00.00	5664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-21T11:40:00.00	5961	0-0-W	 GRAD: faa excessive
+Y	19100031	1982-08-21T14:26:00.00	6044	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-21T14:28:00.00	6045	C-0-0	 NAV: excessive speed
+?	19100031	1982-08-21T19:42:00.00	6202	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-21T20:48:00.00	6235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-21T20:54:00.00	6238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-22T03:30:00.00	6436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-22T04:30:00.00	6466	0-0-KL	 GRAD: twt, depth excessive
+?	19100031	1982-08-22T04:40:00.00	6471	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-22T04:42:00.00	6472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-22T04:44:00.00	6473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-22T04:50:00.00	6476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-22T05:14:00.00	6488	0-0-KL	 GRAD: twt, depth excessive
+?	19100031	1982-08-22T08:00:00.00	6571	0-0-W	 GRAD: faa excessive
+?	19100031	1982-08-22T10:26:00.00	6644	0-0-W	 GRAD: faa excessive
+?	19100031	1982-08-22T11:48:00.00	6685	0-0-W	 GRAD: faa excessive
+Y	19100031	1982-08-22T19:22:00.00	6912	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-22T19:24:00.00	6913	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-22T19:26:00.00	6914	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-22T19:28:00.00	6915	C-0-0	 NAV: excessive speed
+?	19100031	1982-08-23T08:08:00.00	7295	0-0-Q	 GRAD: mag excessive
+?	19100031	1982-08-23T08:10:00.00	7296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-23T08:12:00.00	7297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100031	1982-08-24T04:48:00.00	7915	0-0-K	 GRAD: twt excessive
+?	19100031	1982-08-25T15:06:00.00	8944	0-0-KL	 GRAD: twt, depth excessive
+Y	19100031	1982-08-26T23:48:00.00	9926	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-28T04:44:00.00	10795	B-0-0	 NAV: non-increasing time
+Y	19100031	1982-08-28T04:46:00.00	10796	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:48:00.00	10797	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:50:00.00	10798	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:52:00.00	10799	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:54:00.00	10800	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:56:00.00	10801	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T04:58:00.00	10802	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:00:00.00	10803	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:02:00.00	10804	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:04:00.00	10805	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:06:00.00	10806	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:08:00.00	10807	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:10:00.00	10808	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:12:00.00	10809	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:14:00.00	10810	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:16:00.00	10811	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:18:00.00	10812	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:20:00.00	10813	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:22:00.00	10814	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:24:00.00	10815	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:26:00.00	10816	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:28:00.00	10817	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:30:00.00	10818	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:32:00.00	10819	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:34:00.00	10820	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:36:00.00	10821	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:38:00.00	10822	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:40:00.00	10823	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:42:00.00	10824	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:44:00.00	10825	C-0-0	 NAV: excessive speed
+Y	19100031	1982-08-28T05:46:00.00	10826	C-0-0	 NAV: excessive speed

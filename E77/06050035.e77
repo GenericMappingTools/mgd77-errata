@@ -1,0 +1,64 @@
+# Cruise 06050035 ID L580AA MGD77 FILE VERSION: 19871208 N_RECS: 11672
+# Examined: Fri May 21 15:00:34 2010 by mtchandl
+# Arguments:  -R184.95/208/50.45/57.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-06050035-H11-05: Invalid Leftmost Longitude: (-175) [-176]
+N-E-06050035-H15-01: Invalid Gravity Departure Base Station Value: (9688573) [9688573]
+Y-W-06050035-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-06050035-depth-01: RLS m: 1.00035 b: 0 rms: 30.5769 r: 0.999939 sig: 1 dec: 0
+N-E-06050035-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-I-06050035-faa-01: RLS m: 0.993171 b: 1.07707 rms: 4.14773 r: 0.999159 sig: 1 dec: 0
+N-E-06050035-faa-02: Regression slope 0.993171 different from 1. Recommended: [1]
+Y-W-06050035-faa-03: Regression offset 1.07707 different from 0.
+N-E-06050035-faa-06: Anomaly differs from gobs-IGF80 (m: 0.992525 b: 1.19117 rms: 6.09106 r: 0.99896 sig: 1 dec: 1). [Recompute]
+Y-I-06050035-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-06050035-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-06050035-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996624 b: 2.27576 rms: 3.18937 r: 0.999948 sig: 1 dec: 0). [Recompute]
+Y-E-06050035-faa-10: Invalid data records: [6719-6834]
+Y-W-06050035-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06050035	1980-06-24T11:36:00.00	887	C-0-0	 NAV: excessive speed
+Y	06050035	1980-06-25T09:43:00.00	2189	C-0-0	 NAV: excessive speed
+?	06050035	1980-06-25T18:58:00.00	2736	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06050035	1980-06-26T03:23:00.00	3241	C-0-0	 NAV: excessive speed
+Y	06050035	1980-06-27T01:03:00.00	4529	C-0-0	 NAV: excessive speed
+Y	06050035	1980-06-27T01:04:00.00	4530	C-0-0	 NAV: excessive speed
+Y	06050035	1980-06-27T10:08:00.00	5065	C-0-0	 NAV: excessive speed
+?	06050035	1980-06-28T20:25:00.00	6802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:26:00.00	6803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:27:00.00	6804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:28:00.00	6805	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:29:00.00	6806	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:30:00.00	6807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:35:00.00	6812	0-0-O	 GRAD: mtf1 excessive
+?	06050035	1980-06-28T20:36:00.00	6813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:37:00.00	6814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:38:00.00	6815	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:39:00.00	6816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:45:00.00	6822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:46:00.00	6823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:47:00.00	6824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:49:00.00	6826	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:50:00.00	6827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:51:00.00	6828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:52:00.00	6829	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:55:00.00	6832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:56:00.00	6833	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:57:00.00	6834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T20:59:00.00	6836	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:00:00.00	6837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:01:00.00	6838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:02:00.00	6839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:04:00.00	6841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:05:00.00	6842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:06:00.00	6843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:07:00.00	6844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:08:00.00	6845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:09:00.00	6846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-28T21:10:00.00	6847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050035	1980-06-29T09:37:00.00	7594	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,18 @@
+# Cruise 03030003 ID DIVENCZ MGD77 FILE VERSION: 19980309 N_RECS: 2067
+# Examined: Fri Apr 16 13:19:34 2010 by mtchandl
+# Arguments:  -R293.45/295.5/10.35/12.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Reported faa show better agreement to satellite gravity than gobs - IGF80.
+# Errata: Header
+Y-E-03030003-H14-01: Invalid Gravity Digitizing Rate: (302) [302]
+Y-I-03030003-depth-01: RLS m: 1.0007 b: 0 rms: 50.0222 r: 0.999513 sig: 1 dec: 0
+Y-I-03030003-faa-01: RLS m: 0.998685 b: 2.2614 rms: 8.28471 r: 0.993466 sig: 1 dec: 1
+Y-W-03030003-faa-03: Regression offset 2.2614 different from 0.
+N-E-03030003-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-03030003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.915498 b: -55.5194 rms: 69.2881 r: 0.952207 sig: 1 dec: 1). [Recompute]
+Y-W-03030003-mtf1-12: Integer precision
+Y-W-03030003-mag-12: Integer precision
+# Errata: Data

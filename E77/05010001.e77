@@ -1,0 +1,49 @@
+# Cruise 05010001 ID NR7601 MGD77 FILE VERSION: 19840921 N_RECS: 9565
+# Examined: Fri Apr 30 13:09:49 2010 by mtchandl
+# Arguments:  -R170.85/173.95/-39.15/-35.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010001-H13-09: Unknown IGRF specified (PGRF-75)
+Y-W-05010001-nav-00: Flagged 0.31 % of records with bad navigation
+Y-I-05010001-depth-01: RLS m: 0.999651 b: 0 rms: 7.01443 r: 0.999789 sig: 1 dec: 0
+Y-E-05010001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999817 b: -21.3043 rms: 23.1661 r: 0.999468 sig: 1 dec: 1). [Recompute]
+Y-W-05010001-depth-12: Integer precision
+Y-W-05010001-mtf1-12: Integer precision
+Y-W-05010001-mag-12: Integer precision
+# Errata: Data
+Y	05010001	1976-06-29T00:04:00.00	21	C-0-0	 NAV: excessive speed
+Y	05010001	1976-06-29T20:52:24.00	1221	C-0-0	 NAV: excessive speed
+Y	05010001	1976-06-29T23:10:00.00	1354	B-0-0	 NAV: non-increasing time
+Y	05010001	1976-06-29T23:10:06.00	1355	C-0-0	 NAV: excessive speed
+Y	05010001	1976-06-29T23:26:12.00	1368	C-0-0	 NAV: excessive speed
+Y	05010001	1976-06-29T23:26:18.00	1369	C-0-0	 NAV: excessive speed
+?	05010001	1976-06-30T01:02:42.00	1427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010001	1976-06-30T01:18:18.00	1443	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05010001	1976-07-01T03:02:48.00	2842	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-01T03:04:00.00	2849	B-0-0	 NAV: non-increasing time
+Y	05010001	1976-07-06T02:56:00.00	8075	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:04:12.00	8336	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:06:30.00	8338	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:07:42.00	8339	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:11:06.00	8340	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:12:12.00	8341	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:13:18.00	8342	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:14:24.00	8343	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:15:36.00	8344	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:16:42.00	8345	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:17:48.00	8346	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:18:00.00	8347	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:19:00.00	8348	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:20:06.00	8349	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:21:12.00	8350	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:22:24.00	8351	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:23:30.00	8352	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:24:36.00	8353	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:25:48.00	8354	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:27:00.00	8355	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:28:00.00	8356	C-0-0	 NAV: excessive speed
+Y	05010001	1976-07-06T08:29:12.00	8357	C-0-0	 NAV: excessive speed

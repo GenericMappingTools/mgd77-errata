@@ -1,0 +1,19 @@
+# Cruise 01030247 ID V3616 MGD77 FILE VERSION: 19850827 N_RECS: 6519
+# Examined: Fri Mar 19 01:31:27 2010 by mtchandl
+# Arguments:  -R78.85/103.2/-8.6/6.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01030247-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-01030247-depth-01: RLS m: 0.999651 b: 0 rms: 6.99906 r: 0.999859 sig: 1 dec: 0
+Y-I-01030247-faa-01: RLS m: 0.946307 b: -10.7106 rms: 9.74362 r: 0.980976 sig: 1 dec: 0
+N-E-01030247-faa-02: Regression slope 0.946307 different from 1. Recommended: [1]
+Y-W-01030247-faa-03: Regression offset -10.7106 different from 0.
+Y-E-01030247-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03207 b: -305.884 rms: 308.641 r: 0.930012 sig: 1 dec: 0). [Recompute]
+Y-W-01030247-twt-11: More recent bathymetry correction table available
+Y-W-01030247-mtf1-12: Integer precision
+Y-W-01030247-mag-12: Integer precision
+# Errata: Data

@@ -1,0 +1,95 @@
+# Cruise 15010003 ID AMPH03AR MGD77 FILE VERSION: 19800226 N_RECS: 11386
+# Examined: Mon May 12 16:54:43 2008 by mtchandl
+# Arguments:  -R189.3/242.7/-14.35/32.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010003-H04-03: Invalid Survey Departure Day: (27) [28]
+Y-W-15010003-nav-00: Flagged 0.71 % of records with excessive speed or invalid navigation
+Y-I-15010003-depth-01: RLS m: 0.996125 b: 0 rms: 180.571 r: 0.99324 significant: 1 decimation: 1
+Y-E-15010003-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.971922 b: 35.2361 rms: 41.2197 r: 0.995423 sig: 1 dec: 1). [Recompute]
+Y-W-15010003-mtf1-12: Integer multiple of 5 precision
+Y-W-15010003-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010003	1964-02-01T05:12:00.00	1403	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-01T05:15:00.00	1404	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:33:00.00	3570	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:36:00.00	3571	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:39:00.00	3572	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:42:00.00	3573	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:45:00.00	3574	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:48:00.00	3575	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:51:00.00	3576	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:54:00.00	3577	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T11:57:00.00	3578	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:00:00.00	3579	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:03:00.00	3580	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:06:00.00	3581	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:09:00.00	3582	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:12:00.00	3583	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:15:00.00	3584	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:18:00.00	3585	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:21:00.00	3586	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:24:00.00	3587	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:27:00.00	3588	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:30:00.00	3589	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:33:00.00	3590	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:36:00.00	3591	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:39:00.00	3592	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:42:00.00	3593	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:45:00.00	3594	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:48:00.00	3595	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:51:00.00	3596	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:54:00.00	3597	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T12:57:00.00	3598	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:00:00.00	3599	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:03:00.00	3600	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:06:00.00	3601	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:09:00.00	3602	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:12:00.00	3603	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:15:00.00	3604	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:18:00.00	3605	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:21:00.00	3606	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:24:00.00	3607	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:27:00.00	3608	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:30:00.00	3609	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T13:33:00.00	3610	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T22:45:00.00	3681	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T22:48:00.00	3682	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T22:51:00.00	3683	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T22:54:00.00	3684	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T22:57:00.00	3685	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:00:00.00	3686	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:03:00.00	3687	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:06:00.00	3688	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:09:00.00	3689	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:12:00.00	3690	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:15:00.00	3691	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:18:00.00	3692	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:21:00.00	3693	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:24:00.00	3694	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:27:00.00	3695	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:30:00.00	3696	CD-0-0	 NAV: excessive speed, on land
+Y	15010003	1964-02-07T23:33:00.00	3697	CD-0-0	 NAV: excessive speed, on land
+Y	15010003	1964-02-07T23:36:00.00	3698	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:39:00.00	3699	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:42:00.00	3700	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:45:00.00	3701	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:48:00.00	3702	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:51:00.00	3703	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:54:00.00	3704	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-07T23:57:00.00	3705	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-08T00:00:00.00	3706	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-08T00:03:00.00	3707	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-08T00:06:00.00	3708	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-08T00:09:00.00	3709	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-08T00:12:00.00	3710	C-0-0	 NAV: excessive speed
+Y	15010003	1964-02-17T03:30:00.00	6305	D-0-0	 NAV: on land
+Y	15010003	1964-02-17T03:33:00.00	6306	D-0-0	 NAV: on land
+Y	15010003	1964-02-17T03:36:00.00	6307	D-0-0	 NAV: on land
+Y	15010003	1964-02-17T03:39:00.00	6308	D-0-0	 NAV: on land
+Y	15010003	1964-02-17T03:42:00.00	6309	D-0-0	 NAV: on land
+Y	15010003	1964-02-17T03:45:00.00	6310	D-0-0	 NAV: on land

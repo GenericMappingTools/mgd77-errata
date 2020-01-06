@@ -1,0 +1,16 @@
+# Cruise 84020001 ID EVA500 MGD77 FILE VERSION: 19890630 N_RECS: 795
+# Examined: Wed Aug  3 07:27:39 2011 by mtchandl
+# Arguments:  -R167.95/170.85/-20.75/-17.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Depths appear to be reported in fathoms, recommend scaling by 1.8228.
+# Errata: Header
+N-E-84020001-H04-03: Invalid Survey Departure Day: (10) [23]
+N-E-84020001-H04-06: Invalid Survey Arrival Day: (14) [13]
+Y-I-84020001-depth-01: RLS m: 0.53367 b: 0 rms: 1263.52 r: 0.994491 sig: 1 dec: 0
+N-E-84020001-depth-02: Regression slope 0.53367 different from 1. Recommended: [1.8288]
+N-E-84020001-depth-08: Extended offset from grid [1-795]
+Y-W-84020001-depth-12: Integer precision
+# Errata: Data

@@ -1,0 +1,14 @@
+# Cruise 84010017 ID EV1400 MGD77 FILE VERSION: 19890630 N_RECS: 7762
+# Examined: Wed Aug  3 07:27:14 2011 by mtchandl
+# Arguments:  -R166.55/171.95/-22.45/-9.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-84010017-H04-03: Invalid Survey Departure Day: ( 3) [05]
+N-E-84010017-H04-06: Invalid Survey Arrival Day: ( 4) [03]
+Y-W-84010017-H13-10: Survey year (1987) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-84010017-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-84010017-depth-01: RLS m: 1.00025 b: 0 rms: 30.8854 r: 0.999369 sig: 1 dec: 0

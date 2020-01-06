@@ -1,0 +1,38 @@
+# Cruise 05250001 ID RS8102 MGD77 FILE VERSION: 20080805 N_RECS: 19707
+# Examined: Fri May 21 13:34:23 2010 by mtchandl
+# Arguments:  -R163.1/199.3/-78.4/-72.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Large discrepancies between ship and predicted bathymetry early in the survey.
+# Errata: Header
+N-E-05250001-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05250001-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05250001-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05250001-H16-06: Ten Degree Identifier 5716 not marked in header but block was crossed
+Y-W-05250001-H16-06: Ten Degree Identifier 5717 not marked in header but block was crossed
+Y-W-05250001-H16-06: Ten Degree Identifier 3716 not marked in header but block was crossed
+Y-W-05250001-H16-06: Ten Degree Identifier 3717 not marked in header but block was crossed
+Y-W-05250001-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-05250001-depth-01: RLS m: 1.03168 b: 0 rms: 85.7835 r: 0.89876 sig: 1 dec: 0
+N-E-05250001-depth-02: Regression slope 1.03168 different from 1. Recommended: [1]
+Y-I-05250001-faa-01: RLS m: 0.933516 b: -0.772915 rms: 7.45428 r: 0.910097 sig: 1 dec: 0
+N-E-05250001-faa-02: Regression slope 0.933516 different from 1. Recommended: [1]
+Y-W-05250001-faa-03: Regression offset -0.772915 different from 0.
+Y-W-05250001-depth-12: Integer precision
+# Errata: Data
+?	05250001	1981-02-10T23:08:00.00	17620	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:09:00.00	17621	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:10:00.00	17622	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:12:00.00	17623	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:13:00.00	17624	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:14:00.00	17625	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:15:00.00	17626	D-0-0	 NAV: on land
+Y	05250001	1981-02-10T23:16:00.00	17627	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:49:00.00	19702	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:50:00.00	19703	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:51:00.00	19704	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:52:00.00	19705	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:53:00.00	19706	D-0-0	 NAV: on land
+Y	05250001	1981-02-12T13:54:00.00	19707	D-0-0	 NAV: on land

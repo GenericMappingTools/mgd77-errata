@@ -1,0 +1,40 @@
+# Cruise 08010008 ID 71042609 MGD77 FILE VERSION: 19830518 N_RECS: 5006
+# Examined: Mon Jul 26 15:46:11 2010 by mtchandl
+# Arguments:  -R276.95/282.9/-12.2/-4.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010008-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010008-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010008-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010008-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-08010008-depth-01: RLS m: 1 b: 0 rms: 26.2275 r: 0.999927 sig: 1 dec: 0
+Y-I-08010008-faa-01: RLS m: 0.983619 b: -0.910367 rms: 5.21591 r: 0.996594 sig: 1 dec: 0
+N-E-08010008-faa-02: Regression slope 0.983619 different from 1. Recommended: [1]
+Y-W-08010008-faa-03: Regression offset -0.910367 different from 0.
+Y-E-08010008-mag-07: Anomaly differs from mtf1-IGRF (m: 0.888023 b: 38.771 rms: 38.8869 r: 0.969564 sig: 1 dec: 0). [Recompute]
+Y-W-08010008-twt-11: More recent bathymetry correction table available
+Y-W-08010008-mtf1-12: Integer precision
+Y-W-08010008-mag-12: Integer precision
+Y-W-08010008-faa-12: Integer precision
+# Errata: Data
+Y	08010008	1972-02-27T18:54:00.00	1	D-0-0	 NAV: on land
+?	08010008	1972-02-29T05:50:00.00	431	D-0-0	 NAV: on land
+Y	08010008	1972-02-29T18:10:00.00	446	D-0-0	 NAV: on land
+?	08010008	1972-03-01T19:30:11.94	809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-02T01:55:42.00	966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-02T01:57:11.94	968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-02T02:08:30.00	984	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-02T02:10:00.00	985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-02T02:19:30.00	994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-05T21:24:11.94	2621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T14:43:11.94	2894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T14:44:30.00	2897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T15:22:00.00	2916	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T15:22:42.00	2919	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T15:24:42.00	2923	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T21:09:30.00	3011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010008	1972-03-06T21:10:00.00	3012	0-0-OQ	 GRAD: mtf1, mag excessive

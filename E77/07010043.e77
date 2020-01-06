@@ -1,0 +1,21 @@
+# Cruise 07010043 ID YAQ7310 MGD77 FILE VERSION: 19840131 N_RECS: 2753
+# Examined: Fri Jul 16 17:46:47 2010 by mtchandl
+# Arguments:  -R234.35/242.5/32.8/44.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010043-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07010043-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-07010043-depth-01: RLS m: 0.998953 b: 0 rms: 31.5116 r: 0.999763 sig: 1 dec: 0
+Y-I-07010043-faa-01: RLS m: 1.02909 b: 2.79818 rms: 4.53101 r: 0.986145 sig: 1 dec: 0
+N-E-07010043-faa-02: Regression slope 1.02909 different from 1. Recommended: [1]
+Y-W-07010043-faa-03: Regression offset 2.79818 different from 0.
+Y-E-07010043-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00491 b: -85.1696 rms: 86.7828 r: 0.993855 sig: 1 dec: 1). [Recompute]
+Y-W-07010043-twt-11: More recent bathymetry correction table available
+Y-W-07010043-mtf1-12: Integer precision
+Y-W-07010043-mag-12: Integer precision
+# Errata: Data
+Y	07010043	1974-04-27T06:16:00.00	2670	B-0-0	 NAV: non-increasing time

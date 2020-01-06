@@ -1,0 +1,67 @@
+# Cruise 08010088 ID 82081300 MGD77 FILE VERSION: 19860605 N_RECS: 27121
+# Examined: Thu Mar 18 23:45:33 2010 by mtchandl
+# Arguments:  -R200.55/203/19.2/24.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-08010088-H13-10: Survey year (1982) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08010088-depth-01: RLS m: 1 b: 0 rms: 25.0626 r: 0.999842 sig: 1 dec: 0
+Y-I-08010088-faa-01: RLS m: 0.994476 b: -0.16697 rms: 6.03767 r: 0.996553 sig: 1 dec: 0
+N-E-08010088-faa-02: Regression slope 0.994476 different from 1. Recommended: [1]
+Y-E-08010088-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00002 b: -94.6301 rms: 95.8256 r: 0.999106 sig: 1 dec: 1). [Recompute]
+Y-W-08010088-twt-11: More recent bathymetry correction table available
+Y-W-08010088-mtf1-12: Integer precision
+Y-W-08010088-mag-12: Integer precision
+# Errata: Data
+?	08010088	1982-08-13T18:30:00.00	839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:31:00.00	840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:32:00.00	841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:33:00.00	842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:34:00.00	843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:35:00.00	844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T18:36:00.00	845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T20:57:00.00	1034	0-0-O	 GRAD: mtf1 excessive
+?	08010088	1982-08-13T20:58:00.00	1035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T20:59:00.00	1036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:00:00.00	1037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:01:00.00	1038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:02:00.00	1039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:03:00.00	1040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:04:00.00	1041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:05:00.00	1042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:06:00.00	1043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-13T21:07:00.00	1044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-14T06:05:37.02	1696	0-0-K	 GRAD: twt excessive
+?	08010088	1982-08-14T06:37:46.02	1742	0-0-K	 GRAD: twt excessive
+?	08010088	1982-08-15T13:17:00.00	4196	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-19T09:31:15.96	10215	0-0-KL	 GRAD: twt, depth excessive
+?	08010088	1982-08-21T21:09:00.00	13723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:21:00.00	14085	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:22:00.00	14087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:23:00.00	14088	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:24:00.00	14090	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:29:00.00	14098	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:30:00.00	14099	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T02:31:00.00	14100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T06:17:00.00	14406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T07:36:00.00	14506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:42:00.00	15012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:43:00.00	15013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:44:00.00	15014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:45:00.00	15016	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:46:00.00	15017	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:47:00.00	15018	0-0-O	 GRAD: mtf1 excessive
+?	08010088	1982-08-22T16:55:00.00	15030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:56:00.00	15032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:57:00.00	15033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:58:00.00	15035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010088	1982-08-22T16:59:00.00	15036	0-0-O	 GRAD: mtf1 excessive
+?	08010088	1982-08-22T17:02:00.00	15039	0-0-O	 GRAD: mtf1 excessive
+?	08010088	1982-08-23T03:50:00.00	15867	0-0-W	 GRAD: faa excessive
+?	08010088	1982-08-23T03:55:00.00	15875	0-0-W	 GRAD: faa excessive
+?	08010088	1982-08-24T05:31:24.96	17668	0-0-K	 GRAD: twt excessive
+?	08010088	1982-08-24T09:03:21.96	17931	0-0-KL	 GRAD: twt, depth excessive
+?	08010088	1982-08-30T01:55:00.00	26484	0-0-W	 GRAD: faa excessive

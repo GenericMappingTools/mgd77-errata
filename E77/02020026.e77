@@ -1,0 +1,31 @@
+# Cruise 02020026 ID A2054L02 MGD77 FILE VERSION: 19800206 N_RECS: 7076
+# Examined: Fri Mar 26 21:21:45 2010 by mtchandl
+# Arguments:  -R250.5/279.35/-10.05/7.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-E-02020026-H04-02: Invalid Survey Departure Month: (10) [11]
+Y-E-02020026-H04-03: Invalid Survey Departure Day: (31) [01]
+Y-I-02020026-depth-01: RLS m: 0.998686 b: 0 rms: 44.1315 r: 0.997704 sig: 1 dec: 0
+Y-E-02020026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.874334 b: -85.0253 rms: 97.7127 r: 0.974516 sig: 1 dec: 0). [Recompute]
+Y-W-02020026-twt-11: More recent bathymetry correction table available
+Y-W-02020026-mtf1-12: Integer precision
+Y-W-02020026-mag-12: Integer precision
+# Errata: Data
+?	02020026	1969-11-02T05:10:00.00	215	0-0-K	 GRAD: twt excessive
+?	02020026	1969-11-07T22:00:00.00	1993	0-0-K	 GRAD: twt excessive
+?	02020026	1969-11-16T03:07:00.00	4015	0-0-KL	 GRAD: twt, depth excessive
+?	02020026	1969-11-16T03:10:00.00	4016	0-0-KL	 GRAD: twt, depth excessive
+?	02020026	1969-11-20T12:44:00.00	4629	0-0-KL	 GRAD: twt, depth excessive
+?	02020026	1969-11-22T15:21:00.00	5203	0-0-K	 GRAD: twt excessive
+?	02020026	1969-11-22T16:20:00.00	5218	0-0-K	 GRAD: twt excessive
+?	02020026	1969-11-22T19:47:00.00	5229	0-0-KL	 GRAD: twt, depth excessive
+?	02020026	1969-11-26T19:49:00.00	6228	0-0-K	 GRAD: twt excessive
+?	02020026	1969-11-29T03:30:00.00	6301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020026	1969-11-29T06:10:00.00	6335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020026	1969-11-29T06:15:00.00	6337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020026	1969-11-29T07:55:00.00	6363	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020026	1969-11-29T08:00:00.00	6364	0-0-OQ	 GRAD: mtf1, mag excessive

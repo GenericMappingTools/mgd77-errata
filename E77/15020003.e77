@@ -1,0 +1,23 @@
+# Cruise 15020003 ID ANTP03MV MGD77 FILE VERSION: 19830818 N_RECS: 10778
+# Examined: Wed May 14 08:22:24 2008 by mtchandl
+# Arguments:  -R135.75/183.65/32.65/57.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-E-15020003-H16-01: Invalid Number of Ten Degree Identifiers: ( 8) [9]
+Y-W-15020003-H16-06: Ten Degree Identifier 7518 not marked in header but block was crossed
+Y-I-15020003-depth-01: RLS m: 0.996403 b: 0 rms: 102.779 r: 0.998517 sign: 1 dec: 1
+Y-E-15020003-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.979633 b: -22.419 rms: 62.3844 r: 0.973698 sig: 1 dec: 1). [Recompute]
+N-E-15020003-depth-08: Extended offset from grid [10231-10308]
+Y-E-15020003-twt-13: Encountered possible PDR wrap errors (9.4) [10.0]
+Y-W-15020003-mtf1-12: Integer multiple of 5 precision
+Y-W-15020003-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020003	1970-07-26T12:28:00.00	691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020003	1970-07-26T12:38:00.00	695	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020003	1970-08-02T22:01:00.00	3511	0-Q-0	 VAL: mag invalid
+?	15020003	1970-08-18T16:35:00.00	10238	0-0-KL	 GRAD: twt, depth excessive
+?	15020003	1970-08-18T19:20:00.00	10304	0-0-KL	 GRAD: twt, depth excessive

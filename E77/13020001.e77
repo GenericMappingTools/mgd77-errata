@@ -1,0 +1,45 @@
+# Cruise 13020001 ID BFT73 MGD77 FILE VERSION: 19800313 N_RECS: 686
+# Examined: Mon Aug 30 16:01:11 2010 by mtchandl
+# Arguments:  -R200.95/216.05/70.2/71.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-13020001-time-01: 23 of 686 records contain invalid time
+Y-E-13020001-H12-01: Invalid Bathymetry Digitizing Rate: (310) [310]
+Y-W-13020001-nav-00: Flagged 0.29 % of records with bad navigation
+Y-I-13020001-depth-01: RLS m: 1.03408 b: 0 rms: 2.00884 r: 0.99872 sig: 1 dec: 0
+N-E-13020001-depth-02: Regression slope 1.03408 different from 1. Recommended: [1]
+Y-I-13020001-faa-01: RLS m: 0.931165 b: -2.19715 rms: 5.26104 r: 0.982694 sig: 1 dec: 1
+N-E-13020001-faa-02: Regression slope 0.931165 different from 1. Recommended: [1]
+Y-W-13020001-faa-03: Regression offset -2.19715 different from 0.
+Y-I-13020001-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-13020001-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	13020001	NaN	19	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	65	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	66	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	67	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	68	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	158	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	231	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	232	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	233	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	234	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	235	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	236	E-0-0	 NAV: navigation undefined
+Y	13020001	1973-08-06T18:50:00.00	307	B-0-0	 NAV: non-increasing time
+Y	13020001	NaN	324	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	325	E-0-0	 NAV: navigation undefined
+Y	13020001	1973-08-09T08:20:00.00	468	B-0-0	 NAV: non-increasing time
+Y	13020001	NaN	550	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	551	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	552	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	553	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	554	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	555	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	636	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	669	E-0-0	 NAV: navigation undefined
+Y	13020001	NaN	670	E-0-0	 NAV: navigation undefined

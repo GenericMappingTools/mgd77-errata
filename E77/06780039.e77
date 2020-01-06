@@ -1,0 +1,22 @@
+# Cruise 06780039 ID FRNL82-7 MGD77 FILE VERSION: 19901101 N_RECS: 14212
+# Examined: Fri Jul 16 15:56:37 2010 by mtchandl
+# Arguments:  -R264.15/275.9/24.15/29 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some bathymetric outliers.
+# Errata: Header
+Y-I-06780039-depth-01: RLS m: 1 b: 0 rms: 18.8824 r: 0.999693 sig: 1 dec: 0
+Y-W-06780039-depth-12: Integer precision
+# Errata: Data
+?	06780039	1982-02-11T08:00:00.00	5400	0-0-KL	 GRAD: twt, depth excessive
+?	06780039	1982-02-11T08:02:00.00	5401	0-0-KL	 GRAD: twt, depth excessive
+?	06780039	1982-02-18T03:56:00.00	10206	0-0-K	 GRAD: twt excessive
+?	06780039	1982-02-18T03:58:00.00	10207	0-0-KL	 GRAD: twt, depth excessive
+?	06780039	1982-02-18T04:00:00.00	10208	0-0-KL	 GRAD: twt, depth excessive
+?	06780039	1982-02-19T22:00:00.00	11468	0-0-KL	 GRAD: twt, depth excessive
+?	06780039	1982-02-22T14:08:00.00	13392	0-0-K	 GRAD: twt excessive
+?	06780039	1982-02-22T14:10:00.00	13393	0-0-K	 GRAD: twt excessive
+?	06780039	1982-02-22T14:12:00.00	13394	0-0-K	 GRAD: twt excessive
+?	06780039	1982-02-23T13:44:00.00	14100	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,18 @@
+# Cruise 15030010 ID IGUA05EB MGD77 FILE VERSION: 19830819 N_RECS: 2017
+# Examined: Tue May 20 12:46:36 2008 by mtchandl
+# Arguments:  -R242.8/260.05/16.75/32.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Improvement observed graphically by recomputing anomalies with latest IGRF (Recommend recomputing magnetic anomalies).
+# Errata: Header
+N-E-15030010-H04-03: Invalid Survey Departure Day: (15) [16]
+Y-W-15030010-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15030010-depth-01: RLS m: 0.996125 b: 0 rms: 142.617 r: 0.99628 sig: 1 dec: 1
+Y-E-15030010-mag-07: Anomaly equivalent to mtf1 - IGRF (m: 0.992459 b: -1.36922 rms: 64.3333 r: 0.945777 sig: 1 dec: 1) [Recompute]
+Y-W-15030010-mtf1-12: Integer multiple of 5 precision
+Y-W-15030010-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15030010	1972-05-20T17:50:00.00	1385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15030010	1972-05-21T08:50:00.00	1566	0-0-OQ	 GRAD: mtf1, mag excessive

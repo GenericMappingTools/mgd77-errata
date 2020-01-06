@@ -1,0 +1,36 @@
+# Cruise 15080025 ID NOVA05HO MGD77 FILE VERSION: 19800226 N_RECS: 6765
+# Examined: Sun Jun  1 14:25:38 2008 by mtchandl
+# Arguments:  -R153.3/182/-36.35/-21.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+N-E-15080025-H04-06: Invalid Survey Arrival Day: (12) [11]
+Y-E-15080025-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-15080025-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-W-15080025-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15080025-depth-01: RLS m: 1.00388 b: 0 rms: 131.73 r: 0.997536 sig: 1 dec: 1
+Y-E-15080025-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01627 b: 46.1789 rms: 75.4456 r: 0.970887 sig: 1 dec: 1). [Recompute]
+N-E-15080025-depth-08: Extended offset from grid [6180-6198]
+N-E-15080025-depth-08: Extended offset from grid [6228-6320]
+Y-E-15080025-twt-13: Encountered possible PDR wrap errors (9.7) [10.0]
+Y-W-15080025-mtf1-12: Integer multiple of 5 precision
+Y-W-15080025-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080025	1967-08-13T02:25:00.00	602	0-0-K	 GRAD: twt excessive
+?	15080025	1967-08-16T00:10:00.00	1255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080025	1967-08-16T00:15:00.00	1256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080025	1967-08-22T02:35:00.00	2661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080025	1967-08-22T03:05:00.00	2667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080025	1967-08-23T17:15:00.00	3125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080025	1967-09-04T00:40:00.00	5064	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15080025	1967-09-07T11:10:00.00	5735	C-0-0	 NAV: excessive speed
+Y	15080025	1967-09-07T11:15:00.00	5736	C-0-0	 NAV: excessive speed
+?	15080025	1967-09-09T13:00:00.00	6181	0-0-KL	 GRAD: twt, depth excessive
+?	15080025	1967-09-09T14:20:00.00	6197	0-0-KL	 GRAD: twt, depth excessive
+?	15080025	1967-09-09T16:55:00.00	6228	0-0-KL	 GRAD: twt, depth excessive
+?	15080025	1967-09-09T20:00:00.00	6265	0-0-KL	 GRAD: twt, depth excessive
+?	15080025	1967-09-09T20:35:00.00	6269	0-0-KL	 GRAD: twt, depth excessive
+?	15080025	1967-09-10T02:20:00.00	6317	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,95 @@
+# Cruise 08010044 ID 78100300 MGD77 FILE VERSION: 19801229 N_RECS: 30537
+# Examined: Mon Jul 26 16:10:49 2010 by mtchandl
+# Arguments:  -R189.05/202.35/8.9/21.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010044-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-08010044-depth-01: RLS m: 1 b: 0 rms: 15.2273 r: 0.999884 sig: 1 dec: 0
+Y-I-08010044-faa-01: RLS m: 0.991293 b: 0.576067 rms: 4.0481 r: 0.99658 sig: 1 dec: 0
+N-E-08010044-faa-02: Regression slope 0.991293 different from 1. Recommended: [1]
+Y-W-08010044-faa-03: Regression offset 0.576067 different from 0.
+Y-E-08010044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.960156 b: 44.0603 rms: 63.4332 r: 0.97541 sig: 1 dec: 1). [Recompute]
+Y-W-08010044-twt-11: More recent bathymetry correction table available
+Y-W-08010044-mtf1-12: Integer precision
+Y-W-08010044-mag-12: Integer precision
+# Errata: Data
+?	08010044	1978-10-03T19:33:40.02	6	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:36:40.02	7	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:39:40.02	8	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:42:00.00	9	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:43:00.00	10	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:44:00.00	11	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:45:00.00	12	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:46:00.00	13	D-0-0	 NAV: on land
+Y	08010044	1978-10-03T19:47:00.00	14	D-0-0	 NAV: on land
+?	08010044	1978-10-03T19:48:00.00	15	D-0-0	 NAV: on land
+?	08010044	1978-10-03T20:54:00.00	84	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T21:00:00.00	91	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T21:08:00.00	99	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T21:26:00.00	119	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T21:43:00.00	136	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T21:53:00.00	147	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T22:03:00.00	158	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T22:12:00.00	167	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-03T22:48:00.00	207	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-04T22:21:00.00	1873	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-05T13:30:03.96	2918	0-0-K	 GRAD: twt excessive
+?	08010044	1978-10-06T02:09:08.94	3811	0-0-KL	 GRAD: twt, depth excessive
+?	08010044	1978-10-07T18:30:00.00	6139	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-08T00:07:00.00	6509	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-08T03:21:00.00	6762	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-08T17:36:58.02	7799	0-0-K	 GRAD: twt excessive
+?	08010044	1978-10-08T20:20:00.00	8010	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-09T17:09:18.96	9492	0-0-K	 GRAD: twt excessive
+?	08010044	1978-10-10T03:10:00.00	10193	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-10T06:27:00.00	10405	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-11T18:42:00.00	12902	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-11T18:44:00.00	12904	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-12T01:25:00.00	13341	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-12T13:57:00.00	14258	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-12T18:31:00.00	14567	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-12T20:11:00.00	14702	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-12T23:22:00.00	14924	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T04:04:00.00	15266	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T04:06:00.00	15269	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T12:44:00.00	15841	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T13:05:00.00	15867	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T13:07:00.00	15870	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T14:12:00.00	15946	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T18:24:00.00	16246	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T18:26:00.00	16249	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-13T22:20:00.00	16507	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-14T06:00:00.00	17006	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-14T09:36:00.00	17248	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-14T10:06:00.00	17284	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-18T12:40:22.98	23669	0-0-K	 GRAD: twt excessive
+?	08010044	1978-10-19T16:39:00.00	25608	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-19T16:40:00.00	25609	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-19T20:05:00.00	25834	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T00:45:00.00	26143	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T00:46:00.00	26144	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T00:48:00.00	26146	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T01:58:00.00	26229	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T12:04:00.00	26913	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T17:40:00.00	27301	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-20T17:41:00.00	27302	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-21T16:41:00.00	28952	0-0-KL	 GRAD: twt, depth excessive
+?	08010044	1978-10-21T16:51:20.94	28964	0-0-KL	 GRAD: twt, depth excessive
+?	08010044	1978-10-22T03:59:00.00	29795	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-22T10:12:00.00	30168	0-0-W	 GRAD: faa excessive
+?	08010044	1978-10-22T16:06:00.00	30522	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:07:00.00	30523	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:08:00.00	30524	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:09:00.00	30525	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:10:00.00	30526	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:11:00.00	30527	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:12:00.00	30528	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:13:00.00	30529	D-0-0	 NAV: on land
+Y	08010044	1978-10-22T16:14:00.00	30530	D-0-0	 NAV: on land
+?	08010044	1978-10-22T16:15:00.00	30531	D-0-0	 NAV: on land
+?	08010044	1978-10-22T16:16:00.00	30532	D-0-0	 NAV: on land
+?	08010044	1978-10-22T16:17:00.00	30533	D-0-0	 NAV: on land

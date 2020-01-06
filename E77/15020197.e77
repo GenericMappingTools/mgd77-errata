@@ -1,0 +1,102 @@
+# Cruise 15020197 ID LWAD99MV MGD77 FILE VERSION: 20040528 N_RECS: 22647
+# Examined: Mon May 19 04:42:35 2008 by mtchandl
+# Arguments:  -R234.75/242.8/32.6/44.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error. 
+# Errata: Header
+Y-E-15020197-H04-03: Invalid Survey Departure Day: (05) [04]
+Y-E-15020197-H15-01: Invalid Gravity Departure Base Station Value: (979533) [9795330]
+Y-E-15020197-H15-03: Invalid Gravity Arrival Base Station Value: (979533) [9795330]
+Y-I-15020197-depth-01: RLS m: 1 b: 0 rms: 155.935 r: 0.979865 sig: 1 dec: 1
+Y-I-15020197-faa-01: RLS m: 0.979147 b: 1.39913 rms: 12.323 r: 0.947272 sig: 1 dec: 1
+N-E-15020197-faa-06: Anomaly differs from gobs - IGF80 (m: 0.35327 b: -13.6227 rms: 46.4655 r: 0.614279 sig: 1 dec: 1). [Recompute]
+Y-W-15020197-twt-11: More recent bathymetry correction table available
+Y-W-15020197-depth-12: Integer precision
+# Errata: Data
+?	15020197	1999-09-04T23:57:00.00	1	D-0-0	 NAV: on land
+?	15020197	1999-09-04T23:58:00.00	2	D-0-0	 NAV: on land
+?	15020197	1999-09-04T23:59:00.00	3	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:00:00.00	4	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:01:00.00	5	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:02:00.00	6	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:03:00.00	7	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:04:00.00	8	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:05:00.00	9	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:06:00.00	10	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:07:00.00	11	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:08:00.00	12	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:09:00.00	13	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:10:00.00	14	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:11:00.00	15	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:12:00.00	16	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:13:00.00	17	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:14:00.00	18	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:15:00.00	19	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:16:00.00	20	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:17:00.00	21	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:18:00.00	22	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:19:00.00	23	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:20:00.00	24	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:21:00.00	25	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:22:00.00	26	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:23:00.00	27	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:24:00.00	28	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:25:00.00	29	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:26:00.00	30	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:27:00.00	31	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:28:00.00	32	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:29:00.00	33	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:30:00.00	34	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:31:00.00	35	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:32:00.00	36	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:33:00.00	37	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:34:00.00	38	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:35:00.00	39	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:36:00.00	40	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:37:00.00	41	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:38:00.00	42	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:39:00.00	43	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:40:00.00	44	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:41:00.00	45	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:42:00.00	46	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:43:00.00	47	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:44:00.00	48	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:45:00.00	49	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:46:00.00	50	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:47:00.00	51	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:48:00.00	52	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:49:00.00	53	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:50:00.00	54	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:51:00.00	55	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:52:00.00	56	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:53:00.00	57	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:54:00.00	58	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:55:00.00	59	D-0-0	 NAV: on land
+?	15020197	1999-09-05T00:56:00.00	60	D-0-0	 NAV: on land
+?	15020197	1999-09-08T18:58:00.00	5462	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-08T18:59:00.00	5463	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-08T19:00:00.00	5464	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-08T20:32:00.00	5556	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-09T04:34:00.00	6038	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-09T19:26:00.00	6930	0-0-W	 GRAD: faa excessive
+?	15020197	1999-09-09T19:27:00.00	6931	0-0-W	 GRAD: faa excessive
+?	15020197	1999-09-09T19:28:00.00	6932	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-10T04:32:00.00	7476	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-10T16:22:00.00	8186	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-11T01:17:00.00	8721	0-0-K	 GRAD: twt excessive
+?	15020197	1999-09-11T01:19:00.00	8723	0-0-KL	 GRAD: twt, depth excessive
+?	15020197	1999-09-11T01:20:00.00	8724	0-0-KL	 GRAD: twt, depth excessive
+?	15020197	1999-09-12T05:08:00.00	10392	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-14T21:26:00.00	14250	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-16T02:43:00.00	16007	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-16T04:09:00.00	16093	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-16T04:10:00.00	16094	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-16T06:12:00.00	16216	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-16T06:13:00.00	16217	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-17T18:20:00.00	18384	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-17T19:17:00.00	18441	0-0-U	 GRAD: gobs excessive
+?	15020197	1999-09-20T17:23:00.00	22647	D-0-0	 NAV: on land

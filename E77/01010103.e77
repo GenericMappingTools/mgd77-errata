@@ -1,0 +1,31 @@
+# Cruise 01010103 ID RC1507 MGD77 FILE VERSION: 19790619 N_RECS: 9438
+# Examined: Mon Jul  6 14:44:32 2009 by mtchandl
+# Arguments:  -R298.7/325.05/-40.35/-23.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010103-H04-05: Invalid Survey Arrival Month: (06) [05]
+N-E-01010103-H04-06: Invalid Survey Arrival Day: (05) [08]
+N-E-01010103-H13-06: Invalid Magnetics Reference Field Code: (72) [72]
+Y-I-01010103-depth-01: RLS m: 0.999651 b: 0 rms: 0.449837 r: 1 sig: 1 dec: 0
+N-E-01010103-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01010103-faa-01: RLS m: 1.00799 b: 3.66544 rms: 8.66025 r: 0.980275 sig: 1 dec: 1
+Y-W-01010103-faa-03: Regression offset 3.66544 different from 0.
+Y-E-01010103-mag-07: Anomaly differs from mtf1-IGRF (m: 0.975569 b: 99.4694 rms: 108.108 r: 0.980277 sig: 1 dec: 1). [Recompute]
+N-E-01010103-depth-08: Extended offset from grid [5-9438]
+Y-W-01010103-twt-11: More recent bathymetry correction table available
+Y-W-01010103-mtf1-12: Integer precision
+Y-W-01010103-mag-12: Integer precision
+# Errata: Data
+?	01010103	1972-05-02T10:30:00.00	7235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T16:05:00.00	7349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T17:35:00.00	7381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T17:40:00.00	7383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T17:50:00.00	7387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T17:55:00.00	7389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-02T18:10:00.00	7394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-03T18:25:00.00	7680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010103	1972-05-07T12:30:00.00	9167	0-0-OQ	 GRAD: mtf1, mag excessive

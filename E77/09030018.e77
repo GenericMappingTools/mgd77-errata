@@ -1,0 +1,14 @@
+# Cruise 09030018 ID SI932003 MGD77 FILE VERSION: 19830818 N_RECS: 2016
+# Examined: Fri Jul 30 14:19:33 2010 by mtchandl
+# Arguments:  -R182.5/201.85/21.25/28.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09030018-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-09030018-depth-01: RLS m: 0.999651 b: 0 rms: 7.43019 r: 0.999871 sig: 1 dec: 0
+Y-W-09030018-depth-12: Integer precision
+# Errata: Data
+Y	09030018	1971-08-12T17:45:00.00	1158	C-0-0	 NAV: excessive speed

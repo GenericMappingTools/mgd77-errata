@@ -1,0 +1,82 @@
+# Cruise 01010124 ID RC1705 MGD77 FILE VERSION: 19790619 N_RECS: 17766
+# Examined: Mon Jul  6 15:16:29 2009 by mtchandl
+# Arguments:  -R18.15/56.95/-68.35/-29.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010124-H13-06: Invalid Magnetics Reference Field Code: (74) [74]
+Y-I-01010124-depth-01: RLS m: 1.0035 b: 0 rms: 111.947 r: 0.997525 sig: 1 dec: 1
+Y-I-01010124-faa-01: RLS m: 1.00549 b: 7.56412 rms: 14.3017 r: 0.986084 sig: 1 dec: 1
+Y-W-01010124-faa-03: Regression offset 7.56412 different from 0.
+Y-E-01010124-mag-07: Anomaly differs from mtf1-IGRF (m: 0.998997 b: -221.122 rms: 249.696 r: 0.892907 sig: 1 dec: 1). [Recompute]
+N-E-01010124-faa-08: Extended offset from grid [11221-14049]
+N-E-01010124-depth-08: Extended offset from grid [5-17766]
+Y-W-01010124-twt-11: More recent bathymetry correction table available
+Y-W-01010124-mtf1-12: Integer precision
+Y-W-01010124-mag-12: Integer precision
+# Errata: Data
+?	01010124	1974-03-08T22:30:00.00	5174	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010124	1974-03-08T22:35:00.00	5175	0-Q-0	 VAL: mag invalid
+?	01010124	1974-03-08T23:00:00.00	5183	0-Q-0	 VAL: mag invalid
+?	01010124	1974-03-08T23:05:00.00	5184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-08T23:35:00.00	5195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-18T14:05:00.00	8483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-22T10:18:00.00	9964	0-0-K	 GRAD: twt excessive
+?	01010124	1974-03-24T15:05:00.00	11047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-24T15:10:00.00	11049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-24T15:15:00.00	11051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-24T15:20:00.00	11053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-24T15:35:00.00	11057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-24T15:40:00.00	11059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-27T13:35:00.00	12350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T19:15:00.00	13606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T19:20:00.00	13608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T19:30:00.00	13611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T19:40:00.00	13614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T19:55:00.00	13620	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T20:05:00.00	13622	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T20:10:00.00	13624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T22:55:00.00	13680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T23:15:00.00	13687	0-0-Q	 GRAD: mag excessive
+?	01010124	1974-03-30T23:30:00.00	13691	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T23:35:00.00	13692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T23:40:00.00	13694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-30T23:55:00.00	13700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T00:30:00.00	13711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T00:35:00.00	13712	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T00:40:00.00	13714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T01:20:00.00	13728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T01:45:00.00	13736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T01:55:00.00	13740	0-0-Q	 GRAD: mag excessive
+?	01010124	1974-03-31T03:50:00.00	13778	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T04:30:00.00	13791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T04:50:00.00	13798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T04:55:00.00	13800	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T05:25:00.00	13810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T05:30:00.00	13811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T05:35:00.00	13812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T05:40:00.00	13814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T05:45:00.00	13816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T07:25:00.00	13851	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T07:30:00.00	13853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T07:35:00.00	13854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T07:40:00.00	13856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T07:45:00.00	13858	0-0-Q	 GRAD: mag excessive
+?	01010124	1974-03-31T08:05:00.00	13864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T09:00:00.00	13884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T09:10:00.00	13887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T09:31:00.00	13895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T09:40:00.00	13898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T09:55:00.00	13904	0-0-O	 GRAD: mtf1 excessive
+?	01010124	1974-03-31T11:08:00.00	13931	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:20:00.00	13939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:22:00.00	13940	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:25:00.00	13942	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:40:00.00	13946	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:47:00.00	13949	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:50:00.00	13951	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T11:55:00.00	13953	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010124	1974-03-31T12:00:00.00	13955	0-0-OQ	 GRAD: mtf1, mag excessive

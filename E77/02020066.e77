@@ -1,0 +1,63 @@
+# Cruise 02020066 ID A2093L07 MGD77 FILE VERSION: 19820805 N_RECS: 16974
+# Examined: Fri Apr  2 14:56:13 2010 by mtchandl
+# Arguments:  -R39.6/57.5/-20.15/4.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020066-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-02020066-depth-01: RLS m: 0.999623 b: 0 rms: 15.0379 r: 0.999813 sig: 1 dec: 0
+Y-I-02020066-faa-01: RLS m: 1.02037 b: -1.99413 rms: 8.59348 r: 0.990397 sig: 1 dec: 1
+N-E-02020066-faa-02: Regression slope 1.02037 different from 1. Recommended: [1]
+Y-W-02020066-faa-03: Regression offset -1.99413 different from 0.
+Y-I-02020066-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020066-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.43627 b: -0.873109 rms: 48.0795 r: 0.715905 sig: 1 dec: 1). [Recompute]
+Y-E-02020066-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03045 b: -392.843 rms: 392.101 r: 0.984499 sig: 1 dec: 0). [Recompute]
+Y-W-02020066-twt-11: More recent bathymetry correction table available
+Y-W-02020066-mtf1-12: Integer precision
+Y-W-02020066-mag-12: Integer precision
+# Errata: Data
+?	02020066	1976-04-11T01:01:00.00	1860	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-11T23:05:00.00	2475	0-0-KL	 GRAD: twt, depth excessive
+?	02020066	1976-04-12T18:37:00.00	3130	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-12T18:39:00.00	3132	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-13T16:35:00.00	3810	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-15T10:05:00.00	4893	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-16T03:35:00.00	5177	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-16T05:35:00.00	5219	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-16T07:30:00.00	5262	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-16T17:00:00.00	5480	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-19T08:55:00.00	6987	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-20T01:40:00.00	7440	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-20T12:05:00.00	7754	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-20T12:10:00.00	7756	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-22T20:59:00.00	9268	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-23T09:35:00.00	9571	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-23T12:41:00.00	9646	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-23T23:55:00.00	9919	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-24T07:55:00.00	10126	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-24T09:05:00.00	10163	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-25T04:45:00.00	10643	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-25T12:16:00.00	10825	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-25T21:05:00.00	11046	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-26T14:50:00.00	11479	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-27T06:05:00.00	11867	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-27T20:05:00.00	12208	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-28T03:21:00.00	12392	0-0-K	 GRAD: twt excessive
+?	02020066	1976-04-28T14:20:00.00	12672	0-0-V	 GRAD: eot excessive
+?	02020066	1976-04-29T06:10:00.00	13083	0-0-V	 GRAD: eot excessive
+Y	02020066	1976-05-06T05:35:00.00	16960	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T05:40:00.00	16961	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T05:45:00.00	16962	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T05:50:00.00	16963	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T05:55:00.00	16964	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:00:00.00	16965	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:05:00.00	16966	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:10:00.00	16967	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:15:00.00	16968	D-0-0	 NAV: on land
+?	02020066	1976-05-06T06:20:00.00	16969	D-0-0	 NAV: on land
+?	02020066	1976-05-06T06:35:00.00	16972	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:40:00.00	16973	D-0-0	 NAV: on land
+Y	02020066	1976-05-06T06:45:00.00	16974	D-0-0	 NAV: on land

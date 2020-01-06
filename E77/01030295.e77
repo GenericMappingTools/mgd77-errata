@@ -1,0 +1,71 @@
+# Cruise 01030295 ID V0703 MGD77 FILE VERSION: 19900821 N_RECS: 9849
+# Examined: Fri Mar 19 01:36:38 2010 by mtchandl
+# Arguments:  -R295/304.65/32.4/39.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01030295-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030295-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030295-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030295-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030295-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030295-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030295-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030295-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01030295-nav-00: Flagged 0.42 % of records with bad navigation
+Y-I-01030295-depth-01: RLS m: 1 b: 0 rms: 9.7198 r: 0.999547 sig: 1 dec: 0
+# Errata: Data
+?	01030295	1955-07-08T01:21:00.00	120	0-0-K	 GRAD: twt excessive
+?	01030295	1955-07-08T18:29:00.00	1139	0-0-K	 GRAD: twt excessive
+?	01030295	1955-07-09T00:10:00.00	1480	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T14:23:00.00	3894	0-0-K	 GRAD: twt excessive
+?	01030295	1955-07-27T14:24:00.00	3895	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T22:52:00.00	4081	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T22:53:00.00	4082	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T22:54:00.00	4083	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T22:55:00.00	4084	0-0-KL	 GRAD: twt, depth excessive
+?	01030295	1955-07-27T22:56:00.00	4085	0-0-KL	 GRAD: twt, depth excessive
+Y	01030295	1955-07-28T03:43:00.00	4373	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:16:00.00	4464	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:17:00.00	4465	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:18:00.00	4466	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:19:00.00	4467	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:20:00.00	4468	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:21:00.00	4469	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:22:00.00	4470	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:23:00.00	4471	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:24:00.00	4472	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:25:00.00	4473	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:26:00.00	4474	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:27:00.00	4475	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:28:00.00	4476	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:29:00.00	4477	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:30:00.00	4478	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:31:00.00	4479	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:32:00.00	4480	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:33:00.00	4481	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:34:00.00	4482	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:35:00.00	4483	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:36:00.00	4484	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:37:00.00	4485	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:38:00.00	4486	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:39:00.00	4487	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:40:00.00	4488	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:41:00.00	4489	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:42:00.00	4490	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:43:00.00	4491	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:44:00.00	4492	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:45:00.00	4493	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:46:00.00	4494	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:47:00.00	4495	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:48:00.00	4496	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:49:00.00	4497	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:50:00.00	4498	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:51:00.00	4499	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:52:00.00	4500	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:53:00.00	4501	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:54:00.00	4502	B-0-0	 NAV: non-increasing time
+Y	01030295	1955-07-28T05:55:00.00	4503	B-0-0	 NAV: non-increasing time

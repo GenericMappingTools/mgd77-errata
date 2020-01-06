@@ -1,0 +1,132 @@
+# Cruise 67010160 ID 86001211 MGD77 FILE VERSION: 19931231 N_RECS: 8894
+# Examined: Sat Jul 30 20:27:02 2011 by mtchandl
+# Arguments:  -R-149.65/-138.95/-21.85/-16.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Turned on excessive gravity gradient flags to remove outliers. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010160-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-67010160-depth-01: RLS m: 1 b: 0 rms: 19.2189 r: 0.999909 sig: 1 dec: 0
+Y-I-67010160-faa-01: RLS m: 1.0098 b: -11.6862 rms: 12.2118 r: 0.995471 sig: 1 dec: 0
+N-E-67010160-faa-02: Regression slope 1.0098 different from 1. Recommended: [1]
+Y-W-67010160-faa-03: Regression offset -11.6862 different from 0.
+Y-I-67010160-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010160-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.971853 b: -51.0679 rms: 57.949 r: 0.823691 sig: 1 dec: 0). [Recompute]
+N-E-67010160-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.943259 b: -0.554021 rms: 10.046 r: 0.978847 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-67010160-mag-07: Anomaly differs from mtf1-IGRF (m: 0.983953 b: -38.1752 rms: 39.3146 r: 0.997982 sig: 1 dec: 1). [Recompute]
+Y-W-67010160-depth-12: Integer precision
+Y-W-67010160-mtf1-12: Integer precision
+Y-W-67010160-mag-12: Integer precision
+# Errata: Data
+?	67010160	1986-04-03T23:20:00.00	705	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T17:53:00.00	1818	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T18:33:00.00	1858	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T18:34:00.00	1859	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T18:35:00.00	1860	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T19:07:00.00	1892	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T19:08:00.00	1893	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T19:09:00.00	1894	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T19:10:00.00	1895	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T20:12:00.00	1957	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T20:13:00.00	1958	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T20:14:00.00	1959	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T20:18:00.00	1963	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T20:19:00.00	1964	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T21:20:00.00	2025	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T21:21:00.00	2026	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-04T21:22:00.00	2027	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T21:27:00.00	2032	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T21:28:00.00	2033	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T22:36:00.00	2101	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T22:38:00.00	2103	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T23:30:00.00	2155	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-04T23:32:00.00	2157	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-04T23:38:00.00	2163	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T00:30:00.00	2215	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T00:31:00.00	2216	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-05T00:32:00.00	2217	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T00:33:00.00	2218	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T00:34:00.00	2219	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-05T00:37:00.00	2222	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T01:11:00.00	2256	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T01:13:00.00	2258	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T03:11:00.00	2376	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T03:12:00.00	2377	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T03:13:00.00	2378	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T03:14:00.00	2379	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T04:43:00.00	2468	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T04:44:00.00	2469	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T04:45:00.00	2470	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-05T07:35:00.00	2640	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-05T19:29:00.00	3354	0-0-VW	 GRAD: eot, faa excessive
+?	67010160	1986-04-05T19:32:00.00	3357	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-05T19:38:00.00	3363	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T03:12:00.00	3817	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T05:13:00.00	3938	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T06:15:00.00	4000	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T06:16:00.00	4001	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T07:46:00.00	4091	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T07:47:00.00	4092	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T07:48:00.00	4093	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T09:07:00.00	4172	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T09:08:00.00	4173	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T09:09:00.00	4174	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T09:59:00.00	4224	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T10:00:00.00	4225	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T10:01:00.00	4226	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T11:19:00.00	4304	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T11:20:00.00	4305	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T11:21:00.00	4306	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T13:14:00.00	4419	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T13:16:00.00	4421	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T14:34:00.00	4499	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T14:36:00.00	4501	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T14:47:00.00	4512	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T16:27:00.00	4612	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T16:28:00.00	4613	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T16:29:00.00	4614	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T17:31:00.00	4676	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T17:32:00.00	4677	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T17:33:00.00	4678	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T17:34:00.00	4679	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T18:32:00.00	4737	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T19:01:00.00	4766	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-06T19:02:00.00	4767	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-06T19:03:00.00	4768	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-06T20:41:00.00	4866	0-0-K	 GRAD: twt excessive
+?	67010160	1986-04-06T21:09:00.00	4894	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T03:17:00.00	5262	0-0-KL	 GRAD: twt, depth excessive
+?	67010160	1986-04-07T03:18:00.00	5263	0-0-KL	 GRAD: twt, depth excessive
+?	67010160	1986-04-07T07:01:00.00	5486	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T07:40:00.00	5525	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T07:42:00.00	5527	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-07T07:43:00.00	5528	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T08:51:00.00	5596	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T08:52:00.00	5597	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T12:51:00.00	5836	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T12:53:00.00	5838	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T16:38:00.00	6063	0-0-K	 GRAD: twt excessive
+?	67010160	1986-04-07T17:49:00.00	6134	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T17:50:00.00	6135	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-07T17:51:00.00	6136	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T19:04:00.00	6209	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-07T20:43:00.00	6308	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T20:44:00.00	6309	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T20:46:00.00	6311	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T22:04:00.00	6389	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T22:05:00.00	6390	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T23:27:00.00	6472	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T23:29:00.00	6474	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T23:30:00.00	6475	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T23:31:00.00	6476	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-07T23:32:00.00	6477	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-07T23:33:00.00	6478	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-07T23:34:00.00	6479	0-0-V	 GRAD: eot excessive
+?	67010160	1986-04-08T00:34:00.00	6539	0-0-K	 GRAD: twt excessive
+?	67010160	1986-04-08T01:17:00.00	6582	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-08T01:19:00.00	6584	0-0-UW	 GRAD: gobs, faa excessive
+?	67010160	1986-04-08T01:20:00.00	6585	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010160	1986-04-08T03:58:00.00	6743	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	67010160	1986-04-09T16:33:00.00	8893	B-0-V	 NAV: non-increasing time - GRAD: eot excessive

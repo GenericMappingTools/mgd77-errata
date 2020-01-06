@@ -1,0 +1,61 @@
+# Cruise J4010026 ID KH7602 MGD77 FILE VERSION: 19880219 N_RECS: 6185
+# Examined: Sun Aug  7 10:13:33 2011 by mtchandl
+# Arguments:  -R130.45/139.85/20.85/35.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive faa gradients to remove outliers.
+# Errata: Header
+Y-I-J4010026-depth-01: RLS m: 0.9998 b: 0 rms: 23.7215 r: 0.999782 sig: 1 dec: 0
+Y-I-J4010026-faa-01: RLS m: 1.02033 b: -4.65896 rms: 7.29122 r: 0.977053 sig: 1 dec: 0
+N-E-J4010026-faa-02: Regression slope 1.02033 different from 1. Recommended: [1]
+Y-W-J4010026-faa-03: Regression offset -4.65896 different from 0.
+Y-W-J4010026-depth-12: Integer precision
+Y-W-J4010026-faa-12: Integer precision
+# Errata: Data
+Y	J4010026	1976-06-02T19:10:00.00	573	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-02T19:15:00.00	574	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-04T08:40:00.00	957	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-04T20:25:00.00	1064	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-04T20:30:00.00	1065	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-05T12:15:00.00	1254	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-05T12:20:00.00	1255	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-05T19:00:00.00	1335	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-05T19:05:00.00	1336	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-06T05:40:00.00	1463	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-06T05:50:00.00	1465	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-06T09:45:00.00	1512	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-06T09:50:00.00	1513	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-07T13:15:00.00	1840	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-07T13:20:00.00	1841	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-07T19:15:00.00	1880	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-09T05:15:00.00	2219	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T12:55:00.00	2556	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T13:00:00.00	2557	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T13:05:00.00	2558	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T19:15:00.00	2632	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-10T19:20:00.00	2633	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T19:40:00.00	2637	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-10T19:50:00.00	2639	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-11T01:00:00.00	2701	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-11T17:25:00.00	2836	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-11T17:30:00.00	2837	0-W-0	 VAL: faa invalid
+Y	J4010026	1976-06-11T17:35:00.00	2838	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-19T00:20:00.00	3693	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-19T00:25:00.00	3694	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-19T00:30:00.00	3695	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-21T00:55:00.00	4201	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-21T01:00:00.00	4202	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-21T01:05:00.00	4203	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-21T01:10:00.00	4204	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-22T08:05:00.00	4567	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-23T17:55:00.00	4858	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-23T18:00:00.00	4859	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-23T18:15:00.00	4862	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-23T18:20:00.00	4863	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-23T18:25:00.00	4864	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-28T10:35:00.00	6149	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-28T10:40:00.00	6150	0-0-W	 GRAD: faa excessive
+Y	J4010026	1976-06-28T13:15:00.00	6181	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010026	1976-06-28T13:20:00.00	6182	0-0-W	 GRAD: faa excessive

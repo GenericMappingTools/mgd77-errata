@@ -1,0 +1,21 @@
+# Cruise J1010015 ID HT851124 MGD77 FILE VERSION: 19900924 N_RECS: 2287
+# Examined: Thu Aug  4 20:04:08 2011 by mtchandl
+# Arguments:  -R139.9/142.55/24.95/27.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-E-J1010015-H11-03: Invalid Bottommost Latitude: (+25) [+24]
+Y-I-J1010015-depth-01: RLS m: 0.998992 b: 0 rms: 19.3575 r: 0.999713 sig: 1 dec: 0
+Y-I-J1010015-faa-01: RLS m: 1.00515 b: -3.46543 rms: 4.45884 r: 0.999 sig: 1 dec: 0
+N-E-J1010015-faa-02: Regression slope 1.00515 different from 1. Recommended: [1]
+Y-W-J1010015-faa-03: Regression offset -3.46543 different from 0.
+Y-W-J1010015-depth-12: Integer precision
+Y-W-J1010015-mag-12: Integer precision
+Y-W-J1010015-faa-12: Integer precision
+# Errata: Data
+?	J1010015	1985-11-26T18:40:00.00	407	0-0-Q	 GRAD: mag excessive
+?	J1010015	1985-12-04T23:10:00.00	1586	0-0-Q	 GRAD: mag excessive
+?	J1010015	1985-12-06T16:30:00.00	1834	0-0-Q	 GRAD: mag excessive

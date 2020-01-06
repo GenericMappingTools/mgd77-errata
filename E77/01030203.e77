@@ -1,0 +1,20 @@
+# Cruise 01030203 ID V3307 MGD77 FILE VERSION: 19800908 N_RECS: 6321
+# Examined: Fri Mar 19 01:17:56 2010 by mtchandl
+# Arguments:  -R42.85/79.7/4.75/14.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01030203-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-01030203-depth-01: RLS m: 0.999216 b: 0 rms: 30.644 r: 0.999629 sig: 1 dec: 0
+Y-I-01030203-faa-01: RLS m: 0.980891 b: -0.082158 rms: 6.01991 r: 0.980316 sig: 1 dec: 0
+N-E-01030203-faa-02: Regression slope 0.980891 different from 1. Recommended: [1]
+Y-W-01030203-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030203	1976-05-19T05:27:00.00	498	0-0-KL	 GRAD: twt, depth excessive
+?	01030203	1976-05-19T17:42:00.00	598	0-0-K	 GRAD: twt excessive
+?	01030203	1976-05-28T03:13:00.00	2100	0-0-KL	 GRAD: twt, depth excessive
+Y	01030203	1976-06-04T21:00:00.00	3958	B-0-0	 NAV: non-increasing time
+Y	01030203	1976-06-09T21:00:00.00	5596	B-0-0	 NAV: non-increasing time

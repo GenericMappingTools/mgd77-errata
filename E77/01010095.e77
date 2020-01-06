@@ -1,0 +1,74 @@
+# Cruise 01010095 ID RC1406 MGD77 FILE VERSION: 19790619 N_RECS: 9375
+# Examined: Mon Jul  6 14:31:20 2009 by mtchandl
+# Arguments:  -R162.6/193.4/52.05/61.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010095-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-01010095-H16-01: Invalid Number of Ten Degree Identifiers: ( 7) [5]
+Y-W-01010095-H16-06: Ten Degree Identifier 7518 marked in header but was not crossed
+Y-W-01010095-H16-06: Ten Degree Identifier 1518 marked in header but was not crossed
+Y-W-01010095-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-01010095-depth-01: RLS m: 0.999651 b: 0 rms: 2.3244 r: 0.999999 sig: 1 dec: 0
+N-E-01010095-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01010095-faa-01: RLS m: 1.00499 b: 5.4523 rms: 9.02784 r: 0.997481 sig: 1 dec: 1
+Y-W-01010095-faa-03: Regression offset 5.4523 different from 0.
+Y-E-01010095-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00353 b: -194.656 rms: 194.85 r: 0.998884 sig: 1 dec: 0). [Recompute]
+N-E-01010095-depth-08: Extended offset from grid [4-9375]
+Y-W-01010095-twt-11: More recent bathymetry correction table available
+Y-W-01010095-mtf1-12: Integer precision
+Y-W-01010095-mag-12: Integer precision
+# Errata: Data
+?	01010095	1971-07-21T12:24:00.00	942	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01010095	1971-07-22T05:00:00.00	970	D-0-0	 NAV: on land
+Y	01010095	1971-07-22T05:06:00.00	971	D-0-0	 NAV: on land
+Y	01010095	1971-07-22T05:12:00.00	972	D-0-0	 NAV: on land
+?	01010095	1971-07-29T09:54:00.00	3312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-07-29T10:12:00.00	3316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-02T13:12:00.00	4507	0-0-Q	 GRAD: mag excessive
+?	01010095	1971-08-02T13:18:00.00	4508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-02T13:24:00.00	4510	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-02T13:30:00.00	4512	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-02T13:36:00.00	4514	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:00:00.00	7039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:06:00.00	7040	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:08:00.00	7042	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:10:00.00	7043	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:11:00.00	7044	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:13:00.00	7046	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:14:00.00	7047	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:15:00.00	7048	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:16:00.00	7049	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:17:00.00	7050	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:18:00.00	7051	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:20:00.00	7052	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:24:00.00	7053	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:26:00.00	7054	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:27:00.00	7055	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:29:00.00	7056	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:30:00.00	7057	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:33:00.00	7058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:36:00.00	7059	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:38:00.00	7061	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:40:00.00	7062	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:41:00.00	7063	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:42:00.00	7064	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:45:00.00	7065	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010095	1971-08-10T15:46:00.00	7066	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:49:00.00	7069	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T15:54:00.00	7070	0-Q-0	 VAL: mag invalid
+?	01010095	1971-08-10T16:00:00.00	7072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-12T12:42:00.00	7619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T14:36:00.00	9048	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T14:42:00.00	9050	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T15:14:00.00	9062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T15:18:00.00	9064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T15:33:00.00	9068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T15:36:00.00	9069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T16:06:00.00	9080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T16:09:00.00	9081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T16:13:00.00	9083	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010095	1971-08-16T16:36:00.00	9091	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,96 @@
+# Cruise 02010041 ID CH099L01 MGD77 FILE VERSION: 19820805 N_RECS: 5568
+# Examined: Fri Mar 26 20:43:06 2010 by mtchandl
+# Arguments:  -R284.8/293.85/18.55/41.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and faa using IGF80.
+# Errata: Header
+Y-W-02010041-nav-00: Flagged 0.74 % of records with bad navigation
+Y-I-02010041-depth-01: RLS m: 1.00057 b: 0 rms: 38.8881 r: 0.999679 sig: 1 dec: 0
+Y-I-02010041-faa-01: RLS m: 0.993436 b: -1.07089 rms: 7.85216 r: 0.997116 sig: 1 dec: 1
+Y-W-02010041-faa-03: Regression offset -1.07089 different from 0.
+Y-E-02010041-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010041-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.961484 b: -38.4316 rms: 43.0122 r: 0.972265 sig: 1 dec: 1). [Recompute]
+Y-E-02010041-mag-07: Anomaly differs from mtf1-IGRF (m: 1.08431 b: -186.599 rms: 194.73 r: 0.958101 sig: 1 dec: 1). [Recompute]
+Y-W-02010041-mtf1-12: Integer precision
+Y-W-02010041-mag-12: Integer precision
+# Errata: Data
+Y	02010041	1970-04-02T06:07:00.00	369	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:08:00.00	370	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:09:00.00	371	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:10:00.00	372	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:11:00.00	373	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:12:00.00	374	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:13:00.00	375	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:14:00.00	376	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:15:00.00	377	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:16:00.00	378	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:17:00.00	379	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:18:00.00	380	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:19:00.00	381	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:20:00.00	382	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:21:00.00	383	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:22:00.00	384	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:23:00.00	385	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:24:00.00	386	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:25:00.00	387	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:26:00.00	388	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:27:00.00	389	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:28:00.00	390	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:29:00.00	391	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:30:00.00	392	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:31:00.00	393	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:32:00.00	394	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:33:00.00	395	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:34:00.00	396	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:35:00.00	397	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:36:00.00	398	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:37:00.00	399	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:38:00.00	400	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:39:00.00	401	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:40:00.00	402	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:41:00.00	403	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:42:00.00	404	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:43:00.00	405	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:44:00.00	406	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:45:00.00	407	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:46:00.00	408	C-0-0	 NAV: excessive speed
+Y	02010041	1970-04-02T06:47:00.00	409	C-0-0	 NAV: excessive speed
+?	02010041	1970-04-02T23:32:00.00	1404	0-0-UW	 GRAD: gobs, faa excessive
+?	02010041	1970-04-03T05:50:00.00	1487	0-0-V	 GRAD: eot excessive
+?	02010041	1970-04-09T11:00:00.00	3517	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-09T12:33:00.00	3547	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-09T12:38:00.00	3549	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-09T12:41:00.00	3551	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-10T06:05:00.00	3811	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-10T10:50:00.00	3875	0-0-V	 GRAD: eot excessive
+?	02010041	1970-04-11T00:26:00.00	4103	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:27:00.00	4104	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:28:00.00	4105	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:31:00.00	4107	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:32:00.00	4108	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:33:00.00	4109	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:34:00.00	4110	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:53:00.00	4120	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:56:00.00	4122	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T00:59:00.00	4124	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T01:00:00.00	4125	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-11T04:04:00.00	4192	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-11T15:46:00.00	4379	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-12T02:14:00.00	4564	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-12T02:15:00.00	4565	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T02:47:00.00	4996	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T04:25:00.00	5029	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-13T04:49:00.00	5036	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-13T07:40:00.00	5083	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T10:15:00.00	5125	0-0-V	 GRAD: eot excessive
+?	02010041	1970-04-13T13:34:00.00	5178	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T13:52:00.00	5186	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T14:18:00.00	5196	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-13T14:23:00.00	5199	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-13T15:06:00.00	5211	0-0-KL	 GRAD: twt, depth excessive
+?	02010041	1970-04-13T16:12:00.00	5227	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-14T00:57:00.00	5367	0-0-K	 GRAD: twt excessive
+?	02010041	1970-04-14T02:22:00.00	5386	0-0-KL	 GRAD: twt, depth excessive

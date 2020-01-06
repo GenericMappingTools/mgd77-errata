@@ -1,0 +1,59 @@
+# Cruise 01010221 ID RC2308 MGD77 FILE VERSION: 19870305 N_RECS: 10178
+# Examined: Mon Jul  6 17:19:01 2009 by mtchandl
+# Arguments:  -R200.45/202.95/18.95/24.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010221-H13-06: Invalid Magnetics Reference Field Code: (82) [82]
+Y-W-01010221-nav-00: Flagged 0.31 % of records with excessive speed or invalid navigation
+Y-I-01010221-depth-01: RLS m: 1 b: 0 rms: 143.799 r: 0.993848 sig: 1 dec: 1
+Y-I-01010221-faa-01: RLS m: 0.96222 b: -5.63141 rms: 11.2331 r: 0.995306 sig: 1 dec: 1
+N-E-01010221-faa-02: Regression slope 0.96222 different from 1. Recommended: [1]
+Y-W-01010221-faa-03: Regression offset -5.63141 different from 0.
+Y-E-01010221-mag-07: Anomaly differs from mtf1-IGRF (m: 0.987103 b: -89.3462 rms: 92.5128 r: 0.996617 sig: 1 dec: 1). [Recompute]
+N-E-01010221-depth-08: Extended offset from grid [32-9874]
+N-E-01010221-depth-08: Extended offset from grid [9876-10178]
+Y-W-01010221-twt-11: More recent bathymetry correction table available
+Y-W-01010221-mtf1-12: Integer precision
+Y-W-01010221-mag-12: Integer precision
+# Errata: Data
+?	01010221	1982-08-16T14:54:00.00	1552	0-0-K	 GRAD: twt excessive
+?	01010221	1982-08-22T08:36:00.00	4061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010221	1982-08-22T16:00:00.00	4191	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010221	1982-08-22T17:06:00.00	4208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010221	1982-08-22T17:18:00.00	4211	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01010221	1982-09-07T16:00:00.00	10147	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:03:00.00	10148	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:04:00.00	10149	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:05:00.00	10150	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:07:00.00	10151	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:10:00.00	10152	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:13:00.00	10153	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:16:00.00	10154	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:18:00.00	10155	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:20:00.00	10156	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:21:00.00	10157	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:22:00.00	10158	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:23:00.00	10159	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:24:00.00	10160	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:25:00.00	10161	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:26:00.00	10162	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:27:00.00	10163	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:29:00.00	10164	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:30:00.00	10165	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:32:00.00	10166	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:34:00.00	10167	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:39:00.00	10168	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:41:00.00	10169	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:45:00.00	10170	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:47:00.00	10171	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:50:00.00	10172	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:53:00.00	10173	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:54:00.00	10174	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:56:00.00	10175	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T16:57:00.00	10176	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T17:01:00.00	10177	D-0-0	 NAV: on land
+Y	01010221	1982-09-07T17:02:00.00	10178	D-0-0	 NAV: on land

@@ -1,0 +1,52 @@
+# Cruise 01030143 ID V2815 MGD77 FILE VERSION: 19790920 N_RECS: 8384
+# Examined: Fri Jul 10 11:57:46 2009 by mtchandl
+# Arguments:  -R129.25/144.3/33.05/43.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. -~170 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01030143-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030143-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-01030143-depth-01: RLS m: 0.999651 b: 0 rms: 5.93999 r: 0.999991 sig: 1 dec: 0
+N-E-01030143-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030143-faa-01: RLS m: 0.97966 b: -0.949921 rms: 13.8559 r: 0.973217 sig: 1 dec: 1
+Y-E-01030143-mag-07: Anomaly differs from mtf1-IGRF (m: 0.967511 b: -172.644 rms: 181.019 r: 0.938927 sig: 1 dec: 1). [Recompute]
+N-E-01030143-depth-08: Extended offset from grid [6-8384]
+Y-W-01030143-twt-11: More recent bathymetry correction table available
+Y-W-01030143-mtf1-12: Integer precision
+Y-W-01030143-mag-12: Integer precision
+# Errata: Data
+Y	01030143	1971-06-22T02:59:00.00	1	D-0-0	 NAV: on land
+Y	01030143	1971-06-22T03:00:00.00	2	D-0-0	 NAV: on land
+?	01030143	1971-06-25T01:26:00.00	951	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T01:42:00.00	955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T06:06:00.00	1019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T06:48:00.00	1030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T06:54:00.00	1032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T07:06:00.00	1034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T07:57:00.00	1047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-25T08:00:00.00	1048	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-29T14:20:00.00	2333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-06-30T12:10:00.00	2644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-05T14:42:00.00	4218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-05T14:44:00.00	4219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-05T14:48:00.00	4220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-05T14:50:00.00	4221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-05T14:54:00.00	4222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-06T00:09:00.00	4350	D-0-0	 NAV: on land
+Y	01030143	1971-07-06T00:30:00.00	4351	D-0-0	 NAV: on land
+?	01030143	1971-07-06T07:03:00.00	4428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-06T07:06:00.00	4429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-08T18:00:00.00	5202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T00:50:00.00	7144	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:13:00.00	7153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:16:00.00	7154	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:28:00.00	7161	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:30:00.00	7162	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:38:00.00	7166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T01:48:00.00	7170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T02:02:00.00	7178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030143	1971-07-15T02:03:00.00	7179	0-0-O	 GRAD: mtf1 excessive
+?	01030143	1971-07-15T02:05:00.00	7180	0-0-OQ	 GRAD: mtf1, mag excessive

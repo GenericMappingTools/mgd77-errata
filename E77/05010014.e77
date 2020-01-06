@@ -1,0 +1,75 @@
+# Cruise 05010014 ID BT8303 MGD77 FILE VERSION: 19851016 N_RECS: 19490
+# Examined: Fri Apr 30 13:23:55 2010 by mtchandl
+# Arguments:  -R173.95/185.55/-47.05/-41.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05010014-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-W-05010014-H13-10: Survey year (1983) outside magnetic reference field IGRF-80 time range (1995-2000)
+Y-E-05010014-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-05010014-H16-06: Ten Degree Identifier 5418 not marked in header but block was crossed
+Y-I-05010014-depth-01: RLS m: 1.0035 b: 0 rms: 24.0286 r: 0.999834 sig: 1 dec: 0
+N-E-05010014-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-05010014-faa-01: RLS m: 0.995735 b: 4.37053 rms: 6.20174 r: 0.99549 sig: 1 dec: 1
+Y-W-05010014-faa-03: Regression offset 4.37053 different from 0.
+Y-E-05010014-mag-07: Anomaly differs from mtf1-IGRF (m: 0.989162 b: -25.3785 rms: 32.828 r: 0.998513 sig: 1 dec: 1). [Recompute]
+Y-W-05010014-depth-12: Integer precision
+Y-W-05010014-mtf1-12: Integer precision
+Y-W-05010014-mag-12: Integer precision
+# Errata: Data
+?	05010014	1983-09-22T23:58:00.00	437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-09-23T00:06:00.00	445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-09-25T00:10:00.00	3313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-09-25T00:12:00.00	3315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-09-25T00:13:00.00	3316	0-0-O	 GRAD: mtf1 excessive
+?	05010014	1983-09-26T10:03:00.00	5281	0-0-V	 GRAD: eot excessive
+?	05010014	1983-09-26T14:05:00.00	5523	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-09-26T14:09:00.00	5527	0-0-O	 GRAD: mtf1 excessive
+?	05010014	1983-09-28T08:39:00.00	8077	0-0-V	 GRAD: eot excessive
+?	05010014	1983-09-29T16:54:00.00	10011	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T16:55:00.00	10012	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T16:56:00.00	10013	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T16:57:00.00	10014	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T16:58:00.00	10015	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T16:59:00.00	10016	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:00:00.00	10017	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:01:00.00	10018	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:02:00.00	10019	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:03:00.00	10020	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:04:00.00	10021	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:05:00.00	10022	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:06:00.00	10023	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:07:00.00	10024	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:08:00.00	10025	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:09:00.00	10026	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:10:00.00	10027	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:11:00.00	10028	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:12:00.00	10029	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:13:00.00	10030	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:14:00.00	10031	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:15:00.00	10032	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:16:00.00	10033	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:17:00.00	10034	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:18:00.00	10035	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:19:00.00	10036	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:20:00.00	10037	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:21:00.00	10038	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:22:00.00	10039	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:23:00.00	10040	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:24:00.00	10041	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:25:00.00	10042	0-Q-0	 VAL: mag invalid
+?	05010014	1983-09-29T17:26:00.00	10043	0-Q-0	 VAL: mag invalid
+?	05010014	1983-10-03T11:43:00.00	15413	0-0-V	 GRAD: eot excessive
+?	05010014	1983-10-05T15:50:00.00	18492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:52:00.00	18494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:53:00.00	18495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:54:00.00	18496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:56:00.00	18498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:57:00.00	18499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T15:58:00.00	18500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T16:00:00.00	18502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T16:01:00.00	18503	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010014	1983-10-05T16:03:00.00	18505	0-0-OQ	 GRAD: mtf1, mag excessive

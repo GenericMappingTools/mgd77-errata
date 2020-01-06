@@ -1,0 +1,59 @@
+# Cruise 05040010 ID AI8201 MGD77 FILE VERSION: 20080729 N_RECS: 4734
+# Examined: Fri Apr 30 13:28:59 2010 by mtchandl
+# Arguments:  -R166/174.8/-50.9/-41.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040010-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040010-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040010-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040010-H16-06: Ten Degree Identifier 3416 not marked in header but block was crossed
+Y-W-05040010-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05040010-H16-06: Ten Degree Identifier 3516 not marked in header but block was crossed
+Y-W-05040010-nav-00: Flagged 0.74 % of records with bad navigation
+Y-I-05040010-depth-01: RLS m: 0.995834 b: 0 rms: 28.2169 r: 0.996496 sig: 1 dec: 0
+N-E-05040010-depth-02: Regression slope 0.995834 different from 1. Recommended: [1]
+Y-I-05040010-faa-01: RLS m: 0.98616 b: -6.6408 rms: 7.73841 r: 0.992576 sig: 1 dec: 0
+N-E-05040010-faa-02: Regression slope 0.98616 different from 1. Recommended: [1]
+Y-W-05040010-faa-03: Regression offset -6.6408 different from 0.
+Y-W-05040010-depth-12: Integer precision
+# Errata: Data
+Y	05040010	1982-02-22T19:20:00.00	167	C-0-0	 NAV: excessive speed
+Y	05040010	1982-02-22T19:38:00.00	185	C-0-0	 NAV: excessive speed
+Y	05040010	1982-02-23T00:47:00.00	486	C-0-0	 NAV: excessive speed
+Y	05040010	1982-02-23T00:48:00.00	487	C-0-0	 NAV: excessive speed
+?	05040010	1982-02-23T20:20:00.00	1456	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:53:00.00	1489	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:54:00.00	1490	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:55:00.00	1491	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:56:00.00	1492	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:58:00.00	1493	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T20:59:00.00	1494	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:00:00.00	1495	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:01:00.00	1496	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:02:00.00	1497	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:03:00.00	1498	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:04:00.00	1499	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:05:00.00	1500	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:06:00.00	1501	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:07:00.00	1502	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:09:00.00	1503	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:10:00.00	1504	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:11:00.00	1505	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:14:00.00	1506	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:15:00.00	1507	D-0-0	 NAV: on land
+Y	05040010	1982-02-23T21:17:00.00	1508	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:06:00.00	1511	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:07:00.00	1512	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:12:00.00	1513	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:14:00.00	1514	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:15:00.00	1515	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:16:00.00	1516	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:17:00.00	1517	D-0-0	 NAV: on land
+Y	05040010	1982-02-25T08:18:00.00	1518	D-0-0	 NAV: on land
+Y	05040010	1982-03-05T15:29:00.00	3016	C-0-0	 NAV: excessive speed
+Y	05040010	1982-03-05T15:59:00.00	3046	C-0-0	 NAV: excessive speed
+Y	05040010	1982-03-05T16:01:00.00	3048	C-0-0	 NAV: excessive speed

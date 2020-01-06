@@ -1,0 +1,22 @@
+# Cruise 20010016 ID TT-214 MGD77 FILE VERSION: 19890801 N_RECS: 3294
+# Examined: Tue Oct 19 14:42:40 2010 by mtchandl
+# Arguments:  -R187.65/194.1/62.1/68.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-20010016-H04-03: Invalid Survey Departure Day: (12) [14]
+Y-W-20010016-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-20010016-depth-01: RLS m: 1.0312 b: 0 rms: 2.00426 r: 0.986797 sig: 1 dec: 0
+N-E-20010016-depth-02: Regression slope 1.0312 different from 1. Recommended: [1]
+Y-W-20010016-twt-11: twt may be extracted from depth for Carter correction
+# Errata: Data
+Y	20010016	1987-08-17T11:20:40.98	436	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-17T18:30:40.98	512	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-18T04:15:40.98	612	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-22T05:46:19.98	1221	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-28T21:56:22.98	2890	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-29T15:46:10.02	3099	C-0-0	 NAV: excessive speed
+Y	20010016	1987-08-29T16:10:46.98	3104	C-0-0	 NAV: excessive speed

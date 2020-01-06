@@ -1,0 +1,42 @@
+# Cruise 15020060 ID FD774BMV MGD77 FILE VERSION: 19810325 N_RECS: 5200
+# Examined: Fri May 16 11:31:36 2008 by mtchandl
+# Arguments:  -R281.55/285.15/-16.2/-9.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020060-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020060-nav-00: Flagged 0.37 % of records with excessive speed or invalid navigation
+Y-I-15020060-depth-01: RLS m: 0.996125 b: 0 rms: 65.9794 r: 0.999122 sig: 1 dec: 1
+Y-E-15020060-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.942662 b: 108.862 rms: 108.271 r: 0.990659 sig: 1 dec: 1). [Recompute]
+Y-W-15020060-twt-11: More recent bathymetry correction table available
+Y-W-15020060-mtf1-12: Integer precision
+Y-W-15020060-mag-12: Integer precision
+# Errata: Data
+Y	15020060	1977-03-12T12:40:00.00	1	D-0-0	 NAV: on land
+Y	15020060	1977-03-12T12:45:00.00	2	D-0-0	 NAV: on land
+Y	15020060	1977-03-12T12:50:00.00	3	D-0-0	 NAV: on land
+Y	15020060	1977-03-12T12:55:00.00	4	D-0-0	 NAV: on land
+?	15020060	1977-03-12T13:00:00.00	5	D-0-0	 NAV: on land
+?	15020060	1977-03-12T13:05:00.00	6	D-0-0	 NAV: on land
+?	15020060	1977-03-12T13:10:00.00	7	D-0-0	 NAV: on land
+?	15020060	1977-03-12T13:15:00.00	8	D-0-0	 NAV: on land
+?	15020060	1977-03-29T18:50:00.00	4971	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T18:55:00.00	4972	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:00:00.00	4973	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:05:00.00	4974	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:10:00.00	4975	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:15:00.00	4976	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:20:00.00	4977	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:25:00.00	4978	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:30:00.00	4979	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:35:00.00	4980	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:40:00.00	4981	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:45:00.00	4982	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:50:00.00	4983	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T19:55:00.00	4984	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T20:00:00.00	4985	D-0-0	 NAV: on land
+Y	15020060	1977-03-29T20:05:00.00	4986	D-0-0	 NAV: on land
+?	15020060	1977-03-29T20:10:00.00	4987	D-0-0	 NAV: on land

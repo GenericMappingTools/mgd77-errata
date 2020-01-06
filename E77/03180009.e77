@@ -1,0 +1,19 @@
+# Cruise 03180009 ID B00019 MGD77 FILE VERSION: 19961220 N_RECS: 10008
+# Examined: Fri Apr 30 12:07:08 2010 by mtchandl
+# Arguments:  -R235.15/235.55/44.95/45.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some disagreement between ship and predicted bathymetry.
+# Errata: Header
+Y-I-03180009-depth-01: RLS m: 0.995838 b: 0 rms: 38.0796 r: 0.905464 sig: 1 dec: 0
+Y-W-03180009-depth-12: Integer precision
+# Errata: Data
+?	03180009	1985-07-14T01:30:01.98	1583	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T03:26:01.98	1687	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T03:26:49.02	1688	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T12:57:01.02	1950	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T12:58:01.02	1951	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T14:41:58.02	2039	0-0-L	 GRAD: depth excessive
+?	03180009	1985-07-14T14:42:58.02	2040	0-0-L	 GRAD: depth excessive

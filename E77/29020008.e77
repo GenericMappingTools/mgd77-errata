@@ -1,0 +1,62 @@
+# Cruise 29020008 ID VIT26 MGD77 FILE VERSION: 19971007 N_RECS: 4678
+# Examined: Mon Nov 23 15:56:54 2009 by mtchandl
+# Arguments:  -R166.25/187.8/-41.7/33.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bad navigation.
+# Errata: Header
+Y-W-29020008-nav-00: Flagged 0.49 % of records with bad navigation
+Y-I-29020008-depth-01: RLS m: 1.00127 b: 0 rms: 67.7644 r: 0.999193 sig: 1 dec: 0
+N-E-29020008-depth-02: Regression slope 1.00127 different from 1. Recommended: [1]
+Y-W-29020008-depth-12: Integer precision
+# Errata: Data
+Y	29020008	8695.27	289	D-0-0	 NAV: on land
+Y	29020008	8698.23	290	D-0-0	 NAV: on land
+Y	29020008	8699.21	291	D-0-0	 NAV: on land
+Y	29020008	8699.35	292	D-0-L	 NAV: on land - GRAD: depth excessive
+Y	29020008	8725.49	312	D-0-0	 NAV: on land
+Y	29020008	8727.4	313	D-0-0	 NAV: on land
+Y	29020008	8728.73	314	D-0-0	 NAV: on land
+Y	29020008	8729.2	315	D-0-0	 NAV: on land
+Y	29020008	8729.37	316	D-0-0	 NAV: on land
+Y	29020008	8729.92	317	D-0-0	 NAV: on land
+Y	29020008	8730.27	318	D-0-0	 NAV: on land
+Y	29020008	8733.15	319	D-0-0	 NAV: on land
+Y	29020008	8733.93	320	D-0-0	 NAV: on land
+Y	29020008	8734.29	321	D-0-0	 NAV: on land
+Y	29020008	8735.11	322	D-0-0	 NAV: on land
+Y	29020008	8736.2	323	D-0-0	 NAV: on land
+Y	29020008	8737.99	324	D-0-0	 NAV: on land
+Y	29020008	8738.5	325	D-0-0	 NAV: on land
+Y	29020008	8739.13	326	D-0-0	 NAV: on land
+Y	29020008	8740.37	327	D-0-0	 NAV: on land
+Y	29020008	8741.54	328	D-0-0	 NAV: on land
+Y	29020008	8742.99	329	D-0-0	 NAV: on land
+Y	29020008	8743.07	330	D-0-0	 NAV: on land
+?	29020008	8743.54	331	D-0-0	 NAV: on land
+?	29020008	9241.16	529	0-0-L	 GRAD: depth excessive
+?	29020008	12118.3	906	0-0-L	 GRAD: depth excessive
+?	29020008	12400	1072	0-0-L	 GRAD: depth excessive
+?	29020008	12470.6	1139	0-0-L	 GRAD: depth excessive
+?	29020008	12864	1442	0-0-L	 GRAD: depth excessive
+?	29020008	12894.7	1480	0-0-L	 GRAD: depth excessive
+?	29020008	12897.2	1484	0-0-L	 GRAD: depth excessive
+?	29020008	12965.7	1543	0-0-L	 GRAD: depth excessive
+?	29020008	12989.1	1564	0-0-L	 GRAD: depth excessive
+?	29020008	13002.1	1575	0-0-L	 GRAD: depth excessive
+?	29020008	13142.5	1685	0-0-L	 GRAD: depth excessive
+?	29020008	13211.2	1743	0-0-L	 GRAD: depth excessive
+?	29020008	13249.5	1806	0-0-L	 GRAD: depth excessive
+?	29020008	13530.6	1927	0-0-L	 GRAD: depth excessive
+?	29020008	13551.5	1942	0-0-L	 GRAD: depth excessive
+?	29020008	13589.8	1968	0-0-L	 GRAD: depth excessive
+?	29020008	13600.7	1977	0-0-L	 GRAD: depth excessive
+?	29020008	13808.5	2122	0-0-L	 GRAD: depth excessive
+?	29020008	14474.6	2610	0-0-L	 GRAD: depth excessive
+?	29020008	14477.1	2614	0-0-L	 GRAD: depth excessive
+?	29020008	17883.5	2817	0-0-L	 GRAD: depth excessive
+?	29020008	17885.5	2819	0-0-L	 GRAD: depth excessive
+?	29020008	32420.8	4389	0-0-L	 GRAD: depth excessive
+?	29020008	33143.5	4669	0-0-L	 GRAD: depth excessive

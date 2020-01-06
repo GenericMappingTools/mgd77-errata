@@ -1,0 +1,132 @@
+# Cruise 01010189 ID RC2114 MGD77 FILE VERSION: 19800908 N_RECS: 9022
+# Examined: Mon Jul  6 16:59:08 2009 by mtchandl
+# Arguments:  -R-14.6/5.7/60.55/70.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:	Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010189-H13-06: Invalid Magnetics Reference Field Code: (78) [78]
+Y-I-01010189-depth-01: RLS m: 1.00097 b: 0 rms: 11.8307 r: 0.999933 sig: 1 dec: 0
+N-E-01010189-depth-02: Regression slope 1.00097 different from 1. Recommended: [1]
+Y-I-01010189-faa-01: RLS m: 1.00514 b: 5.08675 rms: 9.23618 r: 0.974322 sig: 1 dec: 1
+Y-W-01010189-faa-03: Regression offset 5.08675 different from 0.
+Y-E-01010189-mag-07: Anomaly differs from mtf1-IGRF (m: 0.998917 b: 33.3673 rms: 48.3196 r: 0.992722 sig: 1 dec: 1). [Recompute]
+N-E-01010189-depth-08: Extended offset from grid [3-9022]
+Y-W-01010189-twt-11: More recent bathymetry correction table available
+Y-W-01010189-mtf1-12: Integer precision
+Y-W-01010189-mag-12: Integer precision
+# Errata: Data
+?	01010189	1978-09-21T01:24:00.00	3189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T02:18:00.00	4140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T02:24:00.00	4141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T09:48:00.00	4241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T10:42:00.00	4251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T11:06:00.00	4255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T13:12:00.00	4286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T14:18:00.00	4300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T14:42:00.00	4304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T15:12:00.00	4312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T15:18:00.00	4313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T17:48:00.00	4340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T17:54:00.00	4341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T18:00:00.00	4342	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T20:00:00.00	4364	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T21:18:00.00	4378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-24T21:24:00.00	4379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T05:00:00.00	4434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T05:06:00.00	4435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T05:12:00.00	4436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T05:48:00.00	4443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T07:24:00.00	4461	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T07:42:00.00	4464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T07:48:00.00	4465	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T08:18:00.00	4470	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-25T12:18:00.00	4512	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-27T06:42:00.00	5084	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-27T12:30:00.00	5167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-27T12:36:00.00	5168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-27T17:30:00.00	5238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-27T20:42:00.00	5284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-28T01:30:00.00	5351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-09-30T17:30:00.00	6250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-04T12:36:00.00	7425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-04T12:42:00.00	7426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-04T12:54:00.00	7429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-04T23:30:00.00	7565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-04T23:54:00.00	7571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T00:12:00.00	7575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T00:42:00.00	7582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T05:30:00.00	7649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T06:24:00.00	7662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T07:18:00.00	7674	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T07:24:00.00	7676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T07:30:00.00	7677	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T07:36:00.00	7678	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T07:54:00.00	7683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T08:30:00.00	7691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T08:42:00.00	7694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T08:48:00.00	7695	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T08:54:00.00	7697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T09:06:00.00	7699	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T09:18:00.00	7702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T09:24:00.00	7704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T10:18:00.00	7713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T11:24:00.00	7730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T12:00:00.00	7738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T13:12:00.00	7755	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T13:54:00.00	7764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T14:00:00.00	7765	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T14:12:00.00	7768	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T14:24:00.00	7771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T14:30:00.00	7772	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T14:36:00.00	7774	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T15:00:00.00	7780	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T15:06:00.00	7781	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T15:12:00.00	7783	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T16:00:00.00	7795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-05T16:06:00.00	7796	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T05:12:00.00	7971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T05:18:00.00	7972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T12:30:00.00	8072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T12:48:00.00	8076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T13:06:00.00	8080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T13:12:00.00	8081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T15:30:00.00	8111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T17:48:00.00	8140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T19:48:00.00	8169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T20:30:00.00	8179	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-06T23:06:00.00	8210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T03:12:00.00	8267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T05:12:00.00	8294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T05:18:00.00	8295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T05:24:00.00	8297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T05:42:00.00	8301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T05:48:00.00	8302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T06:18:00.00	8309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T06:36:00.00	8313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T07:00:00.00	8319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T07:42:00.00	8329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T07:48:00.00	8330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T07:54:00.00	8331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T08:12:00.00	8335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T08:48:00.00	8343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T09:18:00.00	8349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T09:36:00.00	8352	0-0-Q	 GRAD: mag excessive
+?	01010189	1978-10-07T10:06:00.00	8359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T10:12:00.00	8361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T10:48:00.00	8369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T11:18:00.00	8376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T11:24:00.00	8378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T12:48:00.00	8395	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T13:30:00.00	8405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T13:36:00.00	8406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T13:42:00.00	8408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T15:00:00.00	8424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T15:06:00.00	8425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T15:12:00.00	8427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T15:24:00.00	8429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-07T21:18:00.00	8509	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-08T18:54:00.00	8794	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010189	1978-10-08T19:00:00.00	8795	0-0-OQ	 GRAD: mtf1, mag excessive

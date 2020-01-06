@@ -1,0 +1,152 @@
+# Cruise 76030006 ID AC86AB MGD77 FILE VERSION: 19910130 N_RECS: 23035
+# Examined: Wed Aug  3 06:54:01 2011 by mtchandl
+# Arguments:  -R-3.75/8.7/-10.3/-0.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-76030006-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-76030006-depth-01: RLS m: 1.00041 b: 0 rms: 25.0638 r: 0.999631 sig: 1 dec: 0
+N-E-76030006-depth-02: Regression slope 1.00041 different from 1. Recommended: [1]
+# Errata: Data
+Y	76030006	1986-03-28T21:38:51.00	564	C-0-0	 NAV: excessive speed
+?	76030006	1986-03-30T06:35:30.96	3142	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-30T10:19:22.98	3296	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-30T10:42:33.96	3337	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-30T12:14:03.00	3539	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-30T23:58:51.96	4213	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-31T00:36:39.96	4260	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-03-31T00:38:30.96	4266	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+Y	76030006	1986-03-31T00:43:18.00	4283	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-03-31T03:23:18.00	4410	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-03-31T05:14:09.96	4511	C-0-0	 NAV: excessive speed
+?	76030006	1986-03-31T05:14:13.98	4512	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-03-31T05:30:54.96	4556	C-0-0	 NAV: excessive speed
+Y	76030006	1986-03-31T05:39:55.98	4582	C-0-0	 NAV: excessive speed
+Y	76030006	1986-03-31T12:10:24.00	4987	C-0-0	 NAV: excessive speed
+?	76030006	1986-03-31T14:50:01.98	5248	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-31T14:50:15.96	5250	0-0-L	 GRAD: depth excessive
+?	76030006	1986-03-31T15:00:57.00	5282	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-03-31T15:15:33.00	5342	C-0-0	 NAV: excessive speed
+Y	76030006	1986-03-31T15:16:48.96	5353	C-0-0	 NAV: excessive speed
+Y	76030006	1986-03-31T15:32:05.94	5421	C-0-0	 NAV: excessive speed
+?	76030006	1986-03-31T15:34:12.00	5437	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-03-31T15:35:09.96	5448	C-0-0	 NAV: excessive speed
+?	76030006	1986-03-31T20:00:18.00	5888	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-01T07:17:24.96	6717	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-01T07:59:51.96	6844	C-0-0	 NAV: excessive speed
+Y	76030006	1986-04-02T23:17:52.98	9094	C-0-0	 NAV: excessive speed
+?	76030006	1986-04-02T23:18:00.96	9096	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-02T23:18:09.00	9097	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-02T23:18:09.96	9098	C-0-0	 NAV: excessive speed
+?	76030006	1986-04-02T23:18:34.98	9102	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-02T23:24:55.98	9130	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-02T23:25:16.98	9135	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T08:32:39.00	9732	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T10:27:04.98	9946	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-03T12:20:27.96	10245	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-03T13:40:57.96	10333	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T13:45:13.98	10357	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-03T16:36:19.98	10630	C-0-0	 NAV: excessive speed
+?	76030006	1986-04-03T17:07:40.98	10699	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-03T17:08:49.98	10702	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-03T17:11:21.96	10710	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:11:24.00	10711	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:11:28.98	10712	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:11:36.00	10714	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:20:12.00	10733	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:21:18.96	10737	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:23:54.96	10751	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:24:15.00	10754	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T17:45:57.00	10821	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T18:00:09.00	10874	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T18:04:03.00	10889	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T18:04:06.00	10890	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-03T18:11:51.00	10920	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-03T18:12:39.00	10923	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+Y	76030006	1986-04-03T18:36:40.98	10989	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-04T06:25:51.00	11647	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T07:44:55.98	11812	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T11:24:10.98	12172	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T11:35:09.96	12193	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T15:51:27.96	12684	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T15:52:40.98	12695	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T15:57:45.96	12709	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-04T16:48:28.98	12872	C-0-0	 NAV: excessive speed
+?	76030006	1986-04-04T16:56:33.96	12898	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T17:21:09.96	12941	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T19:35:31.98	13149	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-04T22:32:33.96	13399	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T00:29:51.96	13619	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T01:36:54.96	13764	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-05T02:30:18.96	13859	C-0-0	 NAV: excessive speed
+?	76030006	1986-04-05T03:15:39.00	13952	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T03:15:40.98	13953	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-05T03:15:42.00	13954	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-05T04:36:45.96	14075	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-05T04:48:54.00	14098	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-05T04:49:54.00	14102	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T05:40:21.96	14183	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T07:11:42.96	14308	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T07:11:45.00	14309	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T07:12:06.00	14312	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T08:19:51.96	14427	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T08:41:27.96	14466	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T10:47:54.96	14651	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T14:03:45.00	14882	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-05T14:25:03.96	14912	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-05T19:55:24.96	15396	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-05T19:57:58.98	15404	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T00:11:12.00	15717	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T01:51:18.00	15850	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T07:15:09.00	16316	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:30:49.98	16496	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:31:19.98	16498	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:32:52.98	16502	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:32:57.00	16503	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:36:39.00	16510	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T09:37:39.00	16513	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T13:30:39.00	16692	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-06T16:31:09.00	16965	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-06T20:03:15.00	17242	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-06T22:36:57.00	17430	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T00:59:03.00	17570	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T08:25:33.96	18087	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T08:38:30.00	18118	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T08:38:33.00	18119	0-0-L	 GRAD: depth excessive
+Y	76030006	1986-04-07T08:39:36.96	18127	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	76030006	1986-04-07T08:40:00.96	18131	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T12:21:00.00	18413	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T14:44:33.96	18626	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T16:46:30.96	18795	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T19:25:24.00	19017	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T19:42:09.96	19046	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T19:57:46.98	19072	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T20:56:27.00	19158	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-07T22:58:42.00	19382	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T02:22:03.00	19626	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T02:23:43.98	19631	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T02:55:18.00	19671	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T03:54:27.96	19750	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T04:46:03.96	19814	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T07:44:51.96	20068	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T11:54:00.96	20440	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T12:55:54.00	20552	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T12:55:58.98	20553	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T12:56:19.98	20555	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T13:00:19.98	20569	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T13:30:30.96	20626	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T16:45:30.00	20898	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T17:35:42.96	20980	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-08T20:00:42.96	21184	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T05:09:48.96	21888	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T06:29:55.98	22010	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T13:23:00.00	22527	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T15:12:42.96	22673	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T15:13:00.00	22674	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T15:13:06.96	22675	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T16:43:54.96	22758	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T17:38:19.98	22817	0-0-L	 GRAD: depth excessive
+?	76030006	1986-04-09T17:38:34.98	22818	0-0-L	 GRAD: depth excessive

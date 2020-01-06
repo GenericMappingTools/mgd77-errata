@@ -1,0 +1,34 @@
+# Cruise 88010056 ID NBP9804 MGD77 FILE VERSION: 20060206 N_RECS: 25925
+# Examined: Thu Aug  4 19:49:12 2011 by mtchandl
+# Arguments:  -R-175.8/-74.5/-61.8/-44.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-88010056-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-88010056-depth-01: RLS m: 1.00066 b: 0 rms: 19.182 r: 0.999602 sig: 1 dec: 0
+N-E-88010056-depth-02: Regression slope 1.00066 different from 1. Recommended: [1]
+Y-I-88010056-faa-01: RLS m: 0.988011 b: 3.08159 rms: 4.56354 r: 0.938783 sig: 1 dec: 0
+N-E-88010056-faa-02: Regression slope 0.988011 different from 1. Recommended: [1]
+Y-W-88010056-faa-03: Regression offset 3.08159 different from 0.
+Y-I-88010056-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-88010056-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.619644 b: -23.4655 rms: 39.7943 r: 0.891634 sig: 1 dec: 0). [Recompute]
+Y-E-88010056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.980182 b: -202.305 rms: 250.141 r: 0.789896 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	88010056	1998-06-28T18:04:00.00	2520	0-0-L	 GRAD: depth excessive
+?	88010056	1998-06-28T21:23:00.00	2719	0-0-L	 GRAD: depth excessive
+?	88010056	1998-06-30T21:05:00.00	5537	0-0-L	 GRAD: depth excessive
+?	88010056	1998-07-03T07:13:00.00	8992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T07:14:00.00	8993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T07:15:00.00	8994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T07:17:00.00	8996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T09:08:00.00	9107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T09:10:00.00	9109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T14:54:00.00	9453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T14:56:00.00	9455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T14:58:00.00	9457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010056	1998-07-03T16:14:00.00	9533	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	88010056	1998-07-08T00:00:00.00	15751	B-0-0	 NAV: non-increasing time
+?	88010056	1998-07-10T23:59:00.00	19904	0-0-L	 GRAD: depth excessive

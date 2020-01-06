@@ -1,0 +1,29 @@
+# Cruise 05040017 ID BP7807 MGD77 FILE VERSION: 20080729 N_RECS: 4317
+# Examined: Fri Apr 30 13:31:21 2010 by mtchandl
+# Arguments:  -R175.5/177.9/-37.7/-35.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040017-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040017-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040017-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040017-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05040017-nav-00: Flagged 0.23 % of records with bad navigation
+Y-I-05040017-depth-01: RLS m: 1.0035 b: 0 rms: 78.9753 r: 0.993451 sig: 1 dec: 0
+Y-I-05040017-faa-01: RLS m: 0.996767 b: 1.36699 rms: 3.90817 r: 0.988532 sig: 1 dec: 0
+Y-W-05040017-faa-03: Regression offset 1.36699 different from 0.
+Y-W-05040017-depth-12: Integer precision
+# Errata: Data
+Y	05040017	1978-11-14T17:59:00.00	2027	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-14T18:00:00.00	2028	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-14T18:01:00.00	2029	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-14T18:02:00.00	2030	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-14T18:03:00.00	2031	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-14T18:04:00.00	2032	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-16T22:12:00.00	4181	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-16T22:13:00.00	4182	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-16T22:14:00.00	4183	C-0-0	 NAV: excessive speed
+Y	05040017	1978-11-16T22:15:00.00	4184	C-0-0	 NAV: excessive speed

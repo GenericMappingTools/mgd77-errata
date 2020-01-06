@@ -1,0 +1,42 @@
+# Cruise 15040063 ID TPTW-1WT MGD77 FILE VERSION: 19800226 N_RECS: 471
+# Examined: Thu May 22 09:52:08 2008 by mtchandl
+# Arguments:  -R244.35/250.35/22.45/28.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040063-H04-03: Invalid Survey Departure Day: (03) [05]
+N-E-15040063-H04-06: Invalid Survey Arrival Day: (25) [07]
+Y-E-15040063-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00668 b: 0.92246 rms: 12.9301 r: 0.998976 sig: 1 dec: 1). [Recompute]
+Y-W-15040063-mtf1-12: Integer multiple of 5 precision
+Y-W-15040063-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040063	1968-05-06T01:03:00.00	36	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:01:00.00	187	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:03:00.00	188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:06:00.00	190	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:08:00.00	192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:10:00.00	193	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:14:00.00	195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:21:00.00	200	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:22:00.00	201	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:23:00.00	202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:27:00.00	205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:31:00.00	207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:32:00.00	208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:34:00.00	210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:40:00.00	214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:43:00.00	215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:51:00.00	218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T00:53:00.00	219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:05:00.00	224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:09:00.00	226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:16:00.00	229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:19:00.00	231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:28:00.00	234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:31:00.00	235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T01:33:00.00	236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T06:30:00.00	305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040063	1968-05-07T06:33:00.00	306	0-0-OQ	 GRAD: mtf1, mag excessive

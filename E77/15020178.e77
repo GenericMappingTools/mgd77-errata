@@ -1,0 +1,87 @@
+# Cruise 15020178 ID PANR05MV MGD77 FILE VERSION: 20011001 N_RECS: 56195
+# Examined: Mon May 19 04:11:44 2008 by mtchandl
+# Arguments:  -R210.4/250.6/-32.35/-17.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15020178-H15-01: Invalid Gravity Departure Base Station Value: (979619.) [9796190]
+Y-E-15020178-H15-03: Invalid Gravity Arrival Base Station Value: (978698.) [9786980]
+Y-W-15020178-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15020178-depth-01: RLS m: 0.996125 b: 0 rms: 199.042 r: 0.985976 sig: 1 dec: 1
+Y-I-15020178-faa-01: RLS m: 0.951382 b: -1.6488 rms: 13.09 r: 0.977234 sig: 1 dec: 1
+N-E-15020178-faa-02: Regression slope 0.951382 different from 1. Recommended: [1]
+N-E-15020178-faa-06: Anomaly differs from gobs - IGF80 (m: 0.377908 b: 0.660043 rms: 59.793 r: 0.699012 sig: 1 dec: 1). [Recompute]
+N-E-15020178-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.407314 b: 5.95847 rms: 53.5054 r: 0.723859 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020178-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00879 b: -27.5536 rms: 39.4204 r: 0.992631 sig: 1 dec: 1). [Recompute]
+Y-W-15020178-twt-11: More recent bathymetry correction table available
+Y-W-15020178-depth-12: Integer precision
+Y-W-15020178-mtf1-12: Integer precision
+# Errata: Data
+?	15020178	1998-03-06T00:21:00.00	61	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T00:22:00.00	62	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T00:23:00.00	63	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020178	1998-03-06T00:24:00.00	64	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020178	1998-03-06T00:25:00.00	65	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020178	1998-03-06T00:26:00.00	66	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020178	1998-03-06T00:27:00.00	67	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T00:28:00.00	68	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T00:29:00.00	69	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T00:30:00.00	70	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T01:18:00.00	118	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T01:19:00.00	119	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T01:20:00.00	120	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T02:07:00.00	167	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T15:31:00.00	971	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T15:32:00.00	972	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T15:33:00.00	973	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-06T20:48:00.00	1288	0-0-KL	 GRAD: twt, depth excessive
+?	15020178	1998-03-06T20:49:00.00	1289	0-0-KL	 GRAD: twt, depth excessive
+?	15020178	1998-03-13T19:10:00.00	11270	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-15T21:54:00.00	14314	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-15T21:55:00.00	14315	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-15T22:50:00.00	14370	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-16T06:35:00.00	14835	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-23T09:20:00.00	25080	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-23T09:21:00.00	25081	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-25T14:14:00.00	28254	0-0-K	 GRAD: twt excessive
+?	15020178	1998-03-25T14:18:00.00	28258	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-03-26T10:29:00.00	29469	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-01T21:41:00.00	38781	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-01T21:42:00.00	38782	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-02T01:46:00.00	39026	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-05T18:34:00.00	44354	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-05T18:36:00.00	44356	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-05T18:37:00.00	44357	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-09T20:12:00.00	50212	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:13:00.00	50213	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:14:00.00	50214	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:15:00.00	50215	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:16:00.00	50216	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:17:00.00	50217	D-0-U	 NAV: on land - GRAD: gobs excessive
+Y	15020178	1998-04-09T20:18:00.00	50218	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:19:00.00	50219	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:20:00.00	50220	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:21:00.00	50221	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:22:00.00	50222	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:23:00.00	50223	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:24:00.00	50224	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:25:00.00	50225	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:26:00.00	50226	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:27:00.00	50227	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:28:00.00	50228	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:29:00.00	50229	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:30:00.00	50230	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:31:00.00	50231	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:32:00.00	50232	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:33:00.00	50233	D-0-0	 NAV: on land
+Y	15020178	1998-04-09T20:34:00.00	50234	D-0-0	 NAV: on land
+?	15020178	1998-04-09T20:35:00.00	50235	D-0-0	 NAV: on land
+?	15020178	1998-04-09T22:26:00.00	50346	0-0-K	 GRAD: twt excessive
+?	15020178	1998-04-10T20:41:00.00	51681	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-13T13:41:00.00	55581	0-0-K	 GRAD: twt excessive
+?	15020178	1998-04-13T22:28:00.00	56108	0-0-U	 GRAD: gobs excessive
+?	15020178	1998-04-13T22:58:00.00	56138	0-0-U	 GRAD: gobs excessive

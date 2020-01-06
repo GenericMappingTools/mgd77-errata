@@ -1,0 +1,42 @@
+# Cruise J2010019 ID GH805-B MGD77 FILE VERSION: 19870917 N_RECS: 6057
+# Examined: Sun Aug  7 08:01:53 2011 by mtchandl
+# Arguments:  -R139.7/205.25/7.5/35.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010019-H13-09: Unknown IGRF specified (PGRF1980)
+Y-W-J2010019-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-J2010019-depth-01: RLS m: 1.0003 b: 0 rms: 11.8403 r: 0.999871 sig: 1 dec: 0
+Y-I-J2010019-faa-01: RLS m: 0.995718 b: -3.01918 rms: 7.62725 r: 0.99795 sig: 1 dec: 1
+Y-W-J2010019-faa-03: Regression offset -3.01918 different from 0.
+Y-I-J2010019-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010019-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.898744 b: 55.8454 rms: 71.7599 r: 0.925785 sig: 1 dec: 1). [Recompute]
+Y-E-J2010019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00301 b: 1.14738 rms: 9.1191 r: 0.999552 sig: 1 dec: 1). [Recompute]
+N-E-J2010019-twt-13: Encountered possible PDR wrap errors (5.4) [5.0]
+Y-W-J2010019-twt-11: More recent bathymetry correction table available
+Y-W-J2010019-depth-12: Integer precision
+Y-W-J2010019-mtf1-12: Integer precision
+Y-W-J2010019-mag-12: Integer precision
+# Errata: Data
+?	J2010019	1980-09-13T02:20:00.00	4	D-0-0	 NAV: on land
+Y	J2010019	1980-09-16T20:00:00.00	1080	C-0-0	 NAV: excessive speed
+?	J2010019	1980-09-16T22:50:00.00	1114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010019	1980-09-16T22:55:00.00	1115	0-Q-0	 VAL: mag invalid
+?	J2010019	1980-09-16T23:05:00.00	1117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010019	1980-09-17T10:05:00.00	1249	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010019	1980-09-17T10:10:00.00	1250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010019	1980-09-18T06:20:00.00	1370	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	J2010019	1980-09-18T06:25:00.00	1371	0-0-KL	 GRAD: twt, depth excessive
+?	J2010019	1980-09-18T06:35:00.00	1373	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	J2010019	1980-09-18T06:40:00.00	1374	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010019	1980-09-19T11:20:00.00	1587	C-0-0	 NAV: excessive speed
+?	J2010019	1980-09-24T11:45:00.00	2603	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	J2010019	1980-09-24T11:50:00.00	2604	0-0-KL	 GRAD: twt, depth excessive
+?	J2010019	1980-09-28T09:00:00.00	3174	0-0-V	 GRAD: eot excessive
+?	J2010019	1980-09-28T18:05:00.00	3283	0-0-KL	 GRAD: twt, depth excessive
+?	J2010019	1980-09-28T18:10:00.00	3284	0-0-KL	 GRAD: twt, depth excessive
+?	J2010019	1980-10-04T03:50:00.00	4840	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	J2010019	1980-10-05T10:40:00.00	5210	C-0-0	 NAV: excessive speed

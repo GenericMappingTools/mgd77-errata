@@ -1,0 +1,80 @@
+# Cruise 05040027 ID WI8503 MGD77 FILE VERSION: 20080806 N_RECS: 2897
+# Examined: Fri Apr 30 13:34:32 2010 by mtchandl
+# Arguments:  -R174.55/179/-41.7/-36.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05040027-H13-10: Survey year (1985) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05040027-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040027-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040027-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040027-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05040027-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05040027-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-05040027-depth-01: RLS m: 1 b: 0 rms: 61.0786 r: 0.997376 sig: 1 dec: 0
+Y-I-05040027-faa-01: RLS m: 1.01321 b: -1.46113 rms: 5.25339 r: 0.993906 sig: 1 dec: 0
+N-E-05040027-faa-02: Regression slope 1.01321 different from 1. Recommended: [1]
+Y-W-05040027-faa-03: Regression offset -1.46113 different from 0.
+Y-E-05040027-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99795 b: -16.6699 rms: 19.5664 r: 0.999151 sig: 1 dec: 1). [Recompute]
+Y-W-05040027-depth-12: Integer precision
+Y-W-05040027-mtf1-12: Integer precision
+# Errata: Data
+?	05040027	1985-04-03T07:19:00.00	2212	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:20:00.00	2213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:21:00.00	2214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:22:00.00	2215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:23:00.00	2216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:26:00.00	2219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T07:27:00.00	2220	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05040027	1985-04-03T08:07:00.00	2260	C-0-0	 NAV: excessive speed
+?	05040027	1985-04-03T08:36:00.00	2289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T08:59:00.00	2312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:00:00.00	2313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:01:00.00	2314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:03:00.00	2316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:04:00.00	2317	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:05:00.00	2318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:06:00.00	2319	0-0-O	 GRAD: mtf1 excessive
+?	05040027	1985-04-03T09:08:00.00	2321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:11:00.00	2324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:12:00.00	2325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:14:00.00	2327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T09:17:00.00	2330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T10:12:00.00	2385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T10:14:00.00	2387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:14:00.00	2627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:33:00.00	2646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:35:00.00	2648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:38:00.00	2651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:49:00.00	2662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:51:00.00	2664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T14:52:00.00	2665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:52:00.00	2725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:53:00.00	2726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:54:00.00	2727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:56:00.00	2729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:57:00.00	2730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:58:00.00	2731	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T15:59:00.00	2732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:01:00.00	2734	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:03:00.00	2736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:07:00.00	2740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:08:00.00	2741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:09:00.00	2742	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:10:00.00	2743	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:12:00.00	2745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:28:00.00	2761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:32:00.00	2765	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:35:00.00	2768	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:52:00.00	2785	0-0-O	 GRAD: mtf1 excessive
+?	05040027	1985-04-03T16:57:00.00	2790	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T16:58:00.00	2791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:07:00.00	2800	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:12:00.00	2805	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:13:00.00	2806	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:14:00.00	2807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:17:00.00	2810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040027	1985-04-03T17:18:00.00	2811	0-0-OQ	 GRAD: mtf1, mag excessive

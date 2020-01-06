@@ -1,0 +1,167 @@
+# Cruise 03040053 ID POL7004 MGD77 FILE VERSION: 19800213 N_RECS: 10752
+# Examined: Thu Mar 18 23:28:38 2010 by mtchandl
+# Arguments:  -R157.15/234.9/21.75/48.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa anomalies that should be positive appear to be negative and should be disregarded until fixed.
+# Errata: Header
+Y-E-03040053-H16-01: Invalid Number of Ten Degree Identifiers: (20) [21]
+Y-W-03040053-H16-06: Ten Degree Identifier 7318 not marked in header but block was crossed
+Y-W-03040053-nav-00: Flagged 1.26 % of records with bad navigation
+Y-I-03040053-depth-01: RLS m: 1 b: 0 rms: 11.2653 r: 0.999897 sig: 1 dec: 0
+Y-I-03040053-faa-01: RLS m: 0.82077 b: -16.8813 rms: 15.4583 r: 0.897752 sig: 1 dec: 0
+N-E-03040053-faa-02: Regression slope 0.82077 different from 1. Recommended: [1]
+Y-W-03040053-faa-03: Regression offset -16.8813 different from 0.
+Y-E-03040053-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00993 b: 34.0625 rms: 41.3091 r: 0.986411 sig: 1 dec: 0). [Recompute]
+N-E-03040053-faa-08: Extended offset from grid [1303-3597]
+N-E-03040053-faa-08: Extended offset from grid [5084-10752]
+Y-W-03040053-faa-09: all values less than or equal to zero
+Y-E-03040053-faa-10: Invalid data records: [1-10752]
+Y-W-03040053-twt-11: More recent bathymetry correction table available
+Y-W-03040053-mtf1-12: Integer precision
+Y-W-03040053-mag-12: Integer precision
+# Errata: Data
+?	03040053	1970-09-25T03:10:00.00	152	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040053	1970-09-27T21:35:00.00	994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040053	1970-09-27T21:40:00.00	995	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040053	1970-09-29T00:00:00.00	1382	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-10-01T08:35:00.00	2042	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-10-04T21:05:00.00	2193	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:10:00.00	2194	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:15:00.00	2195	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:20:00.00	2196	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:25:00.00	2197	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:29:00.00	2198	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:30:00.00	2199	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:35:00.00	2200	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:40:00.00	2201	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:45:00.00	2202	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:50:00.00	2203	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T21:55:00.00	2204	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:00:00.00	2205	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:05:00.00	2206	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:10:00.00	2207	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:15:00.00	2208	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:20:00.00	2209	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:25:00.00	2210	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:30:00.00	2211	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:32:00.00	2212	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:35:00.00	2213	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:40:00.00	2214	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:45:00.00	2215	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:50:00.00	2216	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T22:55:00.00	2217	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:00:00.00	2218	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:05:00.00	2219	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:10:00.00	2220	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:15:00.00	2221	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:18:00.00	2222	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:20:00.00	2223	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:25:00.00	2224	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:30:00.00	2225	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:35:00.00	2226	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:40:00.00	2227	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:45:00.00	2228	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:50:00.00	2229	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-04T23:55:00.00	2230	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:00:00.00	2231	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:05:00.00	2232	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:10:00.00	2233	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:15:00.00	2234	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:20:00.00	2235	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:25:00.00	2236	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:28:00.00	2237	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:30:00.00	2238	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:35:00.00	2239	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:40:00.00	2240	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:45:00.00	2241	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:50:00.00	2242	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T00:55:00.00	2243	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:00:00.00	2244	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:05:00.00	2245	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:10:00.00	2246	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:15:00.00	2247	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:20:00.00	2248	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:25:00.00	2249	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:30:00.00	2250	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:35:00.00	2251	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:36:00.00	2252	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+Y	03040053	1970-10-05T01:40:00.00	2253	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:41:00.00	2254	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:45:00.00	2255	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:50:00.00	2256	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T01:55:00.00	2257	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:00:00.00	2258	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:05:00.00	2259	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:10:00.00	2260	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:15:00.00	2261	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:20:00.00	2262	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:25:00.00	2263	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:30:00.00	2264	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:35:00.00	2265	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:40:00.00	2266	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:45:00.00	2267	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:50:00.00	2268	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T02:55:00.00	2269	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:00:00.00	2270	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:05:00.00	2271	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:10:00.00	2272	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:15:00.00	2273	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:20:00.00	2274	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:25:00.00	2275	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:30:00.00	2276	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:35:00.00	2277	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:40:00.00	2278	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:45:00.00	2279	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:50:00.00	2280	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T03:55:00.00	2281	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:00:00.00	2282	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:05:00.00	2283	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:10:00.00	2284	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:15:00.00	2285	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:20:00.00	2286	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:25:00.00	2287	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:30:00.00	2288	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:35:00.00	2289	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:40:00.00	2290	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:50:00.00	2291	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T04:55:00.00	2292	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-05T05:00:00.00	2293	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-20T21:25:00.00	7018	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-10-20T22:00:00.00	7155	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-10-21T08:35:00.00	7156	C-0-0	 NAV: excessive speed
+Y	03040053	1970-10-21T08:40:00.00	7157	C-0-0	 NAV: excessive speed
+?	03040053	1970-10-27T09:35:00.00	8964	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040053	1970-11-04T18:10:00.00	9492	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:15:00.00	9493	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:20:00.00	9494	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:25:00.00	9495	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:30:00.00	9496	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:35:00.00	9497	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:40:00.00	9498	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:45:00.00	9499	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:50:00.00	9500	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T18:55:00.00	9501	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T19:00:00.00	9502	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-04T19:05:00.00	9503	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:35:00.00	10398	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:40:00.00	10399	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:45:00.00	10400	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:50:00.00	10401	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:55:00.00	10402	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:35:00.00	10409	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:40:00.00	10410	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:45:00.00	10411	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:50:00.00	10412	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T18:55:00.00	10413	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:00:00.00	10414	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:05:00.00	10415	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:10:00.00	10416	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:15:00.00	10417	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:20:00.00	10418	B-0-0	 NAV: non-increasing time
+Y	03040053	1970-11-07T19:25:00.00	10419	B-0-0	 NAV: non-increasing time
+?	03040053	1970-11-08T06:45:00.00	10560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040053	1970-11-08T06:55:00.00	10562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040053	1970-11-08T09:10:00.00	10590	0-0-Q	 GRAD: mag excessive

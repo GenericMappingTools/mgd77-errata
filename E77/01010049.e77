@@ -1,0 +1,21 @@
+# Cruise 01010049 ID RC1106 MGD77 FILE VERSION: 19790619 N_RECS: 1708
+# Examined: Mon Jan 26 17:08:19 2009 by mtchandl
+# Arguments:  -R108.25/116.65/-34.2/-30 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. 
+# Errata: Header
+Y-E-01010049-H11-06: Invalid Rightmost Longitude: (+116) [+117]
+Y-W-01010049-nav-00: Flagged 0.12 % of records with excessive speed or invalid navigation
+Y-I-01010049-depth-01: RLS m: 0.999651 b: 0 rms: 8.20154 r: 0.999994 sig: 1 dec: 0
+N-E-01010049-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01010049-faa-01: RLS m: 1.07906 b: -8.35033 rms: 14.9647 r: 0.926101 sig: 1 dec: 1
+Y-W-01010049-faa-03: Regression offset -8.35033 different from 0.
+Y-E-01010049-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0052 b: -62.2432 rms: 63.3352 r: 0.998399 sig: 1 dec: 1). [Recompute]
+Y-W-01010049-twt-11: More recent bathymetry correction table available
+Y-W-01010049-mtf1-12: Integer precision
+Y-W-01010049-mag-12: Integer precision
+# Errata: Data
+Y	01010049	1967-05-13T06:48:00.00	289	CD-0-0	 NAV: excessive speed, on land

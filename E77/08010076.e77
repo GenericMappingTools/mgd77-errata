@@ -1,0 +1,43 @@
+# Cruise 08010076 ID 77022000 MGD77 FILE VERSION: 19830324 N_RECS: 10673
+# Examined: Mon Jul 26 16:54:53 2010 by mtchandl
+# Arguments:  -R202/207.15/13.8/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010076-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08010076-depth-01: RLS m: 0.999588 b: 0 rms: 28.1495 r: 0.999734 sig: 1 dec: 0
+Y-E-08010076-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00238 b: -69.1741 rms: 70.3892 r: 0.999266 sig: 1 dec: 1). [Recompute]
+Y-W-08010076-twt-11: More recent bathymetry correction table available
+Y-W-08010076-mtf1-12: Integer precision
+Y-W-08010076-mag-12: Integer precision
+# Errata: Data
+Y	08010076	1977-02-20T03:33:00.00	1	D-0-0	 NAV: on land
+Y	08010076	1977-02-20T03:38:00.00	2	D-0-0	 NAV: on land
+Y	08010076	1977-02-20T03:44:00.00	3	D-0-0	 NAV: on land
+?	08010076	1977-02-20T03:50:00.00	4	D-0-0	 NAV: on land
+?	08010076	1977-02-20T06:33:00.00	72	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-02-20T06:34:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-02-20T17:36:00.96	420	0-0-KL	 GRAD: twt, depth excessive
+?	08010076	1977-02-21T03:36:00.00	763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-02-27T02:41:15.00	5311	0-0-K	 GRAD: twt excessive
+?	08010076	1977-03-02T21:47:00.00	7538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:06:00.00	9408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:07:00.00	9409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:08:00.00	9410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:09:00.00	9411	0-0-Q	 GRAD: mag excessive
+?	08010076	1977-03-05T08:10:00.00	9412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:11:00.00	9413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:12:00.00	9415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T08:13:00.00	9416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-05T11:21:15.96	9676	0-0-KL	 GRAD: twt, depth excessive
+?	08010076	1977-03-06T01:29:00.00	10543	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:30:00.00	10544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:31:00.00	10546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:32:00.00	10547	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:33:00.00	10548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:34:00.00	10549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T01:35:00.00	10551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010076	1977-03-06T02:00:00.00	10581	0-0-OQ	 GRAD: mtf1, mag excessive

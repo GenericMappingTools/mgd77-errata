@@ -1,0 +1,147 @@
+# Cruise 05140008 ID EH9003 MGD77 FILE VERSION: 20080801 N_RECS: 19659
+# Examined: Fri May 21 12:51:00 2010 by mtchandl
+# Arguments:  -R175.4/193.05/-44.55/-40.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05140008-H13-10: Survey year (1990) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140008-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140008-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140008-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140008-H16-06: Ten Degree Identifier 5416 not marked in header but block was crossed
+Y-W-05140008-H16-06: Ten Degree Identifier 5417 not marked in header but block was crossed
+Y-W-05140008-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05140008-depth-01: RLS m: 1 b: 0 rms: 15.3445 r: 0.9999 sig: 1 dec: 0
+Y-I-05140008-faa-01: RLS m: 1.00971 b: 2.08467 rms: 8.29396 r: 0.983494 sig: 1 dec: 1
+Y-W-05140008-faa-03: Regression offset 2.08467 different from 0.
+Y-E-05140008-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00085 b: -24.1076 rms: 28.3788 r: 0.998823 sig: 1 dec: 1). [Recompute]
+Y-W-05140008-depth-12: Integer precision
+Y-W-05140008-mtf1-12: Integer precision
+# Errata: Data
+?	05140008	1990-08-23T06:39:00.00	9267	0-0-Q	 GRAD: mag excessive
+?	05140008	1990-08-23T06:41:00.00	9269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:43:00.00	9271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:44:00.00	9272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:45:00.00	9273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:46:00.00	9274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:47:00.00	9275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:49:00.00	9277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:50:00.00	9278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:51:00.00	9279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:52:00.00	9280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:53:00.00	9281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:54:00.00	9282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:55:00.00	9283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:57:00.00	9285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:58:00.00	9286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T06:59:00.00	9287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:00:00.00	9288	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:01:00.00	9289	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:02:00.00	9290	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:03:00.00	9291	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:04:00.00	9292	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:05:00.00	9293	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:06:00.00	9294	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:07:00.00	9295	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:08:00.00	9296	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:09:00.00	9297	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:10:00.00	9298	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:11:00.00	9299	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:12:00.00	9300	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:13:00.00	9301	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:14:00.00	9302	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:15:00.00	9303	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:16:00.00	9304	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:17:00.00	9305	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:19:00.00	9307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:20:00.00	9308	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:21:00.00	9309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:22:00.00	9310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:23:00.00	9311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:25:00.00	9313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:26:00.00	9314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:37:00.00	9325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:39:00.00	9327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:40:00.00	9328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:41:00.00	9329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:42:00.00	9330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:44:00.00	9332	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:45:00.00	9333	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:46:00.00	9334	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:47:00.00	9335	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:48:00.00	9336	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:49:00.00	9337	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:50:00.00	9338	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:51:00.00	9339	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:52:00.00	9340	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T07:53:00.00	9341	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:54:00.00	9342	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:55:00.00	9343	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:56:00.00	9344	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:57:00.00	9345	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:58:00.00	9346	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T07:59:00.00	9347	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:00:00.00	9348	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:01:00.00	9349	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:02:00.00	9350	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:03:00.00	9351	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:04:00.00	9352	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:05:00.00	9353	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:06:00.00	9354	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:07:00.00	9355	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:08:00.00	9356	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:09:00.00	9357	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:10:00.00	9358	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:11:00.00	9359	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:12:00.00	9360	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:13:00.00	9361	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:14:00.00	9362	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:15:00.00	9363	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:16:00.00	9364	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:17:00.00	9365	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:18:00.00	9366	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:19:00.00	9367	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:20:00.00	9368	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:21:00.00	9369	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:22:00.00	9370	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:23:00.00	9371	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:24:00.00	9372	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:25:00.00	9373	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:26:00.00	9374	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:27:00.00	9375	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:28:00.00	9376	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:29:00.00	9377	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:30:00.00	9378	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:31:00.00	9379	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T08:32:00.00	9380	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:33:00.00	9381	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:34:00.00	9382	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:35:00.00	9383	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:36:00.00	9384	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T08:37:00.00	9385	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:21:00.00	9419	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:22:00.00	9420	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:23:00.00	9421	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:24:00.00	9422	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:25:00.00	9423	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:26:00.00	9424	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:27:00.00	9425	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:28:00.00	9426	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:29:00.00	9427	0-Q-0	 VAL: mag invalid
+?	05140008	1990-08-23T14:30:00.00	9428	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:31:00.00	9429	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:32:00.00	9430	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:33:00.00	9431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:34:00.00	9432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:35:00.00	9433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:36:00.00	9434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:37:00.00	9435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:38:00.00	9436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:39:00.00	9437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:40:00.00	9438	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:41:00.00	9439	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:45:00.00	9443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140008	1990-08-23T14:48:00.00	9446	0-0-OQ	 GRAD: mtf1, mag excessive

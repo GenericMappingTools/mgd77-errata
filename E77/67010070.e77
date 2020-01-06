@@ -1,0 +1,19 @@
+# Cruise 67010070 ID 78003011 MGD77 FILE VERSION: 19840123 N_RECS: 5265
+# Examined: Fri Jul 29 16:30:21 2011 by mtchandl
+# Arguments:  -R-11.9/-9.4/36.15/44.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported magnetic anomalies scaled by .1, recommend recomputing.
+# Errata: Header
+Y-I-67010070-depth-01: RLS m: 1.03152 b: 0 rms: 123.621 r: 0.997404 sig: 1 dec: 0
+N-E-67010070-depth-02: Regression slope 1.03152 different from 1. Recommended: [1]
+Y-E-67010070-mag-07: Anomaly differs from mtf1-IGRF (m: 0.100282 b: -9.27548 rms: 76.4017 r: 0.996996 sig: 1 dec: 0). [Recompute]
+Y-W-67010070-depth-12: Integer precision
+Y-W-67010070-mtf1-12: Integer precision
+# Errata: Data
+?	67010070	1978-07-04T05:05:00.00	3216	0-0-O	 GRAD: mtf1 excessive
+?	67010070	1978-07-04T09:44:00.00	3526	0-0-O	 GRAD: mtf1 excessive
+?	67010070	1978-07-05T12:32:00.00	5253	0-0-O	 GRAD: mtf1 excessive
+?	67010070	1978-07-05T12:33:00.00	5254	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,57 @@
+# Cruise 02010017 ID CH036L01 MGD77 FILE VERSION: 19820805 N_RECS: 7194
+# Examined: Fri Mar 26 20:14:16 2010 by mtchandl
+# Arguments:  -R286.2/302.4/16.25/41.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Poor navigation likely cause the multiple observed depth offsets. Recommend updating faa using IGF80.
+# Errata: Header
+Y-W-02010017-nav-00: Flagged 0.42 % of records with bad navigation
+Y-I-02010017-depth-01: RLS m: 0.999651 b: 0 rms: 229.316 r: 0.956641 sig: 1 dec: 0
+Y-I-02010017-faa-01: RLS m: 0.984284 b: -1.81645 rms: 7.03828 r: 0.992296 sig: 1 dec: 0
+N-E-02010017-faa-02: Regression slope 0.984284 different from 1. Recommended: [1]
+Y-W-02010017-faa-03: Regression offset -1.81645 different from 0.
+Y-E-02010017-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010017-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.649675 b: -26.4565 rms: 51.5698 r: 0.750085 sig: 1 dec: 1). [Recompute]
+N-E-02010017-depth-08: Extended offset from grid [213-662]
+N-E-02010017-depth-08: Extended offset from grid [3128-3199]
+N-E-02010017-depth-08: Extended offset from grid [3199-3264]
+N-E-02010017-depth-08: Extended offset from grid [3264-3387]
+N-E-02010017-depth-08: Extended offset from grid [3402-3477]
+N-E-02010017-depth-08: Extended offset from grid [4253-4365]
+N-E-02010017-depth-08: Extended offset from grid [4365-4463]
+N-E-02010017-depth-08: Extended offset from grid [6934-7105]
+# Errata: Data
+Y	02010017	1963-06-05T08:30:00.00	143	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-10T03:10:00.00	1523	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-14T01:25:00.00	2407	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-21T22:45:00.00	3990	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-21T22:50:00.00	3991	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-21T22:55:00.00	3992	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-21T23:00:00.00	3993	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T05:55:00.00	4866	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T06:00:00.00	4867	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T06:05:00.00	4868	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T06:10:00.00	4869	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T06:15:00.00	4870	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-24T06:20:00.00	4871	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T06:35:00.00	5361	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T06:40:00.00	5362	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T06:45:00.00	5363	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T06:50:00.00	5364	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T06:55:00.00	5365	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-25T07:00:00.00	5366	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T09:30:00.00	6356	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T17:40:00.00	6484	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T17:45:00.00	6485	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+Y	02010017	1963-06-28T17:50:00.00	6486	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T17:55:00.00	6487	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T18:00:00.00	6488	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T18:05:00.00	6489	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-28T18:10:00.00	6490	C-0-0	 NAV: excessive speed
+?	02010017	1963-06-28T21:10:00.00	6526	0-0-KL	 GRAD: twt, depth excessive
+?	02010017	1963-06-28T21:15:00.00	6527	0-0-K	 GRAD: twt excessive
+Y	02010017	1963-06-29T15:30:00.00	6682	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-29T23:25:00.00	6752	C-0-0	 NAV: excessive speed
+Y	02010017	1963-06-29T23:30:00.00	6753	C-0-0	 NAV: excessive speed

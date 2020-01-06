@@ -1,0 +1,45 @@
+# Cruise 19100021 ID DI109L2 MGD77 FILE VERSION: 19851016 N_RECS: 14192
+# Examined: Mon Sep  6 13:20:21 2010 by mtchandl
+# Arguments:  -R279.45/302.9/9.35/16.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100021-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-19100021-depth-01: RLS m: 0.998364 b: 0 rms: 28.6831 r: 0.999741 sig: 1 dec: 0
+N-E-19100021-depth-02: Regression slope 0.998364 different from 1. Recommended: [1]
+Y-I-19100021-faa-01: RLS m: 0.995779 b: 1.73337 rms: 3.09535 r: 0.999151 sig: 1 dec: 0
+N-E-19100021-faa-02: Regression slope 0.995779 different from 1. Recommended: [1]
+Y-W-19100021-faa-03: Regression offset 1.73337 different from 0.
+Y-W-19100021-depth-12: Integer precision
+Y-W-19100021-faa-12: Integer precision
+# Errata: Data
+Y	19100021	1980-03-28T17:42:00.00	2	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5191	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5192	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5193	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5194	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5195	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5196	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5197	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5198	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5199	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5200	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5201	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5202	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5203	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5204	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5205	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5206	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5207	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-04T23:08:00.00	5208	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-07T20:50:00.00	7300	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-07T20:50:00.00	7301	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-10T03:06:00.00	8930	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-10T03:06:00.00	8931	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-12T05:50:00.00	10454	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-15T00:52:00.00	12466	B-0-0	 NAV: non-increasing time
+Y	19100021	1980-04-15T00:52:00.00	12467	B-0-0	 NAV: non-increasing time
+?	19100021	1980-04-17T02:52:00.00	13967	0-0-W	 GRAD: faa excessive

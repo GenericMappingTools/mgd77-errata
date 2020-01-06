@@ -1,0 +1,15 @@
+# Cruise 02020012 ID A2031L01 MGD77 FILE VERSION: 19820805 N_RECS: 1451
+# Examined: Fri Mar 26 21:20:18 2010 by mtchandl
+# Arguments:  -R296.9/325.95/-3.2/27.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-E-02020012-H16-01: Invalid Number of Ten Degree Identifiers: ( 6) [7]
+Y-W-02020012-H16-06: Ten Degree Identifier 5004 not marked in header but block was crossed
+Y-E-02020012-mag-07: Anomaly differs from mtf1-IGRF (m: 0.84685 b: -49.3083 rms: 70.235 r: 0.86272 sig: 1 dec: 0). [Recompute]
+Y-W-02020012-mtf1-12: Integer precision
+Y-W-02020012-mag-12: Integer precision
+# Errata: Data

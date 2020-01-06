@@ -1,0 +1,16 @@
+# Cruise 29050006 ID AKU23 MGD77 FILE VERSION: 19921231 N_RECS: 941
+# Examined: Mon Feb 14 22:30:25 2011 by mtchandl
+# Arguments:  -R-21.45/24.85/65.85/71.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: 
+# Errata: Header
+Y-I-29050006-depth-01: RLS m: 1.00243 b: 0 rms: 11.0683 r: 0.999917 sig: 1 dec: 0
+N-E-29050006-depth-02: Regression slope 1.00243 different from 1. Recommended: [1]
+Y-I-29050006-faa-01: RLS m: 1.00952 b: -1.29208 rms: 3.49383 r: 0.989055 sig: 1 dec: 0
+Y-W-29050006-faa-03: Regression offset -1.29208 different from 0.
+N-E-29050006-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999869 b: 0.928015 rms: 0.925885 r: 0.999998 sig: 1 dec: 0). [Recompute]
+Y-W-29050006-depth-12: Integer precision
+# Errata: Data

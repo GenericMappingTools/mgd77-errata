@@ -1,0 +1,35 @@
+# Cruise 23060122 ID ODP308JR MGD77 FILE VERSION: 20080304 N_RECS: 40313
+# Examined: Thu Feb  3 14:07:25 2011 by mtchandl
+# Arguments:  -R-94.45/-87.45/27.25/30.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060122-H04-02: Invalid Survey Departure Month: (05) [06]
+N-E-23060122-H04-03: Invalid Survey Departure Day: (30) [04]
+N-E-23060122-H04-06: Invalid Survey Arrival Day: (08) [02]
+Y-W-23060122-H13-10: Survey year (2005) outside magnetic reference field Unused time range (9999-9999)
+N-E-23060122-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-23060122-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-23060122-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-23060122-H16-06: Ten Degree Identifier 7208 not marked in header but block was crossed
+Y-W-23060122-H16-06: Ten Degree Identifier 7209 not marked in header but block was crossed
+Y-W-23060122-H16-06: Ten Degree Identifier 7308 not marked in header but block was crossed
+Y-W-23060122-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-23060122-depth-01: RLS m: 0.997184 b: 0 rms: 16.3874 r: 0.999274 sig: 1 dec: 0
+Y-W-23060122-twt-11: More recent bathymetry correction table available
+Y-W-23060122-depth-12: Integer precision
+# Errata: Data
+?	23060122	2005-06-04T20:17:32.52	1	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:18:32.52	2	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:19:32.52	3	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:20:32.52	4	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:21:32.52	5	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:22:32.58	6	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:23:32.58	7	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:24:32.58	8	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:25:32.58	9	D-0-0	 NAV: on land
+?	23060122	2005-06-04T20:26:32.58	10	D-0-0	 NAV: on land
+Y	23060122	2005-06-14T05:19:03.18	12295	C-0-0	 NAV: excessive speed

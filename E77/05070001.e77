@@ -1,0 +1,20 @@
+# Cruise 05070001 ID TI6303 MGD77 FILE VERSION: 19840921 N_RECS: 716
+# Examined: Fri Apr 30 13:43:10 2010 by mtchandl
+# Arguments:  -R176.5/182.1/-35.1/-29.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05070001-H13-09: Unknown IGRF specified (DGRF-65)
+Y-E-05070001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996211 b: -7.73959 rms: 11.7974 r: 0.99871 sig: 1 dec: 0). [Recompute]
+Y-W-05070001-mtf1-12: Integer multiple of 5 precision
+Y-W-05070001-mag-12: Integer precision
+# Errata: Data
+?	05070001	1963-08-25T07:39:00.00	99	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070001	1963-08-26T09:47:00.00	307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070001	1963-08-27T00:01:00.00	428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070001	1963-08-27T00:10:00.00	430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070001	1963-08-27T00:20:00.00	432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05070001	1963-08-27T05:24:00.00	489	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,60 @@
+# Cruise 84010007 ID EV1000 MGD77 FILE VERSION: 19870630 N_RECS: 3903
+# Examined: Wed Aug  3 07:24:39 2011 by mtchandl
+# Arguments:  -R165.25/170.3/-21.3/-13.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-84010007-H13-10: Survey year (1982) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-84010007-H14-05: Invalid Gravity Reference System Code: (8) [8]
+Y-W-84010007-nav-00: Flagged 0.20 % of records with bad navigation
+Y-I-84010007-depth-01: RLS m: 1.0007 b: 0 rms: 26.893 r: 0.999809 sig: 1 dec: 0
+Y-I-84010007-faa-01: RLS m: 0.959347 b: 5.40122 rms: 9.4677 r: 0.99279 sig: 1 dec: 0
+N-E-84010007-faa-02: Regression slope 0.959347 different from 1. Recommended: [1]
+Y-W-84010007-faa-03: Regression offset 5.40122 different from 0.
+N-E-84010007-faa-06: Anomaly differs from gobs-IGF80 (m: 0.962241 b: 16.4884 rms: 21.3633 r: 0.980197 sig: 1 dec: 0). [Recompute]
+Y-E-84010007-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994899 b: 65.3544 rms: 66.3549 r: 0.999102 sig: 1 dec: 1). [Recompute]
+Y-W-84010007-depth-12: Integer precision
+Y-W-84010007-mtf1-12: Integer precision
+Y-W-84010007-mag-12: Integer precision
+Y-W-84010007-faa-12: Integer precision
+# Errata: Data
+?	84010007	1982-10-10T00:25:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-10T00:40:00.00	7	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-10T04:35:00.00	56	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-10T04:40:00.00	57	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010007	1982-10-10T05:00:00.00	61	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010007	1982-10-10T05:05:00.00	62	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-11T16:10:00.00	398	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010007	1982-10-11T18:20:00.00	425	C-0-0	 NAV: excessive speed
+?	84010007	1982-10-17T21:50:00.00	1426	0-0-O	 GRAD: mtf1 excessive
+?	84010007	1982-10-17T21:55:00.00	1427	0-0-O	 GRAD: mtf1 excessive
+?	84010007	1982-10-18T04:05:00.00	1504	0-0-O	 GRAD: mtf1 excessive
+?	84010007	1982-10-18T04:10:00.00	1505	0-0-O	 GRAD: mtf1 excessive
+?	84010007	1982-10-18T10:40:00.00	1584	0-0-U	 GRAD: gobs excessive
+?	84010007	1982-10-18T10:45:00.00	1585	0-0-U	 GRAD: gobs excessive
+?	84010007	1982-10-20T18:20:00.00	2255	0-0-U	 GRAD: gobs excessive
+?	84010007	1982-10-26T20:05:00.00	2764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T02:30:00.00	3124	D-0-OQ	 NAV: on land - GRAD: mtf1, mag excessive
+Y	84010007	1982-10-29T02:35:00.00	3125	D-0-0	 NAV: on land
+Y	84010007	1982-10-29T02:40:00.00	3126	D-0-0	 NAV: on land
+?	84010007	1982-10-29T05:50:00.00	3165	0-0-O	 GRAD: mtf1 excessive
+?	84010007	1982-10-29T05:55:00.00	3167	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:00:00.00	3168	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-29T06:05:00.00	3169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:10:00.00	3170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:15:00.00	3171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:20:00.00	3172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:35:00.00	3175	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010007	1982-10-29T06:40:00.00	3176	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-29T06:45:00.00	3177	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-29T06:50:00.00	3178	0-Q-0	 VAL: mag invalid
+?	84010007	1982-10-29T06:55:00.00	3179	0-Q-0	 VAL: mag invalid
+?	84010007	1982-11-04T00:00:00.00	3788	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010007	1982-11-04T10:55:00.00	3899	C-0-0	 NAV: excessive speed
+Y	84010007	1982-11-04T11:00:00.00	3900	C-0-0	 NAV: excessive speed
+Y	84010007	1982-11-04T11:05:00.00	3901	C-0-0	 NAV: excessive speed
+Y	84010007	1982-11-04T11:10:00.00	3902	C-0-0	 NAV: excessive speed
+Y	84010007	1982-11-04T11:15:00.00	3903	C-0-0	 NAV: excessive speed

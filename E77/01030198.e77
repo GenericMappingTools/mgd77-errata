@@ -1,0 +1,35 @@
+# Cruise 01030198 ID V3302 MGD77 FILE VERSION: 19800908 N_RECS: 6173
+# Examined: Fri Jul 10 13:30:40 2009 by mtchandl
+# Arguments:  -R111.55/138.25/-54.6/-31.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-290 nT average offset from recomputed mag.
+# Errata: Header
+N-E-01030198-H04-06: Invalid Survey Arrival Day: (17) [16]
+Y-W-01030198-H13-10: Survey year (1975-1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030198-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-01030198-depth-01: RLS m: 0.999267 b: 0 rms: 26.9974 r: 0.999857 sig: 1 dec: 0
+N-E-01030198-depth-02: Regression slope 0.999267 different from 1. Recommended: [1]
+Y-E-01030198-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02049 b: -286.047 rms: 292.509 r: 0.968424 sig: 1 dec: 1). [Recompute]
+N-E-01030198-depth-08: Extended offset from grid [3-6173]
+Y-W-01030198-twt-11: More recent bathymetry correction table available
+Y-W-01030198-mtf1-12: Integer precision
+Y-W-01030198-mag-12: Integer precision
+# Errata: Data
+?	01030198	1975-12-21T12:00:00.00	79	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-21T14:12:00.00	103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-21T14:48:00.00	109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-21T16:12:00.00	124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-26T18:18:00.00	1341	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-26T19:54:00.00	1359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-26T20:00:00.00	1360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-26T22:06:00.00	1383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1975-12-26T22:12:00.00	1384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1976-01-06T21:54:00.00	3809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1976-01-07T02:54:00.00	3864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1976-01-07T03:00:00.00	3865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1976-01-07T08:36:00.00	3926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030198	1976-01-07T23:48:00.00	4061	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01030198	1976-01-16T21:42:00.00	6171	D-0-0	 NAV: on land

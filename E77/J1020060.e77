@@ -1,0 +1,32 @@
+# Cruise J1020060 ID HS02T563 MGD77 FILE VERSION: 20080215 N_RECS: 605
+# Examined: Sun Aug  7 07:18:46 2011 by mtchandl
+# Arguments:  -R149.05/152.65/19.35/21 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field data for anomaly recalculation, magnetic anomalies could be outdated.
+# Errata: Header
+N-E-J1020060-H04-03: Invalid Survey Departure Day: (13) [23]
+N-E-J1020060-H04-05: Invalid Survey Arrival Month: (03) [02]
+N-E-J1020060-H04-06: Invalid Survey Arrival Day: (07) [27]
+Y-E-J1020060-H15-01: Invalid Gravity Departure Base Station Value: (  -9496) [  -9496]
+Y-E-J1020060-H15-03: Invalid Gravity Arrival Base Station Value: (  -9537) [  -9537]
+Y-I-J1020060-depth-01: RLS m: 0.998537 b: 0 rms: 40.1567 r: 0.999571 sig: 1 dec: 0
+Y-I-J1020060-faa-01: RLS m: 0.997546 b: -6.79364 rms: 7.82676 r: 0.998858 sig: 1 dec: 0
+Y-W-J1020060-faa-03: Regression offset -6.79364 different from 0.
+Y-W-J1020060-depth-12: Integer precision
+Y-W-J1020060-mag-12: Integer precision
+Y-W-J1020060-faa-12: Integer precision
+# Errata: Data
+?	J1020060	2002-02-23T04:00:00.00	37	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-23T07:00:00.00	55	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J1020060	2002-02-23T07:10:00.00	56	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-23T07:20:00.00	57	0-0-Q	 GRAD: mag excessive
+?	J1020060	2002-02-23T12:50:00.00	90	0-0-Q	 GRAD: mag excessive
+?	J1020060	2002-02-24T12:50:00.00	234	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-24T13:00:00.00	235	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-24T13:10:00.00	236	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-25T16:40:00.00	401	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-25T16:50:00.00	402	0-Q-0	 VAL: mag invalid
+?	J1020060	2002-02-25T17:20:00.00	405	0-Q-0	 VAL: mag invalid

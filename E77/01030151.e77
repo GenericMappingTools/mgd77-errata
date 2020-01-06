@@ -1,0 +1,23 @@
+# Cruise 01030151 ID V2904 MGD77 FILE VERSION: 19790919 N_RECS: 8040
+# Examined: Fri Jul 10 12:12:26 2009 by mtchandl
+# Arguments:  -R16.65/57.25/-51.05/-17.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-215 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01030151-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030151-depth-01: RLS m: 1 b: 0 rms: 6.68764 r: 0.999996 sig: 1 dec: 0
+Y-I-01030151-faa-01: RLS m: 1.00162 b: -0.914379 rms: 11.6864 r: 0.958446 sig: 1 dec: 1
+Y-E-01030151-mag-07: Anomaly differs from mtf1-IGRF (m: 0.945064 b: -215.066 rms: 226.983 r: 0.951307 sig: 1 dec: 1). [Recompute]
+N-E-01030151-depth-08: Extended offset from grid [4-8040]
+Y-W-01030151-twt-11: More recent bathymetry correction table available
+Y-W-01030151-mtf1-12: Integer precision
+Y-W-01030151-mag-12: Integer precision
+# Errata: Data
+?	01030151	1972-02-28T23:36:00.00	3174	0-Q-0	 VAL: mag invalid
+?	01030151	1972-02-28T23:42:00.00	3176	0-Q-0	 VAL: mag invalid
+?	01030151	1972-02-28T23:48:00.00	3177	0-Q-0	 VAL: mag invalid
+?	01030151	1972-02-28T23:54:00.00	3179	0-Q-0	 VAL: mag invalid
+?	01030151	1972-02-29T00:00:00.00	3180	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,25 @@
+# Cruise J1010049 ID HT91T242 MGD77 FILE VERSION: 19961031 N_RECS: 1756
+# Examined: Thu Aug  4 20:14:01 2011 by mtchandl
+# Arguments:  -R144.9/147.65/24.95/27.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be inaccurate.
+# Errata: Header
+N-E-J1010049-H04-03: Invalid Survey Departure Day: (07) [10]
+N-E-J1010049-H04-06: Invalid Survey Arrival Day: (24) [22]
+Y-E-J1010049-H11-03: Invalid Bottommost Latitude: (+25) [+24]
+Y-I-J1010049-depth-01: RLS m: 1.00015 b: 0 rms: 11.4916 r: 0.999925 sig: 1 dec: 0
+Y-I-J1010049-faa-01: RLS m: 1.01137 b: -3.05515 rms: 4.31141 r: 0.998267 sig: 1 dec: 0
+N-E-J1010049-faa-02: Regression slope 1.01137 different from 1. Recommended: [1]
+Y-W-J1010049-faa-03: Regression offset -3.05515 different from 0.
+Y-W-J1010049-depth-12: Integer multiple of 5 precision
+Y-W-J1010049-mag-12: Integer precision
+Y-W-J1010049-faa-12: Integer precision
+# Errata: Data
+?	J1010049	1991-09-16T03:30:00.00	912	0-Q-0	 VAL: mag invalid
+?	J1010049	1991-09-16T03:40:00.00	913	0-Q-0	 VAL: mag invalid
+?	J1010049	1991-09-16T07:00:00.00	933	0-Q-0	 VAL: mag invalid
+?	J1010049	1991-09-16T07:10:00.00	934	0-Q-0	 VAL: mag invalid
+?	J1010049	1991-09-16T07:20:00.00	935	0-Q-0	 VAL: mag invalid

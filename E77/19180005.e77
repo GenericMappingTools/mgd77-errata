@@ -1,0 +1,37 @@
+# Cruise 19180005 ID CD3088 MGD77 FILE VERSION: 19931021 N_RECS: 19811
+# Examined: Tue Sep 14 17:12:24 2010 by mtchandl
+# Arguments:  -R104.85/134.8/-12.15/3.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19180005-H13-10: Survey year (1988) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19180005-depth-01: RLS m: 1.00097 b: 0 rms: 32.2768 r: 0.999775 sig: 1 dec: 0
+N-E-19180005-depth-02: Regression slope 1.00097 different from 1. Recommended: [1]
+Y-I-19180005-faa-01: RLS m: 0.989098 b: -1.10712 rms: 4.4219 r: 0.997206 sig: 1 dec: 0
+N-E-19180005-faa-02: Regression slope 0.989098 different from 1. Recommended: [1]
+Y-W-19180005-faa-03: Regression offset -1.10712 different from 0.
+Y-E-19180005-mag-07: Anomaly differs from mtf1-IGRF (m: 1.05497 b: -98.8432 rms: 107.03 r: 0.980798 sig: 1 dec: 1). [Recompute]
+Y-W-19180005-depth-12: Integer precision
+Y-W-19180005-mtf1-12: Integer precision
+Y-W-19180005-mag-12: Integer precision
+Y-W-19180005-faa-12: Integer precision
+# Errata: Data
+?	19180005	1988-02-06T22:02:00.00	342	0-0-W	 GRAD: faa excessive
+?	19180005	1988-02-07T09:22:00.00	682	0-0-W	 GRAD: faa excessive
+?	19180005	1988-02-10T09:18:00.00	2840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-10T09:20:00.00	2841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-16T12:34:00.00	7258	0-0-Q	 GRAD: mag excessive
+?	19180005	1988-02-17T21:54:00.00	8258	0-0-W	 GRAD: faa excessive
+?	19180005	1988-02-18T06:10:00.00	8506	0-0-W	 GRAD: faa excessive
+?	19180005	1988-02-19T15:32:00.00	9506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-19T15:34:00.00	9507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-20T06:30:00.00	9955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-20T06:32:00.00	9956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-20T22:18:00.00	10429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-20T22:20:00.00	10430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-02-23T01:30:00.00	11965	0-0-W	 GRAD: faa excessive
+?	19180005	1988-03-03T06:50:00.00	18605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180005	1988-03-03T06:52:00.00	18606	0-0-OQ	 GRAD: mtf1, mag excessive

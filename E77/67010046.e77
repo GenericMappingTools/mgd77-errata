@@ -1,0 +1,31 @@
+# Cruise 67010046 ID 73003021 MGD77 FILE VERSION: 19800427 N_RECS: 978
+# Examined: Fri Jul 29 16:24:32 2011 by mtchandl
+# Arguments:  -R-43.15/-40.8/-25.8/-23 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported magnetic anomalies all zero, recommend recomputing.
+# Errata: Header
+Y-W-67010046-nav-00: Flagged 1.02 % of records with bad navigation
+Y-I-67010046-depth-01: RLS m: 1.00288 b: 0 rms: 12.799 r: 0.999939 sig: 1 dec: 0
+N-E-67010046-depth-02: Regression slope 1.00288 different from 1. Recommended: [1]
+Y-E-67010046-mag-07: Anomaly differs from mtf1-IGRF (m: nan b: nan rms: nan r: nan sig: nan dec: nan). [Recompute]
+Y-W-67010046-mag-09: all anomalies are zero
+Y-W-67010046-twt-11: More recent bathymetry correction table available
+Y-W-67010046-mtf1-12: Integer precision
+Y-W-67010046-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	67010046	1973-11-06T00:31:00.00	72	0-0-O	 GRAD: mtf1 excessive
+?	67010046	1973-11-06T00:34:00.00	74	0-0-O	 GRAD: mtf1 excessive
+?	67010046	1973-11-06T00:35:00.00	75	0-0-O	 GRAD: mtf1 excessive
+Y	67010046	1973-11-06T17:04:00.00	468	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	469	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	470	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	471	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	472	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	473	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	474	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	475	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	476	B-0-0	 NAV: non-increasing time
+Y	67010046	1973-11-06T17:04:00.00	477	B-0-0	 NAV: non-increasing time

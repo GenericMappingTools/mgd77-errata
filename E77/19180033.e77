@@ -1,0 +1,16 @@
+# Cruise 19180033 ID CD5390 MGD77 FILE VERSION: 19950628 N_RECS: 28817
+# Examined: Mon Sep 20 13:20:18 2010 by mtchandl
+# Arguments:  -R338.5/356.25/32.95/51.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19180033-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-19180033-depth-01: RLS m: 1 b: 0 rms: 5.55884 r: 0.999997 sig: 1 dec: 0
+Y-W-19180033-depth-12: Integer precision
+# Errata: Data
+?	19180033	1990-09-20T15:10:00.00	5211	0-0-L	 GRAD: depth excessive
+?	19180033	1990-09-21T07:14:00.00	7139	0-0-L	 GRAD: depth excessive
+Y	19180033	1990-09-23T11:10:30.00	13310	C-0-0	 NAV: excessive speed

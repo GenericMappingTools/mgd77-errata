@@ -1,0 +1,32 @@
+# Cruise 09030038 ID SI343613 MGD77 FILE VERSION: 19821020 N_RECS: 18191
+# Examined: Fri Jul 30 14:37:15 2010 by mtchandl
+# Arguments:  -R140.6/180/32.45/40.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09030038-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09030038-depth-01: RLS m: 1 b: 0 rms: 11.1991 r: 0.99994 sig: 1 dec: 0
+Y-W-09030038-twt-11: More recent bathymetry correction table available
+Y-W-09030038-depth-12: Integer precision
+# Errata: Data
+?	09030038	1976-02-06T14:03:00.00	138	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-06T22:48:00.00	663	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-06T22:49:00.00	664	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-07T20:13:00.00	1947	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-16T00:50:00.00	11080	0-0-K	 GRAD: twt excessive
+Y	09030038	1976-02-18T11:15:00.00	13609	B-0-0	 NAV: non-increasing time
+?	09030038	1976-02-19T00:06:00.00	14379	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-19T18:54:00.00	15312	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-19T19:23:00.00	15341	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-19T19:29:00.00	15347	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-20T15:42:00.00	16389	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-20T20:10:00.00	16657	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-20T20:18:00.00	16665	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-20T21:49:00.00	16756	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-20T22:31:00.00	16798	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-20T22:55:00.00	16822	0-0-KL	 GRAD: twt, depth excessive
+?	09030038	1976-02-21T12:07:00.00	17411	0-0-K	 GRAD: twt excessive
+?	09030038	1976-02-21T14:25:00.00	17549	0-0-K	 GRAD: twt excessive

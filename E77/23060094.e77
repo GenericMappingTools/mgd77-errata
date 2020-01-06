@@ -1,0 +1,57 @@
+# Cruise 23060094 ID ODP188JR MGD77 FILE VERSION: 20080229 N_RECS: 51078
+# Examined: Thu Feb  3 13:57:18 2011 by mtchandl
+# Arguments:  -R67/147.5/-67.75/-32 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060094-H04-03: Invalid Survey Departure Day: (10) [13]
+Y-W-23060094-H13-10: Survey year (2000) outside magnetic reference field Unused time range (9999-9999)
+N-E-23060094-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-23060094-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-23060094-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-23060094-H16-06: Ten Degree Identifier 3310 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3409 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3410 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3413 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3414 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3507 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3508 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3509 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3510 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3511 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3512 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3513 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3606 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3607 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3608 not marked in header but block was crossed
+Y-W-23060094-H16-06: Ten Degree Identifier 3609 not marked in header but block was crossed
+Y-W-23060094-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-23060094-depth-01: RLS m: 0.999777 b: 0 rms: 4.09585 r: 0.999994 sig: 1 dec: 0
+N-E-23060094-depth-02: Regression slope 0.999777 different from 1. Recommended: [1]
+Y-W-23060094-twt-11: More recent bathymetry correction table available
+Y-W-23060094-depth-12: Integer precision
+# Errata: Data
+Y	23060094	2000-01-25T17:58:07.50	15919	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:13:53.70	32354	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:14:53.70	32355	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:15:53.76	32356	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:16:53.76	32357	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:17:53.76	32358	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:18:53.76	32359	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:19:53.76	32360	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:30:54.12	32371	C-0-0	 NAV: excessive speed
+Y	23060094	2000-02-23T05:31:54.18	32372	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-01T08:59:15.36	36911	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-02T06:54:38.64	38208	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-04T10:38:28.62	41289	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-08T05:50:03.12	46733	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-09T09:58:58.74	48419	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-09T09:59:58.80	48420	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-10T11:35:12.42	49549	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-10T11:36:12.48	49550	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-10T11:37:12.48	49551	C-0-0	 NAV: excessive speed
+Y	23060094	2000-03-10T11:38:12.48	49552	C-0-0	 NAV: excessive speed

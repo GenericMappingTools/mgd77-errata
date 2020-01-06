@@ -1,0 +1,40 @@
+# Cruise 03020146 ID RP10SU80 MGD77 FILE VERSION: 19971215 N_RECS: 12695
+# Examined: Fri Apr 16 13:03:14 2010 by mtchandl
+# Arguments:  -R231.85/234.1/40/43.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020146-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-03020146-depth-01: RLS m: 1 b: 0 rms: 37.7304 r: 0.998827 sig: 1 dec: 0
+Y-W-03020146-depth-12: Integer precision
+# Errata: Data
+?	03020146	1980-03-02T05:57:58.02	168	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-02T06:04:01.02	174	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-03T13:00:58.98	1671	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-03T17:28:03.00	1860	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-20T05:56:00.00	3879	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-20T12:17:01.98	4229	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-20T16:53:52.02	4435	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:33:01.98	4472	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:33:58.02	4473	0-0-K	 GRAD: twt excessive
+?	03020146	1980-03-20T17:37:58.98	4475	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:39:01.02	4476	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:40:01.98	4477	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:41:00.00	4478	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:53:03.00	4489	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T17:53:58.98	4490	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T18:03:01.02	4498	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-20T18:03:57.00	4499	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-24T15:44:01.98	6135	0-0-KL	 GRAD: twt, depth excessive
+?	03020146	1980-03-24T23:56:00.00	6627	0-0-K	 GRAD: twt excessive
+Y	03020146	1980-04-06T08:42:43.02	10001	C-0-0	 NAV: excessive speed
+Y	03020146	1980-04-07T08:36:48.00	10905	C-0-0	 NAV: excessive speed
+?	03020146	1980-04-07T13:39:03.00	11178	0-0-KL	 GRAD: twt, depth excessive
+Y	03020146	1980-04-08T07:46:57.00	12060	C-0-0	 NAV: excessive speed
+Y	03020146	1980-04-08T08:58:46.98	12108	C-0-0	 NAV: excessive speed
+Y	03020146	1980-04-08T09:06:01.02	12115	C-0-0	 NAV: excessive speed
+Y	03020146	1980-04-08T11:49:52.02	12268	C-0-0	 NAV: excessive speed
+Y	03020146	1980-04-08T12:09:58.98	12284	C-0-0	 NAV: excessive speed

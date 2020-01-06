@@ -1,0 +1,13 @@
+# Cruise 03180032 ID B00149 MGD77 FILE VERSION: 19961220 N_RECS: 6472
+# Examined: Fri Apr 30 12:12:18 2010 by mtchandl
+# Arguments:  -R212.95/213.45/59.15/59.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Long wavelength disagreement in ship and predicted bathymetry.
+# Errata: Header
+Y-I-03180032-depth-01: RLS m: 1.03152 b: 0 rms: 65.3358 r: 0.892424 sig: 1 dec: 0
+N-E-03180032-depth-02: Regression slope 1.03152 different from 1. Recommended: [1]
+Y-W-03180032-depth-12: Integer precision
+# Errata: Data

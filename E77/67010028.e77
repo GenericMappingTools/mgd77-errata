@@ -1,0 +1,47 @@
+# Cruise 67010028 ID 72001011 MGD77 FILE VERSION: 19830804 N_RECS: 6623
+# Examined: Thu Jul 28 18:44:09 2011 by mtchandl
+# Arguments:  -R-13/-6.45/33.7/38.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010028-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-67010028-depth-01: RLS m: 0.999302 b: 0 rms: 26.1198 r: 0.999876 sig: 1 dec: 0
+N-E-67010028-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-67010028-faa-01: RLS m: 1.00181 b: 0.410281 rms: 11.1162 r: 0.993653 sig: 1 dec: 0
+Y-E-67010028-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01987 b: -18.2813 rms: 28.0476 r: 0.993549 sig: 1 dec: 1). [Recompute]
+Y-W-67010028-twt-11: More recent bathymetry correction table available
+Y-W-67010028-mtf1-12: Integer precision
+Y-W-67010028-mag-12: Integer precision
+# Errata: Data
+?	67010028	1972-08-16T19:29:00.00	4009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:31:00.00	4011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:33:00.00	4012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:38:00.00	4015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:40:00.00	4016	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T19:49:00.00	4022	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:50:00.00	4023	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T19:59:00.00	4029	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T20:00:00.00	4030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T20:01:00.00	4031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T20:05:00.00	4033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-16T20:50:00.00	4054	0-0-K	 GRAD: twt excessive
+?	67010028	1972-08-16T20:52:00.00	4055	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T20:53:00.00	4056	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T20:54:00.00	4057	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T20:57:00.00	4059	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T20:59:00.00	4060	0-0-KL	 GRAD: twt, depth excessive
+?	67010028	1972-08-16T22:03:00.00	4108	0-0-KL	 GRAD: twt, depth excessive
+Y	67010028	1972-08-17T00:00:00.00	4183	B-0-0	 NAV: non-increasing time
+?	67010028	1972-08-17T09:40:00.00	4256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-17T09:44:00.00	4259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-17T09:45:00.00	4260	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-17T10:08:00.00	4281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-17T10:12:00.00	4285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-19T15:25:00.00	5857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-19T15:29:00.00	5859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-19T15:57:00.00	5876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-19T16:00:00.00	5879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010028	1972-08-21T03:55:00.00	6618	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,39 @@
+# Cruise 05010011 ID BT8104 MGD77 FILE VERSION: 19840921 N_RECS: 15534
+# Examined: Fri Apr 30 13:20:43 2010 by mtchandl
+# Arguments:  -R174.8/181.3/-48.55/-41.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05010011-H04-03: Invalid Survey Departure Day: (12) [15]
+Y-W-05010011-H13-10: Survey year (1981) outside magnetic reference field IGRF-80 time range (1995-2000)
+Y-I-05010011-depth-01: RLS m: 1.0035 b: 0 rms: 23.6237 r: 0.999792 sig: 1 dec: 0
+N-E-05010011-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-05010011-faa-01: RLS m: 0.986836 b: 6.76449 rms: 7.22336 r: 0.995383 sig: 1 dec: 0
+N-E-05010011-faa-02: Regression slope 0.986836 different from 1. Recommended: [1]
+Y-W-05010011-faa-03: Regression offset 6.76449 different from 0.
+Y-E-05010011-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00866 b: -31.7556 rms: 34.6261 r: 0.996111 sig: 1 dec: 1). [Recompute]
+Y-W-05010011-depth-12: Integer precision
+Y-W-05010011-mtf1-12: Integer precision
+Y-W-05010011-mag-12: Integer precision
+# Errata: Data
+?	05010011	1981-10-15T20:30:00.00	1019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:11:00.00	9932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:12:00.00	9933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:20:00.00	9941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:26:00.00	9947	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:28:00.00	9949	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-22T21:33:00.00	9954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:02:00.00	10085	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:09:00.00	10092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:10:00.00	10093	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:19:00.00	10102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:20:00.00	10103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:22:00.00	10105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:56:00.00	10135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T00:57:00.00	10136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T01:12:00.00	10151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T01:13:00.00	10152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05010011	1981-10-23T01:17:00.00	10156	0-0-OQ	 GRAD: mtf1, mag excessive

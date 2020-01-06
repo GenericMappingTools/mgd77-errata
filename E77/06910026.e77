@@ -1,0 +1,28 @@
+# Cruise 06910026 ID P386CB MGD77 FILE VERSION: 19910418 N_RECS: 15162
+# Examined: Fri Jul 16 17:16:00 2010 by mtchandl
+# Arguments:  -R295.3/298.2/16.95/18.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+N-E-06910026-H04-03: Invalid Survey Departure Day: (05) [06]
+Y-I-06910026-depth-01: RLS m: 1.0035 b: 0 rms: 54.276 r: 0.997165 sig: 1 dec: 0
+N-E-06910026-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-06910026-faa-01: RLS m: 0.99482 b: 3.71053 rms: 5.74844 r: 0.993652 sig: 1 dec: 0
+N-E-06910026-faa-02: Regression slope 0.99482 different from 1. Recommended: [1]
+Y-W-06910026-faa-03: Regression offset 3.71053 different from 0.
+Y-I-06910026-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910026-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.983088 b: 59.8536 rms: 60.3493 r: 0.996972 sig: 1 dec: 0). [Recompute]
+Y-W-06910026-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06910026	1986-03-06T09:15:00.00	315	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-12T07:54:00.00	6148	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-16T05:19:00.00	8390	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-16T16:36:00.00	8868	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-17T09:08:00.00	9267	0-0-KL	 GRAD: twt, depth excessive
+?	06910026	1986-03-19T14:14:00.00	11005	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-20T06:55:00.00	11515	0-0-K	 GRAD: twt excessive
+?	06910026	1986-03-23T05:52:00.00	13288	0-0-KL	 GRAD: twt, depth excessive
+?	06910026	1986-03-24T10:04:00.00	14477	0-0-K	 GRAD: twt excessive

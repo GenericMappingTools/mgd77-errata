@@ -1,0 +1,29 @@
+# Cruise 01010098 ID RC1502 MGD77 FILE VERSION: 19790619 N_RECS: 11486
+# Examined: Mon Jul  6 14:36:23 2009 by mtchandl
+# Arguments:  -R210.25/288.35/-32.95/-17.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010098-H13-06: Invalid Magnetics Reference Field Code: (71) [71]
+Y-I-01010098-depth-01: RLS m: 0.997908 b: 0 rms: 3.82802 r: 0.999999 sig: 1 dec: 0
+N-E-01010098-depth-02: Regression slope 0.997908 different from 1. Recommended: [1]
+Y-I-01010098-faa-01: RLS m: 0.980404 b: 6.24319 rms: 10.2798 r: 0.995251 sig: 1 dec: 1
+N-E-01010098-faa-02: Regression slope 0.980404 different from 1. Recommended: [1]
+Y-W-01010098-faa-03: Regression offset 6.24319 different from 0.
+Y-E-01010098-mag-07: Anomaly differs from mtf1-IGRF (m: 0.907566 b: -113.362 rms: 163.129 r: 0.842005 sig: 1 dec: 1). [Recompute]
+N-E-01010098-faa-08: Extended offset from grid [10571-11468]
+N-E-01010098-depth-08: Extended offset from grid [6-11486]
+Y-W-01010098-twt-11: More recent bathymetry correction table available
+Y-W-01010098-mtf1-12: Integer precision
+Y-W-01010098-mag-12: Integer precision
+# Errata: Data
+?	01010098	1971-11-13T22:10:00.00	3876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010098	1971-11-14T13:25:00.00	4191	0-0-Q	 GRAD: mag excessive
+?	01010098	1971-11-14T13:35:00.00	4194	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010098	1971-11-14T13:45:00.00	4198	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010098	1971-11-14T14:10:00.00	4206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010098	1971-11-14T14:15:00.00	4208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010098	1971-11-29T15:57:00.00	10694	0-0-KL	 GRAD: twt, depth excessive

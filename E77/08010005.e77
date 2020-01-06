@@ -1,0 +1,17 @@
+# Cruise 08010005 ID 71042606 MGD77 FILE VERSION: 19830518 N_RECS: 6826
+# Examined: Fri Nov 27 15:56:43 2009 by mtchandl
+# Arguments:  -R173.25/210.35/-27.4/-17.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08010005-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010005-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-I-08010005-depth-01: RLS m: 0.998705 b: 0 rms: 51.0132 r: 0.999178 sig: 1 dec: 0
+N-E-08010005-depth-02: Regression slope 0.998705 different from 1. Recommended: [1]
+Y-W-08010005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08010005	1971-11-22T05:07:00.00	6	0-0-K	 GRAD: twt excessive
+?	08010005	1971-12-09T05:59:54.00	5163	0-0-KL	 GRAD: twt, depth excessive

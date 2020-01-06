@@ -1,0 +1,45 @@
+# Cruise 02020056 ID A2075L06 MGD77 FILE VERSION: 19820805 N_RECS: 8971
+# Examined: Fri Mar 26 21:41:52 2010 by mtchandl
+# Arguments:  -R329.95/350.05/22.8/34.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-E-02020056-H11-06: Invalid Rightmost Longitude: (-010) [-009]
+Y-I-02020056-depth-01: RLS m: 0.999651 b: 0 rms: 21.3091 r: 0.99992 sig: 1 dec: 0
+Y-I-02020056-faa-01: RLS m: 1.01169 b: 2.40092 rms: 10.7252 r: 0.992159 sig: 1 dec: 1
+Y-W-02020056-faa-03: Regression offset 2.40092 different from 0.
+N-E-02020056-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020056-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.821543 b: -18.2655 rms: 42.644 r: 0.943402 sig: 1 dec: 1). [Recompute]
+Y-E-02020056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.920911 b: 123.735 rms: 143.668 r: 0.925219 sig: 1 dec: 1). [Recompute]
+Y-W-02020056-twt-11: More recent bathymetry correction table available
+Y-W-02020056-mtf1-12: Integer precision
+Y-W-02020056-mag-12: Integer precision
+# Errata: Data
+?	02020056	1973-05-29T09:26:00.00	521	0-0-K	 GRAD: twt excessive
+?	02020056	1973-05-30T05:15:00.00	885	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T03:15:00.00	4249	0-0-KL	 GRAD: twt, depth excessive
+?	02020056	1973-06-08T05:55:00.00	4290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-08T17:59:00.00	4523	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T18:19:00.00	4543	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T18:20:00.00	4544	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T18:39:00.00	4563	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T18:40:00.00	4564	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-08T18:59:00.00	4583	0-0-V	 GRAD: eot excessive
+?	02020056	1973-06-15T23:40:00.00	7506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T00:25:00.00	7526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T05:00:00.00	7619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T05:20:00.00	7623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T05:30:00.00	7625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T05:55:00.00	7630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T06:05:00.00	7632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T06:15:00.00	7634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T06:25:00.00	7636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T06:35:00.00	7638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-16T07:10:00.00	7655	0-0-K	 GRAD: twt excessive
+?	02020056	1973-06-18T14:10:00.00	8628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-18T14:25:00.00	8632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-18T14:50:00.00	8637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020056	1973-06-18T15:10:00.00	8643	0-0-OQ	 GRAD: mtf1, mag excessive

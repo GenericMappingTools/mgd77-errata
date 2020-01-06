@@ -1,0 +1,20 @@
+# Cruise 05040021 ID BP7905 MGD77 FILE VERSION: 20080729 N_RECS: 991
+# Examined: Fri Apr 30 13:32:08 2010 by mtchandl
+# Arguments:  -R174.95/175.25/-36.15/-35.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040021-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040021-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040021-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040021-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-I-05040021-depth-01: RLS m: 1.03441 b: 0 rms: 5.79674 r: 0.982227 sig: 1 dec: 0
+N-E-05040021-depth-02: Regression slope 1.03441 different from 1. Recommended: [1]
+Y-I-05040021-faa-01: RLS m: 1.02973 b: -5.26523 rms: 5.16654 r: 0.891328 sig: 1 dec: 0
+Y-W-05040021-faa-03: Regression offset -5.26523 different from 0.
+Y-W-05040021-faa-09: only found positive values
+Y-W-05040021-depth-12: Integer precision
+# Errata: Data

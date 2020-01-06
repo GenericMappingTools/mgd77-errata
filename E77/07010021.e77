@@ -1,0 +1,14 @@
+# Cruise 07010021 ID YAQ69JUL MGD77 FILE VERSION: 19840214 N_RECS: 334
+# Examined: Fri Jul 16 17:33:40 2010 by mtchandl
+# Arguments:  -R229.9/234.6/44.9/50.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-07010021-nav-00: Flagged 0.30 % of records with bad navigation
+Y-I-07010021-faa-01: RLS m: 0.957301 b: -0.195468 rms: 6.32006 r: 0.990439 sig: 1 dec: 0
+N-E-07010021-faa-02: Regression slope 0.957301 different from 1. Recommended: [1]
+# Errata: Data
+Y	07010021	1969-07-24T04:21:00.00	58	C-0-0	 NAV: excessive speed

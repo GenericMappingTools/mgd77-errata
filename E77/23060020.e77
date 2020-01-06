@@ -1,0 +1,51 @@
+# Cruise 23060020 ID ODP117JR MGD77 FILE VERSION: 19890117 N_RECS: 15608
+# Examined: Tue Oct 19 15:13:35 2010 by mtchandl
+# Arguments:  -R57.3/100/-18.75/20.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-23060020-H11-06: Invalid Rightmost Longitude: (+080) [+100]
+N-E-23060020-H16-01: Invalid Number of Ten Degree Identifiers: ( 8) [9]
+Y-W-23060020-H16-06: Ten Degree Identifier 1009 not marked in header but block was crossed
+Y-W-23060020-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-23060020-depth-01: RLS m: 1 b: 0 rms: 50.1028 r: 0.999413 sig: 1 dec: 0
+Y-E-23060020-mag-07: Anomaly differs from mtf1-IGRF (m: 0.939976 b: 26.4401 rms: 34.7039 r: 0.966071 sig: 1 dec: 0). [Recompute]
+Y-E-23060020-depth-08: Extended offset from grid [6175-6854]
+Y-W-23060020-depth-12: Integer precision
+Y-W-23060020-mtf1-12: Integer precision
+# Errata: Data
+?	23060020	1987-08-24T10:30:00.00	571	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	23060020	1987-08-24T06:08:00.00	4682	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-08-24T06:10:00.00	4683	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-08-24T06:11:00.00	4684	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-08-24T06:13:00.00	4685	BD-0-0	 NAV: non-increasing time, on land
+?	23060020	1987-09-14T07:24:00.00	6976	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-14T07:26:00.00	6978	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-14T07:28:00.00	6979	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-14T07:29:00.00	6980	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-14T07:31:00.00	6982	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-14T07:33:00.00	6983	0-Q-0	 VAL: mag invalid
+?	23060020	1987-09-20T00:47:00.00	7920	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060020	1987-09-20T02:06:00.00	7997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060020	1987-09-23T04:15:00.00	8612	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060020	1987-09-25T07:40:00.00	9145	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	23060020	1987-09-19T22:42:00.00	11027	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-09-19T22:43:00.00	11028	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-09-19T22:44:00.00	11029	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-09-19T22:45:00.00	11030	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-10T21:55:00.00	11697	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-10T21:56:00.00	11698	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-10T21:58:00.00	11699	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-10T21:59:00.00	11700	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-14T03:39:00.00	14185	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-14T03:40:00.00	14186	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-14T03:41:00.00	14187	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-14T03:42:00.00	14188	B-0-0	 NAV: non-increasing time
+?	23060020	1987-10-15T03:53:55.98	14492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060020	1987-10-15T16:00:01.02	14777	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	23060020	1987-10-15T15:50:19.02	15309	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-15T15:55:00.00	15310	B-0-0	 NAV: non-increasing time
+Y	23060020	1987-10-15T15:55:03.00	15311	B-0-0	 NAV: non-increasing time

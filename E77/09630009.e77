@@ -1,0 +1,80 @@
+# Cruise 09630009 ID DSDP88N MGD77 FILE VERSION: 19870606 N_RECS: 5455
+# Examined: Mon Aug 16 15:54:57 2010 by mtchandl
+# Arguments:  -R159/176.9/41.35/49.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09630009-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-09630009-H13-09: Unknown IGRF specified ( IGRF/1980 C)
+Y-W-09630009-nav-00: Flagged 1.12 % of records with bad navigation
+Y-I-09630009-depth-01: RLS m: 0.998854 b: 0 rms: 21.6487 r: 0.996241 sig: 1 dec: 0
+Y-E-09630009-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0059 b: 64.8328 rms: 64.8698 r: 0.99933 sig: 1 dec: 0). [Recompute]
+Y-W-09630009-mtf1-12: Integer precision
+Y-W-09630009-mag-12: Integer precision
+# Errata: Data
+Y	09630009	1982-08-29T09:29:12.00	693	B-0-0	 NAV: non-increasing time
+Y	09630009	1982-08-29T09:32:00.00	697	B-0-0	 NAV: non-increasing time
+Y	09630009	1982-08-29T09:34:30.00	701	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-29T09:36:54.00	705	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-29T09:42:30.00	713	B-0-0	 NAV: non-increasing time
+Y	09630009	1982-08-29T09:46:48.00	718	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T03:33:06.00	1279	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T05:48:06.00	1369	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T08:09:06.00	1480	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T09:00:00.00	1509	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T09:03:06.00	1511	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T10:00:06.00	1557	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T10:45:06.00	1588	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T10:57:06.00	1598	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T11:21:00.00	1615	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T11:48:00.00	1636	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T12:15:06.00	1654	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T12:42:00.00	1668	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T12:51:00.00	1674	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T13:12:06.00	1686	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T13:57:00.00	1713	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T15:39:00.00	1767	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:03:00.00	1823	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:09:24.00	1827	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:24:24.00	1838	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:27:30.00	1840	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:30:06.00	1842	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T17:54:12.00	1857	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T18:12:06.00	1869	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T18:48:00.00	1895	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T20:12:12.00	1959	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-30T21:09:00.00	2000	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-31T00:27:18.00	2128	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-31T05:51:12.00	2320	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-31T06:27:00.00	2344	C-0-0	 NAV: excessive speed
+Y	09630009	1982-08-31T09:42:00.00	2432	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T03:57:06.00	2522	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T07:00:06.00	2640	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T08:42:00.00	2711	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T09:06:00.00	2725	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T09:54:00.00	2754	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T10:18:06.00	2770	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T17:03:00.00	3018	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T18:21:06.00	3068	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T18:27:00.00	3073	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T21:12:00.00	3179	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T21:30:12.00	3197	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-03T23:33:06.00	3286	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T00:48:06.00	3327	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T01:00:00.00	3335	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T01:54:00.00	3367	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T06:27:06.00	3537	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T08:45:06.00	3624	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T14:30:00.00	3867	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T16:06:00.00	3908	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T17:57:00.00	3993	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T18:03:00.00	3997	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T18:12:00.00	4004	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T20:18:00.00	4089	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T20:21:06.00	4092	C-0-0	 NAV: excessive speed
+Y	09630009	1982-09-04T22:57:06.00	4176	C-0-0	 NAV: excessive speed
+?	09630009	1982-09-09T12:57:00.00	4830	0-0-K	 GRAD: twt excessive
+?	09630009	1982-09-09T13:00:00.00	4831	0-0-KL	 GRAD: twt, depth excessive

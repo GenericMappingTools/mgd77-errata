@@ -1,0 +1,116 @@
+# Cruise 02010026 ID CH061L01 MGD77 FILE VERSION: 19800206 N_RECS: 15280
+# Examined: Fri Mar 26 20:33:29 2010 by mtchandl
+# Arguments:  -R-67.3/35.6/32/53 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010026-nav-00: Flagged 0.49 % of records with bad navigation
+Y-I-02010026-depth-01: RLS m: 0.999651 b: 0 rms: 21.9716 r: 0.99985 sig: 1 dec: 0
+N-E-02010026-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-02010026-faa-01: RLS m: 0.997204 b: 5.65183 rms: 8.82567 r: 0.995111 sig: 1 dec: 0
+N-E-02010026-faa-02: Regression slope 0.997204 different from 1. Recommended: [1]
+Y-W-02010026-faa-03: Regression offset 5.65183 different from 0.
+Y-E-02010026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.937667 b: -29.5867 rms: 99.215 r: 0.871975 sig: 1 dec: 1). [Recompute]
+Y-W-02010026-mtf1-12: Integer precision
+Y-W-02010026-mag-12: Integer precision
+# Errata: Data
+Y	02010026	1966-07-15T10:15:00.00	388	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:19:00.00	389	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:25:00.00	390	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:30:00.00	391	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:35:00.00	392	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:40:00.00	393	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:45:00.00	394	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:50:00.00	395	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T10:55:00.00	396	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T11:00:00.00	397	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T11:05:00.00	398	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T11:10:00.00	399	C-0-0	 NAV: excessive speed
+Y	02010026	1966-07-15T11:15:00.00	400	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-02T12:57:00.00	2565	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T17:55:00.00	3172	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:00:00.00	3173	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:05:00.00	3174	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:10:00.00	3175	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:15:00.00	3176	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:20:00.00	3177	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:25:00.00	3178	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:30:00.00	3179	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:35:00.00	3180	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:40:00.00	3181	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:45:00.00	3182	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:50:00.00	3183	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T18:55:00.00	3184	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:00:00.00	3185	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:05:00.00	3186	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:10:00.00	3187	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:15:00.00	3188	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:20:00.00	3189	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:25:00.00	3190	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:30:00.00	3191	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:35:00.00	3192	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:40:00.00	3193	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:45:00.00	3194	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:50:00.00	3195	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T19:55:00.00	3196	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T20:00:00.00	3197	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T20:06:00.00	3198	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T20:11:00.00	3199	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-04T20:16:00.00	3200	C-0-0	 NAV: excessive speed
+?	02010026	1966-08-07T18:39:00.00	4030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-07T18:49:00.00	4032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-07T20:40:00.00	4054	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-07T20:45:00.00	4055	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02010026	1966-08-08T12:31:00.00	4195	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-08T12:36:00.00	4196	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-08T12:41:00.00	4197	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-08T12:46:00.00	4198	C-0-0	 NAV: excessive speed
+?	02010026	1966-08-10T02:01:00.00	4554	0-0-K	 GRAD: twt excessive
+?	02010026	1966-08-10T21:51:00.00	4718	0-0-KL	 GRAD: twt, depth excessive
+?	02010026	1966-08-10T22:42:00.00	4728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-10T23:07:00.00	4733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-10T23:28:00.00	4735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-10T23:56:00.00	4740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-11T00:01:00.00	4741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-13T00:25:00.00	5120	0-0-KL	 GRAD: twt, depth excessive
+?	02010026	1966-08-16T13:01:00.00	5941	0-0-K	 GRAD: twt excessive
+?	02010026	1966-08-21T13:46:00.00	7078	0-0-K	 GRAD: twt excessive
+Y	02010026	1966-08-21T21:46:00.00	7173	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-21T21:51:00.00	7174	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-21T21:56:00.00	7175	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-21T22:01:00.00	7176	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-21T22:06:00.00	7177	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:21:00.00	7247	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:26:00.00	7248	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:31:00.00	7249	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:36:00.00	7250	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:41:00.00	7251	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-22T06:46:00.00	7252	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-27T16:14:00.00	7532	D-0-0	 NAV: on land
+Y	02010026	1966-08-27T16:19:00.00	7533	D-0-0	 NAV: on land
+Y	02010026	1966-08-27T16:24:00.00	7534	D-0-0	 NAV: on land
+Y	02010026	1966-08-27T16:29:00.00	7535	D-0-0	 NAV: on land
+Y	02010026	1966-08-27T16:34:00.00	7536	D-0-0	 NAV: on land
+Y	02010026	1966-08-27T16:39:00.00	7537	D-0-0	 NAV: on land
+?	02010026	1966-08-27T16:44:00.00	7538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-27T16:49:00.00	7539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-27T17:14:00.00	7544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-27T17:19:00.00	7545	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-27T17:24:00.00	7546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-27T23:59:00.00	7625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010026	1966-08-28T00:30:00.00	7631	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02010026	1966-08-28T15:48:00.00	7742	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T15:53:00.00	7743	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T15:58:00.00	7744	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T16:03:00.00	7745	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T16:08:00.00	7746	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T16:13:00.00	7747	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T16:18:00.00	7748	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-28T16:23:00.00	7749	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-30T17:42:00.00	8225	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-30T17:47:00.00	8226	C-0-0	 NAV: excessive speed
+Y	02010026	1966-08-30T17:52:00.00	8227	C-0-0	 NAV: excessive speed
+?	02010026	1966-09-03T17:40:00.00	9032	0-0-K	 GRAD: twt excessive

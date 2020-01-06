@@ -1,0 +1,45 @@
+# Cruise 08080003 ID CK77-1 MGD77 FILE VERSION: 19830311 N_RECS: 1721
+# Examined: Fri Nov 27 16:02:47 2009 by mtchandl
+# Arguments:  -R200.05/203.5/-21.2/-18.7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08080003-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08080003-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08080003-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08080003-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08080003-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08080003-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08080003-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08080003-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08080003-nav-00: Flagged 0.81 % of records with bad navigation
+Y-I-08080003-depth-01: RLS m: 0.997211 b: 0 rms: 504.76 r: 0.935977 sig: 1 dec: 0
+N-E-08080003-depth-08: Extended offset from grid [388-652]
+Y-W-08080003-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08080003	1977-08-21T12:10:12.96	175	0-0-K	 GRAD: twt excessive
+Y	08080003	1977-08-21T16:40:00.00	214	D-0-0	 NAV: on land
+Y	08080003	1977-08-21T17:00:00.00	215	D-0-0	 NAV: on land
+Y	08080003	1977-08-21T18:00:00.00	216	D-0-0	 NAV: on land
+Y	08080003	1977-08-21T18:14:00.00	217	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:23:30.00	450	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:29:52.02	451	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:36:23.94	452	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:44:46.02	453	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:52:08.94	454	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T19:56:54.00	455	D-0-KL	 NAV: on land - GRAD: twt, depth excessive
+Y	08080003	1977-08-24T20:00:00.00	456	D-0-0	 NAV: on land
+Y	08080003	1977-08-24T20:03:23.94	457	D-0-0	 NAV: on land
+?	08080003	1977-09-01T02:41:28.98	1071	0-0-K	 GRAD: twt excessive
+?	08080003	1977-09-01T02:44:31.02	1072	0-0-KL	 GRAD: twt, depth excessive
+?	08080003	1977-09-01T02:47:28.98	1073	0-0-KL	 GRAD: twt, depth excessive
+?	08080003	1977-09-01T02:49:24.96	1074	0-0-KL	 GRAD: twt, depth excessive
+?	08080003	1977-09-01T02:52:42.00	1075	0-0-KL	 GRAD: twt, depth excessive
+?	08080003	1977-09-01T02:56:13.98	1076	0-0-KL	 GRAD: twt, depth excessive
+?	08080003	1977-09-01T03:00:20.94	1078	0-0-KL	 GRAD: twt, depth excessive
+Y	08080003	1977-09-05T17:41:13.98	1711	D-0-0	 NAV: on land
+?	08080003	1977-09-05T18:02:22.98	1717	D-0-0	 NAV: on land
+Y	08080003	1977-09-05T18:07:54.00	1718	D-0-0	 NAV: on land

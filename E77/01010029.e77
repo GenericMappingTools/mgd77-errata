@@ -1,0 +1,44 @@
+# Cruise 01010029 ID RC0911A MGD77 FILE VERSION: 19790619 N_RECS: 3159
+# Examined: Thu Jun 26 13:07:13 2008 by mtchandl
+# Arguments:  -R32.5/80.9/11.65/29.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, possible Potsdam offset.
+# Errata: Header
+N-E-01010029-H11-06: Invalid Rightmost Longitude: (+045) [+081]
+N-E-01010029-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [4]
+Y-W-01010029-H16-06: Ten Degree Identifier 1208 not marked in header but block was crossed
+Y-W-01010029-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-01010029-depth-01: RLS m: 1 b: 0 rms: 145.512 r: 0.971066 sig: 1 dec: 1
+Y-I-01010029-faa-01: RLS m: 0.972026 b: -6.70721 rms: 12.4881 r: 0.922837 sig: 1 dec: 1
+Y-W-01010029-faa-03: Regression offset -6.70721 different from 0.
+Y-E-01010029-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00004 b: -65.875 rms: 67.0513 r: 0.998971 sig: 1 dec: 1). [Recompute]
+Y-W-01010029-mtf1-12: Integer precision
+Y-W-01010029-mag-12: Integer precision
+# Errata: Data
+?	01010029	1965-07-05T04:53:00.00	209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T05:00:00.00	211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T05:23:00.00	222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T10:00:00.00	295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:06:00.00	397	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:15:00.00	402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:23:00.00	409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:24:00.00	410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:26:00.00	412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:27:00.00	413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T16:30:00.00	415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T17:02:00.00	433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T17:04:00.00	434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T22:05:00.00	546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T22:28:00.00	555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T22:30:00.00	556	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-05T23:54:00.00	600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-06T03:50:00.00	693	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-06T05:29:00.00	722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-06T05:31:00.00	724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-07T07:27:00.00	1176	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-08T01:16:00.00	1464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010029	1965-07-08T01:30:00.00	1468	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01010029	1965-07-11T23:06:00.00	2957	CD-0-0	 NAV: excessive speed, on land

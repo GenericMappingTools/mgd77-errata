@@ -1,0 +1,45 @@
+# Cruise 07010042 ID YAQ7309 MGD77 FILE VERSION: 19840120 N_RECS: 14601
+# Examined: Fri Jul 16 17:45:48 2010 by mtchandl
+# Arguments:  -R242.75/280.45/7.1/32.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010042-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07010042-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-07010042-depth-01: RLS m: 1.00105 b: 0 rms: 43.644 r: 0.998977 sig: 1 dec: 0
+Y-I-07010042-faa-01: RLS m: 0.978168 b: 2.19457 rms: 3.85268 r: 0.993827 sig: 1 dec: 0
+N-E-07010042-faa-02: Regression slope 0.978168 different from 1. Recommended: [1]
+Y-W-07010042-faa-03: Regression offset 2.19457 different from 0.
+Y-E-07010042-mag-07: Anomaly differs from mtf1-IGRF (m: 1.163 b: 53.7717 rms: 96.6087 r: 0.846557 sig: 1 dec: 0). [Recompute]
+Y-W-07010042-twt-11: More recent bathymetry correction table available
+Y-W-07010042-mtf1-12: Integer precision
+Y-W-07010042-mag-12: Integer precision
+# Errata: Data
+?	07010042	1974-03-30T08:05:00.00	130	0-0-Q	 GRAD: mag excessive
+Y	07010042	1974-03-31T00:00:00.00	541	B-0-0	 NAV: non-increasing time
+?	07010042	1974-03-31T03:58:00.00	690	0-0-K	 GRAD: twt excessive
+?	07010042	1974-03-31T11:45:00.00	991	0-0-K	 GRAD: twt excessive
+?	07010042	1974-03-31T15:04:00.00	1094	0-0-O	 GRAD: mtf1 excessive
+?	07010042	1974-03-31T15:05:00.00	1095	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-03T06:06:00.00	2756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-03T07:02:00.00	2796	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010042	1974-04-06T00:00:00.00	4578	B-0-0	 NAV: non-increasing time
+?	07010042	1974-04-08T20:48:00.00	6961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-08T20:50:00.00	6963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-08T20:53:00.00	6966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-08T20:55:00.00	6967	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010042	1974-04-08T20:57:00.00	6968	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010042	1974-04-08T21:00:00.00	6970	0-Q-0	 VAL: mag invalid
+?	07010042	1974-04-08T21:01:00.00	6971	0-Q-0	 VAL: mag invalid
+Y	07010042	1974-04-11T00:00:00.00	8765	B-0-0	 NAV: non-increasing time
+?	07010042	1974-04-12T19:43:00.00	10254	0-0-K	 GRAD: twt excessive
+Y	07010042	1974-04-15T17:34:00.00	11401	D-0-0	 NAV: on land
+Y	07010042	1974-04-15T17:50:00.00	11402	D-0-0	 NAV: on land
+Y	07010042	1974-04-15T18:20:00.00	11404	D-0-0	 NAV: on land
+?	07010042	1974-04-17T05:10:00.00	11449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-17T05:15:00.00	11453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010042	1974-04-17T05:49:00.00	11474	0-0-KL	 GRAD: twt, depth excessive
+Y	07010042	1974-04-21T00:00:00.00	14240	B-0-0	 NAV: non-increasing time

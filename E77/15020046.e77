@@ -1,0 +1,32 @@
+# Cruise 15020046 ID PLDS01MV MGD77 FILE VERSION: 19800226 N_RECS: 11079
+# Examined: Thu May 15 08:33:54 2008 by mtchandl
+# Arguments:  -R242.8/281.25/-4.1/32.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anommalies.
+# Errata: Header
+N-E-15020046-H04-03: Invalid Survey Departure Day: (27) [29]
+Y-W-15020046-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020046-depth-01: RLS m: 0.996125 b: 0 rms: 135.92 r: 0.993566 sig: 1 dec: 1
+Y-E-15020046-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00691 b: -12.576 rms: 117.107 r: 0.929869 sig: 1 dec: 1). [Recompute]
+Y-W-15020046-twt-11: More recent bathymetry correction table available
+Y-W-15020046-mtf1-12: Integer precision
+Y-W-15020046-mag-12: Integer precision
+# Errata: Data
+?	15020046	1976-05-11T15:55:00.00	3387	0-0-K	 GRAD: twt excessive
+?	15020046	1976-05-11T16:00:00.00	3388	0-0-K	 GRAD: twt excessive
+?	15020046	1976-05-26T05:30:00.00	7582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020046	1976-05-26T05:55:00.00	7587	0-Q-0	 VAL: mag invalid
+?	15020046	1976-05-26T06:00:00.00	7588	0-Q-0	 VAL: mag invalid
+?	15020046	1976-05-26T06:05:00.00	7589	0-Q-0	 VAL: mag invalid
+?	15020046	1976-05-26T06:10:00.00	7590	0-Q-0	 VAL: mag invalid
+?	15020046	1976-05-26T06:15:00.00	7591	0-Q-0	 VAL: mag invalid
+?	15020046	1976-05-26T19:55:00.00	7755	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020046	1976-05-28T17:30:00.00	8302	0-0-Q	 GRAD: mag excessive
+?	15020046	1976-06-01T20:55:00.00	9495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020046	1976-06-01T22:00:00.00	9508	0-Q-0	 VAL: mag invalid
+?	15020046	1976-06-01T22:05:00.00	9509	0-Q-0	 VAL: mag invalid
+?	15020046	1976-06-01T22:55:00.00	9519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020046	1976-06-02T03:30:00.00	9574	0-0-OQ	 GRAD: mtf1, mag excessive

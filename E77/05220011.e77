@@ -1,0 +1,100 @@
+# Cruise 05220011 ID MO7214 MGD77 FILE VERSION: 20080805 N_RECS: 8690
+# Examined: Fri May 21 13:29:09 2010 by mtchandl
+# Arguments:  -R158.7/165.5/-32.15/-23.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05220011-H13-10: Survey year (1972) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05220011-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05220011-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05220011-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05220011-H16-06: Ten Degree Identifier 3215 not marked in header but block was crossed
+Y-W-05220011-H16-06: Ten Degree Identifier 3216 not marked in header but block was crossed
+Y-W-05220011-H16-06: Ten Degree Identifier 3315 not marked in header but block was crossed
+Y-W-05220011-H16-06: Ten Degree Identifier 3316 not marked in header but block was crossed
+Y-I-05220011-depth-01: RLS m: 1.00346 b: 0 rms: 55.1217 r: 0.99763 sig: 1 dec: 0
+N-E-05220011-depth-02: Regression slope 1.00346 different from 1. Recommended: [1]
+Y-I-05220011-faa-01: RLS m: 0.978411 b: -8.91655 rms: 9.52954 r: 0.992625 sig: 1 dec: 0
+N-E-05220011-faa-02: Regression slope 0.978411 different from 1. Recommended: [1]
+Y-W-05220011-faa-03: Regression offset -8.91655 different from 0.
+Y-E-05220011-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00057 b: -11.7287 rms: 14.9392 r: 0.999647 sig: 1 dec: 1). [Recompute]
+Y-W-05220011-depth-12: Integer precision
+Y-W-05220011-mtf1-12: Integer precision
+# Errata: Data
+?	05220011	1972-07-25T20:35:00.00	2037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:01:00.00	2063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:02:00.00	2064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:03:00.00	2065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:04:00.00	2066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:05:00.00	2067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:06:00.00	2068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:15:00.00	2076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:31:00.00	2092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:32:00.00	2093	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:39:00.00	2099	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:40:00.00	2100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:41:00.00	2101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:42:00.00	2102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:58:00.00	2118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T21:59:00.00	2119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T22:00:00.00	2120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T22:01:00.00	2121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-25T22:19:00.00	2139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:28:00.00	2790	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:29:00.00	2791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:30:00.00	2792	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:31:00.00	2793	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:32:00.00	2794	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:35:00.00	2797	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:36:00.00	2798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:37:00.00	2799	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:39:00.00	2800	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:40:00.00	2801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:41:00.00	2802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:42:00.00	2803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-26T09:43:00.00	2804	0-0-Q	 GRAD: mag excessive
+?	05220011	1972-07-27T11:04:00.00	4284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:05:00.00	4285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:06:00.00	4286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:07:00.00	4287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:08:00.00	4288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:09:00.00	4289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:10:00.00	4290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:11:00.00	4291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:12:00.00	4292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:13:00.00	4293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:14:00.00	4294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:16:00.00	4296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:19:00.00	4299	0-0-Q	 GRAD: mag excessive
+?	05220011	1972-07-27T11:20:00.00	4300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:21:00.00	4301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:22:00.00	4302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:23:00.00	4303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:24:00.00	4304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:25:00.00	4305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:26:00.00	4306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:27:00.00	4307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:28:00.00	4308	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:29:00.00	4309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:30:00.00	4310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:31:00.00	4311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:32:00.00	4312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:38:00.00	4318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:39:00.00	4319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:40:00.00	4320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:41:00.00	4321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:42:00.00	4322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:43:00.00	4323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:44:00.00	4324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:45:00.00	4325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:46:00.00	4326	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:47:00.00	4327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:48:00.00	4328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:49:00.00	4329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:50:00.00	4330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:51:00.00	4331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:52:00.00	4332	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05220011	1972-07-27T11:54:00.00	4333	0-0-OQ	 GRAD: mtf1, mag excessive

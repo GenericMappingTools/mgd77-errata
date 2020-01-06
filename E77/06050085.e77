@@ -1,0 +1,19 @@
+# Cruise 06050085 ID L275NP MGD77 FILE VERSION: 19870917 N_RECS: 468
+# Examined: Fri May 21 16:27:03 2010 by mtchandl
+# Arguments:  -R193.5/237.35/37.75/54.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing mag.
+# Errata: Header
+N-E-06050085-H13-01: Invalid Magnetics Digitizing Rate: (329) [329]
+Y-E-06050085-mag-07: Anomaly differs from mtf1-IGRF (m: 0.970369 b: -33.1556 rms: 35.0384 r: 0.989063 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	06050085	1975-08-25T22:52:00.00	1	0-Q-0	 VAL: mag invalid
+?	06050085	1975-08-26T00:40:00.00	2	0-Q-0	 VAL: mag invalid
+?	06050085	1975-08-26T18:10:00.00	3	0-Q-0	 VAL: mag invalid
+?	06050085	1975-08-26T18:30:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050085	1975-08-29T18:12:00.00	144	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050085	1975-08-29T18:42:00.00	145	0-Q-0	 VAL: mag invalid
+?	06050085	1975-08-29T18:50:00.00	146	0-Q-0	 VAL: mag invalid

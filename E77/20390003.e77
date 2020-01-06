@@ -1,0 +1,165 @@
+# Cruise 20390003 ID KR134-10 MGD77 FILE VERSION: 19900124 N_RECS: 3551
+# Examined: Tue Oct 19 15:06:12 2010 by mtchandl
+# Arguments:  -R29.05/34.2/41.15/43.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged large bathymetry offset near end of cruise.
+# Errata: Header
+Y-W-20390003-time-01: 1 of 3551 records contain invalid time
+Y-E-20390003-H04-02: Invalid Survey Departure Month: (04) [06]
+Y-E-20390003-H04-03: Invalid Survey Departure Day: (16) [03]
+Y-E-20390003-H04-05: Invalid Survey Arrival Month: (05) [06]
+Y-E-20390003-H04-06: Invalid Survey Arrival Day: (07) [16]
+Y-W-20390003-nav-00: Flagged 4.06 % of records with bad navigation
+Y-I-20390003-depth-01: RLS m: 1.00035 b: 0 rms: 6.86793 r: 0.99996 sig: 1 dec: 0
+N-E-20390003-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-E-20390003-depth-08: Extended offset from grid [3034-3309]
+Y-W-20390003-twt-11: twt may be extracted from depth for Carter correction
+# Errata: Data
+Y	20390003	1988-06-03T20:48:00.00	163	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-03T21:19:00.00	179	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T00:59:00.00	346	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T01:59:00.00	371	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T02:51:00.00	419	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T02:59:00.00	426	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T03:45:00.00	449	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:46:00.00	450	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:47:00.00	451	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:48:00.00	452	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:49:00.00	453	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:52:00.00	454	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:53:00.00	455	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:54:00.00	456	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:55:00.00	457	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:57:00.00	458	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:58:00.00	459	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:59:00.00	460	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T03:59:00.00	461	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-04T04:00:00.00	462	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:02:00.00	463	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:03:00.00	464	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:04:00.00	465	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:05:00.00	466	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:06:00.00	467	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:08:00.00	468	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:09:00.00	469	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:10:00.00	470	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:11:00.00	471	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:12:00.00	472	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:13:00.00	473	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:14:00.00	474	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:15:00.00	475	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:16:00.00	476	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:17:00.00	477	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:18:00.00	478	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:19:00.00	479	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:21:00.00	480	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:22:00.00	481	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:23:00.00	482	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:24:00.00	483	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:25:00.00	484	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:26:00.00	485	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:27:00.00	486	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:28:00.00	487	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:29:00.00	488	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:30:00.00	489	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-04T04:59:00.00	506	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-07T20:40:00.00	560	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-07T20:40:00.00	561	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T01:12:00.00	741	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T01:59:00.00	764	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T02:59:00.00	811	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T03:59:00.00	846	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T04:00:00.00	848	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T04:59:00.00	901	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T05:59:00.00	933	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T08:49:00.00	1019	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T09:00:00.00	1029	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T10:00:00.00	1084	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T11:05:00.00	1129	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T11:06:00.00	1130	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T11:07:00.00	1131	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T12:02:00.00	1171	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T12:07:00.00	1174	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T12:08:00.00	1175	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T12:09:00.00	1176	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T12:10:00.00	1177	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T13:14:00.00	1217	D-0-0	 NAV: on land
+Y	20390003	1988-06-08T13:15:00.00	1218	D-0-0	 NAV: on land
+Y	20390003	1988-06-08T15:53:00.00	1290	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T15:56:00.00	1291	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T15:57:00.00	1292	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T15:58:00.00	1293	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-08T21:59:00.00	1522	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T23:59:00.00	1606	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-08T00:04:00.00	1610	B-0-0	 NAV: non-increasing time
+Y	20390003	NaN	1658	E-0-0	 NAV: navigation undefined
+Y	20390003	1988-06-09T03:00:00.00	1672	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-09T12:59:00.00	1729	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-09T13:51:00.00	1767	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-09T13:59:00.00	1774	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-09T19:00:00.00	1810	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T04:58:00.00	2032	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T04:59:00.00	2033	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T04:59:00.00	2034	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T05:00:00.00	2035	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T05:02:00.00	2036	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T05:03:00.00	2037	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T05:04:00.00	2038	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T05:05:00.00	2039	C-0-0	 NAV: excessive speed
+Y	20390003	1988-06-10T05:59:00.00	2053	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T06:59:00.00	2099	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T07:59:00.00	2135	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T08:47:00.00	2170	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T08:47:00.00	2171	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T09:00:00.00	2182	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T10:00:00.00	2218	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-10T14:58:00.00	2246	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-14T12:59:00.00	2303	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-14T20:49:00.00	2626	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-14T21:00:00.00	2636	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-14T22:00:00.00	2682	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2740	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2741	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2742	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2743	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2744	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2745	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2746	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2747	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2748	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2749	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T05:31:00.00	2750	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T06:00:00.00	2767	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T08:45:00.00	2803	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T15:59:00.00	3022	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T18:31:00.00	3101	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T20:39:00.00	3192	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T20:39:00.00	3193	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T20:39:00.00	3194	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T20:39:00.00	3195	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T20:39:00.00	3196	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T23:12:00.00	3291	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T23:18:00.00	3297	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-15T23:50:00.00	3326	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:00:00.00	3478	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3492	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3493	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3494	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3495	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3496	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3497	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3498	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3499	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3500	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3501	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3502	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3503	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3504	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3505	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3506	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3507	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3508	B-0-0	 NAV: non-increasing time
+Y	20390003	1988-06-16T05:15:00.00	3509	B-0-0	 NAV: non-increasing time

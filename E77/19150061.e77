@@ -1,0 +1,55 @@
+# Cruise 19150061 ID M3044_6 MGD77 FILE VERSION: 20011115 N_RECS: 63717
+# Examined: Tue Sep 14 16:40:02 2010 by mtchandl
+# Arguments:  -R-58.45/18.15/-51.95/-34.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Survey departure and arrival dates from previous cruise.
+# Errata: Header
+Y-E-19150061-H04-02: Invalid Survey Departure Month: (01) [03]
+Y-E-19150061-H04-03: Invalid Survey Departure Day: (02) [16]
+Y-E-19150061-H04-05: Invalid Survey Arrival Month: (04) [03]
+Y-E-19150061-H04-06: Invalid Survey Arrival Day: (16) [31]
+Y-W-19150061-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19150061-depth-01: RLS m: 1.00028 b: 0 rms: 9.70253 r: 0.999967 sig: 1 dec: 0
+N-E-19150061-depth-02: Regression slope 1.00028 different from 1. Recommended: [1]
+# Errata: Data
+Y	19150061	1998-03-17T20:55:00.00	5712	C-0-0	 NAV: excessive speed
+Y	19150061	1998-03-17T22:52:07.02	6292	C-0-0	 NAV: excessive speed
+Y	19150061	1998-03-20T03:37:00.00	14907	C-0-0	 NAV: excessive speed
+?	19150061	1998-03-22T08:55:42.00	24530	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T16:23:48.00	25402	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T17:14:24.00	25518	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T18:38:42.00	25707	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T19:06:36.00	25767	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T19:08:42.00	25773	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T19:12:42.00	25785	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-22T19:19:12.00	25801	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-23T01:27:48.00	26653	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-25T00:10:24.00	34752	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-25T00:10:42.00	34753	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-25T23:59:24.00	36578	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:00:00.00	36579	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:22:30.00	36582	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:24:00.00	36583	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:25:00.00	36585	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:25:42.00	36586	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:26:18.00	36587	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T00:27:00.00	36588	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-26T07:17:00.00	36965	0-0-L	 GRAD: depth excessive
+Y	19150061	1998-03-26T12:02:00.00	37458	C-0-0	 NAV: excessive speed
+?	19150061	1998-03-27T07:18:18.00	41885	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-27T07:22:42.00	41903	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-27T20:34:48.00	44860	0-0-L	 GRAD: depth excessive
+Y	19150061	1998-03-28T02:20:00.00	46262	C-0-0	 NAV: excessive speed
+?	19150061	1998-03-28T02:46:36.00	46353	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-28T02:49:12.00	46356	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-28T02:49:24.00	46357	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-28T03:16:36.00	46453	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-29T09:16:42.00	51586	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-29T15:20:00.00	52927	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-29T15:27:12.00	52958	0-0-L	 GRAD: depth excessive
+?	19150061	1998-03-29T15:27:24.00	52959	0-0-L	 GRAD: depth excessive
+Y	19150061	1998-03-31T13:31:00.00	63646	C-0-0	 NAV: excessive speed
+Y	19150061	1998-03-31T13:45:04.02	63715	C-0-0	 NAV: excessive speed

@@ -1,0 +1,21 @@
+# Cruise 03020149 ID RP15SU82 MGD77 FILE VERSION: 19971215 N_RECS: 1642
+# Examined: Fri Apr 16 13:04:43 2010 by mtchandl
+# Arguments:  -R229.9/232.95/41.75/45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020149-nav-00: Flagged 0.37 % of records with bad navigation
+Y-I-03020149-depth-01: RLS m: 1.00272 b: 0 rms: 87.0478 r: 0.973518 sig: 1 dec: 0
+Y-W-03020149-depth-12: Integer precision
+# Errata: Data
+Y	03020149	1982-09-26T08:20:03.00	128	C-0-0	 NAV: excessive speed
+Y	03020149	1982-09-26T08:52:58.02	140	C-0-0	 NAV: excessive speed
+Y	03020149	1982-09-26T08:53:58.02	141	C-0-0	 NAV: excessive speed
+?	03020149	1982-09-26T08:57:58.98	145	0-0-K	 GRAD: twt excessive
+Y	03020149	1982-09-27T05:07:58.02	904	C-0-0	 NAV: excessive speed
+Y	03020149	1982-09-27T05:08:58.02	905	C-0-0	 NAV: excessive speed
+Y	03020149	1982-09-27T05:10:00.00	906	C-0-0	 NAV: excessive speed
+?	03020149	1982-10-05T23:26:58.98	1090	0-0-K	 GRAD: twt excessive

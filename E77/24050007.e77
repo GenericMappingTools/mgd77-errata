@@ -1,0 +1,27 @@
+# Cruise 24050007 ID GA-0055 MGD77 FILE VERSION: 20080516 N_RECS: 42377
+# Examined: Mon Feb 14 19:31:33 2011 by mtchandl
+# Arguments:  -R110.2/122.25/-32.05/-17.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-24050007-H04-06: Invalid Survey Arrival Day: (01) [10]
+N-E-24050007-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050007-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050007-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050007-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050007-H16-06: Ten Degree Identifier 3112 not marked in header but block was crossed
+Y-W-24050007-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-W-24050007-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-24050007-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-24050007-depth-01: RLS m: 1.00136 b: 0 rms: 11.9738 r: 0.999949 sig: 1 dec: 0
+N-E-24050007-depth-02: Regression slope 1.00136 different from 1. Recommended: [1]
+Y-W-24050007-twt-11: More recent bathymetry correction table available
+Y-W-24050007-depth-12: Integer precision
+Y-W-24050007-mtf1-12: Integer precision
+# Errata: Data
+?	24050007	1986-03-19T05:21:00.00	11254	0-0-K	 GRAD: twt excessive
+?	24050007	1986-04-04T18:50:00.00	34459	0-0-K	 GRAD: twt excessive
+Y	24050007	1986-04-10T06:47:00.00	42376	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,115 @@
+# Cruise 15040231 ID TUNE07WT MGD77 FILE VERSION: 19941231 N_RECS: 27646
+# Examined: Tue May 27 10:49:27 2008 by mtchandl
+# Arguments:  -R141.25/145.05/12.95/23.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15040231-H11-03: Invalid Bottommost Latitude: (+13) [+12]
+Y-W-15040231-H13-10: Survey year (1991) outside magnetic reference field IGRF-1990 time range (1995-2000)
+Y-W-15040231-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15040231-depth-01: RLS m: 0.964706 b: 0 rms: 247.058 r: 0.982816 sig: 1 dec: 1
+N-E-15040231-depth-02: Regression slope 0.964706 different from 1. Recommended: [1]
+Y-I-15040231-faa-01: RLS m: 0.999856 b: -2.09826 rms: 5.69703 r: 0.972008 sig: 1 dec: 1
+N-E-15040231-faa-06: Anomaly differs from gobs - IGF80 (m: 0.164834 b: 43.507 rms: 60.8415 r: 0.567242 sig: 1 dec: 1). [Recompute]
+Y-E-15040231-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00347 b: 3.28486 rms: 10.5468 r: 0.999467 sig: 1 dec: 1). [Recompute]
+Y-W-15040231-faa-09: only found positive values
+Y-W-15040231-twt-11: More recent bathymetry correction table available
+Y-W-15040231-depth-12: Integer precision
+Y-W-15040231-mtf1-12: Integer precision
+# Errata: Data
+Y	15040231	1991-12-06T08:20:00.00	1	D-0-0	 NAV: on land
+Y	15040231	1991-12-06T08:28:00.00	2	D-0-0	 NAV: on land
+?	15040231	1991-12-06T08:29:00.00	3	D-0-0	 NAV: on land
+?	15040231	1991-12-06T08:30:00.00	4	D-0-0	 NAV: on land
+?	15040231	1991-12-06T08:31:00.00	5	D-0-0	 NAV: on land
+?	15040231	1991-12-06T15:28:00.00	384	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T03:36:00.00	2552	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T05:25:00.00	2661	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T07:28:00.00	2784	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T07:41:00.00	2797	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-08T07:51:00.00	2807	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-08T07:56:00.00	2812	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T08:46:00.00	2862	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-08T09:58:00.00	2934	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-08T11:30:00.00	3026	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T11:51:00.00	3047	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-08T12:28:00.00	3084	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-08T12:54:00.00	3110	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-09T10:31:00.00	4407	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-10T08:24:00.00	5310	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T10:33:00.00	5406	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T10:34:00.00	5407	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T16:40:00.00	5647	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T16:45:00.00	5650	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T17:00:00.00	5660	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T17:10:00.00	5665	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T18:34:00.00	5736	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T18:38:00.00	5740	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-10T18:39:00.00	5741	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-10T19:19:00.00	5772	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-10T19:40:00.00	5788	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-11T05:24:00.00	6222	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-12T02:48:00.00	7469	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-12T03:29:00.00	7507	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-12T04:02:00.00	7532	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-12T04:04:00.00	7534	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-12T04:21:00.00	7550	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-13T10:22:00.00	9166	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-14T10:54:00.00	10567	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-14T10:55:00.00	10568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-14T10:56:00.00	10569	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-14T10:57:00.00	10570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-14T10:58:00.00	10571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-14T10:59:00.00	10572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040231	1991-12-16T08:18:00.00	13079	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-17T07:28:00.00	14332	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-17T07:47:00.00	14349	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-17T09:00:00.00	14408	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-17T16:32:00.00	14772	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-18T04:20:00.00	15346	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-18T17:31:00.00	16085	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-19T17:02:00.00	17407	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-19T17:09:00.00	17411	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-19T18:23:00.00	17485	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-19T20:40:00.00	17622	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-20T07:49:00.00	18289	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-21T02:29:00.00	19339	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-21T15:29:00.00	20009	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-21T16:10:00.00	20050	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-21T16:31:00.00	20071	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-21T18:51:00.00	20211	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-22T00:01:00.00	20521	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-22T02:01:00.00	20641	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-22T02:18:00.00	20658	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-22T02:23:00.00	20663	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-22T02:27:00.00	20667	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-22T06:44:00.00	20924	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-22T06:53:00.00	20933	0-0-U	 GRAD: gobs excessive
+?	15040231	1991-12-22T18:36:00.00	21518	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-23T02:14:00.00	21933	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-23T11:59:00.00	22483	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-23T12:28:00.00	22512	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-23T12:56:00.00	22540	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-23T13:08:00.00	22552	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-23T14:24:00.00	22627	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-23T23:30:00.00	23137	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-24T00:04:00.00	23171	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-24T05:47:00.00	23492	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-24T06:23:00.00	23522	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-24T06:31:00.00	23528	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-24T06:32:00.00	23529	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-24T09:27:00.00	23692	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-24T10:47:00.00	23772	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-24T12:51:00.00	23896	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-24T21:31:00.00	24347	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-25T02:07:00.00	24622	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-25T06:07:00.00	24862	0-0-KL	 GRAD: twt, depth excessive
+?	15040231	1991-12-26T22:33:00.00	27283	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-26T22:37:00.00	27285	0-0-K	 GRAD: twt excessive
+?	15040231	1991-12-27T04:56:00.00	27644	D-0-0	 NAV: on land
+Y	15040231	1991-12-27T04:59:00.00	27645	D-0-0	 NAV: on land
+Y	15040231	1991-12-27T05:00:00.00	27646	D-0-0	 NAV: on land

@@ -1,0 +1,30 @@
+# Cruise 07010035 ID YAQ7110 MGD77 FILE VERSION: 19840120 N_RECS: 11740
+# Examined: Fri Jul 16 17:40:46 2010 by mtchandl
+# Arguments:  -R235.25/260.1/15.8/44.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010035-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07010035-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-07010035-depth-01: RLS m: 1.00016 b: 0 rms: 45.4549 r: 0.99919 sig: 1 dec: 0
+Y-I-07010035-faa-01: RLS m: 0.972313 b: 2.20715 rms: 6.07448 r: 0.978984 sig: 1 dec: 0
+N-E-07010035-faa-02: Regression slope 0.972313 different from 1. Recommended: [1]
+Y-W-07010035-faa-03: Regression offset 2.20715 different from 0.
+Y-E-07010035-mag-07: Anomaly differs from mtf1-IGRF (m: 0.971157 b: 102.685 rms: 104.498 r: 0.967986 sig: 1 dec: 0). [Recompute]
+Y-W-07010035-twt-11: More recent bathymetry correction table available
+Y-W-07010035-mtf1-12: Integer precision
+Y-W-07010035-mag-12: Integer precision
+# Errata: Data
+?	07010035	1972-04-15T21:27:00.00	754	0-0-K	 GRAD: twt excessive
+?	07010035	1972-04-16T05:02:00.00	941	0-0-KL	 GRAD: twt, depth excessive
+?	07010035	1972-04-16T10:01:00.00	1033	0-0-K	 GRAD: twt excessive
+?	07010035	1972-04-18T13:52:00.00	2350	0-0-K	 GRAD: twt excessive
+?	07010035	1972-04-19T11:25:00.00	2999	0-0-KL	 GRAD: twt, depth excessive
+?	07010035	1972-04-22T11:01:00.00	4998	0-0-KL	 GRAD: twt, depth excessive
+?	07010035	1972-04-23T15:15:00.00	5890	0-0-KL	 GRAD: twt, depth excessive
+?	07010035	1972-04-26T16:12:00.00	7857	0-0-K	 GRAD: twt excessive
+?	07010035	1972-04-27T07:07:00.00	8268	0-0-K	 GRAD: twt excessive
+Y	07010035	1972-04-28T00:00:00.00	8677	B-0-0	 NAV: non-increasing time

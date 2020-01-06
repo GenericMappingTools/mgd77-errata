@@ -1,0 +1,16 @@
+# Cruise 29030003 ID PG30 MGD77 FILE VERSION: 19911030 N_RECS: 5391
+# Examined: Mon Feb 14 22:24:45 2011 by mtchandl
+# Arguments:  -R149.55/166.95/38/47.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-29030003-H04-03: Invalid Survey Departure Day: (15) [16]
+Y-W-29030003-H13-10: Survey year (1985) outside magnetic reference field IGRF-85 time range (1995-2000)
+Y-E-29030003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999535 b: 24.56 rms: 26.7356 r: 0.999343 sig: 1 dec: 1). [Recompute]
+Y-W-29030003-mtf1-12: Integer precision
+Y-W-29030003-mag-12: Integer precision
+# Errata: Data
+?	29030003	1985-07-22T23:30:00.00	828	0-0-OQ	 GRAD: mtf1, mag excessive

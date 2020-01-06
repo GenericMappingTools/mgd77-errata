@@ -1,0 +1,36 @@
+# Cruise 07010032 ID YAQ7109 MGD77 FILE VERSION: 19840131 N_RECS: 14828
+# Examined: Fri Jul 16 17:39:35 2010 by mtchandl
+# Arguments:  -R251.4/278.4/-6.95/16.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010032-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-07010032-H15-01: Invalid Gravity Departure Base Station Value: (978116) [9781160]
+Y-W-07010032-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-07010032-depth-01: RLS m: 1.00028 b: 0 rms: 36.7126 r: 0.994267 sig: 1 dec: 0
+Y-I-07010032-faa-01: RLS m: 0.984222 b: 0.65063 rms: 8.18712 r: 0.98706 sig: 1 dec: 1
+Y-E-07010032-mag-07: Anomaly differs from mtf1-IGRF (m: 0.983967 b: -61.5128 rms: 77.7497 r: 0.977091 sig: 1 dec: 1). [Recompute]
+Y-W-07010032-twt-11: More recent bathymetry correction table available
+Y-W-07010032-mtf1-12: Integer precision
+Y-W-07010032-mag-12: Integer precision
+# Errata: Data
+?	07010032	1972-03-20T01:45:00.00	2484	0-0-K	 GRAD: twt excessive
+?	07010032	1972-03-23T13:01:00.00	4498	0-0-K	 GRAD: twt excessive
+?	07010032	1972-03-24T12:01:00.00	4874	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-03-24T12:10:00.00	4879	0-0-K	 GRAD: twt excessive
+Y	07010032	1972-03-27T00:00:00.00	6237	B-0-0	 NAV: non-increasing time
+?	07010032	1972-03-28T00:01:00.00	6953	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-03-28T03:37:00.00	7042	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-03-29T07:45:00.00	7547	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-03-29T16:05:00.00	7672	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-04-03T09:40:00.00	9807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-04T00:12:00.00	10090	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-04T00:17:00.00	10092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-06T05:06:00.00	11774	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-06T05:11:00.00	11777	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-06T05:26:00.00	11784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010032	1972-04-06T12:50:00.00	11990	0-0-KL	 GRAD: twt, depth excessive
+?	07010032	1972-04-06T12:55:00.00	11992	0-0-K	 GRAD: twt excessive

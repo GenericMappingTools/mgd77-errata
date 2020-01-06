@@ -1,0 +1,18 @@
+# Cruise 07010012 ID YAQ67JUL MGD77 FILE VERSION: 19840131 N_RECS: 129
+# Examined: Fri Jul 16 17:30:28 2010 by mtchandl
+# Arguments:  -R235.2/235.8/44.45/45.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-07010012-depth-01: RLS m: 1.0035 b: 0 rms: 14.3953 r: 0.997409 sig: 1 dec: 0
+Y-I-07010012-faa-01: RLS m: 0.896473 b: -2.09329 rms: 5.15388 r: 0.865059 sig: 1 dec: 1
+Y-E-07010012-mag-07: Anomaly differs from mtf1-IGRF (m: 0.926255 b: 32.0777 rms: 36.245 r: 0.999026 sig: 1 dec: 0). [Recompute]
+Y-W-07010012-faa-09: only found negative values
+Y-W-07010012-twt-11: More recent bathymetry correction table available
+Y-W-07010012-mtf1-12: Integer multiple of 5 precision
+Y-W-07010012-mag-12: Integer precision
+Y-W-07010012-faa-12: Integer precision
+# Errata: Data

@@ -1,0 +1,46 @@
+# Cruise 23060096 ID ODP190JR MGD77 FILE VERSION: 20080229 N_RECS: 56250
+# Examined: Thu Feb  3 13:57:59 2011 by mtchandl
+# Arguments:  -R133.45/152.6/-19.3/35.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry require further processing. Possible twt wrapping errors.
+# Errata: Header
+N-E-23060096-H04-03: Invalid Survey Departure Day: (06) [14]
+N-E-23060096-H04-06: Invalid Survey Arrival Day: (17) [16]
+Y-W-23060096-H13-10: Survey year (2000) outside magnetic reference field Unused time range (9999-9999)
+N-E-23060096-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-23060096-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-23060096-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-23060096-H16-06: Ten Degree Identifier 3014 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 3015 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 3114 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 3115 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 1014 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 1114 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 1213 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 1214 not marked in header but block was crossed
+Y-W-23060096-H16-06: Ten Degree Identifier 1313 not marked in header but block was crossed
+Y-W-23060096-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-23060096-depth-01: RLS m: 0.998256 b: 0 rms: 20.95 r: 0.999882 sig: 1 dec: 0
+N-E-23060096-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+N-E-23060096-twt-13: Encountered possible PDR wrap errors (4.4) [5.0]
+Y-W-23060096-twt-11: More recent bathymetry correction table available
+Y-W-23060096-depth-12: Integer precision
+# Errata: Data
+Y	23060096	2000-05-22T09:27:32.28	10628	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:28:32.28	10629	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:29:32.28	10630	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:40:39.84	10639	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:41:39.84	10640	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:42:39.84	10641	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T09:43:39.84	10642	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-22T10:13:56.10	10672	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-23T22:37:51.66	12850	C-0-0	 NAV: excessive speed
+Y	23060096	2000-05-24T04:44:07.50	13215	C-0-0	 NAV: excessive speed
+?	23060096	2000-05-26T21:15:00.66	17079	0-0-KL	 GRAD: twt, depth excessive
+?	23060096	2000-05-26T21:20:00.72	17084	0-0-KL	 GRAD: twt, depth excessive
+Y	23060096	2000-05-27T12:48:39.18	18011	C-0-0	 NAV: excessive speed
+Y	23060096	2000-06-22T08:14:18.12	34144	C-0-0	 NAV: excessive speed
+Y	23060096	2000-06-22T08:15:19.02	34145	C-0-0	 NAV: excessive speed

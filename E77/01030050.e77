@@ -1,0 +1,17 @@
+# Cruise 01030050 ID V2001 MGD77 FILE VERSION: 19790619 N_RECS: 1396
+# Examined: Thu Jul  9 16:19:35 2009 by mtchandl
+# Arguments:  -R286.15/302.6/18.5/40.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030050-depth-01: RLS m: 1.00013 b: 0 rms: 29.7871 r: 0.999904 sig: 1 dec: 0
+Y-E-01030050-mag-07: Anomaly differs from mtf1-IGRF (m: 0.888549 b: 19.0552 rms: 42.923 r: 0.933319 sig: 1 dec: 1). [Recompute]
+N-E-01030050-depth-08: Extended offset from grid [3-1396]
+Y-W-01030050-twt-11: More recent bathymetry correction table available
+Y-W-01030050-mtf1-12: Integer precision
+Y-W-01030050-mag-12: Integer precision
+# Errata: Data
+?	01030050	1964-02-22T19:42:00.00	1098	B-0-0	 NAV: decreasing time

@@ -1,0 +1,24 @@
+# Cruise 60000034 ID MMS78-07 MGD77 FILE VERSION: 20100412 N_RECS: 8391
+# Examined: Mon Nov 14 14:50:25 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-60000034-H16-03-03: Invalid Ten Degree Identifier quadrant: (9999                                                             )
+N-E-60000034-H16-05-03: Invalid Ten Degree Identifier longitude: (9999                                                             )
+N-E-60000034-H16-06-03: Invalid Ten Degree Identifier: (9999                                                             )
+Y-W-60000034-nav-00: Flagged 0.05 % of records with bad navigation
+# Errata: Data
+?	60000034	359.167	366	D-0-0	 NAV: on land
+?	60000034	359.227	367	D-0-0	 NAV: on land
+?	60000034	4524.21	6548	D-0-0	 NAV: on land
+?	60000034	4554.2	6650	D-0-0	 NAV: on land
+Y	60000034	4554.23	6651	D-0-0	 NAV: on land
+Y	60000034	5553.22	7759	D-0-0	 NAV: on land
+?	60000034	5553.27	7760	D-0-0	 NAV: on land
+Y	60000034	5673.28	7901	D-0-0	 NAV: on land
+Y	60000034	5673.48	7902	D-0-0	 NAV: on land
+?	60000034	5673.72	7903	D-0-0	 NAV: on land

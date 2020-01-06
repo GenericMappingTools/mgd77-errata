@@ -1,0 +1,17 @@
+# Cruise 76030001 ID AC1981 MGD77 FILE VERSION: 19910130 N_RECS: 4066
+# Examined: Wed Aug  3 06:52:18 2011 by mtchandl
+# Arguments:  -R-43/-29.7/-23.2/-11.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-76030001-depth-01: RLS m: 1 b: 0 rms: 12.3853 r: 0.999978 sig: 1 dec: 0
+# Errata: Data
+?	76030001	1981-06-26T14:44:09.96	460	0-0-L	 GRAD: depth excessive
+?	76030001	1981-06-27T08:37:36.00	794	0-0-L	 GRAD: depth excessive
+?	76030001	1981-06-27T10:48:57.00	887	0-0-L	 GRAD: depth excessive
+?	76030001	1981-07-08T22:01:00.96	2687	0-0-L	 GRAD: depth excessive
+?	76030001	1981-07-16T08:34:46.98	3548	0-0-L	 GRAD: depth excessive
+?	76030001	1981-07-16T10:13:48.00	3601	0-0-L	 GRAD: depth excessive

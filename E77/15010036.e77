@@ -1,0 +1,14 @@
+# Cruise 15010036 ID LUSI08AR MGD77 FILE VERSION: 19951214 N_RECS: 6275
+# Examined: Mon May 12 17:09:00 2008 by mtchandl
+# Arguments:  -R-19.5/18.45/-33.95/8.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-15010036-depth-01: RLS m: 1 b: 0 rms: 154.689 r: 0.990765 significant: 1 decimation: 1
+Y-W-15010036-twt-11: More recent bathymetry correction table available
+Y-W-15010036-depth-12: Integer precision
+# Errata: Data
+?	15010036	1963-06-27T19:06:00.00	4416	0-0-K	 GRAD: twt excessive

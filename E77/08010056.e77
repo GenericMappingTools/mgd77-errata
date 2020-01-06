@@ -1,0 +1,39 @@
+# Cruise 08010056 ID 79080801 MGD77 FILE VERSION: 19821020 N_RECS: 30819
+# Examined: Mon Nov 23 14:50:08 2009 by mtchandl
+# Arguments:  -R197.7/210.45/-17.55/21.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-08010056-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010056-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08010056-depth-01: RLS m: 0.999539 b: 0 rms: 37.0322 r: 0.999509 sig: 1 dec: 0
+Y-I-08010056-faa-01: RLS m: 0.977231 b: 2.2371 rms: 3.67436 r: 0.994233 sig: 1 dec: 0
+N-E-08010056-faa-02: Regression slope 0.977231 different from 1. Recommended: [1]
+Y-W-08010056-faa-03: Regression offset 2.2371 different from 0.
+Y-E-08010056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.975503 b: 55.7829 rms: 62.6423 r: 0.98768 sig: 1 dec: 0). [Recompute]
+Y-W-08010056-twt-11: More recent bathymetry correction table available
+Y-W-08010056-mtf1-12: Integer precision
+Y-W-08010056-mag-12: Integer precision
+# Errata: Data
+Y	08010056	1979-08-08T01:00:40.02	1	D-0-0	 NAV: on land
+Y	08010056	1979-08-08T01:03:40.02	2	D-0-0	 NAV: on land
+Y	08010056	1979-08-08T01:06:40.02	3	D-0-0	 NAV: on land
+Y	08010056	1979-08-08T01:09:40.02	4	D-0-0	 NAV: on land
+?	08010056	1979-08-08T01:12:40.02	5	D-0-0	 NAV: on land
+?	08010056	1979-08-08T01:15:40.02	6	D-0-0	 NAV: on land
+?	08010056	1979-08-08T01:18:40.02	7	D-0-0	 NAV: on land
+?	08010056	1979-08-08T01:21:40.02	8	D-0-0	 NAV: on land
+?	08010056	1979-08-10T11:27:45.06	3654	0-0-KL	 GRAD: twt, depth excessive
+?	08010056	1979-08-10T11:33:12.96	3663	0-0-KL	 GRAD: twt, depth excessive
+?	08010056	1979-08-11T18:14:31.02	5664	0-0-KL	 GRAD: twt, depth excessive
+Y	08010056	1979-08-19T01:03:40.02	9575	D-0-0	 NAV: on land
+Y	08010056	1979-08-19T01:06:40.02	9576	D-0-0	 NAV: on land
+Y	08010056	1979-08-19T01:09:40.02	9577	D-0-0	 NAV: on land
+Y	08010056	1979-08-19T01:12:40.02	9578	D-0-0	 NAV: on land
+?	08010056	1979-08-19T01:15:40.02	9579	D-0-0	 NAV: on land
+?	08010056	1979-08-24T18:03:34.02	17321	0-0-K	 GRAD: twt excessive
+?	08010056	1979-08-26T10:37:32.04	19798	0-0-KL	 GRAD: twt, depth excessive
+?	08010056	1979-08-28T17:53:08.94	23451	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,2334 @@
+# Cruise 06010003 ID U371CB MGD77 FILE VERSION: 19890113 N_RECS: 23873
+# Examined: Fri May 21 13:49:01 2010 by mtchandl
+# Arguments:  -R291/301.45/15.35/30.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler 
+# Comments: Recommend flagging all gravity records until sign error and outliers are resolved. Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-06010003-H11-02: Invalid Topmost Latitude : (+22) [+31]
+N-E-06010003-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [4]
+Y-W-06010003-H16-06: Ten Degree Identifier 7306 not marked in header but block was crossed
+Y-W-06010003-nav-00: Flagged 4.38 % of records with bad navigation
+Y-I-06010003-depth-01: RLS m: 0.998774 b: 0 rms: 34.1619 r: 0.99987 sig: 1 dec: 0
+N-E-06010003-depth-02: Regression slope 0.998774 different from 1. Recommended: [1]
+Y-I-06010003-faa-01: RLS m: 0.997368 b: -3.67525 rms: 6.62571 r: 0.996713 sig: 1 dec: 0
+N-E-06010003-faa-02: Regression slope 0.997368 different from 1. Recommended: [1]
+Y-W-06010003-faa-03: Regression offset -3.67525 different from 0.
+N-E-06010003-faa-06: Anomaly differs from gobs-IGF80 (m: 0.998542 b: -15.0065 rms: 14.9452 r: 0.999926 sig: 1 dec: 0). [Recompute]
+N-E-06010003-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.560078 b: -46.925 rms: 66.5701 r: 0.739887 sig: 1 dec: 0). [Recompute]
+N-E-06010003-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.900479 b: -33.0059 rms: 34.5537 r: 0.969797 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-06010003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.950883 b: -140.929 rms: 153.56 r: 0.98009 sig: 1 dec: 1). [Recompute]
+N-E-06010003-faa-08: Extended offset from grid [6412-6681]
+N-E-06010003-faa-08: Extended offset from grid [8471-8695]
+N-E-06010003-faa-08: Extended offset from grid [8713-9084]
+Y-E-06010003-faa-10: Invalid data records: [1-23873]
+# Errata: Data
+?	06010003	1971-07-17T19:53:00.00	2	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-17T22:58:00.00	187	0-0-O	 GRAD: mtf1 excessive
+?	06010003	1971-07-17T23:00:00.00	189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-18T01:49:00.00	358	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	06010003	1971-07-18T01:50:00.00	359	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	06010003	1971-07-18T06:36:00.00	645	0-0-K	 GRAD: twt excessive
+?	06010003	1971-07-18T06:37:00.00	646	0-0-K	 GRAD: twt excessive
+?	06010003	1971-07-18T06:38:00.00	647	0-0-K	 GRAD: twt excessive
+?	06010003	1971-07-18T06:39:00.00	648	0-0-K	 GRAD: twt excessive
+?	06010003	1971-07-18T06:40:00.00	649	0-0-K	 GRAD: twt excessive
+?	06010003	1971-07-18T14:01:00.00	1090	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:02:00.00	1091	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:03:00.00	1092	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:04:00.00	1093	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:05:00.00	1094	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:06:00.00	1095	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:07:00.00	1096	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:08:00.00	1097	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:09:00.00	1098	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:10:00.00	1099	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:36:00.00	1125	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:37:00.00	1126	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:38:00.00	1127	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:39:00.00	1128	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T14:40:00.00	1129	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T14:41:00.00	1130	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T14:42:00.00	1131	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T14:43:00.00	1132	0-W-U	 VAL: faa invalid - GRAD: gobs excessive
+?	06010003	1971-07-18T14:44:00.00	1133	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:45:00.00	1134	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:46:00.00	1135	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:47:00.00	1136	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:48:00.00	1137	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:49:00.00	1138	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T14:50:00.00	1139	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T20:26:00.00	1475	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T20:27:00.00	1476	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T20:28:00.00	1477	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	06010003	1971-07-18T20:32:00.00	1481	0-U-0	 VAL: gobs invalid
+?	06010003	1971-07-18T20:33:00.00	1482	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T20:34:00.00	1483	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T20:35:00.00	1484	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-18T23:01:00.00	1630	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:02:00.00	1631	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:03:00.00	1632	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:04:00.00	1633	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:05:00.00	1634	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:06:00.00	1635	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:07:00.00	1636	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:08:00.00	1637	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:09:00.00	1638	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-18T23:10:00.00	1639	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:16:00.00	1885	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:17:00.00	1886	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:18:00.00	1887	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:19:00.00	1888	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:20:00.00	1889	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	06010003	1971-07-19T03:21:00.00	1890	0-W-U	 VAL: faa invalid - GRAD: gobs excessive
+?	06010003	1971-07-19T03:22:00.00	1891	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:23:00.00	1892	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:24:00.00	1893	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T03:25:00.00	1894	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T04:06:00.00	1935	0-0-KL	 GRAD: twt, depth excessive
+?	06010003	1971-07-19T04:07:00.00	1936	0-0-KLV	 GRAD: twt, depth, eot excessive
+?	06010003	1971-07-19T18:51:00.00	2820	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T18:52:00.00	2821	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T18:53:00.00	2822	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T18:54:00.00	2823	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T18:55:00.00	2824	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T18:56:00.00	2825	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T18:57:00.00	2826	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T18:58:00.00	2827	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T18:59:00.00	2828	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:00:00.00	2829	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:01:00.00	2830	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:02:00.00	2831	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:03:00.00	2832	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:04:00.00	2833	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:05:00.00	2834	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-19T19:06:00.00	2835	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T19:07:00.00	2836	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T19:08:00.00	2837	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T19:09:00.00	2838	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-19T19:10:00.00	2839	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T02:23:00.00	3272	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T02:24:00.00	3273	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T02:25:00.00	3274	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T02:26:00.00	3275	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:27:00.00	3276	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:28:00.00	3277	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:29:00.00	3278	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-20T02:30:00.00	3279	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-20T02:31:00.00	3280	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:32:00.00	3281	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:33:00.00	3282	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:34:00.00	3283	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T02:35:00.00	3284	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-20T02:36:00.00	3285	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:21:00.00	3870	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:22:00.00	3871	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:23:00.00	3872	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:24:00.00	3873	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:25:00.00	3874	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:36:00.00	3885	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:37:00.00	3886	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:38:00.00	3887	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:39:00.00	3888	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T12:40:00.00	3889	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-20T22:26:00.00	4475	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T22:27:00.00	4476	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T22:28:00.00	4477	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T22:29:00.00	4478	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-20T22:30:00.00	4479	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:26:00.00	5075	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:27:00.00	5076	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:28:00.00	5077	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:29:00.00	5078	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:30:00.00	5079	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:31:00.00	5080	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:32:00.00	5081	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:33:00.00	5082	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:34:00.00	5083	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T08:35:00.00	5084	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:21:00.00	5970	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:22:00.00	5971	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:23:00.00	5972	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:24:00.00	5973	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:25:00.00	5974	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:26:00.00	5975	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:27:00.00	5976	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:28:00.00	5977	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:29:00.00	5978	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-21T23:30:00.00	5979	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:16:00.00	6145	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:17:00.00	6146	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:18:00.00	6147	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:19:00.00	6148	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:20:00.00	6149	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:21:00.00	6150	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:22:00.00	6151	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:23:00.00	6152	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:24:00.00	6153	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-22T02:25:00.00	6154	0-0-W	 GRAD: faa excessive
+Y	06010003	1971-07-22T18:05:00.00	6528	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:06:00.00	6529	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:07:00.00	6530	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:08:00.00	6531	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:09:00.00	6532	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:10:00.00	6533	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:11:00.00	6534	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:12:00.00	6535	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:13:00.00	6536	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:14:00.00	6537	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:15:00.00	6538	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:16:00.00	6539	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:17:00.00	6540	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:18:00.00	6541	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:19:00.00	6542	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:20:00.00	6543	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:21:00.00	6544	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:22:00.00	6545	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:23:00.00	6546	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:24:00.00	6547	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:25:00.00	6548	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:26:00.00	6549	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:27:00.00	6550	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:28:00.00	6551	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:29:00.00	6552	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:30:00.00	6553	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:31:00.00	6554	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:32:00.00	6555	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:33:00.00	6556	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:34:00.00	6557	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:35:00.00	6558	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:36:00.00	6559	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:37:00.00	6560	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:38:00.00	6561	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:39:00.00	6562	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:40:00.00	6563	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:41:00.00	6564	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:42:00.00	6565	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:43:00.00	6566	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:44:00.00	6567	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:45:00.00	6568	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:46:00.00	6569	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:47:00.00	6570	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:48:00.00	6571	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:49:00.00	6572	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:50:00.00	6573	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:51:00.00	6574	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:52:00.00	6575	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:53:00.00	6576	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:54:00.00	6577	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:55:00.00	6578	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:56:00.00	6579	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:57:00.00	6580	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:58:00.00	6581	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T18:59:00.00	6582	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:00:00.00	6583	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:01:00.00	6584	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:02:00.00	6585	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:03:00.00	6586	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:04:00.00	6587	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:05:00.00	6588	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:06:00.00	6589	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:07:00.00	6590	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:08:00.00	6591	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:09:00.00	6592	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:10:00.00	6593	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:11:00.00	6594	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:12:00.00	6595	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:13:00.00	6596	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:14:00.00	6597	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-22T19:15:00.00	6598	C-0-0	 NAV: excessive speed
+?	06010003	1971-07-23T12:06:00.00	7383	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:07:00.00	7384	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:08:00.00	7385	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:09:00.00	7386	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:10:00.00	7387	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:11:00.00	7388	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:12:00.00	7389	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:13:00.00	7390	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:14:00.00	7391	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:15:00.00	7392	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-23T12:26:00.00	7403	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:27:00.00	7404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:28:00.00	7405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:29:00.00	7406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:34:00.00	7411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:35:00.00	7412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:36:00.00	7413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:41:00.00	7418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-23T12:42:00.00	7419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-24T05:20:00.00	8417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-24T05:21:00.00	8418	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06010003	1971-07-24T14:20:00.00	8562	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:21:00.00	8563	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:22:00.00	8564	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:23:00.00	8565	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:24:00.00	8566	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:25:00.00	8567	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:26:00.00	8568	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:27:00.00	8569	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:28:00.00	8570	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:29:00.00	8571	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:30:00.00	8572	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:31:00.00	8573	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:32:00.00	8574	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:33:00.00	8575	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:34:00.00	8576	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:35:00.00	8577	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:36:00.00	8578	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:37:00.00	8579	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:38:00.00	8580	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:39:00.00	8581	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:40:00.00	8582	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:41:00.00	8583	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:42:00.00	8584	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:43:00.00	8585	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:44:00.00	8586	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:45:00.00	8587	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:46:00.00	8588	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:47:00.00	8589	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:48:00.00	8590	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:49:00.00	8591	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:50:00.00	8592	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:51:00.00	8593	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:52:00.00	8594	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:53:00.00	8595	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:54:00.00	8596	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:55:00.00	8597	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:56:00.00	8598	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:57:00.00	8599	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:58:00.00	8600	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T14:59:00.00	8601	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:00:00.00	8602	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:01:00.00	8603	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:02:00.00	8604	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:03:00.00	8605	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:04:00.00	8606	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:05:00.00	8607	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:06:00.00	8608	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:07:00.00	8609	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:08:00.00	8610	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:09:00.00	8611	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:10:00.00	8612	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:11:00.00	8613	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:12:00.00	8614	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:13:00.00	8615	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:14:00.00	8616	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:15:00.00	8617	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:16:00.00	8618	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:17:00.00	8619	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:18:00.00	8620	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:19:00.00	8621	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:20:00.00	8622	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:21:00.00	8623	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:22:00.00	8624	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:23:00.00	8625	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:24:00.00	8626	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:25:00.00	8627	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:26:00.00	8628	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:27:00.00	8629	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:28:00.00	8630	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:29:00.00	8631	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:30:00.00	8632	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:31:00.00	8633	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:32:00.00	8634	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:33:00.00	8635	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:34:00.00	8636	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:35:00.00	8637	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:36:00.00	8638	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:37:00.00	8639	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:38:00.00	8640	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:39:00.00	8641	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:40:00.00	8642	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:41:00.00	8643	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:42:00.00	8644	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:43:00.00	8645	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:44:00.00	8646	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:45:00.00	8647	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:46:00.00	8648	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:47:00.00	8649	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:48:00.00	8650	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:49:00.00	8651	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:50:00.00	8652	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:51:00.00	8653	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:52:00.00	8654	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:53:00.00	8655	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:54:00.00	8656	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:55:00.00	8657	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:56:00.00	8658	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:57:00.00	8659	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:58:00.00	8660	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T15:59:00.00	8661	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:00:00.00	8662	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:01:00.00	8663	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:02:00.00	8664	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:03:00.00	8665	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:04:00.00	8666	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:05:00.00	8667	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:06:00.00	8668	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:07:00.00	8669	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:08:00.00	8670	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:09:00.00	8671	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:10:00.00	8672	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:11:00.00	8673	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:12:00.00	8674	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:13:00.00	8675	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:14:00.00	8676	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:15:00.00	8677	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:16:00.00	8678	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:17:00.00	8679	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:18:00.00	8680	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:19:00.00	8681	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:20:00.00	8682	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:21:00.00	8683	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:22:00.00	8684	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:23:00.00	8685	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:24:00.00	8686	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:25:00.00	8687	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:26:00.00	8688	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:27:00.00	8689	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:28:00.00	8690	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:29:00.00	8691	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:30:00.00	8692	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:31:00.00	8693	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:32:00.00	8694	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:33:00.00	8695	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:34:00.00	8696	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:35:00.00	8697	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:36:00.00	8698	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:37:00.00	8699	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:38:00.00	8700	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:39:00.00	8701	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:40:00.00	8702	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:41:00.00	8703	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:42:00.00	8704	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:43:00.00	8705	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:44:00.00	8706	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:45:00.00	8707	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:46:00.00	8708	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:47:00.00	8709	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:48:00.00	8710	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:49:00.00	8711	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:50:00.00	8712	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:51:00.00	8713	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:52:00.00	8714	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:53:00.00	8715	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:54:00.00	8716	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:55:00.00	8717	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:56:00.00	8718	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:57:00.00	8719	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:58:00.00	8720	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T16:59:00.00	8721	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:00:00.00	8722	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:01:00.00	8723	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:02:00.00	8724	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:03:00.00	8725	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:04:00.00	8726	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:05:00.00	8727	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:06:00.00	8728	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:07:00.00	8729	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:08:00.00	8730	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:09:00.00	8731	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:10:00.00	8732	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:11:00.00	8733	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:12:00.00	8734	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:13:00.00	8735	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:14:00.00	8736	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:15:00.00	8737	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:16:00.00	8738	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:17:00.00	8739	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:18:00.00	8740	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:19:00.00	8741	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:20:00.00	8742	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:21:00.00	8743	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:22:00.00	8744	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:23:00.00	8745	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:24:00.00	8746	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:25:00.00	8747	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:26:00.00	8748	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:27:00.00	8749	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:28:00.00	8750	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:29:00.00	8751	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:30:00.00	8752	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:31:00.00	8753	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:32:00.00	8754	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:33:00.00	8755	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:34:00.00	8756	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:35:00.00	8757	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:36:00.00	8758	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:37:00.00	8759	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:38:00.00	8760	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:39:00.00	8761	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:40:00.00	8762	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:41:00.00	8763	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:42:00.00	8764	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:43:00.00	8765	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:44:00.00	8766	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:45:00.00	8767	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:46:00.00	8768	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:47:00.00	8769	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:48:00.00	8770	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:49:00.00	8771	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:50:00.00	8772	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:51:00.00	8773	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:52:00.00	8774	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:53:00.00	8775	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:54:00.00	8776	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:55:00.00	8777	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:56:00.00	8778	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:57:00.00	8779	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:58:00.00	8780	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T17:59:00.00	8781	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:00:00.00	8782	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:01:00.00	8783	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:02:00.00	8784	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:03:00.00	8785	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:04:00.00	8786	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:05:00.00	8787	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:06:00.00	8788	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:07:00.00	8789	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:08:00.00	8790	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:09:00.00	8791	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:10:00.00	8792	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:11:00.00	8793	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:12:00.00	8794	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:13:00.00	8795	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:14:00.00	8796	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:15:00.00	8797	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:16:00.00	8798	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:17:00.00	8799	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:18:00.00	8800	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:19:00.00	8801	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:20:00.00	8802	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:21:00.00	8803	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:22:00.00	8804	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:23:00.00	8805	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:24:00.00	8806	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:25:00.00	8807	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:26:00.00	8808	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:27:00.00	8809	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:28:00.00	8810	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:29:00.00	8811	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:30:00.00	8812	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:31:00.00	8813	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:32:00.00	8814	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:33:00.00	8815	C-V-0	 NAV: excessive speed - VAL: eot invalid
+?	06010003	1971-07-24T18:34:00.00	8816	0-V-0	 VAL: eot invalid
+Y	06010003	1971-07-24T18:35:00.00	8817	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:36:00.00	8818	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:37:00.00	8819	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:38:00.00	8820	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:39:00.00	8821	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:40:00.00	8822	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:41:00.00	8823	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:42:00.00	8824	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:43:00.00	8825	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:44:00.00	8826	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:45:00.00	8827	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:46:00.00	8828	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:47:00.00	8829	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:48:00.00	8830	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:49:00.00	8831	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:50:00.00	8832	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:51:00.00	8833	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:52:00.00	8834	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:53:00.00	8835	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:54:00.00	8836	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:55:00.00	8837	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:56:00.00	8838	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:57:00.00	8839	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:58:00.00	8840	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T18:59:00.00	8841	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:00:00.00	8842	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:01:00.00	8843	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:02:00.00	8844	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:03:00.00	8845	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:04:00.00	8846	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:05:00.00	8847	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:06:00.00	8848	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:07:00.00	8849	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:08:00.00	8850	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:09:00.00	8851	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:10:00.00	8852	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:11:00.00	8853	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:12:00.00	8854	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:13:00.00	8855	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:14:00.00	8856	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:15:00.00	8857	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:16:00.00	8858	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:17:00.00	8859	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:18:00.00	8860	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:19:00.00	8861	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:20:00.00	8862	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:21:00.00	8863	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:22:00.00	8864	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:23:00.00	8865	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:24:00.00	8866	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:25:00.00	8867	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:26:00.00	8868	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:27:00.00	8869	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:28:00.00	8870	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:29:00.00	8871	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:30:00.00	8872	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:31:00.00	8873	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:32:00.00	8874	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:33:00.00	8875	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:34:00.00	8876	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:35:00.00	8877	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:36:00.00	8878	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:37:00.00	8879	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:38:00.00	8880	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:39:00.00	8881	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:40:00.00	8882	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:41:00.00	8883	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:42:00.00	8884	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:43:00.00	8885	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:44:00.00	8886	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:45:00.00	8887	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:46:00.00	8888	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:47:00.00	8889	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:48:00.00	8890	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:49:00.00	8891	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:50:00.00	8892	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:51:00.00	8893	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:52:00.00	8894	C-V-0	 NAV: excessive speed - VAL: eot invalid
+Y	06010003	1971-07-24T19:53:00.00	8895	C-V-UW	 NAV: excessive speed - VAL: eot invalid - GRAD: gobs, faa excessive
+Y	06010003	1971-07-24T19:54:00.00	8896	C-V-UW	 NAV: excessive speed - VAL: eot invalid - GRAD: gobs, faa excessive
+Y	06010003	1971-07-24T19:55:00.00	8897	C-V-UW	 NAV: excessive speed - VAL: eot invalid - GRAD: gobs, faa excessive
+Y	06010003	1971-07-24T19:56:00.00	8898	C-V-U	 NAV: excessive speed - VAL: eot invalid - GRAD: gobs excessive
+Y	06010003	1971-07-24T19:57:00.00	8899	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T19:58:00.00	8900	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T19:59:00.00	8901	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T20:00:00.00	8902	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T20:01:00.00	8903	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:02:00.00	8904	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:03:00.00	8905	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:04:00.00	8906	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:05:00.00	8907	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:06:00.00	8908	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:07:00.00	8909	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:08:00.00	8910	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:09:00.00	8911	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:10:00.00	8912	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:11:00.00	8913	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:12:00.00	8914	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:13:00.00	8915	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:14:00.00	8916	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:15:00.00	8917	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:16:00.00	8918	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:17:00.00	8919	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:18:00.00	8920	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:19:00.00	8921	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:20:00.00	8922	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:21:00.00	8923	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:22:00.00	8924	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:23:00.00	8925	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:24:00.00	8926	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:25:00.00	8927	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:26:00.00	8928	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:27:00.00	8929	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:28:00.00	8930	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:29:00.00	8931	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:30:00.00	8932	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:31:00.00	8933	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:32:00.00	8934	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:33:00.00	8935	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:34:00.00	8936	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:35:00.00	8937	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:36:00.00	8938	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:37:00.00	8939	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:38:00.00	8940	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:39:00.00	8941	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:40:00.00	8942	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:41:00.00	8943	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:42:00.00	8944	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:43:00.00	8945	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:44:00.00	8946	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:45:00.00	8947	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:46:00.00	8948	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:47:00.00	8949	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:48:00.00	8950	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:49:00.00	8951	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:50:00.00	8952	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:51:00.00	8953	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:52:00.00	8954	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:53:00.00	8955	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:54:00.00	8956	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:55:00.00	8957	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:56:00.00	8958	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:57:00.00	8959	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:58:00.00	8960	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T20:59:00.00	8961	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:00:00.00	8962	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:01:00.00	8963	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:02:00.00	8964	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:03:00.00	8965	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:04:00.00	8966	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:05:00.00	8967	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:06:00.00	8968	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:07:00.00	8969	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:08:00.00	8970	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:09:00.00	8971	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:10:00.00	8972	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:11:00.00	8973	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:12:00.00	8974	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:13:00.00	8975	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:14:00.00	8976	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:15:00.00	8977	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:16:00.00	8978	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:17:00.00	8979	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:18:00.00	8980	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:19:00.00	8981	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:20:00.00	8982	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:21:00.00	8983	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:22:00.00	8984	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:23:00.00	8985	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:24:00.00	8986	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:25:00.00	8987	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:26:00.00	8988	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:27:00.00	8989	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:28:00.00	8990	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:29:00.00	8991	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:30:00.00	8992	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:31:00.00	8993	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:32:00.00	8994	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:33:00.00	8995	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:34:00.00	8996	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:35:00.00	8997	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:36:00.00	8998	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:37:00.00	8999	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:38:00.00	9000	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:39:00.00	9001	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:40:00.00	9002	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:41:00.00	9003	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:42:00.00	9004	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:43:00.00	9005	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:44:00.00	9006	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:45:00.00	9007	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:46:00.00	9008	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:47:00.00	9009	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:48:00.00	9010	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:49:00.00	9011	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:50:00.00	9012	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:51:00.00	9013	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:52:00.00	9014	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:53:00.00	9015	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:54:00.00	9016	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:55:00.00	9017	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:56:00.00	9018	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:57:00.00	9019	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:58:00.00	9020	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T21:59:00.00	9021	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:00:00.00	9022	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:01:00.00	9023	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:02:00.00	9024	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:03:00.00	9025	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:04:00.00	9026	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:05:00.00	9027	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:06:00.00	9028	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:07:00.00	9029	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:08:00.00	9030	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:09:00.00	9031	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:10:00.00	9032	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:11:00.00	9033	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:12:00.00	9034	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:13:00.00	9035	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:14:00.00	9036	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:15:00.00	9037	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:16:00.00	9038	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:17:00.00	9039	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:18:00.00	9040	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:19:00.00	9041	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:20:00.00	9042	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:21:00.00	9043	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:22:00.00	9044	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:23:00.00	9045	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:24:00.00	9046	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:25:00.00	9047	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:26:00.00	9048	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:27:00.00	9049	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:28:00.00	9050	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:29:00.00	9051	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:30:00.00	9052	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:31:00.00	9053	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+Y	06010003	1971-07-24T22:32:00.00	9054	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+Y	06010003	1971-07-24T22:33:00.00	9055	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:34:00.00	9056	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:35:00.00	9057	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:36:00.00	9058	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:37:00.00	9059	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:38:00.00	9060	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:39:00.00	9061	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:40:00.00	9062	C-0-U	 NAV: excessive speed - GRAD: gobs excessive
+Y	06010003	1971-07-24T22:41:00.00	9063	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:42:00.00	9064	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:43:00.00	9065	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:44:00.00	9066	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:45:00.00	9067	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:46:00.00	9068	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:47:00.00	9069	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:48:00.00	9070	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:49:00.00	9071	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:50:00.00	9072	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:51:00.00	9073	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:52:00.00	9074	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:53:00.00	9075	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:54:00.00	9076	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:55:00.00	9077	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:56:00.00	9078	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:57:00.00	9079	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:58:00.00	9080	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T22:59:00.00	9081	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:00:00.00	9082	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:01:00.00	9083	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:02:00.00	9084	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:03:00.00	9085	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:04:00.00	9086	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:05:00.00	9087	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:06:00.00	9088	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:07:00.00	9089	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:08:00.00	9090	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:09:00.00	9091	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:10:00.00	9092	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:11:00.00	9093	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:12:00.00	9094	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:13:00.00	9095	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:14:00.00	9096	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:15:00.00	9097	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:16:00.00	9098	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:17:00.00	9099	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:18:00.00	9100	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:19:00.00	9101	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:20:00.00	9102	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:21:00.00	9103	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:22:00.00	9104	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:23:00.00	9105	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:24:00.00	9106	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:25:00.00	9107	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:26:00.00	9108	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:27:00.00	9109	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:28:00.00	9110	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:29:00.00	9111	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:30:00.00	9112	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:31:00.00	9113	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:32:00.00	9114	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:33:00.00	9115	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:34:00.00	9116	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:35:00.00	9117	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:36:00.00	9118	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:37:00.00	9119	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:38:00.00	9120	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:39:00.00	9121	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:40:00.00	9122	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:41:00.00	9123	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:42:00.00	9124	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:43:00.00	9125	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:44:00.00	9126	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:45:00.00	9127	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:46:00.00	9128	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:47:00.00	9129	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:48:00.00	9130	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:49:00.00	9131	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:50:00.00	9132	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:51:00.00	9133	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:52:00.00	9134	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:53:00.00	9135	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:54:00.00	9136	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:55:00.00	9137	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:56:00.00	9138	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:57:00.00	9139	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:58:00.00	9140	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-24T23:59:00.00	9141	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:00:00.00	9142	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:01:00.00	9143	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:02:00.00	9144	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:03:00.00	9145	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:04:00.00	9146	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:05:00.00	9147	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:06:00.00	9148	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:07:00.00	9149	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:08:00.00	9150	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:09:00.00	9151	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:10:00.00	9152	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:11:00.00	9153	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:12:00.00	9154	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:13:00.00	9155	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:14:00.00	9156	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:15:00.00	9157	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:16:00.00	9158	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:17:00.00	9159	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:18:00.00	9160	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:19:00.00	9161	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:20:00.00	9162	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:21:00.00	9163	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:22:00.00	9164	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:23:00.00	9165	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:24:00.00	9166	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:25:00.00	9167	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:26:00.00	9168	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:27:00.00	9169	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:28:00.00	9170	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:29:00.00	9171	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:30:00.00	9172	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:31:00.00	9173	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:32:00.00	9174	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:33:00.00	9175	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:34:00.00	9176	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:35:00.00	9177	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:36:00.00	9178	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:37:00.00	9179	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:38:00.00	9180	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:39:00.00	9181	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:40:00.00	9182	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:41:00.00	9183	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:42:00.00	9184	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:43:00.00	9185	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:44:00.00	9186	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:45:00.00	9187	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:46:00.00	9188	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:47:00.00	9189	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:48:00.00	9190	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:49:00.00	9191	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:50:00.00	9192	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:51:00.00	9193	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:52:00.00	9194	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:53:00.00	9195	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:54:00.00	9196	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:55:00.00	9197	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:56:00.00	9198	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:57:00.00	9199	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:58:00.00	9200	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T00:59:00.00	9201	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:00:00.00	9202	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:01:00.00	9203	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:02:00.00	9204	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:03:00.00	9205	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:04:00.00	9206	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:05:00.00	9207	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:06:00.00	9208	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:07:00.00	9209	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:08:00.00	9210	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:09:00.00	9211	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:10:00.00	9212	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:11:00.00	9213	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:12:00.00	9214	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:13:00.00	9215	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:14:00.00	9216	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:15:00.00	9217	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:16:00.00	9218	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:17:00.00	9219	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:18:00.00	9220	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:19:00.00	9221	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:20:00.00	9222	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:21:00.00	9223	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:22:00.00	9224	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:23:00.00	9225	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:24:00.00	9226	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:25:00.00	9227	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:26:00.00	9228	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:27:00.00	9229	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:28:00.00	9230	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:29:00.00	9231	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:30:00.00	9232	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:31:00.00	9233	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:32:00.00	9234	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:33:00.00	9235	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:34:00.00	9236	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:35:00.00	9237	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:36:00.00	9238	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:37:00.00	9239	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:38:00.00	9240	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:39:00.00	9241	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:40:00.00	9242	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:41:00.00	9243	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:42:00.00	9244	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:43:00.00	9245	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:44:00.00	9246	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:45:00.00	9247	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:46:00.00	9248	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:47:00.00	9249	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:48:00.00	9250	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:49:00.00	9251	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:50:00.00	9252	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:51:00.00	9253	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:52:00.00	9254	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:53:00.00	9255	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:54:00.00	9256	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:55:00.00	9257	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:56:00.00	9258	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:57:00.00	9259	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:58:00.00	9260	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T01:59:00.00	9261	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:00:00.00	9262	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:01:00.00	9263	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:02:00.00	9264	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:03:00.00	9265	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:04:00.00	9266	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:05:00.00	9267	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:06:00.00	9268	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:07:00.00	9269	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:08:00.00	9270	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:09:00.00	9271	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:10:00.00	9272	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:11:00.00	9273	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:12:00.00	9274	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:13:00.00	9275	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:14:00.00	9276	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:15:00.00	9277	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:16:00.00	9278	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:17:00.00	9279	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:18:00.00	9280	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:19:00.00	9281	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:20:00.00	9282	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:21:00.00	9283	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:22:00.00	9284	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:23:00.00	9285	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:24:00.00	9286	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:25:00.00	9287	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:26:00.00	9288	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:27:00.00	9289	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:28:00.00	9290	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:29:00.00	9291	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:30:00.00	9292	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:31:00.00	9293	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:32:00.00	9294	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:33:00.00	9295	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:34:00.00	9296	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:35:00.00	9297	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:36:00.00	9298	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:37:00.00	9299	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:38:00.00	9300	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:39:00.00	9301	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:40:00.00	9302	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:41:00.00	9303	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:42:00.00	9304	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:43:00.00	9305	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:44:00.00	9306	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:45:00.00	9307	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:46:00.00	9308	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:47:00.00	9309	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:48:00.00	9310	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:49:00.00	9311	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:50:00.00	9312	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:51:00.00	9313	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:52:00.00	9314	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:53:00.00	9315	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:54:00.00	9316	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:55:00.00	9317	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:56:00.00	9318	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:57:00.00	9319	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:58:00.00	9320	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T02:59:00.00	9321	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:00:00.00	9322	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:01:00.00	9323	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:02:00.00	9324	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:03:00.00	9325	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:04:00.00	9326	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:05:00.00	9327	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:06:00.00	9328	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:07:00.00	9329	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:08:00.00	9330	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:09:00.00	9331	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:10:00.00	9332	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:11:00.00	9333	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:12:00.00	9334	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:13:00.00	9335	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:14:00.00	9336	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:15:00.00	9337	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:16:00.00	9338	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:17:00.00	9339	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:18:00.00	9340	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:19:00.00	9341	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:20:00.00	9342	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:21:00.00	9343	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:22:00.00	9344	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:23:00.00	9345	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:24:00.00	9346	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:25:00.00	9347	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:26:00.00	9348	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:27:00.00	9349	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:28:00.00	9350	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:29:00.00	9351	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:30:00.00	9352	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:31:00.00	9353	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:32:00.00	9354	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:33:00.00	9355	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:34:00.00	9356	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:35:00.00	9357	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:36:00.00	9358	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:37:00.00	9359	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:38:00.00	9360	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:39:00.00	9361	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:40:00.00	9362	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:41:00.00	9363	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:42:00.00	9364	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:43:00.00	9365	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:44:00.00	9366	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:45:00.00	9367	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:46:00.00	9368	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:47:00.00	9369	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:48:00.00	9370	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:49:00.00	9371	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:50:00.00	9372	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:51:00.00	9373	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:52:00.00	9374	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:53:00.00	9375	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:54:00.00	9376	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:55:00.00	9377	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:56:00.00	9378	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:57:00.00	9379	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:58:00.00	9380	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T03:59:00.00	9381	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:00:00.00	9382	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:01:00.00	9383	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:02:00.00	9384	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:03:00.00	9385	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:04:00.00	9386	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:05:00.00	9387	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:06:00.00	9388	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:07:00.00	9389	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:08:00.00	9390	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:09:00.00	9391	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:10:00.00	9392	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:11:00.00	9393	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:12:00.00	9394	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:13:00.00	9395	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:14:00.00	9396	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:15:00.00	9397	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:16:00.00	9398	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:17:00.00	9399	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:18:00.00	9400	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:19:00.00	9401	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:20:00.00	9402	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:21:00.00	9403	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:22:00.00	9404	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:23:00.00	9405	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:24:00.00	9406	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:25:00.00	9407	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:26:00.00	9408	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:27:00.00	9409	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:28:00.00	9410	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:29:00.00	9411	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:30:00.00	9412	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:31:00.00	9413	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:32:00.00	9414	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:33:00.00	9415	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:34:00.00	9416	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:35:00.00	9417	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:36:00.00	9418	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:37:00.00	9419	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:38:00.00	9420	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:39:00.00	9421	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:40:00.00	9422	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:41:00.00	9423	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:42:00.00	9424	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:43:00.00	9425	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:44:00.00	9426	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:45:00.00	9427	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:46:00.00	9428	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:47:00.00	9429	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:48:00.00	9430	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:49:00.00	9431	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:50:00.00	9432	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:51:00.00	9433	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:52:00.00	9434	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:53:00.00	9435	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:54:00.00	9436	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:55:00.00	9437	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:56:00.00	9438	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:57:00.00	9439	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:58:00.00	9440	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T04:59:00.00	9441	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:00:00.00	9442	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:01:00.00	9443	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:02:00.00	9444	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:03:00.00	9445	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:04:00.00	9446	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:05:00.00	9447	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:06:00.00	9448	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:07:00.00	9449	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:08:00.00	9450	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:09:00.00	9451	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:10:00.00	9452	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:11:00.00	9453	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:12:00.00	9454	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:13:00.00	9455	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:14:00.00	9456	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:15:00.00	9457	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:16:00.00	9458	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:17:00.00	9459	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:18:00.00	9460	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:19:00.00	9461	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:20:00.00	9462	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:21:00.00	9463	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:22:00.00	9464	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:23:00.00	9465	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:24:00.00	9466	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:25:00.00	9467	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:26:00.00	9468	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:27:00.00	9469	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:28:00.00	9470	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:29:00.00	9471	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:30:00.00	9472	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:31:00.00	9473	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:32:00.00	9474	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:33:00.00	9475	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:34:00.00	9476	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:35:00.00	9477	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:36:00.00	9478	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:37:00.00	9479	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:38:00.00	9480	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:39:00.00	9481	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:40:00.00	9482	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:41:00.00	9483	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:42:00.00	9484	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:43:00.00	9485	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:44:00.00	9486	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:45:00.00	9487	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:46:00.00	9488	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:47:00.00	9489	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:48:00.00	9490	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:49:00.00	9491	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:50:00.00	9492	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:51:00.00	9493	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:52:00.00	9494	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:53:00.00	9495	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:54:00.00	9496	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:55:00.00	9497	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:56:00.00	9498	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:57:00.00	9499	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:58:00.00	9500	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T05:59:00.00	9501	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:00:00.00	9502	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:01:00.00	9503	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:02:00.00	9504	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:03:00.00	9505	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:04:00.00	9506	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:05:00.00	9507	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:06:00.00	9508	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:07:00.00	9509	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:08:00.00	9510	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:09:00.00	9511	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:10:00.00	9512	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:11:00.00	9513	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:12:00.00	9514	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:13:00.00	9515	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:14:00.00	9516	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:15:00.00	9517	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:16:00.00	9518	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:17:00.00	9519	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:18:00.00	9520	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:19:00.00	9521	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:20:00.00	9522	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:21:00.00	9523	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:22:00.00	9524	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:23:00.00	9525	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:24:00.00	9526	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:25:00.00	9527	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:26:00.00	9528	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:27:00.00	9529	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:28:00.00	9530	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:29:00.00	9531	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:30:00.00	9532	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:31:00.00	9533	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:32:00.00	9534	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:33:00.00	9535	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:34:00.00	9536	C-0-0	 NAV: excessive speed
+Y	06010003	1971-07-25T06:35:00.00	9537	C-0-0	 NAV: excessive speed
+?	06010003	1971-07-25T08:31:00.00	9653	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T08:32:00.00	9654	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T08:33:00.00	9655	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T08:34:00.00	9656	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-25T08:35:00.00	9657	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-25T08:36:00.00	9658	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-25T08:37:00.00	9659	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-25T08:38:00.00	9660	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T08:39:00.00	9661	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T08:40:00.00	9662	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T15:57:00.00	10099	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T15:58:00.00	10100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T15:59:00.00	10101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T16:00:00.00	10102	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T16:01:00.00	10103	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T16:02:00.00	10104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T16:03:00.00	10105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-25T16:48:00.00	10150	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T16:49:00.00	10151	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-25T16:50:00.00	10152	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:41:00.00	11223	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:42:00.00	11224	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:43:00.00	11225	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:44:00.00	11226	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:45:00.00	11227	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:46:00.00	11228	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:47:00.00	11229	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:48:00.00	11230	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:49:00.00	11231	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T10:50:00.00	11232	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-26T13:03:00.00	11365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:04:00.00	11366	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:05:00.00	11367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:06:00.00	11368	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:07:00.00	11369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:08:00.00	11370	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-26T13:09:00.00	11371	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-07-27T22:52:00.00	13394	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-27T22:53:00.00	13395	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-28T17:54:00.00	14536	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T17:55:00.00	14537	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T17:56:00.00	14538	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T17:57:00.00	14539	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T17:58:00.00	14540	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T17:59:00.00	14541	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:00:00.00	14542	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:01:00.00	14543	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:02:00.00	14544	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:03:00.00	14545	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:04:00.00	14546	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:05:00.00	14547	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:06:00.00	14548	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:07:00.00	14549	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:08:00.00	14550	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:09:00.00	14551	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:10:00.00	14552	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:11:00.00	14553	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:12:00.00	14554	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:13:00.00	14555	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:14:00.00	14556	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:15:00.00	14557	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:16:00.00	14558	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:17:00.00	14559	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:18:00.00	14560	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:19:00.00	14561	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:20:00.00	14562	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:21:00.00	14563	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:22:00.00	14564	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:23:00.00	14565	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:24:00.00	14566	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:25:00.00	14567	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:26:00.00	14568	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:27:00.00	14569	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:28:00.00	14570	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:29:00.00	14571	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:30:00.00	14572	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:31:00.00	14573	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:32:00.00	14574	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:33:00.00	14575	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:34:00.00	14576	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:35:00.00	14577	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:36:00.00	14578	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:37:00.00	14579	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:38:00.00	14580	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:39:00.00	14581	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:40:00.00	14582	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:41:00.00	14583	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:42:00.00	14584	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:43:00.00	14585	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:44:00.00	14586	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:45:00.00	14587	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:46:00.00	14588	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:47:00.00	14589	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:48:00.00	14590	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:49:00.00	14591	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:50:00.00	14592	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:51:00.00	14593	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:52:00.00	14594	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:53:00.00	14595	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:54:00.00	14596	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:55:00.00	14597	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:56:00.00	14598	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:57:00.00	14599	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:58:00.00	14600	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T18:59:00.00	14601	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:00:00.00	14602	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:01:00.00	14603	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:02:00.00	14604	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:03:00.00	14605	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:04:00.00	14606	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:05:00.00	14607	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:06:00.00	14608	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:07:00.00	14609	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:08:00.00	14610	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:09:00.00	14611	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:10:00.00	14612	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:11:00.00	14613	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:12:00.00	14614	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:13:00.00	14615	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:14:00.00	14616	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:15:00.00	14617	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:16:00.00	14618	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:17:00.00	14619	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:18:00.00	14620	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:19:00.00	14621	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:20:00.00	14622	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:21:00.00	14623	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:22:00.00	14624	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:23:00.00	14625	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:24:00.00	14626	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:25:00.00	14627	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:26:00.00	14628	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:27:00.00	14629	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:28:00.00	14630	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:29:00.00	14631	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:30:00.00	14632	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:31:00.00	14633	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:32:00.00	14634	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:33:00.00	14635	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:34:00.00	14636	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:35:00.00	14637	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:36:00.00	14638	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:37:00.00	14639	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:38:00.00	14640	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:39:00.00	14641	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:40:00.00	14642	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:41:00.00	14643	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:42:00.00	14644	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:43:00.00	14645	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:44:00.00	14646	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:45:00.00	14647	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:46:00.00	14648	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:47:00.00	14649	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:48:00.00	14650	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:49:00.00	14651	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:50:00.00	14652	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:51:00.00	14653	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:52:00.00	14654	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:53:00.00	14655	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:54:00.00	14656	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:55:00.00	14657	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:56:00.00	14658	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:57:00.00	14659	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:58:00.00	14660	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T19:59:00.00	14661	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:00:00.00	14662	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:01:00.00	14663	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:02:00.00	14664	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:03:00.00	14665	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:04:00.00	14666	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:05:00.00	14667	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:06:00.00	14668	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:07:00.00	14669	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:08:00.00	14670	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:09:00.00	14671	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:10:00.00	14672	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:11:00.00	14673	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:12:00.00	14674	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:13:00.00	14675	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:14:00.00	14676	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:15:00.00	14677	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:16:00.00	14678	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:17:00.00	14679	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:18:00.00	14680	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:19:00.00	14681	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:20:00.00	14682	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:21:00.00	14683	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:22:00.00	14684	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:23:00.00	14685	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:24:00.00	14686	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:25:00.00	14687	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:26:00.00	14688	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:27:00.00	14689	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:28:00.00	14690	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:29:00.00	14691	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:30:00.00	14692	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:31:00.00	14693	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:32:00.00	14694	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:33:00.00	14695	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:34:00.00	14696	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:35:00.00	14697	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:36:00.00	14698	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:37:00.00	14699	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:38:00.00	14700	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:39:00.00	14701	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:40:00.00	14702	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:41:00.00	14703	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:42:00.00	14704	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:43:00.00	14705	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:44:00.00	14706	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:45:00.00	14707	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:46:00.00	14708	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:47:00.00	14709	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:48:00.00	14710	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:49:00.00	14711	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:50:00.00	14712	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:51:00.00	14713	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:52:00.00	14714	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:53:00.00	14715	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:54:00.00	14716	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:55:00.00	14717	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:56:00.00	14718	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:57:00.00	14719	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:58:00.00	14720	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T20:59:00.00	14721	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:00:00.00	14722	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:01:00.00	14723	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:02:00.00	14724	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:03:00.00	14725	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:04:00.00	14726	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:05:00.00	14727	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:06:00.00	14728	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:07:00.00	14729	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:08:00.00	14730	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:09:00.00	14731	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:10:00.00	14732	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:11:00.00	14733	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:12:00.00	14734	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:13:00.00	14735	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:14:00.00	14736	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:15:00.00	14737	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:16:00.00	14738	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:17:00.00	14739	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:18:00.00	14740	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:19:00.00	14741	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:20:00.00	14742	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:21:00.00	14743	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:22:00.00	14744	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:23:00.00	14745	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:24:00.00	14746	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:25:00.00	14747	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:26:00.00	14748	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:27:00.00	14749	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:28:00.00	14750	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:29:00.00	14751	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:30:00.00	14752	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:31:00.00	14753	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:32:00.00	14754	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:33:00.00	14755	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:34:00.00	14756	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:35:00.00	14757	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:36:00.00	14758	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:37:00.00	14759	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:38:00.00	14760	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:39:00.00	14761	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:40:00.00	14762	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:41:00.00	14763	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:42:00.00	14764	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:43:00.00	14765	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:44:00.00	14766	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:45:00.00	14767	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:46:00.00	14768	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:47:00.00	14769	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:48:00.00	14770	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:49:00.00	14771	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:50:00.00	14772	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:51:00.00	14773	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:52:00.00	14774	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:53:00.00	14775	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:54:00.00	14776	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:55:00.00	14777	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:56:00.00	14778	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:57:00.00	14779	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:58:00.00	14780	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T21:59:00.00	14781	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:00:00.00	14782	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:01:00.00	14783	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:02:00.00	14784	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:03:00.00	14785	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:04:00.00	14786	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:05:00.00	14787	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:06:00.00	14788	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:07:00.00	14789	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:08:00.00	14790	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:09:00.00	14791	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:10:00.00	14792	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:11:00.00	14793	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:12:00.00	14794	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:13:00.00	14795	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:14:00.00	14796	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:15:00.00	14797	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:16:00.00	14798	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:17:00.00	14799	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:18:00.00	14800	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:19:00.00	14801	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:20:00.00	14802	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:21:00.00	14803	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:22:00.00	14804	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:23:00.00	14805	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:24:00.00	14806	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:25:00.00	14807	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:26:00.00	14808	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:27:00.00	14809	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:28:00.00	14810	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:29:00.00	14811	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:30:00.00	14812	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:31:00.00	14813	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:32:00.00	14814	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:33:00.00	14815	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:34:00.00	14816	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:35:00.00	14817	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:36:00.00	14818	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:37:00.00	14819	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:38:00.00	14820	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:39:00.00	14821	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-28T22:40:00.00	14822	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:11:00.00	15333	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:12:00.00	15334	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:13:00.00	15335	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:14:00.00	15336	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:15:00.00	15337	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:16:00.00	15338	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:17:00.00	15339	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:18:00.00	15340	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:19:00.00	15341	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:20:00.00	15342	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:21:00.00	15343	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:22:00.00	15344	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:23:00.00	15345	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:24:00.00	15346	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:25:00.00	15347	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:26:00.00	15348	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:27:00.00	15349	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:28:00.00	15350	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:29:00.00	15351	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:30:00.00	15352	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:31:00.00	15353	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:32:00.00	15354	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:33:00.00	15355	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:34:00.00	15356	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:35:00.00	15357	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:36:00.00	15358	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:37:00.00	15359	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:38:00.00	15360	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:39:00.00	15361	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:40:00.00	15362	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:41:00.00	15363	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:42:00.00	15364	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:43:00.00	15365	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:44:00.00	15366	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:45:00.00	15367	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:46:00.00	15368	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:47:00.00	15369	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:48:00.00	15370	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:49:00.00	15371	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:50:00.00	15372	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:51:00.00	15373	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:52:00.00	15374	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:53:00.00	15375	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:54:00.00	15376	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:55:00.00	15377	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:56:00.00	15378	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:57:00.00	15379	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:58:00.00	15380	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T07:59:00.00	15381	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:00:00.00	15382	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:01:00.00	15383	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:02:00.00	15384	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:03:00.00	15385	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:04:00.00	15386	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:05:00.00	15387	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:06:00.00	15388	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:07:00.00	15389	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:08:00.00	15390	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:09:00.00	15391	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:10:00.00	15392	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:11:00.00	15393	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:12:00.00	15394	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:13:00.00	15395	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:14:00.00	15396	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:15:00.00	15397	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:16:00.00	15398	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:17:00.00	15399	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:18:00.00	15400	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:19:00.00	15401	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:20:00.00	15402	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:21:00.00	15403	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:22:00.00	15404	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:23:00.00	15405	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:24:00.00	15406	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:25:00.00	15407	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:26:00.00	15408	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:27:00.00	15409	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:28:00.00	15410	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:29:00.00	15411	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:30:00.00	15412	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:31:00.00	15413	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:32:00.00	15414	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:33:00.00	15415	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:34:00.00	15416	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:35:00.00	15417	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:36:00.00	15418	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:37:00.00	15419	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:38:00.00	15420	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:39:00.00	15421	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:40:00.00	15422	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:41:00.00	15423	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:42:00.00	15424	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:43:00.00	15425	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:44:00.00	15426	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:45:00.00	15427	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:46:00.00	15428	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:47:00.00	15429	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:48:00.00	15430	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:49:00.00	15431	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:50:00.00	15432	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:51:00.00	15433	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:52:00.00	15434	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:53:00.00	15435	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:54:00.00	15436	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:55:00.00	15437	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:56:00.00	15438	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:57:00.00	15439	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:58:00.00	15440	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T08:59:00.00	15441	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:00:00.00	15442	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:01:00.00	15443	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:02:00.00	15444	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:03:00.00	15445	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:04:00.00	15446	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:05:00.00	15447	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:06:00.00	15448	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:07:00.00	15449	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:08:00.00	15450	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:09:00.00	15451	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:10:00.00	15452	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:11:00.00	15453	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:12:00.00	15454	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:13:00.00	15455	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:14:00.00	15456	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:15:00.00	15457	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:16:00.00	15458	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:17:00.00	15459	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:18:00.00	15460	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:19:00.00	15461	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:20:00.00	15462	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:21:00.00	15463	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:22:00.00	15464	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:23:00.00	15465	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:24:00.00	15466	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:25:00.00	15467	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:26:00.00	15468	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:27:00.00	15469	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:28:00.00	15470	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:29:00.00	15471	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:30:00.00	15472	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:31:00.00	15473	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:32:00.00	15474	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:33:00.00	15475	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:34:00.00	15476	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:35:00.00	15477	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:36:00.00	15478	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:37:00.00	15479	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:38:00.00	15480	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:39:00.00	15481	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:40:00.00	15482	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:41:00.00	15483	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:42:00.00	15484	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:43:00.00	15485	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:44:00.00	15486	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:45:00.00	15487	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:46:00.00	15488	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:47:00.00	15489	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:48:00.00	15490	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:49:00.00	15491	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:50:00.00	15492	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:51:00.00	15493	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:52:00.00	15494	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:53:00.00	15495	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:54:00.00	15496	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:55:00.00	15497	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:56:00.00	15498	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:57:00.00	15499	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:58:00.00	15500	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T09:59:00.00	15501	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:00:00.00	15502	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:01:00.00	15503	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:02:00.00	15504	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:03:00.00	15505	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:04:00.00	15506	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:05:00.00	15507	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:06:00.00	15508	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:07:00.00	15509	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:08:00.00	15510	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:09:00.00	15511	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:10:00.00	15512	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:11:00.00	15513	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:12:00.00	15514	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:13:00.00	15515	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:14:00.00	15516	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:15:00.00	15517	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:16:00.00	15518	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:17:00.00	15519	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:18:00.00	15520	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:19:00.00	15521	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:20:00.00	15522	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:21:00.00	15523	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:22:00.00	15524	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:23:00.00	15525	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:24:00.00	15526	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:25:00.00	15527	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:26:00.00	15528	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:27:00.00	15529	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:28:00.00	15530	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:29:00.00	15531	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:30:00.00	15532	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:31:00.00	15533	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:32:00.00	15534	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:33:00.00	15535	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:34:00.00	15536	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:35:00.00	15537	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:36:00.00	15538	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:37:00.00	15539	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:38:00.00	15540	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:39:00.00	15541	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:40:00.00	15542	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:41:00.00	15543	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:42:00.00	15544	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:43:00.00	15545	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:44:00.00	15546	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:45:00.00	15547	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:46:00.00	15548	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:47:00.00	15549	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:48:00.00	15550	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:49:00.00	15551	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:50:00.00	15552	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:51:00.00	15553	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:52:00.00	15554	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:53:00.00	15555	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:54:00.00	15556	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:55:00.00	15557	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:56:00.00	15558	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:57:00.00	15559	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:58:00.00	15560	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T10:59:00.00	15561	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:00:00.00	15562	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:01:00.00	15563	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:02:00.00	15564	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:03:00.00	15565	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:04:00.00	15566	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:05:00.00	15567	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:06:00.00	15568	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:07:00.00	15569	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:08:00.00	15570	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:09:00.00	15571	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:10:00.00	15572	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:11:00.00	15573	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:12:00.00	15574	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:13:00.00	15575	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:14:00.00	15576	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:15:00.00	15577	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:16:00.00	15578	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:17:00.00	15579	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:18:00.00	15580	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:19:00.00	15581	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:20:00.00	15582	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:21:00.00	15583	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:22:00.00	15584	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:23:00.00	15585	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:24:00.00	15586	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:25:00.00	15587	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:26:00.00	15588	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:27:00.00	15589	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:28:00.00	15590	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:29:00.00	15591	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:30:00.00	15592	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:31:00.00	15593	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:32:00.00	15594	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:33:00.00	15595	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:34:00.00	15596	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:35:00.00	15597	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:36:00.00	15598	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:37:00.00	15599	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:38:00.00	15600	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:39:00.00	15601	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:40:00.00	15602	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:41:00.00	15603	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:42:00.00	15604	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:43:00.00	15605	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:44:00.00	15606	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:45:00.00	15607	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:46:00.00	15608	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T11:47:00.00	15609	0-V-0	 VAL: eot invalid
+?	06010003	1971-07-29T16:06:00.00	15868	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:07:00.00	15869	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:08:00.00	15870	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:09:00.00	15871	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:10:00.00	15872	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:56:00.00	15889	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:57:00.00	15890	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:58:00.00	15891	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T16:59:00.00	15892	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:00:00.00	15893	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:01:00.00	15894	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:02:00.00	15895	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:03:00.00	15896	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:04:00.00	15897	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:05:00.00	15898	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:11:00.00	15904	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:12:00.00	15905	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:13:00.00	15906	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:14:00.00	15907	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:15:00.00	15908	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:16:00.00	15909	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:17:00.00	15910	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:18:00.00	15911	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:19:00.00	15912	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:20:00.00	15913	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:21:00.00	15914	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:22:00.00	15915	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:23:00.00	15916	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:24:00.00	15917	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-29T17:25:00.00	15918	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:11:00.00	17704	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:12:00.00	17705	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:13:00.00	17706	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:14:00.00	17707	0-0-VW	 GRAD: eot, faa excessive
+?	06010003	1971-07-30T23:15:00.00	17708	0-0-VW	 GRAD: eot, faa excessive
+?	06010003	1971-07-30T23:16:00.00	17709	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:17:00.00	17710	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:18:00.00	17711	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:19:00.00	17712	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-30T23:20:00.00	17713	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-31T05:31:00.00	18084	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-31T05:32:00.00	18085	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-31T05:33:00.00	18086	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-31T05:35:00.00	18088	0-0-UW	 GRAD: gobs, faa excessive
+?	06010003	1971-07-31T05:36:00.00	18089	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T05:37:00.00	18090	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T05:38:00.00	18091	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T05:39:00.00	18092	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T07:41:00.00	18214	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-31T07:43:00.00	18216	0-0-W	 GRAD: faa excessive
+?	06010003	1971-07-31T11:41:00.00	18454	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:42:00.00	18455	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:43:00.00	18456	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:44:00.00	18457	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:45:00.00	18458	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:56:00.00	18469	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:57:00.00	18470	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:58:00.00	18471	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T11:59:00.00	18472	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-07-31T12:00:00.00	18473	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:41:00.00	19534	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:42:00.00	19535	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:43:00.00	19536	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:44:00.00	19537	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:45:00.00	19538	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:56:00.00	19549	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:57:00.00	19550	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:58:00.00	19551	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T05:59:00.00	19552	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T06:00:00.00	19553	0-0-U	 GRAD: gobs excessive
+?	06010003	1971-08-01T18:32:00.00	20305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:33:00.00	20306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:34:00.00	20307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:35:00.00	20308	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:36:00.00	20309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:37:00.00	20310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:38:00.00	20311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-01T18:39:00.00	20312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T02:58:00.00	20811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T02:59:00.00	20812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T03:00:00.00	20813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T03:01:00.00	20814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T08:10:00.00	21123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T08:11:00.00	21124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T08:12:00.00	21125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T08:13:00.00	21126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T08:14:00.00	21127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T13:05:00.00	21418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T13:06:00.00	21419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T13:07:00.00	21420	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T13:08:00.00	21421	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T13:09:00.00	21422	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T14:55:00.00	21528	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T14:56:00.00	21529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T14:57:00.00	21530	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T14:58:00.00	21531	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T14:59:00.00	21532	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T15:00:00.00	21533	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-02T15:01:00.00	21534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T00:42:00.00	22115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T00:44:00.00	22117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T06:12:00.00	22445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T06:13:00.00	22446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T06:14:00.00	22447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T06:15:00.00	22448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:53:00.00	22546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:54:00.00	22547	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:55:00.00	22548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:56:00.00	22549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:57:00.00	22550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:58:00.00	22551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T07:59:00.00	22552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:22:00.00	22635	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:24:00.00	22637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:29:00.00	22642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:30:00.00	22643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:31:00.00	22644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T09:32:00.00	22645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T10:28:00.00	22701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T10:29:00.00	22702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T10:30:00.00	22703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T10:32:00.00	22705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T10:33:00.00	22706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:06:00.00	22859	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:07:00.00	22860	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:08:00.00	22861	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:09:00.00	22862	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:10:00.00	22863	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:11:00.00	22864	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:12:00.00	22865	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:13:00.00	22866	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:14:00.00	22867	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:15:00.00	22868	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:16:00.00	22869	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:17:00.00	22870	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T13:18:00.00	22871	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:19:00.00	22872	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:20:00.00	22873	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:21:00.00	22874	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:22:00.00	22875	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:23:00.00	22876	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:24:00.00	22877	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:25:00.00	22878	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:26:00.00	22879	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:27:00.00	22880	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:28:00.00	22881	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:29:00.00	22882	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:30:00.00	22883	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:31:00.00	22884	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:32:00.00	22885	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:33:00.00	22886	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:34:00.00	22887	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:35:00.00	22888	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:36:00.00	22889	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:37:00.00	22890	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:38:00.00	22891	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:39:00.00	22892	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:40:00.00	22893	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:41:00.00	22894	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:42:00.00	22895	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:43:00.00	22896	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:44:00.00	22897	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:45:00.00	22898	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:46:00.00	22899	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:47:00.00	22900	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:48:00.00	22901	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:49:00.00	22902	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:50:00.00	22903	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:51:00.00	22904	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:52:00.00	22905	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:53:00.00	22906	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:54:00.00	22907	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:55:00.00	22908	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:56:00.00	22909	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:57:00.00	22910	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:58:00.00	22911	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T13:59:00.00	22912	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:00:00.00	22913	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:01:00.00	22914	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:02:00.00	22915	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:03:00.00	22916	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:04:00.00	22917	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:05:00.00	22918	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:06:00.00	22919	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:07:00.00	22920	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:08:00.00	22921	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:09:00.00	22922	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:10:00.00	22923	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:11:00.00	22924	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:12:00.00	22925	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:13:00.00	22926	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:14:00.00	22927	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:15:00.00	22928	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:16:00.00	22929	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:17:00.00	22930	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:18:00.00	22931	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:19:00.00	22932	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:20:00.00	22933	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:21:00.00	22934	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:22:00.00	22935	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:23:00.00	22936	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:24:00.00	22937	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:25:00.00	22938	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:26:00.00	22939	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:27:00.00	22940	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:28:00.00	22941	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:29:00.00	22942	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:30:00.00	22943	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:31:00.00	22944	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:32:00.00	22945	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:33:00.00	22946	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:34:00.00	22947	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:35:00.00	22948	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:36:00.00	22949	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:37:00.00	22950	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:38:00.00	22951	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:39:00.00	22952	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:40:00.00	22953	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:41:00.00	22954	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:42:00.00	22955	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:43:00.00	22956	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:44:00.00	22957	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:45:00.00	22958	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:46:00.00	22959	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:47:00.00	22960	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:48:00.00	22961	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:49:00.00	22962	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:50:00.00	22963	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:51:00.00	22964	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:52:00.00	22965	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:53:00.00	22966	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:54:00.00	22967	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:55:00.00	22968	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:56:00.00	22969	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:57:00.00	22970	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:58:00.00	22971	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T14:59:00.00	22972	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:00:00.00	22973	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:01:00.00	22974	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:02:00.00	22975	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:03:00.00	22976	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:04:00.00	22977	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:05:00.00	22978	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T15:06:00.00	22979	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:07:00.00	22980	0-V-OQ	 VAL: eot invalid - GRAD: mtf1, mag excessive
+?	06010003	1971-08-03T15:08:00.00	22981	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:09:00.00	22982	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:10:00.00	22983	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:11:00.00	22984	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:12:00.00	22985	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:13:00.00	22986	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:14:00.00	22987	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:15:00.00	22988	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:16:00.00	22989	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:17:00.00	22990	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:18:00.00	22991	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:19:00.00	22992	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:20:00.00	22993	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:21:00.00	22994	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:22:00.00	22995	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:23:00.00	22996	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:24:00.00	22997	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:25:00.00	22998	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:26:00.00	22999	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:27:00.00	23000	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:28:00.00	23001	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:29:00.00	23002	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:30:00.00	23003	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:31:00.00	23004	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:32:00.00	23005	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:33:00.00	23006	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:34:00.00	23007	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:35:00.00	23008	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:36:00.00	23009	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:37:00.00	23010	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:38:00.00	23011	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:39:00.00	23012	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:40:00.00	23013	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:41:00.00	23014	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:42:00.00	23015	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:43:00.00	23016	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:44:00.00	23017	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:45:00.00	23018	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:46:00.00	23019	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:47:00.00	23020	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:48:00.00	23021	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:49:00.00	23022	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:50:00.00	23023	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:51:00.00	23024	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:52:00.00	23025	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:53:00.00	23026	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:54:00.00	23027	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:55:00.00	23028	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:56:00.00	23029	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:57:00.00	23030	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:58:00.00	23031	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T15:59:00.00	23032	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:00:00.00	23033	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:01:00.00	23034	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:02:00.00	23035	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:03:00.00	23036	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:04:00.00	23037	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:05:00.00	23038	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:06:00.00	23039	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:07:00.00	23040	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:08:00.00	23041	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:09:00.00	23042	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:10:00.00	23043	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:11:00.00	23044	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:12:00.00	23045	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:13:00.00	23046	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:14:00.00	23047	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:15:00.00	23048	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:16:00.00	23049	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:17:00.00	23050	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:18:00.00	23051	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:19:00.00	23052	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:20:00.00	23053	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:21:00.00	23054	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:22:00.00	23055	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:23:00.00	23056	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:24:00.00	23057	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:25:00.00	23058	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:26:00.00	23059	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:27:00.00	23060	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:28:00.00	23061	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:29:00.00	23062	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:30:00.00	23063	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:31:00.00	23064	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:32:00.00	23065	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:33:00.00	23066	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:34:00.00	23067	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:35:00.00	23068	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:36:00.00	23069	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:37:00.00	23070	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:38:00.00	23071	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:39:00.00	23072	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:40:00.00	23073	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:41:00.00	23074	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:42:00.00	23075	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:43:00.00	23076	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:44:00.00	23077	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:45:00.00	23078	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:46:00.00	23079	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:47:00.00	23080	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:48:00.00	23081	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:49:00.00	23082	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:50:00.00	23083	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:51:00.00	23084	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:52:00.00	23085	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:53:00.00	23086	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:54:00.00	23087	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:55:00.00	23088	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:56:00.00	23089	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:57:00.00	23090	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:58:00.00	23091	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T16:59:00.00	23092	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:00:00.00	23093	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:01:00.00	23094	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:02:00.00	23095	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:03:00.00	23096	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:04:00.00	23097	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:05:00.00	23098	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:06:00.00	23099	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:07:00.00	23100	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:08:00.00	23101	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:09:00.00	23102	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:10:00.00	23103	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:11:00.00	23104	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:12:00.00	23105	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:13:00.00	23106	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:14:00.00	23107	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:15:00.00	23108	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:16:00.00	23109	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:17:00.00	23110	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:18:00.00	23111	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:19:00.00	23112	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:20:00.00	23113	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:21:00.00	23114	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:22:00.00	23115	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:23:00.00	23116	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:24:00.00	23117	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:25:00.00	23118	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:26:00.00	23119	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:27:00.00	23120	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:28:00.00	23121	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:29:00.00	23122	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:30:00.00	23123	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:31:00.00	23124	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:32:00.00	23125	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:33:00.00	23126	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:34:00.00	23127	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:35:00.00	23128	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:36:00.00	23129	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:37:00.00	23130	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:38:00.00	23131	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:39:00.00	23132	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:40:00.00	23133	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:41:00.00	23134	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:42:00.00	23135	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:43:00.00	23136	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:44:00.00	23137	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:45:00.00	23138	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:46:00.00	23139	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:47:00.00	23140	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:48:00.00	23141	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:49:00.00	23142	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:50:00.00	23143	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:51:00.00	23144	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:52:00.00	23145	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:53:00.00	23146	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:54:00.00	23147	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:55:00.00	23148	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:56:00.00	23149	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:57:00.00	23150	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:58:00.00	23151	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T17:59:00.00	23152	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:00:00.00	23153	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:01:00.00	23154	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:02:00.00	23155	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:03:00.00	23156	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:04:00.00	23157	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:05:00.00	23158	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:06:00.00	23159	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:07:00.00	23160	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:08:00.00	23161	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:09:00.00	23162	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:10:00.00	23163	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:11:00.00	23164	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:12:00.00	23165	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:13:00.00	23166	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:14:00.00	23167	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:15:00.00	23168	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:16:00.00	23169	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:17:00.00	23170	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:18:00.00	23171	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:19:00.00	23172	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:20:00.00	23173	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:21:00.00	23174	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:22:00.00	23175	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:23:00.00	23176	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:24:00.00	23177	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:25:00.00	23178	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:26:00.00	23179	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:27:00.00	23180	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:28:00.00	23181	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:29:00.00	23182	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:30:00.00	23183	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:31:00.00	23184	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:32:00.00	23185	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:33:00.00	23186	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:34:00.00	23187	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:35:00.00	23188	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:36:00.00	23189	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:37:00.00	23190	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:38:00.00	23191	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:39:00.00	23192	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:40:00.00	23193	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:41:00.00	23194	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:42:00.00	23195	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:43:00.00	23196	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:44:00.00	23197	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:45:00.00	23198	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:46:00.00	23199	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:47:00.00	23200	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:48:00.00	23201	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:49:00.00	23202	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:50:00.00	23203	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:51:00.00	23204	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:52:00.00	23205	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:53:00.00	23206	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:54:00.00	23207	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:55:00.00	23208	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:56:00.00	23209	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:57:00.00	23210	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:58:00.00	23211	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T18:59:00.00	23212	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:00:00.00	23213	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:01:00.00	23214	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:02:00.00	23215	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:03:00.00	23216	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:04:00.00	23217	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:05:00.00	23218	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:06:00.00	23219	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:07:00.00	23220	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:08:00.00	23221	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:09:00.00	23222	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:10:00.00	23223	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:11:00.00	23224	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:12:00.00	23225	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:13:00.00	23226	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:14:00.00	23227	0-V-0	 VAL: eot invalid
+?	06010003	1971-08-03T19:15:00.00	23228	0-V-0	 VAL: eot invalid

@@ -1,0 +1,57 @@
+# Cruise 01020023 ID ELT23 MGD77 FILE VERSION: 19790127 N_RECS: 17802
+# Examined: Wed Jul  8 20:43:23 2009 by mtchandl
+# Arguments:  -R176.8/288.4/-65/-36.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01020023-H04-02: Invalid Survey Departure Month: (03) [04]
+Y-E-01020023-H04-06: Invalid Survey Arrival Day: (28) [29]
+Y-E-01020023-H11-06: Invalid Rightmost Longitude: (-070) [-071]
+Y-W-01020023-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-01020023-depth-01: RLS m: 1.00167 b: 0 rms: 15.0294 r: 0.999976 sig: 1 dec: 0
+N-E-01020023-depth-02: Regression slope 1.00167 different from 1. Recommended: [1]
+Y-E-01020023-mag-07: Anomaly differs from mtf1-IGRF (m: 0.937467 b: -107.693 rms: 139.924 r: 0.936147 sig: 1 dec: 1). [Recompute]
+N-E-01020023-depth-08: Extended offset from grid [5-187]
+N-E-01020023-depth-08: Extended offset from grid [204-5399]
+N-E-01020023-depth-08: Extended offset from grid [5400-6402]
+N-E-01020023-depth-08: Extended offset from grid [6403-6743]
+N-E-01020023-depth-08: Extended offset from grid [6746-7599]
+N-E-01020023-depth-08: Extended offset from grid [7632-7987]
+N-E-01020023-depth-08: Extended offset from grid [7989-11809]
+N-E-01020023-depth-08: Extended offset from grid [11816-13805]
+N-E-01020023-depth-08: Extended offset from grid [13814-14371]
+N-E-01020023-depth-08: Extended offset from grid [14373-14708]
+N-E-01020023-depth-08: Extended offset from grid [14710-15596]
+N-E-01020023-depth-08: Extended offset from grid [15637-16271]
+N-E-01020023-depth-08: Extended offset from grid [16272-16570]
+N-E-01020023-depth-08: Extended offset from grid [16572-17470]
+N-E-01020023-depth-08: Extended offset from grid [17471-17802]
+Y-W-01020023-twt-11: More recent bathymetry correction table available
+Y-W-01020023-mtf1-12: Integer precision
+Y-W-01020023-mag-12: Integer precision
+# Errata: Data
+Y	01020023	1966-04-01T16:12:00.00	48	D-0-0	 NAV: on land
+Y	01020023	1966-04-01T16:18:00.00	49	D-0-0	 NAV: on land
+Y	01020023	1966-04-01T16:24:00.00	50	D-0-0	 NAV: on land
+?	01020023	1966-04-01T16:30:00.00	51	D-0-0	 NAV: on land
+?	01020023	1966-04-01T16:36:00.00	52	D-0-0	 NAV: on land
+?	01020023	1966-05-13T08:30:00.00	11319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-13T16:34:00.00	11478	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T00:18:00.00	11634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T00:22:00.00	11635	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T00:26:00.00	11637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T00:46:00.00	11643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T02:14:00.00	11673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T02:18:00.00	11674	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T02:34:00.00	11679	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T02:38:00.00	11681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T03:54:00.00	11705	0-0-O	 GRAD: mtf1 excessive
+?	01020023	1966-05-14T06:02:00.00	11748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T06:50:00.00	11764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T11:27:00.00	11832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T11:35:00.00	11834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-14T12:07:00.00	11847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020023	1966-05-18T22:42:00.00	14229	0-0-K	 GRAD: twt excessive

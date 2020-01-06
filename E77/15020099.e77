@@ -1,0 +1,33 @@
+# Cruise 15020099 ID BNTH04MV MGD77 FILE VERSION: 19880608 N_RECS: 11188
+# Examined: Sat May 17 10:02:06 2008 by mtchandl
+# Arguments:  -R192.75/210.45/-24.8/21.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020099-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15020099-depth-01: RLS m: 1 b: 0 rms: 145.774 r: 0.992747 sig: 1 dec: 1
+Y-E-15020099-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00059 b: 45.0369 rms: 56.3992 r: 0.989798 sig: 1 dec: 1). [Recompute]
+Y-W-15020099-twt-11: More recent bathymetry correction table available
+Y-W-15020099-mtf1-12: Integer precision
+Y-W-15020099-mag-12: Integer precision
+# Errata: Data
+?	15020099	1983-01-09T06:15:00.00	58	D-0-0	 NAV: on land
+?	15020099	1983-01-09T06:20:00.00	59	D-0-0	 NAV: on land
+?	15020099	1983-01-09T06:25:00.00	60	D-0-0	 NAV: on land
+?	15020099	1983-01-09T06:30:00.00	61	D-0-0	 NAV: on land
+?	15020099	1983-01-09T06:35:00.00	62	D-0-0	 NAV: on land
+?	15020099	1983-01-09T06:40:00.00	63	D-0-0	 NAV: on land
+?	15020099	1983-01-09T16:50:00.00	185	D-0-0	 NAV: on land
+?	15020099	1983-01-09T16:55:00.00	186	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:00:00.00	187	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:05:00.00	188	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:10:00.00	189	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:15:00.00	190	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:20:00.00	191	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:25:00.00	192	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:30:00.00	193	D-0-0	 NAV: on land
+?	15020099	1983-01-09T17:35:00.00	194	D-0-0	 NAV: on land
+?	15020099	1983-02-14T20:35:00.00	10598	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,14 @@
+# Cruise 01150008 ID E3G78 MGD77 FILE VERSION: 19800718 N_RECS: 2789
+# Examined: Fri Mar 19 01:41:31 2010 by mtchandl
+# Arguments:  -R-6.45/17.5/35.15/40 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01150008-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-01150008-depth-01: RLS m: 0.997908 b: 0 rms: 26.1478 r: 0.999673 sig: 1 dec: 0
+N-E-01150008-depth-02: Regression slope 0.997908 different from 1. Recommended: [1]
+# Errata: Data
+Y	01150008	1978-10-08T01:38:00.00	2015	D-0-0	 NAV: on land

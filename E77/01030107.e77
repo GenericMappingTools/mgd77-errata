@@ -1,0 +1,31 @@
+# Cruise 01030107 ID V2603 MGD77 FILE VERSION: 19790920 N_RECS: 12407
+# Examined: Thu Jul  9 17:29:33 2009 by mtchandl
+# Arguments:  -R295.4/342.55/14.5/32.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030107-depth-01: RLS m: 1 b: 0 rms: 25.2954 r: 0.999937 sig: 1 dec: 0
+Y-E-01030107-mag-07: Anomaly differs from mtf1-IGRF (m: 0.683726 b: -3.0277 rms: 163.423 r: 0.501031 sig: 1 dec: 1). [Recompute]
+N-E-01030107-depth-08: Extended offset from grid [3-12407]
+Y-W-01030107-twt-11: More recent bathymetry correction table available
+Y-W-01030107-mtf1-12: Integer precision
+Y-W-01030107-mag-12: Integer precision
+# Errata: Data
+?	01030107	1968-09-28T11:12:00.00	1059	0-0-K	 GRAD: twt excessive
+?	01030107	1968-09-28T12:56:00.00	1095	0-0-K	 GRAD: twt excessive
+?	01030107	1968-09-28T12:57:00.00	1096	0-0-K	 GRAD: twt excessive
+?	01030107	1968-09-29T04:21:00.00	1395	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-01T13:05:00.00	2886	0-0-KL	 GRAD: twt, depth excessive
+?	01030107	1968-10-01T19:58:00.00	3148	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-02T05:43:00.00	3472	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-02T10:27:00.00	3653	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-03T02:31:00.00	3856	0-0-KL	 GRAD: twt, depth excessive
+?	01030107	1968-10-03T04:02:00.00	3903	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-03T04:03:00.00	3904	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-03T06:58:00.00	3998	0-0-K	 GRAD: twt excessive
+?	01030107	1968-10-04T09:29:00.00	4775	0-0-KL	 GRAD: twt, depth excessive
+?	01030107	1968-10-21T06:49:00.00	12402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030107	1968-10-21T06:50:00.00	12403	0-0-OQ	 GRAD: mtf1, mag excessive

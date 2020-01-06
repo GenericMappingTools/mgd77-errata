@@ -1,0 +1,39 @@
+# Cruise 17080008 ID A116 MGD77 FILE VERSION: 19900702 N_RECS: 10942
+# Examined: Mon Sep  6 12:36:52 2010 by mtchandl
+# Arguments:  -R293.7/304.65/41.4/44.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-17080008-H04-03: Invalid Survey Departure Day: (02) [03]
+N-E-17080008-H04-06: Invalid Survey Arrival Day: (15) [14]
+Y-E-17080008-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-W-17080008-nav-00: Flagged 0.20 % of records with bad navigation
+Y-I-17080008-depth-01: RLS m: 1.00269 b: 0 rms: 19.7786 r: 0.999783 sig: 1 dec: 0
+N-E-17080008-depth-02: Regression slope 1.00269 different from 1. Recommended: [1]
+Y-W-17080008-depth-12: Integer precision
+# Errata: Data
+Y	17080008	1986-08-05T02:47:27.00	1771	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:48:31.02	1772	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:50:34.02	1774	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:51:49.02	1775	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:55:06.00	1778	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:56:18.00	1779	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:57:30.00	1780	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:58:37.98	1781	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T02:59:46.02	1782	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T03:00:49.98	1783	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T03:02:01.98	1784	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-05T03:03:13.98	1785	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-12T12:13:31.98	8428	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-12T12:14:34.98	8429	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-12T15:22:22.02	8501	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-12T16:45:13.98	8526	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-12T23:24:19.02	8829	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-13T00:00:34.02	8863	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-14T00:00:48.00	10219	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-14T00:01:55.98	10220	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-14T00:02:58.02	10221	C-0-0	 NAV: excessive speed
+Y	17080008	1986-08-14T00:04:07.98	10222	C-0-0	 NAV: excessive speed

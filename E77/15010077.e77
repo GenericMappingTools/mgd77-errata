@@ -1,0 +1,30 @@
+# Cruise 15010077 ID ZTES05AR MGD77 FILE VERSION: 19800226 N_RECS: 4892
+# Examined: Wed May 14 08:16:12 2008 by mtchandl
+# Arguments:  -R139.85/201.2/21.85/35.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, fixing PDR wraps, poor bathymetry at start of cruise
+# Errata: Header
+N-E-15010077-H04-06: Invalid Survey Arrival Day: (23) [21]
+Y-I-15010077-depth-01: RLS m: 0.996125 b: 0 rms: 163.919 r: 0.992553 sign: 1 dec: 1
+Y-E-15010077-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02058 b: 32.1322 rms: 55.817 r: 0.976119 sig: 1 dec: 1). [Recompute]
+Y-E-15010077-depth-08: Extended offset from grid [38-145]
+Y-E-15010077-twt-13: Encountered possible PDR wrap errors (9.9) [10.0]
+Y-W-15010077-twt-11: More recent bathymetry correction table available
+Y-W-15010077-mtf1-12: Integer multiple of 5 precision
+Y-W-15010077-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010077	1966-06-10T18:30:00.00	141	0-0-KL	 GRAD: twt, depth excessive
+?	15010077	1966-06-10T18:33:00.00	142	0-0-KL	 GRAD: twt, depth excessive
+?	15010077	1966-06-10T18:39:00.00	144	0-0-KL	 GRAD: twt, depth excessive
+?	15010077	1966-06-21T12:48:00.00	4828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T13:00:00.00	4830	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T15:24:00.00	4854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T15:30:00.00	4855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T15:36:00.00	4856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T17:12:00.00	4872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T18:48:00.00	4888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T19:00:00.00	4890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010077	1966-06-21T19:06:00.00	4891	0-0-OQ	 GRAD: mtf1, mag excessive

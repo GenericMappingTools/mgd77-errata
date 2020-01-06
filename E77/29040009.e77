@@ -1,0 +1,27 @@
+# Cruise 29040009 ID DME24 MGD77 FILE VERSION: 19851230 N_RECS: 6389
+# Examined: Mon Nov 23 16:01:16 2009 by mtchandl
+# Arguments:  -R106.9/196.85/-20.3/33.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-29040009-H04-03: Invalid Survey Departure Day: (22) [25]
+N-E-29040009-H04-06: Invalid Survey Arrival Day: (06) [04]
+Y-W-29040009-H16-06: Ten Degree Identifier 3015 not marked in header but block was crossed
+Y-W-29040009-H16-06: Ten Degree Identifier 1016 marked in header but was not crossed
+Y-I-29040009-depth-01: RLS m: 1 b: 0 rms: 22.9864 r: 0.999917 sig: 1 dec: 0
+Y-I-29040009-faa-01: RLS m: 1.00571 b: -14.576 rms: 16.9611 r: 0.996098 sig: 1 dec: 1
+Y-W-29040009-faa-03: Regression offset -14.576 different from 0.
+N-E-29040009-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00012 b: -16.1916 rms: 16.1918 r: 0.999977 sig: 1 dec: 0). [Recompute]
+N-E-29040009-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.424352 b: -9.15046 rms: 68.0666 r: 0.654734 sig: 1 dec: 1). [Recompute]
+Y-E-29040009-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1). [Adjust to IGF 1980]
+N-E-29040009-faa-08: Extended offset from grid [509-1679]
+N-E-29040009-faa-08: Extended offset from grid [4258-6061]
+Y-W-29040009-depth-12: Integer precision
+# Errata: Data
+?	29040009	1980-04-30T08:10:00.00	5943	0-M-0	 VAL: bcc invalid
+?	29040009	1980-04-30T08:20:00.00	5944	0-M-0	 VAL: bcc invalid
+?	29040009	1980-04-30T08:30:00.00	5945	0-M-0	 VAL: bcc invalid
+?	29040009	1980-04-30T08:40:00.00	5946	0-M-0	 VAL: bcc invalid

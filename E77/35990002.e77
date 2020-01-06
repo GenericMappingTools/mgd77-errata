@@ -1,0 +1,13 @@
+# Cruise 35990002 ID 04374 MGD77 FILE VERSION: 19880323 N_RECS: 9001
+# Examined: Wed Jul 27 19:32:13 2011 by mtchandl
+# Arguments:  -R72.35/72.45/-7.3/-7.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Shallow survey, grid appears very inaccurate in this area.
+# Errata: Header
+Y-I-35990002-depth-01: RLS m: 1.03589 b: 0 rms: 5.47125 r: 0.400618 sig: 1 dec: 0
+N-E-35990002-depth-02: Regression slope 1.03589 different from 1. Recommended: [1]
+Y-W-35990002-depth-12: Integer precision
+# Errata: Data

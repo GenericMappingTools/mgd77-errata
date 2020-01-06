@@ -1,0 +1,53 @@
+# Cruise 02020077 ID A2093L12 MGD77 FILE VERSION: 19820805 N_RECS: 11815
+# Examined: Fri Apr  2 15:05:20 2010 by mtchandl
+# Arguments:  -R119.1/135.65/-12.5/-2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020077-depth-01: RLS m: 0.998468 b: 0 rms: 35.8182 r: 0.999844 sig: 1 dec: 0
+N-E-02020077-depth-02: Regression slope 0.998468 different from 1. Recommended: [1]
+Y-I-02020077-faa-01: RLS m: 0.993265 b: -2.62662 rms: 6.04804 r: 0.996711 sig: 1 dec: 0
+N-E-02020077-faa-02: Regression slope 0.993265 different from 1. Recommended: [1]
+Y-W-02020077-faa-03: Regression offset -2.62662 different from 0.
+Y-I-02020077-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020077-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.669801 b: -4.47751 rms: 55.1272 r: 0.858629 sig: 1 dec: 1). [Recompute]
+Y-E-02020077-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995324 b: 21.0012 rms: 34.2514 r: 0.981432 sig: 1 dec: 1). [Recompute]
+Y-W-02020077-twt-11: More recent bathymetry correction table available
+Y-W-02020077-mtf1-12: Integer precision
+Y-W-02020077-mag-12: Integer precision
+# Errata: Data
+?	02020077	1976-09-03T06:00:00.00	305	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-08T04:35:00.00	2171	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-08T09:30:00.00	2283	0-0-K	 GRAD: twt excessive
+?	02020077	1976-09-09T20:10:00.00	2999	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-11T10:55:00.00	3566	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-14T18:40:00.00	5020	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-17T07:20:00.00	6131	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-17T21:05:00.00	6319	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-18T00:45:00.00	6412	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-18T07:35:00.00	6573	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-19T13:30:00.00	7298	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-19T23:02:00.00	7532	0-0-K	 GRAD: twt excessive
+?	02020077	1976-09-19T23:05:00.00	7533	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-20T01:50:00.00	7567	D-0-0	 NAV: on land
+?	02020077	1976-09-20T01:51:00.00	7568	D-0-0	 NAV: on land
+?	02020077	1976-09-20T05:50:00.00	7660	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-20T21:35:00.00	7926	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-24T16:10:00.00	9722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-24T16:13:00.00	9724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-24T16:18:00.00	9727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-24T16:20:00.00	9728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-24T16:25:00.00	9730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-24T18:36:00.00	9796	0-0-KL	 GRAD: twt, depth excessive
+?	02020077	1976-09-24T18:46:00.00	9801	0-0-KL	 GRAD: twt, depth excessive
+?	02020077	1976-09-24T21:00:00.00	9856	0-0-V	 GRAD: eot excessive
+?	02020077	1976-09-26T15:48:00.00	10928	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-26T15:53:00.00	10930	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-26T15:55:00.00	10931	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-26T15:58:00.00	10932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-26T16:00:00.00	10933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020077	1976-09-28T04:45:00.00	11814	D-0-0	 NAV: on land
+?	02020077	1976-09-28T04:50:00.00	11815	D-0-0	 NAV: on land

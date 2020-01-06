@@ -1,0 +1,105 @@
+# Cruise 03010005 ID CMAPPI3S MGD77 FILE VERSION: 19800213 N_RECS: 14477
+# Examined: Fri Apr  9 13:17:30 2010 by mtchandl
+# Arguments:  -R194/205/48/54 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies (negative).
+# Errata: Header
+Y-E-03010005-H12-01: Invalid Bathymetry Digitizing Rate: (753) [753]
+Y-E-03010005-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-03010005-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-03010005-nav-00: Flagged 0.54 % of records with bad navigation
+Y-I-03010005-depth-01: RLS m: 0.999651 b: 0 rms: 15.7478 r: 0.999624 sig: 1 dec: 0
+Y-I-03010005-faa-01: RLS m: 0.670611 b: -21.569 rms: 27.0426 r: 0.883066 sig: 1 dec: 1
+N-E-03010005-faa-02: Regression slope 0.670611 different from 1. Recommended: [1]
+Y-W-03010005-faa-03: Regression offset -21.569 different from 0.
+Y-E-03010005-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00734 b: -75.5052 rms: 79.1323 r: 0.99761 sig: 1 dec: 1). [Recompute]
+Y-W-03010005-faa-09: all values less than or equal to zero
+Y-E-03000005-faa-10: Invalid data records: [1-14477]
+Y-W-03010005-twt-11: More recent bathymetry correction table available
+Y-W-03010005-mtf1-12: Integer precision
+Y-W-03010005-mag-12: Integer precision
+Y-W-03010005-faa-12: Integer precision
+# Errata: Data
+?	03010005	1962-08-28T10:31:00.00	7379	0-0-K	 GRAD: twt excessive
+Y	03010005	1962-09-05T08:50:00.00	7729	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:00:00.00	7730	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:05:00.00	7731	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:10:00.00	7732	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:15:00.00	7733	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:20:00.00	7734	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:25:00.00	7735	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:30:00.00	7736	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:35:00.00	7737	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:40:00.00	7738	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:45:00.00	7739	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:50:00.00	7740	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T09:55:00.00	7741	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:00:00.00	7742	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:05:00.00	7743	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:10:00.00	7744	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:15:00.00	7745	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:20:00.00	7746	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:25:00.00	7747	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:30:00.00	7748	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:35:00.00	7749	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:40:00.00	7750	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:45:00.00	7751	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:50:00.00	7752	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T10:55:00.00	7753	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:00:00.00	7754	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:05:00.00	7755	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:10:00.00	7756	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:15:00.00	7757	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:20:00.00	7758	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:25:00.00	7759	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:30:00.00	7760	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:35:00.00	7761	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:40:00.00	7762	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:45:00.00	7763	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:50:00.00	7764	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T11:55:00.00	7765	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:00:00.00	7766	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:05:00.00	7767	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:10:00.00	7768	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:15:00.00	7769	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:20:00.00	7770	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:25:00.00	7771	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:30:00.00	7772	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:35:00.00	7773	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:40:00.00	7774	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:45:00.00	7775	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:50:00.00	7776	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T12:55:00.00	7777	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:00:00.00	7778	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:05:00.00	7779	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:10:00.00	7780	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:15:00.00	7781	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:20:00.00	7782	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:25:00.00	7783	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:30:00.00	7784	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:35:00.00	7785	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:40:00.00	7786	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:45:00.00	7787	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:50:00.00	7788	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T13:55:00.00	7789	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:00:00.00	7790	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:05:00.00	7791	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:10:00.00	7792	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:15:00.00	7793	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:20:00.00	7794	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:25:00.00	7795	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:30:00.00	7796	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:35:00.00	7797	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:40:00.00	7798	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:45:00.00	7799	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:50:00.00	7800	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T14:55:00.00	7801	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T15:00:00.00	7802	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T15:05:00.00	7803	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T15:10:00.00	7804	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T15:15:00.00	7805	C-0-0	 NAV: excessive speed
+Y	03010005	1962-09-05T15:20:00.00	7806	C-0-0	 NAV: excessive speed
+?	03010005	1963-06-06T02:20:00.00	9221	0-0-OQ	 GRAD: mtf1, mag excessive

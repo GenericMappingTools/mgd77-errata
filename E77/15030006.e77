@@ -1,0 +1,18 @@
+# Cruise 15030006 ID IGUA01EB MGD77 FILE VERSION: 19830819 N_RECS: 1757
+# Examined: Tue May 20 12:43:21 2008 by mtchandl
+# Arguments:  -R243.45/260.1/16.75/30.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15030006-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15030006-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15030006-depth-01: RLS m: 0.996125 b: 0 rms: 139.673 r: 0.992568 sig: 1 dec: 1
+Y-E-15030006-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03612 b: 28.2686 rms: 53.8694 r: 0.968463 sig: 1 dec: 1). [Recompute]
+Y-W-15030006-mtf1-12: Integer multiple of 5 precision
+Y-W-15030006-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15030006	1972-04-04T15:35:00.00	863	D-0-0	 NAV: on land
+?	15030006	1972-04-07T12:15:00.00	1669	0-0-OQ	 GRAD: mtf1, mag excessive

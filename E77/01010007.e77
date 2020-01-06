@@ -1,0 +1,41 @@
+# Cruise 01010007 ID RC0801 MGD77 FILE VERSION: 19790619 N_RECS: 11318
+# Examined: Thu Jun 26 12:52:14 2008 by mtchandl
+# Arguments:  -R-65.65/18.4/-33.9/18.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010007-H04-03: Invalid Survey Departure Day: (25) [26]
+Y-I-01010007-depth-01: RLS m: 1 b: 0 rms: 158.028 r: 0.995724 sig: 1 dec: 1
+Y-I-01010007-faa-01: RLS m: 1.0048 b: -10.9151 rms: 21.0754 r: 0.980835 sig: 1 dec: 1
+Y-W-01010007-faa-03: Regression offset -10.9151 different from 0.
+Y-E-01010007-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.901046 b: -8.24793 rms: 78.3044 r: 0.883045 sig: 1 dec: 1). [Recompute]
+Y-W-01010007-twt-11: More recent bathymetry correction table available
+Y-W-01010007-mtf1-12: Integer precision
+Y-W-01010007-mag-12: Integer precision
+# Errata: Data
+?	01010007	1963-11-26T20:23:00.00	152	0-0-K	 GRAD: twt excessive
+?	01010007	1963-11-26T20:24:00.00	153	0-0-KL	 GRAD: twt, depth excessive
+?	01010007	1963-12-01T16:44:00.00	2409	0-0-K	 GRAD: twt excessive
+?	01010007	1963-12-15T04:44:00.00	7396	0-0-K	 GRAD: twt excessive
+?	01010007	1963-12-18T14:17:00.00	8552	0-0-KL	 GRAD: twt, depth excessive
+?	01010007	1963-12-20T01:32:00.00	8932	0-0-K	 GRAD: twt excessive
+?	01010007	1963-12-20T19:00:00.00	9118	0-0-K	 GRAD: twt excessive
+?	01010007	1963-12-26T02:42:00.00	10503	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T02:44:00.00	10504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T02:45:00.00	10505	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T02:46:00.00	10506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T02:47:00.00	10507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T02:59:00.00	10510	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T03:00:00.00	10511	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:28:00.00	10604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:31:00.00	10606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:33:00.00	10607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:34:00.00	10608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:36:00.00	10610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T10:40:00.00	10611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T20:45:00.00	10687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T20:47:00.00	10689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010007	1963-12-26T20:48:00.00	10690	0-0-OQ	 GRAD: mtf1, mag excessive

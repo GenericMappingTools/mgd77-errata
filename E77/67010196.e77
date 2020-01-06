@@ -1,0 +1,32 @@
+# Cruise 67010196 ID 88006212 MGD77 FILE VERSION: 19920630 N_RECS: 20014
+# Examined: Sun Jul 31 21:41:40 2011 by mtchandl
+# Arguments:  -R171/178.45/-22.2/-16.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010196-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-67010196-depth-01: RLS m: 1.00067 b: 0 rms: 36.5092 r: 0.994337 sig: 1 dec: 0
+Y-W-67010196-depth-12: Integer precision
+# Errata: Data
+?	67010196	1988-12-03T20:16:00.00	1046	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-04T03:17:00.00	1467	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-04T03:18:00.00	1468	0-0-KL	 GRAD: twt, depth excessive
+Y	67010196	1988-12-06T20:37:00.00	5387	C-0-0	 NAV: excessive speed
+Y	67010196	1988-12-06T20:38:00.00	5388	C-0-0	 NAV: excessive speed
+Y	67010196	1988-12-07T20:12:00.00	6802	C-0-0	 NAV: excessive speed
+Y	67010196	1988-12-07T20:13:00.00	6803	C-0-0	 NAV: excessive speed
+Y	67010196	1988-12-07T20:14:00.00	6804	C-0-0	 NAV: excessive speed
+Y	67010196	1988-12-07T20:15:00.00	6805	C-0-0	 NAV: excessive speed
+?	67010196	1988-12-08T13:25:00.00	7835	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-08T14:23:00.00	7893	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-08T16:07:00.00	7997	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-08T16:18:00.00	8008	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-12T19:51:00.00	13917	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-12T19:52:00.00	13918	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-12T21:40:00.00	14026	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-13T04:18:00.00	14424	0-0-K	 GRAD: twt excessive
+?	67010196	1988-12-14T09:19:00.00	16165	0-0-K	 GRAD: twt excessive
+Y	67010196	1988-12-17T01:27:00.00	20013	B-0-0	 NAV: non-increasing time

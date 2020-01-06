@@ -1,0 +1,57 @@
+# Cruise 15020174 ID NV9704MV MGD77 FILE VERSION: 20011001 N_RECS: 4572
+# Examined: Mon May 19 04:01:01 2008 by mtchandl
+# Arguments:  -R234.35/242.8/32.6/46.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15020174-H15-03: Invalid Gravity Arrival Base Station Value: (979535.) [9795350]
+Y-I-15020174-depth-01: RLS m: 1.03279 b: 0 rms: 196.585 r: 0.980632 sig: 1 dec: 1
+N-E-15020174-depth-02: Regression slope 1.03279 different from 1. Recommended: [1]
+Y-I-15020174-faa-01: RLS m: 0.967465 b: -2.48003 rms: 8.72765 r: 0.965217 sig: 1 dec: 1
+Y-W-15020174-faa-03: Regression offset -2.48003 different from 0.
+N-E-15020174-faa-06: Anomaly differs from gobs - IGF80 (m: 0.244696 b: -20.8486 rms: 46.7406 r: 0.459071 sig: 1 dec: 1). [Recompute]
+Y-W-15020174-twt-11: More recent bathymetry correction table available
+Y-W-15020174-depth-12: Integer precision
+# Errata: Data
+?	15020174	1997-10-10T01:53:00.00	4535	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:54:00.00	4536	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:55:00.00	4537	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:56:00.00	4538	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:57:00.00	4539	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:58:00.00	4540	D-0-0	 NAV: on land
+?	15020174	1997-10-10T01:59:00.00	4541	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:00:00.00	4542	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:01:00.00	4543	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:02:00.00	4544	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:03:00.00	4545	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:04:00.00	4546	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:05:00.00	4547	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:06:00.00	4548	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:07:00.00	4549	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:08:00.00	4550	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:09:00.00	4551	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:10:00.00	4552	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:11:00.00	4553	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:12:00.00	4554	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:13:00.00	4555	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:14:00.00	4556	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:15:00.00	4557	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:16:00.00	4558	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:17:00.00	4559	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:18:00.00	4560	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:19:00.00	4561	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:20:00.00	4562	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:21:00.00	4563	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:22:00.00	4564	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:23:00.00	4565	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:24:00.00	4566	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:25:00.00	4567	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:26:00.00	4568	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:27:00.00	4569	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:28:00.00	4570	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:29:00.00	4571	D-0-0	 NAV: on land
+?	15020174	1997-10-10T02:30:00.00	4572	D-0-0	 NAV: on land

@@ -1,0 +1,17 @@
+# Cruise J7010002 ID RN87 MGD77 FILE VERSION: 19921231 N_RECS: 350
+# Examined: Mon Aug  8 15:59:28 2011 by mtchandl
+# Arguments:  -R123.8/127.65/23.6/26.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J7010002-nav-00: Flagged 0.57 % of records with bad navigation
+Y-I-J7010002-depth-01: RLS m: 0.99756 b: 0 rms: 24.3863 r: 0.999558 sig: 1 dec: 0
+Y-E-J7010002-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: 10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	J7010002	1987-04-16T13:05:00.00	59	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J7010002	1987-04-16T13:11:00.00	61	C-0-0	 NAV: excessive speed
+?	J7010002	1987-04-18T02:00:00.00	272	D-0-0	 NAV: on land
+Y	J7010002	1987-04-19T05:00:00.00	278	C-0-0	 NAV: excessive speed

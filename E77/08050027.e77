@@ -1,0 +1,16 @@
+# Cruise 08050027 ID PN81-3 MGD77 FILE VERSION: 19860213 N_RECS: 1380
+# Examined: Fri Jul 30 14:12:44 2010 by mtchandl
+# Arguments:  -R152.2/160/-9.4/-4.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-08050027-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-08050027-depth-01: RLS m: 0.996729 b: 0 rms: 32.5498 r: 0.999515 sig: 1 dec: 0
+N-E-08050027-depth-02: Regression slope 0.996729 different from 1. Recommended: [1]
+Y-W-08050027-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08050027	1981-03-27T20:53:05.94	544	B-0-0	 NAV: non-increasing time
+?	08050027	1981-03-28T04:19:40.02	624	0-0-K	 GRAD: twt excessive

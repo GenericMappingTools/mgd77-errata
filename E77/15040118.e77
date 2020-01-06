@@ -1,0 +1,15 @@
+# Cruise 15040118 ID EPLL01WT MGD77 FILE VERSION: 19830819 N_RECS: 7637
+# Examined: Sat May 24 09:53:35 2008 by mtchandl
+# Arguments:  -R212.5/242.65/15.25/32.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040118-depth-01: RLS m: 0.996125 b: 0 rms: 116.475 r: 0.994258 sig: 1 dec: 1
+Y-E-15040118-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00616 b: -45.3407 rms: 67.3841 r: 0.951153 sig: 1 dec: 1). [Recompute]
+Y-W-15040118-twt-11: More recent bathymetry correction table available
+Y-W-15040118-mtf1-12: Integer precision
+Y-W-15040118-mag-12: Integer precision
+# Errata: Data

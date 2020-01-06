@@ -1,0 +1,201 @@
+# Cruise 15020160 ID SOJN02MV MGD77 FILE VERSION: 20011001 N_RECS: 61780
+# Examined: Sun May 18 11:15:08 2008 by mtchandl
+# Arguments:  -R210.4/288.4/-33.05/-17.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-I-15020160-depth-01: RLS m: 1 b: 0 rms: 267.907 r: 0.946314 sig: 1 dec: 1
+Y-I-15020160-faa-01: RLS m: 0.993666 b: 0.845991 rms: 13.1835 r: 0.980315 sig: 1 dec: 1
+N-E-15020160-faa-06: Anomaly differs from gobs - IGF80 (m: 0.880495 b: 66.5913 rms: 77.1163 r: 0.96215 sig: 1 dec: 1). [Recompute]
+Y-E-15020160-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.97235 b: 22.6403 rms: 32.1709 r: 0.990608 sig: 1 dec: 1). [Recompute]
+Y-W-15020160-twt-11: More recent bathymetry correction table available
+Y-W-15020160-depth-12: Integer precision
+Y-W-15020160-mtf1-12: Integer precision
+# Errata: Data
+?	15020160	1996-11-01T18:05:00.00	5780	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-02T17:46:00.00	7201	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-02T17:47:00.00	7202	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-03T04:48:00.00	7863	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-03T06:22:00.00	7957	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020160	1996-11-03T06:38:00.00	7973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020160	1996-11-05T15:34:00.00	11389	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-05T15:35:00.00	11390	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-05T17:32:00.00	11507	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-05T18:52:00.00	11587	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-06T05:37:00.00	12131	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-07T17:29:00.00	14170	0-0-KL	 GRAD: twt, depth excessive
+?	15020160	1996-11-07T17:30:00.00	14171	0-0-KL	 GRAD: twt, depth excessive
+?	15020160	1996-11-12T05:34:00.00	20655	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-12T05:35:00.00	20656	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-12T08:13:00.00	20814	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-12T12:07:00.00	21048	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-12T12:55:00.00	21096	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-12T12:56:00.00	21097	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-20T02:58:00.00	32019	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-20T05:08:00.00	32149	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-20T05:09:00.00	32150	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-20T17:11:00.00	32872	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T02:41:00.00	33442	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T02:42:00.00	33443	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T02:43:00.00	33444	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T02:44:00.00	33445	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:19:00.00	33480	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:20:00.00	33481	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:21:00.00	33482	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:22:00.00	33483	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:23:00.00	33484	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T03:57:00.00	33518	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T03:58:00.00	33519	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T03:59:00.00	33520	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:00:00.00	33521	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:01:00.00	33522	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:02:00.00	33523	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:03:00.00	33524	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:04:00.00	33525	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:05:00.00	33526	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:06:00.00	33527	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:07:00.00	33528	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:36:00.00	33557	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:37:00.00	33558	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:38:00.00	33559	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:39:00.00	33560	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:40:00.00	33561	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:41:00.00	33562	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:42:00.00	33563	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T04:43:00.00	33564	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:44:00.00	33565	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:45:00.00	33566	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T04:46:00.00	33567	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:38:00.00	33619	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:39:00.00	33620	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:49:00.00	33630	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:50:00.00	33631	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:51:00.00	33632	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T05:52:00.00	33633	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T05:53:00.00	33634	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T05:54:00.00	33635	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T05:55:00.00	33636	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T05:56:00.00	33637	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T05:57:00.00	33638	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:58:00.00	33639	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T05:59:00.00	33640	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T06:00:00.00	33641	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:05:00.00	33706	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:06:00.00	33707	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:07:00.00	33708	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:08:00.00	33709	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:09:00.00	33710	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:10:00.00	33711	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:11:00.00	33712	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:12:00.00	33713	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:13:00.00	33714	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:14:00.00	33715	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:15:00.00	33716	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:16:00.00	33717	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:45:00.00	33746	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:46:00.00	33747	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:47:00.00	33748	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:48:00.00	33749	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:49:00.00	33750	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:50:00.00	33751	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:51:00.00	33752	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T07:52:00.00	33753	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:53:00.00	33754	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T07:54:00.00	33755	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:24:00.00	33785	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:25:00.00	33786	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:26:00.00	33787	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T08:27:00.00	33788	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T08:28:00.00	33789	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T08:29:00.00	33790	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T08:30:00.00	33791	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-11-21T08:31:00.00	33792	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:32:00.00	33793	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:33:00.00	33794	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T08:34:00.00	33795	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-21T09:43:00.00	33864	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T09:44:00.00	33865	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T09:45:00.00	33866	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T09:46:00.00	33867	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T09:47:00.00	33868	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T09:48:00.00	33869	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T11:03:00.00	33944	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T11:04:00.00	33945	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T11:05:00.00	33946	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T11:06:00.00	33947	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T11:07:00.00	33948	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:20:00.00	34021	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:21:00.00	34022	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:22:00.00	34023	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:23:00.00	34024	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:24:00.00	34025	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T12:25:00.00	34026	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T13:37:00.00	34098	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T13:38:00.00	34099	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T13:39:00.00	34100	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T13:40:00.00	34101	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-21T13:41:00.00	34102	0-U-0	 VAL: gobs invalid
+?	15020160	1996-11-29T12:43:00.00	45547	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-29T12:45:00.00	45549	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-29T14:05:00.00	45629	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-29T14:08:00.00	45632	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-29T14:09:00.00	45633	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-11-29T14:10:00.00	45634	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:50:00.00	53834	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:51:00.00	53835	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:52:00.00	53836	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T06:53:00.00	53837	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T06:53:58.02	53838	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:54:55.98	53840	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:55:57.00	53842	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T06:56:58.98	53844	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	15020160	1996-12-05T06:58:00.00	53846	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T06:59:00.00	53847	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:00:00.00	53848	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:04:00.00	53852	0-0-W	 GRAD: faa excessive
+?	15020160	1996-12-05T07:30:00.00	53878	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:31:00.00	53879	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:32:00.00	53880	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T07:33:00.00	53881	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T07:33:58.02	53882	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:34:55.98	53884	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:35:57.00	53886	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:36:58.98	53888	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	15020160	1996-12-05T07:38:00.00	53890	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T07:39:00.00	53891	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:40:00.00	53892	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T07:42:00.00	53894	0-0-W	 GRAD: faa excessive
+?	15020160	1996-12-05T08:11:00.00	53923	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:12:00.00	53924	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:13:00.00	53925	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T08:14:00.00	53926	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T08:14:58.02	53927	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:15:55.98	53929	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:16:57.00	53931	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:17:58.98	53933	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	15020160	1996-12-05T08:19:00.00	53935	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T08:20:00.00	53936	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:21:00.00	53937	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T08:23:00.00	53939	0-0-W	 GRAD: faa excessive
+?	15020160	1996-12-05T10:11:51.00	54048	0-U-0	 VAL: gobs invalid
+?	15020160	1996-12-05T10:12:55.02	54050	0-W-U	 VAL: faa invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T10:13:58.98	54052	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T10:15:00.00	54054	0-0-UW	 GRAD: gobs, faa excessive
+?	15020160	1996-12-05T10:16:00.00	54055	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T10:17:00.00	54056	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T10:18:00.00	54057	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T11:29:00.00	54128	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T15:12:00.00	54351	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T15:13:00.00	54352	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T15:14:00.00	54353	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T15:15:00.00	54354	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020160	1996-12-05T15:15:57.00	54355	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T15:16:52.98	54357	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T16:36:00.00	54437	0-W-0	 VAL: faa invalid
+?	15020160	1996-12-05T16:37:00.00	54438	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T16:38:00.00	54439	0-0-U	 GRAD: gobs excessive
+?	15020160	1996-12-05T16:39:00.00	54440	0-0-W	 GRAD: faa excessive

@@ -1,0 +1,41 @@
+# Cruise 83030009 ID 82010411 MGD77 FILE VERSION: 19850725 N_RECS: 21979
+# Examined: Wed Aug  3 07:10:34 2011 by mtchandl
+# Arguments:  -R-107.35/-100.35/2.15/14.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-83030009-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-83030009-depth-01: RLS m: 0.996127 b: 0 rms: 58.9449 r: 0.990979 sig: 1 dec: 0
+N-E-83030009-depth-02: Regression slope 0.996127 different from 1. Recommended: [1]
+Y-W-83030009-depth-12: Integer precision
+# Errata: Data
+?	83030009	1982-12-29T20:56:30.00	307	0-0-L	 GRAD: depth excessive
+?	83030009	1982-12-30T05:15:00.00	1262	0-0-L	 GRAD: depth excessive
+?	83030009	1982-12-30T05:25:30.00	1283	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-01T02:30:00.00	2938	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-01T14:19:00.00	4296	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-01T22:26:30.00	4483	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-01T23:58:30.00	4659	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-03T01:57:00.00	5427	0-0-L	 GRAD: depth excessive
+Y	83030009	1983-01-04T22:59:00.00	7112	C-0-0	 NAV: excessive speed
+?	83030009	1983-01-05T06:49:30.00	7374	0-0-L	 GRAD: depth excessive
+Y	83030009	1983-01-05T08:06:30.00	7522	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-05T08:07:00.00	7523	C-0-0	 NAV: excessive speed
+?	83030009	1983-01-06T05:22:30.00	9312	0-0-L	 GRAD: depth excessive
+Y	83030009	1983-01-08T00:24:30.00	11488	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-08T00:25:00.00	11489	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-08T00:26:00.00	11491	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-08T07:38:30.00	11923	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-08T07:39:00.00	11924	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-08T07:39:30.00	11925	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-09T08:08:30.00	13462	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-09T08:09:00.00	13463	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-09T08:09:30.00	13464	C-0-0	 NAV: excessive speed
+Y	83030009	1983-01-11T09:07:00.00	19070	C-0-0	 NAV: excessive speed
+?	83030009	1983-01-12T15:09:00.00	21866	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-12T15:10:30.00	21869	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-12T15:57:30.00	21950	0-0-L	 GRAD: depth excessive
+?	83030009	1983-01-12T16:10:00.00	21975	0-0-L	 GRAD: depth excessive

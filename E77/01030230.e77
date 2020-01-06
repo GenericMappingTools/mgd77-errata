@@ -1,0 +1,41 @@
+# Cruise 01030230 ID V3505 MGD77 FILE VERSION: 19800908 N_RECS: 7636
+# Examined: Fri Mar 19 01:24:36 2010 by mtchandl
+# Arguments:  -R120.5/144.35/11.15/21 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01030230-H04-06: Invalid Survey Arrival Day: (04) [02]
+Y-W-01030230-nav-00: Flagged 0.24 % of records with bad navigation
+Y-I-01030230-depth-01: RLS m: 0.998563 b: 0 rms: 55.672 r: 0.998837 sig: 1 dec: 0
+N-E-01030230-depth-02: Regression slope 0.998563 different from 1. Recommended: [1]
+Y-I-01030230-faa-01: RLS m: 1.00536 b: -5.29642 rms: 9.71825 r: 0.991324 sig: 1 dec: 1
+Y-W-01030230-faa-03: Regression offset -5.29642 different from 0.
+Y-E-01030230-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972484 b: 136.076 rms: 139.025 r: 0.974691 sig: 1 dec: 1). [Recompute]
+Y-W-01030230-twt-11: More recent bathymetry correction table available
+Y-W-01030230-mtf1-12: Integer precision
+Y-W-01030230-mag-12: Integer precision
+# Errata: Data
+Y	01030230	1978-06-04T09:36:00.00	19	D-0-0	 NAV: on land
+Y	01030230	1978-06-04T09:42:00.00	20	D-0-0	 NAV: on land
+Y	01030230	1978-06-04T09:48:00.00	21	D-0-0	 NAV: on land
+Y	01030230	1978-06-04T09:54:00.00	22	D-0-0	 NAV: on land
+Y	01030230	1978-06-04T10:00:00.00	23	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:18:00.00	265	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:20:00.00	266	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:24:00.00	267	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:30:00.00	268	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:36:00.00	269	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:40:00.00	270	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:42:00.00	271	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:48:00.00	272	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:50:00.00	273	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:54:00.00	274	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T05:58:00.00	275	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T06:00:00.00	276	D-0-0	 NAV: on land
+Y	01030230	1978-06-05T06:04:00.00	277	D-0-0	 NAV: on land
+?	01030230	1978-06-05T06:06:00.00	278	D-0-0	 NAV: on land
+?	01030230	1978-06-05T23:06:00.00	509	0-0-K	 GRAD: twt excessive
+?	01030230	1978-06-23T03:06:00.00	4998	0-0-KL	 GRAD: twt, depth excessive

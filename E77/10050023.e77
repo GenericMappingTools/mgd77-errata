@@ -1,0 +1,24 @@
+# Cruise 10050023 ID FM1402 MGD77 FILE VERSION: 19920727 N_RECS: 975
+# Examined: Tue Aug 24 13:57:21 2010 by mtchandl
+# Arguments:  -R265.2/271.1/27.25/29.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-10050023-time-01: 1 of 975 records contain invalid time
+Y-W-10050023-nav-00: Flagged 0.62 % of records with bad navigation
+Y-I-10050023-depth-01: RLS m: 0.996199 b: 0 rms: 5.4075 r: 0.999985 sig: 1 dec: 0
+N-E-10050023-depth-02: Regression slope 0.996199 different from 1. Recommended: [1]
+Y-W-10050023-depth-12: Integer precision
+# Errata: Data
+?	10050023	1982-12-02T18:05:00.00	335	0-0-L	 GRAD: depth excessive
+?	10050023	1982-12-02T18:10:12.00	336	0-0-L	 GRAD: depth excessive
+Y	10050023	NaN	490	E-0-0	 NAV: navigation undefined
+Y	10050023	1982-12-04T22:55:00.00	970	D-0-0	 NAV: on land
+Y	10050023	1982-12-04T23:00:00.00	971	D-0-0	 NAV: on land
+Y	10050023	1982-12-04T23:05:00.00	972	D-0-0	 NAV: on land
+Y	10050023	1982-12-04T23:10:00.00	973	D-0-0	 NAV: on land
+Y	10050023	1982-12-04T23:15:00.00	974	D-0-0	 NAV: on land
+Y	10050023	1982-12-04T23:20:00.00	975	D-0-0	 NAV: on land

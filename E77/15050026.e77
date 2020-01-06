@@ -1,0 +1,31 @@
+# Cruise 15050026 ID DSDP28GC MGD77 FILE VERSION: 19800226 N_RECS: 9974
+# Examined: Wed May 28 12:59:34 2008 by mtchandl
+# Arguments:  -R104.2/185.05/-77.5/-31.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15050026-H13-10: Survey year (1972-1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15050026-H16-01: Invalid Number of Ten Degree Identifiers: (16) [17]
+Y-W-15050026-H16-06: Ten Degree Identifier 5718 not marked in header but block was crossed
+Y-W-15050026-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15050026-depth-01: RLS m: 1.00388 b: 0 rms: 112.409 r: 0.997443 sig: 1 dec: 1
+Y-E-15050026-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.976498 b: -160.587 rms: 198.217 r: 0.883736 sig: 1 dec: 1). [Recompute]
+Y-W-15050026-mtf1-12: Integer multiple of 5 precision
+Y-W-15050026-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050026	1973-01-23T14:55:00.00	4956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-23T23:10:00.00	5055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-23T23:15:00.00	5056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-23T23:20:00.00	5057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-23T23:35:00.00	5060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-24T01:10:00.00	5079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-24T01:30:00.00	5083	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-24T04:15:00.00	5116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-24T05:10:00.00	5127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050026	1973-01-24T05:15:00.00	5128	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15050026	1973-02-19T03:00:00.00	7861	C-0-0	 NAV: excessive speed
+Y	15050026	1973-02-19T03:05:00.00	7862	C-0-0	 NAV: excessive speed
+Y	15050026	1973-02-19T03:10:00.00	7863	C-0-0	 NAV: excessive speed

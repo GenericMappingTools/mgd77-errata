@@ -1,0 +1,44 @@
+# Cruise 15040079 ID INDP12WT MGD77 FILE VERSION: 19851028 N_RECS: 4770
+# Examined: Fri May 23 09:49:11 2008 by mtchandl
+# Arguments:  -R94.4/100.3/-1/7.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040079-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15040079-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-15040079-H16-06: Ten Degree Identifier 1010 marked in header but was not crossed
+Y-W-15040079-H16-06: Ten Degree Identifier 3009 not marked in header but block was crossed
+Y-W-15040079-H16-06: Ten Degree Identifier 3010 not marked in header but block was crossed
+Y-W-15040079-nav-00: Flagged 0.40 % of records with excessive speed or invalid navigation
+Y-I-15040079-depth-01: RLS m: 1.00388 b: 0 rms: 139.845 r: 0.99544 sig: 1 dec: 1
+Y-I-15040079-faa-01: RLS m: 1.00456 b: -2.31646 rms: 8.12621 r: 0.990628 sig: 1 dec: 1
+Y-W-15040079-faa-03: Regression offset -2.31646 different from 0.
+Y-E-15040079-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.832633 b: -200.37 rms: 203.495 r: 0.928896 sig: 1 dec: 1). [Recompute]
+Y-W-15040079-mag-09: only found negative values
+Y-W-15040079-twt-11: More recent bathymetry correction table available
+Y-W-15040079-mtf1-12: Integer precision
+Y-W-15040079-mag-12: Integer precision
+# Errata: Data
+Y	15040079	1977-03-26T02:20:00.00	483	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:25:00.00	484	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:30:00.00	485	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:35:00.00	486	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:40:00.00	487	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:45:00.00	488	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:50:00.00	489	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T02:55:00.00	490	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:00:00.00	491	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:05:00.00	492	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:10:00.00	493	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:15:00.00	494	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:20:00.00	495	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:25:00.00	496	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:30:00.00	497	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:35:00.00	498	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T03:40:00.00	499	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T04:20:00.00	507	D-0-0	 NAV: on land
+Y	15040079	1977-03-26T04:25:00.00	508	D-0-0	 NAV: on land
+?	15040079	1977-03-26T06:00:00.00	527	0-0-OQ	 GRAD: mtf1, mag excessive

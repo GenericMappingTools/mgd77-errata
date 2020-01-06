@@ -1,0 +1,17 @@
+# Cruise 23060035 ID ODP131JR MGD77 FILE VERSION: 19910830 N_RECS: 5134
+# Examined: Tue Oct 19 15:26:13 2010 by mtchandl
+# Arguments:  -R129.05/144.45/13.8/35.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-23060035-depth-01: RLS m: 0.999222 b: 0 rms: 23.3509 r: 0.999914 sig: 1 dec: 0
+N-E-23060035-depth-02: Regression slope 0.999222 different from 1. Recommended: [1]
+Y-E-23060035-mag-07: Anomaly differs from mtf1-IGRF (m: 0.968456 b: -3.59217 rms: 6.17734 r: 0.995565 sig: 1 dec: 0). [Recompute]
+Y-W-23060035-twt-11: More recent bathymetry correction table available
+Y-W-23060035-depth-12: Integer precision
+Y-W-23060035-mtf1-12: Integer precision
+# Errata: Data
+?	23060035	1990-03-31T04:55:00.00	336	0-0-K	 GRAD: twt excessive

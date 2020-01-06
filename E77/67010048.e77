@@ -1,0 +1,64 @@
+# Cruise 67010048 ID 73003121 MGD77 FILE VERSION: 19920924 N_RECS: 19272
+# Examined: Mon Nov  7 15:54:42 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010048-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-67010048-depth-01: RLS m: 0.965689 b: 0 rms: 111.813 r: 0.999482 sig: 1 dec: 0
+N-E-67010048-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-I-67010048-faa-01: RLS m: 0.98309 b: 17.557 rms: 19.0722 r: 0.975465 sig: 1 dec: 0
+N-E-67010048-faa-02: Regression slope 0.98309 different from 1. Recommended: [1]
+Y-W-67010048-faa-03: Regression offset 17.557 different from 0.
+Y-I-67010048-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010048-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.980793 b: -35.8293 rms: 37.4584 r: 0.983047 sig: 1 dec: 0). [Recompute]
+Y-E-67010048-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999676 b: -7.12104 rms: 16.9131 r: 0.997385 sig: 1 dec: 1). [Recompute]
+Y-W-67010048-depth-12: Integer precision
+Y-W-67010048-mtf1-12: Integer precision
+Y-W-67010048-mag-12: Integer precision
+# Errata: Data
+Y	67010048	1973-12-04T21:53:00.00	53	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:54:00.00	54	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:55:00.00	55	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:56:00.00	56	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:57:00.00	57	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:58:00.00	58	D-0-0	 NAV: on land
+Y	67010048	1973-12-04T21:59:00.00	59	D-0-0	 NAV: on land
+Y	67010048	1973-12-05T01:24:00.00	204	D-0-0	 NAV: on land
+Y	67010048	1973-12-05T01:25:00.00	205	D-0-0	 NAV: on land
+?	67010048	1973-12-05T01:26:00.00	206	D-0-0	 NAV: on land
+?	67010048	1973-12-08T13:54:00.00	4706	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010048	1973-12-10T16:10:00.00	6178	0-0-KL	 GRAD: twt, depth excessive
+?	67010048	1973-12-11T03:13:00.00	6601	0-0-K	 GRAD: twt excessive
+?	67010048	1973-12-11T03:14:00.00	6602	0-0-K	 GRAD: twt excessive
+?	67010048	1973-12-12T08:34:00.00	8002	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010048	1973-12-12T12:28:00.00	8236	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010048	1973-12-12T19:48:00.00	8676	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010048	1973-12-12T20:52:00.00	8740	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010048	1973-12-17T08:01:00.00	14214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:02:00.00	14215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:03:00.00	14216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:04:00.00	14217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:05:00.00	14218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:06:00.00	14219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:07:00.00	14220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:08:00.00	14221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:11:00.00	14224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:12:00.00	14225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:13:00.00	14226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:14:00.00	14227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:15:00.00	14228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:16:00.00	14229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:17:00.00	14230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:18:00.00	14231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:23:00.00	14236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:24:00.00	14237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:29:00.00	14242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:30:00.00	14243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:31:00.00	14244	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:32:00.00	14245	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:41:00.00	14254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010048	1973-12-17T08:42:00.00	14255	0-0-OQ	 GRAD: mtf1, mag excessive

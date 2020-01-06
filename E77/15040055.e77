@@ -1,0 +1,30 @@
+# Cruise 15040055 ID TSDY03WT MGD77 FILE VERSION: 19830819 N_RECS: 4637
+# Examined: Thu May 22 09:45:40 2008 by mtchandl
+# Arguments:  -R140.85/202.15/21.25/33.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-W-15040055-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040055-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15040055-depth-01: RLS m: 1 b: 0 rms: 144.168 r: 0.996413 sig: 1 dec: 1
+Y-E-15040055-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.957857 b: -13.9742 rms: 46.2401 r: 0.977214 sig: 1 dec: 1). [Recompute]
+N-E-15040055-depth-08: Extended offset from grid [4485-4524]
+Y-E-15040055-twt-13: Encountered possible PDR wrap errors (9.8) [10.0]
+Y-W-15040055-twt-11: More recent bathymetry correction table available
+Y-W-15040055-mtf1-12: Integer precision
+Y-W-15040055-mag-12: Integer precision
+# Errata: Data
+Y	15040055	1973-07-21T04:30:00.00	1	D-0-0	 NAV: on land
+?	15040055	1973-07-27T03:00:00.00	1711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040055	1973-07-27T03:05:00.00	1712	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040055	1973-07-27T03:10:00.00	1713	0-Q-0	 VAL: mag invalid
+?	15040055	1973-07-27T03:40:00.00	1719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040055	1973-07-27T03:45:00.00	1720	0-0-K	 GRAD: twt excessive
+?	15040055	1973-07-27T04:05:00.00	1724	0-0-K	 GRAD: twt excessive
+?	15040055	1973-07-27T11:25:00.00	1812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040055	1973-08-05T18:35:00.00	4488	0-0-KL	 GRAD: twt, depth excessive
+?	15040055	1973-08-05T18:50:00.00	4491	0-0-KL	 GRAD: twt, depth excessive
+?	15040055	1973-08-05T19:00:00.00	4493	0-0-KL	 GRAD: twt, depth excessive

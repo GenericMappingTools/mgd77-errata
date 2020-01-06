@@ -1,0 +1,81 @@
+# Cruise J2010009 ID GH7703 MGD77 FILE VERSION: 19810916 N_RECS: 5785
+# Examined: Sun Aug  7 07:54:34 2011 by mtchandl
+# Arguments:  -R136.15/147.4/37.9/47.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged excessive gradients to remove outliers, recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010009-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-J2010009-depth-01: RLS m: 0.999546 b: 0 rms: 10.0447 r: 0.999969 sig: 1 dec: 0
+N-E-J2010009-depth-02: Regression slope 0.999546 different from 1. Recommended: [1]
+Y-I-J2010009-faa-01: RLS m: 0.97225 b: -1.22215 rms: 5.1854 r: 0.981102 sig: 1 dec: 0
+N-E-J2010009-faa-02: Regression slope 0.97225 different from 1. Recommended: [1]
+Y-W-J2010009-faa-03: Regression offset -1.22215 different from 0.
+N-E-J2010009-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-J2010009-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00385 b: -204.658 rms: 207.513 r: 0.982698 sig: 1 dec: 1). [Recompute]
+N-E-J2010009-twt-13: Encountered possible PDR wrap errors (7.7) [10.0]
+Y-W-J2010009-twt-11: More recent bathymetry correction table available
+Y-W-J2010009-depth-12: Integer precision
+Y-W-J2010009-mtf1-12: Integer precision
+Y-W-J2010009-mag-12: Integer precision
+# Errata: Data
+Y	J2010009	1977-06-15T22:25:00.00	33	C-0-0	 NAV: excessive speed
+Y	J2010009	1977-06-16T19:15:00.00	283	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-16T19:20:00.00	284	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-17T15:10:00.00	515	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-17T15:20:00.00	517	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-18T04:15:00.00	672	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	J2010009	1977-06-18T04:20:00.00	673	0-M-0	 VAL: bcc invalid
+?	J2010009	1977-06-18T04:25:00.00	674	0-M-0	 VAL: bcc invalid
+?	J2010009	1977-06-18T04:30:00.00	675	0-M-0	 VAL: bcc invalid
+?	J2010009	1977-06-18T04:35:00.00	676	0-M-0	 VAL: bcc invalid
+Y	J2010009	1977-06-18T04:40:00.00	677	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-18T07:45:00.00	714	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+Y	J2010009	1977-06-18T07:50:00.00	715	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-20T00:45:00.00	1185	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-20T00:55:00.00	1187	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-20T01:30:00.00	1194	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-20T01:35:00.00	1195	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-21T04:40:00.00	1505	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+Y	J2010009	1977-06-21T04:45:00.00	1506	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-21T05:25:00.00	1514	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-21T07:15:00.00	1525	0-M-0	 VAL: bcc invalid
+Y	J2010009	1977-06-21T08:35:00.00	1540	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-21T08:40:00.00	1541	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-06-22T06:05:00.00	1797	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-22T06:35:00.00	1803	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-22T23:35:00.00	2007	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-22T23:40:00.00	2008	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-27T10:00:00.00	2526	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-27T10:05:00.00	2527	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-27T10:50:00.00	2536	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-28T06:10:00.00	2768	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-28T10:00:00.00	2814	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-29T15:00:00.00	3160	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-29T15:15:00.00	3163	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-29T20:15:00.00	3223	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-29T20:20:00.00	3224	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-06-29T23:55:00.00	3267	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010009	1977-07-01T03:20:00.00	3596	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-01T03:25:00.00	3597	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-01T05:30:00.00	3622	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-01T15:25:00.00	3741	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-01T15:35:00.00	3743	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-02T02:05:00.00	3869	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-02T02:10:00.00	3870	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-02T03:30:00.00	3886	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-02T03:35:00.00	3887	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-02T04:25:00.00	3897	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010009	1977-07-03T04:00:00.00	4179	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010009	1977-07-04T04:25:00.00	4472	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010009	1977-07-04T19:25:00.00	4652	0-0-K	 GRAD: twt excessive
+Y	J2010009	1977-07-06T03:55:00.00	4957	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-06T09:25:00.00	5014	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-06T09:30:00.00	5015	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010009	1977-07-07T04:05:00.00	5238	0-0-K	 GRAD: twt excessive
+Y	J2010009	1977-07-09T01:25:00.00	5782	D-0-0	 NAV: on land
+Y	J2010009	1977-07-09T01:30:00.00	5783	D-0-0	 NAV: on land
+Y	J2010009	1977-07-09T01:35:00.00	5784	D-0-0	 NAV: on land
+Y	J2010009	1977-07-09T01:45:00.00	5785	D-0-0	 NAV: on land

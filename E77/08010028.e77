@@ -1,0 +1,81 @@
+# Cruise 08010028 ID 74010904 MGD77 FILE VERSION: 19830518 N_RECS: 6244
+# Examined: Mon Jul 26 15:54:58 2010 by mtchandl
+# Arguments:  -R250.7/288.2/-33.25/-24.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010028-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-08010028-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010028-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010028-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010028-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-08010028-depth-01: RLS m: 1 b: 0 rms: 37.7672 r: 0.998886 sig: 1 dec: 0
+Y-I-08010028-faa-01: RLS m: 1.00412 b: 0.501708 rms: 7.14143 r: 0.996167 sig: 1 dec: 1
+Y-E-08010028-mag-07: Anomaly differs from mtf1-IGRF (m: 0.96537 b: -142.084 rms: 160.001 r: 0.938971 sig: 1 dec: 0). [Recompute]
+Y-W-08010028-twt-11: More recent bathymetry correction table available
+Y-W-08010028-mtf1-12: Integer precision
+Y-W-08010028-mag-12: Integer precision
+Y-W-08010028-faa-12: Integer precision
+# Errata: Data
+?	08010028	1974-05-11T03:03:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:04:00.00	5	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:08:00.00	9	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:09:00.00	10	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:10:00.00	11	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:11:00.00	12	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:12:00.00	13	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:13:00.00	15	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:14:00.00	16	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:15:00.00	18	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:16:00.00	22	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:21:00.00	28	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:22:00.00	30	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:23:00.00	31	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:24:00.00	33	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:25:00.00	34	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:26:00.00	35	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:27:00.00	39	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:28:00.00	41	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:29:00.00	42	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:30:00.00	43	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:31:00.00	44	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:32:00.00	45	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:33:00.00	47	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:34:00.00	48	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:35:00.00	50	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:36:00.00	51	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:37:00.00	52	0-Q-0	 VAL: mag invalid
+?	08010028	1974-05-11T03:38:00.00	53	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:39:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:40:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:41:00.00	56	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:42:00.00	57	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:43:00.00	58	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T03:45:00.00	61	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T18:25:00.00	503	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010028	1974-05-11T18:29:00.00	506	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-12T06:02:38.04	847	0-0-K	 GRAD: twt excessive
+?	08010028	1974-05-13T09:00:12.96	1572	0-0-KL	 GRAD: twt, depth excessive
+?	08010028	1974-05-14T07:30:03.96	2152	0-0-KL	 GRAD: twt, depth excessive
+?	08010028	1974-05-16T19:51:00.00	3786	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010028	1974-05-17T08:31:05.94	4056	C-0-0	 NAV: excessive speed
+?	08010028	1974-05-20T10:39:00.00	5619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:42:00.00	5621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:43:00.00	5622	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:44:00.00	5623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:45:00.00	5624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:46:00.00	5625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:47:00.00	5626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:48:00.00	5627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:49:00.00	5628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T10:56:00.00	5636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:04:00.00	5640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:05:00.00	5641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:06:00.00	5642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:07:00.00	5643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:10:00.00	5645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T11:11:00.00	5646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010028	1974-05-20T12:02:00.00	5665	0-0-KL	 GRAD: twt, depth excessive

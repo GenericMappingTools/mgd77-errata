@@ -1,0 +1,45 @@
+# Cruise 15040011 ID ERDC03WT MGD77 FILE VERSION: 19830819 N_RECS: 7466
+# Examined: Wed May 21 11:24:13 2008 by mtchandl
+# Arguments:  -R166.4/189.65/-23.5/-12.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040011-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040011-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-I-15040011-depth-01: RLS m: 0.996125 b: 0 rms: 203.903 r: 0.991443 sig: 1 dec: 1
+Y-E-15040011-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.998373 b: 58.2263 rms: 60.0682 r: 0.999001 sig: 1 dec: 1). [Recompute]
+Y-W-15040011-twt-11: More recent bathymetry correction table available
+Y-W-15040011-mtf1-12: Integer precision
+Y-W-15040011-mag-12: Integer precision
+# Errata: Data
+Y	15040011	1974-11-04T23:20:00.00	1	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:25:00.00	2	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:30:00.00	3	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:35:00.00	4	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:40:00.00	5	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:45:00.00	6	D-0-0	 NAV: on land
+Y	15040011	1974-11-04T23:50:00.00	7	D-0-0	 NAV: on land
+?	15040011	1974-11-05T07:30:00.00	99	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040011	1974-11-05T07:40:00.00	101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-08T03:10:00.00	911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-09T19:15:00.00	1392	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-10T22:25:00.00	1718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-13T20:30:00.00	2559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-13T22:40:00.00	2585	0-0-Q	 GRAD: mag excessive
+?	15040011	1974-11-18T03:50:00.00	3799	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-18T03:55:00.00	3800	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-18T04:00:00.00	3801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-18T04:50:00.00	3811	0-Q-0	 VAL: mag invalid
+?	15040011	1974-11-18T04:55:00.00	3812	0-Q-0	 VAL: mag invalid
+?	15040011	1974-11-18T05:00:00.00	3813	0-Q-0	 VAL: mag invalid
+?	15040011	1974-11-22T07:35:00.00	4996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-22T07:40:00.00	4997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-22T07:50:00.00	4999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-22T15:55:00.00	5096	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-23T04:25:00.00	5246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-23T11:00:00.00	5325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-23T16:30:00.00	5391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040011	1974-11-26T07:50:00.00	6151	0-0-K	 GRAD: twt excessive

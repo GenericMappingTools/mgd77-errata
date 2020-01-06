@@ -1,0 +1,154 @@
+# Cruise 07270002 ID YUCAT1-3 MGD77 FILE VERSION: 19881130 N_RECS: 14048
+# Examined: Mon Jul 26 15:38:40 2010 by mtchandl
+# Arguments:  -R267.2/273.8/19.75/25.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+N-E-07270002-H04-03: Invalid Survey Departure Day: (24) [28]
+Y-W-07270002-H13-09: Unknown IGRF specified ( IGRF85)
+Y-W-07270002-nav-00: Flagged 0.91 % of records with bad navigation
+Y-I-07270002-depth-01: RLS m: 1 b: 0 rms: 2.10945 r: 0.999995 sig: 1 dec: 0
+Y-I-07270002-faa-01: RLS m: 1.00187 b: -1.26526 rms: 2.69828 r: 0.997837 sig: 1 dec: 0
+N-E-07270002-faa-02: Regression slope 1.00187 different from 1. Recommended: [1]
+Y-W-07270002-faa-03: Regression offset -1.26526 different from 0.
+N-E-07270002-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999338 b: 0.87002 rms: 0.85695 r: 0.999999 sig: 1 dec: 0). [Recompute]
+N-E-07270002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.989238 b: 0.81292 rms: 3.19805 r: 0.996091 sig: 1 dec: 0). [Recompute]
+Y-E-07270002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.986946 b: -46.879 rms: 54.5992 r: 0.989744 sig: 1 dec: 1). [Recompute]
+Y-W-07270002-mtf1-12: Integer precision
+# Errata: Data
+?	07270002	1985-04-04T10:15:00.00	1745	0-0-KL	 GRAD: twt, depth excessive
+Y	07270002	1985-04-06T01:45:00.00	2580	C-0-0	 NAV: excessive speed
+Y	07270002	1985-04-06T01:48:00.00	2581	C-0-0	 NAV: excessive speed
+Y	07270002	1985-04-06T01:51:00.00	2582	C-0-0	 NAV: excessive speed
+Y	07270002	1985-04-06T01:54:00.00	2583	C-0-0	 NAV: excessive speed
+?	07270002	1985-04-06T15:22:00.00	2861	0-0-KL	 GRAD: twt, depth excessive
+?	07270002	1985-04-19T00:42:00.00	4844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07270002	1985-04-25T07:41:00.00	7917	0-0-K	 GRAD: twt excessive
+Y	07270002	1985-05-15T07:57:00.00	9707	C-0-0	 NAV: excessive speed
+Y	07270002	1985-05-15T08:00:00.00	9708	C-0-0	 NAV: excessive speed
+Y	07270002	1985-05-15T08:03:00.00	9709	C-0-0	 NAV: excessive speed
+Y	07270002	1985-05-15T08:06:00.00	9710	C-0-0	 NAV: excessive speed
+?	07270002	1985-05-16T01:39:00.00	10098	0-0-K	 GRAD: twt excessive
+Y	07270002	1985-05-24T07:30:00.00	13928	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:33:00.00	13929	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:36:00.00	13930	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:39:00.00	13931	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:42:00.00	13932	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:45:00.00	13933	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:48:00.00	13934	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:51:00.00	13935	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:54:00.00	13936	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T07:57:00.00	13937	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:00:00.00	13938	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:03:00.00	13939	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:06:00.00	13940	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:09:00.00	13941	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:12:00.00	13942	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:15:00.00	13943	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:18:00.00	13944	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:21:00.00	13945	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:24:00.00	13946	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:27:00.00	13947	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:30:00.00	13948	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:33:00.00	13949	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:36:00.00	13950	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:39:00.00	13951	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:42:00.00	13952	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:45:00.00	13953	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:48:00.00	13954	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:51:00.00	13955	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:54:00.00	13956	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T08:57:00.00	13957	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:00:00.00	13958	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:03:00.00	13959	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:06:00.00	13960	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:09:00.00	13961	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:12:00.00	13962	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:15:00.00	13963	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:18:00.00	13964	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:21:00.00	13965	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:24:00.00	13966	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:27:00.00	13967	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:30:00.00	13968	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:33:00.00	13969	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:36:00.00	13970	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:39:00.00	13971	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:42:00.00	13972	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:45:00.00	13973	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:48:00.00	13974	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:51:00.00	13975	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:54:00.00	13976	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T09:57:00.00	13977	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:00:00.00	13978	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:03:00.00	13979	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:06:00.00	13980	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:09:00.00	13981	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:12:00.00	13982	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:15:00.00	13983	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:18:00.00	13984	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:21:00.00	13985	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:24:00.00	13986	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:27:00.00	13987	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:30:00.00	13988	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:33:00.00	13989	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:36:00.00	13990	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:39:00.00	13991	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:42:00.00	13992	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:45:00.00	13993	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:48:00.00	13994	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:51:00.00	13995	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:54:00.00	13996	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T10:57:00.00	13997	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:00:00.00	13998	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:03:00.00	13999	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:06:00.00	14000	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:09:00.00	14001	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:12:00.00	14002	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:15:00.00	14003	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:18:00.00	14004	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:21:00.00	14005	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:24:00.00	14006	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:27:00.00	14007	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:30:00.00	14008	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:33:00.00	14009	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:36:00.00	14010	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:39:00.00	14011	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:42:00.00	14012	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:45:00.00	14013	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:48:00.00	14014	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:51:00.00	14015	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:54:00.00	14016	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T11:57:00.00	14017	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:00:00.00	14018	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:03:00.00	14019	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:06:00.00	14020	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:09:00.00	14021	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:12:00.00	14022	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:15:00.00	14023	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:18:00.00	14024	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:21:00.00	14025	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:24:00.00	14026	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:27:00.00	14027	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:30:00.00	14028	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:33:00.00	14029	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:36:00.00	14030	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:39:00.00	14031	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:42:00.00	14032	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:45:00.00	14033	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:48:00.00	14034	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:51:00.00	14035	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:54:00.00	14036	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T12:57:00.00	14037	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:00:00.00	14038	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:03:00.00	14039	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:06:00.00	14040	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:09:00.00	14041	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:12:00.00	14042	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:15:00.00	14043	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:18:00.00	14044	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:21:00.00	14045	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:24:00.00	14046	B-0-0	 NAV: non-increasing time
+Y	07270002	1985-05-24T13:27:00.00	14047	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,37 @@
+# Cruise J1020033 ID HS850517 MGD77 FILE VERSION: 19921231 N_RECS: 24456
+# Examined: Sat Aug  6 11:40:53 2011 by mtchandl
+# Arguments:  -R138.2/140.05/29.6/30.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive depth offset flags to remove outliers.
+# Errata: Header
+Y-I-J1020033-depth-01: RLS m: 0.998256 b: 0 rms: 34.0829 r: 0.998858 sig: 1 dec: 0
+N-E-J1020033-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+Y-I-J1020033-faa-01: RLS m: 1.01562 b: -7.35207 rms: 7.64 r: 0.986394 sig: 1 dec: 0
+N-E-J1020033-faa-02: Regression slope 1.01562 different from 1. Recommended: [1]
+Y-W-J1020033-faa-03: Regression offset -7.35207 different from 0.
+Y-I-J1020033-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020033-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.331193 b: 39.7842 rms: 53.406 r: 0.555017 sig: 1 dec: 1). [Recompute]
+N-E-J1020033-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.722656 b: -3.73902 rms: 34.6873 r: 0.82961 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-J1020033-depth-12: Integer precision
+# Errata: Data
+Y	J1020033	1985-05-17T17:00:00.00	560	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-20T23:30:00.00	4621	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-21T16:50:00.00	5591	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-21T16:55:00.00	5596	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-21T22:25:00.00	5887	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-21T22:30:00.00	5892	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-22T01:45:00.00	6086	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-22T01:50:00.00	6091	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-22T23:45:00.00	7157	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-22T23:50:00.00	7162	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-24T08:45:00.00	9019	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-24T22:45:00.00	9650	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-05-24T22:55:00.00	9660	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-06-15T14:00:00.00	21446	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-06-15T14:15:00.00	21449	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-06-16T15:35:00.00	22369	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-06-17T10:40:00.00	23203	0-0-L	 GRAD: depth excessive
+Y	J1020033	1985-06-17T10:45:00.00	23208	0-0-L	 GRAD: depth excessive

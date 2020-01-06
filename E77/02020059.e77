@@ -1,0 +1,75 @@
+# Cruise 02020059 ID A2092L02 MGD77 FILE VERSION: 19820805 N_RECS: 16287
+# Examined: Fri Apr  2 14:42:22 2010 by mtchandl
+# Arguments:  -R290.45/317/22.35/42.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020059-depth-01: RLS m: 0.998019 b: 0 rms: 78.2814 r: 0.996608 sig: 1 dec: 0
+N-E-02020059-depth-02: Regression slope 0.998019 different from 1. Recommended: [1]
+Y-I-02020059-faa-01: RLS m: 1.01993 b: 5.2677 rms: 10.0362 r: 0.983708 sig: 1 dec: 1
+Y-W-02020059-faa-03: Regression offset 5.2677 different from 0.
+Y-I-02020059-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020059-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.259936 b: 2.84488 rms: 47.5936 r: 0.551173 sig: 1 dec: 1). [Recompute]
+Y-E-02020059-mag-07: Anomaly differs from mtf1-IGRF (m: 0.907522 b: -469.017 rms: 479.134 r: 0.839949 sig: 1 dec: 1). [Recompute]
+Y-W-02020059-twt-11: More recent bathymetry correction table available
+Y-W-02020059-mtf1-12: Integer precision
+Y-W-02020059-mag-12: Integer precision
+# Errata: Data
+?	02020059	1975-09-18T00:57:00.00	1455	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-18T04:43:00.00	1560	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-18T11:46:00.00	1772	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-09-19T07:05:00.00	2316	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-19T11:26:00.00	2437	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-09-20T04:10:00.00	2932	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-09-22T11:21:00.00	4542	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-23T20:46:00.00	5642	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-09-24T04:24:00.00	5884	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-24T10:03:00.00	6065	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-24T10:35:00.00	6081	0-0-V	 GRAD: eot excessive
+?	02020059	1975-09-24T11:55:00.00	6129	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-24T15:20:00.00	6184	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-24T22:10:00.00	6288	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-25T19:50:00.00	6609	0-0-V	 GRAD: eot excessive
+?	02020059	1975-09-27T03:35:00.00	7291	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-09-27T19:15:00.00	7556	0-0-V	 GRAD: eot excessive
+?	02020059	1975-09-29T15:51:00.00	8236	0-0-K	 GRAD: twt excessive
+?	02020059	1975-09-30T17:35:00.00	8624	0-0-V	 GRAD: eot excessive
+?	02020059	1975-09-30T17:50:00.00	8629	0-0-V	 GRAD: eot excessive
+?	02020059	1975-09-30T21:51:00.00	8704	0-0-K	 GRAD: twt excessive
+?	02020059	1975-10-01T08:25:00.00	8854	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-01T18:25:00.00	9015	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-01T19:20:00.00	9039	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-01T23:45:00.00	9170	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-02T01:31:00.00	9221	0-0-K	 GRAD: twt excessive
+?	02020059	1975-10-02T02:25:00.00	9249	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-02T15:35:00.00	9523	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-04T08:00:00.00	10229	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-04T08:21:00.00	10241	0-0-K	 GRAD: twt excessive
+?	02020059	1975-10-04T09:01:00.00	10266	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-10-05T05:30:00.00	10892	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-05T08:14:00.00	11000	0-0-K	 GRAD: twt excessive
+?	02020059	1975-10-05T15:45:00.00	11297	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-05T16:40:00.00	11324	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-05T18:56:00.00	11353	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-10-05T19:06:00.00	11360	0-0-KL	 GRAD: twt, depth excessive
+?	02020059	1975-10-05T19:45:00.00	11382	0-0-V	 GRAD: eot excessive
+?	02020059	1975-10-11T21:03:00.00	15562	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:05:00.00	15564	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:08:00.00	15566	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:10:00.00	15568	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:13:00.00	15570	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:15:00.00	15572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020059	1975-10-11T21:18:00.00	15573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020059	1975-10-11T21:20:00.00	15574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020059	1975-10-11T21:33:00.00	15584	0-0-Q	 GRAD: mag excessive
+?	02020059	1975-10-11T21:35:00.00	15585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020059	1975-10-11T21:38:00.00	15586	0-0-Q	 GRAD: mag excessive
+?	02020059	1975-10-11T21:40:00.00	15587	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:43:00.00	15588	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:45:00.00	15589	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:48:00.00	15590	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:50:00.00	15591	0-Q-0	 VAL: mag invalid
+?	02020059	1975-10-11T21:53:00.00	15593	0-Q-0	 VAL: mag invalid

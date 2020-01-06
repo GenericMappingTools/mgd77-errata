@@ -1,0 +1,26 @@
+# Cruise 09780042 ID WI330481 MGD77 FILE VERSION: 19830818 N_RECS: 24658
+# Examined: Mon Aug 16 17:03:29 2010 by mtchandl
+# Arguments:  -R41.55/60.5/-3.05/25.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09780042-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-09780042-depth-01: RLS m: 1.00094 b: 0 rms: 8.76068 r: 0.99997 sig: 1 dec: 0
+N-E-09780042-depth-02: Regression slope 1.00094 different from 1. Recommended: [1]
+Y-W-09780042-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	09780042	1981-04-05T08:47:00.00	5843	0-0-KL	 GRAD: twt, depth excessive
+?	09780042	1981-04-05T08:54:00.00	5850	0-0-KL	 GRAD: twt, depth excessive
+Y	09780042	1981-04-16T00:01:00.00	9405	C-0-0	 NAV: excessive speed
+Y	09780042	1981-04-16T00:02:00.00	9406	C-0-0	 NAV: excessive speed
+?	09780042	1981-04-28T16:57:00.00	14931	0-0-KL	 GRAD: twt, depth excessive
+?	09780042	1981-05-02T00:15:00.00	18042	0-0-KL	 GRAD: twt, depth excessive
+?	09780042	1981-05-02T00:30:00.00	18057	0-0-KL	 GRAD: twt, depth excessive
+?	09780042	1981-05-02T10:45:00.00	18672	0-0-K	 GRAD: twt excessive
+?	09780042	1981-05-02T10:47:00.00	18674	0-0-K	 GRAD: twt excessive
+?	09780042	1981-05-03T12:56:00.00	20242	0-0-K	 GRAD: twt excessive
+Y	09780042	1981-05-04T22:05:00.00	22104	C-0-0	 NAV: excessive speed
+Y	09780042	1981-05-04T22:06:00.00	22105	C-0-0	 NAV: excessive speed

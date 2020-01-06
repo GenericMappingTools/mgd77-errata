@@ -1,0 +1,95 @@
+# Cruise 06780066 ID FARN0691 MGD77 FILE VERSION: 19941231 N_RECS: 13628
+# Examined: Fri Jul 16 16:52:37 2010 by mtchandl
+# Arguments:  -R177.7/195.6/24.8/31 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged gravity outliers, flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06780066-depth-01: RLS m: 1.00035 b: 0 rms: 27.4135 r: 0.999441 sig: 1 dec: 0
+Y-I-06780066-faa-01: RLS m: 0.978992 b: -0.26077 rms: 2.5496 r: 0.998148 sig: 1 dec: 0
+N-E-06780066-faa-02: Regression slope 0.978992 different from 1. Recommended: [1]
+Y-W-06780066-faa-03: Regression offset -0.26077 different from 0.
+Y-E-06780066-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00478 b: 89.4278 rms: 93.1733 r: 0.997821 sig: 1 dec: 1). [Recompute]
+Y-E-06780066-faa-10: Invalid data records: [8108-8340]
+Y-W-06780066-depth-12: Integer precision
+Y-W-06780066-mtf1-12: Integer precision
+Y-W-06780066-mag-12: Integer precision
+Y-W-06780066-faa-12: Integer precision
+# Errata: Data
+?	06780066	1991-05-30T19:00:00.00	5000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-05-30T19:02:00.00	5001	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780066	1991-05-30T19:04:00.00	5002	0-Q-0	 VAL: mag invalid
+?	06780066	1991-05-30T19:06:00.00	5003	0-Q-0	 VAL: mag invalid
+?	06780066	1991-05-30T19:08:00.00	5004	0-Q-0	 VAL: mag invalid
+?	06780066	1991-05-30T19:10:00.00	5005	0-Q-0	 VAL: mag invalid
+?	06780066	1991-05-30T19:12:00.00	5006	0-Q-0	 VAL: mag invalid
+?	06780066	1991-05-30T19:22:00.00	5011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-05-30T19:24:00.00	5012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-05-30T19:26:00.00	5013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-05-30T19:28:00.00	5014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-01T17:42:00.00	6401	0-0-KL	 GRAD: twt, depth excessive
+?	06780066	1991-06-01T17:48:00.00	6404	0-0-KL	 GRAD: twt, depth excessive
+?	06780066	1991-06-02T21:48:00.00	7244	0-Q-O	 VAL: mag invalid - GRAD: mtf1 excessive
+?	06780066	1991-06-02T21:50:00.00	7245	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T21:52:00.00	7246	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-02T21:54:00.00	7247	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-02T21:56:00.00	7248	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T21:58:00.00	7249	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-02T22:00:00.00	7250	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T22:02:00.00	7251	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T22:04:00.00	7252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T22:06:00.00	7253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T22:08:00.00	7254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-02T22:10:00.00	7255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T00:30:00.00	8045	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T00:44:00.00	8052	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:46:00.00	8053	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:48:00.00	8054	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:50:00.00	8055	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:52:00.00	8056	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:54:00.00	8057	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:56:00.00	8058	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T00:58:00.00	8059	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-04T02:34:00.00	8107	0-0-W	 GRAD: faa excessive
+?	06780066	1991-06-04T02:46:00.00	8113	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T02:48:00.00	8114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T02:50:00.00	8115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T02:52:00.00	8116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T02:54:00.00	8117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T02:56:00.00	8118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:06:00.00	8123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:08:00.00	8124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:10:00.00	8125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:12:00.00	8126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:14:00.00	8127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:16:00.00	8128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-04T03:18:00.00	8129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:04:00.00	9712	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:06:00.00	9713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:08:00.00	9714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:10:00.00	9715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:12:00.00	9716	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:14:00.00	9717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T08:16:00.00	9718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T09:34:00.00	9757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T09:36:00.00	9758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T09:38:00.00	9759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T09:40:00.00	9760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-06T09:42:00.00	9761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-09T07:54:00.00	11867	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T07:56:00.00	11868	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T07:58:00.00	11869	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:00:00.00	11870	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:02:00.00	11871	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:04:00.00	11872	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:06:00.00	11873	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:08:00.00	11874	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:10:00.00	11875	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:12:00.00	11876	0-Q-0	 VAL: mag invalid
+?	06780066	1991-06-09T08:16:00.00	11878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-09T08:18:00.00	11879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-09T08:20:00.00	11880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-09T08:22:00.00	11881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780066	1991-06-09T08:24:00.00	11882	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,17 @@
+# Cruise 09100014 ID KEA08-68 MGD77 FILE VERSION: 19790329 N_RECS: 6447
+# Examined: Mon Aug  9 12:11:52 2010 by mtchandl
+# Arguments:  -R278.75/281/28.2/31.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry appear to be reported in fathoms rather than meters, recommend scaling by 1.8288.
+# Errata: Header
+Y-I-09100014-depth-01: RLS m: 0.529004 b: 0 rms: 203.531 r: 0.99989 sig: 1 dec: 0
+Y-E-09100014-depth-02: Regression slope 0.529004 different from 1. Recommended: [1.8288]
+Y-I-09100014-faa-01: RLS m: 0.992904 b: -0.697323 rms: 2.97766 r: 0.986697 sig: 1 dec: 0
+N-E-09100014-faa-02: Regression slope 0.992904 different from 1. Recommended: [1]
+Y-W-09100014-faa-03: Regression offset -0.697323 different from 0.
+Y-E-09100014-depth-08: Extended offset from grid [1-6447]
+Y-W-09100014-depth-12: Integer precision
+# Errata: Data

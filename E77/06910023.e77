@@ -1,0 +1,22 @@
+# Cruise 06910023 ID P1285AG MGD77 FILE VERSION: 19881202 N_RECS: 5516
+# Examined: Fri Jul 16 17:14:38 2010 by mtchandl
+# Arguments:  -R296.95/299/16.8/17.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry data appear to be unprocessed. When predicted bathymetry > ~1000 m, reported depths tend to be close to zero, suggesting the use of an under-powered fathometer. Poor bottom tracking, flagged all depth data. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-I-06910023-depth-01: RLS m: 1.0035 b: 0 rms: 83.0247 r: 0.971624 sig: 1 dec: 0
+Y-I-06910023-faa-01: RLS m: 0.985079 b: 3.3237 rms: 5.38352 r: 0.996285 sig: 1 dec: 0
+N-E-06910023-faa-02: Regression slope 0.985079 different from 1. Recommended: [1]
+Y-W-06910023-faa-03: Regression offset 3.3237 different from 0.
+Y-I-06910023-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910023-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00445 b: 50.7824 rms: 50.9245 r: 0.99903 sig: 1 dec: 0). [Recompute]
+Y-E-06910023-depth-10: Invalid data records: [1-5516]
+Y-W-06910023-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06910023	1985-12-06T19:48:00.00	1698	0-0-KL	 GRAD: twt, depth excessive
+?	06910023	1985-12-09T14:54:00.00	3621	0-0-K	 GRAD: twt excessive
+?	06910023	1985-12-09T22:17:00.00	4064	0-0-KL	 GRAD: twt, depth excessive
+?	06910023	1985-12-09T23:44:00.00	4151	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,26 @@
+# Cruise J1010118 ID HT97T355 MGD77 FILE VERSION: 20080129 N_RECS: 1115
+# Examined: Sat Aug  6 10:53:41 2011 by mtchandl
+# Arguments:  -R131.8/137.4/14.5/20.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010118-H04-03: Invalid Survey Departure Day: (14) [17]
+N-E-J1010118-H04-05: Invalid Survey Arrival Month: (08) [07]
+N-E-J1010118-H04-06: Invalid Survey Arrival Day: (07) [28]
+Y-W-J1010118-H13-10: Survey year (1997) outside magnetic reference field IGRF-90 time range (1945-1995)
+Y-E-J1010118-H15-01: Invalid Gravity Departure Base Station Value: (  -9532) [  -9532]
+Y-E-J1010118-H15-03: Invalid Gravity Arrival Base Station Value: (  -9516) [  -9516]
+Y-E-J1010118-H16-05-01: Invalid Ten Degree Identifier longitude: (1113 1213 9999                                                             )
+Y-E-J1010118-H16-06-01: Invalid Ten Degree Identifier: (1113 1213 9999                                                             )
+Y-W-J1010118-H16-06: Ten Degree Identifier 1113 not marked in header but block was crossed
+Y-W-J1010118-H16-06: Ten Degree Identifier 1213 not marked in header but block was crossed
+Y-I-J1010118-depth-01: RLS m: 1.00086 b: 0 rms: 45.1259 r: 0.999036 sig: 1 dec: 0
+Y-I-J1010118-faa-01: RLS m: 1.00463 b: -8.96215 rms: 9.32224 r: 0.986799 sig: 1 dec: 0
+Y-W-J1010118-faa-03: Regression offset -8.96215 different from 0.
+Y-W-J1010118-depth-12: Integer multiple of 5 precision
+Y-W-J1010118-mag-12: Integer precision
+Y-W-J1010118-faa-12: Integer precision
+# Errata: Data

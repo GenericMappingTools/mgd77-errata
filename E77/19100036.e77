@@ -1,0 +1,18 @@
+# Cruise 19100036 ID DI153 MGD77 FILE VERSION: 19931231 N_RECS: 18532
+# Examined: Mon Sep  6 13:35:09 2010 by mtchandl
+# Arguments:  -R334.1/352.5/30.95/47.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100036-H13-10: Survey year (1984) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-19100036-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19100036-depth-01: RLS m: 1 b: 0 rms: 5.26589 r: 0.9999 sig: 1 dec: 0
+Y-E-19100036-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01798 b: -141.868 rms: 141.994 r: 0.99443 sig: 1 dec: 0). [Recompute]
+Y-W-19100036-depth-12: Integer precision
+Y-W-19100036-mtf1-12: Integer precision
+Y-W-19100036-mag-12: Integer precision
+# Errata: Data
+Y	19100036	1984-11-05T02:00:00.00	10391	C-0-0	 NAV: excessive speed

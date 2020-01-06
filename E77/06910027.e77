@@ -1,0 +1,37 @@
+# Cruise 06910027 ID P486CB MGD77 FILE VERSION: 19910719 N_RECS: 11451
+# Examined: Fri Jul 23 10:33:17 2010 by mtchandl
+# Arguments:  -R295.75/298.8/16.4/18.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one offset from predicted bathymetry. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+N-E-06910027-H04-03: Invalid Survey Departure Day: (29) [30]
+Y-W-06910027-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-06910027-depth-01: RLS m: 1.00143 b: 0 rms: 22.4813 r: 0.999776 sig: 1 dec: 0
+N-E-06910027-depth-02: Regression slope 1.00143 different from 1. Recommended: [1]
+Y-I-06910027-faa-01: RLS m: 1.02303 b: 2.82287 rms: 7.03822 r: 0.997998 sig: 1 dec: 0
+N-E-06910027-faa-02: Regression slope 1.02303 different from 1. Recommended: [1]
+Y-W-06910027-faa-03: Regression offset 2.82287 different from 0.
+Y-I-06910027-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910027-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.997051 b: 58.9082 rms: 59.3392 r: 0.996066 sig: 1 dec: 0). [Recompute]
+Y-E-06910027-depth-10: Invalid data records: [6979-7054]
+Y-W-06910027-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06910027	1986-03-31T12:51:00.00	912	0-0-K	 GRAD: twt excessive
+?	06910027	1986-03-31T12:52:00.00	913	0-0-KL	 GRAD: twt, depth excessive
+?	06910027	1986-03-31T13:12:00.00	933	0-0-KL	 GRAD: twt, depth excessive
+Y	06910027	1986-04-05T12:11:00.00	4349	C-0-0	 NAV: excessive speed
+Y	06910027	1986-04-05T12:12:00.00	4350	C-0-0	 NAV: excessive speed
+Y	06910027	1986-04-05T12:13:00.00	4351	C-0-0	 NAV: excessive speed
+Y	06910027	1986-04-05T12:14:00.00	4352	C-0-0	 NAV: excessive speed
+Y	06910027	1986-04-05T12:15:00.00	4353	C-0-0	 NAV: excessive speed
+Y	06910027	1986-04-05T12:16:00.00	4354	C-0-0	 NAV: excessive speed
+?	06910027	1986-04-06T15:46:00.00	5247	0-0-KL	 GRAD: twt, depth excessive
+?	06910027	1986-04-06T15:47:00.00	5248	0-0-K	 GRAD: twt excessive
+?	06910027	1986-04-08T15:03:00.00	6720	0-0-V	 GRAD: eot excessive
+?	06910027	1986-04-11T03:27:00.00	8218	0-0-KL	 GRAD: twt, depth excessive
+?	06910027	1986-04-11T03:56:00.00	8247	0-0-K	 GRAD: twt excessive
+?	06910027	1986-04-11T03:57:00.00	8248	0-0-KL	 GRAD: twt, depth excessive
+?	06910027	1986-04-14T04:20:00.00	10136	0-0-K	 GRAD: twt excessive

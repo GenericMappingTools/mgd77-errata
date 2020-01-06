@@ -1,0 +1,25 @@
+# Cruise 15060028 ID PROA04BD MGD77 FILE VERSION: 19800226 N_RECS: 5835
+# Examined: Sat May 31 10:21:52 2008 by mtchandl
+# Arguments:  -R202.1/242.4/20.65/32.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060028-H04-03: Invalid Survey Departure Day: (04) [21]
+Y-E-15060028-H04-06: Invalid Survey Arrival Day: (03) [04]
+Y-W-15060028-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15060028-depth-01: RLS m: 0.996125 b: 0 rms: 189.842 r: 0.992526 sig: 1 dec: 1
+Y-E-15060028-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02545 b: -120.325 rms: 137.979 r: 0.948873 sig: 1 dec: 1). [Recompute]
+Y-W-15060028-mtf1-12: Integer multiple of 5 precision
+Y-W-15060028-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060028	1962-09-21T23:24:00.00	53	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060028	1962-09-21T23:30:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060028	1962-09-22T02:36:00.00	117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060028	1962-09-22T04:18:00.00	151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060028	1962-09-22T16:12:00.00	389	0-Q-0	 VAL: mag invalid
+?	15060028	1962-09-22T16:18:00.00	391	0-Q-0	 VAL: mag invalid
+?	15060028	1962-09-22T16:24:00.00	393	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15060028	1962-10-02T12:30:00.00	5096	C-0-0	 NAV: excessive speed

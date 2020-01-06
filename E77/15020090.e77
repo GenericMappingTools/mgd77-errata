@@ -1,0 +1,21 @@
+# Cruise 15020090 ID PROT04MV MGD77 FILE VERSION: 19851028 N_RECS: 10809
+# Examined: Sat May 17 10:00:31 2008 by mtchandl
+# Arguments:  -R-69.6/18.5/-60.75/-33.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020090-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-W-15020090-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15020090-depth-01: RLS m: 1 b: 0 rms: 72.4043 r: 0.998857 sig: 1 dec: 1
+Y-E-15020090-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.92805 b: -202.876 rms: 211.485 r: 0.986298 sig: 1 dec: 1). [Recompute]
+Y-W-15020090-twt-11: More recent bathymetry correction table available
+Y-W-15020090-mtf1-12: Integer precision
+Y-W-15020090-mag-12: Integer precision
+# Errata: Data
+?	15020090	1983-12-13T04:55:00.00	10791	D-0-0	 NAV: on land
+?	15020090	1983-12-13T06:15:00.00	10807	D-0-0	 NAV: on land
+Y	15020090	1983-12-13T06:20:00.00	10808	D-0-0	 NAV: on land
+Y	15020090	1983-12-13T06:25:00.00	10809	D-0-0	 NAV: on land

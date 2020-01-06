@@ -1,0 +1,18 @@
+# Cruise 29130002 ID KIR1B MGD77 FILE VERSION: 19921231 N_RECS: 2888
+# Examined: Mon Feb 14 22:33:49 2011 by mtchandl
+# Arguments:  -R-21.4/12.05/-17.5/27.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-29130002-H16-01: Invalid Number of Ten Degree Identifiers: (12) [13]
+Y-W-29130002-H16-06: Ten Degree Identifier 3000 not marked in header but block was crossed
+Y-I-29130002-depth-01: RLS m: 1 b: 0 rms: 19.7715 r: 0.999625 sig: 1 dec: 0
+Y-I-29130002-faa-01: RLS m: 1.0094 b: 2.77173 rms: 14.966 r: 0.962706 sig: 1 dec: 1
+Y-W-29130002-faa-03: Regression offset 2.77173 different from 0.
+Y-I-29130002-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+?-E-29130002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.282639 b: 6.42879 rms: 57.0503 r: 0.592053 sig: 1 dec: 1). [Recompute]
+Y-W-29130002-depth-12: Integer precision
+# Errata: Data

@@ -1,0 +1,96 @@
+# Cruise JA010008 ID JARE28L3 MGD77 FILE VERSION: 19941231 N_RECS: 14989
+# Examined: Mon Nov  7 17:43:11 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-JA010008-nav-00: Flagged 0.29 % of records with bad navigation
+Y-I-JA010008-depth-01: RLS m: 1 b: 0 rms: 12.0467 r: 0.999978 sig: 1 dec: 0
+Y-I-JA010008-faa-01: RLS m: 0.988549 b: -1.77246 rms: 4.67182 r: 0.991129 sig: 1 dec: 0
+N-E-JA010008-faa-02: Regression slope 0.988549 different from 1. Recommended: [1]
+Y-W-JA010008-faa-03: Regression offset -1.77246 different from 0.
+Y-I-JA010008-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-JA010008-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.753176 b: -22.2729 rms: 55.9792 r: 0.842162 sig: 1 dec: 1). [Recompute]
+N-E-JA010008-twt-13: Encountered possible PDR wrap errors (5.8) [5.0]
+Y-W-JA010008-twt-11: More recent bathymetry correction table available
+Y-W-JA010008-depth-12: Integer precision
+# Errata: Data
+?	JA010008	1987-02-04T06:15:00.00	18	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-04T09:35:00.00	58	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-04T09:40:00.00	59	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-04T09:45:00.00	60	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-05T06:30:00.00	309	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-08T19:00:00.00	902	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:05:00.00	903	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:10:00.00	904	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:15:00.00	905	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:20:00.00	906	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:25:00.00	907	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:30:00.00	908	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:35:00.00	909	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:40:00.00	910	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:45:00.00	911	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:50:00.00	912	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T19:55:00.00	913	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T20:00:00.00	914	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T20:05:00.00	915	D-0-0	 NAV: on land
+Y	JA010008	1987-02-08T20:10:00.00	916	D-0-0	 NAV: on land
+?	JA010008	1987-02-15T06:20:00.00	1888	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-15T06:30:00.00	1890	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T03:10:00.00	3559	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-21T03:15:00.00	3560	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T03:20:00.00	3561	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T03:25:00.00	3562	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T03:40:00.00	3565	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T04:20:00.00	3573	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-21T04:25:00.00	3574	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-21T04:30:00.00	3575	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-21T04:40:00.00	3577	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-22T15:05:00.00	3983	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-22T15:40:00.00	3990	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-22T16:35:00.00	4001	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-02-22T18:45:00.00	4027	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-22T18:50:00.00	4028	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-24T09:50:00.00	4496	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-28T12:50:00.00	5684	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-02-28T12:55:00.00	5685	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-03-14T05:20:00.00	9382	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-03-31T02:50:00.00	11937	0-0-V	 GRAD: eot excessive
+Y	JA010008	1987-04-09T02:20:00.00	12410	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:25:00.00	12411	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:30:00.00	12412	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:35:00.00	12413	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:40:00.00	12414	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:45:00.00	12415	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:50:00.00	12416	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T02:55:00.00	12417	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T03:00:00.00	12418	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T03:05:00.00	12419	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T03:10:00.00	12420	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T03:15:00.00	12421	D-0-0	 NAV: on land
+Y	JA010008	1987-04-09T03:20:00.00	12422	D-0-0	 NAV: on land
+?	JA010008	1987-04-16T14:35:00.00	14506	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-04-16T14:40:00.00	14507	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-04-16T14:45:00.00	14508	0-0-KL	 GRAD: twt, depth excessive
+?	JA010008	1987-04-16T14:50:00.00	14509	0-0-K	 GRAD: twt excessive
+?	JA010008	1987-04-16T14:55:00.00	14510	0-0-KL	 GRAD: twt, depth excessive
+Y	JA010008	1987-04-18T04:00:00.00	14954	C-0-0	 NAV: excessive speed
+Y	JA010008	1987-04-18T04:05:00.00	14955	C-0-0	 NAV: excessive speed
+Y	JA010008	1987-04-18T04:10:00.00	14956	C-0-0	 NAV: excessive speed
+Y	JA010008	1987-04-18T04:20:00.00	14958	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T04:25:00.00	14959	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:00:00.00	14978	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:05:00.00	14979	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:10:00.00	14980	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:15:00.00	14981	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:20:00.00	14982	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:25:00.00	14983	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:30:00.00	14984	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:35:00.00	14985	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:40:00.00	14986	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:45:00.00	14987	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:50:00.00	14988	D-0-0	 NAV: on land
+Y	JA010008	1987-04-18T06:55:00.00	14989	D-0-0	 NAV: on land

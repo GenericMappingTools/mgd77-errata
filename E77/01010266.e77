@@ -1,0 +1,63 @@
+# Cruise 01010266 ID RC2706 MGD77 FILE VERSION: 19910319 N_RECS: 27835
+# Examined: Wed Jul  8 17:26:13 2009 by mtchandl
+# Arguments:  -R78.95/81.45/-5.55/7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-200 nT average offset from recomputed mag. DC shift from satellite gravity for reported faa closer to zero than DC shift for recomputed faa.
+# Errata: Header
+Y-E-01010266-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010266-H13-10: Survey year (1986) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010266-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010266-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010266-depth-01: RLS m: 0.995777 b: 0 rms: 62.2268 r: 0.99907 sig: 1 dec: 1
+Y-I-01010266-faa-01: RLS m: 1.02299 b: -3.01796 rms: 5.10152 r: 0.991552 sig: 1 dec: 0
+N-E-01010266-faa-02: Regression slope 1.02299 different from 1. Recommended: [1]
+Y-W-01010266-faa-03: Regression offset -3.01796 different from 0.
+N-E-01010266-faa-06: Anomaly differs from gobs-IGF80 (m: 0.939288 b: -17.3735 rms: 15.9215 r: 0.97522 sig: 1 dec: 0). [Recompute]
+N-E-01010266-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010266-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010266-mag-07: Anomaly differs from mtf1-IGRF (m: 0.998251 b: -201.304 rms: 201.575 r: 0.997861 sig: 1 dec: 1). [Recompute]
+N-E-01010266-depth-08: Extended offset from grid [214-27696]
+N-E-01010266-faa-08: Extended offset from grid [305-27593]
+Y-W-01010266-twt-11: More recent bathymetry correction table available
+Y-W-01010266-mtf1-12: Integer precision
+# Errata: Data
+?	01010266	1986-07-10T11:22:00.00	3159	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-10T11:24:00.00	3161	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-10T14:54:00.00	3348	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-10T18:03:00.00	3522	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-10T18:08:00.00	3527	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-10T18:13:00.00	3532	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-10T20:54:00.00	3697	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-10T22:18:00.00	3785	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-10T22:25:00.00	3793	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-12T00:37:00.00	5222	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-12T02:58:00.00	5355	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-12T18:05:00.00	6223	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-12T18:13:00.00	6229	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-13T02:26:00.00	6726	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-13T02:34:00.00	6734	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-13T05:45:00.00	6914	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-13T13:12:00.00	7348	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-15T14:20:00.00	10157	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-15T15:26:00.00	10210	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-16T05:25:00.00	11041	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-16T13:41:00.00	11458	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-16T21:09:00.00	11830	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-17T17:15:00.00	12978	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-18T06:55:00.00	13763	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-18T11:18:00.00	14005	0-0-V	 GRAD: eot excessive
+?	01010266	1986-07-19T00:25:00.00	14796	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-19T02:49:00.00	14948	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-19T03:36:00.00	14989	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-20T03:47:00.00	16437	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-20T19:13:00.00	17360	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-20T22:23:00.00	17542	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-23T15:16:00.00	21316	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-23T21:52:00.00	21673	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-26T07:26:00.00	25104	0-0-UV	 GRAD: gobs, eot excessive
+?	01010266	1986-07-26T07:48:00.00	25125	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-28T02:36:00.00	27802	0-0-U	 GRAD: gobs excessive
+?	01010266	1986-07-28T03:09:00.00	27831	0-0-U	 GRAD: gobs excessive

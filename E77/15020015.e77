@@ -1,0 +1,19 @@
+# Cruise 15020015 ID BNFC02MV MGD77 FILE VERSION: 19830818 N_RECS: 8884
+# Examined: Wed May 14 08:32:10 2008 by mtchandl
+# Arguments:  -R238.85/255.7/9.8/32.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020015-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020015-depth-01: RLS m: 1 b: 0 rms: 147.109 r: 0.992802 sign: 1 dec: 1
+Y-E-15020015-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.991779 b: 170.808 rms: 176.454 r: 0.957593 sig: 1 dec: 1). [Recompute]
+Y-W-15020015-twt-11: More recent bathymetry correction table available
+Y-W-15020015-mtf1-12: Integer precision
+Y-W-15020015-mag-12: Integer precision
+# Errata: Data
+?	15020015	1973-06-06T20:45:00.00	13	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020015	1973-06-17T05:25:00.00	2996	0-0-KL	 GRAD: twt, depth excessive
+?	15020015	1973-06-17T05:30:00.00	2997	0-0-KL	 GRAD: twt, depth excessive

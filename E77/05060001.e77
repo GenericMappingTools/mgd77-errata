@@ -1,0 +1,29 @@
+# Cruise 05060001 ID BT6201 MGD77 FILE VERSION: 19840921 N_RECS: 3383
+# Examined: Fri Apr 30 13:40:11 2010 by mtchandl
+# Arguments:  -R172.95/181/-46.8/-41.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060001-H13-09: Unknown IGRF specified (DGRF-65)
+N-E-05060001-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-05060001-H16-06: Ten Degree Identifier 5418 not marked in header but block was crossed
+Y-W-05060001-nav-00: Flagged 0.24 % of records with bad navigation
+Y-E-05060001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996186 b: 9.64741 rms: 16.4201 r: 0.998338 sig: 1 dec: 1). [Recompute]
+Y-W-05060001-mtf1-12: Integer precision
+Y-W-05060001-mag-12: Integer precision
+# Errata: Data
+Y	05060001	1962-01-31T00:00:00.00	1793	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:05:00.00	1794	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:10:00.00	1795	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:15:00.00	1796	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:20:00.00	1797	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:25:00.00	1798	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:30:00.00	1799	C-0-0	 NAV: excessive speed
+Y	05060001	1962-01-31T00:35:00.00	1800	C-0-0	 NAV: excessive speed
+?	05060001	1962-01-31T07:00:00.00	1864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060001	1962-01-31T07:10:00.00	1866	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060001	1962-01-31T09:20:00.00	1891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060001	1962-01-31T09:25:00.00	1892	0-0-OQ	 GRAD: mtf1, mag excessive

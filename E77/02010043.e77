@@ -1,0 +1,43 @@
+# Cruise 02010043 ID CH099L03 MGD77 FILE VERSION: 19820805 N_RECS: 11009
+# Examined: Fri Mar 26 20:45:43 2010 by mtchandl
+# Arguments:  -R-20.65/13.3/-8.85/14.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80. 
+# Errata: Header
+Y-E-02010043-H16-01: Invalid Number of Ten Degree Identifiers: ( 7) [8]
+Y-W-02010043-H16-06: Ten Degree Identifier 5002 not marked in header but block was crossed
+Y-I-02010043-depth-01: RLS m: 0.999408 b: 0 rms: 39.4852 r: 0.999224 sig: 1 dec: 0
+Y-I-02010043-faa-01: RLS m: 0.996343 b: -1.72191 rms: 7.82154 r: 0.990267 sig: 1 dec: 1
+Y-W-02010043-faa-03: Regression offset -1.72191 different from 0.
+N-E-02010043-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010043-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.420418 b: -14.1645 rms: 50.1627 r: 0.664932 sig: 1 dec: 1). [Recompute]
+Y-E-02010043-mag-07: Anomaly differs from mtf1-IGRF (m: 1.42995 b: -88.3826 rms: 139.989 r: 0.786059 sig: 1 dec: 0). [Recompute]
+Y-W-02010043-mtf1-12: Integer precision
+Y-W-02010043-mag-12: Integer precision
+# Errata: Data
+?	02010043	1970-05-20T23:45:00.00	3113	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-22T22:10:00.00	4046	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-23T19:50:00.00	4425	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-23T20:25:00.00	4435	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-24T15:05:00.00	4832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010043	1970-05-26T14:20:00.00	5865	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-27T07:25:00.00	6251	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-27T07:35:00.00	6254	0-0-K	 GRAD: twt excessive
+?	02010043	1970-05-27T09:15:00.00	6305	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-28T12:34:00.00	6891	0-0-K	 GRAD: twt excessive
+?	02010043	1970-05-28T20:15:00.00	7041	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-28T20:20:00.00	7044	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-29T05:55:00.00	7269	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-30T01:54:00.00	7610	0-0-K	 GRAD: twt excessive
+?	02010043	1970-05-30T16:40:00.00	7886	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010043	1970-05-30T16:50:00.00	7891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010043	1970-05-31T13:00:00.00	8327	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-31T13:15:00.00	8331	0-0-V	 GRAD: eot excessive
+?	02010043	1970-05-31T17:25:00.00	8391	0-0-V	 GRAD: eot excessive
+?	02010043	1970-06-05T14:45:00.00	10343	0-0-V	 GRAD: eot excessive
+?	02010043	1970-06-05T19:05:00.00	10442	0-0-V	 GRAD: eot excessive
+?	02010043	1970-06-06T09:03:00.00	10679	0-0-K	 GRAD: twt excessive
+?	02010043	1970-06-06T09:05:00.00	10680	0-0-V	 GRAD: eot excessive

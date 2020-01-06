@@ -1,0 +1,100 @@
+# Cruise 01020056 ID ELT53 MGD77 FILE VERSION: 19790205 N_RECS: 33925
+# Examined: Wed Jul  8 22:06:07 2009 by mtchandl
+# Arguments:  -R114.35/173.25/-63.05/-31.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01020056-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01020056-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-01020056-depth-01: RLS m: 1 b: 0 rms: 141.121 r: 0.995691 sig: 1 dec: 1
+Y-I-01020056-faa-01: RLS m: 1.05919 b: 4.75581 rms: 15.6267 r: 0.973764 sig: 1 dec: 1
+N-E-01020056-faa-02: Regression slope 1.05919 different from 1. Recommended: [1]
+Y-W-01020056-faa-03: Regression offset 4.75581 different from 0.
+Y-E-01020056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99457 b: -143.635 rms: 178.936 r: 0.918835 sig: 1 dec: 1). [Recompute]
+N-E-01020056-depth-08: Extended offset from grid [23-33925]
+Y-W-01020056-twt-11: More recent bathymetry correction table available
+Y-W-01020056-mtf1-12: Integer precision
+Y-W-01020056-mag-12: Integer precision
+# Errata: Data
+Y	01020056	1972-04-10T06:15:00.00	1	D-0-0	 NAV: on land
+?	01020056	1972-04-10T06:19:00.00	2	D-0-0	 NAV: on land
+?	01020056	1972-04-10T09:33:00.00	20	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-04-10T09:37:00.00	21	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-04-10T09:41:00.00	23	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-04-10T09:45:00.00	24	0-0-O	 GRAD: mtf1 excessive
+?	01020056	1972-04-12T16:02:00.00	1303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-04-12T16:23:00.00	1312	0-0-O	 GRAD: mtf1 excessive
+?	01020056	1972-04-13T14:40:00.00	1843	0-0-K	 GRAD: twt excessive
+?	01020056	1972-04-14T22:32:00.00	2706	0-0-K	 GRAD: twt excessive
+?	01020056	1972-04-14T23:34:00.00	2730	0-0-K	 GRAD: twt excessive
+?	01020056	1972-05-03T05:53:00.00	12149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T05:57:00.00	12151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T06:09:00.00	12155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T11:21:00.00	12312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T17:05:00.00	12477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T17:09:00.00	12478	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-03T20:17:00.00	12572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-04T01:51:00.00	12760	0-0-K	 GRAD: twt excessive
+?	01020056	1972-05-10T07:18:00.00	16760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T07:22:00.00	16763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T07:42:00.00	16773	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T09:18:00.00	16817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T09:22:00.00	16819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T09:26:00.00	16820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T09:34:00.00	16825	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T09:38:00.00	16827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T15:27:00.00	16986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T19:59:00.00	17113	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T20:04:00.00	17116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T20:08:00.00	17117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-10T20:13:00.00	17120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-11T10:30:00.00	17448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-11T10:34:00.00	17450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-11T16:31:00.00	17550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-11T16:35:00.00	17552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-12T07:45:00.00	17990	0-0-KL	 GRAD: twt, depth excessive
+?	01020056	1972-05-15T16:45:00.00	19944	0-0-K	 GRAD: twt excessive
+?	01020056	1972-05-16T11:25:00.00	20440	0-0-K	 GRAD: twt excessive
+Y	01020056	1972-05-18T21:42:00.00	21929	D-0-0	 NAV: on land
+Y	01020056	1972-05-18T21:45:00.00	21930	D-0-0	 NAV: on land
+Y	01020056	1972-05-18T21:47:00.00	21931	D-0-0	 NAV: on land
+Y	01020056	1972-05-18T21:57:00.00	21932	D-0-0	 NAV: on land
+Y	01020056	1972-05-18T22:15:00.00	21933	D-0-0	 NAV: on land
+?	01020056	1972-05-18T22:51:00.00	21934	D-0-0	 NAV: on land
+?	01020056	1972-05-18T23:00:00.00	21935	D-0-0	 NAV: on land
+Y	01020056	1972-05-18T23:12:00.00	21936	D-0-0	 NAV: on land
+?	01020056	1972-05-19T03:08:00.00	21960	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-05-19T03:44:00.00	21973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T16:46:00.00	29681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T17:14:00.00	29689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T17:18:00.00	29691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T18:02:00.00	29706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T19:10:00.00	29728	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:14:00.00	29729	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:18:00.00	29731	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:22:00.00	29733	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:26:00.00	29734	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:30:00.00	29735	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:34:00.00	29736	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:38:00.00	29737	0-Q-0	 VAL: mag invalid
+?	01020056	1972-06-01T19:42:00.00	29739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T20:54:00.00	29763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-01T21:34:00.00	29776	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T03:56:00.00	29906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T04:12:00.00	29911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T04:16:00.00	29913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T04:44:00.00	29921	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T06:00:00.00	29947	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T06:20:00.00	29954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T07:08:00.00	29971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T07:12:00.00	29973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T07:16:00.00	29975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-02T07:20:00.00	29977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-08T03:44:00.00	33371	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-08T03:48:00.00	33373	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-08T04:17:00.00	33385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-08T04:25:00.00	33389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020056	1972-06-08T15:40:00.00	33678	0-0-OQ	 GRAD: mtf1, mag excessive

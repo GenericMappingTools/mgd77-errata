@@ -1,0 +1,21 @@
+# Cruise 19100048 ID DIS203 MGD77 FILE VERSION: 19941231 N_RECS: 20244
+# Examined: Mon Sep  6 13:42:38 2010 by mtchandl
+# Arguments:  -R-6.3/12.4/35.9/43.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry records near ~3000 km along-track.
+# Errata: Header
+Y-I-19100048-depth-01: RLS m: 0.99857 b: 0 rms: 11.6432 r: 0.999952 sig: 1 dec: 0
+N-E-19100048-depth-02: Regression slope 0.99857 different from 1. Recommended: [1]
+N-E-19100048-twt-13: Encountered possible PDR wrap errors (4.0) [5.0]
+Y-E-19100048-depth-10: Invalid data records: [7170-9274]
+Y-W-19100048-depth-12: Integer precision
+# Errata: Data
+?	19100048	1993-07-12T07:06:00.00	7174	0-0-KL	 GRAD: twt, depth excessive
+?	19100048	1993-07-12T07:24:00.00	7183	0-0-K	 GRAD: twt excessive
+?	19100048	1993-07-12T07:26:00.00	7184	0-0-KL	 GRAD: twt, depth excessive
+?	19100048	1993-07-12T09:16:00.00	7239	0-0-KL	 GRAD: twt, depth excessive
+?	19100048	1993-07-12T09:32:00.00	7247	0-0-K	 GRAD: twt excessive
+?	19100048	1993-07-12T09:36:00.00	7249	0-0-K	 GRAD: twt excessive

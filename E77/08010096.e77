@@ -1,0 +1,33 @@
+# Cruise 08010096 ID 83011605 MGD77 FILE VERSION: 19860605 N_RECS: 12277
+# Examined: Mon Jul 26 17:13:35 2010 by mtchandl
+# Arguments:  -R140.2/202.15/21.25/44.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08010096-H11-02: Invalid Topmost Latitude : (+44) [+45]
+Y-E-08010096-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08010096-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08010096-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-W-08010096-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-08010096-depth-01: RLS m: 1 b: 0 rms: 13.7434 r: 0.999946 sig: 1 dec: 0
+Y-I-08010096-faa-01: RLS m: 0.960589 b: -2.03807 rms: 3.77683 r: 0.992553 sig: 1 dec: 0
+N-E-08010096-faa-02: Regression slope 0.960589 different from 1. Recommended: [1]
+Y-W-08010096-faa-03: Regression offset -2.03807 different from 0.
+Y-W-08010096-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08010096	1983-05-20T18:29:19.98	588	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-05-20T21:28:40.02	696	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-05-20T22:17:19.98	723	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-05-31T23:42:19.98	8523	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-06-05T04:02:40.02	11429	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-06-05T21:31:19.98	11949	0-0-KL	 GRAD: twt, depth excessive
+?	08010096	1983-06-06T02:25:00.00	12112	0-0-KL	 GRAD: twt, depth excessive
+Y	08010096	1983-06-06T06:11:40.02	12271	D-0-0	 NAV: on land
+Y	08010096	1983-06-06T06:14:00.00	12272	D-0-0	 NAV: on land
+Y	08010096	1983-06-06T06:14:40.02	12273	D-0-0	 NAV: on land
+Y	08010096	1983-06-06T06:15:19.98	12274	D-0-0	 NAV: on land
+Y	08010096	1983-06-06T06:18:19.98	12275	D-0-0	 NAV: on land
+?	08010096	1983-06-06T06:20:00.96	12276	D-0-0	 NAV: on land

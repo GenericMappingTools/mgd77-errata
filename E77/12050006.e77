@@ -1,0 +1,23 @@
+# Cruise 12050006 ID DA70028 MGD77 FILE VERSION: 19860605 N_RECS: 9905
+# Examined: Mon Aug 30 15:36:41 2010 by mtchandl
+# Arguments:  -R265.95/313.85/44.45/75.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-12050006-H12-01: Invalid Bathymetry Digitizing Rate: (526) [526]
+Y-W-12050006-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-12050006-depth-01: RLS m: 1.00083 b: 0 rms: 6.04534 r: 0.999984 sig: 1 dec: 0
+N-E-12050006-depth-02: Regression slope 1.00083 different from 1. Recommended: [1]
+# Errata: Data
+Y	12050006	5363.2	2260	D-0-0	 NAV: on land
+Y	12050006	5365.47	2261	D-0-0	 NAV: on land
+?	12050006	5367.73	2262	D-0-0	 NAV: on land
+Y	12050006	14909.9	7736	D-0-0	 NAV: on land
+Y	12050006	14911.9	7737	D-0-0	 NAV: on land
+Y	12050006	14913.9	7738	D-0-0	 NAV: on land
+Y	12050006	14915.9	7739	D-0-0	 NAV: on land
+Y	12050006	14917.9	7740	D-0-0	 NAV: on land
+Y	12050006	14919.9	7741	D-0-0	 NAV: on land

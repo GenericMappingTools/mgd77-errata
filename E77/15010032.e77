@@ -1,0 +1,18 @@
+# Cruise 15010032 ID LUSI7AAR MGD77 FILE VERSION: 19810928 N_RECS: 6692
+# Examined: Mon May 12 17:07:00 2008 by mtchandl
+# Arguments:  -R39.7/85.15/-5/6.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15010032-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15010032-depth-01: RLS m: 0.996125 b: 0 rms: 124.429 r: 0.994909 significant: 1 decimation: 1
+Y-E-15010032-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.961891 b: -33.6444 rms: 51.2641 r: 0.983027 sig: 1 dec: 1). [Recompute]
+Y-W-15010032-twt-11: More recent bathymetry correction table available
+Y-W-15010032-mtf1-12: Integer precision
+Y-W-15010032-mag-12: Integer precision
+# Errata: Data
+?	15010032	1963-02-27T06:54:00.00	2303	0-Q-0	 VAL: mag invalid
+Y	15010032	1963-03-17T14:12:00.00	6692	D-0-0	 NAV: on land

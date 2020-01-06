@@ -1,0 +1,38 @@
+# Cruise 08080002 ID WS771 MGD77 FILE VERSION: 19830311 N_RECS: 1944
+# Examined: Fri Jul 30 14:13:21 2010 by mtchandl
+# Arguments:  -R187.5/189.25/-15/-12.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset.
+# Errata: Header
+Y-E-08080002-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08080002-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08080002-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08080002-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08080002-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08080002-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08080002-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08080002-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08080002-nav-00: Flagged 0.57 % of records with bad navigation
+Y-I-08080002-depth-01: RLS m: 1.00035 b: 0 rms: 35.7595 r: 0.999863 sig: 1 dec: 0
+Y-E-08080002-depth-08: Extended offset from grid [1251-1313]
+Y-W-08080002-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08080002	1977-07-27T22:26:23.94	366	0-0-K	 GRAD: twt excessive
+Y	08080002	1977-07-29T07:53:42.00	449	C-0-0	 NAV: excessive speed
+Y	08080002	1977-07-29T07:55:00.00	450	C-0-0	 NAV: excessive speed
+Y	08080002	1977-07-29T07:57:11.94	451	C-0-0	 NAV: excessive speed
+?	08080002	1977-08-04T12:05:05.94	912	0-0-K	 GRAD: twt excessive
+?	08080002	1977-08-06T04:22:50.04	1215	D-0-0	 NAV: on land
+Y	08080002	1977-08-06T04:24:27.96	1216	D-0-0	 NAV: on land
+Y	08080002	1977-08-06T20:12:35.04	1334	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-06T20:13:00.00	1335	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-07T11:00:00.00	1488	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-07T11:05:00.00	1489	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-07T11:05:48.00	1490	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-07T11:10:04.98	1491	C-0-0	 NAV: excessive speed
+Y	08080002	1977-08-07T11:11:01.98	1492	C-0-0	 NAV: excessive speed
+?	08080002	1977-08-07T14:06:19.98	1529	0-0-K	 GRAD: twt excessive
+?	08080002	1977-08-07T16:16:45.06	1567	0-0-K	 GRAD: twt excessive

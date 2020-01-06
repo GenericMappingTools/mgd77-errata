@@ -1,0 +1,38 @@
+# Cruise 67010012 ID 69006111 MGD77 FILE VERSION: 19830804 N_RECS: 1390
+# Examined: Thu Jul 28 18:39:18 2011 by mtchandl
+# Arguments:  -R-8.5/-2.5/43.4/48.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged gravity offset near 1000 km along-track.
+# Errata: Header
+Y-I-67010012-depth-01: RLS m: 1.00195 b: 0 rms: 50.4529 r: 0.999686 sig: 1 dec: 0
+N-E-67010012-depth-02: Regression slope 1.00195 different from 1. Recommended: [1]
+Y-I-67010012-faa-01: RLS m: 0.998392 b: 4.92388 rms: 6.57383 r: 0.993512 sig: 1 dec: 0
+Y-W-67010012-faa-03: Regression offset 4.92388 different from 0.
+Y-E-67010012-faa-10: Invalid data records: [919-952]
+Y-W-67010012-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	67010012	1969-05-27T06:50:00.00	535	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T12:59:00.00	756	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T13:15:00.00	771	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:13:00.00	865	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:14:00.00	866	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:15:00.00	867	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:16:00.00	868	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:17:00.00	869	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:29:00.00	878	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:33:00.00	881	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:35:00.00	882	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:36:00.00	883	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:37:00.00	884	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:38:00.00	885	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:44:00.00	889	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:48:00.00	892	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:49:00.00	893	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:50:00.00	894	0-0-KL	 GRAD: twt, depth excessive
+?	67010012	1969-05-29T17:52:00.00	895	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:53:00.00	896	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:55:00.00	898	0-0-K	 GRAD: twt excessive
+?	67010012	1969-05-29T17:59:00.00	900	0-0-KL	 GRAD: twt, depth excessive

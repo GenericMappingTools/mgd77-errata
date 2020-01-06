@@ -1,0 +1,88 @@
+# Cruise J2010006 ID GH7601 MGD77 FILE VERSION: 19810916 N_RECS: 9285
+# Examined: Sun Aug  7 07:50:16 2011 by mtchandl
+# Arguments:  -R145.4/202.15/4.65/26.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010006-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-J2010006-depth-01: RLS m: 1.00021 b: 0 rms: 60.4144 r: 0.996579 sig: 1 dec: 0
+Y-I-J2010006-faa-01: RLS m: 1.00225 b: 0.147205 rms: 5.23374 r: 0.986039 sig: 1 dec: 0
+Y-W-J2010006-faa-03: Regression offset 0.147205 different from 0.
+N-E-J2010006-faa-06: Anomaly differs from gobs-IGF80 (m: 1.0005 b: -15.919 rms: 15.9144 r: 0.999951 sig: 1 dec: 0). [Recompute]
+Y-E-J2010006-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00537 b: 49.2437 rms: 49.9122 r: 0.998618 sig: 1 dec: 0). [Recompute]
+N-E-J2010006-twt-13: Encountered possible PDR wrap errors (5.9) [5.0]
+Y-W-J2010006-depth-12: Integer precision
+Y-W-J2010006-mtf1-12: Integer precision
+Y-W-J2010006-mag-12: Integer precision
+# Errata: Data
+?	J2010006	1976-01-16T22:00:00.00	254	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-17T01:05:00.00	291	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J2010006	1976-01-17T01:10:00.00	292	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-17T01:15:00.00	293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010006	1976-01-18T10:55:00.00	688	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-18T11:00:00.00	689	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-18T11:05:00.00	690	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-18T11:10:00.00	691	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-18T11:15:00.00	692	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-19T04:35:00.00	894	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-19T04:40:00.00	895	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-19T04:45:00.00	896	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-19T04:50:00.00	897	0-0-Q	 GRAD: mag excessive
+?	J2010006	1976-01-19T04:55:00.00	898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010006	1976-01-20T21:25:00.00	1374	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-01-25T07:05:00.00	2557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010006	1976-01-25T14:20:00.00	2642	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-25T14:25:00.00	2643	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-25T14:30:00.00	2644	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-25T14:35:00.00	2645	0-Q-0	 VAL: mag invalid
+?	J2010006	1976-01-25T14:45:00.00	2647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010006	1976-01-25T18:25:00.00	2686	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010006	1976-01-28T03:05:00.00	3244	C-0-0	 NAV: excessive speed
+?	J2010006	1976-01-28T16:40:00.00	3384	0-0-K	 GRAD: twt excessive
+?	J2010006	1976-02-05T20:40:00.00	5416	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T20:45:00.00	5417	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T20:50:00.00	5418	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T20:55:00.00	5419	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T21:00:00.00	5420	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T21:05:00.00	5421	D-0-0	 NAV: on land
+Y	J2010006	1976-02-05T21:40:00.00	5422	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T00:40:00.00	5423	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:00:00.00	5424	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:15:00.00	5425	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:25:00.00	5426	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:30:00.00	5427	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:35:00.00	5428	D-0-0	 NAV: on land
+Y	J2010006	1976-02-14T01:45:00.00	5429	D-0-0	 NAV: on land
+?	J2010006	1976-02-14T01:55:00.00	5430	D-0-0	 NAV: on land
+?	J2010006	1976-02-19T05:10:00.00	6771	0-0-K	 GRAD: twt excessive
+?	J2010006	1976-02-20T21:10:00.00	7187	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-20T21:15:00.00	7188	0-0-K	 GRAD: twt excessive
+?	J2010006	1976-02-20T21:25:00.00	7190	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-20T21:55:00.00	7195	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:00:00.00	7196	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:10:00.00	7197	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:20:00.00	7198	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:25:00.00	7199	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:35:00.00	7200	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T22:50:00.00	7201	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T23:05:00.00	7202	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T23:15:00.00	7203	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T23:25:00.00	7204	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-20T23:35:00.00	7205	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-23T11:40:00.00	7813	0-0-K	 GRAD: twt excessive
+?	J2010006	1976-02-25T19:10:00.00	8359	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-25T19:15:00.00	8360	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-25T19:40:00.00	8364	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-26T04:10:00.00	8429	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T04:15:00.00	8430	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T04:25:00.00	8431	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T04:40:00.00	8432	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T04:50:00.00	8433	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T04:55:00.00	8434	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-26T05:15:00.00	8435	0-M-0	 VAL: bcc invalid
+?	J2010006	1976-02-27T02:25:00.00	8635	0-0-KL	 GRAD: twt, depth excessive
+?	J2010006	1976-02-28T04:35:00.00	8921	0-0-UW	 GRAD: gobs, faa excessive
+?	J2010006	1976-02-28T05:20:00.00	8930	0-0-U	 GRAD: gobs excessive

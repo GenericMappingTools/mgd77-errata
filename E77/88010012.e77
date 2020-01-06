@@ -1,0 +1,152 @@
+# Cruise 88010012 ID NBP95-4 MGD77 FILE VERSION: 20000628 N_RECS: 9791
+# Examined: Thu Aug  4 19:19:08 2011 by mtchandl
+# Arguments:  -R173.05/181.35/-43.5/-35.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all 196 gravity records as bad due to poor correlation with satellite derived gravity. Applied excessive depth gradient flags to remove outliers.
+# Errata: Header
+N-E-88010012-H04-06: Invalid Survey Arrival Day: (08) [07]
+Y-E-88010012-H12-01: Invalid Bathymetry Digitizing Rate: (1.0) [1.0]
+Y-E-88010012-H13-01: Invalid Magnetics Digitizing Rate: (1.0) [1.0]
+Y-W-88010012-H13-10: Survey year (1995) outside magnetic reference field IGRF-85 time range (1945-1990)
+Y-E-88010012-H14-01: Invalid Gravity Digitizing Rate: (1.0) [1.0]
+Y-I-88010012-depth-01: RLS m: 1 b: 0 rms: 8.38897 r: 0.999983 sig: 1 dec: 0
+Y-I-88010012-faa-01: RLS m: 0.62293 b: 46.8933 rms: 43.0651 r: 0.634419 sig: 1 dec: 0
+N-E-88010012-faa-02: Regression slope 0.62293 different from 1. Recommended: [1]
+Y-W-88010012-faa-03: Regression offset 46.8933 different from 0.
+Y-I-88010012-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-88010012-faa-10: Invalid data records: [1-9791]
+N-E-88010012-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.255368 b: 30.0134 rms: 41.9216 r: 0.785607 sig: 1 dec: 0). [Recompute]
+N-E-88010012-twt-13: Encountered possible PDR wrap errors (5.0) [5.0]
+Y-W-88010012-faa-09: only found positive values
+Y-W-88010012-depth-12: Integer precision
+# Errata: Data
+Y	88010012	1995-07-02T08:00:00.00	1907	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T08:01:00.00	1908	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T08:03:00.00	1910	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T10:21:00.00	2048	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T10:22:00.00	2049	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T11:06:00.00	2093	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T11:08:00.00	2095	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T14:57:00.00	2324	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T18:36:00.00	2541	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T18:37:00.00	2542	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T18:38:00.00	2543	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T20:47:00.00	2671	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T20:49:00.00	2673	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T20:53:00.00	2677	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T20:54:00.00	2678	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T21:10:00.00	2694	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T21:15:00.00	2699	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T21:29:00.00	2713	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-02T21:30:00.00	2714	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T04:14:00.00	3114	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T04:31:00.00	3131	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T05:43:00.00	3202	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T07:12:00.00	3291	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T08:27:00.00	3366	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T08:47:00.00	3386	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T09:01:00.00	3400	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T09:03:00.00	3402	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T09:17:00.00	3416	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T09:18:00.00	3417	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T13:05:00.00	3644	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T13:07:00.00	3646	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T15:50:00.00	3809	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T15:51:00.00	3810	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T15:54:00.00	3813	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T16:02:00.00	3821	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T18:22:00.00	3961	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T18:23:00.00	3962	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T18:24:00.00	3963	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T18:43:00.00	3982	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T22:41:00.00	4219	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-03T23:07:00.00	4245	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-03T23:59:00.00	4297	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-04T00:02:00.00	4299	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T00:04:00.00	4301	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-04T00:05:00.00	4302	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T00:06:00.00	4303	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T00:07:00.00	4304	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T00:09:00.00	4306	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T03:22:00.00	4499	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T03:24:00.00	4501	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-04T06:35:00.00	4692	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-04T06:36:00.00	4693	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T14:56:00.00	5193	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T14:58:00.00	5195	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T21:46:00.00	5603	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-04T21:47:00.00	5604	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T01:15:00.00	5811	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-05T04:12:00.00	5959	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T04:13:00.00	5960	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T04:32:00.00	5979	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T04:33:00.00	5980	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T05:53:00.00	6059	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T05:54:00.00	6060	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T06:46:00.00	6112	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T06:57:00.00	6122	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T09:47:00.00	6292	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T09:50:00.00	6295	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T10:54:00.00	6359	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T11:07:00.00	6372	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:09:00.00	6494	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:17:00.00	6502	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:19:00.00	6504	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:20:00.00	6505	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:27:00.00	6512	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-05T13:38:00.00	6523	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T13:40:00.00	6525	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T14:04:00.00	6548	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T14:27:00.00	6571	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T14:30:00.00	6574	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T14:48:00.00	6592	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T16:35:00.00	6663	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T20:02:00.00	6870	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T20:03:00.00	6871	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T23:32:00.00	7080	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T23:45:00.00	7093	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T23:46:00.00	7094	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-05T23:56:00.00	7104	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T07:03:00.00	7525	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T07:07:00.00	7529	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T07:14:00.00	7536	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T07:16:00.00	7538	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T15:21:00.00	8019	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T15:22:00.00	8020	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T19:23:00.00	8260	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T19:24:00.00	8261	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T20:15:00.00	8312	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-06T20:17:00.00	8314	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:04:00.00	8361	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:05:00.00	8362	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:14:00.00	8371	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-06T21:17:00.00	8374	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:27:00.00	8384	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:28:00.00	8385	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:46:00.00	8403	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T21:47:00.00	8404	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T22:01:00.00	8418	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T22:03:00.00	8420	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T22:11:00.00	8428	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-06T22:15:00.00	8432	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-06T22:24:00.00	8441	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-06T23:06:00.00	8483	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T00:09:00.00	8545	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T00:40:00.00	8576	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T00:41:00.00	8577	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T00:49:00.00	8585	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-07T01:05:00.00	8600	0-0-K	 GRAD: twt excessive
+Y	88010012	1995-07-07T01:27:00.00	8622	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T01:28:00.00	8623	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T02:05:00.00	8659	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T02:06:00.00	8660	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T04:55:00.00	8828	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T04:57:00.00	8830	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T04:58:00.00	8831	0-0-KL	 GRAD: twt, depth excessive
+Y	88010012	1995-07-07T20:40:00.00	9766	D-0-0	 NAV: on land
+Y	88010012	1995-07-07T20:42:00.00	9768	D-0-0	 NAV: on land
+Y	88010012	1995-07-07T20:43:00.00	9769	D-0-0	 NAV: on land
+Y	88010012	1995-07-07T20:44:00.00	9770	D-0-0	 NAV: on land

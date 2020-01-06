@@ -1,0 +1,28 @@
+# Cruise 16010006 ID X05784 MGD77 FILE VERSION: 19900321 N_RECS: 2534
+# Examined: Mon Nov 23 15:49:23 2009 by mtchandl
+# Arguments:  -R126.2/173.4/-16.45/-3.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-16010006-nav-00: Flagged 0.32 % of records with bad navigation
+Y-I-16010006-depth-01: RLS m: 0.99756 b: 0 rms: 118.806 r: 0.991387 sig: 1 dec: 0
+Y-I-16010006-faa-01: RLS m: 0.988621 b: 7.80176 rms: 8.74412 r: 0.976625 sig: 1 dec: 0
+N-E-16010006-faa-02: Regression slope 0.988621 different from 1. Recommended: [1]
+Y-W-16010006-faa-03: Regression offset 7.80176 different from 0.
+N-E-16010006-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00049 b: 2.8062 rms: 2.80863 r: 0.999994 sig: 1 dec: 0). [Recompute]
+N-E-16010006-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.90255 b: 2.1452 rms: 4.2192 r: 0.974812 sig: 1 dec: 0). [Recompute]
+N-E-16010006-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999389 b: 18.9091 rms: 18.9202 r: 0.999995 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-16010006-depth-08: Extended offset from grid [2510-2534]
+Y-W-16010006-depth-12: Integer precision
+# Errata: Data
+Y	16010006	1978-09-13T16:50:00.00	995	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-17T11:00:00.00	1384	B-0-0	 NAV: non-increasing time
+Y	16010006	1978-09-26T04:30:00.00	1676	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-28T12:40:00.00	1948	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-28T12:50:00.00	1949	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-28T13:00:00.00	1950	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-29T09:00:00.00	2067	C-0-0	 NAV: excessive speed
+Y	16010006	1978-09-29T09:10:00.00	2068	C-0-0	 NAV: excessive speed

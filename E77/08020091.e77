@@ -1,0 +1,64 @@
+# Cruise 08020091 ID MW9604 MGD77 FILE VERSION: 19991227 N_RECS: 19595
+# Examined: Mon Nov 23 15:25:05 2009 by mtchandl
+# Arguments:  -R189.3/202.15/-14.35/21.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08020091-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-08020091-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-08020091-depth-01: RLS m: 1.00136 b: 0 rms: 52.8058 r: 0.997377 sig: 1 dec: 0
+Y-I-08020091-faa-01: RLS m: 0.922347 b: 1.60821 rms: 12.2523 r: 0.990775 sig: 1 dec: 1
+N-E-08020091-faa-02: Regression slope 0.922347 different from 1. Recommended: [1]
+Y-I-08020091-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-08020091-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.978705 b: -22.8944 rms: 25.7515 r: 0.996821 sig: 1 dec: 1). [Recompute]
+Y-W-08020091-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08020091	1996-03-11T22:00:00.00	1	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:01:00.00	2	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:02:00.00	3	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:03:00.00	4	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:04:00.00	5	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:05:00.00	6	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:06:00.00	7	D-0-0	 NAV: on land
+Y	08020091	1996-03-11T22:07:00.00	8	D-0-0	 NAV: on land
+?	08020091	1996-03-11T22:55:25.98	105	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-11T22:56:49.02	108	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-11T23:38:31.98	198	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-11T23:43:28.98	211	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-11T23:43:30.00	212	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-11T23:43:40.02	213	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-11T23:44:25.98	216	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-11T23:45:13.98	219	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-13T01:39:49.02	2609	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-13T06:10:46.98	3034	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-13T06:34:15.00	3068	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-13T07:21:55.98	3143	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-13T17:04:28.02	4024	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-13T23:42:40.02	4672	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-14T18:26:37.02	6316	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-14T21:26:07.02	6588	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-14T22:10:54.00	6664	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-15T10:32:52.02	7766	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-15T11:23:34.02	7842	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-17T19:49:16.98	12726	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-17T19:49:31.02	12727	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-17T19:50:27.00	12730	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-18T02:04:10.02	13273	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-18T02:34:58.98	13331	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-19T03:45:13.02	15482	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-19T04:04:43.02	15512	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-19T04:05:36.00	15514	0-0-K	 GRAD: twt excessive
+?	08020091	1996-03-20T13:15:58.02	18369	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-20T13:22:52.98	18381	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-20T14:00:52.02	18454	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-20T14:44:09.00	18532	0-0-KL	 GRAD: twt, depth excessive
+?	08020091	1996-03-21T03:43:00.00	19589	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:44:00.00	19590	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:45:00.00	19591	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:46:00.00	19592	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:47:00.00	19593	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:48:00.00	19594	D-0-0	 NAV: on land
+Y	08020091	1996-03-21T03:49:00.00	19595	D-0-0	 NAV: on land

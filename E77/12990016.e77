@@ -1,0 +1,22 @@
+# Cruise 12990016 ID 75108 MGD77 FILE VERSION: 19880608 N_RECS: 254
+# Examined: Mon Aug 30 15:59:48 2010 by mtchandl
+# Arguments:  -R277.6/282/51.2/54.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-12990016-nav-00: Flagged 3.15 % of records with bad navigation
+Y-I-12990016-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1
+Y-W-12990016-depth-02: Ship and /Users/data/GRIDS/topo1.grd grid appear identical (m=1,b=0,s=0)
+Y-W-12990016-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	12990016	568.135	51	D-0-0	 NAV: on land
+Y	12990016	1353.31	82	D-0-0	 NAV: on land
+Y	12990016	1646.94	98	D-0-0	 NAV: on land
+Y	12990016	2376.37	125	D-0-0	 NAV: on land
+Y	12990016	2856.42	144	D-0-0	 NAV: on land
+Y	12990016	3569.84	175	D-0-0	 NAV: on land
+Y	12990016	4896.79	236	D-0-0	 NAV: on land
+Y	12990016	4901.64	237	D-0-0	 NAV: on land

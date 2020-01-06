@@ -1,0 +1,20 @@
+# Cruise 35250004 ID 05077 MGD77 FILE VERSION: 19880322 N_RECS: 8755
+# Examined: Wed Jul 27 19:23:05 2011 by mtchandl
+# Arguments:  -R121.9/139.7/17/35.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-35250004-depth-01: RLS m: 1.00388 b: 0 rms: 62.5622 r: 0.999378 sig: 1 dec: 0
+N-E-35250004-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-W-35250004-depth-12: Integer precision
+# Errata: Data
+?	35250004	2704.29	297	0-0-L	 GRAD: depth excessive
+?	35250004	5465.65	1139	0-0-L	 GRAD: depth excessive
+?	35250004	8669.61	1985	0-0-L	 GRAD: depth excessive
+?	35250004	16997.8	3683	0-0-L	 GRAD: depth excessive
+?	35250004	17001.1	3689	0-0-L	 GRAD: depth excessive
+?	35250004	21541.9	5191	0-0-L	 GRAD: depth excessive
+?	35250004	26476.5	6561	0-0-L	 GRAD: depth excessive

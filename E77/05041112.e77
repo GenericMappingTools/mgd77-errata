@@ -1,0 +1,53 @@
+# Cruise 05041112 ID HP9106 MGD77 FILE VERSION: 20080804 N_RECS: 19904
+# Examined: Fri Apr 30 13:37:14 2010 by mtchandl
+# Arguments:  -R175.5/183.05/-42/-35.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05041112-H04-06: Invalid Survey Arrival Day: (26) [25]
+Y-W-05041112-H13-10: Survey year (1991) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05041112-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05041112-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05041112-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05041112-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05041112-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05041112-H16-06: Ten Degree Identifier 5417 not marked in header but block was crossed
+Y-W-05041112-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05041112-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-05041112-depth-01: RLS m: 0.999616 b: 0 rms: 15.4218 r: 0.999826 sig: 1 dec: 0
+Y-I-05041112-faa-01: RLS m: 1.02394 b: 2.20234 rms: 7.27346 r: 0.99118 sig: 1 dec: 1
+N-E-05041112-faa-02: Regression slope 1.02394 different from 1. Recommended: [1]
+Y-W-05041112-faa-03: Regression offset 2.20234 different from 0.
+Y-E-05041112-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00121 b: -19.5485 rms: 23.9328 r: 0.999093 sig: 1 dec: 1). [Recompute]
+Y-W-05041112-depth-12: Integer precision
+Y-W-05041112-mtf1-12: Integer precision
+# Errata: Data
+?	05041112	1991-11-13T09:30:00.00	2456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05041112	1991-11-13T09:31:00.00	2457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05041112	1991-11-17T12:55:00.00	8656	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05041112	1991-11-22T23:01:00.00	16031	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:02:00.00	16032	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:03:00.00	16033	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:04:00.00	16034	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:05:00.00	16035	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:06:00.00	16036	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:07:00.00	16037	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:08:00.00	16038	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:09:00.00	16039	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:10:00.00	16040	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:11:00.00	16041	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:12:00.00	16042	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:13:00.00	16043	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:14:00.00	16044	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:15:00.00	16045	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:16:00.00	16046	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:17:00.00	16047	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:18:00.00	16048	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:19:00.00	16049	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:20:00.00	16050	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:21:00.00	16051	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:22:00.00	16052	C-0-0	 NAV: excessive speed
+Y	05041112	1991-11-22T23:23:00.00	16053	C-0-0	 NAV: excessive speed

@@ -1,0 +1,119 @@
+# Cruise J2010004 ID GH7504 MGD77 FILE VERSION: 19810916 N_RECS: 3437
+# Examined: Sun Aug  7 07:47:43 2011 by mtchandl
+# Arguments:  -R131.55/139.8/0.4/35.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive gradient flags to remove outliers, recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-J2010004-H11-03: Invalid Bottommost Latitude: (+30) [+00]
+N-E-J2010004-H16-01: Invalid Number of Ten Degree Identifiers: ( 1) [2]
+Y-W-J2010004-H16-06: Ten Degree Identifier 1013 not marked in header but block was crossed
+Y-W-J2010004-nav-00: Flagged 1.02 % of records with bad navigation
+Y-I-J2010004-depth-01: RLS m: 0.998988 b: 0 rms: 21.6128 r: 0.99991 sig: 1 dec: 0
+N-E-J2010004-depth-02: Regression slope 0.998988 different from 1. Recommended: [1]
+Y-I-J2010004-faa-01: RLS m: 0.995097 b: 1.58714 rms: 5.56472 r: 0.992601 sig: 1 dec: 0
+N-E-J2010004-faa-02: Regression slope 0.995097 different from 1. Recommended: [1]
+Y-W-J2010004-faa-03: Regression offset 1.58714 different from 0.
+N-E-J2010004-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-J2010004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01001 b: -36.2728 rms: 42.3867 r: 0.990478 sig: 1 dec: 1). [Recompute]
+N-E-J2010004-twt-13: Encountered possible PDR wrap errors (5.1) [5.0]
+Y-W-J2010004-twt-11: More recent bathymetry correction table available
+Y-W-J2010004-depth-12: Integer precision
+Y-W-J2010004-mtf1-12: Integer precision
+Y-W-J2010004-mag-12: Integer precision
+# Errata: Data
+Y	J2010004	1975-06-16T07:40:00.00	19	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010004	1975-06-16T07:45:00.00	20	0-0-UW	 GRAD: gobs, faa excessive
+Y	J2010004	1975-06-16T10:45:00.00	49	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	J2010004	1975-06-16T10:50:00.00	50	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010004	1975-06-16T10:55:00.00	51	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010004	1975-06-16T12:00:00.00	64	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J2010004	1975-06-16T23:50:00.00	193	0-0-O	 GRAD: mtf1 excessive
+Y	J2010004	1975-06-16T23:55:00.00	194	0-0-O	 GRAD: mtf1 excessive
+Y	J2010004	1975-06-17T04:35:00.00	249	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-06-17T08:45:00.00	290	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-17T09:45:00.00	302	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-06-17T10:30:00.00	310	0-0-KLO	 GRAD: twt, depth, mtf1 excessive
+Y	J2010004	1975-06-17T10:35:00.00	311	0-0-O	 GRAD: mtf1 excessive
+Y	J2010004	1975-06-18T01:15:00.00	484	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-18T01:40:00.00	489	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-06-18T02:45:00.00	501	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-18T04:35:00.00	521	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-18T04:45:00.00	523	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-19T02:20:00.00	760	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-19T02:25:00.00	761	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-19T07:00:00.00	809	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-19T20:25:00.00	950	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-20T04:40:00.00	1029	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-21T04:45:00.00	1295	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-21T07:00:00.00	1316	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:05:00.00	1317	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:10:00.00	1318	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:15:00.00	1319	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:20:00.00	1320	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:25:00.00	1321	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:30:00.00	1322	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:35:00.00	1323	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T07:40:00.00	1324	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:00:00.00	1325	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:10:00.00	1326	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:20:00.00	1327	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:25:00.00	1328	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:30:00.00	1329	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:35:00.00	1330	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:40:00.00	1331	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:45:00.00	1332	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:50:00.00	1333	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T08:55:00.00	1334	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T09:00:00.00	1335	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T09:05:00.00	1336	D-0-0	 NAV: on land
+Y	J2010004	1975-06-21T09:10:00.00	1337	D-0-0	 NAV: on land
+Y	J2010004	1975-06-22T05:45:00.00	1386	0-W-0	 VAL: faa invalid
+Y	J2010004	1975-06-22T06:20:00.00	1389	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-22T10:00:00.00	1431	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-22T10:05:00.00	1432	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-22T10:10:00.00	1433	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-22T10:15:00.00	1434	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-22T10:20:00.00	1435	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-22T10:25:00.00	1436	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-24T04:45:00.00	1806	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-24T08:45:00.00	1853	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-06-28T00:10:00.00	1995	D-0-0	 NAV: on land
+Y	J2010004	1975-06-28T00:15:00.00	1996	D-0-0	 NAV: on land
+Y	J2010004	1975-06-28T00:20:00.00	1997	D-0-0	 NAV: on land
+Y	J2010004	1975-06-28T00:25:00.00	1998	D-0-0	 NAV: on land
+Y	J2010004	1975-06-28T01:05:00.00	2006	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-29T00:50:00.00	2281	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-29T01:05:00.00	2284	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-29T03:30:00.00	2303	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-29T07:30:00.00	2350	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-06-30T15:00:00.00	2680	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-06-30T15:30:00.00	2686	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-07-01T01:25:00.00	2801	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T01:30:00.00	2802	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T02:10:00.00	2808	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-07-01T03:40:00.00	2820	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T04:50:00.00	2834	C-0-0	 NAV: excessive speed
+Y	J2010004	1975-07-01T06:00:00.00	2847	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T06:05:00.00	2848	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T06:15:00.00	2850	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T06:25:00.00	2852	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T06:30:00.00	2853	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-07-01T06:35:00.00	2854	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T06:40:00.00	2855	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:10:00.00	2861	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:15:00.00	2862	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:20:00.00	2863	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:25:00.00	2864	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:30:00.00	2865	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:35:00.00	2866	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:40:00.00	2867	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:45:00.00	2868	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:50:00.00	2869	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T07:55:00.00	2870	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T08:00:00.00	2871	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010004	1975-07-01T08:05:00.00	2872	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-07-01T11:25:00.00	2911	0-0-K	 GRAD: twt excessive
+Y	J2010004	1975-07-02T02:55:00.00	3091	0-0-KL	 GRAD: twt, depth excessive

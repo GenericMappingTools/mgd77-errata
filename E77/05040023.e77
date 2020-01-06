@@ -1,0 +1,24 @@
+# Cruise 05040023 ID EM8801 MGD77 FILE VERSION: 20080801 N_RECS: 3592
+# Examined: Fri Apr 30 13:32:24 2010 by mtchandl
+# Arguments:  -R177.2/182.25/-38.05/-35.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05040023-H13-10: Survey year (1988) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05040023-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040023-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040023-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040023-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05040023-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-I-05040023-depth-01: RLS m: 0.999302 b: 0 rms: 40.1158 r: 0.999562 sig: 1 dec: 0
+Y-I-05040023-faa-01: RLS m: 0.984425 b: 1.57791 rms: 3.4218 r: 0.997574 sig: 1 dec: 0
+N-E-05040023-faa-02: Regression slope 0.984425 different from 1. Recommended: [1]
+Y-W-05040023-faa-03: Regression offset 1.57791 different from 0.
+Y-E-05040023-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999367 b: -30.5404 rms: 31.6736 r: 0.99975 sig: 1 dec: 1). [Recompute]
+Y-W-05040023-depth-12: Integer precision
+Y-W-05040023-mtf1-12: Integer precision
+# Errata: Data
+?	05040023	1988-02-04T01:11:00.00	164	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,64 @@
+# Cruise 15010045 ID MONS06AR MGD77 FILE VERSION: 19800226 N_RECS: 9181
+# Examined: Tue May 13 09:01:14 2008 by mtchandl
+# Arguments:  -R168.85/194.1/-64.8/-41.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15010045-H16-01: Invalid Number of Ten Degree Identifiers: (10) [12]
+Y-W-15010045-H16-06: Ten Degree Identifier 5418 not marked in header but block was crossed
+Y-W-15010045-H16-06: Ten Degree Identifier 5618 not marked in header but block was crossed
+Y-W-15010045-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15010045-depth-01: RLS m: 0.996125 b: 0 rms: 118.994 r: 0.997193 sign: 1 dec: 1
+Y-E-15010045-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.98062 b: -10.756 rms: 70.5759 r: 0.966856 sig: 1 dec: 1). [Recompute]
+Y-W-15010045-mtf1-12: Integer multiple of 5 precision
+Y-W-15010045-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010045	1961-01-31T00:42:00.00	1126	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010045	1961-02-04T18:24:00.00	3184	C-0-0	 NAV: excessive speed
+?	15010045	1961-02-09T19:18:00.00	4463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T19:30:00.00	4467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T19:36:00.00	4469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T19:48:00.00	4473	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T22:06:00.00	4519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T22:12:00.00	4521	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-09T22:24:00.00	4525	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-09T22:42:00.00	4531	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010045	1961-02-12T01:21:00.00	5463	C-0-0	 NAV: excessive speed
+Y	15010045	1961-02-12T11:45:00.00	5671	C-0-0	 NAV: excessive speed
+?	15010045	1961-02-12T12:18:00.00	5682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T12:36:00.00	5688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T15:24:00.00	5744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T15:36:00.00	5748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T16:30:00.00	5766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T16:48:00.00	5772	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-12T17:42:00.00	5790	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010045	1961-02-12T19:30:00.00	5826	C-0-0	 NAV: excessive speed
+?	15010045	1961-02-13T03:48:00.00	5889	0-0-Q	 GRAD: mag excessive
+?	15010045	1961-02-13T05:06:00.00	5915	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-13T05:12:00.00	5917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-13T21:12:00.00	6106	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-13T22:36:00.00	6134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-13T22:54:00.00	6140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-14T01:12:00.00	6186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-14T01:36:00.00	6194	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-14T01:42:00.00	6196	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-14T06:18:00.00	6237	0-0-Q	 GRAD: mag excessive
+?	15010045	1961-02-14T06:36:00.00	6243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-19T23:18:00.00	8225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-19T23:54:00.00	8237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-20T00:12:00.00	8243	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010045	1961-02-20T00:18:00.00	8245	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T00:24:00.00	8247	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T00:30:00.00	8249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010045	1961-02-20T03:30:00.00	8309	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T03:36:00.00	8311	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T03:42:00.00	8313	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:00:00.00	8398	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:06:00.00	8400	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:12:00.00	8402	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:18:00.00	8404	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:24:00.00	8406	0-Q-0	 VAL: mag invalid
+?	15010045	1961-02-20T08:30:00.00	8408	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

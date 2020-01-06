@@ -1,0 +1,13 @@
+# Cruise 19180031 ID CD5090 MGD77 FILE VERSION: 19950628 N_RECS: 27995
+# Examined: Mon Sep 20 13:18:58 2010 by mtchandl
+# Arguments:  -R342.55/354.9/59.8/64.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-19180031-depth-01: RLS m: 1.00105 b: 0 rms: 6.45638 r: 0.999952 sig: 1 dec: 0
+N-E-19180031-depth-02: Regression slope 1.00105 different from 1. Recommended: [1]
+Y-W-19180031-depth-12: Integer precision
+# Errata: Data

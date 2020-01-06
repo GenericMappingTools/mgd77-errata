@@ -1,0 +1,12 @@
+# Cruise 03020068 ID B00055 MGD77 FILE VERSION: 19921231 N_RECS: 1811
+# Examined: Fri Apr  9 14:54:19 2010 by mtchandl
+# Arguments:  -R233.95/234.3/43.95/44.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Discrepancies between ship and predicted bathymetry.
+# Errata: Header
+Y-I-03020068-depth-01: RLS m: 0.999895 b: 0 rms: 9.65754 r: 0.955186 sig: 1 dec: 0
+Y-W-03020068-depth-12: Integer precision
+# Errata: Data

@@ -1,0 +1,108 @@
+# Cruise 15020148 ID WEST01MV MGD77 FILE VERSION: 20040318 N_RECS: 52728
+# Examined: Sun May 18 10:18:28 2008 by mtchandl
+# Arguments:  -R210.35/248.3/-18.75/31.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+N-E-15020148-H04-03: Invalid Survey Departure Day: (23) [24]
+Y-W-15020148-H13-10: Survey year (1993) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020148-depth-01: RLS m: 1.00388 b: 0 rms: 199.804 r: 0.979192 sig: 1 dec: 1
+Y-I-15020148-faa-01: RLS m: 0.894745 b: -0.521441 rms: 12.7221 r: 0.978766 sig: 1 dec: 1
+N-E-15020148-faa-02: Regression slope 0.894745 different from 1. Recommended: [1]
+N-E-15020148-faa-06: Anomaly differs from gobs - IGF80 (m: 0.208998 b: 2.18809 rms: 57.7352 r: 0.476378 sig: 1 dec: 1). [Recompute]
+N-E-15020148-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.214563 b: 5.07331 rms: 52.8416 r: 0.486166 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020148-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.938761 b: 27.288 rms: 44.9588 r: 0.985238 sig: 1 dec: 1). [Recompute]
+Y-W-15020148-twt-11: More recent bathymetry correction table available
+Y-W-15020148-depth-12: Integer precision
+Y-W-15020148-mtf1-12: Integer precision
+# Errata: Data
+?	15020148	1993-11-28T10:17:00.00	6155	0-0-K	 GRAD: twt excessive
+?	15020148	1993-11-28T10:18:00.00	6156	0-0-KL	 GRAD: twt, depth excessive
+?	15020148	1993-12-02T08:45:00.00	11820	0-0-K	 GRAD: twt excessive
+?	15020148	1993-12-03T19:27:00.00	13902	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-03T19:28:00.00	13903	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-03T20:43:00.00	13978	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-05T03:41:00.00	15836	0-0-K	 GRAD: twt excessive
+?	15020148	1993-12-05T21:41:00.00	16916	0-0-K	 GRAD: twt excessive
+?	15020148	1993-12-06T01:53:00.00	17168	0-0-K	 GRAD: twt excessive
+?	15020148	1993-12-06T09:37:00.00	17632	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T09:38:00.00	17633	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T12:02:00.00	17777	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T12:27:00.00	17802	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T15:31:00.00	17986	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T18:02:00.00	18137	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T18:29:00.00	18164	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T18:49:00.00	18184	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T19:16:00.00	18211	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-06T19:32:00.00	18227	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-07T00:45:00.00	18523	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-07T13:26:00.00	19284	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-07T14:55:00.00	19373	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-07T17:00:00.00	19498	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-08T01:08:00.00	19986	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-08T07:56:00.00	20394	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-08T07:57:00.00	20395	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-09T21:58:00.00	22676	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-09T22:01:00.00	22679	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T02:58:00.00	22976	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T16:46:00.00	23804	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T17:54:00.00	23872	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T17:55:00.00	23873	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T17:56:00.00	23874	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-10T17:57:00.00	23875	0-0-W	 GRAD: faa excessive
+?	15020148	1993-12-10T18:54:00.00	23932	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-11T02:38:00.00	24396	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-11T04:19:00.00	24497	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-11T14:22:00.00	25100	0-0-K	 GRAD: twt excessive
+?	15020148	1993-12-11T21:02:00.00	25500	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-11T21:17:00.00	25515	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-11T21:23:00.00	25521	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-12T22:57:00.00	27055	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-14T03:18:00.00	28756	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-14T03:19:00.00	28757	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-14T03:30:00.00	28768	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-14T03:31:00.00	28769	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-14T03:36:00.00	28774	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T03:24:00.00	31642	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T04:01:00.00	31679	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T04:02:00.00	31680	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T19:46:00.00	32624	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T19:49:00.00	32627	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-16T21:28:00.00	32726	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-18T21:01:00.00	35579	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-18T21:33:00.00	35611	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-18T21:34:00.00	35612	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-19T20:39:00.00	36997	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-19T21:05:00.00	37023	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-19T21:06:00.00	37024	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T11:30:00.00	37888	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T11:53:00.00	37911	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T11:54:00.00	37912	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T11:55:00.00	37913	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T13:05:00.00	37983	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T20:43:00.00	38441	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-20T22:30:00.00	38548	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T00:38:00.00	38676	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T01:33:00.00	38731	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T01:38:00.00	38736	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T02:14:00.00	38772	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T02:27:00.00	38785	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T02:28:00.00	38786	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T02:32:00.00	38790	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T02:38:00.00	38796	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-21T21:12:00.00	39910	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T02:50:00.00	40248	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T02:51:00.00	40249	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T06:15:00.00	40453	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T12:48:00.00	40846	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T18:51:00.00	41209	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-22T21:25:00.00	41363	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-23T01:52:00.00	41630	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-23T01:53:00.00	41631	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-26T22:56:00.00	47214	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-30T17:30:00.00	52648	0-0-U	 GRAD: gobs excessive
+?	15020148	1993-12-30T17:59:00.00	52677	0-0-U	 GRAD: gobs excessive

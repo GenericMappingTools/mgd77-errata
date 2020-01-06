@@ -1,0 +1,144 @@
+# Cruise 01210041 ID EW9103 MGD77 FILE VERSION: 19960829 N_RECS: 40657
+# Examined: Fri Mar 26 19:30:57 2010 by mtchandl
+# Arguments:  -R208.7/223.45/-20.3/-6.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01210041-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01210041-H13-10: Survey year (1991) outside magnetic reference field IGRF-90 time range (1995-2000)
+Y-E-01210041-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-I-01210041-depth-01: RLS m: 0.995777 b: 0 rms: 59.6157 r: 0.997896 sig: 1 dec: 0
+N-E-01210041-depth-02: Regression slope 0.995777 different from 1. Recommended: [1]
+Y-I-01210041-faa-01: RLS m: 1.00105 b: 16.2842 rms: 18.2195 r: 0.991431 sig: 1 dec: 1
+Y-W-01210041-faa-03: Regression offset 16.2842 different from 0.
+Y-E-01210041-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99901 b: -60.7236 rms: 66.512 r: 0.997721 sig: 1 dec: 1). [Recompute]
+N-E-01210041-faa-08: Extended offset from grid [1139-40510]
+Y-W-01210041-depth-12: Integer precision
+Y-W-01210041-mtf1-12: Integer precision
+Y-W-01210041-mag-12: Integer precision
+# Errata: Data
+?	01210041	1991-05-14T19:35:00.00	2773	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-16T20:42:00.00	5722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-16T20:43:00.00	5723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:15:00.00	6055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:16:00.00	6056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:17:00.00	6057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:18:00.00	6058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:19:00.00	6059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:20:00.00	6060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:21:00.00	6061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:22:00.00	6062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:23:00.00	6063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:24:00.00	6064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:25:00.00	6065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:26:00.00	6066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:27:00.00	6067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:28:00.00	6068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:29:00.00	6069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:30:00.00	6070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:31:00.00	6071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:32:00.00	6072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:33:00.00	6073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:34:00.00	6074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:35:00.00	6075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T02:36:00.00	6076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-17T14:11:00.00	6771	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-21T08:02:00.00	12170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T08:04:00.00	12172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:46:00.00	12755	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:48:00.00	12757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:49:00.00	12758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:50:00.00	12759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:51:00.00	12760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:52:00.00	12761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:53:00.00	12762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:54:00.00	12763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:55:00.00	12764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:56:00.00	12765	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:57:00.00	12766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:58:00.00	12767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T17:59:00.00	12768	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T18:00:00.00	12769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T18:01:00.00	12770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-21T18:02:00.00	12771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-23T03:32:00.00	14783	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-23T14:31:00.00	15442	0-0-KL	 GRAD: twt, depth excessive
+?	01210041	1991-05-23T14:34:00.00	15445	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-24T05:47:00.00	16359	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-24T05:51:00.00	16363	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-24T05:52:00.00	16364	0-0-K	 GRAD: twt excessive
+?	01210041	1991-05-29T13:57:00.00	24052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T13:58:00.00	24053	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	01210041	1991-05-29T13:59:00.00	24054	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	01210041	1991-05-29T14:00:00.00	24055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:01:00.00	24056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:02:00.00	24057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:03:00.00	24058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:04:00.00	24059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:05:00.00	24060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:06:00.00	24061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-29T14:07:00.00	24062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-05-31T22:52:00.00	27467	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-03T19:52:00.00	31608	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-05T01:49:00.00	33405	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:50:00.00	33406	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:51:00.00	33407	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:52:00.00	33408	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:53:00.00	33409	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:54:00.00	33410	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:55:00.00	33411	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:56:00.00	33412	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:57:00.00	33413	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:58:00.00	33414	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T01:59:00.00	33415	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:00:00.00	33416	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:01:00.00	33417	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:02:00.00	33418	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:03:00.00	33419	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:04:00.00	33420	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:05:00.00	33421	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:06:00.00	33422	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:07:00.00	33423	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:08:00.00	33424	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:09:00.00	33425	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:10:00.00	33426	0-Q-0	 VAL: mag invalid
+?	01210041	1991-06-05T02:13:00.00	33429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:14:00.00	33430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:15:00.00	33431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:16:00.00	33432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:17:00.00	33433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:18:00.00	33434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:19:00.00	33435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:20:00.00	33436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:21:00.00	33437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:22:00.00	33438	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:23:00.00	33439	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:24:00.00	33440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:25:00.00	33441	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:26:00.00	33442	0-0-O	 GRAD: mtf1 excessive
+?	01210041	1991-06-05T02:54:00.00	33470	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:55:00.00	33471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:56:00.00	33472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:57:00.00	33473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:58:00.00	33474	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T02:59:00.00	33475	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:00:00.00	33476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:01:00.00	33477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:02:00.00	33478	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:03:00.00	33479	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:04:00.00	33480	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:05:00.00	33481	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:06:00.00	33482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:07:00.00	33483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:08:00.00	33484	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:09:00.00	33485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:10:00.00	33486	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T03:11:00.00	33487	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01210041	1991-06-05T10:05:00.00	33901	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-05T22:44:00.00	34660	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-06T01:28:00.00	34824	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-07T01:34:00.00	36270	0-0-K	 GRAD: twt excessive
+?	01210041	1991-06-08T23:45:00.00	39041	0-0-K	 GRAD: twt excessive

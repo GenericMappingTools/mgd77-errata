@@ -1,0 +1,18 @@
+# Cruise 67010086 ID 80011411 MGD77 FILE VERSION: 19840123 N_RECS: 9430
+# Examined: Fri Jul 29 16:36:12 2011 by mtchandl
+# Arguments:  -R-99.6/-79.9/6.75/16.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported magnetic anomalies scaled by .1, recommend recomputing.
+# Errata: Header
+Y-I-67010086-depth-01: RLS m: 1.00388 b: 0 rms: 99.4949 r: 0.999024 sig: 1 dec: 0
+N-E-67010086-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-E-67010086-mag-07: Anomaly differs from mtf1-IGRF (m: 0.0879864 b: -11.2532 rms: 130.482 r: 0.868886 sig: 1 dec: 1). [Recompute]
+Y-W-67010086-depth-12: Integer precision
+Y-W-67010086-mtf1-12: Integer precision
+# Errata: Data
+?	67010086	1980-12-14T15:32:42.00	1232	0-0-O	 GRAD: mtf1 excessive
+?	67010086	1980-12-15T21:10:36.00	3390	0-0-O	 GRAD: mtf1 excessive
+?	67010086	1980-12-19T04:57:48.00	9147	0-0-O	 GRAD: mtf1 excessive

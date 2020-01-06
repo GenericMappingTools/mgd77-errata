@@ -1,0 +1,22 @@
+# Cruise 83030006 ID SO127 MGD77 FILE VERSION: 20010426 N_RECS: 25200
+# Examined: Wed Aug  3 07:09:52 2011 by mtchandl
+# Arguments:  -R69.95/98.55/4.15/10.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Extreme navigation latency apparent in depth data, flagged all depths as bad. Recommend correction by source institution.
+# Errata: Header
+N-E-83030006-H04-03: Invalid Survey Departure Day: (17) [18]
+Y-E-83030006-H11-05: Invalid Leftmost Longitude: ( 070) [+069]
+Y-I-83030006-depth-01: RLS m: 1.00073 b: 0 rms: 17.6964 r: 0.999919 sig: 1 dec: 0
+N-E-83030006-depth-02: Regression slope 1.00073 different from 1. Recommended: [1]
+Y-E-83030006-depth-08: Extended offset from grid [1-25200]
+Y-W-83030006-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	83030006	1997-12-28T13:32:00.00	14492	0-0-KL	 GRAD: twt, depth excessive
+?	83030006	1997-12-28T13:33:00.00	14493	0-0-KL	 GRAD: twt, depth excessive
+?	83030006	1997-12-28T14:08:00.00	14528	0-0-K	 GRAD: twt excessive
+?	83030006	1997-12-28T16:36:00.00	14676	0-0-K	 GRAD: twt excessive
+?	83030006	1997-12-30T01:16:00.00	16636	0-0-KL	 GRAD: twt, depth excessive
+?	83030006	1998-01-02T12:31:00.00	21631	0-0-KL	 GRAD: twt, depth excessive

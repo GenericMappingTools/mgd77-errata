@@ -1,0 +1,52 @@
+# Cruise 15040225 ID RAPA00WT MGD77 FILE VERSION: 19941231 N_RECS: 1918
+# Examined: Tue May 27 10:52:35 2008 by mtchandl
+# Arguments:  -R241.75/242.8/32.3/32.7 -Idepth,549,1764 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, filtering faa, and fixing questionable depths for records 737-1378.
+# Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column. Recomputing faa without 
+# first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15040225-H04-06: Invalid Survey Arrival Day: (05) [06]
+Y-I-15040225-depth-01: RLS m: 1 b: 0 rms: 83.4998 r: 0.980917 sig: 1 dec: 1
+Y-I-15040225-faa-01: RLS m: 0.992749 b: 2.03804 rms: 12.0283 r: 0.938334 sig: 1 dec: 1
+N-E-15040225-faa-06: Anomaly differs from gobs - IGF80 (m: 0.390961 b: -26.0754 rms: 44.5398 r: 0.610648 sig: 1 dec: 1). [Recompute]
+Y-E-15040225-mag-07: Anomaly differs from mtf1 - IGRF (m: 1 b: -40 rms: 40 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-15040225-depth-10: Invalid data records: [737-1378]
+Y-W-15040225-twt-11: More recent bathymetry correction table available
+Y-W-15040225-depth-12: Integer precision
+Y-W-15040225-mtf1-12: Integer precision
+# Errata: Data
+?	15040225	1990-11-04T19:18:00.00	78	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-04T21:36:00.00	215	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-04T23:03:00.00	302	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T00:16:00.00	375	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T00:17:00.00	376	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T00:18:00.00	377	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T02:17:00.00	496	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T08:05:00.00	844	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T10:31:00.00	990	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T10:33:00.00	992	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T11:16:00.00	1035	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T11:17:00.00	1036	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T11:56:00.00	1075	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T12:27:00.00	1106	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T12:28:00.00	1107	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T13:01:00.00	1140	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T13:18:00.00	1157	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T13:43:00.00	1182	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T13:44:00.00	1183	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T14:27:00.00	1226	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T15:02:00.00	1261	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T15:03:00.00	1262	0-0-UW	 GRAD: gobs, faa excessive
+?	15040225	1990-11-05T15:31:00.00	1290	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T15:39:00.00	1298	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T15:41:00.00	1300	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T16:13:00.00	1332	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T16:14:00.00	1333	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T16:15:00.00	1334	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T16:46:00.00	1365	0-0-W	 GRAD: faa excessive
+?	15040225	1990-11-05T16:48:00.00	1366	0-0-U	 GRAD: gobs excessive
+?	15040225	1990-11-05T22:19:00.00	1697	0-0-W	 GRAD: faa excessive

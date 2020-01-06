@@ -1,0 +1,62 @@
+# Cruise 13010003 ID BFT72 MGD77 FILE VERSION: 19800313 N_RECS: 1291
+# Examined: Mon Aug 30 16:00:57 2010 by mtchandl
+# Arguments:  -R203.25/216.65/70.15/72 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-13010003-time-01: 40 of 1291 records contain invalid time
+Y-E-13010003-H12-01: Invalid Bathymetry Digitizing Rate: (408) [408]
+Y-E-13010003-H14-01: Invalid Gravity Digitizing Rate: (339) [339]
+Y-W-13010003-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-13010003-depth-01: RLS m: 1.00248 b: 0 rms: 4.35282 r: 0.999833 sig: 1 dec: 0
+N-E-13010003-depth-02: Regression slope 1.00248 different from 1. Recommended: [1]
+Y-I-13010003-faa-01: RLS m: 1.00961 b: -2.10658 rms: 4.10206 r: 0.992146 sig: 1 dec: 0
+N-E-13010003-faa-02: Regression slope 1.00961 different from 1. Recommended: [1]
+Y-W-13010003-faa-03: Regression offset -2.10658 different from 0.
+Y-I-13010003-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-13010003-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	13010003	NaN	5	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	66	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	108	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	109	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	110	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	111	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	112	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	231	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	281	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	367	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	423	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	424	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	531	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	692	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	739	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	740	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	741	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	742	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	743	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	781	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	782	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	783	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	828	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	915	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	916	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	917	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	918	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	919	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	953	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	954	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	955	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	956	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	957	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	958	E-0-0	 NAV: navigation undefined
+Y	13010003	1972-09-06T08:38:00.00	963	B-0-0	 NAV: non-increasing time
+Y	13010003	NaN	1061	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	1062	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	1063	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	1064	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	1065	E-0-0	 NAV: navigation undefined
+Y	13010003	NaN	1066	E-0-0	 NAV: navigation undefined

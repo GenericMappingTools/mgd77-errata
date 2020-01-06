@@ -1,0 +1,51 @@
+# Cruise 15050053 ID DSDP54GC MGD77 FILE VERSION: 19800226 N_RECS: 13717
+# Examined: Fri May 30 10:04:56 2008 by mtchandl
+# Arguments:  -R242.6/280.15/0.55/32.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050053-H04-02: Invalid Survey Departure Month: (04) [05]
+N-E-15050053-H04-03: Invalid Survey Departure Day: (29) [01]
+N-E-15050053-H04-06: Invalid Survey Arrival Day: (18) [17]
+Y-I-15050053-depth-01: RLS m: 1 b: 0 rms: 154.117 r: 0.989686 sig: 1 dec: 1
+Y-E-15050053-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.946075 b: -104.31 rms: 351.685 r: 0.471504 sig: 1 dec: 1). [Recompute]
+Y-W-15050053-mtf1-12: Integer precision
+Y-W-15050053-mag-12: Integer precision
+# Errata: Data
+?	15050053	1977-05-17T13:45:00.00	4666	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T13:50:00.00	4667	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T13:55:00.00	4668	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T14:00:00.00	4669	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T14:05:00.00	4670	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T14:10:00.00	4671	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T14:15:00.00	4672	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-17T14:20:00.00	4673	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T18:45:00.00	6166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T18:50:00.00	6167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T18:55:00.00	6168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T19:00:00.00	6169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T19:05:00.00	6170	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T19:10:00.00	6171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T19:15:00.00	6172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T19:20:00.00	6173	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-22T22:05:00.00	6206	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:10:00.00	6207	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:15:00.00	6208	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:20:00.00	6209	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:25:00.00	6210	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:35:00.00	6212	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:40:00.00	6213	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:45:00.00	6214	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-22T22:50:00.00	6215	0-Q-0	 VAL: mag invalid
+?	15050053	1977-05-26T07:20:00.00	7181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T07:25:00.00	7182	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:10:00.00	7203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:15:00.00	7204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:20:00.00	7205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:40:00.00	7209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:45:00.00	7210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-05-26T09:50:00.00	7211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050053	1977-06-02T19:30:00.00	9343	0-0-OQ	 GRAD: mtf1, mag excessive

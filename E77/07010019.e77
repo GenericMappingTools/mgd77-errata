@@ -1,0 +1,78 @@
+# Cruise 07010019 ID YAQ69FEB MGD77 FILE VERSION: 19840214 N_RECS: 13982
+# Examined: Fri Jul 16 17:31:46 2010 by mtchandl
+# Arguments:  -R267.9/282.3/-4.6/9.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010019-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-07010019-depth-01: RLS m: 0.999403 b: 0 rms: 34.95 r: 0.998999 sig: 1 dec: 0
+Y-I-07010019-faa-01: RLS m: 0.99115 b: 7.74669 rms: 10.3536 r: 0.966144 sig: 1 dec: 0
+Y-W-07010019-faa-03: Regression offset 7.74669 different from 0.
+Y-E-07010019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00078 b: -157.479 rms: 164.878 r: 0.985693 sig: 1 dec: 1). [Recompute]
+Y-W-07010019-mtf1-12: Integer multiple of 5 precision
+Y-W-07010019-mag-12: Integer precision
+# Errata: Data
+Y	07010019	1969-02-17T15:45:00.00	947	B-0-0	 NAV: non-increasing time
+?	07010019	1969-02-17T16:20:00.00	955	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010019	1969-02-17T16:20:00.00	956	B-0-0	 NAV: non-increasing time
+?	07010019	1969-02-19T02:35:00.00	1385	0-0-Q	 GRAD: mag excessive
+?	07010019	1969-02-19T04:20:00.00	1419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T06:00:00.00	1448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T06:05:00.00	1450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T06:25:00.00	1459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T06:30:00.00	1461	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T11:35:00.00	1548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T12:35:00.00	1567	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-19T12:40:00.00	1569	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-23T22:55:00.00	2705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T01:20:00.00	2730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T01:25:00.00	2732	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T01:30:00.00	2733	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T01:35:00.00	2735	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-24T01:40:00.00	2737	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T01:45:00.00	2738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T04:00:00.00	2761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-24T04:05:00.00	2762	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010019	1969-02-24T06:30:00.00	2783	B-0-0	 NAV: non-increasing time
+?	07010019	1969-02-25T04:50:00.00	2908	0-0-O	 GRAD: mtf1 excessive
+?	07010019	1969-02-25T05:00:00.00	2911	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010019	1969-02-25T05:05:00.00	2912	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-25T05:10:00.00	2914	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-25T05:15:00.00	2915	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-25T05:20:00.00	2917	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-25T05:25:00.00	2918	0-Q-0	 VAL: mag invalid
+?	07010019	1969-02-25T21:50:00.00	3052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-25T21:55:00.00	3055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-25T23:44:00.00	3068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-25T23:50:00.00	3070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-25T23:55:00.00	3071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-26T00:25:00.00	3080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-26T08:46:00.00	3228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-26T08:50:00.00	3229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-26T13:10:00.00	3301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-26T13:30:00.00	3305	0-0-O	 GRAD: mtf1 excessive
+?	07010019	1969-02-26T15:30:00.00	3340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-27T00:29:00.00	3494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-27T00:35:00.00	3496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010019	1969-02-27T04:51:00.00	3573	0-0-KL	 GRAD: twt, depth excessive
+Y	07010019	1969-02-27T14:15:00.00	3746	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-02-27T16:55:00.00	3801	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-02T03:27:00.00	4851	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-02T03:49:00.00	4861	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-02T04:00:00.00	4865	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-02T04:29:00.00	4876	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-02T07:04:00.00	4934	B-0-0	 NAV: non-increasing time
+?	07010019	1969-03-03T03:55:00.00	5238	0-0-K	 GRAD: twt excessive
+?	07010019	1969-03-06T08:31:00.00	5832	0-0-KL	 GRAD: twt, depth excessive
+?	07010019	1969-03-10T05:00:00.00	6942	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010019	1969-03-17T05:50:00.00	9341	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-17T20:00:00.00	9596	B-0-0	 NAV: non-increasing time
+?	07010019	1969-03-18T04:11:00.00	9745	0-0-K	 GRAD: twt excessive
+Y	07010019	1969-03-18T15:50:00.00	9962	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-19T20:04:00.00	10488	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-21T18:05:00.00	11266	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-22T09:55:00.00	11448	B-0-0	 NAV: non-increasing time
+Y	07010019	1969-03-28T16:05:00.00	13660	B-0-0	 NAV: non-increasing time

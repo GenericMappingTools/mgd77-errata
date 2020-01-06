@@ -1,0 +1,32 @@
+# Cruise 01030049 ID V1913 MGD77 FILE VERSION: 19790619 N_RECS: 3799
+# Examined: Thu Jul  9 16:17:01 2009 by mtchandl
+# Arguments:  -R286.15/356.05/1.35/40.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030049-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-01030049-depth-01: RLS m: 1 b: 0 rms: 17.5683 r: 0.99997 sig: 1 dec: 0
+Y-I-01030049-faa-01: RLS m: 1.01377 b: -5.59018 rms: 15.1564 r: 0.949158 sig: 1 dec: 1
+Y-W-01030049-faa-03: Regression offset -5.59018 different from 0.
+Y-E-01030049-mag-07: Anomaly equivalent to mtf1-IGRF (m: 0.98741 b: -3.33552 rms: 98.0303 r: 0.912167 sig: 1 dec: 1). [Recompute]
+N-E-01030049-depth-08: Extended offset from grid [3-3799]
+Y-W-01030049-mtf1-12: Integer precision
+Y-W-01030049-mag-12: Integer precision
+# Errata: Data
+?	01030049	1963-11-21T08:20:00.00	739	0-0-K	 GRAD: twt excessive
+?	01030049	1963-11-21T23:30:00.00	825	0-0-KL	 GRAD: twt, depth excessive
+?	01030049	1963-12-03T18:00:00.00	2853	0-0-KL	 GRAD: twt, depth excessive
+?	01030049	1963-12-06T20:58:00.00	3251	0-Q-0	 VAL: mag invalid
+?	01030049	1963-12-06T21:03:00.00	3254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030049	1963-12-07T02:00:00.00	3262	0-Q-0	 VAL: mag invalid
+?	01030049	1963-12-07T22:00:00.00	3354	0-Q-0	 VAL: mag invalid
+?	01030049	1963-12-07T22:15:00.00	3355	0-Q-0	 VAL: mag invalid
+?	01030049	1963-12-07T23:00:00.00	3360	0-0-K	 GRAD: twt excessive
+?	01030049	1963-12-08T12:12:00.00	3416	0-Q-0	 VAL: mag invalid
+Y	01030049	1963-12-08T17:48:00.00	3455	C-0-0	 NAV: excessive speed
+Y	01030049	1963-12-08T17:51:00.00	3456	C-0-0	 NAV: excessive speed
+?	01030049	1963-12-08T22:09:00.00	3469	0-Q-0	 VAL: mag invalid
+?	01030049	1963-12-08T22:15:00.00	3470	0-Q-0	 VAL: mag invalid

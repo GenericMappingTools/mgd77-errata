@@ -1,0 +1,75 @@
+# Cruise 15020201 ID COOK01MV MGD77 FILE VERSION: 20040519 N_RECS: 52205
+# Examined: Tue May 20 11:33:06 2008 by mtchandl
+# Arguments:  -R242.65/289.7/-18.65/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error. 
+# Errata: Header
+Y-E-15020201-H15-01: Invalid Gravity Departure Base Station Value: (979535.) [9795350]
+Y-E-15020201-H15-03: Invalid Gravity Arrival Base Station Value: (978515.) [9785150]
+Y-I-15020201-depth-01: RLS m: 1 b: 0 rms: 215.773 r: 0.99118 sig: 1 dec: 1
+Y-I-15020201-faa-01: RLS m: 0.907416 b: -4.99997 rms: 17.9918 r: 0.962438 sig: 1 dec: 1
+N-E-15020201-faa-02: Regression slope 0.907416 different from 1. Recommended: [1]
+Y-W-15020201-faa-03: Regression offset -4.99997 different from 0.
+N-E-15020201-faa-06: Anomaly differs from gobs - IGF80 (m: 0.627567 b: -0.630438 rms: 50.8344 r: 0.815204 sig: 1 dec: 1). [Recompute]
+N-E-15020201-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.62904 b: 9.16722 rms: 58.5616 r: 0.816494 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-15020201-twt-11: More recent bathymetry correction table available
+Y-W-15020201-depth-12: Integer precision
+# Errata: Data
+?	15020201	2000-08-30T17:03:00.00	12603	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-08-31T11:11:00.00	13691	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-08-31T15:29:00.00	13949	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-03T01:25:00.00	17425	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-04T06:31:00.00	19171	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-04T06:34:00.00	19174	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-04T06:35:00.00	19175	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-05T20:39:00.00	21459	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-07T13:55:00.00	23935	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-07T13:57:00.00	23937	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-09T08:19:00.00	26479	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-09T12:08:00.00	26708	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-10T09:28:00.00	27988	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-11T06:29:00.00	29249	0-0-K	 GRAD: twt excessive
+?	15020201	2000-09-14T10:00:00.00	33780	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-15T13:57:00.00	35457	0-0-KL	 GRAD: twt, depth excessive
+?	15020201	2000-09-15T13:59:00.00	35459	0-0-K	 GRAD: twt excessive
+?	15020201	2000-09-15T14:10:00.00	35470	0-0-KL	 GRAD: twt, depth excessive
+?	15020201	2000-09-15T17:41:00.00	35681	0-0-K	 GRAD: twt excessive
+?	15020201	2000-09-15T17:43:00.00	35683	0-0-K	 GRAD: twt excessive
+?	15020201	2000-09-18T10:13:00.00	39553	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-18T10:14:00.00	39554	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-18T23:28:00.00	40348	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-19T18:10:00.00	41470	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-20T04:46:00.00	42106	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-20T04:47:00.00	42107	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-21T00:11:00.00	43271	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-21T00:12:00.00	43272	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-21T00:13:00.00	43273	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-22T05:59:00.00	44346	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-22T06:00:00.00	44347	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-22T08:36:00.00	44503	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-22T08:37:00.00	44504	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-22T08:41:00.00	44508	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-23T12:18:00.00	46165	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-23T12:19:00.00	46166	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-23T12:38:00.00	46185	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-23T12:39:00.00	46186	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-25T01:29:00.00	48396	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-25T01:30:00.00	48397	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-25T08:07:00.00	48794	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-25T14:24:00.00	49171	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-25T18:03:00.00	49390	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T00:17:00.00	49764	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T08:35:00.00	50262	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T15:19:00.00	50666	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T15:20:00.00	50667	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T15:21:00.00	50668	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-26T15:22:00.00	50669	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020201	2000-09-26T15:23:00.00	50670	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	15020201	2000-09-27T04:12:00.00	51439	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-27T04:14:00.00	51441	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-27T15:05:00.00	52092	0-0-U	 GRAD: gobs excessive
+?	15020201	2000-09-27T15:06:00.00	52093	0-0-U	 GRAD: gobs excessive

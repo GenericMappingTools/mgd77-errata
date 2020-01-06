@@ -1,0 +1,12 @@
+# Cruise 87020001 ID BHPD9798 MGD77 FILE VERSION: 20000608 N_RECS: 4060
+# Examined: Wed Aug  3 07:28:59 2011 by mtchandl
+# Arguments:  -R-70/-60.25/-68.25/-42.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Grid data may be inaccurate in this vicinity.
+# Errata: Header
+N-E-87020001-H04-03: Invalid Survey Departure Day: (11) [31]
+Y-E-87020001-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A5,A6,I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-87020001-nav-00: Flagged 14.01 % of records with bad navigation

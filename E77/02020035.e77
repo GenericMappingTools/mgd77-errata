@@ -1,0 +1,172 @@
+# Cruise 02020035 ID A2060L05 MGD77 FILE VERSION: 19800206 N_RECS: 5138
+# Examined: Fri Mar 26 21:23:48 2010 by mtchandl
+# Arguments:  -R-14/18.05/-33.9/-8.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020035-time-01: 85 of 5138 records contain invalid time
+N-E-02020035-H04-06: Invalid Survey Arrival Day: (08) [07]
+Y-W-02020035-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-02020035-nav-00: Flagged 1.27 % of records with bad navigation
+Y-I-02020035-depth-01: RLS m: 0.999546 b: 0 rms: 32.7523 r: 0.999549 sig: 1 dec: 0
+Y-E-02020035-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03627 b: -29.0562 rms: 82.0875 r: 0.894099 sig: 1 dec: 1). [Recompute]
+Y-W-02020035-mtf1-12: Integer precision
+Y-W-02020035-mag-12: Integer precision
+# Errata: Data
+Y	02020035	1971-05-12T10:40:00.00	220	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-12T18:50:00.00	309	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-12T19:00:00.00	310	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-12T19:30:00.00	311	C-0-0	 NAV: excessive speed
+Y	02020035	NaN	322	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	323	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	324	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	325	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	326	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	327	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	328	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	329	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	330	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	331	E-0-0	 NAV: navigation undefined
+Y	02020035	1971-05-13T01:05:00.00	339	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:10:00.00	340	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:15:00.00	341	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:20:00.00	342	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:25:00.00	343	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:30:00.00	344	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:35:00.00	345	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T01:40:00.00	346	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T03:25:00.00	367	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T10:15:00.00	449	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T10:25:00.00	451	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T10:50:00.00	456	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T18:50:00.00	545	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-13T19:00:00.00	546	C-0-0	 NAV: excessive speed
+Y	02020035	NaN	558	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	559	E-0-0	 NAV: navigation undefined
+Y	02020035	1971-05-14T10:10:00.00	675	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T10:20:00.00	676	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T12:15:00.00	688	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T12:20:00.00	689	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T12:25:00.00	690	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T12:30:00.00	691	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T14:25:00.00	714	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T15:20:00.00	724	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T15:30:00.00	725	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-14T16:00:00.00	726	C-0-0	 NAV: excessive speed
+?	02020035	1971-05-15T18:05:00.00	879	0-0-K	 GRAD: twt excessive
+Y	02020035	1971-05-16T01:25:00.00	914	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T01:30:00.00	915	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T01:35:00.00	916	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T01:40:00.00	917	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T01:45:00.00	918	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T01:50:00.00	919	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T02:35:00.00	928	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-16T09:00:00.00	1004	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-17T03:10:00.00	1166	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-17T05:30:00.00	1194	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T02:10:00.00	1782	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T02:20:00.00	1784	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T02:30:00.00	1786	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T02:40:00.00	1788	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T02:50:00.00	1790	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:00:00.00	1792	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:10:00.00	1794	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:20:00.00	1796	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:30:00.00	1798	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:40:00.00	1800	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T03:50:00.00	1802	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:00:00.00	1804	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:10:00.00	1806	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:20:00.00	1808	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:30:00.00	1810	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:40:00.00	1812	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T04:50:00.00	1814	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:00:00.00	1816	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:10:00.00	1818	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:20:00.00	1820	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:30:00.00	1822	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:40:00.00	1824	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T05:50:00.00	1826	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T06:00:00.00	1828	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T06:10:00.00	1830	C-0-0	 NAV: excessive speed
+Y	02020035	1971-05-20T06:20:00.00	1832	C-0-0	 NAV: excessive speed
+Y	02020035	NaN	2045	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2046	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2047	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2048	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2049	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2050	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2051	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2052	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2053	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2054	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2055	E-0-0	 NAV: navigation undefined
+Y	02020035	1971-05-21T00:00:00.00	2056	B-0-0	 NAV: non-increasing time
+Y	02020035	NaN	2345	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2346	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2347	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2348	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2349	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2350	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2351	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2352	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2353	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2354	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2355	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2633	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2634	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2635	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2636	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2637	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2638	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2639	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2640	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2641	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2766	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2767	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2768	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2769	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2770	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2771	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2772	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2773	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2774	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2775	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2776	E-0-0	 NAV: navigation undefined
+?	02020035	1971-05-24T06:50:00.00	2847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020035	1971-05-24T06:55:00.00	2848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020035	1971-05-24T07:00:00.00	2849	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020035	NaN	2885	E-0-OQ	 NAV: navigation undefined - GRAD: mtf1, mag excessive
+Y	02020035	NaN	2886	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2887	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2888	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2889	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2890	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2891	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2892	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2893	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2894	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	2895	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3016	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3017	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3018	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3019	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3020	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3021	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3022	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3023	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3024	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3186	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3187	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3188	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3189	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3190	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3191	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3192	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3193	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3194	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3195	E-0-0	 NAV: navigation undefined
+Y	02020035	NaN	3196	E-0-0	 NAV: navigation undefined

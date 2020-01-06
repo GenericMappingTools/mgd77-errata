@@ -1,0 +1,18 @@
+# Cruise 23060011 ID ODP108JR MGD77 FILE VERSION: 19870606 N_RECS: 5509
+# Examined: Tue Oct 19 15:08:52 2010 by mtchandl
+# Arguments:  -R-23.3/2.85/-1.4/40.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged two extended bathymetric offsets.
+# Errata: Header
+Y-E-23060011-H16-01: Invalid Number of Ten Degree Identifiers: (11) [12]
+Y-W-23060011-H16-06: Ten Degree Identifier 5002 not marked in header but block was crossed
+Y-I-23060011-depth-01: RLS m: 0.999555 b: 0 rms: 42.407 r: 0.998754 sig: 1 dec: 0
+Y-E-23060011-depth-08: Extended offset from grid [2913-3016]
+Y-E-23060011-depth-08: Extended offset from grid [3846-3956]
+Y-W-23060011-twt-11: More recent bathymetry correction table available
+Y-W-23060011-depth-12: Integer precision
+# Errata: Data
+?	23060011	1986-03-30T12:15:00.00	3948	0-0-K	 GRAD: twt excessive

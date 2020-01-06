@@ -1,0 +1,81 @@
+# Cruise J4010031 ID KH7801 MGD77 FILE VERSION: 19880219 N_RECS: 5045
+# Examined: Sun Aug  7 10:15:55 2011 by mtchandl
+# Arguments:  -R128.85/146.55/12.85/35.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive faa gradient flags to remove outliers.
+# Errata: Header
+Y-W-J4010031-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-J4010031-depth-01: RLS m: 0.999048 b: 0 rms: 32.3366 r: 0.999884 sig: 1 dec: 0
+N-E-J4010031-depth-02: Regression slope 0.999048 different from 1. Recommended: [1]
+Y-I-J4010031-faa-01: RLS m: 0.947476 b: -1.39744 rms: 17.3864 r: 0.985005 sig: 1 dec: 1
+N-E-J4010031-faa-02: Regression slope 0.947476 different from 1. Recommended: [1]
+Y-W-J4010031-depth-12: Integer precision
+Y-W-J4010031-faa-12: Integer precision
+# Errata: Data
+Y	J4010031	1978-01-27T14:15:00.00	3	D-0-0	 NAV: on land
+Y	J4010031	1978-01-27T14:20:00.00	4	D-0-0	 NAV: on land
+Y	J4010031	1978-01-27T22:45:00.00	97	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-27T22:50:00.00	98	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-27T23:20:00.00	104	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-27T23:25:00.00	105	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-27T23:40:00.00	108	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-27T23:45:00.00	109	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-27T23:50:00.00	110	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-27T23:55:00.00	111	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T00:10:00.00	114	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-28T00:15:00.00	115	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T00:40:00.00	120	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-28T00:45:00.00	121	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T01:20:00.00	128	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T01:25:00.00	129	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T01:30:00.00	130	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T01:40:00.00	132	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-28T01:45:00.00	133	0-W-0	 VAL: faa invalid
+Y	J4010031	1978-01-28T01:50:00.00	134	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T01:55:00.00	135	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T02:00:00.00	136	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T08:50:00.00	218	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-28T12:10:00.00	226	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-01-28T12:15:00.00	227	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-01-28T17:25:00.00	277	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-01T07:05:00.00	771	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-01T09:40:00.00	802	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-02-01T09:45:00.00	803	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-02T08:50:00.00	1032	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-02T09:00:00.00	1034	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-02T09:05:00.00	1035	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-02T17:40:00.00	1138	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-02T17:45:00.00	1139	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-02-02T17:50:00.00	1140	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-03T01:15:00.00	1169	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-03T01:20:00.00	1170	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-05T00:40:00.00	1466	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-02-05T00:45:00.00	1467	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-05T00:50:00.00	1468	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-07T08:15:00.00	1882	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-02-07T08:20:00.00	1883	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-22T09:50:00.00	3547	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-23T10:05:00.00	3766	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-23T10:30:00.00	3771	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-02-24T02:35:00.00	3918	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010031	1978-02-24T02:40:00.00	3919	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T14:50:00.00	4364	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T14:55:00.00	4365	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T15:00:00.00	4366	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T16:55:00.00	4389	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T17:00:00.00	4390	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T17:05:00.00	4391	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T17:10:00.00	4392	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T17:30:00.00	4396	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T19:55:00.00	4408	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T20:00:00.00	4409	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T20:35:00.00	4416	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T20:50:00.00	4419	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T22:00:00.00	4433	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-01T22:05:00.00	4434	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-02T00:05:00.00	4458	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-02T00:10:00.00	4459	0-0-W	 GRAD: faa excessive
+Y	J4010031	1978-03-04T12:00:00.00	5033	D-0-0	 NAV: on land

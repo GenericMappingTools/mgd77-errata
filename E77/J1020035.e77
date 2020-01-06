@@ -1,0 +1,18 @@
+# Cruise J1020035 ID HS880410 MGD77 FILE VERSION: 19921231 N_RECS: 2877
+# Examined: Sat Aug  6 11:46:00 2011 by mtchandl
+# Arguments:  -R142/143.55/39.1/40.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J1020035-depth-01: RLS m: 1.00386 b: 0 rms: 8.88948 r: 0.999947 sig: 1 dec: 0
+N-E-J1020035-depth-02: Regression slope 1.00386 different from 1. Recommended: [1]
+Y-I-J1020035-faa-01: RLS m: 1.00004 b: 7.54606 rms: 8.36206 r: 0.998741 sig: 1 dec: 0
+Y-W-J1020035-faa-03: Regression offset 7.54606 different from 0.
+Y-I-J1020035-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020035-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.66185 b: 39.8214 rms: 45.6133 r: 0.98328 sig: 1 dec: 0). [Recompute]
+Y-W-J1020035-depth-12: Integer precision
+# Errata: Data
+?	J1020035	1988-04-13T00:32:00.00	2857	0-0-L	 GRAD: depth excessive

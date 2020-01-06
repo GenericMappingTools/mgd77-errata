@@ -1,0 +1,14 @@
+# Cruise 09040024 ID HU939010 MGD77 FILE VERSION: 19791128 N_RECS: 5002
+# Examined: Fri Jul 30 14:46:56 2010 by mtchandl
+# Arguments:  -R125.55/155.35/29.4/33.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-09040024-depth-01: RLS m: 0.998953 b: 0 rms: 22.454 r: 0.999956 sig: 1 dec: 0
+N-E-09040024-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-W-09040024-depth-12: Integer precision
+# Errata: Data
+?	09040024	1969-01-21T09:10:00.00	1787	0-0-K	 GRAD: twt excessive

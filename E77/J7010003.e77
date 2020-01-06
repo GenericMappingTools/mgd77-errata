@@ -1,0 +1,28 @@
+# Cruise J7010003 ID RN88 MGD77 FILE VERSION: 19921231 N_RECS: 2358
+# Examined: Mon Aug  8 15:59:51 2011 by mtchandl
+# Arguments:  -R123.05/127.65/23.9/30.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J7010003-nav-00: Flagged 0.59 % of records with bad navigation
+Y-I-J7010003-depth-01: RLS m: 1.00072 b: 0 rms: 6.49727 r: 0.999973 sig: 1 dec: 0
+Y-E-J7010003-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01766 b: 14.4953 rms: 15.722 r: 0.99406 sig: 1 dec: 0). [Recompute]
+Y-W-J7010003-mtf1-12: Integer precision
+# Errata: Data
+Y	J7010003	1988-04-15T05:05:00.00	1145	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T05:10:00.00	1146	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T05:15:00.00	1147	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T12:32:00.00	1243	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T12:54:00.00	1249	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T13:00:00.00	1251	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T19:48:00.00	1337	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-15T19:50:00.00	1338	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:05:00.00	2141	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:10:00.00	2142	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:15:00.00	2143	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:20:00.00	2144	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:25:00.00	2145	C-0-0	 NAV: excessive speed
+Y	J7010003	1988-04-21T08:30:00.00	2146	C-0-0	 NAV: excessive speed

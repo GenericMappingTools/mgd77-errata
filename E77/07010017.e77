@@ -1,0 +1,18 @@
+# Cruise 07010017 ID YAQ68SEP MGD77 FILE VERSION: 19840131 N_RECS: 1077
+# Examined: Fri Jul 16 17:31:24 2010 by mtchandl
+# Arguments:  -R222.05/225.75/56/58.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some differences between reported and satellite gravity.
+# Errata: Header
+Y-W-07010017-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-07010017-depth-01: RLS m: 1 b: 0 rms: 40.248 r: 0.998876 sig: 1 dec: 0
+Y-I-07010017-faa-01: RLS m: 1.00487 b: -13.351 rms: 15.9728 r: 0.969664 sig: 1 dec: 0
+Y-W-07010017-faa-03: Regression offset -13.351 different from 0.
+Y-W-07010017-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	07010017	1968-09-18T00:25:00.00	305	B-0-0	 NAV: non-increasing time
+?	07010017	1968-09-18T04:14:00.00	328	0-0-KL	 GRAD: twt, depth excessive
+Y	07010017	1968-09-21T23:31:00.00	1019	B-0-0	 NAV: non-increasing time

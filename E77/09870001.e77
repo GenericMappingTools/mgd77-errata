@@ -1,0 +1,17 @@
+# Cruise 09870001 ID PLRSEA90 MGD77 FILE VERSION: 19920430 N_RECS: 2988
+# Examined: Mon Aug 16 17:10:12 2010 by mtchandl
+# Arguments:  -R335/355.35/64.15/77.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09870001-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-09870001-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-09870001-depth-01: RLS m: 1.00336 b: 0 rms: 10.0757 r: 0.99992 sig: 1 dec: 0
+N-E-09870001-depth-02: Regression slope 1.00336 different from 1. Recommended: [1]
+Y-W-09870001-depth-12: Integer precision
+# Errata: Data
+Y	09870001	7420.84	2932	D-0-0	 NAV: on land
+Y	09870001	7423.27	2933	D-0-0	 NAV: on land

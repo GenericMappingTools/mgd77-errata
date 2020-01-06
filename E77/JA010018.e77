@@ -1,0 +1,329 @@
+# Cruise JA010018 ID JARE30G6 MGD77 FILE VERSION: 19941231 N_RECS: 26672
+# Examined: Mon Aug  8 16:51:42 2011 by mtchandl
+# Arguments:  -R22.75/152.05/-70.2/-33.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset. Added 26 mGal to faa anomalies. 
+# Errata: Header
+Y-W-JA010018-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-JA010018-depth-01: RLS m: 1.00154 b: 0 rms: 45.9664 r: 0.998448 sig: 1 dec: 0
+N-E-JA010018-depth-02: Regression slope 1.00154 different from 1. Recommended: [1]
+Y-E-JA010018-faa-03: Regression offset -26.6383 different from 0. Recommended: [26.0]
+Y-I-JA010018-faa-01: RLS m: 1.03525 b: -26.6383 rms: 27.3842 r: 0.973575 sig: 1 dec: 0
+N-E-JA010018-faa-02: Regression slope 1.03525 different from 1. Recommended: [1]
+Y-W-JA010018-faa-03: Regression offset -26.6383 different from 0.
+Y-I-JA010018-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-JA010018-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.751775 b: -6.17342 rms: 30.1975 r: 0.825163 sig: 1 dec: 1). [Recompute]
+Y-E-JA010018-faa-08: Extended offset from grid [4442-26672]
+N-E-JA010018-twt-13: Encountered possible PDR wrap errors (8.3) [10.0]
+Y-W-JA010018-twt-11: More recent bathymetry correction table available
+Y-W-JA010018-depth-12: Integer precision
+# Errata: Data
+?	JA010018	1989-02-12T00:02:00.00	350	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-12T00:03:00.00	351	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-12T00:26:00.00	374	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-12T00:44:00.00	392	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-12T16:33:00.00	1339	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-14T14:20:00.00	1805	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:21:00.00	1865	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:22:00.00	1866	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:25:00.00	1869	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:26:00.00	1870	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:40:00.00	1884	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-14T15:45:00.00	1889	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:46:00.00	1890	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:50:00.00	1894	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T15:51:00.00	1895	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T16:02:00.00	1906	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T16:06:00.00	1910	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T16:07:00.00	1911	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T16:10:00.00	1914	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T16:22:00.00	1926	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T22:22:00.00	2286	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-14T22:23:00.00	2287	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T02:01:00.00	2505	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T02:02:00.00	2506	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T15:30:00.00	3314	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-15T16:41:00.00	3385	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-15T16:59:00.00	3403	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-15T17:08:00.00	3412	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T17:13:00.00	3417	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T17:18:00.00	3422	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-15T18:06:00.00	3470	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-15T18:07:00.00	3471	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T02:09:00.00	3953	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T02:10:00.00	3954	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T02:38:00.00	3982	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:17:00.00	4141	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:19:00.00	4143	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T05:21:00.00	4145	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:22:00.00	4146	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:23:00.00	4147	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T05:24:00.00	4148	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:26:00.00	4150	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:27:00.00	4151	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:28:00.00	4152	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:33:00.00	4157	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:39:00.00	4163	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:40:00.00	4164	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T05:41:00.00	4165	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:43:00.00	4167	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:45:00.00	4169	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:46:00.00	4170	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:48:00.00	4172	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:50:00.00	4174	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:51:00.00	4175	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T05:53:00.00	4177	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:55:00.00	4179	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T05:56:00.00	4180	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T05:59:00.00	4183	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:00:00.00	4184	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:03:00.00	4187	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:04:00.00	4188	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:05:00.00	4189	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:06:00.00	4190	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:07:00.00	4191	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:08:00.00	4192	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:10:00.00	4194	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:13:00.00	4197	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:14:00.00	4198	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:15:00.00	4199	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:17:00.00	4201	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:20:00.00	4204	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:21:00.00	4205	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:22:00.00	4206	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:23:00.00	4207	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:25:00.00	4209	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:26:00.00	4210	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:27:00.00	4211	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:28:00.00	4212	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:29:00.00	4213	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:32:00.00	4216	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:33:00.00	4217	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:34:00.00	4218	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:35:00.00	4219	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:36:00.00	4220	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:37:00.00	4221	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:38:00.00	4222	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:39:00.00	4223	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:41:00.00	4225	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:42:00.00	4226	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:45:00.00	4229	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:46:00.00	4230	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:47:00.00	4231	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:49:00.00	4233	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T06:50:00.00	4234	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:51:00.00	4235	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:52:00.00	4236	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:53:00.00	4237	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:55:00.00	4239	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:56:00.00	4240	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:57:00.00	4241	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T06:59:00.00	4243	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:00:00.00	4244	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T07:03:00.00	4247	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:05:00.00	4249	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:06:00.00	4250	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:07:00.00	4251	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:08:00.00	4252	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:11:00.00	4255	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T07:15:00.00	4259	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:16:00.00	4260	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:17:00.00	4261	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:18:00.00	4262	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:19:00.00	4263	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:23:00.00	4267	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:24:00.00	4268	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:25:00.00	4269	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:29:00.00	4273	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:30:00.00	4274	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:31:00.00	4275	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:32:00.00	4276	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:41:00.00	4285	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T07:42:00.00	4286	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:43:00.00	4287	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:44:00.00	4288	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:49:00.00	4293	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:50:00.00	4294	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:54:00.00	4298	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:55:00.00	4299	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:56:00.00	4300	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:57:00.00	4301	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T07:58:00.00	4302	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:01:00.00	4305	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:02:00.00	4306	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:04:00.00	4308	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:05:00.00	4309	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:06:00.00	4310	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:07:00.00	4311	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:08:00.00	4312	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:24:00.00	4327	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:25:00.00	4328	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:26:00.00	4329	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T08:27:00.00	4330	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:28:00.00	4331	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:29:00.00	4332	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T08:38:00.00	4341	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T08:39:00.00	4342	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T08:41:00.00	4344	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-02-16T08:46:00.00	4348	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:47:00.00	4349	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:49:00.00	4351	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:50:00.00	4352	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:51:00.00	4353	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-02-16T08:52:00.00	4354	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-04T16:21:00.00	4548	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-05T12:15:00.00	5740	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-05T20:51:00.00	6256	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-05T22:25:00.00	6350	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-09T17:53:00.00	11835	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-09T17:55:00.00	11837	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-09T17:57:00.00	11839	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-09T17:58:00.00	11840	0-0-K	 GRAD: twt excessive
+Y	JA010018	1989-03-09T23:58:00.00	12168	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-09T23:59:00.00	12169	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:00:00.00	12170	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:01:00.00	12171	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:02:00.00	12172	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:03:00.00	12173	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:04:00.00	12174	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:05:00.00	12175	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:06:00.00	12176	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:07:00.00	12177	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:08:00.00	12178	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:09:00.00	12179	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:10:00.00	12180	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:11:00.00	12181	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:12:00.00	12182	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:13:00.00	12183	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:14:00.00	12184	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:15:00.00	12185	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:16:00.00	12186	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:17:00.00	12187	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:18:00.00	12188	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:19:00.00	12189	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:20:00.00	12190	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:21:00.00	12191	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:22:00.00	12192	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:23:00.00	12193	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:24:00.00	12194	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:25:00.00	12195	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:26:00.00	12196	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:27:00.00	12197	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:28:00.00	12198	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:29:00.00	12199	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:30:00.00	12200	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:31:00.00	12201	C-0-0	 NAV: excessive speed
+Y	JA010018	1989-03-10T00:32:00.00	12202	C-0-0	 NAV: excessive speed
+?	JA010018	1989-03-10T19:53:00.00	13363	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T20:05:00.00	13375	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T20:16:00.00	13386	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T20:19:00.00	13389	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T21:02:00.00	13432	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T22:11:00.00	13501	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T22:23:00.00	13513	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T22:24:00.00	13514	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T22:25:00.00	13515	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T22:28:00.00	13518	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T23:11:00.00	13561	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T23:13:00.00	13563	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T23:18:00.00	13568	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T23:21:00.00	13571	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-10T23:22:00.00	13572	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-10T23:27:00.00	13577	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T00:20:00.00	13630	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T00:23:00.00	13633	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T01:35:00.00	13705	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T01:41:00.00	13711	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T01:42:00.00	13712	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T01:48:00.00	13718	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T02:10:00.00	13740	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T03:12:00.00	13802	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T03:13:00.00	13803	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T03:54:00.00	13844	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T03:59:00.00	13849	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:10:00.00	13860	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:12:00.00	13862	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:18:00.00	13868	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T04:32:00.00	13882	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:34:00.00	13884	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:35:00.00	13885	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T04:40:00.00	13890	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T04:57:00.00	13907	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:07:00.00	13917	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:12:00.00	13922	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:13:00.00	13923	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:19:00.00	13929	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:21:00.00	13931	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:24:00.00	13934	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T05:32:00.00	13942	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T05:43:00.00	13953	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T05:45:00.00	13955	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T08:07:00.00	14097	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T08:27:00.00	14117	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T08:36:00.00	14126	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T12:09:00.00	14339	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-11T12:38:00.00	14368	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-11T12:48:00.00	14378	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-13T11:31:00.00	17181	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-13T18:31:00.00	17601	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-13T19:10:00.00	17640	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-13T20:31:00.00	17721	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-14T01:49:00.00	18039	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-14T11:19:00.00	18605	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-14T13:41:00.00	18747	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-14T16:28:00.00	18914	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-14T16:49:00.00	18935	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T07:08:00.00	19794	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T07:20:00.00	19806	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T07:21:00.00	19807	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T07:24:00.00	19810	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T07:25:00.00	19811	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T08:19:00.00	19865	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T08:20:00.00	19866	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T08:27:00.00	19873	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T08:51:00.00	19897	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T08:52:00.00	19898	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T09:26:00.00	19932	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-15T13:43:00.00	20189	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T13:45:00.00	20191	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T13:46:00.00	20192	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-15T13:49:00.00	20195	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T01:59:00.00	20925	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-16T02:51:00.00	20977	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-16T02:52:00.00	20978	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T03:06:00.00	20992	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T03:07:00.00	20993	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T03:12:00.00	20998	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T03:13:00.00	20999	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T03:14:00.00	21000	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-16T13:20:00.00	21606	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-17T01:59:00.00	22365	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-17T03:55:00.00	22480	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-17T08:44:00.00	22769	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-17T09:54:00.00	22839	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-17T11:31:00.00	22936	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-17T13:55:00.00	23080	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T05:07:00.00	23992	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T11:03:00.00	24348	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T11:42:00.00	24387	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T13:09:00.00	24474	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T13:10:00.00	24475	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T13:11:00.00	24476	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T13:13:00.00	24478	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T15:02:00.00	24587	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T15:03:00.00	24588	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T15:05:00.00	24590	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T15:08:00.00	24593	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T15:34:00.00	24619	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T15:35:00.00	24620	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T15:44:00.00	24629	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T16:11:00.00	24656	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-18T16:13:00.00	24658	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T17:12:00.00	24717	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-18T17:40:00.00	24745	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-19T00:05:00.00	25130	0-0-KL	 GRAD: twt, depth excessive
+?	JA010018	1989-03-19T21:30:00.00	26415	0-0-K	 GRAD: twt excessive
+?	JA010018	1989-03-19T21:36:00.00	26421	0-0-KL	 GRAD: twt, depth excessive

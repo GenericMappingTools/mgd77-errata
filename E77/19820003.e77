@@ -1,0 +1,13 @@
+# Cruise 19820003 ID 19970014 MGD77 FILE VERSION: 19991222 N_RECS: 341
+# Examined: Tue Oct 19 14:38:40 2010 by mtchandl
+# Arguments:  -R26.85/32.1/31.7/35.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged ~1km discrepancy between ship and predicted bathymetry near start of cruise.
+# Errata: Header
+Y-I-19820003-depth-01: RLS m: 0.995851 b: 0 rms: 16.7569 r: 0.999939 sig: 1 dec: 0
+N-E-19820003-depth-02: Regression slope 0.995851 different from 1. Recommended: [1]
+Y-E-19820003-depth-10: Invalid data records: [1-9]
+# Errata: Data

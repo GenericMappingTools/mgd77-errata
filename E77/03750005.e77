@@ -1,0 +1,22 @@
+# Cruise 03750005 ID RB0001 MGD77 FILE VERSION: 20020129 N_RECS: 10695
+# Examined: Fri Apr 30 12:17:32 2010 by mtchandl
+# Arguments:  -R229.05/235/42.4/47.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-03750005-depth-01: RLS m: 1.00315 b: 0 rms: 30.8135 r: 0.998485 sig: 1 dec: 0
+N-E-03750005-depth-02: Regression slope 1.00315 different from 1. Recommended: [1]
+# Errata: Data
+?	03750005	2000-03-19T12:57:58.02	2450	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-19T12:58:28.02	2451	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-19T12:58:58.02	2452	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-20T03:47:00.00	4223	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-20T03:58:00.00	4245	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-20T04:01:30.00	4252	0-0-K	 GRAD: twt excessive
+?	03750005	2000-03-20T04:02:00.00	4253	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-20T04:27:30.00	4304	0-0-KL	 GRAD: twt, depth excessive
+?	03750005	2000-03-20T10:45:01.02	5058	0-0-K	 GRAD: twt excessive
+?	03750005	2000-03-22T09:08:04.98	10595	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,111 @@
+# Cruise 01010273 ID RC2412 MGD77 FILE VERSION: 19910924 N_RECS: 20452
+# Examined: Wed Jul  8 18:08:17 2009 by mtchandl
+# Arguments:  -R-24/11.9/66.1/76.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Poorly processed gravity shows multiple sustained offsets from satellite gravity. Possible tare or bad Eotvos corrections after ~1000 km along-track.
+# Errata: Header
+Y-E-01010273-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010273-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010273-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010273-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010273-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010273-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010273-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010273-depth-01: RLS m: 1 b: 0 rms: 78.6398 r: 0.996887 sig: 1 dec: 1
+Y-I-01010273-faa-01: RLS m: 1.02604 b: 2.10976 rms: 15.0168 r: 0.882988 sig: 1 dec: 1
+N-E-01010273-faa-06: Anomaly differs from gobs-IGF80 (m: 1.02881 b: -39.8716 rms: 38.3926 r: 0.951638 sig: 1 dec: 0). [Recompute]
+N-E-01010273-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -5 rms: 5 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010273-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010273-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00323 b: -279.044 rms: 281.222 r: 0.990391 sig: 1 dec: 1). [Recompute]
+N-E-01010273-depth-08: Extended offset from grid [6-20452]
+Y-W-01010273-twt-11: More recent bathymetry correction table available
+Y-W-01010273-mtf1-12: Integer precision
+# Errata: Data
+?	01010273	1983-09-10T09:41:00.00	2782	0-0-Q	 GRAD: mag excessive
+?	01010273	1983-09-10T09:42:00.00	2783	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T09:43:00.00	2784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T09:44:00.00	2785	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:07:00.00	2808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:08:00.00	2809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:09:00.00	2810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:10:00.00	2811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:11:00.00	2812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:12:00.00	2813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:13:00.00	2814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:14:00.00	2815	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:15:00.00	2816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:16:00.00	2817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:17:00.00	2818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:26:00.00	2828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:27:00.00	2829	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:30:00.00	2832	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:31:00.00	2833	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T10:32:00.00	2834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:17:00.00	2882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:18:00.00	2883	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	01010273	1983-09-10T11:19:00.00	2884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:20:00.00	2885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:21:00.00	2886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:22:00.00	2887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:26:00.00	2891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:27:00.00	2892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:28:00.00	2893	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:29:00.00	2894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:30:00.00	2895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-10T11:31:00.00	2896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-16T08:36:00.00	11319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-16T22:22:00.00	12119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-16T22:23:00.00	12120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-16T22:31:00.00	12127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-16T22:32:00.00	12128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-17T17:43:00.00	13237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-18T21:10:00.00	14830	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-18T21:27:00.00	14844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-18T21:28:00.00	14845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-18T21:29:00.00	14846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T01:26:00.00	15081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T01:27:00.00	15082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T01:31:00.00	15086	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T01:34:00.00	15090	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T01:54:00.00	15105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T02:00:00.00	15110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T02:07:00.00	15116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T02:08:00.00	15117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T02:12:00.00	15121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-19T02:15:00.00	15124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-20T21:09:00.00	16232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-20T21:14:00.00	16237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-21T18:58:00.00	17485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-22T00:17:00.00	17810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-22T00:23:00.00	17816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:06:00.00	20238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:19:00.00	20250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:24:00.00	20255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:28:00.00	20258	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:33:00.00	20263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:34:00.00	20264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:46:00.00	20275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T17:58:00.00	20288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:08:00.00	20298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:10:00.00	20300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:21:00.00	20312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:26:00.00	20317	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:39:00.00	20331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:47:00.00	20340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:50:00.00	20343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T18:55:00.00	20346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:06:00.00	20356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:11:00.00	20361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:16:00.00	20365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:19:00.00	20369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:20:00.00	20370	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:24:00.00	20373	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:25:00.00	20374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:27:00.00	20376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:28:00.00	20377	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:29:00.00	20378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:30:00.00	20379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010273	1983-09-23T19:31:00.00	20380	0-0-OQ	 GRAD: mtf1, mag excessive

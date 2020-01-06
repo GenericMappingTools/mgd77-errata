@@ -1,0 +1,15 @@
+# Cruise 29020010 ID VIT28 MGD77 FILE VERSION: 19971007 N_RECS: 2919
+# Examined: Mon Feb 14 22:22:26 2011 by mtchandl
+# Arguments:  -R133.45/158.95/32.55/44.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-29020010-depth-01: RLS m: 1.00078 b: 0 rms: 29.3333 r: 0.999883 sig: 1 dec: 0
+N-E-29020010-depth-02: Regression slope 1.00078 different from 1. Recommended: [1]
+Y-W-29020010-depth-12: Integer multiple of 5 precision
+# Errata: Data
+?	29020010	4841.91	1802	0-0-L	 GRAD: depth excessive
+?	29020010	4985.44	1849	0-0-L	 GRAD: depth excessive

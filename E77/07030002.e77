@@ -1,0 +1,18 @@
+# Cruise 07030002 ID YOC64AUG MGD77 FILE VERSION: 19840131 N_RECS: 105
+# Examined: Mon Jul 26 15:28:55 2010 by mtchandl
+# Arguments:  -R226.95/235.7/45.85/50.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-07030002-H12-01: Invalid Bathymetry Digitizing Rate: (346) [346]
+Y-E-07030002-H14-01: Invalid Gravity Digitizing Rate: (362) [362]
+Y-I-07030002-depth-01: RLS m: 1.00175 b: 0 rms: 64.1712 r: 0.998203 sig: 1 dec: 0
+Y-I-07030002-faa-01: RLS m: 0.746932 b: -4.81824 rms: 6.94879 r: 0.956107 sig: 1 dec: 0
+N-E-07030002-faa-02: Regression slope 0.746932 different from 1. Recommended: [1]
+Y-W-07030002-faa-03: Regression offset -4.81824 different from 0.
+Y-W-07030002-twt-11: More recent bathymetry correction table available
+Y-W-07030002-faa-12: Integer precision
+# Errata: Data

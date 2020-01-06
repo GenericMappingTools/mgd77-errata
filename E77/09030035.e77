@@ -1,0 +1,44 @@
+# Cruise 09030035 ID SI343625 MGD77 FILE VERSION: 19801110 N_RECS: 21341
+# Examined: Fri Jul 30 14:35:24 2010 by mtchandl
+# Arguments:  -R142.15/182.85/36.6/56.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09030035-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09030035-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09030035-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-09030035-depth-01: RLS m: 0.999592 b: 0 rms: 13.3174 r: 0.99994 sig: 1 dec: 0
+N-E-09030035-depth-02: Regression slope 0.999592 different from 1. Recommended: [1]
+Y-E-09030035-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00992 b: -178.542 rms: 181.846 r: 0.980772 sig: 1 dec: 0). [Recompute]
+Y-W-09030035-depth-12: Integer precision
+Y-W-09030035-mag-12: Integer precision
+# Errata: Data
+?	09030035	1976-09-04T09:54:00.00	410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-04T09:55:00.00	411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-04T09:57:00.00	413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-04T09:58:00.00	414	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-04T10:02:00.00	418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-04T10:03:00.00	419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030035	1976-09-05T20:34:00.00	2489	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-05T20:45:00.00	2500	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-06T13:18:00.00	3492	0-0-KL	 GRAD: twt, depth excessive
+?	09030035	1976-09-06T17:27:00.00	3741	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-06T17:30:00.00	3744	0-0-KL	 GRAD: twt, depth excessive
+?	09030035	1976-09-06T20:04:00.00	3898	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-07T05:20:00.00	4393	0-0-KL	 GRAD: twt, depth excessive
+?	09030035	1976-09-07T19:17:00.00	5230	0-0-K	 GRAD: twt excessive
+Y	09030035	1976-09-08T13:47:00.00	6339	C-0-0	 NAV: excessive speed
+?	09030035	1976-09-08T21:26:00.00	6798	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-09T03:08:00.00	7139	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-12T08:56:00.00	11804	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-12T09:16:00.00	11824	0-0-K	 GRAD: twt excessive
+?	09030035	1976-09-12T11:43:00.00	11971	0-0-K	 GRAD: twt excessive
+Y	09030035	1976-09-14T13:35:00.00	14961	C-0-0	 NAV: excessive speed
+Y	09030035	1976-09-14T13:36:00.00	14962	C-0-0	 NAV: excessive speed
+Y	09030035	1976-09-14T13:37:00.00	14963	C-0-0	 NAV: excessive speed
+Y	09030035	1976-09-16T15:13:00.00	17937	C-0-0	 NAV: excessive speed
+Y	09030035	1976-09-17T05:53:00.00	18816	C-0-0	 NAV: excessive speed
+?	09030035	1976-09-17T17:10:00.00	19493	0-0-K	 GRAD: twt excessive

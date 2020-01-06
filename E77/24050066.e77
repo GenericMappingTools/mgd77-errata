@@ -1,0 +1,61 @@
+# Cruise 24050066 ID GA-0199 MGD77 FILE VERSION: 20080522 N_RECS: 40421
+# Examined: Mon Feb 14 21:56:42 2011 by mtchandl
+# Arguments:  -R114.9/138.35/-38.35/-31.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050066-H04-03: Invalid Survey Departure Day: (03) [01]
+N-E-24050066-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050066-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050066-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050066-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-24050066-H16-06: Ten Degree Identifier 3312 not marked in header but block was crossed
+Y-W-24050066-H16-06: Ten Degree Identifier 3313 not marked in header but block was crossed
+Y-I-24050066-depth-01: RLS m: 1 b: 0 rms: 61.5512 r: 0.999566 sig: 1 dec: 0
+Y-W-24050066-depth-12: Integer precision
+Y-W-24050066-mtf1-12: Integer precision
+# Errata: Data
+?	24050066	1997-11-05T16:35:00.00	5394	0-0-K	 GRAD: twt excessive
+?	24050066	1997-11-05T16:54:00.00	5413	0-0-KL	 GRAD: twt, depth excessive
+?	24050066	1997-11-05T16:55:00.00	5414	0-0-KL	 GRAD: twt, depth excessive
+?	24050066	1997-11-05T22:25:00.00	5744	0-0-K	 GRAD: twt excessive
+?	24050066	1997-11-21T01:12:00.00	27511	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-21T01:13:00.00	27512	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-21T01:14:00.00	27513	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:22:00.00	29441	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:23:00.00	29442	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:24:00.00	29443	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:25:00.00	29444	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:26:00.00	29445	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:27:00.00	29446	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:45:00.00	29464	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:46:00.00	29465	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:47:00.00	29466	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:48:00.00	29467	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:49:00.00	29468	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:50:00.00	29469	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:51:00.00	29470	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:52:00.00	29471	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:53:00.00	29472	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:54:00.00	29473	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T09:59:00.00	29478	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T10:00:00.00	29479	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T10:01:00.00	29480	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T16:56:00.00	29895	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T16:57:00.00	29896	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T16:58:00.00	29897	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T16:59:00.00	29898	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:00:00.00	29899	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:01:00.00	29900	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:02:00.00	29901	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:03:00.00	29902	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:04:00.00	29903	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:05:00.00	29904	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:06:00.00	29905	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:07:00.00	29906	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:08:00.00	29907	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-22T17:09:00.00	29908	0-0-O	 GRAD: mtf1 excessive
+?	24050066	1997-11-25T05:51:00.00	33550	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,126 @@
+# Cruise 03010016 ID IIOECGS MGD77 FILE VERSION: 19980203 N_RECS: 23000
+# Examined: Mon Nov 23 13:06:22 2009 by mtchandl
+# Arguments:  -V -R79.65/262.25/-9/23.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4 -Hf
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing/filtering magnetic anomalies and recalculating faa using IGF 1980.
+# Errata: Header
+N-E-03010016-H04-05: Invalid Survey Arrival Month: (08) [07]
+N-E-03010016-H04-06: Invalid Survey Arrival Day: (11) [30]
+N-E-03010016-H11-06: Invalid Rightmost Longitude: (-158) [-097]
+N-E-03010016-H16-01: Invalid Number of Ten Degree Identifiers: (30) [31]
+Y-W-03010016-H16-06: Ten Degree Identifier 5009 not marked in header but block was crossed
+Y-W-03010016-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-03010016-depth-01: RLS m: 0.99578 b: 0 rms: 251.753 r: 0.99378 sig: 1 dec: 1
+Y-I-03010016-faa-01: RLS m: 0.97743 b: -4.40584 rms: 21.4803 r: 0.985334 sig: 1 dec: 1
+N-E-03010016-faa-02: Regression slope 0.97743 different from 1. Recommended: [1]
+Y-W-03010016-faa-03: Regression offset -4.40584 different from 0.
+N-E-03010016-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00251 b: -16.3327 rms: 16.7443 r: 0.999771 sig: 1 dec: 1). [Recompute]
+Y-E-03010016-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-03010016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.931345 b: -5.48732 rms: 58.4904 r: 0.967627 sig: 1 dec: 1). [Recompute]
+Y-W-03010016-depth-12: Integer precision
+Y-W-03010016-mtf1-12: Integer precision
+Y-W-03010016-mag-12: Integer precision
+Y-W-03010016-gobs-12: Integer precision
+Y-W-03010016-faa-12: Integer precision
+# Errata: Data
+Y	03010016	1964-03-04T16:45:00.00	1891	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-04T16:50:00.00	1892	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-05T23:45:00.00	2208	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-08T06:05:00.00	2787	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T01:00:00.00	3566	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T01:15:00.00	3569	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T01:20:00.00	3570	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T04:55:00.00	3612	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:05:00.00	3614	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:10:00.00	3615	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:15:00.00	3616	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:25:00.00	3617	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:30:00.00	3618	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:35:00.00	3619	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:40:00.00	3620	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:45:00.00	3621	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:50:00.00	3622	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T05:55:00.00	3623	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T06:00:00.00	3624	C-0-0	 NAV: excessive speed
+Y	03010016	1964-03-20T06:05:00.00	3625	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-03T10:40:00.00	5180	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-05T10:50:00.00	5685	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-14T03:15:00.00	6713	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-14T03:20:00.00	6714	C-0-0	 NAV: excessive speed
+?	03010016	1964-04-15T20:40:00.00	6871	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010016	1964-04-15T20:45:00.00	6872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-04-16T01:20:00.00	6915	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010016	1964-04-16T01:25:00.00	6916	0-Q-LOQ	 VAL: mag invalid - GRAD: depth, mtf1, mag excessive
+?	03010016	1964-04-16T01:30:00.00	6917	0-0-LQ	 GRAD: depth, mag excessive
+?	03010016	1964-04-16T11:00:00.00	7004	0-0-L	 GRAD: depth excessive
+Y	03010016	1964-04-18T11:20:00.00	7267	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-18T11:25:00.00	7268	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-18T11:30:00.00	7269	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-24T01:25:00.00	8340	C-0-0	 NAV: excessive speed
+Y	03010016	1964-04-24T01:40:00.00	8343	C-0-0	 NAV: excessive speed
+?	03010016	1964-05-08T04:25:00.00	9519	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010016	1964-05-08T04:30:00.00	9520	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03010016	1964-05-14T15:10:00.00	11150	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-16T00:00:00.00	11519	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-16T00:05:00.00	11520	C-0-0	 NAV: excessive speed
+?	03010016	1964-05-17T16:20:00.00	11707	0-0-L	 GRAD: depth excessive
+Y	03010016	1964-05-17T19:40:00.00	11747	C-0-0	 NAV: excessive speed
+?	03010016	1964-05-18T16:15:00.00	11912	0-0-L	 GRAD: depth excessive
+Y	03010016	1964-05-25T09:55:00.00	12038	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-25T10:00:00.00	12039	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-25T10:05:00.00	12040	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-30T03:10:00.00	12598	C-0-0	 NAV: excessive speed
+Y	03010016	1964-05-30T03:15:00.00	12599	C-0-0	 NAV: excessive speed
+?	03010016	1964-06-02T13:40:00.00	13112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-06-02T13:45:00.00	13113	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03010016	1964-06-06T07:00:00.00	13665	C-0-0	 NAV: excessive speed
+?	03010016	1964-06-16T11:30:00.00	15041	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T11:35:00.00	15042	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T11:40:00.00	15043	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T11:45:00.00	15044	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T11:50:00.00	15045	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T11:55:00.00	15046	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:00:00.00	15047	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:05:00.00	15048	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:10:00.00	15049	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:15:00.00	15050	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:20:00.00	15051	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:25:00.00	15052	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:30:00.00	15053	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:35:00.00	15054	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:40:00.00	15055	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:45:00.00	15056	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:50:00.00	15057	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T12:55:00.00	15058	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T13:00:00.00	15059	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T13:05:00.00	15060	0-Q-0	 VAL: mag invalid
+?	03010016	1964-06-16T13:10:00.00	15061	0-Q-0	 VAL: mag invalid
+Y	03010016	1964-06-19T13:00:00.00	15584	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	03010016	1964-06-28T18:35:00.00	16440	0-0-L	 GRAD: depth excessive
+?	03010016	1964-06-28T18:40:00.00	16441	0-0-L	 GRAD: depth excessive
+?	03010016	1964-07-01T00:10:00.00	16857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-06T00:20:00.00	18105	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010016	1964-07-06T00:25:00.00	18106	0-Q-0	 VAL: mag invalid
+?	03010016	1964-07-14T16:40:00.00	19592	0-0-L	 GRAD: depth excessive
+?	03010016	1964-07-14T16:50:00.00	19594	0-0-L	 GRAD: depth excessive
+?	03010016	1964-07-16T02:20:00.00	19817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T02:25:00.00	19818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T02:30:00.00	19819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T02:35:00.00	19820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T03:05:00.00	19826	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T03:15:00.00	19828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T07:35:00.00	19880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-16T07:40:00.00	19881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-23T18:45:00.00	21135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-25T18:10:00.00	21678	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+Y	03010016	1964-07-27T21:00:00.00	22246	C-0-0	 NAV: excessive speed
+Y	03010016	1964-07-27T22:00:00.00	22258	C-0-0	 NAV: excessive speed
+Y	03010016	1964-07-27T22:05:00.00	22259	C-0-0	 NAV: excessive speed
+Y	03010016	1964-07-27T22:10:00.00	22260	C-0-0	 NAV: excessive speed
+?	03010016	1964-07-28T09:00:00.00	22390	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-28T09:05:00.00	22391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-29T06:15:00.00	22633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010016	1964-07-29T06:20:00.00	22634	0-0-OQ	 GRAD: mtf1, mag excessive

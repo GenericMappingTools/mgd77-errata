@@ -1,0 +1,25 @@
+# Cruise 15010044 ID MONS05AR MGD77 FILE VERSION: 19800226 N_RECS: 2276
+# Examined: Tue May 13 09:00:28 2008 by mtchandl
+# Arguments:  -R147.4/174.9/-43.35/-40.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010044-H04-06: Invalid Survey Arrival Day: (22) [21]
+Y-W-15010044-nav-00: Flagged 0.35 % of records with excessive speed or invalid navigation
+Y-I-15010044-depth-01: RLS m: 0.996125 b: 0 rms: 44.1513 r: 0.999612 sign: 1 dec: 1
+N-E-15010044-depth-02: Regression slope 0.996125 different from 1. Recommended: [1]
+Y-E-15010044-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.879939 b: -32.6985 rms: 56.2563 r: 0.957309 sig: 1 dec: 1). [Recompute]
+Y-W-15010044-mtf1-12: Integer multiple of 5 precision
+Y-W-15010044-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010044	1961-01-18T01:54:00.00	436	C-0-0	 NAV: excessive speed
+Y	15010044	1961-01-19T13:00:00.00	1133	C-0-0	 NAV: excessive speed
+Y	15010044	1961-01-19T23:12:00.00	1337	C-0-0	 NAV: excessive speed
+Y	15010044	1961-01-20T13:00:00.00	1613	C-0-0	 NAV: excessive speed
+Y	15010044	1961-01-21T22:00:00.00	2273	D-0-0	 NAV: on land
+Y	15010044	1961-01-21T22:03:00.00	2274	D-0-0	 NAV: on land
+Y	15010044	1961-01-21T22:06:00.00	2275	D-0-0	 NAV: on land
+Y	15010044	1961-01-21T22:09:00.00	2276	D-0-0	 NAV: on land

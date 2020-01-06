@@ -1,0 +1,56 @@
+# Cruise J1030026 ID HM930412 MGD77 FILE VERSION: 19971028 N_RECS: 6679
+# Examined: Sun Aug  7 07:30:50 2011 by mtchandl
+# Arguments:  -R142.75/144.05/40.3/41.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1030026-H04-03: Invalid Survey Departure Day: (12) [13]
+N-E-J1030026-H04-06: Invalid Survey Arrival Day: (28) [26]
+Y-E-J1030026-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-J1030026-nav-00: Flagged 0.55 % of records with bad navigation
+Y-I-J1030026-faa-01: RLS m: 1.02356 b: 1.80359 rms: 2.90665 r: 0.997195 sig: 1 dec: 0
+N-E-J1030026-faa-02: Regression slope 1.02356 different from 1. Recommended: [1]
+Y-W-J1030026-faa-03: Regression offset 1.80359 different from 0.
+N-E-J1030026-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999416 b: 1.84272 rms: 2.04668 r: 0.999786 sig: 1 dec: 0). [Recompute]
+Y-W-J1030026-faa-09: only found negative values
+# Errata: Data
+Y	J1030026	1993-04-13T20:46:00.00	119	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-13T20:47:00.00	120	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-14T05:17:00.00	562	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-14T05:18:00.00	563	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-14T06:43:00.00	624	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-14T06:44:00.00	625	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-14T13:50:00.00	952	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-15T05:18:00.00	1745	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-15T05:19:00.00	1746	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-15T13:14:00.00	2166	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-15T13:20:00.00	2172	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T04:52:00.00	2941	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T04:53:00.00	2942	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T05:16:00.00	2961	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T05:18:00.00	2963	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T05:43:00.00	2985	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T05:44:00.00	2986	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T08:34:00.00	3120	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T08:43:00.00	3127	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T10:46:00.00	3228	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T20:57:00.00	3741	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T20:58:00.00	3742	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-16T21:21:00.00	3765	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-16T21:22:00.00	3766	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-17T13:28:00.00	4642	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-17T13:29:00.00	4643	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-17T13:46:00.00	4656	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-17T13:47:00.00	4657	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-17T17:46:00.00	4864	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-17T17:47:00.00	4865	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-22T06:15:00.00	5660	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-22T13:55:00.00	6026	B-0-0	 NAV: non-increasing time
+Y	J1030026	1993-04-22T13:56:00.00	6027	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-26T07:24:00.00	6623	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-26T07:25:00.00	6624	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-26T07:26:00.00	6625	C-0-0	 NAV: excessive speed
+Y	J1030026	1993-04-26T07:27:00.00	6626	C-0-0	 NAV: excessive speed

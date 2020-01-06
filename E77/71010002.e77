@@ -1,0 +1,56 @@
+# Cruise 71010002 ID RSA73-1 MGD77 FILE VERSION: 19870630 N_RECS: 2400
+# Examined: Sun Jul 31 22:11:30 2011 by mtchandl
+# Arguments:  -R-0.7/17.25/-69.2/-39.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Total field magnetic data not reported, magnetic anomalies appear to be unreliable.
+# Errata: Header
+N-E-71010002-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-71010002-H16-06: Ten Degree Identifier 5600 not marked in header but block was crossed
+Y-W-71010002-nav-00: Flagged 1.00 % of records with bad navigation
+Y-I-71010002-depth-01: RLS m: 1.00021 b: 0 rms: 17.7741 r: 0.999408 sig: 1 dec: 0
+Y-E-71010002-mag-10: Invalid data records: [1-2400]
+Y-W-71010002-mag-12: Integer precision
+# Errata: Data
+?	71010002	1973-01-14T19:50:00.00	995	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T19:55:00.00	996	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T20:00:00.00	997	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T20:05:00.00	998	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T20:30:00.00	1003	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T20:35:00.00	1004	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T21:45:00.00	1018	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T21:55:00.00	1020	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:00:00.00	1021	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	71010002	1973-01-14T22:05:00.00	1022	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:10:00.00	1023	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:15:00.00	1024	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:20:00.00	1025	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:25:00.00	1026	0-Q-0	 VAL: mag invalid
+?	71010002	1973-01-14T22:30:00.00	1027	0-0-Q	 GRAD: mag excessive
+?	71010002	1973-01-14T22:35:00.00	1028	0-0-Q	 GRAD: mag excessive
+Y	71010002	1973-01-19T15:00:00.00	2377	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:05:00.00	2378	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:10:00.00	2379	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:15:00.00	2380	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:20:00.00	2381	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:25:00.00	2382	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:30:00.00	2383	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:35:00.00	2384	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:40:00.00	2385	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:45:00.00	2386	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:50:00.00	2387	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T15:55:00.00	2388	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:00:00.00	2389	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:05:00.00	2390	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:10:00.00	2391	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:15:00.00	2392	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:20:00.00	2393	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:25:00.00	2394	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:30:00.00	2395	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:35:00.00	2396	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:40:00.00	2397	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:45:00.00	2398	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:50:00.00	2399	D-0-0	 NAV: on land
+Y	71010002	1973-01-19T16:55:00.00	2400	D-0-0	 NAV: on land

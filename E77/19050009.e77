@@ -1,0 +1,110 @@
+# Cruise 19050009 ID SHA1079 MGD77 FILE VERSION: 19900209 N_RECS: 12194
+# Examined: Mon Sep  6 12:51:20 2010 by mtchandl
+# Arguments:  -R33.95/39.4/19.3/27.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one gravity offset. Total field magnetic data not reported, magnetic anomalies may be unreliable although visual inspection shows they center close to 0 nT.
+# Errata: Header
+Y-W-19050009-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-19050009-depth-01: RLS m: 1.0035 b: 0 rms: 19.8208 r: 0.998034 sig: 1 dec: 0
+N-E-19050009-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-19050009-faa-01: RLS m: 0.988465 b: 5.91966 rms: 15.858 r: 0.929749 sig: 1 dec: 1
+Y-W-19050009-faa-03: Regression offset 5.91966 different from 0.
+Y-E-19050009-faa-10: Invalid data records: [3051-3076]
+Y-W-19050009-depth-12: Integer precision
+# Errata: Data
+Y	19050009	1979-11-03T01:02:00.00	844	C-0-0	 NAV: excessive speed
+?	19050009	1979-11-04T13:12:00.00	1824	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-04T13:14:00.00	1825	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-04T13:16:00.00	1826	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-06T11:24:00.00	3051	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:26:00.00	3052	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:28:00.00	3053	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:30:00.00	3054	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:32:00.00	3055	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:34:00.00	3056	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:36:00.00	3057	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:38:00.00	3058	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:40:00.00	3059	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:42:00.00	3060	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:44:00.00	3061	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:46:00.00	3062	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:48:00.00	3063	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:50:00.00	3064	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:52:00.00	3065	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:54:00.00	3066	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:56:00.00	3067	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T11:58:00.00	3068	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:00:00.00	3069	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:02:00.00	3070	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:04:00.00	3071	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:06:00.00	3072	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:08:00.00	3073	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:10:00.00	3074	0-W-0	 VAL: faa invalid
+?	19050009	1979-11-06T12:12:00.00	3075	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	19050009	1979-11-06T12:14:00.00	3076	0-0-W	 GRAD: faa excessive
+?	19050009	1979-11-06T12:16:00.00	3077	0-0-W	 GRAD: faa excessive
+?	19050009	1979-11-07T02:22:00.00	3474	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:28:00.00	4353	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:38:00.00	4358	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:40:00.00	4359	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:42:00.00	4360	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:44:00.00	4361	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:46:00.00	4362	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:48:00.00	4363	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T10:50:00.00	4364	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:04:00.00	4371	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:06:00.00	4372	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:08:00.00	4373	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:54:00.00	4396	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:56:00.00	4397	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T11:58:00.00	4398	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T12:16:00.00	4407	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T12:18:00.00	4408	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T12:28:00.00	4413	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T12:30:00.00	4414	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-08T12:32:00.00	4415	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-12T03:46:00.00	6422	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-13T22:12:00.00	7574	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-14T09:16:00.00	7856	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-15T07:18:00.00	8438	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-15T19:52:00.00	8777	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-15T19:54:00.00	8778	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-15T19:56:00.00	8779	0-0-Q	 GRAD: mag excessive
+Y	19050009	1979-11-15T22:38:00.00	8860	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:40:00.00	8861	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:42:00.00	8862	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:44:00.00	8863	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:46:00.00	8864	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:48:00.00	8865	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:50:00.00	8866	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:52:00.00	8867	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:54:00.00	8868	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-15T22:56:00.00	8869	C-0-0	 NAV: excessive speed
+?	19050009	1979-11-16T20:32:00.00	9422	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-16T20:34:00.00	9423	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-16T20:36:00.00	9424	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-16T20:56:00.00	9434	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-16T20:58:00.00	9435	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-17T20:40:00.00	9949	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-17T20:42:00.00	9950	0-0-Q	 GRAD: mag excessive
+?	19050009	1979-11-18T12:54:00.00	10381	0-0-Q	 GRAD: mag excessive
+Y	19050009	1979-11-18T20:40:00.00	10495	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:42:00.00	10496	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:44:00.00	10497	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:46:00.00	10498	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:48:00.00	10499	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:50:00.00	10500	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:52:00.00	10501	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:54:00.00	10502	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:56:00.00	10503	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T20:58:00.00	10504	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T21:00:00.00	10505	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T21:02:00.00	10506	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T21:04:00.00	10507	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T21:06:00.00	10508	C-0-0	 NAV: excessive speed
+Y	19050009	1979-11-18T21:08:00.00	10509	C-0-0	 NAV: excessive speed
+?	19050009	1979-11-21T05:50:00.00	12009	0-0-L	 GRAD: depth excessive
+?	19050009	1979-11-21T06:48:00.00	12038	0-0-L	 GRAD: depth excessive

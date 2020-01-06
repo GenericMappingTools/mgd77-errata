@@ -1,0 +1,19 @@
+# Cruise 15040131 ID MRTN09WT MGD77 FILE VERSION: 19870128 N_RECS: 32581
+# Examined: Sat May 24 11:33:17 2008 by mtchandl
+# Arguments:  -R303.75/323.2/-36.1/-22.95 -Ifaa,1,32581 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler (Revised 4 Feb 2009 by M. T. Chandler)
+# Comments: Recommend disregarding gravity until fixed by source institution.
+# Errata: Header
+Y-I-15040131-depth-01: RLS m: 1.00388 b: 0 rms: 65.5422 r: 0.998765 sig: 1 dec: 1
+Y-E-15040131-faa-10: Invalid data records: [1-32581]
+Y-W-15040131-twt-11: More recent bathymetry correction table available
+Y-W-15040131-faa-12: Integer multiple of 5 precision
+N-E-15040131-faa-06: Anomaly differs from gobs-IGF80 (m: 0.272602 b: 2.82138 rms: 56.6994 r: 0.575865 sig: 1 dec: 1). [Recompute]
+N-E-15040131-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.238381 b: 3.20899 rms: 59.1169 r: 0.578242 sig: 1 dec: 1). [Adjust to IGF 1980]
+# Errata: Data
+?	15040131	1984-12-06T09:44:00.00	25371	0-0-KL	 GRAD: twt, depth excessive
+?	15040131	1984-12-07T11:16:00.00	26903	0-0-KL	 GRAD: twt, depth excessive
+?	15040131	1984-12-07T13:14:00.00	27021	0-0-KL	 GRAD: twt, depth excessive

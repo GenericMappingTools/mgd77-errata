@@ -1,0 +1,16 @@
+# Cruise 06910020 ID P985CB MGD77 FILE VERSION: 19881202 N_RECS: 5804
+# Examined: Fri Jul 16 17:12:58 2010 by mtchandl
+# Arguments:  -R294.7/295.6/31.85/32.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (included in gobs and eot column).
+# Errata: Header
+Y-I-06910020-faa-01: RLS m: 0.927101 b: 9.93494 rms: 9.48043 r: 0.989987 sig: 1 dec: 0
+N-E-06910020-faa-02: Regression slope 0.927101 different from 1. Recommended: [1]
+Y-W-06910020-faa-03: Regression offset 9.93494 different from 0.
+N-E-06910020-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00004 b: 0.815681 rms: 0.825927 r: 1 sig: 1 dec: 0). [Recompute]
+N-E-06910020-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.916491 b: 40.921 rms: 34.5536 r: 0.963755 sig: 1 dec: 0). [Recompute]
+Y-W-06910020-faa-09: only found positive values
+# Errata: Data

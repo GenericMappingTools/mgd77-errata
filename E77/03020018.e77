@@ -1,0 +1,22 @@
+# Cruise 03020018 ID CMAPSU6W MGD77 FILE VERSION: 19800213 N_RECS: 1709
+# Examined: Fri Apr  9 13:39:08 2010 by mtchandl
+# Arguments:  -R179.95/182.75/30/36 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-03020018-H12-01: Invalid Bathymetry Digitizing Rate: (624) [624]
+Y-E-03020018-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-03020018-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-03020018-H16-06: Ten Degree Identifier 7318 not marked in header but block was crossed
+Y-W-03020018-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-03020018-depth-01: RLS m: 0.998953 b: 0 rms: 39.8807 r: 0.9984 sig: 1 dec: 0
+Y-E-03020018-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00777 b: 12.9511 rms: 16.8395 r: 0.998899 sig: 1 dec: 1). [Recompute]
+Y-W-03020018-mtf1-12: Integer precision
+Y-W-03020018-mag-12: Integer precision
+# Errata: Data
+Y	03020018	1963-03-03T21:35:00.00	769	C-0-0	 NAV: excessive speed
+Y	03020018	1963-05-08T16:12:00.00	1430	C-0-0	 NAV: excessive speed
+Y	03020018	1963-05-11T16:07:00.00	1661	C-0-0	 NAV: excessive speed

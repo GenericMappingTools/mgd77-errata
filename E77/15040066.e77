@@ -1,0 +1,17 @@
+# Cruise 15040066 ID W651-1WT MGD77 FILE VERSION: 19800226 N_RECS: 4032
+# Examined: Thu May 22 09:52:59 2008 by mtchandl
+# Arguments:  -R243.25/280.6/5.1/31.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040066-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-E-15040066-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.975839 b: -56.0483 rms: 129.383 r: 0.760271 sig: 1 dec: 1). [Recompute]
+Y-W-15040066-mtf1-12: Integer multiple of 5 precision
+Y-W-15040066-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15040066	1966-02-08T21:24:00.00	134	C-0-0	 NAV: excessive speed
+?	15040066	1966-02-10T16:24:00.00	344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040066	1966-02-28T09:00:00.00	3735	0-0-OQ	 GRAD: mtf1, mag excessive

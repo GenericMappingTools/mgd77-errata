@@ -1,0 +1,22 @@
+# Cruise 13020002 ID BFT74 MGD77 FILE VERSION: 19800313 N_RECS: 528
+# Examined: Mon Aug 30 16:01:23 2010 by mtchandl
+# Arguments:  -R203.2/219/69.95/71.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-13020002-time-01: 1 of 528 records contain invalid time
+Y-E-13020002-H12-01: Invalid Bathymetry Digitizing Rate: (464) [464]
+Y-E-13020002-H14-01: Invalid Gravity Digitizing Rate: (460) [460]
+Y-W-13020002-nav-00: Flagged 0.38 % of records with bad navigation
+Y-I-13020002-depth-01: RLS m: 0.995778 b: 0 rms: 56.2296 r: 0.998535 sig: 1 dec: 1
+Y-I-13020002-faa-01: RLS m: 0.961305 b: 1.16751 rms: 5.06712 r: 0.99061 sig: 1 dec: 1
+N-E-13020002-faa-02: Regression slope 0.961305 different from 1. Recommended: [1]
+Y-W-13020002-faa-03: Regression offset 1.16751 different from 0.
+Y-I-13020002-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+# Errata: Data
+Y	13020002	1974-08-19T03:50:00.00	36	C-0-0	 NAV: excessive speed
+Y	13020002	1974-09-07T05:10:00.00	186	B-0-0	 NAV: non-increasing time
+Y	13020002	NaN	272	E-0-0	 NAV: navigation undefined

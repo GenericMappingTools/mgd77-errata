@@ -1,0 +1,18 @@
+# Cruise 03020159 ID RITS93C MGD77 FILE VERSION: 19931231 N_RECS: 3841
+# Examined: Fri Apr 16 13:10:59 2010 by mtchandl
+# Arguments:  -R219.95/232.65/-9.95/54.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020159-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-03020159-depth-01: RLS m: 0.99911 b: 0 rms: 13.0003 r: 0.999842 sig: 1 dec: 0
+N-E-03020159-depth-02: Regression slope 0.99911 different from 1. Recommended: [1]
+Y-W-03020159-depth-12: Integer precision
+# Errata: Data
+Y	03020159	1993-05-04T18:01:00.00	1397	C-0-0	 NAV: excessive speed
+Y	03020159	1993-05-04T18:02:00.00	1398	C-0-0	 NAV: excessive speed
+Y	03020159	1993-05-04T18:03:01.98	1399	C-0-0	 NAV: excessive speed
+Y	03020159	1993-05-06T13:16:01.98	3649	C-0-0	 NAV: excessive speed

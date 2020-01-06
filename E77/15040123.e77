@@ -1,0 +1,24 @@
+# Cruise 15040123 ID MRTN01WT MGD77 FILE VERSION: 19941231 N_RECS: 22331
+# Examined: Sat May 24 09:57:35 2008 by mtchandl
+# Arguments:  -R200.8/241.55/21.95/33.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040123-H04-03: Invalid Survey Departure Day: (24) [26]
+Y-W-15040123-H13-09: Unknown IGRF specified (DGRF 1980)
+Y-I-15040123-depth-01: RLS m: 1 b: 0 rms: 150.985 r: 0.994795 sig: 1 dec: 1
+Y-E-15040123-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00767 b: -22.9165 rms: 27.8533 r: 0.995226 sig: 1 dec: 1). [Recompute]
+Y-W-15040123-twt-11: More recent bathymetry correction table available
+Y-W-15040123-depth-12: Integer precision
+Y-W-15040123-mtf1-12: Integer precision
+# Errata: Data
+?	15040123	1984-03-27T13:43:00.00	536	0-0-K	 GRAD: twt excessive
+?	15040123	1984-03-27T13:56:00.00	549	0-0-K	 GRAD: twt excessive
+?	15040123	1984-03-27T13:57:00.00	550	0-0-KL	 GRAD: twt, depth excessive
+?	15040123	1984-04-06T13:13:00.00	3628	0-0-K	 GRAD: twt excessive
+?	15040123	1984-04-13T12:37:00.00	9515	0-0-K	 GRAD: twt excessive
+?	15040123	1984-04-14T23:45:00.00	11481	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040123	1984-04-26T06:58:00.00	20752	0-0-KL	 GRAD: twt, depth excessive

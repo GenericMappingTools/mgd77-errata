@@ -1,0 +1,98 @@
+# Cruise 09030036 ID SI343417 MGD77 FILE VERSION: 19801110 N_RECS: 68504
+# Examined: Thu Mar 18 23:49:14 2010 by mtchandl
+# Arguments:  -R202.15/241.8/21.2/49.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+?-E-09030036-H04-03: Invalid Survey Departure Day: (12) [13]
+?-E-09030036-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245+]
+Y-W-09030036-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09030036-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09030036-depth-01: RLS m: 0.999651 b: 0 rms: 19.5416 r: 0.999617 sig: 1 dec: 0
+N-E-09030036-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+?-E-09030036-mag-07: Anomaly differs from mtf1-IGRF (m: 0.954195 b: -53.6569 rms: 112.258 r: 0.928917 sig: 1 dec: 1). [Recompute]
+?-E-09030036-twt-13: Encountered possible PDR wrap errors (4.2) [5.0]
+Y-W-09030036-twt-11: More recent bathymetry correction table available
+Y-W-09030036-depth-12: Integer precision
+Y-W-09030036-mag-12: Integer precision
+# Errata: Data
+?	09030036	1974-01-15T05:21:00.00	1798	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-01-15T05:34:00.00	1811	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-01-15T05:35:00.00	1812	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-01-15T11:40:00.00	2177	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-15T11:56:00.00	2193	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-15T12:19:00.00	2216	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-15T12:20:00.00	2217	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-16T10:19:00.00	2914	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-16T14:40:00.00	3175	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-18T05:38:00.00	4574	0-0-K	 GRAD: twt excessive
+?	09030036	1974-01-20T12:03:00.00	6867	0-0-Q	 GRAD: mag excessive
+?	09030036	1974-01-21T15:18:00.00	7944	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09030036	1974-01-22T00:52:00.00	8499	C-0-0	 NAV: excessive speed
+?	09030036	1974-01-31T02:27:00.00	16575	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-16T17:35:00.00	20251	0-0-K	 GRAD: twt excessive
+Y	09030036	1974-02-17T02:50:00.00	20805	C-0-0	 NAV: excessive speed
+Y	09030036	1974-02-17T02:52:00.00	20807	C-0-0	 NAV: excessive speed
+?	09030036	1974-02-17T04:07:00.00	20882	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-02-17T04:08:00.00	20883	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-02-17T15:57:00.00	21153	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-18T16:12:00.00	22198	0-0-KL	 GRAD: twt, depth excessive
+Y	09030036	1974-02-20T00:01:00.00	23690	C-0-0	 NAV: excessive speed
+?	09030036	1974-02-20T03:56:00.00	23925	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-24T07:31:00.00	28089	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-24T11:29:00.00	28327	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-24T11:56:00.00	28354	0-0-K	 GRAD: twt excessive
+?	09030036	1974-02-25T09:30:00.00	29250	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-02-25T14:53:00.00	29573	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-03-01T10:13:00.00	33064	0-0-K	 GRAD: twt excessive
+?	09030036	1974-03-02T01:28:00.00	33551	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-03-25T00:21:00.00	45267	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-12T11:47:00.00	51274	0-0-KL	 GRAD: twt, depth excessive
+?	09030036	1974-04-12T20:29:00.00	51796	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-18T11:40:00.00	56240	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-18T12:04:00.00	56264	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-24T04:59:00.00	60671	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-24T07:20:00.00	60812	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-26T21:10:00.00	62331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-04-26T21:15:00.00	62336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-04-30T05:17:00.00	65198	0-0-K	 GRAD: twt excessive
+?	09030036	1974-04-30T05:19:00.00	65200	0-0-K	 GRAD: twt excessive
+?	09030036	1974-05-01T04:28:00.00	66157	0-0-K	 GRAD: twt excessive
+?	09030036	1974-05-01T19:48:00.00	66665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T19:49:00.00	66666	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T19:50:00.00	66667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T20:03:00.00	66680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T20:05:00.00	66682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T20:52:00.00	66729	0-0-O	 GRAD: mtf1 excessive
+?	09030036	1974-05-01T20:53:00.00	66730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T20:55:00.00	66732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T20:56:00.00	66733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:07:00.00	66744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:08:00.00	66745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:10:00.00	66747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:11:00.00	66748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:24:00.00	66761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:26:00.00	66763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:27:00.00	66764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T21:29:00.00	66766	0-0-O	 GRAD: mtf1 excessive
+?	09030036	1974-05-01T23:42:00.00	66899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T23:44:00.00	66901	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T23:45:00.00	66902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-01T23:47:00.00	66904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:15:00.00	66991	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:17:00.00	66993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:19:00.00	66995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:20:00.00	66996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:35:00.00	67011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T01:37:00.00	67013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T02:35:00.00	67071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T02:36:00.00	67072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T02:37:00.00	67073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T02:38:00.00	67074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T02:39:00.00	67075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T03:15:00.00	67111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-02T03:18:00.00	67114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030036	1974-05-03T02:43:00.00	67975	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,12 @@
+# Cruise 09110004 ID SHO04-70 MGD77 FILE VERSION: 19790329 N_RECS: 1492
+# Examined: Mon Aug  9 12:18:59 2010 by mtchandl
+# Arguments:  -R235/242.6/32/37.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-09110004-faa-01: RLS m: 1.00466 b: 3.06908 rms: 4.32737 r: 0.993494 sig: 1 dec: 0
+Y-W-09110004-faa-03: Regression offset 3.06908 different from 0.
+# Errata: Data

@@ -1,0 +1,46 @@
+# Cruise 15010076 ID ZTES4BAR MGD77 FILE VERSION: 19800226 N_RECS: 1689
+# Examined: Wed May 14 08:15:49 2008 by mtchandl
+# Arguments:  -R139.7/142.55/30.65/35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend fixing PDR wraps.
+# Errata: Header
+N-E-15010076-H04-06: Invalid Survey Arrival Day: (05) [04]
+Y-W-15010076-H13-10: Survey year (1966) outside magnetic reference field Unused time range (9999-9999)
+Y-W-15010076-nav-00: Flagged 0.18 % of records with excessive speed or invalid navigation
+Y-I-15010076-depth-01: RLS m: 1.00361 b: 0 rms: 334.497 r: 0.989166 sign: 1 dec: 1
+N-E-15010076-depth-08: Extended offset from grid [185-372]
+N-E-15010076-depth-08: Extended offset from grid [402-513]
+N-E-15010076-depth-08: Extended offset from grid [539-695]
+N-E-15010076-depth-08: Extended offset from grid [701-800]
+N-E-15010076-depth-08: Extended offset from grid [938-1002]
+N-E-15010076-depth-08: Extended offset from grid [1010-1350]
+Y-E-15010076-twt-13: Encountered possible PDR wrap errors (9.8) [10.0]
+# Errata: Data
+?	15010076	1966-05-30T19:51:00.00	185	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-05-31T08:24:00.00	362	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-05-31T10:45:00.00	409	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-05-31T15:54:00.00	512	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-05-31T17:15:00.00	539	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-01T00:33:00.00	685	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-01T00:48:00.00	690	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-01T00:54:00.00	692	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-01T21:18:00.00	811	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-01T21:39:00.00	818	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T00:51:00.00	882	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T00:57:00.00	884	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T01:57:00.00	904	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T02:06:00.00	907	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T04:09:00.00	948	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T06:48:00.00	1001	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-02T07:36:00.00	1017	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-03T00:33:00.00	1260	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-03T01:12:00.00	1273	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-03T01:27:00.00	1278	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-03T02:00:00.00	1289	0-0-KL	 GRAD: twt, depth excessive
+?	15010076	1966-06-03T12:48:00.00	1342	0-0-KL	 GRAD: twt, depth excessive
+Y	15010076	1966-06-03T22:36:00.00	1538	C-0-0	 NAV: excessive speed
+Y	15010076	1966-06-03T22:39:00.00	1539	C-0-0	 NAV: excessive speed
+Y	15010076	1966-06-03T22:40:00.00	1540	C-0-0	 NAV: excessive speed

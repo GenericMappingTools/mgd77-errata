@@ -1,0 +1,14 @@
+# Cruise 01020038 ID ELT38 MGD77 FILE VERSION: 19790127 N_RECS: 5385
+# Examined: Fri Mar 19 01:14:16 2010 by mtchandl
+# Arguments:  -R146.6/152.9/-64.4/-38.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01020038-H04-06: Invalid Survey Arrival Day: (12) [11]
+Y-I-01020038-depth-01: RLS m: 0.999431 b: 0 rms: 13.1222 r: 0.999942 sig: 1 dec: 0
+N-E-01020038-depth-02: Regression slope 0.999431 different from 1. Recommended: [1]
+Y-W-01020038-twt-11: More recent bathymetry correction table available
+# Errata: Data

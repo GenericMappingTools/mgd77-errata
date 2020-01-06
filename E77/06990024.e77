@@ -1,0 +1,14 @@
+# Cruise 06990024 ID 1986N6 MGD77 FILE VERSION: 19890801 N_RECS: 14251
+# Examined: Fri Jul 16 17:28:07 2010 by mtchandl
+# Arguments:  -R269/269.2/28.8/29.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Shoal survey with depths less than 10 meters.
+# Errata: Header
+Y-W-06990024-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-06990024-depth-01: RLS m: 0.750821 b: 0 rms: 2.0878 r: 0.592566 sig: 1 dec: 0
+N-E-06990024-depth-02: Regression slope 0.750821 different from 1. Recommended: [1]
+# Errata: Data
+Y	06990024	1986-08-04T23:13:03.90	13598	C-0-0	 NAV: excessive speed

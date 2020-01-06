@@ -1,0 +1,40 @@
+# Cruise 67010198 ID 88003111 MGD77 FILE VERSION: 19920924 N_RECS: 6988
+# Examined: Sun Jul 31 21:42:09 2011 by mtchandl
+# Arguments:  -R-9.95/2.2/35.85/44.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010198-nav-00: Flagged 0.20 % of records with bad navigation
+Y-I-67010198-depth-01: RLS m: 1.00245 b: 0 rms: 31.9411 r: 0.998864 sig: 1 dec: 0
+N-E-67010198-depth-02: Regression slope 1.00245 different from 1. Recommended: [1]
+Y-I-67010198-faa-01: RLS m: 1.01287 b: -5.29569 rms: 7.05878 r: 0.995679 sig: 1 dec: 0
+N-E-67010198-faa-02: Regression slope 1.01287 different from 1. Recommended: [1]
+Y-W-67010198-faa-03: Regression offset -5.29569 different from 0.
+Y-I-67010198-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010198-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.850587 b: -19.8428 rms: 41.7149 r: 0.859945 sig: 1 dec: 1). [Recompute]
+Y-E-67010198-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999489 b: 28.7157 rms: 29.8033 r: 0.998543 sig: 1 dec: 1). [Recompute]
+Y-W-67010198-depth-12: Integer precision
+Y-W-67010198-mtf1-12: Integer precision
+Y-W-67010198-mag-12: Integer precision
+# Errata: Data
+?	67010198	1988-10-27T16:54:00.00	1449	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010198	1988-10-30T07:54:00.00	5212	0-0-K	 GRAD: twt excessive
+?	67010198	1988-10-30T07:55:00.00	5213	0-0-KL	 GRAD: twt, depth excessive
+?	67010198	1988-10-30T14:03:00.00	5581	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010198	1988-10-31T13:17:00.00	6975	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:18:00.00	6976	D-0-V	 NAV: on land - GRAD: eot excessive
+Y	67010198	1988-10-31T13:19:00.00	6977	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:20:00.00	6978	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010198	1988-10-31T13:21:00.00	6979	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:22:00.00	6980	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:23:00.00	6981	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:24:00.00	6982	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:25:00.00	6983	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:26:00.00	6984	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:27:00.00	6985	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:28:00.00	6986	D-0-0	 NAV: on land
+Y	67010198	1988-10-31T13:29:00.00	6987	BD-0-0	 NAV: non-increasing time, on land
+Y	67010198	1988-10-31T13:29:00.00	6988	D-0-0	 NAV: on land

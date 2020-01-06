@@ -1,0 +1,25 @@
+# Cruise 07010020 ID YAQ69APR MGD77 FILE VERSION: 19840120 N_RECS: 5749
+# Examined: Fri Jul 16 17:33:02 2010 by mtchandl
+# Arguments:  -R242.5/275.2/9.4/32.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010020-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-07010020-depth-01: RLS m: 0.999222 b: 0 rms: 44.1557 r: 0.998914 sig: 1 dec: 0
+Y-I-07010020-faa-01: RLS m: 1.00554 b: 4.99496 rms: 9.47504 r: 0.979225 sig: 1 dec: 0
+Y-W-07010020-faa-03: Regression offset 4.99496 different from 0.
+Y-E-07010020-mag-07: Anomaly differs from mtf1-IGRF (m: 1.09754 b: 21.9615 rms: 96.25 r: 0.860955 sig: 1 dec: 1). [Recompute]
+Y-W-07010020-twt-11: More recent bathymetry correction table available
+Y-W-07010020-mtf1-12: Integer multiple of 5 precision
+Y-W-07010020-mag-12: Integer precision
+# Errata: Data
+?	07010020	1969-04-07T15:35:00.00	1895	0-0-K	 GRAD: twt excessive
+?	07010020	1969-04-08T06:11:00.00	2124	0-0-K	 GRAD: twt excessive
+Y	07010020	1969-04-10T06:45:00.00	2858	B-0-0	 NAV: non-increasing time
+Y	07010020	1969-04-10T23:20:00.00	3133	B-0-0	 NAV: non-increasing time
+Y	07010020	1969-04-11T00:05:00.00	3144	B-0-0	 NAV: non-increasing time
+Y	07010020	1969-04-11T03:45:00.00	3204	B-0-0	 NAV: non-increasing time
+?	07010020	1969-04-12T08:50:00.00	3605	0-0-OQ	 GRAD: mtf1, mag excessive

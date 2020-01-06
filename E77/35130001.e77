@@ -1,0 +1,15 @@
+# Cruise 35130001 ID 10581 MGD77 FILE VERSION: 19871208 N_RECS: 1032
+# Examined: Tue Jul 26 18:47:47 2011 by mtchandl
+# Arguments:  -R-70.3/-67.1/25.6/30.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged excessive depth offset.
+# Errata: Header
+Y-I-35130001-depth-01: RLS m: 0.999302 b: 0 rms: 13.9939 r: 0.990737 sig: 1 dec: 0
+Y-E-35130001-depth-10: Invalid data records: [61-111]
+Y-W-35130001-depth-12: Integer precision
+# Errata: Data
+?	35130001	3543.81	699	0-0-L	 GRAD: depth excessive
+?	35130001	3545.65	700	0-0-L	 GRAD: depth excessive

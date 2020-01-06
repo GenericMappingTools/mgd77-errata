@@ -1,0 +1,21 @@
+# Cruise 09990023 ID SUB7382C MGD77 FILE VERSION: 19991130 N_RECS: 13684
+# Examined: Mon Nov  7 15:46:09 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-09990023-depth-01: RLS m: 0.998521 b: 0 rms: 52.5273 r: 0.995714 sig: 1 dec: 0
+# Errata: Data
+?	09990023	206.627	789	0-0-K	 GRAD: twt excessive
+?	09990023	214.777	856	0-0-KL	 GRAD: twt, depth excessive
+?	09990023	356.893	2020	0-0-K	 GRAD: twt excessive
+?	09990023	589.027	3614	0-0-K	 GRAD: twt excessive
+?	09990023	678.076	4029	0-0-K	 GRAD: twt excessive
+?	09990023	678.673	4038	0-0-K	 GRAD: twt excessive
+?	09990023	853.238	5036	0-0-K	 GRAD: twt excessive
+?	09990023	914.829	5297	0-0-K	 GRAD: twt excessive
+?	09990023	915.366	5300	0-0-K	 GRAD: twt excessive
+?	09990023	1044.39	6200	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,20 @@
+# Cruise 15060027 ID PROA3BBD MGD77 FILE VERSION: 19800226 N_RECS: 8401
+# Examined: Sat May 31 10:21:06 2008 by mtchandl
+# Arguments:  -R186.95/202.15/-14.45/21.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-15060027-H04-03: Invalid Survey Departure Day: (06) [01]
+Y-W-15060027-nav-00: Flagged 0.08 % of records with excessive speed or invalid navigation
+Y-I-15060027-depth-01: RLS m: 1.00388 b: 0 rms: 187.877 r: 0.991262 sig: 1 dec: 1
+# Errata: Data
+Y	15060027	1962-08-02T01:48:00.00	114	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-02T01:51:00.00	115	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-02T01:54:00.00	116	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-02T01:57:00.00	117	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-02T02:00:00.00	118	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-20T13:42:00.00	4492	C-0-0	 NAV: excessive speed
+Y	15060027	1962-08-30T16:00:00.00	7952	C-0-0	 NAV: excessive speed

@@ -1,0 +1,16 @@
+# Cruise 01010070 ID RC1215 MGD77 FILE VERSION: 19790619 N_RECS: 11699
+# Examined: Mon Jan 26 17:50:05 2009 by mtchandl
+# Arguments:  -R18.05/79.75/-36.4/7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010070-depth-01: RLS m: 1 b: 0 rms: 3.3897 r: 0.999998 sig: 1 dec: 0
+Y-I-01010070-faa-01: RLS m: 0.94558 b: -1.21448 rms: 15.9145 r: 0.951802 sig: 1 dec: 1
+N-E-01010070-faa-02: Regression slope 0.94558 different from 1. Recommended: [1]
+Y-E-01010070-mag-07: Anomaly differs from mtf1-IGRF (m: 0.978995 b: -232.225 rms: 244.771 r: 0.898606 sig: 1 dec: 1). [Recompute]
+Y-W-01010070-mtf1-12: Integer precision
+Y-W-01010070-mag-12: Integer precision
+# Errata: Data

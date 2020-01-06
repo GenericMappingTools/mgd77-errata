@@ -1,0 +1,13 @@
+# Cruise 67010139 ID 84003111 MGD77 FILE VERSION: 19880323 N_RECS: 18811
+# Examined: Mon Nov  7 16:12:31 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010139-nav-00: Flagged 1.31 % of records with bad navigation
+Y-I-67010139-depth-01: RLS m: 1 b: 0 rms: 16.0638 r: 0.999875 sig: 1 dec: 0
+Y-I-67010139-faa-01: RLS m: 0.997784 b: 199.928 rms: 199.983 r: 0.989098 sig: 1 dec: 0
+Y-W-67010139-faa-03: Regression offset 199.928 different from 0.

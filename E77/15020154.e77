@@ -1,0 +1,88 @@
+# Cruise 15020154 ID GLOR07MV MGD77 FILE VERSION: 19980203 N_RECS: 27973
+# Examined: Sun May 18 10:50:30 2008 by mtchandl
+# Arguments:  -R248.7/288.4/-33.2/-24.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15020154-H13-10: Survey year (1993) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020154-depth-01: RLS m: 1 b: 0 rms: 229.052 r: 0.98533 sig: 1 dec: 1
+Y-I-15020154-faa-01: RLS m: 0.965273 b: 0.36464 rms: 10.6182 r: 0.992831 sig: 1 dec: 1
+N-E-15020154-faa-02: Regression slope 0.965273 different from 1. Recommended: [1]
+N-E-15020154-faa-06: Anomaly differs from gobs - IGF80 (m: 0.910757 b: -41.0979 rms: 56.365 r: 0.899786 sig: 1 dec: 1). [Recompute]
+Y-E-15020154-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02238 b: -68.9134 rms: 72.9219 r: 0.992918 sig: 1 dec: 1). [Recompute]
+Y-W-15020154-twt-11: More recent bathymetry correction table available
+Y-W-15020154-depth-12: Integer precision
+Y-W-15020154-mtf1-12: Integer precision
+# Errata: Data
+?	15020154	1993-05-09T14:52:00.00	877	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-09T16:24:00.00	969	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-09T17:51:00.00	1056	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-09T22:35:00.00	1340	D-0-0	 NAV: on land
+?	15020154	1993-05-09T22:36:00.00	1341	D-0-0	 NAV: on land
+?	15020154	1993-05-09T22:55:00.00	1360	D-0-0	 NAV: on land
+?	15020154	1993-05-09T22:56:00.00	1361	D-0-0	 NAV: on land
+?	15020154	1993-05-09T23:59:00.00	1424	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:00:00.00	1425	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:19:00.00	1444	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:20:00.00	1445	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:21:00.00	1446	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:22:00.00	1447	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:47:00.00	1472	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:48:00.00	1473	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:49:00.00	1474	D-0-0	 NAV: on land
+?	15020154	1993-05-10T00:50:00.00	1475	D-0-0	 NAV: on land
+?	15020154	1993-05-10T11:58:00.00	2125	D-0-0	 NAV: on land
+?	15020154	1993-05-10T11:59:00.00	2126	D-0-0	 NAV: on land
+?	15020154	1993-05-10T16:25:00.00	2392	D-0-0	 NAV: on land
+?	15020154	1993-05-10T16:26:00.00	2393	D-0-0	 NAV: on land
+?	15020154	1993-05-10T16:27:00.00	2394	D-0-0	 NAV: on land
+?	15020154	1993-05-10T17:56:00.00	2483	D-0-0	 NAV: on land
+?	15020154	1993-05-10T17:57:00.00	2484	D-0-0	 NAV: on land
+?	15020154	1993-05-10T17:58:00.00	2485	D-0-0	 NAV: on land
+?	15020154	1993-05-10T17:59:00.00	2486	D-0-0	 NAV: on land
+?	15020154	1993-05-12T13:15:00.00	5082	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-12T23:04:00.00	5671	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-13T02:18:00.00	5865	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-13T05:17:00.00	6044	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-13T05:19:00.00	6046	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-13T05:21:00.00	6048	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-16T17:19:00.00	10839	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-16T17:30:00.00	10850	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-17T12:07:00.00	11967	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-17T12:08:00.00	11968	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-17T12:31:00.00	11991	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-17T12:32:00.00	11992	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-17T17:36:00.00	12296	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-17T19:08:00.00	12388	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-17T21:21:00.00	12521	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-18T20:13:00.00	13893	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-18T21:44:00.00	13984	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-20T21:04:00.00	16824	0-0-UW	 GRAD: gobs, faa excessive
+?	15020154	1993-05-20T21:05:00.00	16825	0-0-U	 GRAD: gobs excessive
+?	15020154	1993-05-21T02:49:00.00	17169	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-22T10:16:00.00	19056	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-22T15:22:00.00	19362	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-22T15:25:00.00	19365	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-22T21:11:00.00	19711	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-23T00:54:00.00	19934	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-23T23:36:00.00	21296	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-24T00:10:00.00	21330	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-24T10:30:00.00	21950	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-24T16:55:00.00	22335	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-25T10:01:00.00	23361	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-25T21:25:00.00	24045	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-26T15:41:00.00	25141	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-27T01:46:00.00	25746	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-27T18:26:00.00	26746	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-27T18:27:00.00	26747	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-27T21:21:00.00	26921	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-27T22:14:00.00	26974	0-0-KL	 GRAD: twt, depth excessive
+?	15020154	1993-05-28T00:45:00.00	27125	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-28T00:47:00.00	27127	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-28T04:59:00.00	27379	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-28T08:01:00.00	27561	0-0-K	 GRAD: twt excessive
+?	15020154	1993-05-28T13:41:00.00	27901	0-0-K	 GRAD: twt excessive

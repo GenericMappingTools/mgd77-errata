@@ -1,0 +1,33 @@
+# Cruise 01030090 ID V2306 MGD77 FILE VERSION: 19790919 N_RECS: 8456
+# Examined: Thu Jul  9 17:07:23 2009 by mtchandl
+# Arguments:  -R295.35/344.8/15.45/32.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030090-depth-01: RLS m: 0.999564 b: 0 rms: 13.7077 r: 0.999985 sig: 1 dec: 0
+N-E-01030090-depth-02: Regression slope 0.999564 different from 1. Recommended: [1]
+Y-I-01030090-faa-01: RLS m: 0.858254 b: -8.25312 rms: 17.7076 r: 0.975309 sig: 1 dec: 1
+N-E-01030090-faa-02: Regression slope 0.858254 different from 1. Recommended: [1]
+Y-W-01030090-faa-03: Regression offset -8.25312 different from 0.
+Y-E-01030090-mag-07: Anomaly differs from mtf1-IGRF (m: 0.811175 b: -81.9417 rms: 101.99 r: 0.86405 sig: 1 dec: 0). [Recompute]
+N-E-01030090-depth-08: Extended offset from grid [5-8456]
+Y-W-01030090-twt-11: More recent bathymetry correction table available
+Y-W-01030090-mtf1-12: Integer precision
+Y-W-01030090-mag-12: Integer precision
+# Errata: Data
+?	01030090	1966-11-06T14:32:00.00	51	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030090	1966-11-06T14:45:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030090	1966-11-13T03:03:00.00	1992	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-13T03:04:00.00	1993	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-15T21:16:00.00	3754	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-17T03:58:00.00	4123	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-17T06:11:00.00	4203	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-17T06:39:00.00	4217	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-17T11:13:00.00	4377	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-18T17:37:00.00	4941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030090	1966-11-29T22:38:00.00	6922	0-0-K	 GRAD: twt excessive
+?	01030090	1966-11-30T05:37:00.00	7054	0-0-KL	 GRAD: twt, depth excessive
+?	01030090	1966-11-30T06:16:00.00	7079	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,35 @@
+# Cruise 01030350 ID V1411 MGD77 FILE VERSION: 19951204 N_RECS: 4352
+# Examined: Fri Mar 19 01:37:57 2010 by mtchandl
+# Arguments:  -R31.4/58.35/-29.95/-19.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01030350-H04-03: Invalid Survey Departure Day: (23) [24]
+Y-E-01030350-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030350-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030350-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030350-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030350-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030350-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030350-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030350-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01030350-nav-00: Flagged 0.30 % of records with bad navigation
+Y-I-01030350-depth-01: RLS m: 1.00054 b: 0 rms: 87.9414 r: 0.99732 sig: 1 dec: 0
+# Errata: Data
+Y	01030350	1958-04-25T18:40:00.00	479	B-0-0	 NAV: non-increasing time
+Y	01030350	1958-04-25T18:45:00.00	480	B-0-0	 NAV: non-increasing time
+Y	01030350	1958-04-26T23:00:00.00	877	B-0-0	 NAV: non-increasing time
+Y	01030350	1958-04-27T01:00:00.00	901	B-0-0	 NAV: non-increasing time
+Y	01030350	1958-04-28T22:00:00.00	1550	B-0-0	 NAV: non-increasing time
+?	01030350	1958-05-06T05:15:00.00	3761	0-0-K	 GRAD: twt excessive
+Y	01030350	1958-05-07T13:15:00.00	4183	C-0-0	 NAV: excessive speed
+Y	01030350	1958-05-07T13:19:00.00	4184	C-0-0	 NAV: excessive speed
+Y	01030350	1958-05-07T13:20:00.00	4185	C-0-0	 NAV: excessive speed
+Y	01030350	1958-05-08T03:25:00.00	4332	D-0-0	 NAV: on land
+Y	01030350	1958-05-08T03:30:00.00	4333	D-0-0	 NAV: on land
+Y	01030350	1958-05-08T03:45:00.00	4336	D-0-0	 NAV: on land
+Y	01030350	1958-05-08T03:50:00.00	4337	D-0-0	 NAV: on land
+Y	01030350	1958-05-08T03:55:00.00	4338	D-0-0	 NAV: on land

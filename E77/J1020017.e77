@@ -1,0 +1,17 @@
+# Cruise J1020017 ID HS8304 MGD77 FILE VERSION: 19880928 N_RECS: 8330
+# Examined: Sat Aug  6 11:22:49 2011 by mtchandl
+# Arguments:  -R138.7/139.85/40.2/41.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1020017-H04-03: Invalid Survey Departure Day: (27) [30]
+N-E-J1020017-H04-06: Invalid Survey Arrival Day: (16) [13]
+Y-I-J1020017-faa-01: RLS m: 0.963003 b: 10.646 rms: 11.0346 r: 0.977774 sig: 1 dec: 0
+N-E-J1020017-faa-02: Regression slope 0.963003 different from 1. Recommended: [1]
+Y-W-J1020017-faa-03: Regression offset 10.646 different from 0.
+Y-I-J1020017-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020017-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.207254 b: 14.5268 rms: 46.1936 r: 0.490718 sig: 1 dec: 1). [Recompute]
+# Errata: Data

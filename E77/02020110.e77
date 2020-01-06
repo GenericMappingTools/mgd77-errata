@@ -1,0 +1,31 @@
+# Cruise 02020110 ID A129L3 MGD77 FILE VERSION: 20040218 N_RECS: 2226
+# Examined: Fri Apr  2 15:33:58 2010 by mtchandl
+# Arguments:  -R313.3/315.25/22.55/23.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02020110-depth-01: RLS m: 1.03116 b: 0 rms: 195.514 r: 0.955813 sig: 1 dec: 0
+N-E-02020110-depth-02: Regression slope 1.03116 different from 1. Recommended: [1]
+Y-W-02020110-depth-12: Integer precision
+# Errata: Data
+?	02020110	1993-03-24T10:28:57.00	595	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-24T11:09:04.02	634	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-25T06:37:03.00	1168	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:28:03.00	1304	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:33:01.98	1308	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:34:01.98	1309	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:36:04.02	1310	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:37:57.00	1312	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:39:00.00	1313	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T01:41:03.00	1314	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T02:53:58.98	1378	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T02:55:58.98	1380	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T03:07:57.00	1387	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T03:10:03.00	1389	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T06:31:01.02	1578	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T06:33:01.98	1580	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T06:34:01.02	1581	0-0-L	 GRAD: depth excessive
+?	02020110	1993-03-27T08:13:00.00	1677	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,70 @@
+# Cruise 06780046 ID FARN0787 MGD77 FILE VERSION: 19941231 N_RECS: 17998
+# Examined: Mon Jul 19 15:39:27 2010 by mtchandl
+# Arguments:  -R167/179.35/49.9/53.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4 -Afaa,1,-61.6266
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied systematic DC shift of ~61 mGal to faa. Flagged one depth offset from grid, flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-06780046-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-06780046-depth-01: RLS m: 0.999511 b: 0 rms: 28.1328 r: 0.999873 sig: 1 dec: 0
+N-E-06780046-depth-02: Regression slope 0.999511 different from 1. Recommended: [1]
+Y-E-06780046-faa-03: Regression offset 61.6266 different from 0. Recommended: [-61.626600]
+Y-I-06780046-faa-01: RLS m: 0.990396 b: -2.64557e-05 rms: 4.18699 r: 0.999089 sig: 1 dec: 0
+N-E-06780046-faa-02: Regression slope 0.990396 different from 1. Recommended: [1]
+Y-E-06780046-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988555 b: -26.1565 rms: 31.1185 r: 0.999283 sig: 1 dec: 1). [Recompute]
+Y-E-06780046-depth-08: Extended offset from grid [1668-1819]
+Y-W-06780046-depth-12: Integer precision
+Y-W-06780046-mtf1-12: Integer precision
+Y-W-06780046-mag-12: Integer precision
+# Errata: Data
+?	06780046	1987-07-29T20:34:00.00	68	0-0-O	 GRAD: mtf1 excessive
+?	06780046	1987-07-29T20:36:00.00	69	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780046	1987-07-29T20:40:00.00	71	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780046	1987-07-29T20:42:00.00	72	0-Q-0	 VAL: mag invalid
+?	06780046	1987-07-29T20:44:00.00	73	0-Q-0	 VAL: mag invalid
+?	06780046	1987-07-29T20:50:00.00	76	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T01:40:00.00	941	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T01:54:00.00	948	0-Q-0	 VAL: mag invalid
+?	06780046	1987-07-31T02:00:00.00	951	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T11:24:00.00	1233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T17:46:00.00	1424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T18:00:00.00	1431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T18:02:00.00	1432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T18:32:00.00	1447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-07-31T18:42:00.00	1452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-01T17:16:00.00	2129	0-0-W	 GRAD: faa excessive
+Y	06780046	1987-08-04T00:40:00.00	3791	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:42:00.00	3792	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:44:00.00	3793	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:46:00.00	3794	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:48:00.00	3795	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:50:00.00	3796	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:52:00.00	3797	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:54:00.00	3798	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:56:00.00	3799	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T00:58:00.00	3800	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T01:00:00.00	3801	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T01:02:00.00	3802	D-0-0	 NAV: on land
+Y	06780046	1987-08-04T01:04:00.00	3803	D-0-0	 NAV: on land
+?	06780046	1987-08-05T13:42:00.00	4902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-05T13:44:00.00	4903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-05T14:30:00.00	4926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-05T14:32:00.00	4927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-05T14:34:00.00	4928	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-05T14:36:00.00	4929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-06T16:52:00.00	5717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-06T16:56:00.00	5719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-06T17:00:00.00	5721	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-07T02:46:00.00	6014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-07T02:56:00.00	6019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-07T02:58:00.00	6020	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-07T04:00:00.00	6051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-07T04:02:00.00	6052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780046	1987-08-15T03:30:00.00	11792	0-Q-0	 VAL: mag invalid
+?	06780046	1987-08-15T03:32:00.00	11793	0-Q-0	 VAL: mag invalid
+?	06780046	1987-08-15T03:34:00.00	11794	0-Q-0	 VAL: mag invalid
+?	06780046	1987-08-15T03:36:00.00	11795	0-Q-0	 VAL: mag invalid
+?	06780046	1987-08-15T03:38:00.00	11796	0-Q-0	 VAL: mag invalid
+?	06780046	1987-08-15T03:40:00.00	11797	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,84 @@
+# Cruise 02010068 ID CH115L08 MGD77 FILE VERSION: 19820805 N_RECS: 9088
+# Examined: Fri Mar 26 21:14:47 2010 by mtchandl
+# Arguments:  -R300.3/323.3/-3.85/13.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010068-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02010068-depth-01: RLS m: 0.999651 b: 0 rms: 12.1322 r: 0.999951 sig: 1 dec: 0
+N-E-02010068-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-02010068-faa-01: RLS m: 0.97998 b: -0.58825 rms: 5.20905 r: 0.988491 sig: 1 dec: 0
+N-E-02010068-faa-02: Regression slope 0.97998 different from 1. Recommended: [1]
+Y-W-02010068-faa-03: Regression offset -0.58825 different from 0.
+Y-I-02010068-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02010068-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.487533 b: -0.473454 rms: 49.1777 r: 0.828817 sig: 1 dec: 1). [Recompute]
+Y-E-02010068-mag-07: Anomaly differs from mtf1-IGRF (m: 1.06368 b: -170.944 rms: 178.587 r: 0.928437 sig: 1 dec: 1). [Recompute]
+Y-W-02010068-twt-11: More recent bathymetry correction table available
+Y-W-02010068-mtf1-12: Integer precision
+Y-W-02010068-mag-12: Integer precision
+# Errata: Data
+?	02010068	1974-06-02T07:06:00.00	242	0-0-K	 GRAD: twt excessive
+?	02010068	1974-06-02T22:20:00.00	474	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010068	1974-06-03T03:15:00.00	550	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-03T14:15:00.00	820	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-03T18:30:00.00	984	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-03T18:34:00.00	988	0-0-K	 GRAD: twt excessive
+?	02010068	1974-06-03T18:35:00.00	989	0-0-K	 GRAD: twt excessive
+?	02010068	1974-06-04T16:38:00.00	1414	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:40:00.00	1416	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:41:00.00	1417	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:42:00.00	1418	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:43:00.00	1419	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:44:00.00	1420	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:45:00.00	1421	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:48:00.00	1424	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:49:00.00	1425	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:51:00.00	1427	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:52:00.00	1428	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:53:00.00	1429	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:55:00.00	1431	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:56:00.00	1432	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:57:00.00	1433	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T16:59:00.00	1435	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T17:00:00.00	1436	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T17:01:00.00	1437	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T17:05:00.00	1438	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T17:10:00.00	1439	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-04T18:40:00.00	1471	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T08:05:00.00	1638	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T09:15:00.00	1652	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T09:30:00.00	1655	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T09:45:00.00	1658	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T10:00:00.00	1661	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T10:20:00.00	1666	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:20:00.00	1682	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:25:00.00	1683	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:30:00.00	1684	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:35:00.00	1685	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:40:00.00	1686	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:45:00.00	1687	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:50:00.00	1688	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T11:55:00.00	1689	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T12:00:00.00	1690	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T12:05:00.00	1691	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T12:50:00.00	1700	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T13:25:00.00	1707	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-05T13:30:00.00	1708	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-06T05:05:00.00	1916	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	02010068	1974-06-06T05:10:00.00	1918	0-0-U	 GRAD: gobs excessive
+?	02010068	1974-06-06T08:20:00.00	1977	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-06T18:45:00.00	2126	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-06T20:50:00.00	2151	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-08T12:35:00.00	2723	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-08T13:10:00.00	2737	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-08T14:35:00.00	2759	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-10T03:05:00.00	3341	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-11T19:05:00.00	4133	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-14T09:50:00.00	5429	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-15T02:05:00.00	5665	0-0-V	 GRAD: eot excessive
+?	02010068	1974-06-17T00:30:00.00	6418	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive
+?	02010068	1974-06-17T00:35:00.00	6419	0-0-U	 GRAD: gobs excessive
+?	02010068	1974-06-17T00:50:00.00	6422	0-U-U	 VAL: gobs invalid - GRAD: gobs excessive

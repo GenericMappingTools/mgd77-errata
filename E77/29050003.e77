@@ -1,0 +1,40 @@
+# Cruise 29050003 ID AKU20 MGD77 FILE VERSION: 19851230 N_RECS: 9333
+# Examined: Mon Feb 14 22:29:07 2011 by mtchandl
+# Arguments:  -R-73.6/8.2/-37.05/57.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported faa appears to agree better with satellite gravity than gobs-IGF80.
+# Errata: Header
+N-E-29050003-H16-01: Invalid Number of Ten Degree Identifiers: (30) [31]
+Y-W-29050003-H16-06: Ten Degree Identifier 3200 not marked in header but block was crossed
+Y-W-29050003-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-29050003-depth-01: RLS m: 1.00009 b: 0 rms: 19.8591 r: 0.999846 sig: 1 dec: 0
+Y-I-29050003-faa-01: RLS m: 0.990879 b: -2.27119 rms: 4.63522 r: 0.984361 sig: 1 dec: 0
+N-E-29050003-faa-02: Regression slope 0.990879 different from 1. Recommended: [1]
+Y-W-29050003-faa-03: Regression offset -2.27119 different from 0.
+N-E-29050003-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00172 b: -14.3636 rms: 14.4058 r: 0.998342 sig: 1 dec: 0). [Recompute]
+Y-W-29050003-twt-11: More recent bathymetry correction table available
+Y-W-29050003-depth-12: Integer precision
+# Errata: Data
+Y	29050003	1975-03-27T00:20:00.00	2979	C-0-0	 NAV: excessive speed
+Y	29050003	1975-03-27T00:30:00.00	2980	C-0-0	 NAV: excessive speed
+Y	29050003	1975-03-27T00:40:00.00	2981	C-0-0	 NAV: excessive speed
+Y	29050003	1975-04-01T05:40:00.00	3401	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T18:50:00.00	9146	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:00:00.00	9147	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:10:00.00	9148	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:20:00.00	9149	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:30:00.00	9150	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:40:00.00	9151	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T19:50:00.00	9152	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:00:00.00	9153	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:10:00.00	9154	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:20:00.00	9155	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:30:00.00	9156	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:40:00.00	9157	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T20:50:00.00	9158	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-23T21:00:00.00	9159	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-24T15:00:00.00	9232	C-0-0	 NAV: excessive speed
+Y	29050003	1975-05-24T15:10:00.00	9233	C-0-0	 NAV: excessive speed

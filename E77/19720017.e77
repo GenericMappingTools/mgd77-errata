@@ -1,0 +1,29 @@
+# Cruise 19720017 ID JCR29 MGD77 FILE VERSION: 20000225 N_RECS: 11964
+# Examined: Mon Oct 18 15:41:12 2010 by mtchandl
+# Arguments:  -R299.35/304/-64.2/-51.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19720017-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-19720017-depth-01: RLS m: 1.0021 b: 0 rms: 12.7907 r: 0.999913 sig: 1 dec: 0
+N-E-19720017-depth-02: Regression slope 1.0021 different from 1. Recommended: [1]
+# Errata: Data
+?	19720017	487.206	1212	0-0-L	 GRAD: depth excessive
+?	19720017	575.737	1247	0-0-L	 GRAD: depth excessive
+?	19720017	630.454	1291	0-0-L	 GRAD: depth excessive
+?	19720017	718.312	1351	0-0-L	 GRAD: depth excessive
+?	19720017	731.406	1362	0-0-L	 GRAD: depth excessive
+?	19720017	732.05	1363	0-0-L	 GRAD: depth excessive
+?	19720017	975.86	1551	0-0-L	 GRAD: depth excessive
+?	19720017	975.995	1552	0-0-L	 GRAD: depth excessive
+?	19720017	1855.14	4976	0-0-L	 GRAD: depth excessive
+?	19720017	1980.57	5504	0-0-L	 GRAD: depth excessive
+?	19720017	1980.93	5507	0-0-L	 GRAD: depth excessive
+?	19720017	1982.01	5517	0-0-L	 GRAD: depth excessive
+?	19720017	2213.9	6843	0-0-L	 GRAD: depth excessive
+?	19720017	2499.24	8343	0-0-L	 GRAD: depth excessive
+Y	19720017	4032.32	11963	D-0-0	 NAV: on land
+Y	19720017	4032.72	11964	D-0-0	 NAV: on land

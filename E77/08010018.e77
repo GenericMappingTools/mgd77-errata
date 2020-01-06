@@ -1,0 +1,134 @@
+# Cruise 08010018 ID 72110803 MGD77 FILE VERSION: 19830518 N_RECS: 15899
+# Examined: Mon Jul 26 15:49:05 2010 by mtchandl
+# Arguments:  -R210.35/279.6/-17.55/-2.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010018-H13-10: Survey year (1973) outside magnetic reference field Unused time range (9999-9999)
+Y-E-08010018-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010018-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-I-08010018-depth-01: RLS m: 0.99906 b: 0 rms: 31.235 r: 0.999022 sig: 1 dec: 0
+Y-I-08010018-faa-01: RLS m: 1.03913 b: 1.11815 rms: 7.28108 r: 0.992453 sig: 1 dec: 1
+N-E-08010018-faa-02: Regression slope 1.03913 different from 1. Recommended: [1]
+Y-E-08010018-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981852 b: -6.70709 rms: 87.9016 r: 0.892524 sig: 1 dec: 0). [Recompute]
+Y-W-08010018-twt-11: More recent bathymetry correction table available
+Y-W-08010018-mtf1-12: Integer precision
+Y-W-08010018-mag-12: Integer precision
+Y-W-08010018-faa-12: Integer precision
+# Errata: Data
+?	08010018	1973-02-01T09:38:23.94	6573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:40:05.94	6574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:41:48.00	6575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:43:30.00	6576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:47:00.00	6580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:47:11.94	6581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:47:36.00	6582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:49:42.00	6584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-01T09:50:42.00	6585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-04T21:10:00.00	9371	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-04T21:10:36.00	9372	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:12:11.94	9373	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:12:36.00	9374	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:13:23.94	9375	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:14:05.94	9376	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:15:48.00	9378	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:16:30.00	9379	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:17:54.00	9380	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:18:54.00	9381	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:20:30.00	9382	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:21:17.94	9383	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:27:05.94	9384	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:27:48.00	9385	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:29:00.00	9386	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:30:17.94	9388	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:30:42.00	9389	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-04T21:31:17.94	9390	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:31:05.94	9436	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:31:48.00	9437	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:32:00.00	9438	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:33:17.94	9439	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:35:23.94	9441	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:36:23.94	9442	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T03:36:30.00	9443	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T03:37:00.00	9444	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:37:36.00	9445	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:37:48.00	9446	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:40:05.94	9447	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:41:17.94	9449	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:42:23.94	9450	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:42:42.00	9451	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:43:30.00	9452	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:44:48.00	9453	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:45:30.00	9456	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:47:11.94	9457	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:49:17.94	9459	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:49:42.00	9460	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:50:42.00	9461	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T03:50:48.00	9462	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:51:48.00	9463	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:52:23.94	9464	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:54:05.94	9465	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:54:54.00	9466	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:56:30.00	9467	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:58:30.00	9468	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T03:58:36.00	9469	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:03:11.94	9471	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:04:11.94	9472	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:06:05.94	9473	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:07:42.00	9475	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:09:54.00	9476	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:11:54.00	9477	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:12:30.00	9479	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:14:30.00	9480	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:15:23.94	9483	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:15:48.00	9484	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:17:23.94	9485	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:17:30.00	9486	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:18:05.94	9487	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:21:42.00	9489	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:23:11.94	9490	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:24:30.00	9491	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:25:17.94	9492	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:25:42.00	9493	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:27:42.00	9495	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:28:30.00	9496	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:28:36.00	9497	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:29:36.00	9499	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:30:23.94	9501	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:34:48.00	9503	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:40:00.00	9504	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:42:23.94	9506	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:43:11.94	9507	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:44:30.00	9508	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:48:05.94	9511	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:49:05.94	9512	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:49:17.94	9513	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:50:30.00	9514	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:53:00.00	9515	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:53:42.00	9516	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:54:05.94	9517	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:54:23.94	9518	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:55:00.00	9519	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:55:17.94	9520	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:56:48.00	9521	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:57:30.00	9522	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:57:42.00	9523	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T04:58:17.94	9525	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T04:59:48.00	9527	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T05:07:36.00	9532	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T05:08:36.00	9533	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T05:09:23.94	9534	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T05:11:05.94	9535	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T05:11:23.94	9536	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T05:12:11.94	9537	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T05:12:23.94	9538	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010018	1973-02-05T05:13:05.94	9539	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-05T05:21:17.94	9543	0-Q-0	 VAL: mag invalid
+?	08010018	1973-02-10T02:47:54.00	13438	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-10T02:48:00.00	13439	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-10T02:51:30.00	13445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-10T02:52:11.94	13446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010018	1973-02-10T02:52:54.00	13447	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,42 @@
+# Cruise 23060036 ID ODP132JR MGD77 FILE VERSION: 19911030 N_RECS: 15247
+# Examined: Tue Oct 19 15:26:36 2010 by mtchandl
+# Arguments:  -R128.95/158.4/14.15/35.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-23060036-depth-01: RLS m: 1 b: 0 rms: 12.3276 r: 0.999981 sig: 1 dec: 0
+Y-E-23060036-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00782 b: 23.2059 rms: 28.3934 r: 0.998795 sig: 1 dec: 1). [Recompute]
+Y-W-23060036-twt-11: More recent bathymetry correction table available
+Y-W-23060036-depth-12: Integer precision
+Y-W-23060036-mtf1-12: Integer precision
+# Errata: Data
+?	23060036	1990-07-20T10:18:00.00	5377	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:19:00.00	5378	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:20:00.00	5379	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:21:00.00	5380	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:22:00.00	5381	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:23:00.00	5382	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:24:00.00	5383	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:25:00.00	5384	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:26:00.00	5385	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:27:00.00	5386	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:28:00.00	5387	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:29:00.00	5388	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:30:00.00	5389	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:31:00.00	5390	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:32:00.00	5391	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:33:00.00	5392	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:34:00.00	5393	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:35:00.00	5394	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:36:00.00	5395	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:37:00.00	5396	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:38:00.00	5397	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-20T10:39:00.00	5398	0-Q-0	 VAL: mag invalid
+?	23060036	1990-07-31T09:13:00.00	10334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060036	1990-07-31T09:14:00.00	10335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060036	1990-07-31T09:24:00.00	10345	0-0-O	 GRAD: mtf1 excessive
+?	23060036	1990-07-31T09:25:00.00	10346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060036	1990-07-31T09:26:00.00	10347	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,73 @@
+# Cruise 15020083 ID VLCN06MV MGD77 FILE VERSION: 19830606 N_RECS: 8686
+# Examined: Fri May 16 11:47:38 2008 by mtchandl
+# Arguments:  -R289.05/329.45/-60.9/-51.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020083-H11-06: Invalid Rightmost Longitude: (-033) [-030]
+Y-W-15020083-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-15020083-nav-00: Flagged 0.43 % of records with excessive speed or invalid navigation
+Y-W-15020083-nav-00: Flagged 0.08 % of records with excessive speed or invalid navigation
+Y-I-15020083-depth-01: RLS m: 1 b: 0 rms: 78.3082 r: 0.998539 sig: 1 dec: 1
+Y-E-15020083-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.914685 b: 179.447 rms: 180.593 r: 0.943611 sig: 1 dec: 1). [Recompute]
+Y-W-15020083-twt-11: More recent bathymetry correction table available
+Y-W-15020083-mtf1-12: Integer precision
+Y-W-15020083-mag-12: Integer precision
+# Errata: Data
+?	15020083	1981-01-20T15:35:00.00	1	D-0-0	 NAV: on land
+?	15020083	1981-01-20T15:40:00.00	2	D-0-0	 NAV: on land
+?	15020083	1981-01-20T15:45:00.00	3	D-0-0	 NAV: on land
+?	15020083	1981-01-20T15:50:00.00	4	D-0-0	 NAV: on land
+?	15020083	1981-01-20T15:55:00.00	5	D-0-0	 NAV: on land
+?	15020083	1981-01-20T16:00:00.00	6	D-0-0	 NAV: on land
+?	15020083	1981-01-20T16:05:00.00	7	D-0-0	 NAV: on land
+?	15020083	1981-01-20T16:10:00.00	8	D-0-0	 NAV: on land
+?	15020083	1981-01-20T16:15:00.00	9	D-0-0	 NAV: on land
+?	15020083	1981-01-20T16:20:00.00	10	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:25:00.00	11	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:30:00.00	12	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:35:00.00	13	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:40:00.00	14	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:45:00.00	15	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:50:00.00	16	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T16:55:00.00	17	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:00:00.00	18	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:05:00.00	19	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:10:00.00	20	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:15:00.00	21	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:20:00.00	22	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:25:00.00	23	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:30:00.00	24	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:35:00.00	25	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:40:00.00	26	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:45:00.00	27	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:50:00.00	28	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T17:55:00.00	29	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:00:00.00	30	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:05:00.00	31	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:10:00.00	32	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:15:00.00	33	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:20:00.00	34	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:25:00.00	35	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:30:00.00	36	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:35:00.00	37	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:40:00.00	38	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:45:00.00	39	D-0-0	 NAV: on land
+Y	15020083	1981-01-20T18:50:00.00	40	D-0-0	 NAV: on land
+?	15020083	1981-01-20T18:55:00.00	41	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:00:00.00	42	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:05:00.00	43	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:10:00.00	44	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:15:00.00	45	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:20:00.00	46	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:25:00.00	47	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:30:00.00	48	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:35:00.00	49	D-0-0	 NAV: on land
+?	15020083	1981-01-20T19:40:00.00	50	D-0-0	 NAV: on land
+?	15020083	NaN	3416	E-0-0	 NAV: navigation undefined
+Y	15020083	1981-02-01T13:25:00.00	3431	C-0-0	 NAV: excessive speed
+?	15020083	NaN	3432	E-0-0	 NAV: navigation undefined
+?	15020083	NaN	3433	E-0-0	 NAV: navigation undefined

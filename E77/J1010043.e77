@@ -1,0 +1,19 @@
+# Cruise J1010043 ID HT90T212 MGD77 FILE VERSION: 19961031 N_RECS: 2034
+# Examined: Thu Aug  4 20:12:41 2011 by mtchandl
+# Arguments:  -R132.45/136.35/20.95/26.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1010043-H04-03: Invalid Survey Departure Day: (01) [03]
+N-E-J1010043-H04-06: Invalid Survey Arrival Day: (20) [17]
+Y-I-J1010043-depth-01: RLS m: 1 b: 0 rms: 24.641 r: 0.99975 sig: 1 dec: 0
+Y-I-J1010043-faa-01: RLS m: 0.967742 b: -4.48457 rms: 5.56897 r: 0.990839 sig: 1 dec: 0
+N-E-J1010043-faa-02: Regression slope 0.967742 different from 1. Recommended: [1]
+Y-W-J1010043-faa-03: Regression offset -4.48457 different from 0.
+Y-W-J1010043-depth-12: Integer multiple of 5 precision
+Y-W-J1010043-mag-12: Integer multiple of 5 precision
+Y-W-J1010043-faa-12: Integer precision
+# Errata: Data

@@ -1,0 +1,340 @@
+# Cruise 19180011 ID CD9B85 MGD77 FILE VERSION: 19931021 N_RECS: 20740
+# Examined: Tue Sep 14 17:20:29 2010 by mtchandl
+# Arguments:  -R334.2/351.3/30.95/49.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged excessive magnetic anomalies near 6000 km along-track.
+# Errata: Header
+Y-W-19180011-H13-10: Survey year (1985-1986) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19180011-depth-01: RLS m: 1.00101 b: 0 rms: 8.92757 r: 0.999922 sig: 1 dec: 0
+N-E-19180011-depth-02: Regression slope 1.00101 different from 1. Recommended: [1]
+Y-E-19180011-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988169 b: -120.431 rms: 121.321 r: 0.994079 sig: 1 dec: 0). [Recompute]
+Y-E-19180011-mag-10: Invalid data records: [17376-17522]
+Y-E-19180011-mag-10: Invalid data records: [18057-18242]
+N-E-19180011-twt-13: Encountered possible PDR wrap errors (5.4) [5.0]
+Y-W-19180011-depth-12: Integer precision
+Y-W-19180011-mtf1-12: Integer precision
+Y-W-19180011-mag-12: Integer precision
+# Errata: Data
+?	19180011	1985-12-06T20:38:00.00	296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-06T20:40:00.00	297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-07T00:02:00.00	398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-07T15:12:00.00	853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-07T15:14:00.00	854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-07T19:48:00.00	991	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180011	1985-12-07T20:18:00.00	1006	0-0-O	 GRAD: mtf1 excessive
+?	19180011	1985-12-30T19:06:00.00	17376	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T19:08:00.00	17377	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:10:00.00	17378	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:12:00.00	17379	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:14:00.00	17380	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:16:00.00	17381	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:18:00.00	17382	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:20:00.00	17383	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:22:00.00	17384	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:24:00.00	17385	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:26:00.00	17386	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:28:00.00	17387	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:30:00.00	17388	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:32:00.00	17389	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:34:00.00	17390	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:36:00.00	17391	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:38:00.00	17392	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:40:00.00	17393	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:42:00.00	17394	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:44:00.00	17395	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:46:00.00	17396	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:48:00.00	17397	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:50:00.00	17398	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:52:00.00	17399	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:54:00.00	17400	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:56:00.00	17401	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T19:58:00.00	17402	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:00:00.00	17403	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:02:00.00	17404	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:04:00.00	17405	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:06:00.00	17406	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:08:00.00	17407	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:10:00.00	17408	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:12:00.00	17409	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:14:00.00	17410	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:16:00.00	17411	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:18:00.00	17412	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:20:00.00	17413	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:22:00.00	17414	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-30T20:24:00.00	17415	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-30T20:26:00.00	17416	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-30T20:28:00.00	17417	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-30T20:30:00.00	17418	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-30T20:32:00.00	17419	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:34:00.00	17420	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:36:00.00	17421	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:38:00.00	17422	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:40:00.00	17423	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:42:00.00	17424	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:44:00.00	17425	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:46:00.00	17426	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:48:00.00	17427	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:50:00.00	17428	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:52:00.00	17429	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:54:00.00	17430	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:56:00.00	17431	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T20:58:00.00	17432	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:00:00.00	17433	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:02:00.00	17434	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:04:00.00	17435	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:06:00.00	17436	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:08:00.00	17437	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:10:00.00	17438	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:12:00.00	17439	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:14:00.00	17440	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:16:00.00	17441	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:18:00.00	17442	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:20:00.00	17443	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:22:00.00	17444	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:24:00.00	17445	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:26:00.00	17446	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:28:00.00	17447	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:30:00.00	17448	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:32:00.00	17449	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:34:00.00	17450	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:36:00.00	17451	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:38:00.00	17452	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:40:00.00	17453	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:42:00.00	17454	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:44:00.00	17455	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:46:00.00	17456	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:48:00.00	17457	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:50:00.00	17458	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:52:00.00	17459	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:54:00.00	17460	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:56:00.00	17461	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-30T21:58:00.00	17462	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:00:00.00	17463	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:02:00.00	17464	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:04:00.00	17465	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:06:00.00	17466	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:08:00.00	17467	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:10:00.00	17468	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:12:00.00	17469	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:14:00.00	17470	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:16:00.00	17471	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:18:00.00	17472	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:20:00.00	17473	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:22:00.00	17474	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:24:00.00	17475	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:26:00.00	17476	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:28:00.00	17477	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:30:00.00	17478	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:32:00.00	17479	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:34:00.00	17480	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:36:00.00	17481	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:38:00.00	17482	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:40:00.00	17483	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:42:00.00	17484	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:44:00.00	17485	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:46:00.00	17486	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:48:00.00	17487	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:50:00.00	17488	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:52:00.00	17489	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:54:00.00	17490	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:56:00.00	17491	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T22:58:00.00	17492	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:00:00.00	17493	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:02:00.00	17494	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:04:00.00	17495	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:06:00.00	17496	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:08:00.00	17497	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:10:00.00	17498	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:12:00.00	17499	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:14:00.00	17500	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:16:00.00	17501	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:18:00.00	17502	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:20:00.00	17503	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:22:00.00	17504	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:24:00.00	17505	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:26:00.00	17506	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:28:00.00	17507	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:30:00.00	17508	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:32:00.00	17509	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:34:00.00	17510	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:36:00.00	17511	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:38:00.00	17512	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:40:00.00	17513	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:42:00.00	17514	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:44:00.00	17515	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:46:00.00	17516	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:48:00.00	17517	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:50:00.00	17518	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:52:00.00	17519	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:54:00.00	17520	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:56:00.00	17521	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-30T23:58:00.00	17522	0-Q-0	 VAL: mag invalid
+?	19180011	1985-12-31T00:00:00.00	17523	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:48:00.00	18057	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:50:00.00	18058	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:52:00.00	18059	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:54:00.00	18060	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:56:00.00	18061	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T17:58:00.00	18062	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T18:00:00.00	18063	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T18:02:00.00	18064	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:04:00.00	18065	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:06:00.00	18066	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:08:00.00	18067	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:10:00.00	18068	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:12:00.00	18069	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:14:00.00	18070	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:16:00.00	18071	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:18:00.00	18072	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:20:00.00	18073	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:22:00.00	18074	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:24:00.00	18075	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:26:00.00	18076	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:28:00.00	18077	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:30:00.00	18078	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:32:00.00	18079	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:34:00.00	18080	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:36:00.00	18081	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:38:00.00	18082	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:40:00.00	18083	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:42:00.00	18084	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:44:00.00	18085	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:46:00.00	18086	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:48:00.00	18087	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:50:00.00	18088	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:52:00.00	18089	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:54:00.00	18090	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:56:00.00	18091	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T18:58:00.00	18092	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:00:00.00	18093	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:02:00.00	18094	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:04:00.00	18095	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:06:00.00	18096	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:08:00.00	18097	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:10:00.00	18098	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:12:00.00	18099	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:14:00.00	18100	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:16:00.00	18101	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:18:00.00	18102	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:20:00.00	18103	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:22:00.00	18104	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:24:00.00	18105	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:26:00.00	18106	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:28:00.00	18107	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:30:00.00	18108	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:32:00.00	18109	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:34:00.00	18110	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:36:00.00	18111	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:38:00.00	18112	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:40:00.00	18113	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:42:00.00	18114	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:44:00.00	18115	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:46:00.00	18116	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:48:00.00	18117	0-Q-KLQ	 VAL: mag invalid - GRAD: twt, depth, mag excessive
+?	19180011	1985-12-31T19:50:00.00	18118	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:52:00.00	18119	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:54:00.00	18120	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:56:00.00	18121	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T19:58:00.00	18122	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:00:00.00	18123	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:02:00.00	18124	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:04:00.00	18125	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:06:00.00	18126	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:08:00.00	18127	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:10:00.00	18128	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:12:00.00	18129	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:14:00.00	18130	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:16:00.00	18131	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:18:00.00	18132	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:20:00.00	18133	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:22:00.00	18134	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:24:00.00	18135	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T20:26:00.00	18136	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:28:00.00	18137	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:30:00.00	18138	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:32:00.00	18139	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:34:00.00	18140	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:36:00.00	18141	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:38:00.00	18142	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:40:00.00	18143	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:42:00.00	18144	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:44:00.00	18145	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:46:00.00	18146	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:48:00.00	18147	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:50:00.00	18148	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:52:00.00	18149	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:54:00.00	18150	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:56:00.00	18151	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T20:58:00.00	18152	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:00:00.00	18153	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:02:00.00	18154	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:04:00.00	18155	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:06:00.00	18156	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:08:00.00	18157	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:10:00.00	18158	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:12:00.00	18159	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:14:00.00	18160	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:16:00.00	18161	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:18:00.00	18162	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:20:00.00	18163	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:22:00.00	18164	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:24:00.00	18165	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:26:00.00	18166	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:28:00.00	18167	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:30:00.00	18168	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:32:00.00	18169	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:34:00.00	18170	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:36:00.00	18171	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:38:00.00	18172	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:40:00.00	18173	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:42:00.00	18174	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:44:00.00	18175	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:46:00.00	18176	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:48:00.00	18177	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:50:00.00	18178	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:52:00.00	18179	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:54:00.00	18180	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:56:00.00	18181	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T21:58:00.00	18182	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:00:00.00	18183	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:02:00.00	18184	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:04:00.00	18185	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:06:00.00	18186	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:08:00.00	18187	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:10:00.00	18188	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:12:00.00	18189	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:14:00.00	18190	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:16:00.00	18191	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:18:00.00	18192	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:20:00.00	18193	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:22:00.00	18194	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:24:00.00	18195	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:26:00.00	18196	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:28:00.00	18197	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:30:00.00	18198	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:32:00.00	18199	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:34:00.00	18200	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:36:00.00	18201	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:38:00.00	18202	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:40:00.00	18203	0-0-Q	 GRAD: mag excessive
+?	19180011	1985-12-31T22:42:00.00	18204	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:44:00.00	18205	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:46:00.00	18206	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:48:00.00	18207	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:50:00.00	18208	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:52:00.00	18209	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:54:00.00	18210	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:56:00.00	18211	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T22:58:00.00	18212	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:00:00.00	18213	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:02:00.00	18214	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:04:00.00	18215	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:06:00.00	18216	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:08:00.00	18217	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:10:00.00	18218	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:12:00.00	18219	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	19180011	1985-12-31T23:14:00.00	18220	0-0-Q	 GRAD: mag excessive
+?	19180011	1986-01-01T00:00:00.00	18243	0-0-Q	 GRAD: mag excessive

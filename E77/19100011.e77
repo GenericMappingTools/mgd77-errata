@@ -1,0 +1,31 @@
+# Cruise 19100011 ID DI96 MGD77 FILE VERSION: 19851016 N_RECS: 7829
+# Examined: Mon Sep  6 13:13:08 2010 by mtchandl
+# Arguments:  -R325.45/341.7/-7.55/-0 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19100011-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [3]
+Y-W-19100011-H16-06: Ten Degree Identifier 5001 not marked in header but block was crossed
+Y-W-19100011-H16-06: Ten Degree Identifier 7001 marked in header but was not crossed
+Y-W-19100011-H16-06: Ten Degree Identifier 7002 marked in header but was not crossed
+Y-W-19100011-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-19100011-depth-01: RLS m: 1.00049 b: 0 rms: 22.1146 r: 0.999699 sig: 1 dec: 0
+Y-W-19100011-depth-12: Integer precision
+# Errata: Data
+Y	19100011	1978-11-25T03:48:00.00	2429	B-0-0	 NAV: non-increasing time
+Y	19100011	1978-11-25T03:50:00.00	2430	B-0-0	 NAV: non-increasing time
+Y	19100011	1978-11-29T02:24:00.00	5263	B-0-0	 NAV: non-increasing time
+Y	19100011	1978-12-02T15:10:00.00	7803	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:12:00.00	7804	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:14:00.00	7805	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:16:00.00	7806	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:18:00.00	7807	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:20:00.00	7808	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:22:00.00	7809	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:24:00.00	7810	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:26:00.00	7811	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:28:00.00	7812	C-0-0	 NAV: excessive speed
+Y	19100011	1978-12-02T15:30:00.00	7813	C-0-0	 NAV: excessive speed

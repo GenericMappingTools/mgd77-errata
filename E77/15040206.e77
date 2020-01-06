@@ -1,0 +1,36 @@
+# Cruise 15040206 ID TUNE02WT MGD77 FILE VERSION: 19920924 N_RECS: 36564
+# Examined: Mon May 26 17:31:57 2008 by mtchandl
+# Arguments:  -R209.4/227.75/-37.55/-6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-15040206-depth-01: RLS m: 1.00388 b: 0 rms: 178.807 r: 0.990897 sig: 1 dec: 1
+Y-W-15040206-twt-11: More recent bathymetry correction table available
+Y-W-15040206-depth-12: Integer precision
+# Errata: Data
+?	15040206	1991-07-18T13:36:00.00	2096	0-0-K	 GRAD: twt excessive
+?	15040206	1991-07-19T02:40:00.00	2786	0-0-K	 GRAD: twt excessive
+?	15040206	1991-07-24T21:46:00.00	9051	0-0-KL	 GRAD: twt, depth excessive
+?	15040206	1991-07-25T05:50:00.00	9314	0-0-K	 GRAD: twt excessive
+?	15040206	1991-07-25T05:51:00.00	9315	0-0-K	 GRAD: twt excessive
+?	15040206	1991-07-31T06:17:00.00	14057	0-0-K	 GRAD: twt excessive
+?	15040206	1991-07-31T07:35:00.00	14132	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-02T00:55:00.00	15707	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-02T03:26:00.00	15844	0-0-KL	 GRAD: twt, depth excessive
+?	15040206	1991-08-06T23:06:00.00	20166	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-10T04:47:00.00	23716	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-10T09:44:00.00	24004	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-10T14:00:00.00	24241	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-10T14:41:00.00	24279	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-11T02:01:00.00	24929	0-0-KL	 GRAD: twt, depth excessive
+?	15040206	1991-08-11T02:38:00.00	24963	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-14T07:00:00.00	27740	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-14T07:48:00.00	27780	0-0-KL	 GRAD: twt, depth excessive
+?	15040206	1991-08-16T06:01:00.00	29012	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-17T02:14:00.00	29696	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-24T03:53:00.00	35017	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-24T11:21:00.00	35293	0-0-K	 GRAD: twt excessive
+?	15040206	1991-08-24T17:59:00.00	35504	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,261 @@
+# Cruise 08010064 ID 80101002 MGD77 FILE VERSION: 19821020 N_RECS: 3014
+# Examined: Mon Jul 26 16:43:27 2010 by mtchandl
+# Arguments:  -R183.9/205.95/18.75/20.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-08010064-H11-05: Invalid Leftmost Longitude: (-157) [-177]
+N-E-08010064-H11-06: Invalid Rightmost Longitude: (-155) [-154]
+N-E-08010064-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-08010064-H16-06: Ten Degree Identifier 7117 not marked in header but block was crossed
+Y-W-08010064-nav-00: Flagged 0.33 % of records with bad navigation
+Y-I-08010064-depth-01: RLS m: 0.96314 b: 0 rms: 128.085 r: 0.993887 sig: 1 dec: 0
+N-E-08010064-depth-02: Regression slope 0.96314 different from 1. Recommended: [1]
+Y-I-08010064-faa-01: RLS m: 1.00933 b: 3.47046 rms: 11.5505 r: 0.97851 sig: 1 dec: 1
+Y-E-08010064-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: -70 rms: 70 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-08010064-faa-09: only found positive values
+Y-W-08010064-twt-11: More recent bathymetry correction table available
+Y-W-08010064-mtf1-12: Integer precision
+Y-W-08010064-mag-12: Integer precision
+# Errata: Data
+?	08010064	1980-10-18T01:56:40.02	2	D-0-0	 NAV: on land
+?	08010064	1980-10-18T01:59:40.02	3	D-0-0	 NAV: on land
+?	08010064	1980-10-18T03:19:00.00	50	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:21:00.00	53	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:22:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:23:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:25:00.00	58	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:28:00.00	66	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:29:00.00	69	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:31:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:32:00.00	76	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:39:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:42:00.00	93	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:43:00.00	95	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:44:00.00	98	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:45:00.00	99	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:46:00.00	102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:49:00.00	107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:51:00.00	109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:52:00.00	111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:53:00.00	114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:54:00.00	116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T03:55:00.00	117	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010064	1980-10-18T03:56:00.00	118	C-0-0	 NAV: excessive speed
+Y	08010064	1980-10-18T03:57:00.00	119	C-0-0	 NAV: excessive speed
+Y	08010064	1980-10-18T04:00:00.00	122	C-0-0	 NAV: excessive speed
+?	08010064	1980-10-18T04:04:00.00	127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:07:00.00	131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:08:00.00	132	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:09:00.00	133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:10:00.00	134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:11:00.00	135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:13:00.00	139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:14:00.00	140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:15:00.00	141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:16:00.00	144	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:17:00.00	145	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:18:00.00	147	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:19:00.00	148	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:20:00.00	149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:21:00.00	151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:24:00.00	155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:25:00.00	156	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:26:00.00	157	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T04:29:00.00	161	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T05:24:00.00	227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T05:25:00.00	230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T05:26:00.00	231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T05:27:00.00	233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T05:28:00.00	234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T10:02:00.00	591	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T10:03:00.00	592	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:54:00.00	736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:55:00.00	737	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:56:00.00	738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:57:00.00	740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:58:00.00	741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T11:59:00.00	742	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:00:00.00	743	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:01:00.00	744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:02:00.00	745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:03:00.00	746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:04:00.00	747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:05:00.00	748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:06:00.00	749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:07:00.00	750	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:10:00.00	753	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:11:00.00	754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:13:00.00	756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:14:00.00	757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:15:00.00	758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:16:00.00	759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:17:00.00	760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:18:00.00	762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:19:00.00	763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T12:20:00.00	764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T15:58:00.00	1027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T15:59:00.00	1029	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:00:00.00	1030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:01:00.00	1031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:04:00.00	1035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:05:00.00	1037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:07:00.00	1040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:11:00.00	1045	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:12:00.00	1047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:13:00.00	1048	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:14:00.00	1050	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:25:00.00	1063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:26:00.00	1064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:27:00.00	1065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T16:53:00.00	1094	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:03:00.00	1106	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:04:00.00	1107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:05:00.00	1108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:06:00.00	1110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:07:00.00	1111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:08:00.00	1112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:09:00.00	1114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:10:00.00	1115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:11:00.00	1116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:12:00.00	1117	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:13:00.00	1118	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:14:00.00	1119	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:15:00.00	1120	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:16:00.00	1122	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:17:00.00	1123	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-18T17:18:00.00	1124	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-18T17:19:00.00	1126	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:20:00.00	1127	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:21:00.00	1128	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:22:00.00	1129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:23:00.00	1130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:24:00.00	1132	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:25:00.00	1133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:26:00.00	1135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:27:00.00	1136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:28:00.00	1138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:29:00.00	1139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:30:00.00	1141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:38:00.00	1150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-18T17:39:00.00	1151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:21:00.00	2630	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:22:00.00	2631	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:23:00.00	2633	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:24:00.00	2635	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:25:00.00	2636	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:26:00.00	2638	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:27:00.00	2639	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:28:00.00	2640	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:29:00.00	2641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:30:00.00	2643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:31:00.00	2645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:32:00.00	2646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:33:00.00	2647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:34:00.00	2648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:35:00.00	2649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:36:00.00	2650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:37:00.00	2652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:38:00.00	2653	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:39:00.00	2654	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:40:00.00	2655	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:41:00.00	2656	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:42:00.00	2657	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:43:00.00	2658	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:44:00.00	2659	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T14:45:00.00	2660	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:46:00.00	2661	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:47:00.00	2662	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:48:00.00	2664	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:49:00.00	2665	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:50:00.00	2666	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:51:00.00	2668	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:52:00.00	2669	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:53:00.00	2670	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:54:00.00	2671	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:55:00.00	2672	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:56:00.00	2674	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:57:00.00	2675	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:58:00.00	2676	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T14:59:00.00	2678	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:00:00.00	2680	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:01:00.00	2681	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:02:00.00	2682	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:03:00.00	2684	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:04:00.00	2685	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:05:00.00	2687	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:06:00.00	2688	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:07:00.00	2689	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:08:00.00	2690	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:09:00.00	2691	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:10:00.00	2692	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:11:00.00	2693	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:12:00.00	2694	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:13:00.00	2695	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:14:00.00	2696	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:15:00.00	2698	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:16:00.00	2699	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:17:00.00	2700	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:18:00.00	2701	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:19:00.00	2702	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:20:00.00	2703	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:21:00.00	2704	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:22:00.00	2705	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:23:00.00	2707	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:24:00.00	2708	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T15:25:00.00	2709	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:26:00.00	2710	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:27:00.00	2711	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:28:00.00	2712	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:29:00.00	2713	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:30:00.00	2714	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:31:00.00	2715	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:32:00.00	2716	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:33:00.00	2717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:34:00.00	2718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:35:00.00	2720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:36:00.00	2721	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:37:00.00	2722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:38:00.00	2723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:39:00.00	2724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:40:00.00	2725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:41:00.00	2726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:42:00.00	2728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:45:00.00	2733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:46:00.00	2735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:47:00.00	2736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:48:00.00	2738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:49:00.00	2740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:53:00.00	2746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:54:00.00	2747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T15:55:00.00	2749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:03:00.00	2761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:04:00.00	2762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:05:00.00	2763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:06:00.00	2765	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:07:00.00	2766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:08:00.00	2767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:09:00.00	2769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:10:00.00	2770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:11:00.00	2771	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:12:00.00	2772	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:13:00.00	2773	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:14:00.00	2775	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:15:00.00	2776	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010064	1980-10-21T16:16:00.00	2777	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:17:00.00	2778	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:18:00.00	2779	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:19:00.00	2780	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:20:00.00	2782	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:21:00.00	2783	0-Q-0	 VAL: mag invalid
+?	08010064	1980-10-21T16:22:00.00	2785	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	08010064	1980-10-22T03:24:00.00	3008	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T03:27:00.00	3009	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T03:30:00.00	3010	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T03:33:00.00	3011	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T03:36:00.00	3012	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T03:39:00.00	3013	D-0-0	 NAV: on land
+Y	08010064	1980-10-22T04:20:00.00	3014	D-0-0	 NAV: on land

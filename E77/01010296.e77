@@ -1,0 +1,26 @@
+# Cruise 01010296 ID RC2908 MGD77 FILE VERSION: 19910319 N_RECS: 45220
+# Examined: Wed Jul  8 19:11:17 2009 by mtchandl
+# Arguments:  -R295.95/334.5/16.85/25.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010296-H04-03: Invalid Survey Departure Day: (11) [12]
+Y-E-01010296-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010296-H13-10: Survey year (1988) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010296-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010296-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010296-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010296-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010296-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010296-depth-01: RLS m: 1 b: 0 rms: 226.771 r: 0.98178 sig: 1 dec: 1
+Y-E-01010296-mag-07: Anomaly differs from mtf1-IGRF (m: 0.896677 b: -46.3169 rms: 84.722 r: 0.875258 sig: 1 dec: 1). [Recompute]
+N-E-01010296-depth-08: Extended offset from grid [1116-45220]
+Y-W-01010296-twt-11: More recent bathymetry correction table available
+Y-W-01010296-mtf1-12: Integer precision
+Y-W-01010296-mag-12: Integer precision
+# Errata: Data
+?	01010296	1988-08-29T05:05:00.00	24966	0-0-K	 GRAD: twt excessive
+?	01010296	1988-09-03T06:45:00.00	32321	0-0-K	 GRAD: twt excessive

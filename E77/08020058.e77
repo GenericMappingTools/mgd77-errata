@@ -1,0 +1,57 @@
+# Cruise 08020058 ID MW9008 MGD77 FILE VERSION: 19921231 N_RECS: 20906
+# Examined: Fri Jul 30 13:02:49 2010 by mtchandl
+# Arguments:  -R144.3/152.4/1/13.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-08020058-H04-03: Invalid Survey Departure Day: (24) [26]
+N-E-08020058-H04-06: Invalid Survey Arrival Day: (06) [05]
+Y-I-08020058-depth-01: RLS m: 0.998867 b: 0 rms: 28.4211 r: 0.999921 sig: 1 dec: 0
+N-E-08020058-depth-02: Regression slope 0.998867 different from 1. Recommended: [1]
+Y-W-08020058-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020058	1990-06-26T00:57:22.98	108	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-26T05:21:33.00	600	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-26T09:19:28.02	1082	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-26T12:28:54.00	1517	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-26T13:31:48.00	1674	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-26T13:37:51.00	1688	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-26T17:29:30.00	2145	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-28T07:03:01.98	3458	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-28T09:04:10.98	3662	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-28T20:26:25.02	4712	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-28T23:19:49.98	5046	0-0-K	 GRAD: twt excessive
+?	08020058	1990-06-29T05:06:46.98	5612	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-29T06:25:46.98	5744	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-29T09:48:07.02	6064	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-29T14:58:31.98	6547	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-06-30T11:07:58.98	8237	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-01T06:02:43.02	9953	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-01T09:17:16.02	10258	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-01T09:17:40.98	10260	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-01T09:31:03.00	10280	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-01T11:21:16.98	10448	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-01T13:01:37.02	10620	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-01T13:09:27.00	10636	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-02T02:26:52.98	11919	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-02T02:39:43.02	11938	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-03T03:31:25.02	14283	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T08:55:43.98	14822	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T10:02:58.98	14949	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T15:36:49.02	15519	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T19:25:31.02	15889	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T19:30:04.98	15898	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T19:34:52.98	15907	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T20:32:22.02	16016	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T20:53:40.02	16056	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-03T21:17:19.98	16099	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-03T21:19:03.00	16103	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-03T22:19:31.98	16210	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-04T01:43:01.98	16560	0-0-K	 GRAD: twt excessive
+?	08020058	1990-07-04T01:47:28.02	16567	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-04T03:02:25.98	16705	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-04T03:14:31.02	16727	0-0-KL	 GRAD: twt, depth excessive
+?	08020058	1990-07-05T05:09:13.02	19046	0-0-KL	 GRAD: twt, depth excessive

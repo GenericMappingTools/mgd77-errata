@@ -1,0 +1,32 @@
+# Cruise 15010062 ID SCAN05AR MGD77 FILE VERSION: 19830818 N_RECS: 13616
+# Examined: Tue May 13 09:15:10 2008 by mtchandl
+# Arguments:  -R144.6/242.6/9.1/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, fixing PDR wraps, possible loss of bottom tracking near 1530 km.
+# Errata: Header
+Y-E-15010062-H16-01: Invalid Number of Ten Degree Identifiers: (15) [16]
+Y-W-15010062-H16-06: Ten Degree Identifier 7018 not marked in header but block was crossed
+Y-W-15010062-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15010062-depth-01: RLS m: 1 b: 0 rms: 138.848 r: 0.996536 sign: 1 dec: 1
+Y-E-15010062-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.917795 b: -77.0586 rms: 103.055 r: 0.928146 sig: 1 dec: 1). [Recompute]
+N-E-15010062-depth-08: Extended offset from grid [969-1023]
+Y-E-15010062-twt-13: Encountered possible PDR wrap errors (9.5) [10.0]
+Y-W-15010062-twt-11: More recent bathymetry correction table available
+Y-W-15010062-mtf1-12: Integer multiple of 5 precision
+Y-W-15010062-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010062	1969-07-04T07:30:00.00	1	D-0-0	 NAV: on land
+Y	15010062	1969-07-04T07:35:00.00	2	D-0-0	 NAV: on land
+?	15010062	1969-07-04T07:40:00.00	3	D-0-0	 NAV: on land
+?	15010062	1969-07-06T13:55:00.00	969	0-0-KL	 GRAD: twt, depth excessive
+?	15010062	1969-07-06T16:35:00.00	1021	0-0-KL	 GRAD: twt, depth excessive
+Y	15010062	1969-07-12T16:25:00.00	3601	C-0-0	 NAV: excessive speed
+?	15010062	1969-07-20T06:35:00.00	7047	0-0-KL	 GRAD: twt, depth excessive
+Y	15010062	1969-07-27T19:45:00.00	9912	D-0-0	 NAV: on land
+Y	15010062	1969-07-27T19:50:00.00	9913	D-0-0	 NAV: on land
+Y	15010062	1969-07-27T19:55:00.00	9914	D-0-0	 NAV: on land
+Y	15010062	1969-07-27T20:00:00.00	9915	D-0-0	 NAV: on land
+Y	15010062	1969-07-27T20:05:00.00	9916	D-0-0	 NAV: on land

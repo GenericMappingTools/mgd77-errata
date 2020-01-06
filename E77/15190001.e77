@@ -1,0 +1,30 @@
+# Cruise 15190001 ID VL70-1VR MGD77 FILE VERSION: 19800226 N_RECS: 1634
+# Examined: Mon Jun  2 11:19:59 2008 by mtchandl
+# Arguments:  -R245.3/249.05/27.35/31.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15190001-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-E-15190001-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01411 b: -120.107 rms: 123.405 r: 0.981407 sig: 1 dec: 1). [Recompute]
+Y-W-15190001-mtf1-12: Integer multiple of 5 precision
+Y-W-15190001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15190001	1970-11-18T17:32:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-18T17:45:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-18T17:47:00.00	45	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-18T17:50:00.00	46	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-18T17:53:00.00	47	0-0-O	 GRAD: mtf1 excessive
+?	15190001	1970-11-18T18:00:00.00	50	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-18T18:05:00.00	51	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-21T20:32:00.00	457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-21T21:00:00.00	464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-22T22:11:00.00	588	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15190001	1970-11-29T04:30:00.00	1334	C-0-0	 NAV: excessive speed
+?	15190001	1970-11-30T00:45:00.00	1487	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-11-30T00:48:00.00	1488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-12-01T01:35:00.00	1593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-12-01T06:16:00.00	1614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15190001	1970-12-01T06:19:00.00	1615	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,88 @@
+# Cruise 01010260 ID RC2614 MGD77 FILE VERSION: 19910319 N_RECS: 40758
+# Examined: Wed Jul  8 16:50:41 2009 by mtchandl
+# Arguments:  -R105.4/118.4/3.15/22.55 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa data are systematically offset ~17 mGal from satellite data throughout cruise. Recomputing faa increases this offset.
+# Errata: Header
+N-E-01010260-H04-06: Invalid Survey Arrival Day: (30) [29]
+Y-E-01010260-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010260-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010260-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010260-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010260-depth-01: RLS m: 1 b: 0 rms: 8.79828 r: 0.999989 sig: 1 dec: 0
+Y-I-01010260-faa-01: RLS m: 1.04715 b: 23.2358 rms: 27.6354 r: 0.904214 sig: 1 dec: 1
+Y-W-01010260-faa-03: Regression offset 23.2358 different from 0.
+N-E-01010260-faa-06: Anomaly differs from gobs-IGF80 (m: 0.405918 b: 8.32613 rms: 41.0946 r: 0.655549 sig: 1 dec: 1). [Recompute]
+N-E-01010260-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.995613 b: -15.5123 rms: 15.6888 r: 0.999883 sig: 1 dec: 0). [Recompute]
+Y-W-01010260-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01010260-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.99908 b: 0.0178738 rms: 0.0781243 r: 0.999991 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01010260-mag-07: Anomaly differs from mtf1-IGRF (m: 1.07046 b: 338.754 rms: 337.552 r: 0.985476 sig: 1 dec: 1). [Recompute]
+N-E-01010260-depth-08: Extended offset from grid [1233-40758]
+Y-W-01010260-twt-11: More recent bathymetry correction table available
+Y-W-01010260-mtf1-12: Integer precision
+# Errata: Data
+?	01010260	1985-12-01T03:50:00.00	54	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-03T19:20:00.00	3694	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-06T00:30:00.00	6432	0-0-U	 GRAD: gobs excessive
+?	01010260	1985-12-09T18:04:00.00	11815	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-11T02:58:00.00	13809	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-11T18:41:00.00	14792	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-11T19:00:00.00	14812	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-11T21:16:00.00	14956	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-11T22:51:00.00	15055	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-12T03:58:00.00	15379	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-13T22:21:00.00	18056	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-13T22:55:00.00	18093	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-13T22:57:00.00	18095	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-13T23:02:00.00	18101	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-13T23:34:00.00	18135	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-14T04:37:00.00	18451	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-15T10:58:00.00	20353	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-15T12:39:00.00	20456	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-15T12:40:00.00	20457	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-15T16:18:00.00	20674	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-16T02:39:00.00	21292	0-0-U	 GRAD: gobs excessive
+?	01010260	1985-12-16T05:21:00.00	21456	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-16T21:40:00.00	22449	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-16T21:47:00.00	22457	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-17T07:02:00.00	23028	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-17T13:19:00.00	23421	0-0-V	 GRAD: eot excessive
+?	01010260	1985-12-17T22:21:00.00	23976	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-18T10:50:00.00	24733	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-18T15:27:00.00	25024	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-18T20:38:00.00	25348	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-19T14:07:00.00	26451	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-19T14:09:00.00	26453	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-19T17:24:00.00	26659	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-20T02:15:00.00	27210	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-20T02:16:00.00	27211	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-20T03:12:00.00	27270	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-20T03:55:00.00	27316	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-20T03:59:00.00	27320	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-20T04:00:00.00	27321	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-21T02:02:00.00	28722	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-21T03:23:00.00	28804	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-21T03:27:00.00	28809	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-21T03:30:00.00	28812	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-21T07:01:00.00	29032	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-21T07:38:00.00	29070	0-0-KL	 GRAD: twt, depth excessive
+?	01010260	1985-12-21T07:40:00.00	29072	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-21T07:42:00.00	29074	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-21T07:44:00.00	29076	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-24T00:05:00.00	33130	0-0-UV	 GRAD: gobs, eot excessive
+?	01010260	1985-12-26T15:16:00.00	37121	0-0-K	 GRAD: twt excessive
+?	01010260	1985-12-27T23:51:00.00	39165	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:02:00.00	39237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:03:00.00	39238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:04:00.00	39239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:05:00.00	39240	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:06:00.00	39241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:20:00.00	39255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:21:00.00	39256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:22:00.00	39257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T01:23:00.00	39258	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T02:50:00.00	39350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010260	1985-12-28T03:14:00.00	39377	0-0-OQ	 GRAD: mtf1, mag excessive

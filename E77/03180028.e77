@@ -1,0 +1,15 @@
+# Cruise 03180028 ID B00127 MGD77 FILE VERSION: 19961220 N_RECS: 7868
+# Examined: Fri Apr 30 12:11:31 2010 by mtchandl
+# Arguments:  -R235.25/235.7/40.45/41.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03180028-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-03180028-depth-01: RLS m: 1.03138 b: 0 rms: 17.6605 r: 0.996068 sig: 1 dec: 0
+N-E-03180028-depth-02: Regression slope 1.03138 different from 1. Recommended: [1]
+Y-W-03180028-depth-12: Integer precision
+# Errata: Data
+Y	03180028	1988-04-20T07:29:00.00	6093	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,24 @@
+# Cruise 08010042 ID 77110902 MGD77 FILE VERSION: 19801230 N_RECS: 10208
+# Examined: Mon Jul 26 16:09:26 2010 by mtchandl
+# Arguments:  -R203.25/210.45/-17.55/20.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-08010042-H04-06: Invalid Survey Arrival Day: (20) [19]
+Y-E-08010042-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08010042-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010042-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-I-08010042-depth-01: RLS m: 1 b: 0 rms: 15.488 r: 0.999735 sig: 1 dec: 0
+Y-I-08010042-faa-01: RLS m: 0.988057 b: -2.51434 rms: 11.3669 r: 0.982924 sig: 1 dec: 1
+Y-W-08010042-faa-03: Regression offset -2.51434 different from 0.
+Y-E-08010042-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00574 b: -103.816 rms: 103.761 r: 0.999953 sig: 1 dec: 0). [Recompute]
+Y-W-08010042-mtf1-12: Integer precision
+Y-W-08010042-mag-12: Integer precision
+# Errata: Data
+?	08010042	1977-12-10T19:25:00.00	4930	0-0-W	 GRAD: faa excessive
+?	08010042	1977-12-11T18:11:30.00	5493	0-0-KL	 GRAD: twt, depth excessive
+?	08010042	1977-12-17T10:40:00.00	8884	0-0-W	 GRAD: faa excessive
+?	08010042	1977-12-18T00:10:00.00	9220	0-0-W	 GRAD: faa excessive

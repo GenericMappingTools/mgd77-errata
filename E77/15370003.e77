@@ -1,0 +1,15 @@
+# Cruise 15370003 ID TRTL02LC MGD77 FILE VERSION: 19951214 N_RECS: 4902
+# Examined: Wed Jun  4 22:29:10 2008 by mtchandl
+# Arguments:  -R236.25/240.5/29.75/31.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend manual review of depth data.
+# Errata: Header
+Y-I-15370003-depth-01: RLS m: 1.00388 b: 0 rms: 168.72 r: 0.986553 sig: 1 dec: 1
+Y-W-15370003-twt-11: More recent bathymetry correction table available
+Y-W-15370003-depth-12: Integer precision
+# Errata: Data
+?	15370003	1989-10-23T02:19:00.00	992	0-0-K	 GRAD: twt excessive
+?	15370003	1989-10-26T04:00:00.00	3198	0-0-KL	 GRAD: twt, depth excessive

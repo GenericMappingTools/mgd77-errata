@@ -1,0 +1,22 @@
+# Cruise 01010046 ID RC1103 MGD77 FILE VERSION: 19790619 N_RECS: 10384
+# Examined: Mon Jan 26 17:04:18 2009 by mtchandl
+# Arguments:  -R-55.9/17.25/-55.2/-35.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010046-time-01: 1 of 10384 records contain invalid time
+Y-E-01010046-H04-01: Invalid Survey Departure Year: (1957) [1967]
+N-E-01010046-H04-06: Invalid Survey Arrival Day: (27) [26]
+Y-E-01010046-H11-05: Invalid Leftmost Longitude: (-057) [-056]
+Y-W-01010046-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01010046-depth-01: RLS m: 1 b: 0 rms: 0.303095 r: 1 sig: 1 dec: 0
+Y-E-01010046-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00762 b: -201.695 rms: 229.623 r: 0.87023 sig: 1 dec: 1). [Recompute]
+Y-W-01010046-twt-11: More recent bathymetry correction table available
+Y-W-01010046-mtf1-12: Integer precision
+Y-W-01010046-mag-12: Integer precision
+# Errata: Data
+?	01010046	NaN	1338	E-0-0	 NAV: navigation undefined
+?	01010046	1967-02-11T13:06:00.00	3865	0-0-OQ	 GRAD: mtf1, mag excessive

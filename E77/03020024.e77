@@ -1,0 +1,82 @@
+# Cruise 03020024 ID CONMOREW MGD77 FILE VERSION: 19800213 N_RECS: 11762
+# Examined: Fri Apr  9 13:47:18 2010 by mtchandl
+# Arguments:  -R232.9/236/39.9/48.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-E-03020024-H15-01: Invalid Gravity Departure Base Station Value: (97273.4) [97273.4]
+Y-E-03020024-H15-03: Invalid Gravity Arrival Base Station Value: (97273.4) [97273.4]
+Y-W-03020024-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-03020024-depth-01: RLS m: 0.999302 b: 0 rms: 11.4866 r: 0.999957 sig: 1 dec: 0
+N-E-03020024-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-03020024-faa-01: RLS m: 0.975204 b: 2.98175 rms: 5.22618 r: 0.980216 sig: 1 dec: 0
+N-E-03020024-faa-02: Regression slope 0.975204 different from 1. Recommended: [1]
+Y-W-03020024-faa-03: Regression offset 2.98175 different from 0.
+Y-E-03020024-mag-07: Anomaly differs from mtf1-IGRF (m: 0.971502 b: 49.1845 rms: 87.0269 r: 0.936304 sig: 1 dec: 1). [Recompute]
+Y-W-03020024-faa-09: all values less than or equal to zero
+Y-E-03020024-faa-10: Invalid data records: [1-11762]
+Y-W-03020024-mtf1-12: Integer precision
+Y-W-03020024-mag-12: Integer precision
+Y-W-03020024-faa-12: Integer precision
+# Errata: Data
+?	03020024	1972-05-10T17:56:00.00	267	0-0-W	 GRAD: faa excessive
+?	03020024	1972-05-10T17:58:00.00	268	0-0-W	 GRAD: faa excessive
+Y	03020024	1972-05-12T00:35:00.00	497	C-0-0	 NAV: excessive speed
+Y	03020024	1972-05-16T20:20:00.00	1559	C-0-0	 NAV: excessive speed
+Y	03020024	1972-05-17T05:42:00.00	1675	C-0-0	 NAV: excessive speed
+?	03020024	1972-05-18T02:52:00.00	1881	0-0-W	 GRAD: faa excessive
+Y	03020024	1972-05-18T23:30:00.00	2096	C-0-0	 NAV: excessive speed
+Y	03020024	1972-05-18T23:35:00.00	2097	C-0-0	 NAV: excessive speed
+?	03020024	1972-05-20T12:16:00.00	2545	0-0-W	 GRAD: faa excessive
+Y	03020024	1972-05-20T14:50:00.00	2581	C-0-0	 NAV: excessive speed
+?	03020024	1972-05-25T00:25:00.00	3743	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020024	1972-05-25T05:44:00.00	3809	C-0-0	 NAV: excessive speed
+?	03020024	1972-05-27T03:10:00.00	4276	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-27T03:32:00.00	4282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-28T09:16:00.00	4604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-28T09:20:00.00	4605	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020024	1972-05-29T02:35:00.00	4815	C-0-0	 NAV: excessive speed
+Y	03020024	1972-05-30T16:00:00.00	5207	C-0-0	 NAV: excessive speed
+?	03020024	1972-05-31T09:41:00.00	5461	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T09:42:00.00	5462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T09:49:00.00	5469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T10:08:00.00	5488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T10:09:00.00	5489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T10:40:00.00	5520	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-05-31T10:41:00.00	5521	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-06T13:35:00.00	5722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-06T13:36:00.00	5723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-07T05:55:00.00	5930	0-0-W	 GRAD: faa excessive
+?	03020024	1972-06-07T08:29:00.00	6010	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-07T08:30:00.00	6011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-07T08:55:00.00	6036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-07T09:01:00.00	6042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-07T09:02:00.00	6043	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020024	1972-06-07T13:50:00.00	6260	C-0-0	 NAV: excessive speed
+?	03020024	1972-06-08T18:59:00.00	6705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-08T19:00:00.00	6706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-09T09:06:00.00	7016	0-0-W	 GRAD: faa excessive
+?	03020024	1972-06-10T00:00:00.00	7180	0-0-W	 GRAD: faa excessive
+?	03020024	1972-06-10T04:36:00.00	7231	0-0-W	 GRAD: faa excessive
+Y	03020024	1972-06-10T13:10:00.00	7341	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-11T11:30:00.00	7589	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-11T13:50:00.00	7617	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-14T00:37:00.00	8245	C-0-0	 NAV: excessive speed
+?	03020024	1972-06-14T18:16:00.00	8427	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020024	1972-06-18T13:50:00.00	9387	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-18T16:10:00.00	9416	C-0-0	 NAV: excessive speed
+?	03020024	1972-06-19T16:56:00.00	9933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-19T17:00:00.00	9937	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-19T17:01:00.00	9938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-19T17:45:00.00	9982	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-19T19:46:00.00	10103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-19T21:21:00.00	10198	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020024	1972-06-23T10:08:00.00	11055	0-0-W	 GRAD: faa excessive
+Y	03020024	1972-06-23T11:55:00.00	11077	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-23T12:00:00.00	11078	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-24T15:20:00.00	11361	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-24T15:25:00.00	11362	C-0-0	 NAV: excessive speed
+Y	03020024	1972-06-24T15:30:00.00	11363	C-0-0	 NAV: excessive speed

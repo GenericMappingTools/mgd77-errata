@@ -1,0 +1,18 @@
+# Cruise 15010006 ID CIRC03AR MGD77 FILE VERSION: 19810928 N_RECS: 7782
+# Examined: Mon May 12 16:56:33 2008 by mtchandl
+# Arguments:  -R80.05/97.6/-1.95/20.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010006-H04-03: Invalid Survey Departure Day: (03) [04]
+N-E-15010006-H04-05: Invalid Survey Arrival Month: (06) [05]
+N-E-15010006-H04-06: Invalid Survey Arrival Day: (02) [31]
+Y-I-15010006-depth-01: RLS m: 1 b: 0 rms: 72.58 r: 0.998505 significant: 1 decimation: 1
+Y-E-15010006-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.932432 b: -140.47 rms: 150.635 r: 0.941911 sig: 1 dec: 1). [Recompute]
+Y-W-15010006-twt-11: More recent bathymetry correction table available
+Y-W-15010006-mtf1-12: Integer precision
+Y-W-15010006-mag-12: Integer precision
+# Errata: Data

@@ -1,0 +1,13 @@
+# Cruise 09100021 ID KEA02-69 MGD77 FILE VERSION: 19790329 N_RECS: 11229
+# Examined: Mon Aug  9 12:14:01 2010 by mtchandl
+# Arguments:  -R278.9/283.9/30.55/34.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-09100021-faa-01: RLS m: 0.95992 b: 1.36721 rms: 3.38088 r: 0.977729 sig: 1 dec: 0
+N-E-09100021-faa-02: Regression slope 0.95992 different from 1. Recommended: [1]
+Y-W-09100021-faa-03: Regression offset 1.36721 different from 0.
+# Errata: Data

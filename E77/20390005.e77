@@ -1,0 +1,18 @@
+# Cruise 20390005 ID KR134-12 MGD77 FILE VERSION: 19900124 N_RECS: 528
+# Examined: Tue Oct 19 15:06:40 2010 by mtchandl
+# Arguments:  -R28.9/34.05/41.4/43.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-20390005-H04-02: Invalid Survey Departure Month: (04) [07]
+Y-E-20390005-H04-03: Invalid Survey Departure Day: (16) [13]
+Y-E-20390005-H04-05: Invalid Survey Arrival Month: (05) [07]
+Y-E-20390005-H04-06: Invalid Survey Arrival Day: (07) [15]
+Y-W-20390005-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-20390005-depth-01: RLS m: 0.999651 b: 0 rms: 5.67821 r: 0.999952 sig: 1 dec: 0
+Y-W-20390005-twt-11: twt may be extracted from depth for Carter correction
+# Errata: Data
+Y	20390005	1988-07-14T15:48:00.00	241	C-0-0	 NAV: excessive speed

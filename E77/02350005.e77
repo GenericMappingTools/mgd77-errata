@@ -1,0 +1,16 @@
+# Cruise 02350005 ID PD489L01 MGD77 FILE VERSION: 19900413 N_RECS: 6807
+# Examined: Fri Apr  9 13:13:17 2010 by mtchandl
+# Arguments:  -R293.9/304.75/-64.85/-54 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02350005-depth-01: RLS m: 0.998953 b: 0 rms: 17.9948 r: 0.999865 sig: 1 dec: 0
+N-E-02350005-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+# Errata: Data
+?	02350005	1989-04-22T11:25:00.00	816	0-0-K	 GRAD: twt excessive
+?	02350005	1989-04-22T12:10:00.00	825	0-0-KL	 GRAD: twt, depth excessive
+?	02350005	1989-04-27T06:25:00.00	2174	0-0-K	 GRAD: twt excessive
+?	02350005	1989-05-09T22:50:00.00	5775	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,33 @@
+# Cruise 67010112 ID 82000311 MGD77 FILE VERSION: 19850725 N_RECS: 22429
+# Examined: Fri Jul 29 16:52:52 2011 by mtchandl
+# Arguments:  -R5.8/14/39.4/43.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry offset at end of cruise, recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010112-depth-01: RLS m: 1.00245 b: 0 rms: 41.8777 r: 0.998067 sig: 1 dec: 0
+N-E-67010112-depth-02: Regression slope 1.00245 different from 1. Recommended: [1]
+Y-E-67010112-depth-10: Invalid data records: [220169-22415]
+Y-E-67010112-mag-07: Anomaly differs from mtf1-IGRF (m: 0.980805 b: -40.1341 rms: 42.7247 r: 0.995723 sig: 1 dec: 1). [Recompute]
+Y-W-67010112-depth-12: Integer precision
+Y-W-67010112-mtf1-12: Integer precision
+# Errata: Data
+?	67010112	1982-02-10T19:03:30.00	16	0-0-T	 GRAD: msd excessive
+?	67010112	1982-02-10T19:55:00.00	119	0-0-L	 GRAD: depth excessive
+?	67010112	1982-02-14T21:16:00.00	10807	0-0-O	 GRAD: mtf1 excessive
+?	67010112	1982-02-14T21:16:30.00	10808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T21:17:00.00	10809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T21:17:30.00	10810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T21:18:00.00	10811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T21:18:30.00	10812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T22:50:00.00	10992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T22:51:00.00	10994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T22:52:00.00	10996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-14T23:07:30.00	11027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010112	1982-02-17T15:47:30.00	18446	0-0-L	 GRAD: depth excessive
+?	67010112	1982-02-17T15:51:00.00	18453	0-0-L	 GRAD: depth excessive
+?	67010112	1982-02-17T19:06:30.00	18827	0-0-L	 GRAD: depth excessive
+?	67010112	1982-02-17T19:07:30.00	18829	0-0-L	 GRAD: depth excessive
+?	67010112	1982-02-18T01:09:30.00	19521	0-0-L	 GRAD: depth excessive

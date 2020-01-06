@@ -1,0 +1,16 @@
+# Cruise 19480002 ID 19920005 MGD77 FILE VERSION: 19931231 N_RECS: 850
+# Examined: Mon Oct 18 15:23:17 2010 by mtchandl
+# Arguments:  -R101.7/106.9/-0.4/10.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19480002-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-19480002-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-W-19480002-H13-10: Survey year (1990) outside magnetic reference field Unused time range (9999-9999)
+Y-E-19480002-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-I-19480002-depth-01: RLS m: 1.0035 b: 0 rms: 1.17786 r: 0.993364 sig: 1 dec: 0
+Y-W-19480002-depth-12: Integer precision
+# Errata: Data

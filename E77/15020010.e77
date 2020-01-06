@@ -1,0 +1,29 @@
+# Cruise 15020010 ID ANTP13MV MGD77 FILE VERSION: 19830818 N_RECS: 6170
+# Examined: Wed May 14 08:28:24 2008 by mtchandl
+# Arguments:  -R103.95/144.5/1.25/17.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-W-15020010-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020010-depth-01: RLS m: 1.00388 b: 0 rms: 113.304 r: 0.998414 sign: 1 dec: 1
+Y-E-15020010-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.10465 b: -44.9109 rms: 82.7458 r: 0.917015 sig: 1 dec: 1). [Recompute]
+N-E-15020010-depth-08: Extended offset from grid [3466-3503]
+Y-E-15020010-twt-13: Encountered possible PDR wrap errors (9.7) [10.0]
+Y-W-15020010-twt-11: More recent bathymetry correction table available
+Y-W-15020010-mtf1-12: Integer multiple of 5 precision
+Y-W-15020010-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020010	1971-06-25T12:56:00.00	103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-06-25T13:01:00.00	105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-06-25T13:41:00.00	121	0-0-O	 GRAD: mtf1 excessive
+?	15020010	1971-06-25T15:36:00.00	161	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-06-25T15:41:00.00	163	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-06-26T02:24:00.00	382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-06-26T02:34:00.00	386	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-07-01T08:22:00.00	2283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020010	1971-07-05T01:40:00.00	3469	0-0-KL	 GRAD: twt, depth excessive
+?	15020010	1971-07-05T04:20:00.00	3501	0-0-KL	 GRAD: twt, depth excessive
+?	15020010	1971-07-12T04:40:00.00	5133	0-0-K	 GRAD: twt excessive

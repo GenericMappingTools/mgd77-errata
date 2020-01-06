@@ -1,0 +1,48 @@
+# Cruise 01010023 ID RC0905 MGD77 FILE VERSION: 19790619 N_RECS: 14775
+# Examined: Thu Jun 26 13:02:40 2008 by mtchandl
+# Arguments:  -R174.8/289.5/-43.6/-20 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, possible Potsdam offset.
+# Errata: Header
+Y-E-01010023-H16-01: Invalid Number of Ten Degree Identifiers: (18) [17]
+Y-W-01010023-H16-06: Ten Degree Identifier 5318 marked in header but was not crossed
+Y-I-01010023-depth-01: RLS m: 0.995777 b: 0 rms: 183.353 r: 0.993639 sig: 1 dec: 1
+Y-I-01010023-faa-01: RLS m: 0.940288 b: -8.1593 rms: 18.9921 r: 0.971629 sig: 1 dec: 1
+N-E-01010023-faa-02: Regression slope 0.940288 different from 1. Recommended: [1]
+Y-W-01010023-faa-03: Regression offset -8.1593 different from 0.
+Y-E-01010023-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.999648 b: -44.9592 rms: 79.2879 r: 0.936564 sig: 1 dec: 1). [Recompute]
+Y-W-01010023-twt-11: More recent bathymetry correction table available
+Y-W-01010023-mtf1-12: Integer precision
+Y-W-01010023-mag-12: Integer precision
+# Errata: Data
+?	01010023	1965-02-12T15:45:00.00	241	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-13T04:15:00.00	435	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-14T05:34:00.00	984	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-14T06:00:00.00	994	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-17T07:52:00.00	2365	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-23T09:45:00.00	5419	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-02-23T11:14:00.00	5454	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-23T11:59:00.00	5473	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-02-24T18:28:00.00	6096	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-02-24T18:30:00.00	6097	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-02-25T15:19:00.00	6628	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-25T18:55:00.00	6739	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-25T19:51:00.00	6770	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-26T09:34:00.00	7087	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-02-26T10:36:00.00	7113	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-26T18:01:00.00	7348	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-27T13:42:00.00	7681	0-0-K	 GRAD: twt excessive
+?	01010023	1965-02-28T14:00:00.00	8163	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-01T01:29:00.00	8351	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-01T22:35:00.00	8773	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-05T08:18:00.00	10185	0-0-KL	 GRAD: twt, depth excessive
+?	01010023	1965-03-05T08:26:00.00	10188	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-06T20:51:00.00	10854	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-08T03:00:00.00	11309	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-08T03:01:00.00	11310	0-0-K	 GRAD: twt excessive
+?	01010023	1965-03-08T03:45:00.00	11324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010023	1965-03-08T07:30:00.00	11346	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	01010023	1965-03-09T17:16:00.00	11903	0-0-KL	 GRAD: twt, depth excessive

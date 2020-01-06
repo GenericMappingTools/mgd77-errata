@@ -1,0 +1,32 @@
+# Cruise 02020053 ID A2075L03 MGD77 FILE VERSION: 19820805 N_RECS: 9869
+# Examined: Fri Mar 26 21:38:44 2010 by mtchandl
+# Arguments:  -R-10.7/9.9/-5.55/6.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-I-02020053-depth-01: RLS m: 0.999613 b: 0 rms: 18.2269 r: 0.999927 sig: 1 dec: 0
+N-E-02020053-depth-02: Regression slope 0.999613 different from 1. Recommended: [1]
+Y-I-02020053-faa-01: RLS m: 1.00206 b: -3.62581 rms: 5.31861 r: 0.98479 sig: 1 dec: 0
+Y-W-02020053-faa-03: Regression offset -3.62581 different from 0.
+N-E-02020053-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020053-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.215761 b: -6.17083 rms: 43.0022 r: 0.622704 sig: 1 dec: 0). [Recompute]
+N-E-02020053-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999984 b: 0.00176152 rms: 0.0406396 r: 0.999998 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-02020053-mag-07: Anomaly differs from mtf1-IGRF (m: 0.942512 b: 2.27754 rms: 66.9947 r: 0.925901 sig: 1 dec: 1). [Recompute]
+Y-W-02020053-twt-11: More recent bathymetry correction table available
+Y-W-02020053-mtf1-12: Integer precision
+Y-W-02020053-mag-12: Integer precision
+# Errata: Data
+?	02020053	1973-03-25T00:40:00.00	5157	0-0-KL	 GRAD: twt, depth excessive
+?	02020053	1973-03-29T06:58:00.00	6891	0-0-K	 GRAD: twt excessive
+?	02020053	1973-04-01T08:32:00.00	8282	0-0-V	 GRAD: eot excessive
+?	02020053	1973-04-01T08:33:00.00	8283	0-0-V	 GRAD: eot excessive
+?	02020053	1973-04-01T08:52:00.00	8302	0-0-V	 GRAD: eot excessive
+?	02020053	1973-04-01T09:12:00.00	8322	0-0-V	 GRAD: eot excessive
+?	02020053	1973-04-01T09:32:00.00	8342	0-0-OQV	 GRAD: mtf1, mag, eot excessive
+?	02020053	1973-04-02T01:50:00.00	8830	0-0-K	 GRAD: twt excessive
+?	02020053	1973-04-02T09:26:00.00	9012	0-0-K	 GRAD: twt excessive
+?	02020053	1973-04-02T09:31:00.00	9015	0-0-K	 GRAD: twt excessive
+?	02020053	1973-04-03T22:00:00.00	9663	0-0-OQV	 GRAD: mtf1, mag, eot excessive

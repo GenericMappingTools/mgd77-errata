@@ -1,0 +1,28 @@
+# Cruise 20010034 ID TN050 MGD77 FILE VERSION: 19960418 N_RECS: 15436
+# Examined: Tue Oct 19 14:50:46 2010 by mtchandl
+# Arguments:  -R57.3/68.8/9.85/23.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-20010034-H04-03: Invalid Survey Departure Day: (17) [18]
+Y-I-20010034-depth-01: RLS m: 1.00063 b: 0 rms: 5.95328 r: 0.999979 sig: 1 dec: 0
+N-E-20010034-depth-02: Regression slope 1.00063 different from 1. Recommended: [1]
+# Errata: Data
+?	20010034	1995-08-18T06:21:00.00	58	0-0-K	 GRAD: twt excessive
+?	20010034	1995-08-18T06:39:00.00	76	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-08-18T06:40:00.00	77	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-08-18T13:10:00.00	395	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-08-18T13:31:00.00	416	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-08-22T23:15:00.00	2953	0-0-K	 GRAD: twt excessive
+?	20010034	1995-09-13T22:54:00.00	13972	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-14T00:33:00.00	14071	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-14T00:34:00.00	14072	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-14T04:09:00.00	14287	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-14T04:15:00.00	14293	0-0-K	 GRAD: twt excessive
+?	20010034	1995-09-14T21:00:00.00	15176	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-14T22:20:00.00	15255	0-0-KL	 GRAD: twt, depth excessive
+?	20010034	1995-09-15T00:40:00.00	15395	0-0-K	 GRAD: twt excessive
+?	20010034	1995-09-15T01:00:00.00	15415	0-0-KL	 GRAD: twt, depth excessive

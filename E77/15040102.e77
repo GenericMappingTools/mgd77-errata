@@ -1,0 +1,20 @@
+# Cruise 15040102 ID MARA09WT MGD77 FILE VERSION: 19830819 N_RECS: 10823
+# Examined: Fri May 23 10:03:13 2008 by mtchandl
+# Arguments:  -R107.45/144.7/-8.2/13.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040102-depth-01: RLS m: 1 b: 0 rms: 148.852 r: 0.99735 sig: 1 dec: 1
+Y-E-15040102-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.990732 b: 99.5532 rms: 101.226 r: 0.996385 sig: 1 dec: 1). [Recompute]
+Y-W-15040102-twt-11: More recent bathymetry correction table available
+Y-W-15040102-mtf1-12: Integer precision
+Y-W-15040102-mag-12: Integer precision
+# Errata: Data
+?	15040102	1979-01-20T11:20:00.00	4707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040102	1979-01-20T12:05:00.00	4716	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040102	1979-01-21T12:35:00.00	5010	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040102	1979-02-06T19:45:00.00	9704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040102	1979-02-06T19:50:00.00	9705	0-0-OQ	 GRAD: mtf1, mag excessive

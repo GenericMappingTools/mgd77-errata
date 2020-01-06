@@ -1,0 +1,39 @@
+# Cruise 77010006 ID ME14 MGD77 FILE VERSION: 19800201 N_RECS: 3327
+# Examined: Wed Aug  3 07:06:04 2011 by mtchandl
+# Arguments:  -R-13.9/7.2/54.25/64.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-77010006-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-77010006-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-77010006-nav-00: Flagged 0.57 % of records with bad navigation
+Y-I-77010006-depth-01: RLS m: 1.00171 b: 0 rms: 7.74528 r: 0.999828 sig: 1 dec: 0
+N-E-77010006-depth-02: Regression slope 1.00171 different from 1. Recommended: [1]
+Y-I-77010006-faa-01: RLS m: 0.991815 b: -0.537265 rms: 3.23102 r: 0.988387 sig: 1 dec: 0
+N-E-77010006-faa-02: Regression slope 0.991815 different from 1. Recommended: [1]
+Y-W-77010006-faa-03: Regression offset -0.537265 different from 0.
+Y-I-77010006-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-77010006-depth-12: Integer precision
+# Errata: Data
+Y	77010006	1968-07-04T13:00:00.00	232	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-04T15:00:00.00	245	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-06T08:00:00.00	470	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-06T08:10:00.00	472	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-06T09:50:00.00	483	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-06T10:00:00.00	485	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-08T18:30:00.00	647	C-0-0	 NAV: excessive speed
+Y	77010006	1968-07-08T18:30:00.00	648	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-08T20:20:00.00	659	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T05:40:00.00	710	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T07:20:00.00	719	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T16:00:00.00	755	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T17:00:00.00	762	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T18:20:00.00	771	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-09T20:40:00.00	786	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-10T03:40:00.00	827	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-11T11:40:00.00	856	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-12T16:00:00.00	995	B-0-0	 NAV: non-increasing time
+Y	77010006	1968-07-12T18:00:00.00	1008	B-0-0	 NAV: non-increasing time

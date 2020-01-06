@@ -1,0 +1,28 @@
+# Cruise 24050017 ID GA-0076 MGD77 FILE VERSION: 20080516 N_RECS: 34703
+# Examined: Mon Feb 14 19:36:27 2011 by mtchandl
+# Arguments:  -R146.8/153.9/-22.55/-17.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050017-H04-03: Invalid Survey Departure Day: (31) [30]
+N-E-24050017-H04-06: Invalid Survey Arrival Day: (24) [23]
+N-E-24050017-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050017-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050017-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050017-H16-06: Ten Degree Identifier 3114 not marked in header but block was crossed
+Y-W-24050017-H16-06: Ten Degree Identifier 3115 not marked in header but block was crossed
+Y-W-24050017-H16-06: Ten Degree Identifier 3215 not marked in header but block was crossed
+Y-W-24050017-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-24050017-depth-01: RLS m: 0.997368 b: 0 rms: 39.6522 r: 0.99753 sig: 1 dec: 0
+N-E-24050017-depth-02: Regression slope 0.997368 different from 1. Recommended: [1]
+Y-W-24050017-depth-12: Integer precision
+Y-W-24050017-mtf1-12: Integer precision
+# Errata: Data
+?	24050017	1987-11-06T19:53:00.00	10870	0-0-K	 GRAD: twt excessive
+?	24050017	1987-11-08T20:18:00.00	13775	0-0-O	 GRAD: mtf1 excessive
+?	24050017	1987-11-08T20:20:00.00	13777	0-0-O	 GRAD: mtf1 excessive
+Y	24050017	1987-11-23T09:04:00.00	34701	B-0-0	 NAV: non-increasing time
+Y	24050017	1987-11-23T09:04:00.00	34702	B-0-0	 NAV: non-increasing time

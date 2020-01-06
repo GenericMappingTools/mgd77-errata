@@ -1,0 +1,15 @@
+# Cruise 06120014 ID K179AR MGD77 FILE VERSION: 19880219 N_RECS: 2424
+# Examined: Fri May 28 15:13:29 2010 by mtchandl
+# Arguments:  -R209.3/214.05/70.15/70.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-06120014-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-06120014-depth-01: RLS m: 0.960978 b: 0 rms: 1.62192 r: 0.868954 sig: 1 dec: 0
+Y-W-06120014-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06120014	1979-08-10T11:41:00.00	1423	C-0-0	 NAV: excessive speed
+Y	06120014	1979-08-15T13:58:00.00	2050	C-0-0	 NAV: excessive speed

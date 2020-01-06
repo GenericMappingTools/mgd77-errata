@@ -1,0 +1,23 @@
+# Cruise 15010067 ID SWAN-1AR MGD77 FILE VERSION: 19800226 N_RECS: 12926
+# Examined: Tue May 13 09:20:35 2008 by mtchandl
+# Arguments:  -R203.05/278.7/-5.2/31.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010067-H04-03: Invalid Survey Departure Day: (03) [05]
+Y-W-15010067-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-15010067-depth-01: RLS m: 1 b: 0 rms: 210.764 r: 0.987739 sign: 1 dec: 1
+Y-E-15010067-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.928405 b: -14.4565 rms: 48.2018 r: 0.974624 sig: 1 dec: 1). [Recompute]
+Y-W-15010067-mtf1-12: Integer multiple of 5 precision
+Y-W-15010067-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010067	1961-10-07T01:40:00.00	5186	C-0-0	 NAV: excessive speed
+Y	15010067	1961-10-28T21:00:00.00	8684	D-0-0	 NAV: on land
+Y	15010067	1961-10-28T21:06:00.00	8685	D-0-0	 NAV: on land
+Y	15010067	1961-10-28T21:12:00.00	8686	D-0-0	 NAV: on land
+Y	15010067	1961-10-28T21:18:00.00	8687	D-0-0	 NAV: on land
+Y	15010067	1961-11-17T15:48:00.00	10401	D-0-0	 NAV: on land
+Y	15010067	1961-11-17T15:54:00.00	10402	D-0-0	 NAV: on land

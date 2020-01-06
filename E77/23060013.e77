@@ -1,0 +1,20 @@
+# Cruise 23060013 ID ODP110JR MGD77 FILE VERSION: 19871208 N_RECS: 2023
+# Examined: Tue Oct 19 15:09:14 2010 by mtchandl
+# Arguments:  -R300.25/301.45/13.05/15.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Magnetic regression statistics invalid, insufficient data range?
+# Errata: Header
+Y-W-23060013-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-23060013-depth-01: RLS m: 0.996457 b: 0 rms: 46.7219 r: 0.999371 sig: 1 dec: 0
+N-E-23060013-depth-02: Regression slope 0.996457 different from 1. Recommended: [1]
+Y-E-23060013-mag-07: Anomaly differs from mtf1-IGRF (m: 0.461378 b: -80.5655 rms: 123.195 r: 0.750989 sig: 1 dec: 1). [Recompute]
+Y-W-23060013-twt-11: More recent bathymetry correction table available
+Y-W-23060013-depth-12: Integer precision
+Y-W-23060013-mtf1-12: Integer precision
+# Errata: Data
+?	23060013	1986-08-03T12:55:00.00	868	0-0-KL	 GRAD: twt, depth excessive
+Y	23060013	1986-08-16T16:54:00.00	2022	D-0-0	 NAV: on land
+?	23060013	1986-08-16T23:26:00.00	2023	D-0-0	 NAV: on land

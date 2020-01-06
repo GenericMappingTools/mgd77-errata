@@ -1,0 +1,35 @@
+# Cruise 20010035 ID TN056 MGD77 FILE VERSION: 19961015 N_RECS: 9855
+# Examined: Tue Oct 19 14:51:13 2010 by mtchandl
+# Arguments:  -R21.45/54.5/-35.25/-5.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-20010035-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-20010035-depth-01: RLS m: 1.00052 b: 0 rms: 6.1003 r: 0.999994 sig: 1 dec: 0
+N-E-20010035-depth-02: Regression slope 1.00052 different from 1. Recommended: [1]
+# Errata: Data
+?	20010035	1996-01-19T00:25:00.00	603	0-0-K	 GRAD: twt excessive
+?	20010035	1996-01-19T19:41:00.00	1707	0-0-K	 GRAD: twt excessive
+Y	20010035	1996-01-21T20:05:00.00	3958	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-21T20:06:00.00	3959	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-21T20:07:00.00	3960	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-21T20:08:00.00	3961	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-22T09:14:00.00	4140	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-24T16:34:00.00	7280	C-0-0	 NAV: excessive speed
+?	20010035	1996-01-25T02:08:00.00	7828	0-0-K	 GRAD: twt excessive
+Y	20010035	1996-01-25T08:47:00.00	8227	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T09:11:00.00	8251	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T09:18:00.00	8258	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T12:52:00.00	8432	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T13:21:00.00	8461	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:22:00.00	8522	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:29:00.00	8529	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:36:00.00	8536	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:39:00.00	8539	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:41:00.00	8541	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:52:00.00	8552	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T14:57:00.00	8557	C-0-0	 NAV: excessive speed
+Y	20010035	1996-01-25T15:01:00.00	8561	C-0-0	 NAV: excessive speed

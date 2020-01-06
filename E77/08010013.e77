@@ -1,0 +1,48 @@
+# Cruise 08010013 ID 71042603 MGD77 FILE VERSION: 19830518 N_RECS: 8006
+# Examined: Fri Jul 10 17:55:20 2009 by mtchandl
+# Arguments:  -R174.4/187.55/-41.8/-18.1 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-08010013-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010013-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010013-nav-00: Flagged 0.07 % of records with excessive speed or invalid navigation
+Y-I-08010013-depth-01: RLS m: 1 b: 0 rms: 4.55785 r: 0.999998 sig: 1 dec: 0
+Y-E-08010013-mag-07: Anomaly differs from mtf1-IGRF (m: 0.957964 b: -76.0302 rms: 93.2304 r: 0.956572 sig: 1 dec: 1). [Recompute]
+N-E-08010013-depth-08: Extended offset from grid [54-8006]
+Y-W-08010013-twt-11: More recent bathymetry correction table available
+Y-W-08010013-mtf1-12: Integer precision
+Y-W-08010013-mag-12: Integer precision
+# Errata: Data
+Y	08010013	1971-07-20T05:06:00.00	4	D-0-0	 NAV: on land
+?	08010013	1971-08-04T17:37:30.00	703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:39:00.00	705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:39:30.00	706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:40:00.00	708	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:40:30.00	709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:41:00.00	710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:41:30.00	711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:43:00.00	713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:43:30.00	714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-04T17:54:00.00	725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T07:27:00.00	3141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T07:28:30.00	3142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T07:40:00.00	3150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T07:41:30.00	3152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T08:23:30.00	3172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-11T12:07:00.00	3301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-18T00:17:00.00	5502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-18T22:41:00.00	5941	0-0-KL	 GRAD: twt, depth excessive
+?	08010013	1971-08-19T00:49:30.00	5987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-19T00:51:00.00	5989	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-23T10:56:30.00	7548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-23T10:57:00.00	7549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010013	1971-08-23T10:57:30.00	7550	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010013	1971-08-24T19:14:00.00	8002	D-0-0	 NAV: on land
+Y	08010013	1971-08-24T19:15:00.00	8003	D-0-0	 NAV: on land
+Y	08010013	1971-08-24T19:30:00.00	8004	D-0-0	 NAV: on land
+Y	08010013	1971-08-24T19:45:00.00	8005	D-0-0	 NAV: on land
+Y	08010013	1971-08-24T19:54:00.00	8006	D-0-0	 NAV: on land

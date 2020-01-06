@@ -1,0 +1,29 @@
+# Cruise 01010088 ID RC1313 MGD77 FILE VERSION: 19790619 N_RECS: 11131
+# Examined: Mon Jul  6 14:17:54 2009 by mtchandl
+# Arguments:  -R-9/19.3/-37.6/-14.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010088-depth-01: RLS m: 1 b: 0 rms: 3.27473 r: 0.999999 sig: 1 dec: 0
+Y-I-01010088-faa-01: RLS m: 1.04287 b: -6.78897 rms: 10.2196 r: 0.98783 sig: 1 dec: 1
+N-E-01010088-faa-02: Regression slope 1.04287 different from 1. Recommended: [1]
+Y-W-01010088-faa-03: Regression offset -6.78897 different from 0.
+Y-E-01010088-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995315 b: 24.3874 rms: 59.0688 r: 0.974505 sig: 1 dec: 1). [Recompute]
+N-E-01010088-depth-08: Extended offset from grid [4-11131]
+Y-W-01010088-twt-11: More recent bathymetry correction table available
+Y-W-01010088-mtf1-12: Integer precision
+Y-W-01010088-mag-12: Integer precision
+# Errata: Data
+?	01010088	1970-10-03T14:50:00.00	17	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-03T15:20:00.00	27	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T13:46:00.00	727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T13:49:00.00	729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T13:55:00.00	733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T14:25:00.00	747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T15:20:00.00	769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-05T15:41:00.00	776	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-17T12:40:00.00	4890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010088	1970-10-17T12:45:00.00	4892	0-0-OQ	 GRAD: mtf1, mag excessive

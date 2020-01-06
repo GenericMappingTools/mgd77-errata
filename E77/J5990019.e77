@@ -1,0 +1,277 @@
+# Cruise J5990019 ID JD06 MGD77 FILE VERSION: 19860213 N_RECS: 2160
+# Examined: Mon Aug  8 15:56:49 2011 by mtchandl
+# Arguments:  -R141.85/149.45/37.05/43.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-J5990019-H12-01: Invalid Bathymetry Digitizing Rate: (506) [506]
+Y-W-J5990019-nav-00: Flagged 10.46 % of records with bad navigation
+Y-I-J5990019-depth-01: RLS m: 0.99864 b: 0 rms: 48.5329 r: 0.999735 sig: 1 dec: 0
+Y-E-J5990019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00004 b: 68.7893 rms: 68.8168 r: 0.999943 sig: 1 dec: 0). [Recompute]
+Y-W-J5990019-depth-12: Integer precision
+Y-W-J5990019-mtf1-12: Integer precision
+Y-W-J5990019-mag-12: Integer precision
+# Errata: Data
+?	J5990019	1963-05-12T00:54:00.00	13	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T02:30:00.00	20	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T02:38:00.00	22	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T02:42:00.00	23	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T02:46:00.00	24	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T02:50:00.00	25	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5990019	1963-05-12T08:12:00.00	35	B-0-0	 NAV: non-increasing time
+?	J5990019	1963-05-12T09:32:00.00	43	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T09:36:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-12T13:04:00.00	61	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-13T01:00:00.00	127	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J5990019	1963-05-13T01:06:00.00	128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-13T13:20:00.00	189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-15T17:12:00.00	219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-15T17:16:00.00	220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-16T04:40:00.00	231	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	J5990019	1963-05-16T04:44:00.00	232	0-Q-0	 VAL: mag invalid
+?	J5990019	1963-05-16T23:39:00.00	271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-17T00:18:00.00	274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-21T05:58:00.00	476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-22T01:04:00.00	498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-22T01:10:00.00	501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-26T13:08:00.00	787	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-05-26T13:10:00.00	788	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5990019	1963-05-26T23:04:00.00	827	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:08:00.00	828	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:10:00.00	829	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:14:00.00	830	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:46:00.00	831	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:50:00.00	832	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:52:00.00	833	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:54:00.00	834	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-26T23:58:00.00	835	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:00:00.00	836	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:00:00.00	837	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T00:04:00.00	838	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:04:00.00	839	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T00:08:00.00	840	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:08:00.00	841	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T00:10:00.00	842	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:10:00.00	843	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T00:12:00.00	844	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T00:12:00.00	845	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:00:00.00	851	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:04:00.00	853	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:08:00.00	855	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:10:00.00	857	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:14:00.00	859	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:18:00.00	861	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:20:00.00	863	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T01:26:00.00	865	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T02:32:00.00	871	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T02:40:00.00	873	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T02:48:00.00	875	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T02:50:00.00	877	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T02:52:00.00	879	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T03:00:00.00	881	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T03:02:00.00	882	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:02:00.00	883	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T03:06:00.00	884	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:06:00.00	885	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T03:12:00.00	886	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:14:00.00	887	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:50:00.00	888	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:52:00.00	889	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:58:00.00	890	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-05-27T03:58:00.00	891	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T07:38:00.00	893	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T07:42:00.00	895	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T07:44:00.00	897	B-0-0	 NAV: non-increasing time
+?	J5990019	1963-05-27T07:46:00.00	898	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5990019	1963-05-27T07:46:00.00	899	B-0-0	 NAV: non-increasing time
+?	J5990019	1963-05-27T07:48:00.00	900	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5990019	1963-05-27T07:48:00.00	901	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:32:00.00	907	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:34:00.00	909	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:38:00.00	911	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:40:00.00	913	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:44:00.00	915	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:46:00.00	917	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:50:00.00	919	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T08:54:00.00	921	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:24:00.00	927	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:26:00.00	929	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:30:00.00	931	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:32:00.00	933	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:34:00.00	935	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:36:00.00	937	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:38:00.00	939	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T09:40:00.00	941	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:24:00.00	947	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:26:00.00	949	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:28:00.00	951	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:30:00.00	953	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:32:00.00	955	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:34:00.00	957	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:36:00.00	959	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T10:38:00.00	961	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:08:00.00	966	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:10:00.00	968	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:12:00.00	970	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:14:00.00	972	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:16:00.00	974	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:18:00.00	976	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:20:00.00	978	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:22:00.00	980	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:24:00.00	982	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:48:00.00	986	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:50:00.00	988	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:52:00.00	990	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T11:54:00.00	992	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:00:00.00	994	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:02:00.00	996	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:04:00.00	998	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:06:00.00	1000	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:08:00.00	1002	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:10:00.00	1004	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-05-27T14:12:00.00	1006	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:26:00.00	1103	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:30:00.00	1105	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:34:00.00	1107	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:50:00.00	1109	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:54:00.00	1111	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T00:58:00.00	1113	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:00:00.00	1115	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:40:00.00	1121	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:44:00.00	1123	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:48:00.00	1125	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:50:00.00	1127	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:54:00.00	1129	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:56:00.00	1131	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T20:58:00.00	1133	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T21:00:00.00	1135	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T21:48:00.00	1141	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T21:50:00.00	1143	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T21:54:00.00	1145	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T21:56:00.00	1147	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T22:00:00.00	1149	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T22:02:00.00	1151	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T22:06:00.00	1153	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T22:10:00.00	1155	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:10:00.00	1161	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:14:00.00	1163	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:16:00.00	1165	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:20:00.00	1167	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:22:00.00	1169	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:28:00.00	1171	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:34:00.00	1173	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-06T23:40:00.00	1175	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T01:00:00.00	1179	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T01:02:00.00	1181	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T01:46:00.00	1187	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T01:48:00.00	1189	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T01:54:00.00	1191	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T02:00:00.00	1193	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T02:04:00.00	1195	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T02:06:00.00	1197	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T02:12:00.00	1199	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T02:14:00.00	1201	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:04:00.00	1207	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:08:00.00	1209	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:10:00.00	1211	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:16:00.00	1213	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:20:00.00	1215	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:22:00.00	1217	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:30:00.00	1219	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T03:40:00.00	1221	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:28:00.00	1227	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:30:00.00	1229	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:34:00.00	1231	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:38:00.00	1233	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:40:00.00	1235	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:42:00.00	1237	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:44:00.00	1239	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T04:46:00.00	1241	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:36:00.00	1247	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:40:00.00	1249	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:44:00.00	1251	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:48:00.00	1253	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:52:00.00	1255	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T05:56:00.00	1257	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T06:00:00.00	1259	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-07T06:04:00.00	1261	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T03:54:00.00	1267	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T03:56:00.00	1269	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:00:00.00	1271	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:02:00.00	1273	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:08:00.00	1275	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:10:00.00	1277	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:12:00.00	1279	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T04:16:00.00	1281	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:00:00.00	1287	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:08:00.00	1289	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:14:00.00	1291	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:18:00.00	1293	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:22:00.00	1295	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:26:00.00	1297	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:32:00.00	1299	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T05:36:00.00	1301	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:20:00.00	1307	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:22:00.00	1309	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:24:00.00	1311	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:28:00.00	1313	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:34:00.00	1315	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:40:00.00	1317	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:44:00.00	1319	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T06:48:00.00	1321	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T07:42:00.00	1327	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T07:44:00.00	1329	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T07:48:00.00	1331	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T07:50:00.00	1333	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-08T07:52:00.00	1335	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-11T13:00:00.00	1461	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:02:00.00	1462	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:04:00.00	1463	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:28:00.00	1464	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:30:00.00	1465	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:32:00.00	1466	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:34:00.00	1467	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:36:00.00	1468	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:40:00.00	1469	C-0-0	 NAV: excessive speed
+Y	J5990019	1963-06-11T13:44:00.00	1472	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-11T14:16:00.00	1478	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-12T13:32:00.00	1576	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-12T13:34:00.00	1578	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-12T13:36:00.00	1580	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-12T13:38:00.00	1582	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-12T14:44:00.00	1587	B-0-0	 NAV: non-increasing time
+?	J5990019	1963-06-14T18:06:00.00	1616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-14T18:08:00.00	1617	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-15T12:38:00.00	1644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-15T12:48:00.00	1649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-15T12:50:00.00	1650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-18T20:20:00.00	1828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-19T03:00:00.00	1903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-20T00:08:00.00	1972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J5990019	1963-06-20T00:10:00.00	1973	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J5990019	1963-06-27T12:00:00.00	2110	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:02:00.00	2112	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:04:00.00	2114	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:08:00.00	2116	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:10:00.00	2118	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:36:00.00	2122	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:38:00.00	2124	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:40:00.00	2126	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:42:00.00	2128	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:44:00.00	2130	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:46:00.00	2132	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:48:00.00	2134	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:50:00.00	2136	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T12:52:00.00	2138	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:16:00.00	2142	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:18:00.00	2144	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:20:00.00	2146	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:22:00.00	2148	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:24:00.00	2150	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:28:00.00	2152	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:30:00.00	2154	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:32:00.00	2156	B-0-0	 NAV: non-increasing time
+Y	J5990019	1963-06-27T13:36:00.00	2158	B-0-0	 NAV: non-increasing time

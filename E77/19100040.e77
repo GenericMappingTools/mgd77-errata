@@ -1,0 +1,15 @@
+# Cruise 19100040 ID DI187 MGD77 FILE VERSION: 19931231 N_RECS: 17486
+# Examined: Mon Sep  6 13:38:18 2010 by mtchandl
+# Arguments:  -R345.15/349.7/32.45/41.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100040-H13-10: Survey year (1989) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-19100040-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19100040-depth-01: RLS m: 1.00035 b: 0 rms: 4.12592 r: 0.999962 sig: 1 dec: 0
+Y-W-19100040-depth-12: Integer precision
+# Errata: Data
+Y	19100040	1989-11-14T00:08:00.00	14911	C-0-0	 NAV: excessive speed

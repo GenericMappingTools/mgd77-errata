@@ -1,0 +1,29 @@
+# Cruise 01030152 ID V2905 MGD77 FILE VERSION: 19790919 N_RECS: 7371
+# Examined: Fri Jul 10 12:14:26 2009 by mtchandl
+# Arguments:  -R1.4/20.5/-53.2/-33.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-230 nT offset from recomputed mag. ~57 mGal offset from satellite faa.
+# Errata: Header
+Y-E-01030152-H04-02: Invalid Survey Departure Month: (04) [03]
+Y-W-01030152-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030152-depth-01: RLS m: 0.999651 b: 0 rms: 9.84773 r: 0.99999 sig: 1 dec: 0
+N-E-01030152-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030152-faa-01: RLS m: 0.95035 b: 45.945 rms: 51.0588 r: 0.812855 sig: 1 dec: 1
+Y-W-01030152-faa-03: Regression offset 45.945 different from 0.
+Y-E-01030152-mag-07: Anomaly differs from mtf1-IGRF (m: 0.854149 b: -227.124 rms: 246.158 r: 0.894589 sig: 1 dec: 1). [Recompute]
+N-E-01030152-faa-08: Extended offset from grid [1468-3680]
+N-E-01030152-faa-08: Extended offset from grid [4555-6696]
+N-E-01030152-depth-08: Extended offset from grid [5-7371]
+Y-W-01030152-twt-11: More recent bathymetry correction table available
+Y-W-01030152-mtf1-12: Integer precision
+Y-W-01030152-mag-12: Integer precision
+# Errata: Data
+?	01030152	1972-03-24T21:12:00.00	983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030152	1972-03-24T22:06:00.00	995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030152	1972-03-26T09:30:00.00	1405	0-0-KL	 GRAD: twt, depth excessive
+?	01030152	1972-03-26T13:48:00.00	1468	0-0-KL	 GRAD: twt, depth excessive
+?	01030152	1972-03-26T14:24:00.00	1478	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030152	1972-04-07T22:24:00.00	4904	0-0-OQ	 GRAD: mtf1, mag excessive

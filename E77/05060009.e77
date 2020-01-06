@@ -1,0 +1,20 @@
+# Cruise 05060009 ID TA6702 MGD77 FILE VERSION: 19840921 N_RECS: 1962
+# Examined: Fri Apr 30 13:41:48 2010 by mtchandl
+# Arguments:  -R164.5/174.45/-41/-35.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060009-H13-09: Unknown IGRF specified (DGRF-65)
+Y-W-05060009-nav-00: Flagged 0.05 % of records with bad navigation
+Y-E-05060009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999911 b: -14.1073 rms: 17.6906 r: 0.999332 sig: 1 dec: 1). [Recompute]
+Y-W-05060009-mtf1-12: Integer precision
+Y-W-05060009-mag-12: Integer precision
+# Errata: Data
+?	05060009	1967-03-04T19:37:00.00	627	0-Q-0	 VAL: mag invalid
+?	05060009	1967-03-04T19:45:00.00	628	0-Q-0	 VAL: mag invalid
+?	05060009	1967-03-04T19:53:00.00	629	0-Q-0	 VAL: mag invalid
+?	05060009	1967-03-04T20:38:00.00	635	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05060009	1967-03-11T19:31:00.00	1726	C-0-0	 NAV: excessive speed

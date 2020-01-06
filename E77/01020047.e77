@@ -1,0 +1,19 @@
+# Cruise 01020047 ID ELT45 MGD77 FILE VERSION: 19790205 N_RECS: 16304
+# Examined: Wed Jul  8 21:40:12 2009 by mtchandl
+# Arguments:  -R99.9/115.25/-61.4/-29.1 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Again ship and satellite gravity tend to disagree more as the ship moves closer to the South Pole.
+# Errata: Header
+Y-I-01020047-depth-01: RLS m: 1.0035 b: 0 rms: 116.986 r: 0.997485 sig: 1 dec: 1
+Y-I-01020047-faa-01: RLS m: 1.03091 b: 4.93921 rms: 13.2244 r: 0.969562 sig: 1 dec: 1
+Y-W-01020047-faa-03: Regression offset 4.93921 different from 0.
+Y-E-01020047-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972992 b: -201.198 rms: 209.331 r: 0.948918 sig: 1 dec: 0). [Recompute]
+N-E-01020047-depth-08: Extended offset from grid [5-16304]
+Y-W-01020047-twt-11: More recent bathymetry correction table available
+Y-W-01020047-mtf1-12: Integer precision
+Y-W-01020047-mag-12: Integer precision
+# Errata: Data
+?	01020047	1970-10-03T06:08:00.00	7809	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,105 @@
+# Cruise J4010002 ID KH6705 MGD77 FILE VERSION: 19790101 N_RECS: 6639
+# Examined: Mon Nov 23 16:32:13 2009 by mtchandl
+# Arguments:  -R139.85/202.3/-4.95/43.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged navigation errors.
+# Errata: Header
+Y-W-J4010002-nav-00: Flagged 1.17 % of records with bad navigation
+Y-I-J4010002-depth-01: RLS m: 0.999302 b: 0 rms: 16.3804 r: 0.999928 sig: 1 dec: 0
+N-E-J4010002-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-J4010002-faa-01: RLS m: 0.99785 b: -20.3974 rms: 35.4516 r: 0.932881 sig: 1 dec: 1
+Y-W-J4010002-faa-03: Regression offset -20.3974 different from 0.
+Y-W-J4010002-depth-12: Integer precision
+Y-W-J4010002-mag-12: Integer precision
+Y-W-J4010002-faa-12: Integer precision
+# Errata: Data
+Y	J4010002	1967-12-19T16:20:00.00	1305	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-23T03:40:00.00	1560	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-23T03:50:00.00	1561	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-23T04:00:00.00	1562	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-24T16:20:00.00	1737	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-27T11:40:00.00	1843	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-27T11:50:00.00	1844	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-27T12:00:00.00	1845	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-27T12:10:00.00	1846	C-0-0	 NAV: excessive speed
+Y	J4010002	1967-12-27T15:20:00.00	1865	C-0-0	 NAV: excessive speed
+?	J4010002	1967-12-28T10:00:00.00	1977	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J4010002	1967-12-28T10:10:00.00	1978	0-0-Q	 GRAD: mag excessive
+Y	J4010002	1968-01-02T14:00:00.00	2077	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T16:40:00.00	2093	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T16:50:00.00	2094	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T17:00:00.00	2095	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T22:10:00.00	2126	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T22:20:00.00	2127	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T22:30:00.00	2128	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T23:00:00.00	2131	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T23:10:00.00	2132	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T23:20:00.00	2133	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-02T23:30:00.00	2134	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-05T12:00:00.00	2435	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T11:10:00.00	2917	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T11:20:00.00	2918	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T11:30:00.00	2919	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T11:40:00.00	2920	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T12:00:00.00	2922	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T12:10:00.00	2923	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T12:20:00.00	2924	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-09T12:30:00.00	2925	C-0-0	 NAV: excessive speed
+?	J4010002	1968-01-11T12:20:00.00	3187	0-0-L	 GRAD: depth excessive
+?	J4010002	1968-01-11T12:30:00.00	3188	0-0-L	 GRAD: depth excessive
+Y	J4010002	1968-01-11T21:30:00.00	3242	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-12T18:00:00.00	3338	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-12T18:10:00.00	3339	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-13T05:00:00.00	3384	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-14T20:10:00.00	3619	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-14T20:20:00.00	3620	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-14T20:30:00.00	3621	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-14T20:40:00.00	3622	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-17T02:40:00.00	3783	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-17T02:50:00.00	3784	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-17T03:00:00.00	3785	C-0-0	 NAV: excessive speed
+?	J4010002	1968-01-18T13:20:00.00	3908	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J4010002	1968-01-18T13:30:00.00	3909	0-0-Q	 GRAD: mag excessive
+Y	J4010002	1968-01-19T11:40:00.00	4042	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-20T11:00:00.00	4168	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T11:10:00.00	4169	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T11:20:00.00	4170	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T11:30:00.00	4171	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T11:40:00.00	4172	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T11:50:00.00	4173	B-0-0	 NAV: non-increasing time
+Y	J4010002	1968-01-20T12:00:00.00	4174	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-20T12:10:00.00	4175	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-20T12:20:00.00	4176	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-20T12:30:00.00	4177	C-0-0	 NAV: excessive speed
+?	J4010002	1968-01-20T19:40:00.00	4220	0-0-Q	 GRAD: mag excessive
+Y	J4010002	1968-01-23T22:40:00.00	4513	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-23T22:50:00.00	4514	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-23T23:00:00.00	4515	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-23T23:10:00.00	4516	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-23T23:20:00.00	4517	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-26T20:30:00.00	4810	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-27T10:40:00.00	4895	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-27T10:50:00.00	4896	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-27T11:00:00.00	4897	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-27T20:00:00.00	4951	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-01-28T07:30:00.00	5020	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-06T06:10:00.00	5240	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-06T06:20:00.00	5241	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-06T06:40:00.00	5242	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-06T07:00:00.00	5244	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-06T07:10:00.00	5245	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-11T13:40:00.00	6004	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T14:00:00.00	6419	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T14:10:00.00	6420	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T14:20:00.00	6421	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T14:30:00.00	6422	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T14:40:00.00	6423	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T19:10:00.00	6450	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T19:20:00.00	6451	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T19:30:00.00	6452	C-0-0	 NAV: excessive speed
+Y	J4010002	1968-02-14T19:40:00.00	6453	C-0-0	 NAV: excessive speed
+?	J4010002	1968-02-15T02:20:00.00	6493	0-0-Q	 GRAD: mag excessive
+?	J4010002	1968-02-15T02:30:00.00	6494	0-0-Q	 GRAD: mag excessive

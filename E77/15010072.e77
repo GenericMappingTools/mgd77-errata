@@ -1,0 +1,20 @@
+# Cruise 15010072 ID ZTES2AAR MGD77 FILE VERSION: 19800226 N_RECS: 9228
+# Examined: Tue May 13 09:23:35 2008 by mtchandl
+# Arguments:  -R162.75/207.95/41.9/59.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend flagging depth offset from grid.
+# Errata: Header
+Y-E-15010072-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [10]
+Y-W-15010072-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-W-15010072-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15010072-depth-01: RLS m: 0.996411 b: 0 rms: 162.67 r: 0.996392 sign: 1 dec: 1
+Y-E-15010072-depth-08: Extended offset from grid [6857-6924]
+# Errata: Data
+Y	15010072	1966-01-27T21:15:00.00	4	D-0-0	 NAV: on land
+Y	15010072	1966-01-27T21:18:00.00	5	D-0-0	 NAV: on land
+?	15010072	1966-01-27T21:21:00.00	6	D-0-0	 NAV: on land
+?	15010072	1966-01-30T02:00:00.00	1027	0-0-K	 GRAD: twt excessive
+?	15010072	1966-02-18T01:57:00.00	8301	0-0-KL	 GRAD: twt, depth excessive

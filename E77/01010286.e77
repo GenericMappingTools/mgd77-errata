@@ -1,0 +1,69 @@
+# Cruise 01010286 ID RC2810 MGD77 FILE VERSION: 19910319 N_RECS: 56133
+# Examined: Wed Jul  8 18:31:02 2009 by mtchandl
+# Arguments:  -R281.05/293.2/25.75/30.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa may have been computed with IGF 1930, recommend recomputing using gobs-IGF80+eot.
+# Errata: Header
+Y-W-01010286-H13-10: Survey year (1987) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010286-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-W-01010286-nav-00: Flagged 0.00 % of records with excessive speed or invalid navigation
+Y-I-01010286-depth-01: RLS m: 1 b: 0 rms: 75.2337 r: 0.999263 sig: 1 dec: 1
+Y-I-01010286-faa-01: RLS m: 1.36393 b: -0.00347773 rms: 6.43673 r: 0.999869 sig: 1 dec: 0
+N-E-01010286-faa-02: Regression slope 1.36393 different from 1. Recommended: [1]
+Y-W-01010286-faa-03: Regression offset -0.00347773 different from 0.
+N-E-01010286-faa-06: Anomaly differs from gobs-IGF80 (m: 0.153572 b: -44.3699 rms: 57.2906 r: 0.358397 sig: 1 dec: 1). [Recompute]
+Y-E-01010286-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00166 b: -13.219 rms: 13.279 r: 0.99993 sig: 1 dec: 0). [Recompute]
+Y-W-01010286-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010286-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999975 b: 0.0987584 rms: 0.10936 r: 0.999992 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01010286-mag-07: Anomaly differs from mtf1-IGRF (m: 0.904287 b: -77.8108 rms: 92.8185 r: 0.948827 sig: 1 dec: 1). [Recompute]
+N-E-01010286-depth-08: Extended offset from grid [921-56133]
+N-E-01010286-faa-08: Extended offset from grid [1-56133]
+Y-W-01010286-faa-09: only found negative values
+Y-W-01010286-twt-11: More recent bathymetry correction table available
+Y-W-01010286-mtf1-12: Integer precision
+# Errata: Data
+Y	01010286	1987-11-12T10:57:00.00	2	C-0-0	 NAV: excessive speed
+?	01010286	1987-11-17T20:12:41.22	13051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:18:07.50	13183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:23:00.00	13190	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:25:00.00	13192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:27:00.00	13194	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:29:00.00	13196	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:32:52.50	13201	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:33:52.50	13203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:34:52.50	13205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:42:48.72	13221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:48:48.72	13233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T21:59:41.22	13255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T22:05:37.50	13268	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-17T22:35:18.72	13328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T02:37:22.50	13690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T02:40:22.50	13696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T05:14:07.50	13997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T05:15:00.00	13998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T06:32:18.72	14144	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T08:25:18.72	14360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T08:44:07.50	14398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T17:29:48.72	15389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T18:55:11.22	15561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T18:56:11.22	15563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-18T20:03:41.22	15683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-19T05:33:52.50	16770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-19T20:40:00.00	18482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-19T20:41:00.00	18483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T00:50:41.22	18941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T16:38:48.72	20745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T16:39:41.22	20747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T17:04:30.00	20797	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T18:32:37.50	20963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T22:49:18.72	21441	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-20T22:50:18.72	21443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-23T02:17:41.22	27286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-23T02:19:41.22	27290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-23T05:18:00.00	27639	0-0-U	 GRAD: gobs excessive
+?	01010286	1987-11-23T19:06:22.50	29201	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-23T19:08:22.50	29205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010286	1987-11-28T04:07:00.00	40151	0-0-U	 GRAD: gobs excessive

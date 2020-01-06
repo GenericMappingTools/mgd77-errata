@@ -1,0 +1,16 @@
+# Cruise 23060012 ID ODP109JR MGD77 FILE VERSION: 19880219 N_RECS: 1004
+# Examined: Tue Oct 19 15:09:04 2010 by mtchandl
+# Arguments:  -R300.35/342.2/13.05/23.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: ~350 km out of ~3500 km report bathymetry. Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-23060012-H04-03: Invalid Survey Departure Day: (27) [23]
+Y-I-23060012-depth-01: RLS m: 0.997211 b: 0 rms: 90.8949 r: 0.993328 sig: 1 dec: 0
+Y-E-23060012-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988194 b: -22.333 rms: 23.0644 r: 0.998361 sig: 1 dec: 0). [Recompute]
+Y-W-23060012-twt-11: More recent bathymetry correction table available
+Y-W-23060012-depth-12: Integer precision
+Y-W-23060012-mtf1-12: Integer precision
+# Errata: Data

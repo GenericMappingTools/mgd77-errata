@@ -1,0 +1,29 @@
+# Cruise 05040011 ID AI8202 MGD77 FILE VERSION: 20080729 N_RECS: 2840
+# Examined: Fri Apr 30 13:29:18 2010 by mtchandl
+# Arguments:  -R166/168.55/-48.35/-46.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some discrepancies between ship and predicted bathymetry.
+# Errata: Header
+N-E-05040011-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040011-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040011-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040011-H16-06: Ten Degree Identifier 3416 not marked in header but block was crossed
+Y-W-05040011-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-05040011-depth-01: RLS m: 0.997389 b: 0 rms: 52.5363 r: 0.998043 sig: 1 dec: 0
+Y-I-05040011-faa-01: RLS m: 0.972537 b: 3.15033 rms: 6.02469 r: 0.987981 sig: 1 dec: 0
+N-E-05040011-faa-02: Regression slope 0.972537 different from 1. Recommended: [1]
+Y-W-05040011-faa-03: Regression offset 3.15033 different from 0.
+Y-W-05040011-depth-12: Integer precision
+# Errata: Data
+?	05040011	1982-04-25T01:02:00.00	737	0-0-L	 GRAD: depth excessive
+?	05040011	1982-04-25T08:12:00.00	1145	0-0-L	 GRAD: depth excessive
+Y	05040011	1982-04-25T09:15:00.00	1204	C-0-0	 NAV: excessive speed
+Y	05040011	1982-04-25T09:16:00.00	1205	C-0-0	 NAV: excessive speed
+?	05040011	1982-04-25T11:11:00.00	1309	0-0-L	 GRAD: depth excessive
+?	05040011	1982-04-25T15:46:00.00	1511	0-0-L	 GRAD: depth excessive
+?	05040011	1982-04-25T19:10:00.00	1703	0-0-L	 GRAD: depth excessive
+?	05040011	1982-04-26T01:44:00.00	1951	0-0-L	 GRAD: depth excessive
+Y	05040011	1982-04-26T20:12:00.00	2824	C-0-0	 NAV: excessive speed

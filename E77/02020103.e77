@@ -1,0 +1,28 @@
+# Cruise 02020103 ID A2089L03 MGD77 FILE VERSION: 19820805 N_RECS: 3343
+# Examined: Fri Apr  2 15:30:30 2010 by mtchandl
+# Arguments:  -R283.65/289.35/36.6/41.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+Y-W-02020103-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-02020103-faa-01: RLS m: 1.00981 b: 2.06697 rms: 3.31897 r: 0.99595 sig: 1 dec: 0
+N-E-02020103-faa-02: Regression slope 1.00981 different from 1. Recommended: [1]
+Y-W-02020103-faa-03: Regression offset 2.06697 different from 0.
+N-E-02020103-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00075 b: -10.8668 rms: 10.8682 r: 0.999981 sig: 1 dec: 0). [Recompute]
+N-E-02020103-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.504415 b: -14.9793 rms: 34.5236 r: 0.784735 sig: 1 dec: 0). [Recompute]
+N-E-02020103-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999989 b: 0.000853649 rms: 0.0404659 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+# Errata: Data
+Y	02020103	1975-05-18T14:05:00.00	1	D-0-0	 NAV: on land
+?	02020103	1975-05-18T14:10:00.00	2	D-0-0	 NAV: on land
+?	02020103	1975-05-24T04:45:00.00	1578	0-0-V	 GRAD: eot excessive
+?	02020103	1975-05-26T08:30:00.00	2192	0-0-W	 GRAD: faa excessive
+?	02020103	1975-05-26T08:35:00.00	2193	0-0-W	 GRAD: faa excessive
+?	02020103	1975-05-26T19:15:00.00	2314	0-0-V	 GRAD: eot excessive
+?	02020103	1975-05-27T21:50:00.00	2623	0-0-W	 GRAD: faa excessive
+?	02020103	1975-05-28T19:30:00.00	2855	0-0-U	 GRAD: gobs excessive
+?	02020103	1975-05-28T19:35:00.00	2856	0-0-U	 GRAD: gobs excessive
+Y	02020103	1975-05-30T12:25:00.00	3342	D-0-0	 NAV: on land
+Y	02020103	1975-05-30T12:30:00.00	3343	D-0-0	 NAV: on land

@@ -1,0 +1,23 @@
+# Cruise J4010021 ID KH7502 MGD77 FILE VERSION: 19880219 N_RECS: 2067
+# Examined: Sun Aug  7 10:10:15 2011 by mtchandl
+# Arguments:  -R125/139.85/26.05/35.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J4010021-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-J4010021-depth-01: RLS m: 0.996178 b: 0 rms: 13.5577 r: 0.999766 sig: 1 dec: 0
+N-E-J4010021-depth-02: Regression slope 0.996178 different from 1. Recommended: [1]
+Y-I-J4010021-faa-01: RLS m: 0.990538 b: 0.78422 rms: 9.98026 r: 0.968815 sig: 1 dec: 0
+Y-W-J4010021-faa-03: Regression offset 0.78422 different from 0.
+Y-W-J4010021-depth-12: Integer precision
+Y-W-J4010021-faa-12: Integer precision
+# Errata: Data
+Y	J4010021	1975-02-23T06:15:00.00	951	0-0-W	 GRAD: faa excessive
+Y	J4010021	1975-02-25T20:30:00.00	1021	0-0-W	 GRAD: faa excessive
+Y	J4010021	1975-02-25T20:35:00.00	1022	0-0-W	 GRAD: faa excessive
+Y	J4010021	1975-03-02T12:20:00.00	1512	D-0-0	 NAV: on land
+Y	J4010021	1975-03-08T09:25:00.00	1760	C-0-0	 NAV: excessive speed
+Y	J4010021	1975-03-08T09:30:00.00	1761	C-0-0	 NAV: excessive speed

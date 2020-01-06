@@ -1,0 +1,26 @@
+# Cruise 09780008 ID WI343510 MGD77 FILE VERSION: 19791128 N_RECS: 16277
+# Examined: Mon Aug 16 16:04:10 2010 by mtchandl
+# Arguments:  -R296.95/349.2/32.95/52.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09780008-H04-05: Invalid Survey Arrival Month: (09) [10]
+Y-E-09780008-H04-06: Invalid Survey Arrival Day: (30) [01]
+Y-E-09780008-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780008-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780008-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-09780008-depth-01: RLS m: 1.00024 b: 0 rms: 7.82985 r: 0.999983 sig: 1 dec: 0
+N-E-09780008-depth-02: Regression slope 1.00024 different from 1. Recommended: [1]
+Y-W-09780008-depth-12: Integer precision
+# Errata: Data
+Y	09780008	1974-09-23T21:49:00.00	4660	C-0-0	 NAV: excessive speed
+Y	09780008	1974-09-24T17:27:00.00	5837	C-0-0	 NAV: excessive speed
+?	09780008	1974-09-25T03:34:00.00	6443	0-0-K	 GRAD: twt excessive
+?	09780008	1974-09-26T02:56:00.00	7844	0-0-K	 GRAD: twt excessive
+Y	09780008	1974-09-26T05:35:00.00	8003	C-0-0	 NAV: excessive speed
+Y	09780008	1974-09-27T08:21:00.00	9608	C-0-0	 NAV: excessive speed
+Y	09780008	1974-09-30T21:31:00.00	14690	C-0-0	 NAV: excessive speed
+?	09780008	1974-10-01T16:43:00.00	15841	0-0-K	 GRAD: twt excessive

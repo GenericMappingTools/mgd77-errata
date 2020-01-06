@@ -1,0 +1,62 @@
+# Cruise 08010073 ID 77100600 MGD77 FILE VERSION: 19830311 N_RECS: 1958
+# Examined: Mon Jul 26 16:53:56 2010 by mtchandl
+# Arguments:  -R202.1/203.95/20.55/21.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010073-nav-00: Flagged 0.31 % of records with bad navigation
+Y-I-08010073-depth-01: RLS m: 0.995959 b: 0 rms: 61.1373 r: 0.999471 sig: 1 dec: 0
+N-E-08010073-depth-02: Regression slope 0.995959 different from 1. Recommended: [1]
+Y-E-08010073-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0005 b: -84.7412 rms: 84.9306 r: 0.999926 sig: 1 dec: 0). [Recompute]
+Y-W-08010073-twt-11: More recent bathymetry correction table available
+Y-W-08010073-mtf1-12: Integer precision
+Y-W-08010073-mag-12: Integer precision
+# Errata: Data
+Y	08010073	1977-10-06T22:13:00.00	3	D-0-0	 NAV: on land
+Y	08010073	1977-10-06T22:18:00.00	4	D-0-0	 NAV: on land
+Y	08010073	1977-10-06T22:22:00.00	5	D-0-0	 NAV: on land
+Y	08010073	1977-10-06T22:23:00.00	6	D-0-0	 NAV: on land
+?	08010073	1977-10-07T00:04:00.00	70	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:05:00.00	71	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:11:00.00	77	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:12:00.00	79	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:13:00.00	80	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:14:00.00	81	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:15:00.00	82	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:16:00.00	84	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:17:00.00	85	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:23:00.00	91	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:24:00.00	92	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:25:00.00	94	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:26:00.00	95	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:27:00.00	96	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:28:00.00	97	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:29:00.00	98	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:30:00.00	100	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:31:00.00	101	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:32:00.00	102	0-Q-0	 VAL: mag invalid
+?	08010073	1977-10-07T00:33:00.00	103	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:34:00.00	104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:35:00.00	105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:36:00.00	106	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:37:00.00	108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:38:00.00	109	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:39:00.00	111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:40:00.00	112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:45:00.00	118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:46:00.00	119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:49:00.00	122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:51:00.00	126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:52:00.00	127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:53:00.00	128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:54:00.00	130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:55:00.00	131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T00:56:00.00	132	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-07T15:31:00.00	1105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-08T01:34:00.00	1796	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010073	1977-10-08T01:35:00.00	1797	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010073	1977-10-08T04:21:00.00	1956	D-0-0	 NAV: on land
+Y	08010073	1977-10-08T04:23:00.00	1957	D-0-0	 NAV: on land

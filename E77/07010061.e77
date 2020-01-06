@@ -1,0 +1,14 @@
+# Cruise 07010061 ID YAQ7507 MGD77 FILE VERSION: 19821020 N_RECS: 1238
+# Examined: Mon Jul 26 15:28:27 2010 by mtchandl
+# Arguments:  -R227.95/235.85/41.45/46.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset.
+# Errata: Header
+N-E-07010061-H04-03: Invalid Survey Departure Day: (16) [17]
+Y-I-07010061-depth-01: RLS m: 1.0035 b: 0 rms: 64.8768 r: 0.998632 sig: 1 dec: 0
+Y-E-07010061-depth-08: Extended offset from grid [1-520]
+Y-W-07010061-twt-11: More recent bathymetry correction table available
+# Errata: Data

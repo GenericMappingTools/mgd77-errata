@@ -1,0 +1,38 @@
+# Cruise 15040041 ID SOTW01WT MGD77 FILE VERSION: 19800226 N_RECS: 9106
+# Examined: Thu May 22 09:34:22 2008 by mtchandl
+# Arguments:  -R210.6/242.55/-25.35/32.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040041-H04-03: Invalid Survey Departure Day: (05) [06]
+N-E-15040041-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-W-15040041-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040041-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-15040041-depth-01: RLS m: 1 b: 0 rms: 142.333 r: 0.991295 sig: 1 dec: 1
+Y-E-15040041-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02028 b: -107.881 rms: 153.525 r: 0.823531 sig: 1 dec: 1). [Recompute]
+Y-W-15040041-twt-11: More recent bathymetry correction table available
+Y-W-15040041-mtf1-12: Integer multiple of 5 precision
+Y-W-15040041-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040041	1972-01-07T06:00:00.00	283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-01-07T06:04:00.00	284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-01-30T17:01:00.00	6701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-01-30T21:35:00.00	6774	0-0-O	 GRAD: mtf1 excessive
+?	15040041	1972-01-30T21:45:00.00	6776	0-0-K	 GRAD: twt excessive
+?	15040041	1972-01-30T22:10:00.00	6781	0-0-KL	 GRAD: twt, depth excessive
+Y	15040041	1972-02-01T03:17:00.00	6782	D-0-0	 NAV: on land
+?	15040041	1972-02-01T04:09:00.00	6792	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-02-09T13:35:00.00	8947	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T13:40:00.00	8948	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T13:45:00.00	8949	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T13:50:00.00	8950	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T13:55:00.00	8951	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T14:00:00.00	8952	0-Q-0	 VAL: mag invalid
+?	15040041	1972-02-09T14:08:00.00	8954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-02-09T19:43:00.00	9088	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-02-09T19:53:00.00	9092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-02-09T19:58:00.00	9094	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040041	1972-02-09T20:03:00.00	9096	0-Q-0	 VAL: mag invalid

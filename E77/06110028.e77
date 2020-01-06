@@ -1,0 +1,79 @@
+# Cruise 06110028 ID S1178WG MGD77 FILE VERSION: 19910418 N_RECS: 1948
+# Examined: Fri May 28 14:59:20 2010 by mtchandl
+# Arguments:  -R207.35/208.65/57.75/59.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry offset.
+# Errata: Header
+Y-W-06110028-nav-00: Flagged 3.13 % of records with bad navigation
+Y-I-06110028-depth-01: RLS m: 1.59283 b: 0 rms: 61.0138 r: 0.406375 sig: 1 dec: 0
+N-E-06110028-depth-02: Regression slope 1.59283 different from 1. Recommended: [1.8288]
+Y-E-06110028-depth-10: Invalid data records: [1364-1948]
+Y-W-06110028-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06110028	1978-10-20T21:05:00.00	1	D-0-0	 NAV: on land
+?	06110028	1978-10-20T21:06:00.00	2	D-0-0	 NAV: on land
+?	06110028	1978-10-20T21:07:00.00	3	D-0-0	 NAV: on land
+?	06110028	1978-10-20T21:08:00.00	4	D-0-0	 NAV: on land
+?	06110028	1978-10-20T21:09:00.00	5	D-0-0	 NAV: on land
+?	06110028	1978-10-20T21:10:00.00	6	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:21:00.00	17	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:22:00.00	18	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:23:00.00	19	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:24:00.00	20	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:25:00.00	21	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:26:00.00	22	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:27:00.00	23	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:28:00.00	24	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:29:00.00	25	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:30:00.00	26	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T21:31:00.00	27	D-0-0	 NAV: on land
+Y	06110028	1978-10-20T23:15:00.00	131	C-0-0	 NAV: excessive speed
+?	06110028	1978-10-21T02:47:00.00	343	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-21T02:48:00.00	344	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-21T02:49:00.00	345	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-21T02:50:00.00	346	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-21T02:51:00.00	347	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-22T07:39:00.00	1365	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-22T07:40:00.00	1366	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-22T07:41:00.00	1367	0-0-KL	 GRAD: twt, depth excessive
+?	06110028	1978-10-22T07:42:00.00	1368	0-0-KL	 GRAD: twt, depth excessive
+Y	06110028	1978-10-22T09:47:00.00	1493	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:48:00.00	1494	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:49:00.00	1495	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:50:00.00	1496	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:51:00.00	1497	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:52:00.00	1498	C-0-0	 NAV: excessive speed
+Y	06110028	1978-10-22T09:53:00.00	1499	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:54:00.00	1500	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:55:00.00	1501	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:56:00.00	1502	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:57:00.00	1503	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:58:00.00	1504	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T09:59:00.00	1505	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:00:00.00	1506	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:01:00.00	1507	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:02:00.00	1508	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:03:00.00	1509	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:04:00.00	1510	CD-0-0	 NAV: excessive speed, on land
+Y	06110028	1978-10-22T10:05:00.00	1511	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:06:00.00	1512	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:07:00.00	1513	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:08:00.00	1514	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:09:00.00	1515	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:10:00.00	1516	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:11:00.00	1517	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:12:00.00	1518	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:13:00.00	1519	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:14:00.00	1520	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:15:00.00	1521	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:16:00.00	1522	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:17:00.00	1523	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:18:00.00	1524	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:19:00.00	1525	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:20:00.00	1526	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:21:00.00	1527	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:22:00.00	1528	D-0-0	 NAV: on land
+Y	06110028	1978-10-22T10:23:00.00	1529	D-0-0	 NAV: on land

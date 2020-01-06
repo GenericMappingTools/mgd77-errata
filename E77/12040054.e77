@@ -1,0 +1,14 @@
+# Cruise 12040054 ID HU78016 MGD77 FILE VERSION: 19860717 N_RECS: 1057
+# Examined: Mon Aug 30 15:30:24 2010 by mtchandl
+# Arguments:  -R308.65/320/44.95/52 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-12040054-H11-03: Invalid Bottommost Latitude: (+45) [+44]
+Y-E-12040054-H12-01: Invalid Bathymetry Digitizing Rate: (595) [595]
+Y-I-12040054-depth-01: RLS m: 1 b: 0 rms: 3.59662 r: 0.999996 sig: 1 dec: 0
+# Errata: Data
+?	12040054	1157.58	503	0-0-K	 GRAD: twt excessive

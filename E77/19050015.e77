@@ -1,0 +1,20 @@
+# Cruise 19050015 ID SHACK_68 MGD77 FILE VERSION: 19991208 N_RECS: 48690
+# Examined: Mon Sep  6 12:54:26 2010 by mtchandl
+# Arguments:  -R289.2/318/-63.85/-51.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050015-H04-01: Invalid Survey Departure Year: (1966) [1968]
+Y-E-19050015-H04-03: Invalid Survey Departure Day: (05) [13]
+Y-E-19050015-H04-06: Invalid Survey Arrival Day: (12) [10]
+Y-E-19050015-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19050015-H13-09: Unknown IGRF specified (DGRF       C)
+Y-I-19050015-depth-01: RLS m: 1.00063 b: 0 rms: 70.7881 r: 0.998199 sig: 1 dec: 0
+Y-W-19050015-twt-11: twt may be extracted from depth for Carter correction
+Y-W-19050015-depth-12: Integer precision
+# Errata: Data
+?	19050015	1969-02-21T04:25:00.00	30045	0-0-L	 GRAD: depth excessive
+?	19050015	1969-02-21T04:30:00.00	30050	0-0-L	 GRAD: depth excessive

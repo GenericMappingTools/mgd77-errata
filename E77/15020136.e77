@@ -1,0 +1,76 @@
+# Cruise 15020136 ID GLOR04MV MGD77 FILE VERSION: 19951214 N_RECS: 34091
+# Examined: Sat May 17 10:28:43 2008 by mtchandl
+# Arguments:  -R210.35/242.3/-17.55/-13.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+N-E-15020136-H04-03: Invalid Survey Departure Day: (10) [11]
+Y-W-15020136-H13-10: Survey year (1993) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020136-depth-01: RLS m: 1.00388 b: 0 rms: 284.048 r: 0.966545 sig: 1 dec: 1
+Y-I-15020136-faa-01: RLS m: 0.999 b: -0.269449 rms: 11.4363 r: 0.974833 sig: 1 dec: 1
+N-E-15020136-faa-06: Anomaly differs from gobs - IGF80 (m: 0.309168 b: 8.45743 rms: 60.1652 r: 0.648883 sig: 1 dec: 1). [Recompute]
+N-E-15020136-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.309925 b: 13.4166 rms: 61.6062 r: 0.65163 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020136-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00693 b: 23.9917 rms: 34.512 r: 0.990076 sig: 1 dec: 1). [Recompute]
+Y-W-15020136-twt-11: More recent bathymetry correction table available
+Y-W-15020136-depth-12: Integer precision
+Y-W-15020136-mtf1-12: Integer precision
+# Errata: Data
+?	15020136	1993-01-18T15:17:00.00	10878	0-0-KL	 GRAD: twt, depth excessive
+?	15020136	1993-01-18T15:31:00.00	10892	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-18T16:40:00.00	10961	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-18T19:38:00.00	11139	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-18T19:40:00.00	11141	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-18T21:36:00.00	11257	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-18T21:48:00.00	11269	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-18T21:56:00.00	11277	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-18T21:57:00.00	11278	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-18T21:58:00.00	11279	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-19T01:18:00.00	11479	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-19T02:29:00.00	11550	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-19T02:31:00.00	11552	0-0-KL	 GRAD: twt, depth excessive
+?	15020136	1993-01-21T05:33:00.00	14614	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-21T06:40:00.00	14681	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-21T11:01:00.00	14942	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-22T16:20:00.00	16701	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-22T20:36:00.00	16957	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-23T15:05:00.00	18066	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-23T15:14:00.00	18075	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-24T23:32:00.00	20013	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-24T23:48:00.00	20029	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-24T23:49:00.00	20030	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-25T04:21:00.00	20302	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-25T08:14:00.00	20535	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-26T01:41:00.00	21582	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-26T01:42:00.00	21583	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-26T06:10:00.00	21851	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-26T08:07:00.00	21968	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-26T08:08:00.00	21969	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-26T10:41:00.00	22122	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-27T20:22:00.00	24143	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-27T23:19:00.00	24320	0-0-KL	 GRAD: twt, depth excessive
+?	15020136	1993-01-28T01:17:00.00	24438	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-28T01:18:00.00	24439	0-0-KL	 GRAD: twt, depth excessive
+?	15020136	1993-01-28T01:45:00.00	24466	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-28T01:46:00.00	24467	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-28T06:25:00.00	24746	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-28T14:58:00.00	25259	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-28T19:02:00.00	25503	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-29T11:34:00.00	26495	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-29T22:24:00.00	27145	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-30T01:00:00.00	27301	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-31T03:09:00.00	28870	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-31T06:55:00.00	29096	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-31T11:55:00.00	29396	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-31T17:35:00.00	29736	0-0-K	 GRAD: twt excessive
+?	15020136	1993-01-31T20:11:00.00	29892	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-01-31T20:12:00.00	29893	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-02-02T23:55:00.00	32996	0-0-K	 GRAD: twt excessive
+?	15020136	1993-02-02T23:58:00.00	32999	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-02-03T00:43:00.00	33044	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-02-03T05:26:00.00	33327	0-0-K	 GRAD: twt excessive
+?	15020136	1993-02-03T17:02:00.00	34023	0-0-U	 GRAD: gobs excessive
+?	15020136	1993-02-03T17:03:00.00	34024	0-0-U	 GRAD: gobs excessive

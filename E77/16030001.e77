@@ -1,0 +1,151 @@
+# Cruise 16030001 ID HY4-881 MGD77 FILE VERSION: 19961231 N_RECS: 2972
+# Examined: Mon Sep  6 12:26:54 2010 by mtchandl
+# Arguments:  -R149.9/353.6/0.35/11.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-16030001-time-01: 22 of 2972 records contain invalid time
+N-E-16030001-H04-02: Invalid Survey Departure Month: (05) [06]
+N-E-16030001-H04-03: Invalid Survey Departure Day: (09) [01]
+N-E-16030001-H04-05: Invalid Survey Arrival Month: (12) [11]
+N-E-16030001-H04-06: Invalid Survey Arrival Day: (21) [23]
+N-E-16030001-H11-03: Invalid Bottommost Latitude: (+07) [+00]
+N-E-16030001-H11-05: Invalid Leftmost Longitude: (-154) [+149]
+N-E-16030001-H11-06: Invalid Rightmost Longitude: (-138) [-006]
+N-E-16030001-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [17]
+Y-W-16030001-H16-06: Ten Degree Identifier 7000 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7001 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7002 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7004 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7005 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7006 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7007 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7008 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7009 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7010 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 7011 not marked in header but block was crossed
+Y-W-16030001-H16-06: Ten Degree Identifier 1014 not marked in header but block was crossed
+Y-W-16030001-nav-00: Flagged 1.51 % of records with bad navigation
+Y-I-16030001-depth-01: RLS m: 1.00035 b: 0 rms: 85.8131 r: 0.89869 sig: 1 dec: 0
+Y-I-16030001-faa-01: RLS m: 0.708267 b: -3.14631 rms: 8.43567 r: 0.519128 sig: 1 dec: 0
+N-E-16030001-faa-02: Regression slope 0.708267 different from 1. Recommended: [1]
+Y-W-16030001-faa-03: Regression offset -3.14631 different from 0.
+Y-I-16030001-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-16030001-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.336506 b: -3.18084 rms: 60.6473 r: 0.727113 sig: 1 dec: 1). [Recompute]
+N-E-16030001-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.98135 b: 6.21567 rms: 9.50708 r: 0.997822 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-16030001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.973157 b: -34.0874 rms: 37.3237 r: 0.994984 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	16030001	1988-06-01T17:58:40.20	68	0-0-L	 GRAD: depth excessive
+Y	16030001	1988-06-08T11:01:25.80	509	C-0-0	 NAV: excessive speed
+Y	16030001	1988-06-08T11:09:46.20	510	C-0-0	 NAV: excessive speed
+Y	16030001	1988-06-08T11:18:06.00	511	C-0-0	 NAV: excessive speed
+Y	16030001	1988-06-08T11:26:25.80	512	C-0-0	 NAV: excessive speed
+Y	16030001	1988-06-08T11:34:46.20	513	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T11:43:06.00	514	C-0-0	 NAV: excessive speed
+Y	16030001	1988-06-08T11:51:25.80	515	CD-0-0	 NAV: excessive speed, on land
+Y	16030001	1988-06-08T11:59:46.20	516	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	16030001	1988-06-08T12:08:06.00	517	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	16030001	1988-06-08T12:16:25.80	518	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T12:24:46.20	519	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T12:33:05.40	520	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T12:41:25.80	521	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T12:49:46.20	522	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	16030001	1988-06-08T12:58:06.00	523	CD-Q-0	 NAV: excessive speed, on land - VAL: mag invalid
+Y	16030001	1988-06-08T13:06:25.20	524	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	16030001	1988-06-26T19:27:52.80	703	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	16030001	1988-07-04T00:15:54.00	766	B-0-0	 NAV: non-increasing time
+?	16030001	1988-07-04T14:25:54.00	867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	16030001	1988-07-04T14:34:13.80	868	0-0-OQ	 GRAD: mtf1, mag excessive
+?	16030001	1988-07-05T22:03:54.00	951	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	16030001	1988-07-06T05:32:48.00	957	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-06T05:52:48.00	958	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-06T06:12:48.00	959	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-06T06:21:09.00	960	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-08T04:18:22.20	987	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-08T20:53:27.00	993	C-0-0	 NAV: excessive speed
+Y	16030001	1988-07-08T21:11:01.20	994	C-0-0	 NAV: excessive speed
+Y	16030001	1988-08-05T22:14:42.00	1091	C-0-0	 NAV: excessive speed
+Y	16030001	1988-08-06T02:08:18.00	1095	C-0-0	 NAV: excessive speed
+Y	16030001	1988-08-06T02:28:18.00	1096	C-0-0	 NAV: excessive speed
+Y	16030001	1988-08-06T02:37:28.80	1097	C-0-0	 NAV: excessive speed
+Y	16030001	1988-08-08T12:52:25.80	1120	C-0-0	 NAV: excessive speed
+?	16030001	1988-08-10T06:45:00.00	1397	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	16030001	1988-08-24T17:46:30.00	1592	B-0-0	 NAV: non-increasing time
+?	16030001	1988-08-24T18:24:00.00	1601	0-0-L	 GRAD: depth excessive
+?	16030001	1988-08-24T23:19:49.80	1672	0-0-L	 GRAD: depth excessive
+?	16030001	1988-08-25T00:39:00.00	1691	0-0-L	 GRAD: depth excessive
+?	16030001	1988-08-25T02:02:19.80	1711	0-0-L	 GRAD: depth excessive
+?	16030001	1988-08-25T02:06:30.00	1712	0-0-L	 GRAD: depth excessive
+Y	16030001	NaN	1852	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1853	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1854	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1855	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1856	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1857	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1858	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1859	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1860	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1861	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1862	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1863	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1864	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1865	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1866	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1867	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1868	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1869	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1870	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1871	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1872	E-0-0	 NAV: navigation undefined
+Y	16030001	NaN	1873	E-0-0	 NAV: navigation undefined
+Y	16030001	1988-09-01T10:57:09.00	1879	C-0-0	 NAV: excessive speed
+?	16030001	1988-09-03T14:42:22.20	1974	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	16030001	1988-09-05T13:37:52.80	2031	C-0-0	 NAV: excessive speed
+Y	16030001	1988-09-05T13:50:19.80	2032	C-0-0	 NAV: excessive speed
+?	16030001	1988-09-05T21:53:46.80	2041	0-0-UVW	 GRAD: gobs, eot, faa excessive
+Y	16030001	1988-09-06T05:23:01.20	2047	C-0-0	 NAV: excessive speed
+Y	16030001	1988-09-06T05:43:01.20	2048	C-0-0	 NAV: excessive speed
+?	16030001	1988-10-03T20:10:58.80	2158	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-10-03T20:40:00.00	2159	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	16030001	1988-11-21T17:23:10.80	2318	C-0-0	 NAV: excessive speed
+?	16030001	1988-11-22T00:49:01.20	2424	0-0-L	 GRAD: depth excessive
+Y	16030001	1988-11-22T06:34:50.40	2507	B-0-0	 NAV: non-increasing time
+?	16030001	1988-11-22T07:12:21.00	2516	0-0-L	 GRAD: depth excessive
+Y	16030001	1988-11-22T19:46:31.80	2697	B-0-0	 NAV: non-increasing time
+Y	16030001	1988-11-22T19:46:31.80	2698	B-0-0	 NAV: non-increasing time
+Y	16030001	1988-11-22T19:50:42.00	2699	C-0-0	 NAV: excessive speed
+Y	16030001	1988-11-23T06:26:31.20	2852	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+?	16030001	1988-11-23T07:14:01.80	2864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:18:12.00	2865	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:22:22.20	2866	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:26:31.80	2867	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:30:42.00	2868	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:34:52.20	2869	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:39:01.80	2870	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:43:12.00	2871	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:47:22.20	2872	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:51:31.80	2873	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:55:42.00	2874	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T07:59:52.20	2875	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:04:01.80	2876	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:08:12.00	2877	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:12:22.20	2878	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:16:31.80	2879	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:20:42.00	2880	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	16030001	1988-11-23T08:24:52.20	2881	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T08:29:01.80	2882	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T08:33:12.00	2883	0-0-LO	 GRAD: depth, mtf1 excessive
+?	16030001	1988-11-23T08:37:22.20	2884	0-0-LO	 GRAD: depth, mtf1 excessive
+?	16030001	1988-11-23T08:41:31.80	2885	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T08:45:42.00	2886	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T08:49:52.20	2887	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T08:54:01.80	2888	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:06:31.80	2890	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:10:42.00	2891	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:14:52.20	2892	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:19:01.80	2893	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:23:12.00	2894	0-0-O	 GRAD: mtf1 excessive
+?	16030001	1988-11-23T09:27:22.20	2895	0-0-O	 GRAD: mtf1 excessive

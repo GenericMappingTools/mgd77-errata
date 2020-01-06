@@ -1,0 +1,17 @@
+# Cruise 06050089 ID L5B79NC MGD77 FILE VERSION: 19870917 N_RECS: 19094
+# Examined: Fri May 21 16:27:16 2010 by mtchandl
+# Arguments:  -R238.05/239.4/34.45/35.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+N-E-06050089-H15-01: Invalid Gravity Departure Base Station Value: (9688523) [9688523]
+N-E-06050089-H15-03: Invalid Gravity Arrival Base Station Value: (9688552) [9688552]
+Y-I-06050089-faa-01: RLS m: 0.915158 b: 0.00523452 rms: 4.92038 r: 0.915057 sig: 1 dec: 0
+N-E-06050089-faa-02: Regression slope 0.915158 different from 1. Recommended: [1]
+N-E-06050089-faa-06: Anomaly differs from gobs-IGF80 (m: 0.695371 b: 14.8384 rms: 28.4395 r: 0.901226 sig: 1 dec: 0). [Recompute]
+N-E-06050089-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.996558 b: 0.798201 rms: 0.935623 r: 0.999436 sig: 1 dec: 0). [Recompute]
+Y-W-06050089-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+# Errata: Data

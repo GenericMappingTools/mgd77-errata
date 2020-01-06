@@ -1,0 +1,94 @@
+# Cruise 08020019 ID 8509 MGD77 FILE VERSION: 19890113 N_RECS: 42396
+# Examined: Mon Nov 23 15:00:15 2009 by mtchandl
+# Arguments:  -R201.95/280.65/-3.05/20.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Highly unusual nav along Equator. Recommend manual review.
+# Errata: Header
+Y-E-08020019-H16-01: Invalid Number of Ten Degree Identifiers: (16) [19]
+Y-W-08020019-H16-06: Ten Degree Identifier 7010 not marked in header but block was crossed
+Y-W-08020019-H16-06: Ten Degree Identifier 7012 not marked in header but block was crossed
+Y-W-08020019-H16-06: Ten Degree Identifier 7013 not marked in header but block was crossed
+Y-W-08020019-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-08020019-depth-01: RLS m: 0.999391 b: 0 rms: 23.3215 r: 0.999714 sig: 1 dec: 0
+N-E-08020019-depth-02: Regression slope 0.999391 different from 1. Recommended: [1]
+Y-W-08020019-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020019	1985-06-07T21:42:00.00	1357	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-09T23:12:19.98	3792	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-11T18:53:00.00	6028	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T18:54:13.98	6029	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T18:57:00.00	6030	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T18:57:13.98	6031	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T18:58:40.02	6032	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T18:59:19.98	6033	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T19:00:00.00	6034	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T19:00:13.98	6035	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T19:02:19.98	6036	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T19:03:13.98	6037	D-0-0	 NAV: on land
+Y	08020019	1985-06-11T19:04:19.98	6038	D-0-0	 NAV: on land
+?	08020019	1985-06-12T21:24:19.98	6784	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:27:19.98	6785	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:30:19.98	6786	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:33:19.98	6787	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:36:19.98	6788	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:39:19.98	6789	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:42:19.98	6790	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:45:19.98	6791	D-0-0	 NAV: on land
+Y	08020019	1985-06-12T21:48:19.98	6792	D-0-0	 NAV: on land
+?	08020019	1985-06-14T19:55:40.02	8244	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-14T22:22:40.02	8381	0-0-K	 GRAD: twt excessive
+?	08020019	1985-06-15T06:33:00.00	8978	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-16T00:08:00.00	10134	0-0-K	 GRAD: twt excessive
+Y	08020019	1985-06-07T14:33:02.94	10592	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-07T14:35:40.02	10593	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-07T14:36:02.94	10594	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-07T14:39:02.94	10595	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-16T12:09:40.02	12504	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-16T12:11:19.98	12505	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-16T12:12:17.94	12506	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-16T12:12:19.98	12507	B-0-0	 NAV: non-increasing time
+?	08020019	1985-06-17T16:43:19.98	12767	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-18T18:26:40.02	14370	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-19T11:55:19.98	15487	0-0-K	 GRAD: twt excessive
+?	08020019	1985-06-19T18:37:27.96	15918	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-06-21T09:29:00.00	18153	0-0-KL	 GRAD: twt, depth excessive
+Y	08020019	1985-06-18T01:30:00.00	24053	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-18T01:30:17.94	24054	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-18T01:31:19.98	24055	B-0-0	 NAV: non-increasing time
+?	08020019	1985-06-26T00:40:19.98	24470	0-0-K	 GRAD: twt excessive
+?	08020019	1985-06-28T21:05:00.00	27865	0-0-K	 GRAD: twt excessive
+Y	08020019	1985-06-26T03:33:08.94	28349	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-26T03:34:19.98	28350	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-26T03:35:19.98	28351	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-26T03:36:08.94	28352	B-0-0	 NAV: non-increasing time
+?	08020019	1985-06-30T01:08:07.98	29257	0-0-KL	 GRAD: twt, depth excessive
+Y	08020019	1985-06-30T23:24:08.94	30787	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-30T23:25:40.02	30788	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-06-30T23:27:08.94	30789	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-02T14:51:00.00	32496	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-02T14:54:00.00	32497	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-02T14:56:40.02	32498	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-02T14:57:00.00	32499	B-0-0	 NAV: non-increasing time
+?	08020019	1985-07-05T14:36:00.00	35389	0-0-K	 GRAD: twt excessive
+?	08020019	1985-07-05T14:44:07.98	35395	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-05T14:48:00.00	35399	0-0-K	 GRAD: twt excessive
+Y	08020019	1985-07-03T19:17:19.98	35496	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-03T19:18:15.00	35497	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-03T19:21:15.00	35498	B-0-0	 NAV: non-increasing time
+?	08020019	1985-07-07T00:00:01.98	36874	0-0-K	 GRAD: twt excessive
+?	08020019	1985-07-07T00:51:19.98	36922	0-0-K	 GRAD: twt excessive
+?	08020019	1985-07-07T08:03:40.02	37221	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-07T11:09:00.00	37378	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-07T14:41:40.02	37612	0-0-K	 GRAD: twt excessive
+?	08020019	1985-07-07T20:51:40.02	37891	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-08T04:39:19.98	38258	0-0-K	 GRAD: twt excessive
+?	08020019	1985-07-08T10:42:19.98	38560	0-0-K	 GRAD: twt excessive
+Y	08020019	1985-07-05T19:38:19.98	38852	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-05T19:39:05.94	38853	B-0-0	 NAV: non-increasing time
+Y	08020019	1985-07-05T19:42:05.94	38854	B-0-0	 NAV: non-increasing time
+?	08020019	1985-07-09T03:14:00.00	39357	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-09T03:51:00.00	39391	0-0-KL	 GRAD: twt, depth excessive
+?	08020019	1985-07-10T01:53:00.00	40411	0-0-K	 GRAD: twt excessive

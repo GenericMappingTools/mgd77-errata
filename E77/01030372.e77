@@ -1,0 +1,46 @@
+# Cruise 01030372 ID V1511 MGD77 FILE VERSION: 19940713 N_RECS: 5931
+# Examined: Fri Mar 19 01:38:22 2010 by mtchandl
+# Arguments:  -R291.7/312.8/-58.5/-38.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Very large offsets between ship and gridded bathymetry.
+# Errata: Header
+N-E-01030372-H04-06: Invalid Survey Arrival Day: (05) [04]
+Y-E-01030372-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030372-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030372-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030372-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030372-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030372-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030372-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030372-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01030372-nav-00: Flagged 0.22 % of records with bad navigation
+Y-I-01030372-depth-01: RLS m: 0.996264 b: 0 rms: 88.472 r: 0.999073 sig: 1 dec: 0
+N-E-01030372-depth-02: Regression slope 0.996264 different from 1. Recommended: [1]
+Y-E-01030372-depth-08: Extended offset from grid [2281-2450]
+Y-E-01030372-depth-08: Extended offset from grid [3681-3868]
+Y-W-01030372-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030372	1959-03-12T19:55:00.00	153	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T19:57:00.00	154	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:00:00.00	155	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:05:00.00	156	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:10:00.00	157	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:15:00.00	158	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:20:00.00	159	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:25:00.00	160	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:30:00.00	161	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:35:00.00	162	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:40:00.00	163	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:41:00.00	164	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:45:00.00	165	D-0-0	 NAV: on land
+Y	01030372	1959-03-12T20:46:00.00	166	D-0-0	 NAV: on land
+?	01030372	1959-03-14T05:03:00.00	650	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-14T17:30:00.00	860	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-14T17:33:00.00	861	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-14T21:30:00.00	913	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-14T21:32:00.00	914	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-14T22:04:00.00	923	0-0-K	 GRAD: twt excessive
+?	01030372	1959-03-21T20:50:00.00	2305	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,138 @@
+# Cruise 06050098 ID L182NC MGD77 FILE VERSION: 19870929 N_RECS: 1796
+# Examined: Fri May 28 14:15:07 2010 by mtchandl
+# Arguments:  -R236.35/237.85/37.4/37.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: MGD77 header indicates "This was probably a test cruise." Recommend rejecting bathymetry and recomputing magnetic anomalies.
+# Errata: Header
+Y-W-06050098-nav-00: Flagged 0.78 % of records with bad navigation
+Y-I-06050098-depth-01: RLS m: 1.03192 b: 0 rms: 92.1212 r: 0.997798 sig: 1 dec: 0
+N-E-06050098-depth-02: Regression slope 1.03192 different from 1. Recommended: [1]
+Y-E-06050098-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: -20 rms: 20 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-06050098-depth-08: Extended offset from grid [462-757]
+N-E-06050098-depth-08: Extended offset from grid [923-1355]
+Y-E-06050098-depth-10: Invalid data records: [1-1796]
+N-E-06050098-twt-13: Encountered possible PDR wrap errors (6.1) [5.0]
+Y-W-06050098-mag-09: only found negative values
+Y-W-06050098-mtf1-12: Integer precision
+# Errata: Data
+Y	06050098	1982-02-02T17:05:00.00	1	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:06:00.00	2	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:07:00.00	3	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:08:00.00	4	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:09:00.00	5	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:10:00.00	6	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:11:00.00	7	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:12:00.00	8	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:13:00.00	9	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:14:00.00	10	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:15:00.00	11	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:16:00.00	12	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:17:00.00	13	D-0-0	 NAV: on land
+Y	06050098	1982-02-02T17:18:00.00	14	D-0-0	 NAV: on land
+?	06050098	1982-02-03T00:13:00.00	429	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:14:00.00	430	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:15:00.00	431	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:16:00.00	432	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:19:00.00	435	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:20:00.00	436	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:21:00.00	437	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T00:22:00.00	438	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:23:00.00	439	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:34:00.00	450	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:35:00.00	451	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:36:00.00	452	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:37:00.00	453	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:38:00.00	454	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:39:00.00	455	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:40:00.00	456	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:41:00.00	457	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:42:00.00	458	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:43:00.00	459	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T00:56:00.00	472	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:00:00.00	476	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T01:01:00.00	477	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:03:00.00	479	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T01:09:00.00	485	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:10:00.00	486	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:30:00.00	506	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:31:00.00	507	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050098	1982-02-03T01:42:00.00	518	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:44:00.00	520	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:46:00.00	522	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:47:00.00	523	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:48:00.00	524	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T01:55:00.00	531	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:02:00.00	538	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:03:00.00	539	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:08:00.00	544	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:10:00.00	546	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:24:00.00	560	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:25:00.00	561	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:30:00.00	566	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:31:00.00	567	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:32:00.00	568	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:40:00.00	576	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:41:00.00	577	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:42:00.00	578	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:43:00.00	579	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T02:48:00.00	584	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:49:00.00	585	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T02:50:00.00	586	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T03:02:00.00	598	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	06050098	1982-02-03T03:03:00.00	599	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:05:00.00	601	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:06:00.00	602	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:07:00.00	603	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:08:00.00	604	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:09:00.00	605	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:10:00.00	606	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:11:00.00	607	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:12:00.00	608	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:13:00.00	609	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T03:14:00.00	610	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T04:06:00.00	662	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:07:00.00	663	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:12:00.00	668	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:15:00.00	671	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:16:00.00	672	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T04:32:00.00	688	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T04:33:00.00	689	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:34:00.00	690	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:36:00.00	692	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:37:00.00	693	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:43:00.00	699	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:45:00.00	701	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T04:51:00.00	707	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T04:53:00.00	709	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T04:58:00.00	714	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T05:00:00.00	716	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:01:00.00	717	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T05:09:00.00	725	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T05:10:00.00	726	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:11:00.00	727	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:18:00.00	734	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:20:00.00	736	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:24:00.00	740	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:25:00.00	741	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:26:00.00	742	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:27:00.00	743	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:28:00.00	744	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:29:00.00	745	0-M-0	 VAL: bcc invalid
+?	06050098	1982-02-03T05:40:00.00	756	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:41:00.00	757	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T05:42:00.00	758	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T07:37:00.00	873	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T07:38:00.00	874	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T08:28:00.00	924	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T08:30:00.00	926	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T08:38:00.00	934	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T08:43:00.00	939	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T08:48:00.00	944	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T08:49:00.00	945	0-0-K	 GRAD: twt excessive
+?	06050098	1982-02-03T08:50:00.00	946	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T13:45:00.00	1241	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T20:26:00.00	1642	0-0-KL	 GRAD: twt, depth excessive
+?	06050098	1982-02-03T21:23:00.00	1699	0-0-KL	 GRAD: twt, depth excessive

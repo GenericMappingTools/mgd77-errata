@@ -1,0 +1,21 @@
+# Cruise 08010038 ID 77031702 MGD77 FILE VERSION: 19830518 N_RECS: 13886
+# Examined: Mon Jul 26 16:07:41 2010 by mtchandl
+# Arguments:  -R158.05/171.4/6.1/8.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010038-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-08010038-depth-01: RLS m: 1 b: 0 rms: 2.70728 r: 0.999921 sig: 1 dec: 0
+Y-I-08010038-faa-01: RLS m: 1.06006 b: -2.71536 rms: 11.6844 r: 0.984456 sig: 1 dec: 1
+N-E-08010038-faa-02: Regression slope 1.06006 different from 1. Recommended: [1]
+Y-W-08010038-faa-03: Regression offset -2.71536 different from 0.
+Y-E-08010038-mag-07: Anomaly differs from mtf1-IGRF (m: 0.991761 b: -192.494 rms: 192.456 r: 0.995306 sig: 1 dec: 1). [Recompute]
+Y-W-08010038-twt-11: More recent bathymetry correction table available
+Y-W-08010038-mtf1-12: Integer precision
+Y-W-08010038-mag-12: Integer precision
+# Errata: Data
+?	08010038	1977-04-08T03:00:19.98	30	0-0-W	 GRAD: faa excessive
+Y	08010038	1977-04-19T16:36:00.00	13886	D-0-0	 NAV: on land

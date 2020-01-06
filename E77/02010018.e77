@@ -1,0 +1,77 @@
+# Cruise 02010018 ID CH039L01 MGD77 FILE VERSION: 19820805 N_RECS: 8668
+# Examined: Fri Mar 26 20:14:54 2010 by mtchandl
+# Arguments:  -R289.05/305.35/23.9/40.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa using IGF80. Poor navigation and likely loss of bottom tracking near 2000 km along-track.
+# Errata: Header
+Y-W-02010018-nav-00: Flagged 0.25 % of records with bad navigation
+Y-I-02010018-depth-01: RLS m: 0.996327 b: 0 rms: 381.481 r: 0.974694 sig: 1 dec: 0
+Y-I-02010018-faa-01: RLS m: 0.990962 b: -10.4976 rms: 19.1291 r: 0.945277 sig: 1 dec: 1
+Y-W-02010018-faa-03: Regression offset -10.4976 different from 0.
+N-E-02010018-faa-06: Anomaly differs from gobs-IGF80 (m: 1.03826 b: -11.7231 rms: 12.1346 r: 0.999705 sig: 1 dec: 0). [Recompute]
+N-E-02010018-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.218142 b: -20.8418 rms: 45.6547 r: 0.451592 sig: 1 dec: 1). [Recompute]
+Y-E-02010018-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1). [Adjust to IGF 1980]
+N-E-02010018-depth-08: Extended offset from grid [2185-2510]
+Y-E-02010018-depth-08: Extended offset from grid [2939-3048]
+N-E-02010018-depth-08: Extended offset from grid [8582-8668]
+Y-W-02010018-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	02010018	1963-08-23T20:45:00.00	65	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-23T20:50:00.00	66	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:20:00.00	718	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:25:00.00	719	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:30:00.00	720	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:35:00.00	721	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:40:00.00	722	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-25T15:45:00.00	723	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-26T08:55:00.00	977	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-26T09:00:00.00	978	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-26T09:05:00.00	979	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-28T12:35:00.00	1826	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-29T18:10:00.00	2095	C-0-0	 NAV: excessive speed
+Y	02010018	1963-08-29T18:15:00.00	2096	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-06T02:45:00.00	3440	0-0-K	 GRAD: twt excessive
+Y	02010018	1963-09-06T23:10:00.00	3768	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-08T10:40:00.00	4279	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-08T22:45:00.00	4497	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-09T10:30:00.00	4594	0-0-KL	 GRAD: twt, depth excessive
+Y	02010018	1963-09-10T08:35:00.00	4936	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-11T11:25:00.00	5263	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-11T11:30:00.00	5264	0-0-K	 GRAD: twt excessive
+Y	02010018	1963-09-11T17:40:00.00	5338	C-0-0	 NAV: excessive speed
+Y	02010018	1963-09-12T08:05:00.00	5580	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-14T08:15:00.00	6189	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-14T08:50:00.00	6196	0-0-K	 GRAD: twt excessive
+Y	02010018	1963-09-14T14:10:00.00	6277	C-0-0	 NAV: excessive speed
+Y	02010018	1963-09-14T14:15:00.00	6278	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-14T15:55:00.00	6296	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-14T17:10:00.00	6311	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-14T17:25:00.00	6314	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-15T17:15:00.00	6788	0-0-K	 GRAD: twt excessive
+Y	02010018	1963-09-16T05:05:00.00	7001	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-16T22:45:00.00	7311	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T02:30:00.00	7367	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T10:00:00.00	7426	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T10:05:00.00	7427	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T10:30:00.00	7432	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T10:40:00.00	7434	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T10:50:00.00	7436	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T10:55:00.00	7437	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-17T12:50:00.00	7460	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T14:05:00.00	7475	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T14:45:00.00	7483	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T15:15:00.00	7489	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-17T15:30:00.00	7492	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-18T10:40:00.00	7722	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-18T10:45:00.00	7723	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-18T11:20:00.00	7730	0-0-K	 GRAD: twt excessive
+?	02010018	1963-09-18T11:30:00.00	7732	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-18T14:55:00.00	7773	0-0-KL	 GRAD: twt, depth excessive
+Y	02010018	1963-09-19T02:50:00.00	7981	C-0-0	 NAV: excessive speed
+?	02010018	1963-09-19T03:10:00.00	7985	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-19T04:10:00.00	7997	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-19T04:20:00.00	7999	0-0-KL	 GRAD: twt, depth excessive
+?	02010018	1963-09-19T04:30:00.00	8001	0-0-K	 GRAD: twt excessive

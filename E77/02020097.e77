@@ -1,0 +1,16 @@
+# Cruise 02020097 ID A2097L02 MGD77 FILE VERSION: 19820805 N_RECS: 5903
+# Examined: Fri Apr  2 15:28:12 2010 by mtchandl
+# Arguments:  -R291.85/293.9/18.5/25.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020097-depth-01: RLS m: 1 b: 0 rms: 75.9411 r: 0.999445 sig: 1 dec: 1
+Y-E-02020097-mag-07: Anomaly differs from mtf1-IGRF (m: 0.612497 b: -573.777 rms: 593.397 r: 0.883176 sig: 1 dec: 0). [Recompute]
+Y-W-02020097-mag-09: only found negative values
+Y-W-02020097-mtf1-12: Integer precision
+Y-W-02020097-mag-12: Integer precision
+# Errata: Data
+?	02020097	1978-02-20T23:05:00.00	3814	0-0-K	 GRAD: twt excessive

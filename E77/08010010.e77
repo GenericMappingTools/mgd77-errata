@@ -1,0 +1,53 @@
+# Cruise 08010010 ID 71042611 MGD77 FILE VERSION: 19830518 N_RECS: 8525
+# Examined: Mon Jul 26 15:47:01 2010 by mtchandl
+# Arguments:  -R259.95/280.1/-3.1/16.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010010-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010010-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010010-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010010-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-08010010-depth-01: RLS m: 0.999651 b: 0 rms: 31.3286 r: 0.999538 sig: 1 dec: 0
+Y-I-08010010-faa-01: RLS m: 0.999395 b: -2.0747 rms: 4.40703 r: 0.984951 sig: 1 dec: 0
+Y-W-08010010-faa-03: Regression offset -2.0747 different from 0.
+Y-E-08010010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.927172 b: 210.322 rms: 222.264 r: 0.814352 sig: 1 dec: 0). [Recompute]
+Y-W-08010010-twt-11: More recent bathymetry correction table available
+Y-W-08010010-mtf1-12: Integer precision
+Y-W-08010010-mag-12: Integer precision
+Y-W-08010010-faa-12: Integer precision
+# Errata: Data
+Y	08010010	1972-04-20T13:30:00.00	1	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T13:33:30.00	2	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T13:40:48.00	3	D-0-0	 NAV: on land
+?	08010010	1972-04-20T13:44:00.00	4	D-0-0	 NAV: on land
+?	08010010	1972-04-20T13:45:00.00	5	D-0-0	 NAV: on land
+?	08010010	1972-04-20T13:45:23.94	6	D-0-0	 NAV: on land
+?	08010010	1972-04-20T14:02:54.00	9	D-0-0	 NAV: on land
+?	08010010	1972-04-20T14:03:48.00	10	D-0-0	 NAV: on land
+?	08010010	1972-04-20T14:05:00.00	11	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T14:23:17.94	14	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T14:54:00.00	18	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T14:59:54.00	19	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T15:15:05.94	20	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T15:29:54.00	21	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T16:44:00.00	28	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T16:44:48.00	29	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T16:48:48.00	30	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T16:49:17.94	31	D-0-0	 NAV: on land
+Y	08010010	1972-04-20T16:51:42.00	32	D-0-0	 NAV: on land
+?	08010010	1972-04-20T22:12:30.00	103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010010	1972-04-25T14:55:11.94	2483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010010	1972-04-25T14:57:11.94	2486	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010010	1972-04-27T14:44:42.00	3308	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010010	1972-04-27T15:15:42.00	3334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010010	1972-04-29T06:24:48.00	4064	0-0-KL	 GRAD: twt, depth excessive
+?	08010010	1972-04-29T22:00:00.00	4305	0-0-K	 GRAD: twt excessive
+?	08010010	1972-04-30T17:45:00.00	4767	0-0-KL	 GRAD: twt, depth excessive
+?	08010010	1972-04-30T18:05:23.94	4772	0-0-K	 GRAD: twt excessive
+?	08010010	1972-05-09T09:09:05.94	7728	0-0-KL	 GRAD: twt, depth excessive
+Y	08010010	1972-05-11T15:08:23.94	8524	D-0-0	 NAV: on land
+Y	08010010	1972-05-11T15:25:00.00	8525	D-0-0	 NAV: on land

@@ -1,0 +1,122 @@
+# Cruise J1010100 ID HT99T452 MGD77 FILE VERSION: 20021031 N_RECS: 2401
+# Examined: Sat Aug  6 10:46:53 2011 by mtchandl
+# Arguments:  -R149.9/152.9/27/30.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010100-H04-03: Invalid Survey Departure Day: (07) [09]
+N-E-J1010100-H04-06: Invalid Survey Arrival Day: (29) [26]
+Y-E-J1010100-H11-02: Invalid Topmost Latitude : ( 30) [+31]
+Y-E-J1010100-H15-01: Invalid Gravity Departure Base Station Value: (-9138) [  -9138]
+Y-E-J1010100-H15-03: Invalid Gravity Arrival Base Station Value: (-9125) [  -9125]
+Y-W-J1010100-nav-00: Flagged 4.12 % of records with bad navigation
+Y-I-J1010100-depth-01: RLS m: 1.00012 b: 0 rms: 10.2454 r: 0.999743 sig: 1 dec: 0
+Y-I-J1010100-faa-01: RLS m: 1.03938 b: -3.93025 rms: 7.44024 r: 0.995118 sig: 1 dec: 1
+N-E-J1010100-faa-02: Regression slope 1.03938 different from 1. Recommended: [1]
+Y-W-J1010100-faa-03: Regression offset -3.93025 different from 0.
+Y-W-J1010100-depth-12: Integer multiple of 5 precision
+Y-W-J1010100-mag-12: Integer precision
+Y-W-J1010100-faa-12: Integer precision
+# Errata: Data
+Y	J1010100	1999-10-19T13:20:00.00	1537	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T13:30:00.00	1538	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T13:40:00.00	1539	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T13:50:00.00	1540	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T14:00:00.00	1541	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T14:10:00.00	1542	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T14:20:00.00	1543	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T15:50:00.00	1544	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:00:00.00	1545	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:10:00.00	1546	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:20:00.00	1547	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:30:00.00	1548	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:40:00.00	1549	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T16:50:00.00	1550	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:00:00.00	1551	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:10:00.00	1552	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:20:00.00	1553	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:30:00.00	1554	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:40:00.00	1555	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T17:50:00.00	1556	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:00:00.00	1557	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:10:00.00	1558	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:20:00.00	1559	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:30:00.00	1560	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:40:00.00	1561	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T18:50:00.00	1562	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:00:00.00	1563	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:10:00.00	1564	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:20:00.00	1565	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:30:00.00	1566	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:40:00.00	1567	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T19:50:00.00	1568	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:00:00.00	1569	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:10:00.00	1570	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:20:00.00	1571	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:30:00.00	1572	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:40:00.00	1573	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T20:50:00.00	1574	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T21:00:00.00	1575	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T21:10:00.00	1576	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T21:30:00.00	1577	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T21:40:00.00	1578	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T21:50:00.00	1579	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:00:00.00	1580	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:10:00.00	1581	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:20:00.00	1582	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:30:00.00	1583	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:40:00.00	1584	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T22:50:00.00	1585	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:00:00.00	1586	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:10:00.00	1587	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:20:00.00	1588	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:30:00.00	1589	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:40:00.00	1590	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-19T23:50:00.00	1591	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:00:00.00	1592	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:10:00.00	1593	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:20:00.00	1594	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:30:00.00	1595	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:40:00.00	1596	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T00:50:00.00	1597	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T01:00:00.00	1598	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T05:50:00.00	1599	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:00:00.00	1600	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:10:00.00	1601	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:20:00.00	1602	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:30:00.00	1603	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:40:00.00	1604	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T06:50:00.00	1605	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:00:00.00	1606	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:10:00.00	1607	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:20:00.00	1608	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:30:00.00	1609	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:40:00.00	1610	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T07:50:00.00	1611	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:00:00.00	1612	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:10:00.00	1613	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:20:00.00	1614	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:30:00.00	1615	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:40:00.00	1616	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T08:50:00.00	1617	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:00:00.00	1618	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:10:00.00	1619	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:20:00.00	1620	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:30:00.00	1621	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:40:00.00	1622	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T09:50:00.00	1623	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:00:00.00	1624	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:10:00.00	1625	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:20:00.00	1626	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:30:00.00	1627	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:40:00.00	1628	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T10:50:00.00	1629	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:00:00.00	1630	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:10:00.00	1631	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:20:00.00	1632	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:30:00.00	1633	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:40:00.00	1634	B-0-0	 NAV: non-increasing time
+Y	J1010100	1999-10-20T11:50:00.00	1635	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,124 @@
+# Cruise 07010026 ID YAQ705 MGD77 FILE VERSION: 19840214 N_RECS: 5819
+# Examined: Fri Jul 16 17:35:45 2010 by mtchandl
+# Arguments:  -R224.3/235.7/44.3/54.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010026-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-07010026-depth-01: RLS m: 0.998605 b: 0 rms: 32.6494 r: 0.999397 sig: 1 dec: 0
+N-E-07010026-depth-02: Regression slope 0.998605 different from 1. Recommended: [1]
+Y-I-07010026-faa-01: RLS m: 1.05943 b: 2.61629 rms: 8.32796 r: 0.982335 sig: 1 dec: 1
+N-E-07010026-faa-02: Regression slope 1.05943 different from 1. Recommended: [1]
+Y-W-07010026-faa-03: Regression offset 2.61629 different from 0.
+Y-E-07010026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.98864 b: 130.587 rms: 147.444 r: 0.968715 sig: 1 dec: 1). [Recompute]
+Y-W-07010026-twt-11: More recent bathymetry correction table available
+Y-W-07010026-mtf1-12: Integer precision
+Y-W-07010026-mag-12: Integer precision
+# Errata: Data
+?	07010026	1970-10-11T21:55:00.00	225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T22:00:00.00	227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T22:01:00.00	228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T22:09:00.00	232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T22:10:00.00	233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T22:15:00.00	234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-11T23:34:00.00	266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-12T12:50:00.00	407	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-12T12:55:00.00	408	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	07010026	1970-10-12T12:56:00.00	409	0-Q-0	 VAL: mag invalid
+?	07010026	1970-10-12T13:00:00.00	410	0-Q-0	 VAL: mag invalid
+?	07010026	1970-10-12T13:10:00.00	412	0-0-O	 GRAD: mtf1 excessive
+Y	07010026	1970-10-13T15:26:00.00	809	B-0-0	 NAV: non-increasing time
+?	07010026	1970-10-13T18:15:00.00	848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-13T18:20:00.00	849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-14T07:35:00.00	959	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-14T14:55:00.00	1080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-14T15:24:00.00	1093	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-14T20:40:00.00	1133	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-14T20:43:00.00	1134	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-14T20:45:00.00	1136	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-14T21:10:00.00	1147	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-15T03:10:00.00	1223	0-0-KL	 GRAD: twt, depth excessive
+Y	07010026	1970-10-15T22:18:00.00	1522	B-0-0	 NAV: non-increasing time
+?	07010026	1970-10-16T13:08:00.00	1781	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-16T13:40:00.00	1793	0-0-KL	 GRAD: twt, depth excessive
+?	07010026	1970-10-17T10:50:00.00	2065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T15:20:00.00	2140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T15:25:00.00	2141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T15:30:00.00	2142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T16:37:00.00	2159	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-17T19:50:00.00	2210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T19:56:00.00	2211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T20:10:00.00	2217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T20:15:00.00	2218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T20:26:00.00	2221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T20:55:00.00	2230	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T21:00:00.00	2231	0-Q-0	 VAL: mag invalid
+?	07010026	1970-10-17T21:20:00.00	2235	0-Q-0	 VAL: mag invalid
+?	07010026	1970-10-17T21:26:00.00	2236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-17T22:06:00.00	2247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-18T02:25:00.00	2316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-19T04:09:00.00	2686	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-19T08:39:00.00	2753	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-19T11:04:00.00	2789	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-20T02:05:00.00	2895	0-0-KL	 GRAD: twt, depth excessive
+?	07010026	1970-10-20T14:45:00.00	3086	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T14:50:00.00	3087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T15:10:00.00	3093	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010026	1970-10-20T18:10:00.00	3141	B-0-0	 NAV: non-increasing time
+?	07010026	1970-10-20T20:05:00.00	3173	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:20:00.00	3177	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:25:00.00	3178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:30:00.00	3181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:35:00.00	3183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:40:00.00	3184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T20:45:00.00	3187	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:00:00.00	3211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:03:00.00	3212	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:05:00.00	3213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:10:00.00	3216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:15:00.00	3220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:20:00.00	3221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:30:00.00	3225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-20T22:35:00.00	3226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T00:44:00.00	3267	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-21T02:31:00.00	3301	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:35:00.00	3302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:38:00.00	3303	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:41:00.00	3304	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:45:00.00	3305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:50:00.00	3306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:53:00.00	3307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T02:59:00.00	3309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:04:00.00	3311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:10:00.00	3312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:15:00.00	3313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:30:00.00	3316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:34:00.00	3317	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T03:39:00.00	3318	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T05:45:00.00	3351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T06:15:00.00	3358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T07:05:00.00	3372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T08:02:00.00	3385	0-0-KL	 GRAD: twt, depth excessive
+?	07010026	1970-10-21T08:24:00.00	3390	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T19:40:00.00	3548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T19:46:00.00	3549	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T19:50:00.00	3550	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T19:55:00.00	3552	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T20:00:00.00	3553	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T20:02:00.00	3554	0-Q-0	 VAL: mag invalid
+?	07010026	1970-10-21T20:05:00.00	3555	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T20:10:00.00	3556	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010026	1970-10-21T20:15:00.00	3559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T06:05:00.00	3717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T06:10:00.00	3718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T06:25:00.00	3722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T06:30:00.00	3723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T06:35:00.00	3724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T08:19:00.00	3747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-22T08:24:00.00	3748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010026	1970-10-24T04:06:00.00	4328	0-0-K	 GRAD: twt excessive
+?	07010026	1970-10-24T12:16:00.00	4438	0-0-K	 GRAD: twt excessive
+Y	07010026	1970-10-26T09:48:00.00	5041	B-0-0	 NAV: non-increasing time

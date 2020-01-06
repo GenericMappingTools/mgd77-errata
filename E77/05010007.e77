@@ -1,0 +1,85 @@
+# Cruise 05010007 ID HT7903 MGD77 FILE VERSION: 19840921 N_RECS: 17351
+# Examined: Fri Apr 30 13:16:49 2010 by mtchandl
+# Arguments:  -R174.05/181.85/-42.9/-39 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05010007-H13-09: Unknown IGRF specified (PGRF 75)
+N-E-05010007-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [5]
+Y-W-05010007-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-W-05010007-nav-00: Flagged 0.34 % of records with bad navigation
+Y-I-05010007-depth-01: RLS m: 1.0013 b: 0 rms: 17.6868 r: 0.999881 sig: 1 dec: 0
+N-E-05010007-depth-02: Regression slope 1.0013 different from 1. Recommended: [1]
+Y-I-05010007-faa-01: RLS m: 1.00765 b: 1.83376 rms: 4.53798 r: 0.994627 sig: 1 dec: 0
+N-E-05010007-faa-02: Regression slope 1.00765 different from 1. Recommended: [1]
+Y-W-05010007-faa-03: Regression offset 1.83376 different from 0.
+Y-E-05010007-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00242 b: -28.2346 rms: 31.5094 r: 0.998168 sig: 1 dec: 1). [Recompute]
+Y-W-05010007-depth-12: Integer precision
+Y-W-05010007-mtf1-12: Integer precision
+Y-W-05010007-mag-12: Integer precision
+# Errata: Data
+Y	05010007	1979-04-07T00:00:00.00	6171	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:04:00.00	6172	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:15:00.00	6173	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:27:00.00	6174	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:30:00.00	6175	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:45:00.00	6176	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T00:46:00.00	6177	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T01:00:00.00	6178	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T01:15:00.00	6179	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T01:21:00.00	6180	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T01:30:00.00	6181	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T01:45:00.00	6182	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:00:00.00	6183	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:15:00.00	6184	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:18:00.00	6185	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:19:00.00	6186	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:20:00.00	6187	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:21:00.00	6188	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:22:00.00	6189	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:23:00.00	6190	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:24:00.00	6191	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:25:00.00	6192	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:26:00.00	6193	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:27:00.00	6194	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:28:00.00	6195	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:29:00.00	6196	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:30:00.00	6197	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:31:00.00	6198	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:32:00.00	6199	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:33:00.00	6200	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:34:00.00	6201	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:35:00.00	6202	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:36:00.00	6203	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:37:00.00	6204	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:38:00.00	6205	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:39:00.00	6206	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:40:00.00	6207	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:41:00.00	6208	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:42:00.00	6209	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:43:00.00	6210	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:44:00.00	6211	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:45:00.00	6212	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:46:00.00	6213	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:47:00.00	6214	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:48:00.00	6215	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:49:00.00	6216	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:50:00.00	6217	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:51:00.00	6218	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:52:00.00	6219	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:53:00.00	6220	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:54:00.00	6221	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:55:00.00	6222	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:56:00.00	6223	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:57:00.00	6224	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:58:00.00	6225	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T02:59:00.00	6226	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T03:00:00.00	6227	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-07T22:15:00.00	6772	B-0-0	 NAV: non-increasing time
+Y	05010007	1979-04-09T00:00:00.00	7830	C-0-0	 NAV: excessive speed
+?	05010007	1979-04-09T11:16:00.00	8394	0-0-V	 GRAD: eot excessive
+?	05010007	1979-04-10T12:00:00.00	9697	0-0-L	 GRAD: depth excessive
+?	05010007	1979-04-16T19:06:00.00	16988	0-0-V	 GRAD: eot excessive

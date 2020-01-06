@@ -1,0 +1,22 @@
+# Cruise 15050042 ID DSDP44GC MGD77 FILE VERSION: 19800226 N_RECS: 4580
+# Examined: Fri May 30 09:58:04 2008 by mtchandl
+# Arguments:  -R283.65/290.7/28.2/36.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050042-H04-03: Invalid Survey Departure Day: (15) [16]
+Y-W-15050042-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15050042-depth-01: RLS m: 0.996125 b: 0 rms: 56.4622 r: 0.999033 sig: 1 dec: 1
+Y-E-15050042-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.948348 b: -424.15 rms: 430.079 r: 0.931653 sig: 1 dec: 1). [Recompute]
+Y-W-15050042-mag-09: only found negative values
+Y-W-15050042-twt-11: More recent bathymetry correction table available
+Y-W-15050042-mtf1-12: Integer precision
+Y-W-15050042-mag-12: Integer precision
+# Errata: Data
+?	15050042	1975-08-28T10:35:00.00	2227	0-0-KL	 GRAD: twt, depth excessive
+?	15050042	1975-08-28T13:10:00.00	2258	0-0-KL	 GRAD: twt, depth excessive
+?	15050042	1975-09-23T09:55:00.00	4092	0-0-KL	 GRAD: twt, depth excessive
+?	15050042	1975-09-28T08:40:00.00	4127	0-0-KL	 GRAD: twt, depth excessive

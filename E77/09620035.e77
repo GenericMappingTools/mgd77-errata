@@ -1,0 +1,93 @@
+# Cruise 09620035 ID BARTLT90 MGD77 FILE VERSION: 19920430 N_RECS: 6397
+# Examined: Mon Aug 16 15:54:17 2010 by mtchandl
+# Arguments:  -R-12.95/16.45/70.45/76.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09620035-nav-00: Flagged 0.42 % of records with bad navigation
+Y-I-09620035-depth-01: RLS m: 1.0035 b: 0 rms: 62.1977 r: 0.996223 sig: 1 dec: 0
+N-E-09620035-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+# Errata: Data
+?	09620035	1991-08-04T06:21:54.00	1078	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T06:26:27.00	1087	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T06:43:00.00	1118	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T06:43:09.00	1119	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T06:51:21.96	1132	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T08:48:39.00	1203	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-04T09:01:06.00	1228	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T09:01:06.00	1229	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-04T09:01:21.00	1231	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T09:22:45.00	1286	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T09:35:51.00	1310	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T09:37:01.98	1314	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T10:30:51.96	1400	C-0-L	 NAV: excessive speed - GRAD: depth excessive
+?	09620035	1991-08-04T10:39:42.00	1422	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T11:04:30.00	1470	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T11:22:12.00	1507	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T11:38:06.96	1550	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T11:39:18.96	1555	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T11:50:09.96	1582	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T12:28:42.00	1645	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T12:29:01.98	1647	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T14:31:15.00	1801	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T16:12:40.98	1852	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-04T16:12:52.98	1853	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T16:13:52.98	1856	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T16:23:33.00	1871	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T16:23:51.96	1873	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T16:24:00.00	1874	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T16:24:06.00	1875	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T17:24:33.00	1910	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-04T17:34:00.96	1925	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T17:57:27.00	1956	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-04T18:38:57.00	2005	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T19:08:03.00	2031	B-0-0	 NAV: non-increasing time
+Y	09620035	1991-08-04T19:08:06.96	2032	B-0-L	 NAV: non-increasing time - GRAD: depth excessive
+Y	09620035	1991-08-04T19:08:36.00	2033	B-0-0	 NAV: non-increasing time
+Y	09620035	1991-08-04T19:08:48.00	2034	B-0-0	 NAV: non-increasing time
+Y	09620035	1991-08-04T19:08:55.98	2035	B-0-L	 NAV: non-increasing time - GRAD: depth excessive
+Y	09620035	1991-08-04T19:28:03.96	2066	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-04T19:44:34.98	2090	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-04T22:39:51.00	2151	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-04T22:49:24.00	2152	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-04T22:58:36.96	2153	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:08:42.00	2413	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:14:03.96	2414	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:20:37.98	2415	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:25:42.96	2416	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:28:48.00	2417	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:33:30.00	2418	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:36:31.98	2419	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:41:24.00	2420	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:46:21.96	2421	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:52:01.98	2422	C-0-0	 NAV: excessive speed
+Y	09620035	1991-08-05T21:57:12.00	2423	C-0-0	 NAV: excessive speed
+?	09620035	1991-08-07T15:35:48.96	2634	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-07T16:04:42.96	2661	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-07T16:21:37.98	2674	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-07T16:39:15.00	2686	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-07T16:39:30.96	2687	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-10T04:59:30.00	3227	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-10T05:00:30.00	3228	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-10T05:07:15.00	3233	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-10T05:07:51.96	3234	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-10T05:53:31.98	3251	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-11T04:10:30.00	3459	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-12T01:37:39.00	3621	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-12T01:48:39.96	3626	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-12T02:13:39.00	3640	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-12T02:53:34.98	3653	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-14T17:13:22.98	4149	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-14T17:22:45.00	4157	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-17T00:15:06.00	4714	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-17T13:42:15.00	4907	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-18T07:58:27.00	5260	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-18T09:56:45.96	5335	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-19T00:30:52.98	5564	0-0-L	 GRAD: depth excessive
+Y	09620035	1991-08-19T17:05:21.00	5809	B-0-0	 NAV: non-increasing time
+?	09620035	1991-08-20T11:27:57.00	6069	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-20T12:26:46.98	6103	0-0-L	 GRAD: depth excessive
+?	09620035	1991-08-20T12:43:12.00	6117	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,82 @@
+# Cruise 09780028 ID WI343719 MGD77 FILE VERSION: 19830818 N_RECS: 40491
+# Examined: Mon Aug 16 16:55:07 2010 by mtchandl
+# Arguments:  -R42.05/63.35/-20.1/-2.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09780028-H04-03: Invalid Survey Departure Day: (11) [12]
+N-E-09780028-H04-06: Invalid Survey Arrival Day: (29) [28]
+Y-E-09780028-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780028-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780028-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-09780028-depth-01: RLS m: 1.00031 b: 0 rms: 6.39886 r: 0.999948 sig: 1 dec: 0
+N-E-09780028-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+Y-E-09780028-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958076 b: -459.942 rms: 464.293 r: 0.954444 sig: 1 dec: 1). [Recompute]
+Y-W-09780028-depth-12: Integer precision
+Y-W-09780028-mag-12: Integer precision
+# Errata: Data
+?	09780028	1977-04-14T12:10:00.00	2365	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-14T12:14:00.00	2369	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-18T09:39:00.00	6634	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-18T17:19:00.00	7094	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-04-21T13:47:00.00	9733	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-23T11:37:00.00	11991	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-24T22:47:00.00	13274	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-26T02:23:00.00	14398	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-26T02:27:00.00	14402	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-26T06:16:00.00	14631	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-26T06:21:00.00	14636	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-28T21:29:00.00	16769	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-04-28T22:48:00.00	16848	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-29T13:00:00.00	17699	0-0-K	 GRAD: twt excessive
+?	09780028	1977-04-30T22:00:00.00	18895	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-09T19:59:00.00	19804	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-09T20:29:00.00	19834	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-09T20:31:00.00	19836	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-11T10:10:00.00	21308	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-11T10:12:00.00	21310	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-11T10:19:00.00	21317	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-13T06:59:00.00	23511	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-13T12:55:00.00	23867	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-14T00:18:00.00	24549	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-14T00:30:00.00	24561	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-14T00:34:00.00	24565	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-14T02:52:00.00	24703	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-14T05:25:00.00	24856	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-17T03:22:00.00	28192	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-17T03:40:00.00	28210	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-17T18:53:00.00	28822	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-17T19:38:00.00	28867	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-17T23:38:00.00	29107	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-18T20:54:00.00	30382	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-18T21:44:00.00	30432	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-19T16:13:00.00	31089	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-19T16:19:00.00	31095	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-19T22:27:00.00	31463	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-19T22:56:00.00	31492	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-20T00:48:00.00	31603	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-20T00:50:00.00	31605	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-20T11:39:00.00	32254	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-21T06:43:00.00	32630	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-22T01:39:00.00	33765	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-22T01:41:00.00	33767	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-22T03:44:00.00	33890	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-22T04:47:00.00	33953	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-22T11:29:00.00	34355	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-22T11:52:00.00	34378	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-22T11:56:00.00	34382	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-22T20:01:00.00	34867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780028	1977-05-26T12:27:00.00	38075	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-26T19:37:00.00	38505	0-0-K	 GRAD: twt excessive
+Y	09780028	1977-05-27T00:01:00.00	38768	C-0-0	 NAV: excessive speed
+Y	09780028	1977-05-27T00:02:00.00	38769	C-0-0	 NAV: excessive speed
+?	09780028	1977-05-27T01:45:00.00	38872	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-27T11:09:00.00	39436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780028	1977-05-28T03:17:00.00	39818	0-0-KL	 GRAD: twt, depth excessive
+?	09780028	1977-05-28T04:08:00.00	39869	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-28T04:45:00.00	39906	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-28T04:48:00.00	39909	0-0-K	 GRAD: twt excessive
+?	09780028	1977-05-28T04:55:00.00	39916	0-0-K	 GRAD: twt excessive

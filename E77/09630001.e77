@@ -1,0 +1,27 @@
+# Cruise 09630001 ID DE913015 MGD77 FILE VERSION: 19791128 N_RECS: 16090
+# Examined: Mon Aug 16 15:54:33 2010 by mtchandl
+# Arguments:  -R240.7/280.65/-0.4/32.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged two depth offsets.
+# Errata: Header
+Y-W-09630001-time-01: 1 of 16090 records contain invalid time
+Y-W-09630001-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-09630001-depth-01: RLS m: 0.998168 b: 0 rms: 71.3511 r: 0.99295 sig: 1 dec: 0
+Y-E-09630001-depth-08: Extended offset from grid [10582-10941]
+Y-E-09630001-depth-08: Extended offset from grid [11460-11546]
+Y-W-09630001-depth-12: Integer precision
+# Errata: Data
+?	09630001	1973-03-16T22:50:00.00	7294	0-0-K	 GRAD: twt excessive
+?	09630001	1973-03-21T08:35:00.00	8399	0-0-KL	 GRAD: twt, depth excessive
+Y	09630001	NaN	8687	E-0-0	 NAV: navigation undefined
+Y	09630001	1973-03-22T11:00:00.00	8688	C-0-0	 NAV: excessive speed
+Y	09630001	1973-03-22T11:05:00.00	8689	C-0-0	 NAV: excessive speed
+Y	09630001	1973-03-22T11:10:00.00	8690	C-0-0	 NAV: excessive speed
+Y	09630001	1973-03-22T11:15:00.00	8691	C-0-0	 NAV: excessive speed
+Y	09630001	1973-03-22T11:20:00.00	8692	C-0-0	 NAV: excessive speed
+Y	09630001	1973-03-22T11:25:00.00	8693	C-0-0	 NAV: excessive speed
+?	09630001	1973-03-29T19:35:00.00	10537	0-0-K	 GRAD: twt excessive
+?	09630001	1973-04-22T14:10:00.00	14275	0-0-K	 GRAD: twt excessive

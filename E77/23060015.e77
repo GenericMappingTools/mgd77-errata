@@ -1,0 +1,28 @@
+# Cruise 23060015 ID ODP112JR MGD77 FILE VERSION: 19880322 N_RECS: 3097
+# Examined: Tue Oct 19 15:09:46 2010 by mtchandl
+# Arguments:  -R279.35/283.15/-13.55/-8.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060015-H04-03: Invalid Survey Departure Day: (20) [31]
+N-E-23060015-H04-06: Invalid Survey Arrival Day: (25) [19]
+Y-I-23060015-depth-01: RLS m: 0.996863 b: 0 rms: 24.278 r: 0.999853 sig: 1 dec: 0
+N-E-23060015-depth-02: Regression slope 0.996863 different from 1. Recommended: [1]
+Y-E-23060015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.908963 b: -31.929 rms: 40 r: 0.957652 sig: 1 dec: 1). [Recompute]
+Y-W-23060015-twt-11: More recent bathymetry correction table available
+Y-W-23060015-depth-12: Integer precision
+Y-W-23060015-mtf1-12: Integer precision
+# Errata: Data
+?	23060015	1986-12-03T06:24:00.00	2353	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T06:26:00.00	2355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T06:52:00.00	2376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T06:57:00.00	2380	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T07:48:00.00	2414	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T08:13:00.00	2429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T08:18:00.00	2432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T08:41:00.00	2446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T08:54:00.00	2454	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060015	1986-12-03T09:04:00.00	2462	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,85 @@
+# Cruise 09780005 ID WI343421 MGD77 FILE VERSION: 19791128 N_RECS: 6875
+# Examined: Mon Aug 16 16:03:08 2010 by mtchandl
+# Arguments:  -R341.85/351.3/36.7/44.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09780005-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780005-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780005-nav-00: Flagged 0.80 % of records with bad navigation
+Y-I-09780005-depth-01: RLS m: 1.0001 b: 0 rms: 16.7753 r: 0.999945 sig: 1 dec: 0
+Y-E-09780005-mag-07: Anomaly differs from mtf1-IGRF (m: 0.977488 b: -52.4692 rms: 58.3878 r: 0.99122 sig: 1 dec: 1). [Recompute]
+Y-W-09780005-depth-12: Integer precision
+Y-W-09780005-mag-12: Integer precision
+# Errata: Data
+Y	09780005	1974-05-31T16:34:00.00	5405	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T17:50:00.00	5481	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T18:17:00.00	5508	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T18:21:00.00	5512	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T18:31:00.00	5522	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T18:35:00.00	5526	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T18:49:00.00	5540	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T19:52:00.00	5603	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T20:33:00.00	5644	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T20:51:00.00	5662	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T20:55:00.00	5666	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T21:36:00.00	5707	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T21:40:00.00	5711	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T21:49:00.00	5720	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T22:00:00.00	5731	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T22:18:00.00	5749	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T22:35:00.00	5766	C-0-0	 NAV: excessive speed
+?	09780005	1974-05-31T22:58:00.00	5789	0-0-K	 GRAD: twt excessive
+Y	09780005	1974-05-31T23:03:00.00	5794	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T23:28:00.00	5819	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T23:40:00.00	5831	C-0-0	 NAV: excessive speed
+Y	09780005	1974-05-31T23:53:00.00	5844	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T00:18:00.00	5868	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T01:02:00.00	5912	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T01:25:00.00	5935	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T03:44:00.00	6074	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T03:50:00.00	6080	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T04:56:00.00	6146	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T05:38:00.00	6188	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T06:31:00.00	6241	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T08:30:00.00	6360	0-0-KL	 GRAD: twt, depth excessive
+?	09780005	1974-06-01T09:00:00.00	6390	0-0-KL	 GRAD: twt, depth excessive
+?	09780005	1974-06-01T09:29:00.00	6419	0-0-KL	 GRAD: twt, depth excessive
+?	09780005	1974-06-01T09:54:00.00	6444	0-0-KL	 GRAD: twt, depth excessive
+?	09780005	1974-06-01T10:08:00.00	6458	0-0-K	 GRAD: twt excessive
+?	09780005	1974-06-01T10:23:00.00	6473	0-0-KL	 GRAD: twt, depth excessive
+Y	09780005	1974-06-01T10:26:00.00	6476	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T10:40:00.00	6490	0-0-KL	 GRAD: twt, depth excessive
+Y	09780005	1974-06-01T10:43:00.00	6493	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T11:12:00.00	6522	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T11:16:00.00	6526	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:11:00.00	6581	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T12:13:00.00	6583	0-0-K	 GRAD: twt excessive
+Y	09780005	1974-06-01T12:18:00.00	6588	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:25:00.00	6595	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:29:00.00	6599	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:32:00.00	6602	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T12:34:00.00	6604	0-0-KL	 GRAD: twt, depth excessive
+Y	09780005	1974-06-01T12:36:00.00	6606	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T12:40:00.00	6610	0-0-K	 GRAD: twt excessive
+Y	09780005	1974-06-01T12:43:00.00	6613	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:47:00.00	6617	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:50:00.00	6620	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:54:00.00	6624	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T12:59:00.00	6629	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T13:35:00.00	6665	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T13:40:00.00	6670	C-0-0	 NAV: excessive speed
+?	09780005	1974-06-01T14:00:00.00	6690	0-0-KL	 GRAD: twt, depth excessive
+?	09780005	1974-06-01T14:02:00.00	6692	0-0-KL	 GRAD: twt, depth excessive
+Y	09780005	1974-06-01T14:26:00.00	6716	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T15:13:00.00	6763	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T15:17:00.00	6767	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T15:21:00.00	6771	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T15:25:00.00	6775	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T15:42:00.00	6792	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T16:37:00.00	6847	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T16:54:00.00	6864	C-0-0	 NAV: excessive speed
+Y	09780005	1974-06-01T16:58:00.00	6868	C-0-0	 NAV: excessive speed

@@ -1,0 +1,25 @@
+# Cruise 20010038 ID TN057 MGD77 FILE VERSION: 19961219 N_RECS: 32132
+# Examined: Tue Oct 19 14:53:04 2010 by mtchandl
+# Arguments:  -R0.6/18.45/-53.35/-33.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-20010038-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [4]
+Y-W-20010038-H16-06: Ten Degree Identifier 5400 marked in header but was not crossed
+Y-I-20010038-depth-01: RLS m: 1.00048 b: 0 rms: 20.04 r: 0.99988 sig: 1 dec: 0
+N-E-20010038-depth-02: Regression slope 1.00048 different from 1. Recommended: [1]
+# Errata: Data
+?	20010038	1996-02-07T21:46:00.00	6191	0-0-KL	 GRAD: twt, depth excessive
+?	20010038	1996-02-09T18:40:00.00	8216	0-0-KL	 GRAD: twt, depth excessive
+?	20010038	1996-02-16T13:32:00.00	15504	0-0-KL	 GRAD: twt, depth excessive
+?	20010038	1996-02-18T20:29:00.00	16579	0-0-KL	 GRAD: twt, depth excessive
+?	20010038	1996-02-22T10:41:00.00	19272	0-0-K	 GRAD: twt excessive
+?	20010038	1996-02-27T18:07:00.00	22785	0-0-K	 GRAD: twt excessive
+?	20010038	1996-02-27T18:13:00.00	22789	0-0-K	 GRAD: twt excessive
+?	20010038	1996-02-28T05:01:00.00	23016	0-0-K	 GRAD: twt excessive
+?	20010038	1996-03-05T19:12:00.00	27805	0-0-KL	 GRAD: twt, depth excessive
+?	20010038	1996-03-08T08:41:00.00	29576	0-0-K	 GRAD: twt excessive
+?	20010038	1996-03-08T11:57:00.00	29772	0-0-KL	 GRAD: twt, depth excessive

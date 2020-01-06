@@ -1,0 +1,33 @@
+# Cruise 08040004 ID 70042204 MGD77 FILE VERSION: 19830518 N_RECS: 10686
+# Examined: Mon Nov 23 15:26:42 2009 by mtchandl
+# Arguments:  -R139.45/196.75/-0.55/13.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies - low sample rate.
+# Errata: Header
+Y-W-08040004-H13-10: Survey year (1970) outside magnetic reference field Unused time range (9999-9999)
+Y-E-08040004-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08040004-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-E-08040004-H16-01: Invalid Number of Ten Degree Identifiers: (10) [12]
+Y-W-08040004-H16-06: Ten Degree Identifier 3015 not marked in header but block was crossed
+Y-W-08040004-H16-06: Ten Degree Identifier 3016 not marked in header but block was crossed
+Y-W-08040004-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08040004-depth-01: RLS m: 0.999651 b: 0 rms: 23.2998 r: 0.999741 sig: 1 dec: 0
+Y-I-08040004-faa-01: RLS m: 0.987195 b: -0.785057 rms: 8.24701 r: 0.996955 sig: 1 dec: 1
+N-E-08040004-faa-02: Regression slope 0.987195 different from 1. Recommended: [1]
+Y-E-08040004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00082 b: -184.388 rms: 187.828 r: 0.979381 sig: 1 dec: 0). [Recompute]
+Y-W-08040004-twt-11: More recent bathymetry correction table available
+Y-W-08040004-mtf1-12: Integer precision
+Y-W-08040004-mag-12: Integer precision
+Y-W-08040004-faa-12: Integer precision
+# Errata: Data
+?	08040004	1970-10-07T08:46:00.00	3609	0-Q-0	 VAL: mag invalid
+?	08040004	1970-10-07T08:49:00.00	3610	0-Q-0	 VAL: mag invalid
+?	08040004	1970-10-07T08:52:00.00	3612	0-Q-0	 VAL: mag invalid
+?	08040004	1970-10-13T21:14:48.00	5746	0-0-KL	 GRAD: twt, depth excessive
+?	08040004	1970-10-14T21:20:00.00	5994	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08040004	1970-10-31T20:08:36.00	10682	D-0-0	 NAV: on land
+Y	08040004	1970-10-31T20:11:48.00	10683	D-0-0	 NAV: on land
+Y	08040004	1970-10-31T20:13:11.94	10684	D-0-0	 NAV: on land

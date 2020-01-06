@@ -1,0 +1,23 @@
+# Cruise 15010061 ID SCAN04AR MGD77 FILE VERSION: 19830818 N_RECS: 7153
+# Examined: Tue May 13 09:14:25 2008 by mtchandl
+# Arguments:  -R138.75/147.25/13.4/35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010061-H04-05: Invalid Survey Arrival Month: (07) [06]
+N-E-15010061-H04-06: Invalid Survey Arrival Day: (01) [30]
+Y-I-15010061-depth-01: RLS m: 1 b: 0 rms: 156.174 r: 0.993537 sign: 1 dec: 1
+Y-E-15010061-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00302 b: 39.4372 rms: 52.9057 r: 0.977975 sig: 1 dec: 1). [Recompute]
+Y-W-15010061-mtf1-12: Integer multiple of 5 precision
+Y-W-15010061-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010061	1969-06-19T08:02:00.00	1842	0-0-KL	 GRAD: twt, depth excessive
+?	15010061	1969-06-20T02:12:00.00	2207	0-0-K	 GRAD: twt excessive
+?	15010061	1969-06-20T20:36:00.00	2455	0-0-K	 GRAD: twt excessive
+?	15010061	1969-06-25T09:52:00.00	4374	0-0-KL	 GRAD: twt, depth excessive
+?	15010061	1969-06-25T17:02:00.00	4529	0-0-K	 GRAD: twt excessive
+?	15010061	1969-06-26T19:22:00.00	5141	0-0-KL	 GRAD: twt, depth excessive
+?	15010061	1969-06-26T22:24:00.00	5231	0-0-K	 GRAD: twt excessive

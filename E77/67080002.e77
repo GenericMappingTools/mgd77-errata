@@ -1,0 +1,14 @@
+# Cruise 67080002 ID WOCE_CPT MGD77 FILE VERSION: 20010424 N_RECS: 15253
+# Examined: Sun Jul 31 22:09:08 2011 by mtchandl
+# Arguments:  -R9.95/18.35/-40.05/-33.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-67080002-H11-05: Invalid Leftmost Longitude: ( 010) [+009]
+Y-I-67080002-depth-01: RLS m: 1.00136 b: 0 rms: 10.798 r: 0.99999 sig: 1 dec: 0
+N-E-67080002-depth-02: Regression slope 1.00136 different from 1. Recommended: [1]
+Y-W-67080002-depth-12: Integer precision
+# Errata: Data

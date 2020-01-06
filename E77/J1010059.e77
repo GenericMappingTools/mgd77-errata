@@ -1,0 +1,26 @@
+# Cruise J1010059 ID HT92T271 MGD77 FILE VERSION: 19961031 N_RECS: 1765
+# Examined: Thu Aug  4 20:16:13 2011 by mtchandl
+# Arguments:  -R147.2/150.1/27.85/30.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recalculation. Flagged largest gravity offsets.
+# Errata: Header
+N-E-J1010059-H04-03: Invalid Survey Departure Day: (15) [17]
+Y-E-J1010059-H04-05: Invalid Survey Arrival Month: (09) [08]
+Y-E-J1010059-H04-06: Invalid Survey Arrival Day: (01) [30]
+Y-I-J1010059-depth-01: RLS m: 1 b: 0 rms: 10.1098 r: 0.998018 sig: 1 dec: 0
+Y-I-J1010059-faa-01: RLS m: 1.01288 b: -3.11919 rms: 5.67424 r: 0.991163 sig: 1 dec: 1
+Y-W-J1010059-faa-03: Regression offset -3.11919 different from 0.
+Y-W-J1010059-faa-03: Regression offset -3.11919 different from 0.
+Y-E-J1010059-faa-08: Extended offset from grid [507-521]
+Y-E-J1010059-faa-08: Extended offset from grid [525-541]
+Y-E-J1010059-faa-08: Extended offset from grid [786-831]
+Y-E-J1010059-faa-08: Extended offset from grid [1048-1068]
+Y-E-J1010059-faa-08: Extended offset from grid [1130-1154]
+Y-E-J1010059-faa-08: Extended offset from grid [1710-1765]
+Y-W-J1010059-depth-12: Integer multiple of 5 precision
+Y-W-J1010059-mag-12: Integer precision
+Y-W-J1010059-faa-12: Integer precision
+# Errata: Data

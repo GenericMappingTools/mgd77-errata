@@ -1,0 +1,16 @@
+# Cruise 03030071 ID DI9302 MGD77 FILE VERSION: 19971215 N_RECS: 2387
+# Examined: Fri Apr 16 13:37:53 2010 by mtchandl
+# Arguments:  -R229.95/230.6/46/46.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03030071-time-01: 3 of 2387 records contain invalid time
+Y-I-03030071-depth-01: RLS m: 1.0014 b: 0 rms: 39.8744 r: 0.983999 sig: 1 dec: 0
+Y-W-03030071-depth-12: Integer precision
+# Errata: Data
+Y	03030071	NaN	5	E-0-0	 NAV: navigation undefined
+Y	03030071	NaN	249	E-0-0	 NAV: navigation undefined
+Y	03030071	NaN	1978	E-0-0	 NAV: navigation undefined

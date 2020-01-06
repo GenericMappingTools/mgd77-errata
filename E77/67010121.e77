@@ -1,0 +1,30 @@
+# Cruise 67010121 ID 83002911 MGD77 FILE VERSION: 19860605 N_RECS: 18074
+# Examined: Sat Jul 30 19:20:17 2011 by mtchandl
+# Arguments:  -R-12.9/-5.55/39.45/47.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010121-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-67010121-depth-01: RLS m: 0.998389 b: 0 rms: 35.4061 r: 0.999394 sig: 1 dec: 0
+N-E-67010121-depth-02: Regression slope 0.998389 different from 1. Recommended: [1]
+Y-W-67010121-depth-12: Integer precision
+# Errata: Data
+Y	67010121	1983-07-29T10:13:00.00	1147	C-0-0	 NAV: excessive speed
+Y	67010121	1983-07-30T09:23:00.00	2488	C-0-0	 NAV: excessive speed
+Y	67010121	1983-07-31T17:34:00.00	4315	C-0-0	 NAV: excessive speed
+?	67010121	1983-08-03T10:30:00.00	8029	0-0-L	 GRAD: depth excessive
+?	67010121	1983-08-04T05:53:00.00	8776	0-0-L	 GRAD: depth excessive
+?	67010121	1983-08-04T21:59:00.00	9615	0-0-L	 GRAD: depth excessive
+Y	67010121	1983-08-05T07:36:00.00	10166	C-0-0	 NAV: excessive speed
+?	67010121	1983-08-05T08:13:00.00	10199	0-0-L	 GRAD: depth excessive
+?	67010121	1983-08-05T08:14:00.00	10200	0-0-L	 GRAD: depth excessive
+?	67010121	1983-08-07T01:48:00.00	12590	0-0-L	 GRAD: depth excessive
+Y	67010121	1983-08-09T09:59:00.00	15815	C-0-0	 NAV: excessive speed
+Y	67010121	1983-08-09T18:05:00.00	16283	C-0-0	 NAV: excessive speed
+Y	67010121	1983-08-09T22:00:00.00	16504	C-0-0	 NAV: excessive speed
+Y	67010121	1983-08-10T04:13:00.00	16862	C-0-0	 NAV: excessive speed
+Y	67010121	1983-08-10T11:27:00.00	17275	C-0-0	 NAV: excessive speed
+Y	67010121	1983-08-10T11:59:00.00	17303	C-0-0	 NAV: excessive speed

@@ -1,0 +1,29 @@
+# Cruise 67010062 ID 76006911 MGD77 FILE VERSION: 19800427 N_RECS: 2371
+# Examined: Fri Jul 29 16:28:16 2011 by mtchandl
+# Arguments:  -R-7.6/-3.2/45.6/47.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, flagged bathymetry offset.
+# Errata: Header
+Y-W-67010062-nav-00: Flagged 0.42 % of records with bad navigation
+Y-I-67010062-depth-01: RLS m: 0.998758 b: 0 rms: 19.8406 r: 0.999959 sig: 1 dec: 0
+N-E-67010062-depth-02: Regression slope 0.998758 different from 1. Recommended: [1]
+Y-E-67010062-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997561 b: -150.577 rms: 150.709 r: 0.995827 sig: 1 dec: 0). [Recompute]
+Y-E-67010062-depth-08: Extended offset from grid [214-404]
+Y-W-67010062-mag-09: only found negative values
+Y-W-67010062-twt-11: More recent bathymetry correction table available
+Y-W-67010062-mtf1-12: Integer precision
+Y-W-67010062-mag-12: Integer precision
+# Errata: Data
+Y	67010062	1976-03-14T21:24:00.00	6	B-0-0	 NAV: non-increasing time
+Y	67010062	1976-03-14T21:30:00.00	7	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-14T21:31:00.00	8	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-14T21:32:00.00	9	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-14T21:35:00.00	10	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-15T18:32:00.00	153	B-0-0	 NAV: non-increasing time
+Y	67010062	1976-03-15T18:36:00.00	154	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-19T18:19:00.00	720	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-19T18:29:00.00	721	C-0-0	 NAV: excessive speed
+Y	67010062	1976-03-19T18:34:00.00	722	C-0-0	 NAV: excessive speed

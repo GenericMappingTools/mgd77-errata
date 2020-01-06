@@ -1,0 +1,37 @@
+# Cruise 07120002 ID BAJA76A MGD77 FILE VERSION: 19840120 N_RECS: 4135
+# Examined: Mon Jul 26 15:33:06 2010 by mtchandl
+# Arguments:  -R243.15/254.7/20.4/31.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07120002-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-07120002-depth-01: RLS m: 0.998389 b: 0 rms: 23.2382 r: 0.999852 sig: 1 dec: 0
+N-E-07120002-depth-02: Regression slope 0.998389 different from 1. Recommended: [1]
+Y-I-07120002-faa-01: RLS m: 0.963593 b: -0.0784825 rms: 6.30166 r: 0.988459 sig: 1 dec: 0
+N-E-07120002-faa-02: Regression slope 0.963593 different from 1. Recommended: [1]
+Y-E-07120002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.945191 b: -13.1713 rms: 55.9694 r: 0.975842 sig: 1 dec: 1). [Recompute]
+Y-W-07120002-twt-11: More recent bathymetry correction table available
+Y-W-07120002-mtf1-12: Integer precision
+Y-W-07120002-mag-12: Integer precision
+# Errata: Data
+?	07120002	1976-07-05T02:58:42.00	607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T03:03:42.00	609	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T04:18:42.00	629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T05:03:42.00	641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T05:08:42.00	642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T19:12:30.00	861	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T19:42:30.00	869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-05T20:02:30.00	874	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-06T12:32:30.00	1269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-07T05:02:30.00	1562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-07T14:01:00.00	1775	0-0-K	 GRAD: twt excessive
+?	07120002	1976-07-08T07:01:48.00	2237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120002	1976-07-11T09:27:00.00	3768	D-0-0	 NAV: on land
+Y	07120002	1976-07-11T09:28:00.00	3769	D-0-0	 NAV: on land
+Y	07120002	1976-07-11T09:29:00.00	3770	D-0-0	 NAV: on land
+Y	07120002	1976-07-11T09:30:00.00	3771	D-0-0	 NAV: on land
+Y	07120002	1976-07-11T09:31:00.00	3772	D-0-0	 NAV: on land
+?	07120002	1976-07-11T13:05:00.00	3835	0-0-KL	 GRAD: twt, depth excessive

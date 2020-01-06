@@ -1,0 +1,22 @@
+# Cruise 15010085 ID LUSI04AR MGD77 FILE VERSION: 19810928 N_RECS: 6768
+# Examined: Wed May 14 08:19:52 2008 by mtchandl
+# Arguments:  -R39.7/79.85/-5.1/7.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15010085-nav-00: Flagged 0.13 % of records with excessive speed or invalid navigation
+Y-I-15010085-depth-01: RLS m: 1.00388 b: 0 rms: 114.013 r: 0.996416 sign: 1 dec: 1
+Y-W-15010085-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	15010085	1962-08-16T17:54:00.00	4678	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:00:00.00	4679	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:06:00.00	4680	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:12:00.00	4681	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:18:00.00	4682	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:24:00.00	4683	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-16T18:30:00.00	4684	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-17T14:24:00.00	4883	C-0-0	 NAV: excessive speed
+Y	15010085	1962-08-18T14:42:00.00	5126	C-0-0	 NAV: excessive speed

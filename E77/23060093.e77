@@ -1,0 +1,23 @@
+# Cruise 23060093 ID ODP187JR MGD77 FILE VERSION: 20080229 N_RECS: 12154
+# Examined: Thu Feb  3 13:57:08 2011 by mtchandl
+# Arguments:  -R114.7/127.8/-44.45/-31.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060093-H04-01: Invalid Survey Departure Year: (1999) [2000]
+N-E-23060093-H04-02: Invalid Survey Departure Month: (11) [01]
+N-E-23060093-H04-03: Invalid Survey Departure Day: (16) [01]
+Y-W-23060093-H13-10: Survey year (2000) outside magnetic reference field Unused time range (9999-9999)
+N-E-23060093-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-23060093-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-23060093-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-23060093-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-23060093-H16-06: Ten Degree Identifier 3312 not marked in header but block was crossed
+Y-W-23060093-H16-06: Ten Degree Identifier 3412 not marked in header but block was crossed
+Y-I-23060093-depth-01: RLS m: 0.999517 b: 0 rms: 27.8279 r: 0.995717 sig: 1 dec: 0
+Y-W-23060093-twt-11: More recent bathymetry correction table available
+Y-W-23060093-depth-12: Integer precision
+# Errata: Data

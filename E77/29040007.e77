@@ -1,0 +1,48 @@
+# Cruise 29040007 ID DME18 MGD77 FILE VERSION: 19851230 N_RECS: 4450
+# Examined: Mon Feb 14 22:26:13 2011 by mtchandl
+# Arguments:  -R104.7/184.5/-26.75/14.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: faa computed using IGF30, recommend recomputing as gobs-IGF80.
+# Errata: Header
+N-E-29040007-H16-01: Invalid Number of Ten Degree Identifiers: (18) [19]
+Y-W-29040007-H16-06: Ten Degree Identifier 3013 not marked in header but block was crossed
+Y-W-29040007-nav-00: Flagged 0.61 % of records with bad navigation
+Y-I-29040007-depth-01: RLS m: 1.00107 b: 0 rms: 15.3223 r: 0.9999 sig: 1 dec: 0
+N-E-29040007-depth-02: Regression slope 1.00107 different from 1. Recommended: [1]
+Y-I-29040007-faa-01: RLS m: 1.01071 b: -13.5565 rms: 15.3238 r: 0.994338 sig: 1 dec: 0
+N-E-29040007-faa-02: Regression slope 1.01071 different from 1. Recommended: [1]
+Y-W-29040007-faa-03: Regression offset -13.5565 different from 0.
+Y-E-29040007-faa-06: Anomaly differs from gobs-IGF80 (m: 0.9997 b: -16.11 rms: 16.1089 r: 0.999996 sig: 1 dec: 0). [Recompute]
+Y-W-29040007-twt-11: More recent bathymetry correction table available
+Y-W-29040007-depth-12: Integer precision
+# Errata: Data
+Y	29040007	1977-03-22T12:15:00.00	3191	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T12:25:00.00	3192	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T12:35:00.00	3193	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T12:45:00.00	3194	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T12:55:00.00	3195	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T13:05:00.00	3196	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T13:15:00.00	3197	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-22T13:25:00.00	3198	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-27T10:50:00.00	3841	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T11:00:00.00	3842	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T11:10:00.00	3843	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T11:20:00.00	3844	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T11:30:00.00	3845	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T11:40:00.00	3846	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T12:10:00.00	3847	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T12:20:00.00	3848	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T12:30:00.00	3849	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-27T12:40:00.00	3850	B-0-0	 NAV: non-increasing time
+Y	29040007	1977-03-29T00:15:00.00	4027	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T00:25:00.00	4028	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T00:35:00.00	4029	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T00:45:00.00	4030	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T00:55:00.00	4031	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T01:05:00.00	4032	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T01:15:00.00	4033	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T19:35:00.00	4124	C-0-0	 NAV: excessive speed
+Y	29040007	1977-03-29T19:45:00.00	4125	C-0-0	 NAV: excessive speed

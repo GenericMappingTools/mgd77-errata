@@ -1,0 +1,35 @@
+# Cruise 67010176 ID 87001511 MGD77 FILE VERSION: 19931231 N_RECS: 23627
+# Examined: Mon Nov 23 16:07:16 2009 by mtchandl
+# Arguments:  -R159.9/173.9/-9.45/14.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010176-depth-01: RLS m: 1 b: 0 rms: 8.52818 r: 0.999942 sig: 1 dec: 0
+Y-I-67010176-faa-01: RLS m: 0.994706 b: -9.36189 rms: 9.64222 r: 0.994219 sig: 1 dec: 0
+N-E-67010176-faa-02: Regression slope 0.994706 different from 1. Recommended: [1]
+Y-W-67010176-faa-03: Regression offset -9.36189 different from 0.
+Y-I-67010176-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010176-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.781955 b: -13.017 rms: 41.8344 r: 0.889947 sig: 1 dec: 1). [Recompute]
+Y-E-67010176-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988087 b: -34.538 rms: 36.6024 r: 0.999169 sig: 1 dec: 1). [Recompute]
+Y-W-67010176-depth-12: Integer precision
+Y-W-67010176-mtf1-12: Integer precision
+Y-W-67010176-mag-12: Integer precision
+# Errata: Data
+?	67010176	1987-04-30T20:54:00.00	177	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-04-30T23:55:00.00	358	0-0-UW	 GRAD: gobs, faa excessive
+?	67010176	1987-05-07T19:33:00.00	10176	0-0-V	 GRAD: eot excessive
+?	67010176	1987-05-08T08:25:00.00	10948	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-05-10T16:13:00.00	14296	0-0-V	 GRAD: eot excessive
+?	67010176	1987-05-11T03:25:00.00	14968	0-0-K	 GRAD: twt excessive
+?	67010176	1987-05-15T11:14:00.00	21182	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-05-15T11:15:00.00	21183	0-0-V	 GRAD: eot excessive
+?	67010176	1987-05-16T15:46:00.00	22894	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-05-16T15:48:00.00	22896	0-0-UW	 GRAD: gobs, faa excessive
+?	67010176	1987-05-16T18:14:00.00	23042	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-05-16T18:17:00.00	23045	0-0-K	 GRAD: twt excessive
+?	67010176	1987-05-17T02:01:00.00	23509	0-0-K	 GRAD: twt excessive
+?	67010176	1987-05-17T02:15:00.00	23523	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010176	1987-05-17T02:38:00.00	23546	0-0-UVW	 GRAD: gobs, eot, faa excessive

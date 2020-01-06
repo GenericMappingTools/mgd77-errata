@@ -1,0 +1,27 @@
+# Cruise 08020086 ID MW9403 MGD77 FILE VERSION: 19961010 N_RECS: 8212
+# Examined: Fri Jul 30 14:07:27 2010 by mtchandl
+# Arguments:  -R202.4/205.25/18.75/20.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-08020086-depth-01: RLS m: 0.999651 b: 0 rms: 59.6086 r: 0.998912 sig: 1 dec: 0
+Y-W-08020086-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020086	1994-02-02T22:17:10.02	2482	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T02:26:28.02	2804	0-0-K	 GRAD: twt excessive
+?	08020086	1994-02-03T02:31:28.98	2812	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T08:44:43.02	3349	0-0-K	 GRAD: twt excessive
+?	08020086	1994-02-03T13:15:28.02	3767	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T13:41:52.98	3813	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T14:17:07.02	3895	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T14:28:03.00	3921	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-03T14:29:13.02	3924	0-0-K	 GRAD: twt excessive
+?	08020086	1994-02-03T17:12:22.98	4327	0-0-K	 GRAD: twt excessive
+?	08020086	1994-02-03T17:22:07.98	4352	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-04T02:32:04.98	5763	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-04T05:16:57.00	6170	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-04T07:36:46.98	6502	0-0-KL	 GRAD: twt, depth excessive
+?	08020086	1994-02-04T21:25:31.98	7728	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,60 @@
+# Cruise 06050110 ID L385NC MGD77 FILE VERSION: 19881202 N_RECS: 1978
+# Examined: Fri May 28 14:32:27 2010 by mtchandl
+# Arguments:  -R236.4/237.85/37.15/37.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry records due to poor bottom tracking.
+# Errata: Header
+Y-W-06050110-nav-00: Flagged 0.66 % of records with bad navigation
+Y-I-06050110-depth-01: RLS m: 0.963786 b: 0 rms: 35.1287 r: 0.999615 sig: 1 dec: 0
+N-E-06050110-depth-02: Regression slope 0.963786 different from 1. Recommended: [1]
+Y-E-06050110-depth-10: Invalid data records: [464-1407]
+N-E-06050110-twt-13: Encountered possible PDR wrap errors (8.8) [10.0]
+Y-W-06050110-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06050110	1985-07-15T23:49:00.00	463	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-15T23:50:00.00	464	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-15T23:51:00.00	465	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-16T00:38:00.00	512	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T00:39:00.00	513	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T02:05:00.00	582	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-16T02:06:00.00	583	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-16T02:43:00.00	620	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T02:44:00.00	621	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T03:59:00.00	696	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T04:13:00.00	710	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:52:00.00	809	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	06050110	1985-07-16T05:53:00.00	810	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:54:00.00	811	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:55:00.00	812	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:56:00.00	813	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:57:00.00	814	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T05:58:00.00	815	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T06:39:00.00	841	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	06050110	1985-07-16T12:49:00.00	1211	0-M-0	 VAL: bcc invalid
+?	06050110	1985-07-16T12:52:00.00	1214	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T12:54:00.00	1216	0-0-K	 GRAD: twt excessive
+?	06050110	1985-07-16T14:29:00.00	1311	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T14:30:00.00	1312	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T14:31:00.00	1313	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T14:32:00.00	1314	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T16:03:00.00	1405	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T16:04:00.00	1406	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T16:05:00.00	1407	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T16:06:00.00	1408	0-0-KL	 GRAD: twt, depth excessive
+?	06050110	1985-07-16T23:41:00.00	1863	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+Y	06050110	1985-07-17T01:24:00.00	1966	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:25:00.00	1967	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:26:00.00	1968	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:27:00.00	1969	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:28:00.00	1970	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:29:00.00	1971	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:30:00.00	1972	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:31:00.00	1973	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:32:00.00	1974	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:33:00.00	1975	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:34:00.00	1976	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:35:00.00	1977	D-0-0	 NAV: on land
+Y	06050110	1985-07-17T01:36:00.00	1978	D-0-0	 NAV: on land

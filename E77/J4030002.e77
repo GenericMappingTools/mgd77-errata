@@ -1,0 +1,13 @@
+# Cruise J4030002 ID UM6401 MGD77 FILE VERSION: 19790101 N_RECS: 499
+# Examined: Sun Aug  7 10:19:20 2011 by mtchandl
+# Arguments:  -R130/139.6/22.2/35.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomalies could be outdated, no total field data for recalculation.
+# Errata: Header
+Y-W-J4030002-nav-00: Flagged 0.20 % of records with bad navigation
+Y-W-J4030002-mag-12: Integer precision
+# Errata: Data
+Y	J4030002	1964-03-28T15:10:00.00	38	C-0-0	 NAV: excessive speed

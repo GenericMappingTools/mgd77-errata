@@ -1,0 +1,30 @@
+# Cruise 10020016 ID IG2902 MGD77 FILE VERSION: 19900913 N_RECS: 4930
+# Examined: Mon Aug 16 17:23:39 2010 by mtchandl
+# Arguments:  -R260.15/280.55/6.95/16.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020016-H04-03: Invalid Survey Departure Day: (16) [10]
+Y-E-10020016-H04-06: Invalid Survey Arrival Day: (28) [29]
+Y-E-10020016-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020016-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020016-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-10020016-depth-01: RLS m: 0.997521 b: 0 rms: 28.6178 r: 0.999831 sig: 1 dec: 0
+N-E-10020016-depth-02: Regression slope 0.997521 different from 1. Recommended: [1]
+Y-E-10020016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.916472 b: -124.282 rms: 150.23 r: 0.865271 sig: 1 dec: 1). [Recompute]
+Y-W-10020016-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020016-depth-12: Integer precision
+Y-W-10020016-mtf1-12: Integer precision
+Y-W-10020016-mag-12: Integer precision
+# Errata: Data
+?	10020016	1978-06-10T16:50:00.00	75	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020016	1978-06-11T20:20:00.00	405	0-0-Q	 GRAD: mag excessive
+?	10020016	1978-06-18T23:00:00.00	2002	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020016	1978-06-25T02:05:00.00	3762	0-0-L	 GRAD: depth excessive
+?	10020016	1978-06-25T10:15:00.00	3860	D-0-0	 NAV: on land
+Y	10020016	1978-06-25T10:20:00.00	3861	D-0-0	 NAV: on land
+?	10020016	1978-06-25T10:25:00.00	3862	D-0-0	 NAV: on land
+?	10020016	1978-06-28T07:20:00.00	4686	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,59 @@
+# Cruise 09260009 ID LY71D MGD77 FILE VERSION: 19810609 N_RECS: 3743
+# Examined: Mon Aug  9 12:27:27 2010 by mtchandl
+# Arguments:  -R303.55/316/49.4/64.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09260009-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09260009-depth-01: RLS m: 1.0035 b: 0 rms: 48.2146 r: 0.999474 sig: 1 dec: 0
+N-E-09260009-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-E-09260009-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01414 b: 227.936 rms: 229.717 r: 0.99482 sig: 1 dec: 0). [Recompute]
+Y-W-09260009-mtf1-12: Integer precision
+# Errata: Data
+?	09260009	1971-07-07T09:56:00.00	210	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T09:58:00.00	211	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T10:00:00.00	212	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T10:03:00.00	213	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T10:05:00.00	214	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T10:09:00.00	215	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T10:12:00.00	217	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T11:08:00.00	244	0-0-Q	 GRAD: mag excessive
+?	09260009	1971-07-07T14:05:00.00	276	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:10:00.00	277	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:23:00.00	279	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:28:00.00	280	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:31:00.00	282	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:34:00.00	283	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:38:00.00	284	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:42:00.00	285	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:53:00.00	287	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T14:56:00.00	288	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:00:00.00	289	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:10:00.00	290	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:25:00.00	292	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:33:00.00	293	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:38:00.00	294	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:50:00.00	296	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-07T15:55:00.00	297	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-14T03:45:00.00	1252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T03:48:00.00	1253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T03:49:00.00	1254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T03:51:00.00	1256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:00:00.00	1263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:01:00.00	1264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:18:00.00	1274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:26:00.00	1278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:27:00.00	1279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:32:00.00	1283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:33:00.00	1284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T04:35:00.00	1286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T05:14:00.00	1301	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-14T05:15:00.00	1302	0-Q-0	 VAL: mag invalid
+?	09260009	1971-07-14T05:19:00.00	1304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T17:00:00.00	1554	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09260009	1971-07-14T17:05:00.00	1555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-17T07:12:00.00	1988	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260009	1971-07-17T07:19:00.00	1989	0-0-OQ	 GRAD: mtf1, mag excessive

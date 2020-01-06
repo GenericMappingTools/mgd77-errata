@@ -1,0 +1,29 @@
+# Cruise 09050037 ID KA931010 MGD77 FILE VERSION: 19791128 N_RECS: 12549
+# Examined: Mon Aug  9 11:35:10 2010 by mtchandl
+# Arguments:  -R329.95/352.7/28.05/48.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09050037-H04-03: Invalid Survey Departure Day: (13) [14]
+Y-E-09050037-H04-06: Invalid Survey Arrival Day: (06) [23]
+Y-E-09050037-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050037-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09050037-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-09050037-depth-01: RLS m: 1.00035 b: 0 rms: 12.4504 r: 0.999918 sig: 1 dec: 0
+N-E-09050037-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-W-09050037-depth-12: Integer precision
+# Errata: Data
+Y	09050037	1971-05-21T22:05:00.00	6797	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:10:00.00	6798	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:15:00.00	6799	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:20:00.00	6800	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:25:00.00	6801	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:30:00.00	6802	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:35:00.00	6803	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:40:00.00	6804	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:45:00.00	6805	B-0-0	 NAV: non-increasing time
+Y	09050037	1971-05-21T22:50:00.00	6806	B-0-0	 NAV: non-increasing time
+?	09050037	1971-06-21T06:50:00.00	12047	0-0-K	 GRAD: twt excessive

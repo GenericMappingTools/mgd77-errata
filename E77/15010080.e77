@@ -1,0 +1,39 @@
+# Cruise 15010080 ID ZTES07AR MGD77 FILE VERSION: 19800226 N_RECS: 14431
+# Examined: Wed May 14 08:18:08 2008 by mtchandl
+# Arguments:  -R205.05/240.3/19.75/32.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010080-H04-03: Invalid Survey Departure Day: (22) [23]
+Y-W-15010080-nav-00: Flagged 0.08 % of records with excessive speed or invalid navigation
+Y-I-15010080-depth-01: RLS m: 1 b: 0 rms: 572.791 r: 0.866741 sign: 1 dec: 1
+Y-E-15010080-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00025 b: -190.892 rms: 192.131 r: 0.9963 sig: 1 dec: 1). [Recompute]
+Y-W-15010080-twt-11: More recent bathymetry correction table available
+Y-W-15010080-mtf1-12: Integer multiple of 5 precision
+Y-W-15010080-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010080	1966-07-27T15:15:00.00	3524	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:16:00.00	3525	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:17:00.00	3526	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:18:00.00	3527	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:19:00.00	3528	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:20:00.00	3529	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:21:00.00	3530	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:22:00.00	3531	C-0-0	 NAV: excessive speed
+Y	15010080	1966-07-27T15:23:00.00	3532	C-0-0	 NAV: excessive speed
+?	15010080	1966-07-29T11:31:00.00	5106	0-0-K	 GRAD: twt excessive
+?	15010080	1966-07-30T21:34:00.00	6224	0-0-K	 GRAD: twt excessive
+?	15010080	1966-07-31T17:50:00.00	6908	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-03T02:03:00.00	9143	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-03T04:39:00.00	9299	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-03T06:25:00.00	9405	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-03T07:41:00.00	9481	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-03T09:31:00.00	9591	0-0-KL	 GRAD: twt, depth excessive
+Y	15010080	1966-08-03T11:22:00.00	9702	C-0-0	 NAV: excessive speed
+Y	15010080	1966-08-04T00:19:00.00	10241	C-0-0	 NAV: excessive speed
+Y	15010080	1966-08-04T00:20:00.00	10242	C-0-0	 NAV: excessive speed
+?	15010080	1966-08-06T15:48:00.00	12381	0-0-K	 GRAD: twt excessive
+?	15010080	1966-08-07T19:51:00.00	14058	0-0-K	 GRAD: twt excessive

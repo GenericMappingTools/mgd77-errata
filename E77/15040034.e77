@@ -1,0 +1,76 @@
+# Cruise 15040034 ID 7TOW06WT MGD77 FILE VERSION: 19830819 N_RECS: 5189
+# Examined: Wed May 21 11:36:36 2008 by mtchandl
+# Arguments:  -R188.2/202.1/-13.8/21.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040034-H04-03: Invalid Survey Departure Day: (03) [04]
+Y-I-15040034-depth-01: RLS m: 1.00388 b: 0 rms: 196.708 r: 0.989086 sig: 1 dec: 1
+Y-E-15040034-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.986531 b: 4.8996 rms: 23.1029 r: 0.99779 sig: 1 dec: 1). [Recompute]
+Y-W-15040034-mtf1-12: Integer multiple of 5 precision
+Y-W-15040034-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040034	1970-06-04T01:18:00.00	2	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-04T01:24:00.00	3	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-09T07:42:00.00	1153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-11T09:00:00.00	1464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-13T12:06:00.00	1855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-13T13:12:00.00	1866	0-Q-0	 VAL: mag invalid
+?	15040034	1970-06-13T13:18:00.00	1867	0-Q-0	 VAL: mag invalid
+?	15040034	1970-06-13T14:00:00.00	1874	0-Q-0	 VAL: mag invalid
+?	15040034	1970-06-13T14:06:00.00	1875	0-Q-0	 VAL: mag invalid
+?	15040034	1970-06-13T15:12:00.00	1886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-13T15:18:00.00	1887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T16:54:00.00	2309	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T17:00:00.00	2310	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T17:06:00.00	2311	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T17:18:00.00	2313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T17:24:00.00	2314	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15040034	1970-06-15T18:00:00.00	2320	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T18:24:00.00	2324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T18:30:00.00	2325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T18:36:00.00	2326	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T18:48:00.00	2328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T18:54:00.00	2329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T19:00:00.00	2330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T19:06:00.00	2331	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T19:24:00.00	2334	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T20:36:00.00	2346	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15040034	1970-06-15T20:42:00.00	2347	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T20:48:00.00	2348	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T20:54:00.00	2349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:00:00.00	2350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:06:00.00	2351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:12:00.00	2352	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:24:00.00	2354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:36:00.00	2356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:42:00.00	2357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T21:48:00.00	2358	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T21:54:00.00	2359	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T22:06:00.00	2361	0-0-KL	 GRAD: twt, depth excessive
+?	15040034	1970-06-15T22:12:00.00	2362	0-0-KL	 GRAD: twt, depth excessive
+?	15040034	1970-06-15T22:18:00.00	2363	0-0-KL	 GRAD: twt, depth excessive
+?	15040034	1970-06-15T22:36:00.00	2366	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T22:54:00.00	2369	0-0-K	 GRAD: twt excessive
+?	15040034	1970-06-15T23:06:00.00	2371	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T23:12:00.00	2372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T23:18:00.00	2373	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T23:30:00.00	2375	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15040034	1970-06-15T23:36:00.00	2376	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T23:42:00.00	2377	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-15T23:48:00.00	2378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-15T23:54:00.00	2379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T00:00:00.00	2380	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T00:06:00.00	2381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T00:12:00.00	2382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T00:36:00.00	2386	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15040034	1970-06-16T00:42:00.00	2387	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	15040034	1970-06-16T00:48:00.00	2388	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	15040034	1970-06-16T00:54:00.00	2389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T22:06:00.00	2574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-16T22:24:00.00	2577	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-17T20:12:00.00	2765	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040034	1970-06-29T14:50:00.00	5182	0-0-OQ	 GRAD: mtf1, mag excessive

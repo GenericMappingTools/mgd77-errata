@@ -1,0 +1,121 @@
+# Cruise 15040221 ID VNTR01WT MGD77 FILE VERSION: 19930804 N_RECS: 44458
+# Examined: Tue May 27 10:16:50 2008 by mtchandl
+# Arguments:  -R242.75/270.9/-4.55/32.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040221-H13-10: Survey year (1989) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040221-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15040221-depth-01: RLS m: 1.00388 b: 0 rms: 198.417 r: 0.989357 sig: 1 dec: 1
+Y-E-15040221-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.989086 b: -25.2163 rms: 52.4461 r: 0.988959 sig: 1 dec: 1). [Recompute]
+Y-W-15040221-twt-11: More recent bathymetry correction table available
+Y-W-15040221-depth-12: Integer precision
+Y-W-15040221-mtf1-12: Integer precision
+# Errata: Data
+?	15040221	1989-08-30T02:31:00.00	1933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-08-30T02:32:00.00	1934	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-08-30T02:37:00.00	1939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-08-30T02:38:00.00	1940	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-02T10:53:00.00	6745	0-0-KL	 GRAD: twt, depth excessive
+?	15040221	1989-09-03T20:00:00.00	8522	0-0-K	 GRAD: twt excessive
+?	15040221	1989-09-03T22:19:00.00	8661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-06T07:10:00.00	11442	0-0-K	 GRAD: twt excessive
+Y	15040221	1989-09-16T10:11:00.00	24633	C-0-0	 NAV: excessive speed
+Y	15040221	1989-09-16T10:12:00.00	24634	C-0-0	 NAV: excessive speed
+Y	15040221	1989-09-16T10:52:00.00	24674	C-0-0	 NAV: excessive speed
+?	15040221	1989-09-19T11:08:00.00	28192	0-0-KL	 GRAD: twt, depth excessive
+?	15040221	1989-09-21T02:47:00.00	30183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:48:00.00	30184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:50:00.00	30186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:51:00.00	30187	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:52:00.00	30188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:54:00.00	30190	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:55:00.00	30191	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:56:00.00	30192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:58:00.00	30194	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T02:59:00.00	30195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:00:00.00	30196	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:06:00.00	30202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:07:00.00	30203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:22:00.00	30218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:23:00.00	30219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T03:24:00.00	30220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T07:28:00.00	30464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T07:45:00.00	30481	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:49:00.00	30725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:50:00.00	30726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:51:00.00	30727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:52:00.00	30728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:53:00.00	30729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T11:54:00.00	30730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T14:14:00.00	30870	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T14:15:00.00	30871	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T14:16:00.00	30872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:28:00.00	30944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:30:00.00	30946	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:31:00.00	30947	0-0-O	 GRAD: mtf1 excessive
+?	15040221	1989-09-21T15:45:00.00	30961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:46:00.00	30962	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:47:00.00	30963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:48:00.00	30964	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T15:49:00.00	30965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:23:00.00	31056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:24:00.00	31057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:25:00.00	31058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:26:00.00	31059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:27:00.00	31060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:28:00.00	31061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:29:00.00	31062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:30:00.00	31063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T18:31:00.00	31064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:11:00.00	31164	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:12:00.00	31165	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:13:00.00	31166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:14:00.00	31167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:15:00.00	31168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:16:00.00	31169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:17:00.00	31170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:18:00.00	31171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:19:00.00	31172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:26:00.00	31179	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:27:00.00	31180	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:28:00.00	31181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:29:00.00	31182	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:30:00.00	31183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:31:00.00	31184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:32:00.00	31185	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:33:00.00	31186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T20:34:00.00	31187	0-0-O	 GRAD: mtf1 excessive
+?	15040221	1989-09-21T20:37:00.00	31190	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:33:00.00	31246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:34:00.00	31247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:35:00.00	31248	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:36:00.00	31249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:37:00.00	31250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:38:00.00	31251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:48:00.00	31261	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:49:00.00	31262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:50:00.00	31263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:51:00.00	31264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-21T21:52:00.00	31265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-22T20:54:00.00	32121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-22T20:55:00.00	32122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-22T20:56:00.00	32123	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-23T00:20:00.00	32327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040221	1989-09-26T15:55:00.00	37077	0-0-K	 GRAD: twt excessive
+?	15040221	1989-09-27T02:59:00.00	37741	0-0-K	 GRAD: twt excessive
+?	15040221	1989-09-30T19:13:00.00	42086	0-0-K	 GRAD: twt excessive
+?	15040221	1989-10-02T10:17:00.00	44327	0-0-KL	 GRAD: twt, depth excessive
+?	15040221	1989-10-02T11:34:00.00	44404	0-0-K	 GRAD: twt excessive
+Y	15040221	1989-10-02T14:14:00.00	44450	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T14:15:00.00	44451	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T14:19:00.00	44452	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T14:40:00.00	44453	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T14:55:00.00	44454	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T15:07:00.00	44455	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T15:11:00.00	44456	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T15:52:00.00	44457	D-0-0	 NAV: on land
+Y	15040221	1989-10-02T16:26:00.00	44458	D-0-0	 NAV: on land

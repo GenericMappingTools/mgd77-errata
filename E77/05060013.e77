@@ -1,0 +1,16 @@
+# Cruise 05060013 ID CH7002 MGD77 FILE VERSION: 19840921 N_RECS: 359
+# Examined: Fri Apr 30 13:42:49 2010 by mtchandl
+# Arguments:  -R170.9/174.1/-41.65/-40.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060013-H13-09: Unknown IGRF specified (DGRF-70)
+Y-E-05060013-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00255 b: -10.7362 rms: 12.9463 r: 0.998161 sig: 1 dec: 1). [Recompute]
+Y-W-05060013-mtf1-12: Integer precision
+Y-W-05060013-mag-12: Integer precision
+# Errata: Data
+?	05060013	1970-05-04T05:30:00.00	13	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060013	1970-05-04T05:38:00.00	17	0-0-OQ	 GRAD: mtf1, mag excessive

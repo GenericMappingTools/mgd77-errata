@@ -1,0 +1,14 @@
+# Cruise 07010001 ID YAQ65APR MGD77 FILE VERSION: 19840131 N_RECS: 421
+# Examined: Fri Jul 16 17:28:59 2010 by mtchandl
+# Arguments:  -R235.55/235.9/44.1/44.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-07010001-faa-01: RLS m: 0.874788 b: 3.02866 rms: 7.79445 r: 0.96314 sig: 1 dec: 0
+N-E-07010001-faa-02: Regression slope 0.874788 different from 1. Recommended: [1]
+Y-W-07010001-faa-03: Regression offset 3.02866 different from 0.
+Y-W-07010001-faa-12: Integer precision
+# Errata: Data

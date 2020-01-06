@@ -1,0 +1,66 @@
+# Cruise 05040008 ID MO9306 MGD77 FILE VERSION: 19961018 N_RECS: 16902
+# Examined: Mon Nov 23 14:41:44 2009 by mtchandl
+# Arguments:  -R166.85/196.95/-28.6/0 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged navigation errors.
+# Errata: Header
+Y-W-05040008-nav-00: Flagged 0.26 % of records with bad navigation
+Y-I-05040008-depth-01: RLS m: 1 b: 0 rms: 24.8588 r: 0.999876 sig: 1 dec: 0
+# Errata: Data
+Y	05040008	1993-06-17T08:30:10.98	35	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-05T20:18:12.00	3549	C-0-0	 NAV: excessive speed
+Y	05040008	1993-07-05T21:36:30.00	3619	D-0-0	 NAV: on land
+Y	05040008	1993-07-05T21:38:01.98	3620	D-0-0	 NAV: on land
+?	05040008	1993-07-05T21:38:45.00	3621	D-0-0	 NAV: on land
+?	05040008	1993-07-07T20:35:13.98	3640	0-0-L	 GRAD: depth excessive
+Y	05040008	1993-07-07T23:51:04.98	3829	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-08T12:43:55.98	4476	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-08T13:08:16.02	4494	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-08T13:10:12.00	4496	B-0-0	 NAV: non-increasing time
+?	05040008	1993-07-08T18:59:12.00	4766	0-0-L	 GRAD: depth excessive
+Y	05040008	1993-07-09T08:25:22.98	4855	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-09T10:55:07.98	4923	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-10T14:53:49.98	5273	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-10T17:12:07.02	5333	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-10T17:15:40.98	5335	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-07-17T07:00:09.00	6359	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-01T08:38:40.02	6949	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-01T15:34:54.00	7387	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-01T16:32:13.02	7425	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-01T17:04:45.00	7437	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-01T18:26:52.98	7489	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-01T18:36:15.00	7501	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-01T23:08:04.98	7751	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-01T23:08:10.02	7752	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-02T03:27:34.02	7954	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T03:53:24.00	7974	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T04:10:01.98	7990	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T05:14:15.00	8054	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T05:20:15.00	8060	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-02T05:20:48.00	8061	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-02T05:34:33.00	8074	C-0-0	 NAV: excessive speed
+Y	05040008	1993-08-02T06:13:31.98	8116	B-0-0	 NAV: non-increasing time
+?	05040008	1993-08-02T06:32:30.00	8127	0-0-L	 GRAD: depth excessive
+Y	05040008	1993-08-02T09:55:07.02	8309	B-0-0	 NAV: non-increasing time
+?	05040008	1993-08-02T10:36:52.98	8330	0-0-L	 GRAD: depth excessive
+?	05040008	1993-08-02T10:37:34.98	8331	0-0-L	 GRAD: depth excessive
+Y	05040008	1993-08-02T12:33:09.00	8432	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T14:30:28.98	8546	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-02T16:15:28.98	8645	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T07:35:55.02	9375	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T12:21:40.98	9581	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T13:05:07.98	9608	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T16:48:28.98	9794	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T18:02:37.02	9862	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-03T18:07:25.98	9864	B-0-0	 NAV: non-increasing time
+Y	05040008	1993-08-04T03:03:40.98	10331	B-0-0	 NAV: non-increasing time
+?	05040008	1993-08-04T05:10:37.02	10429	0-0-L	 GRAD: depth excessive
+?	05040008	1993-08-07T22:07:43.98	11839	D-0-0	 NAV: on land
+?	05040008	1993-08-07T22:10:12.00	11840	D-0-0	 NAV: on land
+Y	05040008	1993-08-07T22:49:58.02	11844	D-0-0	 NAV: on land
+?	05040008	1993-08-07T23:51:19.98	11854	D-0-0	 NAV: on land
+Y	05040008	1993-08-08T00:00:34.02	11855	D-0-0	 NAV: on land
+Y	05040008	1993-08-22T09:02:40.98	14967	B-0-0	 NAV: non-increasing time

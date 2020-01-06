@@ -1,0 +1,34 @@
+# Cruise 01030386 ID V1606 MGD77 FILE VERSION: 19940713 N_RECS: 9006
+# Examined: Fri Mar 19 01:38:55 2010 by mtchandl
+# Arguments:  -R57.25/115.6/-36.2/-20.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01030386-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030386-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030386-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030386-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030386-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030386-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030386-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030386-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01030386-depth-01: RLS m: 1 b: 0 rms: 36.9823 r: 0.999432 sig: 1 dec: 0
+Y-W-01030386-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030386	1960-01-29T10:30:00.00	1208	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-15T04:23:00.00	6361	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-15T18:05:00.00	6615	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-15T19:47:00.00	6644	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-15T20:10:00.00	6651	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-15T20:13:00.00	6652	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-15T20:15:00.00	6653	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-15T20:20:00.00	6654	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-15T20:25:00.00	6655	0-0-K	 GRAD: twt excessive
+?	01030386	1960-02-16T10:40:00.00	6691	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-16T10:42:00.00	6692	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-16T10:45:00.00	6693	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-16T10:48:00.00	6694	0-0-KL	 GRAD: twt, depth excessive
+?	01030386	1960-02-16T21:53:00.00	6884	0-M-0	 VAL: bcc invalid

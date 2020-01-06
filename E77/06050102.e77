@@ -1,0 +1,48 @@
+# Cruise 06050102 ID L482NP MGD77 FILE VERSION: 19870929 N_RECS: 17916
+# Examined: Fri May 28 14:17:07 2010 by mtchandl
+# Arguments:  -R202.05/232.5/21.2/37 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-06050102-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-06050102-depth-01: RLS m: 0.995779 b: 0 rms: 80.5734 r: 0.835462 sig: 1 dec: 0
+Y-E-06050102-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01566 b: -37.1363 rms: 39.7455 r: 0.991284 sig: 1 dec: 1). [Recompute]
+N-E-06050102-twt-13: Encountered possible PDR wrap errors (5.7) [5.0]
+Y-W-06050102-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06050102	1982-03-09T12:00:00.00	9303	0-0-K	 GRAD: twt excessive
+?	06050102	1982-03-09T14:19:00.00	9442	0-0-KL	 GRAD: twt, depth excessive
+?	06050102	1982-03-09T14:22:00.00	9445	0-0-KL	 GRAD: twt, depth excessive
+?	06050102	1982-03-09T14:32:00.00	9455	0-0-KL	 GRAD: twt, depth excessive
+?	06050102	1982-03-15T10:28:00.00	17851	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:29:00.00	17852	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:30:00.00	17853	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:31:00.00	17854	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:32:00.00	17855	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:33:00.00	17856	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:34:00.00	17857	D-0-0	 NAV: on land
+Y	06050102	1982-03-15T10:35:00.00	17858	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:36:00.00	17859	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:37:00.00	17860	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:38:00.00	17861	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:39:00.00	17862	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:40:00.00	17863	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:45:00.00	17868	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:46:00.00	17869	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:47:00.00	17870	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:48:00.00	17871	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:49:00.00	17872	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:50:00.00	17873	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:51:00.00	17874	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:52:00.00	17875	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:53:00.00	17876	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:54:00.00	17877	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:55:00.00	17878	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:56:00.00	17879	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:57:00.00	17880	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:58:00.00	17881	D-0-0	 NAV: on land
+?	06050102	1982-03-15T10:59:00.00	17882	D-0-0	 NAV: on land
+?	06050102	1982-03-15T11:00:00.00	17883	D-0-0	 NAV: on land

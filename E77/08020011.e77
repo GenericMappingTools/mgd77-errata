@@ -1,0 +1,34 @@
+# Cruise 08020011 ID 8501 MGD77 FILE VERSION: 19890113 N_RECS: 9888
+# Examined: Fri Jul 30 11:06:53 2010 by mtchandl
+# Arguments:  -R263.65/269.75/-1.45/3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08020011-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08020011-depth-01: RLS m: 0.999651 b: 0 rms: 43.8409 r: 0.994801 sig: 1 dec: 0
+Y-E-08020011-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994451 b: 75.9486 rms: 76.4372 r: 0.998896 sig: 1 dec: 0). [Recompute]
+Y-W-08020011-twt-11: More recent bathymetry correction table available
+Y-W-08020011-mtf1-12: Integer precision
+Y-W-08020011-mag-12: Integer precision
+# Errata: Data
+?	08020011	1985-01-15T10:30:40.02	121	0-0-K	 GRAD: twt excessive
+?	08020011	1985-01-16T14:29:49.02	881	0-0-KL	 GRAD: twt, depth excessive
+?	08020011	1985-01-17T08:52:00.00	1484	0-0-KL	 GRAD: twt, depth excessive
+?	08020011	1985-01-19T18:31:00.00	3261	0-0-K	 GRAD: twt excessive
+?	08020011	1985-01-20T01:09:00.00	3747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-20T01:10:00.00	3748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-20T04:48:22.98	4032	0-0-KL	 GRAD: twt, depth excessive
+?	08020011	1985-01-20T14:10:40.02	4773	0-0-KL	 GRAD: twt, depth excessive
+?	08020011	1985-01-21T15:15:00.00	6718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:16:00.00	6719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:17:00.00	6720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:18:00.00	6722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:19:00.00	6723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:21:00.00	6725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:22:00.00	6727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:23:00.00	6728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-21T15:24:00.00	6730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020011	1985-01-23T06:09:19.98	9560	0-0-K	 GRAD: twt excessive

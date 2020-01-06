@@ -1,0 +1,26 @@
+# Cruise 01010126 ID RC1707 MGD77 FILE VERSION: 19940713 N_RECS: 12401
+# Examined: Mon Jul  6 15:23:44 2009 by mtchandl
+# Arguments:  -R55.9/73.75/-20.1/22.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Reported faa computed with IGF 1930 closer to satellite gravity than gobs-IGF80+eot, recommend not recomputing faa. 
+# Errata: Header
+Y-E-01010126-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010126-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010126-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010126-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010126-depth-01: RLS m: 1 b: 0 rms: 81.2473 r: 0.998193 sig: 1 dec: 1
+Y-I-01010126-faa-01: RLS m: 0.963499 b: 0.49151 rms: 6.9607 r: 0.980819 sig: 1 dec: 1
+N-E-01010126-faa-02: Regression slope 0.963499 different from 1. Recommended: [1]
+N-E-01010126-faa-06: Anomaly differs from gobs-IGF80 (m: 0.295193 b: -10.3737 rms: 34.3467 r: 0.664858 sig: 1 dec: 0). [Recompute]
+N-E-01010126-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.997503 b: -15.3878 rms: 15.3986 r: 0.999568 sig: 1 dec: 0). [Recompute]
+Y-W-01010126-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01010126-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.996368 b: -0.0475033 rms: 0.27967 r: 0.999918 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01010126-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01218 b: -439.437 rms: 439.713 r: 0.993904 sig: 1 dec: 0). [Recompute]
+N-E-01010126-depth-08: Extended offset from grid [5-12401]
+Y-W-01010126-twt-11: More recent bathymetry correction table available
+Y-W-01010126-mtf1-12: Integer precision
+# Errata: Data
+?	01010126	1974-05-22T12:40:00.00	2086	0-0-OQ	 GRAD: mtf1, mag excessive

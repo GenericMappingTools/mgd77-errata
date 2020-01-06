@@ -1,0 +1,70 @@
+# Cruise 09090002 ID GIBS70CB MGD77 FILE VERSION: 19790312 N_RECS: 8526
+# Examined: Mon Aug  9 12:06:53 2010 by mtchandl
+# Arguments:  -R317/344.25/23.1/32.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09090002-nav-00: Flagged 0.38 % of records with bad navigation
+Y-I-09090002-depth-01: RLS m: 1 b: 0 rms: 16.9608 r: 0.999929 sig: 1 dec: 0
+Y-E-09090002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.931528 b: 4.05634 rms: 46.3778 r: 0.967534 sig: 1 dec: 1). [Recompute]
+Y-W-09090002-twt-11: More recent bathymetry correction table available
+Y-W-09090002-mtf1-12: Integer precision
+Y-W-09090002-mag-12: Integer precision
+# Errata: Data
+?	09090002	1970-04-07T06:11:06.00	196	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-13T07:47:12.00	2165	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-13T07:47:36.00	2166	0-0-K	 GRAD: twt excessive
+Y	09090002	1970-04-16T05:15:00.00	2805	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:20:00.00	2806	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:25:00.00	2807	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:30:00.00	2808	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:35:00.00	2809	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:40:00.00	2810	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:45:00.00	2811	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:50:00.00	2812	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T05:55:00.00	2813	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T06:00:00.00	2814	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T16:10:00.00	2961	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T16:12:00.00	2962	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T16:17:00.00	2963	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-16T16:21:00.00	2964	B-0-0	 NAV: non-increasing time
+?	09090002	1970-04-17T03:33:00.00	3171	0-0-KL	 GRAD: twt, depth excessive
+Y	09090002	1970-04-17T13:12:30.00	3388	B-0-0	 NAV: non-increasing time
+?	09090002	1970-04-17T18:27:30.00	3485	0-0-KL	 GRAD: twt, depth excessive
+Y	09090002	1970-04-18T09:00:00.00	3687	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:05:00.00	3688	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:10:00.00	3689	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:15:00.00	3690	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:20:00.00	3691	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:25:00.00	3692	B-0-0	 NAV: non-increasing time
+Y	09090002	1970-04-18T09:30:00.00	3693	B-0-0	 NAV: non-increasing time
+?	09090002	1970-04-19T13:55:00.00	4298	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-20T03:43:00.00	4636	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-20T07:48:06.00	4755	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-20T22:11:12.00	5113	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-20T22:55:48.00	5133	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-21T06:27:30.00	5278	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-21T07:05:00.00	5296	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-21T07:05:30.00	5297	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-21T17:20:42.00	5554	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-23T05:45:36.00	6508	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-23T14:57:00.00	6757	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-23T14:59:30.00	6758	0-0-KL	 GRAD: twt, depth excessive
+?	09090002	1970-04-23T17:24:30.00	6779	0-0-K	 GRAD: twt excessive
+Y	09090002	1970-04-23T17:40:00.00	6791	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-23T19:45:00.00	6875	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-23T20:10:00.00	6889	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-23T23:15:00.00	7005	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-24T06:15:00.00	7174	C-0-0	 NAV: excessive speed
+?	09090002	1970-04-24T09:35:00.00	7264	0-0-K	 GRAD: twt excessive
+?	09090002	1970-04-24T11:16:06.00	7312	0-0-KL	 GRAD: twt, depth excessive
+Y	09090002	1970-04-24T12:05:00.00	7336	C-0-0	 NAV: excessive speed
+?	09090002	1970-04-24T14:53:30.00	7418	0-0-KL	 GRAD: twt, depth excessive
+Y	09090002	1970-04-24T16:25:00.00	7462	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-24T16:45:00.00	7473	C-0-0	 NAV: excessive speed
+Y	09090002	1970-04-24T21:05:00.00	7568	C-0-0	 NAV: excessive speed
+?	09090002	1970-04-25T00:05:00.00	7643	0-0-KL	 GRAD: twt, depth excessive
+Y	09090002	1970-04-25T13:25:00.00	7908	C-0-0	 NAV: excessive speed

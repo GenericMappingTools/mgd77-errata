@@ -1,0 +1,20 @@
+# Cruise 07010005 ID YAQ66MAY MGD77 FILE VERSION: 19840131 N_RECS: 503
+# Examined: Fri Jul 16 17:29:29 2010 by mtchandl
+# Arguments:  -R201.55/206.9/21.2/24.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-07010005-nav-00: Flagged 0.80 % of records with bad navigation
+Y-I-07010005-depth-01: RLS m: 1 b: 0 rms: 29.7715 r: 0.999343 sig: 1 dec: 0
+Y-I-07010005-faa-01: RLS m: 0.968581 b: 4.43143 rms: 11.9149 r: 0.992062 sig: 1 dec: 1
+N-E-07010005-faa-02: Regression slope 0.968581 different from 1. Recommended: [1]
+Y-W-07010005-faa-03: Regression offset 4.43143 different from 0.
+Y-W-07010005-faa-12: Integer precision
+# Errata: Data
+Y	07010005	1966-05-23T09:20:00.00	256	C-0-0	 NAV: excessive speed
+Y	07010005	1966-05-23T09:30:00.00	257	C-0-0	 NAV: excessive speed
+Y	07010005	1966-05-23T09:40:00.00	258	C-0-0	 NAV: excessive speed
+Y	07010005	1966-05-26T11:50:00.00	371	C-0-0	 NAV: excessive speed

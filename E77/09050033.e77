@@ -1,0 +1,15 @@
+# Cruise 09050033 ID KA343626 MGD77 FILE VERSION: 19791128 N_RECS: 3641
+# Examined: Mon Aug  9 11:33:57 2010 by mtchandl
+# Arguments:  -R340.05/352.85/50.5/58.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09050033-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-09050033-depth-01: RLS m: 0.999166 b: 0 rms: 11.202 r: 0.999975 sig: 1 dec: 0
+N-E-09050033-depth-02: Regression slope 0.999166 different from 1. Recommended: [1]
+Y-W-09050033-depth-12: Integer precision
+# Errata: Data
+Y	09050033	1976-09-14T04:09:00.00	3170	C-0-0	 NAV: excessive speed

@@ -1,0 +1,26 @@
+# Cruise 01010003 ID RC0201 MGD77 FILE VERSION: 19910924 N_RECS: 346
+# Examined: Thu Feb 26 14:21:45 2009 by mtchandl
+# Arguments:  -R278.65/295.4/29.7/32.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010003-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-01010003-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010003-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010003-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010003-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010003-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010003-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010003-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-E-01010003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981871 b: 68.0524 rms: 69.6131 r: 0.992413 sig: 1 dec: 1). [Recompute]
+Y-W-01010003-mtf1-12: Integer precision
+# Errata: Data
+?	01010003	1963-01-29T11:38:00.00	321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010003	1963-01-29T12:03:00.00	325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010003	1963-01-29T12:12:00.00	327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010003	1963-01-29T12:22:00.00	329	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010003	1963-01-29T12:26:00.00	330	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010003	1963-01-29T12:28:00.00	331	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

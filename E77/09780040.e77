@@ -1,0 +1,14 @@
+# Cruise 09780040 ID WI270281 MGD77 FILE VERSION: 19830311 N_RECS: 3074
+# Examined: Mon Aug 16 17:01:07 2010 by mtchandl
+# Arguments:  -R345.1/353.6/45.6/47.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09780040-H13-10: Survey year (1981) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09780040-depth-01: RLS m: 1.00028 b: 0 rms: 7.36009 r: 0.999982 sig: 1 dec: 0
+Y-W-09780040-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	09780040	1981-01-17T02:12:00.00	2906	0-0-KL	 GRAD: twt, depth excessive

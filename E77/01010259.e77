@@ -1,0 +1,29 @@
+# Cruise 01010259 ID RC2613 MGD77 FILE VERSION: 19910319 N_RECS: 12153
+# Examined: Wed Jul  8 16:46:50 2009 by mtchandl
+# Arguments:  -R111.5/114.45/16.25/22.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~360 nT average offset from recomputed mag. Faa are systematically offset ~20 mGal from satellite gravity, recomputed faa further offset.
+# Errata: Header
+Y-E-01010259-H04-03: Invalid Survey Departure Day: (19) [18]
+Y-E-01010259-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010259-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010259-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010259-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010259-depth-01: RLS m: 1.0035 b: 0 rms: 62.8379 r: 0.997475 sig: 1 dec: 1
+Y-I-01010259-faa-01: RLS m: 1.03712 b: 19.5703 rms: 23.0794 r: 0.843351 sig: 1 dec: 1
+Y-W-01010259-faa-03: Regression offset 19.5703 different from 0.
+N-E-01010259-faa-06: Anomaly differs from gobs-IGF80 (m: 0.296555 b: 2.58686 rms: 37.2095 r: 0.654918 sig: 1 dec: 1). [Recompute]
+N-E-01010259-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00251 b: -14.8822 rms: 14.8094 r: 0.999867 sig: 1 dec: 0). [Recompute]
+Y-W-01010259-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-01010259-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.9975 b: 0.0476079 rms: 0.0941805 r: 0.999984 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-01010259-mag-07: Anomaly differs from mtf1-IGRF (m: 0.946264 b: 356.775 rms: 356.603 r: 0.989632 sig: 1 dec: 0). [Recompute]
+N-E-01010259-depth-08: Extended offset from grid [651-12153]
+Y-W-01010259-mag-09: only found positive values
+Y-W-01010259-twt-11: More recent bathymetry correction table available
+Y-W-01010259-mtf1-12: Integer precision
+# Errata: Data
+?	01010259	1985-11-18T21:15:00.00	18	0-0-V	 GRAD: eot excessive
+?	01010259	1985-11-19T00:34:00.00	128	D-0-0	 NAV: on land

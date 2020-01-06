@@ -1,0 +1,66 @@
+# Cruise 10020020 ID IG2407 MGD77 FILE VERSION: 19900913 N_RECS: 2756
+# Examined: Mon Aug 16 17:25:06 2010 by mtchandl
+# Arguments:  -R272.1/280.55/6.95/12.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020020-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020020-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020020-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-10020020-depth-01: RLS m: 0.999261 b: 0 rms: 29.4396 r: 0.999777 sig: 1 dec: 0
+Y-E-10020020-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04859 b: 668.765 rms: 671.717 r: 0.942659 sig: 1 dec: 0). [Recompute]
+Y-W-10020020-depth-12: Integer precision
+Y-W-10020020-mtf1-12: Integer precision
+Y-W-10020020-mag-12: Integer precision
+# Errata: Data
+?	10020020	1977-07-20T17:15:00.00	298	D-0-0	 NAV: on land
+Y	10020020	1977-07-20T22:44:00.00	363	B-0-0	 NAV: non-increasing time
+Y	10020020	1977-07-21T19:42:00.00	610	B-0-0	 NAV: non-increasing time
+?	10020020	1977-07-22T18:15:00.00	877	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-22T18:20:00.00	878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020020	1977-07-23T05:50:00.00	1014	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020020	1977-07-23T05:55:00.00	1015	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-23T06:00:00.00	1016	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020020	1977-07-25T23:28:00.00	1852	B-0-0	 NAV: non-increasing time
+?	10020020	1977-07-26T03:15:00.00	1892	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020020	1977-07-26T03:20:00.00	1894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T06:35:00.00	2552	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T06:40:00.00	2553	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T06:45:00.00	2554	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T06:50:00.00	2555	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T06:55:00.00	2556	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:10:00.00	2559	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:15:00.00	2560	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:20:00.00	2561	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:25:00.00	2562	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:30:00.00	2563	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:35:00.00	2564	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T07:40:00.00	2565	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T13:55:00.00	2641	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:00:00.00	2642	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:05:00.00	2643	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:10:00.00	2644	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T14:15:00.00	2645	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:20:00.00	2646	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:25:00.00	2647	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:30:00.00	2649	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T14:35:00.00	2650	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T14:40:00.00	2651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T15:00:00.00	2655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T15:05:00.00	2656	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T16:10:00.00	2669	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020020	1977-07-28T16:15:00.00	2670	0-Q-0	 VAL: mag invalid
+Y	10020020	1977-07-28T16:48:00.00	2678	B-0-0	 NAV: non-increasing time
+?	10020020	1977-07-28T18:40:00.00	2701	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T18:45:00.00	2702	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T18:50:00.00	2703	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T19:10:00.00	2707	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T19:15:00.00	2708	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T19:20:00.00	2709	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T19:25:00.00	2710	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T19:30:00.00	2711	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T20:05:00.00	2718	0-Q-0	 VAL: mag invalid
+?	10020020	1977-07-28T20:10:00.00	2719	0-Q-0	 VAL: mag invalid

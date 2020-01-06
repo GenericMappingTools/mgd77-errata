@@ -1,0 +1,20 @@
+# Cruise 01030228 ID V3503 MGD77 FILE VERSION: 19800908 N_RECS: 2361
+# Examined: Fri Mar 19 01:23:59 2010 by mtchandl
+# Arguments:  -R79.6/103.6/1.2/6.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged portions of faa data having large DC shifts.
+# Errata: Header
+Y-I-01030228-depth-01: RLS m: 1 b: 0 rms: 14.6621 r: 0.999973 sig: 1 dec: 0
+Y-I-01030228-faa-01: RLS m: 1.00616 b: -2.3574 rms: 5.78967 r: 0.986418 sig: 1 dec: 0
+Y-W-01030228-faa-03: Regression offset -2.3574 different from 0.
+Y-E-01030228-mag-07: Anomaly differs from mtf1-IGRF (m: 0.657666 b: -214.647 rms: 228.091 r: 0.673203 sig: 1 dec: 1). [Recompute]
+Y-W-01030228-mag-09: all values less than or equal to zero
+Y-E-01030228-faa-10: Invalid data records: [121-495]
+Y-E-01030228-faa-10: Invalid data records: [553-829]
+Y-W-01030228-twt-11: More recent bathymetry correction table available
+Y-W-01030228-mtf1-12: Integer precision
+Y-W-01030228-mag-12: Integer precision
+# Errata: Data

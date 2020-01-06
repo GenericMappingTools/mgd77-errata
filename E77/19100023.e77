@@ -1,0 +1,150 @@
+# Cruise 19100023 ID DI110L2 MGD77 FILE VERSION: 19851016 N_RECS: 18431
+# Examined: Mon Sep  6 13:23:12 2010 by mtchandl
+# Arguments:  -R254/282.7/-12.65/7.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100023-nav-00: Flagged 0.36 % of records with bad navigation
+Y-I-19100023-depth-01: RLS m: 0.999508 b: 0 rms: 31.0312 r: 0.998959 sig: 1 dec: 0
+Y-I-19100023-faa-01: RLS m: 0.984766 b: -7.92277 rms: 8.19395 r: 0.994539 sig: 1 dec: 0
+N-E-19100023-faa-02: Regression slope 0.984766 different from 1. Recommended: [1]
+Y-W-19100023-faa-03: Regression offset -7.92277 different from 0.
+Y-E-19100023-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00782 b: 32.1273 rms: 63.6665 r: 0.97735 sig: 1 dec: 1). [Recompute]
+Y-W-19100023-depth-12: Integer precision
+Y-W-19100023-mtf1-12: Integer precision
+Y-W-19100023-mag-12: Integer precision
+Y-W-19100023-faa-12: Integer precision
+# Errata: Data
+?	19100023	1980-05-25T04:00:00.00	975	0-0-L	 GRAD: depth excessive
+Y	19100023	1980-05-25T05:20:00.00	1017	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-25T05:22:00.00	1018	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-25T05:36:00.00	1025	C-0-0	 NAV: excessive speed
+Y	19100023	1980-05-26T13:42:00.00	1989	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-27T23:48:00.00	3013	B-0-0	 NAV: non-increasing time
+?	19100023	1980-05-28T02:02:00.00	3080	0-0-L	 GRAD: depth excessive
+?	19100023	1980-05-28T04:28:00.00	3153	0-0-L	 GRAD: depth excessive
+?	19100023	1980-05-28T04:30:00.00	3154	0-0-L	 GRAD: depth excessive
+Y	19100023	1980-05-28T04:34:00.00	3157	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T02:16:00.00	3808	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:54:00.00	4188	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:54:00.00	4189	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:54:00.00	4190	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:54:00.00	4196	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:56:00.00	4197	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T14:58:00.00	4198	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T15:00:00.00	4199	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T15:02:00.00	4200	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-29T15:04:00.00	4201	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-30T06:52:00.00	4675	C-0-0	 NAV: excessive speed
+Y	19100023	1980-05-30T06:52:00.00	4676	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-05-30T12:18:00.00	4840	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-01T08:38:00.00	6168	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-01T13:52:00.00	6326	B-0-0	 NAV: non-increasing time
+?	19100023	1980-06-02T00:24:00.00	6642	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:26:00.00	6643	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T00:28:00.00	6644	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:30:00.00	6645	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:32:00.00	6646	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:34:00.00	6647	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:36:00.00	6648	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:38:00.00	6649	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:40:00.00	6650	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T00:42:00.00	6651	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T00:44:00.00	6652	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:46:00.00	6653	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-02T00:48:00.00	6654	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T00:50:00.00	6655	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T00:52:00.00	6656	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-02T13:22:00.00	7031	0-0-W	 GRAD: faa excessive
+?	19100023	1980-06-03T05:56:00.00	7528	0-0-L	 GRAD: depth excessive
+Y	19100023	1980-06-03T07:44:00.00	7583	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T07:44:00.00	7584	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T08:02:00.00	7594	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T08:20:00.00	7604	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T08:20:00.00	7605	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T08:20:00.00	7606	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T10:28:00.00	7671	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T10:28:00.00	7672	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T10:28:00.00	7673	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T10:28:00.00	7674	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-03T10:28:00.00	7675	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-04T00:40:00.00	8102	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-04T00:40:00.00	8103	B-0-0	 NAV: non-increasing time
+?	19100023	1980-06-04T16:28:00.00	8577	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-04T21:56:00.00	8741	0-0-L	 GRAD: depth excessive
+?	19100023	1980-06-04T22:54:00.00	8770	0-0-O	 GRAD: mtf1 excessive
+?	19100023	1980-06-04T22:56:00.00	8771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-04T22:58:00.00	8772	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-04T23:00:00.00	8773	0-0-O	 GRAD: mtf1 excessive
+?	19100023	1980-06-05T00:00:00.00	8803	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:02:00.00	8804	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:04:00.00	8805	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:08:00.00	8807	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:10:00.00	8808	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-05T00:12:00.00	8809	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-05T00:14:00.00	8810	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-05T00:16:00.00	8811	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:18:00.00	8812	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:20:00.00	8813	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:22:00.00	8814	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:24:00.00	8815	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:26:00.00	8816	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:28:00.00	8817	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T00:30:00.00	8818	0-Q-0	 VAL: mag invalid
+?	19100023	1980-06-05T01:04:00.00	8835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T01:20:00.00	8843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-05T01:22:00.00	8844	0-0-O	 GRAD: mtf1 excessive
+?	19100023	1980-06-05T01:24:00.00	8845	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100023	1980-06-07T10:22:00.00	10555	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10556	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10557	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10558	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10559	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10560	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10561	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10562	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10563	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T10:22:00.00	10564	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-07T12:26:00.00	10627	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-09T01:10:00.00	11732	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-09T01:12:00.00	11733	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-09T01:14:00.00	11734	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-09T01:26:00.00	11740	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-09T06:44:00.00	11900	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-09T08:56:00.00	11967	B-0-0	 NAV: non-increasing time
+?	19100023	1980-06-09T18:26:00.00	12252	0-W-0	 VAL: faa invalid
+?	19100023	1980-06-09T18:28:00.00	12253	0-W-0	 VAL: faa invalid
+?	19100023	1980-06-11T02:28:00.00	13213	0-0-W	 GRAD: faa excessive
+Y	19100023	1980-06-12T06:26:00.00	14054	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-12T06:28:00.00	14055	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-12T06:26:00.00	14058	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-12T06:28:00.00	14059	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-12T06:30:00.00	14060	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-12T06:32:00.00	14061	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-13T13:22:00.00	14986	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:24:00.00	14987	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:26:00.00	14988	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:28:00.00	14989	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:30:00.00	14990	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:32:00.00	14991	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:34:00.00	14992	C-0-0	 NAV: excessive speed
+Y	19100023	1980-06-13T13:36:00.00	14993	C-0-0	 NAV: excessive speed
+?	19100023	1980-06-14T07:42:00.00	15536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:18:00.00	15614	0-0-Q	 GRAD: mag excessive
+?	19100023	1980-06-14T10:20:00.00	15615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:22:00.00	15616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:24:00.00	15617	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:40:00.00	15625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:42:00.00	15626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:44:00.00	15627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:46:00.00	15628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:48:00.00	15629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T10:50:00.00	15630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T18:48:00.00	15869	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-14T20:06:00.00	15908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100023	1980-06-16T22:08:00.00	17409	0-0-L	 GRAD: depth excessive
+Y	19100023	1980-06-18T06:02:00.00	18368	B-0-0	 NAV: non-increasing time
+Y	19100023	1980-06-18T06:04:00.00	18369	B-0-0	 NAV: non-increasing time

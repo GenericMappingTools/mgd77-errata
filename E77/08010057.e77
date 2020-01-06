@@ -1,0 +1,55 @@
+# Cruise 08010057 ID 79102901 MGD77 FILE VERSION: 19821020 N_RECS: 31993
+# Examined: Mon Jul 26 16:32:12 2010 by mtchandl
+# Arguments:  -R190.55/204.2/3.8/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010057-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010057-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-08010057-depth-01: RLS m: 0.999601 b: 0 rms: 21.2992 r: 0.999819 sig: 1 dec: 0
+Y-I-08010057-faa-01: RLS m: 0.994175 b: 0.704504 rms: 4.14072 r: 0.992638 sig: 1 dec: 0
+Y-W-08010057-faa-03: Regression offset 0.704504 different from 0.
+Y-E-08010057-mag-07: Anomaly differs from mtf1-IGRF (m: 0.98858 b: 72.4341 rms: 75.276 r: 0.993406 sig: 1 dec: 0). [Recompute]
+Y-W-08010057-twt-11: More recent bathymetry correction table available
+Y-W-08010057-mtf1-12: Integer precision
+Y-W-08010057-mag-12: Integer precision
+# Errata: Data
+?	08010057	1979-10-29T20:16:40.02	1	D-0-0	 NAV: on land
+?	08010057	1979-10-29T20:19:40.02	2	D-0-0	 NAV: on land
+?	08010057	1979-10-29T20:22:40.02	3	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:25:40.02	4	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:28:40.02	5	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:31:40.02	6	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:34:40.02	7	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:37:40.02	8	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:40:40.02	9	D-0-0	 NAV: on land
+Y	08010057	1979-10-29T20:43:40.02	10	D-0-0	 NAV: on land
+?	08010057	1979-10-30T00:44:00.00	228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T00:45:00.00	229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T00:46:00.00	231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T00:47:00.00	232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:25:00.00	1285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:26:00.00	1286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:27:00.00	1287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:28:00.00	1288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:43:00.00	1307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-10-30T15:44:00.00	1309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010057	1979-11-02T21:49:59.04	7317	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-03T22:50:15.96	8374	0-0-KL	 GRAD: twt, depth excessive
+?	08010057	1979-11-07T23:03:51.00	13586	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-07T23:42:00.00	13638	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-09T02:54:04.98	15722	0-0-KL	 GRAD: twt, depth excessive
+?	08010057	1979-11-09T13:28:15.00	16470	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-10T13:54:36.00	17761	0-0-KL	 GRAD: twt, depth excessive
+?	08010057	1979-11-11T02:31:32.04	18479	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-11T08:12:27.96	18609	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-12T19:40:35.04	20730	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-13T01:20:03.96	21098	0-0-KL	 GRAD: twt, depth excessive
+?	08010057	1979-11-13T07:30:27.96	21250	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-14T10:41:09.96	22955	0-0-KL	 GRAD: twt, depth excessive
+?	08010057	1979-11-14T22:10:51.00	23551	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-17T22:45:40.02	28669	0-0-K	 GRAD: twt excessive
+?	08010057	1979-11-18T05:47:03.96	29166	0-0-KL	 GRAD: twt, depth excessive

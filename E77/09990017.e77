@@ -1,0 +1,14 @@
+# Cruise 09990017 ID SUB6672C MGD77 FILE VERSION: 19991130 N_RECS: 285
+# Examined: Mon Aug 16 17:14:45 2010 by mtchandl
+# Arguments:  -R-8/90/73.95/90 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09990017-H16-01: Invalid Number of Ten Degree Identifiers: (10) [11]
+Y-W-09990017-H16-06: Ten Degree Identifier 1700 not marked in header but block was crossed
+Y-I-09990017-depth-01: RLS m: 1.0005 b: 0 rms: 15.8114 r: 0.997983 sig: 1 dec: 0
+Y-W-09990017-depth-12: Integer precision
+# Errata: Data

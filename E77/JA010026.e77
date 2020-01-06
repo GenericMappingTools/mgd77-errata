@@ -1,0 +1,1118 @@
+# Cruise JA010026 ID JARE33L1 MGD77 FILE VERSION: 19941231 N_RECS: 20555
+# Examined: Mon Nov  7 17:47:53 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Many depth outliers. Recommend further processing by source institution.
+# Errata: Header
+Y-W-JA010026-nav-00: Flagged 2.23 % of records with bad navigation
+Y-I-JA010026-depth-01: RLS m: 0.999302 b: 0 rms: 44.7937 r: 0.999764 sig: 1 dec: 0
+N-E-JA010026-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-JA010026-faa-01: RLS m: 1.04193 b: -8.98248 rms: 17.9731 r: 0.990151 sig: 1 dec: 1
+N-E-JA010026-faa-02: Regression slope 1.04193 different from 1. Recommended: [1]
+Y-W-JA010026-faa-03: Regression offset -8.98248 different from 0.
+Y-I-JA010026-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-JA010026-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.707765 b: 18.432 rms: 62.7574 r: 0.892543 sig: 1 dec: 1). [Recompute]
+Y-E-JA010026-depth-08: Extended offset from grid [2232-2313]
+N-E-JA010026-twt-13: Encountered possible PDR wrap errors (6.3) [5.0]
+Y-W-JA010026-twt-11: More recent bathymetry correction table available
+Y-W-JA010026-depth-12: Integer precision
+# Errata: Data
+?	JA010026	1991-11-14T03:09:00.00	178	D-0-0	 NAV: on land
+?	JA010026	1991-11-14T03:10:00.00	179	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:11:00.00	180	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:12:00.00	181	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:13:00.00	182	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:14:00.00	183	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:15:00.00	184	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:16:00.00	185	D-0-0	 NAV: on land
+Y	JA010026	1991-11-14T03:17:00.00	186	D-0-0	 NAV: on land
+?	JA010026	1991-11-14T03:18:00.00	187	D-0-0	 NAV: on land
+?	JA010026	1991-11-14T03:20:00.00	189	D-0-0	 NAV: on land
+?	JA010026	1991-11-14T03:21:00.00	190	D-0-0	 NAV: on land
+?	JA010026	1991-11-14T11:01:00.00	650	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T11:28:00.00	677	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T12:20:00.00	729	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T12:21:00.00	730	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T16:11:00.00	960	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-14T16:12:00.00	961	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T18:11:00.00	1080	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T18:12:00.00	1081	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:03:00.00	1132	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:04:00.00	1133	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:06:00.00	1135	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:07:00.00	1136	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:14:00.00	1143	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:15:00.00	1144	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:25:00.00	1154	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:26:00.00	1155	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:28:00.00	1157	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:30:00.00	1159	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:31:00.00	1160	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-14T19:43:00.00	1172	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:44:00.00	1173	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:54:00.00	1183	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:55:00.00	1184	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:56:00.00	1185	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T19:57:00.00	1186	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:05:00.00	1194	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:06:00.00	1195	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:09:00.00	1198	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:10:00.00	1199	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:11:00.00	1200	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:12:00.00	1201	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:34:00.00	1223	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:36:00.00	1225	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:38:00.00	1227	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:41:00.00	1230	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:44:00.00	1233	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T20:46:00.00	1235	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:33:00.00	1342	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:34:00.00	1343	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:44:00.00	1353	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:45:00.00	1354	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:53:00.00	1362	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:54:00.00	1363	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:55:00.00	1364	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T22:56:00.00	1365	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-14T22:58:00.00	1367	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T23:00:00.00	1369	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-14T23:42:00.00	1411	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T23:43:00.00	1412	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T23:44:00.00	1413	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T23:45:00.00	1414	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-14T23:52:00.00	1421	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T00:10:00.00	1439	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T00:35:00.00	1464	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T00:36:00.00	1465	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T02:39:00.00	1588	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T02:41:00.00	1590	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T02:54:00.00	1603	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T02:55:00.00	1604	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T04:46:00.00	1715	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T04:47:00.00	1716	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T06:18:00.00	1807	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T06:44:00.00	1833	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T06:48:00.00	1837	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T06:49:00.00	1838	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T08:12:00.00	1921	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T08:13:00.00	1922	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T08:16:00.00	1925	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T08:17:00.00	1926	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T08:18:00.00	1927	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T12:37:00.00	2186	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T12:42:00.00	2191	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T13:23:00.00	2232	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:31:00.00	2300	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:32:00.00	2301	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:43:00.00	2312	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:47:00.00	2316	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:48:00.00	2317	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:49:00.00	2318	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:52:00.00	2321	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:55:00.00	2324	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:56:00.00	2325	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T14:58:00.00	2327	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:07:00.00	2336	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:08:00.00	2337	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:09:00.00	2338	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:14:00.00	2343	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:15:00.00	2344	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:22:00.00	2351	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:25:00.00	2354	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:31:00.00	2360	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:33:00.00	2362	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:37:00.00	2366	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:44:00.00	2373	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:51:00.00	2380	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T15:53:00.00	2382	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:00:00.00	2389	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:05:00.00	2394	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:08:00.00	2397	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:31:00.00	2420	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:49:00.00	2438	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T16:52:00.00	2441	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:05:00.00	2454	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:06:00.00	2455	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:08:00.00	2457	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-15T17:13:00.00	2462	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:29:00.00	2478	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:38:00.00	2487	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:41:00.00	2490	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T17:43:00.00	2492	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:02:00.00	2511	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:03:00.00	2512	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:21:00.00	2530	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:22:00.00	2531	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:39:00.00	2548	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:42:00.00	2551	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:43:00.00	2552	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-15T18:45:00.00	2554	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:52:00.00	2561	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T18:57:00.00	2566	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:03:00.00	2572	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:04:00.00	2573	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:30:00.00	2599	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:31:00.00	2600	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:41:00.00	2610	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:42:00.00	2611	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:52:00.00	2621	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:55:00.00	2624	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T19:56:00.00	2625	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-15T19:59:00.00	2628	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:00:00.00	2629	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:01:00.00	2630	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:02:00.00	2631	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:06:00.00	2635	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:07:00.00	2636	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:24:00.00	2653	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-15T20:42:00.00	2671	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:43:00.00	2672	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:46:00.00	2675	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T20:47:00.00	2676	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T21:19:00.00	2708	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T21:20:00.00	2709	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T21:32:00.00	2721	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T21:33:00.00	2722	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T21:42:00.00	2731	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:07:00.00	2756	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:10:00.00	2759	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:14:00.00	2763	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:15:00.00	2764	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:28:00.00	2777	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:30:00.00	2779	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:31:00.00	2780	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:33:00.00	2782	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:34:00.00	2783	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:35:00.00	2784	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:52:00.00	2801	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T22:53:00.00	2802	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T23:16:00.00	2825	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T23:17:00.00	2826	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T23:32:00.00	2841	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-15T23:40:00.00	2849	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-15T23:43:00.00	2852	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T00:04:00.00	2873	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-16T00:48:00.00	2917	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T00:49:00.00	2918	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T02:25:00.00	3014	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T02:26:00.00	3015	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T02:52:00.00	3041	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T03:03:00.00	3052	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T03:06:00.00	3055	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T03:10:00.00	3059	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T03:38:00.00	3087	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T03:39:00.00	3088	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T06:21:00.00	3250	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T06:38:00.00	3267	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:14:00.00	3423	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:15:00.00	3424	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:17:00.00	3426	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:19:00.00	3428	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:20:00.00	3429	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:22:00.00	3431	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:23:00.00	3432	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:24:00.00	3433	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:26:00.00	3435	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:39:00.00	3448	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:40:00.00	3449	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:43:00.00	3452	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T09:44:00.00	3453	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T10:15:00.00	3484	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-16T10:26:00.00	3495	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T10:27:00.00	3496	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:01:00.00	3530	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:02:00.00	3531	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:03:00.00	3532	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:04:00.00	3533	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:11:00.00	3540	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:13:00.00	3542	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:16:00.00	3545	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T11:19:00.00	3548	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T12:53:00.00	3642	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T14:36:00.00	3745	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T14:37:00.00	3746	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T17:40:00.00	3929	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T17:41:00.00	3930	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T17:47:00.00	3936	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T17:48:00.00	3937	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T18:02:00.00	3951	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T18:10:00.00	3959	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T18:12:00.00	3961	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T20:04:00.00	4073	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T20:48:00.00	4117	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T21:43:00.00	4172	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T21:52:00.00	4181	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T22:06:00.00	4195	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-16T22:07:00.00	4196	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T01:32:00.00	4401	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T01:33:00.00	4402	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T02:43:00.00	4472	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T02:45:00.00	4474	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T02:55:00.00	4484	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T04:32:00.00	4581	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T04:37:00.00	4586	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T06:20:00.00	4689	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T07:10:00.00	4739	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T08:06:00.00	4795	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T08:07:00.00	4796	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T08:22:00.00	4811	0-0-V	 GRAD: eot excessive
+?	JA010026	1991-11-17T08:40:00.00	4829	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T09:05:00.00	4854	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T09:06:00.00	4855	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T09:21:00.00	4870	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T10:36:00.00	4945	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T10:39:00.00	4948	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T14:12:00.00	5161	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T15:44:00.00	5253	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T16:04:00.00	5273	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T16:37:00.00	5306	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T16:39:00.00	5308	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T17:00:00.00	5329	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T17:01:00.00	5330	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T17:14:00.00	5343	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T18:37:00.00	5426	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-17T18:46:00.00	5435	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T19:16:00.00	5465	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-17T19:17:00.00	5466	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T00:50:00.00	5799	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T00:52:00.00	5801	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T01:09:00.00	5818	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T01:13:00.00	5822	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T02:06:00.00	5875	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T02:07:00.00	5876	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T02:23:00.00	5892	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T02:24:00.00	5893	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T02:28:00.00	5897	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T03:40:00.00	5969	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T03:46:00.00	5975	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T07:40:00.00	6209	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T07:41:00.00	6210	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T07:56:00.00	6225	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T08:54:00.00	6283	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T08:55:00.00	6284	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T09:02:00.00	6291	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T09:08:00.00	6297	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-18T15:07:00.00	6656	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T17:00:00.00	6769	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T17:04:00.00	6773	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T17:21:00.00	6790	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T17:22:00.00	6791	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T23:02:00.00	7131	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-18T23:03:00.00	7132	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T02:02:00.00	7311	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T03:36:00.00	7405	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T07:46:00.00	7655	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T07:55:00.00	7664	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T07:56:00.00	7665	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T07:57:00.00	7666	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T07:58:00.00	7667	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T08:06:00.00	7675	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-19T10:47:00.00	7836	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T10:48:00.00	7837	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T10:51:00.00	7840	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T10:52:00.00	7841	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T10:55:00.00	7844	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-19T11:30:00.00	7879	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:31:00.00	7880	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:48:00.00	7897	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:49:00.00	7898	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:51:00.00	7900	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:52:00.00	7901	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:55:00.00	7904	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:56:00.00	7905	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T11:58:00.00	7907	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T12:02:00.00	7911	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T12:17:00.00	7926	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T12:18:00.00	7927	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:01:00.00	7970	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:02:00.00	7971	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:17:00.00	7986	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:18:00.00	7987	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:21:00.00	7990	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T13:22:00.00	7991	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:20:00.00	8109	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:21:00.00	8110	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:22:00.00	8111	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:23:00.00	8112	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:24:00.00	8113	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T15:25:00.00	8114	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T17:27:00.00	8236	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-19T17:38:00.00	8247	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-19T17:39:00.00	8248	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T17:40:00.00	8249	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T17:42:00.00	8251	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T18:37:00.00	8306	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-19T19:47:00.00	8376	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-19T19:48:00.00	8377	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T13:55:00.00	9464	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T14:58:00.00	9527	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T14:59:00.00	9528	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:10:00.00	9539	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:11:00.00	9540	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:28:00.00	9557	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:29:00.00	9558	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:38:00.00	9567	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T15:39:00.00	9568	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:00:00.00	9589	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:01:00.00	9590	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:12:00.00	9601	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:13:00.00	9602	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:14:00.00	9603	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:17:00.00	9606	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:18:00.00	9607	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:19:00.00	9608	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:38:00.00	9627	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:39:00.00	9628	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:43:00.00	9632	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:44:00.00	9633	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:50:00.00	9639	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T16:51:00.00	9640	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T17:09:00.00	9658	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T17:11:00.00	9660	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:28:00.00	9737	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:29:00.00	9738	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:30:00.00	9739	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:32:00.00	9741	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:40:00.00	9749	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:41:00.00	9750	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:42:00.00	9751	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:43:00.00	9752	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:55:00.00	9764	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:56:00.00	9765	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T18:57:00.00	9766	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:01:00.00	9770	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:11:00.00	9780	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:12:00.00	9781	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:13:00.00	9782	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:14:00.00	9783	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:32:00.00	9801	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:33:00.00	9802	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:35:00.00	9804	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:36:00.00	9805	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:37:00.00	9806	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:38:00.00	9807	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:40:00.00	9809	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:42:00.00	9811	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:44:00.00	9813	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T19:45:00.00	9814	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:13:00.00	9962	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:14:00.00	9963	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:32:00.00	9981	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:33:00.00	9982	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:47:00.00	9996	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:48:00.00	9997	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:52:00.00	10001	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T22:54:00.00	10003	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T23:29:00.00	10038	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-20T23:31:00.00	10040	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T00:30:00.00	10099	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-21T00:31:00.00	10100	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-21T00:55:00.00	10124	0-0-V	 GRAD: eot excessive
+?	JA010026	1991-11-21T03:45:00.00	10294	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T03:46:00.00	10295	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T03:54:00.00	10303	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T03:55:00.00	10304	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T04:03:00.00	10312	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T04:04:00.00	10313	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T04:05:00.00	10314	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-21T04:07:00.00	10316	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T00:45:00.00	11554	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T00:46:00.00	11555	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T06:27:00.00	11896	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T06:28:00.00	11897	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T06:54:00.00	11923	0-0-V	 GRAD: eot excessive
+?	JA010026	1991-11-22T16:08:00.00	12477	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:09:00.00	12478	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:13:00.00	12482	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:14:00.00	12483	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:28:00.00	12497	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:31:00.00	12500	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:35:00.00	12504	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:36:00.00	12505	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:44:00.00	12513	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:45:00.00	12514	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:50:00.00	12519	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T16:51:00.00	12520	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:03:00.00	12532	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:04:00.00	12533	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:09:00.00	12538	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:10:00.00	12539	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:58:00.00	12587	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T17:59:00.00	12588	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:44:00.00	12753	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:46:00.00	12755	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:54:00.00	12763	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:56:00.00	12765	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:58:00.00	12767	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T20:59:00.00	12768	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T21:56:00.00	12825	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T21:58:00.00	12827	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:00:00.00	12829	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:01:00.00	12830	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:16:00.00	12845	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:17:00.00	12846	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:19:00.00	12848	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:20:00.00	12849	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:23:00.00	12852	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:24:00.00	12853	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:28:00.00	12857	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:29:00.00	12858	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:33:00.00	12862	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:34:00.00	12863	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:36:00.00	12865	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:37:00.00	12866	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:38:00.00	12867	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:45:00.00	12874	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:48:00.00	12877	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:49:00.00	12878	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:50:00.00	12879	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:51:00.00	12880	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:52:00.00	12881	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:54:00.00	12883	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:55:00.00	12884	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:56:00.00	12885	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T22:57:00.00	12886	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T23:00:00.00	12889	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T23:07:00.00	12896	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T23:08:00.00	12897	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T23:10:00.00	12899	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-22T23:11:00.00	12900	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T00:29:00.00	12978	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T00:49:00.00	12998	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T00:51:00.00	13000	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T00:53:00.00	13002	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T00:54:00.00	13003	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T01:05:00.00	13014	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T01:06:00.00	13015	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T01:21:00.00	13030	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T01:24:00.00	13033	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T07:03:00.00	13372	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T07:04:00.00	13373	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T21:38:00.00	14247	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-23T21:41:00.00	14250	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T21:43:00.00	14252	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-23T21:44:00.00	14253	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T21:54:00.00	14263	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T21:58:00.00	14267	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:03:00.00	14272	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:05:00.00	14274	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:16:00.00	14285	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:18:00.00	14287	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:55:00.00	14324	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:56:00.00	14325	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:57:00.00	14326	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:58:00.00	14327	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T22:59:00.00	14328	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:00:00.00	14329	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:01:00.00	14330	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:02:00.00	14331	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:06:00.00	14335	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:07:00.00	14336	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:08:00.00	14337	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:09:00.00	14338	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:12:00.00	14341	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:13:00.00	14342	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:15:00.00	14344	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:16:00.00	14345	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:18:00.00	14347	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:19:00.00	14348	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:24:00.00	14353	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:25:00.00	14354	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:27:00.00	14356	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:30:00.00	14359	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:31:00.00	14360	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:32:00.00	14361	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:35:00.00	14364	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:38:00.00	14367	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:39:00.00	14368	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:40:00.00	14369	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:41:00.00	14370	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:47:00.00	14376	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:48:00.00	14377	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:49:00.00	14378	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:50:00.00	14379	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:52:00.00	14381	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:53:00.00	14382	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:54:00.00	14383	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:55:00.00	14384	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-23T23:59:00.00	14388	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:11:00.00	14400	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:18:00.00	14407	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:19:00.00	14408	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:24:00.00	14413	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:25:00.00	14414	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:26:00.00	14415	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:27:00.00	14416	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:30:00.00	14419	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:33:00.00	14422	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:34:00.00	14423	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:37:00.00	14426	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:39:00.00	14428	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:40:00.00	14429	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T00:42:00.00	14431	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T01:31:00.00	14480	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T01:32:00.00	14481	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T01:35:00.00	14484	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T01:37:00.00	14486	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T02:28:00.00	14537	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T02:29:00.00	14538	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T02:33:00.00	14542	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T02:34:00.00	14543	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T16:58:00.00	15407	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T16:59:00.00	15408	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:06:00.00	15715	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:07:00.00	15716	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:20:00.00	15729	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:21:00.00	15730	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:23:00.00	15732	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:24:00.00	15733	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:28:00.00	15737	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:29:00.00	15738	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:41:00.00	15750	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-24T22:47:00.00	15756	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T22:50:00.00	15759	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:47:00.00	15816	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:48:00.00	15817	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:52:00.00	15821	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:53:00.00	15822	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:57:00.00	15826	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-24T23:59:00.00	15828	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:02:00.00	15831	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:04:00.00	15833	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:11:00.00	15840	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-25T00:26:00.00	15855	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:27:00.00	15856	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:28:00.00	15857	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T00:29:00.00	15858	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T01:27:00.00	15916	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-25T01:28:00.00	15917	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-25T13:49:00.00	16658	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-25T13:50:00.00	16659	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T00:41:00.00	17310	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T00:42:00.00	17311	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T06:52:00.00	17681	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T06:53:00.00	17682	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T06:54:00.00	17683	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T06:55:00.00	17684	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:12:00.00	17701	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:13:00.00	17702	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:26:00.00	17715	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:27:00.00	17716	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:48:00.00	17737	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T07:49:00.00	17738	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:02:00.00	17751	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:03:00.00	17752	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:09:00.00	17758	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:10:00.00	17759	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:14:00.00	17763	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:16:00.00	17765	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:18:00.00	17767	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:19:00.00	17768	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:28:00.00	17777	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T08:30:00.00	17779	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T09:59:00.00	17868	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T10:49:00.00	17918	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T10:50:00.00	17919	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T10:55:00.00	17924	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:22:00.00	17951	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:23:00.00	17952	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:26:00.00	17955	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:27:00.00	17956	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:39:00.00	17968	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:40:00.00	17969	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:56:00.00	17985	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T11:58:00.00	17987	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:03:00.00	17992	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:04:00.00	17993	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:06:00.00	17995	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T12:10:00.00	17999	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T12:18:00.00	18007	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:19:00.00	18008	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:25:00.00	18014	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:26:00.00	18015	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:32:00.00	18021	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:33:00.00	18022	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:39:00.00	18028	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:40:00.00	18029	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:42:00.00	18031	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T12:43:00.00	18032	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T12:46:00.00	18035	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T12:55:00.00	18044	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T13:11:00.00	18060	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T13:12:00.00	18061	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T13:23:00.00	18072	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T13:45:00.00	18094	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T13:46:00.00	18095	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T13:56:00.00	18105	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T13:57:00.00	18106	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T14:16:00.00	18125	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T14:17:00.00	18126	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T14:41:00.00	18150	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T14:44:00.00	18153	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T14:54:00.00	18163	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T14:55:00.00	18164	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T14:56:00.00	18165	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T15:17:00.00	18186	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T15:22:00.00	18191	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T15:44:00.00	18213	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T15:48:00.00	18217	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T15:49:00.00	18218	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T15:56:00.00	18225	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T16:10:00.00	18239	0-0-K	 GRAD: twt excessive
+?	JA010026	1991-11-26T16:16:00.00	18245	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-26T16:22:00.00	18251	0-0-KL	 GRAD: twt, depth excessive
+?	JA010026	1991-11-27T22:51:00.00	20032	0-0-V	 GRAD: eot excessive
+Y	JA010026	1991-11-28T00:04:00.00	20105	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:05:00.00	20106	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:06:00.00	20107	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:07:00.00	20108	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:08:00.00	20109	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:09:00.00	20110	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:10:00.00	20111	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:11:00.00	20112	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:12:00.00	20113	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:13:00.00	20114	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:14:00.00	20115	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:15:00.00	20116	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:16:00.00	20117	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:17:00.00	20118	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:18:00.00	20119	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:19:00.00	20120	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:20:00.00	20121	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:21:00.00	20122	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:22:00.00	20123	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:23:00.00	20124	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:24:00.00	20125	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:25:00.00	20126	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:26:00.00	20127	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:27:00.00	20128	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:28:00.00	20129	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:29:00.00	20130	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:30:00.00	20131	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:31:00.00	20132	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:32:00.00	20133	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:33:00.00	20134	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:34:00.00	20135	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:35:00.00	20136	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:36:00.00	20137	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:37:00.00	20138	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:38:00.00	20139	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:39:00.00	20140	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:40:00.00	20141	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:41:00.00	20142	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:42:00.00	20143	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:43:00.00	20144	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:44:00.00	20145	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:45:00.00	20146	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:46:00.00	20147	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:47:00.00	20148	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:48:00.00	20149	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:49:00.00	20150	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:50:00.00	20151	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:51:00.00	20152	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:52:00.00	20153	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:53:00.00	20154	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:54:00.00	20155	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:55:00.00	20156	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:56:00.00	20157	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:57:00.00	20158	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:58:00.00	20159	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T00:59:00.00	20160	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:00:00.00	20161	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:01:00.00	20162	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:02:00.00	20163	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:03:00.00	20164	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:04:00.00	20165	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:05:00.00	20166	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:06:00.00	20167	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:07:00.00	20168	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:08:00.00	20169	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:09:00.00	20170	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:10:00.00	20171	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:11:00.00	20172	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:12:00.00	20173	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:13:00.00	20174	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:14:00.00	20175	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:15:00.00	20176	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:16:00.00	20177	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:17:00.00	20178	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:18:00.00	20179	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:19:00.00	20180	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:20:00.00	20181	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:21:00.00	20182	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:22:00.00	20183	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:23:00.00	20184	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:24:00.00	20185	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:25:00.00	20186	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:26:00.00	20187	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:27:00.00	20188	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:28:00.00	20189	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:29:00.00	20190	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:30:00.00	20191	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:31:00.00	20192	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:32:00.00	20193	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:33:00.00	20194	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:34:00.00	20195	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:35:00.00	20196	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:36:00.00	20197	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:37:00.00	20198	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:38:00.00	20199	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:39:00.00	20200	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:40:00.00	20201	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:41:00.00	20202	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:42:00.00	20203	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:43:00.00	20204	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:44:00.00	20205	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:45:00.00	20206	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:46:00.00	20207	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:47:00.00	20208	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:48:00.00	20209	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:49:00.00	20210	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:50:00.00	20211	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:51:00.00	20212	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:52:00.00	20213	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:53:00.00	20214	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:54:00.00	20215	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:55:00.00	20216	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:56:00.00	20217	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:57:00.00	20218	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:58:00.00	20219	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T01:59:00.00	20220	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:00:00.00	20221	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:01:00.00	20222	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:02:00.00	20223	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:03:00.00	20224	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:04:00.00	20225	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:05:00.00	20226	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:06:00.00	20227	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:07:00.00	20228	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:08:00.00	20229	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:09:00.00	20230	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:10:00.00	20231	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:11:00.00	20232	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:12:00.00	20233	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:13:00.00	20234	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:14:00.00	20235	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:15:00.00	20236	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:16:00.00	20237	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:17:00.00	20238	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:18:00.00	20239	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:19:00.00	20240	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:20:00.00	20241	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:21:00.00	20242	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:22:00.00	20243	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:23:00.00	20244	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:24:00.00	20245	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:26:00.00	20246	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:27:00.00	20247	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:29:00.00	20248	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:30:00.00	20249	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:32:00.00	20250	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:33:00.00	20251	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:35:00.00	20252	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:36:00.00	20253	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:37:00.00	20254	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:39:00.00	20255	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:40:00.00	20256	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:42:00.00	20257	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:45:00.00	20258	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:47:00.00	20259	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:48:00.00	20260	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:50:00.00	20261	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:51:00.00	20262	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:52:00.00	20263	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:54:00.00	20264	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:55:00.00	20265	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T02:57:00.00	20266	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:00:00.00	20267	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:06:00.00	20268	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:11:00.00	20269	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:12:00.00	20270	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:18:00.00	20271	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:22:00.00	20272	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:24:00.00	20273	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:40:00.00	20274	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T03:54:00.00	20275	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:04:00.00	20276	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:05:00.00	20277	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:10:00.00	20278	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:14:00.00	20279	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:16:00.00	20280	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:22:00.00	20281	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:29:00.00	20282	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:42:00.00	20283	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T04:57:00.00	20284	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:10:00.00	20285	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:22:00.00	20286	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:34:00.00	20287	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:43:00.00	20288	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:44:00.00	20289	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T05:53:00.00	20290	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:04:00.00	20291	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:13:00.00	20292	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:17:00.00	20293	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:29:00.00	20294	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:43:00.00	20295	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T06:58:00.00	20296	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T07:03:00.00	20297	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T07:18:00.00	20298	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T07:19:00.00	20299	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T07:37:00.00	20300	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T07:46:00.00	20301	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T08:03:00.00	20302	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T08:28:00.00	20303	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T08:36:00.00	20304	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T09:17:00.00	20305	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T10:18:00.00	20306	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T11:22:00.00	20307	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T11:37:00.00	20308	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T12:05:00.00	20309	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T12:27:00.00	20310	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T12:41:00.00	20311	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T12:55:00.00	20312	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:06:00.00	20313	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:15:00.00	20314	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:24:00.00	20315	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:25:00.00	20316	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:33:00.00	20317	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:41:00.00	20318	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:48:00.00	20319	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T13:56:00.00	20320	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:03:00.00	20321	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:09:00.00	20322	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:15:00.00	20323	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:22:00.00	20324	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:28:00.00	20325	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:34:00.00	20326	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:39:00.00	20327	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:45:00.00	20328	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:50:00.00	20329	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T14:56:00.00	20330	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:02:00.00	20331	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:07:00.00	20332	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:12:00.00	20333	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:17:00.00	20334	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:23:00.00	20335	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:28:00.00	20336	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:33:00.00	20337	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:39:00.00	20338	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:40:00.00	20339	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:44:00.00	20340	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:49:00.00	20341	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T15:55:00.00	20342	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:00:00.00	20343	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:06:00.00	20344	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:11:00.00	20345	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:17:00.00	20346	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:23:00.00	20347	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:28:00.00	20348	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:34:00.00	20349	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:39:00.00	20350	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:43:00.00	20351	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:45:00.00	20352	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:51:00.00	20353	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:52:00.00	20354	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T16:56:00.00	20355	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:01:00.00	20356	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:02:00.00	20357	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:10:00.00	20358	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:11:00.00	20359	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:18:00.00	20360	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:22:00.00	20361	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:26:00.00	20362	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:34:00.00	20363	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:37:00.00	20364	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:52:00.00	20365	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T17:53:00.00	20366	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T18:17:00.00	20367	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T18:50:00.00	20368	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:05:00.00	20369	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:15:00.00	20370	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:24:00.00	20371	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:25:00.00	20372	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:32:00.00	20373	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:36:00.00	20374	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:40:00.00	20375	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:41:00.00	20376	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:44:00.00	20377	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:48:00.00	20378	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:52:00.00	20379	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:54:00.00	20380	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T19:56:00.00	20381	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:00:00.00	20382	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:03:00.00	20383	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:06:00.00	20384	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:09:00.00	20385	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:12:00.00	20386	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:15:00.00	20387	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:16:00.00	20388	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:18:00.00	20389	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:21:00.00	20390	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:22:00.00	20391	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:24:00.00	20392	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:27:00.00	20393	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:29:00.00	20394	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:30:00.00	20395	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:32:00.00	20396	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:33:00.00	20397	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:35:00.00	20398	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:37:00.00	20399	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:39:00.00	20400	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:42:00.00	20401	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:44:00.00	20402	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:46:00.00	20403	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:49:00.00	20404	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:50:00.00	20405	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:51:00.00	20406	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:53:00.00	20407	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:54:00.00	20408	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:56:00.00	20409	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T20:58:00.00	20410	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:00:00.00	20411	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:02:00.00	20412	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:04:00.00	20413	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:05:00.00	20414	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:06:00.00	20415	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:08:00.00	20416	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:10:00.00	20417	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:11:00.00	20418	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:12:00.00	20419	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:13:00.00	20420	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:14:00.00	20421	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:15:00.00	20422	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:17:00.00	20423	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:19:00.00	20424	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:20:00.00	20425	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:21:00.00	20426	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:23:00.00	20427	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:25:00.00	20428	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:26:00.00	20429	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:27:00.00	20430	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:29:00.00	20431	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:30:00.00	20432	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:32:00.00	20433	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:34:00.00	20434	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:35:00.00	20435	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:37:00.00	20436	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:38:00.00	20437	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:39:00.00	20438	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:40:00.00	20439	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:41:00.00	20440	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:42:00.00	20441	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:43:00.00	20442	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:44:00.00	20443	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:45:00.00	20444	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:46:00.00	20445	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:47:00.00	20446	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:48:00.00	20447	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:49:00.00	20448	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:51:00.00	20449	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:52:00.00	20450	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:53:00.00	20451	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:54:00.00	20452	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:56:00.00	20453	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:57:00.00	20454	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T21:59:00.00	20455	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:00:00.00	20456	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:01:00.00	20457	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:02:00.00	20458	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:03:00.00	20459	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:05:00.00	20460	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:06:00.00	20461	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:07:00.00	20462	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:09:00.00	20463	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:10:00.00	20464	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:11:00.00	20465	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:13:00.00	20466	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:14:00.00	20467	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:15:00.00	20468	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:16:00.00	20469	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:17:00.00	20470	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:18:00.00	20471	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:20:00.00	20472	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:21:00.00	20473	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:22:00.00	20474	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:24:00.00	20475	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:25:00.00	20476	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:26:00.00	20477	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:28:00.00	20478	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:29:00.00	20479	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:30:00.00	20480	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:32:00.00	20481	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:33:00.00	20482	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:34:00.00	20483	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:35:00.00	20484	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:36:00.00	20485	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:37:00.00	20486	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:38:00.00	20487	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:39:00.00	20488	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:40:00.00	20489	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:41:00.00	20490	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:42:00.00	20491	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:43:00.00	20492	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:44:00.00	20493	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:45:00.00	20494	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:46:00.00	20495	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:47:00.00	20496	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:49:00.00	20497	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:50:00.00	20498	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:51:00.00	20499	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:52:00.00	20500	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:53:00.00	20501	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:54:00.00	20502	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:55:00.00	20503	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:56:00.00	20504	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:57:00.00	20505	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:58:00.00	20506	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T22:59:00.00	20507	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:00:00.00	20508	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:01:00.00	20509	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:02:00.00	20510	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:03:00.00	20511	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:04:00.00	20512	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:05:00.00	20513	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:06:00.00	20514	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:07:00.00	20515	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:08:00.00	20516	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:09:00.00	20517	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:10:00.00	20518	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:11:00.00	20519	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:12:00.00	20520	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:13:00.00	20521	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:14:00.00	20522	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:15:00.00	20523	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:16:00.00	20524	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:17:00.00	20525	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:18:00.00	20526	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:19:00.00	20527	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:20:00.00	20528	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:21:00.00	20529	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:22:00.00	20530	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:23:00.00	20531	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:24:00.00	20532	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:25:00.00	20533	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:26:00.00	20534	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:27:00.00	20535	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:28:00.00	20536	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:29:00.00	20537	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:30:00.00	20538	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:31:00.00	20539	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:32:00.00	20540	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:33:00.00	20541	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:34:00.00	20542	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:35:00.00	20543	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:36:00.00	20544	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:37:00.00	20545	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:38:00.00	20546	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:39:00.00	20547	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:40:00.00	20548	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:41:00.00	20549	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:42:00.00	20550	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:43:00.00	20551	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:44:00.00	20552	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:45:00.00	20553	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:46:00.00	20554	D-0-0	 NAV: on land
+Y	JA010026	1991-11-28T23:47:00.00	20555	D-0-0	 NAV: on land

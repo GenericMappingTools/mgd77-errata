@@ -1,0 +1,249 @@
+# Cruise 07010024 ID YAQ703 MGD77 FILE VERSION: 19840214 N_RECS: 5739
+# Examined: Fri Jul 16 17:34:30 2010 by mtchandl
+# Arguments:  -R210.55/226.5/55.9/60.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Ship and satellite gravity diverge in nearshore areas.
+# Errata: Header
+Y-W-07010024-nav-00: Flagged 1.12 % of records with bad navigation
+Y-I-07010024-depth-01: RLS m: 0.998172 b: 0 rms: 73.0474 r: 0.998973 sig: 1 dec: 0
+N-E-07010024-depth-02: Regression slope 0.998172 different from 1. Recommended: [1]
+Y-I-07010024-faa-01: RLS m: 1.02235 b: -9.31787 rms: 14.7688 r: 0.935801 sig: 1 dec: 0
+Y-W-07010024-faa-03: Regression offset -9.31787 different from 0.
+Y-E-07010024-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0001 b: 292.903 rms: 293.036 r: 0.999095 sig: 1 dec: 0). [Recompute]
+Y-W-07010024-mtf1-12: Integer precision
+Y-W-07010024-mag-12: Integer precision
+# Errata: Data
+Y	07010024	1970-08-28T07:59:00.00	65	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T08:02:00.00	68	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T12:06:00.00	163	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T12:11:00.00	168	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T12:13:00.00	170	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T12:18:00.00	175	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T12:20:00.00	177	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-28T22:58:00.00	330	B-0-0	 NAV: non-increasing time
+?	07010024	1970-08-29T00:30:00.00	361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-29T00:32:00.00	362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-29T00:37:00.00	365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-29T00:45:00.00	367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-29T02:12:00.00	402	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-08-30T02:57:00.00	794	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-30T03:04:00.00	799	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-30T03:11:00.00	805	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-30T03:14:00.00	807	B-0-0	 NAV: non-increasing time
+?	07010024	1970-08-30T04:10:00.00	835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T04:13:00.00	836	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T04:15:00.00	837	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-30T04:20:00.00	840	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-30T04:22:00.00	841	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-30T04:25:00.00	842	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-30T04:30:00.00	843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T04:32:00.00	844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T04:56:00.00	853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:00:00.00	855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:06:00.00	859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:09:00.00	862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:10:00.00	863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:12:00.00	864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:15:00.00	865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T05:25:00.00	870	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T08:43:00.00	950	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T08:45:00.00	952	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T09:23:00.00	970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T09:25:00.00	971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T09:37:00.00	976	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T09:40:00.00	977	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-08-30T10:24:00.00	995	B-0-0	 NAV: non-increasing time
+?	07010024	1970-08-30T10:25:00.00	996	0-0-KL	 GRAD: twt, depth excessive
+Y	07010024	1970-08-30T11:03:00.00	1007	B-0-0	 NAV: non-increasing time
+?	07010024	1970-08-30T11:47:00.00	1032	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T11:50:00.00	1035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T11:57:00.00	1039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T11:59:00.00	1041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T12:00:00.00	1042	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-08-30T12:56:00.00	1071	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-08-30T12:59:00.00	1073	B-0-0	 NAV: non-increasing time
+?	07010024	1970-08-30T17:12:00.00	1183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T17:15:00.00	1184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-30T17:20:00.00	1186	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T01:08:00.00	1329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:30:00.00	1377	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:33:00.00	1378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:44:00.00	1381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:50:00.00	1383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:58:00.00	1390	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T03:59:00.00	1391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T04:01:00.00	1392	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T04:05:00.00	1393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T09:35:00.00	1474	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T09:44:00.00	1477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T10:50:00.00	1501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T10:55:00.00	1503	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T10:59:00.00	1504	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-31T11:00:00.00	1505	0-Q-0	 VAL: mag invalid
+?	07010024	1970-08-31T11:05:00.00	1508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T13:30:00.00	1536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T13:35:00.00	1539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T13:40:00.00	1542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T13:51:00.00	1548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-08-31T15:30:00.00	1581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T13:35:00.00	1954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T13:40:00.00	1956	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-01T13:45:00.00	1957	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-01T13:47:00.00	1958	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-01T13:51:00.00	1959	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-01T13:56:00.00	1960	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T13:58:00.00	1961	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-01T14:00:00.00	1962	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T14:05:00.00	1964	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T14:20:00.00	1971	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T14:40:00.00	1977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T14:45:00.00	1978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:10:00.00	1989	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:20:00.00	1994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:25:00.00	1997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:30:00.00	1999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:35:00.00	2000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:38:00.00	2001	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:40:00.00	2002	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:42:00.00	2003	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:44:00.00	2005	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:45:00.00	2006	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:48:00.00	2008	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:50:00.00	2009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T15:55:00.00	2012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T16:00:00.00	2014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:01:00.00	2040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:05:00.00	2042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:10:00.00	2043	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:15:00.00	2044	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:17:00.00	2045	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:19:00.00	2046	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:20:00.00	2047	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:22:00.00	2048	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:25:00.00	2049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:28:00.00	2050	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:30:00.00	2052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:35:00.00	2054	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:41:00.00	2057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T17:45:00.00	2059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T20:35:00.00	2124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T20:40:00.00	2126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T20:45:00.00	2127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T20:48:00.00	2128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T23:10:00.00	2181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T23:20:00.00	2188	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-01T23:27:00.00	2192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T00:55:00.00	2226	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-02T02:10:00.00	2261	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-02T04:45:00.00	2319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T09:25:00.00	2409	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T10:06:00.00	2426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T10:47:00.00	2448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:20:00.00	2463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:30:00.00	2470	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:31:00.00	2471	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:35:00.00	2473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:36:00.00	2474	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:38:00.00	2475	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T11:40:00.00	2476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:15:00.00	2573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:16:00.00	2574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:36:00.00	2581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:37:00.00	2582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:40:00.00	2584	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T15:45:00.00	2585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-02T19:00:00.00	2656	D-0-0	 NAV: on land
+?	07010024	1970-09-03T23:31:00.00	2692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T00:35:00.00	2716	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T00:36:00.00	2717	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T00:39:00.00	2718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T06:55:00.00	2811	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T06:56:00.00	2812	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T06:59:00.00	2814	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T11:11:00.00	2931	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-04T11:16:00.00	2935	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-04T11:22:00.00	2938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T15:35:00.00	3029	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T17:17:00.00	3063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-04T17:18:00.00	3064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T18:42:00.00	3231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T18:45:00.00	3233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T18:49:00.00	3234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T20:54:00.00	3274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T21:15:00.00	3285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T21:20:00.00	3287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T21:21:00.00	3288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T21:35:00.00	3296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-05T23:09:00.00	3328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T00:31:00.00	3366	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T00:52:00.00	3379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T00:54:00.00	3380	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T00:55:00.00	3381	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T01:02:00.00	3384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T01:05:00.00	3386	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T01:08:00.00	3388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T01:35:00.00	3399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T01:37:00.00	3400	0-Q-0	 VAL: mag invalid
+?	07010024	1970-09-06T01:50:00.00	3406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T15:50:00.00	3613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T15:53:00.00	3614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T16:00:00.00	3616	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-06T16:00:00.00	3617	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-06T17:40:00.00	3647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T18:10:00.00	3656	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T18:11:00.00	3657	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-06T18:11:00.00	3658	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-06T18:15:00.00	3660	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-06T18:20:00.00	3661	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-07T13:27:00.00	3924	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-07T13:37:00.00	3930	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-07T13:40:00.00	3933	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-07T21:12:00.00	4047	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-07T21:24:00.00	4057	B-0-0	 NAV: non-increasing time
+?	07010024	1970-09-08T00:11:00.00	4114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-08T00:13:00.00	4116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-08T00:19:00.00	4119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010024	1970-09-08T00:20:00.00	4120	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010024	1970-09-10T02:39:00.00	4719	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T02:39:00.00	4720	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T02:39:00.00	4721	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T02:39:00.00	4722	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T02:39:00.00	4723	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T06:22:00.00	4734	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T06:22:00.00	4735	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T06:22:00.00	4736	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T06:22:00.00	4737	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T06:22:00.00	4738	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T09:30:00.00	4750	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T09:30:00.00	4751	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T09:30:00.00	4752	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T09:30:00.00	4753	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T09:30:00.00	4754	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4775	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4776	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4777	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4778	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4779	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4780	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4781	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4782	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4783	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4784	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4785	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4786	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4787	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4788	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4789	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4790	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4791	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4792	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4793	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4794	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-10T13:09:00.00	4795	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-11T00:00:00.00	4984	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-11T00:14:00.00	4992	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-12T02:35:00.00	5423	B-0-0	 NAV: non-increasing time
+Y	07010024	1970-09-12T23:11:00.00	5718	D-0-0	 NAV: on land

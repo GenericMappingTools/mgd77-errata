@@ -1,0 +1,17 @@
+# Cruise 02030040 ID WOCEP06C MGD77 FILE VERSION: 20010424 N_RECS: 8679
+# Examined: Fri Apr  2 15:49:45 2010 by mtchandl
+# Arguments:  -R177.45/246.05/-32.65/-31.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Due West!
+# Errata: Header
+N-E-02030040-H04-02: Invalid Survey Departure Month: (05) [06]
+N-E-02030040-H04-03: Invalid Survey Departure Day: (30) [02]
+N-E-02030040-H04-06: Invalid Survey Arrival Day: (07) [04]
+Y-E-02030040-H11-06: Invalid Rightmost Longitude: (-114) [-113]
+Y-I-02030040-depth-01: RLS m: 0.99678 b: 0 rms: 156.661 r: 0.988082 sig: 1 dec: 0
+Y-W-02030040-depth-12: Integer precision
+# Errata: Data
+?	02030040	1992-06-07T05:50:00.36	1477	0-0-K	 GRAD: twt excessive

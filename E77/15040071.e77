@@ -1,0 +1,32 @@
+# Cruise 15040071 ID INDP04WT MGD77 FILE VERSION: 19851028 N_RECS: 3649
+# Examined: Thu May 22 09:56:44 2008 by mtchandl
+# Arguments:  -R133.6/144.7/6.8/13.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040071-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040071-nav-00: Flagged 0.33 % of records with excessive speed or invalid navigation
+Y-I-15040071-depth-01: RLS m: 1 b: 0 rms: 152.218 r: 0.99774 sig: 1 dec: 1
+Y-E-15040071-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.993011 b: 13.6078 rms: 17.2927 r: 0.998834 sig: 1 dec: 1). [Recompute]
+Y-W-15040071-twt-11: More recent bathymetry correction table available
+Y-W-15040071-mtf1-12: Integer precision
+Y-W-15040071-mag-12: Integer precision
+# Errata: Data
+?	15040071	1976-06-24T08:40:00.00	590	0-0-KL	 GRAD: twt, depth excessive
+?	15040071	1976-06-24T08:45:00.00	591	0-0-KL	 GRAD: twt, depth excessive
+?	15040071	1976-06-28T02:30:00.00	1668	0-0-K	 GRAD: twt excessive
+Y	15040071	1976-07-04T22:40:00.00	3638	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T22:45:00.00	3639	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T22:50:00.00	3640	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T22:55:00.00	3641	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:00:00.00	3642	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:05:00.00	3643	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:10:00.00	3644	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:15:00.00	3645	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:20:00.00	3646	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:25:00.00	3647	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:30:00.00	3648	D-0-0	 NAV: on land
+Y	15040071	1976-07-04T23:35:00.00	3649	D-0-0	 NAV: on land

@@ -1,0 +1,31 @@
+# Cruise 15040075 ID INDP08WT MGD77 FILE VERSION: 19800226 N_RECS: 7968
+# Examined: Fri May 23 09:45:52 2008 by mtchandl
+# Arguments:  -R126.4/144.7/-12.5/13.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040075-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040075-nav-00: Flagged 0.14 % of records with excessive speed or invalid navigation
+Y-I-15040075-depth-01: RLS m: 1.00388 b: 0 rms: 113.89 r: 0.998221 sig: 1 dec: 1
+Y-I-15040075-faa-01: RLS m: 0.983208 b: 1.8543 rms: 11.4367 r: 0.994684 sig: 1 dec: 1
+N-E-15040075-faa-02: Regression slope 0.983208 different from 1. Recommended: [1]
+Y-W-15040075-faa-03: Regression offset 1.8543 different from 0.
+Y-E-15040075-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992777 b: 5.29423 rms: 16.9486 r: 0.996578 sig: 1 dec: 1). [Recompute]
+Y-W-15040075-twt-11: More recent bathymetry correction table available
+Y-W-15040075-mtf1-12: Integer precision
+Y-W-15040075-mag-12: Integer precision
+# Errata: Data
+Y	15040075	1976-09-29T22:20:00.00	7953	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T22:25:00.00	7954	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T22:30:00.00	7955	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T22:45:00.00	7958	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T22:50:00.00	7959	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T22:55:00.00	7960	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T23:00:00.00	7961	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T23:05:00.00	7962	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T23:10:00.00	7963	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T23:15:00.00	7964	D-0-0	 NAV: on land
+Y	15040075	1976-09-29T23:20:00.00	7965	D-0-0	 NAV: on land

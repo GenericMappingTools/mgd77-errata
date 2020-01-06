@@ -1,0 +1,19 @@
+# Cruise 03020148 ID RP13SU82 MGD77 FILE VERSION: 19971215 N_RECS: 14840
+# Examined: Fri Apr 16 13:04:18 2010 by mtchandl
+# Arguments:  -R229.1/231.15/44.05/47.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020148-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-03020148-depth-01: RLS m: 1.0002 b: 0 rms: 35.1454 r: 0.991154 sig: 1 dec: 0
+Y-W-03020148-depth-12: Integer precision
+# Errata: Data
+Y	03020148	1982-03-24T17:50:01.98	4844	C-0-0	 NAV: excessive speed
+Y	03020148	1982-03-24T17:51:01.98	4845	C-0-0	 NAV: excessive speed
+Y	03020148	1982-03-24T17:52:01.98	4846	C-0-0	 NAV: excessive speed
+Y	03020148	1982-04-04T09:25:00.00	8218	C-0-0	 NAV: excessive speed
+?	03020148	1982-04-06T09:26:49.02	10766	0-0-K	 GRAD: twt excessive
+Y	03020148	1982-04-07T03:55:01.98	11176	C-0-0	 NAV: excessive speed

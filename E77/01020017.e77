@@ -1,0 +1,47 @@
+# Cruise 01020017 ID ELT17 MGD77 FILE VERSION: 19790205 N_RECS: 15193
+# Examined: Wed Jul  8 20:32:30 2009 by mtchandl
+# Arguments:  -R174.8/288.35/-68.95/-33 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01020017-depth-01: RLS m: 1 b: 0 rms: 9.187 r: 0.999991 sig: 1 dec: 0
+Y-E-01020017-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04274 b: -110.587 rms: 118.739 r: 0.970362 sig: 1 dec: 0). [Recompute]
+N-E-01020017-depth-08: Extended offset from grid [3-6239]
+N-E-01020017-depth-08: Extended offset from grid [6254-15193]
+Y-W-01020017-twt-11: More recent bathymetry correction table available
+Y-W-01020017-mtf1-12: Integer precision
+Y-W-01020017-mag-12: Integer precision
+# Errata: Data
+?	01020017	1965-03-16T11:50:00.00	1515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-16T12:20:00.00	1527	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-17T16:00:00.00	2126	0-0-K	 GRAD: twt excessive
+?	01020017	1965-03-18T04:17:00.00	2408	0-0-KL	 GRAD: twt, depth excessive
+?	01020017	1965-03-18T08:53:00.00	2518	0-0-K	 GRAD: twt excessive
+?	01020017	1965-03-20T10:47:00.00	3717	0-0-KL	 GRAD: twt, depth excessive
+?	01020017	1965-03-22T18:50:00.00	5010	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T18:54:00.00	5012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T18:58:00.00	5013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T19:02:00.00	5015	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T19:06:00.00	5017	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T19:10:00.00	5018	0-Q-0	 VAL: mag invalid
+?	01020017	1965-03-22T19:14:00.00	5020	0-Q-0	 VAL: mag invalid
+?	01020017	1965-03-22T19:18:00.00	5021	0-Q-0	 VAL: mag invalid
+?	01020017	1965-03-22T19:22:00.00	5022	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T19:26:00.00	5024	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-22T19:30:00.00	5026	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-23T01:16:00.00	5080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-24T03:38:00.00	5677	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-24T07:07:00.00	5745	0-0-K	 GRAD: twt excessive
+?	01020017	1965-03-25T14:05:00.00	6223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-03-25T14:10:00.00	6225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-04-26T19:59:00.00	9867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-04-26T20:03:00.00	9868	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020017	1965-04-26T20:07:00.00	9870	0-Q-0	 VAL: mag invalid
+?	01020017	1965-04-26T20:11:00.00	9871	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-04-26T20:15:00.00	9874	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020017	1965-05-02T21:20:00.00	11554	0-0-KL	 GRAD: twt, depth excessive
+?	01020017	1965-05-08T15:52:00.00	14013	0-0-K	 GRAD: twt excessive
+?	01020017	1965-05-09T14:35:00.00	14156	0-0-K	 GRAD: twt excessive

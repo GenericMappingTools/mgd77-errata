@@ -1,0 +1,21 @@
+# Cruise 15020051 ID INMD02MV MGD77 FILE VERSION: 19810325 N_RECS: 6901
+# Examined: Thu May 15 08:38:06 2008 by mtchandl
+# Arguments:  -R280.1/353.5/9.3/36.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing depths for records 76-506 (750 m offset?).
+# Errata: Header
+Y-W-15020051-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15020051-depth-01: RLS m: 1 b: 0 rms: 220.535 r: 0.992464 sig: 1 dec: 1
+Y-E-15020051-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.908188 b: -339.031 rms: 371.753 r: 0.62835 sig: 1 dec: 1). [Recompute]
+Y-E-15020051-depth-08: Extended offset from grid [76-506]
+Y-W-15020051-twt-11: More recent bathymetry correction table available
+Y-W-15020051-mtf1-12: Integer precision
+Y-W-15020051-mag-12: Integer precision
+# Errata: Data
+Y	15020051	1977-11-07T06:05:00.00	1	D-0-0	 NAV: on land
+Y	15020051	1977-11-07T06:10:00.00	2	D-0-0	 NAV: on land
+Y	15020051	1977-11-07T06:15:00.00	3	D-0-0	 NAV: on land
+Y	15020051	1977-11-07T06:20:00.00	4	D-0-0	 NAV: on land

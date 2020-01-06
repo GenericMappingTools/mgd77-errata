@@ -1,0 +1,35 @@
+# Cruise 08020057 ID MW9005 MGD77 FILE VERSION: 19921231 N_RECS: 34597
+# Examined: Fri Jul 30 13:02:14 2010 by mtchandl
+# Arguments:  -R144.4/160.5/-13.9/13.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-08020057-H04-03: Invalid Survey Departure Day: (04) [05]
+Y-E-08020057-H04-06: Invalid Survey Arrival Day: (21) [22]
+Y-I-08020057-depth-01: RLS m: 1.00035 b: 0 rms: 19.4831 r: 0.999913 sig: 1 dec: 0
+N-E-08020057-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-W-08020057-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08020057	1990-04-05T10:43:16.02	773	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-07T01:54:40.98	4123	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-07T08:10:03.00	4677	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-08T04:51:16.98	6468	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-08T07:37:28.02	6717	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-09T05:21:37.98	8997	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-09T06:27:19.02	9153	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-09T09:51:55.02	9521	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-09T22:20:54.00	10773	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-10T14:06:33.00	12018	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-17T19:22:04.98	25525	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-18T20:38:07.98	27656	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-19T04:08:06.00	28331	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-19T06:14:58.02	28518	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-19T07:30:37.02	28642	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-19T11:12:48.00	29003	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-20T20:16:03.00	31789	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-21T02:06:48.00	32349	0-0-K	 GRAD: twt excessive
+?	08020057	1990-04-21T02:58:04.98	32427	0-0-KL	 GRAD: twt, depth excessive
+?	08020057	1990-04-21T08:59:12.00	33053	0-0-KL	 GRAD: twt, depth excessive

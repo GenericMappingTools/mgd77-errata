@@ -1,0 +1,46 @@
+# Cruise 15040194 ID PLUM07WT MGD77 FILE VERSION: 19910719 N_RECS: 28618
+# Examined: Mon May 26 17:03:25 2008 by mtchandl
+# Arguments:  -R293/295.85/10.35/11 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and manually reviewing depth (poor agreement w/ grid).
+# Errata: Header
+N-E-15040194-H04-03: Invalid Survey Departure Day: (05) [06]
+Y-W-15040194-H13-10: Survey year (1990) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040194-nav-00: Flagged 0.05 % of records with excessive speed or invalid navigation
+Y-I-15040194-depth-01: RLS m: 1 b: 0 rms: 313.994 r: 0.791094 sig: 1 dec: 1
+Y-E-15040194-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.729713 b: -136.696 rms: 153.013 r: 0.846923 sig: 1 dec: 1). [Recompute]
+Y-W-15040194-twt-11: More recent bathymetry correction table available
+Y-W-15040194-depth-12: Integer precision
+Y-W-15040194-mtf1-12: Integer precision
+# Errata: Data
+?	15040194	1990-06-11T12:57:00.00	7593	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T13:00:00.00	7594	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T13:10:00.00	7595	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T13:20:00.00	7596	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T13:30:00.00	7597	D-0-0	 NAV: on land
+?	15040194	1990-06-11T13:35:00.00	7598	D-0-0	 NAV: on land
+?	15040194	1990-06-11T13:40:00.00	7599	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T13:50:00.00	7600	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T14:13:00.00	7601	D-0-0	 NAV: on land
+Y	15040194	1990-06-11T14:48:00.00	7602	D-0-0	 NAV: on land
+?	15040194	1990-06-11T15:23:00.00	7603	D-0-0	 NAV: on land
+?	15040194	1990-06-11T15:58:00.00	7604	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:10:00.00	7605	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:20:00.00	7606	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:30:00.00	7607	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:31:00.00	7608	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:40:00.00	7609	D-0-0	 NAV: on land
+?	15040194	1990-06-11T16:50:00.00	7610	D-0-0	 NAV: on land
+?	15040194	1990-06-11T17:00:00.00	7611	D-0-0	 NAV: on land
+?	15040194	1990-06-11T17:08:00.00	7612	D-0-0	 NAV: on land
+?	15040194	1990-06-11T17:10:00.00	7613	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T11:30:00.00	28612	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T11:35:00.00	28613	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T11:39:00.00	28614	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T11:47:00.00	28615	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T12:21:00.00	28616	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T13:53:00.00	28617	D-0-0	 NAV: on land
+Y	15040194	1990-06-26T14:09:00.00	28618	D-0-0	 NAV: on land

@@ -1,0 +1,24 @@
+# Cruise 19050011 ID SH977 MGD77 FILE VERSION: 19940713 N_RECS: 5869
+# Examined: Mon Sep  6 12:53:35 2010 by mtchandl
+# Arguments:  -R-12/4.85/61/69.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050011-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-19050011-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-19050011-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-19050011-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-19050011-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-19050011-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-19050011-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-19050011-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-19050011-depth-01: RLS m: 1.00052 b: 0 rms: 8.01372 r: 0.99997 sig: 1 dec: 0
+N-E-19050011-depth-02: Regression slope 1.00052 different from 1. Recommended: [1]
+# Errata: Data
+?	19050011	1977-08-19T23:46:00.00	1514	0-0-K	 GRAD: twt excessive
+?	19050011	1977-08-20T14:46:00.00	1964	0-0-KL	 GRAD: twt, depth excessive
+?	19050011	1977-08-20T17:04:00.00	2033	0-0-K	 GRAD: twt excessive
+?	19050011	1977-08-20T17:06:00.00	2034	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,13 @@
+# Cruise 89020007 ID FARN07 MGD77 FILE VERSION: 19941231 N_RECS: 164
+# Examined: Thu Aug  4 19:58:29 2011 by mtchandl
+# Arguments:  -R78.1/81.3/-13.05/-8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-89020007-H11-03: Invalid Bottommost Latitude: (-13) [-14]
+Y-I-89020007-depth-01: RLS m: 1 b: 0 rms: 12.8264 r: 0.998397 sig: 1 dec: 0
+Y-W-89020007-depth-12: Integer precision
+# Errata: Data

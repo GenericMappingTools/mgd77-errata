@@ -1,0 +1,13 @@
+# Cruise 09050050 ID KA341421 MGD77 FILE VERSION: 19800219 N_RECS: 637
+# Examined: Mon Aug  9 11:47:22 2010 by mtchandl
+# Arguments:  -R283.15/283.85/26.55/27 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09050050-mag-07: Anomaly differs from mtf1-IGRF (m: 0.96286 b: -346.021 rms: 348.596 r: 0.996231 sig: 1 dec: 0). [Recompute]
+Y-W-09050050-mag-09: only found negative values
+Y-W-09050050-mag-12: Integer precision
+# Errata: Data

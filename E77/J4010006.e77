@@ -1,0 +1,54 @@
+# Cruise J4010006 ID KH6804-C MGD77 FILE VERSION: 19790101 N_RECS: 2751
+# Examined: Sun Aug  7 09:58:12 2011 by mtchandl
+# Arguments:  -R151.35/190.4/-69.55/-3.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Faa offset from satellite derived grid possibly due to grid inaccuracy near Antarctica.
+# Errata: Header
+N-E-J4010006-H11-02: Invalid Topmost Latitude : (-33) [-03]
+N-E-J4010006-H16-01: Invalid Number of Ten Degree Identifiers: (13) [14]
+Y-W-J4010006-H16-06: Ten Degree Identifier 3015 not marked in header but block was crossed
+Y-W-J4010006-nav-00: Flagged 0.84 % of records with bad navigation
+Y-I-J4010006-depth-01: RLS m: 1 b: 0 rms: 14.5233 r: 0.999932 sig: 1 dec: 0
+Y-I-J4010006-faa-01: RLS m: 0.873845 b: 1.33624 rms: 13.6696 r: 0.832313 sig: 1 dec: 0
+N-E-J4010006-faa-02: Regression slope 0.873845 different from 1. Recommended: [1]
+Y-W-J4010006-faa-03: Regression offset 1.33624 different from 0.
+N-E-J4010006-faa-08: Extended offset from grid [907-1375]
+Y-W-J4010006-depth-12: Integer precision
+Y-W-J4010006-mag-12: Integer precision
+Y-W-J4010006-faa-12: Integer precision
+# Errata: Data
+?	J4010006	1969-01-17T01:40:00.00	869	0-Q-0	 VAL: mag invalid
+?	J4010006	1969-01-17T04:50:00.00	888	0-Q-0	 VAL: mag invalid
+?	J4010006	1969-01-17T05:00:00.00	889	0-Q-0	 VAL: mag invalid
+Y	J4010006	1969-01-19T09:10:00.00	1028	C-0-0	 NAV: excessive speed
+?	J4010006	1969-01-20T02:50:00.00	1134	0-0-Q	 GRAD: mag excessive
+Y	J4010006	1969-01-23T15:10:00.00	1551	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T15:20:00.00	1552	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T15:30:00.00	1553	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T15:40:00.00	1554	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T15:50:00.00	1555	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T16:00:00.00	1556	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T16:10:00.00	1557	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T16:30:00.00	1559	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T16:40:00.00	1560	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T16:50:00.00	1561	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T17:00:00.00	1562	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-23T17:10:00.00	1563	C-0-0	 NAV: excessive speed
+?	J4010006	1969-01-23T21:10:00.00	1587	0-Q-0	 VAL: mag invalid
+?	J4010006	1969-01-25T19:20:00.00	1796	0-0-W	 GRAD: faa excessive
+?	J4010006	1969-01-25T19:30:00.00	1797	0-0-W	 GRAD: faa excessive
+Y	J4010006	1969-01-30T16:10:00.00	2279	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-30T16:20:00.00	2280	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-30T16:30:00.00	2281	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-30T16:40:00.00	2282	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-30T16:50:00.00	2283	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-30T17:00:00.00	2284	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-31T08:00:00.00	2347	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-31T21:10:00.00	2426	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-01-31T21:20:00.00	2427	C-0-0	 NAV: excessive speed
+Y	J4010006	1969-02-03T07:00:00.00	2663	C-0-0	 NAV: excessive speed
+?	J4010006	1969-02-03T07:40:00.00	2667	0-0-L	 GRAD: depth excessive
+?	J4010006	1969-02-03T07:50:00.00	2668	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,51 @@
+# Cruise 15020069 ID INMD08MV MGD77 FILE VERSION: 19830819 N_RECS: 8226
+# Examined: Fri May 16 11:37:36 2008 by mtchandl
+# Arguments:  -R41.9/57.3/-42.2/-20.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15020069-depth-01: RLS m: 0.996125 b: 0 rms: 173.853 r: 0.993305 sig: 1 dec: 1
+Y-E-15020069-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02771 b: -103.355 rms: 130.644 r: 0.94557 sig: 1 dec: 1). [Recompute]
+Y-W-15020069-twt-11: More recent bathymetry correction table available
+Y-W-15020069-mtf1-12: Integer precision
+Y-W-15020069-mag-12: Integer precision
+# Errata: Data
+?	15020069	1978-05-06T13:05:00.00	2056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-06T13:10:00.00	2057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-11T02:25:00.00	3368	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-11T21:00:00.00	3591	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-11T21:20:00.00	3595	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-11T23:15:00.00	3618	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T08:25:00.00	3728	0-0-K	 GRAD: twt excessive
+?	15020069	1978-05-12T08:30:00.00	3729	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T17:05:00.00	3832	0-0-K	 GRAD: twt excessive
+?	15020069	1978-05-12T17:20:00.00	3835	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T17:25:00.00	3836	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T17:30:00.00	3837	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T17:35:00.00	3838	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T17:40:00.00	3839	0-0-K	 GRAD: twt excessive
+?	15020069	1978-05-12T17:55:00.00	3842	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T23:00:00.00	3903	0-0-K	 GRAD: twt excessive
+?	15020069	1978-05-12T23:15:00.00	3906	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-12T23:40:00.00	3911	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-13T08:05:00.00	4012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-16T19:25:00.00	5012	0-0-KL	 GRAD: twt, depth excessive
+?	15020069	1978-05-17T10:40:00.00	5195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-17T13:15:00.00	5226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-18T10:35:00.00	5482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-18T10:50:00.00	5485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-19T03:30:00.00	5685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T00:50:00.00	5941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T00:55:00.00	5942	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T01:20:00.00	5947	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T01:55:00.00	5954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T02:30:00.00	5961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T02:35:00.00	5962	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T02:40:00.00	5963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T07:10:00.00	6017	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-20T08:35:00.00	6034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020069	1978-05-21T04:10:00.00	6269	0-0-K	 GRAD: twt excessive
+?	15020069	1978-05-21T21:10:00.00	6473	0-0-K	 GRAD: twt excessive

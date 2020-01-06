@@ -1,0 +1,165 @@
+# Cruise 15020133 ID PHNX02MV MGD77 FILE VERSION: 20040316 N_RECS: 38260
+# Examined: Sat May 17 10:16:10 2008 by mtchandl
+# Arguments:  -R255.25/260.15/9.35/19.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020133-H13-10: Survey year (1992) outside magnetic reference field IGRF-1990 time range (1995-2000)
+Y-I-15020133-depth-01: RLS m: 1 b: 0 rms: 152.467 r: 0.991641 sig: 1 dec: 1
+Y-E-15020133-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.974214 b: -10.7751 rms: 16.3591 r: 0.996702 sig: 1 dec: 1). [Recompute]
+Y-W-15020133-twt-11: More recent bathymetry correction table available
+Y-W-15020133-depth-12: Integer precision
+Y-W-15020133-mtf1-12: Integer precision
+# Errata: Data
+?	15020133	1992-07-20T18:29:00.00	2631	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-20T18:53:00.00	2655	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-20T19:22:00.00	2684	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-20T20:32:00.00	2754	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-20T20:38:00.00	2760	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-20T20:46:00.00	2768	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-20T20:50:00.00	2772	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-21T00:43:00.00	3005	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-21T00:45:00.00	3007	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-21T00:49:00.00	3011	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T00:57:00.00	3019	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T01:02:00.00	3024	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T09:11:00.00	3513	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T09:24:00.00	3526	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T09:45:00.00	3547	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-21T19:17:00.00	4119	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T22:23:00.00	4305	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-21T22:24:00.00	4306	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T00:08:00.00	4410	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T01:22:00.00	4484	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T01:38:00.00	4500	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T01:39:00.00	4501	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T16:37:00.00	5399	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T16:55:00.00	5417	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T16:56:00.00	5418	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T19:04:00.00	5546	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T19:06:00.00	5548	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T20:09:00.00	5611	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T20:14:00.00	5616	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-22T23:07:00.00	5789	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T23:09:00.00	5791	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-22T23:14:00.00	5796	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T00:01:00.00	5843	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-23T00:05:00.00	5847	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-23T00:15:00.00	5857	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-23T00:16:00.00	5858	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T03:01:00.00	6023	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T03:40:00.00	6062	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T06:18:00.00	6220	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T17:53:00.00	6915	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-23T17:54:00.00	6916	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T00:16:00.00	7274	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T00:37:00.00	7295	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-24T02:47:00.00	7425	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T07:44:00.00	7722	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-24T09:36:00.00	7834	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T11:45:00.00	7963	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T11:47:00.00	7965	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-24T16:28:00.00	8226	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T18:44:00.00	8362	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-24T19:06:00.00	8384	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-24T23:32:00.00	8650	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T05:52:00.00	9030	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T07:43:00.00	9141	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-25T07:53:00.00	9151	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T08:45:00.00	9203	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T08:46:00.00	9204	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T11:02:00.00	9340	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T11:03:00.00	9341	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T11:45:00.00	9383	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-25T14:59:00.00	9577	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T15:00:00.00	9578	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-25T15:02:00.00	9580	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T05:40:00.00	10458	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T05:41:00.00	10459	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T05:50:00.00	10468	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T05:51:00.00	10469	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T07:25:00.00	10563	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T07:38:00.00	10576	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T10:11:00.00	10729	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T11:57:00.00	10835	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T12:00:00.00	10838	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T12:43:00.00	10881	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T13:37:00.00	10935	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-26T18:38:00.00	11236	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-26T20:23:00.00	11341	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-27T14:34:00.00	12432	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-27T19:39:00.00	12737	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-27T21:46:00.00	12864	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-27T21:52:00.00	12870	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T05:53:00.00	13351	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T06:08:00.00	13366	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T08:30:00.00	13508	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T08:32:00.00	13510	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T08:33:00.00	13511	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T08:39:00.00	13517	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T11:42:00.00	13700	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-28T11:46:00.00	13704	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T14:32:00.00	13870	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T14:33:00.00	13871	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T19:57:00.00	14195	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T20:02:00.00	14200	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-28T20:05:00.00	14203	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-29T01:23:00.00	14521	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-29T02:28:00.00	14586	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-29T07:44:00.00	14884	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-29T09:43:00.00	15003	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-29T09:59:00.00	15019	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-29T20:20:00.00	15640	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-30T09:11:00.00	16410	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-30T09:32:00.00	16431	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-30T09:33:00.00	16432	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-30T13:41:00.00	16680	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-30T18:47:00.00	16986	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-31T00:19:00.00	17318	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-31T00:23:00.00	17322	0-0-K	 GRAD: twt excessive
+?	15020133	1992-07-31T06:00:00.00	17659	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-31T06:01:00.00	17660	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-07-31T22:50:00.00	18669	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-01T02:26:00.00	18885	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-01T05:16:00.00	19055	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-01T05:37:00.00	19076	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-01T08:51:00.00	19270	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-01T09:36:00.00	19315	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-02T08:31:00.00	20690	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-02T13:00:00.00	20959	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-02T23:19:00.00	21578	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-02T23:21:00.00	21580	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-03T09:09:00.00	22168	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-03T14:53:00.00	22512	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-03T19:37:00.00	22796	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-03T22:59:00.00	22998	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-03T23:22:00.00	23021	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T00:05:00.00	23064	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-04T00:14:00.00	23073	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T01:35:00.00	23154	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T01:39:00.00	23158	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T01:40:00.00	23159	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T08:25:00.00	23564	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-04T13:37:00.00	23876	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-05T05:01:00.00	24800	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-05T08:22:00.00	25001	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-05T11:40:00.00	25199	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-05T18:23:00.00	25602	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-06T12:16:00.00	26675	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-06T12:18:00.00	26677	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-06T16:33:00.00	26932	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-06T18:02:00.00	27021	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-06T22:49:00.00	27308	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-07T06:04:00.00	27743	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-08T22:35:00.00	30159	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-09T07:35:00.00	30698	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-09T07:45:00.00	30708	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-09T16:17:00.00	31220	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-09T22:04:00.00	31567	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-10T01:55:00.00	31798	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-10T03:08:00.00	31871	0-0-K	 GRAD: twt excessive
+?	15020133	1992-08-12T04:49:00.00	34852	0-0-KL	 GRAD: twt, depth excessive
+?	15020133	1992-08-12T14:17:00.00	35420	0-0-K	 GRAD: twt excessive

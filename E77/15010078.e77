@@ -1,0 +1,40 @@
+# Cruise 15010078 ID ZTES06AR MGD77 FILE VERSION: 19800226 N_RECS: 3321
+# Examined: Wed May 14 08:17:03 2008 by mtchandl
+# Arguments:  -R202.1/206.1/19.75/24.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15010078-nav-00: Flagged 0.72 % of records with excessive speed or invalid navigation
+Y-I-15010078-depth-01: RLS m: 0.996125 b: 0 rms: 138.37 r: 0.996131 sign: 1 dec: 1
+Y-E-15010078-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.99879 b: -80.1297 rms: 80.6063 r: 0.999364 sig: 1 dec: 1). [Recompute]
+Y-W-15010078-mtf1-12: Integer multiple of 5 precision
+Y-W-15010078-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010078	1966-06-23T19:57:00.00	4	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:00:00.00	5	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:03:00.00	6	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:06:00.00	7	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:09:00.00	8	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:12:00.00	9	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:15:00.00	10	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:18:00.00	11	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:21:00.00	12	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:24:00.00	13	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:27:00.00	14	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:30:00.00	15	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:33:00.00	16	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:36:00.00	17	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:39:00.00	18	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:42:00.00	19	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:45:00.00	20	D-0-0	 NAV: on land
+Y	15010078	1966-06-23T20:48:00.00	21	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:24:00.00	825	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:27:00.00	826	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:30:00.00	827	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:33:00.00	828	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:36:00.00	829	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:39:00.00	830	D-0-0	 NAV: on land
+Y	15010078	1966-07-03T22:42:00.00	831	D-0-0	 NAV: on land

@@ -1,0 +1,120 @@
+# Cruise 02020050 ID A2073L02 MGD77 FILE VERSION: 19820805 N_RECS: 8276
+# Examined: Fri Mar 26 21:35:19 2010 by mtchandl
+# Arguments:  -R290.75/334.1/33.4/39.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and recomputing faa using IGF80.
+# Errata: Header
+Y-I-02020050-depth-01: RLS m: 1 b: 0 rms: 50.4342 r: 0.999254 sig: 1 dec: 0
+Y-I-02020050-faa-01: RLS m: 1.02048 b: -8.53025 rms: 9.9675 r: 0.981885 sig: 1 dec: 0
+N-E-02020050-faa-02: Regression slope 1.02048 different from 1. Recommended: [1]
+Y-W-02020050-faa-03: Regression offset -8.53025 different from 0.
+N-E-02020050-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020050-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.658687 b: 32.9971 rms: 50.9883 r: 0.929432 sig: 1 dec: 0). [Recompute]
+Y-E-02020050-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999971 b: 0.000698075 rms: 0.0405046 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-02020050-mag-07: Anomaly differs from mtf1-IGRF (m: 1.22931 b: -266.312 rms: 250.941 r: 0.926044 sig: 1 dec: 0). [Recompute]
+Y-W-02020050-twt-11: More recent bathymetry correction table available
+Y-W-02020050-mtf1-12: Integer precision
+Y-W-02020050-mag-12: Integer precision
+# Errata: Data
+?	02020050	1972-12-03T06:40:00.00	972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-03T06:50:00.00	979	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-03T07:15:00.00	998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-03T07:20:00.00	1001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-03T07:33:00.00	1010	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-03T08:51:00.00	1043	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-03T22:06:00.00	1345	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-03T22:07:00.00	1346	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-03T22:08:00.00	1347	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-03T22:58:00.00	1397	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-03T22:59:00.00	1398	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T00:25:00.00	1484	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T00:32:00.00	1491	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T02:13:00.00	1592	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-04T02:24:00.00	1603	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T03:12:00.00	1651	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-04T03:18:00.00	1657	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-04T03:54:00.00	1693	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T04:06:00.00	1705	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-04T05:45:00.00	1804	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T05:50:00.00	1809	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T06:02:00.00	1821	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T07:26:00.00	1905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:27:00.00	1906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:28:00.00	1907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:29:00.00	1908	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:30:00.00	1909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:31:00.00	1910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:32:00.00	1911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:33:00.00	1912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:34:00.00	1913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:35:00.00	1914	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T07:39:00.00	1918	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T07:43:00.00	1922	0-0-OQV	 GRAD: mtf1, mag, eot excessive
+?	02020050	1972-12-04T07:44:00.00	1923	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:13:00.00	2012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:14:00.00	2013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:15:00.00	2014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:16:00.00	2015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:17:00.00	2016	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:40:00.00	2039	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T09:50:00.00	2049	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	02020050	1972-12-04T09:53:00.00	2052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:55:00.00	2054	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:57:00.00	2056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:58:00.00	2057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T09:59:00.00	2058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T10:00:00.00	2059	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	02020050	1972-12-04T10:02:00.00	2061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T10:03:00.00	2062	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-04T10:04:00.00	2063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T10:13:00.00	2072	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	02020050	1972-12-04T10:14:00.00	2073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T10:15:00.00	2074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020050	1972-12-04T11:19:00.00	2138	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T13:23:00.00	2262	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T13:27:00.00	2266	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T15:09:00.00	2368	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T15:10:00.00	2369	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T15:14:00.00	2373	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T17:00:00.00	2479	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T17:05:00.00	2484	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T18:38:00.00	2577	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T20:32:00.00	2691	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T20:41:00.00	2700	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-04T22:02:00.00	2781	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-04T22:08:00.00	2787	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T00:00:00.00	2899	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T00:05:00.00	2904	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T01:42:00.00	3001	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T01:48:00.00	3007	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T12:55:00.00	3348	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T13:42:00.00	3370	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-05T15:44:00.00	3450	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-05T15:45:00.00	3451	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-05T16:19:00.00	3468	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-05T17:45:00.00	3513	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-05T18:48:00.00	3545	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-05T18:50:00.00	3546	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-06T00:10:00.00	3639	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-06T09:40:00.00	3764	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-06T10:17:00.00	3777	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-07T14:40:00.00	4159	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-08T08:40:00.00	4425	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-08T10:20:00.00	4451	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-09T08:35:00.00	4738	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-09T09:45:00.00	4760	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-09T14:25:00.00	4831	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-10T18:46:00.00	5367	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-13T12:24:00.00	6823	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-13T12:45:00.00	6844	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-13T13:06:00.00	6865	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-13T13:26:00.00	6885	0-0-V	 GRAD: eot excessive
+?	02020050	1972-12-13T17:00:00.00	6988	0-0-KL	 GRAD: twt, depth excessive
+?	02020050	1972-12-14T03:06:00.00	7182	0-0-K	 GRAD: twt excessive
+?	02020050	1972-12-14T04:25:00.00	7198	0-0-O	 GRAD: mtf1 excessive
+?	02020050	1972-12-14T04:30:00.00	7199	0-0-O	 GRAD: mtf1 excessive
+?	02020050	1972-12-14T07:05:00.00	7230	0-0-O	 GRAD: mtf1 excessive
+?	02020050	1972-12-14T07:10:00.00	7231	0-0-O	 GRAD: mtf1 excessive

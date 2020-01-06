@@ -1,0 +1,43 @@
+# Cruise 09620001 ID BA341418 MGD77 FILE VERSION: 19791128 N_RECS: 11517
+# Examined: Mon Aug 16 15:47:22 2010 by mtchandl
+# Arguments:  -R203.15/242.75/21.9/40.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09620001-H04-05: Invalid Survey Arrival Month: (05) [03]
+N-E-09620001-H04-06: Invalid Survey Arrival Day: (04) [07]
+N-E-09620001-H11-02: Invalid Topmost Latitude : (+50) [+41]
+N-E-09620001-H11-05: Invalid Leftmost Longitude: (-158) [-157]
+N-E-09620001-H16-01: Invalid Number of Ten Degree Identifiers: (10) [7]
+Y-W-09620001-H16-06: Ten Degree Identifier 7214 marked in header but was not crossed
+Y-W-09620001-H16-06: Ten Degree Identifier 7413 marked in header but was not crossed
+Y-W-09620001-H16-06: Ten Degree Identifier 7414 marked in header but was not crossed
+Y-W-09620001-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-09620001-depth-01: RLS m: 0.998953 b: 0 rms: 22.125 r: 0.999587 sig: 1 dec: 0
+N-E-09620001-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-W-09620001-twt-11: More recent bathymetry correction table available
+Y-W-09620001-depth-12: Integer precision
+# Errata: Data
+?	09620001	1974-01-15T01:40:00.00	444	0-0-KL	 GRAD: twt, depth excessive
+Y	09620001	1974-01-28T11:10:00.00	3310	B-0-0	 NAV: non-increasing time
+?	09620001	1974-01-31T09:31:00.00	4185	0-0-KL	 GRAD: twt, depth excessive
+?	09620001	1974-01-31T09:32:00.00	4186	0-0-KL	 GRAD: twt, depth excessive
+Y	09620001	1974-02-01T13:15:00.00	4550	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-01T16:40:00.00	4605	B-0-0	 NAV: non-increasing time
+?	09620001	1974-02-13T20:10:00.00	4726	0-0-K	 GRAD: twt excessive
+Y	09620001	1974-02-15T02:55:00.00	5027	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-15T14:22:00.00	5214	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-18T08:25:00.00	6084	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-18T12:52:00.00	6155	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-19T14:45:00.00	6534	B-0-0	 NAV: non-increasing time
+?	09620001	1974-02-19T19:36:00.00	6631	0-0-KL	 GRAD: twt, depth excessive
+?	09620001	1974-02-22T00:41:00.00	7323	0-0-K	 GRAD: twt excessive
+Y	09620001	1974-02-23T02:35:00.00	7657	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-23T15:30:00.00	7777	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-24T05:35:00.00	8050	B-0-0	 NAV: non-increasing time
+Y	09620001	1974-02-24T21:40:00.00	8227	B-0-0	 NAV: non-increasing time
+?	09620001	1974-03-02T03:41:00.00	9613	0-0-K	 GRAD: twt excessive
+Y	09620001	1974-03-04T23:56:00.00	10605	B-0-0	 NAV: non-increasing time

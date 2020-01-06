@@ -1,0 +1,36 @@
+# Cruise 19100017 ID DI107L1 MGD77 FILE VERSION: 19851016 N_RECS: 1713
+# Examined: Mon Sep  6 13:18:02 2010 by mtchandl
+# Arguments:  -R296.45/299.8/16.45/20.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-19100017-H15-01: Invalid Gravity Departure Base Station Value: (978668) [9786680]
+Y-E-19100017-H15-03: Invalid Gravity Arrival Base Station Value: (978668) [9786680]
+Y-W-19100017-nav-00: Flagged 0.58 % of records with bad navigation
+Y-I-19100017-depth-01: RLS m: 0.997765 b: 0 rms: 22.7066 r: 0.999933 sig: 1 dec: 0
+N-E-19100017-depth-02: Regression slope 0.997765 different from 1. Recommended: [1]
+Y-I-19100017-faa-01: RLS m: 0.995181 b: 3.22798 rms: 5.19594 r: 0.999426 sig: 1 dec: 0
+N-E-19100017-faa-02: Regression slope 0.995181 different from 1. Recommended: [1]
+Y-W-19100017-faa-03: Regression offset 3.22798 different from 0.
+Y-E-19100017-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0312 b: -520.831 rms: 523.038 r: 0.733126 sig: 1 dec: 0). [Recompute]
+Y-W-19100017-mag-09: only found negative values
+Y-W-19100017-depth-12: Integer precision
+Y-W-19100017-mtf1-12: Integer precision
+Y-W-19100017-mag-12: Integer precision
+Y-W-19100017-faa-12: Integer precision
+# Errata: Data
+Y	19100017	1979-12-28T16:32:00.00	46	C-0-0	 NAV: excessive speed
+Y	19100017	1979-12-28T16:34:00.00	47	C-0-0	 NAV: excessive speed
+Y	19100017	1979-12-28T17:38:00.00	80	B-0-0	 NAV: non-increasing time
+Y	19100017	1979-12-29T16:22:00.00	764	B-0-0	 NAV: non-increasing time
+?	19100017	1979-12-30T00:32:00.00	1009	0-0-W	 GRAD: faa excessive
+?	19100017	1979-12-30T10:16:00.00	1301	0-0-W	 GRAD: faa excessive
+Y	19100017	1979-12-30T19:24:00.00	1576	B-0-0	 NAV: non-increasing time
+Y	19100017	1979-12-30T19:25:00.00	1577	C-0-0	 NAV: excessive speed
+Y	19100017	1979-12-30T19:25:00.00	1578	B-0-0	 NAV: non-increasing time
+Y	19100017	1979-12-30T19:25:00.00	1579	B-0-0	 NAV: non-increasing time
+Y	19100017	1979-12-30T19:26:00.00	1581	B-0-0	 NAV: non-increasing time
+Y	19100017	1979-12-30T19:28:00.00	1582	C-0-0	 NAV: excessive speed

@@ -1,0 +1,40 @@
+# Cruise 19180001 ID CD1186 MGD77 FILE VERSION: 19931021 N_RECS: 15337
+# Examined: Tue Sep 14 17:06:06 2010 by mtchandl
+# Arguments:  -R330.55/350.7/40.15/48.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Suspicious bathymetry data, flagged three bathymetry offsets. Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19180001-H13-10: Survey year (1986) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19180001-depth-01: RLS m: 0.999128 b: 0 rms: 119.644 r: 0.996499 sig: 1 dec: 0
+Y-E-19180001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.957461 b: -147.468 rms: 152.963 r: 0.978822 sig: 1 dec: 1). [Recompute]
+Y-E-19180001-depth-08: Extended offset from grid [595-963]
+Y-E-19180001-depth-08: Extended offset from grid [7587-8226]
+Y-E-19180001-depth-08: Extended offset from grid [14964-15337]
+Y-W-19180001-depth-12: Integer precision
+Y-W-19180001-mtf1-12: Integer precision
+Y-W-19180001-mag-12: Integer precision
+# Errata: Data
+?	19180001	1986-04-06T11:14:00.00	1058	0-Q-0	 VAL: mag invalid
+?	19180001	1986-04-09T02:56:00.00	2954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T02:58:00.00	2955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:00:00.00	2956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:02:00.00	2957	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:34:00.00	2973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:36:00.00	2974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:38:00.00	2975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T03:58:00.00	2985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T04:00:00.00	2986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T04:02:00.00	2987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T04:26:00.00	2999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-09T06:20:00.00	3056	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19180001	1986-04-11T21:58:00.00	4964	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-11T22:00:00.00	4965	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-12T08:04:00.00	5267	0-0-KL	 GRAD: twt, depth excessive
+?	19180001	1986-04-14T18:38:00.00	7024	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-14T18:40:00.00	7025	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-14T18:42:00.00	7026	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-14T21:08:00.00	7099	0-0-K	 GRAD: twt excessive
+?	19180001	1986-04-14T21:10:00.00	7100	0-0-K	 GRAD: twt excessive

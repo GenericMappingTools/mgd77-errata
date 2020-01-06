@@ -1,0 +1,164 @@
+# Cruise 02010039 ID CH096L04 MGD77 FILE VERSION: 19820805 N_RECS: 7409
+# Examined: Fri Mar 26 20:40:57 2010 by mtchandl
+# Arguments:  -R316.65/349.4/25.65/32.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and faa using IGF80.
+# Errata: Header
+Y-W-02010039-nav-00: Flagged 1.40 % of records with bad navigation
+Y-I-02010039-depth-01: RLS m: 0.998605 b: 0 rms: 45.885 r: 0.999371 sig: 1 dec: 0
+N-E-02010039-depth-02: Regression slope 0.998605 different from 1. Recommended: [1]
+Y-I-02010039-faa-01: RLS m: 0.903703 b: -18.0103 rms: 19.0361 r: 0.974958 sig: 1 dec: 0
+N-E-02010039-faa-02: Regression slope 0.903703 different from 1. Recommended: [1]
+Y-W-02010039-faa-03: Regression offset -18.0103 different from 0.
+Y-E-02010039-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010039-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.304377 b: -8.22414 rms: 50.6367 r: 0.547531 sig: 1 dec: 1). [Recompute]
+Y-E-02010039-mag-07: Anomaly differs from mtf1-IGRF (m: 0.795669 b: -69.5395 rms: 167.441 r: 0.695534 sig: 1 dec: 1). [Recompute]
+Y-W-02010039-mtf1-12: Integer precision
+Y-W-02010039-mag-12: Integer precision
+# Errata: Data
+Y	02010039	1969-11-03T10:15:00.00	196	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-03T10:20:00.00	197	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-04T00:00:00.00	348	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-08T23:45:00.00	1958	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-08T23:50:00.00	1959	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-08T23:55:00.00	1960	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-08T23:58:00.00	1961	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:00:00.00	1962	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:04:00.00	1963	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:05:00.00	1964	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:10:00.00	1965	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:15:00.00	1966	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:19:00.00	1967	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:20:00.00	1968	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:25:00.00	1969	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:30:00.00	1970	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:35:00.00	1971	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:40:00.00	1972	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:42:00.00	1973	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:45:00.00	1974	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:49:00.00	1975	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:50:00.00	1976	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T00:55:00.00	1977	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:00:00.00	1978	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:05:00.00	1979	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:10:00.00	1980	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:13:00.00	1981	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:15:00.00	1982	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:16:00.00	1983	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:20:00.00	1984	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:22:00.00	1985	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:25:00.00	1986	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T01:30:00.00	1987	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-09T01:35:00.00	1989	0-0-KL	 GRAD: twt, depth excessive
+Y	02010039	1969-11-09T23:05:00.00	2350	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:10:00.00	2351	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:15:00.00	2352	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:25:00.00	2354	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:30:00.00	2355	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:35:00.00	2356	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:40:00.00	2357	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:45:00.00	2358	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:50:00.00	2359	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-09T23:55:00.00	2360	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:00:00.00	2361	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:05:00.00	2362	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:10:00.00	2363	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:15:00.00	2364	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:20:00.00	2365	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:25:00.00	2366	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:30:00.00	2367	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:35:00.00	2368	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-10T00:40:00.00	2369	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-10T23:05:00.00	2764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-11T08:35:00.00	2934	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-11T08:40:00.00	2936	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-11T18:50:00.00	3119	0-0-K	 GRAD: twt excessive
+Y	02010039	1969-11-12T07:06:00.00	3327	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:08:00.00	3328	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:10:00.00	3329	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:13:00.00	3330	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:15:00.00	3331	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:17:00.00	3332	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T07:20:00.00	3333	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-12T09:15:00.00	3371	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-13T03:58:00.00	3655	0-0-KL	 GRAD: twt, depth excessive
+Y	02010039	1969-11-13T13:25:00.00	3856	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:28:00.00	3857	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:30:00.00	3858	C-0-KOQ	 NAV: excessive speed - GRAD: twt, mtf1, mag excessive
+Y	02010039	1969-11-13T13:33:00.00	3859	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:35:00.00	3860	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:36:00.00	3861	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:37:00.00	3862	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:39:00.00	3863	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:40:00.00	3864	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:41:00.00	3865	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:44:00.00	3866	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+Y	02010039	1969-11-13T13:45:00.00	3867	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:46:00.00	3868	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:50:00.00	3869	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:52:00.00	3870	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+Y	02010039	1969-11-13T13:54:00.00	3871	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T13:55:00.00	3872	C-0-OQ	 NAV: excessive speed - GRAD: mtf1, mag excessive
+Y	02010039	1969-11-13T13:58:00.00	3873	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+Y	02010039	1969-11-13T14:00:00.00	3874	C-0-OQ	 NAV: excessive speed - GRAD: mtf1, mag excessive
+Y	02010039	1969-11-13T14:03:00.00	3875	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+Y	02010039	1969-11-13T14:05:00.00	3876	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:08:00.00	3877	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:10:00.00	3878	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:12:00.00	3879	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:15:00.00	3880	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:18:00.00	3881	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:19:00.00	3882	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:20:00.00	3883	C-0-OQ	 NAV: excessive speed - GRAD: mtf1, mag excessive
+?	02010039	1969-11-13T14:41:00.00	3896	0-0-KL	 GRAD: twt, depth excessive
+Y	02010039	1969-11-13T14:51:00.00	3902	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-13T14:53:00.00	3903	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-13T15:02:00.00	3908	0-0-KL	 GRAD: twt, depth excessive
+?	02010039	1969-11-14T11:07:00.00	4241	0-0-K	 GRAD: twt excessive
+?	02010039	1969-11-14T13:03:00.00	4293	0-0-K	 GRAD: twt excessive
+?	02010039	1969-11-14T13:34:00.00	4310	0-0-K	 GRAD: twt excessive
+?	02010039	1969-11-14T18:17:00.00	4408	0-0-KL	 GRAD: twt, depth excessive
+?	02010039	1969-11-14T18:45:00.00	4414	0-0-KL	 GRAD: twt, depth excessive
+?	02010039	1969-11-14T18:55:00.00	4416	0-0-KL	 GRAD: twt, depth excessive
+?	02010039	1969-11-14T23:02:00.00	4456	0-0-K	 GRAD: twt excessive
+?	02010039	1969-11-15T00:45:00.00	4490	0-0-KL	 GRAD: twt, depth excessive
+Y	02010039	1969-11-15T13:15:00.00	4711	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-15T14:40:00.00	4737	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-15T14:45:00.00	4738	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-15T14:47:00.00	4739	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-15T14:50:00.00	4740	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-15T14:55:00.00	4741	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-17T19:18:00.00	5605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T19:36:00.00	5623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T19:37:00.00	5624	0-0-Q	 GRAD: mag excessive
+?	02010039	1969-11-17T19:54:00.00	5641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T19:58:00.00	5645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T19:59:00.00	5646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:20:00.00	5667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:21:00.00	5668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:24:00.00	5671	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:29:00.00	5676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:46:00.00	5693	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:47:00.00	5694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T20:58:00.00	5704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T21:26:00.00	5732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T21:27:00.00	5733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T21:28:00.00	5734	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-17T21:29:00.00	5735	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02010039	1969-11-21T15:26:00.00	6565	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:30:00.00	6566	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:31:00.00	6567	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:32:00.00	6568	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:34:00.00	6569	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:37:00.00	6570	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:39:00.00	6571	C-0-0	 NAV: excessive speed
+Y	02010039	1969-11-21T15:40:00.00	6572	C-0-0	 NAV: excessive speed
+?	02010039	1969-11-21T17:50:00.00	6613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-21T18:00:00.00	6614	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010039	1969-11-21T18:10:00.00	6616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-23T10:10:00.00	7094	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-23T10:11:00.00	7095	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010039	1969-11-24T11:33:00.00	7359	0-0-KL	 GRAD: twt, depth excessive

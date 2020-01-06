@@ -1,0 +1,112 @@
+# Cruise 01020037 ID ELT37 MGD77 FILE VERSION: 19790127 N_RECS: 18755
+# Examined: Wed Jul  8 21:15:38 2009 by mtchandl
+# Arguments:  -R120/174.75/-66.35/-39 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01020037-depth-01: RLS m: 1.0035 b: 0 rms: 123.331 r: 0.997 sig: 1 dec: 1
+Y-I-01020037-faa-01: RLS m: 0.976857 b: 22.0611 rms: 27.5319 r: 0.968881 sig: 1 dec: 1
+Y-W-01020037-faa-03: Regression offset 22.0611 different from 0.
+Y-E-01020037-mag-07: Anomaly differs from mtf1-IGRF (m: 0.942362 b: 28.8444 rms: 55.2361 r: 0.96733 sig: 1 dec: 0). [Recompute]
+N-E-01020037-depth-08: Extended offset from grid [7-18755]
+Y-W-01020037-mtf1-12: Integer precision
+Y-W-01020037-mag-12: Integer precision
+# Errata: Data
+?	01020037	1969-01-11T10:46:00.00	555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-11T10:49:00.00	557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-11T10:51:00.00	558	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T10:52:00.00	559	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020037	1969-01-11T10:53:00.00	560	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T10:55:00.00	562	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T10:57:00.00	563	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T10:58:00.00	564	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T10:59:00.00	565	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T11:01:00.00	567	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T11:04:00.00	569	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-11T11:07:00.00	571	0-Q-0	 VAL: mag invalid
+?	01020037	1969-01-13T20:16:00.00	1898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-13T20:17:00.00	1899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-16T15:13:00.00	3171	0-0-O	 GRAD: mtf1 excessive
+?	01020037	1969-01-19T09:18:00.00	4587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T13:49:00.00	4722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T15:34:00.00	4775	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T15:38:00.00	4777	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:47:00.00	4804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:49:00.00	4806	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:50:00.00	4807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:52:00.00	4808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:54:00.00	4809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T16:55:00.00	4810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:07:00.00	4817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:09:00.00	4818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:11:00.00	4819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:14:00.00	4821	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:16:00.00	4823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T17:18:00.00	4824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:01:00.00	4877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:03:00.00	4878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:04:00.00	4879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:06:00.00	4880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:07:00.00	4881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:08:00.00	4882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:10:00.00	4883	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:27:00.00	4892	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:29:00.00	4893	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:33:00.00	4895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:35:00.00	4896	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T19:37:00.00	4898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T20:54:00.00	4935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T20:56:00.00	4936	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T20:57:00.00	4937	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:05:00.00	4993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:06:00.00	4994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:26:00.00	5004	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:32:00.00	5007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:34:00.00	5008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-19T23:41:00.00	5013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:16:00.00	5057	0-0-O	 GRAD: mtf1 excessive
+?	01020037	1969-01-20T01:17:00.00	5058	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:19:00.00	5060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:21:00.00	5061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:31:00.00	5068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:33:00.00	5069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:35:00.00	5070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:37:00.00	5072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T01:39:00.00	5073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T13:02:00.00	5137	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T13:04:00.00	5138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T13:06:00.00	5139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T13:07:00.00	5140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T13:10:00.00	5142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:04:00.00	5167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:16:00.00	5174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:28:00.00	5181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:29:00.00	5182	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:31:00.00	5184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:33:00.00	5185	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:44:00.00	5191	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:45:00.00	5192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:47:00.00	5193	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:49:00.00	5195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T14:50:00.00	5196	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T15:33:00.00	5216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T16:39:00.00	5246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T16:54:00.00	5255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-20T17:48:00.00	5285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-01-21T05:16:00.00	5590	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-02-16T19:38:00.00	13258	0-0-KL	 GRAD: twt, depth excessive
+?	01020037	1969-02-23T14:04:00.00	15662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:45:00.00	18701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:46:00.00	18702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:48:00.00	18704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:49:00.00	18705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:51:00.00	18707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:52:00.00	18708	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:53:00.00	18709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T17:54:00.00	18710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T18:28:00.00	18733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T18:40:00.00	18741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020037	1969-03-02T18:41:00.00	18742	0-0-OQ	 GRAD: mtf1, mag excessive

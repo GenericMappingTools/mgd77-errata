@@ -1,0 +1,25 @@
+# Cruise J1010002 ID HT8301 MGD77 FILE VERSION: 19871208 N_RECS: 2284
+# Examined: Thu Aug  4 20:00:49 2011 by mtchandl
+# Arguments:  -R129.95/132.55/23.9/27.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all 9999 depths. Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-W-J1010002-H13-09: Unknown IGRF specified (DGRF1980)
+Y-I-J1010002-depth-01: RLS m: 0.999302 b: 0 rms: 27.4616 r: 0.999705 sig: 1 dec: 0
+Y-I-J1010002-faa-01: RLS m: 1.00582 b: -2.16516 rms: 5.35 r: 0.992557 sig: 1 dec: 0
+N-E-J1010002-faa-02: Regression slope 1.00582 different from 1. Recommended: [1]
+Y-W-J1010002-faa-03: Regression offset -2.16516 different from 0.
+Y-W-J1010002-depth-12: Integer precision
+Y-W-J1010002-mag-12: Integer precision
+Y-W-J1010002-faa-12: Integer precision
+# Errata: Data
+Y	J1010002	1983-10-07T20:30:00.00	173	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-10-22T13:00:00.00	658	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-10-29T16:20:00.00	795	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-11-01T04:00:00.00	1151	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-11-01T06:00:00.00	1163	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-11-11T12:00:00.00	1830	0-L-0	 VAL: depth invalid
+Y	J1010002	1983-11-11T12:20:00.00	1831	0-L-0	 VAL: depth invalid

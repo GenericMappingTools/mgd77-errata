@@ -1,0 +1,120 @@
+# Cruise 08010072 ID 77092600 MGD77 FILE VERSION: 19830311 N_RECS: 6404
+# Examined: Mon Jul 26 16:53:36 2010 by mtchandl
+# Arguments:  -R202/206.3/16.8/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010072-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-08010072-depth-01: RLS m: 0.997398 b: 0 rms: 37.0232 r: 0.999819 sig: 1 dec: 0
+N-E-08010072-depth-02: Regression slope 0.997398 different from 1. Recommended: [1]
+Y-E-08010072-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0043 b: -73.8125 rms: 74.4969 r: 0.999693 sig: 1 dec: 1). [Recompute]
+Y-W-08010072-twt-11: More recent bathymetry correction table available
+Y-W-08010072-mtf1-12: Integer precision
+Y-W-08010072-mag-12: Integer precision
+# Errata: Data
+?	08010072	1977-09-27T01:56:00.00	417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T02:11:00.00	442	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:13:00.00	533	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:17:00.00	540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:39:00.00	573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:44:00.00	581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:45:00.00	583	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T03:46:00.00	586	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T04:03:00.00	615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T04:15:00.00	630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T04:24:00.00	640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T04:25:00.00	641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:53:00.00	841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:54:00.00	843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:55:00.00	845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:56:00.00	847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:57:00.00	849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:58:00.00	850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T06:59:00.00	852	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T07:00:00.00	854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-27T07:01:00.00	855	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-09-28T10:55:00.96	2540	0-0-K	 GRAD: twt excessive
+?	08010072	1977-09-30T23:22:16.98	4043	0-0-K	 GRAD: twt excessive
+?	08010072	1977-10-01T14:57:00.00	4958	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T14:58:00.00	4959	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T14:59:00.00	4961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:00:00.00	4963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:01:00.00	4964	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:02:00.00	4966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:03:00.00	4968	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:08:00.00	4978	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:09:00.00	4980	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:10:00.00	4982	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:11:00.00	4983	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:12:00.00	4985	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:13:00.00	4986	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:14:00.00	4987	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:15:00.00	4989	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:16:00.00	4990	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:17:00.00	4992	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:18:00.00	4994	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:19:00.00	4995	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010072	1977-10-01T15:20:00.00	4997	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:21:00.00	4998	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:22:00.00	4999	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:23:00.00	5001	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:24:00.00	5002	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:25:00.00	5004	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:26:00.00	5005	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:27:00.00	5007	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:28:00.00	5008	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:29:00.00	5010	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:30:00.00	5013	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:31:00.00	5015	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:32:00.00	5017	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:33:00.00	5018	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:34:00.00	5020	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:35:00.00	5021	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:36:00.00	5022	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:37:00.00	5024	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:38:00.00	5026	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:39:00.00	5028	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:40:00.00	5030	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:41:00.00	5032	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:42:00.00	5034	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:45:00.00	5038	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:46:00.00	5039	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:47:00.00	5040	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:48:00.00	5042	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:49:00.00	5043	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:50:00.00	5045	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:51:00.00	5046	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:52:00.00	5047	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:53:00.00	5049	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:54:00.00	5051	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:55:00.00	5053	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:56:00.00	5055	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:57:00.00	5056	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:58:00.00	5058	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T15:59:00.00	5059	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:00:00.00	5061	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:01:00.00	5063	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:02:00.00	5064	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:03:00.00	5065	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:04:00.00	5067	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:05:00.00	5068	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:06:00.00	5069	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:07:00.00	5070	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:08:00.00	5071	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:09:00.00	5073	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:10:00.00	5074	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:11:00.00	5075	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:12:00.00	5077	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:13:00.00	5078	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:14:00.00	5079	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:15:00.00	5081	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:16:00.00	5082	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-01T16:17:00.00	5083	0-Q-0	 VAL: mag invalid
+?	08010072	1977-10-02T04:03:00.00	5796	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010072	1977-10-02T17:25:00.00	6401	D-0-0	 NAV: on land
+Y	08010072	1977-10-02T17:30:00.00	6402	D-0-0	 NAV: on land
+Y	08010072	1977-10-02T17:35:00.00	6403	D-0-0	 NAV: on land
+Y	08010072	1977-10-02T18:04:00.00	6404	D-0-0	 NAV: on land

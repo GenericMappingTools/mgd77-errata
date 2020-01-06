@@ -1,0 +1,139 @@
+# Cruise 67010109 ID 82000111 MGD77 FILE VERSION: 19850725 N_RECS: 40156
+# Examined: Fri Jul 29 16:49:42 2011 by mtchandl
+# Arguments:  -R-13.6/6.05/35.85/43.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010109-depth-01: RLS m: 1.00077 b: 0 rms: 14.0361 r: 0.999965 sig: 1 dec: 0
+N-E-67010109-depth-02: Regression slope 1.00077 different from 1. Recommended: [1]
+Y-E-67010109-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994919 b: -124.82 rms: 124.889 r: 0.998945 sig: 1 dec: 0). [Recompute]
+Y-W-67010109-depth-12: Integer precision
+Y-W-67010109-mtf1-12: Integer precision
+# Errata: Data
+?	67010109	1982-01-22T21:42:00.00	11	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-22T22:12:00.00	62	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T10:42:30.00	4240	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T12:43:30.00	4472	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T13:58:00.00	4611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-24T14:36:30.00	4688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-24T14:45:30.00	4706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-24T16:18:00.00	4881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-24T16:56:00.00	4947	0-0-Q	 GRAD: mag excessive
+?	67010109	1982-01-24T16:57:00.00	4949	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-24T18:40:30.00	5146	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T19:42:00.00	5269	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T19:43:00.00	5271	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T19:51:00.00	5287	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T19:53:00.00	5291	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T20:08:00.00	5321	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-24T20:09:00.00	5323	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-25T02:45:00.00	6075	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-25T07:28:30.00	6622	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-25T07:29:00.00	6623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-25T07:45:30.00	6646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-25T07:46:00.00	6647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-25T09:27:00.00	6849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-25T09:46:00.00	6877	0-0-O	 GRAD: mtf1 excessive
+?	67010109	1982-01-26T00:34:00.00	8582	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-26T00:37:00.00	8588	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-26T00:37:30.00	8589	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-26T07:16:30.00	9361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-26T07:17:00.00	9362	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-26T07:52:30.00	9433	0-0-Q	 GRAD: mag excessive
+?	67010109	1982-01-26T07:53:30.00	9435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-26T07:59:30.00	9447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-26T08:23:00.00	9484	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-26T08:23:30.00	9485	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-26T08:27:00.00	9492	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-26T08:28:00.00	9494	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-26T14:42:30.00	10213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-26T19:00:00.00	10698	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-26T19:07:30.00	10713	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-26T19:26:30.00	10751	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T00:53:30.00	11375	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T03:18:00.00	11654	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T03:19:00.00	11656	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T03:29:00.00	11676	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T08:44:30.00	12280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-27T09:01:30.00	12314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-27T09:02:00.00	12315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-27T09:05:00.00	12321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-27T14:15:00.00	12911	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T14:17:30.00	12916	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T14:26:00.00	12933	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T14:28:00.00	12937	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T14:31:30.00	12944	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T16:24:30.00	13160	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T18:57:30.00	13456	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T18:58:00.00	13457	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-27T19:01:00.00	13463	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-28T06:04:00.00	14743	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-28T14:38:30.00	15722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-28T15:02:30.00	15770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-01-28T15:04:00.00	15773	0-0-T	 GRAD: msd excessive
+?	67010109	1982-01-29T09:28:30.00	17433	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-29T09:33:30.00	17443	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-29T09:39:00.00	17454	0-0-L	 GRAD: depth excessive
+?	67010109	1982-01-29T10:24:30.00	17545	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-01T11:27:00.00	23314	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-01T12:25:30.00	23431	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-01T12:34:30.00	23449	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-01T22:44:30.00	24629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-01T22:46:30.00	24633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T04:38:30.00	25308	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T18:03:30.00	26869	0-0-Q	 GRAD: mag excessive
+?	67010109	1982-02-02T18:12:30.00	26887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T18:52:30.00	26966	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T18:53:00.00	26967	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T18:58:30.00	26978	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T18:59:00.00	26979	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T19:00:30.00	26982	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-02T20:25:30.00	27142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T20:26:00.00	27143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T20:41:00.00	27173	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T20:43:30.00	27178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T20:45:30.00	27182	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T20:46:00.00	27183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:45:00.00	27411	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:51:30.00	27424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:52:00.00	27425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:52:30.00	27426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:53:00.00	27427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:53:30.00	27428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:54:00.00	27429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:54:30.00	27430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:55:00.00	27431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:55:30.00	27432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T22:56:00.00	27433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:00:00.00	27441	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:02:30.00	27446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:03:00.00	27447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:03:30.00	27448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:05:30.00	27452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:06:00.00	27453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:09:00.00	27459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:09:30.00	27460	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:10:30.00	27462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:13:00.00	27467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:18:00.00	27477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:36:00.00	27513	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:37:00.00	27515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-02T23:38:00.00	27517	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-03T00:11:30.00	27574	0-0-L	 GRAD: depth excessive
+?	67010109	1982-02-03T04:56:30.00	28121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010109	1982-02-04T02:30:30.00	30612	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-06T16:01:30.00	37541	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-06T17:01:30.00	37651	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-06T17:02:00.00	37652	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-06T17:11:00.00	37660	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-06T17:33:30.00	37705	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T08:21:00.00	39408	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T08:45:30.00	39457	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T08:47:00.00	39460	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T08:48:00.00	39462	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T08:49:30.00	39465	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T09:11:30.00	39509	0-0-T	 GRAD: msd excessive
+?	67010109	1982-02-07T09:13:30.00	39513	0-0-T	 GRAD: msd excessive

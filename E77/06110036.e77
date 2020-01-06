@@ -1,0 +1,46 @@
+# Cruise 06110036 ID S779WG MGD77 FILE VERSION: 19870917 N_RECS: 5796
+# Examined: Fri May 28 15:09:10 2010 by mtchandl
+# Arguments:  -R193.5/206.65/53.1/56.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-06110036-nav-00: Flagged 0.45 % of records with bad navigation
+Y-I-06110036-depth-01: RLS m: 0.999651 b: 0 rms: 74.0559 r: 0.998943 sig: 1 dec: 0
+Y-I-06110036-faa-01: RLS m: 0.988638 b: 2.05131 rms: 4.72831 r: 0.999098 sig: 1 dec: 0
+N-E-06110036-faa-02: Regression slope 0.988638 different from 1. Recommended: [1]
+Y-W-06110036-faa-03: Regression offset 2.05131 different from 0.
+N-E-06110036-faa-06: Anomaly differs from gobs-IGF80 (m: 1.02972 b: 36.0398 rms: 36.7256 r: 0.997304 sig: 1 dec: 0). [Recompute]
+Y-I-06110036-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-06110036-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-06110036-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06110036	1979-07-22T06:50:00.00	2005	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-22T06:51:00.00	2006	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-22T13:54:00.00	2429	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-22T13:55:00.00	2430	C-0-0	 NAV: excessive speed
+?	06110036	1979-07-23T05:21:00.00	3356	0-0-K	 GRAD: twt excessive
+Y	06110036	1979-07-23T09:32:00.00	3598	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T09:33:00.00	3599	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T09:34:00.00	3600	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:28:00.00	3654	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:29:00.00	3655	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:30:00.00	3656	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:51:00.00	3677	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:52:00.00	3678	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:53:00.00	3679	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:54:00.00	3680	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:55:00.00	3681	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:56:00.00	3682	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T10:59:00.00	3685	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T11:00:00.00	3686	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T11:01:00.00	3687	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-23T11:02:00.00	3688	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T03:59:00.00	4340	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T04:00:00.00	4341	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T04:01:00.00	4342	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T04:02:00.00	4343	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T04:03:00.00	4344	C-0-0	 NAV: excessive speed
+Y	06110036	1979-07-24T04:04:00.00	4345	C-0-0	 NAV: excessive speed

@@ -1,0 +1,18 @@
+# Cruise 07050002 ID AVO64JUL MGD77 FILE VERSION: 19840131 N_RECS: 443
+# Examined: Mon Jul 26 15:29:47 2010 by mtchandl
+# Arguments:  -R227.45/236.1/39.2/42.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Possible Potsdam offset.
+# Errata: Header
+Y-W-07050002-nav-00: Flagged 0.45 % of records with bad navigation
+Y-I-07050002-depth-01: RLS m: 1.00069 b: 0 rms: 22.8659 r: 0.999525 sig: 1 dec: 0
+Y-I-07050002-faa-01: RLS m: 0.980967 b: 8.17343 rms: 11.3512 r: 0.890028 sig: 1 dec: 0
+Y-W-07050002-faa-03: Regression offset 8.17343 different from 0.
+Y-W-07050002-twt-11: More recent bathymetry correction table available
+Y-W-07050002-faa-12: Integer precision
+# Errata: Data
+Y	07050002	1964-07-19T06:37:00.00	216	C-0-0	 NAV: excessive speed
+Y	07050002	1964-07-20T10:48:00.00	308	C-0-0	 NAV: excessive speed

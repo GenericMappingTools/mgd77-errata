@@ -1,0 +1,32 @@
+# Cruise J1010138 ID HT01T561 MGD77 FILE VERSION: 20080215 N_RECS: 618
+# Examined: Sat Aug  6 11:02:13 2011 by mtchandl
+# Arguments:  -R148.55/153.05/20.35/21.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010138-H04-03: Invalid Survey Departure Day: (19) [23]
+N-E-J1010138-H04-06: Invalid Survey Arrival Day: (10) [06]
+Y-E-J1010138-H15-01: Invalid Gravity Departure Base Station Value: ( -13276) [ -13276]
+Y-E-J1010138-H15-03: Invalid Gravity Arrival Base Station Value: ( -13250) [ -13250]
+Y-I-J1010138-depth-01: RLS m: 1 b: 0 rms: 13.1731 r: 0.999885 sig: 1 dec: 0
+Y-I-J1010138-faa-01: RLS m: 1.00277 b: -6.22123 rms: 6.67541 r: 0.998072 sig: 1 dec: 0
+Y-W-J1010138-faa-03: Regression offset -6.22123 different from 0.
+Y-W-J1010138-depth-12: Integer precision
+Y-W-J1010138-mag-12: Integer precision
+Y-W-J1010138-faa-12: Integer precision
+# Errata: Data
+?	J1010138	2001-12-05T23:30:00.00	542	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-05T23:40:00.00	543	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-05T23:50:00.00	544	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:00:00.00	545	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:10:00.00	546	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:20:00.00	547	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:30:00.00	548	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:40:00.00	549	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T00:50:00.00	550	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T01:00:00.00	551	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T01:30:00.00	554	0-Q-0	 VAL: mag invalid
+?	J1010138	2001-12-06T01:40:00.00	555	0-Q-0	 VAL: mag invalid

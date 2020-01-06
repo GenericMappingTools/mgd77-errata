@@ -1,0 +1,18 @@
+# Cruise 03050020 ID POL6835 MGD77 FILE VERSION: 19800213 N_RECS: 1678
+# Examined: Fri Apr 16 13:56:26 2010 by mtchandl
+# Arguments:  -R205.05/235.15/48/57.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-03050020-depth-01: RLS m: 0.999607 b: 0 rms: 9.51618 r: 0.999955 sig: 1 dec: 0
+Y-E-03050020-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01206 b: 151.206 rms: 161.854 r: 0.96841 sig: 1 dec: 1). [Recompute]
+Y-W-03050020-twt-11: More recent bathymetry correction table available
+Y-W-03050020-mtf1-12: Integer precision
+Y-W-03050020-mag-12: Integer precision
+# Errata: Data
+?	03050020	1968-05-02T12:10:00.00	142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050020	1968-05-02T12:25:00.00	145	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03050020	1968-05-02T17:15:00.00	203	0-0-OQ	 GRAD: mtf1, mag excessive

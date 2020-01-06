@@ -1,0 +1,121 @@
+# Cruise J9010002 ID DELP87WA MGD77 FILE VERSION: 19921231 N_RECS: 7440
+# Examined: Mon Aug  8 16:13:46 2011 by mtchandl
+# Arguments:  -R139.6/142/26.1/35.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged largest depth grid offsets.
+# Errata: Header
+N-E-J9010002-H04-03: Invalid Survey Departure Day: (07) [09]
+Y-W-J9010002-nav-00: Flagged 0.99 % of records with bad navigation
+Y-I-J9010002-depth-01: RLS m: 1.00388 b: 0 rms: 72.0155 r: 0.999619 sig: 1 dec: 0
+N-E-J9010002-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-E-J9010002-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00384 b: -6.40943 rms: 11.3873 r: 0.997289 sig: 1 dec: 0). [Recompute]
+Y-E-J9010002-depth-08: Extended offset from grid [2201-2633]
+Y-E-J9010002-depth-08: Extended offset from grid [3209-3324]
+Y-W-J9010002-depth-12: Integer precision
+Y-W-J9010002-mtf1-12: Integer precision
+Y-W-J9010002-mag-12: Integer precision
+# Errata: Data
+Y	J9010002	1987-11-08T23:00:00.00	52	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-08T23:07:00.00	59	0-0-L	 GRAD: depth excessive
+Y	J9010002	1987-11-08T23:09:00.00	60	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-08T23:18:00.00	68	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T00:47:00.00	146	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T01:07:00.00	165	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T01:22:00.00	178	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T01:42:00.00	193	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T01:54:00.00	204	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T02:22:00.00	230	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T03:47:00.00	312	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T11:15:00.00	712	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T11:26:00.00	722	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T11:35:00.00	730	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T11:56:00.00	748	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T13:51:00.00	862	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T14:02:00.00	872	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T14:11:00.00	880	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T14:14:00.00	883	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T14:22:00.00	890	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T14:32:00.00	899	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T16:38:00.00	1023	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T16:48:00.00	1032	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T19:16:00.00	1166	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T19:34:00.00	1180	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T19:45:00.00	1188	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T21:39:00.00	1302	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T21:48:00.00	1310	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T21:58:00.00	1319	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-09T22:08:00.00	1328	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T00:21:00.00	1455	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T00:31:00.00	1463	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T03:12:00.00	1580	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T03:21:00.00	1587	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T03:24:00.00	1590	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T03:31:00.00	1596	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:24:00.00	1708	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:34:00.00	1717	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:37:00.00	1720	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:42:00.00	1724	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:44:00.00	1726	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T05:53:00.00	1734	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T07:47:00.00	1837	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T07:56:00.00	1845	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T07:58:00.00	1847	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T08:06:00.00	1854	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-10T08:16:00.00	1862	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-12T09:21:00.00	1870	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T09:22:00.00	1871	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T09:24:00.00	1873	0-0-Q	 GRAD: mag excessive
+Y	J9010002	1987-11-12T09:26:00.00	1874	C-0-Q	 NAV: excessive speed - GRAD: mag excessive
+Y	J9010002	1987-11-12T11:21:00.00	1987	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T11:30:00.00	1995	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T11:41:00.00	2004	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T11:51:00.00	2013	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-12T12:06:00.00	2028	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:07:00.00	2029	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:08:00.00	2030	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:10:00.00	2032	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:11:00.00	2033	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:12:00.00	2034	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:13:00.00	2035	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J9010002	1987-11-12T12:14:00.00	2036	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T12:18:00.00	2040	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-12T13:41:00.00	2114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J9010002	1987-11-12T13:42:00.00	2115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J9010002	1987-11-12T13:43:00.00	2116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J9010002	1987-11-12T13:44:00.00	2117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J9010002	1987-11-12T13:46:00.00	2119	0-0-O	 GRAD: mtf1 excessive
+Y	J9010002	1987-11-12T13:54:00.00	2126	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T14:12:00.00	2142	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-12T14:13:00.00	2143	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J9010002	1987-11-12T14:25:00.00	2155	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T16:17:00.00	2248	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T19:00:00.00	2398	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-12T19:12:00.00	2410	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-14T03:27:00.00	2553	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-14T03:36:00.00	2561	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-14T03:45:00.00	2569	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-14T03:55:00.00	2577	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-14T03:57:00.00	2579	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-15T06:34:00.00	3679	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-16T07:31:00.00	4798	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-16T16:01:00.00	5269	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-16T21:55:00.00	5599	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-17T05:28:00.00	6052	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-19T00:36:00.00	6602	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-19T00:38:00.00	6604	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-19T00:39:00.00	6605	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-19T00:40:00.00	6606	0-0-O	 GRAD: mtf1 excessive
+Y	J9010002	1987-11-19T04:48:00.00	6780	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-19T08:39:00.00	6850	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-19T15:08:00.00	7157	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-19T17:27:00.00	7234	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-19T17:30:00.00	7237	0-0-O	 GRAD: mtf1 excessive
+Y	J9010002	1987-11-19T17:37:00.00	7244	C-0-0	 NAV: excessive speed
+?	J9010002	1987-11-19T17:39:00.00	7246	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-19T17:40:00.00	7247	0-0-O	 GRAD: mtf1 excessive
+?	J9010002	1987-11-19T17:41:00.00	7248	0-0-O	 GRAD: mtf1 excessive
+Y	J9010002	1987-11-19T17:57:00.00	7264	C-0-0	 NAV: excessive speed
+Y	J9010002	1987-11-19T22:34:00.00	7354	C-0-0	 NAV: excessive speed

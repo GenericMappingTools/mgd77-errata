@@ -1,0 +1,51 @@
+# Cruise 84010016 ID EVA400 MGD77 FILE VERSION: 19890630 N_RECS: 2167
+# Examined: Mon Nov  7 16:48:00 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Depth reported in fathoms, recommend scaling by 1.8188. Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-84010016-H04-03: Invalid Survey Departure Day: ( 5) [09]
+N-E-84010016-H04-05: Invalid Survey Arrival Month: ( 9) [08]
+N-E-84010016-H04-06: Invalid Survey Arrival Day: ( 5) [29]
+Y-W-84010016-nav-00: Flagged 0.97 % of records with bad navigation
+Y-I-84010016-depth-01: RLS m: 0.529473 b: 0 rms: 1227.82 r: 0.995002 sig: 1 dec: 0
+Y-E-84010016-depth-02: Regression slope 0.529473 different from 1. Recommended: [1.8288]
+Y-E-84010016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994188 b: 62.9543 rms: 62.7997 r: 0.999758 sig: 1 dec: 0). [Recompute]
+N-E-84010016-depth-08: Extended offset from grid [1-331]
+N-E-84010016-depth-08: Extended offset from grid [354-649]
+N-E-84010016-depth-08: Extended offset from grid [655-991]
+N-E-84010016-depth-08: Extended offset from grid [994-1213]
+N-E-84010016-depth-08: Extended offset from grid [1233-1735]
+N-E-84010016-depth-08: Extended offset from grid [1755-2150]
+Y-W-84010016-depth-12: Integer multiple of 5 precision
+Y-W-84010016-mtf1-12: Integer precision
+Y-W-84010016-mag-12: Integer precision
+# Errata: Data
+Y	84010016	1977-08-12T14:00:00.00	334	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T14:05:00.00	335	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T15:05:00.00	347	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T15:10:00.00	348	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T15:15:00.00	349	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T15:20:00.00	350	D-0-0	 NAV: on land
+Y	84010016	1977-08-12T15:25:00.00	351	D-0-0	 NAV: on land
+Y	84010016	1977-08-14T08:55:00.00	532	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-14T09:00:00.00	533	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-14T09:05:00.00	534	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-14T09:10:00.00	535	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-14T09:12:00.00	536	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-14T09:15:00.00	537	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-15T00:40:00.00	650	D-0-0	 NAV: on land
+Y	84010016	1977-08-15T00:45:00.00	651	D-0-0	 NAV: on land
+Y	84010016	1977-08-15T00:50:00.00	652	D-0-0	 NAV: on land
+Y	84010016	1977-08-15T00:55:00.00	653	D-0-0	 NAV: on land
+Y	84010016	1977-08-15T01:00:00.00	654	D-0-0	 NAV: on land
+?	84010016	1977-08-21T08:20:00.00	1053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010016	1977-08-27T15:20:00.00	1740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010016	1977-08-27T15:30:00.00	1742	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010016	1977-08-27T15:35:00.00	1744	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010016	1977-08-28T16:25:00.00	2045	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-28T16:30:00.00	2046	C-0-0	 NAV: excessive speed
+Y	84010016	1977-08-28T16:35:00.00	2047	C-0-0	 NAV: excessive speed

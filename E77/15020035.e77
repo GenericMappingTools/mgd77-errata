@@ -1,0 +1,18 @@
+# Cruise 15020035 ID GECS-BMV MGD77 FILE VERSION: 19800226 N_RECS: 5369
+# Examined: Thu May 15 08:25:55 2008 by mtchandl
+# Arguments:  -R182.5/202.3/21.6/50.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020035-H04-06: Invalid Survey Arrival Day: (06) [05]
+Y-W-15020035-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020035-depth-01: RLS m: 1.00388 b: 0 rms: 117.469 r: 0.994793 sig: 1 dec: 1
+Y-E-15020035-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.98259 b: -91.0283 rms: 100.665 r: 0.978867 sig: 1 dec: 1). [Recompute]
+Y-W-15020035-twt-11: More recent bathymetry correction table available
+Y-W-15020035-mtf1-12: Integer precision
+Y-W-15020035-mag-12: Integer precision
+# Errata: Data
+?	15020035	1973-09-27T16:45:00.00	3261	0-0-OQ	 GRAD: mtf1, mag excessive

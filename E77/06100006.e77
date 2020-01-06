@@ -1,0 +1,15 @@
+# Cruise 06100006 ID K283NP MGD77 FILE VERSION: 19870929 N_RECS: 4880
+# Examined: Fri May 28 14:35:33 2010 by mtchandl
+# Arguments:  -R232.5/235.65/40.9/43 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-06100006-depth-01: RLS m: 0.998912 b: 0 rms: 87.2347 r: 0.975331 sig: 1 dec: 0
+Y-W-06100006-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06100006	1983-10-11T07:56:00.00	2567	0-0-KL	 GRAD: twt, depth excessive
+?	06100006	1983-10-11T07:57:00.00	2568	0-0-KL	 GRAD: twt, depth excessive
+?	06100006	1983-10-12T05:07:00.00	3788	0-0-KL	 GRAD: twt, depth excessive

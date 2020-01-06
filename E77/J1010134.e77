@@ -1,0 +1,40 @@
+# Cruise J1010134 ID HT00T521 MGD77 FILE VERSION: 20080215 N_RECS: 2650
+# Examined: Sat Aug  6 11:00:25 2011 by mtchandl
+# Arguments:  -R152.05/155.05/17.95/23.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010134-H04-03: Invalid Survey Departure Day: (19) [23]
+N-E-J1010134-H04-06: Invalid Survey Arrival Day: (22) [17]
+N-E-J1010134-H15-01: Invalid Gravity Departure Base Station Value: (  -9162) [  -9162]
+N-E-J1010134-H15-03: Invalid Gravity Arrival Base Station Value: (  -9149) [  -9149]
+Y-I-J1010134-depth-01: RLS m: 1 b: 0 rms: 8.62905 r: 0.999906 sig: 1 dec: 0
+Y-I-J1010134-faa-01: RLS m: 0.964094 b: -7.04025 rms: 7.60905 r: 0.99775 sig: 1 dec: 0
+N-E-J1010134-faa-02: Regression slope 0.964094 different from 1. Recommended: [1]
+Y-W-J1010134-faa-03: Regression offset -7.04025 different from 0.
+Y-W-J1010134-depth-12: Integer precision
+Y-W-J1010134-mag-12: Integer precision
+Y-W-J1010134-faa-12: Integer precision
+# Errata: Data
+?	J1010134	2000-01-31T08:00:00.00	1223	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-01-31T08:10:00.00	1224	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-01-31T08:20:00.00	1225	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-14T16:50:00.00	2257	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J1010134	2000-02-14T17:00:00.00	2258	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-14T19:50:00.00	2275	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-14T20:00:00.00	2276	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-14T20:20:00.00	2278	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-14T20:30:00.00	2279	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T05:30:00.00	2319	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T05:40:00.00	2320	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J1010134	2000-02-15T05:50:00.00	2321	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T06:00:00.00	2322	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T08:20:00.00	2336	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T08:30:00.00	2337	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T10:50:00.00	2351	0-0-Q	 GRAD: mag excessive
+?	J1010134	2000-02-15T11:00:00.00	2352	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T11:10:00.00	2353	0-Q-0	 VAL: mag invalid
+?	J1010134	2000-02-15T11:30:00.00	2355	0-0-Q	 GRAD: mag excessive

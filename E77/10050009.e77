@@ -1,0 +1,22 @@
+# Cruise 10050009 ID FM0501 MGD77 FILE VERSION: 19920727 N_RECS: 3777
+# Examined: Tue Aug 24 13:55:22 2010 by mtchandl
+# Arguments:  -R267/283.85/18.1/28.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10050009-H04-03: Invalid Survey Departure Day: (23) [19]
+Y-E-10050009-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050009-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10050009-H13-10: Survey year (1980) outside magnetic reference field IGRF 80 time range (1995-2000)
+Y-W-10050009-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-10050009-depth-01: RLS m: 1.00067 b: 0 rms: 44.2341 r: 0.999634 sig: 1 dec: 0
+Y-E-10050009-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04546 b: 11.7944 rms: 39.9797 r: 0.977559 sig: 1 dec: 1). [Recompute]
+Y-W-10050009-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10050009-depth-12: Integer precision
+Y-W-10050009-mtf1-12: Integer precision
+Y-W-10050009-mag-12: Integer precision
+# Errata: Data
+Y	10050009	1980-06-20T10:45:00.00	271	D-0-0	 NAV: on land

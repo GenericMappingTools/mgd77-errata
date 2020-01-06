@@ -1,0 +1,61 @@
+# Cruise 67010135 ID 84001311 MGD77 FILE VERSION: 19860605 N_RECS: 15252
+# Examined: Sat Jul 30 19:46:51 2011 by mtchandl
+# Arguments:  -R109.7/133.1/6.15/31.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Subtracted 350 mGal from gravity anomalies. Recommend correction by source institution. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010135-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-67010135-depth-01: RLS m: 1 b: 0 rms: 30.7186 r: 0.999735 sig: 1 dec: 0
+Y-I-67010135-faa-01: RLS m: 1.24517 b: 348.318 rms: 345.864 r: 0.891801 sig: 1 dec: 0
+N-E-67010135-faa-02: Regression slope 1.24517 different from 1. Recommended: [1]
+Y-E-67010135-faa-03: Regression offset 348.318 different from 0. Recommended: [-350.0]
+N-E-67010135-faa-06: Anomaly differs from gobs-IGF80 (m: 0.971222 b: 42.4236 rms: 38.0209 r: 0.957751 sig: 1 dec: 0). [Recompute]
+N-E-67010135-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-67010135-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-67010135-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00978 b: 93.3889 rms: 93.0097 r: 0.998485 sig: 1 dec: 1). [Recompute]
+N-E-67010135-faa-08: Extended offset from grid [7714-9222]
+N-E-67010135-faa-08: Extended offset from grid [9223-10174]
+N-E-67010135-faa-08: Extended offset from grid [10175-11274]
+N-E-67010135-faa-08: Extended offset from grid [11898-12692]
+N-E-67010135-faa-08: Extended offset from grid [12693-13310]
+Y-W-67010135-faa-09: only found positive values
+Y-W-67010135-depth-12: Integer precision
+Y-W-67010135-mtf1-12: Integer precision
+# Errata: Data
+Y	67010135	1984-05-20T11:31:00.00	7759	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:32:00.00	7760	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:33:00.00	7761	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:34:00.00	7762	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:35:00.00	7763	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:36:00.00	7764	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:37:00.00	7765	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:38:00.00	7766	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:39:00.00	7767	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:40:00.00	7768	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:41:00.00	7769	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:42:00.00	7770	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:43:00.00	7771	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:44:00.00	7772	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:45:00.00	7773	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:46:00.00	7774	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:47:00.00	7775	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:48:00.00	7776	C-0-0	 NAV: excessive speed
+Y	67010135	1984-05-20T11:49:00.00	7777	C-0-0	 NAV: excessive speed
+?	67010135	1984-05-20T18:11:00.00	8147	0-0-VW	 GRAD: eot, faa excessive
+?	67010135	1984-05-24T08:39:00.00	12235	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-24T11:34:00.00	12402	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-24T11:35:00.00	12403	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-24T14:03:00.00	12547	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-24T20:26:00.00	12914	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-25T01:39:00.00	13217	0-0-V	 GRAD: eot excessive
+?	67010135	1984-05-25T18:38:00.00	14225	0-0-T	 GRAD: msd excessive
+?	67010135	1984-05-25T19:14:00.00	14261	0-0-UW	 GRAD: gobs, faa excessive
+?	67010135	1984-05-25T19:15:00.00	14262	0-0-UW	 GRAD: gobs, faa excessive
+?	67010135	1984-05-25T19:16:00.00	14263	0-0-UW	 GRAD: gobs, faa excessive
+?	67010135	1984-05-25T19:55:00.00	14302	0-0-T	 GRAD: msd excessive
+?	67010135	1984-05-25T20:03:00.00	14310	0-0-T	 GRAD: msd excessive
+?	67010135	1984-05-25T20:19:00.00	14326	0-0-L	 GRAD: depth excessive
+?	67010135	1984-05-25T22:51:00.00	14470	0-0-V	 GRAD: eot excessive

@@ -1,0 +1,39 @@
+# Cruise 07010057 ID YAQ7402 MGD77 FILE VERSION: 19821020 N_RECS: 8126
+# Examined: Fri Jul 16 17:47:50 2010 by mtchandl
+# Arguments:  -R202.1/247.65/18.15/32.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010057-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-07010057-depth-01: RLS m: 0.999651 b: 0 rms: 40.7673 r: 0.998997 sig: 1 dec: 0
+Y-E-07010057-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02324 b: 72.6136 rms: 95.0835 r: 0.881137 sig: 1 dec: 1). [Recompute]
+Y-W-07010057-twt-11: More recent bathymetry correction table available
+Y-W-07010057-mtf1-12: Integer precision
+Y-W-07010057-mag-12: Integer precision
+# Errata: Data
+?	07010057	1974-11-03T18:28:00.00	853	0-0-K	 GRAD: twt excessive
+?	07010057	1974-11-04T21:50:00.00	1214	0-0-K	 GRAD: twt excessive
+?	07010057	1974-11-07T02:51:00.00	1831	0-0-K	 GRAD: twt excessive
+?	07010057	1974-11-08T16:30:00.00	2362	0-0-K	 GRAD: twt excessive
+Y	07010057	1974-11-08T17:40:00.00	2365	D-0-0	 NAV: on land
+Y	07010057	1974-11-08T17:47:00.00	2366	D-0-0	 NAV: on land
+Y	07010057	1974-11-08T18:25:00.00	2369	D-0-0	 NAV: on land
+?	07010057	1974-11-09T19:55:00.00	2442	0-0-KL	 GRAD: twt, depth excessive
+?	07010057	1974-11-10T09:40:00.00	2602	0-0-K	 GRAD: twt excessive
+?	07010057	1974-11-11T21:03:00.00	3096	D-0-0	 NAV: on land
+?	07010057	1974-11-11T21:20:00.00	3103	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010057	1974-11-12T00:00:00.00	3157	B-0-0	 NAV: non-increasing time
+?	07010057	1974-11-12T07:09:00.00	3307	0-0-KL	 GRAD: twt, depth excessive
+?	07010057	1974-11-12T07:10:00.00	3308	0-0-KL	 GRAD: twt, depth excessive
+Y	07010057	1974-11-13T00:00:00.00	3642	B-0-0	 NAV: non-increasing time
+?	07010057	1974-11-13T12:55:00.00	3762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010057	1974-11-13T13:00:00.00	3763	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010057	1974-11-15T12:06:00.00	4644	0-0-KL	 GRAD: twt, depth excessive
+?	07010057	1974-11-16T09:25:00.00	5054	0-0-K	 GRAD: twt excessive
+?	07010057	1974-11-17T21:29:00.00	5523	0-0-KL	 GRAD: twt, depth excessive
+?	07010057	1974-11-17T21:32:00.00	5524	0-0-KL	 GRAD: twt, depth excessive
+?	07010057	1974-11-24T19:46:00.00	7926	0-0-K	 GRAD: twt excessive
+Y	07010057	1974-11-26T00:02:00.00	8110	B-0-0	 NAV: non-increasing time

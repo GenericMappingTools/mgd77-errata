@@ -1,0 +1,22 @@
+# Cruise J1020005 ID HS7202 MGD77 FILE VERSION: 19880928 N_RECS: 447
+# Examined: Sat Aug  6 11:07:26 2011 by mtchandl
+# Arguments:  -R143.95/145.6/44.25/45.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J1020005-nav-00: Flagged 1.12 % of records with bad navigation
+Y-I-J1020005-depth-01: RLS m: 0.997185 b: 0 rms: 14.9303 r: 0.999629 sig: 1 dec: 0
+Y-I-J1020005-faa-01: RLS m: 0.979762 b: 11.3772 rms: 20.1337 r: 0.814222 sig: 1 dec: 0
+Y-W-J1020005-faa-03: Regression offset 11.3772 different from 0.
+Y-I-J1020005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-J1020005-depth-12: Integer precision
+Y-W-J1020005-gobs-12: Integer precision
+# Errata: Data
+Y	J1020005	1972-09-27T21:40:00.00	162	C-0-0	 NAV: excessive speed
+Y	J1020005	1971-09-28T06:30:00.00	200	B-0-0	 NAV: non-increasing time
+Y	J1020005	1972-09-29T05:10:00.00	320	C-0-0	 NAV: excessive speed
+Y	J1020005	1972-09-30T20:40:00.00	445	C-0-0	 NAV: excessive speed
+Y	J1020005	1972-09-30T20:50:00.00	446	C-0-0	 NAV: excessive speed

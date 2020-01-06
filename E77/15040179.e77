@@ -1,0 +1,242 @@
+# Cruise 15040179 ID SPNT02WT MGD77 FILE VERSION: 19941231 N_RECS: 9959
+# Examined: Mon May 26 16:25:08 2008 by mtchandl
+# Arguments:  -R237.25/242.7/31.15/33.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040179-H04-03: Invalid Survey Departure Day: (01) [02]
+Y-W-15040179-nav-00: Flagged 0.98 % of records with excessive speed or invalid navigation
+Y-I-15040179-depth-01: RLS m: 1.03145 b: 0 rms: 195.914 r: 0.986012 sig: 1 dec: 1
+N-E-15040179-depth-02: Regression slope 1.03145 different from 1. Recommended: [1]
+Y-E-15040179-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.985892 b: -28.4771 rms: 33.3287 r: 0.992061 sig: 1 dec: 1). [Recompute]
+Y-W-15040179-twt-11: More recent bathymetry correction table available
+Y-W-15040179-depth-12: Integer precision
+Y-W-15040179-mtf1-12: Integer precision
+# Errata: Data
+Y	15040179	1984-03-02T10:30:00.00	298	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T10:37:00.00	305	C-0-0	 NAV: excessive speed
+?	15040179	1984-03-02T11:47:00.00	375	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-02T11:53:00.00	381	0-0-KL	 GRAD: twt, depth excessive
+Y	15040179	1984-03-02T13:13:00.00	461	C-0-0	 NAV: excessive speed
+?	15040179	1984-03-02T13:15:00.00	463	0-0-KL	 GRAD: twt, depth excessive
+Y	15040179	1984-03-02T13:43:00.00	491	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T14:39:00.00	547	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T14:51:00.00	559	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T16:47:00.00	675	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T17:08:00.00	696	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T18:00:00.00	748	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T18:54:00.00	802	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T19:14:00.00	822	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T20:14:00.00	882	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T20:21:00.00	889	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-02T21:58:00.00	986	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T01:25:00.00	1193	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T02:44:00.00	1272	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T03:20:00.00	1308	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T03:26:00.00	1314	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T04:51:00.00	1399	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T04:56:00.00	1404	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T05:33:00.00	1441	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T05:58:00.00	1466	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T06:33:00.00	1501	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T06:46:00.00	1514	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T07:21:00.00	1549	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T12:55:00.00	1883	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T13:17:00.00	1905	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T13:20:00.00	1908	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T13:28:00.00	1916	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T13:45:00.00	1933	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T14:08:00.00	1956	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T14:49:00.00	1997	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T15:05:00.00	2013	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T15:22:00.00	2030	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-03T15:30:00.00	2038	C-0-0	 NAV: excessive speed
+?	15040179	1984-03-03T15:44:25.02	2058	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:51:19.98	2072	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T15:51:42.00	2074	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T15:52:19.98	2077	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:52:42.00	2080	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:53:00.00	2082	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:53:19.98	2084	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:53:28.02	2085	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:53:49.02	2087	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:54:07.02	2089	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:54:21.00	2091	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:54:28.98	2092	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:55:12.00	2095	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T15:55:36.00	2098	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:56:07.02	2100	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:56:30.00	2102	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:58:12.00	2107	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T15:58:45.00	2110	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T16:00:33.00	2114	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T16:00:40.98	2115	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T16:05:00.00	2124	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T16:05:19.98	2126	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T16:12:06.00	2136	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:04:40.02	2193	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T17:04:58.02	2195	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T17:10:07.98	2205	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:12:36.00	2211	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:47:30.00	2245	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:47:49.98	2248	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:48:10.02	2250	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:48:52.98	2253	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:49:07.98	2255	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T17:49:18.00	2256	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T17:49:58.02	2259	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T17:52:12.00	2268	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:19:49.98	2304	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T18:27:12.00	2317	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T18:31:30.00	2325	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T18:41:10.02	2337	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T18:49:25.02	2350	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:49:42.00	2352	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:55:22.02	2367	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:56:15.00	2370	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:57:19.98	2375	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:57:40.02	2377	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T18:58:00.00	2379	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:00:19.98	2386	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:03:00.00	2397	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:03:09.00	2398	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:04:31.02	2401	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:05:39.00	2408	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:08:46.02	2411	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:09:01.98	2412	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:09:07.98	2413	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:09:39.00	2417	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:10:37.98	2421	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:14:34.98	2432	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:18:15.00	2441	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:22:55.02	2452	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:24:22.02	2458	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:24:43.02	2460	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:25:01.02	2463	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:25:18.00	2465	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:25:28.98	2466	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:26:19.98	2470	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:26:30.00	2471	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:26:48.00	2474	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:27:01.98	2477	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:27:21.00	2479	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:28:22.98	2482	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:35:37.98	2502	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:35:48.00	2503	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:37:19.98	2507	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:38:01.98	2512	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:38:22.02	2515	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:38:45.00	2517	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:40:34.98	2523	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:41:07.98	2525	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:41:19.02	2526	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:43:49.98	2530	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:43:58.02	2531	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:44:07.98	2533	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:45:58.02	2539	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:46:37.98	2541	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:46:46.98	2542	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:47:01.02	2544	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:47:13.02	2546	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:49:07.98	2555	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:49:10.98	2556	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:54:10.02	2569	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:55:42.00	2574	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T19:58:34.02	2584	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T19:59:42.00	2587	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T20:00:19.98	2593	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T20:07:13.02	2610	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T20:07:49.98	2613	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:16:12.00	2632	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T20:19:22.98	2637	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:21:34.02	2644	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T20:22:42.00	2647	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:29:46.02	2659	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:31:40.02	2666	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:35:34.02	2676	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:36:43.98	2678	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:37:16.02	2681	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T20:51:04.98	2711	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T21:00:00.00	2719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040179	1984-03-03T21:03:00.00	2724	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T21:05:00.00	2730	0-0-KLQ	 GRAD: twt, depth, mag excessive
+?	15040179	1984-03-03T21:05:12.00	2731	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T21:16:30.00	2744	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T21:19:15.00	2754	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T21:28:34.98	2773	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T21:29:07.02	2776	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T21:29:40.98	2778	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T21:30:15.00	2782	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T21:30:37.98	2784	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T22:02:00.00	2827	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T22:11:00.00	2836	0-0-K	 GRAD: twt excessive
+?	15040179	1984-03-03T22:12:00.00	2837	0-0-KL	 GRAD: twt, depth excessive
+?	15040179	1984-03-03T22:13:00.00	2838	0-0-K	 GRAD: twt excessive
+Y	15040179	1984-03-04T01:40:00.00	3045	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T02:18:00.00	3083	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T03:47:00.00	3172	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T05:05:00.00	3250	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T08:25:00.00	3483	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T09:06:00.00	3524	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T12:36:00.00	3734	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T13:19:00.00	3777	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T13:27:00.00	3785	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:23:00.00	4231	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:24:00.00	4232	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:25:00.00	4233	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:26:00.00	4234	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:27:00.00	4235	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:28:00.00	4236	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:29:00.00	4237	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:30:00.00	4238	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:31:00.00	4239	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:32:00.00	4240	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:33:00.00	4241	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:34:00.00	4242	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:35:00.00	4243	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:36:00.00	4244	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:37:00.00	4245	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-04T21:38:00.00	4246	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-05T16:37:00.00	5291	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-05T16:38:00.00	5292	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-05T20:50:00.00	5472	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-06T00:11:00.00	5671	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-06T00:14:00.00	5674	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-06T00:15:00.00	5675	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-06T04:43:00.00	5943	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T03:25:00.00	7243	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T03:27:00.00	7245	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T04:58:00.00	7336	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T04:59:00.00	7337	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T05:18:00.00	7356	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T05:52:00.00	7390	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T10:39:00.00	7677	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T13:12:00.00	7830	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T14:29:00.00	7907	C-0-0	 NAV: excessive speed
+?	15040179	1984-03-07T17:18:00.00	8076	0-0-K	 GRAD: twt excessive
+Y	15040179	1984-03-07T17:24:00.00	8082	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T17:54:00.00	8112	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T18:56:00.00	8174	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T19:09:00.00	8187	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T20:22:00.00	8260	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T22:23:00.00	8381	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T22:32:00.00	8390	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T22:43:00.00	8401	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T22:53:00.00	8411	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T22:55:00.00	8413	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-07T23:42:00.00	8460	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T02:15:00.00	8613	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T02:44:00.00	8642	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T03:47:00.00	8705	C-0-0	 NAV: excessive speed
+?	15040179	1984-03-08T04:08:00.00	8726	0-0-KL	 GRAD: twt, depth excessive
+Y	15040179	1984-03-08T05:45:00.00	8823	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T05:59:00.00	8837	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T06:05:00.00	8843	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T08:33:00.00	8991	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T10:46:00.00	9124	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T16:40:00.00	9478	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T16:58:00.00	9496	C-0-0	 NAV: excessive speed
+Y	15040179	1984-03-08T23:25:00.00	9883	C-0-0	 NAV: excessive speed

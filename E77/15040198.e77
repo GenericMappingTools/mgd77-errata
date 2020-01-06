@@ -1,0 +1,36 @@
+# Cruise 15040198 ID PLUM01WT MGD77 FILE VERSION: 19920924 N_RECS: 13025
+# Examined: Mon May 26 17:06:11 2008 by mtchandl
+# Arguments:  -R242.75/269.75/-0.85/32.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040198-H13-10: Survey year (1990) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040198-depth-01: RLS m: 1.03175 b: 0 rms: 187.934 r: 0.989886 sig: 1 dec: 1
+N-E-15040198-depth-02: Regression slope 1.03175 different from 1. Recommended: [1]
+Y-E-15040198-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01041 b: -41.3409 rms: 59.7304 r: 0.988863 sig: 1 dec: 1). [Recompute]
+Y-W-15040198-twt-11: More recent bathymetry correction table available
+Y-W-15040198-depth-12: Integer precision
+Y-W-15040198-mtf1-12: Integer precision
+# Errata: Data
+?	15040198	1990-01-08T21:49:00.00	4187	0-0-K	 GRAD: twt excessive
+?	15040198	1990-01-08T23:20:00.00	4278	0-0-KL	 GRAD: twt, depth excessive
+?	15040198	1990-01-09T23:46:00.00	5744	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-09T23:47:00.00	5745	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-09T23:48:00.00	5746	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-09T23:49:00.00	5747	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-09T23:50:00.00	5748	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-09T23:51:00.00	5749	0-Q-0	 VAL: mag invalid
+?	15040198	1990-01-10T01:50:00.00	5868	0-0-Q	 GRAD: mag excessive
+?	15040198	1990-01-10T13:03:00.00	6541	0-0-KL	 GRAD: twt, depth excessive
+?	15040198	1990-01-13T02:44:00.00	7898	0-0-K	 GRAD: twt excessive
+?	15040198	1990-01-14T06:33:00.00	9567	0-0-K	 GRAD: twt excessive
+?	15040198	1990-01-14T14:47:00.00	10061	0-0-KL	 GRAD: twt, depth excessive
+?	15040198	1990-01-15T07:03:00.00	11037	0-0-KL	 GRAD: twt, depth excessive
+?	15040198	1990-01-15T17:55:00.00	11689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040198	1990-01-15T17:56:00.00	11690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040198	1990-01-15T17:57:00.00	11691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040198	1990-01-15T17:58:00.00	11692	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040198	1990-01-15T17:59:00.00	11693	0-0-OQ	 GRAD: mtf1, mag excessive

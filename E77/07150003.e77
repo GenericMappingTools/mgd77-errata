@@ -1,0 +1,32 @@
+# Cruise 07150003 ID GOLFO-81 MGD77 FILE VERSION: 19870511 N_RECS: 8544
+# Examined: Mon Jul 26 15:35:27 2010 by mtchandl
+# Arguments:  -R243.6/254.2/20.8/31.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-W-07150003-H13-10: Survey year (1981) outside magnetic reference field POGO 0368 time range (1965-1968)
+Y-W-07150003-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-07150003-depth-01: RLS m: 0.998542 b: 0 rms: 37.8728 r: 0.999536 sig: 1 dec: 0
+N-E-07150003-depth-02: Regression slope 0.998542 different from 1. Recommended: [1]
+Y-I-07150003-faa-01: RLS m: 0.988839 b: 0.0689113 rms: 5.96272 r: 0.962396 sig: 1 dec: 0
+N-E-07150003-faa-02: Regression slope 0.988839 different from 1. Recommended: [1]
+Y-I-07150003-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-07150003-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.31955 b: -15.9487 rms: 61.7326 r: 0.660351 sig: 1 dec: 1). [Recompute]
+N-E-07150003-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.786229 b: -22.1354 rms: 32.2088 r: 0.879509 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-07150003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994719 b: -0.584669 rms: 19.4769 r: 0.995338 sig: 1 dec: 1). [Recompute]
+Y-W-07150003-depth-12: Integer precision
+Y-W-07150003-mtf1-12: Integer precision
+Y-W-07150003-mag-12: Integer precision
+# Errata: Data
+Y	07150003	1981-03-19T18:30:00.00	2437	D-0-0	 NAV: on land
+?	07150003	1981-03-19T18:31:00.00	2439	0-0-L	 GRAD: depth excessive
+?	07150003	1981-03-20T18:35:12.00	2971	0-0-V	 GRAD: eot excessive
+?	07150003	1981-03-21T22:55:12.00	3502	0-0-V	 GRAD: eot excessive
+?	07150003	1981-03-22T04:44:48.00	3619	0-0-V	 GRAD: eot excessive
+Y	07150003	1981-03-28T22:54:00.00	4216	C-0-0	 NAV: excessive speed
+?	07150003	1981-04-02T10:18:12.00	6465	0-0-V	 GRAD: eot excessive
+?	07150003	1981-04-03T02:19:12.00	6844	0-0-V	 GRAD: eot excessive
+?	07150003	1981-04-04T00:59:30.00	7414	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,74 @@
+# Cruise 07010013 ID YAQ67AUG MGD77 FILE VERSION: 19840131 N_RECS: 3283
+# Examined: Fri Jul 16 17:30:37 2010 by mtchandl
+# Arguments:  -R226.55/235.8/44.8/54.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010013-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-07010013-depth-01: RLS m: 1.0003 b: 0 rms: 33.0524 r: 0.999243 sig: 1 dec: 0
+Y-I-07010013-faa-01: RLS m: 1.0133 b: 5.3301 rms: 7.28384 r: 0.989277 sig: 1 dec: 0
+N-E-07010013-faa-02: Regression slope 1.0133 different from 1. Recommended: [1]
+Y-W-07010013-faa-03: Regression offset 5.3301 different from 0.
+Y-E-07010013-mag-07: Anomaly differs from mtf1-IGRF (m: 0.947146 b: 212.322 rms: 223.577 r: 0.948128 sig: 1 dec: 1). [Recompute]
+Y-W-07010013-twt-11: More recent bathymetry correction table available
+Y-W-07010013-mtf1-12: Integer multiple of 5 precision
+Y-W-07010013-mag-12: Integer precision
+Y-W-07010013-faa-12: Integer precision
+# Errata: Data
+?	07010013	1967-08-02T01:04:00.00	337	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010013	1967-08-03T06:20:00.00	893	B-0-0	 NAV: non-increasing time
+?	07010013	1967-08-03T07:36:00.00	911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T07:48:00.00	915	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T14:24:00.00	1031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T16:16:00.00	1047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T16:28:00.00	1051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T16:32:00.00	1052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T16:44:00.00	1055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T16:52:00.00	1057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T17:04:00.00	1060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T17:16:00.00	1064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T17:32:00.00	1069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T17:44:00.00	1073	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T18:08:00.00	1080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T18:36:00.00	1090	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T19:28:00.00	1108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T19:56:00.00	1116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T20:08:00.00	1120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-03T20:16:00.00	1122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T06:12:00.00	1306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T07:12:00.00	1321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T07:16:00.00	1322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:00:00.00	1363	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:04:00.00	1364	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:16:00.00	1368	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:20:00.00	1369	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:40:00.00	1374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T10:56:00.00	1378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T11:12:00.00	1382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T14:24:00.00	1437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T14:32:00.00	1439	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T14:36:00.00	1440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T15:52:00.00	1463	0-0-O	 GRAD: mtf1 excessive
+?	07010013	1967-08-04T17:00:00.00	1484	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-04T17:04:00.00	1485	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-05T03:34:00.00	1680	D-0-0	 NAV: on land
+Y	07010013	1967-08-05T03:37:00.00	1681	D-0-0	 NAV: on land
+Y	07010013	1967-08-05T04:44:00.00	1695	D-0-0	 NAV: on land
+?	07010013	1967-08-05T04:47:00.00	1696	D-0-0	 NAV: on land
+?	07010013	1967-08-05T04:48:00.00	1697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-05T04:52:00.00	1699	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-05T14:40:00.00	1889	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T14:28:00.00	2315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T15:00:00.00	2323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T15:04:00.00	2325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T15:44:00.00	2337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T16:04:00.00	2343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-06T16:28:00.00	2349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-07T02:08:00.00	2515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-07T02:16:00.00	2518	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-07T02:20:00.00	2519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-08T19:12:00.00	3256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010013	1967-08-08T19:20:00.00	3259	0-0-OQ	 GRAD: mtf1, mag excessive

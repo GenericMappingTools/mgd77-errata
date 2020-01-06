@@ -1,0 +1,34 @@
+# Cruise 08050008 ID TG-79-1 MGD77 FILE VERSION: 19830311 N_RECS: 3266
+# Examined: Fri Jul 30 14:10:54 2010 by mtchandl
+# Arguments:  -R181.9/188.25/-24.15/-13.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one bathymetry offset.
+# Errata: Header
+Y-E-08050008-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08050008-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08050008-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08050008-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08050008-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08050008-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08050008-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08050008-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08050008-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-08050008-depth-01: RLS m: 1 b: 0 rms: 54.3639 r: 0.997927 sig: 1 dec: 0
+Y-E-08050008-depth-08: Extended offset from grid [2958-3144]
+Y-W-08050008-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050008	1979-11-06T05:16:21.96	629	0-0-KL	 GRAD: twt, depth excessive
+?	08050008	1979-11-18T20:00:00.00	2636	D-0-0	 NAV: on land
+?	08050008	1979-11-18T23:00:00.00	2639	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T00:00:00.00	2640	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T00:57:00.00	2641	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T01:00:00.00	2642	D-0-0	 NAV: on land
+?	08050008	1979-11-19T01:07:03.96	2643	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T01:28:22.98	2648	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T01:35:17.94	2649	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T01:41:58.02	2650	D-0-0	 NAV: on land
+Y	08050008	1979-11-19T01:47:09.96	2651	D-0-0	 NAV: on land
+?	08050008	1979-11-21T04:27:26.94	3174	0-0-K	 GRAD: twt excessive

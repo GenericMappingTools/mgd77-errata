@@ -1,0 +1,25 @@
+# Cruise 05040015 ID BP7805 MGD77 FILE VERSION: 20080729 N_RECS: 6055
+# Examined: Fri Apr 30 13:30:44 2010 by mtchandl
+# Arguments:  -R174.85/176.95/-37.75/-36.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040015-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040015-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040015-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040015-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05040015-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-05040015-depth-01: RLS m: 1.00245 b: 0 rms: 34.4128 r: 0.998137 sig: 1 dec: 0
+Y-I-05040015-faa-01: RLS m: 1.01974 b: 0.0621359 rms: 3.03537 r: 0.949931 sig: 1 dec: 0
+N-E-05040015-faa-02: Regression slope 1.01974 different from 1. Recommended: [1]
+Y-W-05040015-faa-09: only found positive values
+Y-W-05040015-depth-12: Integer precision
+# Errata: Data
+Y	05040015	1978-06-12T02:45:00.00	3666	C-0-0	 NAV: excessive speed
+Y	05040015	1978-06-12T02:46:00.00	3667	C-0-0	 NAV: excessive speed
+Y	05040015	1978-06-12T02:47:00.00	3668	C-0-0	 NAV: excessive speed
+?	05040015	1978-06-15T22:02:00.00	5512	0-0-W	 GRAD: faa excessive
+Y	05040015	1978-06-15T23:02:00.00	5549	C-0-0	 NAV: excessive speed

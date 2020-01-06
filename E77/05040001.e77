@@ -1,0 +1,20 @@
+# Cruise 05040001 ID ES7802 MGD77 FILE VERSION: 19840921 N_RECS: 2793
+# Examined: Fri Apr 30 13:27:22 2010 by mtchandl
+# Arguments:  -R167.75/174.9/-47.35/-41.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040001-H04-03: Invalid Survey Departure Day: (06) [07]
+N-E-05040001-H04-06: Invalid Survey Arrival Day: (15) [11]
+Y-W-05040001-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-05040001-depth-01: RLS m: 0.964731 b: 0 rms: 18.2411 r: 0.998937 sig: 1 dec: 0
+N-E-05040001-depth-02: Regression slope 0.964731 different from 1. Recommended: [1]
+Y-I-05040001-faa-01: RLS m: 1.00549 b: 3.19977 rms: 5.38956 r: 0.991336 sig: 1 dec: 0
+Y-W-05040001-faa-03: Regression offset 3.19977 different from 0.
+Y-W-05040001-depth-12: Integer precision
+# Errata: Data
+Y	05040001	1978-04-08T08:45:00.00	944	C-0-0	 NAV: excessive speed
+Y	05040001	1978-04-09T13:30:00.00	2665	B-0-0	 NAV: non-increasing time

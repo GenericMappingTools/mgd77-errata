@@ -1,0 +1,42 @@
+# Cruise 19050016 ID SHACK_71 MGD77 FILE VERSION: 19991208 N_RECS: 82021
+# Examined: Mon Sep  6 12:54:57 2010 by mtchandl
+# Arguments:  -R282.55/325.7/-63/-44.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050016-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19050016-H13-09: Unknown IGRF specified (DGRF       C)
+Y-W-19050016-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-19050016-depth-01: RLS m: 1.00063 b: 0 rms: 16.6185 r: 0.999943 sig: 1 dec: 0
+N-E-19050016-depth-02: Regression slope 1.00063 different from 1. Recommended: [1]
+Y-W-19050016-depth-12: Integer precision
+# Errata: Data
+Y	19050016	1971-12-18T13:46:00.00	12209	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T13:47:00.00	12210	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T13:48:00.00	12211	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T13:49:00.00	12212	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T13:50:00.00	12213	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T17:56:00.00	12421	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T17:57:00.00	12422	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T17:58:00.00	12423	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T17:59:00.00	12424	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-18T18:00:00.00	12425	C-0-0	 NAV: excessive speed
+Y	19050016	1971-12-20T21:22:00.00	14304	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:23:00.00	14305	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:24:00.00	14306	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:25:00.00	14307	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:26:00.00	14308	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:27:00.00	14309	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:28:00.00	14310	D-0-0	 NAV: on land
+Y	19050016	1971-12-20T21:29:00.00	14311	D-0-0	 NAV: on land
+?	19050016	1971-12-20T21:30:00.00	14312	D-0-0	 NAV: on land
+?	19050016	1972-02-21T21:09:00.00	67054	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:10:00.00	67055	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:11:00.00	67056	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:12:00.00	67057	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:13:00.00	67058	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:14:00.00	67059	D-0-0	 NAV: on land
+Y	19050016	1972-02-21T21:15:00.00	67060	D-0-0	 NAV: on land

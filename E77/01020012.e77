@@ -1,0 +1,41 @@
+# Cruise 01020012 ID ELT12 MGD77 FILE VERSION: 19800718 N_RECS: 16531
+# Examined: Fri Mar 19 01:12:24 2010 by mtchandl
+# Arguments:  -R279.75/331.85/-66.1/-33.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Multiple disparities between gridded and reported bathymetry. Could be bottom tracking issues or poor navigation.
+# Errata: Header
+Y-I-01020012-depth-01: RLS m: 1.00032 b: 0 rms: 247.355 r: 0.980896 sig: 1 dec: 0
+Y-E-01020012-depth-08: Extended offset from grid [5987-6086]
+Y-E-01020012-depth-08: Extended offset from grid [6312-6539]
+Y-E-01020012-depth-08: Extended offset from grid [8145-8337]
+Y-E-01020012-depth-08: Extended offset from grid [9186-9411]
+Y-E-01020012-depth-08: Extended offset from grid [14069-14244]
+Y-E-01020012-depth-08: Extended offset from grid [15182-15340]
+Y-W-01020012-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01020012	1964-03-05T09:52:00.00	744	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-25T14:55:00.00	6193	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-03-25T14:56:00.00	6194	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-28T00:36:00.00	6903	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-03-28T00:40:00.00	6904	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-28T12:00:00.00	7054	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-28T12:55:00.00	7065	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-29T14:58:00.00	7214	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-29T18:58:00.00	7285	0-0-K	 GRAD: twt excessive
+?	01020012	1964-03-31T08:48:00.00	7860	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-02T16:05:00.00	8339	0-0-K	 GRAD: twt excessive
+?	01020012	1964-04-02T16:31:00.00	8350	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-02T16:38:00.00	8354	0-0-K	 GRAD: twt excessive
+?	01020012	1964-04-06T05:06:00.00	9414	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-07T10:56:00.00	9780	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-08T06:45:00.00	10054	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-11T11:18:00.00	10972	0-0-K	 GRAD: twt excessive
+?	01020012	1964-04-15T11:36:00.00	12206	0-0-K	 GRAD: twt excessive
+?	01020012	1964-04-16T21:42:00.00	12635	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-19T21:18:00.00	13521	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-19T21:38:00.00	13530	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-21T02:41:00.00	13795	0-0-KL	 GRAD: twt, depth excessive
+?	01020012	1964-04-22T00:15:00.00	14209	0-0-K	 GRAD: twt excessive

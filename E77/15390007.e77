@@ -1,0 +1,33 @@
+# Cruise 15390007 ID REVT03RR MGD77 FILE VERSION: 19990916 N_RECS: 3357
+# Examined: Wed Jun  4 22:41:35 2008 by mtchandl
+# Arguments:  -R239.75/242.8/31.15/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15390007-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-15390007-H13-10: Survey year (1996) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15390007-depth-01: RLS m: 1 b: 0 rms: 234.333 r: 0.976213 sig: 1 dec: 1
+Y-E-15390007-mag-07: Anomaly differs from mtf1 - IGRF (m: 1 b: -80 rms: 80 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-15390007-twt-11: More recent bathymetry correction table available
+Y-W-15390007-depth-12: Integer precision
+Y-W-15390007-mtf1-12: Integer precision
+# Errata: Data
+?	15390007	1996-11-18T16:00:00.00	1	D-0-0	 NAV: on land
+?	15390007	1996-11-18T16:01:00.00	2	D-0-0	 NAV: on land
+?	15390007	1996-11-18T16:02:00.00	3	D-0-0	 NAV: on land
+?	15390007	1996-11-20T17:55:00.00	2996	0-0-KL	 GRAD: twt, depth excessive
+?	15390007	1996-11-20T17:56:00.00	2997	0-0-KL	 GRAD: twt, depth excessive
+?	15390007	1996-11-20T23:46:00.00	3347	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:47:00.00	3348	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:48:00.00	3349	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:49:00.00	3350	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:50:00.00	3351	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:51:00.00	3352	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:52:00.00	3353	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:53:00.00	3354	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:54:00.00	3355	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:55:00.00	3356	D-0-0	 NAV: on land
+?	15390007	1996-11-20T23:56:00.00	3357	D-0-0	 NAV: on land

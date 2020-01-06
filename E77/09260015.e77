@@ -1,0 +1,48 @@
+# Cruise 09260015 ID LY72D MGD77 FILE VERSION: 19810609 N_RECS: 4545
+# Examined: Mon Aug  9 12:30:21 2010 by mtchandl
+# Arguments:  -R333.55/359.15/62.95/77.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09260015-H04-06: Invalid Survey Arrival Day: (28) [26]
+Y-W-09260015-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09260015-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-09260015-depth-01: RLS m: 1 b: 0 rms: 10.6869 r: 0.999942 sig: 1 dec: 0
+Y-E-09260015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.963606 b: 104.614 rms: 116.733 r: 0.977937 sig: 1 dec: 1). [Recompute]
+Y-W-09260015-mtf1-12: Integer precision
+# Errata: Data
+?	09260015	1972-09-14T23:39:54.00	1	0-Q-0	 VAL: mag invalid
+?	09260015	1972-09-23T11:40:24.00	2130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T11:41:18.00	2131	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T11:43:06.00	2133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T11:43:48.00	2134	0-0-Q	 GRAD: mag excessive
+?	09260015	1972-09-23T11:57:54.00	2151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T11:58:54.00	2152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T11:59:24.00	2153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T12:12:24.00	2168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T12:13:30.00	2169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T12:14:18.00	2170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T12:15:18.00	2172	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T12:16:06.00	2174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-23T14:48:30.00	2311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:09:54.00	4047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:10:54.00	4049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:12:06.00	4051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:13:18.00	4052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:14:24.00	4053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:17:48.00	4060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:18:54.00	4061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:19:30.00	4062	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:20:12.00	4064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:20:48.00	4065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:21:54.00	4066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:23:00.00	4067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-25T22:23:54.00	4068	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09260015	1972-09-26T00:00:00.00	4150	B-0-0	 NAV: non-increasing time
+?	09260015	1972-09-26T00:47:42.00	4192	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260015	1972-09-26T01:02:36.00	4210	0-0-O	 GRAD: mtf1 excessive
+?	09260015	1972-09-26T04:29:30.00	4346	0-0-Q	 GRAD: mag excessive
+?	09260015	1972-09-26T04:49:42.00	4365	0-0-OQ	 GRAD: mtf1, mag excessive

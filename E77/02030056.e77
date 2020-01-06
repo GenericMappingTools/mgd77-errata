@@ -1,0 +1,39 @@
+# Cruise 02030056 ID KN161L04 MGD77 FILE VERSION: 20031216 N_RECS: 33109
+# Examined: Fri Apr  2 16:00:58 2010 by mtchandl
+# Arguments:  -R300.35/334.25/13/38.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02030056-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-02030056-depth-01: RLS m: 1.00343 b: 0 rms: 138.654 r: 0.991874 sig: 1 dec: 0
+N-E-02030056-depth-02: Regression slope 1.00343 different from 1. Recommended: [1]
+Y-W-02030056-depth-12: Integer precision
+# Errata: Data
+?	02030056	2000-02-26T14:46:01.02	3751	0-0-L	 GRAD: depth excessive
+Y	02030056	2000-02-28T03:38:01.98	5962	B-0-0	 NAV: non-increasing time
+Y	02030056	2000-02-28T03:48:57.00	5973	C-0-0	 NAV: excessive speed
+?	02030056	2000-02-29T17:05:55.98	8206	0-0-L	 GRAD: depth excessive
+Y	02030056	2000-03-02T00:23:01.98	9620	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:23:57.00	9621	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:25:01.98	9622	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:25:57.00	9623	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:27:01.02	9624	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:27:57.00	9625	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:29:01.98	9626	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:29:55.02	9627	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:31:01.98	9628	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-02T00:31:55.98	9629	C-0-0	 NAV: excessive speed
+?	02030056	2000-03-02T10:34:00.00	10231	0-0-L	 GRAD: depth excessive
+Y	02030056	2000-03-02T11:02:04.02	10259	B-0-0	 NAV: non-increasing time
+Y	02030056	2000-03-02T11:03:00.00	10260	B-0-0	 NAV: non-increasing time
+?	02030056	2000-03-02T16:38:00.00	10595	0-0-L	 GRAD: depth excessive
+?	02030056	2000-03-02T20:33:55.98	10831	0-0-L	 GRAD: depth excessive
+Y	02030056	2000-03-07T15:41:01.02	17062	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-07T15:43:55.98	17065	C-0-0	 NAV: excessive speed
+Y	02030056	2000-03-07T15:48:55.02	17070	C-0-0	 NAV: excessive speed
+?	02030056	2000-03-15T00:08:04.02	27005	0-0-L	 GRAD: depth excessive
+Y	02030056	2000-03-16T02:03:57.00	28561	B-0-0	 NAV: non-increasing time
+Y	02030056	2000-03-16T02:04:57.00	28562	B-0-0	 NAV: non-increasing time

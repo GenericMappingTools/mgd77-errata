@@ -1,0 +1,15 @@
+# Cruise 02020112 ID A125L6 MGD77 FILE VERSION: 20040218 N_RECS: 2492
+# Examined: Fri Apr  2 15:34:29 2010 by mtchandl
+# Arguments:  -R258.3/272.2/1.9/8.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02020112-depth-01: RLS m: 1.03188 b: 0 rms: 214.059 r: 0.903516 sig: 1 dec: 0
+N-E-02020112-depth-02: Regression slope 1.03188 different from 1. Recommended: [1]
+Y-W-02020112-depth-12: Integer precision
+# Errata: Data
+?	02020112	1990-05-10T06:29:03.00	1369	0-0-L	 GRAD: depth excessive
+?	02020112	1990-05-14T04:08:01.98	2209	0-0-L	 GRAD: depth excessive

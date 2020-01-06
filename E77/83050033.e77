@@ -1,0 +1,33 @@
+# Cruise 83050033 ID M28-1 MGD77 FILE VERSION: 20010424 N_RECS: 43467
+# Examined: Wed Aug  3 07:16:26 2011 by mtchandl
+# Arguments:  -R-32.55/13.55/-20.65/-10.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-83050033-H04-02: Invalid Survey Departure Month: (03) [04]
+N-E-83050033-H04-03: Invalid Survey Departure Day: (29) [05]
+N-E-83050033-H04-06: Invalid Survey Arrival Day: (11) [10]
+N-E-83050033-H11-02: Invalid Topmost Latitude : (-11) [-10]
+Y-W-83050033-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-83050033-depth-01: RLS m: 1.0001 b: 0 rms: 20.3248 r: 0.99991 sig: 1 dec: 0
+# Errata: Data
+Y	83050033	1994-04-19T10:33:06.00	13564	C-0-0	 NAV: excessive speed
+Y	83050033	1994-04-19T18:50:55.98	14063	B-0-0	 NAV: non-increasing time
+Y	83050033	1994-04-20T12:04:07.02	15096	B-0-0	 NAV: non-increasing time
+Y	83050033	1994-04-20T12:04:58.02	15097	B-0-0	 NAV: non-increasing time
+Y	83050033	1994-04-20T15:01:54.00	15274	C-0-0	 NAV: excessive speed
+Y	83050033	1994-04-30T07:03:01.98	28875	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-02T22:35:51.00	32679	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-02T22:36:40.02	32680	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-05T00:26:57.00	35653	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-05T18:27:54.00	36732	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-06T07:03:43.98	37486	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-06T15:49:01.98	38008	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-07T11:41:55.98	39188	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-08T06:52:16.02	40331	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-09T02:09:04.98	41460	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-09T12:51:58.98	42070	C-0-0	 NAV: excessive speed
+Y	83050033	1994-05-09T17:21:58.02	42339	C-0-0	 NAV: excessive speed

@@ -1,0 +1,15 @@
+# Cruise 15040045 ID SOTW05WT MGD77 FILE VERSION: 19800226 N_RECS: 2887
+# Examined: Thu May 22 09:38:14 2008 by mtchandl
+# Arguments:  -R274/282.5/-11.85/-0.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040045-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040045-depth-01: RLS m: 1 b: 0 rms: 70.4339 r: 0.998935 sig: 1 dec: 1
+Y-E-15040045-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.977602 b: -159.874 rms: 164.842 r: 0.967256 sig: 1 dec: 1). [Recompute]
+Y-W-15040045-mtf1-12: Integer multiple of 5 precision
+Y-W-15040045-mag-12: Integer multiple of 5 precision
+# Errata: Data

@@ -1,0 +1,22 @@
+# Cruise 01030083 ID V2206 MGD77 FILE VERSION: 19790920 N_RECS: 398
+# Examined: Thu Jul  9 16:59:26 2009 by mtchandl
+# Arguments:  -R11.05/18.35/-36.4/-33.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01030083-H04-05: Invalid Survey Arrival Month: (05) [04]
+N-E-01030083-H04-06: Invalid Survey Arrival Day: (23) [28]
+Y-I-01030083-depth-01: RLS m: 0.999302 b: 0 rms: 1.35899 r: 1 sig: 1 dec: 0
+N-E-01030083-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-01030083-faa-01: RLS m: 0.847141 b: -2.99156 rms: 5.85519 r: 0.898312 sig: 1 dec: 0
+N-E-01030083-faa-02: Regression slope 0.847141 different from 1. Recommended: [1]
+Y-W-01030083-faa-03: Regression offset -2.99156 different from 0.
+Y-E-01030083-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00732 b: -31.2765 rms: 44.4008 r: 0.977148 sig: 1 dec: 1). [Recompute]
+N-E-01030083-depth-08: Extended offset from grid [5-398]
+Y-W-01030083-mtf1-12: Integer precision
+Y-W-01030083-mag-12: Integer precision
+# Errata: Data
+?	01030083	1966-04-28T09:00:00.00	349	B-0-0	 NAV: decreasing time

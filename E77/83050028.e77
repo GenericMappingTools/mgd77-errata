@@ -1,0 +1,54 @@
+# Cruise 83050028 ID M25-3 MGD77 FILE VERSION: 19971205 N_RECS: 2184
+# Examined: Wed Aug  3 07:15:02 2011 by mtchandl
+# Arguments:  -R24.65/26.9/33.65/35.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged grid offsets.
+# Errata: Header
+Y-W-83050028-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-83050028-depth-01: RLS m: 1.00161 b: 0 rms: 33.5371 r: 0.998242 sig: 1 dec: 0
+Y-E-83050028-depth-08: Extended offset from grid [2-30]
+Y-E-83050028-depth-08: Extended offset from grid [296-315]
+Y-E-83050028-depth-08: Extended offset from grid [769-806]
+Y-E-83050028-depth-08: Extended offset from grid [1309-1328]
+Y-W-83050028-depth-12: Integer precision
+# Errata: Data
+?	83050028	1993-07-04T02:38:58.98	2	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:40:01.98	3	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:41:00.00	4	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:44:01.02	6	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:46:01.98	8	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:48:01.02	10	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:49:01.98	11	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:50:01.02	12	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T02:53:01.02	13	0-0-L	 GRAD: depth excessive
+Y	83050028	1993-07-04T03:06:03.00	26	C-0-0	 NAV: excessive speed
+?	83050028	1993-07-04T05:19:04.98	137	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T06:26:04.02	203	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T08:00:48.00	287	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T08:41:58.02	306	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T08:47:55.98	310	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T08:48:57.00	311	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T08:49:57.00	312	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-04T09:02:04.02	313	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-06T13:56:01.98	714	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-06T13:57:03.00	715	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-06T13:59:01.98	717	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:12:01.98	786	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:12:58.98	787	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:13:58.98	788	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:15:00.00	789	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:16:03.00	790	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:16:58.98	791	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:18:00.00	792	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:19:01.02	793	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:22:03.00	796	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:22:58.98	797	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:28:01.02	802	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T14:28:58.98	803	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T23:22:01.02	1309	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T23:27:58.98	1315	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T23:29:01.98	1316	0-0-L	 GRAD: depth excessive
+?	83050028	1993-07-08T23:40:01.98	1327	0-0-L	 GRAD: depth excessive

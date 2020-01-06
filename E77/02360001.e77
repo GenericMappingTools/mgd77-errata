@@ -1,0 +1,13 @@
+# Cruise 02360001 ID CERX89 MGD77 FILE VERSION: 19910830 N_RECS: 144
+# Examined: Mon Nov  7 15:45:13 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-02360001-H12-01: Invalid Bathymetry Digitizing Rate: (694) [694]
+Y-I-02360001-depth-01: RLS m: 0.997125 b: 0 rms: 24.3856 r: 0.999236 sig: 1 dec: 0
+Y-W-02360001-depth-12: Integer precision
+# Errata: Data

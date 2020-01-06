@@ -1,0 +1,25 @@
+# Cruise 15010064 ID SCAN09AR MGD77 FILE VERSION: 19830818 N_RECS: 9760
+# Examined: Tue May 13 09:17:31 2008 by mtchandl
+# Arguments:  -R210.4/280.65/-17.5/8.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010064-H04-03: Invalid Survey Departure Day: (17) [18]
+Y-I-15010064-depth-01: RLS m: 1 b: 0 rms: 148.427 r: 0.99193 sign: 1 dec: 1
+Y-E-15010064-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.934859 b: -131.692 rms: 171.02 r: 0.819562 sig: 1 dec: 1). [Recompute]
+Y-W-15010064-mtf1-12: Integer multiple of 5 precision
+Y-W-15010064-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010064	1969-11-18T23:02:00.00	461	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010064	1969-11-18T23:12:00.00	465	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-19T09:30:00.00	684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-19T09:34:00.00	685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-21T08:38:00.00	1713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-21T08:43:00.00	1715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-21T08:53:00.00	1718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-11-21T09:03:00.00	1722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-12-20T06:20:00.00	9655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010064	1969-12-20T13:20:00.00	9739	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,22 @@
+# Cruise 15120001 ID SATP-1DV MGD77 FILE VERSION: 19800226 N_RECS: 1677
+# Examined: Mon Jun  2 11:06:39 2008 by mtchandl
+# Arguments:  -R223/235.25/43.95/48.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15120001-H04-03: Invalid Survey Departure Day: (07) [08]
+Y-E-15120001-H04-06: Invalid Survey Arrival Day: (13) [14]
+Y-I-15120001-depth-01: RLS m: 1 b: 0 rms: 73.5091 r: 0.99772 sig: 1 dec: 1
+Y-E-15120001-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00984 b: 39.4977 rms: 64.3107 r: 0.982328 sig: 1 dec: 1). [Recompute]
+Y-W-15120001-mtf1-12: Integer multiple of 5 precision
+Y-W-15120001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15120001	1968-09-09T10:25:00.00	360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15120001	1968-09-09T11:25:00.00	372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15120001	1968-09-13T01:05:00.00	1400	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15120001	1968-09-13T01:10:00.00	1401	0-Q-0	 VAL: mag invalid
+?	15120001	1968-09-13T01:15:00.00	1402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15120001	1968-09-13T07:25:00.00	1476	0-0-Q	 GRAD: mag excessive

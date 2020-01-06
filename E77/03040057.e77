@@ -1,0 +1,85 @@
+# Cruise 03040057 ID POL7201 MGD77 FILE VERSION: 19800213 N_RECS: 22220
+# Examined: Fri Apr 16 13:43:39 2010 by mtchandl
+# Arguments:  -R115.65/233.7/17.7/48.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Recommend disregarding gravity data until sign error is fixed.
+# Errata: Header
+Y-E-03040057-H04-06: Invalid Survey Arrival Day: (17) [18]
+N-E-03040057-H16-01: Invalid Number of Ten Degree Identifiers: (19) [21]
+Y-W-03040057-H16-06: Ten Degree Identifier 7218 not marked in header but block was crossed
+Y-W-03040057-H16-06: Ten Degree Identifier 7318 not marked in header but block was crossed
+Y-W-03040057-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-03040057-depth-01: RLS m: 1 b: 0 rms: 21.1035 r: 0.999827 sig: 1 dec: 0
+Y-I-03040057-faa-01: RLS m: -0.777075 b: -33.1426 rms: 172.229 r: 0.914645 sig: 1 dec: 1
+N-E-03040057-faa-02: Regression slope -0.777075 different from 1. Recommended: [1]
+Y-W-03040057-faa-03: Regression offset -33.1426 different from 0.
+Y-E-03040057-mag-07: Anomaly differs from mtf1-IGRF (m: 0.913671 b: 30.2868 rms: 42.2712 r: 0.967402 sig: 1 dec: 0). [Recompute]
+N-E-03040057-faa-08: Extended offset from grid [4820-5203]
+N-E-03040057-faa-08: Extended offset from grid [7766-8183]
+Y-W-03040057-faa-09: all values less than or equal to zero
+Y-E-03040057-faa-10: Invalid data records: [1-22220]
+Y-W-03040057-twt-11: More recent bathymetry correction table available
+Y-W-03040057-mtf1-12: Integer precision
+Y-W-03040057-mag-12: Integer precision
+# Errata: Data
+?	03040057	1972-03-07T22:35:00.00	69	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040057	1972-03-08T02:09:00.00	115	C-0-0	 NAV: excessive speed
+Y	03040057	1972-03-08T02:10:00.00	116	C-0-0	 NAV: excessive speed
+?	03040057	1972-03-08T04:45:00.00	146	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-03-08T04:50:00.00	147	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-03-09T20:40:00.00	626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-03-09T20:50:00.00	628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-03-09T21:10:00.00	632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-03-14T12:35:00.00	1949	0-0-O	 GRAD: mtf1 excessive
+?	03040057	1972-03-14T12:40:00.00	1950	0-0-O	 GRAD: mtf1 excessive
+?	03040057	1972-03-14T19:30:00.00	2034	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-03-27T13:05:00.00	5640	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040057	1972-03-27T13:15:00.00	5643	0-Q-0	 VAL: mag invalid
+?	03040057	1972-03-27T13:35:00.00	5647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-04-12T05:30:00.00	8239	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	03040057	1972-04-12T05:35:00.00	8240	0-W-0	 VAL: faa invalid
+?	03040057	1972-04-12T05:40:00.00	8241	0-W-0	 VAL: faa invalid
+?	03040057	1972-04-12T05:45:00.00	8242	0-W-0	 VAL: faa invalid
+?	03040057	1972-04-12T05:50:00.00	8243	0-W-0	 VAL: faa invalid
+?	03040057	1972-04-12T05:55:00.00	8244	0-0-W	 GRAD: faa excessive
+?	03040057	1972-04-13T14:55:00.00	8605	0-Q-0	 VAL: mag invalid
+?	03040057	1972-04-13T15:00:00.00	8606	0-Q-0	 VAL: mag invalid
+?	03040057	1972-04-20T15:20:00.00	10154	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	03040057	1972-05-11T15:00:00.00	14776	0-M-0	 VAL: bcc invalid
+?	03040057	1972-05-22T17:00:00.00	16157	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-22T17:05:00.00	16158	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T04:25:00.00	16568	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T04:30:00.00	16569	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T04:55:00.00	16574	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T05:00:00.00	16575	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T07:55:00.00	16612	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T08:00:00.00	16613	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T08:15:00.00	16616	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-05-24T08:20:00.00	16617	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-01T22:40:00.00	17619	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-03T11:55:00.00	18057	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-03T12:00:00.00	18058	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-05T06:05:00.00	18549	0-0-W	 GRAD: faa excessive
+?	03040057	1972-06-10T07:05:00.00	19991	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-10T07:10:00.00	19992	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-12T15:55:00.00	20651	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-13T09:10:00.00	20847	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-13T09:15:00.00	20848	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-14T10:15:00.00	21142	0-0-KL	 GRAD: twt, depth excessive
+?	03040057	1972-06-14T10:20:00.00	21143	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-14T17:55:00.00	21233	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-14T18:00:00.00	21234	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-14T21:25:00.00	21276	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-14T21:30:00.00	21277	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-15T00:25:00.00	21313	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-15T00:35:00.00	21315	0-0-K	 GRAD: twt excessive
+?	03040057	1972-06-17T20:05:00.00	22111	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-06-17T20:20:00.00	22114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-06-17T21:45:00.00	22129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040057	1972-06-17T23:00:00.00	22144	0-Q-0	 VAL: mag invalid
+?	03040057	1972-06-17T23:05:00.00	22145	0-Q-0	 VAL: mag invalid
+?	03040057	1972-06-18T01:45:00.00	22177	0-Q-0	 VAL: mag invalid
+?	03040057	1972-06-18T01:50:00.00	22178	0-Q-0	 VAL: mag invalid

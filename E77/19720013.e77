@@ -1,0 +1,25 @@
+# Cruise 19720013 ID JCR12A MGD77 FILE VERSION: 19991222 N_RECS: 3013
+# Examined: Mon Oct 18 15:39:13 2010 by mtchandl
+# Arguments:  -R302.15/314.55/-60.9/-51.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19720013-time-01: 1 of 3013 records contain invalid time
+N-E-19720013-H04-04: Invalid Survey Arrival Year: (1996) [-2147483648]
+N-E-19720013-H04-05: Invalid Survey Arrival Month: (04) [-2147483648]
+N-E-19720013-H04-06: Invalid Survey Arrival Day: (16) [-2147483648]
+Y-W-19720013-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-19720013-depth-01: RLS m: 1.00257 b: 0 rms: 16.5587 r: 0.999954 sig: 1 dec: 0
+N-E-19720013-depth-02: Regression slope 1.00257 different from 1. Recommended: [1]
+# Errata: Data
+?	19720013	1996-04-07T02:57:30.00	950	0-0-L	 GRAD: depth excessive
+?	19720013	1996-04-07T03:55:30.00	958	0-0-L	 GRAD: depth excessive
+?	19720013	1996-04-08T02:45:00.00	1254	0-0-L	 GRAD: depth excessive
+?	19720013	1996-04-08T02:49:00.00	1256	0-0-L	 GRAD: depth excessive
+?	19720013	1996-04-08T06:50:00.00	1301	0-0-L	 GRAD: depth excessive
+?	19720013	1996-04-08T07:11:00.00	1305	0-0-L	 GRAD: depth excessive
+Y	19720013	1996-04-16T21:49:00.00	3012	D-0-0	 NAV: on land
+Y	19720013	NaN	3013	DE-0-0	 NAV: on land, navigation undefined

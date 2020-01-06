@@ -1,0 +1,30 @@
+# Cruise 15010002 ID AMPH02AR MGD77 FILE VERSION: 19800226 N_RECS: 5081
+# Examined: Mon May 12 16:54:14 2008 by mtchandl
+# Arguments:  -R190.4/210.4/-22.7/-12.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15010002-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15010002-depth-01: RLS m: 1 b: 0 rms: 156.809 r: 0.994227 significant: 1 decimation: 1
+Y-E-15010002-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00268 b: 12.0314 rms: 40.4858 r: 0.986418 sig: 1 dec: 1). [Recompute]
+Y-W-15010002-mtf1-12: Integer multiple of 5 precision
+Y-W-15010002-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010002	1964-01-11T11:06:00.00	492	0-Q-0	 VAL: mag invalid
+?	15010002	1964-01-11T11:30:00.00	500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010002	1964-01-11T11:42:00.00	504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010002	1964-01-11T22:12:00.00	577	0-0-K	 GRAD: twt excessive
+?	15010002	1964-01-15T14:12:00.00	2075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010002	1964-01-15T18:30:00.00	2156	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010002	1964-01-15T18:42:00.00	2158	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010002	1964-01-15T18:48:00.00	2159	0-Q-0	 VAL: mag invalid
+?	15010002	1964-01-15T18:54:00.00	2160	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010002	1964-01-15T22:45:00.00	2163	D-0-0	 NAV: on land
+Y	15010002	1964-01-15T22:48:00.00	2164	D-0-0	 NAV: on land
+?	15010002	1964-01-23T10:12:00.00	5057	0-Q-0	 VAL: mag invalid
+?	15010002	1964-01-23T10:18:00.00	5059	0-Q-0	 VAL: mag invalid
+?	15010002	1964-01-23T10:24:00.00	5061	0-Q-0	 VAL: mag invalid
+?	15010002	1964-01-23T10:48:00.00	5069	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

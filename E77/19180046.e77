@@ -1,0 +1,18 @@
+# Cruise 19180046 ID CD9195 MGD77 FILE VERSION: 19971208 N_RECS: 20567
+# Examined: Mon Sep 20 13:32:09 2010 by mtchandl
+# Arguments:  -R347.8/355.15/54.9/57.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19180046-H04-03: Invalid Survey Departure Day: (02) [03]
+N-E-19180046-H04-06: Invalid Survey Arrival Day: (02) [01]
+Y-I-19180046-depth-01: RLS m: 0.995791 b: 0 rms: 29.6312 r: 0.998741 sig: 1 dec: 0
+N-E-19180046-depth-02: Regression slope 0.995791 different from 1. Recommended: [1]
+Y-W-19180046-depth-12: Integer precision
+# Errata: Data
+?	19180046	1995-03-04T07:30:00.00	689	0-0-L	 GRAD: depth excessive
+?	19180046	1995-03-04T07:32:00.00	690	0-0-L	 GRAD: depth excessive
+?	19180046	1995-03-04T07:34:00.00	691	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,199 @@
+# Cruise 03020031 ID POL6829 MGD77 FILE VERSION: 19800213 N_RECS: 20099
+# Examined: Fri Apr  9 13:57:32 2010 by mtchandl
+# Arguments:  -R154.95/237.05/21.4/51.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-03020031-H16-01: Invalid Number of Ten Degree Identifiers: (22) [23]
+Y-W-03020031-H16-06: Ten Degree Identifier 7318 not marked in header but block was crossed
+Y-W-03020031-H16-06: Ten Degree Identifier 1317 marked in header but was not crossed
+Y-W-03020031-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-W-03020031-nav-00: Flagged 0.58 % of records with bad navigation
+Y-I-03020031-depth-01: RLS m: 1 b: 0 rms: 19.8843 r: 0.999795 sig: 1 dec: 0
+Y-E-03020031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.982422 b: -26.4089 rms: 59.9157 r: 0.958491 sig: 1 dec: 0). [Recompute]
+N-E-03020031-twt-13: Encountered possible PDR wrap errors (6.0) [5.0]
+Y-W-03020031-twt-11: More recent bathymetry correction table available
+Y-W-03020031-mtf1-12: Integer precision
+Y-W-03020031-mag-12: Integer precision
+# Errata: Data
+?	03020031	1968-04-04T11:50:00.00	157	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-04-04T13:50:00.00	188	B-0-0	 NAV: non-increasing time
+?	03020031	1968-04-04T14:40:00.00	202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-04-04T14:45:00.00	203	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03020031	1968-04-04T14:50:00.00	206	0-Q-0	 VAL: mag invalid
+?	03020031	1968-04-04T14:55:00.00	207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-04-04T15:00:00.00	209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-04-04T16:15:00.00	232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-04-04T16:25:00.00	234	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-04-04T22:49:00.00	342	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-05T07:20:00.00	463	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-06T09:35:00.00	797	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-06T17:18:00.00	903	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-07T02:10:00.00	1036	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-07T12:53:00.00	1216	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-07T22:35:00.00	1362	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-07T22:37:00.00	1364	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-07T22:50:00.00	1368	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-08T09:45:00.00	1440	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-10T10:32:00.00	1753	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T10:35:00.00	1754	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T10:38:00.00	1755	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T12:20:00.00	1757	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T12:25:00.00	1758	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T12:29:00.00	1759	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T12:30:00.00	1760	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T15:30:00.00	1795	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T15:35:00.00	1796	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T15:40:00.00	1797	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-10T15:41:00.00	1798	C-0-0	 NAV: excessive speed
+?	03020031	1968-04-12T01:45:00.00	2101	0-0-KL	 GRAD: twt, depth excessive
+?	03020031	1968-04-12T20:06:00.00	2222	0-0-K	 GRAD: twt excessive
+?	03020031	1968-04-12T22:31:00.00	2247	0-0-KL	 GRAD: twt, depth excessive
+Y	03020031	1968-04-14T09:23:00.00	2523	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:25:00.00	2524	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:30:00.00	2525	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:33:00.00	2526	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:35:00.00	2527	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:40:00.00	2528	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:45:00.00	2529	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:50:00.00	2530	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:55:00.00	2531	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T09:59:00.00	2532	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:00:00.00	2533	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:05:00.00	2534	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:09:00.00	2535	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:12:00.00	2536	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:15:00.00	2537	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:20:00.00	2538	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:25:00.00	2539	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:30:00.00	2540	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:36:00.00	2541	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:40:00.00	2542	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:42:00.00	2543	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:45:00.00	2544	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:48:00.00	2545	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:50:00.00	2546	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:52:00.00	2547	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-14T10:55:00.00	2548	C-0-0	 NAV: excessive speed
+?	03020031	1968-04-17T00:32:00.00	3100	0-0-KL	 GRAD: twt, depth excessive
+Y	03020031	1968-04-23T12:03:00.00	4364	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:05:00.00	4365	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:10:00.00	4366	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:15:00.00	4367	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:20:00.00	4368	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:25:00.00	4369	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:30:00.00	4370	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:32:00.00	4371	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:33:00.00	4372	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T12:35:00.00	4373	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:05:00.00	4379	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:10:00.00	4380	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:15:00.00	4381	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:20:00.00	4382	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:23:00.00	4383	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:25:00.00	4384	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:29:00.00	4385	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:30:00.00	4386	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:35:00.00	4387	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:36:00.00	4388	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:38:00.00	4389	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-23T13:40:00.00	4390	C-0-0	 NAV: excessive speed
+?	03020031	1968-04-23T15:16:00.00	4414	0-0-KL	 GRAD: twt, depth excessive
+?	03020031	1968-04-23T15:54:00.00	4415	0-0-K	 GRAD: twt excessive
+Y	03020031	1968-04-24T14:54:00.00	4723	B-0-0	 NAV: non-increasing time
+Y	03020031	1968-04-24T15:30:00.00	4724	C-0-0	 NAV: excessive speed
+Y	03020031	1968-04-24T15:35:00.00	4725	C-0-0	 NAV: excessive speed
+?	03020031	1968-04-26T03:53:00.00	4977	0-0-KL	 GRAD: twt, depth excessive
+Y	03020031	1968-04-30T02:23:00.00	5775	C-0-0	 NAV: excessive speed
+?	03020031	1968-05-01T06:19:00.00	6163	0-0-KL	 GRAD: twt, depth excessive
+?	03020031	1968-05-06T23:35:00.00	6248	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-05-06T23:45:00.00	6250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-05-09T21:01:00.00	7750	0-0-K	 GRAD: twt excessive
+?	03020031	1968-05-11T05:36:00.00	8388	0-0-K	 GRAD: twt excessive
+?	03020031	1968-05-11T12:17:00.00	8493	0-0-K	 GRAD: twt excessive
+?	03020031	1968-05-12T10:20:00.00	8850	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-05-18T03:35:00.00	10563	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03020031	1968-05-18T03:40:00.00	10564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-05-18T03:45:00.00	10565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-06-15T13:40:00.00	11554	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-06-15T13:45:00.00	11555	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-06-16T15:05:00.00	11859	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:10:00.00	11860	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:15:00.00	11861	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:20:00.00	11862	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:25:00.00	11863	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:30:00.00	11864	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:35:00.00	11865	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:40:00.00	11866	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:45:00.00	11867	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:50:00.00	11868	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T15:55:00.00	11869	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-16T16:00:00.00	11870	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T13:35:00.00	12129	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T13:40:00.00	12130	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T13:45:00.00	12131	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T13:50:00.00	12132	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T13:55:00.00	12133	C-0-0	 NAV: excessive speed
+Y	03020031	1968-06-17T14:00:00.00	12134	C-0-0	 NAV: excessive speed
+?	03020031	1968-09-27T02:15:00.00	12255	0-Q-0	 VAL: mag invalid
+?	03020031	1968-09-27T02:25:00.00	12257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T03:25:00.00	12269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T03:40:00.00	12272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T06:05:00.00	12302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T06:10:00.00	12303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T08:35:00.00	12333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-09-27T08:40:00.00	12334	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-09-28T13:02:00.00	12671	C-0-0	 NAV: excessive speed
+?	03020031	1968-09-30T02:00:00.00	13063	0-Q-0	 VAL: mag invalid
+?	03020031	1968-09-30T02:05:00.00	13064	0-Q-0	 VAL: mag invalid
+?	03020031	1968-09-30T02:10:00.00	13065	0-Q-0	 VAL: mag invalid
+?	03020031	1968-10-01T22:45:00.00	13557	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-10-03T15:00:00.00	13843	C-0-0	 NAV: excessive speed
+Y	03020031	1968-10-05T03:40:00.00	14142	C-0-0	 NAV: excessive speed
+Y	03020031	1968-10-05T03:45:00.00	14143	C-0-0	 NAV: excessive speed
+Y	03020031	1968-10-05T06:55:00.00	14170	C-0-0	 NAV: excessive speed
+?	03020031	1968-10-09T16:30:00.00	14854	0-0-KL	 GRAD: twt, depth excessive
+?	03020031	1968-10-09T19:00:00.00	14886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-09T19:05:00.00	14887	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03020031	1968-10-12T05:20:00.00	15283	C-0-0	 NAV: excessive speed
+Y	03020031	1968-10-12T05:25:00.00	15284	C-0-0	 NAV: excessive speed
+Y	03020031	1968-10-12T05:30:00.00	15285	C-0-0	 NAV: excessive speed
+?	03020031	1968-10-12T05:35:00.00	15286	0-0-K	 GRAD: twt excessive
+?	03020031	1968-10-12T05:40:00.00	15287	0-0-K	 GRAD: twt excessive
+?	03020031	1968-10-18T14:50:00.00	16738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T14:55:00.00	16739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T17:10:00.00	16766	0-0-K	 GRAD: twt excessive
+?	03020031	1968-10-18T17:15:00.00	16767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T17:20:00.00	16768	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	03020031	1968-10-18T17:25:00.00	16769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T17:30:00.00	16770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T17:35:00.00	16771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-18T17:45:00.00	16773	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-10-19T11:45:00.00	16879	0-Q-0	 VAL: mag invalid
+?	03020031	1968-10-19T11:50:00.00	16880	0-Q-0	 VAL: mag invalid
+?	03020031	1968-10-19T11:55:00.00	16881	0-Q-0	 VAL: mag invalid
+?	03020031	1968-10-19T12:00:00.00	16882	0-Q-0	 VAL: mag invalid
+?	03020031	1968-10-19T12:05:00.00	16883	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020031	1968-11-04T18:35:00.00	18128	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03020031	1968-11-04T18:40:00.00	18129	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	03020031	1968-11-05T16:05:00.00	18388	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:10:00.00	18389	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:15:00.00	18390	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:20:00.00	18391	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:25:00.00	18392	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:30:00.00	18393	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:35:00.00	18394	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:40:00.00	18395	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:45:00.00	18396	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-05T16:50:00.00	18397	C-0-0	 NAV: excessive speed
+?	03020031	1968-11-07T22:15:00.00	18879	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	03020031	1968-11-15T05:55:00.00	19836	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-15T06:00:00.00	19837	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-15T06:05:00.00	19838	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-15T06:10:00.00	19839	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-15T06:15:00.00	19840	C-0-0	 NAV: excessive speed
+Y	03020031	1968-11-15T06:20:00.00	19841	C-0-0	 NAV: excessive speed
+?	03020031	1968-11-15T21:20:00.00	20028	0-0-KL	 GRAD: twt, depth excessive

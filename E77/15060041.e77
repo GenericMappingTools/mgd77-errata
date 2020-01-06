@@ -1,0 +1,61 @@
+# Cruise 15060041 ID CRCS03SB MGD77 FILE VERSION: 19800226 N_RECS: 4851
+# Examined: Sat May 31 10:32:22 2008 by mtchandl
+# Arguments:  -R244.7/275.25/9.5/28.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060041-H04-06: Invalid Survey Arrival Day: (19) [18]
+Y-W-15060041-nav-00: Flagged 0.87 % of records with excessive speed or invalid navigation
+Y-I-15060041-depth-01: RLS m: 1 b: 0 rms: 149.688 r: 0.992524 sig: 1 dec: 1
+Y-E-15060041-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.870673 b: 25.599 rms: 143.014 r: 0.700113 sig: 1 dec: 1). [Recompute]
+Y-W-15060041-twt-11: More recent bathymetry correction table available
+Y-W-15060041-mtf1-12: Integer multiple of 5 precision
+Y-W-15060041-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15060041	1963-04-11T07:15:00.00	3046	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:21:00.00	3048	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:27:00.00	3050	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:33:00.00	3052	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:39:00.00	3054	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:45:00.00	3056	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:51:00.00	3058	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T07:57:00.00	3060	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:03:00.00	3062	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:09:00.00	3064	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:15:00.00	3066	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:21:00.00	3068	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:27:00.00	3070	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:33:00.00	3072	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:39:00.00	3074	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:45:00.00	3076	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:51:00.00	3078	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T08:57:00.00	3080	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:03:00.00	3082	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:09:00.00	3084	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:15:00.00	3086	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:21:00.00	3088	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:27:00.00	3090	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:33:00.00	3092	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:39:00.00	3094	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:45:00.00	3096	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:51:00.00	3098	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T09:57:00.00	3100	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:03:00.00	3102	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:09:00.00	3104	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:15:00.00	3106	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:21:00.00	3108	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:27:00.00	3110	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:33:00.00	3112	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:39:00.00	3114	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:45:00.00	3116	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:51:00.00	3118	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T10:57:00.00	3120	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T11:03:00.00	3122	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T11:09:00.00	3124	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T11:15:00.00	3126	C-0-0	 NAV: excessive speed
+Y	15060041	1963-04-11T11:21:00.00	3128	C-0-0	 NAV: excessive speed
+?	15060041	1963-04-13T02:06:00.00	3516	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060041	1963-04-13T02:24:00.00	3519	0-0-OQ	 GRAD: mtf1, mag excessive

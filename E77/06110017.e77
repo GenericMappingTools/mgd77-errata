@@ -1,0 +1,38 @@
+# Cruise 06110017 ID S877EG MGD77 FILE VERSION: 19870917 N_RECS: 11277
+# Examined: Fri May 28 14:55:48 2010 by mtchandl
+# Arguments:  -R210.55/220.35/59.45/60.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Typical shallow water disparity between ship and predicted bathymetry.
+# Errata: Header
+Y-W-06110017-nav-00: Flagged 0.23 % of records with bad navigation
+Y-I-06110017-depth-01: RLS m: 0.962658 b: 0 rms: 32.6202 r: 0.87358 sig: 1 dec: 0
+N-E-06110017-depth-02: Regression slope 0.962658 different from 1. Recommended: [1]
+Y-W-06110017-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06110017	1977-10-12T23:59:00.00	461	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:48:00.00	2662	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:49:00.00	2663	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:51:00.00	2665	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:52:00.00	2666	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:53:00.00	2667	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:54:00.00	2668	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:55:00.00	2669	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:56:00.00	2670	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-15T01:58:00.00	2672	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-16T12:11:00.00	4420	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-16T12:12:00.00	4421	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-16T12:13:00.00	4422	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:34:00.00	7745	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:35:00.00	7746	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:36:00.00	7747	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:37:00.00	7748	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:38:00.00	7749	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:39:00.00	7750	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-18T22:40:00.00	7751	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-20T14:38:00.00	9810	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-20T14:39:00.00	9811	C-0-0	 NAV: excessive speed
+Y	06110017	1977-10-20T14:40:00.00	9812	CD-0-0	 NAV: excessive speed, on land
+Y	06110017	1977-10-20T14:41:00.00	9813	CD-0-0	 NAV: excessive speed, on land

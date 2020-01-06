@@ -1,0 +1,39 @@
+# Cruise J4010010 ID KH7003 MGD77 FILE VERSION: 19790101 N_RECS: 1177
+# Examined: Sun Aug  7 10:03:25 2011 by mtchandl
+# Arguments:  -R127/139.8/28.7/35.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J4010010-nav-00: Flagged 1.87 % of records with bad navigation
+Y-I-J4010010-depth-01: RLS m: 0.997848 b: 0 rms: 24.5727 r: 0.999922 sig: 1 dec: 0
+N-E-J4010010-depth-02: Regression slope 0.997848 different from 1. Recommended: [1]
+Y-I-J4010010-faa-01: RLS m: 0.953899 b: -0.229976 rms: 9.87124 r: 0.96352 sig: 1 dec: 0
+N-E-J4010010-faa-02: Regression slope 0.953899 different from 1. Recommended: [1]
+Y-W-J4010010-depth-12: Integer precision
+Y-W-J4010010-faa-12: Integer precision
+# Errata: Data
+Y	J4010010	1970-07-03T14:50:00.00	42	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T11:30:00.00	166	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T11:50:00.00	168	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T12:00:00.00	169	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T12:10:00.00	170	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T12:20:00.00	171	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T12:30:00.00	172	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-04T13:10:00.00	176	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-06T05:30:00.00	266	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-06T05:40:00.00	267	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-12T14:40:00.00	514	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-12T15:50:00.00	521	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-15T09:40:00.00	578	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-16T07:40:00.00	656	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:00:00.00	911	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:10:00.00	912	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:20:00.00	913	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:30:00.00	914	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:40:00.00	915	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T07:50:00.00	916	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T08:00:00.00	917	C-0-0	 NAV: excessive speed
+Y	J4010010	1970-07-19T08:10:00.00	918	C-0-0	 NAV: excessive speed

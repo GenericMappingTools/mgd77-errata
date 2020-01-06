@@ -1,0 +1,19 @@
+# Cruise 13030001 ID LIS-BIS MGD77 FILE VERSION: 19910319 N_RECS: 509
+# Examined: Mon Aug 30 16:01:47 2010 by mtchandl
+# Arguments:  -R286.25/288.45/40.85/41.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+Y-E-13030001-H12-01: Invalid Bathymetry Digitizing Rate: (  0) [  0]
+Y-W-13030001-H13-10: Survey year (1975) outside magnetic reference field Unused time range (9999-9999)
+Y-W-13030001-nav-00: Flagged 0.20 % of records with bad navigation
+Y-I-13030001-faa-01: RLS m: 0.86383 b: 0.346857 rms: 5.83436 r: 0.942643 sig: 1 dec: 0
+N-E-13030001-faa-02: Regression slope 0.86383 different from 1. Recommended: [1]
+N-E-13030001-faa-06: Anomaly differs from gobs-IGF80 (m: 0.1253 b: 0.511888 rms: 57.0493 r: 0.518619 sig: 1 dec: 0). [Recompute]
+N-E-13030001-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-13030001-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+# Errata: Data
+Y	13030001	1975-11-03T11:10:00.00	346	D-0-0	 NAV: on land

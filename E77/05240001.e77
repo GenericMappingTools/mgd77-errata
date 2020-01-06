@@ -1,0 +1,293 @@
+# Cruise 05240001 ID PU9301 MGD77 FILE VERSION: 20080805 N_RECS: 18589
+# Examined: Fri May 21 13:30:32 2010 by mtchandl
+# Arguments:  -R160.6/176.05/-48.55/-40.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05240001-H04-06: Invalid Survey Arrival Day: (11) [10]
+Y-W-05240001-H13-10: Survey year (1993) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05240001-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05240001-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05240001-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05240001-H16-06: Ten Degree Identifier 3416 not marked in header but block was crossed
+Y-W-05240001-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05240001-depth-01: RLS m: 0.999302 b: 0 rms: 19.2916 r: 0.999952 sig: 1 dec: 0
+N-E-05240001-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-05240001-faa-01: RLS m: 0.987738 b: 0.672066 rms: 5.90878 r: 0.987751 sig: 1 dec: 0
+N-E-05240001-faa-02: Regression slope 0.987738 different from 1. Recommended: [1]
+Y-W-05240001-faa-03: Regression offset 0.672066 different from 0.
+Y-E-05240001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00207 b: -9.64972 rms: 12.3415 r: 0.999774 sig: 1 dec: 1). [Recompute]
+Y-W-05240001-depth-12: Integer precision
+Y-W-05240001-mtf1-12: Integer precision
+# Errata: Data
+?	05240001	1993-04-27T18:22:00.00	86	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-27T18:24:00.00	88	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-27T18:25:00.00	89	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-27T18:26:00.00	90	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-27T18:27:00.00	91	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-28T18:52:00.00	1556	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-04-28T18:55:00.00	1559	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-04-28T19:01:00.00	1565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T07:09:00.00	2293	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-29T12:28:00.00	2588	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-29T12:29:00.00	2589	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-29T13:43:00.00	2661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T13:57:00.00	2675	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:01:00.00	2679	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:02:00.00	2680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:03:00.00	2681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:06:00.00	2684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:07:00.00	2685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:08:00.00	2686	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:10:00.00	2688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:11:00.00	2689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:12:00.00	2690	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:13:00.00	2691	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:21:00.00	2699	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:22:00.00	2700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:23:00.00	2701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:24:00.00	2702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:25:00.00	2703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:51:00.00	2724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:55:00.00	2728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:56:00.00	2729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:57:00.00	2730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:58:00.00	2731	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T14:59:00.00	2732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:00:00.00	2733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:02:00.00	2735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:03:00.00	2736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:04:00.00	2737	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:05:00.00	2738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:08:00.00	2741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:09:00.00	2742	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T15:10:00.00	2743	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-04-29T16:45:00.00	2838	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-29T17:10:00.00	2863	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-30T17:05:00.00	4258	0-0-L	 GRAD: depth excessive
+?	05240001	1993-04-30T22:12:00.00	4565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-01T10:10:00.00	5280	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-01T12:15:00.00	5405	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-02T04:13:00.00	6363	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-02T13:56:00.00	6942	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-02T14:54:00.00	7000	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T11:57:00.00	8261	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T11:59:00.00	8263	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T12:00:00.00	8264	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T12:01:00.00	8265	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T12:02:00.00	8266	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T15:00:00.00	8444	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T15:44:00.00	8488	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T16:22:00.00	8526	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T16:23:00.00	8527	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T16:24:00.00	8528	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T16:26:00.00	8530	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-03T16:29:00.00	8533	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-04T20:33:00.00	10193	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-04T20:34:00.00	10194	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-04T21:01:00.00	10215	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-04T21:05:00.00	10219	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-04T21:36:00.00	10238	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-05T10:22:00.00	10833	0-0-V	 GRAD: eot excessive
+?	05240001	1993-05-05T13:21:00.00	11012	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-05T13:22:00.00	11013	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-07T09:05:00.00	13627	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-07T10:23:00.00	13705	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-07T10:24:00.00	13706	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-07T13:04:00.00	13866	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T02:56:00.00	14691	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T02:57:00.00	14692	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:17:00.00	14712	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:18:00.00	14713	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:24:00.00	14719	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:50:00.00	14745	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:51:00.00	14746	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T03:54:00.00	14749	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T04:31:00.00	14786	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T04:36:00.00	14791	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T06:39:00.00	14914	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T07:34:00.00	14969	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T07:35:00.00	14970	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:13:00.00	15007	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:14:00.00	15008	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:19:00.00	15013	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:21:00.00	15015	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:48:00.00	15041	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T08:50:00.00	15043	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T09:02:00.00	15050	0-0-L	 GRAD: depth excessive
+?	05240001	1993-05-08T23:47:00.00	15807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:48:00.00	15808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:49:00.00	15809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:50:00.00	15810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:55:00.00	15815	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:56:00.00	15816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:57:00.00	15817	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-08T23:59:00.00	15819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:00:00.00	15820	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:05:00.00	15825	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:06:00.00	15826	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:07:00.00	15827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:08:00.00	15828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:09:00.00	15829	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:10:00.00	15830	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:13:00.00	15833	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:14:00.00	15834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:15:00.00	15835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:17:00.00	15837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:20:00.00	15840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:21:00.00	15841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:22:00.00	15842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:23:00.00	15843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:24:00.00	15844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:27:00.00	15847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:28:00.00	15848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:29:00.00	15849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:32:00.00	15852	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:33:00.00	15853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:34:00.00	15854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:36:00.00	15856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:37:00.00	15857	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:39:00.00	15859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:40:00.00	15860	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:41:00.00	15861	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:42:00.00	15862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:44:00.00	15864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:47:00.00	15867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:48:00.00	15868	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:49:00.00	15869	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:50:00.00	15870	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:51:00.00	15871	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:52:00.00	15872	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T00:53:00.00	15873	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:54:00.00	15874	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:55:00.00	15875	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:56:00.00	15876	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:57:00.00	15877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T00:59:00.00	15879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:00:00.00	15880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:01:00.00	15881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:13:00.00	15893	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:14:00.00	15894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:15:00.00	15895	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:16:00.00	15896	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:17:00.00	15897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:18:00.00	15898	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:20:00.00	15900	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:22:00.00	15902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:23:00.00	15903	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:24:00.00	15904	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:25:00.00	15905	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:26:00.00	15906	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:27:00.00	15907	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:28:00.00	15908	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T01:29:00.00	15909	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T01:30:00.00	15910	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:31:00.00	15911	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:32:00.00	15912	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:33:00.00	15913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:34:00.00	15914	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:35:00.00	15915	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:36:00.00	15916	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:37:00.00	15917	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T01:38:00.00	15918	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:39:00.00	15919	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:40:00.00	15920	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:41:00.00	15921	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:45:00.00	15925	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:47:00.00	15927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:48:00.00	15928	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:49:00.00	15929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:53:00.00	15933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:55:00.00	15935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:56:00.00	15936	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:58:00.00	15938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T01:59:00.00	15939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:01:00.00	15941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:03:00.00	15943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:04:00.00	15944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:06:00.00	15946	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:07:00.00	15947	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:08:00.00	15948	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:09:00.00	15949	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T02:10:00.00	15950	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:11:00.00	15951	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:12:00.00	15952	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:13:00.00	15953	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T02:14:00.00	15954	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:15:00.00	15955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:16:00.00	15956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:17:00.00	15957	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:18:00.00	15958	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:19:00.00	15959	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:21:00.00	15961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:25:00.00	15965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:26:00.00	15966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:27:00.00	15967	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:30:00.00	15970	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:32:00.00	15972	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:33:00.00	15973	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:34:00.00	15974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:35:00.00	15975	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:37:00.00	15977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:38:00.00	15978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:39:00.00	15979	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:40:00.00	15980	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:43:00.00	15983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:45:00.00	15985	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:46:00.00	15986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:47:00.00	15987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:49:00.00	15989	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:50:00.00	15990	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:51:00.00	15991	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:52:00.00	15992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:53:00.00	15993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:54:00.00	15994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:55:00.00	15995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:56:00.00	15996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:57:00.00	15997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:58:00.00	15998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T02:59:00.00	15999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:01:00.00	16001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:07:00.00	16007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:08:00.00	16008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:09:00.00	16009	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:10:00.00	16010	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:11:00.00	16011	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:12:00.00	16012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:13:00.00	16013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:14:00.00	16014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:15:00.00	16015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:16:00.00	16016	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:18:00.00	16018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:23:00.00	16023	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:30:00.00	16030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:31:00.00	16031	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:32:00.00	16032	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:33:00.00	16033	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:34:00.00	16034	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:35:00.00	16035	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:36:00.00	16036	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:37:00.00	16037	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:38:00.00	16038	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:39:00.00	16039	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:40:00.00	16040	0-Q-0	 VAL: mag invalid
+?	05240001	1993-05-09T03:41:00.00	16041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:42:00.00	16042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:43:00.00	16043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:44:00.00	16044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:46:00.00	16046	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:47:00.00	16047	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:49:00.00	16049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:53:00.00	16053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:54:00.00	16054	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T03:57:00.00	16057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T04:07:00.00	16067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T04:11:00.00	16071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T05:35:00.00	16155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-09T05:59:00.00	16179	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-10T18:16:00.00	18355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-10T21:10:00.00	18529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05240001	1993-05-10T21:28:00.00	18547	0-0-OQ	 GRAD: mtf1, mag excessive

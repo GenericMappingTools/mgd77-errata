@@ -1,0 +1,28 @@
+# Cruise 01010218 ID RC2305 MGD77 FILE VERSION: 19910319 N_RECS: 3805
+# Examined: Mon Jul  6 17:17:54 2009 by mtchandl
+# Arguments:  -R276.1/282.85/-12.05/2.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing and filtering noisy magnetic anomalies. Reported faa agree with satellite gravity until after 1000 km along-track. Recommend recomputing until re-processed by the source institution.
+# Errata: Header
+Y-E-01010218-H04-04: Invalid Survey Arrival Year: (1985) [1982]
+Y-E-01010218-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010218-H13-10: Survey year (1982) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010218-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010218-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010218-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010218-depth-01: RLS m: 1.00027 b: 0 rms: 19.1232 r: 0.999928 sig: 1 dec: 0
+Y-I-01010218-faa-01: RLS m: 0.933802 b: -15.3644 rms: 18.6813 r: 0.97629 sig: 1 dec: 1
+N-E-01010218-faa-02: Regression slope 0.933802 different from 1. Recommended: [1]
+Y-W-01010218-faa-03: Regression offset -15.3644 different from 0.
+N-E-01010218-faa-06: Anomaly differs from gobs-IGF80 (m: 0.406774 b: -20.6114 rms: 41.5877 r: 0.790094 sig: 1 dec: 0). [Recompute]
+Y-E-01010218-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010218-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010218-mag-07: Anomaly differs from mtf1-IGRF (m: 0.954392 b: 12.6035 rms: 23.468 r: 0.981442 sig: 1 dec: 0). [Recompute]
+N-E-01010218-depth-08: Extended offset from grid [9-2110]
+N-E-01010218-depth-08: Extended offset from grid [2111-3805]
+Y-W-01010218-twt-11: More recent bathymetry correction table available
+Y-W-01010218-mtf1-12: Integer precision
+# Errata: Data

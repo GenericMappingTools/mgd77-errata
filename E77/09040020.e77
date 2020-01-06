@@ -1,0 +1,18 @@
+# Cruise 09040020 ID HU931009 MGD77 FILE VERSION: 19791128 N_RECS: 24194
+# Examined: Fri Jul 30 14:44:33 2010 by mtchandl
+# Arguments:  -R202/242.65/13.8/37.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09040020-H04-03: Invalid Survey Departure Day: (05) [06]
+Y-W-09040020-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09040020-depth-01: RLS m: 0.999614 b: 0 rms: 24.6147 r: 0.999549 sig: 1 dec: 0
+Y-W-09040020-twt-11: More recent bathymetry correction table available
+Y-W-09040020-depth-12: Integer precision
+# Errata: Data
+Y	09040020	1971-03-06T15:22:00.00	195	B-0-0	 NAV: non-increasing time
+?	09040020	1971-03-15T07:55:00.00	2267	0-0-K	 GRAD: twt excessive
+Y	09040020	1971-04-25T02:36:00.00	11190	B-0-0	 NAV: non-increasing time

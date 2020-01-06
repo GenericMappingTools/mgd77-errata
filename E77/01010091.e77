@@ -1,0 +1,28 @@
+# Cruise 01010091 ID RC1402 MGD77 FILE VERSION: 19790619 N_RECS: 11527
+# Examined: Mon Jul  6 14:23:40 2009 by mtchandl
+# Arguments:  -R57.4/103.55/-20.05/6.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Possible gravity offset between ~1000-2000km along-track.
+# Errata: Header
+Y-W-01010091-time-01: 1 of 11527 records contain invalid time
+N-E-01010091-H04-06: Invalid Survey Arrival Day: (02) [01]
+Y-W-01010091-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01010091-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01010091-depth-01: RLS m: 1 b: 0 rms: 1.71102 r: 1 sig: 1 dec: 0
+Y-I-01010091-faa-01: RLS m: 0.982621 b: 2.24436 rms: 8.31722 r: 0.994004 sig: 1 dec: 1
+N-E-01010091-faa-02: Regression slope 0.982621 different from 1. Recommended: [1]
+Y-W-01010091-faa-03: Regression offset 2.24436 different from 0.
+Y-E-01010091-mag-07: Anomaly differs from mtf1-IGRF (m: 0.983867 b: -239.682 rms: 245.313 r: 0.969407 sig: 1 dec: 1). [Recompute]
+N-E-01010091-faa-08: Extended offset from grid [2083-4459]
+N-E-01010091-depth-08: Extended offset from grid [6-11527]
+Y-W-01010091-twt-11: More recent bathymetry correction table available
+Y-W-01010091-mtf1-12: Integer precision
+Y-W-01010091-mag-12: Integer precision
+# Errata: Data
+?	01010091	1971-03-03T10:30:00.00	76	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010091	NaN	6291	E-B-0	 NAV: navigation undefined - VAL: tz invalid
+?	01010091	1971-03-26T02:17:00.00	9026	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010091	1971-03-26T04:46:00.00	9075	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,14 @@
+# Cruise 15010040 ID MONS02AR MGD77 FILE VERSION: 19800226 N_RECS: 1867
+# Examined: Mon May 12 17:10:35 2008 by mtchandl
+# Arguments:  -R105.15/116.25/-13.35/-5.8 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15010040-H04-03: Invalid Survey Departure Day: (13) [28]
+Y-E-15010040-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-W-15010040-mtf1-12: Integer multiple of 5 precision
+Y-W-15010040-mag-12: Integer multiple of 5 precision
+# Errata: Data

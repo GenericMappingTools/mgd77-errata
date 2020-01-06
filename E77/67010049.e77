@@ -1,0 +1,40 @@
+# Cruise 67010049 ID 74003611 MGD77 FILE VERSION: 19800427 N_RECS: 9236
+# Examined: Fri Jul 29 16:25:12 2011 by mtchandl
+# Arguments:  -R-14.7/-8.4/39.1/46.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010049-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-67010049-depth-01: RLS m: 0.999651 b: 0 rms: 18.1822 r: 0.999906 sig: 1 dec: 0
+Y-I-67010049-faa-01: RLS m: 1.02183 b: 2.46588 rms: 8.33187 r: 0.98729 sig: 1 dec: 0
+N-E-67010049-faa-02: Regression slope 1.02183 different from 1. Recommended: [1]
+Y-W-67010049-faa-03: Regression offset 2.46588 different from 0.
+Y-E-67010049-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00931 b: -89.364 rms: 89.91 r: 0.994675 sig: 1 dec: 1). [Recompute]
+Y-W-67010049-twt-11: More recent bathymetry correction table available
+Y-W-67010049-mtf1-12: Integer precision
+Y-W-67010049-mag-12: Integer precision
+# Errata: Data
+Y	67010049	1974-11-07T08:28:00.00	2	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-07T08:35:00.00	3	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-07T08:42:00.00	4	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-07T08:48:00.00	5	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-07T08:52:00.00	6	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-07T08:55:00.00	7	C-0-0	 NAV: excessive speed
+Y	67010049	1974-11-09T13:17:00.00	1221	B-0-0	 NAV: non-increasing time
+Y	67010049	1974-11-09T13:17:00.00	1222	B-0-0	 NAV: non-increasing time
+?	67010049	1974-11-10T04:35:00.00	1455	0-0-KL	 GRAD: twt, depth excessive
+?	67010049	1974-11-10T04:59:00.00	1464	0-0-K	 GRAD: twt excessive
+?	67010049	1974-11-10T08:03:00.00	1525	0-0-K	 GRAD: twt excessive
+?	67010049	1974-11-11T01:51:00.00	2001	0-0-KL	 GRAD: twt, depth excessive
+Y	67010049	1974-11-13T07:44:00.00	3181	B-0-0	 NAV: non-increasing time
+Y	67010049	1974-11-13T19:28:00.00	3518	B-0-0	 NAV: non-increasing time
+Y	67010049	1974-11-13T19:28:00.00	3519	B-0-0	 NAV: non-increasing time
+?	67010049	1974-11-14T06:11:00.00	3847	0-0-KL	 GRAD: twt, depth excessive
+Y	67010049	1974-11-14T08:10:00.00	3929	B-0-0	 NAV: non-increasing time
+?	67010049	1974-11-21T17:15:00.00	7403	0-0-KL	 GRAD: twt, depth excessive
+Y	67010049	1974-11-22T19:04:00.00	7989	B-0-0	 NAV: non-increasing time
+Y	67010049	1974-11-24T11:16:00.00	8825	B-0-0	 NAV: non-increasing time
+Y	67010049	1974-11-24T20:30:00.00	9081	B-0-0	 NAV: non-increasing time

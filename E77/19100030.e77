@@ -1,0 +1,33 @@
+# Cruise 19100030 ID DI123L2 MGD77 FILE VERSION: 19931231 N_RECS: 8900
+# Examined: Mon Sep  6 13:30:15 2010 by mtchandl
+# Arguments:  -R0.55/17.1/60.1/72.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100030-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-19100030-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [3]
+Y-W-19100030-H16-06: Ten Degree Identifier 7600 marked in header but was not crossed
+Y-W-19100030-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-19100030-depth-01: RLS m: 0.999466 b: 0 rms: 11.3017 r: 0.99993 sig: 1 dec: 0
+N-E-19100030-depth-02: Regression slope 0.999466 different from 1. Recommended: [1]
+Y-W-19100030-depth-12: Integer precision
+# Errata: Data
+Y	19100030	1981-09-04T22:26:00.00	6806	C-0-0	 NAV: excessive speed
+Y	19100030	1981-09-04T22:28:00.00	6807	C-0-0	 NAV: excessive speed
+Y	19100030	1981-09-04T22:30:00.00	6808	C-0-0	 NAV: excessive speed
+?	19100030	1981-09-05T02:06:00.00	6916	0-0-K	 GRAD: twt excessive
+?	19100030	1981-09-05T02:12:00.00	6919	0-0-K	 GRAD: twt excessive
+Y	19100030	1981-09-06T01:12:00.00	7610	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:12:00.00	7611	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:14:00.00	7613	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:14:00.00	7614	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:16:00.00	7616	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:16:00.00	7617	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:18:00.00	7619	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T01:18:00.00	7620	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T02:10:00.00	7647	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T02:12:00.00	7649	B-0-0	 NAV: non-increasing time
+Y	19100030	1981-09-06T23:52:00.00	8300	B-0-0	 NAV: non-increasing time

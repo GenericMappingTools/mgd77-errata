@@ -1,0 +1,18 @@
+# Cruise 10020050 ID IG4001 MGD77 FILE VERSION: 19890926 N_RECS: 1091
+# Examined: Tue Aug 24 13:50:08 2010 by mtchandl
+# Arguments:  -R265.2/278/24.3/29.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged ~75% of depth records as bad.
+# Errata: Header
+Y-E-10020050-H04-05: Invalid Survey Arrival Month: (11) [10]
+Y-E-10020050-H04-06: Invalid Survey Arrival Day: (02) [22]
+Y-W-10020050-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-10020050-depth-01: RLS m: 5.12688 b: 0 rms: 297.137 r: 0.996776 sig: 1 dec: 0
+N-E-10020050-depth-02: Regression slope 5.12688 different from 1. Recommended: [0.1]
+Y-E-10020050-depth-08: Extended offset from grid [396-1091]
+Y-W-10020050-depth-12: Integer precision
+# Errata: Data
+Y	10020050	1981-10-13T20:25:00.00	1	D-0-0	 NAV: on land

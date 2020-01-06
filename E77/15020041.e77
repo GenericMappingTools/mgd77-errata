@@ -1,0 +1,35 @@
+# Cruise 15020041 ID GECS-IMV MGD77 FILE VERSION: 19800226 N_RECS: 7325
+# Examined: Thu May 15 08:30:01 2008 by mtchandl
+# Arguments:  -R176.35/208.65/-46.75/-20.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020041-H04-03: Invalid Survey Departure Day: (12) [13]
+N-E-15020041-H04-06: Invalid Survey Arrival Day: (08) [07]
+Y-W-15020041-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020041-nav-00: Flagged 0.07 % of records with excessive speed or invalid navigation
+Y-I-15020041-depth-01: RLS m: 1 b: 0 rms: 76.3763 r: 0.998683 sig: 1 dec: 1
+Y-E-15020041-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.971002 b: -76.4955 rms: 89.9907 r: 0.974363 sig: 1 dec: 1). [Recompute]
+Y-W-15020041-twt-11: More recent bathymetry correction table available
+Y-W-15020041-mtf1-12: Integer precision
+Y-W-15020041-mag-12: Integer precision
+# Errata: Data
+?	15020041	1974-03-22T20:10:00.00	2747	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-22T20:55:00.00	2756	0-Q-0	 VAL: mag invalid
+?	15020041	1974-03-22T21:00:00.00	2757	0-Q-0	 VAL: mag invalid
+?	15020041	1974-03-22T21:05:00.00	2758	0-Q-0	 VAL: mag invalid
+?	15020041	1974-03-22T21:10:00.00	2759	0-Q-0	 VAL: mag invalid
+?	15020041	1974-03-22T21:20:00.00	2761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-22T23:50:00.00	2791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-23T01:15:00.00	2808	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-23T01:25:00.00	2810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-23T01:35:00.00	2812	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020041	1974-03-23T01:55:00.00	2816	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15020041	1974-04-06T16:25:00.00	6994	D-0-0	 NAV: on land
+Y	15020041	1974-04-06T16:30:00.00	6995	D-0-0	 NAV: on land
+Y	15020041	1974-04-06T16:35:00.00	6996	D-0-0	 NAV: on land
+Y	15020041	1974-04-06T16:40:00.00	6997	D-0-0	 NAV: on land
+Y	15020041	1974-04-06T16:45:00.00	6998	D-0-0	 NAV: on land

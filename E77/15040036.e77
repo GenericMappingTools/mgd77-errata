@@ -1,0 +1,31 @@
+# Cruise 15040036 ID 7TOW08WT MGD77 FILE VERSION: 19830819 N_RECS: 4512
+# Examined: Wed May 21 11:37:14 2008 by mtchandl
+# Arguments:  -R183.1/235.2/46.2/51.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040036-H04-03: Invalid Survey Departure Day: (26) [27]
+Y-E-15040036-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-E-15040036-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03318 b: 50.5252 rms: 71.8912 r: 0.976508 sig: 1 dec: 1). [Recompute]
+Y-W-15040036-mtf1-12: Integer multiple of 5 precision
+Y-W-15040036-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040036	1970-07-27T11:00:00.00	1	0-Q-0	 VAL: mag invalid
+?	15040036	1970-07-27T11:05:00.00	2	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040036	1970-07-27T11:10:00.00	3	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-07-27T11:15:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-07-27T11:20:00.00	5	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-07-29T07:25:00.00	394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T13:35:00.00	4258	0-Q-0	 VAL: mag invalid
+?	15040036	1970-08-16T13:45:00.00	4260	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T14:00:00.00	4263	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T15:50:00.00	4285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T16:00:00.00	4287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T17:20:00.00	4303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T19:20:00.00	4327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T20:35:00.00	4342	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T20:45:00.00	4344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040036	1970-08-16T21:40:00.00	4355	0-0-OQ	 GRAD: mtf1, mag excessive

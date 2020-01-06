@@ -1,0 +1,30 @@
+# Cruise J4030005 ID UM6402-C MGD77 FILE VERSION: 19790101 N_RECS: 2385
+# Examined: Sun Aug  7 10:21:45 2011 by mtchandl
+# Arguments:  -R139/155.3/-33.85/34.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomalies could be outdated, no total field data for recalculation.
+# Errata: Header
+N-E-J4030005-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-W-J4030005-nav-00: Flagged 0.25 % of records with bad navigation
+Y-I-J4030005-depth-01: RLS m: 1.00042 b: 0 rms: 24.7628 r: 0.999871 sig: 1 dec: 0
+Y-W-J4030005-depth-12: Integer precision
+Y-W-J4030005-mag-12: Integer precision
+# Errata: Data
+Y	J4030005	1965-02-23T17:40:00.00	533	C-0-0	 NAV: excessive speed
+Y	J4030005	1965-02-23T17:50:00.00	534	C-0-0	 NAV: excessive speed
+Y	J4030005	1965-02-23T18:00:00.00	535	C-0-0	 NAV: excessive speed
+Y	J4030005	1965-02-23T18:10:00.00	536	C-0-0	 NAV: excessive speed
+?	J4030005	1965-02-27T02:40:00.00	1019	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-02T07:20:00.00	1479	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-02T07:30:00.00	1480	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-05T05:10:00.00	1898	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-05T07:00:00.00	1909	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-05T07:10:00.00	1910	0-Q-0	 VAL: mag invalid
+?	J4030005	1965-03-07T23:50:00.00	2291	0-0-Q	 GRAD: mag excessive
+Y	J4030005	1965-03-08T01:10:00.00	2299	D-0-0	 NAV: on land
+Y	J4030005	1965-03-08T01:20:00.00	2300	D-0-0	 NAV: on land
+?	J4030005	1965-03-08T01:30:00.00	2301	0-0-Q	 GRAD: mag excessive
+?	J4030005	1965-03-08T02:00:00.00	2304	0-0-Q	 GRAD: mag excessive

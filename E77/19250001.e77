@@ -1,0 +1,17 @@
+# Cruise 19250001 ID 19910018 MGD77 FILE VERSION: 19921231 N_RECS: 209
+# Examined: Mon Sep 20 13:40:01 2010 by mtchandl
+# Arguments:  -R57.7/58.15/23.95/24.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry quality appears to vary relative to water depth.
+# Errata: Header
+Y-E-19250001-H11-03: Invalid Bottommost Latitude: (+24) [+23]
+Y-E-19250001-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-W-19250001-H13-10: Survey year (1991) outside magnetic reference field Unused time range (9999-9999)
+Y-E-19250001-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-I-19250001-depth-01: RLS m: 0.963667 b: 0 rms: 45.628 r: 0.991622 sig: 1 dec: 0
+N-E-19250001-depth-02: Regression slope 0.963667 different from 1. Recommended: [1]
+Y-W-19250001-depth-12: Integer precision
+# Errata: Data

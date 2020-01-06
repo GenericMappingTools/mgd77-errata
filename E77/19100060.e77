@@ -1,0 +1,43 @@
+# Cruise 19100060 ID D172_878 MGD77 FILE VERSION: 19991208 N_RECS: 99141
+# Examined: Tue Sep 14 15:58:33 2010 by mtchandl
+# Arguments:  -R286.15/325.5/-67.85/-22.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19100060-H04-06: Invalid Survey Arrival Day: (30) [29]
+Y-E-19100060-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19100060-H13-09: Unknown IGRF specified (DGRF)
+Y-W-19100060-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-19100060-depth-01: RLS m: 1.00028 b: 0 rms: 12.1462 r: 0.999967 sig: 1 dec: 0
+N-E-19100060-depth-02: Regression slope 1.00028 different from 1. Recommended: [1]
+# Errata: Data
+Y	19100060	1987-12-22T18:37:00.00	2995	C-0-0	 NAV: excessive speed
+Y	19100060	1987-12-22T18:38:00.00	2996	C-0-0	 NAV: excessive speed
+Y	19100060	1988-03-05T22:56:00.00	72499	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T22:57:00.00	72500	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T22:58:00.00	72501	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T22:59:00.00	72502	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:00:00.00	72503	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:01:00.00	72504	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:02:00.00	72505	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:03:00.00	72506	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:04:00.00	72507	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:05:00.00	72508	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:06:00.00	72509	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:07:00.00	72510	D-0-0	 NAV: on land
+Y	19100060	1988-03-05T23:08:00.00	72511	D-0-0	 NAV: on land
+?	19100060	1988-03-05T23:09:00.00	72512	D-0-0	 NAV: on land
+?	19100060	1988-03-10T09:55:00.00	78045	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T09:56:00.00	78046	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T09:57:00.00	78047	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T09:58:00.00	78048	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T09:59:00.00	78049	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T10:00:00.00	78050	D-0-0	 NAV: on land
+?	19100060	1988-03-10T14:37:00.00	78064	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T14:38:00.00	78065	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T14:39:00.00	78066	D-0-0	 NAV: on land
+Y	19100060	1988-03-10T14:40:00.00	78067	D-0-0	 NAV: on land
+?	19100060	1988-03-10T14:41:00.00	78068	D-0-0	 NAV: on land

@@ -1,0 +1,33 @@
+# Cruise 09780009 ID WI343512 MGD77 FILE VERSION: 19791128 N_RECS: 10211
+# Examined: Mon Aug 16 16:04:43 2010 by mtchandl
+# Arguments:  -R294.8/296.55/31.1/32.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09780009-H04-03: Invalid Survey Departure Day: (06) [13]
+Y-E-09780009-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780009-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09780009-depth-01: RLS m: 1 b: 0 rms: 7.55467 r: 0.999429 sig: 1 dec: 0
+Y-E-09780009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.956227 b: -466.243 rms: 471.12 r: 0.932161 sig: 1 dec: 1). [Recompute]
+Y-W-09780009-mag-09: only found negative values
+Y-W-09780009-depth-12: Integer precision
+Y-W-09780009-mag-12: Integer precision
+# Errata: Data
+?	09780009	1974-10-13T19:13:00.00	311	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-13T19:19:00.00	317	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-13T19:23:00.00	321	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-13T20:03:00.00	361	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-13T20:34:00.00	392	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-13T20:55:00.00	413	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-18T04:14:00.00	4614	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-18T04:19:00.00	4619	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-19T00:59:00.00	5858	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-19T06:50:00.00	6209	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-19T12:15:00.00	6534	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-19T15:37:00.00	6736	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-20T01:46:00.00	7344	0-0-K	 GRAD: twt excessive
+?	09780009	1974-10-20T07:17:00.00	7675	0-0-KL	 GRAD: twt, depth excessive
+?	09780009	1974-10-20T07:19:00.00	7677	0-0-K	 GRAD: twt excessive

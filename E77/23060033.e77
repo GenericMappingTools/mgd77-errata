@@ -1,0 +1,42 @@
+# Cruise 23060033 ID ODP129JR MGD77 FILE VERSION: 19910418 N_RECS: 9347
+# Examined: Tue Oct 19 15:24:31 2010 by mtchandl
+# Arguments:  -R144.55/156.5/11.95/22 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-23060033-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-23060033-depth-01: RLS m: 1 b: 0 rms: 8.59798 r: 0.999954 sig: 1 dec: 0
+Y-E-23060033-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995854 b: 6.03291 rms: 11.6536 r: 0.99959 sig: 1 dec: 1). [Recompute]
+Y-W-23060033-depth-12: Integer precision
+Y-W-23060033-mtf1-12: Integer precision
+# Errata: Data
+Y	23060033	1989-11-22T15:40:00.00	130	D-0-0	 NAV: on land
+Y	23060033	1989-11-22T15:45:00.00	131	D-0-0	 NAV: on land
+Y	23060033	1989-11-22T15:50:00.00	132	D-0-0	 NAV: on land
+Y	23060033	1989-11-22T15:55:00.00	133	D-0-0	 NAV: on land
+?	23060033	1989-11-24T22:12:00.00	1293	0-Q-0	 VAL: mag invalid
+?	23060033	1989-11-24T22:13:00.00	1294	0-Q-0	 VAL: mag invalid
+?	23060033	1989-11-24T22:15:00.00	1295	0-Q-0	 VAL: mag invalid
+?	23060033	1989-11-24T22:17:00.00	1296	0-Q-0	 VAL: mag invalid
+?	23060033	1989-11-24T22:23:00.00	1300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-11-24T22:26:00.00	1302	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-11-24T22:31:00.00	1305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-11-24T22:36:00.00	1308	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	23060033	1989-12-05T11:16:00.00	2263	C-0-0	 NAV: excessive speed
+Y	23060033	1989-12-05T11:18:00.00	2264	C-0-0	 NAV: excessive speed
+Y	23060033	1989-12-05T11:20:00.00	2265	C-0-0	 NAV: excessive speed
+?	23060033	1989-12-23T18:24:00.00	4238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T18:39:00.00	4250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T19:07:00.00	4274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T20:23:00.00	4322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T20:26:00.00	4324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T20:31:00.00	4327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T20:36:00.00	4330	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1989-12-23T20:41:00.00	4333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1990-01-05T04:43:00.00	6235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1990-01-05T09:48:00.00	6444	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1990-01-05T09:58:00.00	6450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060033	1990-01-05T10:03:00.00	6453	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,237 @@
+# Cruise 67010134 ID 84001211 MGD77 FILE VERSION: 19860605 N_RECS: 42175
+# Examined: Sat Jul 30 19:41:46 2011 by mtchandl
+# Arguments:  -R55.25/94.5/-28.4/6.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa as gobs-IGF80+eot. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010134-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-67010134-depth-01: RLS m: 1.00094 b: 0 rms: 64.3904 r: 0.99696 sig: 1 dec: 0
+N-E-67010134-depth-02: Regression slope 1.00094 different from 1. Recommended: [1]
+Y-I-67010134-faa-01: RLS m: 1.05594 b: -16.6332 rms: 16.9578 r: 0.990523 sig: 1 dec: 0
+N-E-67010134-faa-02: Regression slope 1.05594 different from 1. Recommended: [1]
+Y-W-67010134-faa-03: Regression offset -16.6332 different from 0.
+N-E-67010134-faa-06: Anomaly differs from gobs-IGF80 (m: 0.53462 b: -0.164275 rms: 48.1985 r: 0.809741 sig: 1 dec: 1). [Recompute]
+Y-E-67010134-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.022 b: -14.1224 rms: 14.0699 r: 0.999522 sig: 1 dec: 0). [Recompute]
+Y-W-67010134-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-67010134-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0593 b: 63.4041 rms: 70.7765 r: 0.962113 sig: 1 dec: 0). [Recompute]
+N-E-67010134-faa-08: Extended offset from grid [32868-42175]
+Y-W-67010134-depth-12: Integer precision
+Y-W-67010134-mtf1-12: Integer precision
+# Errata: Data
+?	67010134	1984-04-03T12:04:00.00	33	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-03T12:17:00.00	46	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:18:00.00	47	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:19:00.00	48	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:20:00.00	49	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:32:00.00	61	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:33:00.00	62	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:34:00.00	63	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:39:00.00	68	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:41:00.00	70	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:42:00.00	71	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:44:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:50:00.00	78	0-0-O	 GRAD: mtf1 excessive
+?	67010134	1984-04-03T12:51:00.00	79	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:58:00.00	86	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T12:59:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T13:00:00.00	88	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T13:01:00.00	89	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T13:02:00.00	90	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-03T14:46:00.00	190	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-03T17:32:00.00	349	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-03T18:51:00.00	426	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-03T18:53:00.00	428	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-03T19:10:00.00	445	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-04T09:15:00.00	1266	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-04T13:58:00.00	1539	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-05T14:03:00.00	2943	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-05T14:04:00.00	2944	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-05T23:29:00.00	3492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-05T23:30:00.00	3493	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T03:25:00.00	3716	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T03:26:00.00	3717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T06:44:00.00	3909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T07:07:00.00	3932	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T07:08:00.00	3933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-06T11:51:00.00	4206	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-07T14:06:00.00	5704	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-07T16:51:00.00	5861	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-07T17:03:00.00	5873	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-07T20:51:00.00	6092	0-0-W	 GRAD: faa excessive
+?	67010134	1984-04-07T21:20:00.00	6119	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-07T21:21:00.00	6120	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-08T01:21:00.00	6344	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-08T05:26:00.00	6581	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-08T05:40:00.00	6595	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-08T09:16:00.00	6804	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-08T09:29:00.00	6817	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-08T11:51:00.00	6955	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-08T13:53:00.00	7076	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-08T14:27:00.00	7108	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-08T14:28:00.00	7109	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-08T18:20:00.00	7337	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T00:09:00.00	7678	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-09T00:27:00.00	7696	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T00:28:00.00	7697	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-09T05:33:00.00	7998	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T05:44:00.00	8009	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T05:45:00.00	8010	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-09T11:20:00.00	8327	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T15:06:00.00	8543	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T19:24:00.00	8792	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-09T22:48:00.00	8990	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-09T23:56:00.00	9055	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-10T04:14:00.00	9304	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-10T07:33:00.00	9499	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-10T07:48:00.00	9502	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-10T11:37:00.00	9722	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-10T11:52:00.00	9737	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-10T11:53:00.00	9738	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-10T15:49:00.00	9964	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-10T20:02:00.00	10207	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-11T00:00:00.00	10435	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-11T04:51:00.00	10713	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-11T05:01:00.00	10723	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-11T09:10:00.00	10966	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-11T12:57:00.00	11184	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-11T13:12:00.00	11199	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-11T13:13:00.00	11200	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-11T15:12:00.00	11319	0-0-W	 GRAD: faa excessive
+?	67010134	1984-04-11T15:14:00.00	11321	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-11T21:21:00.00	11675	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T02:21:00.00	11962	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T02:50:00.00	11991	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-12T05:24:00.00	12141	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T05:27:00.00	12144	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T09:33:00.00	12323	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T09:51:00.00	12339	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T09:52:00.00	12340	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-12T12:14:00.00	12478	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T12:42:00.00	12503	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-12T12:43:00.00	12504	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-12T20:02:00.00	12928	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-12T20:06:00.00	12932	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-12T20:07:00.00	12933	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-12T20:24:00.00	12950	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-12T20:25:00.00	12951	0-0-W	 GRAD: faa excessive
+?	67010134	1984-04-13T00:37:00.00	13191	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T01:26:00.00	13240	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-13T01:27:00.00	13241	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-13T04:03:00.00	13393	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T05:19:00.00	13465	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-13T07:19:00.00	13579	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T07:20:00.00	13580	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-13T09:28:00.00	13704	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-13T09:45:00.00	13721	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-13T09:46:00.00	13722	0-0-W	 GRAD: faa excessive
+?	67010134	1984-04-13T10:56:00.00	13792	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-13T10:57:00.00	13793	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-13T11:11:00.00	13807	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-13T13:44:00.00	13955	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-13T15:31:00.00	14057	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T19:12:00.00	14271	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T19:27:00.00	14286	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-13T20:20:00.00	14335	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-13T20:30:00.00	14345	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-14T00:06:00.00	14552	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T01:05:00.00	14610	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T01:18:00.00	14620	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-14T01:19:00.00	14621	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-14T02:18:00.00	14680	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T10:10:00.00	15134	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T12:34:00.00	15272	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T12:35:00.00	15273	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-14T13:07:00.00	15301	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-14T18:02:00.00	15584	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T18:29:00.00	15607	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T20:51:00.00	15745	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-14T20:53:00.00	15747	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-14T20:54:00.00	15748	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-14T22:36:00.00	15846	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-14T23:01:00.00	15871	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-14T23:02:00.00	15872	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-15T00:18:00.00	15948	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-15T00:19:00.00	15949	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-15T00:20:00.00	15950	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-15T01:02:00.00	15989	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-15T02:18:00.00	16065	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-15T02:19:00.00	16066	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-15T02:55:00.00	16102	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-15T02:56:00.00	16103	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-15T18:45:00.00	17026	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-15T18:46:00.00	17027	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-16T04:57:00.00	17615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-16T04:58:00.00	17616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-16T11:48:00.00	17899	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-16T11:49:00.00	17900	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-16T14:38:00.00	18064	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-16T19:58:00.00	18369	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-16T21:26:00.00	18453	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-16T21:27:00.00	18454	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-16T22:49:00.00	18532	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-16T22:50:00.00	18533	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-17T00:30:00.00	18630	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T00:34:00.00	18634	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T00:55:00.00	18655	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-17T01:30:00.00	18686	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T01:46:00.00	18702	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-17T01:47:00.00	18703	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-17T02:39:00.00	18751	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T02:40:00.00	18752	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-17T06:24:00.00	18970	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T08:44:00.00	19102	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-17T13:30:00.00	19377	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-18T14:03:00.00	20786	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-18T14:04:00.00	20787	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-18T14:05:00.00	20788	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-18T17:49:00.00	21008	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-18T17:50:00.00	21009	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-18T21:41:00.00	21232	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-18T21:55:00.00	21246	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-19T02:47:00.00	21531	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-19T02:48:00.00	21532	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-19T06:32:00.00	21748	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-19T06:45:00.00	21761	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-19T08:36:00.00	21870	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-19T11:44:00.00	22051	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-19T11:59:00.00	22066	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-19T12:00:00.00	22067	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-19T15:39:00.00	22276	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-19T21:00:00.00	22588	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-19T21:01:00.00	22589	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-20T00:40:00.00	22800	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-20T00:51:00.00	22810	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T00:52:00.00	22811	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-20T06:00:00.00	23107	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T06:01:00.00	23108	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-20T07:48:00.00	23211	0-0-L	 GRAD: depth excessive
+?	67010134	1984-04-20T09:50:00.00	23328	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T09:51:00.00	23329	0-0-U	 GRAD: gobs excessive
+?	67010134	1984-04-20T15:02:00.00	23632	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T15:03:00.00	23633	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-20T18:44:00.00	23844	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T18:45:00.00	23845	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-20T23:35:00.00	24127	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-20T23:48:00.00	24140	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-20T23:49:00.00	24141	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-21T03:28:00.00	24356	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-21T03:29:00.00	24357	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-21T08:15:00.00	24630	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-21T08:16:00.00	24631	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-21T10:35:00.00	24766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010134	1984-04-21T12:02:00.00	24835	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-21T16:39:00.00	25100	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-21T16:52:00.00	25113	0-0-VW	 GRAD: eot, faa excessive
+?	67010134	1984-04-21T16:53:00.00	25114	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-21T20:34:00.00	25325	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-21T20:35:00.00	25326	0-0-UW	 GRAD: gobs, faa excessive
+?	67010134	1984-04-22T01:13:00.00	25595	0-0-UV	 GRAD: gobs, eot excessive
+?	67010134	1984-04-22T03:31:00.00	25725	0-0-V	 GRAD: eot excessive
+?	67010134	1984-04-22T04:50:00.00	25802	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010134	1984-04-23T04:26:00.00	27182	0-0-VW	 GRAD: eot, faa excessive
+Y	67010134	1984-04-23T04:28:00.00	27184	C-0-0	 NAV: excessive speed
+?	67010134	1984-04-27T06:10:00.00	32866	0-0-V	 GRAD: eot excessive
+?	67010134	1984-05-02T06:31:00.00	39846	0-0-V	 GRAD: eot excessive

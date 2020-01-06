@@ -1,0 +1,79 @@
+# Cruise J4010023 ID KH7504 MGD77 FILE VERSION: 19880219 N_RECS: 9578
+# Examined: Mon Nov  7 17:32:37 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J4010023-nav-00: Flagged 0.24 % of records with bad navigation
+Y-I-J4010023-depth-01: RLS m: 0.996515 b: 0 rms: 50.9357 r: 0.999721 sig: 1 dec: 0
+N-E-J4010023-depth-02: Regression slope 0.996515 different from 1. Recommended: [1]
+Y-I-J4010023-faa-01: RLS m: 1.00932 b: 5.74435 rms: 7.7368 r: 0.996928 sig: 1 dec: 0
+N-E-J4010023-faa-02: Regression slope 1.00932 different from 1. Recommended: [1]
+Y-W-J4010023-faa-03: Regression offset 5.74435 different from 0.
+Y-W-J4010023-depth-12: Integer precision
+Y-W-J4010023-faa-12: Integer precision
+# Errata: Data
+?	J4010023	1975-06-22T22:15:00.00	339	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-22T22:20:00.00	340	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T10:10:00.00	473	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T10:15:00.00	474	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T10:40:00.00	479	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T10:45:00.00	480	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T13:00:00.00	507	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T13:05:00.00	508	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-23T13:10:00.00	509	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T14:10:00.00	521	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-23T14:15:00.00	522	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T15:35:00.00	538	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-23T15:40:00.00	539	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-23T20:40:00.00	599	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-23T20:45:00.00	600	0-0-W	 GRAD: faa excessive
+Y	J4010023	1975-06-24T06:55:00.00	722	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-06-24T07:00:00.00	723	C-0-0	 NAV: excessive speed
+?	J4010023	1975-06-25T22:35:00.00	921	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-25T22:40:00.00	922	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-26T08:00:00.00	1034	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-26T08:05:00.00	1035	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-26T11:15:00.00	1073	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-26T11:20:00.00	1074	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-26T11:25:00.00	1075	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T03:20:00.00	1212	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T13:20:00.00	1332	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T13:25:00.00	1333	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T14:25:00.00	1345	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T14:30:00.00	1346	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T14:55:00.00	1351	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-27T15:00:00.00	1352	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T15:05:00.00	1353	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T15:45:00.00	1361	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-27T15:50:00.00	1362	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-06-27T21:20:00.00	1428	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010023	1975-06-27T21:25:00.00	1429	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-07-09T21:45:00.00	2871	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-07-09T21:50:00.00	2872	0-0-W	 GRAD: faa excessive
+?	J4010023	1975-07-12T02:40:00.00	3307	0-0-W	 GRAD: faa excessive
+Y	J4010023	1975-07-31T06:10:00.00	5390	D-0-0	 NAV: on land
+Y	J4010023	1975-07-31T08:50:00.00	5422	D-0-0	 NAV: on land
+Y	J4010023	1975-07-31T08:55:00.00	5423	D-0-0	 NAV: on land
+?	J4010023	1975-07-31T11:20:00.00	5452	D-0-0	 NAV: on land
+Y	J4010023	1975-08-12T06:35:00.00	8169	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T06:40:00.00	8170	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T06:45:00.00	8171	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T06:50:00.00	8172	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T06:55:00.00	8173	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:00:00.00	8174	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:05:00.00	8175	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:10:00.00	8176	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:15:00.00	8177	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:20:00.00	8178	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:25:00.00	8179	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:30:00.00	8180	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:35:00.00	8181	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:40:00.00	8182	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:45:00.00	8183	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:50:00.00	8184	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T07:55:00.00	8185	C-0-0	 NAV: excessive speed
+Y	J4010023	1975-08-12T08:00:00.00	8186	C-0-0	 NAV: excessive speed

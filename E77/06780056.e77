@@ -1,0 +1,41 @@
+# Cruise 06780056 ID FARN1289 MGD77 FILE VERSION: 19941231 N_RECS: 15159
+# Examined: Fri Jul 16 16:39:05 2010 by mtchandl
+# Arguments:  -R192.7/201.2/22.25/27.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06780056-depth-01: RLS m: 1.00015 b: 0 rms: 26.801 r: 0.9994 sig: 1 dec: 0
+Y-I-06780056-faa-01: RLS m: 0.991313 b: 1.94775 rms: 3.59766 r: 0.997369 sig: 1 dec: 0
+N-E-06780056-faa-02: Regression slope 0.991313 different from 1. Recommended: [1]
+Y-W-06780056-faa-03: Regression offset 1.94775 different from 0.
+Y-E-06780056-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01569 b: -7.35545 rms: 26.4273 r: 0.996443 sig: 1 dec: 1). [Recompute]
+Y-W-06780056-depth-12: Integer precision
+Y-W-06780056-mtf1-12: Integer precision
+Y-W-06780056-mag-12: Integer precision
+Y-W-06780056-faa-12: Integer precision
+# Errata: Data
+?	06780056	1989-11-05T14:58:00.00	449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:00:00.00	450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:06:00.00	453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:08:00.00	454	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:12:00.00	456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:14:00.00	457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:16:00.00	458	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T15:18:00.00	459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:26:00.00	643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:28:00.00	644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:30:00.00	645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:32:00.00	646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:48:00.00	654	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-05T21:50:00.00	655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-06T20:12:00.00	1326	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-06T20:14:00.00	1327	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-06T20:16:00.00	1328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780056	1989-11-11T23:46:00.00	5030	0-0-W	 GRAD: faa excessive
+?	06780056	1989-11-13T02:02:00.00	5800	0-0-W	 GRAD: faa excessive
+?	06780056	1989-11-13T13:38:00.00	6145	0-0-W	 GRAD: faa excessive
+?	06780056	1989-11-14T03:02:00.00	6519	0-0-W	 GRAD: faa excessive
+?	06780056	1989-11-14T16:24:00.00	6907	0-0-W	 GRAD: faa excessive

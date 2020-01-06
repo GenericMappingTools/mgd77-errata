@@ -1,0 +1,62 @@
+# Cruise 03030015 ID TAG70 MGD77 FILE VERSION: 19800213 N_RECS: 11796
+# Examined: Fri Apr 16 13:29:22 2010 by mtchandl
+# Arguments:  -R280/342.75/14.7/35.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa anomalies that should be positive appear to be negative and should be disregarded until fixed.
+# Errata: Header
+Y-W-03030015-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-03030015-depth-01: RLS m: 1 b: 0 rms: 45.8299 r: 0.999412 sig: 1 dec: 0
+Y-I-03030015-faa-01: RLS m: 0.852757 b: -7.4797 rms: 7.49193 r: 0.905914 sig: 1 dec: 0
+N-E-03030015-faa-02: Regression slope 0.852757 different from 1. Recommended: [1]
+Y-W-03030015-faa-03: Regression offset -7.4797 different from 0.
+Y-E-03030015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.809562 b: -142.875 rms: 190.113 r: 0.545801 sig: 1 dec: 0). [Recompute]
+Y-W-03030015-faa-09: only found negative values
+Y-E-03030001-faa-10: Invalid data records: [1-11796]
+Y-W-03030015-mtf1-12: Integer precision
+Y-W-03030015-mag-12: Integer precision
+# Errata: Data
+Y	03030015	1970-07-09T06:30:00.00	137	C-0-0	 NAV: excessive speed
+Y	03030015	1970-07-10T09:18:00.00	523	C-0-0	 NAV: excessive speed
+?	03030015	1970-07-10T12:59:30.00	607	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-12T08:05:00.00	1669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03030015	1970-07-12T08:10:00.00	1673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03030015	1970-07-12T08:15:00.00	1676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03030015	1970-07-12T17:35:30.00	1875	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-12T17:37:00.00	1876	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-14T11:24:30.00	2814	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-14T16:10:00.00	2924	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-14T22:10:00.00	3079	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-14T22:37:00.00	3092	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-15T17:26:30.00	3550	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-16T02:43:30.00	3788	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-16T22:50:30.00	4380	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-17T02:46:00.00	4505	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-17T02:56:30.00	4513	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-17T05:59:30.00	4624	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T06:16:00.00	4635	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T09:40:00.00	4769	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T10:45:00.00	4808	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T12:53:00.00	4869	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T12:57:30.00	4872	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T13:43:00.00	4910	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T14:59:00.00	4967	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T15:26:00.00	4986	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-17T17:50:00.00	5092	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T02:20:00.00	5443	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-18T03:36:00.00	5496	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T04:24:30.00	5530	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-07-18T05:35:00.00	5579	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T06:31:00.00	5628	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T08:12:00.00	5695	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T11:22:30.00	5837	0-0-K	 GRAD: twt excessive
+?	03030015	1970-07-18T13:54:30.00	5920	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-08-14T12:00:00.00	10248	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-08-15T00:49:30.00	10515	0-0-K	 GRAD: twt excessive
+?	03030015	1970-08-16T06:57:30.00	11167	0-0-K	 GRAD: twt excessive
+?	03030015	1970-08-16T11:18:00.00	11279	0-0-K	 GRAD: twt excessive
+?	03030015	1970-08-16T18:38:00.00	11444	0-0-K	 GRAD: twt excessive
+?	03030015	1970-08-16T20:33:00.00	11484	0-0-KL	 GRAD: twt, depth excessive
+?	03030015	1970-08-16T20:59:30.00	11492	0-0-K	 GRAD: twt excessive

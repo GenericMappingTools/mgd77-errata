@@ -1,0 +1,59 @@
+# Cruise 07010009 ID YAQ66DEC MGD77 FILE VERSION: 19790101 N_RECS: 2222
+# Examined: Fri Jul 16 17:29:58 2010 by mtchandl
+# Arguments:  -R232.35/232.85/41.15/41.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-07010009-depth-01: RLS m: 0.99756 b: 0 rms: 105.012 r: 0.971994 sig: 1 dec: 0
+Y-E-07010009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999386 b: -68.3666 rms: 69.0254 r: 0.999229 sig: 1 dec: 1). [Recompute]
+Y-W-07010009-twt-11: More recent bathymetry correction table available
+Y-W-07010009-mtf1-12: Integer multiple of 5 precision
+Y-W-07010009-mag-12: Integer precision
+# Errata: Data
+?	07010009	1966-12-07T01:16:00.00	201	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T09:20:00.00	351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T11:20:00.00	400	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T14:40:00.00	452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T14:44:00.00	453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T16:28:00.00	499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-07T16:29:00.00	500	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-07T20:24:00.00	561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T01:44:00.00	664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T02:20:00.00	677	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T03:56:00.00	714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T07:16:00.00	782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T08:42:00.00	816	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T11:59:00.00	896	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T13:20:00.00	933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T13:32:00.00	939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-08T19:52:00.00	1128	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T19:58:00.00	1130	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T19:59:00.00	1131	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T20:06:00.00	1134	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-08T21:47:00.00	1181	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T23:47:00.00	1240	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-08T23:48:00.00	1241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T03:32:00.00	1343	0-0-O	 GRAD: mtf1 excessive
+?	07010009	1966-12-09T03:36:00.00	1344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T03:44:00.00	1349	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-09T03:48:00.00	1351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T03:53:00.00	1354	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-09T05:32:00.00	1398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T09:32:00.00	1510	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-09T10:45:00.00	1533	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-09T11:48:00.00	1561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T15:46:00.00	1663	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-09T17:15:00.00	1700	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-09T17:32:00.00	1709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-09T18:30:00.00	1743	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-09T21:15:00.00	1814	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-09T22:31:00.00	1848	0-0-KL	 GRAD: twt, depth excessive
+?	07010009	1966-12-10T01:08:00.00	1923	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-10T01:16:00.00	1926	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-10T02:02:00.00	1944	0-0-K	 GRAD: twt excessive
+?	07010009	1966-12-10T05:32:00.00	2039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-10T13:20:00.00	2180	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010009	1966-12-10T13:24:00.00	2181	0-0-OQ	 GRAD: mtf1, mag excessive

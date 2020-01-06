@@ -1,0 +1,104 @@
+# Cruise 09030031 ID SI933001 MGD77 FILE VERSION: 19800219 N_RECS: 9645
+# Examined: Fri Jul 30 14:32:58 2010 by mtchandl
+# Arguments:  -R148.6/236.5/37.8/60.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09030031-H04-03: Invalid Survey Departure Day: (28) [30]
+N-E-09030031-H04-06: Invalid Survey Arrival Day: (25) [23]
+N-E-09030031-H11-05: Invalid Leftmost Longitude: (+147) [+148]
+Y-E-09030031-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09030031-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+N-E-09030031-H16-01: Invalid Number of Ten Degree Identifiers: (16) [15]
+Y-W-09030031-H16-06: Ten Degree Identifier 1314 marked in header but was not crossed
+Y-W-09030031-nav-00: Flagged 0.55 % of records with bad navigation
+Y-I-09030031-depth-01: RLS m: 1 b: 0 rms: 18.8643 r: 0.999833 sig: 1 dec: 0
+Y-E-09030031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.989225 b: -166.36 rms: 170.429 r: 0.964277 sig: 1 dec: 0). [Recompute]
+N-E-09030031-twt-13: Encountered possible PDR wrap errors (9.3) [10.0]
+Y-W-09030031-twt-11: More recent bathymetry correction table available
+Y-W-09030031-depth-12: Integer precision
+Y-W-09030031-mtf1-12: Integer precision
+Y-W-09030031-mag-12: Integer precision
+# Errata: Data
+?	09030031	1972-08-02T08:05:00.00	770	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T03:05:00.00	894	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T04:25:00.00	911	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T04:35:00.00	913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T04:40:00.00	914	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T05:25:00.00	924	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T05:30:00.00	925	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T06:20:00.00	935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T06:35:00.00	938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T08:20:00.00	961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-03T16:50:00.00	1070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-04T05:10:00.00	1151	0-Q-0	 VAL: mag invalid
+?	09030031	1972-08-04T06:40:00.00	1169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-07T08:20:00.00	1771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-08-11T01:35:00.00	2425	0-0-K	 GRAD: twt excessive
+Y	09030031	1972-08-16T07:05:00.00	2542	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T12:55:00.00	7288	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T16:25:00.00	7331	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T18:05:00.00	7351	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T18:20:00.00	7354	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T18:30:00.00	7356	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T18:40:00.00	7358	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T18:50:00.00	7360	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:00:00.00	7362	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:10:00.00	7364	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:15:00.00	7365	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:25:00.00	7367	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:35:00.00	7369	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:45:00.00	7371	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T19:50:00.00	7372	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T20:00:00.00	7374	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-13T20:08:00.00	7375	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:30:00.00	7378	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:35:00.00	7379	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:40:00.00	7380	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:45:00.00	7381	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:50:00.00	7382	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T04:55:00.00	7383	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:00:00.00	7384	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:05:00.00	7385	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:10:00.00	7386	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:15:00.00	7387	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:20:00.00	7388	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:30:00.00	7390	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:40:00.00	7392	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T05:50:00.00	7394	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:00:00.00	7396	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:10:00.00	7398	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:14:00.00	7399	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:20:00.00	7401	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:30:00.00	7403	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:40:00.00	7405	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T06:50:00.00	7407	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:00:00.00	7409	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:10:00.00	7411	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:15:00.00	7412	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:25:00.00	7414	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:35:00.00	7416	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:45:00.00	7418	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T07:55:00.00	7420	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T08:05:00.00	7422	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T08:30:00.00	7427	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T18:35:00.00	7459	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T18:45:00.00	7461	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T19:00:00.00	7464	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-14T19:35:00.00	7472	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-15T05:32:00.00	7545	C-0-0	 NAV: excessive speed
+Y	09030031	1972-09-15T05:35:00.00	7546	C-0-0	 NAV: excessive speed
+?	09030031	1972-09-16T19:20:00.00	7851	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-09-17T12:25:00.00	8009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-09-17T12:30:00.00	8010	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09030031	1972-09-17T12:35:00.00	8011	0-Q-0	 VAL: mag invalid
+?	09030031	1972-09-17T12:40:00.00	8012	0-Q-0	 VAL: mag invalid
+?	09030031	1972-09-17T12:45:00.00	8013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-09-18T00:25:00.00	8158	0-0-Q	 GRAD: mag excessive
+?	09030031	1972-09-19T12:55:00.00	8614	0-0-KL	 GRAD: twt, depth excessive
+?	09030031	1972-09-19T13:00:00.00	8615	0-0-KL	 GRAD: twt, depth excessive
+?	09030031	1972-09-19T15:40:00.00	8650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09030031	1972-09-19T15:45:00.00	8651	0-0-OQ	 GRAD: mtf1, mag excessive

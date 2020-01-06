@@ -1,0 +1,19 @@
+# Cruise 19370012 ID 20000187 MGD77 FILE VERSION: 20011114 N_RECS: 29
+# Examined: Mon Sep 20 13:44:18 2010 by mtchandl
+# Arguments:  -R298.9/298.95/14.55/14.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Shallow survey with disagreement between ship and gridded bathymetry.
+# Errata: Header
+Y-W-19370012-nav-00: Flagged 20.69 % of records with bad navigation
+Y-I-19370012-depth-01: RLS m: 0.697065 b: 0 rms: 27.003 r: 0.795884 sig: 1 dec: 0
+N-E-19370012-depth-02: Regression slope 0.697065 statistically identical to 0.546807. Recommended: [1.8288]
+# Errata: Data
+Y	19370012	4.24964	24	D-0-0	 NAV: on land
+Y	19370012	4.41157	25	D-0-0	 NAV: on land
+Y	19370012	4.55835	26	D-0-0	 NAV: on land
+Y	19370012	4.67928	27	D-0-0	 NAV: on land
+Y	19370012	4.76366	28	D-0-0	 NAV: on land
+Y	19370012	4.81047	29	D-0-0	 NAV: on land

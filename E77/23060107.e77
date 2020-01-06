@@ -1,0 +1,41 @@
+# Cruise 23060107 ID ODP201JR MGD77 FILE VERSION: 20030417 N_RECS: 36047
+# Examined: Thu Feb  3 14:01:59 2011 by mtchandl
+# Arguments:  -R-117.2/-74.85/-26.15/31.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060107-H04-06: Invalid Survey Arrival Day: (29) [27]
+Y-W-23060107-H13-10: Survey year (2002) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060107-H16-06: Ten Degree Identifier 5010 marked in header but was not crossed
+Y-W-23060107-H16-06: Ten Degree Identifier 7009 not marked in header but block was crossed
+Y-I-23060107-depth-01: RLS m: 0.999721 b: 0 rms: 13.7105 r: 0.999941 sig: 1 dec: 0
+Y-W-23060107-twt-11: More recent bathymetry correction table available
+Y-W-23060107-depth-12: Integer precision
+Y-W-23060107-mtf1-12: Integer precision
+# Errata: Data
+?	23060107	2002-02-14T17:57:27.30	10134	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T17:58:27.30	10135	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T17:59:27.36	10136	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:04:27.30	10142	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:07:27.36	10146	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:16:27.42	10157	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:17:27.36	10158	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:18:27.36	10159	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-14T18:19:27.36	10160	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T05:44:44.70	10878	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T05:45:44.82	10879	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T06:27:45.60	10921	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T06:28:45.60	10922	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T07:32:47.76	10986	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-15T07:33:47.76	10987	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-16T15:55:36.72	14209	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-16T16:01:36.78	14215	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-16T16:02:36.78	14216	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-02-16T16:03:36.78	14217	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-03-19T15:30:32.88	28488	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-03-19T15:31:32.58	28489	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-03-19T15:32:32.58	28490	0-0-O	 GRAD: mtf1 excessive
+?	23060107	2002-03-19T15:33:32.64	28491	0-0-O	 GRAD: mtf1 excessive

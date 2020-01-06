@@ -1,0 +1,20 @@
+# Cruise 06150005 ID B177AR MGD77 FILE VERSION: 19880219 N_RECS: 415
+# Examined: Fri May 28 15:15:52 2010 by mtchandl
+# Arguments:  -R203/218.65/70/72.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-06150005-nav-00: Flagged 0.24 % of records with bad navigation
+Y-I-06150005-depth-01: RLS m: 1.0035 b: 0 rms: 46.4493 r: 0.999537 sig: 1 dec: 0
+Y-I-06150005-faa-01: RLS m: 0.966582 b: -1.57183 rms: 4.53554 r: 0.992664 sig: 1 dec: 0
+N-E-06150005-faa-02: Regression slope 0.966582 different from 1. Recommended: [1]
+Y-W-06150005-faa-03: Regression offset -1.57183 different from 0.
+Y-I-06150005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06150005-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.965684 b: 4.60667 rms: 8.67357 r: 0.984543 sig: 1 dec: 0). [Recompute]
+Y-W-06150005-twt-11: More recent bathymetry correction table available
+Y-W-06150005-eot-12: Integer precision
+# Errata: Data
+Y	06150005	1977-08-24T21:29:00.00	226	C-0-0	 NAV: excessive speed

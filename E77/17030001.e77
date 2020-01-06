@@ -1,0 +1,23 @@
+# Cruise 17030001 ID EN091 MGD77 FILE VERSION: 19870929 N_RECS: 6828
+# Examined: Mon Sep  6 12:31:38 2010 by mtchandl
+# Arguments:  -R287.9/297.8/27.15/38.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-17030001-H13-10: Survey year (1982) outside magnetic reference field IGRF-1980 time range (1995-2000)
+Y-W-17030001-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-17030001-depth-01: RLS m: 0.995777 b: 0 rms: 53.9955 r: 0.992949 sig: 1 dec: 0
+N-E-17030001-depth-02: Regression slope 0.995777 different from 1. Recommended: [1]
+Y-E-17030001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.935912 b: -31.4862 rms: 50.8555 r: 0.969335 sig: 1 dec: 1). [Recompute]
+Y-W-17030001-depth-12: Integer precision
+Y-W-17030001-mtf1-12: Integer precision
+# Errata: Data
+Y	17030001	1982-11-02T23:49:00.00	3767	C-0-0	 NAV: excessive speed
+Y	17030001	1982-11-02T23:50:00.00	3768	C-0-0	 NAV: excessive speed
+Y	17030001	1982-11-02T23:55:00.00	3769	C-0-0	 NAV: excessive speed
+Y	17030001	1982-11-03T00:00:00.00	3770	C-0-0	 NAV: excessive speed
+Y	17030001	1982-11-03T00:02:00.00	3771	C-0-0	 NAV: excessive speed
+Y	17030001	1982-11-03T00:05:00.00	3772	C-0-0	 NAV: excessive speed

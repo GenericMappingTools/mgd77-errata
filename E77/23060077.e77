@@ -1,0 +1,84 @@
+# Cruise 23060077 ID LEG172JR MGD77 FILE VERSION: 19980717 N_RECS: 75879
+# Examined: Thu Feb  3 13:48:09 2011 by mtchandl
+# Arguments:  -R-79.95/-9.1/28.2/38.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060077-H04-03: Invalid Survey Departure Day: (14) [16]
+N-E-23060077-H04-06: Invalid Survey Arrival Day: (16) [15]
+Y-W-23060077-H13-10: Survey year (1997) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060077-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-23060077-depth-01: RLS m: 1 b: 0 rms: 10.1924 r: 0.999978 sig: 1 dec: 0
+Y-W-23060077-twt-11: More recent bathymetry correction table available
+Y-W-23060077-depth-12: Integer precision
+Y-W-23060077-mtf1-12: Integer precision
+# Errata: Data
+Y	23060077	1997-03-04T14:00:22.62	17907	C-0-0	 NAV: excessive speed
+Y	23060077	1997-03-10T18:24:06.78	25424	C-0-0	 NAV: excessive speed
+Y	23060077	1997-03-10T18:33:06.96	25429	C-0-0	 NAV: excessive speed
+Y	23060077	1997-03-10T18:33:41.94	25430	C-0-0	 NAV: excessive speed
+Y	23060077	1997-03-24T15:59:55.44	41612	C-0-0	 NAV: excessive speed
+?	23060077	1997-04-06T15:00:35.58	58334	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T05:50:31.26	66875	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T08:41:44.34	67209	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T08:42:14.34	67210	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:09:31.02	67381	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:10:01.02	67382	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:10:31.02	67383	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:11:01.08	67384	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:11:31.08	67385	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:12:06.00	67386	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:12:36.18	67387	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:13:11.04	67388	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:13:41.04	67389	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T10:14:12.12	67390	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:05:46.26	67491	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:06:16.26	67492	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:06:46.26	67493	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:07:16.26	67494	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:07:46.26	67495	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:08:16.32	67496	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:08:46.32	67497	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:09:16.32	67498	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T11:10:16.32	67500	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:12:38.58	67623	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:13:38.58	67625	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:14:38.64	67627	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:22:19.62	67642	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:22:50.64	67643	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:23:20.64	67644	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:23:50.64	67645	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:24:20.64	67646	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:24:50.64	67647	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:25:20.64	67648	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:32:57.78	67663	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:33:31.98	67664	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:34:01.98	67665	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:34:31.98	67666	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T12:35:01.98	67667	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:18:22.50	68221	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:18:52.50	68222	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:19:22.50	68223	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:19:52.56	68224	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:20:27.54	68225	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:20:57.54	68226	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:21:27.54	68227	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:21:57.54	68228	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:22:28.56	68229	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:22:58.56	68230	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T17:23:28.62	68231	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T19:55:21.54	68528	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T19:56:21.54	68530	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T19:57:21.54	68532	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:09:03.60	68555	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:12:44.58	68562	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:29:12.66	68594	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:51:10.08	68637	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:51:40.08	68638	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:52:10.08	68639	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-11T20:52:41.10	68640	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-14T09:23:53.52	74454	0-0-O	 GRAD: mtf1 excessive
+?	23060077	1997-04-14T09:24:28.44	74455	0-0-O	 GRAD: mtf1 excessive

@@ -1,0 +1,28 @@
+# Cruise 01010183 ID RC2108 MGD77 FILE VERSION: 19910924 N_RECS: 3180
+# Examined: Mon Jul  6 16:49:37 2009 by mtchandl
+# Arguments:  -R278.3/288.35/-32.85/8.1 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Reported faa is closer to satellite faa than either gobs-IGF80 or gobs-IGF80+eot, recommend not recomputing faa.
+# Errata: Header
+Y-E-01010183-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+N-E-01010183-H13-06: Invalid Magnetics Reference Field Code: (78) [78]
+Y-E-01010183-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010183-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010183-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010183-depth-01: RLS m: 0.999791 b: 0 rms: 16.8225 r: 0.999966 sig: 1 dec: 0
+Y-I-01010183-faa-01: RLS m: 0.980812 b: -0.209186 rms: 7.33184 r: 0.99552 sig: 1 dec: 1
+N-E-01010183-faa-02: Regression slope 0.980812 different from 1. Recommended: [1]
+N-E-01010183-faa-06: Anomaly differs from gobs-IGF80 (m: 0.975448 b: -41.8852 rms: 42.4525 r: 0.995712 sig: 1 dec: 0). [Recompute]
+N-E-01010183-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00209 b: -15.9978 rms: 16.0234 r: 0.999988 sig: 1 dec: 0). [Recompute]
+Y-W-01010183-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010183-mag-07: Anomaly differs from mtf1-IGRF (m: 0.748346 b: 97.0069 rms: 112.4 r: 0.682636 sig: 1 dec: 0). [Recompute]
+N-E-01010183-faa-08: Extended offset from grid [1612-2601]
+N-E-01010183-depth-08: Extended offset from grid [3-3180]
+Y-W-01010183-twt-11: More recent bathymetry correction table available
+Y-W-01010183-mtf1-12: Integer precision
+# Errata: Data
+?	01010183	1978-05-12T04:00:00.00	506	B-0-0	 NAV: decreasing time
+?	01010183	1978-05-19T20:36:00.00	3137	0-0-OQ	 GRAD: mtf1, mag excessive

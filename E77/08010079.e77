@@ -1,0 +1,24 @@
+# Cruise 08010079 ID 75061400 MGD77 FILE VERSION: 19830324 N_RECS: 1586
+# Examined: Mon Jul 26 16:57:15 2010 by mtchandl
+# Arguments:  -R202.05/206.9/8.7/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset.
+# Errata: Header
+Y-W-08010079-nav-00: Flagged 0.57 % of records with bad navigation
+Y-I-08010079-depth-01: RLS m: 1 b: 0 rms: 18.0273 r: 0.99512 sig: 1 dec: 0
+Y-E-08010079-depth-08: Extended offset from grid [286-372]
+Y-W-08010079-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08010079	1975-06-14T23:10:00.00	1	D-0-0	 NAV: on land
+Y	08010079	1975-06-14T23:36:00.00	2	D-0-0	 NAV: on land
+Y	08010079	1975-06-14T23:36:05.94	3	D-0-0	 NAV: on land
+Y	08010079	1975-06-14T23:36:11.94	4	D-0-0	 NAV: on land
+Y	08010079	1975-06-14T23:36:23.94	5	D-0-0	 NAV: on land
+?	08010079	1975-06-16T22:19:39.00	114	0-0-K	 GRAD: twt excessive
+Y	08010079	1975-06-21T01:20:05.94	917	C-0-0	 NAV: excessive speed
+Y	08010079	1975-06-23T12:00:01.98	1372	C-0-0	 NAV: excessive speed
+Y	08010079	1975-06-23T12:00:05.94	1373	C-0-0	 NAV: excessive speed
+Y	08010079	1975-06-23T13:20:05.94	1387	C-0-0	 NAV: excessive speed

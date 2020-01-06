@@ -1,0 +1,49 @@
+# Cruise 10020025 ID IG1502 MGD77 FILE VERSION: 19900913 N_RECS: 2249
+# Examined: Tue Aug 24 13:41:40 2010 by mtchandl
+# Arguments:  -R279.65/295.35/28.45/34.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020025-H04-06: Invalid Survey Arrival Day: (07) [08]
+Y-E-10020025-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020025-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020025-nav-00: Flagged 1.24 % of records with bad navigation
+Y-I-10020025-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1
+Y-W-10020025-depth-02: Ship and /Users/data/GRIDS/topo1.grd grid appear identical (m=1,b=0,s=0)
+Y-E-10020025-mag-07: Anomaly differs from mtf1-IGRF (m: 0.867759 b: -443.396 rms: 448.182 r: 0.879672 sig: 1 dec: 1). [Recompute]
+Y-W-10020025-mag-09: only found negative values
+Y-W-10020025-depth-12: Integer precision
+Y-W-10020025-mtf1-12: Integer precision
+Y-W-10020025-mag-12: Integer precision
+# Errata: Data
+Y	10020025	1975-05-28T08:30:00.00	139	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-05-28T21:06:00.00	301	C-0-0	 NAV: excessive speed
+Y	10020025	1975-05-31T06:30:00.00	1039	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-05-31T08:40:00.00	1069	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-05-31T20:47:00.00	1219	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-01T00:20:00.00	1268	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-01T10:00:00.00	1397	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-01T10:45:00.00	1407	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-02T04:29:00.00	1632	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-02T07:00:00.00	1667	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-02T19:00:00.00	1815	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-02T21:00:00.00	1841	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T00:55:00.00	1894	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T02:45:00.00	1921	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T05:20:00.00	1935	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T05:40:00.00	1937	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T07:00:00.00	1943	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T15:20:00.00	1967	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T18:00:00.00	1979	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T18:20:00.00	1982	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-03T18:45:00.00	1986	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-04T06:00:00.00	2021	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-04T09:00:00.00	2039	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-04T10:30:00.00	2043	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-05T07:40:00.00	2111	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-05T08:00:00.00	2114	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-06T10:12:00.00	2190	B-0-0	 NAV: non-increasing time
+Y	10020025	1975-06-06T16:28:00.00	2198	B-0-0	 NAV: non-increasing time

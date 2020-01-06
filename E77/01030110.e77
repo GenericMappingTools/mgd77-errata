@@ -1,0 +1,31 @@
+# Cruise 01030110 ID V2606 MGD77 FILE VERSION: 19790919 N_RECS: 17612
+# Examined: Thu Jul  9 17:36:42 2009 by mtchandl
+# Arguments:  -R316.85/337.1/-30.7/-8.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01030110-H04-01: Invalid Survey Departure Year: (1968) [1969]
+Y-E-01030110-H04-04: Invalid Survey Arrival Year: (1968) [1969]
+Y-W-01030110-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01030110-depth-01: RLS m: 1 b: 0 rms: 13.8539 r: 0.999979 sig: 1 dec: 0
+Y-I-01030110-faa-01: RLS m: 0.979715 b: 2.58767 rms: 10.583 r: 0.968848 sig: 1 dec: 1
+Y-W-01030110-faa-03: Regression offset 2.58767 different from 0.
+Y-E-01030110-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0003 b: 102.998 rms: 103.82 r: 0.994441 sig: 1 dec: 0). [Recompute]
+N-E-01030110-depth-08: Extended offset from grid [3-17612]
+Y-W-01030110-twt-11: More recent bathymetry correction table available
+Y-W-01030110-mtf1-12: Integer precision
+Y-W-01030110-mag-12: Integer precision
+# Errata: Data
+?	01030110	1969-01-10T17:29:00.00	5265	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-12T12:48:00.00	6268	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-14T23:10:00.00	7634	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-16T08:14:00.00	8448	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-17T07:32:00.00	9083	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01030110	1969-01-24T12:54:00.00	13979	C-0-0	 NAV: excessive speed
+?	01030110	1969-01-25T19:02:00.00	14690	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-25T19:19:00.00	14698	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-28T06:31:00.00	16075	0-0-K	 GRAD: twt excessive
+?	01030110	1969-01-29T11:59:00.00	16689	0-0-K	 GRAD: twt excessive

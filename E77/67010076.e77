@@ -1,0 +1,15 @@
+# Cruise 67010076 ID 79003812 MGD77 FILE VERSION: 19840123 N_RECS: 11543
+# Examined: Fri Jul 29 16:33:26 2011 by mtchandl
+# Arguments:  -R-13.6/-8.3/47.45/49.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-67010076-depth-01: RLS m: 1.03152 b: 0 rms: 92.1369 r: 0.997902 sig: 1 dec: 0
+N-E-67010076-depth-02: Regression slope 1.03152 different from 1. Recommended: [1]
+Y-W-67010076-depth-12: Integer precision
+# Errata: Data
+?	67010076	1979-07-04T08:10:00.00	118	0-0-L	 GRAD: depth excessive
+?	67010076	1979-07-08T03:44:00.00	5327	0-0-L	 GRAD: depth excessive

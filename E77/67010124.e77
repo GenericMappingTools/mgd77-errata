@@ -1,0 +1,82 @@
+# Cruise 67010124 ID 83003111 MGD77 FILE VERSION: 19860605 N_RECS: 22367
+# Examined: Sat Jul 30 19:20:57 2011 by mtchandl
+# Arguments:  -R-15.35/-4.75/46.7/51.45 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010124-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-67010124-depth-01: RLS m: 0.997103 b: 0 rms: 24.9541 r: 0.999879 sig: 1 dec: 0
+N-E-67010124-depth-02: Regression slope 0.997103 different from 1. Recommended: [1]
+Y-I-67010124-faa-01: RLS m: 1.00472 b: 7.70993 rms: 8.37638 r: 0.994741 sig: 1 dec: 0
+N-E-67010124-faa-02: Regression slope 1.00472 different from 1. Recommended: [1]
+Y-W-67010124-faa-03: Regression offset 7.70993 different from 0.
+N-E-67010124-faa-06: Anomaly differs from gobs-IGF80 (m: 0.5846 b: 3.27607 rms: 33.9902 r: 0.736619 sig: 1 dec: 1). [Recompute]
+N-E-67010124-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00001 b: -8.15359 rms: 8.16243 r: 0.999918 sig: 1 dec: 0). [Recompute]
+Y-W-67010124-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-67010124-mag-07: Anomaly differs from mtf1-IGRF (m: 1.05598 b: -24.5123 rms: 38.9417 r: 0.986277 sig: 1 dec: 1). [Recompute]
+Y-W-67010124-depth-12: Integer precision
+Y-W-67010124-mtf1-12: Integer precision
+# Errata: Data
+Y	67010124	1983-09-29T17:00:00.00	87	C-0-0	 NAV: excessive speed
+?	67010124	1983-09-29T20:32:00.00	294	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-09-30T02:56:00.00	618	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-09-30T06:57:00.00	851	0-0-V	 GRAD: eot excessive
+?	67010124	1983-09-30T19:58:00.00	1588	0-0-V	 GRAD: eot excessive
+?	67010124	1983-09-30T20:00:00.00	1590	0-0-V	 GRAD: eot excessive
+?	67010124	1983-09-30T23:31:00.00	1797	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-01T06:44:00.00	2198	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-01T06:45:00.00	2199	0-0-U	 GRAD: gobs excessive
+?	67010124	1983-10-01T13:07:00.00	2571	0-0-VW	 GRAD: eot, faa excessive
+Y	67010124	1983-10-01T14:54:00.00	2674	C-0-0	 NAV: excessive speed
+?	67010124	1983-10-02T06:22:00.00	3531	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-02T13:31:00.00	3944	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-02T16:36:00.00	4125	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-03T08:29:00.00	5001	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-03T16:27:00.00	5466	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-03T18:55:00.00	5614	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-03T22:41:00.00	5832	0-0-UV	 GRAD: gobs, eot excessive
+?	67010124	1983-10-03T22:42:00.00	5833	0-0-UW	 GRAD: gobs, faa excessive
+?	67010124	1983-10-04T01:18:00.00	5978	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-04T05:02:00.00	6196	0-0-V	 GRAD: eot excessive
+Y	67010124	1983-10-04T06:05:00.00	6259	C-0-0	 NAV: excessive speed
+?	67010124	1983-10-04T07:19:00.00	6333	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-04T07:20:00.00	6334	0-0-W	 GRAD: faa excessive
+?	67010124	1983-10-04T07:21:00.00	6335	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-04T07:23:00.00	6337	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-04T07:35:00.00	6347	0-0-UW	 GRAD: gobs, faa excessive
+?	67010124	1983-10-04T07:52:00.00	6364	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-04T11:18:00.00	6563	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-06T03:37:00.00	8895	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-06T04:26:00.00	8944	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-06T04:27:00.00	8945	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-06T04:31:00.00	8949	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-06T08:13:00.00	9163	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-06T08:14:00.00	9164	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-06T12:32:00.00	9414	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-06T18:16:00.00	9635	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-07T02:07:00.00	10078	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-11T19:08:00.00	16510	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-12T06:33:00.00	17079	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-12T08:18:00.00	17180	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-12T08:19:00.00	17181	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-13T04:59:00.00	18185	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-13T05:05:00.00	18188	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-13T08:37:00.00	18300	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-13T08:38:00.00	18301	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-13T11:22:00.00	18461	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-13T17:45:00.00	18827	0-0-W	 GRAD: faa excessive
+?	67010124	1983-10-13T19:16:00.00	18914	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-13T19:26:00.00	18924	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-13T19:44:00.00	18942	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-14T00:32:00.00	19213	0-0-L	 GRAD: depth excessive
+?	67010124	1983-10-14T14:22:00.00	20026	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-14T18:53:00.00	20295	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-14T18:55:00.00	20297	0-0-W	 GRAD: faa excessive
+?	67010124	1983-10-14T21:38:00.00	20453	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-15T01:38:00.00	20648	0-0-V	 GRAD: eot excessive
+?	67010124	1983-10-15T21:09:00.00	21784	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-15T21:10:00.00	21785	0-0-VW	 GRAD: eot, faa excessive
+?	67010124	1983-10-16T01:02:00.00	22016	0-0-VW	 GRAD: eot, faa excessive

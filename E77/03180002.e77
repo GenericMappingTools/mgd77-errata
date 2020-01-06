@@ -1,0 +1,14 @@
+# Cruise 03180002 ID B00004 MGD77 FILE VERSION: 19961220 N_RECS: 1966
+# Examined: Sat Apr 24 20:26:19 2010 by mtchandl
+# Arguments:  -R235.2/235.9/39.95/40.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-03180002-depth-01: RLS m: 1.07538 b: 0 rms: 48.6231 r: 0.976974 sig: 1 dec: 0
+N-E-03180002-depth-02: Regression slope 1.07538 different from 1. Recommended: [1]
+Y-W-03180002-depth-12: Integer precision
+# Errata: Data
+?	03180002	1984-10-19T07:27:01.98	1534	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,13 @@
+# Cruise 02020117 ID A131L11 MGD77 FILE VERSION: 19961004 N_RECS: 6745
+# Examined: Fri Apr  2 15:37:01 2010 by mtchandl
+# Arguments:  -R255.6/255.85/9.25/10 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02020117-depth-01: RLS m: 1.00105 b: 0 rms: 19.214 r: 0.98617 sig: 1 dec: 0
+Y-W-02020117-depth-12: Integer precision
+# Errata: Data
+?	02020117	1994-03-20T23:08:57.00	5826	0-0-KL	 GRAD: twt, depth excessive

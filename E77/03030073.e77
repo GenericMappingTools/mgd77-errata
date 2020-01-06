@@ -1,0 +1,22 @@
+# Cruise 03030073 ID DI-95-03 MGD77 FILE VERSION: 19971215 N_RECS: 7459
+# Examined: Fri Apr 16 13:38:10 2010 by mtchandl
+# Arguments:  -R227.95/235.3/40.3/48.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03030073-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-03030073-depth-01: RLS m: 0.99843 b: 0 rms: 42.0901 r: 0.996986 sig: 1 dec: 0
+Y-W-03030073-depth-12: Integer precision
+# Errata: Data
+Y	03030073	1995-07-18T22:50:22.02	81	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-19T18:06:06.00	577	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-19T18:06:06.00	578	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-22T23:08:57.00	1775	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-22T23:08:57.00	1776	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-22T23:08:57.00	1777	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-22T23:08:57.00	1778	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-24T07:53:15.00	3447	B-0-0	 NAV: non-increasing time
+Y	03030073	1995-07-24T07:53:15.00	3448	B-0-0	 NAV: non-increasing time

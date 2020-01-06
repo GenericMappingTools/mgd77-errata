@@ -1,0 +1,21 @@
+# Cruise J1010096 ID HT99T414 MGD77 FILE VERSION: 20021031 N_RECS: 41
+# Examined: Sat Aug  6 10:45:18 2011 by mtchandl
+# Arguments:  -R152.55/153.7/24/25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1010096-H04-02: Invalid Survey Departure Month: (02) [03]
+N-E-J1010096-H04-03: Invalid Survey Departure Day: (22) [11]
+N-E-J1010096-H04-06: Invalid Survey Arrival Day: (15) [11]
+Y-E-J1010096-H15-01: Invalid Gravity Departure Base Station Value: (-9253) [  -9253]
+Y-E-J1010096-H15-03: Invalid Gravity Arrival Base Station Value: (-9197) [  -9197]
+Y-I-J1010096-depth-01: RLS m: 1.00388 b: 0 rms: 129.904 r: 0.591099 sig: 0 dec: 1
+Y-I-J1010096-faa-01: RLS m: 0.904118 b: -4.90519 rms: 6.73441 r: 0.997316 sig: 1 dec: 0
+N-E-J1010096-faa-02: Regression slope 0.904118 different from 1. Recommended: [1]
+Y-W-J1010096-faa-03: Regression offset -4.90519 different from 0.
+Y-W-J1010096-depth-12: Integer precision
+Y-W-J1010096-faa-12: Integer precision
+# Errata: Data

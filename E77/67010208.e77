@@ -1,0 +1,65 @@
+# Cruise 67010208 ID 90000411 MGD77 FILE VERSION: 19931231 N_RECS: 39775
+# Examined: Sun Jul 31 21:58:26 2011 by mtchandl
+# Arguments:  -R-45.4/-25.6/27.9/37.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010208-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-67010208-depth-01: RLS m: 1.00237 b: 0 rms: 57.5112 r: 0.98889 sig: 1 dec: 0
+N-E-67010208-depth-02: Regression slope 1.00237 different from 1. Recommended: [1]
+Y-I-67010208-faa-01: RLS m: 1.01106 b: 13.2426 rms: 13.8819 r: 0.980352 sig: 1 dec: 0
+N-E-67010208-faa-02: Regression slope 1.01106 different from 1. Recommended: [1]
+Y-W-67010208-faa-03: Regression offset 13.2426 different from 0.
+Y-I-67010208-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010208-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.349628 b: 25.0175 rms: 48.4385 r: 0.65619 sig: 1 dec: 1). [Recompute]
+Y-E-67010208-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995825 b: 6.18663 rms: 37.7603 r: 0.985872 sig: 1 dec: 1). [Recompute]
+Y-W-67010208-depth-12: Integer precision
+Y-W-67010208-mtf1-12: Integer precision
+Y-W-67010208-mag-12: Integer precision
+# Errata: Data
+?	67010208	1990-05-01T13:45:00.00	5587	0-0-KL	 GRAD: twt, depth excessive
+?	67010208	1990-05-01T23:34:00.00	6176	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-03T01:35:00.00	7737	0-0-KL	 GRAD: twt, depth excessive
+?	67010208	1990-05-03T04:12:00.00	7894	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-03T10:33:00.00	8275	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-04T00:10:00.00	9092	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-04T15:35:00.00	10017	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-05T03:22:00.00	10724	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-05T21:42:00.00	11824	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-08T03:29:00.00	15051	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-08T17:59:00.00	15921	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-09T23:55:00.00	17717	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-10T00:23:00.00	17745	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-10T10:07:00.00	18329	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-10T15:19:00.00	18641	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-10T15:20:00.00	18642	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-10T19:16:00.00	18878	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-11T04:47:00.00	19449	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-11T16:24:00.00	20146	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-11T23:01:00.00	20543	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-11T23:02:00.00	20544	0-0-KL	 GRAD: twt, depth excessive
+?	67010208	1990-05-11T23:40:00.00	20582	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-12T01:20:00.00	20682	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-12T04:10:00.00	20852	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-12T08:34:00.00	21116	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-12T08:46:00.00	21128	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-12T20:08:00.00	21810	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-13T05:38:00.00	22380	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-14T10:48:00.00	24130	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-14T22:22:00.00	24824	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-14T22:30:00.00	24832	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-15T20:31:00.00	26129	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-15T22:28:00.00	26246	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-18T20:02:00.00	30420	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-18T22:17:00.00	30555	0-0-KL	 GRAD: twt, depth excessive
+?	67010208	1990-05-19T03:52:00.00	30890	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-19T21:10:00.00	31928	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-20T00:52:00.00	32150	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-22T07:22:00.00	35420	0-0-K	 GRAD: twt excessive
+?	67010208	1990-05-23T04:33:00.00	36691	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010208	1990-05-25T06:56:00.00	39714	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010208	1990-05-25T07:07:00.00	39725	0-0-V	 GRAD: eot excessive
+Y	67010208	1990-05-25T07:56:00.00	39774	B-0-0	 NAV: non-increasing time

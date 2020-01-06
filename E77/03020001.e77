@@ -1,0 +1,47 @@
+# Cruise 03020001 ID POL6202 MGD77 FILE VERSION: 19800213 N_RECS: 951
+# Examined: Fri Apr  9 13:23:11 2010 by mtchandl
+# Arguments:  -R127.55/144.7/13.5/26.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-E-03020001-H14-01: Invalid Gravity Digitizing Rate: (322) [322]
+Y-W-03020001-nav-00: Flagged 2.52 % of records with bad navigation
+Y-I-03020001-depth-01: RLS m: 1.00015 b: 0 rms: 40.2389 r: 0.999353 sig: 1 dec: 0
+Y-I-03020001-faa-01: RLS m: -0.816487 b: -5.27307 rms: 49.4354 r: 0.947345 sig: 1 dec: 0
+N-E-03020001-faa-02: Regression slope -0.816487 different from 1. Recommended: [1]
+Y-W-03020001-faa-03: Regression offset -5.27307 different from 0.
+Y-E-03020001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02448 b: 107.484 rms: 106.976 r: 0.997864 sig: 1 dec: 0). [Recompute]
+Y-W-03020001-faa-09: only found negative values
+Y-E-03020001-faa-10: Invalid data records: [1-951]
+Y-W-03020001-twt-11: More recent bathymetry correction table available
+Y-W-03020001-mtf1-12: Integer precision
+Y-W-03020001-mag-12: Integer precision
+Y-W-03020001-faa-12: Integer precision
+# Errata: Data
+Y	03020001	1962-04-06T02:15:00.00	284	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:20:00.00	285	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:25:00.00	286	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:30:00.00	287	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:35:00.00	288	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:40:00.00	289	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:45:00.00	290	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:50:00.00	291	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T02:55:00.00	292	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:00:00.00	293	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:05:00.00	294	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:10:00.00	295	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:15:00.00	296	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:20:00.00	297	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:25:00.00	298	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:30:00.00	299	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:35:00.00	300	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:40:00.00	301	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:45:00.00	302	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:50:00.00	303	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T03:55:00.00	304	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-06T04:00:00.00	305	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-09T01:30:00.00	552	B-0-0	 NAV: non-increasing time
+Y	03020001	1962-04-09T01:30:00.00	554	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,39 @@
+# Cruise 02010045 ID CH099L05 MGD77 FILE VERSION: 19820805 N_RECS: 9078
+# Examined: Fri Mar 26 20:47:51 2010 by mtchandl
+# Arguments:  -R33/67.15/-26.1/-4.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-I-02010045-depth-01: RLS m: 1.00066 b: 0 rms: 44.2121 r: 0.999363 sig: 1 dec: 0
+Y-I-02010045-faa-01: RLS m: 1.01804 b: 10.6536 rms: 11.8084 r: 0.975868 sig: 1 dec: 0
+N-E-02010045-faa-02: Regression slope 1.01804 different from 1. Recommended: [1]
+Y-W-02010045-faa-03: Regression offset 10.6536 different from 0.
+N-E-02010045-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010045-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.956027 b: -89.2772 rms: 94.2578 r: 0.967731 sig: 1 dec: 0). [Recompute]
+N-E-02010045-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999988 b: 0.617585 rms: 0.618786 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-02010045-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04837 b: -145.924 rms: 156.906 r: 0.920694 sig: 1 dec: 0). [Recompute]
+Y-W-02010045-mtf1-12: Integer precision
+Y-W-02010045-mag-12: Integer precision
+# Errata: Data
+?	02010045	1970-07-10T09:30:00.00	1287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010045	1970-07-10T11:40:00.00	1313	0-Q-0	 VAL: mag invalid
+?	02010045	1970-07-10T11:45:00.00	1314	0-Q-0	 VAL: mag invalid
+?	02010045	1970-07-10T11:55:00.00	1316	0-Q-0	 VAL: mag invalid
+?	02010045	1970-07-10T12:00:00.00	1317	0-Q-0	 VAL: mag invalid
+?	02010045	1970-07-10T12:05:00.00	1318	0-Q-0	 VAL: mag invalid
+?	02010045	1970-07-10T15:00:00.00	1355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010045	1970-07-10T15:30:00.00	1361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010045	1970-07-10T16:00:00.00	1367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010045	1970-07-10T16:25:00.00	1372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010045	1970-07-11T11:25:00.00	1839	0-0-V	 GRAD: eot excessive
+?	02010045	1970-07-11T17:45:00.00	1943	0-0-V	 GRAD: eot excessive
+?	02010045	1970-07-16T06:17:00.00	3849	0-0-KL	 GRAD: twt, depth excessive
+?	02010045	1970-07-18T02:15:00.00	4724	0-0-K	 GRAD: twt excessive
+?	02010045	1970-07-19T00:03:00.00	5253	0-0-K	 GRAD: twt excessive
+?	02010045	1970-07-19T18:48:00.00	5686	0-0-K	 GRAD: twt excessive
+?	02010045	1970-07-20T09:47:00.00	5996	0-0-K	 GRAD: twt excessive
+?	02010045	1970-07-21T10:45:00.00	6379	0-0-K	 GRAD: twt excessive
+?	02010045	1970-07-26T14:25:00.00	8105	0-0-V	 GRAD: eot excessive

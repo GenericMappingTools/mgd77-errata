@@ -1,0 +1,22 @@
+# Cruise 08050004 ID CK-80-1 MGD77 FILE VERSION: 19830311 N_RECS: 3558
+# Examined: Mon Nov 23 15:29:55 2009 by mtchandl
+# Arguments:  -R189.4/210.45/-17.55/-6.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08050004-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08050004-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08050004-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08050004-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08050004-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08050004-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08050004-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08050004-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-08050004-depth-01: RLS m: 1 b: 0 rms: 30.1879 r: 0.999468 sig: 1 dec: 0
+Y-W-08050004-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050004	1980-03-25T20:51:36.00	1131	0-0-K	 GRAD: twt excessive
+?	08050004	1980-03-27T17:08:00.00	1489	0-0-KL	 GRAD: twt, depth excessive

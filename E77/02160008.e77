@@ -1,0 +1,15 @@
+# Cruise 02160008 ID BS072L07 MGD77 FILE VERSION: 19820805 N_RECS: 3904
+# Examined: Fri Apr  9 13:06:11 2010 by mtchandl
+# Arguments:  -R317.25/325.9/-23.25/-8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Near-shore survey, discrepancies in reported and predicted bathymetry.
+# Errata: Header
+Y-I-02160008-depth-01: RLS m: 1.0028 b: 0 rms: 13.3262 r: 0.999468 sig: 1 dec: 0
+N-E-02160008-depth-02: Regression slope 1.0028 different from 1. Recommended: [1]
+# Errata: Data
+?	02160008	1973-03-27T10:25:00.00	1099	0-0-KL	 GRAD: twt, depth excessive
+?	02160008	1973-03-30T22:48:00.00	2216	0-0-K	 GRAD: twt excessive
+?	02160008	1973-03-31T05:37:00.00	2316	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,23 @@
+# Cruise 03020003 ID POL6623 MGD77 FILE VERSION: 19800213 N_RECS: 1229
+# Examined: Fri Apr  9 13:23:44 2010 by mtchandl
+# Arguments:  -R204.95/234.8/44.95/48.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-03020003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.976734 b: 78.139 rms: 87.5522 r: 0.980246 sig: 1 dec: 0). [Recompute]
+Y-W-03020003-mtf1-12: Integer precision
+Y-W-03020003-mag-12: Integer precision
+# Errata: Data
+?	03020003	1966-06-09T22:45:00.00	116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-10T00:35:00.00	139	0-Q-0	 VAL: mag invalid
+?	03020003	1966-06-10T06:45:00.00	215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-10T16:45:00.00	337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T19:50:00.00	1199	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T19:55:00.00	1200	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T20:05:00.00	1202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T20:10:00.00	1203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T21:05:00.00	1213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020003	1966-06-13T21:10:00.00	1214	0-0-OQ	 GRAD: mtf1, mag excessive

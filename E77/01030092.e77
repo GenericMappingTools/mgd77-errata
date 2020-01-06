@@ -1,0 +1,18 @@
+# Cruise 01030092 ID V2401 MGD77 FILE VERSION: 19790920 N_RECS: 1784
+# Examined: Thu Jul  9 17:09:35 2009 by mtchandl
+# Arguments:  -R279.9/289.05/22.35/40.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030092-depth-01: RLS m: 1 b: 0 rms: 5.6209 r: 0.999997 sig: 1 dec: 0
+Y-I-01030092-faa-01: RLS m: 0.998426 b: -0.084077 rms: 1.56083 r: 0.997412 sig: 1 dec: 0
+Y-E-01030092-mag-07: Anomaly differs from mtf1-IGRF (m: 0.945229 b: -3.00752 rms: 12.495 r: 0.997263 sig: 1 dec: 0). [Recompute]
+N-E-01030092-faa-08: Extended offset from grid [1116-1695]
+N-E-01030092-depth-08: Extended offset from grid [3-1784]
+Y-W-01030092-mtf1-12: Integer precision
+Y-W-01030092-mag-12: Integer precision
+# Errata: Data
+?	01030092	1967-01-29T15:30:00.00	1640	0-0-KL	 GRAD: twt, depth excessive

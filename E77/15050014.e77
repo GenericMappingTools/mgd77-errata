@@ -1,0 +1,35 @@
+# Cruise 15050014 ID DSDP16GC MGD77 FILE VERSION: 19800226 N_RECS: 13879
+# Examined: Wed May 28 12:47:54 2008 by mtchandl
+# Arguments:  -R206.1/279.9/-1.85/16.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050014-H04-06: Invalid Survey Arrival Day: (30) [29]
+Y-W-15050014-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15050014-depth-01: RLS m: 1 b: 0 rms: 140.846 r: 0.993524 sig: 1 dec: 1
+Y-E-15050014-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.976653 b: -53.6555 rms: 145.103 r: 0.757068 sig: 1 dec: 1). [Recompute]
+Y-W-15050014-mtf1-12: Integer multiple of 5 precision
+Y-W-15050014-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050014	1971-02-09T10:35:00.00	314	0-0-K	 GRAD: twt excessive
+?	15050014	1971-02-09T23:59:00.00	638	0-0-KL	 GRAD: twt, depth excessive
+?	15050014	1971-02-16T23:15:00.00	2020	0-0-O	 GRAD: mtf1 excessive
+?	15050014	1971-02-17T05:00:00.00	2170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T05:15:00.00	2178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T05:20:00.00	2180	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T06:25:00.00	2211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T07:36:00.00	2246	0-Q-0	 VAL: mag invalid
+?	15050014	1971-02-17T07:45:00.00	2251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T07:50:00.00	2254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T08:05:00.00	2262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T08:30:00.00	2278	0-0-K	 GRAD: twt excessive
+?	15050014	1971-02-17T09:30:00.00	2311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T09:35:00.00	2314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T09:50:00.00	2322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-17T09:55:00.00	2324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050014	1971-02-25T05:30:00.00	5423	0-0-K	 GRAD: twt excessive
+?	15050014	1971-02-27T03:01:00.00	6636	0-0-K	 GRAD: twt excessive
+?	15050014	1971-02-28T14:45:00.00	7576	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,44 @@
+# Cruise 15040154 ID CENT01WT MGD77 FILE VERSION: 19851028 N_RECS: 9652
+# Examined: Mon May 26 14:51:30 2008 by mtchandl
+# Arguments:  -R242.55/274.8/-0.1/32.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040154-H16-01: Invalid Number of Ten Degree Identifiers: ( 8) [9]
+Y-W-15040154-H16-06: Ten Degree Identifier 5008 not marked in header but block was crossed
+Y-I-15040154-depth-01: RLS m: 1 b: 0 rms: 151.528 r: 0.992927 sig: 1 dec: 1
+Y-E-15040154-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.985502 b: 64.8595 rms: 81.8535 r: 0.97836 sig: 1 dec: 1). [Recompute]
+Y-W-15040154-twt-11: More recent bathymetry correction table available
+Y-W-15040154-mtf1-12: Integer precision
+Y-W-15040154-mag-12: Integer precision
+# Errata: Data
+?	15040154	1978-05-23T08:20:00.00	4993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T08:25:00.00	4994	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T08:35:00.00	4996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T08:40:00.00	4997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T08:50:00.00	4999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T09:50:00.00	5011	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T10:05:00.00	5014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T10:40:00.00	5021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T13:55:00.00	5060	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T14:10:00.00	5063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T15:15:00.00	5076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T15:20:00.00	5077	0-Q-0	 VAL: mag invalid
+?	15040154	1978-05-23T15:25:00.00	5078	0-Q-0	 VAL: mag invalid
+?	15040154	1978-05-23T15:30:00.00	5079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T15:35:00.00	5080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T17:50:00.00	5107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T17:55:00.00	5108	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T19:20:00.00	5125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T19:25:00.00	5126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-23T19:35:00.00	5128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-26T18:45:00.00	5982	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-26T18:50:00.00	5983	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-26T19:05:00.00	5986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-26T19:10:00.00	5987	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-05-27T23:25:00.00	6326	0-0-KL	 GRAD: twt, depth excessive
+?	15040154	1978-05-29T02:20:00.00	6649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040154	1978-06-03T11:10:00.00	8195	0-0-OQ	 GRAD: mtf1, mag excessive

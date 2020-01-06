@@ -1,0 +1,27 @@
+# Cruise 15040016 ID ERDC08WT MGD77 FILE VERSION: 19941231 N_RECS: 2210
+# Examined: Wed May 21 11:28:50 2008 by mtchandl
+# Arguments:  -R142.05/144.8/11.15/13.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040016-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-W-15040016-H13-09: Unknown IGRF specified (DGRF 1975)
+Y-W-15040016-nav-00: Flagged 0.41 % of records with excessive speed or invalid navigation
+Y-E-15040016-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.993966 b: 5.26239 rms: 9.07236 r: 0.999359 sig: 1 dec: 1). [Recompute]
+Y-W-15040016-mtf1-12: Integer precision
+# Errata: Data
+Y	15040016	1975-03-31T22:15:00.00	2199	D-0-0	 NAV: on land
+?	15040016	1975-03-31T22:20:00.00	2200	D-0-0	 NAV: on land
+?	15040016	1975-03-31T22:25:00.00	2201	D-0-0	 NAV: on land
+?	15040016	1975-03-31T22:30:00.00	2202	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T22:35:00.00	2203	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T22:40:00.00	2204	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T22:45:00.00	2205	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T22:50:00.00	2206	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T22:55:00.00	2207	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T23:00:00.00	2208	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T23:05:00.00	2209	D-0-0	 NAV: on land
+Y	15040016	1975-03-31T23:10:00.00	2210	D-0-0	 NAV: on land

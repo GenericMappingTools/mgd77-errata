@@ -1,0 +1,21 @@
+# Cruise 15040025 ID PIQR06WT MGD77 FILE VERSION: 19800226 N_RECS: 5333
+# Examined: Wed May 21 11:34:24 2008 by mtchandl
+# Arguments:  -R259/289.15/-25.05/-12.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040025-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15040025-depth-01: RLS m: 1.00388 b: 0 rms: 114.329 r: 0.996443 sig: 1 dec: 1
+Y-E-15040025-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.912259 b: -39.9748 rms: 77.2902 r: 0.896564 sig: 1 dec: 1). [Recompute]
+Y-W-15040025-mtf1-12: Integer multiple of 5 precision
+Y-W-15040025-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040025	1969-04-30T12:15:00.00	1152	0-0-KL	 GRAD: twt, depth excessive
+?	15040025	1969-04-30T12:30:00.00	1157	0-0-KL	 GRAD: twt, depth excessive
+?	15040025	1969-04-30T12:35:00.00	1158	0-0-K	 GRAD: twt excessive
+Y	15040025	1969-05-09T18:10:00.00	3060	C-0-0	 NAV: excessive speed
+Y	15040025	1969-05-15T13:12:00.00	4162	C-0-0	 NAV: excessive speed
+Y	15040025	1969-05-15T13:15:00.00	4163	C-0-0	 NAV: excessive speed

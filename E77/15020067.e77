@@ -1,0 +1,23 @@
+# Cruise 15020067 ID ANTP07MV MGD77 FILE VERSION: 19810928 N_RECS: 5492
+# Examined: Fri May 16 11:35:40 2008 by mtchandl
+# Arguments:  -R57.2/62.65/-30.6/-20.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15020067-depth-01: RLS m: 0.996125 b: 0 rms: 181.973 r: 0.991005 sig: 1 dec: 1
+Y-E-15020067-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00489 b: -88.4483 rms: 91.3422 r: 0.990328 sig: 1 dec: 1). [Recompute]
+Y-W-15020067-mtf1-12: Integer precision
+Y-W-15020067-mag-12: Integer precision
+# Errata: Data
+?	15020067	1970-11-30T16:35:00.00	994	0-0-K	 GRAD: twt excessive
+?	15020067	1970-12-03T08:50:00.00	1765	0-0-K	 GRAD: twt excessive
+?	15020067	1970-12-03T15:35:00.00	1846	0-0-K	 GRAD: twt excessive
+?	15020067	1970-12-04T06:20:00.00	2023	0-0-K	 GRAD: twt excessive
+?	15020067	1970-12-04T10:20:00.00	2071	0-0-K	 GRAD: twt excessive
+?	15020067	1970-12-08T12:15:00.00	3246	0-0-KL	 GRAD: twt, depth excessive
+?	15020067	1970-12-13T01:50:00.00	4561	0-0-KL	 GRAD: twt, depth excessive
+?	15020067	1970-12-16T04:30:00.00	5457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020067	1970-12-16T04:40:00.00	5459	0-0-OQ	 GRAD: mtf1, mag excessive

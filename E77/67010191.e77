@@ -1,0 +1,42 @@
+# Cruise 67010191 ID 88000911 MGD77 FILE VERSION: 19920630 N_RECS: 17275
+# Examined: Sun Jul 31 21:33:58 2011 by mtchandl
+# Arguments:  -R-23.9/-4.5/14.6/48.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010191-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-67010191-depth-01: RLS m: 1 b: 0 rms: 3.24707 r: 0.999991 sig: 1 dec: 0
+Y-I-67010191-faa-01: RLS m: 1.02265 b: 9.99544 rms: 15.4791 r: 0.979604 sig: 1 dec: 1
+Y-W-67010191-faa-03: Regression offset 9.99544 different from 0.
+Y-I-67010191-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010191-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.813059 b: -19.5922 rms: 37.21 r: 0.947079 sig: 1 dec: 1). [Recompute]
+Y-E-67010191-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981354 b: 61.0758 rms: 61.5829 r: 0.992206 sig: 1 dec: 1). [Recompute]
+Y-W-67010191-depth-12: Integer precision
+Y-W-67010191-mtf1-12: Integer precision
+Y-W-67010191-mag-12: Integer precision
+# Errata: Data
+?	67010191	1988-03-27T13:03:00.00	5584	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010191	1988-03-27T17:32:00.00	5853	0-0-V	 GRAD: eot excessive
+?	67010191	1988-03-28T02:16:00.00	6377	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-03-28T02:17:00.00	6378	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-03-29T09:46:00.00	8267	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010191	1988-03-29T09:47:00.00	8268	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-03-29T10:02:00.00	8283	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-03-29T10:03:00.00	8284	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010191	1988-03-29T10:04:00.00	8285	0-0-V	 GRAD: eot excessive
+?	67010191	1988-03-29T10:05:00.00	8286	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010191	1988-04-03T09:25:00.00	15446	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010191	1988-04-03T09:30:00.00	15451	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-04-03T09:32:00.00	15453	0-0-UW	 GRAD: gobs, faa excessive
+?	67010191	1988-04-03T11:57:00.00	15598	0-0-KL	 GRAD: twt, depth excessive
+?	67010191	1988-04-03T12:02:00.00	15603	0-0-K	 GRAD: twt excessive
+?	67010191	1988-04-03T12:06:00.00	15607	0-0-KL	 GRAD: twt, depth excessive
+?	67010191	1988-04-03T12:07:00.00	15608	0-0-KL	 GRAD: twt, depth excessive
+?	67010191	1988-04-04T06:19:00.00	16700	0-0-K	 GRAD: twt excessive
+?	67010191	1988-04-04T06:31:00.00	16712	0-0-KL	 GRAD: twt, depth excessive
+?	67010191	1988-04-04T06:32:00.00	16713	0-0-KL	 GRAD: twt, depth excessive
+?	67010191	1988-04-04T06:37:00.00	16718	0-0-KL	 GRAD: twt, depth excessive
+Y	67010191	1988-04-04T15:53:00.00	17274	B-0-0	 NAV: non-increasing time

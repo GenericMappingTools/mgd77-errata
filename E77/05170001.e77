@@ -1,0 +1,48 @@
+# Cruise 05170001 ID GJ9402 MGD77 FILE VERSION: 20080801 N_RECS: 6225
+# Examined: Fri May 21 13:06:53 2010 by mtchandl
+# Arguments:  -R174.9/180.15/-42.25/-37.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05170001-H04-03: Invalid Survey Departure Day: (27) [28]
+N-E-05170001-H04-06: Invalid Survey Arrival Day: (09) [08]
+Y-W-05170001-H13-10: Survey year (1994) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05170001-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05170001-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05170001-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05170001-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05170001-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05170001-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05170001-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-05170001-depth-01: RLS m: 0.998953 b: 0 rms: 40.3864 r: 0.999467 sig: 1 dec: 0
+Y-W-05170001-depth-12: Integer precision
+Y-W-05170001-mtf1-12: Integer precision
+# Errata: Data
+?	05170001	1994-06-03T09:45:00.00	1365	0-0-L	 GRAD: depth excessive
+?	05170001	1994-06-03T09:50:00.00	1366	0-0-L	 GRAD: depth excessive
+?	05170001	1994-06-03T22:48:00.96	1415	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-03T22:49:00.96	1416	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-03T23:33:00.96	1460	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-03T23:34:00.96	1461	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-04T03:32:00.96	1699	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-04T17:45:00.00	2550	0-0-L	 GRAD: depth excessive
+?	05170001	1994-06-04T18:11:00.96	2576	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-04T18:12:00.96	2577	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-05T14:45:00.00	3807	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-05T14:46:00.96	3808	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-06T02:10:00.00	3918	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-06T02:11:00.96	3919	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-06T10:19:00.96	4404	0-0-O	 GRAD: mtf1 excessive
+Y	05170001	1994-06-08T11:10:00.00	5470	C-0-0	 NAV: excessive speed
+?	05170001	1994-06-08T11:41:00.96	5487	0-0-O	 GRAD: mtf1 excessive
+?	05170001	1994-06-08T11:42:00.96	5488	0-0-O	 GRAD: mtf1 excessive
+Y	05170001	1994-06-08T17:00:00.00	5806	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:01:00.96	5807	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:02:00.96	5808	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:03:00.96	5809	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:04:00.96	5810	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:05:00.00	5811	C-0-0	 NAV: excessive speed
+Y	05170001	1994-06-08T17:06:00.96	5812	C-0-0	 NAV: excessive speed

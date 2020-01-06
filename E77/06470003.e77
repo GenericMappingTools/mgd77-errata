@@ -1,0 +1,29 @@
+# Cruise 06470003 ID S386CB MGD77 FILE VERSION: 19910719 N_RECS: 4089
+# Examined: Fri May 28 15:33:40 2010 by mtchandl
+# Arguments:  -R295.6/297.8/18.2/18.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+Y-I-06470003-depth-01: RLS m: 1.03152 b: 0 rms: 77.6431 r: 0.994826 sig: 1 dec: 0
+N-E-06470003-depth-02: Regression slope 1.03152 different from 1. Recommended: [1]
+Y-I-06470003-faa-01: RLS m: 0.999201 b: 0.938898 rms: 6.22643 r: 0.990103 sig: 1 dec: 0
+Y-W-06470003-faa-03: Regression offset 0.938898 different from 0.
+Y-I-06470003-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06470003-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00355 b: 53.0944 rms: 53.186 r: 0.999329 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+?	06470003	1986-08-27T22:45:00.00	1705	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-27T23:20:00.00	1740	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-27T23:32:00.00	1752	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-27T23:33:00.00	1753	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-27T23:38:00.00	1758	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-27T23:39:00.00	1759	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-27T23:49:00.00	1769	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-28T03:00:00.00	1960	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-28T16:59:00.00	2101	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-28T18:18:00.00	2180	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-28T18:19:00.00	2181	0-0-KL	 GRAD: twt, depth excessive
+?	06470003	1986-08-28T18:22:00.00	2184	0-0-K	 GRAD: twt excessive
+?	06470003	1986-08-30T02:11:00.00	3256	0-0-K	 GRAD: twt excessive

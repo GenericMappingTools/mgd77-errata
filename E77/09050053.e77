@@ -1,0 +1,48 @@
+# Cruise 09050053 ID KA933004 MGD77 FILE VERSION: 19801110 N_RECS: 17284
+# Examined: Mon Aug  9 11:48:55 2010 by mtchandl
+# Arguments:  -R327.1/353.35/39.15/55.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09050053-H04-03: Invalid Survey Departure Day: (09) [10]
+N-E-09050053-H04-06: Invalid Survey Arrival Day: (06) [04]
+N-E-09050053-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050053-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09050053-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-09050053-depth-01: RLS m: 1 b: 0 rms: 10.0806 r: 0.999964 sig: 1 dec: 0
+Y-E-09050053-mag-07: Anomaly differs from mtf1-IGRF (m: 0.949884 b: 54.2767 rms: 107.086 r: 0.923359 sig: 1 dec: 1). [Recompute]
+N-E-09050053-twt-13: Encountered possible PDR wrap errors (4.6) [5.0]
+Y-W-09050053-depth-12: Integer precision
+Y-W-09050053-mag-12: Integer precision
+# Errata: Data
+Y	09050053	1972-07-10T07:06:00.00	51	C-0-0	 NAV: excessive speed
+?	09050053	1972-07-12T04:55:00.00	470	0-0-KL	 GRAD: twt, depth excessive
+?	09050053	1972-07-12T05:00:00.00	471	0-0-KL	 GRAD: twt, depth excessive
+?	09050053	1972-07-13T00:00:00.00	702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-07-13T00:05:00.00	703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-07-20T06:10:00.00	2159	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-07-21T20:55:00.00	2495	0-0-KL	 GRAD: twt, depth excessive
+?	09050053	1972-07-21T21:00:00.00	2496	0-0-KL	 GRAD: twt, depth excessive
+?	09050053	1972-07-22T09:30:00.00	2579	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-07-22T09:55:00.00	2584	0-0-KL	 GRAD: twt, depth excessive
+?	09050053	1972-07-22T10:00:00.00	2585	0-0-KL	 GRAD: twt, depth excessive
+Y	09050053	1972-08-24T05:37:00.00	5024	C-0-0	 NAV: excessive speed
+Y	09050053	1972-08-27T16:31:00.00	8716	C-0-0	 NAV: excessive speed
+?	09050053	1972-08-28T01:17:00.00	9032	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050053	1972-08-28T01:18:00.00	9033	0-Q-0	 VAL: mag invalid
+?	09050053	1972-08-28T01:19:00.00	9034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-08-29T03:31:00.00	10183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050053	1972-08-30T09:19:00.00	11523	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050053	1972-08-30T21:15:00.00	11864	0-0-K	 GRAD: twt excessive
+Y	09050053	1972-08-31T10:08:00.00	12480	C-0-0	 NAV: excessive speed
+Y	09050053	1972-08-31T10:23:00.00	12495	C-0-0	 NAV: excessive speed
+Y	09050053	1972-08-31T10:38:00.00	12510	C-0-0	 NAV: excessive speed
+Y	09050053	1972-08-31T10:53:00.00	12525	C-0-0	 NAV: excessive speed
+?	09050053	1972-08-31T21:40:00.00	12914	0-0-K	 GRAD: twt excessive
+?	09050053	1972-09-02T01:12:00.00	14174	0-0-K	 GRAD: twt excessive
+?	09050053	1972-09-02T02:27:00.00	14249	0-0-K	 GRAD: twt excessive
+?	09050053	1972-09-04T00:11:00.00	16286	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050053	1972-09-04T02:29:00.00	16306	0-0-OQ	 GRAD: mtf1, mag excessive

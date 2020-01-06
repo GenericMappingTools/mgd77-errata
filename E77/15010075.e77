@@ -1,0 +1,87 @@
+# Cruise 15010075 ID ZTES04AR MGD77 FILE VERSION: 19830818 N_RECS: 6924
+# Examined: Wed May 14 08:15:07 2008 by mtchandl
+# Arguments:  -R135.95/150.15/26.65/42.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, fixing PDR wraps, and flagging excessive depth offset.
+# Errata: Header
+N-E-15010075-H04-06: Invalid Survey Arrival Day: (26) [25]
+Y-W-15010075-nav-00: Flagged 0.27 % of records with excessive speed or invalid navigation
+Y-I-15010075-depth-01: RLS m: 1 b: 0 rms: 274.293 r: 0.988668 sign: 1 dec: 1
+Y-E-15010075-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.952215 b: 71.7124 rms: 87.2796 r: 0.986345 sig: 1 dec: 1). [Recompute]
+Y-E-15010075-depth-08: Extended offset from grid [2454-2563]
+N-E-15010075-depth-08: Extended offset from grid [4399-4426]
+Y-E-15010075-twt-13: Encountered possible PDR wrap errors (9.8) [10.0]
+Y-W-15010075-mtf1-12: Integer multiple of 5 precision
+Y-W-15010075-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010075	1966-05-06T09:03:00.00	3	D-0-0	 NAV: on land
+?	15010075	1966-05-10T18:54:00.00	1640	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010075	1966-05-12T01:00:00.00	2076	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T01:03:00.00	2077	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T01:06:00.00	2078	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T01:09:00.00	2079	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T01:12:00.00	2080	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T01:15:00.00	2081	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T15:00:00.00	2356	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-12T15:03:00.00	2357	C-0-0	 NAV: excessive speed
+?	15010075	1966-05-13T00:15:00.00	2534	0-0-K	 GRAD: twt excessive
+Y	15010075	1966-05-13T03:03:00.00	2590	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-13T03:06:00.00	2591	C-0-0	 NAV: excessive speed
+?	15010075	1966-05-13T04:00:00.00	2609	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-13T04:06:00.00	2611	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-13T04:33:00.00	2620	0-0-K	 GRAD: twt excessive
+?	15010075	1966-05-14T00:51:00.00	3000	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-14T00:54:00.00	3001	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-14T13:42:00.00	3172	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T13:48:00.00	3174	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T14:18:00.00	3184	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010075	1966-05-14T14:24:00.00	3186	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T14:30:00.00	3188	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T14:36:00.00	3190	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-14T14:42:00.00	3192	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T16:30:00.00	3228	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T16:33:00.00	3229	0-0-K	 GRAD: twt excessive
+?	15010075	1966-05-14T16:36:00.00	3230	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-14T16:42:00.00	3232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-14T16:54:00.00	3236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-14T20:54:00.00	3316	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010075	1966-05-14T21:00:00.00	3318	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010075	1966-05-14T21:06:00.00	3320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-15T00:18:00.00	3384	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T00:24:00.00	3386	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T00:30:00.00	3388	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T03:54:00.00	3456	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:00:00.00	3458	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:06:00.00	3460	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:12:00.00	3462	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:18:00.00	3464	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:24:00.00	3466	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:30:00.00	3468	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:36:00.00	3470	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T04:42:00.00	3472	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T08:00:00.00	3538	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010075	1966-05-15T20:36:00.00	3568	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-15T20:42:00.00	3570	0-Q-0	 VAL: mag invalid
+?	15010075	1966-05-16T04:09:00.00	3719	0-0-K	 GRAD: twt excessive
+?	15010075	1966-05-18T11:57:00.00	4400	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-18T13:12:00.00	4425	0-0-KL	 GRAD: twt, depth excessive
+?	15010075	1966-05-18T21:42:00.00	4526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-18T21:48:00.00	4528	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-20T04:51:00.00	4923	0-0-K	 GRAD: twt excessive
+?	15010075	1966-05-20T23:42:00.00	5178	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-24T20:36:00.00	6601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-24T23:24:00.00	6657	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010075	1966-05-24T23:30:00.00	6659	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010075	1966-05-25T07:30:00.00	6819	D-0-0	 NAV: on land
+Y	15010075	1966-05-25T07:33:00.00	6820	D-0-0	 NAV: on land
+Y	15010075	1966-05-25T07:36:00.00	6821	D-0-0	 NAV: on land
+Y	15010075	1966-05-25T07:39:00.00	6822	D-0-0	 NAV: on land
+Y	15010075	1966-05-25T07:42:00.00	6823	D-0-0	 NAV: on land
+?	15010075	1966-05-25T07:48:00.00	6825	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010075	1966-05-25T09:06:00.00	6851	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-25T09:09:00.00	6852	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-25T09:12:00.00	6853	C-0-0	 NAV: excessive speed
+Y	15010075	1966-05-25T09:15:00.00	6854	C-0-0	 NAV: excessive speed

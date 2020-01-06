@@ -1,0 +1,33 @@
+# Cruise 15010069 ID TRIP02AR MGD77 FILE VERSION: 19800226 N_RECS: 2899
+# Examined: Tue May 13 09:22:29 2008 by mtchandl
+# Arguments:  -R260.15/275.45/-6/16.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010069-H04-03: Invalid Survey Departure Day: (14) [15]
+Y-I-15010069-depth-01: RLS m: 0.996125 b: 0 rms: 131.541 r: 0.993008 sign: 1 dec: 1
+Y-E-15010069-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.979759 b: -190.809 rms: 200.261 r: 0.974077 sig: 1 dec: 1). [Recompute]
+Y-W-15010069-mtf1-12: Integer multiple of 5 precision
+Y-W-15010069-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010069	1966-11-19T06:00:00.00	893	0-0-O	 GRAD: mtf1 excessive
+?	15010069	1966-11-19T22:42:00.00	1031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-19T23:18:00.00	1037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T00:30:00.00	1049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T00:48:00.00	1052	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T02:42:00.00	1071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T02:48:00.00	1072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T03:00:00.00	1074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T04:06:00.00	1085	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T04:18:00.00	1087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T05:12:00.00	1096	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T16:36:00.00	1193	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T17:42:00.00	1204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T18:36:00.00	1213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-20T18:54:00.00	1216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-24T00:18:00.00	1897	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-24T00:30:00.00	1899	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010069	1966-11-24T22:48:00.00	2092	0-0-OQ	 GRAD: mtf1, mag excessive

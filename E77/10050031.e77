@@ -1,0 +1,53 @@
+# Cruise 10050031 ID FM2101 MGD77 FILE VERSION: 19920727 N_RECS: 10026
+# Examined: Tue Aug 24 14:01:54 2010 by mtchandl
+# Arguments:  -R263.55/266.05/26/29.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-10050031-nav-00: Flagged 0.34 % of records with bad navigation
+Y-I-10050031-depth-01: RLS m: 1.00241 b: 0 rms: 17.2262 r: 0.999756 sig: 1 dec: 0
+N-E-10050031-depth-02: Regression slope 1.00241 different from 1. Recommended: [1]
+Y-E-10050031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.672607 b: 4.54115 rms: 21.1131 r: 0.756631 sig: 1 dec: 1). [Recompute]
+Y-W-10050031-depth-12: Integer precision
+Y-W-10050031-mtf1-12: Integer precision
+Y-W-10050031-mag-12: Integer precision
+# Errata: Data
+Y	10050031	1984-01-04T20:32:06.00	1	D-0-0	 NAV: on land
+Y	10050031	1984-01-06T07:18:12.00	795	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T07:37:48.00	842	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T07:40:18.00	848	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T07:47:24.00	865	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T07:58:12.00	891	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T08:01:00.00	898	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T08:02:48.00	902	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T08:13:12.00	927	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T08:16:30.00	935	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T09:09:54.00	1063	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T10:11:00.00	1210	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T11:19:54.00	1375	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-06T11:45:42.00	1437	C-0-0	 NAV: excessive speed
+?	10050031	1984-01-07T03:36:18.00	3093	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10050031	1984-01-07T03:36:36.00	3094	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10050031	1984-01-07T03:53:24.00	3157	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-07T04:39:00.00	3328	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T04:19:00.00	6779	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T04:20:42.00	6783	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T05:31:00.00	6952	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T06:35:18.00	7106	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T07:30:42.00	7239	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T08:36:00.00	7396	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T09:00:42.00	7455	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T09:32:24.00	7531	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T09:34:00.00	7535	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T10:02:00.00	7602	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T10:20:42.00	7647	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T11:14:00.00	7775	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T11:21:00.00	7792	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T11:51:00.00	7864	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T12:56:00.00	8018	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T13:26:00.00	8090	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T15:51:00.00	8438	C-0-0	 NAV: excessive speed
+Y	10050031	1984-01-08T16:06:00.00	8474	C-0-0	 NAV: excessive speed

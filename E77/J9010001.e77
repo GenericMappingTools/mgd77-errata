@@ -1,0 +1,25 @@
+# Cruise J9010001 ID DELP86 MGD77 FILE VERSION: 19921231 N_RECS: 1223
+# Examined: Mon Aug  8 16:13:27 2011 by mtchandl
+# Arguments:  -R140.05/161.2/34.85/43.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J9010001-H04-03: Invalid Survey Departure Day: (10) [11]
+N-E-J9010001-H04-06: Invalid Survey Arrival Day: (03) [01]
+Y-W-J9010001-nav-00: Flagged 0.74 % of records with bad navigation
+Y-I-J9010001-depth-01: RLS m: 1.00061 b: 0 rms: 22.3041 r: 0.99746 sig: 1 dec: 0
+Y-W-J9010001-depth-12: Integer precision
+# Errata: Data
+Y	J9010001	1986-07-12T10:15:00.00	87	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-12T10:30:00.00	88	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-12T10:45:00.00	89	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-12T11:00:00.00	90	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-20T16:30:00.00	746	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-21T01:32:00.00	763	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-21T01:49:00.00	764	C-0-0	 NAV: excessive speed
+Y	J9010001	1986-07-21T01:52:00.00	765	C-0-0	 NAV: excessive speed
+?	J9010001	1986-07-22T02:02:00.00	864	0-0-L	 GRAD: depth excessive
+Y	J9010001	1986-07-23T16:30:00.00	1022	C-0-0	 NAV: excessive speed

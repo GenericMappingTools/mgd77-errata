@@ -1,0 +1,21 @@
+# Cruise J1020028 ID HS8005 MGD77 FILE VERSION: 19880928 N_RECS: 3121
+# Examined: Sat Aug  6 11:32:10 2011 by mtchandl
+# Arguments:  -R138/139.65/34.15/34.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive magnetic gradient flags.
+# Errata: Header
+Y-W-J1020028-H13-10: Survey year (1980) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1020028-mtf1-12: Integer precision
+# Errata: Data
+Y	J1020028	322.883	288	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	414.988	392	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	576.329	512	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	2406.75	2002	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	2956.5	2485	0-0-Q	 GRAD: mag excessive
+Y	J1020028	3625.46	2949	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	3625.97	2951	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	3632.81	2975	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	J1020028	3633.01	2976	0-0-OQ	 GRAD: mtf1, mag excessive

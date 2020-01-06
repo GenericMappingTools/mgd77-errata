@@ -1,0 +1,34 @@
+# Cruise 01010231 ID RC2406 MGD77 FILE VERSION: 19870305 N_RECS: 23624
+# Examined: Mon Jul  6 17:26:35 2009 by mtchandl
+# Arguments:  -R343.05/351.55/30.15/34.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010231-H13-06: Invalid Magnetics Reference Field Code: (83) [83]
+Y-W-01010231-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-01010231-depth-01: RLS m: 1 b: 0 rms: 69.5372 r: 0.998548 sig: 1 dec: 1
+Y-I-01010231-faa-01: RLS m: 1.02056 b: -2.7089 rms: 7.97294 r: 0.994179 sig: 1 dec: 1
+N-E-01010231-faa-02: Regression slope 1.02056 different from 1. Recommended: [1]
+Y-W-01010231-faa-03: Regression offset -2.7089 different from 0.
+Y-E-01010231-mag-07: Anomaly differs from mtf1-IGRF (m: 0.976638 b: -76.8454 rms: 82.4828 r: 0.980931 sig: 1 dec: 1). [Recompute]
+N-E-01010231-depth-08: Extended offset from grid [19-23624]
+Y-W-01010231-twt-11: More recent bathymetry correction table available
+Y-W-01010231-mtf1-12: Integer precision
+Y-W-01010231-mag-12: Integer precision
+# Errata: Data
+Y	01010231	1983-05-17T09:18:00.00	1	D-0-0	 NAV: on land
+Y	01010231	1983-05-17T09:32:00.00	2	D-0-0	 NAV: on land
+Y	01010231	1983-05-17T09:33:00.00	3	D-0-0	 NAV: on land
+?	01010231	1983-05-17T11:01:00.00	75	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-17T11:02:00.00	76	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-17T13:52:00.00	232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-17T13:53:00.00	233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-17T13:55:00.00	235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-18T03:13:00.00	856	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010231	1983-05-24T17:09:00.00	9988	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01010231	1983-06-03T10:12:00.00	23622	D-0-0	 NAV: on land
+Y	01010231	1983-06-03T10:13:00.00	23623	D-0-0	 NAV: on land
+Y	01010231	1983-06-03T10:16:00.00	23624	D-0-0	 NAV: on land

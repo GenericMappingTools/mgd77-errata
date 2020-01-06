@@ -1,0 +1,27 @@
+# Cruise 19100057 ID DIS209 MGD77 FILE VERSION: 19971208 N_RECS: 13161
+# Examined: Tue Sep 14 15:55:18 2010 by mtchandl
+# Arguments:  -R58/60.1/18.55/22.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Possible loss of bottom tracking near 4000 km along-track.
+# Errata: Header
+N-E-19100057-H04-03: Invalid Survey Departure Day: (03) [04]
+N-E-19100057-H04-06: Invalid Survey Arrival Day: (23) [22]
+Y-W-19100057-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19100057-depth-01: RLS m: 1.0007 b: 0 rms: 10.4279 r: 0.999966 sig: 1 dec: 0
+N-E-19100057-depth-02: Regression slope 1.0007 different from 1. Recommended: [1]
+Y-W-19100057-depth-12: Integer precision
+# Errata: Data
+Y	19100057	1994-08-05T21:34:00.00	1076	C-0-0	 NAV: excessive speed
+?	19100057	1994-08-09T00:00:00.00	3309	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-17T04:26:00.00	9202	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-17T04:58:00.00	9218	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-17T05:00:00.00	9219	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-17T05:08:00.00	9223	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-18T10:14:00.00	10096	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-18T11:18:00.00	10128	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-18T11:48:00.00	10143	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-20T13:30:00.00	11634	0-0-L	 GRAD: depth excessive
+?	19100057	1994-08-20T13:38:00.00	11638	0-0-L	 GRAD: depth excessive

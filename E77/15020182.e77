@@ -1,0 +1,16 @@
+# Cruise 15020182 ID GLOR00MV MGD77 FILE VERSION: 20040316 N_RECS: 4859
+# Examined: Mon May 19 04:17:21 2008 by mtchandl
+# Arguments:  -R239.25/241.9/31.55/33.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-15020182-depth-01: RLS m: 1 b: 0 rms: 161.082 r: 0.989603 sig: 1 dec: 1
+Y-W-15020182-depth-12: Integer precision
+# Errata: Data
+?	15020182	1992-09-27T18:00:04.02	1134	0-0-KL	 GRAD: twt, depth excessive
+?	15020182	1992-09-27T18:00:55.02	1135	0-0-KL	 GRAD: twt, depth excessive
+?	15020182	1992-09-27T18:09:00.00	1136	0-0-KL	 GRAD: twt, depth excessive
+?	15020182	1992-09-30T06:54:00.00	4070	0-0-K	 GRAD: twt excessive

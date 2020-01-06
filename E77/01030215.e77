@@ -1,0 +1,74 @@
+# Cruise 01030215 ID V3401 MGD77 FILE VERSION: 19800908 N_RECS: 7192
+# Examined: Fri Jul 10 13:54:46 2009 by mtchandl
+# Arguments:  -R144.15/178.4/-18.95/17 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030215-depth-01: RLS m: 1 b: 0 rms: 8.84884 r: 0.999993 sig: 1 dec: 0
+Y-I-01030215-faa-01: RLS m: 1.0115 b: -27.3736 rms: 30.9404 r: 0.988993 sig: 1 dec: 1
+Y-W-01030215-faa-03: Regression offset -27.3736 different from 0.
+Y-E-01030215-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02622 b: -4.11595 rms: 47.2922 r: 0.990699 sig: 1 dec: 1). [Recompute]
+N-E-01030215-faa-08: Extended offset from grid [898-3161]
+N-E-01030215-depth-08: Extended offset from grid [3-7192]
+Y-W-01030215-twt-11: More recent bathymetry correction table available
+Y-W-01030215-mtf1-12: Integer precision
+Y-W-01030215-mag-12: Integer precision
+# Errata: Data
+?	01030215	1977-02-24T12:42:00.00	646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-02-24T12:54:00.00	649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-02-24T13:18:00.00	653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-02-24T14:00:00.00	661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-02-24T19:42:00.00	707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-02-26T23:12:00.00	1280	0-0-K	 GRAD: twt excessive
+?	01030215	1977-03-06T00:18:00.00	3169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-06T01:36:00.00	3185	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-06T01:42:00.00	3187	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-07T13:36:00.00	3489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-07T13:42:00.00	3490	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-09T17:12:00.00	4018	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-10T01:24:00.00	4134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-10T01:36:00.00	4136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-10T06:12:00.00	4153	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-10T06:18:00.00	4155	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-10T11:06:00.00	4214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-12T04:00:00.00	4712	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-12T04:18:00.00	4717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-12T04:20:00.00	4718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-12T07:30:00.00	4730	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-12T07:36:00.00	4731	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-12T08:54:00.00	4751	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-12T21:54:00.00	4931	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-12T22:00:00.00	4932	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-12T22:06:00.00	4933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-13T00:06:00.00	4961	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-13T00:12:00.00	4963	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-13T00:18:00.00	4965	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-13T00:24:00.00	4967	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-13T07:06:00.00	4993	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-14T06:54:00.00	5304	0-0-K	 GRAD: twt excessive
+?	01030215	1977-03-15T00:00:00.00	5472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-15T00:06:00.00	5473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-15T00:12:00.00	5474	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T00:30:00.00	5478	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T00:36:00.00	5479	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T00:42:00.00	5480	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T04:48:00.00	5494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-15T05:24:00.00	5500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030215	1977-03-15T22:06:00.00	5652	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030215	1977-03-15T22:12:00.00	5653	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T22:18:00.00	5655	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T22:24:00.00	5657	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T23:00:00.00	5665	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T23:06:00.00	5666	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T23:12:00.00	5667	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T23:18:00.00	5668	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-15T23:24:00.00	5670	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-16T04:18:00.00	5683	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-16T06:12:00.00	5705	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-16T06:18:00.00	5706	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-16T07:18:00.00	5719	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-16T07:24:00.00	5721	0-Q-0	 VAL: mag invalid
+?	01030215	1977-03-18T12:48:00.00	6366	0-0-K	 GRAD: twt excessive

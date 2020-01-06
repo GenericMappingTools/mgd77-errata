@@ -1,0 +1,22 @@
+# Cruise 15390032 ID HNRO17RR MGD77 FILE VERSION: 20040528 N_RECS: 18325
+# Examined: Wed Jun  4 23:40:26 2008 by mtchandl
+# Arguments:  -R134.5/202.15/21.2/27.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-15390032-H04-03: Invalid Survey Departure Day: (08) [07]
+Y-W-15390032-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15390032-depth-01: RLS m: 1.00388 b: 0 rms: 277.519 r: 0.987425 sig: 1 dec: 1
+Y-W-15390032-twt-11: More recent bathymetry correction table available
+Y-W-15390032-depth-12: Integer precision
+# Errata: Data
+?	15390032	2000-05-08T07:33:00.00	458	0-0-K	 GRAD: twt excessive
+?	15390032	2000-05-18T18:42:00.00	15527	0-0-KL	 GRAD: twt, depth excessive
+?	15390032	2000-05-19T04:11:00.00	16096	0-0-K	 GRAD: twt excessive
+Y	15390032	2000-05-20T17:17:00.00	18322	D-0-0	 NAV: on land
+Y	15390032	2000-05-20T17:18:00.00	18323	D-0-0	 NAV: on land
+Y	15390032	2000-05-20T17:19:00.00	18324	D-0-0	 NAV: on land
+Y	15390032	2000-05-20T17:20:00.00	18325	D-0-0	 NAV: on land

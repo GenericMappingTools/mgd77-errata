@@ -1,0 +1,18 @@
+# Cruise 29180002 ID OB2A MGD77 FILE VERSION: 19971007 N_RECS: 2547
+# Examined: Mon Feb 14 22:56:19 2011 by mtchandl
+# Arguments:  -R-18.3/18.3/-33.9/43.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged questionable bathymetry records.
+# Errata: Header
+Y-I-29180002-depth-01: RLS m: 1.00143 b: 0 rms: 148.419 r: 0.990368 sig: 1 dec: 0
+N-E-29180002-depth-08: Extended offset from grid [1262-1365]
+Y-E-29180002-depth-10: Invalid data records: [984-1367]
+Y-W-29180002-depth-12: Integer multiple of 5 precision
+# Errata: Data
+?	29180002	920.172	216	0-0-L	 GRAD: depth excessive
+?	29180002	5078.95	897	0-0-L	 GRAD: depth excessive
+?	29180002	13393.3	1661	0-0-L	 GRAD: depth excessive
+?	29180002	13828.1	1828	0-0-L	 GRAD: depth excessive

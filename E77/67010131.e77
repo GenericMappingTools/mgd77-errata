@@ -1,0 +1,23 @@
+# Cruise 67010131 ID 83004611 MGD77 FILE VERSION: 19860605 N_RECS: 746
+# Examined: Sat Jul 30 19:32:03 2011 by mtchandl
+# Arguments:  -R-7.85/-5/47.5/48.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-67010131-depth-01: RLS m: 1.0028 b: 0 rms: 7.21546 r: 0.999127 sig: 1 dec: 0
+Y-I-67010131-faa-01: RLS m: 1.11739 b: 2.24301 rms: 7.80417 r: 0.988235 sig: 1 dec: 0
+N-E-67010131-faa-02: Regression slope 1.11739 different from 1. Recommended: [1]
+Y-W-67010131-faa-03: Regression offset 2.24301 different from 0.
+N-E-67010131-faa-06: Anomaly differs from gobs-IGF80 (m: 0.253968 b: 39.9994 rms: 42.6575 r: 0.693489 sig: 1 dec: 0). [Recompute]
+N-E-67010131-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-67010131-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-67010131-depth-12: Integer precision
+# Errata: Data
+?	67010131	1983-10-20T04:40:00.00	260	0-0-V	 GRAD: eot excessive
+?	67010131	1983-10-20T07:19:00.00	406	0-0-V	 GRAD: eot excessive
+?	67010131	1983-10-20T07:22:00.00	409	0-0-V	 GRAD: eot excessive
+?	67010131	1983-10-21T01:02:00.00	672	0-0-W	 GRAD: faa excessive
+?	67010131	1983-10-21T01:03:00.00	673	0-0-V	 GRAD: eot excessive

@@ -1,0 +1,34 @@
+# Cruise 01030165 ID V3006 MGD77 FILE VERSION: 19790919 N_RECS: 8002
+# Examined: Fri Jul 10 12:38:47 2009 by mtchandl
+# Arguments:  -R323.85/344.65/28.15/37.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030165-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030165-depth-01: RLS m: 0.999651 b: 0 rms: 9.39954 r: 0.999989 sig: 1 dec: 0
+N-E-01030165-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01030165-faa-01: RLS m: 1.03195 b: 0.322146 rms: 11.4848 r: 0.979792 sig: 1 dec: 1
+N-E-01030165-faa-02: Regression slope 1.03195 different from 1. Recommended: [1]
+Y-E-01030165-mag-07: Anomaly differs from mtf1-IGRF (m: 0.955428 b: -87.3759 rms: 128.934 r: 0.900611 sig: 1 dec: 1). [Recompute]
+N-E-01030165-depth-08: Extended offset from grid [9-8002]
+Y-W-01030165-twt-11: More recent bathymetry correction table available
+Y-W-01030165-mtf1-12: Integer precision
+Y-W-01030165-mag-12: Integer precision
+# Errata: Data
+?	01030165	1973-03-31T15:48:00.00	11	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-03-31T15:54:00.00	12	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-08T08:06:00.00	2483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-08T08:12:00.00	2485	0-0-Q	 GRAD: mag excessive
+?	01030165	1973-04-11T05:42:00.00	3502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-14T00:12:00.00	4360	0-0-K	 GRAD: twt excessive
+?	01030165	1973-04-17T06:54:00.00	5391	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-17T07:06:00.00	5393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-17T07:18:00.00	5396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-17T07:30:00.00	5399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-17T07:48:00.00	5404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-17T08:06:00.00	5408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-22T01:00:00.00	6927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030165	1973-04-25T04:06:00.00	7943	0-0-OQ	 GRAD: mtf1, mag excessive

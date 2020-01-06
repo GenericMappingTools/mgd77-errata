@@ -1,0 +1,24 @@
+# Cruise 01010080 ID RC1305 MGD77 FILE VERSION: 19790619 N_RECS: 5795
+# Examined: Mon Jan 26 18:03:00 2009 by mtchandl
+# Arguments:  -R178.9/206.45/-17.9/14.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010080-H04-05: Invalid Survey Arrival Month: (03) [02]
+N-E-01010080-H04-06: Invalid Survey Arrival Day: (02) [20]
+Y-E-01010080-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [8]
+Y-W-01010080-H16-06: Ten Degree Identifier 3118 marked in header but was not crossed
+Y-I-01010080-depth-01: RLS m: 1 b: 0 rms: 13.8247 r: 0.999981 sig: 1 dec: 0
+Y-E-01010080-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00473 b: 35.1418 rms: 36.29 r: 0.999199 sig: 1 dec: 1). [Recompute]
+Y-W-01010080-mtf1-12: Integer precision
+Y-W-01010080-mag-12: Integer precision
+# Errata: Data
+?	01010080	1970-01-30T00:35:00.00	5	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010080	1970-02-01T13:01:00.00	1029	0-Q-0	 VAL: mag invalid
+?	01010080	1970-02-01T13:10:00.00	1033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010080	1970-02-01T13:15:00.00	1034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010080	1970-02-20T22:00:00.00	5739	B-0-0	 NAV: decreasing time
+?	01010080	1970-02-21T02:36:00.00	5785	0-0-K	 GRAD: twt excessive

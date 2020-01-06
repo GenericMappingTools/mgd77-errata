@@ -1,0 +1,28 @@
+# Cruise 01010163 ID RC0708 MGD77 FILE VERSION: 19910924 N_RECS: 5112
+# Examined: Mon Jul  6 16:12:30 2009 by mtchandl
+# Arguments:  -R280.1/298.2/10.5/19.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010163-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010163-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010163-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010163-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010163-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010163-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010163-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-01010163-depth-01: RLS m: 1 b: 0 rms: 16.3781 r: 0.999955 sig: 1 dec: 0
+Y-E-01010163-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02573 b: -40.4859 rms: 58.0743 r: 0.97167 sig: 1 dec: 1). [Recompute]
+N-E-01010163-depth-08: Extended offset from grid [3-5112]
+Y-W-01010163-mtf1-12: Integer precision
+# Errata: Data
+Y	01010163	1963-09-26T17:36:00.00	257	D-0-0	 NAV: on land
+?	01010163	1963-09-29T14:06:00.00	1069	0-0-KL	 GRAD: twt, depth excessive
+?	01010163	1963-10-08T17:06:00.00	3349	0-0-K	 GRAD: twt excessive
+?	01010163	1963-10-10T01:13:00.00	3666	0-0-K	 GRAD: twt excessive
+?	01010163	1963-10-13T16:58:00.00	4728	0-0-K	 GRAD: twt excessive
+?	01010163	1963-10-13T17:01:00.00	4730	0-0-K	 GRAD: twt excessive
+?	01010163	1963-10-13T23:37:00.00	4782	0-0-KL	 GRAD: twt, depth excessive

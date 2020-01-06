@@ -1,0 +1,23 @@
+# Cruise 02020032 ID A2060L02 MGD77 FILE VERSION: 19820805 N_RECS: 5147
+# Examined: Fri Mar 26 21:23:06 2010 by mtchandl
+# Arguments:  -R299.45/329.2/-33.9/14.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-I-02020032-depth-01: RLS m: 1 b: 0 rms: 20.0781 r: 0.99981 sig: 1 dec: 0
+Y-E-02020032-mag-07: Anomaly differs from mtf1-IGRF (m: 0.785469 b: -44.8393 rms: 143.292 r: 0.613462 sig: 1 dec: 1). [Recompute]
+Y-W-02020032-mtf1-12: Integer precision
+Y-W-02020032-mag-12: Integer precision
+# Errata: Data
+?	02020032	1971-02-10T12:15:00.00	1	D-0-0	 NAV: on land
+?	02020032	1971-02-22T21:46:00.00	2697	0-0-KL	 GRAD: twt, depth excessive
+?	02020032	1971-02-22T21:53:00.00	2700	0-0-K	 GRAD: twt excessive
+?	02020032	1971-02-23T18:01:00.00	2938	0-0-K	 GRAD: twt excessive
+?	02020032	1971-02-27T09:51:00.00	3752	0-0-K	 GRAD: twt excessive
+?	02020032	1971-02-27T10:19:00.00	3760	0-0-K	 GRAD: twt excessive
+?	02020032	1971-03-01T07:50:00.00	4322	0-0-K	 GRAD: twt excessive
+?	02020032	1971-03-03T03:23:00.00	4801	0-0-K	 GRAD: twt excessive
+?	02020032	1971-03-03T08:58:00.00	4828	0-0-K	 GRAD: twt excessive

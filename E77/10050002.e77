@@ -1,0 +1,30 @@
+# Cruise 10050002 ID FM0102 MGD77 FILE VERSION: 19920727 N_RECS: 8548
+# Examined: Tue Aug 24 13:51:16 2010 by mtchandl
+# Arguments:  -R-34.65/14.4/-26.8/-8.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10050002-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050002-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-I-10050002-depth-01: RLS m: 1.00019 b: 0 rms: 29.9698 r: 0.999538 sig: 1 dec: 0
+Y-E-10050002-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02911 b: -36.4703 rms: 48.3571 r: 0.965117 sig: 1 dec: 0). [Recompute]
+Y-W-10050002-depth-12: Integer precision
+Y-W-10050002-mtf1-12: Integer precision
+Y-W-10050002-mag-12: Integer precision
+# Errata: Data
+?	10050002	1979-03-27T15:25:00.00	5380	0-0-L	 GRAD: depth excessive
+?	10050002	1979-03-27T15:30:00.00	5381	0-0-L	 GRAD: depth excessive
+?	10050002	1979-04-04T14:45:00.00	7801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-04T14:50:00.00	7802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-04T18:05:00.00	7844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-06T23:10:00.00	8503	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10050002	1979-04-06T23:15:00.00	8504	0-Q-0	 VAL: mag invalid
+?	10050002	1979-04-06T23:20:00.00	8505	0-Q-0	 VAL: mag invalid
+?	10050002	1979-04-06T23:25:00.00	8506	0-Q-0	 VAL: mag invalid
+?	10050002	1979-04-06T23:35:00.00	8508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-06T23:40:00.00	8509	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-06T23:45:00.00	8510	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10050002	1979-04-06T23:50:00.00	8511	0-0-OQ	 GRAD: mtf1, mag excessive

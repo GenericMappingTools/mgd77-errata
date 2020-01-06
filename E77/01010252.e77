@@ -1,0 +1,62 @@
+# Cruise 01010252 ID RC2606 MGD77 FILE VERSION: 19910319 N_RECS: 14932
+# Examined: Wed Jul  8 15:27:02 2009 by mtchandl
+# Arguments:  -R275.35/280.1/0.75/7.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010252-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010252-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010252-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010252-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-E-01010252-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [2]
+Y-W-01010252-H16-06: Ten Degree Identifier 5008 marked in header but was not crossed
+Y-W-01010252-nav-00: Flagged 0.22 % of records with excessive speed or invalid navigation
+Y-I-01010252-depth-01: RLS m: 1.00225 b: 0 rms: 33.4161 r: 0.997672 sig: 1 dec: 0
+N-E-01010252-depth-02: Regression slope 1.00225 different from 1. Recommended: [1]
+Y-E-01010252-mag-07: Anomaly differs from mtf1-IGRF (m: 0.946021 b: 70.8172 rms: 71.857 r: 0.985629 sig: 1 dec: 0). [Recompute]
+N-E-01010252-depth-08: Extended offset from grid [4-14932]
+Y-W-01010252-mtf1-12: Integer precision
+# Errata: Data
+Y	01010252	1985-05-08T02:28:00.00	396	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-08T02:29:00.00	397	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-08T02:37:00.00	405	C-0-0	 NAV: excessive speed
+?	01010252	1985-05-09T19:15:00.00	2843	0-0-K	 GRAD: twt excessive
+?	01010252	1985-05-14T04:28:00.00	9156	0-0-K	 GRAD: twt excessive
+Y	01010252	1985-05-15T01:43:00.00	10431	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:44:00.00	10432	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:45:00.00	10433	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:46:00.00	10434	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:47:00.00	10435	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:48:00.00	10436	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T01:49:00.00	10437	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T02:55:00.00	10503	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-15T02:57:00.00	10505	C-0-0	 NAV: excessive speed
+?	01010252	1985-05-16T01:40:00.00	11868	0-0-K	 GRAD: twt excessive
+?	01010252	1985-05-16T01:41:00.00	11869	0-0-K	 GRAD: twt excessive
+Y	01010252	1985-05-16T04:47:00.00	12055	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:48:00.00	12056	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:49:00.00	12057	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:50:00.00	12058	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:51:00.00	12059	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:52:00.00	12060	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:53:00.00	12061	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:54:00.00	12062	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:55:00.00	12063	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:56:00.00	12064	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:57:00.00	12065	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:58:00.00	12066	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-16T04:59:00.00	12067	C-0-0	 NAV: excessive speed
+?	01010252	1985-05-16T12:10:00.00	12498	0-0-KL	 GRAD: twt, depth excessive
+?	01010252	1985-05-16T13:24:00.00	12572	0-0-K	 GRAD: twt excessive
+Y	01010252	1985-05-17T02:01:00.00	13329	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T03:01:00.00	13389	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T05:01:00.00	13509	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T06:01:00.00	13569	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T07:01:00.00	13629	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T09:01:00.00	13749	C-0-0	 NAV: excessive speed
+?	01010252	1985-05-17T09:06:00.00	13754	0-0-KL	 GRAD: twt, depth excessive
+Y	01010252	1985-05-17T11:01:00.00	13869	C-0-0	 NAV: excessive speed
+Y	01010252	1985-05-17T12:01:00.00	13929	C-0-0	 NAV: excessive speed

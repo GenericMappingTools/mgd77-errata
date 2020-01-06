@@ -1,0 +1,25 @@
+# Cruise 09260004 ID LY70D MGD77 FILE VERSION: 19810609 N_RECS: 16213
+# Examined: Mon Aug  9 12:24:45 2010 by mtchandl
+# Arguments:  -R281.7/351.9/24.5/36.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged one bathymetry offset.
+# Errata: Header
+Y-W-09260004-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09260004-depth-01: RLS m: 0.965689 b: 0 rms: 115.705 r: 0.998357 sig: 1 dec: 0
+N-E-09260004-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-E-09260004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.13518 b: -150.186 rms: 174.28 r: 0.884701 sig: 1 dec: 1). [Recompute]
+Y-E-09260004-depth-08: Extended offset from grid [6048-6343]
+Y-W-09260004-mtf1-12: Integer precision
+# Errata: Data
+?	09260004	1970-06-07T16:00:00.00	2025	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260004	1970-06-07T16:33:00.00	2057	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09260004	1970-06-13T00:00:00.00	5522	B-0-0	 NAV: non-increasing time
+?	09260004	1970-06-13T01:09:00.00	5573	0-0-K	 GRAD: twt excessive
+?	09260004	1970-06-13T01:56:00.00	5614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09260004	1970-06-13T07:54:00.00	5736	0-0-KL	 GRAD: twt, depth excessive
+?	09260004	1970-06-13T09:25:00.00	5791	0-0-KL	 GRAD: twt, depth excessive
+?	09260004	1970-06-13T13:22:00.00	5898	0-0-K	 GRAD: twt excessive
+?	09260004	1970-06-14T06:16:00.00	6299	0-0-K	 GRAD: twt excessive

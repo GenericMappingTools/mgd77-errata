@@ -1,0 +1,62 @@
+# Cruise 19180039 ID CD6291 MGD77 FILE VERSION: 19950628 N_RECS: 62192
+# Examined: Mon Sep 20 13:25:34 2010 by mtchandl
+# Arguments:  -R316.7/352.95/51.15/60.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Cruise contains unprocessed bathymetry with unreasonable gradients.
+# Errata: Header
+Y-I-19180039-depth-01: RLS m: 1.00315 b: 0 rms: 46.2109 r: 0.999072 sig: 1 dec: 0
+N-E-19180039-depth-02: Regression slope 1.00315 different from 1. Recommended: [1]
+Y-W-19180039-depth-12: Integer precision
+# Errata: Data
+?	19180039	1991-08-03T02:37:00.00	2027	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-03T02:38:00.00	2029	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-03T08:21:00.00	2715	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-03T08:23:30.00	2720	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-03T08:24:30.00	2722	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-03T08:28:00.00	2729	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-05T14:49:30.00	9252	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T01:14:30.00	10502	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T17:42:30.00	12478	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T17:44:30.00	12482	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T17:54:30.00	12502	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T17:55:00.00	12503	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T17:56:00.00	12505	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-06T18:03:30.00	12520	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-11T06:47:00.00	25567	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-11T06:54:00.00	25581	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-11T07:08:00.00	25609	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-11T07:08:30.00	25610	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-11T11:09:30.00	26092	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:06:00.00	28965	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:06:30.00	28966	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:07:00.00	28967	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:31:30.00	29016	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:32:00.00	29017	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:53:00.00	29059	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T11:54:00.00	29061	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T14:06:30.00	29326	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T14:51:30.00	29416	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T20:09:00.00	30051	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T20:09:30.00	30052	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-12T23:11:00.00	30415	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-13T02:58:30.00	30870	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-13T02:59:00.00	30871	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-14T05:04:00.00	34001	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-14T07:00:00.00	34233	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-17T17:27:30.00	44128	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-17T17:28:30.00	44130	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-17T18:09:30.00	44212	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-17T18:10:30.00	44214	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-19T02:41:30.00	48116	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-19T02:42:00.00	48117	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-19T02:45:00.00	48123	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-19T03:33:00.00	48219	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-21T22:10:30.00	56214	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-21T22:44:00.00	56281	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-22T07:35:00.00	57343	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-23T10:17:30.00	60548	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-23T10:46:30.00	60606	0-0-L	 GRAD: depth excessive
+?	19180039	1991-08-23T23:12:00.00	62097	0-0-L	 GRAD: depth excessive

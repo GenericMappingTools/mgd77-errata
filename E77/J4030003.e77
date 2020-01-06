@@ -1,0 +1,62 @@
+# Cruise J4030003 ID UM6402-A MGD77 FILE VERSION: 19790101 N_RECS: 5560
+# Examined: Sun Aug  7 10:19:35 2011 by mtchandl
+# Arguments:  -R132.6/175.8/-65.1/34.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomalies could be outdated, no total field data for recalculation.
+# Errata: Header
+N-E-J4030003-H04-03: Invalid Survey Departure Day: (22) [26]
+Y-W-J4030003-nav-00: Flagged 0.50 % of records with bad navigation
+Y-I-J4030003-depth-01: RLS m: 1.00035 b: 0 rms: 11.5712 r: 0.999981 sig: 1 dec: 0
+N-E-J4030003-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-W-J4030003-depth-12: Integer precision
+Y-W-J4030003-mag-12: Integer precision
+# Errata: Data
+Y	J4030003	1964-11-01T20:40:00.00	941	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-01T20:50:00.00	942	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-01T21:00:00.00	943	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-01T21:10:00.00	944	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-01T21:20:00.00	945	C-0-0	 NAV: excessive speed
+?	J4030003	1964-11-04T18:30:00.00	1360	0-0-Q	 GRAD: mag excessive
+Y	J4030003	1964-11-07T07:40:00.00	1582	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T07:50:00.00	1583	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:00:00.00	1584	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:10:00.00	1585	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:20:00.00	1586	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:30:00.00	1587	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:40:00.00	1588	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-07T08:50:00.00	1589	C-0-0	 NAV: excessive speed
+?	J4030003	1964-11-17T11:30:00.00	2081	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J4030003	1964-11-17T11:40:00.00	2082	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-11-17T12:20:00.00	2086	0-Q-0	 VAL: mag invalid
+?	J4030003	1964-11-17T12:30:00.00	2087	0-Q-0	 VAL: mag invalid
+?	J4030003	1964-11-17T12:40:00.00	2088	0-Q-0	 VAL: mag invalid
+?	J4030003	1964-11-17T18:00:00.00	2120	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J4030003	1964-11-17T18:10:00.00	2121	0-Q-0	 VAL: mag invalid
+?	J4030003	1964-11-17T18:20:00.00	2122	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-11-17T18:30:00.00	2123	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-11-17T19:30:00.00	2129	0-Q-0	 VAL: mag invalid
+?	J4030003	1964-11-17T19:40:00.00	2130	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-11-18T04:30:00.00	2183	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-11-18T09:30:00.00	2213	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J4030003	1964-11-18T09:40:00.00	2214	0-0-Q	 GRAD: mag excessive
+Y	J4030003	1964-11-18T15:10:00.00	2247	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-18T15:20:00.00	2248	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-18T15:30:00.00	2249	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-18T15:40:00.00	2250	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-18T15:50:00.00	2251	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-11-18T16:00:00.00	2252	C-0-0	 NAV: excessive speed
+?	J4030003	1964-11-23T00:20:00.00	2878	0-0-Q	 GRAD: mag excessive
+Y	J4030003	1964-12-01T09:40:00.00	3067	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-01T09:50:00.00	3068	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-01T10:00:00.00	3069	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-01T10:10:00.00	3070	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-01T10:20:00.00	3071	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-01T10:30:00.00	3072	C-0-0	 NAV: excessive speed
+?	J4030003	1964-12-05T15:20:00.00	3669	0-0-Q	 GRAD: mag excessive
+?	J4030003	1964-12-18T08:30:00.00	4639	0-0-Q	 GRAD: mag excessive
+Y	J4030003	1964-12-24T00:10:00.00	5245	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-24T00:20:00.00	5246	C-0-0	 NAV: excessive speed
+Y	J4030003	1964-12-24T00:30:00.00	5247	C-0-0	 NAV: excessive speed

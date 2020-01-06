@@ -1,0 +1,39 @@
+# Cruise 67010031 ID 72001111 MGD77 FILE VERSION: 19830804 N_RECS: 5169
+# Examined: Thu Jul 28 18:45:22 2011 by mtchandl
+# Arguments:  -R-25.6/-5.15/37/48.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010031-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-67010031-depth-01: RLS m: 1.00129 b: 0 rms: 27.9938 r: 0.999499 sig: 1 dec: 0
+N-E-67010031-depth-02: Regression slope 1.00129 different from 1. Recommended: [1]
+Y-I-67010031-faa-01: RLS m: 1 b: 6.48851 rms: 15.0254 r: 0.965219 sig: 1 dec: 1
+Y-W-67010031-faa-03: Regression offset 6.48851 different from 0.
+Y-E-67010031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995088 b: -48.2993 rms: 49.0934 r: 0.999275 sig: 1 dec: 0). [Recompute]
+Y-W-67010031-twt-11: More recent bathymetry correction table available
+Y-W-67010031-mtf1-12: Integer precision
+Y-W-67010031-mag-12: Integer precision
+# Errata: Data
+?	67010031	1972-09-23T16:17:00.00	26	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010031	1972-09-23T16:22:00.00	32	B-0-0	 NAV: non-increasing time
+?	67010031	1972-09-23T16:23:00.00	33	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010031	1972-09-23T16:25:00.00	35	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010031	1972-09-23T16:27:00.00	37	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010031	1972-09-23T16:29:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010031	1972-09-23T16:40:00.00	49	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010031	1972-09-23T17:41:00.00	104	B-0-0	 NAV: non-increasing time
+?	67010031	1972-09-25T14:51:00.00	1480	0-0-W	 GRAD: faa excessive
+Y	67010031	1972-09-25T14:51:00.00	1481	B-0-0	 NAV: non-increasing time
+?	67010031	1972-09-27T20:56:00.00	2834	0-0-KL	 GRAD: twt, depth excessive
+Y	67010031	1972-09-27T23:55:00.00	2868	B-0-0	 NAV: non-increasing time
+Y	67010031	1972-09-28T00:16:00.00	2882	B-0-0	 NAV: non-increasing time
+Y	67010031	1972-09-28T01:44:00.00	2932	C-0-0	 NAV: excessive speed
+Y	67010031	1972-09-28T11:18:00.00	3313	B-0-0	 NAV: non-increasing time
+Y	67010031	1972-09-29T10:10:00.00	3766	B-0-0	 NAV: non-increasing time
+?	67010031	1972-09-30T13:53:00.00	4155	0-0-KL	 GRAD: twt, depth excessive
+Y	67010031	1972-10-01T15:10:00.00	4953	B-0-0	 NAV: non-increasing time
+Y	67010031	1972-10-01T16:03:00.00	4981	B-0-0	 NAV: non-increasing time
+Y	67010031	1972-10-01T17:03:00.00	5017	B-0-0	 NAV: non-increasing time

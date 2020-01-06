@@ -1,0 +1,20 @@
+# Cruise 67020002 ID 72001821 MGD77 FILE VERSION: 19800427 N_RECS: 1592
+# Examined: Sun Jul 31 22:02:43 2011 by mtchandl
+# Arguments:  -R-80/-68.05/11/15.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67020002-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-67020002-depth-01: RLS m: 1.00082 b: 0 rms: 8.38857 r: 0.999814 sig: 1 dec: 0
+Y-E-67020002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.965662 b: -353.76 rms: 355.278 r: 0.934244 sig: 1 dec: 1). [Recompute]
+Y-W-67020002-mag-09: only found negative values
+Y-W-67020002-twt-11: More recent bathymetry correction table available
+Y-W-67020002-mtf1-12: Integer precision
+Y-W-67020002-mag-12: Integer precision
+# Errata: Data
+Y	67020002	1972-11-03T16:28:00.00	205	C-0-0	 NAV: excessive speed
+Y	67020002	1972-11-03T16:30:00.00	206	C-0-0	 NAV: excessive speed
+Y	67020002	1972-11-03T16:31:00.00	207	C-0-0	 NAV: excessive speed

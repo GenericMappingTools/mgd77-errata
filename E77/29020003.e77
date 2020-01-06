@@ -1,0 +1,17 @@
+# Cruise 29020003 ID VIT51 MGD77 FILE VERSION: 19851230 N_RECS: 5204
+# Examined: Mon Nov 23 15:54:00 2009 by mtchandl
+# Arguments:  -R128.45/176/-27/40.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa using IGF 1980.
+# Errata: Header
+N-E-29020003-H04-06: Invalid Survey Arrival Day: (10) [08]
+Y-I-29020003-depth-01: RLS m: 1 b: 0 rms: 17.4483 r: 0.999922 sig: 1 dec: 0
+Y-I-29020003-faa-01: RLS m: 1.00475 b: -6.10093 rms: 16.5881 r: 0.982674 sig: 1 dec: 1
+Y-W-29020003-faa-03: Regression offset -6.10093 different from 0.
+N-E-29020003-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999709 b: -16.2415 rms: 16.246 r: 0.999993 sig: 1 dec: 0). [Recompute]
+Y-E-29020003-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.999988 b: -0.00364977 rms: 0.044634 r: 0.999999 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-W-29020003-depth-12: Integer precision
+# Errata: Data

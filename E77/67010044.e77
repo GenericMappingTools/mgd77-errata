@@ -1,0 +1,49 @@
+# Cruise 67010044 ID 73002911 MGD77 FILE VERSION: 19920924 N_RECS: 20639
+# Examined: Fri Jul 29 16:22:43 2011 by mtchandl
+# Arguments:  -R-42.7/-25.65/-23.05/37.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing gravity and magnetic anomalies. Flagged gravity offset at start of cruise.
+# Errata: Header
+Y-I-67010044-depth-01: RLS m: 0.969406 b: 0 rms: 125.547 r: 0.999134 sig: 1 dec: 0
+N-E-67010044-depth-02: Regression slope 0.969406 different from 1. Recommended: [1]
+Y-I-67010044-faa-01: RLS m: 0.995286 b: 15.3707 rms: 15.729 r: 0.971858 sig: 1 dec: 0
+Y-W-67010044-faa-03: Regression offset 15.3707 different from 0.
+Y-I-67010044-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-67010044-faa-10: Invalid data records: [1-981]
+Y-E-67010044-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.928356 b: 7.539 rms: 7.75355 r: 0.98473 sig: 1 dec: 0). [Recompute]
+Y-E-67010044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999274 b: -8.81731 rms: 11.8491 r: 0.99976 sig: 1 dec: 1). [Recompute]
+Y-W-67010044-depth-12: Integer precision
+Y-W-67010044-mtf1-12: Integer precision
+Y-W-67010044-mag-12: Integer precision
+# Errata: Data
+?	67010044	1973-10-03T09:03:00.00	3	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:07:00.00	67	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:08:00.00	68	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:22:00.00	82	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:23:00.00	83	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:24:00.00	84	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:25:00.00	85	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:26:00.00	86	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:27:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:28:00.00	88	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:29:00.00	89	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:30:00.00	90	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:31:00.00	91	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:32:00.00	92	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:33:00.00	93	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:34:00.00	94	0-0-Q	 GRAD: mag excessive
+?	67010044	1973-10-03T10:42:00.00	102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:56:00.00	116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:57:00.00	117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T10:58:00.00	118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:14:00.00	254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:24:00.00	264	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:25:00.00	265	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:26:00.00	266	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:27:00.00	267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010044	1973-10-03T13:28:00.00	268	0-0-O	 GRAD: mtf1 excessive
+?	67010044	1973-10-03T14:38:00.00	338	0-0-KL	 GRAD: twt, depth excessive
+?	67010044	1973-10-08T23:12:00.00	8052	0-0-K	 GRAD: twt excessive

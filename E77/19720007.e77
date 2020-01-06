@@ -1,0 +1,14 @@
+# Cruise 19720007 ID JCR10L02 MGD77 FILE VERSION: 19961008 N_RECS: 2256
+# Examined: Mon Oct 18 15:36:40 2010 by mtchandl
+# Arguments:  -R288.4/302.4/-68.3/-51.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19720007-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-19720007-depth-01: RLS m: 0.999264 b: 0 rms: 8.42508 r: 0.999976 sig: 1 dec: 0
+N-E-19720007-depth-02: Regression slope 0.999264 different from 1. Recommended: [1]
+# Errata: Data
+Y	19720007	1994-12-08T12:11:00.00	2256	D-0-0	 NAV: on land

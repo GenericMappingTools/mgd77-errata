@@ -1,0 +1,67 @@
+# Cruise 09120002 ID DUT07-70 MGD77 FILE VERSION: 19790329 N_RECS: 2000
+# Examined: Mon Aug  9 12:19:49 2010 by mtchandl
+# Arguments:  -R345.9/349.2/64.05/67.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09120002-nav-00: Flagged 2.60 % of records with bad navigation
+Y-I-09120002-faa-01: RLS m: 0.97419 b: 12.3044 rms: 11.2512 r: 0.996208 sig: 1 dec: 0
+N-E-09120002-faa-02: Regression slope 0.97419 different from 1. Recommended: [1]
+Y-W-09120002-faa-03: Regression offset 12.3044 different from 0.
+Y-W-09120002-faa-09: only found positive values
+# Errata: Data
+Y	09120002	1970-04-11T03:12:00.00	599	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T03:18:00.00	605	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T03:34:00.00	621	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:33:00.00	763	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:35:00.00	765	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:40:00.00	770	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:47:00.00	777	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:52:00.00	782	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T06:56:00.00	786	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T07:03:00.00	793	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T07:49:00.00	839	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T08:36:00.00	886	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T08:46:00.00	896	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T09:08:00.00	918	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T11:10:00.00	986	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T11:38:00.00	1014	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T11:47:00.00	1023	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T12:01:00.00	1037	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T12:06:00.00	1042	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T12:09:00.00	1045	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T12:39:00.00	1075	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T12:53:00.00	1089	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:02:00.00	1098	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:07:00.00	1103	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:15:00.00	1111	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:21:00.00	1117	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:26:00.00	1122	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:31:00.00	1127	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:37:00.00	1133	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:40:00.00	1136	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:46:00.00	1142	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T13:53:00.00	1149	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:02:00.00	1158	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:06:00.00	1162	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:11:00.00	1167	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:15:00.00	1171	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:18:00.00	1174	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T14:21:00.00	1177	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T17:35:00.00	1332	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T17:55:00.00	1352	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T18:12:00.00	1369	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T18:24:00.00	1381	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T18:34:00.00	1391	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T20:55:00.00	1495	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T21:29:00.00	1529	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T22:45:00.00	1605	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-11T22:55:00.00	1615	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-12T03:51:00.00	1826	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-12T04:21:00.00	1856	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-13T02:16:00.00	1914	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-13T02:22:00.00	1920	C-0-0	 NAV: excessive speed
+Y	09120002	1970-04-13T04:05:00.00	1970	C-0-0	 NAV: excessive speed

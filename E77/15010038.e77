@@ -1,0 +1,15 @@
+# Cruise 15010038 ID LUSI10AR MGD77 FILE VERSION: 19800226 N_RECS: 5454
+# Examined: Mon May 12 17:09:11 2008 by mtchandl
+# Arguments:  -R242.55/279.6/5.5/32.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15010038-depth-01: RLS m: 1 b: 0 rms: 154.721 r: 0.986753 significant: 1 decimation: 1
+Y-E-15010038-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992207 b: -66.8375 rms: 107.213 r: 0.853581 sig: 1 dec: 1). [Recompute]
+Y-W-15010038-twt-11: More recent bathymetry correction table available
+Y-W-15010038-mtf1-12: Integer multiple of 5 precision
+Y-W-15010038-mag-12: Integer multiple of 5 precision
+# Errata: Data

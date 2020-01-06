@@ -1,0 +1,95 @@
+# Cruise 84010005 ID ZOE200 MGD77 FILE VERSION: 19870630 N_RECS: 5050
+# Examined: Wed Aug  3 07:24:07 2011 by mtchandl
+# Arguments:  -R157.45/166/-24/-18.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Turned on excessive gradient flags to remove outliers. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-84010005-H13-10: Survey year (1983) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-84010005-H14-05: Invalid Gravity Reference System Code: (8) [8]
+Y-W-84010005-nav-00: Flagged 0.38 % of records with bad navigation
+Y-I-84010005-depth-01: RLS m: 1.00063 b: 0 rms: 8.30113 r: 0.999969 sig: 1 dec: 0
+N-E-84010005-depth-02: Regression slope 1.00063 different from 1. Recommended: [1]
+Y-I-84010005-faa-01: RLS m: 0.981131 b: -1.57371 rms: 6.79377 r: 0.989379 sig: 1 dec: 0
+N-E-84010005-faa-02: Regression slope 0.981131 different from 1. Recommended: [1]
+Y-W-84010005-faa-03: Regression offset -1.57371 different from 0.
+Y-I-84010005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-84010005-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993683 b: 112.32 rms: 112.709 r: 0.999181 sig: 1 dec: 1). [Recompute]
+Y-W-84010005-depth-12: Integer precision
+Y-W-84010005-mtf1-12: Integer precision
+Y-W-84010005-mag-12: Integer precision
+Y-W-84010005-faa-12: Integer precision
+# Errata: Data
+Y	84010005	1983-02-17T02:45:00.00	27	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-18T14:50:00.00	472	0-0-L	 GRAD: depth excessive
+?	84010005	1983-02-18T14:55:00.00	473	0-0-L	 GRAD: depth excessive
+?	84010005	1983-02-19T09:25:00.00	688	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-19T09:30:00.00	689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-19T21:45:00.00	834	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-19T21:50:00.00	835	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-19T21:55:00.00	836	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-19T22:00:00.00	837	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-19T23:10:00.00	852	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-19T23:15:00.00	853	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-02-20T14:01:00.00	1037	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-21T10:13:00.00	1278	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-22T09:25:00.00	1568	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-23T11:01:00.00	1882	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-23T17:45:00.00	1967	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-23T17:50:00.00	1968	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+Y	84010005	1983-02-23T21:45:00.00	1986	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-24T16:00:00.00	2212	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-24T20:55:00.00	2275	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-24T23:15:00.00	2304	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-25T03:00:00.00	2351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-25T03:10:00.00	2353	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-25T03:15:00.00	2354	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-02-25T03:35:00.00	2359	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-25T04:05:00.00	2365	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-25T04:10:00.00	2366	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-02-25T22:50:00.00	2599	C-0-0	 NAV: excessive speed
+Y	84010005	1983-02-25T23:28:00.00	2607	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-26T11:00:00.00	2748	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-26T11:05:00.00	2749	0-Q-0	 VAL: mag invalid
+Y	84010005	1983-02-27T01:50:00.00	2929	C-0-0	 NAV: excessive speed
+?	84010005	1983-02-27T04:05:00.00	2957	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T04:10:00.00	2958	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T07:20:00.00	2998	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T07:25:00.00	2999	0-0-O	 GRAD: mtf1 excessive
+?	84010005	1983-02-27T07:30:00.00	3000	0-0-Q	 GRAD: mag excessive
+?	84010005	1983-02-27T20:25:00.00	3013	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T20:55:00.00	3019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T21:05:00.00	3021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-27T21:40:00.00	3028	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-28T09:35:00.00	3174	0-0-UW	 GRAD: gobs, faa excessive
+?	84010005	1983-02-28T13:15:00.00	3214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-28T13:20:00.00	3215	0-Q-0	 VAL: mag invalid
+?	84010005	1983-02-28T13:35:00.00	3218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	84010005	1983-02-28T23:10:00.00	3331	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-02-28T23:25:00.00	3334	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-03-01T23:10:00.00	3544	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-03-01T23:15:00.00	3545	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-03-02T03:30:00.00	3600	C-0-0	 NAV: excessive speed
+?	84010005	1983-03-02T05:45:00.00	3629	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-03-03T03:30:00.00	3901	C-0-0	 NAV: excessive speed
+?	84010005	1983-03-04T08:50:00.00	4268	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T09:00:00.00	4270	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T09:30:00.00	4276	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T11:00:00.00	4296	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T11:35:00.00	4303	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T13:00:00.00	4320	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T13:05:00.00	4321	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T13:30:00.00	4326	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T13:35:00.00	4327	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T14:10:00.00	4334	0-0-L	 GRAD: depth excessive
+?	84010005	1983-03-04T23:20:00.00	4448	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-03-04T23:25:00.00	4449	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-03-05T03:35:00.00	4501	C-0-0	 NAV: excessive speed
+Y	84010005	1983-03-05T21:10:00.00	4718	C-0-0	 NAV: excessive speed
+Y	84010005	1983-03-06T01:56:00.00	4778	C-0-0	 NAV: excessive speed
+Y	84010005	1983-03-06T15:52:00.00	4949	C-0-0	 NAV: excessive speed
+?	84010005	1983-03-06T23:05:00.00	5040	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010005	1983-03-06T23:10:00.00	5041	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	84010005	1983-03-06T23:45:00.00	5048	C-0-0	 NAV: excessive speed

@@ -1,0 +1,99 @@
+# Cruise 23060047 ID ODP143JR MGD77 FILE VERSION: 19941231 N_RECS: 17803
+# Examined: Thu Feb  3 13:33:58 2011 by mtchandl
+# Arguments:  -R162.25/202.15/7.1/21.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-23060047-H13-10: Survey year (1992) outside magnetic reference field IGRF-85 time range (1945-1990)
+Y-I-23060047-depth-01: RLS m: 1 b: 0 rms: 11.8751 r: 0.999958 sig: 1 dec: 0
+Y-E-23060047-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996868 b: 18.4509 rms: 23.7438 r: 0.999113 sig: 1 dec: 1). [Recompute]
+Y-W-23060047-twt-11: More recent bathymetry correction table available
+Y-W-23060047-depth-12: Integer precision
+Y-W-23060047-mtf1-12: Integer precision
+# Errata: Data
+?	23060047	1992-05-01T13:23:00.00	12488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:24:00.00	12489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:34:00.00	12499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:35:00.00	12500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:36:00.00	12501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:37:00.00	12502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T13:39:00.00	12504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:19:00.00	12542	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:20:00.00	12543	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:21:00.00	12544	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:22:00.00	12545	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:23:00.00	12546	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:24:00.00	12547	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-01T14:25:00.00	12548	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-01T14:26:00.00	12549	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-01T14:27:00.00	12550	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:28:00.00	12551	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:29:00.00	12552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:30:00.00	12553	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:31:00.00	12554	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:32:00.00	12555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:33:00.00	12556	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:34:00.00	12557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-01T14:35:00.00	12558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:49:00.00	13558	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:50:00.00	13559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:51:00.00	13560	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:52:00.00	13561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:53:00.00	13562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:54:00.00	13563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:55:00.00	13564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:56:00.00	13565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:57:00.00	13566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:58:00.00	13567	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T07:59:00.00	13568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T08:00:00.00	13569	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T08:01:00.00	13570	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T08:02:00.00	13571	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T08:03:00.00	13572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T08:04:00.00	13573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:01:00.00	13676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:02:00.00	13677	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:03:00.00	13678	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:04:00.00	13679	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:05:00.00	13680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:06:00.00	13681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:07:00.00	13682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:08:00.00	13683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:10:00.00	13685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060047	1992-05-02T10:14:00.00	13689	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:15:00.00	13690	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:16:00.00	13691	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:17:00.00	13692	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:18:00.00	13693	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:19:00.00	13694	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:20:00.00	13695	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:21:00.00	13696	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:22:00.00	13697	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:23:00.00	13698	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:24:00.00	13699	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:25:00.00	13700	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:26:00.00	13701	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:27:00.00	13702	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:28:00.00	13703	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:29:00.00	13704	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:31:00.00	13706	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:32:00.00	13707	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:33:00.00	13708	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:34:00.00	13709	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:35:00.00	13710	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:36:00.00	13711	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:37:00.00	13712	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:38:00.00	13713	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:39:00.00	13714	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:40:00.00	13715	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:41:00.00	13716	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:42:00.00	13717	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:43:00.00	13718	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:44:00.00	13719	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:45:00.00	13720	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:46:00.00	13721	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:47:00.00	13722	0-Q-0	 VAL: mag invalid
+?	23060047	1992-05-02T10:48:00.00	13723	0-Q-0	 VAL: mag invalid

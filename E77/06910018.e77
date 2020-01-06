@@ -1,0 +1,165 @@
+# Cruise 06910018 ID P785NS MGD77 FILE VERSION: 19881202 N_RECS: 20948
+# Examined: Fri Jul 16 17:10:52 2010 by mtchandl
+# Arguments:  -R295.95/304.15/43.25/46.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+N-E-06910018-H11-05: Invalid Leftmost Longitude: (-064) [-065]
+Y-W-06910018-nav-00: Flagged 0.69 % of records with bad navigation
+Y-I-06910018-depth-01: RLS m: 1.0028 b: 0 rms: 11.308 r: 0.994017 sig: 1 dec: 0
+N-E-06910018-depth-02: Regression slope 1.0028 different from 1. Recommended: [1]
+Y-I-06910018-faa-01: RLS m: 0.995183 b: 3.11659 rms: 4.26787 r: 0.985535 sig: 1 dec: 0
+N-E-06910018-faa-02: Regression slope 0.995183 different from 1. Recommended: [1]
+Y-W-06910018-faa-03: Regression offset 3.11659 different from 0.
+Y-I-06910018-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910018-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.941958 b: 34.9014 rms: 37.4021 r: 0.966627 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+?	06910018	1985-07-18T22:49:00.00	1550	0-0-KL	 GRAD: twt, depth excessive
+Y	06910018	1985-07-21T19:49:00.00	5690	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:50:00.00	5691	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:51:00.00	5692	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:52:00.00	5693	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:53:00.00	5694	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:54:00.00	5695	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:55:00.00	5696	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:56:00.00	5697	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:57:00.00	5698	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:58:00.00	5699	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T19:59:00.00	5700	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T20:00:00.00	5701	C-0-0	 NAV: excessive speed
+Y	06910018	1985-07-21T20:01:00.00	5702	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:02:00.00	5704	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:03:00.00	5705	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:04:00.00	5706	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:05:00.00	5707	CD-0-0	 NAV: excessive speed, on land
+Y	06910018	1985-09-06T15:06:00.00	5708	CD-0-0	 NAV: excessive speed, on land
+Y	06910018	1985-09-06T15:07:00.00	5709	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:08:00.00	5710	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:09:00.00	5711	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:10:00.00	5712	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:11:00.00	5713	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:12:00.00	5714	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:13:00.00	5715	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:14:00.00	5716	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:15:00.00	5717	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:16:00.00	5718	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:17:00.00	5719	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:18:00.00	5720	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:19:00.00	5721	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:20:00.00	5722	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:21:00.00	5723	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:22:00.00	5724	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:23:00.00	5725	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:24:00.00	5726	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:25:00.00	5727	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:26:00.00	5728	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:27:00.00	5729	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:28:00.00	5730	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:29:00.00	5731	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:30:00.00	5732	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:31:00.00	5733	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:32:00.00	5734	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:33:00.00	5735	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:34:00.00	5736	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:35:00.00	5737	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:36:00.00	5738	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:37:00.00	5739	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:38:00.00	5740	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:39:00.00	5741	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:40:00.00	5742	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:41:00.00	5743	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:42:00.00	5744	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:43:00.00	5745	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:44:00.00	5746	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:45:00.00	5747	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:46:00.00	5748	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:47:00.00	5749	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:48:00.00	5750	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:49:00.00	5751	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:50:00.00	5752	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:51:00.00	5753	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:52:00.00	5754	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:53:00.00	5755	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:54:00.00	5756	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:55:00.00	5757	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:56:00.00	5758	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:57:00.00	5759	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:58:00.00	5760	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T15:59:00.00	5761	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:00:00.00	5762	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:01:00.00	5763	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:02:00.00	5764	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:03:00.00	5765	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:04:00.00	5766	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:05:00.00	5767	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:06:00.00	5768	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:07:00.00	5769	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:08:00.00	5770	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:09:00.00	5771	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:10:00.00	5772	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:11:00.00	5773	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:12:00.00	5774	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:13:00.00	5775	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:14:00.00	5776	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:15:00.00	5777	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:16:00.00	5778	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:17:00.00	5779	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:18:00.00	5780	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:19:00.00	5781	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:20:00.00	5782	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:21:00.00	5783	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:22:00.00	5784	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:23:00.00	5785	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:24:00.00	5786	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:25:00.00	5787	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:26:00.00	5788	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:27:00.00	5789	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:28:00.00	5790	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:29:00.00	5791	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:30:00.00	5792	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:31:00.00	5793	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:32:00.00	5794	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:33:00.00	5795	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:34:00.00	5796	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:35:00.00	5797	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:36:00.00	5798	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:37:00.00	5799	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:38:00.00	5800	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:39:00.00	5801	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:40:00.00	5802	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:41:00.00	5803	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:42:00.00	5804	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:43:00.00	5805	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:44:00.00	5806	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:45:00.00	5807	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:46:00.00	5808	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:47:00.00	5809	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:48:00.00	5810	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:49:00.00	5811	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:50:00.00	5812	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:51:00.00	5813	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:52:00.00	5814	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:53:00.00	5815	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:54:00.00	5816	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:55:00.00	5817	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:56:00.00	5818	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:57:00.00	5819	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:58:00.00	5820	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T16:59:00.00	5821	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:00:00.00	5822	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:01:00.00	5823	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:02:00.00	5824	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:03:00.00	5825	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:04:00.00	5826	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:05:00.00	5827	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:06:00.00	5828	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:07:00.00	5829	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:08:00.00	5830	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:09:00.00	5831	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:10:00.00	5832	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:11:00.00	5833	C-0-0	 NAV: excessive speed
+Y	06910018	1985-09-06T17:12:00.00	5834	C-0-0	 NAV: excessive speed
+?	06910018	1985-09-11T21:44:00.00	13306	0-0-KL	 GRAD: twt, depth excessive

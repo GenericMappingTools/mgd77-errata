@@ -1,0 +1,36 @@
+# Cruise 15180003 ID SILS03BT MGD77 FILE VERSION: 19800226 N_RECS: 5415
+# Examined: Mon Jun  2 11:18:31 2008 by mtchandl
+# Arguments:  -R129.55/146.6/21.1/35.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-I-15180003-depth-01: RLS m: 0.996125 b: 0 rms: 179.058 r: 0.9945 sig: 1 dec: 1
+Y-E-15180003-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.991164 b: 28.66 rms: 58.8798 r: 0.970704 sig: 1 dec: 1). [Recompute]
+Y-E-15180003-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15180003-mtf1-12: Integer multiple of 5 precision
+Y-W-15180003-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15180003	1969-11-29T14:45:00.00	58	0-0-K	 GRAD: twt excessive
+?	15180003	1969-11-29T17:50:00.00	95	0-0-K	 GRAD: twt excessive
+?	15180003	1969-11-30T02:45:00.00	202	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-11-30T04:25:00.00	222	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-05T11:50:00.00	1560	0-0-Q	 GRAD: mag excessive
+?	15180003	1969-12-10T16:25:00.00	2704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T16:30:00.00	2705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T16:35:00.00	2706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T16:40:00.00	2707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T16:50:00.00	2709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T18:10:00.00	2725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T18:25:00.00	2728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T18:30:00.00	2729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T23:15:00.00	2759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-10T23:50:00.00	2766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180003	1969-12-11T19:25:00.00	2934	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-12T02:55:00.00	2962	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-12T03:20:00.00	2967	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-13T18:15:00.00	3397	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-13T18:40:00.00	3402	0-0-KL	 GRAD: twt, depth excessive
+?	15180003	1969-12-18T01:30:00.00	4549	0-0-OQ	 GRAD: mtf1, mag excessive

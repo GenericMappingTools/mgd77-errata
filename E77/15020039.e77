@@ -1,0 +1,28 @@
+# Cruise 15020039 ID GECS-FMV MGD77 FILE VERSION: 19800226 N_RECS: 6909
+# Examined: Thu May 15 08:28:38 2008 by mtchandl
+# Arguments:  -R179/195.05/-38.3/-9.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020039-H04-06: Invalid Survey Arrival Day: (28) [27]
+Y-W-15020039-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020039-nav-00: Flagged 0.13 % of records with excessive speed or invalid navigation
+Y-I-15020039-depth-01: RLS m: 0.996125 b: 0 rms: 125.416 r: 0.989547 sig: 1 dec: 1
+Y-E-15020039-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.983118 b: 11.5745 rms: 31.0703 r: 0.989309 sig: 1 dec: 1). [Recompute]
+Y-W-15020039-twt-11: More recent bathymetry correction table available
+Y-W-15020039-mtf1-12: Integer precision
+Y-W-15020039-mag-12: Integer precision
+# Errata: Data
+?	15020039	1974-01-07T19:35:00.00	1314	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T19:40:00.00	1315	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T19:45:00.00	1316	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T19:50:00.00	1317	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T19:55:00.00	1318	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T20:00:00.00	1319	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T20:05:00.00	1320	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T20:10:00.00	1321	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T20:15:00.00	1322	D-0-0	 NAV: on land
+Y	15020039	1974-01-07T20:20:00.00	1323	D-0-0	 NAV: on land

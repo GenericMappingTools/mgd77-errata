@@ -1,0 +1,44 @@
+# Cruise 05060003 ID LH6602 MGD77 FILE VERSION: 19840921 N_RECS: 3389
+# Examined: Fri Apr 30 13:40:46 2010 by mtchandl
+# Arguments:  -R164.3/174.95/-39.4/-33.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060003-H13-09: Unknown IGRF specified (DGRF-65)
+Y-E-05060003-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00083 b: -14.0136 rms: 17.4592 r: 0.999596 sig: 1 dec: 1). [Recompute]
+Y-W-05060003-mtf1-12: Integer precision
+Y-W-05060003-mag-12: Integer precision
+# Errata: Data
+?	05060003	1966-03-14T05:32:00.00	438	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05060003	1966-03-14T05:37:00.00	439	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-14T05:42:00.00	440	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-14T06:16:00.00	447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-16T15:04:00.00	1091	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-16T15:09:00.00	1092	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-16T15:14:00.00	1093	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-16T15:19:00.00	1094	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-17T05:53:00.00	1254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-17T05:59:00.00	1255	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-18T07:28:00.00	1535	0-0-Q	 GRAD: mag excessive
+?	05060003	1966-03-19T06:56:00.00	1803	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-20T09:02:00.00	2101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-20T13:19:00.00	2150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-20T13:25:00.00	2151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-20T13:30:00.00	2152	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05060003	1966-03-20T13:35:00.00	2153	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-20T13:40:00.00	2154	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-20T13:45:00.00	2155	0-Q-0	 VAL: mag invalid
+?	05060003	1966-03-22T13:15:00.00	2693	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-22T13:21:00.00	2694	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-22T20:45:00.00	2777	0-0-O	 GRAD: mtf1 excessive
+?	05060003	1966-03-23T19:21:00.00	3034	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T19:46:00.00	3039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T19:57:00.00	3041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T21:01:00.00	3053	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T21:12:00.00	3055	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T21:54:00.00	3063	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T22:20:00.00	3068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060003	1966-03-23T22:31:00.00	3070	0-0-OQ	 GRAD: mtf1, mag excessive

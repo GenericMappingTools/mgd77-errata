@@ -1,0 +1,173 @@
+# Cruise 24050064 ID GA-0180 MGD77 FILE VERSION: 20080522 N_RECS: 58610
+# Examined: Mon Feb 14 21:55:25 2011 by mtchandl
+# Arguments:  -R80.95/115.8/-62/-31.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050064-H04-06: Invalid Survey Arrival Day: (15) [09]
+N-E-24050064-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050064-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050064-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050064-H16-06: Ten Degree Identifier 3310 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3408 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3409 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3410 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3508 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3509 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3510 not marked in header but block was crossed
+Y-W-24050064-H16-06: Ten Degree Identifier 3608 not marked in header but block was crossed
+Y-W-24050064-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-24050064-depth-01: RLS m: 0.996387 b: 0 rms: 105.279 r: 0.993257 sig: 1 dec: 0
+N-E-24050064-depth-02: Regression slope 0.996387 different from 1. Recommended: [1]
+Y-W-24050064-depth-12: Integer precision
+Y-W-24050064-mtf1-12: Integer precision
+# Errata: Data
+?	24050064	1997-02-28T04:01:00.00	1	D-0-0	 NAV: on land
+?	24050064	1997-02-28T04:02:00.00	2	D-0-0	 NAV: on land
+?	24050064	1997-02-28T04:03:00.00	3	D-0-0	 NAV: on land
+?	24050064	1997-03-01T13:34:00.00	2014	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-01T14:48:00.00	2088	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-01T15:39:00.00	2139	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-04T09:52:00.00	5923	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T00:09:00.00	6780	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T00:10:00.00	6781	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T00:34:00.00	6805	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-05T00:35:00.00	6806	0-0-KL	 GRAD: twt, depth excessive
+Y	24050064	1997-03-05T03:33:00.00	6984	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:34:00.00	6985	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:35:00.00	6986	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:36:00.00	6987	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:37:00.00	6988	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:38:00.00	6989	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:39:00.00	6990	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:40:00.00	6991	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:41:00.00	6992	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:42:00.00	6993	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:43:00.00	6994	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:44:00.00	6995	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:45:00.00	6996	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:46:00.00	6997	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:47:00.00	6998	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:48:00.00	6999	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:49:00.00	7000	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:50:00.00	7001	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:51:00.00	7002	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:52:00.00	7003	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:53:00.00	7004	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:54:00.00	7005	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:55:00.00	7006	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:56:00.00	7007	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:57:00.00	7008	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:58:00.00	7009	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T03:59:00.00	7010	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:00:00.00	7011	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:01:00.00	7012	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:02:00.00	7013	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:03:00.00	7014	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:04:00.00	7015	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:05:00.00	7016	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-05T04:06:00.00	7017	C-0-0	 NAV: excessive speed
+?	24050064	1997-03-05T14:28:00.00	7639	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T18:31:00.00	7882	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T18:43:00.00	7894	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-05T18:44:00.00	7895	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-05T23:35:00.00	8186	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-13T15:26:00.00	19217	0-0-K	 GRAD: twt excessive
+?	24050064	1997-03-13T15:27:00.00	19218	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-13T15:28:00.00	19219	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-13T15:29:00.00	19220	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-13T15:30:00.00	19221	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-16T15:15:00.00	23526	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-16T15:16:00.00	23527	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-16T15:17:00.00	23528	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-16T17:43:00.00	23674	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T17:46:00.00	23677	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T17:47:00.00	23678	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T17:57:00.00	23688	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T17:58:00.00	23689	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T18:17:00.00	23708	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T18:59:00.00	23750	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T19:01:00.00	23752	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T19:02:00.00	23753	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-16T19:03:00.00	23754	0-0-O	 GRAD: mtf1 excessive
+Y	24050064	1997-03-22T11:04:00.00	31915	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:05:00.00	31916	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:06:00.00	31917	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:07:00.00	31918	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:08:00.00	31919	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:09:00.00	31920	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:10:00.00	31921	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:11:00.00	31922	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:12:00.00	31923	C-0-0	 NAV: excessive speed
+Y	24050064	1997-03-22T11:13:00.00	31924	C-0-0	 NAV: excessive speed
+?	24050064	1997-03-24T07:59:00.00	34610	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-25T17:59:00.00	36650	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-25T18:00:00.00	36651	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T14:32:00.00	37883	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T16:34:00.00	38005	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T19:32:00.00	38183	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T19:36:00.00	38187	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T19:37:00.00	38188	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T19:50:00.00	38201	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T20:07:00.00	38218	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T20:08:00.00	38219	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T20:09:00.00	38220	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T20:37:00.00	38248	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:14:00.00	38285	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:39:00.00	38310	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:53:00.00	38324	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:55:00.00	38326	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:56:00.00	38327	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T21:58:00.00	38329	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T22:06:00.00	38337	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T22:07:00.00	38338	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T22:11:00.00	38342	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T22:12:00.00	38343	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-26T22:13:00.00	38344	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T15:39:00.00	40830	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T15:46:00.00	40837	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T15:47:00.00	40838	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T15:55:00.00	40846	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T15:56:00.00	40847	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T16:34:00.00	40885	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T16:35:00.00	40886	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T16:38:00.00	40889	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T16:39:00.00	40890	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T20:28:00.00	41119	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T20:29:00.00	41120	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T20:31:00.00	41122	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T20:36:00.00	41127	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T20:38:00.00	41129	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-03-28T23:23:00.00	41294	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-28T23:24:00.00	41295	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-28T23:25:00.00	41296	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-28T23:26:00.00	41297	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-03-31T19:06:00.00	45357	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-01T01:52:00.00	45763	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T01:53:00.00	45764	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T01:54:00.00	45765	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:20:00.00	45851	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:21:00.00	45852	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:22:00.00	45853	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:23:00.00	45854	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:24:00.00	45855	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:25:00.00	45856	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:26:00.00	45857	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T03:27:00.00	45858	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T04:36:00.00	45927	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-04-01T04:37:00.00	45928	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-04-01T12:50:00.00	46421	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-01T12:51:00.00	46422	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-01T12:52:00.00	46423	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-01T18:46:00.00	46777	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T18:47:00.00	46778	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T18:48:00.00	46779	0-0-O	 GRAD: mtf1 excessive
+?	24050064	1997-04-01T23:47:00.00	47078	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-02T00:13:00.00	47104	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-04-02T00:14:00.00	47105	0-0-KL	 GRAD: twt, depth excessive
+?	24050064	1997-04-02T00:15:00.00	47106	0-0-K	 GRAD: twt excessive
+?	24050064	1997-04-04T04:54:00.00	50265	0-0-K	 GRAD: twt excessive

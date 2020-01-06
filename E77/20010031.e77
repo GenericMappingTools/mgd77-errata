@@ -1,0 +1,55 @@
+# Cruise 20010031 ID TN044 MGD77 FILE VERSION: 19960418 N_RECS: 22754
+# Examined: Tue Oct 19 14:48:56 2010 by mtchandl
+# Arguments:  -R57.25/65/14.45/23.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-20010031-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-20010031-depth-01: RLS m: 1.0007 b: 0 rms: 6.74721 r: 0.999976 sig: 1 dec: 0
+N-E-20010031-depth-02: Regression slope 1.0007 different from 1. Recommended: [1]
+N-E-20010031-twt-13: Encountered possible PDR wrap errors (4.7) [5.0]
+# Errata: Data
+?	20010031	1995-02-09T17:03:00.00	1808	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-12T01:56:00.00	5186	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-12T02:57:00.00	5188	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-12T12:20:00.00	5591	0-0-K	 GRAD: twt excessive
+Y	20010031	1995-02-14T11:00:00.00	7818	C-0-0	 NAV: excessive speed
+Y	20010031	1995-02-14T11:01:00.00	7819	C-0-0	 NAV: excessive speed
+Y	20010031	1995-02-14T12:44:00.00	7907	C-0-0	 NAV: excessive speed
+Y	20010031	1995-02-14T12:45:00.00	7908	C-0-0	 NAV: excessive speed
+?	20010031	1995-02-20T16:24:00.00	15056	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-21T23:46:00.00	16444	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-21T23:47:00.00	16445	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T07:17:00.00	20807	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T07:22:00.00	20812	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T07:42:00.00	20832	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T08:39:00.00	20889	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T08:40:00.00	20890	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T10:49:00.00	20907	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T10:53:00.00	20911	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:05:00.00	20923	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:21:00.00	20939	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T11:31:00.00	20949	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:42:00.00	20960	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:44:00.00	20962	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:52:00.00	20970	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:53:00.00	20971	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:54:00.00	20972	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T11:56:00.00	20974	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T17:31:00.00	21269	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-26T18:24:00.00	21318	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T20:11:00.00	21425	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-26T22:56:00.00	21481	0-0-K	 GRAD: twt excessive
+Y	20010031	1995-02-27T05:14:00.00	21732	C-0-0	 NAV: excessive speed
+Y	20010031	1995-02-27T05:15:00.00	21733	C-0-0	 NAV: excessive speed
+?	20010031	1995-02-27T08:33:00.00	21857	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T08:34:00.00	21858	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T12:04:00.00	22064	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T16:04:00.00	22304	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T18:04:00.00	22424	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T20:04:00.00	22544	0-0-KL	 GRAD: twt, depth excessive
+?	20010031	1995-02-27T22:44:00.00	22659	0-0-K	 GRAD: twt excessive
+?	20010031	1995-02-27T23:24:00.00	22699	0-0-K	 GRAD: twt excessive

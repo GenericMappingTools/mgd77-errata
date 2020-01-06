@@ -1,0 +1,27 @@
+# Cruise 15040205 ID TUNE01WT MGD77 FILE VERSION: 19920924 N_RECS: 32181
+# Examined: Mon May 26 17:30:36 2008 by mtchandl
+# Arguments:  -R210.35/242.8/-17.55/36.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-15040205-depth-01: RLS m: 1 b: 0 rms: 144.864 r: 0.995231 sig: 1 dec: 1
+Y-W-15040205-twt-11: More recent bathymetry correction table available
+Y-W-15040205-depth-12: Integer precision
+# Errata: Data
+?	15040205	1991-06-07T19:59:00.00	6672	0-0-K	 GRAD: twt excessive
+?	15040205	1991-06-07T20:11:00.00	6684	0-0-K	 GRAD: twt excessive
+?	15040205	1991-06-10T00:28:00.00	8129	0-0-KL	 GRAD: twt, depth excessive
+?	15040205	1991-06-12T03:41:00.00	9580	0-0-KL	 GRAD: twt, depth excessive
+?	15040205	1991-06-13T05:18:00.00	10405	0-0-K	 GRAD: twt excessive
+?	15040205	1991-06-15T02:41:00.00	11829	0-0-K	 GRAD: twt excessive
+?	15040205	1991-06-20T07:02:00.00	15445	0-0-KL	 GRAD: twt, depth excessive
+?	15040205	1991-06-20T07:26:00.00	15469	0-0-KL	 GRAD: twt, depth excessive
+?	15040205	1991-06-26T15:10:00.00	19822	0-0-K	 GRAD: twt excessive
+?	15040205	1991-07-01T12:45:00.00	22846	0-0-K	 GRAD: twt excessive
+?	15040205	1991-07-09T05:30:00.00	28696	0-0-K	 GRAD: twt excessive
+?	15040205	1991-07-10T05:11:00.00	30095	0-0-K	 GRAD: twt excessive
+?	15040205	1991-07-11T00:49:00.00	31176	0-0-K	 GRAD: twt excessive
+?	15040205	1991-07-11T05:45:00.00	31467	0-0-K	 GRAD: twt excessive

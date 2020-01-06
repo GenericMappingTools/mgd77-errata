@@ -1,0 +1,69 @@
+# Cruise 06470005 ID S586CB MGD77 FILE VERSION: 19910719 N_RECS: 12406
+# Examined: Fri May 28 15:35:10 2010 by mtchandl
+# Arguments:  -R298.3/301/12.5/14.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+N-E-06470005-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-I-06470005-depth-01: RLS m: 1.00335 b: 0 rms: 67.1888 r: 0.995709 sig: 1 dec: 0
+N-E-06470005-depth-02: Regression slope 1.00335 different from 1. Recommended: [1]
+Y-I-06470005-faa-01: RLS m: 0.972971 b: -0.274894 rms: 4.62122 r: 0.99873 sig: 1 dec: 0
+N-E-06470005-faa-02: Regression slope 0.972971 different from 1. Recommended: [1]
+Y-W-06470005-faa-03: Regression offset -0.274894 different from 0.
+Y-I-06470005-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06470005-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.774202 b: -5.52071 rms: 43.4961 r: 0.910459 sig: 1 dec: 1). [Recompute]
+N-E-06470005-twt-13: Encountered possible PDR wrap errors (5.9) [5.0]
+Y-W-06470005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06470005	1986-09-18T22:01:00.00	102	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-20T18:02:00.00	1332	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-20T18:03:00.00	1333	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-22T16:23:00.00	2656	0-0-K	 GRAD: twt excessive
+?	06470005	1986-09-22T21:58:00.00	2920	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-22T23:19:00.00	3001	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-22T23:20:00.00	3002	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:08:00.00	3228	0-0-K	 GRAD: twt excessive
+?	06470005	1986-09-23T04:09:00.00	3229	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:10:00.00	3230	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:11:00.00	3231	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:12:00.00	3232	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:13:00.00	3233	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:14:00.00	3234	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:15:00.00	3235	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:16:00.00	3236	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-23T04:17:00.00	3237	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-24T00:08:00.00	3743	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-24T00:09:00.00	3744	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-24T00:12:00.00	3747	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-24T00:13:00.00	3748	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-24T00:18:00.00	3753	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T00:39:00.00	7242	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T00:40:00.00	7243	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T14:58:00.00	7473	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T14:59:00.00	7474	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T19:02:00.00	7717	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T19:03:00.00	7718	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T19:05:00.00	7720	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T19:25:00.00	7740	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T20:46:00.00	7771	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-09-30T21:08:00.00	7793	0-0-K	 GRAD: twt excessive
+?	06470005	1986-09-30T21:09:00.00	7794	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-01T01:48:00.00	7982	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-01T02:57:00.00	8051	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-01T02:58:00.00	8052	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-02T01:26:00.00	8584	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-02T01:27:00.00	8585	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-02T01:28:00.00	8586	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-02T22:59:00.00	9211	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-02T23:00:00.00	9212	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-02T23:01:00.00	9213	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-02T23:02:00.00	9214	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-03T23:16:00.00	10059	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-06T00:15:00.00	11691	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-06T00:22:00.00	11698	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-06T00:23:00.00	11699	0-0-KL	 GRAD: twt, depth excessive
+?	06470005	1986-10-06T21:15:00.00	12263	0-0-K	 GRAD: twt excessive
+?	06470005	1986-10-06T21:16:00.00	12264	0-0-K	 GRAD: twt excessive

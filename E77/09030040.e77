@@ -1,0 +1,43 @@
+# Cruise 09030040 ID SI343621 MGD77 FILE VERSION: 19801110 N_RECS: 16843
+# Examined: Fri Jul 30 14:39:05 2010 by mtchandl
+# Arguments:  -R184.55/211.05/51.65/56.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09030040-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-09030040-depth-01: RLS m: 1 b: 0 rms: 8.31369 r: 0.999989 sig: 1 dec: 0
+Y-W-09030040-twt-11: More recent bathymetry correction table available
+Y-W-09030040-depth-12: Integer precision
+# Errata: Data
+?	09030040	1976-07-15T12:25:00.00	173	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-18T15:24:00.00	2000	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-18T16:11:00.00	2047	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-18T16:28:00.00	2064	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-20T08:42:00.00	3129	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-20T08:45:00.00	3132	0-0-KL	 GRAD: twt, depth excessive
+?	09030040	1976-07-20T08:47:00.00	3134	0-0-KL	 GRAD: twt, depth excessive
+Y	09030040	1976-07-21T00:01:00.00	3505	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:02:00.00	3506	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:03:00.00	3507	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:04:00.00	3508	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:05:00.00	3509	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:06:00.00	3510	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:07:00.00	3511	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+Y	09030040	1976-07-21T00:08:00.00	3512	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:09:00.00	3513	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:10:00.00	3514	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:11:00.00	3515	C-0-0	 NAV: excessive speed
+Y	09030040	1976-07-21T00:12:00.00	3516	C-0-0	 NAV: excessive speed
+?	09030040	1976-07-23T01:28:00.00	4859	0-0-KL	 GRAD: twt, depth excessive
+?	09030040	1976-07-24T01:08:00.00	5110	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-24T05:37:00.00	5210	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-24T17:45:00.00	5451	0-0-KL	 GRAD: twt, depth excessive
+?	09030040	1976-07-26T10:16:00.00	6763	0-0-K	 GRAD: twt excessive
+?	09030040	1976-07-31T20:34:00.00	11723	0-0-K	 GRAD: twt excessive
+?	09030040	1976-08-01T00:21:00.00	11948	0-0-K	 GRAD: twt excessive
+?	09030040	1976-08-01T03:54:00.00	12161	0-0-K	 GRAD: twt excessive
+?	09030040	1976-08-03T19:40:00.00	15984	0-0-K	 GRAD: twt excessive
+?	09030040	1976-08-04T08:00:00.00	16723	0-0-K	 GRAD: twt excessive

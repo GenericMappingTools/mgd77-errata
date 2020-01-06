@@ -1,0 +1,26 @@
+# Cruise 09100016 ID KEA10-68 MGD77 FILE VERSION: 19790329 N_RECS: 26524
+# Examined: Mon Aug  9 12:12:19 2010 by mtchandl
+# Arguments:  -R271.2/277.65/25.9/30.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09100016-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-09100016-depth-01: RLS m: 0.965689 b: 0 rms: 58.4581 r: 0.999982 sig: 1 dec: 0
+N-E-09100016-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-I-09100016-faa-01: RLS m: 0.989853 b: 0.850279 rms: 3.06305 r: 0.99615 sig: 1 dec: 0
+N-E-09100016-faa-02: Regression slope 0.989853 different from 1. Recommended: [1]
+Y-W-09100016-faa-03: Regression offset 0.850279 different from 0.
+Y-W-09100016-depth-12: Integer precision
+# Errata: Data
+?	09100016	1968-06-17T00:50:00.00	1643	0-0-L	 GRAD: depth excessive
+?	09100016	1968-06-17T01:00:00.00	1653	0-0-L	 GRAD: depth excessive
+?	09100016	1968-06-18T07:50:00.00	3031	0-0-L	 GRAD: depth excessive
+?	09100016	1968-06-21T04:45:00.00	6664	0-0-L	 GRAD: depth excessive
+Y	09100016	1968-06-28T05:40:00.00	14640	C-0-0	 NAV: excessive speed
+?	09100016	1968-07-05T06:20:00.00	21864	0-0-L	 GRAD: depth excessive
+?	09100016	1968-07-05T06:45:00.00	21889	0-0-L	 GRAD: depth excessive
+?	09100016	1968-07-06T18:15:00.00	23500	0-0-L	 GRAD: depth excessive
+?	09100016	1968-07-06T18:20:00.00	23505	0-0-L	 GRAD: depth excessive

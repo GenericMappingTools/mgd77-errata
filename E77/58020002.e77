@@ -1,0 +1,20 @@
+# Cruise 58020002 ID NSEA86 MGD77 FILE VERSION: 19890308 N_RECS: 18136
+# Examined: Wed Jul 27 19:33:48 2011 by mtchandl
+# Arguments:  -R1.8/7.7/52.6/56.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-58020002-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-58020002-depth-01: RLS m: 1.00385 b: 0 rms: 1.01296 r: 0.997779 sig: 1 dec: 0
+N-E-58020002-depth-02: Regression slope 1.00385 different from 1. Recommended: [1]
+Y-I-58020002-faa-01: RLS m: 0.981317 b: 0.142005 rms: 1.70667 r: 0.991967 sig: 1 dec: 0
+N-E-58020002-faa-02: Regression slope 0.981317 different from 1. Recommended: [1]
+Y-W-58020002-faa-03: Regression offset 0.142005 different from 0.
+N-E-58020002-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: 0.854446 rms: 0.855405 r: 0.999995 sig: 1 dec: 0). [Recompute]
+N-E-58020002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.991986 b: 0.152547 rms: 1.14566 r: 0.996107 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	58020002	1986-04-24T12:07:37.02	469	C-0-0	 NAV: excessive speed
+Y	58020002	1986-04-28T04:21:48.00	2537	C-0-0	 NAV: excessive speed

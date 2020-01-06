@@ -1,0 +1,31 @@
+# Cruise 15040157 ID BONZ02WT MGD77 FILE VERSION: 19960813 N_RECS: 8432
+# Examined: Mon May 26 14:55:47 2008 by mtchandl
+# Arguments:  -R234.9/242.75/30.05/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15040157-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-W-15040157-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-I-15040157-depth-01: RLS m: 0.996125 b: 0 rms: 216.159 r: 0.983701 sig: 1 dec: 1
+Y-E-15040157-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.987576 b: -37.6994 rms: 40.3979 r: 0.997265 sig: 1 dec: 1). [Recompute]
+Y-W-15040157-depth-12: Integer precision
+Y-W-15040157-mtf1-12: Integer precision
+Y-W-15040157-mag-12: Integer precision
+# Errata: Data
+?	15040157	1982-06-08T02:45:00.00	647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040157	1982-06-08T02:56:00.00	658	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040157	1982-06-08T02:57:00.00	659	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15040157	1982-06-08T09:18:00.00	1040	C-0-0	 NAV: excessive speed
+Y	15040157	1982-06-09T05:48:00.00	2270	C-0-0	 NAV: excessive speed
+Y	15040157	1982-06-10T00:26:00.00	3388	C-0-0	 NAV: excessive speed
+?	15040157	1982-06-10T07:20:00.00	3802	0-0-K	 GRAD: twt excessive
+?	15040157	1982-06-11T07:07:00.00	5229	0-0-K	 GRAD: twt excessive
+Y	15040157	1982-06-11T07:12:00.00	5234	C-0-0	 NAV: excessive speed
+?	15040157	1982-06-11T09:25:00.00	5367	0-0-K	 GRAD: twt excessive
+Y	15040157	1982-06-11T22:23:00.00	6145	C-0-0	 NAV: excessive speed
+Y	15040157	1982-06-11T22:24:00.00	6146	C-0-0	 NAV: excessive speed
+Y	15040157	1982-06-11T22:25:00.00	6147	C-0-0	 NAV: excessive speed
+Y	15040157	1982-06-11T22:26:00.00	6148	C-0-0	 NAV: excessive speed

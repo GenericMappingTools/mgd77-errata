@@ -1,0 +1,14 @@
+# Cruise 09990013 ID SUB5862E MGD77 FILE VERSION: 19991130 N_RECS: 6670
+# Examined: Mon Aug 16 17:13:36 2010 by mtchandl
+# Arguments:  -R105.25/224.1/70.1/89.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-09990013-depth-01: RLS m: 0.998256 b: 0 rms: 14.2033 r: 0.999949 sig: 1 dec: 0
+N-E-09990013-depth-02: Regression slope 0.998256 different from 1. Recommended: [1]
+# Errata: Data
+?	09990013	909.801	927	0-0-KL	 GRAD: twt, depth excessive
+?	09990013	1177.75	1408	0-0-K	 GRAD: twt excessive

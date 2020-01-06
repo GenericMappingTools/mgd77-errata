@@ -1,0 +1,20 @@
+# Cruise 15010053 ID NOVA06AR MGD77 FILE VERSION: 19800226 N_RECS: 2301
+# Examined: Tue May 13 09:08:06 2008 by mtchandl
+# Arguments:  -R174.35/183.15/-36.4/-18.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-I-15010053-depth-01: RLS m: 0.996125 b: 0 rms: 133.856 r: 0.997385 sign: 1 dec: 1
+Y-E-15010053-mag-07: Anomaly equivalent to mtf1 - IGRF (m: 0.993806 b: -0.965173 rms: 52.6944 r: 0.974581 sig: 1 dec: 1) [Recompute]
+N-E-15010053-depth-08: Extended offset from grid [420-566]
+N-E-15010053-depth-08: Extended offset from grid [623-823]
+N-E-15010053-depth-08: Extended offset from grid [825-896]
+Y-E-15010053-twt-13: Encountered possible PDR wrap errors (9.4) [10.0]
+Y-W-15010053-mtf1-12: Integer multiple of 5 precision
+Y-W-15010053-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010053	1967-09-18T22:55:00.00	177	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010053	1967-09-24T16:45:00.00	895	0-0-KL	 GRAD: twt, depth excessive

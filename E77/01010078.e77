@@ -1,0 +1,15 @@
+# Cruise 01010078 ID RC1303 MGD77 FILE VERSION: 19790619 N_RECS: 9470
+# Examined: Mon Jan 26 18:00:34 2009 by mtchandl
+# Arguments:  -R194.6/209.65/21.25/36.05 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010078-depth-01: RLS m: 1 b: 0 rms: 15.4734 r: 0.99998 sig: 1 dec: 0
+Y-E-01010078-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995989 b: -115.558 rms: 117.926 r: 0.993532 sig: 1 dec: 1). [Recompute]
+Y-W-01010078-twt-11: More recent bathymetry correction table available
+Y-W-01010078-mtf1-12: Integer precision
+Y-W-01010078-mag-12: Integer precision
+# Errata: Data

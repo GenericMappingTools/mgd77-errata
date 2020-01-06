@@ -1,0 +1,30 @@
+# Cruise 19150015 ID 19910025 MGD77 FILE VERSION: 19921231 N_RECS: 1441
+# Examined: Tue Sep 14 16:15:15 2010 by mtchandl
+# Arguments:  -R289.6/303.1/-67.7/-62.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19150015-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-19150015-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-W-19150015-H13-10: Survey year (1991) outside magnetic reference field Unused time range (9999-9999)
+Y-E-19150015-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-19150015-nav-00: Flagged 0.49 % of records with bad navigation
+Y-I-19150015-depth-01: RLS m: 0.997049 b: 0 rms: 29.9164 r: 0.985719 sig: 1 dec: 0
+Y-W-19150015-depth-12: Integer precision
+# Errata: Data
+?	19150015	59.4075	182	0-0-L	 GRAD: depth excessive
+?	19150015	688.378	606	D-0-0	 NAV: on land
+?	19150015	688.53	607	D-0-0	 NAV: on land
+?	19150015	700.627	660	D-0-0	 NAV: on land
+Y	19150015	700.849	661	D-0-0	 NAV: on land
+Y	19150015	701.047	662	D-0-0	 NAV: on land
+Y	19150015	701.262	663	D-0-0	 NAV: on land
+Y	19150015	701.436	664	D-0-0	 NAV: on land
+Y	19150015	701.682	665	D-0-0	 NAV: on land
+Y	19150015	701.929	666	D-0-0	 NAV: on land
+Y	19150015	702.193	667	D-0-0	 NAV: on land
+?	19150015	702.42	668	D-0-0	 NAV: on land
+?	19150015	791.919	824	D-0-0	 NAV: on land

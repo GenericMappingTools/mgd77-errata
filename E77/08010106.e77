@@ -1,0 +1,74 @@
+# Cruise 08010106 ID KK831116 MGD77 FILE VERSION: 19971218 N_RECS: 25411
+# Examined: Mon Jul 26 17:20:47 2010 by mtchandl
+# Arguments:  -R202.1/215.05/7.9/21.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-08010106-H04-03: Invalid Survey Departure Day: (16) [17]
+Y-W-08010106-H13-10: Survey year (1983) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08010106-depth-01: RLS m: 1 b: 0 rms: 18.624 r: 0.999509 sig: 1 dec: 0
+Y-I-08010106-faa-01: RLS m: 1.00071 b: 1.40932 rms: 12.4002 r: 0.987946 sig: 1 dec: 1
+N-E-08010106-faa-06: Anomaly differs from gobs-IGF80 (m: 0.338823 b: -1.06882 rms: 42.9308 r: 0.527865 sig: 1 dec: 1). [Recompute]
+Y-I-08010106-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-08010106-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-08010106-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997383 b: -87.8016 rms: 88.8236 r: 0.999515 sig: 1 dec: 1). [Recompute]
+Y-W-08010106-mtf1-12: Integer precision
+Y-W-08010106-mag-12: Integer precision
+# Errata: Data
+?	08010106	1983-11-17T04:29:19.98	119	0-0-KL	 GRAD: twt, depth excessive
+?	08010106	1983-11-17T06:02:00.00	243	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T06:03:00.00	245	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T06:04:00.00	247	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T06:05:00.00	249	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T06:23:00.00	277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:24:00.00	278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:25:00.00	279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:26:00.00	281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:27:00.00	283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:28:00.00	284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:29:00.00	285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:30:00.00	286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T06:31:00.00	287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010106	1983-11-17T18:12:00.00	1251	0-0-KL	 GRAD: twt, depth excessive
+?	08010106	1983-11-17T19:16:00.00	1338	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:17:00.00	1339	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:18:00.00	1340	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:19:00.00	1342	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:20:00.00	1343	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:21:00.00	1344	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:22:00.00	1345	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:23:00.00	1346	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:24:00.00	1347	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-17T19:25:00.00	1348	0-Q-0	 VAL: mag invalid
+?	08010106	1983-11-19T19:31:40.02	4960	0-0-K	 GRAD: twt excessive
+?	08010106	1983-11-20T21:30:00.00	6602	0-0-U	 GRAD: gobs excessive
+?	08010106	1983-11-21T00:05:00.00	6698	0-0-V	 GRAD: eot excessive
+?	08010106	1983-11-21T00:15:00.00	6703	0-0-VW	 GRAD: eot, faa excessive
+?	08010106	1983-11-21T01:30:00.00	6746	0-0-VW	 GRAD: eot, faa excessive
+?	08010106	1983-11-22T03:27:40.02	8332	0-0-KL	 GRAD: twt, depth excessive
+?	08010106	1983-11-23T22:30:00.00	10873	0-0-UV	 GRAD: gobs, eot excessive
+?	08010106	1983-11-24T10:55:00.00	11524	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08010106	1983-11-24T11:00:00.00	11527	0-0-V	 GRAD: eot excessive
+?	08010106	1983-11-24T16:55:00.00	12006	0-0-V	 GRAD: eot excessive
+?	08010106	1983-11-24T23:25:00.00	12221	0-0-V	 GRAD: eot excessive
+?	08010106	1983-11-25T05:35:00.00	12701	0-0-UV	 GRAD: gobs, eot excessive
+?	08010106	1983-11-25T18:15:00.00	13381	0-0-V	 GRAD: eot excessive
+?	08010106	1983-11-26T16:00:00.00	14307	0-0-UV	 GRAD: gobs, eot excessive
+?	08010106	1983-11-26T22:10:00.00	14801	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08010106	1983-11-26T22:15:00.00	14805	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08010106	1983-11-28T18:35:00.00	16709	0-0-UV	 GRAD: gobs, eot excessive
+?	08010106	1983-11-29T10:20:00.00	17502	0-0-U	 GRAD: gobs excessive
+?	08010106	1983-11-29T21:25:00.00	18141	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08010106	1983-11-30T22:10:00.00	19285	0-0-VW	 GRAD: eot, faa excessive
+?	08010106	1983-12-01T20:45:48.00	20548	0-0-KL	 GRAD: twt, depth excessive
+?	08010106	1983-12-01T22:30:00.00	20645	0-0-UV	 GRAD: gobs, eot excessive
+?	08010106	1983-12-01T22:55:00.00	20661	0-0-VW	 GRAD: eot, faa excessive
+?	08010106	1983-12-02T17:50:00.00	21544	0-0-U	 GRAD: gobs excessive
+?	08010106	1983-12-03T16:58:19.98	22511	0-0-K	 GRAD: twt excessive
+?	08010106	1983-12-03T17:32:19.98	22537	0-0-KL	 GRAD: twt, depth excessive
+?	08010106	1983-12-03T17:43:40.02	22547	0-0-K	 GRAD: twt excessive
+?	08010106	1983-12-04T23:04:00.00	23655	0-0-K	 GRAD: twt excessive
+?	08010106	1983-12-06T09:16:00.00	24964	0-0-KL	 GRAD: twt, depth excessive

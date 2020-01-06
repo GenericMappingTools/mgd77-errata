@@ -1,0 +1,21 @@
+# Cruise 09030033 ID SI939011 MGD77 FILE VERSION: 19800219 N_RECS: 6810
+# Examined: Fri Jul 30 14:34:26 2010 by mtchandl
+# Arguments:  -R122.05/139.65/22.85/35.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09030033-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09030033-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-09030033-depth-01: RLS m: 0.999651 b: 0 rms: 37.2125 r: 0.999789 sig: 1 dec: 0
+Y-W-09030033-depth-12: Integer precision
+# Errata: Data
+Y	09030033	1969-03-30T07:35:00.00	3807	C-0-0	 NAV: excessive speed
+Y	09030033	1969-03-30T07:40:00.00	3808	C-0-0	 NAV: excessive speed
+Y	09030033	1969-03-30T07:45:00.00	3809	C-0-0	 NAV: excessive speed
+Y	09030033	1969-03-30T07:50:00.00	3810	C-0-0	 NAV: excessive speed
+Y	09030033	1969-03-30T07:55:00.00	3811	C-0-0	 NAV: excessive speed
+?	09030033	1969-04-15T12:10:00.00	5219	0-0-K	 GRAD: twt excessive
+Y	09030033	1969-04-19T14:15:00.00	5761	D-0-0	 NAV: on land

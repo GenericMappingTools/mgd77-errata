@@ -1,0 +1,52 @@
+# Cruise 15040088 ID GUAY02WT MGD77 FILE VERSION: 19830819 N_RECS: 1612
+# Examined: Fri May 23 09:56:10 2008 by mtchandl
+# Arguments:  -R248.2/250/26.1/28.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040088-depth-01: RLS m: 0.996125 b: 0 rms: 58.4158 r: 0.994701 sig: 1 dec: 1
+Y-E-15040088-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.993867 b: -65.6265 rms: 70.2678 r: 0.994621 sig: 1 dec: 1). [Recompute]
+Y-W-15040088-twt-11: More recent bathymetry correction table available
+Y-W-15040088-mtf1-12: Integer precision
+Y-W-15040088-mag-12: Integer precision
+# Errata: Data
+?	15040088	1978-03-02T11:15:00.00	48	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:20:00.00	49	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:25:00.00	50	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:30:00.00	51	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:35:00.00	52	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:40:00.00	53	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:45:00.00	54	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:50:00.00	55	D-0-0	 NAV: on land
+?	15040088	1978-03-02T11:55:00.00	56	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:00:00.00	57	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:05:00.00	58	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:10:00.00	59	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:15:00.00	60	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:20:00.00	61	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:25:00.00	62	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:30:00.00	63	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:35:00.00	64	D-0-0	 NAV: on land
+?	15040088	1978-03-02T12:40:00.00	65	D-0-0	 NAV: on land
+?	15040088	1978-03-05T21:35:00.00	1036	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-05T21:40:00.00	1037	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-05T21:45:00.00	1038	0-0-Q	 GRAD: mag excessive
+?	15040088	1978-03-05T22:00:00.00	1041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-05T22:05:00.00	1042	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-07T02:05:00.00	1378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-07T02:10:00.00	1379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040088	1978-03-07T19:55:00.00	1592	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:00:00.00	1593	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:05:00.00	1594	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:10:00.00	1595	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:15:00.00	1596	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:20:00.00	1597	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:25:00.00	1598	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:30:00.00	1599	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:35:00.00	1600	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:40:00.00	1601	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:45:00.00	1602	D-0-0	 NAV: on land
+?	15040088	1978-03-07T20:50:00.00	1603	D-0-0	 NAV: on land

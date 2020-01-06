@@ -1,0 +1,142 @@
+# Cruise 01010282 ID RC2806 MGD77 FILE VERSION: 19910924 N_RECS: 91631
+# Examined: Fri Mar 19 00:58:16 2010 by mtchandl
+# Arguments:  -R321.55/348.2/-8.1/4.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01010282-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010282-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010282-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010282-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010282-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010282-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-01010282-depth-01: RLS m: 1 b: 0 rms: 38.6755 r: 0.998975 sig: 1 dec: 0
+Y-I-01010282-faa-01: RLS m: 0.996639 b: 11.9496 rms: 12.3307 r: 0.994978 sig: 1 dec: 0
+N-E-01010282-faa-02: Regression slope 0.996639 different from 1. Recommended: [1]
+Y-W-01010282-faa-03: Regression offset 11.9496 different from 0.
+N-E-01010282-faa-06: Anomaly differs from gobs-IGF80 (m: 0.466852 b: -4.24781 rms: 57.1661 r: 0.679852 sig: 1 dec: 1). [Recompute]
+N-E-01010282-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010282-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-01010282-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01010282	1987-06-10T03:36:00.00	6501	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-10T19:27:37.50	8312	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-13T08:35:22.50	14720	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-13T09:46:22.50	14842	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-13T13:11:37.50	15176	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-13T14:59:00.00	15360	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-13T16:03:22.50	15470	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-13T23:49:48.72	16033	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-14T02:33:07.50	16327	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-14T03:51:11.22	16472	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-14T06:20:00.00	16751	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-14T07:25:22.50	16870	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-14T16:29:07.50	17598	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-14T16:55:00.00	17642	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-14T17:36:00.00	17702	0-0-U	 GRAD: gobs excessive
+?	01010282	1987-06-14T20:57:00.00	17918	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-14T23:41:18.72	18230	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-15T00:09:07.50	18286	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-15T00:40:22.50	18347	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-15T01:01:00.00	18382	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-15T01:27:00.00	18427	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-15T03:45:00.00	18582	0-0-U	 GRAD: gobs excessive
+?	01010282	1987-06-15T10:30:00.00	19120	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-15T15:38:00.00	19501	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-15T19:18:00.00	19896	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-15T20:45:00.00	20045	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-16T21:55:07.50	22499	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-18T18:32:00.00	25292	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-20T14:20:18.72	29044	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-22T00:48:00.00	31903	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-22T07:43:00.00	32516	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-22T16:45:00.00	33263	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-22T23:23:00.00	33996	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-22T23:30:00.00	34010	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-24T16:16:00.00	37582	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-24T17:22:00.00	37649	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-24T18:12:00.00	37700	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-24T18:45:00.00	37733	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-24T22:38:00.00	37968	0-0-V	 GRAD: eot excessive
+?	01010282	1987-06-25T02:56:00.00	38229	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-25T03:25:00.00	38259	0-0-U	 GRAD: gobs excessive
+?	01010282	1987-06-25T03:32:00.00	38266	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-25T03:44:00.00	38278	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-25T19:47:00.00	39245	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-26T00:49:00.00	39549	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-26T01:05:00.00	39565	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-26T11:55:00.00	40216	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-26T19:53:00.00	40694	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-27T01:53:07.50	41066	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-27T02:12:00.00	41103	0-0-V	 GRAD: eot excessive
+?	01010282	1987-06-27T04:14:00.00	41341	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-27T08:43:11.22	41811	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-27T08:45:22.50	41814	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-06-27T08:46:11.22	41816	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-27T09:09:00.00	41856	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-27T17:39:00.00	42451	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-27T18:24:18.72	42519	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-27T23:00:30.00	42839	0-0-K	 GRAD: twt excessive
+?	01010282	1987-06-28T01:25:00.00	43043	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-28T16:45:00.00	43971	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-06-29T03:01:00.00	44747	0-0-UV	 GRAD: gobs, eot excessive
+Y	01010282	1987-06-29T03:01:11.22	44748	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:02:00.00	44749	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:02:11.22	44750	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:03:00.00	44751	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:04:00.00	44752	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:04:41.22	44753	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:05:00.00	44754	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:05:30.00	44755	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:06:00.00	44756	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:06:11.22	44757	C-0-0	 NAV: excessive speed
+Y	01010282	1987-06-29T03:07:00.00	44758	C-0-0	 NAV: excessive speed
+Y	01010282	1987-07-03T15:19:37.50	54416	CD-0-0	 NAV: excessive speed, on land
+Y	01010282	1987-07-03T15:20:00.00	54417	CD-0-0	 NAV: excessive speed, on land
+Y	01010282	1987-07-03T15:21:00.00	54418	C-0-0	 NAV: excessive speed
+Y	01010282	1987-07-03T15:22:00.00	54419	C-0-0	 NAV: excessive speed
+Y	01010282	1987-07-03T15:23:00.00	54420	C-0-0	 NAV: excessive speed
+?	01010282	1987-07-06T02:06:00.00	59847	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-06T10:00:00.00	60679	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-06T19:55:18.72	61698	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-06T22:19:00.00	61937	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-06T22:24:48.72	61944	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-07T01:11:00.00	62239	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-07T04:47:00.00	62512	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-07T04:51:00.00	62519	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-07T17:55:00.00	63488	0-0-V	 GRAD: eot excessive
+?	01010282	1987-07-07T18:04:00.00	63501	0-0-V	 GRAD: eot excessive
+?	01010282	1987-07-07T18:27:00.00	63536	0-0-UV	 GRAD: gobs, eot excessive
+?	01010282	1987-07-08T13:45:30.00	65155	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-08T19:27:00.00	65600	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-08T19:28:18.72	65602	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-08T20:05:00.00	65672	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-09T01:11:00.00	66090	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-09T07:51:41.22	66670	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-09T07:52:22.50	66672	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-11T06:22:22.50	70918	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-11T15:43:00.00	71633	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-12T13:26:00.00	73800	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-13T18:16:22.50	76070	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-13T20:59:07.50	76319	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-14T02:32:07.50	76807	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-14T02:49:37.50	76839	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-15T10:34:00.00	79565	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-15T13:39:07.50	79817	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-15T20:20:18.72	80395	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-16T02:31:18.72	80943	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-16T02:53:00.00	80978	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-16T16:04:07.50	82115	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-17T14:31:00.00	83852	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-17T19:12:00.00	84337	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-18T00:11:30.00	84772	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T00:12:07.50	84774	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T00:32:11.22	84814	0-0-KL	 GRAD: twt, depth excessive
+?	01010282	1987-07-18T00:36:22.50	84821	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T00:52:30.00	84848	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T01:34:00.00	84930	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T01:35:00.00	84931	0-0-K	 GRAD: twt excessive
+?	01010282	1987-07-18T18:23:07.50	86295	0-0-K	 GRAD: twt excessive

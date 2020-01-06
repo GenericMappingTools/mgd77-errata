@@ -1,0 +1,15 @@
+# Cruise 05010015 ID KT7401 MGD77 FILE VERSION: 19840921 N_RECS: 501
+# Examined: Fri Apr 30 13:25:46 2010 by mtchandl
+# Arguments:  -R177.15/181.1/-38.85/-36.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05010015-H13-01: Invalid Magnetics Digitizing Rate: (328) [328]
+Y-W-05010015-H13-09: Unknown IGRF specified (DGRF-70)
+Y-E-05010015-mag-07: Anomaly differs from mtf1-IGRF (m: 0.985019 b: -17.221 rms: 22.0101 r: 0.996287 sig: 1 dec: 1). [Recompute]
+Y-W-05010015-mtf1-12: Integer precision
+Y-W-05010015-mag-12: Integer precision
+# Errata: Data

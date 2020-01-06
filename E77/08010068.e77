@@ -1,0 +1,119 @@
+# Cruise 08010068 ID 77031704 MGD77 FILE VERSION: 19830311 N_RECS: 27600
+# Examined: Mon Jul 26 16:45:34 2010 by mtchandl
+# Arguments:  -R140.45/148.75/13.45/31.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-08010068-depth-01: RLS m: 1.00035 b: 0 rms: 49.5028 r: 0.999424 sig: 1 dec: 0
+Y-I-08010068-faa-01: RLS m: 0.996221 b: -3.15729 rms: 5.29888 r: 0.998303 sig: 1 dec: 0
+N-E-08010068-faa-02: Regression slope 0.996221 different from 1. Recommended: [1]
+Y-W-08010068-faa-03: Regression offset -3.15729 different from 0.
+Y-E-08010068-mag-07: Anomaly differs from mtf1-IGRF (m: 0.989018 b: 216.167 rms: 221.992 r: 0.976843 sig: 1 dec: 1). [Recompute]
+Y-W-08010068-mtf1-12: Integer precision
+Y-W-08010068-mag-12: Integer precision
+# Errata: Data
+?	08010068	1977-05-13T05:20:00.00	221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-13T05:21:00.00	222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-14T23:47:00.00	3479	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-15T04:13:04.98	3788	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-15T11:27:00.00	4088	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-15T12:53:45.06	4185	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-15T15:57:00.00	4373	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-15T15:58:40.02	4375	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-16T07:11:00.00	4839	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-17T12:10:00.00	6203	0-0-W	 GRAD: faa excessive
+?	08010068	1977-05-20T05:17:50.04	10033	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T05:26:30.00	10044	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-20T08:15:00.00	10237	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-20T08:40:00.00	10264	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-20T10:05:30.00	10355	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-20T10:22:04.98	10378	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T12:00:00.00	10510	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T13:25:09.96	10623	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T14:10:04.98	10671	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T15:30:04.98	10756	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T15:40:00.00	10769	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T16:53:00.00	10863	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-20T19:39:00.00	11047	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-20T20:11:00.00	11084	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T04:35:00.00	11350	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T07:30:00.00	11448	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-21T10:25:30.00	11645	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T11:52:09.96	11750	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-21T12:00:00.00	11761	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T12:11:30.00	11780	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T12:52:00.00	11834	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T14:50:00.96	11973	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T15:00:04.98	11985	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T15:10:00.00	11996	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-21T18:51:35.04	12265	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-22T06:55:00.00	13006	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-22T21:16:30.00	13805	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-22T23:22:40.02	13948	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-22T23:50:30.00	13982	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-22T23:58:40.02	13995	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-23T12:38:30.00	14670	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-23T23:16:30.00	15433	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T02:20:04.98	15673	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T02:50:04.98	15711	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T13:45:04.98	16499	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T19:20:45.06	16885	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T20:00:00.00	16902	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-24T23:00:00.00	16974	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-25T00:45:00.00	17016	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-25T04:46:00.00	17119	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-26T14:28:00.00	18039	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-26T17:50:30.00	18159	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-26T20:05:45.06	18234	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-26T22:32:00.00	18334	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-26T23:00:00.00	18352	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-26T23:41:09.96	18374	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T00:03:30.00	18387	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T00:10:00.00	18392	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T01:30:30.00	18447	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T01:50:00.00	18460	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T03:05:00.00	18506	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-27T10:48:00.00	18739	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T11:30:00.00	18762	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T12:30:00.00	18794	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-27T13:52:30.00	18837	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T13:55:00.00	18839	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T15:23:00.00	18881	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-27T19:41:45.06	19026	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-27T20:40:00.00	19062	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-28T12:30:30.00	19459	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-28T13:10:04.98	19477	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-28T18:47:30.00	19869	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-28T19:40:00.00	19928	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-29T01:35:00.00	20104	0-0-W	 GRAD: faa excessive
+?	08010068	1977-05-30T03:00:15.00	21358	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-30T13:58:00.00	22133	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-30T18:13:00.00	22431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-30T18:14:00.00	22432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-30T18:16:00.00	22434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-30T18:17:00.00	22436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-30T21:27:40.02	22629	0-0-K	 GRAD: twt excessive
+?	08010068	1977-05-31T07:50:00.00	22980	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-05-31T12:28:00.00	23288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T12:29:00.00	23289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T20:56:00.00	23907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T21:04:00.00	23917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T21:05:00.00	23918	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T22:24:00.00	24012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T22:25:00.00	24014	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T22:30:00.00	24021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:06:00.00	24064	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:07:00.00	24065	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:08:00.00	24067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:09:00.00	24068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:10:00.00	24069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:11:00.00	24070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:13:00.00	24074	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:14:00.00	24075	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:15:00.00	24076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-05-31T23:16:00.00	24077	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010068	1977-06-01T04:40:04.98	24397	0-0-KL	 GRAD: twt, depth excessive
+?	08010068	1977-06-01T07:31:40.02	24621	0-0-K	 GRAD: twt excessive

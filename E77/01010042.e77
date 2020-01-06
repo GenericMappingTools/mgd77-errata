@@ -1,0 +1,51 @@
+# Cruise 01010042 ID RC1011 MGD77 FILE VERSION: 19910924 N_RECS: 7073
+# Examined: Thu Feb  5 14:44:44 2009 by mtchandl
+# Arguments:  -R230.5/280.85/5.05/48.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Observed gravity not corrected for Eotvos effects. Possible Potsdam offset. Recommend recomputing faa using IGF 1980 and eot.
+# Errata: Header
+Y-E-01010042-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010042-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010042-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010042-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010042-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010042-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010042-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010042-depth-01: RLS m: 0.999252 b: 0 rms: 8.14769 r: 0.999991 sig: 1 dec: 0
+N-E-01010042-depth-02: Regression slope 0.999252 different from 1. Recommended: [1]
+Y-I-01010042-faa-01: RLS m: 0.968449 b: -7.64355 rms: 16.0449 r: 0.929013 sig: 1 dec: 1
+Y-W-01010042-faa-03: Regression offset -7.64355 different from 0.
+N-E-01010042-faa-06: Anomaly differs from gobs-IGF80 (m: 0.971019 b: 54.1504 rms: 56.2755 r: 0.966844 sig: 1 dec: 0). [Recompute]
+Y-E-01010042-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.96969 b: -13.9575 rms: 15.0333 r: 0.99687 sig: 1 dec: 1). [Recompute]
+Y-W-01010042-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010042-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-01010042-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01943 b: 57.0695 rms: 92.0162 r: 0.916257 sig: 1 dec: 0). [Recompute]
+Y-W-01010042-twt-11: More recent bathymetry correction table available
+Y-W-01010042-mtf1-12: Integer precision
+# Errata: Data
+?	01010042	1966-08-15T00:15:00.00	2	0-0-U	 GRAD: gobs excessive
+?	01010042	1966-08-16T08:30:00.00	203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-16T08:32:00.00	204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-16T08:35:00.00	205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-16T08:55:00.00	211	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010042	1966-08-16T08:58:00.00	212	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:00:00.00	213	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:02:00.00	214	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:05:00.00	215	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:10:00.00	216	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:15:00.00	217	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:20:00.00	218	0-Q-0	 VAL: mag invalid
+?	01010042	1966-08-16T09:25:00.00	219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-16T13:15:00.00	272	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-17T20:05:00.00	540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-18T03:56:00.00	623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-30T02:54:00.00	3933	0-0-KL	 GRAD: twt, depth excessive
+?	01010042	1966-08-30T02:57:00.00	3934	0-0-K	 GRAD: twt excessive
+?	01010042	1966-08-30T02:59:00.00	3935	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010042	1966-08-30T03:00:00.00	3936	0-0-KL	 GRAD: twt, depth excessive
+?	01010042	1966-09-01T06:00:00.00	4989	B-0-0	 NAV: decreasing time
+?	01010042	1966-09-02T08:48:00.00	5482	0-0-KL	 GRAD: twt, depth excessive
+?	01010042	1966-09-05T01:00:00.00	6281	B-0-0	 NAV: decreasing time

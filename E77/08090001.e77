@@ -1,0 +1,22 @@
+# Cruise 08090001 ID CK76-1 MGD77 FILE VERSION: 19830311 N_RECS: 3015
+# Examined: Mon Nov 23 15:32:27 2009 by mtchandl
+# Arguments:  -R199.05/201.95/-21.2/-9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Unflagged depth offset near 1600 km along-track.
+# Errata: Header
+Y-E-08090001-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08090001-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08090001-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08090001-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08090001-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08090001-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08090001-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08090001-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-08090001-depth-01: RLS m: 1 b: 0 rms: 32.1699 r: 0.998249 sig: 1 dec: 0
+Y-W-08090001-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08090001	1976-06-11T17:12:40.02	429	0-0-K	 GRAD: twt excessive
+?	08090001	1976-06-11T18:10:28.98	444	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,46 @@
+# Cruise 24050008 ID GA-0056 MGD77 FILE VERSION: 20080516 N_RECS: 38356
+# Examined: Mon Feb 14 19:32:15 2011 by mtchandl
+# Arguments:  -R111/117.9/-25.6/-15.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050008-H04-03: Invalid Survey Departure Day: (01) [10]
+N-E-24050008-H04-06: Invalid Survey Arrival Day: (09) [07]
+N-E-24050008-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050008-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050008-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050008-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24050008-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-W-24050008-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-24050008-depth-01: RLS m: 1.00374 b: 0 rms: 57.5343 r: 0.999404 sig: 1 dec: 0
+N-E-24050008-depth-02: Regression slope 1.00374 different from 1. Recommended: [1]
+Y-W-24050008-depth-12: Integer precision
+Y-W-24050008-mtf1-12: Integer precision
+# Errata: Data
+Y	24050008	1986-04-13T01:27:00.00	3679	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:28:00.00	3680	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:29:00.00	3681	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:30:00.00	3682	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:31:00.00	3683	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:32:00.00	3684	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:33:00.00	3685	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:34:00.00	3686	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:35:00.00	3687	C-0-0	 NAV: excessive speed
+Y	24050008	1986-04-13T01:36:00.00	3688	C-0-0	 NAV: excessive speed
+?	24050008	1986-04-19T02:01:00.00	12159	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-19T02:02:00.00	12160	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-22T23:01:00.00	17739	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T16:24:00.00	23102	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T16:25:00.00	23103	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T19:56:00.00	23314	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T19:57:00.00	23315	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T19:58:00.00	23316	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T19:59:00.00	23317	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-26T20:00:00.00	23318	0-0-K	 GRAD: twt excessive
+?	24050008	1986-04-27T08:53:00.00	24091	0-0-KL	 GRAD: twt, depth excessive
+?	24050008	1986-04-27T09:01:00.00	24099	0-0-KL	 GRAD: twt, depth excessive
+?	24050008	1986-04-27T09:02:00.00	24100	0-0-KL	 GRAD: twt, depth excessive
+Y	24050008	1986-05-07T09:49:00.00	38355	B-0-0	 NAV: non-increasing time

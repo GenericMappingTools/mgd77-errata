@@ -1,0 +1,204 @@
+# Cruise 09050061 ID KA343707 MGD77 FILE VERSION: 19801110 N_RECS: 23329
+# Examined: Mon Aug  9 11:58:02 2010 by mtchandl
+# Arguments:  -R-47.8/12.25/24.25/37.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09050061-H04-01: Invalid Survey Departure Year: (1977) [1976]
+Y-E-09050061-H04-03: Invalid Survey Departure Day: (14) [15]
+Y-E-09050061-H04-04: Invalid Survey Arrival Year: (1977) [1976]
+Y-E-09050061-H04-06: Invalid Survey Arrival Day: (20) [15]
+Y-E-09050061-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050061-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09050061-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-09050061-depth-01: RLS m: 0.999651 b: 0 rms: 25.1011 r: 0.999836 sig: 1 dec: 0
+N-E-09050061-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-E-09050061-mag-07: Anomaly differs from mtf1-IGRF (m: 1.12302 b: -323.365 rms: 365.302 r: 0.802896 sig: 1 dec: 1). [Recompute]
+Y-W-09050061-depth-12: Integer precision
+Y-W-09050061-mag-12: Integer precision
+# Errata: Data
+Y	09050061	1976-11-15T12:31:00.00	751	C-0-0	 NAV: excessive speed
+Y	09050061	1976-11-15T12:32:00.00	752	C-0-0	 NAV: excessive speed
+Y	09050061	1976-11-15T12:33:00.00	753	C-0-0	 NAV: excessive speed
+Y	09050061	1976-11-15T12:34:00.00	754	C-0-0	 NAV: excessive speed
+Y	09050061	1976-11-15T12:35:00.00	755	C-0-0	 NAV: excessive speed
+?	09050061	1976-11-15T19:49:00.00	1189	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T19:51:00.00	1191	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:22:00.00	1222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:24:00.00	1224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:25:00.00	1225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:33:00.00	1233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:34:00.00	1234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T20:54:00.00	1254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T21:43:00.00	1303	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T21:45:00.00	1305	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T21:46:00.00	1306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T21:50:00.00	1310	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-15T21:55:00.00	1315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T22:01:00.00	1321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T22:03:00.00	1323	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-15T22:29:00.00	1349	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-15T23:00:00.00	1380	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	09050061	1976-11-15T23:02:00.00	1382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T23:03:00.00	1383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T23:18:00.00	1398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T23:19:00.00	1399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-15T23:21:00.00	1401	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09050061	1976-11-15T23:55:00.00	1435	C-0-0	 NAV: excessive speed
+?	09050061	1976-11-15T23:57:00.00	1437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:08:00.00	1447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:09:00.00	1448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:10:00.00	1449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:13:00.00	1452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:14:00.00	1453	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:15:00.00	1454	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:16:00.00	1455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:17:00.00	1456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:18:00.00	1457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:20:00.00	1459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:21:00.00	1460	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:23:00.00	1462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:28:00.00	1467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:30:00.00	1469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:31:00.00	1470	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:33:00.00	1472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:48:00.00	1487	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:49:00.00	1488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:50:00.00	1489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T00:51:00.00	1490	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T01:05:00.00	1504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-16T01:09:00.00	1508	0-0-K	 GRAD: twt excessive
+Y	09050061	1976-11-16T11:07:00.00	2106	C-0-0	 NAV: excessive speed
+Y	09050061	1976-11-16T23:03:00.00	2822	C-0-0	 NAV: excessive speed
+?	09050061	1976-11-17T07:17:00.00	3315	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T07:30:00.00	3328	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T08:12:00.00	3370	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T09:38:00.00	3456	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T17:31:00.00	3929	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T17:36:00.00	3934	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T19:36:00.00	4054	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T20:00:00.00	4078	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T21:30:00.00	4168	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T22:49:00.00	4247	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T22:51:00.00	4249	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T23:11:00.00	4269	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T23:15:00.00	4273	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-17T23:37:00.00	4295	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-17T23:49:00.00	4307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-17T23:52:00.00	4310	0-0-KOQ	 GRAD: twt, mtf1, mag excessive
+?	09050061	1976-11-18T00:32:00.00	4349	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T01:24:00.00	4401	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T01:37:00.00	4414	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T01:47:00.00	4424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-18T05:12:00.00	4629	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T06:48:00.00	4725	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T12:01:00.00	5038	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T12:10:00.00	5047	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T14:11:00.00	5168	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T14:33:00.00	5190	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T14:54:00.00	5211	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T14:56:00.00	5213	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T15:00:00.00	5217	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T15:13:00.00	5230	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T15:20:00.00	5237	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T18:12:00.00	5409	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T19:52:00.00	5509	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T19:59:00.00	5516	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:00:00.00	5637	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T22:11:00.00	5648	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:13:00.00	5650	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:15:00.00	5652	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T22:18:00.00	5655	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:45:00.00	5682	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:50:00.00	5687	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T22:54:00.00	5691	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T23:00:00.00	5697	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T23:05:00.00	5702	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-18T23:31:00.00	5728	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-18T23:39:00.00	5736	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-19T00:32:00.00	5788	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-19T01:33:00.00	5849	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-19T08:59:00.00	6295	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-19T23:44:00.00	7180	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T01:34:00.00	7289	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T03:58:00.00	7433	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T04:13:00.00	7448	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T04:23:00.00	7458	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T05:20:00.00	7515	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-20T05:43:00.00	7538	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-11-20T07:25:00.00	7640	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T08:23:00.00	7698	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T08:53:00.00	7728	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T09:05:00.00	7740	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T09:16:00.00	7751	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T09:27:00.00	7762	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T09:29:00.00	7764	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T09:32:00.00	7767	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T10:33:00.00	7828	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T10:36:00.00	7831	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T11:25:00.00	7880	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T11:26:00.00	7881	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T11:28:00.00	7883	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T11:42:00.00	7897	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T12:43:00.00	7958	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T13:09:00.00	7984	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T13:20:00.00	7995	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-20T14:08:00.00	8043	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T14:19:00.00	8054	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T14:36:00.00	8071	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T15:29:00.00	8124	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T16:04:00.00	8159	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T16:07:00.00	8162	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-20T23:22:00.00	8597	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-21T13:48:00.00	9462	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-21T14:39:00.00	9513	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-21T15:45:00.00	9579	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-21T21:31:00.00	9925	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-22T03:03:00.00	10256	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T05:06:00.00	10379	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T07:52:00.00	10545	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T15:21:00.00	10994	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T15:39:00.00	11012	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T15:42:00.00	11015	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-22T17:45:00.00	11138	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T01:36:00.00	11306	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T02:41:00.00	11371	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T10:15:00.00	11825	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T14:16:00.00	12066	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T14:18:00.00	12068	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T14:42:00.00	12092	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T15:02:00.00	12112	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-11-30T17:18:00.00	12248	0-0-K	 GRAD: twt excessive
+?	09050061	1976-11-30T21:11:00.00	12476	0-0-K	 GRAD: twt excessive
+Y	09050061	1976-12-01T00:01:00.00	12645	C-0-0	 NAV: excessive speed
+?	09050061	1976-12-01T15:06:00.00	13550	0-0-K	 GRAD: twt excessive
+?	09050061	1976-12-01T16:28:00.00	13632	0-0-K	 GRAD: twt excessive
+?	09050061	1976-12-01T22:30:00.00	13994	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-12-02T02:05:00.00	14208	0-0-K	 GRAD: twt excessive
+?	09050061	1976-12-02T02:51:00.00	14254	0-0-KL	 GRAD: twt, depth excessive
+?	09050061	1976-12-02T03:37:00.00	14300	0-0-K	 GRAD: twt excessive
+?	09050061	1976-12-02T16:00:00.00	15043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050061	1976-12-03T04:05:00.00	15767	0-0-K	 GRAD: twt excessive
+Y	09050061	1976-12-12T06:43:00.00	19679	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T07:33:00.00	20868	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T12:38:00.00	21173	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T12:46:00.00	21181	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T12:57:00.00	21192	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T12:59:00.00	21194	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:05:00.00	21200	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:10:00.00	21205	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:16:00.00	21211	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:18:00.00	21213	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:24:00.00	21219	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:29:00.00	21224	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:35:00.00	21230	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:37:00.00	21232	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:43:00.00	21238	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:48:00.00	21243	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:54:00.00	21249	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T13:56:00.00	21251	C-0-0	 NAV: excessive speed
+Y	09050061	1976-12-13T14:02:00.00	21257	C-0-0	 NAV: excessive speed
+?	09050061	1976-12-14T15:06:00.00	21890	0-0-K	 GRAD: twt excessive

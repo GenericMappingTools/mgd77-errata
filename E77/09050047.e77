@@ -1,0 +1,21 @@
+# Cruise 09050047 ID KA932013 MGD77 FILE VERSION: 19800219 N_RECS: 21884
+# Examined: Mon Aug  9 11:44:30 2010 by mtchandl
+# Arguments:  -R280.55/350/28/55.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09050047-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050047-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09050047-depth-01: RLS m: 1 b: 0 rms: 8.91607 r: 0.999979 sig: 1 dec: 0
+Y-E-09050047-mag-07: Anomaly differs from mtf1-IGRF (m: 0.642948 b: -23.9675 rms: 193.993 r: 0.597362 sig: 1 dec: 1). [Recompute]
+Y-W-09050047-depth-12: Integer precision
+Y-W-09050047-mag-12: Integer precision
+# Errata: Data
+?	09050047	1972-04-29T18:20:00.00	6066	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050047	1972-04-29T18:22:00.00	6068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050047	1972-04-29T18:23:00.00	6069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050047	1972-04-29T18:25:00.00	6071	0-0-K	 GRAD: twt excessive
+?	09050047	1972-05-04T03:13:00.00	12354	0-0-K	 GRAD: twt excessive

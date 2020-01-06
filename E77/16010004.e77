@@ -1,0 +1,37 @@
+# Cruise 16010004 ID X05772 MGD77 FILE VERSION: 19900321 N_RECS: 3661
+# Examined: Mon Aug 30 16:02:07 2010 by mtchandl
+# Arguments:  -R121.25/182.85/-13.45/11.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa using gobs-IGF80. Eotvos reported twice, included in gobs and in eot column.
+# Errata: Header
+Y-W-16010004-nav-00: Flagged 0.52 % of records with bad navigation
+Y-I-16010004-depth-01: RLS m: 1.00171 b: 0 rms: 29.7012 r: 0.999638 sig: 1 dec: 0
+N-E-16010004-depth-02: Regression slope 1.00171 different from 1. Recommended: [1]
+Y-I-16010004-faa-01: RLS m: 1.00287 b: 10.1777 rms: 11.1385 r: 0.996954 sig: 1 dec: 0
+N-E-16010004-faa-02: Regression slope 1.00287 different from 1. Recommended: [1]
+Y-W-16010004-faa-03: Regression offset 10.1777 different from 0.
+Y-E-16010004-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999899 b: 2.90277 rms: 2.90203 r: 0.999998 sig: 1 dec: 0). [Recompute]
+N-E-16010004-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.998519 b: 2.00988 rms: 2.81692 r: 0.999325 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	16010004	1977-04-06T20:00:00.00	426	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-06T20:00:00.00	427	B-0-0	 NAV: non-increasing time
+Y	16010004	1977-04-10T13:00:00.00	713	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-12T00:45:00.00	1085	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-12T01:20:00.00	1092	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-13T02:45:00.00	1369	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-13T06:20:00.00	1413	B-0-0	 NAV: non-increasing time
+Y	16010004	1977-04-13T18:10:00.00	1540	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-14T20:00:00.00	1824	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-16T00:30:00.00	2013	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-16T00:35:00.00	2014	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-16T00:40:00.00	2015	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-16T00:45:00.00	2016	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-30T01:35:00.00	3017	C-0-0	 NAV: excessive speed
+Y	16010004	1977-04-30T07:10:00.00	3064	C-0-0	 NAV: excessive speed
+Y	16010004	1977-05-04T10:00:00.00	3105	C-0-0	 NAV: excessive speed
+Y	16010004	1977-05-09T09:20:00.00	3253	C-0-0	 NAV: excessive speed
+Y	16010004	1977-05-13T14:30:00.00	3478	C-0-0	 NAV: excessive speed
+Y	16010004	1977-05-13T14:40:00.00	3479	C-0-0	 NAV: excessive speed

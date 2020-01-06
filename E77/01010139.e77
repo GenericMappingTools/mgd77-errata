@@ -1,0 +1,73 @@
+# Cruise 01010139 ID RC1806 MGD77 FILE VERSION: 19800908 N_RECS: 5651
+# Examined: Mon Jul  6 15:58:20 2009 by mtchandl
+# Arguments:  -R280.15/288.4/9.5/40.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01010139-time-01: 46 of 5651 records contain invalid time
+N-E-01010139-H13-06: Invalid Magnetics Reference Field Code: (75) [75]
+Y-W-01010139-nav-00: Flagged 0.81 % of records with excessive speed or invalid navigation
+Y-I-01010139-depth-01: RLS m: 0.999651 b: 0 rms: 1.78111 r: 1 sig: 1 dec: 0
+N-E-01010139-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01010139-faa-01: RLS m: 0.987869 b: -1.6825 rms: 8.21907 r: 0.99014 sig: 1 dec: 1
+Y-W-01010139-faa-03: Regression offset -1.6825 different from 0.
+Y-E-01010139-mag-07: Anomaly differs from mtf1-IGRF (m: 0.883491 b: -441.11 rms: 441.435 r: 0.857492 sig: 1 dec: 1). [Recompute]
+N-E-01010139-depth-08: Extended offset from grid [4-4504]
+N-E-01010139-depth-08: Extended offset from grid [4505-5651]
+Y-W-01010139-mag-09: only found negative values
+Y-W-01010139-twt-11: More recent bathymetry correction table available
+Y-W-01010139-mtf1-12: Integer precision
+Y-W-01010139-mag-12: Integer precision
+# Errata: Data
+?	01010139	1975-06-25T14:10:00.00	1307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010139	1975-06-29T17:42:00.00	3276	0-0-KL	 GRAD: twt, depth excessive
+?	01010139	1975-06-29T18:48:00.00	3298	0-0-K	 GRAD: twt excessive
+?	01010139	NaN	3925	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3930	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3943	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3957	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3968	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3971	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3976	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3979	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3990	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	3998	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4010	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4017	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4018	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4019	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4020	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4021	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4022	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4023	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4156	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4157	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4158	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4159	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4160	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4161	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4162	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4163	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4166	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4174	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4175	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4176	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4183	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4186	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4187	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4188	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4189	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4190	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4191	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4192	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4193	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4194	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4195	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4199	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4341	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4347	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4348	E-0-0	 NAV: navigation undefined
+?	01010139	NaN	4350	E-0-0	 NAV: navigation undefined

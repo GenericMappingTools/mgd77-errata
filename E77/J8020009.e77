@@ -1,0 +1,15 @@
+# Cruise J8020009 ID JARE39 MGD77 FILE VERSION: 20050923 N_RECS: 63558
+# Examined: Mon Aug  8 16:10:39 2011 by mtchandl
+# Arguments:  -R39.8/46.05/-68.7/-67.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-J8020009-H04-01: Invalid Survey Departure Year: (1997) [1998]
+Y-E-J8020009-H04-02: Invalid Survey Departure Month: (12) [02]
+Y-E-J8020009-H04-03: Invalid Survey Departure Day: (03) [15]
+Y-E-J8020009-H04-05: Invalid Survey Arrival Month: (03) [02]
+Y-E-J8020009-H04-06: Invalid Survey Arrival Day: (21) [19]
+Y-W-J8020009-nav-00: Flagged 17.68 % of records with bad navigation

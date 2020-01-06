@@ -1,0 +1,61 @@
+# Cruise 29020013 ID VIT31A MGD77 FILE VERSION: 19971007 N_RECS: 7394
+# Examined: Mon Feb 14 22:23:03 2011 by mtchandl
+# Arguments:  -R89.9/129.75/-32/35.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged excessive depth offsets.
+# Errata: Header
+Y-I-29020013-depth-01: RLS m: 1.00076 b: 0 rms: 38.5752 r: 0.999802 sig: 1 dec: 0
+N-E-29020013-depth-02: Regression slope 1.00076 different from 1. Recommended: [1]
+Y-E-29020013-depth-08: Extended offset from grid [437-477]
+Y-E-29020013-depth-08: Extended offset from grid [1533-1583]
+Y-W-29020013-depth-12: Integer multiple of 5 precision
+# Errata: Data
+?	29020013	1100.11	320	0-0-L	 GRAD: depth excessive
+?	29020013	1418.9	443	0-0-L	 GRAD: depth excessive
+?	29020013	1649.66	592	0-0-L	 GRAD: depth excessive
+?	29020013	1821.62	677	0-0-L	 GRAD: depth excessive
+?	29020013	1882.69	703	0-0-L	 GRAD: depth excessive
+?	29020013	1930.53	737	0-0-L	 GRAD: depth excessive
+?	29020013	1994.96	777	0-0-L	 GRAD: depth excessive
+?	29020013	2037.88	796	0-0-L	 GRAD: depth excessive
+?	29020013	3438.73	1391	0-0-L	 GRAD: depth excessive
+?	29020013	3511.69	1430	0-0-L	 GRAD: depth excessive
+?	29020013	4035	1634	0-0-L	 GRAD: depth excessive
+?	29020013	4537.57	1937	0-0-L	 GRAD: depth excessive
+?	29020013	4537.84	1941	0-0-L	 GRAD: depth excessive
+?	29020013	4537.95	1942	0-0-L	 GRAD: depth excessive
+?	29020013	4538.11	1944	0-0-L	 GRAD: depth excessive
+?	29020013	4538.71	1949	0-0-L	 GRAD: depth excessive
+?	29020013	5128.65	2288	0-0-L	 GRAD: depth excessive
+?	29020013	5485.45	2453	0-0-L	 GRAD: depth excessive
+?	29020013	5667.8	2534	0-0-L	 GRAD: depth excessive
+?	29020013	5700.34	2557	0-0-L	 GRAD: depth excessive
+?	29020013	5721.45	2579	0-0-L	 GRAD: depth excessive
+?	29020013	5801.76	2642	0-0-L	 GRAD: depth excessive
+?	29020013	7584.77	3266	0-0-L	 GRAD: depth excessive
+?	29020013	7651.64	3309	0-0-L	 GRAD: depth excessive
+?	29020013	7651.75	3310	0-0-L	 GRAD: depth excessive
+?	29020013	8140.97	3503	0-0-L	 GRAD: depth excessive
+?	29020013	8143.07	3507	0-0-L	 GRAD: depth excessive
+?	29020013	8893.37	3809	0-0-L	 GRAD: depth excessive
+?	29020013	9213.52	3912	0-0-L	 GRAD: depth excessive
+?	29020013	11125.8	4554	0-0-L	 GRAD: depth excessive
+?	29020013	11148.6	4567	0-0-L	 GRAD: depth excessive
+?	29020013	11160.5	4587	0-0-L	 GRAD: depth excessive
+?	29020013	11176.6	4604	0-0-L	 GRAD: depth excessive
+?	29020013	11453.1	4705	0-0-L	 GRAD: depth excessive
+?	29020013	12056	4880	0-0-L	 GRAD: depth excessive
+?	29020013	12056.1	4881	0-0-L	 GRAD: depth excessive
+?	29020013	12056.2	4882	0-0-L	 GRAD: depth excessive
+?	29020013	12200	4940	0-0-L	 GRAD: depth excessive
+?	29020013	13374.5	5347	0-0-L	 GRAD: depth excessive
+?	29020013	14119.7	5653	0-0-L	 GRAD: depth excessive
+?	29020013	15258	6019	0-0-L	 GRAD: depth excessive
+?	29020013	15258.2	6020	0-0-L	 GRAD: depth excessive
+?	29020013	15805.7	6169	0-0-L	 GRAD: depth excessive
+?	29020013	16805.7	6434	0-0-L	 GRAD: depth excessive
+?	29020013	18439.5	6969	0-0-L	 GRAD: depth excessive
+?	29020013	18800.5	7130	0-0-L	 GRAD: depth excessive

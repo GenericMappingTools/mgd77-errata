@@ -1,0 +1,24 @@
+# Cruise 02020075 ID A2093L10 MGD77 FILE VERSION: 19820805 N_RECS: 10167
+# Examined: Fri Apr  2 15:01:14 2010 by mtchandl
+# Arguments:  -R39.7/63.25/-31/-4.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020075-depth-01: RLS m: 0.999252 b: 0 rms: 33.9766 r: 0.999142 sig: 1 dec: 0
+Y-I-02020075-faa-01: RLS m: 0.985733 b: 2.05723 rms: 7.89018 r: 0.992701 sig: 1 dec: 1
+Y-W-02020075-faa-03: Regression offset 2.05723 different from 0.
+Y-I-02020075-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020075-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.5119 b: -3.52301 rms: 47.9774 r: 0.738312 sig: 1 dec: 1). [Recompute]
+Y-E-02020075-mag-07: Anomaly differs from mtf1-IGRF (m: 0.928082 b: -307.04 rms: 319.702 r: 0.932203 sig: 1 dec: 1). [Recompute]
+Y-W-02020075-twt-11: More recent bathymetry correction table available
+Y-W-02020075-mtf1-12: Integer precision
+Y-W-02020075-mag-12: Integer precision
+# Errata: Data
+?	02020075	1976-07-02T13:15:00.00	333	0-0-V	 GRAD: eot excessive
+?	02020075	1976-07-05T16:20:00.00	2138	0-0-V	 GRAD: eot excessive
+?	02020075	1976-07-16T12:00:00.00	8020	0-0-K	 GRAD: twt excessive
+?	02020075	1976-07-16T21:45:00.00	8252	0-0-K	 GRAD: twt excessive
+?	02020075	1976-07-20T00:06:00.00	10149	0-0-KL	 GRAD: twt, depth excessive

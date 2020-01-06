@@ -1,0 +1,51 @@
+# Cruise J4010027 ID KH7603 MGD77 FILE VERSION: 19880219 N_RECS: 2653
+# Examined: Mon Nov  7 17:33:12 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J4010027-nav-00: Flagged 0.26 % of records with bad navigation
+Y-I-J4010027-depth-01: RLS m: 1.0014 b: 0 rms: 17.3314 r: 0.999892 sig: 1 dec: 0
+N-E-J4010027-depth-02: Regression slope 1.0014 different from 1. Recommended: [1]
+Y-I-J4010027-faa-01: RLS m: 0.950742 b: 4.39208 rms: 7.05093 r: 0.988948 sig: 1 dec: 0
+N-E-J4010027-faa-02: Regression slope 0.950742 different from 1. Recommended: [1]
+Y-W-J4010027-faa-03: Regression offset 4.39208 different from 0.
+Y-W-J4010027-depth-12: Integer precision
+Y-W-J4010027-faa-12: Integer precision
+# Errata: Data
+Y	J4010027	1976-07-12T11:05:00.00	1	D-0-0	 NAV: on land
+Y	J4010027	1976-07-12T11:10:00.00	2	D-0-0	 NAV: on land
+Y	J4010027	1976-07-12T11:15:00.00	3	D-0-0	 NAV: on land
+Y	J4010027	1976-07-12T11:35:00.00	7	D-0-0	 NAV: on land
+Y	J4010027	1976-07-12T11:40:00.00	8	D-0-0	 NAV: on land
+?	J4010027	1976-07-16T09:15:00.00	884	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-16T09:40:00.00	889	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-16T09:45:00.00	890	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010027	1976-07-16T09:50:00.00	891	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-19T01:45:00.00	1121	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-19T01:50:00.00	1122	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-19T04:50:00.00	1158	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-19T05:00:00.00	1160	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-29T20:50:00.00	1347	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-29T20:55:00.00	1348	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-29T21:00:00.00	1349	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-30T05:40:00.00	1369	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010027	1976-07-30T05:45:00.00	1370	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-30T09:15:00.00	1412	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-30T09:20:00.00	1413	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-07-31T17:40:00.00	1609	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010027	1976-07-31T17:45:00.00	1610	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-05T16:05:00.00	1790	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-05T16:15:00.00	1792	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-05T19:20:00.00	1829	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-06T15:50:00.00	1859	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010027	1976-08-06T15:55:00.00	1860	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-06T19:15:00.00	1900	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	J4010027	1976-08-06T19:20:00.00	1901	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-07T11:20:00.00	2093	0-0-W	 GRAD: faa excessive
+?	J4010027	1976-08-07T11:25:00.00	2094	0-0-W	 GRAD: faa excessive
+Y	J4010027	1976-08-07T14:20:00.00	2129	D-0-0	 NAV: on land
+Y	J4010027	1976-08-07T14:25:00.00	2130	D-0-0	 NAV: on land

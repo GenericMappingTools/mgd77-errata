@@ -1,0 +1,46 @@
+# Cruise 15020049 ID PLDS04MV MGD77 FILE VERSION: 19800226 N_RECS: 9654
+# Examined: Thu May 15 08:36:27 2008 by mtchandl
+# Arguments:  -R202.05/242.8/3.9/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020049-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020049-nav-00: Flagged 0.28 % of records with excessive speed or invalid navigation
+Y-I-15020049-depth-01: RLS m: 0.996125 b: 0 rms: 106.546 r: 0.995523 sig: 1 dec: 1
+Y-E-15020049-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.922788 b: 60.7531 rms: 93.659 r: 0.882439 sig: 1 dec: 1). [Recompute]
+Y-W-15020049-twt-11: More recent bathymetry correction table available
+Y-W-15020049-mtf1-12: Integer precision
+Y-W-15020049-mag-12: Integer precision
+# Errata: Data
+Y	15020049	1976-08-21T02:35:00.00	1	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T02:40:00.00	2	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T02:45:00.00	3	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T02:50:00.00	4	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T02:55:00.00	5	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:00:00.00	6	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:05:00.00	7	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:10:00.00	8	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:15:00.00	9	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:20:00.00	10	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:25:00.00	11	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:30:00.00	12	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:35:00.00	13	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:40:00.00	14	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:45:00.00	15	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:50:00.00	16	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T03:55:00.00	17	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:00:00.00	18	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:05:00.00	19	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:30:00.00	24	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:35:00.00	25	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:40:00.00	26	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:45:00.00	27	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:50:00.00	28	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T04:55:00.00	29	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T05:00:00.00	30	D-0-0	 NAV: on land
+Y	15020049	1976-08-21T05:05:00.00	31	D-0-0	 NAV: on land
+?	15020049	1976-08-22T02:30:00.00	288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020049	1976-08-22T02:45:00.00	291	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,13 @@
+# Cruise 01030037 ID V1901 MGD77 FILE VERSION: 19790619 N_RECS: 662
+# Examined: Fri Mar 19 01:15:48 2010 by mtchandl
+# Arguments:  -R286.15/295.45/32.4/40.45 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-01030037-depth-01: RLS m: 0.998563 b: 0 rms: 24.9066 r: 0.999923 sig: 1 dec: 0
+N-E-01030037-depth-02: Regression slope 0.998563 different from 1. Recommended: [1]
+Y-W-01030037-twt-11: More recent bathymetry correction table available
+# Errata: Data

@@ -1,0 +1,20 @@
+# Cruise 15200001 ID TBD01TD MGD77 FILE VERSION: 19800226 N_RECS: 2863
+# Examined: Mon Jun  2 11:22:09 2008 by mtchandl
+# Arguments:  -R13/22.65/-40.35/-34.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15200001-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15200001-nav-00: Flagged 0.17 % of records with excessive speed or invalid navigation
+Y-E-15200001-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00921 b: -305.867 rms: 311.579 r: 0.956006 sig: 1 dec: 1). [Recompute]
+Y-W-15200001-mtf1-12: Integer multiple of 5 precision
+Y-W-15200001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15200001	1974-10-07T15:05:00.00	1281	C-0-0	 NAV: excessive speed
+Y	15200001	1974-10-07T15:10:00.00	1282	C-0-0	 NAV: excessive speed
+Y	15200001	1974-10-07T15:15:00.00	1283	C-0-0	 NAV: excessive speed
+Y	15200001	1974-10-07T15:20:00.00	1284	C-0-0	 NAV: excessive speed
+Y	15200001	1974-10-07T15:25:00.00	1285	C-0-0	 NAV: excessive speed

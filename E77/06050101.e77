@@ -1,0 +1,127 @@
+# Cruise 06050101 ID L382NC MGD77 FILE VERSION: 19870929 N_RECS: 2787
+# Examined: Fri May 28 14:16:30 2010 by mtchandl
+# Arguments:  -R236.9/237.8/36.5/37.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and not recomputing faa. Bathymetry contains numerous outliers.
+# Errata: Header
+Y-I-06050101-depth-01: RLS m: 1.00338 b: 0 rms: 41.6201 r: 0.999644 sig: 1 dec: 0
+N-E-06050101-depth-02: Regression slope 1.00338 different from 1. Recommended: [1]
+Y-I-06050101-faa-01: RLS m: 1.03216 b: 2.16205 rms: 4.90076 r: 0.990145 sig: 1 dec: 0
+N-E-06050101-faa-02: Regression slope 1.03216 different from 1. Recommended: [1]
+Y-W-06050101-faa-03: Regression offset 2.16205 different from 0.
+N-E-06050101-faa-06: Anomaly differs from gobs-IGF80 (m: 0.655872 b: -13.9778 rms: 23.5901 r: 0.841456 sig: 1 dec: 0). [Recompute]
+Y-I-06050101-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-06050101-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-06050101-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996419 b: -37.6997 rms: 40.3142 r: 0.991927 sig: 1 dec: 1). [Recompute]
+Y-W-06050101-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06050101	1982-02-28T02:43:00.00	486	0-Q-0	 VAL: mag invalid
+?	06050101	1982-02-28T02:44:00.00	487	0-Q-0	 VAL: mag invalid
+?	06050101	1982-02-28T02:45:00.00	488	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T04:24:00.00	587	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T06:45:00.00	728	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T06:48:00.00	731	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T06:54:00.00	737	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T06:57:00.00	740	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T06:58:00.00	741	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T07:00:00.00	743	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T07:10:00.00	753	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T07:15:00.00	758	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T07:18:00.00	761	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T07:20:00.00	763	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T07:29:00.00	772	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T11:05:00.00	988	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T11:06:00.00	989	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T11:07:00.00	990	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T11:21:00.00	1004	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T11:31:00.00	1014	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T12:01:00.00	1044	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T12:02:00.00	1045	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T12:40:00.00	1083	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T12:41:00.00	1084	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T12:43:00.00	1086	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T12:44:00.00	1087	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T14:16:00.00	1179	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T14:17:00.00	1180	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T14:18:00.00	1181	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T14:40:00.00	1203	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T14:41:00.00	1204	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T14:42:00.00	1205	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T14:57:00.00	1220	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T15:00:00.00	1223	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T15:01:00.00	1224	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T16:17:00.00	1300	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T16:18:00.00	1301	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T16:39:00.00	1322	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T16:40:00.00	1323	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T17:01:00.00	1344	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T17:02:00.00	1345	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T19:18:00.00	1481	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T19:19:00.00	1482	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T19:20:00.00	1483	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T19:21:00.00	1484	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T19:41:00.00	1504	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T19:42:00.00	1505	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T19:54:00.00	1517	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T19:56:00.00	1519	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T21:10:00.00	1593	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T21:11:00.00	1594	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T21:13:00.00	1596	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T21:14:00.00	1597	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T21:18:00.00	1601	0-0-K	 GRAD: twt excessive
+?	06050101	1982-02-28T22:07:00.00	1650	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T22:09:00.00	1652	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-02-28T22:44:00.00	1687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T22:45:00.00	1688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T22:54:00.00	1697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T22:57:00.00	1700	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T22:58:00.00	1701	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T22:59:00.00	1702	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:00:00.00	1703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:05:00.00	1708	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:53:00.00	1756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:54:00.00	1757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:55:00.00	1758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-02-28T23:56:00.00	1759	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:03:00.00	1766	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:10:00.00	1773	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:18:00.00	1781	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:19:00.00	1782	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:20:00.00	1783	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:21:00.00	1784	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T00:22:00.00	1785	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T04:18:00.00	2021	0-0-K	 GRAD: twt excessive
+?	06050101	1982-03-01T04:19:00.00	2022	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:20:00.00	2023	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:24:00.00	2027	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:25:00.00	2028	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:26:00.00	2029	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:27:00.00	2030	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:28:00.00	2031	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:32:00.00	2035	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:33:00.00	2036	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:36:00.00	2039	0-0-K	 GRAD: twt excessive
+?	06050101	1982-03-01T04:37:00.00	2040	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:38:00.00	2041	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:39:00.00	2042	0-0-K	 GRAD: twt excessive
+?	06050101	1982-03-01T04:40:00.00	2043	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T04:45:00.00	2048	0-0-K	 GRAD: twt excessive
+?	06050101	1982-03-01T06:39:00.00	2162	0-0-KL	 GRAD: twt, depth excessive
+?	06050101	1982-03-01T06:57:00.00	2180	0-0-K	 GRAD: twt excessive
+?	06050101	1982-03-01T07:42:00.00	2225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:43:00.00	2226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:44:00.00	2227	0-Q-KLOQ	 VAL: mag invalid - GRAD: twt, depth, mtf1, mag excessive
+?	06050101	1982-03-01T07:45:00.00	2228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:46:00.00	2229	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:47:00.00	2230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:48:00.00	2231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:49:00.00	2232	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:50:00.00	2233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:51:00.00	2234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:52:00.00	2235	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:53:00.00	2236	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:54:00.00	2237	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06050101	1982-03-01T07:55:00.00	2238	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

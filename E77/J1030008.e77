@@ -1,0 +1,42 @@
+# Cruise J1030008 ID HM7302 MGD77 FILE VERSION: 19880928 N_RECS: 1664
+# Examined: Sun Aug  7 07:24:17 2011 by mtchandl
+# Arguments:  -R127.9/130.45/33.6/34.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1030008-H04-03: Invalid Survey Departure Day: (18) [24]
+N-E-J1030008-H04-06: Invalid Survey Arrival Day: (21) [20]
+Y-W-J1030008-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1030008-nav-00: Flagged 1.14 % of records with bad navigation
+Y-I-J1030008-depth-01: RLS m: 1.00385 b: 0 rms: 2.49326 r: 0.995118 sig: 1 dec: 0
+Y-I-J1030008-faa-01: RLS m: 0.964818 b: -4.72734 rms: 8.06307 r: 0.925531 sig: 1 dec: 0
+N-E-J1030008-faa-02: Regression slope 0.964818 different from 1. Recommended: [1]
+Y-W-J1030008-faa-03: Regression offset -4.72734 different from 0.
+Y-I-J1030008-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1030008-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.152026 b: 12.506 rms: 51.0893 r: 0.388847 sig: 1 dec: 1). [Recompute]
+Y-W-J1030008-depth-12: Integer precision
+Y-W-J1030008-gobs-12: Integer precision
+Y-W-J1030008-eot-12: Integer precision
+# Errata: Data
+Y	J1030008	1973-05-25T05:40:00.00	76	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-05-31T22:30:00.00	481	C-0-0	 NAV: excessive speed
+Y	J1030008	1973-05-31T22:40:00.00	482	C-0-0	 NAV: excessive speed
+Y	J1030008	1973-06-04T07:50:00.00	793	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:00:00.00	794	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:10:00.00	795	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:20:00.00	796	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:30:00.00	797	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:40:00.00	798	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T08:50:00.00	799	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T09:10:00.00	800	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T09:20:00.00	801	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T09:30:00.00	802	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T09:40:00.00	803	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T10:10:00.00	804	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T10:40:00.00	805	B-0-0	 NAV: non-increasing time
+Y	J1030008	1973-06-04T19:40:00.00	852	C-0-0	 NAV: excessive speed
+Y	J1030008	1973-06-19T02:30:00.00	1580	C-0-0	 NAV: excessive speed
+Y	J1030008	1973-06-19T02:40:00.00	1581	C-0-0	 NAV: excessive speed

@@ -1,0 +1,17 @@
+# Cruise 02030059 ID KN161L08 MGD77 FILE VERSION: 20040308 N_RECS: 7292
+# Examined: Fri Apr  2 16:03:43 2010 by mtchandl
+# Arguments:  -R285.2/296.55/31.7/36.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02030059-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-02030059-depth-01: RLS m: 0.995778 b: 0 rms: 50.9774 r: 0.999007 sig: 1 dec: 0
+N-E-02030059-depth-02: Regression slope 0.995778 different from 1. Recommended: [1]
+Y-W-02030059-depth-12: Integer precision
+# Errata: Data
+Y	02030059	2000-06-13T13:36:01.02	2141	C-0-0	 NAV: excessive speed
+Y	02030059	2000-06-13T13:36:57.00	2143	B-0-0	 NAV: non-increasing time
+Y	02030059	2000-07-01T23:59:58.98	7070	C-0-0	 NAV: excessive speed

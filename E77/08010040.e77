@@ -1,0 +1,16 @@
+# Cruise 08010040 ID 76010304 MGD77 FILE VERSION: 19801230 N_RECS: 25791
+# Examined: Mon Nov 23 14:47:41 2009 by mtchandl
+# Arguments:  -R159.95/202.15/-9.85/21.3 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-08010040-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-I-08010040-depth-01: RLS m: 1 b: 0 rms: 21.696 r: 0.999667 sig: 1 dec: 0
+Y-E-08010040-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00402 b: 30.6932 rms: 37.8799 r: 0.997581 sig: 1 dec: 1). [Recompute]
+Y-W-08010040-twt-11: More recent bathymetry correction table available
+Y-W-08010040-mtf1-12: Integer precision
+Y-W-08010040-mag-12: Integer precision
+# Errata: Data

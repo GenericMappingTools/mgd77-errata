@@ -1,0 +1,44 @@
+# Cruise 03020022 ID CONMALAS MGD77 FILE VERSION: 19800213 N_RECS: 7326
+# Examined: Fri Apr  9 13:41:53 2010 by mtchandl
+# Arguments:  -R209.85/219.2/56.25/60.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-W-03020022-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-03020022-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-03020022-depth-01: RLS m: 1 b: 0 rms: 31.34 r: 0.999844 sig: 1 dec: 0
+Y-I-03020022-faa-01: RLS m: -0.97396 b: -8.36588 rms: 86.8168 r: 0.989353 sig: 1 dec: 0
+N-E-03020022-faa-02: Regression slope -0.97396 different from 1. Recommended: [1]
+Y-W-03020022-faa-03: Regression offset -8.36588 different from 0.
+Y-E-03020022-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01569 b: 172.169 rms: 176.424 r: 0.981488 sig: 1 dec: 1). [Recompute]
+N-E-03020022-faa-08: Extended offset from grid [5611-5897]
+N-E-03020022-twt-13: Encountered possible PDR wrap errors (5.2) [5.0]
+Y-W-03020022-faa-09: all values less than or equal to zero
+Y-E-03020022-faa-10: Invalid data records: [1-7326]
+Y-W-03020022-mtf1-12: Integer precision
+Y-W-03020022-mag-12: Integer precision
+Y-W-03020022-faa-12: Integer precision
+# Errata: Data
+Y	03020022	1972-07-27T10:38:00.00	1053	C-0-0	 NAV: excessive speed
+Y	03020022	1972-08-13T03:22:36.00	2000	B-0-0	 NAV: non-increasing time
+Y	03020022	1972-08-13T05:08:36.00	2024	C-0-0	 NAV: excessive speed
+?	03020022	1972-08-16T13:46:00.00	2698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020022	1972-08-18T12:20:00.00	3094	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020022	1972-08-27T10:32:00.00	3522	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03020022	1972-09-07T09:20:00.00	4358	0-0-KL	 GRAD: twt, depth excessive
+?	03020022	1972-09-07T09:25:00.00	4359	0-0-KL	 GRAD: twt, depth excessive
+Y	03020022	1972-09-07T20:16:00.00	4494	C-0-0	 NAV: excessive speed
+Y	03020022	1972-09-08T03:52:00.00	4588	C-0-0	 NAV: excessive speed
+?	03020022	1972-09-13T16:20:00.00	5732	0-0-KL	 GRAD: twt, depth excessive
+?	03020022	1972-09-13T16:25:00.00	5733	0-0-KL	 GRAD: twt, depth excessive
+Y	03020022	1972-09-16T18:00:00.00	6485	C-0-0	 NAV: excessive speed
+?	03020022	1972-09-17T08:15:00.00	6602	0-0-K	 GRAD: twt excessive
+?	03020022	1972-09-18T10:20:00.00	6868	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	03020022	1972-09-18T10:22:00.00	6869	0-0-W	 GRAD: faa excessive
+Y	03020022	1972-09-18T16:00:00.00	6937	C-0-0	 NAV: excessive speed
+Y	03020022	1972-09-18T16:08:00.00	6939	C-0-0	 NAV: excessive speed
+?	03020022	1972-09-19T00:01:00.00	7033	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03020022	1972-09-19T00:05:00.00	7034	0-0-OQ	 GRAD: mtf1, mag excessive

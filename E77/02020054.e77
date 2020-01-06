@@ -1,0 +1,20 @@
+# Cruise 02020054 ID A2075L04 MGD77 FILE VERSION: 19800206 N_RECS: 6843
+# Examined: Fri Mar 26 21:40:45 2010 by mtchandl
+# Arguments:  -R335.2/350/1.9/17.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020054-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020054-depth-01: RLS m: 1 b: 0 rms: 13.8796 r: 0.999932 sig: 1 dec: 0
+Y-I-02020054-faa-01: RLS m: 0.997277 b: -4.74556 rms: 8.94593 r: 0.991348 sig: 1 dec: 1
+Y-W-02020054-faa-03: Regression offset -4.74556 different from 0.
+Y-E-02020054-mag-07: Anomaly differs from mtf1-IGRF (m: 0.970951 b: 152.243 rms: 167.625 r: 0.847972 sig: 1 dec: 1). [Recompute]
+Y-W-02020054-twt-11: More recent bathymetry correction table available
+Y-W-02020054-mtf1-12: Integer precision
+Y-W-02020054-mag-12: Integer precision
+# Errata: Data
+?	02020054	1973-04-20T09:00:00.00	2709	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	02020054	1973-04-20T09:05:00.00	2711	0-0-W	 GRAD: faa excessive

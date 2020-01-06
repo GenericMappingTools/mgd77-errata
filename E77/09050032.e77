@@ -1,0 +1,805 @@
+# Cruise 09050032 ID KA344602 MGD77 FILE VERSION: 19830818 N_RECS: 26290
+# Examined: Mon Aug  9 11:32:48 2010 by mtchandl
+# Arguments:  -R280.35/304.65/11.35/36.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged apparent sonar operator error near ~2300 km along-track.
+# Errata: Header
+Y-E-09050032-H11-06: Invalid Rightmost Longitude: (-054) [-055]
+Y-I-09050032-depth-01: RLS m: 1.0003 b: 0 rms: 18.3496 r: 0.999954 sig: 1 dec: 0
+N-E-09050032-depth-02: Regression slope 1.0003 different from 1. Recommended: [1]
+Y-E-09050032-mag-07: Anomaly differs from mtf1-IGRF (m: 0.771085 b: -591.011 rms: 606.844 r: 0.873117 sig: 1 dec: 1). [Recompute]
+Y-E-09050032-depth-08: Extended offset from grid [6767-9060]
+N-E-09050032-twt-13: Encountered possible PDR wrap errors (5.2) [5.0]
+Y-W-09050032-mag-09: only found negative values
+Y-W-09050032-depth-12: Integer precision
+Y-W-09050032-mag-12: Integer precision
+# Errata: Data
+?	09050032	1976-01-17T16:30:00.00	3297	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-18T05:14:00.00	4060	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-18T12:24:00.00	4490	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-18T18:01:00.00	4827	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-20T23:12:00.00	6718	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-21T00:03:00.00	6768	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:04:00.00	6769	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:05:00.00	6770	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:06:00.00	6771	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:07:00.00	6772	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:09:00.00	6774	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:11:00.00	6776	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:13:00.00	6778	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:14:00.00	6779	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:15:00.00	6780	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:16:00.00	6781	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:18:00.00	6783	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:19:00.00	6784	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:20:00.00	6785	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:25:00.00	6790	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:26:00.00	6791	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:31:00.00	6796	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:33:00.00	6798	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:34:00.00	6799	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:38:00.00	6803	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:40:00.00	6805	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:42:00.00	6807	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:44:00.00	6809	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:50:00.00	6815	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T00:51:00.00	6816	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:52:00.00	6817	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:58:00.00	6823	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T00:59:00.00	6824	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:01:00.00	6826	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:02:00.00	6827	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:04:00.00	6829	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:05:00.00	6830	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:06:00.00	6831	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:07:00.00	6832	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:08:00.00	6833	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:09:00.00	6834	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:10:00.00	6835	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:11:00.00	6836	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:13:00.00	6838	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:15:00.00	6840	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:17:00.00	6842	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:18:00.00	6843	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:20:00.00	6845	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:21:00.00	6846	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:22:00.00	6847	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:24:00.00	6849	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:27:00.00	6852	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:28:00.00	6853	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:30:00.00	6855	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:31:00.00	6856	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:32:00.00	6857	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:33:00.00	6858	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:34:00.00	6859	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:35:00.00	6860	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:36:00.00	6861	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:37:00.00	6862	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:38:00.00	6863	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:39:00.00	6864	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:40:00.00	6865	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:42:00.00	6867	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:44:00.00	6869	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:47:00.00	6872	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T01:49:00.00	6874	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:50:00.00	6875	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:51:00.00	6876	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:52:00.00	6877	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T01:56:00.00	6881	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:00:00.00	6885	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:01:00.00	6886	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:02:00.00	6887	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:04:00.00	6889	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:06:00.00	6891	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:07:00.00	6892	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:08:00.00	6893	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:10:00.00	6895	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:12:00.00	6897	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:13:00.00	6898	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:14:00.00	6899	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:17:00.00	6902	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:20:00.00	6905	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:24:00.00	6909	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:28:00.00	6913	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:29:00.00	6914	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:30:00.00	6915	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:31:00.00	6916	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:33:00.00	6918	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:34:00.00	6919	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T02:35:00.00	6920	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:37:00.00	6922	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:38:00.00	6923	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:41:00.00	6926	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:43:00.00	6928	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:45:00.00	6930	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:46:00.00	6931	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:51:00.00	6936	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:52:00.00	6937	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:53:00.00	6938	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:55:00.00	6940	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T02:57:00.00	6942	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:04:00.00	6949	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:05:00.00	6950	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:06:00.00	6951	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:08:00.00	6953	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:14:00.00	6959	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:15:00.00	6960	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:17:00.00	6962	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:19:00.00	6964	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T03:20:00.00	6965	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:21:00.00	6966	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:22:00.00	6967	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:23:00.00	6968	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:24:00.00	6969	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:31:00.00	6976	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:32:00.00	6977	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:34:00.00	6979	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:38:00.00	6983	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:40:00.00	6985	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:42:00.00	6987	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:43:00.00	6988	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:44:00.00	6989	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:45:00.00	6990	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:46:00.00	6991	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:48:00.00	6993	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:49:00.00	6994	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:51:00.00	6996	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:52:00.00	6997	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:54:00.00	6999	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:55:00.00	7000	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:56:00.00	7001	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T03:57:00.00	7002	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:58:00.00	7003	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T03:59:00.00	7004	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:00:00.00	7005	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:01:00.00	7006	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:02:00.00	7007	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:03:00.00	7008	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:04:00.00	7009	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:06:00.00	7011	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:07:00.00	7012	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:13:00.00	7018	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:15:00.00	7020	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:18:00.00	7023	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:22:00.00	7027	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:24:00.00	7029	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:25:00.00	7030	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:26:00.00	7031	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:27:00.00	7032	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:28:00.00	7033	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:29:00.00	7034	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:30:00.00	7035	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:31:00.00	7036	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:32:00.00	7037	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:34:00.00	7039	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T04:35:00.00	7040	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:36:00.00	7041	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:41:00.00	7046	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:42:00.00	7047	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:43:00.00	7048	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:45:00.00	7050	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:49:00.00	7054	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:50:00.00	7055	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:51:00.00	7056	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:53:00.00	7058	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:54:00.00	7059	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:55:00.00	7060	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:56:00.00	7061	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T04:57:00.00	7062	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T04:59:00.00	7064	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T05:00:00.00	7065	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:03:00.00	7068	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:04:00.00	7069	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:05:00.00	7070	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:07:00.00	7072	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:08:00.00	7073	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:09:00.00	7074	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:10:00.00	7075	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:11:00.00	7076	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:12:00.00	7077	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:13:00.00	7078	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:16:00.00	7081	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:17:00.00	7082	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:18:00.00	7083	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:20:00.00	7085	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:26:00.00	7091	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:27:00.00	7092	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:29:00.00	7094	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:33:00.00	7098	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:34:00.00	7099	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:35:00.00	7100	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:36:00.00	7101	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:38:00.00	7103	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:39:00.00	7104	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:43:00.00	7108	0-LM-K	 VAL: depth, bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T05:44:00.00	7109	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:45:00.00	7110	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:47:00.00	7112	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T05:48:00.00	7113	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T05:49:00.00	7114	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:50:00.00	7115	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T05:51:00.00	7116	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:52:00.00	7117	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:53:00.00	7118	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:54:00.00	7119	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:56:00.00	7121	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T05:59:00.00	7124	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:00:00.00	7125	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:02:00.00	7127	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:04:00.00	7129	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:08:00.00	7133	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:11:00.00	7136	0-LM-K	 VAL: depth, bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T06:12:00.00	7137	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:20:00.00	7145	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:22:00.00	7147	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:25:00.00	7150	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T06:26:00.00	7151	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:28:00.00	7153	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:30:00.00	7155	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:35:00.00	7160	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:38:00.00	7163	0-LM-0	 VAL: depth, bcc invalid
+?	09050032	1976-01-21T06:39:00.00	7164	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:43:00.00	7168	0-LM-KL	 VAL: depth, bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:51:00.00	7176	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T06:54:00.00	7179	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T06:57:00.00	7182	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:01:00.00	7186	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:02:00.00	7187	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:04:00.00	7189	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:10:00.00	7195	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:13:00.00	7198	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:14:00.00	7199	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:17:00.00	7202	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:18:00.00	7203	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:20:00.00	7205	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T07:21:00.00	7206	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:27:00.00	7212	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:28:00.00	7213	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:38:00.00	7223	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:39:00.00	7224	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:45:00.00	7230	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:46:00.00	7231	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:47:00.00	7232	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:50:00.00	7235	0-M-K	 VAL: bcc invalid - GRAD: twt excessive
+?	09050032	1976-01-21T07:51:00.00	7236	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:52:00.00	7237	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:53:00.00	7238	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:54:00.00	7239	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T07:58:00.00	7243	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T07:59:00.00	7244	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:01:00.00	7246	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:05:00.00	7250	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:06:00.00	7251	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T08:07:00.00	7252	0-M-0	 VAL: bcc invalid
+?	09050032	1976-01-21T08:09:00.00	7254	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:10:00.00	7255	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:11:00.00	7256	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	09050032	1976-01-21T08:12:00.00	7257	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-21T22:20:00.00	7525	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T00:02:00.00	7626	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:03:00.00	7627	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:05:00.00	7629	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:06:00.00	7630	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:07:00.00	7631	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:09:00.00	7633	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:10:00.00	7634	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:11:00.00	7635	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:12:00.00	7636	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:13:00.00	7637	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:15:00.00	7639	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:16:00.00	7640	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:17:00.00	7641	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:18:00.00	7642	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:19:00.00	7643	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:20:00.00	7644	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:21:00.00	7645	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:22:00.00	7646	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:23:00.00	7647	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:24:00.00	7648	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:25:00.00	7649	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:26:00.00	7650	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:27:00.00	7651	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:28:00.00	7652	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:29:00.00	7653	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:30:00.00	7654	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:31:00.00	7655	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:32:00.00	7656	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:33:00.00	7657	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:34:00.00	7658	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:35:00.00	7659	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:36:00.00	7660	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:37:00.00	7661	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:38:00.00	7662	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:39:00.00	7663	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:41:00.00	7665	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:42:00.00	7666	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:43:00.00	7667	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:44:00.00	7668	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:46:00.00	7670	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:47:00.00	7671	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:48:00.00	7672	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:49:00.00	7673	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:51:00.00	7675	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:55:00.00	7679	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:56:00.00	7680	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:57:00.00	7681	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:58:00.00	7682	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T00:59:00.00	7683	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:00:00.00	7684	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:01:00.00	7685	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:02:00.00	7686	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:03:00.00	7687	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:04:00.00	7688	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:06:00.00	7690	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:14:00.00	7698	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:15:00.00	7699	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:16:00.00	7700	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:18:00.00	7702	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T01:19:00.00	7703	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:20:00.00	7704	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T01:46:00.00	7730	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T01:52:00.00	7736	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T01:53:00.00	7737	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:54:00.00	7738	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:55:00.00	7739	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T01:56:00.00	7740	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T02:00:00.00	7744	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T02:02:00.00	7746	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T02:03:00.00	7747	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:09:00.00	7873	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:10:00.00	7874	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:11:00.00	7875	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:14:00.00	7878	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:16:00.00	7880	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:17:00.00	7881	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:18:00.00	7882	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:19:00.00	7883	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T04:20:00.00	7884	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:09:00.00	7993	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:10:00.00	7994	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:12:00.00	7996	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T06:13:00.00	7997	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:16:00.00	8000	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:17:00.00	8001	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:19:00.00	8003	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:23:00.00	8007	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:24:00.00	8008	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T06:29:00.00	8013	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:31:00.00	8015	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:51:00.00	8035	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T06:53:00.00	8037	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:00:00.00	8044	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:01:00.00	8045	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:02:00.00	8046	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:04:00.00	8048	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:06:00.00	8050	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:30:00.00	8074	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T07:31:00.00	8075	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:04:00.00	8108	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:05:00.00	8109	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:18:00.00	8122	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:19:00.00	8123	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:21:00.00	8125	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:31:00.00	8135	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:33:00.00	8137	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:36:00.00	8140	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:37:00.00	8141	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:38:00.00	8142	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:39:00.00	8143	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:40:00.00	8144	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:41:00.00	8145	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:47:00.00	8151	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:48:00.00	8152	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:49:00.00	8153	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:51:00.00	8155	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T08:52:00.00	8156	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T08:55:00.00	8159	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:09:00.00	8173	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:19:00.00	8183	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:20:00.00	8184	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:21:00.00	8185	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:24:00.00	8188	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:25:00.00	8189	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:27:00.00	8191	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:29:00.00	8193	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:32:00.00	8196	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:33:00.00	8197	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:34:00.00	8198	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:42:00.00	8206	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:43:00.00	8207	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:46:00.00	8210	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T09:58:00.00	8222	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:01:00.00	8225	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:03:00.00	8227	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:05:00.00	8229	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:06:00.00	8230	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:09:00.00	8233	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T10:10:00.00	8234	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:25:00.00	8249	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T10:27:00.00	8251	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T10:55:00.00	8279	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T11:02:00.00	8286	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:03:00.00	8287	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:04:00.00	8288	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:05:00.00	8289	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:08:00.00	8292	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:09:00.00	8293	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:10:00.00	8294	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:15:00.00	8299	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:16:00.00	8300	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:19:00.00	8303	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:20:00.00	8304	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:21:00.00	8305	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:22:00.00	8306	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:35:00.00	8319	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:36:00.00	8320	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:48:00.00	8332	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:49:00.00	8333	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:50:00.00	8334	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:52:00.00	8336	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:53:00.00	8337	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:56:00.00	8340	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:57:00.00	8341	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T11:58:00.00	8342	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T12:01:00.00	8345	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:22:00.00	8366	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:25:00.00	8369	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:30:00.00	8374	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:31:00.00	8375	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:37:00.00	8381	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:43:00.00	8387	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:53:00.00	8397	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:54:00.00	8398	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:55:00.00	8399	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:57:00.00	8401	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T12:59:00.00	8403	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:04:00.00	8408	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:18:00.00	8422	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T13:19:00.00	8423	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:29:00.00	8433	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:30:00.00	8434	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T13:32:00.00	8436	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:34:00.00	8438	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T13:57:00.00	8461	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:01:00.00	8465	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:02:00.00	8466	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:30:00.00	8494	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:32:00.00	8496	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:33:00.00	8497	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:34:00.00	8498	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:38:00.00	8502	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:39:00.00	8503	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:40:00.00	8504	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:46:00.00	8510	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:47:00.00	8511	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:48:00.00	8512	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:49:00.00	8513	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:50:00.00	8514	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:51:00.00	8515	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:56:00.00	8520	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T14:57:00.00	8521	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:09:00.00	8533	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:15:00.00	8539	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:25:00.00	8549	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:26:00.00	8550	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:28:00.00	8552	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:29:00.00	8553	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:30:00.00	8554	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:31:00.00	8555	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:36:00.00	8560	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:37:00.00	8561	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:39:00.00	8563	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:41:00.00	8565	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:42:00.00	8566	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:43:00.00	8567	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:55:00.00	8579	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:56:00.00	8580	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:57:00.00	8581	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:58:00.00	8582	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T15:59:00.00	8583	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:00:00.00	8584	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:01:00.00	8585	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:04:00.00	8588	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:10:00.00	8594	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:11:00.00	8595	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:13:00.00	8597	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:14:00.00	8598	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:15:00.00	8599	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:16:00.00	8600	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:17:00.00	8601	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:19:00.00	8603	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:20:00.00	8604	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:21:00.00	8605	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:24:00.00	8608	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:25:00.00	8609	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:26:00.00	8610	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:27:00.00	8611	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:28:00.00	8612	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:29:00.00	8613	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:30:00.00	8614	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:31:00.00	8615	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:32:00.00	8616	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:35:00.00	8619	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:37:00.00	8621	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:38:00.00	8622	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:39:00.00	8623	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:49:00.00	8633	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:50:00.00	8634	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:54:00.00	8638	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:58:00.00	8642	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T16:59:00.00	8643	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:01:00.00	8645	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:02:00.00	8646	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:03:00.00	8647	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:04:00.00	8648	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:06:00.00	8650	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:07:00.00	8651	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:08:00.00	8652	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:09:00.00	8653	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:10:00.00	8654	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:13:00.00	8657	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:16:00.00	8660	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:17:00.00	8661	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:26:00.00	8670	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:27:00.00	8671	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:30:00.00	8674	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:31:00.00	8675	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:32:00.00	8676	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:35:00.00	8679	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:36:00.00	8680	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:38:00.00	8682	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:40:00.00	8684	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:41:00.00	8685	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:43:00.00	8687	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:44:00.00	8688	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:46:00.00	8690	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:47:00.00	8691	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:49:00.00	8693	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:50:00.00	8694	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:54:00.00	8698	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:55:00.00	8699	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:56:00.00	8700	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:57:00.00	8701	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:58:00.00	8702	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T17:59:00.00	8703	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:06:00.00	8710	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:07:00.00	8711	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:08:00.00	8712	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:09:00.00	8713	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:10:00.00	8714	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:15:00.00	8719	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:16:00.00	8720	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:17:00.00	8721	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:20:00.00	8724	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:21:00.00	8725	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:22:00.00	8726	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:24:00.00	8728	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T18:26:00.00	8730	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:34:00.00	8738	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:35:00.00	8739	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:36:00.00	8740	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:38:00.00	8742	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:39:00.00	8743	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:40:00.00	8744	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:41:00.00	8745	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:48:00.00	8752	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:49:00.00	8753	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:50:00.00	8754	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:51:00.00	8755	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:52:00.00	8756	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:53:00.00	8757	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T18:59:00.00	8763	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:01:00.00	8765	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:11:00.00	8775	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:12:00.00	8776	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:13:00.00	8777	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:14:00.00	8778	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:16:00.00	8780	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:17:00.00	8781	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:18:00.00	8782	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:19:00.00	8783	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:20:00.00	8784	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:21:00.00	8785	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:22:00.00	8786	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:23:00.00	8787	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:24:00.00	8788	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:27:00.00	8791	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:28:00.00	8792	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:33:00.00	8797	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:34:00.00	8798	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:39:00.00	8803	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:40:00.00	8804	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:41:00.00	8805	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:46:00.00	8810	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:47:00.00	8811	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:48:00.00	8812	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:49:00.00	8813	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:50:00.00	8814	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:53:00.00	8817	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:55:00.00	8819	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:57:00.00	8821	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:58:00.00	8822	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T19:59:00.00	8823	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:00:00.00	8824	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:01:00.00	8825	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:02:00.00	8826	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:03:00.00	8827	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:04:00.00	8828	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:05:00.00	8829	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:06:00.00	8830	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:07:00.00	8831	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:08:00.00	8832	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:09:00.00	8833	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:10:00.00	8834	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:11:00.00	8835	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:18:00.00	8842	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:19:00.00	8843	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:22:00.00	8846	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:23:00.00	8847	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:24:00.00	8848	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:29:00.00	8853	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:30:00.00	8854	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:34:00.00	8858	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:35:00.00	8859	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:37:00.00	8861	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:38:00.00	8862	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:39:00.00	8863	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:40:00.00	8864	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:44:00.00	8868	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:45:00.00	8869	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:46:00.00	8870	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:49:00.00	8873	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:50:00.00	8874	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:51:00.00	8875	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:52:00.00	8876	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:53:00.00	8877	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:55:00.00	8879	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:56:00.00	8880	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T20:58:00.00	8882	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:01:00.00	8885	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:02:00.00	8886	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:05:00.00	8889	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:06:00.00	8890	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:07:00.00	8891	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:09:00.00	8893	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:10:00.00	8894	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:11:00.00	8895	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T21:12:00.00	8896	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:13:00.00	8897	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:14:00.00	8898	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:15:00.00	8899	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:16:00.00	8900	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:18:00.00	8902	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:19:00.00	8903	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:20:00.00	8904	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:21:00.00	8905	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:22:00.00	8906	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:23:00.00	8907	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:24:00.00	8908	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:25:00.00	8909	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:26:00.00	8910	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:27:00.00	8911	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:30:00.00	8914	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:31:00.00	8915	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:32:00.00	8916	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:34:00.00	8918	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:35:00.00	8919	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T21:36:00.00	8920	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:37:00.00	8921	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:38:00.00	8922	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:39:00.00	8923	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:40:00.00	8924	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:43:00.00	8927	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:44:00.00	8928	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:47:00.00	8931	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:48:00.00	8932	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:49:00.00	8933	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:50:00.00	8934	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:51:00.00	8935	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:52:00.00	8936	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:53:00.00	8937	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:54:00.00	8938	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:55:00.00	8939	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:58:00.00	8942	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T21:59:00.00	8943	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:00:00.00	8944	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:01:00.00	8945	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:02:00.00	8946	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:03:00.00	8947	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:04:00.00	8948	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:05:00.00	8949	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:06:00.00	8950	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:07:00.00	8951	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:10:00.00	8954	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:11:00.00	8955	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:12:00.00	8956	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:13:00.00	8957	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:14:00.00	8958	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:16:00.00	8960	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:17:00.00	8961	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:19:00.00	8963	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T22:24:00.00	8968	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:25:00.00	8969	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:29:00.00	8973	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:30:00.00	8974	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:31:00.00	8975	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:32:00.00	8976	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:33:00.00	8977	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:38:00.00	8982	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:39:00.00	8983	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:41:00.00	8985	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:42:00.00	8986	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:44:00.00	8988	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:45:00.00	8989	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:46:00.00	8990	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:47:00.00	8991	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:48:00.00	8992	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:51:00.00	8995	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:52:00.00	8996	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:53:00.00	8997	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:54:00.00	8998	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T22:55:00.00	8999	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:01:00.00	9005	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:02:00.00	9006	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:04:00.00	9008	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:05:00.00	9009	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:07:00.00	9011	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:08:00.00	9012	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:09:00.00	9013	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:10:00.00	9014	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:11:00.00	9015	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:17:00.00	9021	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:19:00.00	9023	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:20:00.00	9024	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:21:00.00	9025	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:22:00.00	9026	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:23:00.00	9027	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:25:00.00	9029	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:26:00.00	9030	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:27:00.00	9031	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:30:00.00	9034	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:31:00.00	9035	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T23:32:00.00	9036	0-0-K	 GRAD: twt excessive
+?	09050032	1976-01-22T23:33:00.00	9037	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:34:00.00	9038	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:35:00.00	9039	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:37:00.00	9041	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:38:00.00	9042	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:39:00.00	9043	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:40:00.00	9044	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:44:00.00	9048	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:45:00.00	9049	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:46:00.00	9050	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:47:00.00	9051	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:48:00.00	9052	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:49:00.00	9053	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:50:00.00	9054	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:51:00.00	9055	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:52:00.00	9056	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:56:00.00	9060	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-01-22T23:57:00.00	9061	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-05T06:37:00.00	14525	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-08T20:19:00.00	16221	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-12T21:17:00.00	19417	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-13T22:18:00.00	20296	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-13T22:25:00.00	20303	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-14T01:02:00.00	20359	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-14T01:18:00.00	20375	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-14T01:24:00.00	20381	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-15T18:54:00.00	22535	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-15T19:08:00.00	22549	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-16T11:06:00.00	23506	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-16T11:07:00.00	23507	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-16T11:08:00.00	23508	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-16T11:09:00.00	23509	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-16T19:53:00.00	24033	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-16T23:14:00.00	24234	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-16T23:41:00.00	24261	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-17T00:27:00.00	24306	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-17T00:30:00.00	24309	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-17T00:43:00.00	24322	0-0-K	 GRAD: twt excessive
+?	09050032	1976-02-17T00:44:00.00	24323	0-0-KL	 GRAD: twt, depth excessive
+?	09050032	1976-02-17T02:53:00.00	24452	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,30 @@
+# Cruise 01030388 ID V1608 MGD77 FILE VERSION: 19940713 N_RECS: 7590
+# Examined: Fri Mar 19 01:39:21 2010 by mtchandl
+# Arguments:  -R137.1/174.8/-57.85/-34.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01030388-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-E-01030388-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030388-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030388-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030388-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030388-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030388-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030388-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030388-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01030388-depth-01: RLS m: 0.999134 b: 0 rms: 28.5433 r: 0.999829 sig: 1 dec: 0
+N-E-01030388-depth-02: Regression slope 0.999134 different from 1. Recommended: [1]
+Y-W-01030388-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030388	1960-03-23T02:30:00.00	2336	0-0-KL	 GRAD: twt, depth excessive
+?	01030388	1960-03-23T03:13:00.00	2348	0-0-KL	 GRAD: twt, depth excessive
+?	01030388	1960-03-31T20:01:00.00	5336	0-0-KL	 GRAD: twt, depth excessive
+?	01030388	1960-03-31T22:20:00.00	5377	0-0-K	 GRAD: twt excessive
+?	01030388	1960-03-31T22:23:00.00	5378	0-0-K	 GRAD: twt excessive
+?	01030388	1960-04-04T08:24:00.00	6678	0-0-KL	 GRAD: twt, depth excessive
+?	01030388	1960-04-04T10:17:00.00	6718	0-0-KL	 GRAD: twt, depth excessive
+?	01030388	1960-04-04T16:28:00.00	6819	0-0-KL	 GRAD: twt, depth excessive

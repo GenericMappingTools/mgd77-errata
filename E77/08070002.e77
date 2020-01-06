@@ -1,0 +1,29 @@
+# Cruise 08070002 ID 79031900 MGD77 FILE VERSION: 19830818 N_RECS: 4378
+# Examined: Fri Jul 30 14:13:05 2010 by mtchandl
+# Arguments:  -R203.8/204.15/19.8/20.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08070002-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08070002-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08070002-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08070002-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08070002-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08070002-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08070002-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08070002-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08070002-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-08070002-depth-01: RLS m: 0.995783 b: 0 rms: 30.5826 r: 0.998338 sig: 1 dec: 0
+Y-W-08070002-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08070002	1979-03-20T23:17:00.00	156	C-0-0	 NAV: excessive speed
+Y	08070002	1979-03-20T23:18:00.00	157	C-0-0	 NAV: excessive speed
+?	08070002	1979-03-21T19:00:30.00	953	0-0-KL	 GRAD: twt, depth excessive
+Y	08070002	1979-03-23T23:14:00.00	1570	C-0-0	 NAV: excessive speed
+Y	08070002	1979-03-24T01:44:09.96	1853	C-0-0	 NAV: excessive speed
+Y	08070002	1979-03-24T02:05:40.02	1920	B-0-0	 NAV: non-increasing time
+Y	08070002	1979-03-24T02:53:30.00	2096	B-0-0	 NAV: non-increasing time
+Y	08070002	1979-04-01T06:37:00.00	3884	B-0-0	 NAV: non-increasing time

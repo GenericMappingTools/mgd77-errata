@@ -1,0 +1,71 @@
+# Cruise J1010005 ID HT8402 MGD77 FILE VERSION: 19871208 N_RECS: 1516
+# Examined: Thu Aug  4 20:01:35 2011 by mtchandl
+# Arguments:  -R122.4/124.95/23.95/28.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all 9999 depths. Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-W-J1010005-H13-09: Unknown IGRF specified (DGRF1980)
+Y-I-J1010005-depth-01: RLS m: 1.00269 b: 0 rms: 16.8252 r: 0.999831 sig: 1 dec: 0
+N-E-J1010005-depth-02: Regression slope 1.00269 different from 1. Recommended: [1]
+Y-I-J1010005-faa-01: RLS m: 0.987261 b: -5.91241 rms: 9.75595 r: 0.994365 sig: 1 dec: 1
+Y-W-J1010005-faa-03: Regression offset -5.91241 different from 0.
+N-E-J1010005-depth-08: Extended offset from grid [1268-1309]
+N-E-J1010005-depth-08: Extended offset from grid [1333-1357]
+Y-W-J1010005-depth-12: Integer precision
+Y-W-J1010005-mag-12: Integer precision
+Y-W-J1010005-faa-12: Integer precision
+# Errata: Data
+Y	J1010005	1984-06-23T12:00:00.00	219	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-23T21:00:00.00	273	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:00:00.00	291	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:10:00.00	292	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:20:00.00	293	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:30:00.00	294	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:40:00.00	295	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T00:50:00.00	296	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T01:00:00.00	297	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T01:10:00.00	298	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T01:20:00.00	299	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T01:30:00.00	300	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T03:00:00.00	301	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T03:40:00.00	302	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-24T06:40:00.00	303	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-25T00:30:00.00	409	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-26T20:10:00.00	671	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-29T08:00:00.00	1030	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-30T00:00:00.00	1125	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-30T02:20:00.00	1139	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-30T02:30:00.00	1140	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-30T04:20:00.00	1149	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-06-30T04:30:00.00	1150	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T00:30:00.00	1270	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T01:30:00.00	1276	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T03:30:00.00	1288	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T04:30:00.00	1294	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T05:00:00.00	1297	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T05:10:00.00	1298	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T05:30:00.00	1300	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T06:30:00.00	1306	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T07:30:00.00	1312	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T08:30:00.00	1318	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T09:30:00.00	1324	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T10:30:00.00	1330	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:00:00.00	1333	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:10:00.00	1334	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:20:00.00	1335	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:30:00.00	1336	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:40:00.00	1337	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T11:50:00.00	1338	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:00:00.00	1339	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:10:00.00	1340	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:20:00.00	1341	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:30:00.00	1342	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:40:00.00	1343	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T12:50:00.00	1344	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T13:00:00.00	1345	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T13:10:00.00	1346	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T13:20:00.00	1347	0-L-0	 VAL: depth invalid
+Y	J1010005	1984-07-01T13:30:00.00	1348	0-L-0	 VAL: depth invalid

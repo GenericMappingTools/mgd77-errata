@@ -1,0 +1,15 @@
+# Cruise 07010004 ID YAQ66APR MGD77 FILE VERSION: 19840131 N_RECS: 388
+# Examined: Fri Jul 16 17:29:25 2010 by mtchandl
+# Arguments:  -R222.95/227.05/38.7/41.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-07010004-H11-05: Invalid Leftmost Longitude: (-137) [-138]
+Y-I-07010004-depth-01: RLS m: 1.00009 b: 0 rms: 24.7266 r: 0.998484 sig: 1 dec: 0
+Y-I-07010004-faa-01: RLS m: 0.997781 b: -1.02672 rms: 6.91395 r: 0.920177 sig: 1 dec: 0
+Y-W-07010004-twt-11: More recent bathymetry correction table available
+Y-W-07010004-faa-12: Integer precision
+# Errata: Data

@@ -1,0 +1,22 @@
+# Cruise J1020034 ID HS860408 MGD77 FILE VERSION: 19921231 N_RECS: 23289
+# Examined: Sat Aug  6 11:43:32 2011 by mtchandl
+# Arguments:  -R139.95/141.8/29.6/30.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J1020034-depth-01: RLS m: 1.00037 b: 0 rms: 20.5277 r: 0.999774 sig: 1 dec: 0
+Y-I-J1020034-faa-01: RLS m: 1.01201 b: -7.49224 rms: 7.69026 r: 0.998397 sig: 1 dec: 0
+N-E-J1020034-faa-02: Regression slope 1.01201 different from 1. Recommended: [1]
+Y-W-J1020034-faa-03: Regression offset -7.49224 different from 0.
+Y-I-J1020034-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020034-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.65754 b: 18.9717 rms: 49.3295 r: 0.795537 sig: 1 dec: 1). [Recompute]
+N-E-J1020034-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.880208 b: -18.8893 rms: 35.8698 r: 0.937601 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-J1020034-depth-12: Integer precision
+# Errata: Data
+?	J1020034	1986-04-16T00:06:00.00	9893	0-0-U	 GRAD: gobs excessive
+?	J1020034	1986-04-16T00:07:00.00	9894	0-0-U	 GRAD: gobs excessive
+?	J1020034	1986-04-23T10:08:00.00	12388	0-W-UW	 VAL: faa invalid - GRAD: gobs, faa excessive
+?	J1020034	1986-04-23T10:09:00.00	12389	0-0-UW	 GRAD: gobs, faa excessive

@@ -1,0 +1,18 @@
+# Cruise 67010013 ID 69006211 MGD77 FILE VERSION: 19830804 N_RECS: 1057
+# Examined: Thu Jul 28 18:39:29 2011 by mtchandl
+# Arguments:  -R-8.8/-4.15/47.25/48.35 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-67010013-depth-01: RLS m: 1.00388 b: 0 rms: 7.53899 r: 0.99988 sig: 1 dec: 0
+N-E-67010013-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-I-67010013-faa-01: RLS m: 1.07451 b: 4.23686 rms: 6.87381 r: 0.958372 sig: 1 dec: 0
+N-E-67010013-faa-02: Regression slope 1.07451 different from 1. Recommended: [1]
+Y-W-67010013-faa-03: Regression offset 4.23686 different from 0.
+Y-W-67010013-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	67010013	1969-06-11T05:15:00.00	404	0-0-K	 GRAD: twt excessive
+?	67010013	1969-06-11T05:16:00.00	405	0-0-KL	 GRAD: twt, depth excessive

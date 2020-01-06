@@ -1,0 +1,92 @@
+# Cruise 02020013 ID A2032L01 MGD77 FILE VERSION: 19820805 N_RECS: 3837
+# Examined: Fri Mar 26 21:20:32 2010 by mtchandl
+# Arguments:  -R293.65/352.8/41.4/49.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02020013-nav-00: Flagged 0.13 % of records with bad navigation
+Y-E-02020013-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0004 b: -39.6956 rms: 41.7454 r: 0.997401 sig: 1 dec: 0). [Recompute]
+Y-W-02020013-mtf1-12: Integer precision
+Y-W-02020013-mag-12: Integer precision
+# Errata: Data
+?	02020013	1967-05-21T15:37:00.00	1211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T16:33:00.00	1227	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T16:37:00.00	1228	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T16:56:00.00	1233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T17:07:00.00	1236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T17:11:00.00	1237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T17:15:00.00	1238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T18:00:00.00	1250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T18:07:00.00	1252	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T18:11:00.00	1253	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020013	1967-05-21T18:46:00.00	1263	C-0-0	 NAV: excessive speed
+Y	02020013	1967-05-21T19:31:00.00	1277	C-0-0	 NAV: excessive speed
+?	02020013	1967-05-21T19:33:00.00	1278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T19:35:00.00	1279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T19:37:00.00	1280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T19:48:00.00	1283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T19:52:00.00	1284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T19:56:00.00	1285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T20:15:00.00	1290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T20:30:00.00	1295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-21T20:52:00.00	1301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-22T18:05:00.00	1546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-22T21:00:00.00	1580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-22T22:45:00.00	1598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T03:45:00.00	1636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T04:07:00.00	1639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T07:22:00.00	1668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T07:52:00.00	1672	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T09:07:00.00	1683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T09:45:00.00	1689	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T11:22:00.00	1703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T13:03:00.00	1717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T14:07:00.00	1726	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T14:15:00.00	1727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T14:18:00.00	1728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T14:33:00.00	1731	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T14:52:00.00	1735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T15:22:00.00	1741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T15:37:00.00	1744	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T15:45:00.00	1745	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T15:52:00.00	1746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T16:22:00.00	1751	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T16:37:00.00	1753	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T16:52:00.00	1756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-23T17:07:00.00	1758	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-24T15:37:00.00	1969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-24T18:37:00.00	1999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-05-25T03:52:00.00	2080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-04T05:45:00.00	2827	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020013	1967-07-04T23:16:00.00	3093	C-0-0	 NAV: excessive speed
+?	02020013	1967-07-05T03:48:00.00	3166	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T11:11:00.00	3275	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020013	1967-07-05T17:20:00.00	3362	C-0-0	 NAV: excessive speed
+?	02020013	1967-07-05T22:11:00.00	3440	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T22:26:00.00	3444	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T22:30:00.00	3445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T22:41:00.00	3448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T22:45:00.00	3449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-05T22:52:00.00	3451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T00:15:00.00	3473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T00:30:00.00	3477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T00:45:00.00	3481	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	02020013	1967-07-06T02:16:00.00	3505	C-0-0	 NAV: excessive speed
+?	02020013	1967-07-06T02:41:00.00	3508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T03:30:00.00	3521	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T03:48:00.00	3526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T03:56:00.00	3528	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T04:03:00.00	3530	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T04:37:00.00	3539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T05:56:00.00	3561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T06:03:00.00	3563	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T06:07:00.00	3564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T06:18:00.00	3567	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T06:22:00.00	3568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T11:48:00.00	3655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T18:37:00.00	3746	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T19:00:00.00	3752	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020013	1967-07-06T20:07:00.00	3770	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,21 @@
+# Cruise 01210045 ID EW9003 MGD77 FILE VERSION: 19960829 N_RECS: 9338
+# Examined: Fri Mar 26 19:43:05 2010 by mtchandl
+# Arguments:  -R279.9/288.2/26.05/40.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01210045-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01210045-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01210045-H13-10: Survey year (1990) outside magnetic reference field Unused time range (9999-9999)
+Y-E-01210045-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01210045-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01210045-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01210045-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01210045-depth-01: RLS m: 0.995848 b: 0 rms: 9.46832 r: 0.999253 sig: 1 dec: 0
+N-E-01210045-depth-02: Regression slope 0.995848 different from 1. Recommended: [1]
+Y-W-01210045-depth-12: Integer precision
+# Errata: Data
+?	01210045	1990-07-02T10:22:00.00	9338	D-0-0	 NAV: on land

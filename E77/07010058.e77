@@ -1,0 +1,38 @@
+# Cruise 07010058 ID YAQ73MAA MGD77 FILE VERSION: 19821020 N_RECS: 2256
+# Examined: Mon Jul 26 15:28:06 2010 by mtchandl
+# Arguments:  -R229.5/235.8/42.55/44.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010058-nav-00: Flagged 0.22 % of records with bad navigation
+Y-I-07010058-depth-01: RLS m: 0.995899 b: 0 rms: 102.227 r: 0.988154 sig: 1 dec: 0
+Y-E-07010058-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: 50 rms: 50 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-07010058-twt-11: More recent bathymetry correction table available
+Y-W-07010058-mtf1-12: Integer precision
+Y-W-07010058-mag-12: Integer precision
+# Errata: Data
+?	07010058	1973-05-06T17:25:00.00	16	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T18:15:00.00	27	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T18:20:00.00	28	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T18:35:00.00	31	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T18:40:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T19:55:00.00	49	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T20:10:00.00	52	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T20:15:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T21:10:00.00	67	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T21:50:00.00	76	0-Q-0	 VAL: mag invalid
+?	07010058	1973-05-06T21:55:00.00	77	0-Q-0	 VAL: mag invalid
+?	07010058	1973-05-06T22:00:00.00	78	0-Q-0	 VAL: mag invalid
+?	07010058	1973-05-06T22:03:00.00	79	0-Q-0	 VAL: mag invalid
+?	07010058	1973-05-06T22:10:00.00	80	0-Q-0	 VAL: mag invalid
+?	07010058	1973-05-06T22:15:00.00	81	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010058	1973-05-06T22:22:00.00	83	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010058	1973-05-09T00:00:00.00	388	B-0-0	 NAV: non-increasing time
+Y	07010058	1973-05-10T00:00:00.00	583	B-0-0	 NAV: non-increasing time
+?	07010058	1973-05-10T21:21:00.00	847	0-0-K	 GRAD: twt excessive
+Y	07010058	1973-05-11T00:00:00.00	901	B-0-0	 NAV: non-increasing time
+Y	07010058	1973-05-12T00:00:00.00	1193	B-0-0	 NAV: non-increasing time
+Y	07010058	1973-05-14T20:00:00.00	2255	B-0-0	 NAV: non-increasing time

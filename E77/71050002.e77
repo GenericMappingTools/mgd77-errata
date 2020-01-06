@@ -1,0 +1,23 @@
+# Cruise 71050002 ID GEORGIA MGD77 FILE VERSION: 19970917 N_RECS: 4802
+# Examined: Wed Aug  3 06:51:19 2011 by mtchandl
+# Arguments:  -R-40.05/18.4/-58.8/-33.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry offsets.
+# Errata: Header
+Y-E-71050002-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-W-71050002-H13-10: Survey year (1994) outside magnetic reference field Unused time range (9999-9999)
+Y-E-71050002-H14-03: Invalid Gravity Theoretical Formula Code: (0) [0]
+Y-E-71050002-H14-05: Invalid Gravity Reference System Code: (0) [0]
+Y-E-71050002-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-71050002-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-I-71050002-depth-01: RLS m: 1.03166 b: 0 rms: 157.596 r: 0.993165 sig: 1 dec: 0
+N-E-71050002-depth-02: Regression slope 1.03166 different from 1. Recommended: [1]
+Y-E-71050002-depth-08: Extended offset from grid [23-293]
+Y-E-71050002-depth-08: Extended offset from grid [1356-1421]
+Y-E-71050002-depth-08: Extended offset from grid [1485-1622]
+Y-E-71050002-depth-08: Extended offset from grid [4547-4802]
+Y-W-71050002-depth-12: Integer precision
+# Errata: Data

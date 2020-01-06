@@ -1,0 +1,14 @@
+# Cruise 02030021 ID KN073L04 MGD77 FILE VERSION: 19820805 N_RECS: 9770
+# Examined: Fri Apr  2 15:39:38 2010 by mtchandl
+# Arguments:  -R205.5/282.15/-13.05/19.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-02030021-H16-01: Invalid Number of Ten Degree Identifiers: (13) [14]
+Y-W-02030021-H16-06: Ten Degree Identifier 5012 not marked in header but block was crossed
+Y-I-02030021-depth-01: RLS m: 0.999481 b: 0 rms: 22.5528 r: 0.999293 sig: 1 dec: 0
+# Errata: Data
+?	02030021	1978-04-16T14:30:00.00	3718	0-0-KL	 GRAD: twt, depth excessive

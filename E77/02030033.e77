@@ -1,0 +1,28 @@
+# Cruise 02030033 ID KN151L3 MGD77 FILE VERSION: 20031224 N_RECS: 24632
+# Examined: Fri Apr  2 15:47:15 2010 by mtchandl
+# Arguments:  -R297.4/309.4/6.6/44.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02030033-depth-01: RLS m: 0.998953 b: 0 rms: 89.0783 r: 0.998413 sig: 1 dec: 0
+N-E-02030033-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-W-02030033-depth-12: Integer precision
+# Errata: Data
+?	02030033	1997-07-28T19:10:04.02	10698	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-28T19:10:58.98	10699	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-28T19:11:54.00	10700	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-29T06:14:52.98	11271	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-29T23:33:07.02	12219	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-29T23:34:04.02	12220	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-30T07:13:55.02	12549	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-30T07:15:09.00	12550	0-0-L	 GRAD: depth excessive
+?	02030033	1997-07-30T07:16:04.02	12551	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-02T18:39:04.02	17328	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-02T18:40:01.02	17329	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-03T01:31:04.02	17725	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-03T01:32:07.02	17726	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-03T01:32:55.98	17727	0-0-L	 GRAD: depth excessive
+?	02030033	1997-08-07T22:09:58.98	22869	0-0-L	 GRAD: depth excessive

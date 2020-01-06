@@ -1,0 +1,22 @@
+# Cruise 09120001 ID DUT01-68 MGD77 FILE VERSION: 19790329 N_RECS: 158
+# Examined: Mon Aug  9 12:19:44 2010 by mtchandl
+# Arguments:  -R335.6/335.8/63/63.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09120001-nav-00: Flagged 5.06 % of records with bad navigation
+Y-I-09120001-faa-01: RLS m: 0.926614 b: 13.3702 rms: 9.10651 r: 0.873773 sig: 1 dec: 0
+Y-W-09120001-faa-03: Regression offset 13.3702 different from 0.
+Y-W-09120001-faa-09: only found positive values
+# Errata: Data
+Y	09120001	1967-07-11T20:16:00.00	110	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:17:00.00	111	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:18:00.00	112	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:19:00.00	113	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:47:00.00	141	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:48:00.00	142	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:49:00.00	143	C-0-0	 NAV: excessive speed
+Y	09120001	1967-07-11T20:50:00.00	144	C-0-0	 NAV: excessive speed

@@ -1,0 +1,14 @@
+# Cruise 19150014 ID 19910020 MGD77 FILE VERSION: 19951102 N_RECS: 1983
+# Examined: Tue Sep 14 16:15:07 2010 by mtchandl
+# Arguments:  -R322.8/342.05/-1.8/26.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19150014-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-I-19150014-depth-01: RLS m: 1 b: 0 rms: 8.35755 r: 0.999965 sig: 1 dec: 0
+Y-W-19150014-depth-12: Integer precision
+# Errata: Data
+?	19150014	5998.16	1762	0-0-L	 GRAD: depth excessive

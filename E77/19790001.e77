@@ -1,0 +1,16 @@
+# Cruise 19790001 ID EGRBGS1 MGD77 FILE VERSION: 19980515 N_RECS: 318
+# Examined: Tue Oct 19 14:37:05 2010 by mtchandl
+# Arguments:  -R355.05/356.25/49.95/50.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Extreme gravity regression slope likely due to poorly constrained global grid in this shallow coastal area. 
+# Errata: Header
+Y-I-19790001-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: -2147483648 dec: 1
+Y-I-19790001-faa-01: RLS m: 0.715233 b: 8.71459 rms: 2.42558 r: 0.812327 sig: 1 dec: 0
+N-E-19790001-faa-02: Regression slope 0.715233 different from 1. Recommended: [1]
+Y-W-19790001-faa-03: Regression offset 8.71459 different from 0.
+Y-W-19790001-faa-09: only found positive values
+Y-W-19790001-depth-12: Integer precision
+# Errata: Data

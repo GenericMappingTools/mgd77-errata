@@ -1,0 +1,48 @@
+# Cruise 15040227 ID RNDB03WT MGD77 FILE VERSION: 19941231 N_RECS: 11113
+# Examined: Tue May 27 10:44:11 2008 by mtchandl
+# Arguments:  -R202.1/237.65/21.2/37.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15040227-nav-00: Flagged 0.19 % of records with excessive speed or invalid navigation
+Y-I-15040227-depth-01: RLS m: 1.00388 b: 0 rms: 129.284 r: 0.996909 sig: 1 dec: 1
+Y-W-15040227-twt-11: More recent bathymetry correction table available
+Y-W-15040227-depth-12: Integer precision
+# Errata: Data
+?	15040227	1988-06-13T02:08:00.00	11	D-0-0	 NAV: on land
+Y	15040227	1988-06-13T02:14:00.00	12	D-0-0	 NAV: on land
+Y	15040227	1988-06-13T02:17:00.00	13	D-0-0	 NAV: on land
+?	15040227	1988-06-13T06:10:00.00	179	0-0-KL	 GRAD: twt, depth excessive
+?	15040227	1988-06-13T07:25:00.00	249	0-0-KL	 GRAD: twt, depth excessive
+?	15040227	1988-06-13T07:40:00.00	262	0-0-K	 GRAD: twt excessive
+?	15040227	1988-06-15T19:10:00.00	3789	0-0-K	 GRAD: twt excessive
+?	15040227	1988-06-15T20:42:00.00	3859	0-0-K	 GRAD: twt excessive
+?	15040227	1988-06-15T21:07:00.00	3879	0-0-KL	 GRAD: twt, depth excessive
+?	15040227	1988-06-17T19:57:00.00	6669	0-0-K	 GRAD: twt excessive
+Y	15040227	1988-06-20T23:45:00.00	11074	D-0-0	 NAV: on land
+Y	15040227	1988-06-20T23:46:00.00	11075	D-0-0	 NAV: on land
+Y	15040227	1988-06-20T23:49:00.00	11076	D-0-0	 NAV: on land
+Y	15040227	1988-06-20T23:53:00.00	11077	D-0-0	 NAV: on land
+Y	15040227	1988-06-20T23:56:00.00	11078	D-0-0	 NAV: on land
+Y	15040227	1988-06-20T23:58:00.00	11079	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:01:00.00	11080	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:04:00.00	11081	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:07:00.00	11082	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:10:00.00	11083	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:17:00.00	11084	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:19:00.00	11085	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:24:00.00	11086	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:29:00.00	11087	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:31:00.00	11088	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T00:33:00.00	11089	D-0-0	 NAV: on land
+?	15040227	1988-06-21T09:14:00.00	11099	D-0-0	 NAV: on land
+?	15040227	1988-06-21T10:06:00.00	11100	D-0-0	 NAV: on land
+?	15040227	1988-06-21T11:34:00.00	11103	D-0-0	 NAV: on land
+?	15040227	1988-06-21T12:14:00.00	11105	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T13:40:00.00	11106	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T15:02:00.00	11108	D-0-0	 NAV: on land
+Y	15040227	1988-06-21T18:36:00.00	11110	D-0-0	 NAV: on land
+?	15040227	1988-06-21T18:39:00.00	11111	D-0-0	 NAV: on land

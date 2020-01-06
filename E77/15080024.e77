@@ -1,0 +1,57 @@
+# Cruise 15080024 ID NOVA04HO MGD77 FILE VERSION: 19800226 N_RECS: 5956
+# Examined: Sun Jun  1 14:24:51 2008 by mtchandl
+# Arguments:  -R166.35/179/-24.1/-12.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15080024-H04-03: Invalid Survey Departure Day: (13) [12]
+Y-W-15080024-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15080024-depth-01: RLS m: 0.996125 b: 0 rms: 197.334 r: 0.993584 sig: 1 dec: 1
+Y-E-15080024-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.9975 b: 60.1409 rms: 76.6105 r: 0.986673 sig: 1 dec: 1). [Recompute]
+Y-W-15080024-mtf1-12: Integer multiple of 5 precision
+Y-W-15080024-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080024	1967-07-13T04:40:00.00	63	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-13T09:00:00.00	115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-13T11:00:00.00	139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-15T18:55:00.00	738	0-0-K	 GRAD: twt excessive
+?	15080024	1967-07-15T19:30:00.00	745	0-0-KL	 GRAD: twt, depth excessive
+?	15080024	1967-07-16T21:35:00.00	917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-17T01:55:00.00	969	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-17T11:05:00.00	1059	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-17T18:55:00.00	1153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-17T21:25:00.00	1183	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T10:10:00.00	1247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T10:15:00.00	1248	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T10:20:00.00	1249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T10:30:00.00	1251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T16:25:00.00	1318	0-Q-0	 VAL: mag invalid
+?	15080024	1967-07-18T16:35:00.00	1320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T16:40:00.00	1321	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T16:45:00.00	1322	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080024	1967-07-18T16:50:00.00	1323	0-Q-0	 VAL: mag invalid
+?	15080024	1967-07-18T16:55:00.00	1324	0-Q-0	 VAL: mag invalid
+?	15080024	1967-07-19T02:10:00.00	1416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-19T02:15:00.00	1417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-19T02:20:00.00	1418	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15080024	1967-07-20T21:25:00.00	1704	D-0-0	 NAV: on land
+?	15080024	1967-07-22T16:25:00.00	2186	0-0-K	 GRAD: twt excessive
+?	15080024	1967-07-22T18:20:00.00	2209	0-0-K	 GRAD: twt excessive
+?	15080024	1967-07-22T18:30:00.00	2211	0-0-K	 GRAD: twt excessive
+?	15080024	1967-07-22T18:35:00.00	2212	0-0-K	 GRAD: twt excessive
+?	15080024	1967-07-25T18:50:00.00	2806	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-25T18:55:00.00	2807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T19:25:00.00	3937	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T19:35:00.00	3939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T21:10:00.00	3958	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T21:20:00.00	3960	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T21:25:00.00	3961	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-07-29T21:55:00.00	3967	0-Q-0	 VAL: mag invalid
+?	15080024	1967-07-29T22:00:00.00	3968	0-Q-0	 VAL: mag invalid
+?	15080024	1967-08-03T05:55:00.00	5016	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080024	1967-08-05T10:00:00.00	5540	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15080024	1967-08-05T23:23:00.00	5672	C-0-0	 NAV: excessive speed
+?	15080024	1967-08-05T23:35:00.00	5674	0-0-OQ	 GRAD: mtf1, mag excessive

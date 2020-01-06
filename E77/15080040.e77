@@ -1,0 +1,14 @@
+# Cruise 15080040 ID LUSI03HO MGD77 FILE VERSION: 19810928 N_RECS: 4734
+# Examined: Sun Jun  1 14:29:36 2008 by mtchandl
+# Arguments:  -R87.25/130.65/-32.05/-11.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15080040-H04-06: Invalid Survey Arrival Day: (23) [22]
+Y-W-15080040-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15080040-depth-01: RLS m: 1 b: 0 rms: 77.9484 r: 0.998973 sig: 1 dec: 1
+# Errata: Data
+Y	15080040	1962-12-10T12:42:00.00	1760	C-0-0	 NAV: excessive speed

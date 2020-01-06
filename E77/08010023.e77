@@ -1,0 +1,78 @@
+# Cruise 08010023 ID 72110808 MGD77 FILE VERSION: 19830518 N_RECS: 12992
+# Examined: Mon Nov 23 14:44:45 2009 by mtchandl
+# Arguments:  -R180.95/210.4/-17.5/21.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-08010023-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-08010023-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-08010023-H15-01: Invalid Gravity Departure Base Station Value: (0000000) [       ]
+Y-E-08010023-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010023-nav-00: Flagged 0.22 % of records with bad navigation
+Y-I-08010023-depth-01: RLS m: 1 b: 0 rms: 25.4658 r: 0.999422 sig: 1 dec: 0
+Y-I-08010023-faa-01: RLS m: 0.981261 b: -0.814057 rms: 3.18978 r: 0.983114 sig: 1 dec: 0
+N-E-08010023-faa-02: Regression slope 0.981261 different from 1. Recommended: [1]
+Y-W-08010023-faa-03: Regression offset -0.814057 different from 0.
+Y-E-08010023-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04613 b: -133.568 rms: 157.418 r: 0.869054 sig: 1 dec: 0). [Recompute]
+Y-W-08010023-twt-11: More recent bathymetry correction table available
+Y-W-08010023-mtf1-12: Integer precision
+Y-W-08010023-mag-12: Integer precision
+Y-W-08010023-faa-12: Integer precision
+# Errata: Data
+?	08010023	1973-06-02T20:30:05.94	5	0-0-KL	 GRAD: twt, depth excessive
+?	08010023	1973-06-08T11:14:54.00	2380	0-0-KL	 GRAD: twt, depth excessive
+?	08010023	1973-06-19T22:14:42.00	6962	D-0-0	 NAV: on land
+?	08010023	1973-06-19T22:17:17.94	6963	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:20:48.00	6964	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:23:23.94	6965	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:30:00.00	6966	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:32:05.94	6967	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:38:30.00	6968	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:44:48.00	6969	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:48:17.94	6970	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T22:59:48.00	6971	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T23:09:36.00	6972	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T23:14:42.00	6973	D-0-0	 NAV: on land
+?	08010023	1973-06-19T23:39:23.94	6978	D-0-0	 NAV: on land
+?	08010023	1973-06-19T23:44:54.00	6979	D-0-0	 NAV: on land
+Y	08010023	1973-06-19T23:48:36.00	6980	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:00:00.00	6981	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:14:54.00	6982	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:21:05.94	6983	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:26:00.00	6984	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:30:00.00	6985	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:36:23.94	6986	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:44:48.00	6987	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:51:36.00	6988	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T00:59:54.00	6989	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T01:10:23.94	6990	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T01:14:54.00	6991	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T01:23:54.00	6992	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T01:29:54.00	6993	D-0-0	 NAV: on land
+?	08010023	1973-06-20T01:36:30.00	6994	D-0-0	 NAV: on land
+?	08010023	1973-06-20T01:45:00.00	6995	D-0-0	 NAV: on land
+?	08010023	1973-06-20T02:58:00.00	7001	D-0-0	 NAV: on land
+?	08010023	1973-06-20T02:59:54.00	7002	D-0-0	 NAV: on land
+?	08010023	1973-06-20T03:14:48.00	7003	D-0-0	 NAV: on land
+?	08010023	1973-06-20T03:18:00.00	7004	D-0-0	 NAV: on land
+?	08010023	1973-06-20T03:22:42.00	7005	D-0-0	 NAV: on land
+?	08010023	1973-06-20T03:24:00.00	7006	D-0-0	 NAV: on land
+Y	08010023	1973-06-20T03:24:17.94	7007	D-0-KL	 NAV: on land - GRAD: twt, depth excessive
+?	08010023	1973-06-20T03:30:00.00	7008	D-0-0	 NAV: on land
+?	08010023	1973-06-21T16:17:00.00	7606	0-0-K	 GRAD: twt excessive
+?	08010023	1973-06-29T09:59:00.00	10322	0-Q-0	 VAL: mag invalid
+?	08010023	1973-06-29T10:03:00.00	10326	0-Q-0	 VAL: mag invalid
+?	08010023	1973-07-05T17:33:00.00	12687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010023	1973-07-05T17:36:00.00	12688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010023	1973-07-05T17:39:00.00	12690	0-Q-0	 VAL: mag invalid
+?	08010023	1973-07-05T17:41:00.00	12691	0-Q-0	 VAL: mag invalid
+?	08010023	1973-07-05T17:44:00.00	12692	0-Q-0	 VAL: mag invalid
+?	08010023	1973-07-05T17:47:00.00	12694	0-Q-0	 VAL: mag invalid
+?	08010023	1973-07-06T03:07:00.00	12823	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010023	1973-07-06T03:20:00.00	12827	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010023	1973-07-06T14:47:00.00	12990	D-0-0	 NAV: on land
+Y	08010023	1973-07-06T14:49:00.00	12991	D-0-0	 NAV: on land
+Y	08010023	1973-07-06T14:50:00.00	12992	D-0-0	 NAV: on land

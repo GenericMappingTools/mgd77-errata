@@ -1,0 +1,50 @@
+# Cruise 01030137 ID V2809 MGD77 FILE VERSION: 19790920 N_RECS: 7176
+# Examined: Fri Jul 10 11:47:40 2009 by mtchandl
+# Arguments:  -R257.05/280.55/2.95/16.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-160 nT average offset from recomputed mag.
+# Errata: Header
+Y-W-01030137-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-01030137-depth-01: RLS m: 0.999201 b: 0 rms: 13.4495 r: 0.999961 sig: 1 dec: 0
+N-E-01030137-depth-02: Regression slope 0.999201 different from 1. Recommended: [1]
+Y-I-01030137-faa-01: RLS m: 0.936272 b: -1.71651 rms: 13.4924 r: 0.977818 sig: 1 dec: 1
+N-E-01030137-faa-02: Regression slope 0.936272 different from 1. Recommended: [1]
+Y-W-01030137-faa-03: Regression offset -1.71651 different from 0.
+Y-E-01030137-mag-07: Anomaly differs from mtf1-IGRF (m: 0.991589 b: -162.082 rms: 177.294 r: 0.939308 sig: 1 dec: 1). [Recompute]
+N-E-01030137-depth-08: Extended offset from grid [42-7176]
+Y-W-01030137-twt-11: More recent bathymetry correction table available
+Y-W-01030137-mtf1-12: Integer precision
+Y-W-01030137-mag-12: Integer precision
+# Errata: Data
+?	01030137	1971-01-10T02:06:00.00	5	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T02:08:00.00	6	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T02:12:00.00	8	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T02:54:00.00	21	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T02:58:00.00	23	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:22:00.00	33	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:27:00.00	34	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:28:00.00	35	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:30:00.00	37	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:31:00.00	38	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:36:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:39:00.00	40	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T03:41:00.00	42	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T09:20:00.00	146	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T09:24:00.00	147	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-10T09:38:00.00	154	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-15T18:42:00.00	1944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-19T12:06:00.00	3155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T03:09:00.00	3311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T03:12:00.00	3313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T03:18:00.00	3316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T03:21:00.00	3319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T03:24:00.00	3320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T10:30:00.00	3427	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T10:33:00.00	3428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T10:36:00.00	3429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-20T13:58:00.00	3499	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030137	1971-01-27T00:36:00.00	5511	0-0-KL	 GRAD: twt, depth excessive
+?	01030137	1971-01-31T06:24:00.00	6786	0-0-K	 GRAD: twt excessive

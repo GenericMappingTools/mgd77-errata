@@ -1,0 +1,17 @@
+# Cruise 10050035 ID FM2502 MGD77 FILE VERSION: 19920727 N_RECS: 1133
+# Examined: Tue Aug 24 14:02:43 2010 by mtchandl
+# Arguments:  -R265.35/280/24.3/29.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-10050035-nav-00: Flagged 0.18 % of records with bad navigation
+Y-I-10050035-depth-01: RLS m: 0.99772 b: 0 rms: 8.99034 r: 0.999983 sig: 1 dec: 0
+N-E-10050035-depth-02: Regression slope 0.99772 different from 1. Recommended: [1]
+Y-W-10050035-depth-12: Integer precision
+# Errata: Data
+Y	10050035	1984-04-27T15:00:00.00	1	D-0-0	 NAV: on land
+Y	10050035	1984-04-27T15:05:00.00	2	D-0-0	 NAV: on land
+?	10050035	1984-04-27T15:10:00.00	3	D-0-0	 NAV: on land

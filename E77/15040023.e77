@@ -1,0 +1,17 @@
+# Cruise 15040023 ID PIQR04WT MGD77 FILE VERSION: 19800226 N_RECS: 1369
+# Examined: Wed May 21 11:33:18 2008 by mtchandl
+# Arguments:  -R278.1/287.95/-33.1/-12.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040023-H04-03: Invalid Survey Departure Day: (25) [27]
+Y-W-15040023-nav-00: Flagged 0.07 % of records with excessive speed or invalid navigation
+Y-I-15040023-depth-01: RLS m: 1 b: 0 rms: 66.8437 r: 0.999048 sig: 1 dec: 1
+Y-E-15040023-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.917347 b: -2.29535 rms: 50.153 r: 0.901133 sig: 1 dec: 1). [Recompute]
+Y-W-15040023-mtf1-12: Integer multiple of 5 precision
+Y-W-15040023-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15040023	1969-03-10T12:00:00.00	1368	D-0-0	 NAV: on land

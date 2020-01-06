@@ -1,0 +1,183 @@
+# Cruise 24050067 ID GA-0202 MGD77 FILE VERSION: 20080522 N_RECS: 308019
+# Examined: Mon Feb 14 21:57:14 2011 by mtchandl
+# Arguments:  -R144.6/153.5/-50.95/-42.55 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050067-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050067-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050067-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050067-H16-06: Ten Degree Identifier 3414 not marked in header but block was crossed
+Y-W-24050067-H16-06: Ten Degree Identifier 3415 not marked in header but block was crossed
+Y-W-24050067-H16-06: Ten Degree Identifier 3514 not marked in header but block was crossed
+Y-W-24050067-H16-06: Ten Degree Identifier 3515 not marked in header but block was crossed
+Y-I-24050067-depth-01: RLS m: 0.998031 b: 0 rms: 67.605 r: 0.9983 sig: 1 dec: 0
+N-E-24050067-depth-02: Regression slope 0.998031 different from 1. Recommended: [1]
+Y-W-24050067-twt-11: More recent bathymetry correction table available
+Y-W-24050067-depth-12: Integer precision
+Y-W-24050067-mtf1-12: Integer precision
+# Errata: Data
+?	24050067	1998-01-15T05:02:00.00	16392	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-15T18:58:10.02	21409	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-15T18:58:30.00	21411	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-15T18:58:40.02	21412	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-16T12:08:00.00	27588	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:23:19.98	61160	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:23:30.00	61161	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:23:40.02	61162	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:23:49.98	61163	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:24:00.00	61164	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:24:10.02	61165	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:24:19.98	61166	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:24:40.02	61168	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-20T09:24:49.98	61169	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-21T20:47:00.00	73902	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-21T20:47:10.02	73903	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-21T20:47:19.98	73904	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-27T17:48:30.00	124671	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-27T17:48:40.02	124672	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T08:15:40.02	129874	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T09:39:40.02	130378	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T09:39:49.98	130379	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T09:40:00.00	130380	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T09:40:10.02	130381	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T09:40:19.98	130382	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T09:40:30.00	130383	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T09:40:40.02	130384	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T09:40:49.98	130385	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T09:41:00.00	130386	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T09:41:10.02	130387	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T17:43:30.00	133281	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T17:43:40.02	133282	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-28T19:56:10.02	134077	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:56:19.98	134078	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:56:30.00	134079	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:56:40.02	134080	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:56:49.98	134081	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:00.00	134082	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:10.02	134083	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:19.98	134084	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:30.00	134085	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:40.02	134086	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:57:49.98	134087	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:58:00.00	134088	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:58:10.02	134089	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-28T19:58:19.98	134090	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-01-31T23:39:30.00	161337	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:39:40.02	161338	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:39:49.98	161339	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:00.00	161340	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:10.02	161341	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:19.98	161342	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:30.00	161343	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:40.02	161344	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:40:49.98	161345	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:41:00.00	161346	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:41:10.02	161347	0-0-K	 GRAD: twt excessive
+?	24050067	1998-01-31T23:41:19.98	161348	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T18:21:30.00	168069	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:21:40.02	168070	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:21:49.98	168071	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:00.00	168072	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:10.02	168073	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:19.98	168074	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:30.00	168075	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:40.02	168076	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:22:49.98	168077	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T18:23:00.00	168078	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T20:17:19.98	168764	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:17:30.00	168765	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:17:40.02	168766	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:17:49.98	168767	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:18:00.00	168768	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T20:18:10.02	168769	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:18:19.98	168770	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:18:30.00	168771	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:18:40.02	168772	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T20:18:49.98	168773	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:19:00.00	168774	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:19:10.02	168775	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:19:19.98	168776	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T20:19:30.00	168777	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:19:40.02	168778	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T20:21:40.02	168790	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T21:18:49.98	169133	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:19:49.98	169139	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:20:49.98	169145	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:21:00.00	169146	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-01T21:40:49.98	169265	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:00.00	169266	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:10.02	169267	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:19.98	169268	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:30.00	169269	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:40.02	169270	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:41:49.98	169271	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:42:00.00	169272	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:42:10.02	169273	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-01T21:49:10.02	169315	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-02T09:49:30.00	173637	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:00.00	213870	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:10.02	213871	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:19.98	213872	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:30.00	213873	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:40.02	213874	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:35:49.98	213875	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:36:00.00	213876	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T01:36:10.02	213877	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T07:33:00.00	216018	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T07:33:10.02	216019	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T07:33:19.98	216020	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T07:33:30.00	216021	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T07:33:40.02	216022	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T07:33:49.98	216023	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:14:19.98	216626	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:14:30.00	216627	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:14:40.02	216628	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:14:49.98	216629	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:15:00.00	216630	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:15:10.02	216631	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:15:19.98	216632	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:15:30.00	216633	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T09:15:40.02	216634	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-07T10:59:00.00	217254	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T11:00:10.02	217261	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T11:00:40.02	217264	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-07T11:01:00.00	217266	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:10:49.98	247205	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:00.00	247206	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:10.02	247207	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:19.98	247208	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:30.00	247209	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:40.02	247210	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:11:49.98	247211	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:12:00.00	247212	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:12:10.02	247213	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:12:19.98	247214	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T22:12:30.00	247215	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-10T23:49:30.00	247797	0-0-KL	 GRAD: twt, depth excessive
+?	24050067	1998-02-14T18:59:30.00	280617	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T18:59:40.02	280618	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T18:59:49.98	280619	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:00.00	280620	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:10.02	280621	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:19.98	280622	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:30.00	280623	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:40.02	280624	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:00:49.98	280625	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:01:40.02	280630	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:01:49.98	280631	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:00.00	280632	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:10.02	280633	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:19.98	280634	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:30.00	280635	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:40.02	280636	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-14T19:02:49.98	280637	0-0-U	 GRAD: gobs excessive
+?	24050067	1998-02-15T06:35:40.02	284794	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-15T06:36:49.98	284801	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-15T15:07:10.02	287863	0-0-O	 GRAD: mtf1 excessive
+?	24050067	1998-02-17T01:00:10.02	300061	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-17T11:45:49.98	303935	0-0-K	 GRAD: twt excessive
+?	24050067	1998-02-17T11:46:10.02	303937	0-0-K	 GRAD: twt excessive

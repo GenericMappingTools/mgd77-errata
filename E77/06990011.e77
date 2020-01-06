@@ -1,0 +1,57 @@
+# Cruise 06990011 ID P671WG MGD77 FILE VERSION: 19870917 N_RECS: 1920
+# Examined: Fri Jul 16 17:22:23 2010 by mtchandl
+# Arguments:  -R206.25/210.05/54.45/57.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-06990011-H13-01: Invalid Magnetics Digitizing Rate: (581) [581]
+Y-W-06990011-nav-00: Flagged 0.62 % of records with bad navigation
+Y-E-06990011-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00004 b: -10.5098 rms: 11.0162 r: 0.999785 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	06990011	1971-05-27T23:57:00.00	429	C-0-0	 NAV: excessive speed
+Y	06990011	1971-05-27T23:58:00.00	430	C-0-0	 NAV: excessive speed
+Y	06990011	1971-05-28T00:07:00.00	439	C-0-0	 NAV: excessive speed
+Y	06990011	1971-05-28T00:08:00.00	440	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T07:01:00.00	661	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T07:02:00.00	662	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T07:11:00.00	671	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T07:12:00.00	672	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T09:17:00.00	797	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T09:18:00.00	798	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T12:41:00.00	1001	C-0-0	 NAV: excessive speed
+Y	06990011	1971-09-04T12:42:00.00	1002	C-0-0	 NAV: excessive speed
+?	06990011	1971-09-05T02:16:00.00	1816	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:17:00.00	1817	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:18:00.00	1818	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:19:00.00	1819	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:20:00.00	1820	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:21:00.00	1821	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:22:00.00	1822	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:23:00.00	1823	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:24:00.00	1824	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:25:00.00	1825	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:26:00.00	1826	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:27:00.00	1827	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:28:00.00	1828	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:29:00.00	1829	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:30:00.00	1830	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:31:00.00	1831	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:32:00.00	1832	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:33:00.00	1833	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:34:00.00	1834	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:35:00.00	1835	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:36:00.00	1836	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:37:00.00	1837	0-Q-0	 VAL: mag invalid
+?	06990011	1971-09-05T02:41:00.00	1841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:42:00.00	1842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:43:00.00	1843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:44:00.00	1844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:45:00.00	1845	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:46:00.00	1846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:47:00.00	1847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:48:00.00	1848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:49:00.00	1849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06990011	1971-09-05T02:50:00.00	1850	0-0-OQ	 GRAD: mtf1, mag excessive

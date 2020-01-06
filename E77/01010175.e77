@@ -1,0 +1,23 @@
+# Cruise 01010175 ID RC2012 MGD77 FILE VERSION: 19800908 N_RECS: 5123
+# Examined: Mon Jul  6 16:33:58 2009 by mtchandl
+# Arguments:  -R280.1/297.85/9.45/38.95 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-560 nT average offset from recomputed mag.
+# Errata: Header
+N-E-01010175-H13-06: Invalid Magnetics Reference Field Code: (77) [77]
+Y-I-01010175-depth-01: RLS m: 1 b: 0 rms: 7.7453 r: 0.999989 sig: 1 dec: 0
+Y-E-01010175-mag-07: Anomaly differs from mtf1-IGRF (m: 0.613524 b: -565.507 rms: 569.874 r: 0.796124 sig: 1 dec: 0). [Recompute]
+N-E-01010175-depth-08: Extended offset from grid [3-5123]
+Y-W-01010175-mag-09: only found negative values
+Y-W-01010175-twt-11: More recent bathymetry correction table available
+Y-W-01010175-mtf1-12: Integer precision
+Y-W-01010175-mag-12: Integer precision
+# Errata: Data
+?	01010175	1977-04-23T17:18:00.00	370	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010175	1977-04-23T17:24:00.00	371	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010175	1977-04-26T17:30:00.00	1110	0-0-K	 GRAD: twt excessive
+?	01010175	1977-05-01T03:30:00.00	2116	0-0-KL	 GRAD: twt, depth excessive
+?	01010175	1977-05-01T03:36:00.00	2117	0-0-KL	 GRAD: twt, depth excessive

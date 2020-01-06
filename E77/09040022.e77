@@ -1,0 +1,457 @@
+# Cruise 09040022 ID HU931005 MGD77 FILE VERSION: 19791128 N_RECS: 17781
+# Examined: Fri Jul 30 14:45:33 2010 by mtchandl
+# Arguments:  -R140/237.3/34.8/51.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09040022-H04-06: Invalid Survey Arrival Day: (18) [17]
+Y-E-09040022-H16-01: Invalid Number of Ten Degree Identifiers: (14) [15]
+Y-W-09040022-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-W-09040022-nav-00: Flagged 2.32 % of records with bad navigation
+Y-I-09040022-depth-01: RLS m: 0.999302 b: 0 rms: 39.4905 r: 0.999282 sig: 1 dec: 0
+N-E-09040022-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-E-09040022-mag-07: Anomaly differs from mtf1-IGRF (m: 0.985419 b: -72.1677 rms: 81.1299 r: 0.978601 sig: 1 dec: 0). [Recompute]
+Y-W-09040022-twt-11: More recent bathymetry correction table available
+Y-W-09040022-depth-12: Integer precision
+Y-W-09040022-mag-12: Integer precision
+# Errata: Data
+?	09040022	1970-10-29T01:35:00.00	5104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T01:36:00.00	5105	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T01:37:00.00	5106	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T01:37:00.00	5107	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T01:40:00.00	5109	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T01:41:00.00	5110	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T01:43:00.00	5111	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T01:49:00.00	5115	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T01:50:00.00	5117	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T01:55:00.00	5119	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T01:55:00.00	5120	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T01:58:00.00	5121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T02:00:00.00	5122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T02:03:00.00	5124	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T02:03:00.00	5125	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T02:05:00.00	5126	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T02:05:00.00	5127	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:05:00.00	5128	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T02:10:00.00	5131	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T02:10:00.00	5132	B-0-0	 NAV: non-increasing time
+?	09040022	1970-10-29T02:14:00.00	5133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T02:15:00.00	5134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-10-29T02:16:00.00	5135	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-10-29T02:20:00.00	5139	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:25:00.00	5143	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:27:00.00	5145	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:28:00.00	5147	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:29:00.00	5149	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:30:00.00	5151	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T02:47:00.00	5160	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T03:00:00.00	5164	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T03:00:00.00	5165	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T03:45:00.00	5177	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T04:00:00.00	5182	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T04:10:00.00	5189	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T04:20:00.00	5192	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T04:45:00.00	5202	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T05:00:00.00	5208	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T07:00:00.00	5240	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T08:00:00.00	5254	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T08:30:00.00	5263	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T08:55:00.00	5276	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:00:00.00	5279	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:10:00.00	5283	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:25:00.00	5289	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:30:00.00	5292	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:30:00.00	5293	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:45:00.00	5297	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T09:50:00.00	5299	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T10:00:00.00	5303	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T10:25:00.00	5312	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T10:50:00.00	5326	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T11:05:00.00	5334	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T11:15:00.00	5339	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T12:30:00.00	5367	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T13:30:00.00	5380	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T13:30:00.00	5381	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T13:55:00.00	5388	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T14:05:00.00	5391	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T14:15:00.00	5395	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T14:35:00.00	5403	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T14:50:00.00	5411	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T14:55:00.00	5415	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T15:05:00.00	5420	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T17:05:00.00	5451	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T18:00:00.00	5464	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T18:00:00.00	5465	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T19:25:00.00	5484	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T20:00:00.00	5492	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T20:00:00.00	5493	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T20:50:00.00	5505	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-29T20:50:00.00	5506	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T04:00:00.00	5597	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T04:00:00.00	5598	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T04:10:00.00	5601	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T04:50:00.00	5611	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T06:00:00.00	5628	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T06:00:00.00	5629	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T08:00:00.00	5657	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T16:30:00.00	5738	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T19:00:00.00	5772	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T19:00:00.00	5773	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T21:05:00.00	5799	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-30T21:10:00.00	5801	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T01:10:00.00	5854	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T01:35:00.00	5860	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T03:50:00.00	5894	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T14:00:00.00	6005	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T14:10:00.00	6008	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-10-31T15:51:00.00	6031	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T00:15:00.00	6141	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T08:00:00.00	6242	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T08:00:00.00	6243	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T10:00:00.00	6275	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-01T10:46:00.00	6287	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-01T11:00:00.00	6293	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T23:00:00.00	6434	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T23:00:00.00	6435	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-01T23:30:00.00	6442	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T00:00:00.00	6449	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T02:00:00.00	6482	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T04:00:00.00	6509	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T04:25:00.00	6515	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T04:25:00.00	6516	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T05:09:00.00	6527	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T08:30:00.00	6573	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T14:30:00.00	6652	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T14:35:00.00	6656	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T16:00:00.00	6679	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T18:43:00.00	6716	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T20:35:00.00	6744	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-02T23:20:00.00	6782	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T00:00:00.00	6791	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T00:00:00.00	6792	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T01:45:00.00	6816	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T02:15:00.00	6824	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T08:20:00.00	6886	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T08:30:00.00	6889	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T11:30:00.00	6930	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T11:30:00.00	6931	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T12:05:00.00	6940	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T13:45:00.00	6965	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T15:50:00.00	6994	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T16:05:00.00	6999	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T16:20:00.00	7004	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T18:30:00.00	7035	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T20:20:00.00	7063	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T21:20:00.00	7078	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-03T22:55:00.00	7099	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T06:05:00.00	7169	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T15:30:00.00	7287	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T16:00:00.00	7295	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T17:09:00.00	7310	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T19:35:00.00	7346	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-04T21:25:00.00	7369	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T00:00:00.00	7401	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T00:40:00.00	7410	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T01:50:00.00	7427	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T03:00:00.00	7450	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T03:00:00.00	7451	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T06:15:00.00	7493	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T07:30:00.00	7512	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T07:40:00.00	7515	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T08:45:00.00	7531	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T09:30:00.00	7542	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T11:40:00.00	7571	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T13:30:00.00	7594	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T13:30:00.00	7595	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T14:35:00.00	7609	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T14:55:00.00	7615	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T17:00:00.00	7643	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T17:00:00.00	7644	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-05T17:25:00.00	7649	0-0-K	 GRAD: twt excessive
+Y	09040022	1970-11-05T20:00:00.00	7685	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T20:00:00.00	7686	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T21:00:00.00	7700	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-05T22:20:00.00	7717	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T00:00:00.00	7739	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T03:00:00.00	7779	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T04:00:00.00	7792	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T04:00:00.00	7793	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T05:15:00.00	7809	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T06:00:00.00	7820	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T06:00:00.00	7821	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T07:15:00.00	7839	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T07:50:00.00	7854	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T08:00:00.00	7857	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T08:00:00.00	7858	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T09:25:00.00	7877	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T10:00:00.00	7886	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T10:00:00.00	7887	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T10:45:00.00	7897	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T10:50:00.00	7899	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T12:00:00.00	7918	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T14:05:00.00	7945	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T15:00:00.00	7957	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T18:05:00.00	8001	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T18:25:00.00	8009	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T19:00:00.00	8019	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T20:30:00.00	8040	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-06T23:50:00.00	8085	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T00:00:00.00	8089	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T01:20:00.00	8109	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T01:55:00.00	8117	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T02:00:00.00	8119	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T04:00:00.00	8146	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T04:00:00.00	8147	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T11:34:00.00	8244	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T12:00:00.00	8251	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T12:00:00.00	8252	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T14:00:00.00	8278	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T14:00:00.00	8279	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T15:25:00.00	8297	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T15:25:00.00	8298	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T15:30:00.00	8300	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T15:30:00.00	8301	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-07T18:05:00.00	8335	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-08T06:00:00.00	8495	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-08T06:00:00.00	8496	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-08T07:35:00.00	8516	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-08T10:00:00.00	8547	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-11T19:55:00.00	9452	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-11T20:00:00.00	9455	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-12T01:40:00.00	9526	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-12T08:04:00.00	9609	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-12T12:02:00.00	9659	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-12T15:40:00.00	9707	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T00:20:00.00	9822	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T01:45:00.00	9840	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T07:40:00.00	9889	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T10:00:00.00	9919	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T11:00:00.00	9932	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T11:00:00.00	9933	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T12:30:00.00	9952	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T12:30:00.00	9953	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T13:05:00.00	9961	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T16:05:00.00	9998	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T17:40:00.00	10018	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T19:30:00.00	10044	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T19:30:00.00	10045	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T19:55:00.00	10051	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T21:45:00.00	10076	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T22:00:00.00	10081	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T22:00:00.00	10082	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-13T22:40:00.00	10092	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T00:00:00.00	10113	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T02:31:00.00	10147	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T08:35:00.00	10231	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T14:55:00.00	10291	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T16:55:00.00	10316	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T17:00:00.00	10318	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-14T21:35:00.00	10376	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-15T03:11:00.00	10446	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-15T07:30:00.00	10503	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T07:30:00.00	10504	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T09:30:00.00	10530	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T17:10:00.00	10575	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T19:05:00.00	10602	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T20:25:00.00	10624	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-15T23:00:00.00	10660	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T00:00:00.00	10677	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T01:00:00.00	10690	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T03:55:00.00	10728	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T04:40:00.00	10739	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T08:20:00.00	10791	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T08:30:00.00	10796	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T08:30:00.00	10797	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T10:10:00.00	10827	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T11:35:00.00	10851	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T12:30:00.00	10866	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T14:15:00.00	10889	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T20:10:00.00	10950	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T23:00:00.00	10993	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-16T23:00:00.00	10994	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-17T00:05:00.00	11007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-11-17T00:31:00.00	11013	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-17T02:05:00.00	11033	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T04:30:00.00	11068	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T04:30:00.00	11069	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T06:50:00.00	11102	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T07:00:00.00	11105	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T07:15:00.00	11109	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T09:30:00.00	11143	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T09:30:00.00	11144	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T12:00:00.00	11179	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T17:00:00.00	11246	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T17:00:00.00	11247	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T17:30:00.00	11256	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-17T20:00:00.00	11297	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T04:40:00.00	11362	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T04:55:00.00	11367	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T05:25:00.00	11378	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T05:30:00.00	11381	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T05:30:00.00	11382	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T05:55:00.00	11388	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T06:00:00.00	11390	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T07:05:00.00	11408	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T07:35:00.00	11418	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T08:30:00.00	11435	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T08:35:00.00	11437	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T10:20:00.00	11470	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T11:15:00.00	11487	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T11:30:00.00	11492	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T11:30:00.00	11493	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T11:45:00.00	11498	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T12:25:00.00	11508	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T14:00:00.00	11535	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T14:05:00.00	11537	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T15:50:00.00	11566	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T17:30:00.00	11589	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T17:30:00.00	11590	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T20:30:00.00	11636	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T20:30:00.00	11637	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T21:45:00.00	11656	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T21:45:00.00	11657	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T22:00:00.00	11661	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-18T23:00:00.00	11674	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T04:30:00.00	11742	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T05:30:00.00	11755	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T07:25:00.00	11780	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T08:00:00.00	11789	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T08:25:00.00	11796	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T09:55:00.00	11816	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T10:55:00.00	11831	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T13:00:00.00	11861	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T14:20:00.00	11879	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T14:50:00.00	11886	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T18:00:00.00	11932	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T18:00:00.00	11933	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T18:20:00.00	11938	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T21:40:00.00	11986	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-19T21:50:00.00	11990	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T00:00:00.00	12020	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T00:00:00.00	12021	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T08:35:00.00	12108	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T09:20:00.00	12119	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T17:15:00.00	12228	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T19:00:00.00	12252	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-20T19:00:00.00	12253	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-21T01:05:00.00	12343	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-21T02:40:00.00	12364	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T07:10:00.00	12792	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T07:35:00.00	12798	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T08:50:00.00	12815	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T09:45:00.00	12827	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T10:30:00.00	12837	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T11:25:00.00	12850	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T13:30:00.00	12877	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T13:30:00.00	12878	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-23T17:50:00.00	12932	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-23T20:45:00.00	12972	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T21:00:00.00	12977	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-23T21:00:00.00	12978	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-23T21:50:00.00	12988	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-23T23:35:00.00	13011	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T00:00:00.00	13022	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T00:00:00.00	13023	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T01:40:00.00	13045	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T01:45:00.00	13048	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T04:50:00.00	13093	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T07:10:00.00	13133	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T07:20:00.00	13137	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T08:30:00.00	13156	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-24T08:36:00.00	13159	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09040022	1970-11-24T08:38:00.00	13160	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-24T10:30:00.00	13190	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T12:35:00.00	13226	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T13:55:00.00	13246	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T15:15:00.00	13265	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T17:30:00.00	13296	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T17:40:00.00	13301	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T18:31:00.00	13314	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T18:50:00.00	13320	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T19:30:00.00	13330	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T19:30:00.00	13331	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-24T19:50:00.00	13336	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T00:00:00.00	13391	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T00:00:00.00	13392	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T03:00:00.00	13431	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T03:00:00.00	13432	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T04:25:00.00	13451	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T04:30:00.00	13453	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T05:00:00.00	13460	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T05:00:00.00	13461	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T05:45:00.00	13474	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T08:00:00.00	13510	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T08:00:00.00	13511	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T08:20:00.00	13521	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T10:45:00.00	13559	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T11:00:00.00	13563	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T11:20:00.00	13570	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T11:40:00.00	13576	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T12:00:00.00	13581	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T12:00:00.00	13582	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T12:20:00.00	13587	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T13:40:00.00	13607	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T13:55:00.00	13612	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T14:30:00.00	13627	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T14:30:00.00	13628	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T15:25:00.00	13642	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T17:00:00.00	13665	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T17:00:00.00	13666	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T17:05:00.00	13668	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T22:00:00.00	13736	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-25T22:00:00.00	13737	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T02:20:00.00	13797	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T04:35:00.00	13832	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T05:25:00.00	13849	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T09:20:00.00	13901	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T10:20:00.00	13914	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T11:20:00.00	13929	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T12:05:00.00	13940	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T14:30:00.00	13974	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T14:30:00.00	13975	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-26T15:30:00.00	13989	0-0-KL	 GRAD: twt, depth excessive
+Y	09040022	1970-11-26T16:45:00.00	14006	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T16:50:00.00	14008	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T17:00:00.00	14011	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T17:00:00.00	14012	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T18:40:00.00	14040	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T18:50:00.00	14045	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T19:30:00.00	14055	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T20:00:00.00	14063	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T20:00:00.00	14064	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T22:00:00.00	14108	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T22:00:00.00	14109	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-26T22:35:00.00	14117	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T04:30:00.00	14195	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T04:30:00.00	14196	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T05:00:00.00	14204	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T06:30:00.00	14226	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T09:50:00.00	14271	B-0-0	 NAV: non-increasing time
+?	09040022	1970-11-27T12:07:00.00	14301	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09040022	1970-11-27T14:30:00.00	14333	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T14:30:00.00	14334	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T16:35:00.00	14365	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T17:00:00.00	14371	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T17:00:00.00	14372	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T17:30:00.00	14379	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T17:30:00.00	14380	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T18:00:00.00	14387	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T18:00:00.00	14388	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T19:40:00.00	14416	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T19:43:00.00	14419	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T19:50:00.00	14422	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T20:05:00.00	14427	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T20:20:00.00	14436	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T20:45:00.00	14446	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T21:00:00.00	14454	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T21:00:00.00	14455	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T21:30:00.00	14464	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T21:38:00.00	14469	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T22:16:00.00	14481	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T22:20:00.00	14483	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T22:50:00.00	14491	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T23:15:00.00	14502	B-0-0	 NAV: non-increasing time
+Y	09040022	1970-11-27T23:50:00.00	14517	B-0-0	 NAV: non-increasing time

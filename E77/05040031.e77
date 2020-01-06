@@ -1,0 +1,126 @@
+# Cruise 05040031 ID WS8002 MGD77 FILE VERSION: 20080806 N_RECS: 20111
+# Examined: Fri Apr 30 13:35:37 2010 by mtchandl
+# Arguments:  -R165/174.95/-51/-34.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05040031-H13-10: Survey year (1980) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05040031-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040031-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040031-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040031-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05040031-H16-06: Ten Degree Identifier 3416 not marked in header but block was crossed
+Y-W-05040031-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-W-05040031-H16-06: Ten Degree Identifier 3516 not marked in header but block was crossed
+Y-W-05040031-nav-00: Flagged 0.21 % of records with bad navigation
+Y-I-05040031-depth-01: RLS m: 0.996724 b: 0 rms: 44.2555 r: 0.998807 sig: 1 dec: 0
+N-E-05040031-depth-02: Regression slope 0.996724 different from 1. Recommended: [1]
+Y-I-05040031-faa-01: RLS m: 1.02363 b: -1.64888 rms: 5.38791 r: 0.995372 sig: 1 dec: 0
+N-E-05040031-faa-02: Regression slope 1.02363 different from 1. Recommended: [1]
+Y-W-05040031-faa-03: Regression offset -1.64888 different from 0.
+Y-E-05040031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993326 b: -15.5641 rms: 19.5227 r: 0.999452 sig: 1 dec: 1). [Recompute]
+Y-W-05040031-depth-12: Integer precision
+Y-W-05040031-mtf1-12: Integer precision
+# Errata: Data
+Y	05040031	1980-03-21T15:05:00.00	1920	C-0-0	 NAV: excessive speed
+Y	05040031	1980-03-21T15:06:00.00	1921	C-0-0	 NAV: excessive speed
+?	05040031	1980-03-31T15:52:00.00	7926	0-0-O	 GRAD: mtf1 excessive
+?	05040031	1980-03-31T15:53:00.00	7927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-03-31T15:54:00.00	7928	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05040031	1980-03-31T23:04:00.00	8215	C-0-0	 NAV: excessive speed
+Y	05040031	1980-03-31T23:05:00.00	8216	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-01T02:38:00.00	8408	0-0-V	 GRAD: eot excessive
+Y	05040031	1980-04-01T06:22:00.00	8627	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-08T19:37:00.00	12460	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-09T04:20:00.00	12980	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-09T04:21:00.00	12981	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-09T10:00:00.00	13273	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-09T18:16:00.00	13726	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-09T18:17:00.00	13727	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-10T02:51:00.00	14068	0-0-L	 GRAD: depth excessive
+?	05040031	1980-04-10T04:10:00.00	14147	0-0-L	 GRAD: depth excessive
+Y	05040031	1980-04-10T08:30:00.00	14407	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T13:37:00.00	14712	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T15:15:00.00	14810	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:05:00.00	14860	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:23:00.00	14878	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:24:00.00	14879	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:25:00.00	14880	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:26:00.00	14881	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-10T16:39:00.00	14892	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-10T18:01:00.00	14974	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-10T18:03:00.00	14976	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-10T18:04:00.00	14977	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-10T18:05:00.00	14978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-10T18:06:00.00	14979	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05040031	1980-04-10T18:17:00.00	14990	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-10T19:13:00.00	15046	0-0-L	 GRAD: depth excessive
+Y	05040031	1980-04-10T19:20:00.00	15053	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-10T21:17:00.00	15170	0-0-L	 GRAD: depth excessive
+Y	05040031	1980-04-11T05:17:00.00	15650	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:18:00.00	15651	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:19:00.00	15652	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:20:00.00	15653	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:21:00.00	15654	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:22:00.00	15655	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T05:37:00.00	15670	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T06:40:00.00	15733	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T06:41:00.00	15734	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T06:42:00.00	15735	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T06:43:00.00	15736	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T06:44:00.00	15737	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T08:05:00.00	15818	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T08:06:00.00	15819	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T08:07:00.00	15820	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T08:08:00.00	15821	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T09:06:00.00	15878	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-11T09:15:00.00	15887	0-0-L	 GRAD: depth excessive
+Y	05040031	1980-04-11T11:04:00.00	15995	C-0-0	 NAV: excessive speed
+Y	05040031	1980-04-11T11:05:00.00	15996	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-13T12:07:00.00	17581	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:08:00.00	17582	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:10:00.00	17584	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:15:00.00	17589	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:16:00.00	17590	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:17:00.00	17591	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T12:19:00.00	17593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:19:00.00	17713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:20:00.00	17714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:21:00.00	17715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:23:00.00	17717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:24:00.00	17718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T14:25:00.00	17719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-13T16:38:00.00	17852	0-Q-0	 VAL: mag invalid
+?	05040031	1980-04-13T16:39:00.00	17853	0-Q-0	 VAL: mag invalid
+?	05040031	1980-04-13T16:40:00.00	17854	0-Q-0	 VAL: mag invalid
+Y	05040031	1980-04-13T17:30:00.00	17904	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-13T21:07:00.00	18121	0-0-L	 GRAD: depth excessive
+?	05040031	1980-04-14T01:21:00.00	18375	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-14T01:32:00.00	18386	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	05040031	1980-04-14T11:09:00.00	18871	C-0-0	 NAV: excessive speed
+?	05040031	1980-04-15T08:35:00.00	19603	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:36:00.00	19604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:47:00.00	19615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:48:00.00	19616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:49:00.00	19617	0-0-O	 GRAD: mtf1 excessive
+?	05040031	1980-04-15T08:52:00.00	19620	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:53:00.00	19621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:54:00.00	19622	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:55:00.00	19623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:56:00.00	19624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T08:59:00.00	19627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T09:09:00.00	19637	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T09:10:00.00	19638	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T09:11:00.00	19639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T09:13:00.00	19641	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T09:14:00.00	19642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T11:01:00.00	19749	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T11:06:00.00	19754	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T12:57:00.00	19865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T13:04:00.00	19872	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T13:22:00.00	19890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T13:23:00.00	19891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05040031	1980-04-15T13:24:00.00	19892	0-0-OQ	 GRAD: mtf1, mag excessive

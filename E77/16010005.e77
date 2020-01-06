@@ -1,0 +1,48 @@
+# Cruise 16010005 ID X05783 MGD77 FILE VERSION: 19900321 N_RECS: 3366
+# Examined: Mon Nov 23 15:48:42 2009 by mtchandl
+# Arguments:  -R125.7/189.9/-17.35/6.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Gravity requires further review.
+# Errata: Header
+Y-W-16010005-nav-00: Flagged 0.77 % of records with bad navigation
+Y-I-16010005-depth-01: RLS m: 1.00013 b: 0 rms: 95.088 r: 0.996233 sig: 1 dec: 0
+Y-I-16010005-faa-01: RLS m: 1.01429 b: 5.7236 rms: 10.0493 r: 0.996206 sig: 1 dec: 1
+N-E-16010005-faa-02: Regression slope 1.01429 different from 1. Recommended: [1]
+Y-W-16010005-faa-03: Regression offset 5.7236 different from 0.
+N-E-16010005-faa-06: Anomaly differs from gobs-IGF80 (m: 1.003 b: 2.79469 rms: 2.83354 r: 0.999989 sig: 1 dec: 0). [Recompute]
+N-E-16010005-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.995606 b: 1.5764 rms: 2.73815 r: 0.995425 sig: 1 dec: 0). [Recompute]
+Y-W-16010005-depth-12: Integer precision
+# Errata: Data
+?	16010005	1978-03-24T03:20:00.00	32	0-0-U	 GRAD: gobs excessive
+?	16010005	1978-03-24T08:30:00.00	63	0-0-U	 GRAD: gobs excessive
+Y	16010005	1978-04-03T20:30:00.00	225	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-05T05:03:00.00	394	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-12T10:20:00.00	1076	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-16T19:20:00.00	1389	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-16T19:30:00.00	1390	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-16T19:40:00.00	1391	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-16T19:50:00.00	1392	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-16T20:00:00.00	1393	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-20T00:10:00.00	1668	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-22T15:10:00.00	1779	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-25T18:30:00.00	2058	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-25T18:40:00.00	2059	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-25T18:50:00.00	2060	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-25T19:00:00.00	2061	C-0-0	 NAV: excessive speed
+Y	16010005	1978-04-25T19:10:00.00	2062	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T07:00:00.00	2829	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T13:30:00.00	2837	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T13:40:00.00	2838	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T13:50:00.00	2839	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:00:00.00	2840	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:10:00.00	2841	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:20:00.00	2842	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:30:00.00	2843	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:40:00.00	2844	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T14:50:00.00	2845	C-0-0	 NAV: excessive speed
+Y	16010005	1978-05-07T15:00:00.00	2846	C-0-0	 NAV: excessive speed
+?	16010005	1978-05-14T21:40:00.00	3194	0-0-L	 GRAD: depth excessive
+?	16010005	1978-05-14T21:50:00.00	3195	0-0-L	 GRAD: depth excessive

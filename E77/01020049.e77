@@ -1,0 +1,141 @@
+# Cruise 01020049 ID ELT47 MGD77 FILE VERSION: 19790205 N_RECS: 29649
+# Examined: Wed Jul  8 21:43:01 2009 by mtchandl
+# Arguments:  -R69.6/143.6/-66.85/-31.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Some disagreement between ship and satellite gravity south of Australia.
+# Errata: Header
+Y-W-01020049-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01020049-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-01020049-depth-01: RLS m: 1.0035 b: 0 rms: 124.183 r: 0.996835 sig: 1 dec: 1
+Y-I-01020049-faa-01: RLS m: 0.913792 b: 11.8764 rms: 21.968 r: 0.894854 sig: 1 dec: 1
+N-E-01020049-faa-02: Regression slope 0.913792 different from 1. Recommended: [1]
+Y-W-01020049-faa-03: Regression offset 11.8764 different from 0.
+Y-E-01020049-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00669 b: -310.394 rms: 314.108 r: 0.977218 sig: 1 dec: 0). [Recompute]
+N-E-01020049-depth-08: Extended offset from grid [8-29649]
+Y-W-01020049-twt-11: More recent bathymetry correction table available
+Y-W-01020049-mtf1-12: Integer precision
+Y-W-01020049-mag-12: Integer precision
+# Errata: Data
+?	01020049	1971-02-09T12:13:00.00	3585	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-09T23:53:00.00	3833	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-10T04:01:00.00	3950	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-10T04:05:00.00	3952	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-10T04:09:00.00	3953	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-15T03:15:00.00	7126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-15T03:31:00.00	7134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-15T03:35:00.00	7135	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-15T04:03:00.00	7150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-15T04:19:00.00	7156	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-15T13:23:00.00	7186	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T13:39:00.00	7189	D-0-0	 NAV: on land
+?	01020049	1971-02-15T13:46:00.00	7190	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T13:53:00.00	7191	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T13:59:00.00	7192	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:00:00.00	7193	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:04:00.00	7194	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:09:00.00	7195	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:13:00.00	7196	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:17:00.00	7197	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:21:00.00	7198	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:27:00.00	7199	D-0-0	 NAV: on land
+Y	01020049	1971-02-15T14:33:00.00	7200	D-0-0	 NAV: on land
+?	01020049	1971-02-17T06:03:00.00	7639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T06:20:00.00	7649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T06:22:00.00	7650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:15:00.00	7708	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:16:00.00	7709	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:18:00.00	7710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:21:00.00	7711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:22:00.00	7712	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:23:00.00	7713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:24:00.00	7714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:26:00.00	7716	0-0-KL	 GRAD: twt, depth excessive
+?	01020049	1971-02-17T08:28:00.00	7717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:30:00.00	7718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:32:00.00	7719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-17T08:36:00.00	7720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T07:50:00.00	8430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T08:10:00.00	8442	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T08:14:00.00	8445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T09:43:00.00	8492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:05:00.00	8504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:18:00.00	8508	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:22:00.00	8511	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-20T10:26:00.00	8513	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:30:00.00	8515	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-20T10:34:00.00	8516	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:39:00.00	8518	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T10:47:00.00	8522	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T11:24:00.00	8539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T11:28:00.00	8540	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T12:24:00.00	8568	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T12:32:00.00	8572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T12:36:00.00	8573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T13:44:00.00	8606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-20T14:20:00.00	8621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-02-24T00:23:00.00	10567	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-24T00:27:00.00	10569	0-Q-0	 VAL: mag invalid
+?	01020049	1971-02-24T00:31:00.00	10572	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-11T12:54:00.00	16517	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-11T12:58:00.00	16519	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-11T19:34:00.00	16621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-11T19:38:00.00	16624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-11T19:42:00.00	16627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-12T21:45:00.00	17324	0-0-O	 GRAD: mtf1 excessive
+?	01020049	1971-03-12T21:49:00.00	17325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-12T22:25:00.00	17344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-14T19:26:00.00	18086	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-14T21:30:00.00	18137	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-15T02:22:00.00	18265	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T02:26:00.00	18266	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T02:50:00.00	18278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-15T02:54:00.00	18280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-15T12:10:00.00	18513	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-15T12:18:00.00	18516	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:22:00.00	18518	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:26:00.00	18520	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:30:00.00	18522	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:34:00.00	18524	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:38:00.00	18526	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-15T12:42:00.00	18529	0-Q-0	 VAL: mag invalid
+?	01020049	1971-03-16T05:57:00.00	18873	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-19T04:33:00.00	19996	0-0-O	 GRAD: mtf1 excessive
+?	01020049	1971-03-24T09:30:00.00	21374	0-0-K	 GRAD: twt excessive
+?	01020049	1971-03-25T07:49:00.00	21555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-25T07:57:00.00	21559	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-25T08:01:00.00	21561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-26T00:41:00.00	21964	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-26T05:13:00.00	22099	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-26T05:17:00.00	22102	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-26T05:18:00.00	22103	0-0-K	 GRAD: twt excessive
+?	01020049	1971-03-27T02:51:00.00	22626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T03:07:00.00	22634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T03:11:00.00	22637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T03:15:00.00	22639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T03:31:00.00	22646	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020049	1971-03-27T09:58:00.00	22714	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:04:00.00	22715	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:12:00.00	22716	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:13:00.00	22717	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:20:00.00	22718	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:27:00.00	22719	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:31:00.00	22720	D-0-0	 NAV: on land
+Y	01020049	1971-03-27T10:40:00.00	22721	D-0-0	 NAV: on land
+?	01020049	1971-03-27T11:36:00.00	22736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T11:40:00.00	22738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T11:44:00.00	22739	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T12:04:00.00	22746	0-0-O	 GRAD: mtf1 excessive
+?	01020049	1971-03-27T12:44:00.00	22761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T12:53:00.00	22764	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T13:01:00.00	22767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T13:05:00.00	22769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-27T13:10:00.00	22771	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-03-28T05:27:00.00	23221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020049	1971-04-03T09:21:00.00	25641	0-0-K	 GRAD: twt excessive
+?	01020049	1971-04-03T23:20:00.00	25960	0-0-KL	 GRAD: twt, depth excessive
+?	01020049	1971-04-06T19:30:00.00	27342	0-0-KL	 GRAD: twt, depth excessive
+?	01020049	1971-04-10T16:09:00.00	28971	0-0-K	 GRAD: twt excessive
+?	01020049	1971-04-10T17:09:00.00	28996	0-0-K	 GRAD: twt excessive

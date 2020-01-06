@@ -1,0 +1,28 @@
+# Cruise 07010041 ID YAQ7308 MGD77 FILE VERSION: 19840131 N_RECS: 5108
+# Examined: Fri Jul 16 17:45:21 2010 by mtchandl
+# Arguments:  -R276.9/282.75/-12.05/8.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010041-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-07010041-depth-01: RLS m: 1.00105 b: 0 rms: 32.4219 r: 0.999854 sig: 1 dec: 0
+N-E-07010041-depth-02: Regression slope 1.00105 different from 1. Recommended: [1]
+Y-I-07010041-faa-01: RLS m: 0.991496 b: 0.292209 rms: 2.85294 r: 0.999162 sig: 1 dec: 0
+N-E-07010041-faa-02: Regression slope 0.991496 different from 1. Recommended: [1]
+Y-W-07010041-faa-03: Regression offset 0.292209 different from 0.
+Y-E-07010041-mag-07: Anomaly differs from mtf1-IGRF (m: 1.35714 b: -131.468 rms: 130.443 r: 0.911413 sig: 1 dec: 0). [Recompute]
+Y-W-07010041-twt-11: More recent bathymetry correction table available
+Y-W-07010041-mtf1-12: Integer precision
+Y-W-07010041-mag-12: Integer precision
+# Errata: Data
+?	07010041	1974-03-23T07:06:00.00	2170	0-0-KL	 GRAD: twt, depth excessive
+?	07010041	1974-03-26T14:30:00.00	4465	0-0-KL	 GRAD: twt, depth excessive
+?	07010041	1974-03-27T07:03:00.00	4903	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010041	1974-03-27T07:07:00.00	4905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010041	1974-03-27T07:10:00.00	4906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010041	1974-03-27T13:43:00.00	5068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010041	1974-03-27T14:08:00.00	5078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010041	1974-03-27T14:10:00.00	5079	0-0-OQ	 GRAD: mtf1, mag excessive

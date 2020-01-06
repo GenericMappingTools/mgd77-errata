@@ -1,0 +1,19 @@
+# Cruise 15020085 ID VLCN08MV MGD77 FILE VERSION: 19851028 N_RECS: 8764
+# Examined: Fri May 16 11:48:26 2008 by mtchandl
+# Arguments:  -R219.9/288.35/-33/-8.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020085-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-15020085-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15020085-depth-01: RLS m: 1.00388 b: 0 rms: 107.153 r: 0.990508 sig: 1 dec: 1
+Y-E-15020085-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.897891 b: 74.9705 rms: 184.046 r: 0.586672 sig: 1 dec: 1). [Recompute]
+Y-W-15020085-twt-11: More recent bathymetry correction table available
+Y-W-15020085-mtf1-12: Integer precision
+Y-W-15020085-mag-12: Integer precision
+# Errata: Data
+Y	15020085	1981-05-14T17:05:00.00	8763	D-0-0	 NAV: on land
+Y	15020085	1981-05-14T17:10:00.00	8764	D-0-0	 NAV: on land

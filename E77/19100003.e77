@@ -1,0 +1,221 @@
+# Cruise 19100003 ID DI90L1-2 MGD77 FILE VERSION: 20061114 N_RECS: 24953
+# Examined: Mon Sep  6 13:01:17 2010 by mtchandl
+# Arguments:  -R-15.2/2/31.7/54.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19100003-H13-10: Survey year (1978) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-19100003-nav-00: Flagged 0.75 % of records with bad navigation
+Y-I-19100003-depth-01: RLS m: 0.999302 b: 0 rms: 15.301 r: 0.999957 sig: 1 dec: 0
+N-E-19100003-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-19100003-faa-01: RLS m: 0.997575 b: -1.4429 rms: 3.22231 r: 0.998559 sig: 1 dec: 0
+N-E-19100003-faa-02: Regression slope 0.997575 different from 1. Recommended: [1]
+Y-W-19100003-faa-03: Regression offset -1.4429 different from 0.
+Y-E-19100003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958121 b: -142.288 rms: 144.306 r: 0.952798 sig: 1 dec: 0). [Recompute]
+Y-W-19100003-depth-12: Integer precision
+Y-W-19100003-mtf1-12: Integer precision
+Y-W-19100003-mag-12: Integer precision
+Y-W-19100003-faa-12: Integer precision
+# Errata: Data
+Y	19100003	1978-01-21T20:48:00.00	868	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	869	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	870	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	871	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	872	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	873	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	874	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	875	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	876	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	877	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	878	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	879	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	880	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	881	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	882	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	883	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	884	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	885	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	886	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	887	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	888	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	889	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	890	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	891	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	892	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	893	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	894	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	895	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	896	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	897	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	898	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:48:00.00	899	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-21T20:50:00.00	900	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-21T21:52:00.00	931	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-21T21:54:00.00	932	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-21T21:56:00.00	933	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-21T21:58:00.00	934	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-22T23:46:00.00	1709	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-23T12:16:00.00	2085	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-23T12:16:00.00	2086	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-23T12:16:00.00	2087	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-24T09:14:00.00	2717	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-24T09:14:00.00	2718	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-24T12:20:00.00	2812	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-24T12:20:00.00	2813	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-01-31T10:18:00.00	7791	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:20:00.00	7792	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:22:00.00	7793	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:24:00.00	7794	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:26:00.00	7795	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:28:00.00	7796	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:30:00.00	7797	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:32:00.00	7798	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:34:00.00	7799	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:36:00.00	7800	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:38:00.00	7801	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:40:00.00	7802	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:42:00.00	7803	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:44:00.00	7804	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:46:00.00	7805	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:48:00.00	7806	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:50:00.00	7807	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:52:00.00	7808	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:54:00.00	7809	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:56:00.00	7810	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T10:58:00.00	7811	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:00:00.00	7812	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:02:00.00	7813	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:04:00.00	7814	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:06:00.00	7815	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:08:00.00	7816	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:10:00.00	7817	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:12:00.00	7818	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:14:00.00	7819	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:16:00.00	7820	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:18:00.00	7821	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:20:00.00	7822	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:22:00.00	7823	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:24:00.00	7824	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:26:00.00	7825	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:28:00.00	7826	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:30:00.00	7827	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:32:00.00	7828	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:34:00.00	7829	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:36:00.00	7830	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:38:00.00	7831	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:40:00.00	7832	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:42:00.00	7833	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:44:00.00	7834	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:46:00.00	7835	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:48:00.00	7836	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:50:00.00	7837	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:52:00.00	7838	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:54:00.00	7839	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:56:00.00	7840	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T11:58:00.00	7841	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:00:00.00	7842	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:02:00.00	7843	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:04:00.00	7844	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:06:00.00	7845	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:08:00.00	7846	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:10:00.00	7847	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:12:00.00	7848	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:14:00.00	7849	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:16:00.00	7850	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:18:00.00	7851	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:20:00.00	7852	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:22:00.00	7853	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:24:00.00	7854	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:26:00.00	7855	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:28:00.00	7856	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:30:00.00	7857	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:32:00.00	7858	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:34:00.00	7859	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:36:00.00	7860	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:38:00.00	7861	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:40:00.00	7862	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:42:00.00	7863	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:44:00.00	7864	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:46:00.00	7865	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:48:00.00	7866	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:50:00.00	7867	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:52:00.00	7868	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:54:00.00	7869	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:56:00.00	7870	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T12:58:00.00	7871	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T13:00:00.00	7872	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T13:02:00.00	7873	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:02:00.00	7963	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:04:00.00	7964	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:06:00.00	7965	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:08:00.00	7966	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:10:00.00	7967	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:12:00.00	7968	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:14:00.00	7969	C-0-0	 NAV: excessive speed
+Y	19100003	1978-01-31T16:16:00.00	7970	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-02T07:04:00.00	7972	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-02T07:06:00.00	7973	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-02T07:08:00.00	7974	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-02T07:10:00.00	7975	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-04T04:56:00.00	9349	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-02-04T04:56:00.00	9350	B-0-0	 NAV: non-increasing time
+?	19100003	1978-02-05T06:38:00.00	10121	0-0-O	 GRAD: mtf1 excessive
+?	19100003	1978-02-05T06:42:00.00	10123	0-0-O	 GRAD: mtf1 excessive
+?	19100003	1978-02-08T06:14:00.00	12269	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:16:00.00	12270	0-0-O	 GRAD: mtf1 excessive
+?	19100003	1978-02-08T06:22:00.00	12273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:24:00.00	12274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:26:00.00	12275	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:42:00.00	12283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:44:00.00	12284	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:46:00.00	12285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:50:00.00	12287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:52:00.00	12288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	19100003	1978-02-08T06:54:00.00	12289	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100003	1978-02-11T15:02:00.00	12380	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:04:00.00	12381	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:06:00.00	12382	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:08:00.00	12383	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:10:00.00	12384	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:12:00.00	12385	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:14:00.00	12386	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:16:00.00	12387	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:18:00.00	12388	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:20:00.00	12389	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:22:00.00	12390	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:24:00.00	12391	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:26:00.00	12392	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:28:00.00	12393	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:30:00.00	12394	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:32:00.00	12395	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:34:00.00	12396	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:36:00.00	12397	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:38:00.00	12398	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:40:00.00	12399	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:42:00.00	12400	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:44:00.00	12401	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:46:00.00	12402	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:48:00.00	12403	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:50:00.00	12404	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:52:00.00	12405	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:54:00.00	12406	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:56:00.00	12407	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T15:58:00.00	12408	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T16:00:00.00	12409	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T16:02:00.00	12410	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:38:00.00	12578	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:40:00.00	12579	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:42:00.00	12580	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:44:00.00	12581	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:46:00.00	12582	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:48:00.00	12583	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:50:00.00	12584	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-11T21:52:00.00	12585	C-0-0	 NAV: excessive speed
+Y	19100003	1978-02-13T14:18:00.00	13799	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-02-13T14:18:00.00	13800	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-02-15T21:42:00.00	15463	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-02-15T21:42:00.00	15464	B-0-0	 NAV: non-increasing time
+Y	19100003	1978-02-17T20:22:00.00	16865	B-0-0	 NAV: non-increasing time

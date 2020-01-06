@@ -1,0 +1,35 @@
+# Cruise 67030003 ID 83000211 MGD77 FILE VERSION: 19860605 N_RECS: 14362
+# Examined: Sun Jul 31 22:04:44 2011 by mtchandl
+# Arguments:  -R-18.6/-5.15/4.15/10.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67030003-nav-00: Flagged 0.09 % of records with bad navigation
+Y-E-67030003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.933371 b: 152.309 rms: 152.282 r: 0.987425 sig: 1 dec: 0). [Recompute]
+Y-W-67030003-mtf1-12: Integer precision
+# Errata: Data
+?	67030003	1983-01-20T16:04:00.00	45	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-20T18:17:00.00	168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-21T03:49:00.00	728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-21T05:52:00.00	828	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-21T06:33:00.00	862	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67030003	1983-01-21T23:25:00.00	1304	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-22T03:24:00.00	1538	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-22T07:17:00.00	1766	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-23T00:21:00.00	1968	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-24T05:52:00.00	2988	C-0-0	 NAV: excessive speed
+?	67030003	1983-01-26T10:07:00.00	5351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-26T10:58:00.00	5401	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-26T10:59:00.00	5402	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67030003	1983-01-26T20:30:00.00	5774	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67030003	1983-01-28T05:51:00.00	7108	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-29T14:20:30.00	10333	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-29T14:21:00.00	10334	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-29T18:18:30.00	10698	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-29T18:19:00.00	10699	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-30T13:29:30.00	12757	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-30T23:19:30.00	13492	C-0-0	 NAV: excessive speed
+Y	67030003	1983-01-30T23:20:00.00	13493	C-0-0	 NAV: excessive speed

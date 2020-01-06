@@ -1,0 +1,60 @@
+# Cruise 19150060 ID M3044_5 MGD77 FILE VERSION: 20011115 N_RECS: 20007
+# Examined: Tue Sep 14 16:39:23 2010 by mtchandl
+# Arguments:  -R301.8/305.65/-63.6/-52.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Survey departure and arrival dates from previous cruise.
+# Errata: Header
+Y-E-19150060-H04-02: Invalid Survey Departure Month: (01) [03]
+Y-E-19150060-H04-03: Invalid Survey Departure Day: (02) [03]
+Y-E-19150060-H04-05: Invalid Survey Arrival Month: (04) [03]
+Y-E-19150060-H04-06: Invalid Survey Arrival Day: (16) [09]
+Y-W-19150060-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19150060-depth-01: RLS m: 0.999585 b: 0 rms: 11.9418 r: 0.999973 sig: 1 dec: 0
+N-E-19150060-depth-02: Regression slope 0.999585 different from 1. Recommended: [1]
+# Errata: Data
+Y	19150060	1998-03-04T04:23:04.02	2451	C-0-0	 NAV: excessive speed
+?	19150060	1998-03-04T07:21:54.00	3296	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:22:06.00	3297	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:22:42.00	3298	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:24:36.00	3305	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:25:54.00	3310	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:29:24.00	3322	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:29:36.00	3323	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:35:06.00	3330	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T07:36:06.00	3333	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T11:31:30.00	4027	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T11:33:12.00	4031	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T11:47:54.00	4062	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T12:00:42.00	4079	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T12:37:00.00	4146	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:00:54.00	4219	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:24:00.00	4283	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:30:30.00	4303	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:52:42.00	4372	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:52:54.00	4373	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T13:57:12.00	4383	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T14:20:24.00	4458	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T14:42:48.00	4523	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T14:45:36.00	4533	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:04:54.00	4582	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:08:30.00	4597	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:23:18.00	4643	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:28:12.00	4657	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:29:36.00	4661	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T15:30:00.00	4663	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:23:18.00	4829	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:23:30.00	4830	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:23:42.00	4831	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:25:06.00	4836	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:39:36.00	4889	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:44:42.00	4908	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-04T16:59:42.00	4932	0-0-L	 GRAD: depth excessive
+Y	19150060	1998-03-04T21:02:00.00	5809	C-0-0	 NAV: excessive speed
+?	19150060	1998-03-05T10:36:42.00	8495	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-05T21:38:00.00	11020	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-07T03:46:06.00	13457	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-08T14:09:48.00	17981	0-0-L	 GRAD: depth excessive
+?	19150060	1998-03-08T21:13:12.00	18279	0-0-L	 GRAD: depth excessive

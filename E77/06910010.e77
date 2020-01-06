@@ -1,0 +1,16 @@
+# Cruise 06910010 ID P784AT MGD77 FILE VERSION: 19870929 N_RECS: 2578
+# Examined: Fri Jul 16 17:07:01 2010 by mtchandl
+# Arguments:  -R279.95/281.25/26.2/27.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Eotvos reported twice (included in gobs and also in eot column).
+# Errata: Header
+Y-W-06910010-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-06910010-faa-01: RLS m: 0.99976 b: 0.105122 rms: 2.72658 r: 0.993475 sig: 1 dec: 0
+Y-I-06910010-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910010-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.627205 b: -7.0822 rms: 32.9664 r: 0.823254 sig: 1 dec: 1). [Recompute]
+N-E-06910010-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.605636 b: -0.0627484 rms: 20.5755 r: 0.874495 sig: 1 dec: 1). [Adjust to IGF 1980]
+# Errata: Data
+Y	06910010	1984-10-24T16:51:00.00	490	C-0-0	 NAV: excessive speed

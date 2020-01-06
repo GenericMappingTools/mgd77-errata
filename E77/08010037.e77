@@ -1,0 +1,106 @@
+# Cruise 08010037 ID 77031701 MGD77 FILE VERSION: 19830324 N_RECS: 23996
+# Examined: Mon Nov 23 14:45:52 2009 by mtchandl
+# Arguments:  -R171.15/202.15/-0.1/21.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-08010037-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [7]
+Y-W-08010037-H16-06: Ten Degree Identifier 3017 not marked in header but block was crossed
+Y-W-08010037-H16-06: Ten Degree Identifier 7115 not marked in header but block was crossed
+Y-W-08010037-nav-00: Flagged 0.22 % of records with bad navigation
+Y-I-08010037-depth-01: RLS m: 0.999651 b: 0 rms: 17.6497 r: 0.999543 sig: 1 dec: 0
+Y-I-08010037-faa-01: RLS m: 1.05386 b: -4.34501 rms: 15.764 r: 0.972769 sig: 1 dec: 1
+N-E-08010037-faa-02: Regression slope 1.05386 different from 1. Recommended: [1]
+Y-W-08010037-faa-03: Regression offset -4.34501 different from 0.
+Y-E-08010037-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00077 b: -134.843 rms: 135.171 r: 0.998909 sig: 1 dec: 0). [Recompute]
+Y-W-08010037-mtf1-12: Integer precision
+Y-W-08010037-mag-12: Integer precision
+# Errata: Data
+Y	08010037	1977-03-17T04:54:00.00	1	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T05:42:00.00	2	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T06:58:00.00	3	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T08:31:19.98	4	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T08:35:00.00	5	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T08:38:00.00	6	D-0-0	 NAV: on land
+Y	08010037	1977-03-17T08:41:40.02	7	D-0-0	 NAV: on land
+?	08010037	1977-03-17T10:34:00.00	54	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-03-17T10:35:00.00	55	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-03-17T10:53:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-03-17T10:54:00.00	74	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-03-17T10:55:00.00	75	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	08010037	1977-03-17T19:25:00.00	232	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:30:00.00	233	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:35:00.00	234	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:40:00.00	235	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:45:00.00	236	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:50:00.00	237	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T19:55:00.00	238	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:00:00.00	239	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:05:00.00	240	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:10:00.00	241	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:15:00.00	242	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:20:00.00	243	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:25:00.00	244	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:30:00.00	245	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:35:00.00	246	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:40:00.00	247	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:45:00.00	248	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:50:00.00	249	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T20:55:00.00	250	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:00:00.00	251	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:05:00.00	252	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:10:00.00	253	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:15:00.00	254	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:20:00.00	255	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:25:00.00	256	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:30:00.00	257	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:35:00.00	258	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:40:00.00	259	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:45:00.00	260	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:50:00.00	261	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T21:55:00.00	262	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:00:00.00	263	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:05:00.00	264	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:10:00.00	265	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:15:00.00	266	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:20:00.00	267	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+Y	08010037	1977-03-17T22:22:00.00	268	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:25:00.00	269	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:28:00.00	270	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:30:00.00	271	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:35:00.00	272	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:40:00.00	273	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:45:00.00	274	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:50:00.00	275	C-0-0	 NAV: excessive speed
+Y	08010037	1977-03-17T22:55:00.00	276	C-0-0	 NAV: excessive speed
+?	08010037	1977-03-19T17:54:00.00	2073	0-0-K	 GRAD: twt excessive
+?	08010037	1977-03-20T01:51:00.00	2502	0-0-KL	 GRAD: twt, depth excessive
+?	08010037	1977-03-21T04:04:00.00	4059	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:05:00.00	4060	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:06:00.00	4061	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:07:00.00	4062	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:08:00.00	4063	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:09:00.00	4064	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:10:00.00	4065	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:11:00.00	4066	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:12:00.00	4067	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:13:00.00	4068	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:14:00.00	4069	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:15:00.00	4070	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:16:00.00	4071	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-21T04:17:00.00	4072	0-Q-0	 VAL: mag invalid
+?	08010037	1977-03-26T12:36:00.00	11631	0-0-KL	 GRAD: twt, depth excessive
+?	08010037	1977-03-31T09:30:00.00	17334	0-0-W	 GRAD: faa excessive
+?	08010037	1977-04-05T04:36:00.00	23215	0-Q-0	 VAL: mag invalid
+?	08010037	1977-04-05T04:37:00.00	23216	0-Q-0	 VAL: mag invalid
+?	08010037	1977-04-05T04:38:00.00	23217	0-Q-0	 VAL: mag invalid
+?	08010037	1977-04-05T04:58:00.00	23237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T04:59:00.00	23238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T05:00:00.00	23239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T05:01:00.00	23240	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T05:02:00.00	23241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T05:03:00.00	23242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010037	1977-04-05T05:04:00.00	23243	0-0-OQ	 GRAD: mtf1, mag excessive

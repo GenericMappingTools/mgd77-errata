@@ -1,0 +1,43 @@
+# Cruise 01010035 ID RC1004 MGD77 FILE VERSION: 19910924 N_RECS: 6645
+# Examined: Thu Jun 26 13:11:32 2008 by mtchandl
+# Arguments:  -R242.7/280.6/-3.25/18.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Observed gravity not corrected for Eotvos effects. Possible Potsdam offset. Recommend recomputing faa with IGF 1980 and eot.
+# Errata: Header
+Y-E-01010035-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010035-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010035-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010035-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010035-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010035-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010035-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-E-01010035-H16-01: Invalid Number of Ten Degree Identifiers: (11) [8]
+Y-W-01010035-H16-06: Ten Degree Identifier 5008 marked in header but was not crossed
+Y-W-01010035-H16-06: Ten Degree Identifier 5009 marked in header but was not crossed
+Y-W-01010035-H16-06: Ten Degree Identifier 5010 marked in header but was not crossed
+Y-I-01010035-depth-01: RLS m: 0.995777 b: 0 rms: 199.486 r: 0.982136 sig: 1 dec: 1
+Y-I-01010035-faa-01: RLS m: 0.918304 b: -7.10409 rms: 15.2526 r: 0.960752 sig: 1 dec: 1
+N-E-01010035-faa-02: Regression slope 0.918304 different from 1. Recommended: [1]
+Y-W-01010035-faa-03: Regression offset -7.10409 different from 0.
+N-E-01010035-faa-06: Anomaly differs from gobs - IGF80 (m: 0.330145 b: -15.5039 rms: 55.4631 r: 0.716653 sig: 1 dec: 1). [Recompute]
+Y-E-01010035-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010035-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010035-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.972608 b: -21.5256 rms: 107.436 r: 0.899149 sig: 1 dec: 1). [Recompute]
+Y-W-01010035-mtf1-12: Integer precision
+# Errata: Data
+?	01010035	1966-01-29T20:50:00.00	215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-01-31T06:00:00.00	631	B-0-0	 NAV: decreasing time
+?	01010035	1966-02-01T21:49:00.00	1043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-02T06:45:00.00	1181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-02T08:26:00.00	1200	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-02T11:09:00.00	1236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-02T12:26:00.00	1250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-02T18:00:00.00	1329	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010035	1966-02-03T05:55:00.00	1467	0-Q-0	 VAL: mag invalid
+?	01010035	1966-02-17T12:27:00.00	5154	0-0-K	 GRAD: twt excessive
+?	01010035	1966-02-17T12:33:00.00	5156	0-0-K	 GRAD: twt excessive
+?	01010035	1966-02-19T09:12:00.00	5750	0-0-K	 GRAD: twt excessive
+?	01010035	1966-02-19T09:18:00.00	5752	0-0-K	 GRAD: twt excessive

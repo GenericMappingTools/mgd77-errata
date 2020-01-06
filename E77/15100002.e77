@@ -1,0 +1,17 @@
+# Cruise 15100002 ID STYX01AZ MGD77 FILE VERSION: 19800226 N_RECS: 6035
+# Examined: Mon Jun  2 10:55:42 2008 by mtchandl
+# Arguments:  -R202.1/242.8/9.9/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15100002-H04-03: Invalid Survey Departure Day: (02) [03]
+Y-W-15100002-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15100002-depth-01: RLS m: 0.996125 b: 0 rms: 126.744 r: 0.996464 sig: 1 dec: 1
+Y-E-15100002-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00177 b: -61.227 rms: 70.6138 r: 0.978759 sig: 1 dec: 1). [Recompute]
+Y-W-15100002-mtf1-12: Integer multiple of 5 precision
+Y-W-15100002-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15100002	1968-04-26T15:54:00.00	6009	C-0-0	 NAV: excessive speed

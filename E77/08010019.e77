@@ -1,0 +1,37 @@
+# Cruise 08010019 ID KK721104 MGD77 FILE VERSION: 19910130 N_RECS: 5149
+# Examined: Mon Jul 26 15:49:57 2010 by mtchandl
+# Arguments:  -R278.3/282.65/-2.8/4.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010019-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-08010019-nav-00: Flagged 0.27 % of records with bad navigation
+Y-I-08010019-depth-01: RLS m: 0.998953 b: 0 rms: 31.037 r: 0.99962 sig: 1 dec: 0
+Y-I-08010019-faa-01: RLS m: 1.02732 b: -0.82591 rms: 5.27866 r: 0.993131 sig: 1 dec: 0
+N-E-08010019-faa-02: Regression slope 1.02732 different from 1. Recommended: [1]
+Y-W-08010019-faa-03: Regression offset -0.82591 different from 0.
+Y-E-08010019-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990416 b: 126.674 rms: 129.633 r: 0.977303 sig: 1 dec: 1). [Recompute]
+Y-W-08010019-twt-11: More recent bathymetry correction table available
+Y-W-08010019-mtf1-12: Integer precision
+Y-W-08010019-mag-12: Integer precision
+Y-W-08010019-faa-12: Integer precision
+# Errata: Data
+Y	08010019	1973-02-21T01:30:00.00	5	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T01:44:54.00	6	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:50:06.00	14	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:52:36.00	15	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:53:54.00	16	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:54:48.00	17	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:56:06.00	18	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:57:12.00	19	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T02:58:54.00	20	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T03:00:00.00	21	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T03:00:18.00	22	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T03:01:00.00	23	D-0-0	 NAV: on land
+Y	08010019	1973-02-21T03:02:36.00	24	D-0-0	 NAV: on land
+?	08010019	1973-02-24T00:29:00.00	1548	0-0-K	 GRAD: twt excessive
+Y	08010019	1973-03-04T23:08:00.00	5148	D-0-0	 NAV: on land
+?	08010019	1973-03-04T23:30:00.00	5149	D-0-0	 NAV: on land

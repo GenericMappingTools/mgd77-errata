@@ -1,0 +1,93 @@
+# Cruise 88010038 ID NBP96-2 MGD77 FILE VERSION: 20000719 N_RECS: 61953
+# Examined: Thu Aug  4 19:37:04 2011 by mtchandl
+# Arguments:  -R165.95/294.75/-77.85/-55.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Subtracted 40 mGal from reported faa. Gravity may also be affected by instrument drift. Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-88010038-H04-06: Invalid Survey Arrival Day: (07) [05]
+Y-E-88010038-H13-01: Invalid Magnetics Digitizing Rate: (1.0) [1.0]
+Y-E-88010038-H14-01: Invalid Gravity Digitizing Rate: (1.0) [1.0]
+Y-E-88010038-H15-01: Invalid Gravity Departure Base Station Value: (982977) [9829770]
+Y-E-88010038-H15-03: Invalid Gravity Arrival Base Station Value: (981320) [9813200]
+Y-W-88010038-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-88010038-depth-01: RLS m: 1 b: 0 rms: 3.22833 r: 0.999993 sig: 1 dec: 0
+Y-I-88010038-faa-01: RLS m: 0.987957 b: 43.7047 rms: 44.3924 r: 0.965203 sig: 1 dec: 0
+N-E-88010038-faa-02: Regression slope 0.987957 different from 1. Recommended: [1]
+Y-E-88010038-faa-03: Regression offset 43.7047 different from 0. Recommended: [-40.0]
+Y-I-88010038-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-88010038-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.812295 b: -2.73493 rms: 20.9279 r: 0.969954 sig: 1 dec: 1). [Recompute]
+Y-E-88010038-mag-07: Anomaly differs from mtf1-IGRF (m: 0.96249 b: -83.7712 rms: 128.92 r: 0.930466 sig: 1 dec: 1). [Recompute]
+N-E-88010038-faa-08: Extended offset from grid [205-22767]
+N-E-88010038-faa-08: Extended offset from grid [22774-30735]
+N-E-88010038-faa-08: Extended offset from grid [42916-61953]
+# Errata: Data
+?	88010038	1996-02-22T04:13:00.00	95	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-02-22T04:29:00.00	110	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-02-22T04:42:00.00	123	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-02-22T04:47:00.00	128	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-02-22T21:09:00.00	1105	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-02-22T21:14:00.00	1110	0-0-U	 GRAD: gobs excessive
+?	88010038	1996-03-03T01:08:00.00	14204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T09:10:00.00	14684	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-03T12:19:00.00	14873	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T14:11:00.00	14984	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T15:46:00.00	15076	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T15:52:00.00	15082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T16:10:00.00	15100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-03T17:09:00.00	15159	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-06T19:35:00.00	19602	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-06T21:18:00.00	19705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-06T21:49:00.00	19736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-12T13:07:00.00	27807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-12T13:09:00.00	27809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-13T01:38:00.00	28557	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-16T14:12:00.00	33583	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-18T23:33:00.00	37006	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-19T05:05:00.00	37337	0-0-UW	 GRAD: gobs, faa excessive
+?	88010038	1996-03-19T13:15:00.00	37821	0-0-UW	 GRAD: gobs, faa excessive
+?	88010038	1996-03-19T19:02:00.00	38166	0-0-UW	 GRAD: gobs, faa excessive
+?	88010038	1996-03-21T13:30:00.00	40695	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T13:33:00.00	40698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T13:40:00.00	40705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T13:41:00.00	40706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T13:42:00.00	40707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T14:09:00.00	40734	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	88010038	1996-03-21T17:32:00.00	40937	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:33:00.00	40938	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:34:00.00	40939	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:35:00.00	40940	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:36:00.00	40941	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:37:00.00	40942	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:38:00.00	40943	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:39:00.00	40944	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:40:00.00	40945	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-21T17:41:00.00	40946	C-0-0	 NAV: excessive speed
+?	88010038	1996-03-21T20:32:00.00	41117	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T20:34:00.00	41119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T21:05:00.00	41150	0-0-Q	 GRAD: mag excessive
+?	88010038	1996-03-21T21:06:00.00	41151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-21T21:10:00.00	41155	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-21T21:11:00.00	41156	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-22T13:00:00.00	42085	0-0-Q	 GRAD: mag excessive
+?	88010038	1996-03-23T00:06:00.00	42751	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T00:11:00.00	42756	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T00:12:00.00	42757	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T00:15:00.00	42760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T02:26:00.00	42891	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	88010038	1996-03-23T02:53:00.00	42917	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-23T02:56:00.00	42919	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-23T02:58:00.00	42920	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-23T03:01:00.00	42921	C-0-0	 NAV: excessive speed
+Y	88010038	1996-03-23T03:04:00.00	42922	C-0-0	 NAV: excessive speed
+?	88010038	1996-03-23T04:16:00.00	42992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T04:19:00.00	42995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T04:20:00.00	42996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T04:24:00.00	43000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-23T04:29:00.00	43005	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-23T17:50:00.00	43762	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010038	1996-03-26T07:36:00.00	47453	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-26T07:37:00.00	47454	0-0-L	 GRAD: depth excessive
+?	88010038	1996-03-26T07:38:00.00	47455	0-0-L	 GRAD: depth excessive

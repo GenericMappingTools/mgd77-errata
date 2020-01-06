@@ -1,0 +1,18 @@
+# Cruise J1010035 ID HT891027 MGD77 FILE VERSION: 19921231 N_RECS: 1743
+# Examined: Thu Aug  4 20:08:40 2011 by mtchandl
+# Arguments:  -R134.8/137.55/30/33.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-E-J1010035-H11-02: Invalid Topmost Latitude : (+33) [+34]
+Y-I-J1010035-depth-01: RLS m: 0.999051 b: 0 rms: 21.4315 r: 0.998319 sig: 1 dec: 0
+Y-I-J1010035-faa-01: RLS m: 0.989365 b: -1.19398 rms: 2.67693 r: 0.995206 sig: 1 dec: 0
+N-E-J1010035-faa-02: Regression slope 0.989365 different from 1. Recommended: [1]
+Y-W-J1010035-faa-03: Regression offset -1.19398 different from 0.
+Y-W-J1010035-depth-12: Integer precision
+Y-W-J1010035-mag-12: Integer precision
+Y-W-J1010035-faa-12: Integer precision
+# Errata: Data

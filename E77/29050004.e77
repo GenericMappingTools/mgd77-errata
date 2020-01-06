@@ -1,0 +1,40 @@
+# Cruise 29050004 ID AKU31 MGD77 FILE VERSION: 19851230 N_RECS: 1971
+# Examined: Mon Feb 14 22:29:55 2011 by mtchandl
+# Arguments:  -R-46.25/-6.9/14.9/46.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Suggest using reported faa, nnsure if gobs-IGF80 improves gravity anomalies.
+# Errata: Header
+N-E-29050004-H04-03: Invalid Survey Departure Day: (17) [21]
+N-E-29050004-H04-05: Invalid Survey Arrival Month: (07) [06]
+N-E-29050004-H04-06: Invalid Survey Arrival Day: (31) [09]
+Y-W-29050004-nav-00: Flagged 0.86 % of records with bad navigation
+Y-I-29050004-depth-01: RLS m: 1.00388 b: 0 rms: 102.369 r: 0.974115 sig: 1 dec: 0
+Y-I-29050004-faa-01: RLS m: 0.894988 b: -16.3612 rms: 23.3226 r: 0.928073 sig: 1 dec: 1
+N-E-29050004-faa-02: Regression slope 0.894988 different from 1. Recommended: [1]
+Y-W-29050004-faa-03: Regression offset -16.3612 different from 0.
+N-E-29050004-faa-06: Anomaly differs from gobs-IGF80 (m: 0.981161 b: -13.1716 rms: 13.3475 r: 0.998081 sig: 1 dec: 0). [Recompute]
+N-E-29050004-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.225406 b: -5.78648 rms: 64.3481 r: 0.532167 sig: 1 dec: 1). [Recompute]
+Y-E-29050004-faa-08: Extended offset from grid [64-990]
+Y-W-29050004-twt-11: More recent bathymetry correction table available
+Y-W-29050004-depth-12: Integer precision
+# Errata: Data
+Y	29050004	1980-05-18T11:10:00.00	862	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T11:20:00.00	863	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T11:30:00.00	864	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T11:50:00.00	865	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:00:00.00	866	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:10:00.00	867	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:20:00.00	868	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:30:00.00	869	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:40:00.00	870	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T12:50:00.00	871	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:00:00.00	872	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:10:00.00	873	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:20:00.00	874	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:30:00.00	875	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:40:00.00	876	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T13:50:00.00	877	C-0-0	 NAV: excessive speed
+Y	29050004	1980-05-18T14:00:00.00	878	C-0-0	 NAV: excessive speed

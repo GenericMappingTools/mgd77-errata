@@ -1,0 +1,25 @@
+# Cruise J1030024 ID HM910613 MGD77 FILE VERSION: 19921231 N_RECS: 2682
+# Examined: Sun Aug  7 07:29:15 2011 by mtchandl
+# Arguments:  -R129.6/130.6/31.6/32.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one excessive gravity offset.
+# Errata: Header
+Y-W-J1030024-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-J1030024-depth-01: RLS m: 1.03156 b: 0 rms: 2.81558 r: 0.993256 sig: 1 dec: 0
+N-E-J1030024-depth-02: Regression slope 1.03156 different from 1. Recommended: [1]
+Y-I-J1030024-faa-01: RLS m: 0.959436 b: -5.11621 rms: 6.674 r: 0.955885 sig: 1 dec: 0
+N-E-J1030024-faa-02: Regression slope 0.959436 different from 1. Recommended: [1]
+Y-W-J1030024-faa-03: Regression offset -5.11621 different from 0.
+N-E-J1030024-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: 5 rms: 5 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-J1030024-faa-08: Extended offset from grid [1927-2638]
+Y-W-J1030024-depth-12: Integer precision
+# Errata: Data
+Y	J1030024	1991-06-13T16:09:00.00	236	C-0-0	 NAV: excessive speed
+?	J1030024	1991-06-13T16:10:00.00	237	0-0-L	 GRAD: depth excessive
+Y	J1030024	1991-06-14T01:50:00.00	495	C-0-0	 NAV: excessive speed
+Y	J1030024	1991-06-14T01:51:00.00	496	C-0-0	 NAV: excessive speed
+?	J1030024	1991-06-18T22:34:00.00	2467	0-0-L	 GRAD: depth excessive
+?	J1030024	1991-06-18T22:35:00.00	2468	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,20 @@
+# Cruise 15010026 ID LUSI02AR MGD77 FILE VERSION: 19951214 N_RECS: 1626
+# Examined: Mon May 12 17:04:06 2008 by mtchandl
+# Arguments:  -R103.9/120.95/1.25/14.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15010026-nav-00: Flagged 0.18 % of records with excessive speed or invalid navigation
+Y-I-15010026-depth-01: RLS m: 1.00388 b: 0 rms: 117.563 r: 0.994476 significant: 1 decimation: 1
+Y-W-15010026-depth-12: Integer precision
+# Errata: Data
+?	15010026	1962-06-15T00:06:00.00	78	0-M-0	 VAL: bcc invalid
+?	15010026	1962-06-15T00:12:00.00	79	0-M-0	 VAL: bcc invalid
+?	15010026	1962-06-15T00:18:00.00	80	0-M-0	 VAL: bcc invalid
+?	15010026	1962-06-15T00:24:00.00	81	0-M-0	 VAL: bcc invalid
+Y	15010026	1962-06-17T00:32:00.00	562	D-0-0	 NAV: on land
+Y	15010026	1962-06-21T16:00:00.00	1353	C-0-0	 NAV: excessive speed
+Y	15010026	1962-06-22T11:33:00.00	1529	C-0-0	 NAV: excessive speed

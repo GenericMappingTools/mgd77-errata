@@ -1,0 +1,61 @@
+# Cruise 23060087 ID ODP181JR MGD77 FILE VERSION: 20030403 N_RECS: 84060
+# Examined: Thu Feb  3 13:53:56 2011 by mtchandl
+# Arguments:  -R151.2/188.55/-50.9/-33.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060087-H04-03: Invalid Survey Departure Day: (10) [16]
+Y-E-23060087-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A5,A6,I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-23060087-H13-10: Survey year (1998) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060087-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-23060087-depth-01: RLS m: 1 b: 0 rms: 6.48098 r: 0.999993 sig: 1 dec: 0
+N-E-23060087-twt-13: Encountered possible PDR wrap errors (4.0) [5.0]
+Y-W-23060087-twt-11: More recent bathymetry correction table available
+Y-W-23060087-depth-12: Integer precision
+# Errata: Data
+Y	23060087	1998-08-17T00:37:18.00	155	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-17T00:42:18.72	165	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-17T01:24:19.32	240	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-17T01:25:19.32	242	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-17T01:28:19.38	248	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-17T01:31:19.44	254	C-0-0	 NAV: excessive speed
+?	23060087	1998-08-19T11:55:15.48	6095	0-0-KL	 GRAD: twt, depth excessive
+?	23060087	1998-08-19T12:00:16.50	6105	0-0-KL	 GRAD: twt, depth excessive
+Y	23060087	1998-08-21T20:42:33.36	11675	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-21T23:12:35.34	11975	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T07:22:30.12	17170	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T08:06:31.26	17256	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T08:07:31.32	17258	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T08:08:31.32	17260	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T08:10:31.38	17264	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-26T12:13:38.58	17705	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-31T19:50:07.44	25897	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-31T22:35:11.94	26082	C-0-0	 NAV: excessive speed
+Y	23060087	1998-08-31T23:25:14.70	26136	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-03T22:32:24.54	30862	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T04:50:36.18	62491	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T04:51:36.24	62493	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T04:52:36.24	62495	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T05:36:37.44	62583	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T05:37:37.44	62585	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T06:22:38.64	62675	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T06:23:38.64	62677	C-0-0	 NAV: excessive speed
+Y	23060087	1998-09-24T19:51:29.16	63796	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:17.76	73170	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:17.88	73171	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:18.06	73173	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:18.60	73179	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:18.84	73182	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:19.14	73185	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:19.32	73187	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:19.50	73189	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:19.68	73191	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:20.10	73196	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:20.28	73198	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:20.46	73200	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:21.12	73207	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:21.18	73208	C-0-0	 NAV: excessive speed
+Y	23060087	1998-10-01T06:25:21.30	73209	C-0-0	 NAV: excessive speed

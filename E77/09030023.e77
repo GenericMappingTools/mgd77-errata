@@ -1,0 +1,18 @@
+# Cruise 09030023 ID SI931014 MGD77 FILE VERSION: 19791128 N_RECS: 9061
+# Examined: Fri Jul 30 14:20:48 2010 by mtchandl
+# Arguments:  -R195.7/237.35/14.6/40.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09030023-H04-03: Invalid Survey Departure Day: (03) [04]
+Y-E-09030023-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09030023-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09030023-depth-01: RLS m: 0.999651 b: 0 rms: 19.2736 r: 0.999544 sig: 1 dec: 0
+Y-W-09030023-depth-12: Integer precision
+# Errata: Data
+?	09030023	1971-06-07T06:25:00.00	641	0-0-K	 GRAD: twt excessive
+?	09030023	1971-06-07T06:35:00.00	643	0-0-KL	 GRAD: twt, depth excessive
+?	09030023	1971-06-15T17:50:00.00	1227	0-0-K	 GRAD: twt excessive

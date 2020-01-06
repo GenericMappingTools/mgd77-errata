@@ -1,0 +1,17 @@
+# Cruise 15080015 ID LMBO-1HO MGD77 FILE VERSION: 19800226 N_RECS: 1418
+# Examined: Sun Jun  1 14:21:37 2008 by mtchandl
+# Arguments:  -R220.8/231.8/23/28 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15080015-H04-02: Invalid Survey Departure Month: (05) [06]
+N-E-15080015-H04-03: Invalid Survey Departure Day: (16) [15]
+N-E-15080015-H04-05: Invalid Survey Arrival Month: (07) [06]
+N-E-15080015-H04-06: Invalid Survey Arrival Day: (01) [22]
+Y-I-15080015-depth-01: RLS m: 1.00388 b: 0 rms: 109.105 r: 0.961033 sig: 1 dec: 1
+# Errata: Data
+?	15080015	1960-06-22T05:00:00.00	1199	0-0-K	 GRAD: twt excessive
+?	15080015	1960-06-22T05:03:00.00	1200	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,52 @@
+# Cruise 09050038 ID KA931006 MGD77 FILE VERSION: 19791128 N_RECS: 19838
+# Examined: Mon Aug  9 11:35:36 2010 by mtchandl
+# Arguments:  -R329.85/355.6/28.45/54.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09050038-H04-06: Invalid Survey Arrival Day: (23) [22]
+Y-E-09050038-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-I-09050038-depth-01: RLS m: 0.999651 b: 0 rms: 18.8538 r: 0.999836 sig: 1 dec: 0
+N-E-09050038-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-W-09050038-twt-11: More recent bathymetry correction table available
+Y-W-09050038-depth-12: Integer precision
+# Errata: Data
+?	09050038	1970-10-14T15:05:00.00	1367	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T15:16:00.00	2199	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T15:31:00.00	2207	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-10-16T16:46:00.00	2237	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-10-16T17:20:00.00	2251	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-10-16T17:23:00.00	2253	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T17:54:00.00	2272	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T18:17:00.00	2288	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T19:00:00.00	2319	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-16T20:31:00.00	2368	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-19T16:57:00.00	3732	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-19T21:59:00.00	3846	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-20T09:48:00.00	4148	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-20T10:02:00.00	4157	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-20T12:25:00.00	4235	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-20T16:28:00.00	4352	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-22T10:01:00.00	5240	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-10-22T10:11:00.00	5247	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-23T00:32:00.00	5564	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-23T06:31:00.00	5713	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-23T09:08:00.00	5805	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-24T21:24:00.00	6465	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-25T10:37:00.00	6738	0-0-K	 GRAD: twt excessive
+?	09050038	1970-10-25T19:58:00.00	6875	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-11-04T10:16:00.00	10017	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-11-30T14:08:00.00	14619	0-0-K	 GRAD: twt excessive
+?	09050038	1970-11-30T14:10:00.00	14620	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-12-06T17:28:00.00	14984	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-06T17:58:00.00	15002	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-06T18:01:00.00	15005	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-06T18:34:00.00	15021	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-11T03:47:00.00	16179	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-12T16:22:00.00	16627	0-0-K	 GRAD: twt excessive
+?	09050038	1970-12-14T18:23:00.00	17280	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-12-17T19:35:00.00	18362	0-0-KL	 GRAD: twt, depth excessive
+?	09050038	1970-12-21T00:28:00.00	19310	0-0-K	 GRAD: twt excessive

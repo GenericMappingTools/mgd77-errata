@@ -1,0 +1,19 @@
+# Cruise 15050085 ID DSDP85GC MGD77 FILE VERSION: 19840611 N_RECS: 6936
+# Examined: Fri May 30 10:24:38 2008 by mtchandl
+# Arguments:  -R204.4/246.2/-0.05/31.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15050085-H11-03: Invalid Bottommost Latitude: (+00) [-01]
+Y-E-15050085-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-E-15050085-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [10]
+Y-W-15050085-H16-06: Ten Degree Identifier 5012 not marked in header but block was crossed
+Y-I-15050085-depth-01: RLS m: 0.996125 b: 0 rms: 109.529 r: 0.996351 sig: 1 dec: 1
+Y-E-15050085-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.05258 b: 73.5555 rms: 105.823 r: 0.87646 sig: 1 dec: 1). [Recompute]
+Y-W-15050085-twt-11: More recent bathymetry correction table available
+Y-W-15050085-mtf1-12: Integer precision
+Y-W-15050085-mag-12: Integer precision
+# Errata: Data

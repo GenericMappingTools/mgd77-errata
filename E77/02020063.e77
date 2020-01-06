@@ -1,0 +1,36 @@
+# Cruise 02020063 ID A2093L04 MGD77 FILE VERSION: 19820805 N_RECS: 15155
+# Examined: Fri Apr  2 14:49:41 2010 by mtchandl
+# Arguments:  -R17.9/36.7/-66.85/-30 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020063-depth-01: RLS m: 0.999548 b: 0 rms: 19.3218 r: 0.999801 sig: 1 dec: 0
+N-E-02020063-depth-02: Regression slope 0.999548 different from 1. Recommended: [1]
+Y-I-02020063-faa-01: RLS m: 0.955284 b: 4.04112 rms: 5.17318 r: 0.976579 sig: 1 dec: 0
+N-E-02020063-faa-02: Regression slope 0.955284 different from 1. Recommended: [1]
+Y-W-02020063-faa-03: Regression offset 4.04112 different from 0.
+Y-I-02020063-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02020063-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.697762 b: -0.862705 rms: 11.4853 r: 0.852584 sig: 1 dec: 0). [Recompute]
+Y-E-02020063-mag-07: Anomaly differs from mtf1-IGRF (m: 0.979171 b: -247.029 rms: 268.699 r: 0.920631 sig: 1 dec: 1). [Recompute]
+Y-W-02020063-twt-11: More recent bathymetry correction table available
+Y-W-02020063-mtf1-12: Integer precision
+Y-W-02020063-mag-12: Integer precision
+# Errata: Data
+?	02020063	1976-01-20T20:06:00.00	4508	0-0-KL	 GRAD: twt, depth excessive
+?	02020063	1976-01-22T05:25:00.00	5174	0-0-K	 GRAD: twt excessive
+?	02020063	1976-02-01T10:59:00.00	10645	0-0-K	 GRAD: twt excessive
+?	02020063	1976-02-02T16:15:00.00	11418	0-0-K	 GRAD: twt excessive
+?	02020063	1976-02-03T17:10:00.00	12193	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T17:48:00.00	12217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T17:50:00.00	12218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T17:53:00.00	12220	0-0-O	 GRAD: mtf1 excessive
+?	02020063	1976-02-03T18:10:00.00	12231	0-Q-0	 VAL: mag invalid
+?	02020063	1976-02-03T18:15:00.00	12233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T18:18:00.00	12235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T18:20:00.00	12236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T19:00:00.00	12261	0-0-Q	 GRAD: mag excessive
+?	02020063	1976-02-03T19:28:00.00	12280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020063	1976-02-03T19:30:00.00	12282	0-0-OQ	 GRAD: mtf1, mag excessive

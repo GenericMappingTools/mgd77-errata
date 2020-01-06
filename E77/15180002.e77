@@ -1,0 +1,28 @@
+# Cruise 15180002 ID SILS02BT MGD77 FILE VERSION: 19800226 N_RECS: 6017
+# Examined: Mon Jun  2 11:16:57 2008 by mtchandl
+# Arguments:  -R139.65/161/25.35/34.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-I-15180002-depth-01: RLS m: 1 b: 0 rms: 141.561 r: 0.996645 sig: 1 dec: 1
+Y-E-15180002-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.981502 b: 40.6945 rms: 77.7826 r: 0.959296 sig: 1 dec: 1). [Recompute]
+N-E-15180002-depth-08: Extended offset from grid [236-262]
+N-E-15180002-depth-08: Extended offset from grid [5883-5927]
+Y-E-15180002-twt-13: Encountered possible PDR wrap errors (9.5) [10.0]
+Y-W-15180002-twt-11: More recent bathymetry correction table available
+Y-W-15180002-mtf1-12: Integer multiple of 5 precision
+Y-W-15180002-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15180002	1969-10-29T15:20:00.00	47	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180002	1969-10-30T07:05:00.00	236	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-10-30T09:05:00.00	261	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-11-19T03:20:00.00	4666	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-11-19T03:45:00.00	4671	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-11-19T05:20:00.00	4690	0-0-K	 GRAD: twt excessive
+?	15180002	1969-11-19T20:50:00.00	4876	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-11-19T21:05:00.00	4879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180002	1969-11-23T09:05:00.00	5887	0-0-KL	 GRAD: twt, depth excessive
+?	15180002	1969-11-23T12:20:00.00	5926	0-0-KL	 GRAD: twt, depth excessive

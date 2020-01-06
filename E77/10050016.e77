@@ -1,0 +1,70 @@
+# Cruise 10050016 ID FM0901 MGD77 FILE VERSION: 19920727 N_RECS: 2488
+# Examined: Tue Aug 24 13:56:27 2010 by mtchandl
+# Arguments:  -R275.1/280.05/24.25/26.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10050016-H04-03: Invalid Survey Departure Day: (21) [18]
+Y-E-10050016-H04-06: Invalid Survey Arrival Day: (26) [28]
+Y-E-10050016-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050016-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10050016-H13-10: Survey year (1981) outside magnetic reference field IGRF 80 time range (1995-2000)
+Y-W-10050016-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-10050016-depth-01: RLS m: 0.965689 b: 0 rms: 3.72931 r: 0.999636 sig: 1 dec: 0
+N-E-10050016-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-E-10050016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.895655 b: -557.718 rms: 562.932 r: 0.958488 sig: 1 dec: 1). [Recompute]
+Y-W-10050016-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10050016-depth-12: Integer precision
+Y-W-10050016-mtf1-12: Integer precision
+Y-W-10050016-mag-12: Integer precision
+# Errata: Data
+?	10050016	1981-07-19T00:20:00.00	45	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:25:00.00	46	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:30:00.00	47	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:35:00.00	48	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:40:00.00	49	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:45:00.00	50	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:50:00.00	51	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T00:55:00.00	52	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:00:00.00	53	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:05:00.00	54	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:10:00.00	55	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:15:00.00	56	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:20:00.00	57	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:25:00.00	58	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:30:00.00	59	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:35:00.00	60	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:40:00.00	61	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:45:00.00	62	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:50:00.00	63	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T01:55:00.00	64	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:00:00.00	65	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:05:00.00	66	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:10:00.00	67	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:15:00.00	68	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:20:00.00	69	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:25:00.00	70	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:30:00.00	71	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:35:00.00	72	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:40:00.00	73	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:45:00.00	74	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:50:00.00	75	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T02:55:00.00	76	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:00:00.00	77	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:05:00.00	78	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:10:00.00	79	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:15:00.00	80	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:20:00.00	81	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:25:00.00	82	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:30:00.00	83	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:35:00.00	84	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:40:00.00	85	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:45:00.00	86	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:50:00.00	87	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T03:55:00.00	88	0-Q-0	 VAL: mag invalid
+?	10050016	1981-07-19T04:00:00.00	89	0-Q-0	 VAL: mag invalid
+Y	10050016	1981-07-24T03:30:00.00	1293	B-0-0	 NAV: non-increasing time
+Y	10050016	1981-07-24T03:35:00.00	1294	C-0-0	 NAV: excessive speed

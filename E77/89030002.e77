@@ -1,0 +1,13 @@
+# Cruise 89030002 ID REAY02 MGD77 FILE VERSION: 19941231 N_RECS: 950
+# Examined: Thu Aug  4 19:58:44 2011 by mtchandl
+# Arguments:  -R74.65/77.55/-16.95/-9.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-89030002-H11-02: Invalid Topmost Latitude : (-10) [-09]
+Y-I-89030002-depth-01: RLS m: 1 b: 0 rms: 15.7033 r: 0.996627 sig: 1 dec: 0
+Y-W-89030002-depth-12: Integer precision
+# Errata: Data

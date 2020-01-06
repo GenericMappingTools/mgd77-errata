@@ -1,0 +1,32 @@
+# Cruise 19280003 ID BISC_867 MGD77 FILE VERSION: 19991208 N_RECS: 31111
+# Examined: Mon Sep 20 13:41:21 2010 by mtchandl
+# Arguments:  -R306.35/338.55/-66.85/-48.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19280003-H04-03: Invalid Survey Departure Day: (05) [06]
+Y-E-19280003-H04-05: Invalid Survey Arrival Month: (11) [03]
+Y-E-19280003-H04-06: Invalid Survey Arrival Day: (03) [06]
+Y-W-19280003-H13-09: Unknown IGRF specified (DGRF)
+Y-W-19280003-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-19280003-depth-01: RLS m: 1.00026 b: 0 rms: 23.8549 r: 0.999815 sig: 1 dec: 0
+Y-W-19280003-depth-12: Integer precision
+# Errata: Data
+?	19280003	1987-02-25T04:45:00.00	18526	0-0-L	 GRAD: depth excessive
+Y	19280003	1987-03-05T08:31:00.00	29213	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:32:00.00	29214	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:33:00.00	29215	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:34:00.00	29216	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:35:00.00	29217	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:36:00.00	29218	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:37:00.00	29219	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:38:00.00	29220	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:40:00.00	29222	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:41:00.00	29223	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:42:00.00	29224	C-0-0	 NAV: excessive speed
+Y	19280003	1987-03-05T08:43:00.00	29225	C-0-0	 NAV: excessive speed
+?	19280003	1987-03-06T13:55:00.00	30976	0-0-L	 GRAD: depth excessive
+?	19280003	1987-03-06T14:00:00.00	30981	0-0-L	 GRAD: depth excessive

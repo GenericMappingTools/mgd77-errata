@@ -1,0 +1,23 @@
+# Cruise 01010277 ID RC2801 MGD77 FILE VERSION: 19890831 N_RECS: 4139
+# Examined: Fri Mar 19 00:57:24 2010 by mtchandl
+# Arguments:  -R315.95/331.85/-23.15/9.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01010277-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010277-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010277-H13-10: Survey year (1987) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010277-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010277-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010277-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010277-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010277-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010277-H16-06: Ten Degree Identifier 5004 marked in header but was not crossed
+Y-W-01010277-H16-06: Ten Degree Identifier 7002 not marked in header but block was crossed
+Y-I-01010277-depth-01: RLS m: 1.03116 b: 0 rms: 128.337 r: 0.997771 sig: 1 dec: 0
+N-E-01010277-depth-02: Regression slope 1.03116 different from 1. Recommended: [1]
+Y-W-01010277-twt-11: More recent bathymetry correction table available
+# Errata: Data

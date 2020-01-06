@@ -1,0 +1,38 @@
+# Cruise 01030170 ID V3011 MGD77 FILE VERSION: 19790919 N_RECS: 10051
+# Examined: Fri Jul 10 12:48:36 2009 by mtchandl
+# Arguments:  -R0.95/45.05/59/78.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030170-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030170-nav-00: Flagged 0.16 % of records with excessive speed or invalid navigation
+Y-I-01030170-depth-01: RLS m: 1 b: 0 rms: 2.12208 r: 0.999997 sig: 1 dec: 0
+Y-I-01030170-faa-01: RLS m: 0.986449 b: 9.09024 rms: 10.7465 r: 0.988783 sig: 1 dec: 1
+Y-W-01030170-faa-03: Regression offset 9.09024 different from 0.
+Y-E-01030170-mag-07: Anomaly differs from mtf1-IGRF (m: 0.917449 b: -73.338 rms: 118.458 r: 0.861324 sig: 1 dec: 1). [Recompute]
+N-E-01030170-faa-08: Extended offset from grid [6189-7537]
+N-E-01030170-depth-08: Extended offset from grid [3-10051]
+Y-W-01030170-twt-11: More recent bathymetry correction table available
+Y-W-01030170-mtf1-12: Integer precision
+Y-W-01030170-mag-12: Integer precision
+# Errata: Data
+Y	01030170	1973-09-11T14:12:00.00	3796	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:36:00.00	3799	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:42:00.00	3800	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:48:00.00	3801	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:49:00.00	3802	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:54:00.00	3803	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:56:00.00	3804	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T14:58:00.00	3805	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:00:00.00	3806	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:06:00.00	3807	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:12:00.00	3808	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:18:00.00	3809	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:23:00.00	3810	D-0-0	 NAV: on land
+Y	01030170	1973-09-11T15:24:00.00	3811	D-0-0	 NAV: on land
+?	01030170	1973-09-30T11:36:00.00	10003	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01030170	1973-09-30T14:53:00.00	10049	D-0-0	 NAV: on land
+Y	01030170	1973-09-30T14:54:00.00	10050	D-0-0	 NAV: on land

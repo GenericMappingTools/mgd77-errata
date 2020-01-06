@@ -1,0 +1,20 @@
+# Cruise 05990002 ID KO8904 MGD77 FILE VERSION: 20080804 N_RECS: 12562
+# Examined: Fri May 21 13:40:55 2010 by mtchandl
+# Arguments:  -R174.1/174.5/-40/-39.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Ship and satellite gravity data do not agree in this near-shore survey.
+# Errata: Header
+N-E-05990002-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05990002-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05990002-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05990002-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05990002-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-05990002-faa-01: RLS m: 0.245474 b: -57.6325 rms: 12.9676 r: 0.572515 sig: 1 dec: 0
+N-E-05990002-faa-02: Regression slope 0.245474 different from 1. Recommended: [10]
+Y-W-05990002-faa-03: Regression offset -57.6325 different from 0.
+Y-W-05990002-faa-09: only found negative values
+# Errata: Data
+Y	05990002	1989-03-09T03:35:54.00	10413	C-0-0	 NAV: excessive speed

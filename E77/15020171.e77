@@ -1,0 +1,82 @@
+# Cruise 15020171 ID NPAL98MV MGD77 FILE VERSION: 20010928 N_RECS: 17331
+# Examined: Mon May 19 03:58:23 2008 by mtchandl
+# Arguments:  -R237.3/242.8/32.6/37.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15020171-H04-06: Invalid Survey Arrival Day: (17) [18]
+Y-E-15020171-H15-01: Invalid Gravity Departure Base Station Value: (979535.) [9795350]
+Y-E-15020171-H15-03: Invalid Gravity Arrival Base Station Value: (979535.) [9795350]
+Y-I-15020171-depth-01: RLS m: 1.0339 b: 0 rms: 132.809 r: 0.979409 sig: 1 dec: 1
+N-E-15020171-depth-02: Regression slope 1.0339 different from 1. Recommended: [1]
+Y-I-15020171-faa-01: RLS m: 0.950364 b: -6.39398 rms: 15.2291 r: 0.918545 sig: 1 dec: 1
+Y-W-15020171-faa-03: Regression offset -6.39398 different from 0.
+N-E-15020171-faa-06: Anomaly differs from gobs - IGF80 (m: 0.28568 b: -22.8798 rms: 48.2291 r: 0.554078 sig: 1 dec: 1). [Recompute]
+N-E-15020171-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.289803 b: -18.6965 rms: 49.9852 r: 0.556616 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-15020171-twt-11: More recent bathymetry correction table available
+Y-W-15020171-depth-12: Integer precision
+# Errata: Data
+?	15020171	1998-07-06T16:56:00.00	1	D-0-0	 NAV: on land
+?	15020171	1998-07-06T16:57:00.00	2	D-0-0	 NAV: on land
+?	15020171	1998-07-06T16:58:00.00	3	D-0-0	 NAV: on land
+?	15020171	1998-07-06T16:59:00.00	4	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:00:00.00	5	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:01:00.00	6	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:02:00.00	7	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:03:00.00	8	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:04:00.00	9	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:05:00.00	10	D-0-0	 NAV: on land
+?	15020171	1998-07-06T17:06:00.00	11	D-0-0	 NAV: on land
+?	15020171	1998-07-08T13:10:00.00	2655	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-10T23:48:00.00	6166	B-0-0	 NAV: decreasing time
+?	15020171	1998-07-11T05:04:00.00	6482	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-12T03:31:00.00	7829	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-12T21:07:00.00	8885	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-12T21:08:00.00	8886	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-14T07:53:00.00	10961	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-14T07:54:00.00	10962	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-16T10:39:00.00	14007	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-17T02:27:00.00	14955	0-0-U	 GRAD: gobs excessive
+?	15020171	1998-07-18T16:46:00.00	17257	B-0-0	 NAV: decreasing time
+?	15020171	1998-07-18T17:23:00.00	17294	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:24:00.00	17295	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:25:00.00	17296	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:26:00.00	17297	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:27:00.00	17298	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:28:00.00	17299	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:29:00.00	17300	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:30:00.00	17301	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:31:00.00	17302	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:32:00.00	17303	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:33:00.00	17304	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:34:00.00	17305	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:35:00.00	17306	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:36:00.00	17307	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:37:00.00	17308	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:38:00.00	17309	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:39:00.00	17310	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:40:00.00	17311	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:41:00.00	17312	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:42:00.00	17313	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:43:00.00	17314	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:44:00.00	17315	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:45:00.00	17316	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:46:00.00	17317	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:47:00.00	17318	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:48:00.00	17319	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:49:00.00	17320	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:50:00.00	17321	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:51:00.00	17322	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:52:00.00	17323	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:53:00.00	17324	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:54:00.00	17325	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:55:00.00	17326	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:56:00.00	17327	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:57:00.00	17328	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:58:00.00	17329	D-0-0	 NAV: on land
+?	15020171	1998-07-18T17:59:00.00	17330	D-0-0	 NAV: on land
+?	15020171	1998-07-18T18:00:00.00	17331	D-0-0	 NAV: on land

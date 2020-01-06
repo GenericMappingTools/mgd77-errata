@@ -1,0 +1,16 @@
+# Cruise 12080002 ID SV69041 MGD77 FILE VERSION: 19860605 N_RECS: 2957
+# Examined: Mon Aug 30 15:38:21 2010 by mtchandl
+# Arguments:  -R304.45/315.05/43.95/53.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged bathymetry after 2000 km along-track as bad.
+# Errata: Header
+Y-E-12080002-H11-06: Invalid Rightmost Longitude: (-045) [-044]
+Y-E-12080002-H12-01: Invalid Bathymetry Digitizing Rate: (400) [400]
+Y-I-12080002-depth-01: RLS m: 0.998256 b: 0 rms: 69.6671 r: 0.813428 sig: 1 dec: 0
+N-E-12080002-depth-08: Extended offset from grid [1391-1628]
+N-E-12080002-depth-08: Extended offset from grid [1787-2332]
+Y-E-12080002-depth-10: Invalid data records: [1183-2957]
+# Errata: Data

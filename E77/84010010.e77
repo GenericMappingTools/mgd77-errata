@@ -1,0 +1,57 @@
+# Cruise 84010010 ID GIN100 MGD77 FILE VERSION: 19880322 N_RECS: 574
+# Examined: Wed Aug  3 07:25:55 2011 by mtchandl
+# Arguments:  -R104.2/105.45/-7.35/-6.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-84010010-H04-02: Invalid Survey Departure Month: (11) [12]
+N-E-84010010-H04-03: Invalid Survey Departure Day: (27) [15]
+N-E-84010010-H04-06: Invalid Survey Arrival Day: (19) [17]
+Y-W-84010010-H13-10: Survey year (1984) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-84010010-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-84010010-depth-01: RLS m: 1 b: 0 rms: 18.728 r: 0.999525 sig: 1 dec: 0
+Y-E-84010010-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00379 b: 29.3311 rms: 28.8069 r: 0.999969 sig: 1 dec: 1). [Recompute]
+Y-W-84010010-depth-12: Integer multiple of 5 precision
+Y-W-84010010-mtf1-12: Integer precision
+Y-W-84010010-mag-12: Integer precision
+# Errata: Data
+?	84010010	1984-12-16T23:00:00.00	533	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:05:00.00	534	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:10:00.00	535	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:15:00.00	536	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-16T23:20:00.00	537	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:25:00.00	538	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:30:00.00	539	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:35:00.00	540	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:40:00.00	542	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-16T23:45:00.00	543	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-16T23:50:00.00	544	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-16T23:55:00.00	545	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:00:00.00	547	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T00:05:00.00	548	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:10:00.00	549	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:15:00.00	550	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:20:00.00	551	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:25:00.00	552	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:30:00.00	553	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:35:00.00	554	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:40:00.00	555	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:45:00.00	556	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:50:00.00	557	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T00:55:00.00	558	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:00:00.00	559	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:05:00.00	560	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:10:00.00	561	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:15:00.00	562	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:20:00.00	563	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:25:00.00	565	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T01:30:00.00	566	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T01:35:00.00	567	0-Q-0	 VAL: mag invalid
+?	84010010	1984-12-17T01:40:00.00	568	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T01:45:00.00	569	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T01:50:00.00	571	D-Q-0	 NAV: on land - VAL: mag invalid
+Y	84010010	1984-12-17T01:55:00.00	572	D-Q-OQ	 NAV: on land - VAL: mag invalid - GRAD: mtf1, mag excessive
+?	84010010	1984-12-17T02:05:00.00	573	0-Q-0	 VAL: mag invalid

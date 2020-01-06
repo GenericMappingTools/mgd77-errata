@@ -1,0 +1,101 @@
+# Cruise 01020004 ID ELT04 MGD77 FILE VERSION: 19800908 N_RECS: 3457
+# Examined: Wed Jul  8 20:20:58 2009 by mtchandl
+# Arguments:  -R282.3/300.15/-62.65/-33 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Invalid bathymetry digitizing rate (312)? Bathymetry noisy but grid regression scale factor looks fine (1.0).
+# Errata: Header
+N-E-01020004-H12-01: Invalid Bathymetry Digitizing Rate: (312) [312]
+Y-W-01020004-nav-00: Flagged 2.11 % of records with excessive speed or invalid navigation
+Y-I-01020004-depth-01: RLS m: 0.999089 b: 0 rms: 7.10388 r: 0.999994 sig: 1 dec: 0
+N-E-01020004-depth-02: Regression slope 0.999089 different from 1. Recommended: [1]
+Y-E-01020004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.07357 b: -111.05 rms: 127.39 r: 0.950613 sig: 1 dec: 1). [Recompute]
+N-E-01020004-depth-08: Extended offset from grid [2-3457]
+Y-W-01020004-mtf1-12: Integer precision
+Y-W-01020004-mag-12: Integer precision
+# Errata: Data
+Y	01020004	1962-07-08T01:15:00.00	42	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-08T01:30:00.00	43	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-08T01:45:00.00	44	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-08T02:00:00.00	45	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-08T02:15:00.00	46	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T14:15:00.00	272	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T14:30:00.00	273	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T14:45:00.00	274	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T15:00:00.00	275	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T15:15:00.00	276	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T15:30:00.00	277	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-10T15:45:00.00	278	C-0-0	 NAV: excessive speed
+?	01020004	1962-07-25T14:00:00.00	1254	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020004	1962-07-30T11:15:00.00	1600	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T11:30:00.00	1601	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T11:45:00.00	1602	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T12:00:00.00	1603	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T12:15:00.00	1604	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T12:30:00.00	1605	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T12:45:00.00	1606	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T13:15:00.00	1608	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T13:30:00.00	1609	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T13:45:00.00	1610	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T14:00:00.00	1611	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T14:15:00.00	1612	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T14:45:00.00	1614	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T15:00:00.00	1615	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T15:15:00.00	1616	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T15:30:00.00	1617	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T15:45:00.00	1618	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T16:00:00.00	1619	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T16:15:00.00	1620	C-0-0	 NAV: excessive speed
+Y	01020004	1962-07-30T16:30:00.00	1621	C-0-0	 NAV: excessive speed
+?	01020004	1962-07-31T11:15:00.00	1696	0-0-O	 GRAD: mtf1 excessive
+?	01020004	1962-07-31T11:30:00.00	1697	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020004	1962-08-06T02:15:00.00	2139	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-06T02:30:00.00	2140	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-06T03:00:00.00	2141	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-07T17:15:00.00	2186	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-07T17:30:00.00	2187	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-07T17:45:00.00	2188	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-07T18:00:00.00	2189	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T18:15:00.00	2259	C-Q-0	 NAV: excessive speed - VAL: mag invalid
+Y	01020004	1962-08-13T18:30:00.00	2260	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T18:45:00.00	2261	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T19:00:00.00	2262	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T19:15:00.00	2263	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T19:30:00.00	2264	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T19:45:00.00	2265	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T20:00:00.00	2266	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T20:30:00.00	2267	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T20:45:00.00	2268	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T21:00:00.00	2269	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T21:15:00.00	2270	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T21:30:00.00	2271	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-13T22:00:00.00	2272	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-14T01:00:00.00	2273	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-14T01:15:00.00	2274	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-14T01:30:00.00	2275	C-0-0	 NAV: excessive speed
+?	01020004	1962-08-15T12:15:00.00	2374	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-15T12:30:00.00	2375	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-15T13:00:00.00	2377	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-15T13:15:00.00	2378	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-15T13:30:00.00	2379	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-20T10:00:00.00	2594	0-Q-0	 VAL: mag invalid
+?	01020004	1962-08-26T22:00:00.00	3086	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020004	1962-08-29T01:15:00.00	3241	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T01:30:00.00	3242	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T01:45:00.00	3243	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T02:00:00.00	3244	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T02:15:00.00	3245	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T02:45:00.00	3247	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T03:00:00.00	3248	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T03:15:00.00	3249	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T03:30:00.00	3250	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T03:45:00.00	3251	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T11:15:00.00	3281	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T11:30:00.00	3282	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T11:45:00.00	3283	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T12:00:00.00	3284	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T12:15:00.00	3285	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T12:30:00.00	3286	C-0-0	 NAV: excessive speed
+Y	01020004	1962-08-29T13:00:00.00	3288	C-0-0	 NAV: excessive speed

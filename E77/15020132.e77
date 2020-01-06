@@ -1,0 +1,46 @@
+# Cruise 15020132 ID PHNX01MV MGD77 FILE VERSION: 19941231 N_RECS: 12518
+# Examined: Sat May 17 10:15:17 2008 by mtchandl
+# Arguments:  -R241.8/261.3/15.75/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020132-H13-10: Survey year (1992) outside magnetic reference field IGRF-1990 time range (1995-2000)
+Y-I-15020132-depth-01: RLS m: 1.00388 b: 0 rms: 192.73 r: 0.989047 sig: 1 dec: 1
+Y-E-15020132-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.984943 b: -6.13153 rms: 16.6952 r: 0.99588 sig: 1 dec: 1). [Recompute]
+Y-W-15020132-twt-11: More recent bathymetry correction table available
+Y-W-15020132-depth-12: Integer precision
+Y-W-15020132-mtf1-12: Integer precision
+# Errata: Data
+?	15020132	1992-07-08T01:49:00.00	623	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-08T01:50:00.00	624	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-08T02:25:00.00	659	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-09T18:45:00.00	3051	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T11:39:00.00	6944	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T17:07:00.00	7272	0-0-KL	 GRAD: twt, depth excessive
+?	15020132	1992-07-12T19:10:00.00	7395	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T23:32:00.00	7657	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T23:55:00.00	7680	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T23:56:00.00	7681	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-12T23:59:00.00	7684	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-13T00:00:00.00	7685	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-13T01:41:00.00	7786	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-13T03:10:00.00	7875	0-0-KL	 GRAD: twt, depth excessive
+?	15020132	1992-07-13T03:38:00.00	7903	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-16T01:40:00.00	11792	0-0-K	 GRAD: twt excessive
+?	15020132	1992-07-16T13:44:00.00	12498	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:45:00.00	12499	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:53:00.00	12507	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:54:00.00	12508	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:55:00.00	12509	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:56:00.00	12510	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:57:00.00	12511	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:58:00.00	12512	D-0-0	 NAV: on land
+?	15020132	1992-07-16T13:59:00.00	12513	D-0-0	 NAV: on land
+?	15020132	1992-07-16T14:00:00.00	12514	D-0-0	 NAV: on land
+?	15020132	1992-07-16T14:01:00.00	12515	D-0-0	 NAV: on land
+?	15020132	1992-07-16T14:02:00.00	12516	D-0-0	 NAV: on land
+?	15020132	1992-07-16T14:03:00.00	12517	D-0-0	 NAV: on land
+?	15020132	1992-07-16T14:04:00.00	12518	D-0-0	 NAV: on land

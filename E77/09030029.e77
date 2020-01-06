@@ -1,0 +1,19 @@
+# Cruise 09030029 ID SI939012 MGD77 FILE VERSION: 19800219 N_RECS: 9802
+# Examined: Fri Jul 30 14:32:26 2010 by mtchandl
+# Arguments:  -R136.5/158.2/27.2/49.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09030029-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09030029-depth-01: RLS m: 0.999651 b: 0 rms: 63.1555 r: 0.999061 sig: 1 dec: 0
+N-E-09030029-depth-08: Extended offset from grid [7014-7074]
+N-E-09030029-depth-08: Extended offset from grid [7153-7250]
+N-E-09030029-depth-08: Extended offset from grid [7851-7909]
+Y-W-09030029-depth-12: Integer precision
+# Errata: Data
+?	09030029	1969-05-30T07:40:00.00	148	0-0-K	 GRAD: twt excessive
+?	09030029	1969-08-19T15:05:00.00	7064	0-0-K	 GRAD: twt excessive
+Y	09030029	1969-08-21T03:55:00.00	7416	C-0-0	 NAV: excessive speed

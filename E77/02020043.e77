@@ -1,0 +1,22 @@
+# Cruise 02020043 ID A2067L04 MGD77 FILE VERSION: 19820504 N_RECS: 7470
+# Examined: Fri Mar 26 21:28:07 2010 by mtchandl
+# Arguments:  -R9.05/18.3/-33.85/-20.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-W-02020043-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020043-depth-01: RLS m: 0.999616 b: 0 rms: 9.60176 r: 0.999985 sig: 1 dec: 0
+N-E-02020043-depth-02: Regression slope 0.999616 different from 1. Recommended: [1]
+Y-I-02020043-faa-01: RLS m: 1.00531 b: -1.55666 rms: 3.67012 r: 0.979213 sig: 1 dec: 0
+Y-W-02020043-faa-03: Regression offset -1.55666 different from 0.
+N-E-02020043-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020043-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.236519 b: 9.33816 rms: 41.9637 r: 0.480882 sig: 1 dec: 1). [Recompute]
+Y-E-02020043-mag-07: Anomaly differs from mtf1-IGRF (m: 0.978763 b: -3.91135 rms: 47.9252 r: 0.955627 sig: 1 dec: 1). [Recompute]
+Y-W-02020043-twt-11: More recent bathymetry correction table available
+Y-W-02020043-mtf1-12: Integer precision
+Y-W-02020043-mag-12: Integer precision
+# Errata: Data
+?	02020043	1972-04-08T08:25:00.00	7470	D-0-0	 NAV: on land

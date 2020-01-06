@@ -1,0 +1,39 @@
+# Cruise 08010059 ID 80041402 MGD77 FILE VERSION: 19840223 N_RECS: 26088
+# Examined: Thu Mar 18 23:40:44 2010 by mtchandl
+# Arguments:  -R182.6/203.05/21.2/35.7 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-08010059-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-08010059-depth-01: RLS m: 0.99919 b: 0 rms: 60.4945 r: 0.998776 sig: 1 dec: 0
+Y-I-08010059-faa-01: RLS m: 0.978207 b: 7.56282 rms: 9.1961 r: 0.98851 sig: 1 dec: 0
+N-E-08010059-faa-02: Regression slope 0.978207 different from 1. Recommended: [1]
+Y-W-08010059-faa-03: Regression offset 7.56282 different from 0.
+Y-E-08010059-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00928 b: -112.955 rms: 118.643 r: 0.992529 sig: 1 dec: 1). [Recompute]
+Y-W-08010059-twt-11: More recent bathymetry correction table available
+Y-W-08010059-mtf1-12: Integer precision
+Y-W-08010059-mag-12: Integer precision
+# Errata: Data
+?	08010059	1980-05-23T02:20:00.00	7097	0-0-W	 GRAD: faa excessive
+?	08010059	1980-05-25T03:15:00.00	9951	0-0-W	 GRAD: faa excessive
+?	08010059	1980-05-25T23:20:00.00	11160	0-0-W	 GRAD: faa excessive
+?	08010059	1980-05-29T11:35:00.00	16668	0-0-W	 GRAD: faa excessive
+?	08010059	1980-05-31T04:15:00.00	18766	0-0-W	 GRAD: faa excessive
+Y	08010059	1980-06-04T23:10:00.00	26066	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:13:00.00	26067	D-0-0	 NAV: on land
+?	08010059	1980-06-04T23:33:00.00	26075	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:35:00.00	26076	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:38:00.00	26077	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:40:00.00	26078	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:43:00.00	26079	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:45:00.00	26080	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:48:00.00	26081	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:50:00.00	26082	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:53:00.00	26083	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:55:00.00	26084	D-0-0	 NAV: on land
+Y	08010059	1980-06-04T23:58:00.00	26085	D-0-0	 NAV: on land
+Y	08010059	1980-06-05T00:01:00.00	26086	D-0-0	 NAV: on land
+?	08010059	1980-06-05T00:04:00.00	26087	D-0-0	 NAV: on land

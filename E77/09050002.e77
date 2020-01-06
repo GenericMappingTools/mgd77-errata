@@ -1,0 +1,23 @@
+# Cruise 09050002 ID KA68C MGD77 FILE VERSION: 19810713 N_RECS: 1933
+# Examined: Mon Aug  9 11:18:53 2010 by mtchandl
+# Arguments:  -R284.05/295.45/31.95/37 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-09050002-depth-01: RLS m: 1 b: 0 rms: 7.79367 r: 0.999992 sig: 1 dec: 0
+Y-E-09050002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988766 b: -72.5456 rms: 79.3192 r: 0.985611 sig: 1 dec: 1). [Recompute]
+Y-W-09050002-mtf1-12: Integer precision
+# Errata: Data
+?	09050002	1968-06-25T18:15:00.00	1860	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:20:00.00	1861	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:25:00.00	1863	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:30:00.00	1865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:32:00.00	1867	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:40:00.00	1871	0-0-KL	 GRAD: twt, depth excessive
+?	09050002	1968-06-25T18:55:00.00	1882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09050002	1968-06-25T18:56:00.00	1883	0-Q-0	 VAL: mag invalid
+?	09050002	1968-06-25T19:00:00.00	1885	0-Q-0	 VAL: mag invalid
+?	09050002	1968-06-25T19:04:00.00	1887	0-Q-0	 VAL: mag invalid

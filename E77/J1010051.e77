@@ -1,0 +1,18 @@
+# Cruise J1010051 ID HT91T251 MGD77 FILE VERSION: 19961031 N_RECS: 174
+# Examined: Thu Aug  4 20:14:28 2011 by mtchandl
+# Arguments:  -R144.95/147.55/27/27.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be inaccurate.
+# Errata: Header
+N-E-J1010051-H04-03: Invalid Survey Departure Day: (07) [21]
+N-E-J1010051-H04-06: Invalid Survey Arrival Day: (24) [22]
+Y-I-J1010051-depth-01: RLS m: 0.999747 b: 0 rms: 18.6277 r: 0.999669 sig: 1 dec: 0
+Y-I-J1010051-faa-01: RLS m: 1.01139 b: -3.15948 rms: 3.79828 r: 0.997191 sig: 1 dec: 0
+Y-W-J1010051-faa-03: Regression offset -3.15948 different from 0.
+Y-W-J1010051-depth-12: Integer multiple of 5 precision
+Y-W-J1010051-mag-12: Integer precision
+Y-W-J1010051-faa-12: Integer precision
+# Errata: Data

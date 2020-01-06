@@ -1,0 +1,29 @@
+# Cruise J2010016 ID GH801-A MGD77 FILE VERSION: 19870917 N_RECS: 5955
+# Examined: Mon Nov 23 16:21:41 2009 by mtchandl
+# Arguments:  -R139.65/210.4/-17.5/35.6 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010016-H13-09: Unknown IGRF specified (PGRF1980)
+Y-W-J2010016-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-J2010016-depth-01: RLS m: 0.999597 b: 0 rms: 17.482 r: 0.999841 sig: 1 dec: 0
+Y-I-J2010016-faa-01: RLS m: 0.994016 b: 2.16885 rms: 8.02171 r: 0.997742 sig: 1 dec: 1
+Y-W-J2010016-faa-03: Regression offset 2.16885 different from 0.
+Y-I-J2010016-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010016-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.983513 b: -66.6019 rms: 71.1799 r: 0.96794 sig: 1 dec: 1). [Recompute]
+Y-E-J2010016-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00031 b: 4.62558 rms: 11.0675 r: 0.999019 sig: 1 dec: 1). [Recompute]
+Y-W-J2010016-twt-11: More recent bathymetry correction table available
+Y-W-J2010016-depth-12: Integer precision
+Y-W-J2010016-mtf1-12: Integer precision
+Y-W-J2010016-mag-12: Integer precision
+# Errata: Data
+Y	J2010016	1980-01-12T07:25:00.00	24	D-0-0	 NAV: on land
+Y	J2010016	1980-01-12T07:30:00.00	25	D-0-0	 NAV: on land
+Y	J2010016	1980-01-13T20:10:00.00	465	C-0-0	 NAV: excessive speed
+?	J2010016	1980-01-23T08:10:00.00	2875	0-0-V	 GRAD: eot excessive
+?	J2010016	1980-01-25T21:55:00.00	3385	0-0-V	 GRAD: eot excessive
+?	J2010016	1980-02-03T21:00:00.00	5257	0-0-V	 GRAD: eot excessive
+Y	J2010016	1980-02-05T16:00:00.00	5684	C-0-0	 NAV: excessive speed

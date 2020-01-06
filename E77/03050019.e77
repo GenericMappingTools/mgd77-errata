@@ -1,0 +1,16 @@
+# Cruise 03050019 ID POL6769 MGD77 FILE VERSION: 19800213 N_RECS: 527
+# Examined: Fri Apr 16 13:56:07 2010 by mtchandl
+# Arguments:  -R208.15/223/57.55/58.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-03050019-depth-01: RLS m: 1.00022 b: 0 rms: 14.0648 r: 0.999968 sig: 1 dec: 0
+Y-E-03050019-mag-07: Anomaly differs from mtf1-IGRF (m: 1.05615 b: 212.572 rms: 212.442 r: 0.965225 sig: 1 dec: 1). [Recompute]
+Y-W-03050019-twt-11: More recent bathymetry correction table available
+Y-W-03050019-mtf1-12: Integer precision
+Y-W-03050019-mag-12: Integer precision
+# Errata: Data
+?	03050019	1967-10-10T17:50:00.00	177	0-0-K	 GRAD: twt excessive

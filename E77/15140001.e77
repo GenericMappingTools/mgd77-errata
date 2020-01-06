@@ -1,0 +1,34 @@
+# Cruise 15140001 ID XP60-1EX MGD77 FILE VERSION: 19800226 N_RECS: 2709
+# Examined: Mon Jun  2 11:10:06 2008 by mtchandl
+# Arguments:  -R242.75/279.35/7.05/31.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15140001-H04-03: Invalid Survey Departure Day: (17) [18]
+Y-W-15140001-nav-00: Flagged 0.70 % of records with excessive speed or invalid navigation
+Y-E-15140001-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.0999 b: -55.2626 rms: 85.4132 r: 0.883245 sig: 1 dec: 1). [Recompute]
+Y-W-15140001-mtf1-12: Integer multiple of 5 precision
+Y-W-15140001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15140001	1960-02-22T20:06:00.00	968	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:12:00.00	969	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:18:00.00	970	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:24:00.00	971	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:30:00.00	972	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:36:00.00	973	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:42:00.00	974	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:48:00.00	975	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T20:54:00.00	976	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:00:00.00	977	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:06:00.00	978	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:12:00.00	979	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:18:00.00	980	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:24:00.00	981	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:30:00.00	982	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:36:00.00	983	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:42:00.00	984	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-22T21:48:00.00	985	C-0-0	 NAV: excessive speed
+Y	15140001	1960-02-25T13:30:00.00	1559	C-0-0	 NAV: excessive speed

@@ -1,0 +1,15 @@
+# Cruise 29120004 ID MG28 MGD77 FILE VERSION: 19911030 N_RECS: 1589
+# Examined: Mon Feb 14 22:33:05 2011 by mtchandl
+# Arguments:  -R151.45/171.2/37.15/43.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-29120004-H04-06: Invalid Survey Arrival Day: (25) [24]
+Y-W-29120004-H13-10: Survey year (1985) outside magnetic reference field IGRF-80 time range (1995-2000)
+Y-E-29120004-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997422 b: 29.8171 rms: 30.9851 r: 0.999604 sig: 1 dec: 1). [Recompute]
+Y-W-29120004-mtf1-12: Integer precision
+Y-W-29120004-mag-12: Integer precision
+# Errata: Data

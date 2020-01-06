@@ -1,0 +1,21 @@
+# Cruise 15010054 ID NOVA07AR MGD77 FILE VERSION: 19910719 N_RECS: 1410
+# Examined: Tue May 13 09:08:38 2008 by mtchandl
+# Arguments:  -R178.35/189.65/-20.45/-14.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15010054-H04-03: Invalid Survey Departure Day: (07) [06]
+Y-W-15010054-H13-09: Unknown IGRF specified (DGRF-1965)
+Y-W-15010054-nav-00: Flagged 0.14 % of records with excessive speed or invalid navigation
+Y-I-15010054-depth-01: RLS m: 1 b: 0 rms: 140.635 r: 0.998484 sign: 1 dec: 1
+Y-E-15010054-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00499 b: -13.5742 rms: 17.2599 r: 0.997933 sig: 1 dec: 1). [Recompute]
+Y-W-15010054-depth-12: Integer precision
+Y-W-15010054-mtf1-12: Integer precision
+# Errata: Data
+Y	15010054	1967-10-08T14:30:00.00	455	C-0-0	 NAV: excessive speed
+Y	15010054	1967-10-08T14:31:00.00	456	C-0-0	 NAV: excessive speed
+?	15010054	1967-10-09T05:48:00.00	678	0-0-KL	 GRAD: twt, depth excessive
+?	15010054	1967-10-24T20:40:00.00	980	0-0-OQ	 GRAD: mtf1, mag excessive

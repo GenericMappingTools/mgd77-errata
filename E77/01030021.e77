@@ -1,0 +1,16 @@
+# Cruise 01030021 ID V1804 MGD77 FILE VERSION: 19790619 N_RECS: 1991
+# Examined: Fri Mar 19 01:15:30 2010 by mtchandl
+# Arguments:  -R303.7/330.2/-36.85/-8.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01030021-H04-06: Invalid Survey Arrival Day: (08) [06]
+Y-I-01030021-depth-01: RLS m: 1 b: 0 rms: 10.8534 r: 0.99997 sig: 1 dec: 0
+Y-I-01030021-faa-01: RLS m: 1.34009 b: -13.2167 rms: 18.8509 r: 0.843558 sig: 1 dec: 0
+N-E-01030021-faa-02: Regression slope 1.34009 different from 1. Recommended: [1]
+Y-W-01030021-faa-03: Regression offset -13.2167 different from 0.
+Y-W-01030021-twt-11: More recent bathymetry correction table available
+# Errata: Data

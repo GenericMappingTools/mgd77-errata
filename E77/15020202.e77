@@ -1,0 +1,56 @@
+# Cruise 15020202 ID COOK02MV MGD77 FILE VERSION: 20040519 N_RECS: 15820
+# Examined: Tue May 20 11:39:53 2008 by mtchandl
+# Arguments:  -R274.7/289.5/-20.35/-18.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:  Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error. 
+# Errata: Header
+N-E-15020202-H04-06: Invalid Survey Arrival Day: (14) [13]
+Y-E-15020202-H15-01: Invalid Gravity Departure Base Station Value: (978515.) [9785150]
+Y-E-15020202-H15-03: Invalid Gravity Arrival Base Station Value: (978480.) [9784800]
+Y-I-15020202-depth-01: RLS m: 1 b: 0 rms: 160.476 r: 0.995047 sig: 1 dec: 1
+Y-I-15020202-faa-01: RLS m: 0.988694 b: 6.86328 rms: 10.3203 r: 0.996883 sig: 1 dec: 1
+N-E-15020202-faa-02: Regression slope 0.988694 different from 1. Recommended: [1]
+Y-W-15020202-faa-03: Regression offset 6.86328 different from 0.
+N-E-15020202-faa-06: Anomaly differs from gobs - IGF80 (m: 0.814267 b: 38.6672 rms: 68.5405 r: 0.93738 sig: 1 dec: 1). [Recompute]
+N-E-15020202-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.809898 b: 49.0376 rms: 81.1581 r: 0.938902 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-15020202-depth-12: Integer precision
+# Errata: Data
+?	15020202	2000-10-03T14:02:00.00	844	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-03T14:03:00.00	845	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-03T18:08:00.00	1090	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-03T18:09:00.00	1091	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-06T20:16:00.00	5518	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-07T11:56:00.00	6458	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-07T21:35:00.00	7037	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-08T19:01:00.00	8323	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T01:06:00.00	8688	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T01:07:00.00	8689	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T05:12:00.00	8934	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T10:15:00.00	9237	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T14:47:00.00	9509	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T14:48:00.00	9510	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T20:14:00.00	9836	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-09T20:15:00.00	9837	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-10T00:01:00.00	10063	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-10T09:00:00.00	10602	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-10T14:43:00.00	10945	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-10T19:13:00.00	11215	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-11T02:52:00.00	11674	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-11T14:01:00.00	12343	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-11T14:02:00.00	12344	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-11T18:20:00.00	12602	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-11T18:21:00.00	12603	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-12T06:14:00.00	13316	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-12T13:10:00.00	13732	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-12T13:11:00.00	13733	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-12T17:38:00.00	14000	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T05:17:00.00	14699	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T10:21:00.00	15003	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T10:22:00.00	15004	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T10:26:00.00	15008	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T10:27:00.00	15009	0-0-U	 GRAD: gobs excessive
+?	15020202	2000-10-13T19:14:00.00	15536	0-0-U	 GRAD: gobs excessive

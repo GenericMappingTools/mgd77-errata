@@ -1,0 +1,88 @@
+# Cruise 15020151 ID BMRG04MV MGD77 FILE VERSION: 20010928 N_RECS: 6077
+# Examined: Sun May 18 10:34:32 2008 by mtchandl
+# Arguments:  -R147.3/170.85/-47.4/-42.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15020151-nav-00: Flagged 0.23 % of records with excessive speed or invalid navigation
+Y-I-15020151-depth-01: RLS m: 1 b: 0 rms: 70.9387 r: 0.999022 sig: 1 dec: 1
+Y-I-15020151-faa-01: RLS m: 1.0121 b: -3.25376 rms: 7.86796 r: 0.989663 sig: 1 dec: 1
+Y-W-15020151-faa-03: Regression offset -3.25376 different from 0.
+N-E-15020151-faa-06: Anomaly differs from gobs - IGF80 (m: 0.890808 b: -47.8779 rms: 55.8919 r: 0.965543 sig: 1 dec: 1). [Recompute]
+N-E-15020151-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.884442 b: -38.9295 rms: 46.4958 r: 0.965577 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15020151-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.98627 b: 13.9683 rms: 16.9986 r: 0.997122 sig: 1 dec: 1). [Recompute]
+Y-W-15020151-twt-11: More recent bathymetry correction table available
+Y-W-15020151-depth-12: Integer precision
+Y-W-15020151-mtf1-12: Integer precision
+# Errata: Data
+?	15020151	1996-01-07T18:30:00.00	1	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:31:00.00	2	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:32:00.00	3	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:33:00.00	4	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:34:00.00	5	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:35:00.00	6	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:36:00.00	7	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:37:00.00	8	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:38:00.00	9	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:39:00.00	10	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:40:00.00	11	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:41:00.00	12	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:42:00.00	13	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:43:00.00	14	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:44:00.00	15	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:45:00.00	16	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:46:00.00	17	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:47:00.00	18	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:48:00.00	19	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:49:00.00	20	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:50:00.00	21	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:51:00.00	22	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:52:00.00	23	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:53:00.00	24	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:54:00.00	25	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:55:00.00	26	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:56:00.00	27	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:57:00.00	28	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:58:00.00	29	D-0-0	 NAV: on land
+?	15020151	1996-01-07T18:59:00.00	30	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:00:00.00	31	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:01:00.00	32	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:02:00.00	33	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:03:00.00	34	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:04:00.00	35	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:05:00.00	36	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:06:00.00	37	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:07:00.00	38	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:08:00.00	39	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:09:00.00	40	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:10:00.00	41	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:11:00.00	42	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:12:00.00	43	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:13:00.00	44	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:14:00.00	45	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:15:00.00	46	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:16:00.00	47	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:17:00.00	48	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:18:00.00	49	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:27:00.00	58	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:28:00.00	59	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T19:29:00.00	60	D-0-0	 NAV: on land
+?	15020151	1996-01-07T19:30:00.00	61	D-0-0	 NAV: on land
+?	15020151	1996-01-07T20:03:00.00	94	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T20:04:00.00	95	D-0-0	 NAV: on land
+Y	15020151	1996-01-07T20:05:00.00	96	D-0-0	 NAV: on land
+?	15020151	1996-01-08T17:54:00.00	1405	0-0-K	 GRAD: twt excessive
+?	15020151	1996-01-11T04:14:00.00	4905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020151	1996-01-11T04:15:00.00	4906	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020151	1996-01-11T13:39:00.00	5470	0-0-K	 GRAD: twt excessive
+?	15020151	1996-01-11T20:30:00.00	5881	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:31:00.00	5882	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:32:00.00	5883	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:33:00.00	5884	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:34:00.00	5885	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:35:00.00	5886	D-0-0	 NAV: on land
+?	15020151	1996-01-11T20:36:00.00	5887	D-0-0	 NAV: on land

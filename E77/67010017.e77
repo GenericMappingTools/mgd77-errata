@@ -1,0 +1,24 @@
+# Cruise 67010017 ID 70006511 MGD77 FILE VERSION: 19830804 N_RECS: 4606
+# Examined: Thu Jul 28 18:40:26 2011 by mtchandl
+# Arguments:  -R-9.55/9.5/35.45/47.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010017-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-67010017-depth-01: RLS m: 0.999651 b: 0 rms: 35.0201 r: 0.999261 sig: 1 dec: 0
+Y-I-67010017-faa-01: RLS m: 0.998844 b: 7.42728 rms: 9.21918 r: 0.978635 sig: 1 dec: 0
+Y-W-67010017-faa-03: Regression offset 7.42728 different from 0.
+Y-W-67010017-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	67010017	1970-06-16T06:27:00.00	459	B-0-0	 NAV: non-increasing time
+?	67010017	1970-06-17T03:15:00.00	1069	0-0-K	 GRAD: twt excessive
+Y	67010017	1970-06-20T00:11:00.00	2197	B-0-0	 NAV: non-increasing time
+Y	67010017	1970-06-20T02:18:00.00	2266	B-0-0	 NAV: non-increasing time
+Y	67010017	1970-06-20T17:57:00.00	2698	B-0-0	 NAV: non-increasing time
+Y	67010017	1970-06-20T23:00:00.00	2848	B-0-0	 NAV: non-increasing time
+Y	67010017	1970-06-21T10:56:00.00	3132	B-0-0	 NAV: non-increasing time
+Y	67010017	1970-06-21T23:00:00.00	3381	B-0-0	 NAV: non-increasing time
+?	67010017	1970-06-26T03:52:00.00	4300	0-0-K	 GRAD: twt excessive

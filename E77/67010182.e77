@@ -1,0 +1,126 @@
+# Cruise 67010182 ID 87004712 MGD77 FILE VERSION: 19920430 N_RECS: 17409
+# Examined: Mon Nov  7 16:22:27 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010182-nav-00: Flagged 0.37 % of records with bad navigation
+Y-I-67010182-depth-01: RLS m: 0.997435 b: 0 rms: 42.6241 r: 0.999521 sig: 1 dec: 0
+N-E-67010182-depth-02: Regression slope 0.997435 different from 1. Recommended: [1]
+Y-I-67010182-faa-01: RLS m: 1.00233 b: -0.988447 rms: 5.11125 r: 0.997934 sig: 1 dec: 0
+N-E-67010182-faa-02: Regression slope 1.00233 different from 1. Recommended: [1]
+Y-W-67010182-faa-03: Regression offset -0.988447 different from 0.
+Y-I-67010182-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010182-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.979888 b: -44.8913 rms: 49.6836 r: 0.964827 sig: 1 dec: 0). [Recompute]
+N-E-67010182-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.939406 b: -16.1885 rms: 20.6541 r: 0.978355 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-67010182-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04218 b: -98.6213 rms: 101.88 r: 0.986427 sig: 1 dec: 1). [Recompute]
+Y-W-67010182-depth-12: Integer precision
+Y-W-67010182-mtf1-12: Integer precision
+Y-W-67010182-mag-12: Integer precision
+# Errata: Data
+?	67010182	1987-12-10T16:59:00.00	429	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:00:00.00	430	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:01:00.00	431	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:02:00.00	432	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:03:00.00	433	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:04:00.00	434	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:05:00.00	435	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:06:00.00	436	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:07:00.00	437	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:08:00.00	438	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:09:00.00	439	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:10:00.00	440	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:11:00.00	441	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:12:00.00	442	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:13:00.00	443	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:14:00.00	444	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:15:00.00	445	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:16:00.00	446	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:17:00.00	447	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:18:00.00	448	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:19:00.00	449	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:20:00.00	450	D-0-V	 NAV: on land - GRAD: eot excessive
+Y	67010182	1987-12-10T17:21:00.00	451	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:22:00.00	452	D-0-V	 NAV: on land - GRAD: eot excessive
+Y	67010182	1987-12-10T17:23:00.00	453	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:24:00.00	454	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:25:00.00	455	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:26:00.00	456	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:27:00.00	457	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:28:00.00	458	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:29:00.00	459	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:30:00.00	460	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:31:00.00	461	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:32:00.00	462	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:33:00.00	463	D-0-UVW	 NAV: on land - GRAD: gobs, eot, faa excessive
+Y	67010182	1987-12-10T17:34:00.00	464	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:35:00.00	465	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:36:00.00	466	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:37:00.00	467	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:38:00.00	468	D-0-UVW	 NAV: on land - GRAD: gobs, eot, faa excessive
+Y	67010182	1987-12-10T17:39:00.00	469	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:40:00.00	470	D-0-UW	 NAV: on land - GRAD: gobs, faa excessive
+Y	67010182	1987-12-10T17:41:00.00	471	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:42:00.00	472	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:43:00.00	473	D-0-UVW	 NAV: on land - GRAD: gobs, eot, faa excessive
+Y	67010182	1987-12-10T17:44:00.00	474	D-0-0	 NAV: on land
+Y	67010182	1987-12-10T17:45:00.00	475	D-0-UVW	 NAV: on land - GRAD: gobs, eot, faa excessive
+?	67010182	1987-12-10T17:46:00.00	476	D-0-0	 NAV: on land
+?	67010182	1987-12-10T17:47:00.00	477	D-0-0	 NAV: on land
+?	67010182	1987-12-10T17:51:00.00	481	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-10T17:52:00.00	482	0-0-UW	 GRAD: gobs, faa excessive
+?	67010182	1987-12-10T20:25:00.00	635	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-11T02:58:00.00	1028	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-11T10:12:00.00	1462	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-11T10:20:00.00	1470	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-11T12:28:00.00	1598	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-12T03:33:00.00	2503	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-12T03:57:00.00	2527	0-0-UW	 GRAD: gobs, faa excessive
+?	67010182	1987-12-13T11:39:00.00	4429	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-13T12:47:00.00	4497	0-0-UW	 GRAD: gobs, faa excessive
+?	67010182	1987-12-13T20:19:00.00	4949	0-0-UW	 GRAD: gobs, faa excessive
+?	67010182	1987-12-13T20:22:00.00	4952	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-13T23:07:00.00	5117	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010182	1987-12-15T00:35:00.00	6645	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010182	1987-12-15T02:52:00.00	6782	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-15T11:49:00.00	7319	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-16T10:57:00.00	8707	0-0-KL	 GRAD: twt, depth excessive
+?	67010182	1987-12-17T16:09:00.00	10459	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-17T16:36:00.00	10486	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-17T19:09:00.00	10639	0-0-V	 GRAD: eot excessive
+?	67010182	1987-12-18T05:04:00.00	11234	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-18T07:08:00.00	11358	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-19T01:02:00.00	12432	0-0-KL	 GRAD: twt, depth excessive
+?	67010182	1987-12-19T01:03:00.00	12433	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-19T01:42:00.00	12472	0-0-KL	 GRAD: twt, depth excessive
+?	67010182	1987-12-19T10:17:00.00	12987	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-19T12:15:00.00	13105	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-19T21:46:00.00	13676	0-0-UW	 GRAD: gobs, faa excessive
+?	67010182	1987-12-21T02:28:00.00	15398	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-21T02:29:00.00	15399	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-21T02:30:00.00	15400	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-21T02:50:00.00	15420	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-22T03:50:00.00	16920	0-0-K	 GRAD: twt excessive
+?	67010182	1987-12-22T11:40:00.00	17390	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:41:00.00	17391	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:42:00.00	17392	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:43:00.00	17393	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:44:00.00	17394	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:45:00.00	17395	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:46:00.00	17396	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:47:00.00	17397	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:48:00.00	17398	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:49:00.00	17399	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:50:00.00	17400	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:51:00.00	17401	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:52:00.00	17402	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:53:00.00	17403	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:54:00.00	17404	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:55:00.00	17405	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:56:00.00	17406	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:57:00.00	17407	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:58:00.00	17408	D-0-0	 NAV: on land
+Y	67010182	1987-12-22T11:59:00.00	17409	D-0-0	 NAV: on land

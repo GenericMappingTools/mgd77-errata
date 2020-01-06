@@ -1,0 +1,19 @@
+# Cruise 15020180 ID WEST14MV MGD77 FILE VERSION: 20011001 N_RECS: 18301
+# Examined: Mon May 19 04:15:58 2008 by mtchandl
+# Arguments:  -R242.75/264.35/9.95/32.75 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anamolies.
+# Errata: Header
+Y-E-15020180-H10-02: Invalid Format Description: ((I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,     F7.1,F6.1,F5.1,A5,A) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-I-15020180-depth-01: RLS m: 1 b: 0 rms: 234.311 r: 0.985491 sig: 1 dec: 1
+Y-E-15020180-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.96898 b: -37.2531 rms: 47.8983 r: 0.990224 sig: 1 dec: 1). [Recompute]
+Y-W-15020180-twt-11: More recent bathymetry correction table available
+Y-W-15020180-depth-12: Integer precision
+Y-W-15020180-mtf1-12: Integer precision
+# Errata: Data
+?	15020180	1995-06-28T16:23:00.00	8288	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020180	1995-06-28T16:24:00.00	8289	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020180	1995-06-28T20:33:00.00	8538	0-0-K	 GRAD: twt excessive

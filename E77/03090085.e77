@@ -1,0 +1,67 @@
+# Cruise 03090085 ID MM9202 MGD77 FILE VERSION: 19931021 N_RECS: 23383
+# Examined: Sat Apr 24 20:10:06 2010 by mtchandl
+# Arguments:  -R47.95/58.6/23.65/29.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend reviewing bathymetry, flagged intial 340 depth records as bad due to disagreement with gridded depth.
+# Errata: Header
+Y-W-03090085-nav-00: Flagged 0.23 % of records with bad navigation
+Y-I-03090085-depth-01: RLS m: 1.11444 b: 0 rms: 8.05746 r: 0.982077 sig: 1 dec: 0
+N-E-03090085-depth-02: Regression slope 1.11444 different from 1. Recommended: [1]
+Y-E-03090085-depth-10: Invalid data records: [1-340]
+# Errata: Data
+Y	03090085	1992-02-26T13:48:00.00	183	C-0-0	 NAV: excessive speed
+Y	03090085	1992-02-26T16:22:00.00	260	C-0-0	 NAV: excessive speed
+Y	03090085	1992-02-26T16:38:00.00	268	C-0-0	 NAV: excessive speed
+Y	03090085	1992-02-27T19:28:00.00	637	C-0-0	 NAV: excessive speed
+Y	03090085	1992-02-27T19:48:00.00	647	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-02T12:06:00.00	1635	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-02T12:08:00.00	1636	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-02T14:06:00.00	1695	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-02T14:54:00.00	1716	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-04T09:54:00.00	2937	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-04T15:28:00.00	3089	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-05T00:28:00.00	3343	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-05T00:34:00.00	3345	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-05T12:02:00.00	3670	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-06T14:56:00.00	4456	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-06T19:06:00.00	4576	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-06T19:16:00.00	4581	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-06T21:42:00.00	4654	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-07T21:24:00.00	5304	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-07T22:36:00.00	5340	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-08T22:28:00.00	6031	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T01:20:00.00	6115	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T02:28:00.00	6147	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T02:34:00.00	6150	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T11:12:00.00	6397	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T11:20:00.00	6401	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T17:18:00.00	6566	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T22:50:00.00	6649	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T22:54:00.00	6651	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-09T22:58:00.00	6653	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-10T11:18:00.00	6993	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-10T12:18:00.00	7023	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T00:00:00.00	7181	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T06:50:00.00	7380	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T11:38:00.00	7516	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T12:48:00.00	7551	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T12:54:00.00	7554	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-11T13:10:00.00	7561	C-0-0	 NAV: excessive speed
+Y	03090085	1992-03-26T03:28:00.00	12965	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-01T14:36:00.00	16022	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-26T19:06:00.00	19061	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-26T23:02:00.00	19166	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-26T23:24:00.00	19176	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T18:36:00.00	19853	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T18:56:00.00	19857	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T20:00:00.00	19885	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T20:02:00.00	19886	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T21:32:00.00	19922	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T21:42:00.00	19927	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T21:44:00.00	19928	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-29T21:46:00.00	19929	C-0-0	 NAV: excessive speed
+Y	03090085	1992-04-30T23:20:00.00	20664	C-0-0	 NAV: excessive speed
+Y	03090085	1992-05-01T00:20:00.00	20693	C-0-0	 NAV: excessive speed

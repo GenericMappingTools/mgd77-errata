@@ -1,0 +1,36 @@
+# Cruise J1010102 ID HT99T483 MGD77 FILE VERSION: 20021031 N_RECS: 1638
+# Examined: Sat Aug  6 10:47:55 2011 by mtchandl
+# Arguments:  -R154.9/157.65/20.9/24.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010102-H04-03: Invalid Survey Departure Day: (19) [22]
+N-E-J1010102-H04-06: Invalid Survey Arrival Day: (11) [04]
+Y-E-J1010102-H15-01: Invalid Gravity Departure Base Station Value: (-9080) [  -9080]
+Y-E-J1010102-H15-03: Invalid Gravity Arrival Base Station Value: (-9084) [  -9084]
+Y-W-J1010102-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-J1010102-depth-01: RLS m: 0.999613 b: 0 rms: 20.9768 r: 0.999782 sig: 1 dec: 0
+Y-I-J1010102-faa-01: RLS m: 0.995714 b: -5.09225 rms: 6.04337 r: 0.99778 sig: 1 dec: 0
+N-E-J1010102-faa-02: Regression slope 0.995714 different from 1. Recommended: [1]
+Y-W-J1010102-faa-03: Regression offset -5.09225 different from 0.
+Y-W-J1010102-depth-12: Integer multiple of 5 precision
+Y-W-J1010102-mag-12: Integer precision
+Y-W-J1010102-faa-12: Integer precision
+# Errata: Data
+?	J1010102	1999-04-23T16:10:00.00	149	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-23T16:20:00.00	150	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-23T16:30:00.00	151	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-23T16:50:00.00	152	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-30T12:20:00.00	1105	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-30T12:30:00.00	1106	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-30T12:40:00.00	1107	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-30T12:50:00.00	1108	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-04-30T13:00:00.00	1109	0-Q-0	 VAL: mag invalid
+Y	J1010102	1999-05-02T15:00:00.00	1405	B-0-0	 NAV: non-increasing time
+?	J1010102	1999-05-03T06:10:00.00	1495	0-Q-0	 VAL: mag invalid
+?	J1010102	1999-05-03T06:20:00.00	1496	0-Q-0	 VAL: mag invalid
+Y	J1010102	1999-05-03T07:00:00.00	1501	B-0-0	 NAV: non-increasing time
+?	J1010102	1999-05-03T21:50:00.00	1589	0-Q-0	 VAL: mag invalid

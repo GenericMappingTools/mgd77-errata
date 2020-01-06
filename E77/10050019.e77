@@ -1,0 +1,15 @@
+# Cruise 10050019 ID FM1003 MGD77 FILE VERSION: 19920727 N_RECS: 4078
+# Examined: Tue Aug 24 13:57:01 2010 by mtchandl
+# Arguments:  -R291.9/295.1/18.5/22.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-10050019-depth-01: RLS m: 0.998953 b: 0 rms: 15.2564 r: 0.999766 sig: 1 dec: 0
+N-E-10050019-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-W-10050019-depth-12: Integer precision
+# Errata: Data
+?	10050019	1981-10-10T15:15:00.00	879	0-0-L	 GRAD: depth excessive
+?	10050019	1981-10-10T17:15:00.00	903	0-0-L	 GRAD: depth excessive

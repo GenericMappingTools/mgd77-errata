@@ -1,0 +1,32 @@
+# Cruise 19180049 ID CD9395 MGD77 FILE VERSION: 19971208 N_RECS: 15364
+# Examined: Mon Sep 20 13:33:15 2010 by mtchandl
+# Arguments:  -R347.95/355.15/55.2/57.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged three bathymetry offsets with offset area > 10000 meter*km (in depth vs distance along-track space). Cruise should be re-processed by source institution to remove outliers.
+# Errata: Header
+N-E-19180049-H04-06: Invalid Survey Arrival Day: (30) [29]
+Y-I-19180049-depth-01: RLS m: 0.995841 b: 0 rms: 18.0214 r: 0.999647 sig: 1 dec: 0
+N-E-19180049-depth-02: Regression slope 0.995841 different from 1. Recommended: [1]
+Y-E-19180049-depth-08: Extended offset from grid [5470-5865]
+Y-E-19180049-depth-08: Extended offset from grid [11755-11804]
+Y-E-19180049-depth-08: Extended offset from grid [12682-12711]
+Y-W-19180049-depth-12: Integer precision
+# Errata: Data
+?	19180049	1995-05-08T23:18:00.00	943	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-10T19:36:00.00	2272	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-10T19:38:00.00	2273	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-11T13:30:00.00	2809	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-11T13:42:00.00	2815	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-11T14:26:00.00	2837	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-11T18:26:00.00	2957	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-13T22:24:00.00	4515	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-15T17:40:00.00	5813	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-21T12:20:00.00	9645	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-21T12:22:00.00	9646	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-21T12:26:00.00	9648	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-21T23:06:00.00	9968	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-22T04:50:00.00	10140	0-0-L	 GRAD: depth excessive
+?	19180049	1995-05-28T10:08:00.00	14619	0-0-L	 GRAD: depth excessive

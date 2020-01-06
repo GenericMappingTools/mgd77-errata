@@ -1,0 +1,27 @@
+# Cruise 06010002 ID U271GM MGD77 FILE VERSION: 19890113 N_RECS: 492
+# Examined: Fri May 21 13:48:47 2010 by mtchandl
+# Arguments:  -R272/276.3/16.55/20.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Sparse data. Recommend flagging all gravity anomalies until sign error is fixed. Recommend recomputing magnetic anomalies. 
+# Errata: Header
+Y-W-06010002-nav-00: Flagged 1.63 % of records with bad navigation
+Y-I-06010002-depth-01: RLS m: 0.999651 b: 0 rms: 51.5902 r: 0.999407 sig: 1 dec: 0
+Y-I-06010002-faa-01: RLS m: 0.706015 b: -17.1476 rms: 18.2298 r: 0.823345 sig: 1 dec: 0
+N-E-06010002-faa-02: Regression slope 0.706015 different from 1. Recommended: [1]
+Y-W-06010002-faa-03: Regression offset -17.1476 different from 0.
+Y-E-06010002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.926522 b: -80.6798 rms: 87.0317 r: 0.957247 sig: 1 dec: 1). [Recompute]
+Y-W-06010002-faa-09: only found negative values
+Y-E-06010002-faa-10: Invalid data records: [1-492]
+Y-W-06010002-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06010002	1971-06-30T02:24:00.00	171	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:25:00.00	172	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:26:00.00	173	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:27:00.00	174	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:28:00.00	175	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:29:00.00	176	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:30:00.00	177	C-0-0	 NAV: excessive speed
+Y	06010002	1971-06-30T02:31:00.00	178	C-0-0	 NAV: excessive speed

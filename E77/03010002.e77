@@ -1,0 +1,32 @@
+# Cruise 03010002 ID CMAPPI1A MGD77 FILE VERSION: 19800213 N_RECS: 12792
+# Examined: Fri Mar 12 14:30:20 2010 by mtchandl
+# Arguments:  -R195/203.75/24/30 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. File contains negative gravity anomalies that should be positive, disregard faa until fixed.
+# Errata: Header
+N-E-03010002-H12-01: Invalid Bathymetry Digitizing Rate: (936) [936]
+Y-E-03010002-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+N-E-03010002-H13-04: Invalid Magnetics Sensor Depth: (9999.) [9999.]
+Y-E-03010002-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-I-03010002-depth-01: RLS m: 0.996515 b: 0 rms: 63.5034 r: 0.994301 sig: 1 dec: 0
+N-E-03010002-depth-02: Regression slope 0.996515 different from 1. Recommended: [1]
+Y-I-03010002-faa-01: RLS m: -0.580674 b: -23.0728 rms: 84.0859 r: 0.745528 sig: 1 dec: 1
+N-E-03010002-faa-02: Regression slope -0.580674 different from 1. Recommended: [1]
+Y-W-03010002-faa-03: Regression offset -23.0728 different from 0.
+Y-E-03010002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.973819 b: -91.404 rms: 98.2773 r: 0.990106 sig: 1 dec: 1). [Recompute]
+Y-W-03010002-faa-09: all values less than or equal to zero
+Y-E-03010002-faa-10: Invalid data records: [1-12681]
+Y-W-03010002-mtf1-12: Integer precision
+Y-W-03010002-mag-12: Integer precision
+Y-W-03010002-faa-12: Integer precision
+# Errata: Data
+?	03010002	1963-09-04T16:40:00.00	5883	0-0-K	 GRAD: twt excessive
+?	03010002	1965-02-09T19:16:00.00	7787	0-0-K	 GRAD: twt excessive
+?	03010002	1965-02-10T09:30:00.00	7962	0-0-K	 GRAD: twt excessive
+?	03010002	1965-03-16T01:40:00.00	10781	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010002	1965-03-16T01:45:00.00	10784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010002	1965-03-16T01:50:00.00	10786	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010002	1965-03-27T20:15:00.00	11189	0-0-OQ	 GRAD: mtf1, mag excessive

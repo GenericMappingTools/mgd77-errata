@@ -1,0 +1,109 @@
+# Cruise 09780039 ID WI343405 MGD77 FILE VERSION: 19801110 N_RECS: 36083
+# Examined: Mon Aug 16 16:58:54 2010 by mtchandl
+# Arguments:  -R325.7/350.6/48.15/64.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09780039-time-01: 1 of 36083 records contain invalid time
+N-E-09780039-H04-02: Invalid Survey Departure Month: (07) [08]
+N-E-09780039-H04-03: Invalid Survey Departure Day: (31) [02]
+N-E-09780039-H04-06: Invalid Survey Arrival Day: (15) [12]
+Y-E-09780039-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780039-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780039-nav-00: Flagged 0.12 % of records with bad navigation
+Y-I-09780039-depth-01: RLS m: 1.00031 b: 0 rms: 7.93011 r: 0.999978 sig: 1 dec: 0
+N-E-09780039-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+Y-I-09780039-faa-01: RLS m: 0 b: 0 rms: 21.0214 r: nan sig: 0 dec: 0
+Y-E-09780039-mag-07: Anomaly differs from mtf1-IGRF (m: 0.926708 b: 130.856 rms: 148.499 r: 0.958578 sig: 1 dec: 1). [Recompute]
+Y-W-09780039-faa-09: all anomalies are zero
+Y-W-09780039-depth-12: Integer precision
+Y-W-09780039-mag-12: Integer precision
+Y-W-09780039-faa-12: Integer multiple of 5 precision
+# Errata: Data
+?	09780039	1973-08-02T18:14:00.00	734	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-04T21:49:00.00	3827	0-0-K	 GRAD: twt excessive
+Y	09780039	1973-08-04T23:59:00.00	3958	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+?	09780039	1973-08-05T07:25:00.00	4403	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-05T20:23:00.00	5181	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-07T06:36:00.00	6654	0-Q-0	 VAL: mag invalid
+?	09780039	1973-08-07T21:14:00.00	7222	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-07T21:28:00.00	7236	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-07T21:57:00.00	7265	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-07T23:59:00.00	7387	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-08T06:29:00.00	7559	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-08T06:50:00.00	7580	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-08T07:05:00.00	7595	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-08T10:32:00.00	7802	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-09T00:14:00.00	8434	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-09T20:22:00.00	9279	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-09T22:05:00.00	9382	0-0-O	 GRAD: mtf1 excessive
+?	09780039	1973-08-09T22:21:00.00	9398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780039	1973-08-09T22:36:00.00	9413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780039	1973-08-09T22:45:00.00	9422	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-09T23:28:00.00	9465	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-10T08:29:00.00	9836	0-0-O	 GRAD: mtf1 excessive
+?	09780039	1973-08-11T14:48:00.00	11188	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-12T00:13:00.00	11548	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-12T22:19:00.00	12474	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-13T01:40:00.00	12504	0-Q-0	 VAL: mag invalid
+?	09780039	1973-08-13T01:41:00.00	12505	0-0-Q	 GRAD: mag excessive
+?	09780039	1973-08-13T01:42:00.00	12506	0-0-O	 GRAD: mtf1 excessive
+?	09780039	1973-08-13T03:12:00.00	12596	0-0-KL	 GRAD: twt, depth excessive
+Y	09780039	NaN	13888	E-0-0	 NAV: navigation undefined
+Y	09780039	1973-08-14T06:41:00.00	13889	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:42:00.00	13890	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:43:00.00	13891	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:44:00.00	13892	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:45:00.00	13893	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:46:00.00	13894	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:47:00.00	13895	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:48:00.00	13896	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-14T06:49:00.00	13897	B-0-0	 NAV: non-increasing time
+?	09780039	1973-08-14T23:13:00.00	14422	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780039	1973-08-14T23:17:00.00	14426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780039	1973-08-14T23:20:00.00	14429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780039	1973-08-15T07:31:00.00	14919	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-15T16:52:00.00	15302	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-16T10:16:00.00	16013	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-16T19:28:00.00	16391	0-0-KL	 GRAD: twt, depth excessive
+?	09780039	1973-08-16T19:59:00.00	16422	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-16T20:04:00.00	16427	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-17T10:29:00.00	17090	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-19T19:20:00.00	19523	0-0-K	 GRAD: twt excessive
+?	09780039	1973-08-19T20:41:00.00	19604	0-0-K	 GRAD: twt excessive
+Y	09780039	1973-08-20T07:10:00.00	20050	C-0-0	 NAV: excessive speed
+Y	09780039	1973-08-20T07:13:00.00	20053	C-0-0	 NAV: excessive speed
+Y	09780039	1973-08-20T23:59:00.00	20692	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20693	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20694	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20695	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20696	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20697	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20698	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20699	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20700	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20701	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20702	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20703	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20704	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20705	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20706	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20707	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-08-20T23:59:00.00	20708	B-0-0	 NAV: non-increasing time
+Y	09780039	1973-09-11T00:01:00.00	34400	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:02:00.00	34401	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:03:00.00	34402	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:04:00.00	34403	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:05:00.00	34404	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:06:00.00	34405	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:07:00.00	34406	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:08:00.00	34407	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:09:00.00	34408	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:10:00.00	34409	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:11:00.00	34410	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:12:00.00	34411	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:13:00.00	34412	C-0-0	 NAV: excessive speed
+Y	09780039	1973-09-11T00:14:00.00	34413	C-0-0	 NAV: excessive speed

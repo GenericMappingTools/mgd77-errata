@@ -1,0 +1,15 @@
+# Cruise J1010038 ID HT870930 MGD77 FILE VERSION: 19921231 N_RECS: 5777
+# Examined: Thu Aug  4 20:10:58 2011 by mtchandl
+# Arguments:  -R137.25/138.35/37.25/37.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-J1010038-faa-01: RLS m: 1.01938 b: -0.740743 rms: 5.07471 r: 0.983938 sig: 1 dec: 0
+N-E-J1010038-faa-02: Regression slope 1.01938 different from 1. Recommended: [1]
+Y-W-J1010038-faa-03: Regression offset -0.740743 different from 0.
+Y-I-J1010038-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1010038-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.994735 b: 0.464099 rms: 1.35354 r: 0.998989 sig: 1 dec: 0). [Recompute]
+# Errata: Data

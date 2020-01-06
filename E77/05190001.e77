@@ -1,0 +1,27 @@
+# Cruise 05190001 ID HT8305 MGD77 FILE VERSION: 20080804 N_RECS: 6224
+# Examined: Fri May 21 13:15:53 2010 by mtchandl
+# Arguments:  -R172.8/179.65/-43.6/-39.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05190001-H13-10: Survey year (1983-1984) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05190001-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05190001-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05190001-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05190001-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05190001-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05190001-depth-01: RLS m: 1.0035 b: 0 rms: 31.7788 r: 0.999762 sig: 1 dec: 0
+N-E-05190001-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-I-05190001-faa-01: RLS m: 0.996712 b: -2.12094 rms: 6.94657 r: 0.988206 sig: 1 dec: 0
+Y-W-05190001-faa-03: Regression offset -2.12094 different from 0.
+Y-E-05190001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.06476 b: -23.0382 rms: 23.5546 r: 0.998132 sig: 1 dec: 1). [Recompute]
+Y-W-05190001-depth-12: Integer precision
+Y-W-05190001-mtf1-12: Integer precision
+# Errata: Data
+?	05190001	1983-12-29T19:21:00.00	208	0-0-L	 GRAD: depth excessive
+?	05190001	1983-12-30T14:51:00.00	1317	0-0-L	 GRAD: depth excessive
+?	05190001	1983-12-31T01:06:00.00	1925	0-0-L	 GRAD: depth excessive
+?	05190001	1983-12-31T01:53:00.00	1972	0-0-L	 GRAD: depth excessive

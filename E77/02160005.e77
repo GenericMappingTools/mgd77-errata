@@ -1,0 +1,18 @@
+# Cruise 02160005 ID BS072L04 MGD77 FILE VERSION: 19820805 N_RECS: 4868
+# Examined: Fri Apr  9 13:05:19 2010 by mtchandl
+# Arguments:  -R321.45/327.1/-13.15/-2.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02160005-depth-01: RLS m: 0.995783 b: 0 rms: 52.2373 r: 0.99932 sig: 1 dec: 0
+N-E-02160005-depth-02: Regression slope 0.995783 different from 1. Recommended: [1]
+# Errata: Data
+?	02160005	1973-01-28T02:09:00.00	123	0-0-K	 GRAD: twt excessive
+?	02160005	1973-01-28T17:28:00.00	529	0-0-K	 GRAD: twt excessive
+?	02160005	1973-01-29T10:45:00.00	955	0-0-K	 GRAD: twt excessive
+?	02160005	1973-01-29T13:25:00.00	1007	0-0-KL	 GRAD: twt, depth excessive
+?	02160005	1973-01-30T00:25:00.00	1328	0-0-K	 GRAD: twt excessive
+?	02160005	1973-02-04T04:56:00.00	3278	0-0-KL	 GRAD: twt, depth excessive

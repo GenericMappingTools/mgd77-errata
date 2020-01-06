@@ -1,0 +1,44 @@
+# Cruise 01030233 ID V3602 MGD77 FILE VERSION: 19850827 N_RECS: 8371
+# Examined: Fri Jul 10 16:36:56 2009 by mtchandl
+# Arguments:  -R175.4/199.8/-46.45/-18.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030233-depth-01: RLS m: 1 b: 0 rms: 6.52846 r: 0.999996 sig: 1 dec: 0
+Y-I-01030233-faa-01: RLS m: 1.01348 b: -10.0893 rms: 14.3957 r: 0.994731 sig: 1 dec: 1
+N-E-01030233-faa-02: Regression slope 1.01348 different from 1. Recommended: [1]
+Y-W-01030233-faa-03: Regression offset -10.0893 different from 0.
+Y-E-01030233-mag-07: Anomaly differs from mtf1-IGRF (m: 0.986597 b: -73.854 rms: 88.6146 r: 0.981087 sig: 1 dec: 1). [Recompute]
+N-E-01030233-depth-08: Extended offset from grid [3-8371]
+Y-W-01030233-twt-11: More recent bathymetry correction table available
+Y-W-01030233-mtf1-12: Integer precision
+Y-W-01030233-mag-12: Integer precision
+# Errata: Data
+?	01030233	1979-08-15T13:34:00.00	539	B-0-0	 NAV: decreasing time
+?	01030233	1979-08-18T13:08:00.00	1452	B-0-0	 NAV: decreasing time
+?	01030233	1979-08-19T23:54:00.00	1940	0-0-O	 GRAD: mtf1 excessive
+?	01030233	1979-08-20T00:00:00.00	1941	0-0-Q	 GRAD: mag excessive
+?	01030233	1979-08-22T05:18:00.00	2608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-22T05:24:00.00	2610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-23T12:12:00.00	3027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-24T07:36:00.00	3277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-24T07:42:00.00	3278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-24T07:48:00.00	3279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-24T07:54:00.00	3280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-26T02:00:00.00	3835	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-28T12:18:00.00	4589	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030233	1979-08-28T12:24:00.00	4590	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030233	1979-08-28T12:30:00.00	4591	0-Q-0	 VAL: mag invalid
+?	01030233	1979-08-28T12:36:00.00	4592	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-28T12:42:00.00	4594	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-28T13:06:00.00	4600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-31T05:30:00.00	5430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-08-31T05:36:00.00	5432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030233	1979-09-01T00:24:00.00	5695	0-Q-0	 VAL: mag invalid
+?	01030233	1979-09-01T00:30:00.00	5697	0-Q-0	 VAL: mag invalid
+?	01030233	1979-09-01T00:36:00.00	5698	0-Q-0	 VAL: mag invalid
+?	01030233	1979-09-01T00:42:00.00	5700	0-Q-0	 VAL: mag invalid
+?	01030233	1979-09-01T00:48:00.00	5701	0-Q-0	 VAL: mag invalid

@@ -1,0 +1,60 @@
+# Cruise 01010195 ID RC2203 MGD77 FILE VERSION: 19870305 N_RECS: 4311
+# Examined: Mon Jul  6 17:09:17 2009 by mtchandl
+# Arguments:  -R254.35/256.05/14.1/18.8 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010195-H13-06: Invalid Magnetics Reference Field Code: (79) [79]
+Y-I-01010195-depth-01: RLS m: 0.996208 b: 0 rms: 45.741 r: 0.999474 sig: 1 dec: 0
+N-E-01010195-depth-02: Regression slope 0.996208 different from 1. Recommended: [1]
+Y-E-01010195-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00045 b: 75.5943 rms: 77.1468 r: 0.998839 sig: 1 dec: 1). [Recompute]
+N-E-01010195-depth-08: Extended offset from grid [6-4311]
+Y-W-01010195-twt-11: More recent bathymetry correction table available
+Y-W-01010195-mtf1-12: Integer precision
+Y-W-01010195-mag-12: Integer precision
+# Errata: Data
+?	01010195	1979-02-25T04:48:00.00	268	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T05:00:00.00	270	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T05:06:00.00	271	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T11:12:00.00	332	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T12:24:00.00	344	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T12:30:00.00	345	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T12:36:00.00	346	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T12:42:00.00	347	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T14:12:00.00	362	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T14:18:00.00	363	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T14:24:00.00	364	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T14:36:00.00	366	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T14:42:00.00	367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T16:18:00.00	385	0-0-K	 GRAD: twt excessive
+?	01010195	1979-02-25T18:54:00.00	401	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T19:06:00.00	403	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-02-25T19:12:00.00	404	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T19:18:00.00	405	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T19:24:00.00	406	0-Q-0	 VAL: mag invalid
+?	01010195	1979-02-25T19:30:00.00	407	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:18:00.00	1687	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:24:00.00	1688	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:30:00.00	1689	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:36:00.00	1690	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:42:00.00	1692	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:48:00.00	1693	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T10:54:00.00	1694	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-03T11:00:00.00	1695	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-03-04T17:24:00.00	1968	0-0-KL	 GRAD: twt, depth excessive
+?	01010195	1979-03-06T11:06:00.00	2412	0-0-Q	 GRAD: mag excessive
+?	01010195	1979-03-06T11:12:00.00	2413	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-03-06T11:18:00.00	2415	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010195	1979-03-06T11:24:00.00	2416	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-03-06T11:30:00.00	2417	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01010195	1979-03-06T11:36:00.00	2418	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T11:42:00.00	2419	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T11:48:00.00	2420	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T11:54:00.00	2421	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T12:00:00.00	2422	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T12:06:00.00	2423	0-Q-0	 VAL: mag invalid
+?	01010195	1979-03-06T23:42:00.00	2549	0-0-K	 GRAD: twt excessive
+?	01010195	1979-03-14T20:48:00.00	4209	0-0-KL	 GRAD: twt, depth excessive

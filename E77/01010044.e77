@@ -1,0 +1,17 @@
+# Cruise 01010044 ID RC1101 MGD77 FILE VERSION: 19790619 N_RECS: 5351
+# Examined: Mon Jan 26 17:01:38 2009 by mtchandl
+# Arguments:  -R286.1/326.65/-7.95/40.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010044-H11-05: Invalid Leftmost Longitude: (-075) [-074]
+Y-I-01010044-depth-01: RLS m: 1 b: 0 rms: 6.86094 r: 0.999996 sig: 1 dec: 0
+Y-E-01010044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.904893 b: -63.3332 rms: 85.1531 r: 0.913514 sig: 1 dec: 1). [Recompute]
+Y-W-01010044-twt-11: More recent bathymetry correction table available
+Y-W-01010044-mtf1-12: Integer precision
+Y-W-01010044-mag-12: Integer precision
+# Errata: Data
+?	01010044	1966-12-08T10:57:00.00	1805	0-0-K	 GRAD: twt excessive

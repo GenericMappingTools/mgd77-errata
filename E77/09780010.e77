@@ -1,0 +1,78 @@
+# Cruise 09780010 ID WI343513 MGD77 FILE VERSION: 19791128 N_RECS: 19952
+# Examined: Mon Aug 16 16:05:29 2010 by mtchandl
+# Arguments:  -R287.9/310.55/23.45/34.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09780010-H04-01: Invalid Survey Departure Year: (1973) [1974]
+Y-E-09780010-H04-02: Invalid Survey Departure Month: (02) [10]
+Y-E-09780010-H04-03: Invalid Survey Departure Day: (02) [27]
+Y-E-09780010-H04-04: Invalid Survey Arrival Year: (1973) [1974]
+Y-E-09780010-H04-05: Invalid Survey Arrival Month: (02) [11]
+Y-E-09780010-H04-06: Invalid Survey Arrival Day: (25) [12]
+Y-E-09780010-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780010-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780010-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-09780010-depth-01: RLS m: 1.00021 b: 0 rms: 32.211 r: 0.997915 sig: 1 dec: 0
+Y-W-09780010-twt-11: More recent bathymetry correction table available
+Y-W-09780010-depth-12: Integer precision
+# Errata: Data
+?	09780010	1974-10-28T18:33:00.00	1508	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-10-28T20:26:00.00	1621	0-0-K	 GRAD: twt excessive
+?	09780010	1974-10-29T04:23:00.00	2096	0-0-K	 GRAD: twt excessive
+?	09780010	1974-10-30T07:43:00.00	3147	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-10-30T08:23:00.00	3187	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-10-30T17:09:00.00	3359	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-01T23:50:00.00	6030	0-0-KL	 GRAD: twt, depth excessive
+Y	09780010	1974-11-02T01:03:00.00	6102	C-0-0	 NAV: excessive speed
+?	09780010	1974-11-02T03:34:00.00	6253	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-02T04:28:00.00	6307	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-02T16:14:00.00	6739	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-02T17:41:00.00	6826	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-02T22:06:00.00	7091	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-03T04:01:00.00	7445	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-03T18:02:00.00	7987	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-03T20:07:00.00	8112	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-03T21:15:00.00	8180	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-03T21:17:00.00	8182	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T00:18:00.00	8362	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T04:14:00.00	8598	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T04:19:00.00	8603	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T05:07:00.00	8651	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T08:48:00.00	8872	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T15:59:00.00	9049	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T17:32:00.00	9142	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T17:50:00.00	9160	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T20:33:00.00	9323	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T20:48:00.00	9338	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T21:27:00.00	9377	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T21:32:00.00	9382	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T21:37:00.00	9387	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-04T22:04:00.00	9414	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T22:24:00.00	9434	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T23:40:00.00	9510	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-04T23:45:00.00	9515	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-05T22:00:00.00	10579	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-05T22:47:00.00	10626	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-05T23:01:00.00	10640	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-06T09:33:00.00	11271	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-06T16:47:00.00	11446	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-06T21:12:00.00	11711	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-06T21:18:00.00	11717	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-06T22:00:00.00	11759	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-07T00:15:00.00	11893	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-07T01:18:00.00	11956	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-07T10:22:00.00	12500	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-07T15:10:00.00	12788	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-07T21:40:00.00	13178	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-08T07:45:00.00	13782	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-08T22:19:00.00	14656	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-08T22:35:00.00	14672	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-08T23:20:00.00	14717	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-09T08:32:00.00	15268	0-0-KL	 GRAD: twt, depth excessive
+?	09780010	1974-11-09T09:54:00.00	15350	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-09T18:59:00.00	15895	0-0-K	 GRAD: twt excessive
+?	09780010	1974-11-09T23:59:00.00	16195	0-0-KL	 GRAD: twt, depth excessive

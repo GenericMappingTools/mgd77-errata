@@ -1,0 +1,86 @@
+# Cruise 15040175 ID CRGN04WT MGD77 FILE VERSION: 19900321 N_RECS: 5122
+# Examined: Mon May 26 16:16:58 2008 by mtchandl
+# Arguments:  -R202.1/206.25/19.55/21.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15040175-H13-10: Survey year (1987) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15040175-H15-01: Invalid Gravity Departure Base Station Value: (8559601) [8559601]
+Y-E-15040175-H15-03: Invalid Gravity Arrival Base Station Value: (8559601) [8559601]
+Y-W-15040175-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15040175-depth-01: RLS m: 1 b: 0 rms: 80.0142 r: 0.998813 sig: 1 dec: 1
+Y-I-15040175-faa-01: RLS m: 0.942813 b: 0.644605 rms: 18.7494 r: 0.983517 sig: 1 dec: 1
+N-E-15040175-faa-02: Regression slope 0.942813 different from 1. Recommended: [1]
+N-E-15040175-faa-06: Anomaly differs from gobs - IGF80 (m: 0.811773 b: -27.7455 rms: 55.8454 r: 0.967137 sig: 1 dec: 1). [Recompute]
+Y-E-15040175-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00558 b: -32.1915 rms: 34.442 r: 0.999621 sig: 1 dec: 1). [Recompute]
+Y-W-15040175-twt-11: More recent bathymetry correction table available
+Y-W-15040175-depth-12: Integer precision
+Y-W-15040175-mtf1-12: Integer precision
+# Errata: Data
+Y	15040175	1987-06-04T02:23:00.00	1	D-0-0	 NAV: on land
+Y	15040175	1987-06-04T02:26:00.00	2	D-0-0	 NAV: on land
+Y	15040175	1987-06-04T02:28:00.00	3	D-0-0	 NAV: on land
+?	15040175	1987-06-04T02:30:00.00	4	D-0-0	 NAV: on land
+?	15040175	1987-06-04T02:42:00.00	10	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T02:57:00.00	21	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T03:14:00.00	34	0-0-U	 GRAD: gobs excessive
+?	15040175	1987-06-04T05:35:00.00	172	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T07:31:00.00	288	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T07:32:00.00	289	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T09:54:00.00	431	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T09:57:00.00	434	0-0-U	 GRAD: gobs excessive
+?	15040175	1987-06-04T10:21:00.00	458	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T10:42:00.00	479	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T10:43:00.00	480	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T12:05:00.00	562	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T13:37:00.00	654	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T13:45:00.00	662	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T13:47:00.00	664	0-0-UW	 GRAD: gobs, faa excessive
+?	15040175	1987-06-04T18:26:00.00	943	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T18:28:00.00	945	0-0-U	 GRAD: gobs excessive
+?	15040175	1987-06-04T19:18:00.00	992	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T19:23:00.00	997	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T19:24:00.00	998	0-0-UW	 GRAD: gobs, faa excessive
+?	15040175	1987-06-04T20:18:00.00	1052	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T21:07:00.00	1101	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-04T21:09:00.00	1103	0-0-U	 GRAD: gobs excessive
+?	15040175	1987-06-04T21:37:00.00	1131	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T01:15:00.00	1349	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T01:36:00.00	1370	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T01:37:00.00	1371	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T05:24:00.00	1598	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T05:25:00.00	1599	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T10:01:00.00	1875	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T10:02:00.00	1876	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T11:12:00.00	1946	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T11:13:00.00	1947	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T11:32:00.00	1966	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T12:42:00.00	2036	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T12:43:00.00	2037	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T18:09:00.00	2363	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-05T21:04:00.00	2538	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T00:15:00.00	2729	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T00:17:00.00	2731	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T01:55:00.00	2829	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T01:56:00.00	2830	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T06:13:00.00	3087	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T06:14:00.00	3088	0-0-UW	 GRAD: gobs, faa excessive
+?	15040175	1987-06-06T06:32:00.00	3106	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T14:52:00.00	3606	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T14:53:00.00	3607	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T14:56:00.00	3610	0-0-U	 GRAD: gobs excessive
+?	15040175	1987-06-06T15:21:00.00	3635	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T17:04:00.00	3738	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040175	1987-06-06T19:30:00.00	3884	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T19:57:00.00	3911	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T22:03:00.00	4037	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-06T22:04:00.00	4038	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-07T07:07:00.00	4581	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-07T08:46:00.00	4680	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-07T08:47:00.00	4681	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-07T12:14:00.00	4886	0-0-W	 GRAD: faa excessive
+?	15040175	1987-06-07T15:36:00.00	5082	0-0-W	 GRAD: faa excessive

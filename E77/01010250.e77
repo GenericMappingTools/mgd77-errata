@@ -1,0 +1,31 @@
+# Cruise 01010250 ID RC2604 MGD77 FILE VERSION: 19910319 N_RECS: 18502
+# Examined: Wed Jul  8 15:03:54 2009 by mtchandl
+# Arguments:  -R299.4/302.6/13.1/16.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-320 nT average offset from recomputed mag. DC shift for reported faa (-7.4 mGal) < DC shift for recomputed faa (7.6 mGal), recommend not recomputing faa.
+# Errata: Header
+N-E-01010250-H04-03: Invalid Survey Departure Day: (17) [20]
+Y-E-01010250-H04-06: Invalid Survey Arrival Day: (01) [02]
+Y-E-01010250-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010250-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010250-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010250-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010250-depth-01: RLS m: 1 b: 0 rms: 80.7771 r: 0.998264 sig: 1 dec: 1
+Y-I-01010250-faa-01: RLS m: 0.996978 b: -7.33636 rms: 7.35297 r: 0.999581 sig: 1 dec: 0
+N-E-01010250-faa-02: Regression slope 0.996978 different from 1. Recommended: [1]
+Y-W-01010250-faa-03: Regression offset -7.33636 different from 0.
+N-E-01010250-faa-06: Anomaly differs from gobs-IGF80 (m: 0.877068 b: -26.4621 rms: 30.3424 r: 0.941501 sig: 1 dec: 1). [Recompute]
+N-E-01010250-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-01010250-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-E-01010250-mag-07: Anomaly differs from mtf1-IGRF (m: 0.580787 b: -320.11 rms: 344.641 r: 0.52039 sig: 1 dec: 1). [Recompute]
+N-E-01010250-faa-08: Extended offset from grid [1-15123]
+N-E-01010250-depth-08: Extended offset from grid [635-18502]
+Y-W-01010250-mag-09: only found negative values
+Y-W-01010250-twt-11: More recent bathymetry correction table available
+Y-W-01010250-mtf1-12: Integer precision
+# Errata: Data
+?	01010250	1985-03-21T21:05:00.00	2431	0-0-UV	 GRAD: gobs, eot excessive
+?	01010250	1985-03-24T18:40:00.00	6606	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,17 @@
+# Cruise 02020101 ID A2089L01 MGD77 FILE VERSION: 19820805 N_RECS: 3598
+# Examined: Fri Apr  2 15:29:50 2010 by mtchandl
+# Arguments:  -R284.35/291.1/35.95/41.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend not recomputing faa.
+# Errata: Header
+Y-W-02020101-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-02020101-faa-01: RLS m: 1.00064 b: 2.83826 rms: 4.34384 r: 0.989273 sig: 1 dec: 0
+Y-W-02020101-faa-03: Regression offset 2.83826 different from 0.
+N-E-02020101-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020101-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.381352 b: -9.03903 rms: 37.6742 r: 0.670314 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+Y	02020101	1975-04-14T14:10:00.00	1	D-0-0	 NAV: on land
+?	02020101	1975-04-14T14:15:00.00	2	D-0-0	 NAV: on land

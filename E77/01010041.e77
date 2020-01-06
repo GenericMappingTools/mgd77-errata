@@ -1,0 +1,71 @@
+# Cruise 01010041 ID RC1010 MGD77 FILE VERSION: 19790619 N_RECS: 13017
+# Examined: Mon Jan 12 13:17:45 2009 by mtchandl
+# Arguments:  -R183.65/235.15/41.65/53.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010041-depth-01: RLS m: 1 b: 0 rms: 152.195 r: 0.997057 sig: 1 dec: 1
+Y-I-01010041-faa-01: RLS m: 1.00816 b: 1.25838 rms: 11.415 r: 0.993718 sig: 1 dec: 1
+Y-W-01010041-faa-03: Regression offset 1.25838 different from 0.
+Y-E-01010041-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.962694 b: 83.638 rms: 142.672 r: 0.901582 sig: 1 dec: 1). [Recompute]
+Y-W-01010041-twt-11: More recent bathymetry correction table available
+Y-W-01010041-mtf1-12: Integer precision
+Y-W-01010041-mag-12: Integer precision
+# Errata: Data
+?	01010041	1966-07-16T23:18:00.00	29	D-0-0	 NAV: on land
+?	01010041	1966-07-20T12:52:00.00	1963	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-21T17:33:00.00	2651	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-25T03:20:00.00	4200	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-25T14:07:00.00	4434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:10:00.00	4435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:35:00.00	4446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:38:00.00	4448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:43:00.00	4450	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:45:00.00	4451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:47:00.00	4452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:51:00.00	4455	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:55:00.00	4457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T14:56:00.00	4458	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:00:00.00	4459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:01:00.00	4460	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:04:00.00	4462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:06:00.00	4463	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:10:00.00	4464	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:18:00.00	4468	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T15:40:00.00	4475	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T17:05:00.00	4504	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-25T17:11:00.00	4508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-07-26T16:37:00.00	4991	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-26T16:39:00.00	4992	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-27T03:55:00.00	5093	0-0-K	 GRAD: twt excessive
+?	01010041	1966-07-27T04:05:00.00	5100	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-02T12:37:00.00	7799	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-04T03:44:00.00	8835	0-0-KL	 GRAD: twt, depth excessive
+?	01010041	1966-08-04T19:00:00.00	9251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-05T17:44:00.00	9731	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-06T04:05:00.00	9963	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-06T19:20:00.00	10414	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-06T21:50:00.00	10489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-06T22:05:00.00	10498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-06T22:10:00.00	10501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-06T22:45:00.00	10518	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-06T22:55:00.00	10525	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-07T04:15:00.00	10618	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-07T05:45:00.00	10663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-07T06:02:00.00	10677	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-08T07:30:00.00	11298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-08T12:02:00.00	11406	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-08T18:50:00.00	11607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-08T19:00:00.00	11613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T12:15:00.00	12068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T14:45:00.00	12143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T14:47:00.00	12145	0-Q-0	 VAL: mag invalid
+?	01010041	1966-08-09T14:50:00.00	12146	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T14:55:00.00	12148	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T14:58:00.00	12149	0-0-Q	 GRAD: mag excessive
+?	01010041	1966-08-09T20:28:00.00	12316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010041	1966-08-09T21:25:00.00	12346	0-0-K	 GRAD: twt excessive
+?	01010041	1966-08-10T03:08:00.00	12372	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,92 @@
+# Cruise J5990018 ID JD04 MGD77 FILE VERSION: 19860213 N_RECS: 269
+# Examined: Mon Aug  8 15:56:29 2011 by mtchandl
+# Arguments:  -R141/148/36.45/38.45 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-J5990018-H13-01: Invalid Magnetics Digitizing Rate: (566) [566]
+Y-W-J5990018-nav-00: Flagged 27.14 % of records with bad navigation
+Y-E-J5990018-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: 60 rms: 60 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-J5990018-mtf1-12: Integer precision
+Y-W-J5990018-mag-12: Integer precision
+# Errata: Data
+Y	J5990018	1961-06-08T02:25:00.00	10	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-08T06:30:00.00	16	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-19T01:04:00.00	35	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-20T08:00:00.00	48	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T14:54:00.00	57	C-0-0	 NAV: excessive speed
+?	J5990018	1961-06-20T15:03:00.00	59	0-0-O	 GRAD: mtf1 excessive
+?	J5990018	1961-06-20T15:06:00.00	60	0-0-O	 GRAD: mtf1 excessive
+Y	J5990018	1961-06-20T16:42:00.00	69	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-20T16:42:00.00	70	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T16:48:00.00	72	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T16:54:00.00	74	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:24:00.00	84	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:30:00.00	86	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:36:00.00	88	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:42:00.00	89	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-20T18:42:00.00	90	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:48:00.00	92	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T18:54:00.00	94	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T19:01:00.00	96	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-20T20:18:00.00	104	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T20:24:00.00	106	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T20:30:00.00	108	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T20:34:00.00	110	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T20:36:00.00	112	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T20:42:00.00	114	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T22:00:00.00	120	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T22:26:00.00	126	B-0-0	 NAV: non-increasing time
+?	J5990018	1961-06-20T23:21:00.00	132	0-0-O	 GRAD: mtf1 excessive
+Y	J5990018	1961-06-20T23:24:00.00	133	C-0-0	 NAV: excessive speed
+?	J5990018	1961-06-20T23:27:00.00	134	0-0-O	 GRAD: mtf1 excessive
+Y	J5990018	1961-06-20T23:27:00.00	135	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T23:30:00.00	137	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T23:33:00.00	139	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T23:36:00.00	141	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T23:39:00.00	143	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-20T23:42:00.00	145	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-22T12:00:00.00	155	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-22T12:30:00.00	157	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-22T13:00:00.00	159	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-22T13:32:00.00	161	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-22T14:16:00.00	163	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T14:00:00.00	169	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-23T15:30:00.00	173	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T16:00:00.00	175	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T16:30:00.00	177	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T17:00:00.00	179	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T17:01:00.00	181	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-23T17:16:00.00	184	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T11:33:00.00	193	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T12:00:00.00	195	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T12:30:00.00	197	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T13:00:00.00	199	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T13:32:00.00	201	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-26T13:34:00.00	203	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T06:30:00.00	211	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:00:00.00	213	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:00:00.00	214	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:00:00.00	215	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:30:00.00	217	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:30:00.00	218	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T07:30:00.00	219	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T08:00:00.00	221	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T12:33:00.00	231	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T13:00:00.00	233	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T13:32:00.00	235	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T13:33:00.00	237	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T14:00:00.00	239	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T14:30:00.00	241	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T19:34:00.00	249	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-28T19:36:00.00	251	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T19:37:00.00	253	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T19:37:00.00	254	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T19:37:00.00	255	B-0-0	 NAV: non-increasing time
+Y	J5990018	1961-06-28T20:03:00.00	257	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-29T06:00:00.00	266	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-29T06:30:00.00	267	C-0-0	 NAV: excessive speed
+Y	J5990018	1961-06-29T12:00:00.00	268	B-0-0	 NAV: non-increasing time

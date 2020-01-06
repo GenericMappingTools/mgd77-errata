@@ -1,0 +1,40 @@
+# Cruise 02300006 ID FA025L01 MGD77 FILE VERSION: 19820805 N_RECS: 5086
+# Examined: Fri Apr  9 13:11:17 2010 by mtchandl
+# Arguments:  -R280.55/289.35/28.2/41.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported faa nearly identical to gobs - IGF80, recomputing not necessary.
+# Errata: Header
+Y-W-02300006-nav-00: Flagged 0.33 % of records with bad navigation
+Y-I-02300006-faa-01: RLS m: 0.992782 b: -0.198262 rms: 3.05005 r: 0.99532 sig: 1 dec: 0
+N-E-02300006-faa-02: Regression slope 0.992782 different from 1. Recommended: [1]
+Y-W-02300006-faa-03: Regression offset -0.198262 different from 0.
+N-E-02300006-faa-06: Anomaly differs from gobs-IGF80 (m: 0.999988 b: 0.842434 rms: 0.843619 r: 0.999999 sig: 1 dec: 0). [Recompute]
+N-E-02300006-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.443558 b: -10.3033 rms: 40.7669 r: 0.642141 sig: 1 dec: 1). [Recompute]
+N-E-02300006-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.997812 b: 12.3961 rms: 12.7475 r: 0.998905 sig: 1 dec: 1). [Adjust to IGF 1980]
+# Errata: Data
+Y	02300006	1976-09-22T15:30:00.00	192	C-0-0	 NAV: excessive speed
+Y	02300006	1976-09-22T15:35:00.00	193	C-0-0	 NAV: excessive speed
+Y	02300006	1976-09-22T15:40:00.00	194	C-0-0	 NAV: excessive speed
+Y	02300006	1976-09-22T15:45:00.00	195	C-0-0	 NAV: excessive speed
+?	02300006	1976-09-28T17:30:00.00	1941	0-0-V	 GRAD: eot excessive
+?	02300006	1976-09-29T14:40:00.00	2193	0-0-U	 GRAD: gobs excessive
+?	02300006	1976-09-29T14:55:00.00	2195	0-0-U	 GRAD: gobs excessive
+?	02300006	1976-09-30T02:52:00.00	2368	0-0-U	 GRAD: gobs excessive
+?	02300006	1976-09-30T02:54:00.00	2370	0-0-U	 GRAD: gobs excessive
+?	02300006	1976-10-10T00:45:00.00	4951	0-0-U	 GRAD: gobs excessive
+Y	02300006	1976-10-10T11:00:00.00	5074	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:05:00.00	5075	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:10:00.00	5076	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:15:00.00	5077	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:20:00.00	5078	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:25:00.00	5079	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:30:00.00	5080	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:35:00.00	5081	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:40:00.00	5082	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:45:00.00	5083	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:50:00.00	5084	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T11:55:00.00	5085	D-0-0	 NAV: on land
+Y	02300006	1976-10-10T12:00:00.00	5086	D-0-0	 NAV: on land

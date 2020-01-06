@@ -1,0 +1,25 @@
+# Cruise 01010215 ID RC2303 MGD77 FILE VERSION: 19890831 N_RECS: 2508
+# Examined: Fri Mar 19 00:40:30 2010 by mtchandl
+# Arguments:  -R278.2/288.4/-33.05/8.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Loss of bottom tracking around 1,450 km along-track.
+# Errata: Header
+Y-E-01010215-H04-02: Invalid Survey Departure Month: (09) [03]
+Y-E-01010215-H04-03: Invalid Survey Departure Day: (03) [25]
+Y-E-01010215-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010215-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010215-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010215-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010215-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010215-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010215-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010215-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010215-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-I-01010215-depth-01: RLS m: 0.9995 b: 0 rms: 52.4998 r: 0.999189 sig: 1 dec: 0
+Y-E-01010215-depth-08: Extended offset from grid [677-739]
+Y-W-01010215-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01010215	1982-03-25T14:42:00.00	2	D-0-0	 NAV: on land

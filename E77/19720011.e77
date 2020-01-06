@@ -1,0 +1,17 @@
+# Cruise 19720011 ID AMT1 MGD77 FILE VERSION: 19991222 N_RECS: 7419
+# Examined: Mon Oct 18 15:38:26 2010 by mtchandl
+# Arguments:  -R302.6/337.55/-50.65/8.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19720011-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19720011-depth-01: RLS m: 0.965689 b: 0 rms: 66.3909 r: 0.999884 sig: 1 dec: 0
+N-E-19720011-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+# Errata: Data
+?	19720011	1995-10-07T21:50:00.00	410	0-0-L	 GRAD: depth excessive
+?	19720011	1995-10-15T09:48:30.00	3263	0-0-L	 GRAD: depth excessive
+?	19720011	1995-10-16T14:58:30.00	3784	0-0-L	 GRAD: depth excessive
+Y	19720011	1995-10-22T16:18:30.00	6554	C-0-0	 NAV: excessive speed

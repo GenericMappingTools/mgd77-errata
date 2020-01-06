@@ -1,0 +1,67 @@
+# Cruise 08010058 ID 80041401 MGD77 FILE VERSION: 19821020 N_RECS: 29859
+# Examined: Mon Jul 26 16:34:10 2010 by mtchandl
+# Arguments:  -R181.6/208.15/15.85/28.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010058-H15-03: Invalid Gravity Arrival Base Station Value: (0000000) [       ]
+Y-W-08010058-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-08010058-depth-01: RLS m: 1 b: 0 rms: 8.89816 r: 0.999889 sig: 1 dec: 0
+Y-I-08010058-faa-01: RLS m: 0.985786 b: 5.15874 rms: 11.6369 r: 0.990799 sig: 1 dec: 1
+Y-W-08010058-faa-03: Regression offset 5.15874 different from 0.
+Y-E-08010058-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: -20 rms: 20 r: 1 sig: 1 dec: 1). [Recompute]
+Y-W-08010058-twt-11: More recent bathymetry correction table available
+Y-W-08010058-mtf1-12: Integer precision
+Y-W-08010058-mag-12: Integer precision
+# Errata: Data
+?	08010058	1980-04-14T20:45:00.00	13	D-0-0	 NAV: on land
+Y	08010058	1980-04-14T20:48:00.00	14	D-0-0	 NAV: on land
+Y	08010058	1980-04-14T20:50:00.00	15	D-0-0	 NAV: on land
+Y	08010058	1980-04-14T20:53:00.00	16	D-0-0	 NAV: on land
+Y	08010058	1980-04-14T20:54:08.94	17	D-0-0	 NAV: on land
+?	08010058	1980-04-14T22:56:59.04	147	0-0-K	 GRAD: twt excessive
+?	08010058	1980-04-15T15:25:59.04	966	0-0-K	 GRAD: twt excessive
+?	08010058	1980-04-18T17:10:00.00	4657	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-18T21:10:00.00	4802	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-19T02:00:00.00	4979	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-20T22:05:00.00	6879	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-22T17:30:00.00	8685	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-22T17:45:00.00	8698	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-23T07:15:00.00	9166	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-26T06:25:00.00	12085	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-26T06:30:00.00	12089	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-26T07:50:00.00	12135	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-26T21:40:00.00	12611	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-27T20:29:38.04	13505	0-0-KL	 GRAD: twt, depth excessive
+Y	08010058	1980-04-28T07:45:00.96	13903	C-0-0	 NAV: excessive speed
+?	08010058	1980-04-28T23:35:00.00	14468	0-0-W	 GRAD: faa excessive
+?	08010058	1980-04-29T12:30:00.00	14895	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-02T12:38:13.98	17163	0-0-K	 GRAD: twt excessive
+?	08010058	1980-05-02T16:07:00.00	17335	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:10:00.00	17336	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:13:00.00	17337	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:16:00.00	17338	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:19:00.00	17339	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:22:00.00	17340	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:25:00.00	17341	D-0-0	 NAV: on land
+Y	08010058	1980-05-02T16:28:00.00	17342	D-0-0	 NAV: on land
+?	08010058	1980-05-03T04:02:52.02	17343	D-0-0	 NAV: on land
+?	08010058	1980-05-03T04:03:15.96	17344	D-0-0	 NAV: on land
+?	08010058	1980-05-03T04:04:01.98	17345	D-0-0	 NAV: on land
+?	08010058	1980-05-03T04:05:23.94	17346	D-0-0	 NAV: on land
+?	08010058	1980-05-03T04:06:48.00	17347	D-0-0	 NAV: on land
+?	08010058	1980-05-08T17:20:00.00	22641	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-09T01:20:00.00	22923	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-09T20:30:21.96	23851	0-0-KL	 GRAD: twt, depth excessive
+?	08010058	1980-05-09T23:07:16.98	24003	0-0-KL	 GRAD: twt, depth excessive
+?	08010058	1980-05-10T06:35:00.00	24354	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-11T13:40:00.00	25466	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-11T19:40:00.00	25672	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-12T03:50:00.00	25954	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-13T00:49:58.02	26939	0-0-K	 GRAD: twt excessive
+?	08010058	1980-05-14T14:45:00.00	28104	0-0-W	 GRAD: faa excessive
+?	08010058	1980-05-16T21:11:15.00	29821	0-0-KL	 GRAD: twt, depth excessive
+?	08010058	1980-05-16T21:20:15.00	29833	0-0-K	 GRAD: twt excessive

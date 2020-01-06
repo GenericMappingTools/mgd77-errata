@@ -1,0 +1,78 @@
+# Cruise 09770014 ID B82161 MGD77 FILE VERSION: 19890926 N_RECS: 10026
+# Examined: Mon Aug 16 16:01:40 2010 by mtchandl
+# Arguments:  -R284.8/321.65/-0.9/35.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-09770014-H16-01: Invalid Number of Ten Degree Identifiers: ( 9) [8]
+Y-W-09770014-H16-06: Ten Degree Identifier 5004 marked in header but was not crossed
+Y-W-09770014-nav-00: Flagged 0.14 % of records with bad navigation
+Y-I-09770014-depth-01: RLS m: 0.99955 b: 0 rms: 10.2273 r: 0.999974 sig: 1 dec: 0
+N-E-09770014-depth-02: Regression slope 0.99955 different from 1. Recommended: [1]
+Y-W-09770014-depth-12: Integer precision
+# Errata: Data
+?	09770014	1982-01-06T16:12:51.96	144	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-06T16:13:36.00	148	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-06T16:17:09.96	156	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-06T16:50:27.00	212	0-0-K	 GRAD: twt excessive
+Y	09770014	1982-01-09T01:04:28.98	1634	B-0-0	 NAV: non-increasing time
+Y	09770014	1982-01-09T21:31:48.96	2748	B-0-0	 NAV: non-increasing time
+Y	09770014	1982-01-09T22:18:12.00	2789	B-0-0	 NAV: non-increasing time
+Y	09770014	1982-01-09T23:45:42.00	2875	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+?	09770014	1982-01-10T00:55:48.00	2929	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T03:01:30.96	3038	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T03:31:09.96	3071	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T04:40:39.96	3163	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T04:52:54.96	3181	0-0-KL	 GRAD: twt, depth excessive
+Y	09770014	1982-01-10T05:28:55.98	3242	C-0-K	 NAV: excessive speed - GRAD: twt excessive
+?	09770014	1982-01-10T05:59:06.96	3267	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T06:21:30.96	3319	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T06:21:45.00	3320	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T06:21:46.98	3321	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T06:21:51.00	3322	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T06:22:00.96	3324	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T21:36:46.98	3349	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:37:00.96	3350	0-0-KL	 GRAD: twt, depth excessive
+Y	09770014	1982-01-10T21:38:13.98	3354	B-0-0	 NAV: non-increasing time
+?	09770014	1982-01-10T21:51:39.96	3369	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:52:48.00	3372	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:53:16.98	3373	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:54:04.98	3375	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:56:03.00	3378	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T21:56:36.00	3379	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T21:56:58.98	3380	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T22:43:30.00	3464	0-0-K	 GRAD: twt excessive
+Y	09770014	1982-01-10T22:44:06.00	3467	B-0-0	 NAV: non-increasing time
+?	09770014	1982-01-10T23:05:25.98	3525	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-10T23:32:01.98	3562	0-0-KL	 GRAD: twt, depth excessive
+Y	09770014	1982-01-10T23:36:39.00	3571	C-0-0	 NAV: excessive speed
+Y	09770014	1982-01-10T23:45:24.96	3584	B-0-0	 NAV: non-increasing time
+?	09770014	1982-01-10T23:48:51.00	3589	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-10T23:54:01.98	3599	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-11T03:13:48.00	3846	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T03:21:00.96	3862	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T03:27:36.00	3878	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T03:29:49.98	3883	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-11T03:36:18.00	3896	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-11T03:57:55.98	3939	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T12:10:12.96	4614	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T12:10:27.00	4615	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-11T17:34:18.96	5033	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T20:13:25.98	5287	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T20:16:09.00	5294	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T21:53:19.98	5413	0-0-KL	 GRAD: twt, depth excessive
+Y	09770014	1982-01-11T22:13:22.98	5449	B-0-0	 NAV: non-increasing time
+?	09770014	1982-01-11T22:13:27.00	5450	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-11T22:15:51.00	5456	0-0-KL	 GRAD: twt, depth excessive
+Y	09770014	1982-01-12T04:42:09.96	5856	C-0-KL	 NAV: excessive speed - GRAD: twt, depth excessive
+?	09770014	1982-01-12T04:50:43.98	5873	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-12T11:19:21.00	6362	0-0-KL	 GRAD: twt, depth excessive
+?	09770014	1982-01-12T13:32:21.96	6626	0-0-K	 GRAD: twt excessive
+?	09770014	1982-01-12T15:25:40.98	6856	0-0-K	 GRAD: twt excessive
+Y	09770014	1982-01-13T18:09:24.96	7663	C-0-0	 NAV: excessive speed
+Y	09770014	1982-01-13T18:12:22.98	7664	C-0-0	 NAV: excessive speed
+Y	09770014	1982-01-13T22:00:13.98	7744	C-0-0	 NAV: excessive speed
+?	09770014	1982-01-17T04:16:20.94	9917	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,65 @@
+# Cruise 05180003 ID GU7217 MGD77 FILE VERSION: 20080804 N_RECS: 8662
+# Examined: Fri May 21 13:09:40 2010 by mtchandl
+# Arguments:  -R174.85/179.65/-39.95/-36.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05180003-H13-10: Survey year (1972) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05180003-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05180003-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05180003-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05180003-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-I-05180003-depth-01: RLS m: 1.03336 b: 0 rms: 44.2261 r: 0.999214 sig: 1 dec: 0
+N-E-05180003-depth-02: Regression slope 1.03336 different from 1. Recommended: [1]
+Y-I-05180003-faa-01: RLS m: 1.00238 b: 0.839501 rms: 4.35332 r: 0.996256 sig: 1 dec: 0
+N-E-05180003-faa-02: Regression slope 1.00238 different from 1. Recommended: [1]
+Y-W-05180003-faa-03: Regression offset 0.839501 different from 0.
+Y-E-05180003-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0032 b: -18.8846 rms: 22.6977 r: 0.998316 sig: 1 dec: 1). [Recompute]
+Y-W-05180003-depth-12: Integer precision
+Y-W-05180003-mtf1-12: Integer precision
+# Errata: Data
+?	05180003	1972-11-22T03:15:00.00	219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:47:00.00	311	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:48:00.00	312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:49:00.00	313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:50:00.00	314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:51:00.00	315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:52:00.00	316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T04:53:00.00	317	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T08:40:00.00	544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:41:00.00	605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:42:00.00	606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:52:00.00	616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:53:00.00	617	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:55:00.00	619	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T09:56:00.00	620	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:13:00.00	637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:14:00.00	638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:26:00.00	650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:51:00.00	675	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:52:00.00	676	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:53:00.00	677	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T10:57:00.00	681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T11:00:00.00	684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T11:01:00.00	685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-22T11:36:00.00	720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T03:10:00.00	1654	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T04:44:00.00	1748	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:13:00.00	1837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:14:00.00	1838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:15:00.00	1839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:16:00.00	1840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:17:00.00	1841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:18:00.00	1842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:19:00.00	1843	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:23:00.00	1847	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:24:00.00	1848	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:25:00.00	1849	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:36:00.00	1860	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:37:00.00	1861	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:38:00.00	1862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:39:00.00	1863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05180003	1972-11-23T06:40:00.00	1864	0-0-OQ	 GRAD: mtf1, mag excessive

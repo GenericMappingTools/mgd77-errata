@@ -1,0 +1,16 @@
+# Cruise 15040039 ID 7TOW10WT MGD77 FILE VERSION: 19830819 N_RECS: 733
+# Examined: Thu May 22 09:32:44 2008 by mtchandl
+# Arguments:  -R234.7/238.8/34.1/42.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040039-H04-03: Invalid Survey Departure Day: (15) [16]
+N-E-15040039-H04-06: Invalid Survey Arrival Day: (25) [24]
+Y-E-15040039-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-E-15040039-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.0178 b: -158.53 rms: 159.702 r: 0.98691 sig: 1 dec: 1). [Recompute]
+Y-W-15040039-mtf1-12: Integer multiple of 5 precision
+Y-W-15040039-mag-12: Integer multiple of 5 precision
+# Errata: Data

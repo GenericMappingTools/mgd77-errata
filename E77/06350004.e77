@@ -1,0 +1,20 @@
+# Cruise 06350004 ID T274EG MGD77 FILE VERSION: 19870917 N_RECS: 898
+# Examined: Fri May 28 15:29:39 2010 by mtchandl
+# Arguments:  -R213.4/219.95/58.8/60.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Gravity data need to be reprocessed by the source institution, flagged all faa records due to poor correlation with satellite gravity. Flagged magnetic anomalies for relalculation.
+# Errata: Header
+Y-I-06350004-faa-01: RLS m: 0.249177 b: 15.9573 rms: 25.54 r: 0.403054 sig: 1 dec: 0
+N-E-06350004-faa-02: Regression slope 0.249177 different from 1. Recommended: [10]
+Y-W-06350004-faa-03: Regression offset 15.9573 different from 0.
+N-E-06350004-faa-06: Anomaly differs from gobs-IGF80 (m: 0.467626 b: 5.93472 rms: 22.8977 r: 0.744372 sig: 1 dec: 0). [Recompute]
+Y-E-06350004-faa-10: Invalid data records: [1-898]
+N-E-06350004-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.550821 b: 2.53477 rms: 19.8335 r: 0.855055 sig: 1 dec: 0). [Recompute]
+Y-W-06350004-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+N-E-06350004-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1.22054 b: -85.1582 rms: 67.5463 r: 0.959824 sig: 1 dec: 0). [Adjust to IGF 1980]
+Y-E-06350004-mag-07: Anomaly differs from mtf2-IGRF (m: 1.73731 b: 327.3 rms: 212.047 r: 0.192625 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+?	06350004	1974-09-17T04:52:00.00	64	0-0-OQ	 GRAD: mtf1, mag excessive

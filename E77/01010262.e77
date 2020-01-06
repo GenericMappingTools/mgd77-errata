@@ -1,0 +1,26 @@
+# Cruise 01010262 ID RC2702 MGD77 FILE VERSION: 19910319 N_RECS: 31089
+# Examined: Wed Jul  8 17:03:14 2009 by mtchandl
+# Arguments:  -R110.9/122.25/-23.7/-17.9 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~345 nT average offset from recomputed mag.
+# Errata: Header
+Y-E-01010262-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010262-H13-10: Survey year (1986) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-E-01010262-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010262-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010262-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010262-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010262-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010262-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-I-01010262-depth-01: RLS m: 1 b: 0 rms: 71.8626 r: 0.998773 sig: 1 dec: 1
+Y-E-01010262-mag-07: Anomaly differs from mtf1-IGRF (m: 0.954398 b: 344.226 rms: 344.829 r: 0.983164 sig: 1 dec: 1). [Recompute]
+N-E-01010262-depth-08: Extended offset from grid [328-31089]
+Y-W-01010262-twt-11: More recent bathymetry correction table available
+Y-W-01010262-mtf1-12: Integer precision
+# Errata: Data
+Y	01010262	1986-04-11T00:00:00.00	18694	C-0-0	 NAV: excessive speed
+Y	01010262	1986-04-11T00:01:00.00	18695	C-0-0	 NAV: excessive speed
+Y	01010262	1986-04-11T00:02:00.00	18696	C-0-0	 NAV: excessive speed

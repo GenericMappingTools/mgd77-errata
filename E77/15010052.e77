@@ -1,0 +1,35 @@
+# Cruise 15010052 ID NOVA05AR MGD77 FILE VERSION: 19800226 N_RECS: 5664
+# Examined: Tue May 13 09:07:19 2008 by mtchandl
+# Arguments:  -R153.2/182.6/-36.45/-21.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+N-E-15010052-H04-06: Invalid Survey Arrival Day: (12) [11]
+Y-E-15010052-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-15010052-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-W-15010052-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15010052-depth-01: RLS m: 0.996125 b: 0 rms: 118.85 r: 0.998021 sign: 1 dec: 1
+Y-E-15010052-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00364 b: 30.1533 rms: 71.9121 r: 0.961211 sig: 1 dec: 1). [Recompute]
+N-E-15010052-depth-08: Extended offset from grid [5154-5179]
+N-E-15010052-depth-08: Extended offset from grid [5183-5263]
+Y-E-15010052-twt-13: Encountered possible PDR wrap errors (9.6) [10.0]
+Y-W-15010052-twt-11: More recent bathymetry correction table available
+Y-W-15010052-mtf1-12: Integer multiple of 5 precision
+Y-W-15010052-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010052	1967-08-13T03:00:00.00	284	D-0-0	 NAV: on land
+?	15010052	1967-08-13T03:15:00.00	287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-14T14:55:00.00	573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-14T15:00:00.00	574	0-0-Q	 GRAD: mag excessive
+?	15010052	1967-08-20T15:10:00.00	1761	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-20T20:30:00.00	1795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-20T20:45:00.00	1798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-20T21:15:00.00	1804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-08-21T00:45:00.00	1846	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010052	1967-09-08T09:20:00.00	4851	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010052	1967-09-08T10:30:00.00	4865	C-0-0	 NAV: excessive speed
+?	15010052	1967-09-09T18:40:00.00	5154	0-0-KL	 GRAD: twt, depth excessive
+?	15010052	1967-09-09T21:05:00.00	5183	0-0-KL	 GRAD: twt, depth excessive

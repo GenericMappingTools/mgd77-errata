@@ -1,0 +1,31 @@
+# Cruise 05060011 ID HY6801 MGD77 FILE VERSION: 19840921 N_RECS: 1158
+# Examined: Fri Apr 30 13:42:25 2010 by mtchandl
+# Arguments:  -R176.5/185/-39.9/-27.95 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-05060011-H13-09: Unknown IGRF specified (DGRF-65)
+Y-E-05060011-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [4]
+Y-W-05060011-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-E-05060011-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997502 b: -9.93427 rms: 12.7217 r: 0.999613 sig: 1 dec: 1). [Recompute]
+Y-W-05060011-mtf1-12: Integer precision
+Y-W-05060011-mag-12: Integer precision
+# Errata: Data
+?	05060011	1968-02-21T20:38:00.00	492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-21T20:43:00.00	493	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-21T21:33:00.00	501	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-21T21:40:00.00	502	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-21T22:12:00.00	508	0-0-O	 GRAD: mtf1 excessive
+?	05060011	1968-02-23T05:00:00.00	543	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-25T14:56:00.00	607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-02-25T15:02:00.00	608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T01:34:00.00	1003	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T01:45:00.00	1005	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T01:48:00.00	1006	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T01:55:00.00	1007	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T01:59:00.00	1008	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T02:04:00.00	1009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05060011	1968-03-03T02:08:00.00	1010	0-0-OQ	 GRAD: mtf1, mag excessive

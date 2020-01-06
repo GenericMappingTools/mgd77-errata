@@ -1,0 +1,17 @@
+# Cruise 19170015 ID EGRHERA1 MGD77 FILE VERSION: 19980515 N_RECS: 2311
+# Examined: Tue Sep 14 17:03:59 2010 by mtchandl
+# Arguments:  -R355.05/356.5/49.9/50.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Ship and altimetry-derived gravity differ significantly in this shallow water survey.
+# Errata: Header
+Y-I-19170015-depth-01: RLS m: 1.0312 b: 0 rms: 2.67797 r: 0.98689 sig: 1 dec: 0
+N-E-19170015-depth-02: Regression slope 1.0312 different from 1. Recommended: [1]
+Y-I-19170015-faa-01: RLS m: 0.774166 b: 7.22445 rms: 2.80038 r: 0.899372 sig: 1 dec: 0
+N-E-19170015-faa-02: Regression slope 0.774166 different from 1. Recommended: [1]
+Y-W-19170015-faa-03: Regression offset 7.22445 different from 0.
+Y-W-19170015-faa-09: only found positive values
+Y-W-19170015-mtf1-12: Integer precision
+# Errata: Data

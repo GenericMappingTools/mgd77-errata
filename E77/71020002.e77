@@ -1,0 +1,20 @@
+# Cruise 71020002 ID TD277 MGD77 FILE VERSION: 19800606 N_RECS: 6374
+# Examined: Sun Jul 31 22:12:32 2011 by mtchandl
+# Arguments:  -R31.15/44.65/-29.85/-14 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-71020002-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-71020002-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-71020002-depth-01: RLS m: 1.00044 b: 0 rms: 8.05738 r: 0.999971 sig: 1 dec: 0
+N-E-71020002-depth-02: Regression slope 1.00044 different from 1. Recommended: [1]
+Y-E-71020002-mag-07: Anomaly differs from mtf1-IGRF (m: 0.9703 b: -371.273 rms: 374.945 r: 0.970562 sig: 1 dec: 1). [Recompute]
+Y-W-71020002-twt-11: More recent bathymetry correction table available
+Y-W-71020002-mtf1-12: Integer precision
+Y-W-71020002-mag-12: Integer precision
+# Errata: Data
+Y	71020002	1972-10-18T01:00:00.00	363	B-0-0	 NAV: non-increasing time
+?	71020002	1972-10-20T18:20:00.00	1147	0-Q-0	 VAL: mag invalid

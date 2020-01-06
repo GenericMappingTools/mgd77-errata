@@ -1,0 +1,21 @@
+# Cruise 15050012 ID DSDP14GC MGD77 FILE VERSION: 19800226 N_RECS: 10824
+# Examined: Wed May 28 12:45:40 2008 by mtchandl
+# Arguments:  -R295.65/349.85/3.35/37.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15050012-depth-01: RLS m: 0.996125 b: 0 rms: 119.998 r: 0.996898 sig: 1 dec: 1
+Y-E-15050012-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.846042 b: -54.2379 rms: 176.301 r: 0.614007 sig: 1 dec: 1). [Recompute]
+Y-W-15050012-twt-11: More recent bathymetry correction table available
+Y-W-15050012-mtf1-12: Integer multiple of 5 precision
+Y-W-15050012-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15050012	1970-10-24T13:04:00.00	2972	0-0-K	 GRAD: twt excessive
+?	15050012	1970-10-24T14:20:00.00	3019	0-0-K	 GRAD: twt excessive
+?	15050012	1970-10-24T16:24:00.00	3100	0-0-KL	 GRAD: twt, depth excessive
+?	15050012	1970-11-10T19:25:00.00	6260	0-0-K	 GRAD: twt excessive
+?	15050012	1970-11-11T18:02:00.00	6782	0-0-K	 GRAD: twt excessive
+?	15050012	1970-11-29T11:08:00.00	10190	0-0-OQ	 GRAD: mtf1, mag excessive

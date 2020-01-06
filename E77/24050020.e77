@@ -1,0 +1,17 @@
+# Cruise 24050020 ID GA-0079 MGD77 FILE VERSION: 20080519 N_RECS: 30961
+# Examined: Thu Feb  3 14:12:31 2011 by mtchandl
+# Arguments:  -R138.65/150.2/-39.75/-36.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050020-H04-06: Invalid Survey Arrival Day: (11) [10]
+N-E-24050020-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050020-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050020-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050020-H16-06: Ten Degree Identifier 3313 not marked in header but block was crossed
+Y-W-24050020-H16-06: Ten Degree Identifier 3314 not marked in header but block was crossed
+Y-W-24050020-H16-06: Ten Degree Identifier 3315 not marked in header but block was crossed
+Y-W-24050020-nav-00: Flagged 0.01 % of records with bad navigation

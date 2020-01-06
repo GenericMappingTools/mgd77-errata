@@ -1,0 +1,82 @@
+# Cruise 15020204 ID COOK06MV MGD77 FILE VERSION: 20040519 N_RECS: 26862
+# Examined: Tue May 20 11:51:43 2008 by mtchandl
+# Arguments:  -R140.2/144.7/11.15/13.8 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error. 
+# Errata: Header
+N-E-15020204-H04-05: Invalid Survey Arrival Month: (03) [02]
+N-E-15020204-H04-06: Invalid Survey Arrival Day: (01) [28]
+Y-W-15020204-H13-10: Survey year (2001) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15020204-H15-01: Invalid Gravity Departure Base Station Value: (978525.) [9785250]
+Y-E-15020204-H15-03: Invalid Gravity Arrival Base Station Value: (978525.) [9785250]
+Y-W-15020204-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15020204-depth-01: RLS m: 1.00311 b: 0 rms: 333.583 r: 0.989109 sig: 1 dec: 1
+Y-I-15020204-faa-01: RLS m: 0.99351 b: -2.30401 rms: 8.00518 r: 0.998378 sig: 1 dec: 1
+N-E-15020204-faa-02: Regression slope 0.99351 different from 1. Recommended: [1]
+Y-W-15020204-faa-03: Regression offset -2.30401 different from 0.
+N-E-15020204-faa-06: Anomaly differs from gobs - IGF80 (m: 0.864449 b: -4.66901 rms: 57.1132 r: 0.91619 sig: 1 dec: 1). [Recompute]
+Y-E-15020204-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.998195 b: -38.6768 rms: 39.525 r: 0.999643 sig: 1 dec: 1). [Recompute]
+Y-W-15020204-twt-11: More recent bathymetry correction table available
+Y-W-15020204-depth-12: Integer precision
+Y-W-15020204-mtf1-12: Integer precision
+# Errata: Data
+Y	15020204	2001-02-10T05:58:00.00	1	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T05:59:00.00	2	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T06:00:00.00	3	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T06:01:00.00	4	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T06:02:00.00	5	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T06:03:00.00	6	D-0-0	 NAV: on land
+Y	15020204	2001-02-10T06:04:00.00	7	D-0-0	 NAV: on land
+?	15020204	2001-02-10T08:11:00.00	123	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-14T09:33:00.00	5965	0-0-O	 GRAD: mtf1 excessive
+?	15020204	2001-02-14T09:34:00.00	5966	0-0-O	 GRAD: mtf1 excessive
+?	15020204	2001-02-24T00:51:00.00	19843	0-0-KL	 GRAD: twt, depth excessive
+?	15020204	2001-02-24T00:53:00.00	19845	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-24T20:36:00.00	21028	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-24T20:37:00.00	21029	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-25T05:24:00.00	21556	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T05:26:00.00	21558	0-0-KL	 GRAD: twt, depth excessive
+?	15020204	2001-02-25T06:35:00.00	21627	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T06:47:00.00	21639	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T07:04:00.00	21656	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T07:08:00.00	21660	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T15:50:00.00	22182	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T16:19:00.00	22211	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-25T21:21:00.00	22513	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-25T21:22:00.00	22514	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T03:01:00.00	22853	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T04:21:00.00	22933	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T04:22:00.00	22934	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T13:38:00.00	23490	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T13:39:00.00	23491	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T19:21:00.00	23833	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-26T19:22:00.00	23834	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T01:30:00.00	24202	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T01:31:00.00	24203	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T02:53:00.00	24285	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T07:25:00.00	24557	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T07:26:00.00	24558	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T07:47:00.00	24579	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T18:33:00.00	25225	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T22:20:00.00	25452	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T23:24:00.00	25516	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-27T23:25:00.00	25517	0-0-U	 GRAD: gobs excessive
+?	15020204	2001-02-28T13:16:00.00	26348	0-0-K	 GRAD: twt excessive
+?	15020204	2001-02-28T16:10:00.00	26522	0-0-W	 GRAD: faa excessive
+?	15020204	2001-02-28T21:38:00.00	26850	D-0-0	 NAV: on land
+?	15020204	2001-02-28T21:39:00.00	26851	D-0-0	 NAV: on land
+?	15020204	2001-02-28T21:40:00.00	26852	D-0-0	 NAV: on land
+?	15020204	2001-02-28T21:41:00.00	26853	D-0-0	 NAV: on land
+?	15020204	2001-02-28T21:42:00.00	26854	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:43:00.00	26855	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:44:00.00	26856	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:45:00.00	26857	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:46:00.00	26858	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:47:00.00	26859	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:48:00.00	26860	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:49:00.00	26861	D-0-0	 NAV: on land
+Y	15020204	2001-02-28T21:50:00.00	26862	D-0-0	 NAV: on land

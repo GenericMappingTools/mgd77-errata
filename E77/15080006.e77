@@ -1,0 +1,17 @@
+# Cruise 15080006 ID DOLP-AHO MGD77 FILE VERSION: 19800226 N_RECS: 7832
+# Examined: Sun Jun  1 14:19:24 2008 by mtchandl
+# Arguments:  -R221.9/241.15/3.1/30.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15080006-H04-05: Invalid Survey Arrival Month: (05) [04]
+N-E-15080006-H04-06: Invalid Survey Arrival Day: (01) [05]
+Y-I-15080006-depth-01: RLS m: 1 b: 0 rms: 144.338 r: 0.980895 sig: 1 dec: 1
+# Errata: Data
+?	15080006	1958-03-28T20:42:00.00	271	0-0-K	 GRAD: twt excessive
+?	15080006	1958-03-29T18:53:00.00	1596	0-0-K	 GRAD: twt excessive
+?	15080006	1958-03-30T03:13:00.00	2096	0-0-KL	 GRAD: twt, depth excessive
+?	15080006	1958-03-30T17:14:00.00	2937	0-0-K	 GRAD: twt excessive

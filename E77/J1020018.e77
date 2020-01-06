@@ -1,0 +1,15 @@
+# Cruise J1020018 ID HS7702 MGD77 FILE VERSION: 19880928 N_RECS: 687
+# Examined: Sat Aug  6 11:23:43 2011 by mtchandl
+# Arguments:  -R141.65/143.25/22.15/24 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, recomputing magnetic anomalies from 10 nT precision total field data may reduce their precision. Anomalies could also be outdated.
+# Errata: Header
+Y-W-J1020018-H13-10: Survey year (1977) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-J1020018-mtf1-12: Integer multiple of 5 precision
+# Errata: Data
+?	J1020018	144.837	59	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1020018	646.306	215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J1020018	648.213	216	0-0-OQ	 GRAD: mtf1, mag excessive

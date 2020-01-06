@@ -1,0 +1,14 @@
+# Cruise 02340002 ID AG044L01 MGD77 FILE VERSION: 19870316 N_RECS: 2675
+# Examined: Fri Apr  9 13:12:08 2010 by mtchandl
+# Arguments:  -R20.35/24.05/-54.45/-51.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetic for anomaly recalculation. Magnetic anomalies appear to be consistently shifted ~200 nT or so above zero.
+# Errata: Header
+Y-I-02340002-depth-01: RLS m: 1.0005 b: 0 rms: 49.1969 r: 0.992795 sig: 1 dec: 0
+Y-E-02340002-mag-10: Invalid data records: [1-2675]
+Y-W-02340002-mag-12: Integer precision
+# Errata: Data
+?	02340002	1986-05-01T03:20:00.00	932	0-0-K	 GRAD: twt excessive

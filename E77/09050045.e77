@@ -1,0 +1,65 @@
+# Cruise 09050045 ID KA931008 MGD77 FILE VERSION: 19801110 N_RECS: 17479
+# Examined: Mon Aug  9 11:43:08 2010 by mtchandl
+# Arguments:  -R329.95/357.3/26.9/45.1 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09050045-time-01: 1 of 17479 records contain invalid time
+N-E-09050045-H04-03: Invalid Survey Departure Day: (07) [09]
+Y-E-09050045-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050045-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09050045-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-09050045-depth-01: RLS m: 1 b: 0 rms: 15.1847 r: 0.999914 sig: 1 dec: 0
+Y-W-09050045-depth-12: Integer precision
+# Errata: Data
+Y	09050045	1971-01-09T20:05:00.00	95	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-01-13T18:05:00.00	1098	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-01-18T21:15:00.00	2250	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-01-20T11:07:00.00	2577	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-01-30T12:55:00.00	3877	B-0-0	 NAV: non-increasing time
+?	09050045	1971-02-07T04:35:00.00	5566	0-0-KL	 GRAD: twt, depth excessive
+Y	09050045	1971-02-09T18:35:00.00	6242	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-02-25T20:55:00.00	8888	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-02-26T08:30:00.00	9029	B-0-0	 NAV: non-increasing time
+?	09050045	1971-02-26T14:35:00.00	9139	0-0-K	 GRAD: twt excessive
+Y	09050045	1971-02-26T16:07:00.00	9169	B-0-0	 NAV: non-increasing time
+Y	09050045	NaN	9416	E-0-0	 NAV: navigation undefined
+Y	09050045	1971-02-27T12:05:00.00	9471	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-03-01T00:32:00.00	9888	B-0-0	 NAV: non-increasing time
+?	09050045	1971-03-16T21:37:00.00	11371	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-20T21:20:00.00	12430	0-0-K	 GRAD: twt excessive
+?	09050045	1971-03-22T22:22:00.00	12967	0-0-KL	 GRAD: twt, depth excessive
+Y	09050045	1971-03-23T14:43:00.00	13146	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-03-23T20:11:00.00	13260	B-0-0	 NAV: non-increasing time
+?	09050045	1971-03-24T11:41:00.00	13527	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-24T11:42:00.00	13528	0-0-KL	 GRAD: twt, depth excessive
+Y	09050045	1971-03-24T12:02:00.00	13542	B-0-0	 NAV: non-increasing time
+Y	09050045	1971-03-24T12:03:00.00	13543	B-0-0	 NAV: non-increasing time
+?	09050045	1971-03-24T17:16:00.00	13582	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-24T17:20:00.00	13583	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-25T14:21:00.00	13900	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-25T14:25:00.00	13901	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-03-28T15:31:00.00	14746	0-0-K	 GRAD: twt excessive
+?	09050045	1971-03-31T23:41:00.00	15595	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-02T19:50:00.00	15977	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-03T11:43:00.00	16109	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T11:45:00.00	16110	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-03T11:57:00.00	16113	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T12:00:00.00	16114	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T12:03:00.00	16115	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-03T12:05:00.00	16116	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T12:12:00.00	16118	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T12:15:00.00	16119	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-03T12:16:00.00	16120	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-03T13:28:00.00	16135	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-03T13:30:00.00	16136	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-04T06:16:00.00	16324	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-04T08:21:00.00	16357	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-04T18:41:00.00	16428	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-04T20:23:00.00	16452	0-0-K	 GRAD: twt excessive
+?	09050045	1971-04-04T20:25:00.00	16453	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-07T20:48:00.00	17440	0-0-KL	 GRAD: twt, depth excessive
+?	09050045	1971-04-07T20:50:00.00	17441	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,22 @@
+# Cruise 09050051 ID KA343507 MGD77 FILE VERSION: 19800219 N_RECS: 13348
+# Examined: Mon Aug  9 11:47:30 2010 by mtchandl
+# Arguments:  -R343.9/357.7/29.35/45.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-09050051-H04-03: Invalid Survey Departure Day: (01) [02]
+N-E-09050051-H04-06: Invalid Survey Arrival Day: (22) [20]
+Y-E-09050051-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09050051-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-09050051-depth-01: RLS m: 0.99922 b: 0 rms: 12.6449 r: 0.999929 sig: 1 dec: 0
+N-E-09050051-depth-02: Regression slope 0.99922 different from 1. Recommended: [1]
+Y-E-09050051-mag-07: Anomaly differs from mtf1-IGRF (m: 0.944871 b: -89.1461 rms: 98.9553 r: 0.962702 sig: 1 dec: 1). [Recompute]
+Y-W-09050051-twt-11: More recent bathymetry correction table available
+Y-W-09050051-depth-12: Integer precision
+Y-W-09050051-mag-12: Integer precision
+# Errata: Data
+?	09050051	1974-08-12T10:53:00.00	4889	0-0-KL	 GRAD: twt, depth excessive
+?	09050051	1974-08-14T17:02:00.00	7433	0-0-K	 GRAD: twt excessive

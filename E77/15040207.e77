@@ -1,0 +1,28 @@
+# Cruise 15040207 ID TUNE03WT MGD77 FILE VERSION: 19920924 N_RECS: 21425
+# Examined: Mon May 26 17:32:53 2008 by mtchandl
+# Arguments:  -R202.1/210.45/-17.55/21.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15040207-H04-02: Invalid Survey Departure Month: (08) [09]
+N-E-15040207-H04-03: Invalid Survey Departure Day: (31) [01]
+Y-W-15040207-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15040207-depth-01: RLS m: 1 b: 0 rms: 159.724 r: 0.993835 sig: 1 dec: 1
+Y-W-15040207-twt-11: More recent bathymetry correction table available
+Y-W-15040207-depth-12: Integer precision
+# Errata: Data
+?	15040207	1991-09-15T22:57:00.00	9968	0-0-K	 GRAD: twt excessive
+?	15040207	1991-09-16T10:52:00.00	10260	0-0-KL	 GRAD: twt, depth excessive
+?	15040207	1991-09-30T13:03:00.00	20110	0-0-KL	 GRAD: twt, depth excessive
+?	15040207	1991-09-30T13:05:00.00	20112	0-0-K	 GRAD: twt excessive
+?	15040207	1991-09-30T13:19:00.00	20126	0-0-KL	 GRAD: twt, depth excessive
+?	15040207	1991-09-30T13:20:00.00	20127	0-0-K	 GRAD: twt excessive
+Y	15040207	1991-10-01T17:16:00.00	21396	D-0-0	 NAV: on land
+Y	15040207	1991-10-01T17:19:00.00	21397	D-0-0	 NAV: on land
+Y	15040207	1991-10-01T17:20:00.00	21398	D-0-0	 NAV: on land
+Y	15040207	1991-10-01T17:24:00.00	21399	D-0-0	 NAV: on land
+?	15040207	1991-10-01T17:30:00.00	21400	D-0-0	 NAV: on land
+?	15040207	1991-10-01T17:33:00.00	21401	D-0-0	 NAV: on land

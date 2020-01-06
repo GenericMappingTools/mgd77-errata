@@ -1,0 +1,31 @@
+# Cruise 08020014 ID 8504 MGD77 FILE VERSION: 19890113 N_RECS: 21312
+# Examined: Fri Jul 30 11:10:49 2010 by mtchandl
+# Arguments:  -R279/282.9/-12.05/-8.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-08020014-H04-06: Invalid Survey Arrival Day: (17) [13]
+Y-W-08020014-H13-10: Survey year (1985) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-08020014-depth-01: RLS m: 0.998915 b: 0 rms: 28.6594 r: 0.999881 sig: 1 dec: 0
+N-E-08020014-depth-02: Regression slope 0.998915 different from 1. Recommended: [1]
+Y-E-08020014-mag-07: Anomaly differs from mtf1-IGRF (m: 0.949458 b: 182.514 rms: 181.332 r: 0.969728 sig: 1 dec: 1). [Recompute]
+Y-W-08020014-mag-09: only found positive values
+Y-W-08020014-twt-11: More recent bathymetry correction table available
+Y-W-08020014-mtf1-12: Integer precision
+Y-W-08020014-mag-12: Integer precision
+# Errata: Data
+?	08020014	1985-02-27T23:54:19.98	1	D-0-0	 NAV: on land
+?	08020014	1985-02-27T23:57:19.98	2	D-0-0	 NAV: on land
+?	08020014	1985-02-28T00:00:19.98	3	D-0-0	 NAV: on land
+?	08020014	1985-02-28T00:03:19.98	4	D-0-0	 NAV: on land
+?	08020014	1985-02-28T00:06:19.98	5	D-0-0	 NAV: on land
+?	08020014	1985-02-28T00:09:19.98	6	D-0-0	 NAV: on land
+?	08020014	1985-03-05T08:16:00.00	8539	0-0-K	 GRAD: twt excessive
+?	08020014	1985-03-08T10:13:19.98	13784	0-0-KL	 GRAD: twt, depth excessive
+?	08020014	1985-03-08T23:52:19.98	14725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020014	1985-03-09T03:44:40.02	14920	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08020014	1985-03-10T16:21:00.00	17276	0-0-K	 GRAD: twt excessive
+?	08020014	1985-03-10T16:32:40.02	17290	0-0-KL	 GRAD: twt, depth excessive

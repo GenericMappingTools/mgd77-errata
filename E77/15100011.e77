@@ -1,0 +1,18 @@
+# Cruise 15100011 ID STYX10AZ MGD77 FILE VERSION: 19800226 N_RECS: 3083
+# Examined: Mon Jun  2 11:05:32 2008 by mtchandl
+# Arguments:  -R202.15/242.75/21.2/32.65 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15100011-H04-03: Invalid Survey Departure Day: (25) [26]
+Y-I-15100011-depth-01: RLS m: 1 b: 0 rms: 144.857 r: 0.996649 sig: 1 dec: 1
+Y-E-15100011-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03144 b: -154.285 rms: 160.573 r: 0.974099 sig: 1 dec: 1). [Recompute]
+Y-W-15100011-mtf1-12: Integer multiple of 5 precision
+Y-W-15100011-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15100011	1968-11-26T07:05:00.00	2	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15100011	1968-11-26T10:15:00.00	40	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15100011	1968-11-26T11:00:00.00	49	0-0-OQ	 GRAD: mtf1, mag excessive

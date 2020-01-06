@@ -1,0 +1,16 @@
+# Cruise 15340006 ID KN138L07 MGD77 FILE VERSION: 19951214 N_RECS: 18183
+# Examined: Wed Jun  4 22:38:08 2008 by mtchandl
+# Arguments:  -R181.4/184.75/-34.3/-18.1 -Idepth,1,18183 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend disregarding bogus depth soundings until fixed by source institution.
+# Errata: Header
+N-E-15340006-H04-03: Invalid Survey Departure Day: (01) [02]
+Y-W-15340006-nav-00: Flagged 0.01 % of records with excessive speed or invalid navigation
+Y-E-15340006-depth-10: Invalid data records: [1-18183]
+Y-W-15340006-twt-11: More recent bathymetry correction table available
+Y-W-15340006-depth-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15340006	1992-09-09T06:43:00.00	10239	C-0-0	 NAV: excessive speed

@@ -1,0 +1,35 @@
+# Cruise 02010061 ID CH115L01 MGD77 FILE VERSION: 19820805 N_RECS: 8908
+# Examined: Fri Mar 26 21:05:16 2010 by mtchandl
+# Arguments:  -R289.45/342.5/8.95/41 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010061-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02010061-depth-01: RLS m: 1 b: 0 rms: 39.2381 r: 0.999222 sig: 1 dec: 0
+Y-I-02010061-faa-01: RLS m: 0.991619 b: 3.8239 rms: 5.36575 r: 0.981307 sig: 1 dec: 0
+N-E-02010061-faa-02: Regression slope 0.991619 different from 1. Recommended: [1]
+Y-W-02010061-faa-03: Regression offset 3.8239 different from 0.
+Y-I-02010061-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-02010061-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.810362 b: -45.8798 rms: 54.8974 r: 0.961432 sig: 1 dec: 0). [Recompute]
+Y-E-02010061-mag-07: Anomaly differs from mtf1-IGRF (m: 1.20921 b: -296.61 rms: 324.698 r: 0.639844 sig: 1 dec: 1). [Recompute]
+Y-W-02010061-twt-11: More recent bathymetry correction table available
+Y-W-02010061-mtf1-12: Integer precision
+Y-W-02010061-mag-12: Integer precision
+# Errata: Data
+?	02010061	1973-11-21T04:42:00.00	124	0-0-KL	 GRAD: twt, depth excessive
+?	02010061	1973-11-21T13:39:00.00	253	0-0-K	 GRAD: twt excessive
+?	02010061	1973-11-25T17:11:00.00	1849	0-0-KL	 GRAD: twt, depth excessive
+?	02010061	1973-11-26T12:40:00.00	2282	0-0-U	 GRAD: gobs excessive
+?	02010061	1973-11-26T12:50:00.00	2286	0-0-U	 GRAD: gobs excessive
+?	02010061	1973-12-02T21:58:00.00	5656	0-0-K	 GRAD: twt excessive
+?	02010061	1973-12-07T07:00:00.00	7694	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-08T08:45:00.00	8117	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-08T09:05:00.00	8121	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-08T13:10:00.00	8170	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-09T10:22:00.00	8478	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-09T10:41:00.00	8497	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-09T11:01:00.00	8517	0-0-V	 GRAD: eot excessive
+?	02010061	1973-12-09T11:21:00.00	8537	0-0-V	 GRAD: eot excessive

@@ -1,0 +1,36 @@
+# Cruise 09030046 ID SI343716 MGD77 FILE VERSION: 19801110 N_RECS: 10418
+# Examined: Fri Jul 30 14:43:45 2010 by mtchandl
+# Arguments:  -R202.25/208.05/10.8/20.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-09030046-time-01: 1 of 10418 records contain invalid time
+Y-W-09030046-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-09030046-depth-01: RLS m: 1.00031 b: 0 rms: 13.1031 r: 0.999412 sig: 1 dec: 0
+Y-W-09030046-depth-12: Integer precision
+# Errata: Data
+?	09030046	1977-02-03T04:12:00.00	12	0-0-K	 GRAD: twt excessive
+Y	09030046	1977-02-03T14:05:00.00	605	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-03T15:59:00.00	719	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-05T14:47:00.00	3525	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-05T23:38:00.00	3970	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-06T00:36:00.00	4027	C-0-0	 NAV: excessive speed
+?	09030046	1977-02-23T13:47:00.00	5499	0-0-K	 GRAD: twt excessive
+?	09030046	1977-02-23T13:53:00.00	5505	0-0-K	 GRAD: twt excessive
+Y	09030046	1977-02-23T20:05:00.00	5877	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-23T22:05:00.00	5997	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-23T22:21:00.00	6013	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-24T01:01:00.00	6172	C-0-0	 NAV: excessive speed
+Y	09030046	1977-02-24T01:42:00.00	6213	C-0-0	 NAV: excessive speed
+Y	09030046	NaN	7996	E-0-0	 NAV: navigation undefined
+Y	09030046	1977-03-05T02:24:00.00	7997	C-0-0	 NAV: excessive speed
+Y	09030046	1977-03-05T02:15:00.00	7998	B-0-0	 NAV: non-increasing time
+Y	09030046	1977-03-05T02:16:00.00	7999	B-0-0	 NAV: non-increasing time
+Y	09030046	1977-03-05T02:17:00.00	8000	B-0-0	 NAV: non-increasing time
+Y	09030046	1977-03-05T02:18:00.00	8001	B-0-0	 NAV: non-increasing time
+Y	09030046	1977-03-05T02:19:00.00	8002	B-0-0	 NAV: non-increasing time
+Y	09030046	1977-03-06T07:18:00.00	9720	C-0-0	 NAV: excessive speed
+Y	09030046	1977-03-06T07:09:00.00	9721	B-0-0	 NAV: non-increasing time

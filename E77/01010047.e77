@@ -1,0 +1,23 @@
+# Cruise 01010047 ID RC1104 MGD77 FILE VERSION: 19790619 N_RECS: 8303
+# Examined: Mon Jan 26 17:05:40 2009 by mtchandl
+# Arguments:  -R18.3/64/-56.85/-19.65 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Outdated gravity formula (IGF 1930) but no gobs or eot for recomputation. Recommend disregarding faa until fixed by source institution.
+# Errata: Header
+Y-I-01010047-depth-01: RLS m: 0.999651 b: 0 rms: 7.65809 r: 0.999994 sig: 1 dec: 0
+N-E-01010047-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-01010047-faa-01: RLS m: 1.00621 b: -27.8152 rms: 30.6696 r: 0.941793 sig: 1 dec: 1
+Y-W-01010047-faa-03: Regression offset -27.8152 different from 0.
+Y-E-01010047-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03478 b: 61.6382 rms: 79.3519 r: 0.951309 sig: 1 dec: 0). [Recompute]
+Y-E-01010047-faa-08: Extended offset from grid [1-8303]
+Y-W-01010047-twt-11: More recent bathymetry correction table available
+Y-W-01010047-mtf1-12: Integer precision
+Y-W-01010047-mag-12: Integer precision
+# Errata: Data
+?	01010047	1967-03-19T07:30:00.00	4563	0-0-Q	 GRAD: mag excessive
+?	01010047	1967-03-19T07:34:00.00	4564	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010047	1967-03-19T07:40:00.00	4566	0-0-O	 GRAD: mtf1 excessive
+?	01010047	1967-03-19T08:05:00.00	4575	0-0-Q	 GRAD: mag excessive

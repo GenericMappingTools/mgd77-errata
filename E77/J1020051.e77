@@ -1,0 +1,32 @@
+# Cruise J1020051 ID HS00T493 MGD77 FILE VERSION: 20080215 N_RECS: 788
+# Examined: Sun Aug  7 07:14:40 2011 by mtchandl
+# Arguments:  -R157.45/160.1/20.8/24.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field data for anomaly recalculation, magnetic anomalies could be outdated.
+# Errata: Header
+N-E-J1020051-H04-03: Invalid Survey Departure Day: (18) [21]
+N-E-J1020051-H04-06: Invalid Survey Arrival Day: (12) [07]
+Y-E-J1020051-H15-01: Invalid Gravity Departure Base Station Value: (  -9595) [  -9595]
+Y-E-J1020051-H15-03: Invalid Gravity Arrival Base Station Value: (  -9612) [  -9612]
+Y-I-J1020051-depth-01: RLS m: 1 b: 0 rms: 25.2124 r: 0.999805 sig: 1 dec: 0
+Y-I-J1020051-faa-01: RLS m: 1.01894 b: -5.25184 rms: 5.93379 r: 0.998973 sig: 1 dec: 0
+N-E-J1020051-faa-02: Regression slope 1.01894 different from 1. Recommended: [1]
+Y-W-J1020051-faa-03: Regression offset -5.25184 different from 0.
+Y-W-J1020051-depth-12: Integer multiple of 5 precision
+Y-W-J1020051-mag-12: Integer precision
+Y-W-J1020051-faa-12: Integer precision
+# Errata: Data
+?	J1020051	2001-03-05T09:40:00.00	488	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T10:20:00.00	492	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T10:30:00.00	493	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T11:00:00.00	496	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T11:10:00.00	497	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T19:00:00.00	542	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-05T21:10:00.00	555	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-06T03:20:00.00	591	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-06T16:40:00.00	668	0-Q-0	 VAL: mag invalid
+?	J1020051	2001-03-06T17:00:00.00	670	0-0-Q	 GRAD: mag excessive
+?	J1020051	2001-03-07T05:30:00.00	744	0-Q-0	 VAL: mag invalid

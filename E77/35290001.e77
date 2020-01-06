@@ -1,0 +1,16 @@
+# Cruise 35290001 ID 13273 MGD77 FILE VERSION: 19880323 N_RECS: 1341
+# Examined: Wed Jul 27 19:23:43 2011 by mtchandl
+# Arguments:  -R29.1/39.55/40/46.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-35290001-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-35290001-depth-01: RLS m: 1.03155 b: 0 rms: 61.5593 r: 0.997198 sig: 1 dec: 0
+N-E-35290001-depth-02: Regression slope 1.03155 different from 1. Recommended: [1]
+Y-W-35290001-depth-12: Integer precision
+# Errata: Data
+Y	35290001	0	1	D-0-0	 NAV: on land
+Y	35290001	2667.93	699	D-0-0	 NAV: on land

@@ -1,0 +1,21 @@
+# Cruise J7010001 ID RN86 MGD77 FILE VERSION: 19921231 N_RECS: 430
+# Examined: Mon Aug  8 15:59:04 2011 by mtchandl
+# Arguments:  -R123.6/127.65/23.9/26.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-J7010001-H04-03: Invalid Survey Departure Day: (03) [04]
+Y-W-J7010001-nav-00: Flagged 0.93 % of records with bad navigation
+Y-I-J7010001-depth-01: RLS m: 1.00105 b: 0 rms: 23.4561 r: 0.999561 sig: 1 dec: 0
+Y-E-J7010001-mag-07: Anomaly differs from mtf1-IGRF (m: 1 b: 10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+Y	J7010001	1986-10-04T07:30:00.00	11	C-0-0	 NAV: excessive speed
+Y	J7010001	1986-10-04T07:45:00.00	12	C-0-0	 NAV: excessive speed
+?	J7010001	1986-10-08T10:17:00.00	243	D-0-0	 NAV: on land
+?	J7010001	1986-10-08T10:30:00.00	244	D-0-0	 NAV: on land
+?	J7010001	1986-10-08T10:42:00.00	245	D-0-0	 NAV: on land
+Y	J7010001	1986-10-09T12:55:00.00	382	C-0-0	 NAV: excessive speed
+Y	J7010001	1986-10-09T13:16:00.00	387	C-0-0	 NAV: excessive speed

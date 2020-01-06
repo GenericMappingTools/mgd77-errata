@@ -1,0 +1,16 @@
+# Cruise 15050076 ID DSDP77GC MGD77 FILE VERSION: 19830819 N_RECS: 6195
+# Examined: Fri May 30 10:19:37 2008 by mtchandl
+# Arguments:  -R274.5/290.4/19.75/24.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15050076-H13-10: Survey year (1980-1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-15050076-depth-01: RLS m: 1 b: 0 rms: 75.8499 r: 0.997635 sig: 1 dec: 1
+Y-E-15050076-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.867463 b: -417.685 rms: 426.132 r: 0.966709 sig: 1 dec: 1). [Recompute]
+Y-W-15050076-mag-09: only found negative values
+Y-W-15050076-mtf1-12: Integer precision
+Y-W-15050076-mag-12: Integer precision
+# Errata: Data

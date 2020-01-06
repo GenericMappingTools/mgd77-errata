@@ -1,0 +1,47 @@
+# Cruise 02010040 ID CH096L05 MGD77 FILE VERSION: 19820805 N_RECS: 7275
+# Examined: Fri Mar 26 20:41:53 2010 by mtchandl
+# Arguments:  -R289.05/350.6/29.25/40.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and faa using IGF80.
+# Errata: Header
+Y-I-02010040-depth-01: RLS m: 1.00004 b: 0 rms: 35.3772 r: 0.999627 sig: 1 dec: 0
+Y-I-02010040-faa-01: RLS m: 1.01776 b: -5.2466 rms: 16.2637 r: 0.974494 sig: 1 dec: 1
+Y-W-02010040-faa-03: Regression offset -5.2466 different from 0.
+Y-E-02010040-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -10 rms: 10 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010040-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.454976 b: 4.11659 rms: 50.591 r: 0.751147 sig: 1 dec: 1). [Recompute]
+Y-E-02010040-mag-07: Anomaly differs from mtf1-IGRF (m: 1.03601 b: -128.344 rms: 167.495 r: 0.853335 sig: 1 dec: 1). [Recompute]
+N-E-02010040-faa-08: Extended offset from grid [4983-7275]
+Y-W-02010040-mtf1-12: Integer precision
+Y-W-02010040-mag-12: Integer precision
+# Errata: Data
+?	02010040	1969-12-01T22:37:00.00	1416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:45:00.00	1424	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:47:00.00	1426	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:49:00.00	1428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:50:00.00	1429	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:52:00.00	1431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:53:00.00	1432	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:54:00.00	1433	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:55:00.00	1434	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T22:56:00.00	1435	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T23:04:00.00	1443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T23:05:00.00	1444	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-01T23:06:00.00	1445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-05T07:25:00.00	2632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-06T17:55:00.00	3199	0-0-K	 GRAD: twt excessive
+?	02010040	1969-12-06T23:05:00.00	3290	0-0-K	 GRAD: twt excessive
+?	02010040	1969-12-08T11:10:00.00	3949	0-0-K	 GRAD: twt excessive
+?	02010040	1969-12-08T11:12:00.00	3950	0-0-KL	 GRAD: twt, depth excessive
+?	02010040	1969-12-08T23:18:00.00	4171	0-0-KL	 GRAD: twt, depth excessive
+?	02010040	1969-12-09T01:20:00.00	4214	0-0-KL	 GRAD: twt, depth excessive
+?	02010040	1969-12-10T05:35:00.00	4698	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-13T23:10:00.00	6234	0-Q-0	 VAL: mag invalid
+?	02010040	1969-12-13T23:14:00.00	6235	0-Q-0	 VAL: mag invalid
+?	02010040	1969-12-13T23:18:00.00	6237	0-Q-0	 VAL: mag invalid
+?	02010040	1969-12-13T23:20:00.00	6239	0-Q-0	 VAL: mag invalid
+?	02010040	1969-12-14T20:25:00.00	6579	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-14T20:30:00.00	6580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010040	1969-12-15T12:58:00.00	6808	0-0-KL	 GRAD: twt, depth excessive

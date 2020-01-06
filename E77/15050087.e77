@@ -1,0 +1,16 @@
+# Cruise 15050087 ID DSDP87GC MGD77 FILE VERSION: 19840611 N_RECS: 10025
+# Examined: Fri May 30 10:26:07 2008 by mtchandl
+# Arguments:  -R133.75/144.15/31.65/40.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15050087-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15050087-depth-01: RLS m: 1.00388 b: 0 rms: 110.892 r: 0.996755 sig: 1 dec: 1
+Y-E-15050087-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.990722 b: 43.968 rms: 46.1364 r: 0.996762 sig: 1 dec: 1). [Recompute]
+Y-W-15050087-twt-11: More recent bathymetry correction table available
+Y-W-15050087-mtf1-12: Integer precision
+Y-W-15050087-mag-12: Integer precision
+# Errata: Data

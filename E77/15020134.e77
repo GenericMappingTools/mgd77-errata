@@ -1,0 +1,103 @@
+# Cruise 15020134 ID GLOR02MV MGD77 FILE VERSION: 19951214 N_RECS: 49870
+# Examined: Sat May 17 10:18:15 2008 by mtchandl
+# Arguments:  -R243.15/260.15/-27.25/16.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler (Revised 4 Feb 2009 by M. T. Chandler)
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15020134-H13-10: Survey year (1992) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020134-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15020134-depth-01: RLS m: 1 b: 0 rms: 162.506 r: 0.988969 sig: 1 dec: 1
+Y-I-15020134-faa-01: RLS m: 0.98191 b: -1.08708 rms: 7.96361 r: 0.990709 sig: 1 dec: 1
+N-E-15020134-faa-06: Anomaly differs from gobs-IGF80 (m: 0.0118178 b: 9.93455 rms: 31.0888 r: 0.0967783 sig: 1 dec: 0). [Recompute]
+N-E-15020134-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.0310271 b: 8.37871 rms: 53.0248 r: 0.0935883 sig: 0 dec: 1). [Adjust to IGF 1980]
+Y-E-15020134-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00029 b: 28.3921 rms: 45.4289 r: 0.991263 sig: 1 dec: 1). [Recompute]
+Y-W-15020134-twt-11: More recent bathymetry correction table available
+Y-W-15020134-depth-12: Integer precision
+Y-W-15020134-mtf1-12: Integer precision
+# Errata: Data
+?	15020134	1992-11-05T21:32:00.00	1	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:33:00.00	2	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:34:00.00	3	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:35:00.00	4	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:36:00.00	5	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:37:00.00	6	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:38:00.00	7	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:39:00.00	8	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:40:00.00	9	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:41:00.00	10	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:42:00.00	11	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:43:00.00	12	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:44:00.00	13	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:45:00.00	14	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:46:00.00	15	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:47:00.00	16	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:48:00.00	17	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:49:00.00	18	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:51:00.00	20	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:52:00.00	21	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:53:00.00	22	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:54:00.00	23	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:55:00.00	24	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:56:00.00	25	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:57:00.00	26	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:58:00.00	27	D-0-0	 NAV: on land
+?	15020134	1992-11-05T21:59:00.00	28	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:00:00.00	29	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:01:00.00	30	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:02:00.00	31	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:03:00.00	32	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:04:00.00	33	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:05:00.00	34	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:06:00.00	35	D-0-0	 NAV: on land
+?	15020134	1992-11-05T22:07:00.00	36	D-0-0	 NAV: on land
+Y	15020134	1992-11-06T09:32:00.00	721	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-06T18:54:00.00	1283	C-0-0	 NAV: excessive speed
+?	15020134	1992-11-07T18:11:00.00	2680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-11-10T18:37:00.00	7026	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-11-10T18:38:00.00	7027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-11-10T18:39:00.00	7028	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15020134	1992-11-13T01:00:00.00	10289	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-13T05:29:00.00	10558	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-13T09:59:00.00	10828	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-13T10:00:00.00	10829	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-14T05:04:00.00	11973	C-0-0	 NAV: excessive speed
+Y	15020134	1992-11-14T05:17:00.00	11986	C-0-0	 NAV: excessive speed
+?	15020134	1992-11-14T06:12:00.00	12041	0-0-U	 GRAD: gobs excessive
+Y	15020134	1992-11-14T08:37:00.00	12186	C-0-0	 NAV: excessive speed
+?	15020134	1992-11-14T10:24:00.00	12293	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-11-14T15:28:00.00	12597	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-11-16T01:11:00.00	14620	0-0-U	 GRAD: gobs excessive
+Y	15020134	1992-11-16T05:11:00.00	14860	C-0-0	 NAV: excessive speed
+?	15020134	1992-11-24T19:09:00.00	27218	0-0-K	 GRAD: twt excessive
+?	15020134	1992-11-25T18:14:00.00	28603	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-11-25T21:34:00.00	28803	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-11-25T21:35:00.00	28804	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-11-25T21:38:00.00	28807	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-03T23:13:00.00	40422	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-12-04T09:46:00.00	41055	0-0-K	 GRAD: twt excessive
+?	15020134	1992-12-04T17:52:00.00	41541	0-0-K	 GRAD: twt excessive
+?	15020134	1992-12-06T18:14:00.00	44394	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-06T18:15:00.00	44395	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-06T20:14:00.00	44514	0-0-K	 GRAD: twt excessive
+?	15020134	1992-12-06T23:55:00.00	44735	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T00:11:00.00	44751	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T00:40:00.00	44780	0-0-KL	 GRAD: twt, depth excessive
+?	15020134	1992-12-07T00:41:00.00	44781	0-0-KL	 GRAD: twt, depth excessive
+?	15020134	1992-12-07T00:42:00.00	44782	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T00:45:00.00	44785	0-0-W	 GRAD: faa excessive
+?	15020134	1992-12-07T01:52:00.00	44852	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T02:06:00.00	44866	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T02:11:00.00	44871	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T02:52:00.00	44912	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T02:53:00.00	44913	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T03:37:00.00	44957	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T04:42:00.00	45022	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T23:26:00.00	46146	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-07T23:27:00.00	46147	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-08T02:23:00.00	46323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020134	1992-12-08T20:01:00.00	47381	0-0-U	 GRAD: gobs excessive
+?	15020134	1992-12-10T11:00:00.00	49684	0-0-K	 GRAD: twt excessive

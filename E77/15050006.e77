@@ -1,0 +1,15 @@
+# Cruise 15050006 ID DSDP08GC MGD77 FILE VERSION: 19810928 N_RECS: 15754
+# Examined: Tue May 27 11:16:30 2008 by mtchandl
+# Arguments:  -R195.65/225.8/-17.45/20.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15050006-depth-01: RLS m: 0.996125 b: 0 rms: 108.468 r: 0.995777 sig: 1 dec: 1
+Y-E-15050006-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.952761 b: -23.7059 rms: 59.9706 r: 0.922228 sig: 1 dec: 1). [Recompute]
+Y-W-15050006-twt-11: More recent bathymetry correction table available
+Y-W-15050006-mtf1-12: Integer precision
+Y-W-15050006-mag-12: Integer precision
+# Errata: Data

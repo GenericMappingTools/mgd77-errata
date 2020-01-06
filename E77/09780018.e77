@@ -1,0 +1,117 @@
+# Cruise 09780018 ID WI343503 MGD77 FILE VERSION: 19800219 N_RECS: 19018
+# Examined: Mon Aug 16 16:19:45 2010 by mtchandl
+# Arguments:  -R-13.6/32.75/53.05/73.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-09780018-H04-01: Invalid Survey Departure Year: (1975) [1974]
+N-E-09780018-H04-03: Invalid Survey Departure Day: (22) [24]
+N-E-09780018-H04-06: Invalid Survey Arrival Day: (15) [14]
+Y-E-09780018-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780018-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780018-nav-00: Flagged 0.22 % of records with bad navigation
+Y-I-09780018-depth-01: RLS m: 0.999651 b: 0 rms: 5.68565 r: 0.999988 sig: 1 dec: 0
+N-E-09780018-depth-02: Regression slope 0.999651 different from 1. Recommended: [1]
+Y-I-09780018-faa-01: RLS m: 0 b: 0 rms: 18.058 r: nan sig: 0 dec: 0
+Y-E-09780018-mag-07: Anomaly differs from mtf1-IGRF (m: 0.929425 b: 10.3507 rms: 67.405 r: 0.898745 sig: 1 dec: 1). [Recompute]
+Y-W-09780018-faa-09: all anomalies are zero
+Y-W-09780018-depth-12: Integer precision
+Y-W-09780018-mag-12: Integer precision
+Y-W-09780018-faa-12: Integer multiple of 5 precision
+# Errata: Data
+Y	09780018	1974-07-24T17:53:00.00	612	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-05T00:01:00.00	7521	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-05T00:02:00.00	7522	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-05T00:03:00.00	7523	C-0-0	 NAV: excessive speed
+?	09780018	1974-09-05T06:58:00.00	7938	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T06:59:00.00	7939	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T07:00:00.00	7940	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T07:03:00.00	7943	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780018	1974-09-05T17:08:00.00	8548	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-05T17:09:00.00	8549	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:10:00.00	8550	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:11:00.00	8551	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:12:00.00	8552	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:13:00.00	8553	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:14:00.00	8554	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-05T17:15:00.00	8555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T01:30:00.00	10488	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T01:31:00.00	10489	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T01:32:00.00	10490	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T01:33:00.00	10491	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T06:38:00.00	10796	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T06:39:00.00	10797	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:40:00.00	10798	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:41:00.00	10799	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:42:00.00	10800	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:43:00.00	10801	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:44:00.00	10802	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:45:00.00	10803	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T06:46:00.00	10804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T07:14:00.00	10832	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T07:15:00.00	10833	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T07:16:00.00	10834	0-0-OQ	 GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T08:35:00.00	10913	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T08:36:00.00	10914	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:37:00.00	10915	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:38:00.00	10916	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:39:00.00	10917	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:40:00.00	10918	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:41:00.00	10919	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:42:00.00	10920	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:43:00.00	10921	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:44:00.00	10922	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:45:00.00	10923	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:46:00.00	10924	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:47:00.00	10925	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:48:00.00	10926	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:49:00.00	10927	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:50:00.00	10928	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:51:00.00	10929	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:52:00.00	10930	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:53:00.00	10931	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:54:00.00	10932	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:55:00.00	10933	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780018	1974-09-07T08:56:00.00	10934	0-Q-0	 VAL: mag invalid
+?	09780018	1974-09-07T08:57:00.00	10935	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	09780018	1974-09-07T23:59:00.00	11838	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11839	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11840	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11841	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11842	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11843	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11844	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11845	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11846	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11847	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11848	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11849	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11850	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11851	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11852	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11853	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11854	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11855	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11856	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11857	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11858	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11859	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11860	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11861	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11862	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11863	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11864	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11865	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+Y	09780018	1974-09-07T23:59:00.00	11866	B-Q-0	 NAV: non-increasing time - VAL: mag invalid
+?	09780018	1974-09-08T11:30:00.00	12326	0-0-KL	 GRAD: twt, depth excessive
+Y	09780018	1974-09-09T00:01:00.00	13076	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-09T00:02:00.00	13077	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:01:00.00	15824	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:02:00.00	15825	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:03:00.00	15826	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:04:00.00	15827	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:05:00.00	15828	C-0-0	 NAV: excessive speed
+Y	09780018	1974-09-12T00:06:00.00	15829	C-0-0	 NAV: excessive speed

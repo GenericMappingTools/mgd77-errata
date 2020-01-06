@@ -1,0 +1,69 @@
+# Cruise 15020088 ID PROT02MV MGD77 FILE VERSION: 19851028 N_RECS: 2256
+# Examined: Sat May 17 10:00:00 2008 by mtchandl
+# Arguments:  -R250.5/288.4/-33.05/-27.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing offset depths.
+# Errata: Header
+Y-E-15020088-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-W-15020088-nav-00: Flagged 1.91 % of records with excessive speed or invalid navigation
+Y-I-15020088-depth-01: RLS m: 0.835937 b: 0 rms: 597.899 r: 0.805683 sig: 1 dec: 1
+N-E-15020088-depth-02: Regression slope 0.835937 different from 1. Recommended: [1]
+Y-E-15020088-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.931196 b: -23.2588 rms: 39.5086 r: 0.976423 sig: 1 dec: 1). [Recompute]
+Y-E-15020088-depth-08: Extended offset from grid [73-225]
+Y-E-15020088-depth-08: Extended offset from grid [272-390]
+Y-E-15020088-depth-08: Extended offset from grid [1144-2038]
+Y-W-15020088-twt-11: More recent bathymetry correction table available
+Y-W-15020088-mtf1-12: Integer precision
+Y-W-15020088-mag-12: Integer precision
+# Errata: Data
+?	15020088	1983-10-23T11:50:00.00	2209	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T11:55:00.00	2210	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:00:00.00	2211	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:05:00.00	2212	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:10:00.00	2213	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:15:00.00	2214	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:20:00.00	2215	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:25:00.00	2216	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:30:00.00	2217	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:35:00.00	2218	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:40:00.00	2219	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:45:00.00	2220	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:50:00.00	2221	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T12:55:00.00	2222	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:00:00.00	2223	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:05:00.00	2224	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:10:00.00	2225	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:15:00.00	2226	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:20:00.00	2227	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:25:00.00	2228	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:30:00.00	2229	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:35:00.00	2230	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:40:00.00	2231	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:45:00.00	2232	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:50:00.00	2233	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T13:55:00.00	2234	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:00:00.00	2235	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:05:00.00	2236	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:10:00.00	2237	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:15:00.00	2238	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:20:00.00	2239	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:25:00.00	2240	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:30:00.00	2241	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:35:00.00	2242	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:40:00.00	2243	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:45:00.00	2244	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:50:00.00	2245	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T14:55:00.00	2246	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:00:00.00	2247	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:05:00.00	2248	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:10:00.00	2249	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:15:00.00	2250	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:20:00.00	2251	D-0-0	 NAV: on land
+Y	15020088	1983-10-23T15:25:00.00	2252	D-0-0	 NAV: on land
+?	15020088	1983-10-23T15:30:00.00	2253	D-0-0	 NAV: on land
+?	15020088	1983-10-23T15:35:00.00	2254	D-0-0	 NAV: on land
+?	15020088	1983-10-23T15:40:00.00	2255	D-0-0	 NAV: on land
+?	15020088	1983-10-23T15:45:00.00	2256	D-0-0	 NAV: on land

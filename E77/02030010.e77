@@ -1,0 +1,40 @@
+# Cruise 02030010 ID KN031L01 MGD77 FILE VERSION: 19820805 N_RECS: 5893
+# Examined: Fri Apr  2 15:37:15 2010 by mtchandl
+# Arguments:  -R289.3/334.25/36.8/41.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02030010-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02030010-depth-01: RLS m: 0.999651 b: 0 rms: 18.5648 r: 0.999942 sig: 1 dec: 0
+Y-E-02030010-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02392 b: -248.534 rms: 249.302 r: 0.981619 sig: 1 dec: 0). [Recompute]
+Y-W-02030010-mtf1-12: Integer precision
+Y-W-02030010-mag-12: Integer precision
+# Errata: Data
+?	02030010	1973-05-08T09:47:00.00	245	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T09:52:00.00	247	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T09:57:00.00	249	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T10:02:00.00	251	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T10:07:00.00	253	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T10:12:00.00	255	0-Q-0	 VAL: mag invalid
+?	02030010	1973-05-08T16:13:00.00	403	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-08T16:18:00.00	405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-10T01:37:00.00	881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-18T04:35:00.00	4239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-18T04:45:00.00	4246	0-0-O	 GRAD: mtf1 excessive
+?	02030010	1973-05-18T05:26:00.00	4263	0-0-K	 GRAD: twt excessive
+?	02030010	1973-05-29T13:50:00.00	4458	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-29T14:19:00.00	4468	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-30T15:11:00.00	5041	0-0-KL	 GRAD: twt, depth excessive
+?	02030010	1973-05-30T17:38:00.00	5106	0-0-K	 GRAD: twt excessive
+?	02030010	1973-05-31T08:57:00.00	5437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T15:43:00.00	5514	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T21:29:00.00	5678	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T21:34:00.00	5683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T21:39:00.00	5688	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T21:54:00.00	5703	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T22:34:00.00	5732	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T22:39:00.00	5734	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02030010	1973-05-31T22:44:00.00	5736	0-0-OQ	 GRAD: mtf1, mag excessive

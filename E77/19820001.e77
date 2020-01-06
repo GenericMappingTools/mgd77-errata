@@ -1,0 +1,13 @@
+# Cruise 19820001 ID 19970008 MGD77 FILE VERSION: 19991222 N_RECS: 716
+# Examined: Tue Oct 19 14:38:22 2010 by mtchandl
+# Arguments:  -R350/353.9/35.9/47.95 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-19820001-depth-01: RLS m: 0.998846 b: 0 rms: 16.9848 r: 0.999959 sig: 1 dec: 0
+N-E-19820001-depth-02: Regression slope 0.998846 different from 1. Recommended: [1]
+Y-W-19820001-depth-12: Integer precision
+# Errata: Data

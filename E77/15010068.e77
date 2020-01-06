@@ -1,0 +1,20 @@
+# Cruise 15010068 ID TRIP01AR MGD77 FILE VERSION: 19800226 N_RECS: 6242
+# Examined: Tue May 13 09:21:40 2008 by mtchandl
+# Arguments:  -R223.85/275.25/4.95/29.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010068-H04-03: Invalid Survey Departure Day: (14) [15]
+Y-W-15010068-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15010068-depth-01: RLS m: 1 b: 0 rms: 139.305 r: 0.994622 sign: 1 dec: 1
+Y-E-15010068-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.899192 b: 36.0605 rms: 69.2116 r: 0.850931 sig: 1 dec: 1). [Recompute]
+Y-W-15010068-mtf1-12: Integer multiple of 5 precision
+Y-W-15010068-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15010068	1966-11-01T19:24:00.00	4118	C-0-0	 NAV: excessive speed
+Y	15010068	1966-11-01T19:30:00.00	4119	C-0-0	 NAV: excessive speed
+Y	15010068	1966-11-02T19:54:00.00	4364	C-0-0	 NAV: excessive speed
+Y	15010068	1966-11-02T20:00:00.00	4365	C-0-0	 NAV: excessive speed

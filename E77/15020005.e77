@@ -1,0 +1,18 @@
+# Cruise 15020005 ID ANTP05MV MGD77 FILE VERSION: 19830818 N_RECS: 9912
+# Examined: Wed May 14 08:24:04 2008 by mtchandl
+# Arguments:  -R57.45/120.05/-20.05/14.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15020005-depth-01: RLS m: 0.996125 b: 0 rms: 123.8 r: 0.997153 sign: 1 dec: 1
+Y-E-15020005-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03731 b: -141.92 rms: 149.317 r: 0.95646 sig: 1 dec: 1). [Recompute]
+Y-W-15020005-mtf1-12: Integer multiple of 5 precision
+Y-W-15020005-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020005	1970-10-15T15:22:00.00	9436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020005	1970-10-15T15:27:00.00	9438	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020005	1970-10-16T11:35:00.00	9716	0-0-KL	 GRAD: twt, depth excessive
+?	15020005	1970-10-16T23:35:00.00	9860	0-0-OQ	 GRAD: mtf1, mag excessive

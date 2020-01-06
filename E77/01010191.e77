@@ -1,0 +1,31 @@
+# Cruise 01010191 ID RC2116 MGD77 FILE VERSION: 19800908 N_RECS: 5450
+# Examined: Mon Jul  6 17:04:36 2009 by mtchandl
+# Arguments:  -R281/301.15/10.05/32.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-510 nT average offset from recomputed mag.
+# Errata: Header
+N-E-01010191-H13-06: Invalid Magnetics Reference Field Code: (78) [78]
+Y-W-01010191-nav-00: Flagged 0.20 % of records with excessive speed or invalid navigation
+Y-I-01010191-depth-01: RLS m: 1 b: 0 rms: 8.4592 r: 0.999994 sig: 1 dec: 0
+Y-I-01010191-faa-01: RLS m: 0.995695 b: -2.91612 rms: 5.59827 r: 0.998267 sig: 1 dec: 1
+Y-W-01010191-faa-03: Regression offset -2.91612 different from 0.
+Y-E-01010191-mag-07: Anomaly differs from mtf1-IGRF (m: 0.723199 b: -599.869 rms: 623.581 r: 0.727674 sig: 1 dec: 0). [Recompute]
+N-E-01010191-faa-08: Extended offset from grid [264-3687]
+N-E-01010191-depth-08: Extended offset from grid [4-5450]
+Y-W-01010191-mtf1-12: Integer precision
+Y-W-01010191-mag-12: Integer precision
+# Errata: Data
+Y	01010191	1978-12-06T08:20:00.00	4133	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T08:24:00.00	4134	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T08:30:00.00	4135	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T08:36:00.00	4136	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T08:42:00.00	4137	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:00:00.00	4138	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:06:00.00	4139	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:12:00.00	4140	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:18:00.00	4141	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:24:00.00	4142	D-0-0	 NAV: on land
+Y	01010191	1978-12-06T09:30:00.00	4143	D-0-0	 NAV: on land

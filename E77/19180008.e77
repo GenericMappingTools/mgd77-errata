@@ -1,0 +1,20 @@
+# Cruise 19180008 ID CD40A89 MGD77 FILE VERSION: 19931021 N_RECS: 8693
+# Examined: Tue Sep 14 17:17:44 2010 by mtchandl
+# Arguments:  -R283/286.75/9.6/13.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-19180008-H13-10: Survey year (1989) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19180008-depth-01: RLS m: 0.999627 b: 0 rms: 12.1681 r: 0.999924 sig: 1 dec: 0
+Y-I-19180008-faa-01: RLS m: 1.0057 b: 1.46124 rms: 3.06836 r: 0.997066 sig: 1 dec: 0
+N-E-19180008-faa-02: Regression slope 1.0057 different from 1. Recommended: [1]
+Y-W-19180008-faa-03: Regression offset 1.46124 different from 0.
+Y-E-19180008-mag-07: Anomaly differs from mtf1-IGRF (m: 0.898813 b: -88.2456 rms: 93.739 r: 0.946482 sig: 1 dec: 1). [Recompute]
+Y-W-19180008-depth-12: Integer precision
+Y-W-19180008-mtf1-12: Integer precision
+Y-W-19180008-mag-12: Integer precision
+Y-W-19180008-faa-12: Integer precision
+# Errata: Data

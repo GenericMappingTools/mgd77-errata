@@ -1,0 +1,68 @@
+# Cruise 15020091 ID PROT05MV MGD77 FILE VERSION: 19900321 N_RECS: 8973
+# Examined: Sat May 17 10:01:18 2008 by mtchandl
+# Arguments:  -R18/48.5/-53.55/-33.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020091-H04-06: Invalid Survey Arrival Day: (15) [14]
+Y-E-15020091-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15020091-depth-01: RLS m: 0.996125 b: 0 rms: 196.69 r: 0.991376 sig: 1 dec: 1
+Y-E-15020091-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.98579 b: 20.5268 rms: 40.1841 r: 0.991294 sig: 1 dec: 1). [Recompute]
+Y-W-15020091-twt-11: More recent bathymetry correction table available
+Y-W-15020091-depth-12: Integer precision
+Y-W-15020091-mtf1-12: Integer precision
+# Errata: Data
+?	15020091	1984-01-21T00:30:00.00	1807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-21T00:45:00.00	1810	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-26T11:30:00.00	3379	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-28T00:30:00.00	3823	0-0-Q	 GRAD: mag excessive
+?	15020091	1984-01-28T09:15:00.00	3928	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-28T11:00:00.00	3949	0-0-KL	 GRAD: twt, depth excessive
+?	15020091	1984-01-28T21:25:00.00	4074	0-0-K	 GRAD: twt excessive
+?	15020091	1984-01-29T14:00:00.00	4273	0-0-Q	 GRAD: mag excessive
+?	15020091	1984-01-29T14:05:00.00	4274	0-0-Q	 GRAD: mag excessive
+?	15020091	1984-01-29T16:00:00.00	4297	0-0-K	 GRAD: twt excessive
+?	15020091	1984-01-29T20:10:00.00	4347	0-Q-0	 VAL: mag invalid
+?	15020091	1984-01-29T20:30:00.00	4351	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T05:25:00.00	4458	0-0-K	 GRAD: twt excessive
+?	15020091	1984-01-30T05:45:00.00	4462	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T16:40:00.00	4593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T17:50:00.00	4607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T18:00:00.00	4609	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T20:55:00.00	4644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T21:15:00.00	4648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T21:20:00.00	4649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T21:30:00.00	4651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-30T21:35:00.00	4652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-01-31T11:15:00.00	4816	0-Q-0	 VAL: mag invalid
+?	15020091	1984-01-31T11:20:00.00	4817	0-Q-0	 VAL: mag invalid
+?	15020091	1984-01-31T11:25:00.00	4818	0-Q-0	 VAL: mag invalid
+?	15020091	1984-01-31T11:30:00.00	4819	0-Q-0	 VAL: mag invalid
+?	15020091	1984-02-02T05:40:00.00	5325	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-02T07:35:00.00	5348	0-0-KL	 GRAD: twt, depth excessive
+?	15020091	1984-02-02T17:15:00.00	5464	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-03T00:55:00.00	5556	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-03T01:00:00.00	5557	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-03T05:15:00.00	5608	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-04T14:15:00.00	6004	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-04T14:20:00.00	6005	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-04T14:40:00.00	6009	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-04T14:50:00.00	6011	0-0-KL	 GRAD: twt, depth excessive
+?	15020091	1984-02-05T13:10:00.00	6279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-05T13:45:00.00	6286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-07T17:20:00.00	6905	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-07T18:15:00.00	6916	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-07T18:20:00.00	6917	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-08T07:50:00.00	7079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-08T08:00:00.00	7081	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-08T08:05:00.00	7082	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-08T08:15:00.00	7084	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-08T08:25:00.00	7086	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020091	1984-02-09T04:00:00.00	7321	0-0-K	 GRAD: twt excessive
+?	15020091	1984-02-09T19:45:00.00	7510	0-Q-0	 VAL: mag invalid
+?	15020091	1984-02-09T19:50:00.00	7511	0-Q-0	 VAL: mag invalid
+?	15020091	1984-02-09T19:55:00.00	7512	0-Q-0	 VAL: mag invalid
+?	15020091	1984-02-09T20:00:00.00	7513	0-Q-0	 VAL: mag invalid

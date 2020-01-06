@@ -1,0 +1,17 @@
+# Cruise 02030046 ID KN158L5 MGD77 FILE VERSION: 20031218 N_RECS: 10779
+# Examined: Fri Apr  2 15:52:12 2010 by mtchandl
+# Arguments:  -R304.75/332.85/45.2/62.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02030046-depth-01: RLS m: 1.00291 b: 0 rms: 103.052 r: 0.997337 sig: 1 dec: 0
+N-E-02030046-depth-02: Regression slope 1.00291 different from 1. Recommended: [1]
+Y-W-02030046-depth-12: Integer precision
+# Errata: Data
+?	02030046	1998-07-20T23:04:04.02	2730	0-0-L	 GRAD: depth excessive
+?	02030046	1998-07-23T06:38:58.98	4785	0-0-L	 GRAD: depth excessive
+?	02030046	1998-07-23T17:40:01.98	5444	0-0-L	 GRAD: depth excessive
+?	02030046	1998-07-23T17:41:04.98	5445	0-0-L	 GRAD: depth excessive

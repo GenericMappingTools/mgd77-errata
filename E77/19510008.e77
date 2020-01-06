@@ -1,0 +1,15 @@
+# Cruise 19510008 ID 19930086 MGD77 FILE VERSION: 19951102 N_RECS: 2907
+# Examined: Mon Oct 18 15:24:25 2010 by mtchandl
+# Arguments:  -R32.5/69.5/12.5/29.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19510008-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-W-19510008-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-19510008-depth-01: RLS m: 1 b: 0 rms: 7.58618 r: 0.999976 sig: 1 dec: 0
+# Errata: Data
+?	19510008	2054.76	1135	D-0-0	 NAV: on land
+Y	19510008	2058.61	1136	D-0-0	 NAV: on land

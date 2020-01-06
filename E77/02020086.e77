@@ -1,0 +1,34 @@
+# Cruise 02020086 ID A2093L21 MGD77 FILE VERSION: 19820805 N_RECS: 15362
+# Examined: Fri Apr  2 15:17:10 2010 by mtchandl
+# Arguments:  -R-71.05/14.55/22.95/41.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-02020086-depth-01: RLS m: 0.998953 b: 0 rms: 35.7036 r: 0.999823 sig: 1 dec: 0
+N-E-02020086-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-E-02020086-mag-07: Anomaly differs from mtf1-IGRF (m: 0.521143 b: -266.033 rms: 391.268 r: 0.198272 sig: 1 dec: 1). [Recompute]
+Y-W-02020086-mtf1-12: Integer precision
+Y-W-02020086-mag-12: Integer precision
+# Errata: Data
+?	02020086	1977-05-10T20:00:00.00	7355	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-11T03:01:00.00	7587	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-11T22:27:00.00	8303	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-13T17:10:00.00	9758	0-Q-0	 VAL: mag invalid
+?	02020086	1977-05-13T17:13:00.00	9760	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020086	1977-05-13T17:18:00.00	9763	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-13T18:50:00.00	9813	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-13T19:52:00.00	9848	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-13T21:16:00.00	9903	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T02:01:00.00	10093	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T04:44:00.00	10177	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-14T04:45:00.00	10178	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-14T11:45:00.00	10416	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T12:10:00.00	10429	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-14T13:05:00.00	10462	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T15:00:00.00	10525	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T17:42:00.00	10611	0-0-K	 GRAD: twt excessive
+?	02020086	1977-05-14T21:48:00.00	10767	0-0-KL	 GRAD: twt, depth excessive
+?	02020086	1977-05-16T21:46:00.00	12333	0-0-KL	 GRAD: twt, depth excessive

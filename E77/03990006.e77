@@ -1,0 +1,23 @@
+# Cruise 03990006 ID OMCO7804 MGD77 FILE VERSION: 19890418 N_RECS: 1292
+# Examined: Fri Apr 30 12:20:59 2010 by mtchandl
+# Arguments:  -R227.95/231.55/11.9/12.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03990006-time-01: 1 of 1292 records contain invalid time
+N-E-03990006-H04-04: Invalid Survey Arrival Year: (1978) [-2147483648]
+N-E-03990006-H04-05: Invalid Survey Arrival Month: (11) [-2147483648]
+N-E-03990006-H04-06: Invalid Survey Arrival Day: (22) [-2147483648]
+Y-W-03990006-nav-00: Flagged 0.39 % of records with bad navigation
+Y-I-03990006-depth-01: RLS m: 0.998891 b: 0 rms: 30.4159 r: 0.937833 sig: 1 dec: 0
+Y-W-03990006-depth-12: Integer precision
+# Errata: Data
+Y	03990006	1978-11-19T01:59:00.00	162	B-0-0	 NAV: non-increasing time
+Y	03990006	1978-11-20T04:49:00.00	411	B-0-0	 NAV: non-increasing time
+Y	03990006	1978-11-20T09:42:00.00	477	C-0-0	 NAV: excessive speed
+Y	03990006	1978-11-20T17:38:00.00	664	C-0-0	 NAV: excessive speed
+Y	03990006	1978-11-21T06:37:00.00	970	B-0-0	 NAV: non-increasing time
+Y	03990006	NaN	1292	E-0-0	 NAV: navigation undefined

@@ -1,0 +1,51 @@
+# Cruise 88010030 ID NBP97-4 MGD77 FILE VERSION: 20000706 N_RECS: 6865
+# Examined: Thu Aug  4 19:35:14 2011 by mtchandl
+# Arguments:  -R172.85/181.6/-43.6/-34.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-88010030-H04-06: Invalid Survey Arrival Day: (20) [19]
+Y-E-88010030-H13-01: Invalid Magnetics Digitizing Rate: (1.0) [1.0]
+Y-W-88010030-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-88010030-depth-01: RLS m: 1 b: 0 rms: 24.3545 r: 0.999943 sig: 1 dec: 0
+Y-E-88010030-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00685 b: -25.7607 rms: 29.4919 r: 0.998801 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+Y	88010030	1997-05-15T14:08:00.00	823	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:09:00.00	824	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:10:00.00	825	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:11:00.00	826	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:12:00.00	827	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:13:00.00	828	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:14:00.00	829	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:15:00.00	830	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:16:00.00	831	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:17:00.00	832	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:18:00.00	833	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:19:00.00	834	C-0-0	 NAV: excessive speed
+Y	88010030	1997-05-15T14:20:00.00	835	C-0-0	 NAV: excessive speed
+?	88010030	1997-05-15T23:12:00.00	1366	0-0-L	 GRAD: depth excessive
+?	88010030	1997-05-15T23:34:00.00	1388	0-0-L	 GRAD: depth excessive
+?	88010030	1997-05-18T20:41:00.00	5480	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-18T20:42:00.00	5481	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-18T20:43:00.00	5482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-18T20:44:00.00	5483	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-18T21:23:00.00	5522	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-18T21:27:00.00	5526	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T11:15:00.00	6354	0-0-L	 GRAD: depth excessive
+?	88010030	1997-05-19T18:16:00.00	6722	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:17:00.00	6723	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:21:00.00	6727	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:22:00.00	6728	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:23:00.00	6729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:24:00.00	6730	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:25:00.00	6731	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T18:37:00.00	6743	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:09:00.00	6775	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:10:00.00	6776	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:20:00.00	6786	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:23:00.00	6789	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:29:00.00	6795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	88010030	1997-05-19T19:38:00.00	6804	0-0-OQ	 GRAD: mtf1, mag excessive

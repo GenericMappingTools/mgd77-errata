@@ -1,0 +1,21 @@
+# Cruise J1060001 ID HS98TIS1 MGD77 FILE VERSION: 20021031 N_RECS: 397
+# Examined: Sun Aug  7 07:41:35 2011 by mtchandl
+# Arguments:  -R122.35/124.75/21.95/24.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomalies could be outdated, no total field data for anomaly recalculation.
+# Errata: Header
+N-E-J1060001-H04-03: Invalid Survey Departure Day: (18) [25]
+N-E-J1060001-H04-05: Invalid Survey Arrival Month: (12) [11]
+N-E-J1060001-H04-06: Invalid Survey Arrival Day: (01) [28]
+Y-E-J1060001-H15-01: Invalid Gravity Departure Base Station Value: (-10146) [ -10146]
+Y-W-J1060001-nav-00: Flagged 0.50 % of records with bad navigation
+Y-I-J1060001-faa-01: RLS m: 0.996329 b: -7.74079 rms: 8.03171 r: 0.99869 sig: 1 dec: 0
+Y-W-J1060001-faa-03: Regression offset -7.74079 different from 0.
+Y-W-J1060001-mag-12: Integer precision
+Y-W-J1060001-faa-12: Integer precision
+# Errata: Data
+Y	J1060001	1998-11-27T02:10:00.00	305	C-0-0	 NAV: excessive speed
+Y	J1060001	1998-11-27T06:20:00.00	330	C-0-0	 NAV: excessive speed

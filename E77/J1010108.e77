@@ -1,0 +1,25 @@
+# Cruise J1010108 ID HT96T344 MGD77 FILE VERSION: 20080125 N_RECS: 475
+# Examined: Sat Aug  6 10:50:26 2011 by mtchandl
+# Arguments:  -R134.55/137.55/16.05/19 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported faa have insufficient precision. No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010108-H04-03: Invalid Survey Departure Day: (10) [13]
+N-E-J1010108-H04-06: Invalid Survey Arrival Day: (12) [17]
+Y-W-J1010108-H13-10: Survey year (1996) outside magnetic reference field IGRF-90 time range (1945-1995)
+Y-E-J1010108-H15-01: Invalid Gravity Departure Base Station Value: (  -9532) [  -9532]
+Y-E-J1010108-H15-03: Invalid Gravity Arrival Base Station Value: (  -9516) [  -9516]
+Y-E-J1010108-H16-05-01: Invalid Ten Degree Identifier longitude: (1113 9999                                                                  )
+Y-E-J1010108-H16-06-01: Invalid Ten Degree Identifier: (1113 9999                                                                  )
+Y-W-J1010108-H16-06: Ten Degree Identifier 1113 not marked in header but block was crossed
+Y-I-J1010108-depth-01: RLS m: 1.00026 b: 0 rms: 57.175 r: 0.992914 sig: 1 dec: 0
+Y-I-J1010108-faa-01: RLS m: 0.854751 b: -2.60486 rms: 4.30469 r: 0.928093 sig: 1 dec: 0
+N-E-J1010108-faa-02: Regression slope 0.854751 different from 1. Recommended: [1]
+Y-W-J1010108-faa-03: Regression offset -2.60486 different from 0.
+Y-W-J1010108-depth-12: Integer multiple of 5 precision
+Y-W-J1010108-mag-12: Integer precision
+Y-W-J1010108-faa-12: Integer precision
+# Errata: Data

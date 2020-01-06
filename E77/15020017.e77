@@ -1,0 +1,20 @@
+# Cruise 15020017 ID CATO02MV MGD77 FILE VERSION: 19800226 N_RECS: 3363
+# Examined: Wed May 14 08:33:27 2008 by mtchandl
+# Arguments:  -R204.9/205.1/-24.95/17 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020017-H04-03: Invalid Survey Departure Day: (10) [11]
+N-E-15020017-H04-05: Invalid Survey Arrival Month: (08) [07]
+N-E-15020017-H04-06: Invalid Survey Arrival Day: (10) [26]
+Y-W-15020017-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020017-depth-01: RLS m: 0.996125 b: 0 rms: 111.28 r: 0.994447 sign: 1 dec: 1
+Y-E-15020017-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01833 b: -63.016 rms: 77.132 r: 0.952773 sig: 1 dec: 1). [Recompute]
+Y-W-15020017-twt-11: More recent bathymetry correction table available
+Y-W-15020017-mtf1-12: Integer multiple of 5 precision
+Y-W-15020017-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15020017	1972-07-21T03:15:00.00	1204	0-0-K	 GRAD: twt excessive

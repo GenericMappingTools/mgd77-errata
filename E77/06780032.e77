@@ -1,0 +1,41 @@
+# Cruise 06780032 ID FRNL85-3 MGD77 FILE VERSION: 19891220 N_RECS: 13092
+# Examined: Fri May 28 16:43:36 2010 by mtchandl
+# Arguments:  -R271.7/278/23.85/29.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-W-06780032-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-06780032-depth-01: RLS m: 1.0007 b: 0 rms: 21.1335 r: 0.999798 sig: 1 dec: 0
+N-E-06780032-depth-02: Regression slope 1.0007 different from 1. Recommended: [1]
+Y-E-06780032-mag-07: Anomaly differs from mtf1-IGRF (m: 0.981655 b: -48.4204 rms: 57.2193 r: 0.990506 sig: 1 dec: 1). [Recompute]
+Y-W-06780032-depth-12: Integer precision
+Y-W-06780032-mtf1-12: Integer precision
+Y-W-06780032-mag-12: Integer precision
+# Errata: Data
+?	06780032	1985-10-03T15:36:00.00	49	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-03T16:00:00.00	61	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-03T16:34:00.00	78	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-03T16:36:00.00	79	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-03T18:06:00.00	124	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-03T18:28:00.00	135	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-03T18:34:00.00	138	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-04T14:34:00.00	738	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-06T12:50:00.00	2126	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-06T12:58:00.00	2130	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-06T13:00:00.00	2131	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-08T23:08:00.00	3875	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-08T23:24:00.00	3883	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-09T06:40:00.00	4101	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-09T06:48:00.00	4105	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-09T07:14:00.00	4118	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-09T14:10:00.00	4326	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-09T14:34:00.00	4338	0-0-K	 GRAD: twt excessive
+?	06780032	1985-10-09T21:42:00.00	4552	0-0-K	 GRAD: twt excessive
+Y	06780032	1985-10-14T20:08:00.00	8070	B-0-0	 NAV: non-increasing time
+?	06780032	1985-10-16T05:46:00.00	9078	0-0-KL	 GRAD: twt, depth excessive
+?	06780032	1985-10-18T17:14:00.00	10862	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780032	1985-10-18T17:16:00.00	10863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780032	1985-10-19T01:50:00.00	11120	0-0-K	 GRAD: twt excessive

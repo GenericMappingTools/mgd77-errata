@@ -1,0 +1,292 @@
+# Cruise 03020007 ID CMAPSU1A MGD77 FILE VERSION: 19800213 N_RECS: 9152
+# Examined: Fri Mar 12 14:30:55 2010 by mtchandl
+# Arguments:  -R195/205/24/30 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Faa anomalies should be disregarded until sign problem is fixed.
+# Errata: Header
+Y-W-03020007-time-01: 4 of 9152 records contain invalid time
+Y-E-03020007-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-03020007-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-03020007-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-W-03020007-nav-00: Flagged 2.73 % of records with bad navigation
+Y-I-03020007-depth-01: RLS m: 0.996095 b: 0 rms: 72.5264 r: 0.992351 sig: 1 dec: 0
+N-E-03020007-depth-02: Regression slope 0.996095 different from 1. Recommended: [1]
+Y-I-03020007-faa-01: RLS m: -0.0622506 b: -10.0094 rms: 20.274 r: 0.137423 sig: 1 dec: 0
+N-E-03020007-faa-02: Regression slope -0.0622506 different from 1. Recommended: [10]
+Y-W-03020007-faa-03: Regression offset -10.0094 different from 0.
+Y-E-03020007-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00111 b: -107.072 rms: 114.278 r: 0.981144 sig: 1 dec: 1). [Recompute]
+Y-W-03020007-faa-09: all values less than or equal to zero
+Y-E-03020007-faa-10: Invalid data records: [1-9152]
+Y-W-03020007-mtf1-12: Integer precision
+Y-W-03020007-mag-12: Integer precision
+Y-W-03020007-faa-12: Integer precision
+# Errata: Data
+Y	03020007	1964-02-29T15:42:00.00	1130	C-0-0	 NAV: excessive speed
+Y	03020007	1964-03-03T01:26:00.00	1291	C-0-0	 NAV: excessive speed
+Y	03020007	1964-03-03T15:57:00.00	1481	C-0-0	 NAV: excessive speed
+Y	03020007	1964-03-05T07:42:00.00	1701	C-0-0	 NAV: excessive speed
+Y	03020007	1964-03-17T18:37:00.00	2307	C-0-0	 NAV: excessive speed
+Y	03020007	1964-03-27T22:01:00.00	2729	C-0-0	 NAV: excessive speed
+Y	03020007	1964-09-18T13:11:00.00	3295	C-0-0	 NAV: excessive speed
+Y	03020007	1964-09-19T00:13:00.00	3403	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T04:21:00.00	3548	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T05:00:00.00	3560	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T05:37:00.00	3571	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T07:12:00.00	3596	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T07:57:00.00	3611	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T11:16:00.00	3664	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T11:47:00.00	3671	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T12:27:00.00	3682	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T13:27:00.00	3697	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T17:08:00.00	3752	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T17:32:00.00	3759	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-17T23:22:00.00	3849	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-18T00:15:00.00	3862	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-18T00:27:00.00	3865	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-18T01:39:00.00	3884	C-0-0	 NAV: excessive speed
+Y	03020007	1966-06-18T02:22:00.00	3899	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T03:37:00.00	3966	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T03:41:00.00	3968	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T03:51:00.00	3973	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T06:17:00.00	4007	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T06:21:00.00	4009	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T07:03:00.00	4024	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T07:27:00.00	4034	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T07:41:00.00	4039	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T09:57:00.00	4075	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T10:25:00.00	4084	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T10:33:00.00	4087	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T10:37:00.00	4090	C-0-0	 NAV: excessive speed
+?	03020007	1966-08-03T13:20:00.00	4133	0-0-K	 GRAD: twt excessive
+Y	03020007	1966-08-03T13:22:00.00	4134	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T13:41:00.00	4141	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T14:30:00.00	4152	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T16:01:00.00	4175	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T16:36:00.00	4186	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T16:52:00.00	4190	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T20:03:00.00	4245	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T20:56:00.00	4268	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T21:37:00.00	4279	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T21:47:00.00	4282	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T21:52:00.00	4285	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T21:57:00.00	4288	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T21:58:00.00	4289	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-03T23:38:00.00	4319	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T19:41:00.00	4323	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T19:47:00.00	4326	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T21:07:00.00	4345	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T21:22:00.00	4350	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T21:52:00.00	4358	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T21:57:00.00	4360	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T22:02:00.00	4362	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T22:46:00.00	4376	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-10T23:32:00.00	4392	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T00:26:00.00	4408	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T00:37:00.00	4413	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T00:43:00.00	4416	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T00:57:00.00	4422	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T01:17:00.00	4427	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T01:37:00.00	4433	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T01:41:00.00	4435	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T02:11:00.00	4444	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T02:28:00.00	4452	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T03:47:00.00	4474	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T04:06:00.00	4480	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T04:22:00.00	4486	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T04:37:00.00	4490	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T05:26:00.00	4502	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T08:07:00.00	4544	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T09:23:00.00	4562	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T09:57:00.00	4572	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T10:22:00.00	4580	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T10:26:00.00	4582	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T10:41:00.00	4587	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T11:01:00.00	4596	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T11:17:00.00	4600	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T11:32:00.00	4606	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T11:33:00.00	4607	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T11:46:00.00	4612	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T12:16:00.00	4621	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T12:21:00.00	4623	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T12:22:00.00	4624	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T13:05:00.00	4638	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T18:51:00.00	4708	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-11T20:36:00.00	4734	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T03:16:00.00	4869	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T03:31:00.00	4874	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T05:36:00.00	4905	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T09:41:00.00	4956	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T09:47:00.00	4958	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T09:57:00.00	4962	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T11:26:00.00	4985	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T11:43:00.00	4989	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T14:41:00.00	5036	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T16:41:00.00	5064	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-18T17:26:00.00	5077	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-28T20:17:00.00	5163	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-28T20:41:00.00	5170	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-28T22:06:00.00	5195	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-28T23:21:00.00	5214	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T00:07:00.00	5225	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T01:03:00.00	5242	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T01:47:00.00	5254	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T04:12:00.00	5289	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T04:51:00.00	5298	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T10:20:00.00	5376	C-0-0	 NAV: excessive speed
+Y	03020007	1966-08-29T10:41:00.00	5381	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T04:46:00.00	5559	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T06:11:00.00	5583	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T07:07:00.00	5598	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T07:29:00.00	5605	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T18:36:00.00	5746	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T18:37:00.00	5747	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T18:46:00.00	5751	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-08T18:51:00.00	5754	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-09T02:37:00.00	5809	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-09T02:52:00.00	5813	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-09T03:26:00.00	5821	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-09T06:46:00.00	5868	C-0-0	 NAV: excessive speed
+Y	03020007	1966-09-09T13:57:00.00	5961	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T05:58:00.00	5991	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T07:21:00.00	6013	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T08:07:00.00	6023	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T08:15:00.00	6026	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-26T08:41:00.00	6034	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T09:01:00.00	6040	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T10:38:00.00	6062	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-26T11:05:00.00	6070	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T04:25:00.00	6189	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T09:57:00.00	6257	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T10:08:00.00	6261	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T10:09:00.00	6262	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T10:34:00.00	6270	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T10:56:00.00	6277	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T11:00:00.00	6280	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T11:35:00.00	6289	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T11:41:00.00	6291	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T12:11:00.00	6301	B-0-KL	 NAV: non-increasing time - GRAD: twt, depth excessive
+Y	03020007	1967-09-27T12:17:00.00	6303	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T12:55:00.00	6320	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T13:00:00.00	6323	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T13:15:00.00	6332	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T13:31:00.00	6338	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T14:21:00.00	6357	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T14:25:00.00	6360	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T14:26:00.00	6361	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T14:31:00.00	6365	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T14:45:00.00	6370	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T14:45:00.00	6371	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:01:00.00	6375	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T15:06:00.00	6378	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T15:09:00.00	6381	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:11:00.00	6383	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T15:15:00.00	6385	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:31:00.00	6393	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:35:00.00	6396	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:45:00.00	6401	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:55:00.00	6405	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T15:57:00.00	6406	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T16:06:00.00	6410	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T16:16:00.00	6414	C-0-0	 NAV: excessive speed
+?	03020007	1967-09-27T18:50:00.00	6460	0-0-KL	 GRAD: twt, depth excessive
+Y	03020007	1967-09-27T19:31:00.00	6473	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T20:58:00.00	6501	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T21:10:00.00	6508	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T21:28:00.00	6516	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T21:45:00.00	6523	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T21:46:00.00	6524	C-0-0	 NAV: excessive speed
+Y	03020007	NaN	6528	E-0-0	 NAV: navigation undefined
+Y	03020007	1967-09-27T22:05:00.00	6531	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T22:13:00.00	6535	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T22:19:00.00	6538	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T22:25:00.00	6542	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-27T22:26:00.00	6543	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T22:32:00.00	6546	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-27T23:21:00.00	6565	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-28T03:37:00.00	6580	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-28T03:51:00.00	6586	B-0-0	 NAV: non-increasing time
+?	03020007	1967-09-28T03:55:00.00	6588	0-0-KL	 GRAD: twt, depth excessive
+?	03020007	1967-09-28T03:56:00.00	6589	0-0-KL	 GRAD: twt, depth excessive
+Y	03020007	1967-09-28T06:38:00.00	6624	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-28T10:26:00.00	6679	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-28T10:35:00.00	6682	B-0-0	 NAV: non-increasing time
+Y	03020007	NaN	6700	E-0-0	 NAV: navigation undefined
+Y	03020007	1967-09-28T14:11:00.00	6732	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-28T14:15:00.00	6735	B-0-0	 NAV: non-increasing time
+?	03020007	1967-09-28T15:22:00.00	6751	0-0-KL	 GRAD: twt, depth excessive
+Y	03020007	1967-09-29T00:36:00.00	6804	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T05:20:00.00	6816	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-29T05:36:00.00	6821	C-0-0	 NAV: excessive speed
+?	03020007	1967-09-29T05:37:00.00	6822	0-0-K	 GRAD: twt excessive
+Y	03020007	1967-09-29T06:43:00.00	6841	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T06:48:00.00	6844	C-0-0	 NAV: excessive speed
+Y	03020007	NaN	6849	E-0-0	 NAV: navigation undefined
+Y	03020007	1967-09-29T07:09:00.00	6853	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T07:28:00.00	6859	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T08:53:00.00	6883	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T10:22:00.00	6907	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T10:58:00.00	6918	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T10:59:00.00	6919	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T11:01:00.00	6921	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T11:07:00.00	6925	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T11:28:00.00	6932	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T12:04:00.00	6943	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-29T12:36:00.00	6954	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T15:37:00.00	7001	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T15:40:00.00	7004	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-29T16:00:00.00	7014	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-29T16:01:00.00	7015	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T16:04:00.00	7016	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T16:06:00.00	7018	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T16:07:00.00	7019	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T16:09:00.00	7020	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-29T17:30:00.00	7028	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-29T18:05:00.00	7042	B-0-K	 NAV: non-increasing time - GRAD: twt excessive
+Y	03020007	1967-09-29T18:10:00.00	7044	B-0-0	 NAV: non-increasing time
+Y	03020007	NaN	7071	E-0-0	 NAV: navigation undefined
+?	03020007	1967-09-30T01:04:00.00	7073	0-0-KL	 GRAD: twt, depth excessive
+Y	03020007	1967-09-30T03:26:00.00	7109	C-0-0	 NAV: excessive speed
+Y	03020007	1967-09-30T03:30:00.00	7111	B-0-0	 NAV: non-increasing time
+Y	03020007	1967-09-30T11:51:00.00	7174	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-26T20:35:00.00	7233	B-0-0	 NAV: non-increasing time
+?	03020007	1969-03-26T21:10:00.00	7244	0-0-K	 GRAD: twt excessive
+Y	03020007	1969-03-26T21:45:00.00	7252	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T00:30:00.00	7293	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T00:32:00.00	7295	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T00:34:00.00	7297	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T01:10:00.00	7308	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T01:26:00.00	7315	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T01:35:00.00	7318	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T05:21:00.00	7352	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T09:59:00.00	7412	C-0-0	 NAV: excessive speed
+?	03020007	1969-03-27T10:00:00.00	7413	0-0-K	 GRAD: twt excessive
+Y	03020007	1969-03-27T11:50:00.00	7441	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T12:56:00.00	7462	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T14:07:00.00	7487	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T14:22:00.00	7493	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-03-27T15:13:00.00	7508	C-0-0	 NAV: excessive speed
+Y	03020007	1969-03-27T15:27:00.00	7514	C-0-0	 NAV: excessive speed
+?	03020007	1969-03-27T17:25:00.00	7551	0-0-K	 GRAD: twt excessive
+Y	03020007	1969-03-27T17:25:00.00	7552	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-04-06T12:26:00.00	7613	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T13:00:00.00	7624	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-04-06T13:25:00.00	7632	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T13:30:00.00	7633	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T13:42:00.00	7636	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T14:10:00.00	7644	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-04-06T14:11:00.00	7645	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T15:21:00.00	7663	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T15:56:00.00	7671	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T16:11:00.00	7676	C-0-0	 NAV: excessive speed
+Y	03020007	1969-04-06T20:18:00.00	7742	B-0-0	 NAV: non-increasing time
+Y	03020007	1969-04-07T00:30:00.00	7801	B-0-0	 NAV: non-increasing time
+?	03020007	1970-10-04T00:05:00.00	8066	0-0-O	 GRAD: mtf1 excessive
+?	03020007	1970-10-04T00:10:00.00	8067	0-0-O	 GRAD: mtf1 excessive
+Y	03020007	1970-10-05T12:00:00.00	8500	C-0-0	 NAV: excessive speed
+Y	03020007	1970-10-05T12:05:00.00	8501	C-0-0	 NAV: excessive speed
+Y	03020007	1970-10-05T12:10:00.00	8502	C-0-0	 NAV: excessive speed
+Y	03020007	1970-10-05T12:15:00.00	8503	C-0-0	 NAV: excessive speed
+Y	03020007	1970-10-05T12:20:00.00	8504	C-0-0	 NAV: excessive speed

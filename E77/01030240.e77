@@ -1,0 +1,36 @@
+# Cruise 01030240 ID V3609 MGD77 FILE VERSION: 19850827 N_RECS: 8192
+# Examined: Fri Mar 19 01:28:20 2010 by mtchandl
+# Arguments:  -R114.4/144.55/13.45/22.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01030240-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-01030240-depth-01: RLS m: 1.00022 b: 0 rms: 53.1093 r: 0.999416 sig: 1 dec: 0
+Y-I-01030240-faa-01: RLS m: 0.947669 b: -15.9907 rms: 17.8229 r: 0.974974 sig: 1 dec: 0
+N-E-01030240-faa-02: Regression slope 0.947669 different from 1. Recommended: [1]
+Y-W-01030240-faa-03: Regression offset -15.9907 different from 0.
+Y-E-01030240-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994524 b: 201.506 rms: 203.276 r: 0.983591 sig: 1 dec: 1). [Recompute]
+Y-W-01030240-twt-11: More recent bathymetry correction table available
+Y-W-01030240-mtf1-12: Integer precision
+Y-W-01030240-mag-12: Integer precision
+# Errata: Data
+?	01030240	1980-03-09T17:00:00.00	844	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:06:00.00	845	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:12:00.00	846	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:18:00.00	847	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:24:00.00	849	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:30:00.00	850	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:36:00.00	851	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:42:00.00	853	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:48:00.00	854	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T17:54:00.00	856	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T18:03:00.00	858	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-09T18:06:00.00	859	0-M-0	 VAL: bcc invalid
+?	01030240	1980-03-17T11:30:00.00	3331	0-0-KL	 GRAD: twt, depth excessive
+?	01030240	1980-03-19T00:36:00.00	3718	0-0-KL	 GRAD: twt, depth excessive
+?	01030240	1980-03-22T17:18:00.00	4352	0-0-K	 GRAD: twt excessive
+?	01030240	1980-03-27T01:24:00.00	5506	0-0-K	 GRAD: twt excessive
+?	01030240	1980-04-03T05:18:00.00	7602	0-0-KL	 GRAD: twt, depth excessive

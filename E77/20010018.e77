@@ -1,0 +1,53 @@
+# Cruise 20010018 ID TTN011 MGD77 FILE VERSION: 19931231 N_RECS: 13920
+# Examined: Tue Oct 19 14:43:21 2010 by mtchandl
+# Arguments:  -R210.35/225.2/-17.55/12.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged near flat-lined bathymetry early in cruise.
+# Errata: Header
+Y-W-20010018-nav-00: Flagged 0.15 % of records with bad navigation
+Y-I-20010018-depth-01: RLS m: 1 b: 0 rms: 8.90428 r: 0.999905 sig: 1 dec: 0
+Y-E-20010018-depth-10: Invalid data records: [462-2487]
+N-E-20010018-twt-13: Encountered possible PDR wrap errors (5.6) [5.0]
+# Errata: Data
+?	20010018	1992-08-10T01:03:48.00	4	0-0-KL	 GRAD: twt, depth excessive
+Y	20010018	1992-08-10T04:34:24.96	105	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:35:24.96	106	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:36:24.00	107	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:37:24.00	108	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:39:24.96	110	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:40:24.00	111	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:41:22.98	112	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:42:22.98	113	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:43:22.98	114	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T04:44:21.96	115	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T06:56:19.98	243	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T06:57:19.98	244	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T07:01:37.98	248	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-10T07:02:37.98	249	C-0-0	 NAV: excessive speed
+Y	20010018	1992-08-13T04:03:31.98	576	B-0-0	 NAV: non-increasing time
+?	20010018	1992-08-19T00:00:00.96	2088	0-0-K	 GRAD: twt excessive
+?	20010018	1992-08-19T00:03:01.98	2091	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-19T06:38:57.00	2488	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-25T16:52:52.98	3817	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-25T16:59:51.00	3824	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-25T17:00:51.00	3825	0-0-KL	 GRAD: twt, depth excessive
+Y	20010018	1992-08-26T05:30:57.00	3983	C-0-0	 NAV: excessive speed
+?	20010018	1992-08-28T20:01:33.96	4845	0-0-K	 GRAD: twt excessive
+?	20010018	1992-08-28T22:19:28.98	4983	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-31T14:58:22.98	5699	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-08-31T14:59:21.96	5700	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-09-01T06:02:39.00	6271	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-09-01T06:03:37.98	6272	0-0-KL	 GRAD: twt, depth excessive
+Y	20010018	1992-09-05T20:22:30.00	7164	C-0-0	 NAV: excessive speed
+Y	20010018	1992-09-12T01:05:16.98	8438	C-0-0	 NAV: excessive speed
+?	20010018	1992-09-17T00:30:03.00	11105	0-0-KL	 GRAD: twt, depth excessive
+?	20010018	1992-09-17T00:34:03.96	11109	0-0-K	 GRAD: twt excessive
+?	20010018	1992-09-17T02:12:24.96	11207	0-0-K	 GRAD: twt excessive
+Y	20010018	1992-09-17T02:36:30.00	11231	C-0-0	 NAV: excessive speed
+Y	20010018	1992-09-17T08:04:09.00	11558	C-0-0	 NAV: excessive speed
+?	20010018	1992-09-17T11:57:33.00	11790	0-0-K	 GRAD: twt excessive
+?	20010018	1992-09-17T20:25:37.98	12297	0-0-K	 GRAD: twt excessive
+Y	20010018	1992-09-18T04:07:55.98	12779	B-0-0	 NAV: non-increasing time

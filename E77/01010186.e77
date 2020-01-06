@@ -1,0 +1,59 @@
+# Cruise 01010186 ID RC2111 MGD77 FILE VERSION: 19800908 N_RECS: 9106
+# Examined: Mon Jul  6 16:52:13 2009 by mtchandl
+# Arguments:  -R291.1/307.55/32.2/47.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. ~-610 nT average offset from recomputed mag. Faa ~10 mGal DC shift above satellite gravity.
+# Errata: Header
+N-E-01010186-H13-06: Invalid Magnetics Reference Field Code: (78) [78]
+Y-I-01010186-depth-01: RLS m: 1 b: 0 rms: 3.66407 r: 0.999999 sig: 1 dec: 0
+Y-I-01010186-faa-01: RLS m: 0.962834 b: 9.06066 rms: 12.0615 r: 0.966934 sig: 1 dec: 1
+Y-W-01010186-faa-03: Regression offset 9.06066 different from 0.
+Y-E-01010186-mag-07: Anomaly differs from mtf1-IGRF (m: 0.939334 b: -608.897 rms: 615.889 r: 0.958319 sig: 1 dec: 1). [Recompute]
+N-E-01010186-depth-08: Extended offset from grid [5-7663]
+N-E-01010186-depth-08: Extended offset from grid [7664-9106]
+Y-W-01010186-twt-11: More recent bathymetry correction table available
+Y-W-01010186-mtf1-12: Integer precision
+Y-W-01010186-mag-12: Integer precision
+# Errata: Data
+?	01010186	1978-06-29T06:48:00.00	1871	0-0-KL	 GRAD: twt, depth excessive
+?	01010186	1978-07-03T18:48:00.00	3384	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T18:54:00.00	3385	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:00:00.00	3386	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:06:00.00	3387	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:12:00.00	3389	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:18:00.00	3390	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:24:00.00	3392	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:30:00.00	3393	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:36:00.00	3394	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:42:00.00	3395	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-03T19:48:00.00	3396	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:12:00.00	5073	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:18:00.00	5074	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:24:00.00	5076	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:30:00.00	5077	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:36:00.00	5078	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:42:00.00	5080	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:48:00.00	5081	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T08:54:00.00	5083	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:00:00.00	5084	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:06:00.00	5085	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:12:00.00	5087	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:18:00.00	5088	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:24:00.00	5090	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:30:00.00	5092	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:36:00.00	5093	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:42:00.00	5095	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:48:00.00	5096	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T09:54:00.00	5098	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:00:00.00	5099	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:06:00.00	5100	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:12:00.00	5102	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:42:00.00	5109	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:48:00.00	5110	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T10:54:00.00	5112	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T11:00:00.00	5113	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T11:06:00.00	5114	0-Q-0	 VAL: mag invalid
+?	01010186	1978-07-10T11:12:00.00	5116	0-Q-0	 VAL: mag invalid

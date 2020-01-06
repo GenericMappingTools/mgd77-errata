@@ -1,0 +1,25 @@
+# Cruise 15020047 ID PLDS02MV MGD77 FILE VERSION: 19800226 N_RECS: 7895
+# Examined: Thu May 15 08:34:57 2008 by mtchandl
+# Arguments:  -R273.7/280.55/0.35/9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15020047-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15020047-nav-00: Flagged 0.03 % of records with excessive speed or invalid navigation
+Y-I-15020047-depth-01: RLS m: 0.996125 b: 0 rms: 124.219 r: 0.991978 sig: 1 dec: 1
+Y-E-15020047-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.936841 b: -143.218 rms: 156.135 r: 0.952971 sig: 1 dec: 1). [Recompute]
+Y-W-15020047-twt-11: More recent bathymetry correction table available
+Y-W-15020047-mtf1-12: Integer precision
+Y-W-15020047-mag-12: Integer precision
+# Errata: Data
+Y	15020047	1976-06-14T01:15:00.00	1	D-0-0	 NAV: on land
+Y	15020047	1976-06-14T01:20:00.00	2	D-0-0	 NAV: on land
+?	15020047	1976-06-14T09:25:00.00	99	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020047	1976-06-14T09:30:00.00	100	0-0-Q	 GRAD: mag excessive
+?	15020047	1976-06-16T11:55:00.00	705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020047	1976-06-16T14:15:00.00	733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15020047	1976-06-16T14:20:00.00	734	0-0-O	 GRAD: mtf1 excessive
+?	15020047	1976-07-11T02:30:00.00	7792	0-0-OQ	 GRAD: mtf1, mag excessive

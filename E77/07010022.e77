@@ -1,0 +1,33 @@
+# Cruise 07010022 ID YAQ701 MGD77 FILE VERSION: 19790101 N_RECS: 7634
+# Examined: Fri Jul 16 17:33:47 2010 by mtchandl
+# Arguments:  -R169.8/235.85/44.6/52.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07010022-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-07010022-depth-01: RLS m: 1.00032 b: 0 rms: 17.0856 r: 0.999872 sig: 1 dec: 0
+Y-E-07010022-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02011 b: -23.6032 rms: 55.4484 r: 0.97546 sig: 1 dec: 1). [Recompute]
+Y-W-07010022-mtf1-12: Integer precision
+Y-W-07010022-mag-12: Integer precision
+# Errata: Data
+Y	07010022	1970-07-18T03:07:00.00	125	C-0-0	 NAV: excessive speed
+Y	07010022	1970-07-18T03:13:00.00	127	C-0-0	 NAV: excessive speed
+?	07010022	1970-07-18T19:06:00.00	457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-18T19:12:00.00	459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-18T20:42:00.00	496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-19T01:12:00.00	599	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-19T03:06:00.00	651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-19T04:00:00.00	673	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07010022	1970-07-19T04:06:00.00	676	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	07010022	1970-07-25T21:14:00.00	2831	B-0-0	 NAV: non-increasing time
+?	07010022	1970-07-28T07:20:00.00	3657	0-0-KL	 GRAD: twt, depth excessive
+?	07010022	1970-07-28T07:30:00.00	3660	0-0-KL	 GRAD: twt, depth excessive
+?	07010022	1970-07-29T08:00:00.00	4018	0-0-KL	 GRAD: twt, depth excessive
+?	07010022	1970-07-29T08:05:00.00	4019	0-0-KL	 GRAD: twt, depth excessive
+?	07010022	1970-07-31T18:40:00.00	4974	0-0-K	 GRAD: twt excessive
+?	07010022	1970-08-01T03:00:00.00	4993	0-0-K	 GRAD: twt excessive
+?	07010022	1970-08-06T07:15:00.00	6477	0-0-KL	 GRAD: twt, depth excessive
+?	07010022	1970-08-06T07:20:00.00	6478	0-0-KL	 GRAD: twt, depth excessive

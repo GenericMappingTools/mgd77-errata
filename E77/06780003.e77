@@ -1,0 +1,48 @@
+# Cruise 06780003 ID F184SC MGD77 FILE VERSION: 19870929 N_RECS: 42252
+# Examined: Fri May 28 15:39:00 2010 by mtchandl
+# Arguments:  -R234.6/242.9/30.75/34.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-W-06780003-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-06780003-depth-01: RLS m: 1.0035 b: 0 rms: 60.0608 r: 0.999403 sig: 1 dec: 0
+N-E-06780003-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-E-06780003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.97692 b: -103.16 rms: 106.826 r: 0.991077 sig: 1 dec: 1). [Recompute]
+Y-W-06780003-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	06780003	1984-04-28T13:31:00.00	2372	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:32:00.00	2373	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:33:00.00	2374	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:34:00.00	2375	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:39:00.00	2380	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:40:00.00	2381	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:41:00.00	2382	0-0-KL	 GRAD: twt, depth excessive
+?	06780003	1984-04-28T13:42:00.00	2383	0-0-KL	 GRAD: twt, depth excessive
+Y	06780003	1984-04-30T02:59:00.00	4620	C-0-0	 NAV: excessive speed
+Y	06780003	1984-04-30T03:00:00.00	4621	C-0-0	 NAV: excessive speed
+Y	06780003	1984-04-30T03:01:00.00	4622	C-0-0	 NAV: excessive speed
+?	06780003	1984-05-14T01:27:00.00	24430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:28:00.00	24431	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:33:00.00	24436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:34:00.00	24437	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:39:00.00	24442	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:40:00.00	24443	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:41:00.00	24444	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:42:00.00	24445	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:43:00.00	24446	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:44:00.00	24447	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:53:00.00	24456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:54:00.00	24457	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:55:00.00	24458	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T01:56:00.00	24459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T21:41:00.00	25644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-14T21:42:00.00	25645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-18T21:41:00.00	31404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-18T21:42:00.00	31405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-20T16:51:00.00	33994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-20T16:52:00.00	33995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-20T16:53:00.00	33996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780003	1984-05-20T16:54:00.00	33997	0-0-OQ	 GRAD: mtf1, mag excessive

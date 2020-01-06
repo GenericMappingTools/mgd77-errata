@@ -1,0 +1,30 @@
+# Cruise 10020042 ID IG2901 MGD77 FILE VERSION: 19890926 N_RECS: 6400
+# Examined: Tue Aug 24 13:48:18 2010 by mtchandl
+# Arguments:  -R265.6/281.9/9.25/29.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020042-H04-03: Invalid Survey Departure Day: (14) [11]
+Y-E-10020042-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020042-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020042-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-10020042-depth-01: RLS m: 1.00026 b: 0 rms: 11.7683 r: 0.999962 sig: 1 dec: 0
+N-E-10020042-depth-02: Regression slope 1.00026 different from 1. Recommended: [1]
+Y-E-10020042-mag-07: Anomaly differs from mtf1-IGRF (m: 0.94332 b: -249.393 rms: 248.722 r: 0.96147 sig: 1 dec: 1). [Recompute]
+Y-W-10020042-mag-09: only found negative values
+Y-W-10020042-depth-12: Integer precision
+Y-W-10020042-mtf1-12: Integer precision
+Y-W-10020042-mag-12: Integer precision
+# Errata: Data
+?	10020042	1978-05-19T14:00:00.00	2030	0-0-L	 GRAD: depth excessive
+?	10020042	1978-05-22T09:35:00.00	2827	0-0-L	 GRAD: depth excessive
+Y	10020042	1978-05-29T23:30:00.00	4506	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-29T23:35:00.00	4507	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-29T23:40:00.00	4508	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-29T23:45:00.00	4509	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-29T23:50:00.00	4510	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-29T23:55:00.00	4511	C-0-0	 NAV: excessive speed
+Y	10020042	1978-05-30T00:00:00.00	4512	C-0-0	 NAV: excessive speed

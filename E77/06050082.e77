@@ -1,0 +1,21 @@
+# Cruise 06050082 ID L174SC MGD77 FILE VERSION: 19870917 N_RECS: 6418
+# Examined: Fri May 21 16:26:47 2010 by mtchandl
+# Arguments:  -R239.15/241.75/32.35/34.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported faa contain only zeros. Recomputed faa appears to not include Eotvos corrections. Recommend disregarding faa until gravity issues are fixed.
+# Errata: Header
+Y-I-06050082-faa-01: RLS m: 0 b: 0 rms: 54.8103 r: nan sig: 0 dec: 1
+N-E-06050082-faa-06: Insignificant regression: reported versus gobs-IGF80 (m: 0 b: 0 rms: 76.6485 r: nan sig: 0 dec: 1). [Recompute]
+N-E-06050082-faa-15: Insignificant regression: reported versus gobs-IGF80+eot (m: 0 b: 0 rms: 76.6485 r: nan sig: 0 dec: 1). [Recompute]
+Y-W-06050082-faa-09: all anomalies are zero
+Y-E-06050082-faa-10: Invalid data records: [1-6418]
+Y-W-06050082-eot-12: Integer multiple of 5 precision
+Y-W-06050082-faa-12: Integer multiple of 5 precision
+# Errata: Data
+?	06050082	1974-04-18T18:11:00.00	324	0-0-U	 GRAD: gobs excessive
+?	06050082	1974-04-18T18:12:00.00	325	0-0-U	 GRAD: gobs excessive
+?	06050082	1974-04-26T00:11:00.00	2115	0-0-U	 GRAD: gobs excessive
+?	06050082	1974-04-26T00:12:00.00	2116	0-0-U	 GRAD: gobs excessive

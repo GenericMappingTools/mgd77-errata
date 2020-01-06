@@ -1,0 +1,84 @@
+# Cruise 08010083 ID 81062605 MGD77 FILE VERSION: 19851230 N_RECS: 45975
+# Examined: Mon Jul 26 16:59:07 2010 by mtchandl
+# Arguments:  -R169.95/202.15/7.1/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010083-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-08010083-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-08010083-depth-01: RLS m: 1 b: 0 rms: 14.8758 r: 0.999945 sig: 1 dec: 0
+Y-I-08010083-faa-01: RLS m: 1.00564 b: 0.79401 rms: 4.63025 r: 0.993837 sig: 1 dec: 0
+N-E-08010083-faa-02: Regression slope 1.00564 different from 1. Recommended: [1]
+Y-W-08010083-faa-03: Regression offset 0.79401 different from 0.
+Y-E-08010083-mag-07: Anomaly differs from mtf1-IGRF (m: 0.993126 b: 49.3636 rms: 57.2091 r: 0.99678 sig: 1 dec: 1). [Recompute]
+Y-W-08010083-twt-11: More recent bathymetry correction table available
+Y-W-08010083-mtf1-12: Integer precision
+Y-W-08010083-mag-12: Integer precision
+# Errata: Data
+?	08010083	1981-10-27T22:17:19.98	203	0-0-K	 GRAD: twt excessive
+?	08010083	1981-10-30T01:23:19.98	4020	0-0-K	 GRAD: twt excessive
+?	08010083	1981-10-30T01:24:00.00	4021	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:25:00.00	4022	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:26:00.00	4023	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:27:00.00	4026	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:28:00.00	4028	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:29:00.00	4030	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T01:30:00.00	4031	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:40:00.00	4271	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:41:00.00	4272	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:42:00.00	4273	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:43:00.00	4274	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:44:00.00	4276	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:45:00.00	4277	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:46:00.00	4278	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:47:00.00	4279	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:48:00.00	4280	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:49:00.00	4282	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:50:00.00	4283	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:51:00.00	4285	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:52:00.00	4286	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:53:00.00	4287	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:54:00.00	4288	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:55:00.00	4290	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:56:00.00	4291	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:57:00.00	4292	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:58:00.00	4294	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T04:59:00.00	4295	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T05:00:00.00	4297	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T05:01:00.00	4299	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T05:02:00.00	4300	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T05:03:00.00	4301	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T05:04:00.00	4302	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:01:00.00	4524	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:02:00.00	4525	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:03:00.00	4527	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:04:00.00	4528	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:05:00.00	4529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:06:00.00	4530	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010083	1981-10-30T08:08:00.00	4533	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:09:00.00	4534	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:10:00.00	4535	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:11:00.00	4536	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:12:00.00	4537	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:13:00.00	4538	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:14:00.00	4539	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:15:00.00	4541	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:16:00.00	4542	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:17:00.00	4543	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:18:00.00	4545	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:19:00.00	4547	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:20:00.00	4548	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:21:00.00	4549	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:22:00.00	4550	0-Q-0	 VAL: mag invalid
+?	08010083	1981-10-30T08:23:00.00	4551	0-Q-0	 VAL: mag invalid
+?	08010083	1981-11-07T18:05:00.00	19895	0-0-K	 GRAD: twt excessive
+?	08010083	1981-11-14T00:02:17.94	30587	0-0-KL	 GRAD: twt, depth excessive
+?	08010083	1981-11-15T01:30:00.00	32276	0-0-K	 GRAD: twt excessive
+?	08010083	1981-11-19T13:35:00.00	40482	0-0-K	 GRAD: twt excessive
+Y	08010083	1981-11-22T19:08:00.00	45968	D-0-0	 NAV: on land
+Y	08010083	1981-11-22T19:10:00.00	45969	D-0-0	 NAV: on land
+Y	08010083	1981-11-22T19:13:00.00	45970	D-0-0	 NAV: on land
+?	08010083	1981-11-22T19:15:00.00	45971	D-0-0	 NAV: on land

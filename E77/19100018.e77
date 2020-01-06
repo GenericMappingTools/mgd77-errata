@@ -1,0 +1,151 @@
+# Cruise 19100018 ID DI107L2 MGD77 FILE VERSION: 19851016 N_RECS: 12658
+# Examined: Mon Sep  6 13:18:19 2010 by mtchandl
+# Arguments:  -R293.95/298.7/18.55/30.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-19100018-H15-01: Invalid Gravity Departure Base Station Value: (978668) [9786680]
+Y-E-19100018-H15-03: Invalid Gravity Arrival Base Station Value: (978668) [9786680]
+Y-W-19100018-nav-00: Flagged 1.00 % of records with bad navigation
+Y-I-19100018-depth-01: RLS m: 0.999581 b: 0 rms: 13.3543 r: 0.998703 sig: 1 dec: 0
+Y-I-19100018-faa-01: RLS m: 1.00232 b: -10.4325 rms: 11.5949 r: 0.99873 sig: 1 dec: 1
+Y-W-19100018-faa-03: Regression offset -10.4325 different from 0.
+Y-E-19100018-mag-07: Anomaly differs from mtf1-IGRF (m: 0.899515 b: -697.15 rms: 709.292 r: 0.731886 sig: 1 dec: 1). [Recompute]
+Y-W-19100018-mag-09: only found negative values
+Y-W-19100018-depth-12: Integer precision
+Y-W-19100018-mtf1-12: Integer precision
+Y-W-19100018-mag-12: Integer precision
+Y-W-19100018-faa-12: Integer precision
+# Errata: Data
+Y	19100018	1980-01-01T02:20:00.00	36	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:22:00.00	37	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:24:00.00	38	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:26:00.00	39	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:28:00.00	40	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:30:00.00	41	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:32:00.00	42	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:34:00.00	43	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:36:00.00	44	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:38:00.00	45	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:40:00.00	46	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:42:00.00	47	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:44:00.00	48	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:46:00.00	49	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:48:00.00	50	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:50:00.00	51	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:52:00.00	52	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:54:00.00	53	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:56:00.00	54	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T02:58:00.00	55	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:00:00.00	56	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:02:00.00	57	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:04:00.00	58	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:06:00.00	59	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:08:00.00	60	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:10:00.00	61	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:12:00.00	62	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:14:00.00	63	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:16:00.00	64	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:18:00.00	65	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:20:00.00	66	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:22:00.00	67	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:24:00.00	68	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:26:00.00	69	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:28:00.00	70	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:30:00.00	71	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:32:00.00	72	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:34:00.00	73	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:36:00.00	74	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:38:00.00	75	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:40:00.00	76	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:42:00.00	77	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:44:00.00	78	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:46:00.00	79	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:48:00.00	80	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:50:00.00	81	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:52:00.00	82	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:54:00.00	83	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:56:00.00	84	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T03:58:00.00	85	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:00:00.00	86	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:02:00.00	87	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:04:00.00	88	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:06:00.00	89	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:08:00.00	90	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:10:00.00	91	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:12:00.00	92	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:14:00.00	93	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:16:00.00	94	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:18:00.00	95	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:20:00.00	96	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:22:00.00	97	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:24:00.00	98	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:26:00.00	99	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:28:00.00	100	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:30:00.00	101	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:32:00.00	102	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:34:00.00	103	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:36:00.00	104	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:38:00.00	105	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:40:00.00	106	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:42:00.00	107	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:44:00.00	108	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:46:00.00	109	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:48:00.00	110	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:50:00.00	111	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:52:00.00	112	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:54:00.00	113	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:56:00.00	114	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T04:58:00.00	115	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:00:00.00	116	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:02:00.00	117	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:04:00.00	118	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:06:00.00	119	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:08:00.00	120	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:10:00.00	121	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:12:00.00	122	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:14:00.00	123	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:16:00.00	124	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:18:00.00	125	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:20:00.00	126	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-01T05:22:00.00	127	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:00:00.00	1346	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:02:00.00	1347	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:04:00.00	1348	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:06:00.00	1349	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:08:00.00	1350	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:10:00.00	1351	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:12:00.00	1352	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:14:00.00	1353	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:16:00.00	1354	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:18:00.00	1355	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:20:00.00	1356	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:22:00.00	1357	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:24:00.00	1358	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:26:00.00	1359	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:28:00.00	1360	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:30:00.00	1361	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:32:00.00	1362	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:34:00.00	1363	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:36:00.00	1364	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:38:00.00	1365	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:40:00.00	1366	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:42:00.00	1367	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:44:00.00	1368	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:46:00.00	1369	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:48:00.00	1370	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:50:00.00	1371	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:52:00.00	1372	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:54:00.00	1373	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-02T22:56:00.00	1374	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-04T13:22:00.00	2528	B-0-0	 NAV: non-increasing time
+Y	19100018	1980-01-04T13:44:00.00	2540	B-0-0	 NAV: non-increasing time
+?	19100018	1980-01-05T11:40:00.00	3199	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	19100018	1980-01-05T11:42:00.00	3200	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	19100018	1980-01-08T13:55:00.00	5428	B-0-0	 NAV: non-increasing time
+Y	19100018	1980-01-08T13:56:00.00	5429	C-0-0	 NAV: excessive speed
+Y	19100018	1980-01-09T14:50:00.00	6177	B-0-0	 NAV: non-increasing time
+Y	19100018	1980-01-17T23:32:00.00	12199	B-0-0	 NAV: non-increasing time

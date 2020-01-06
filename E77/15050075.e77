@@ -1,0 +1,56 @@
+# Cruise 15050075 ID DSDP76GC MGD77 FILE VERSION: 19830819 N_RECS: 5583
+# Examined: Fri May 30 10:18:51 2008 by mtchandl
+# Arguments:  -R280.05/285.25/25.75/35.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15050075-nav-00: Flagged 0.52 % of records with excessive speed or invalid navigation
+Y-I-15050075-depth-01: RLS m: 1.00388 b: 0 rms: 120.811 r: 0.996067 sig: 1 dec: 1
+Y-E-15050075-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01093 b: -555.763 rms: 556.151 r: 0.966056 sig: 1 dec: 1). [Recompute]
+Y-W-15050075-mag-09: only found negative values
+Y-W-15050075-twt-11: More recent bathymetry correction table available
+Y-W-15050075-mtf1-12: Integer precision
+Y-W-15050075-mag-12: Integer precision
+# Errata: Data
+?	15050075	1980-10-22T16:35:00.00	774	0-0-K	 GRAD: twt excessive
+?	15050075	1980-10-22T17:50:00.00	789	0-0-K	 GRAD: twt excessive
+?	15050075	1980-11-30T11:25:00.00	3489	0-0-K	 GRAD: twt excessive
+?	15050075	1980-11-30T11:30:00.00	3490	0-0-K	 GRAD: twt excessive
+?	15050075	1980-11-30T11:45:00.00	3493	0-0-KL	 GRAD: twt, depth excessive
+?	15050075	1980-11-30T12:45:00.00	3505	0-0-K	 GRAD: twt excessive
+?	15050075	1980-11-30T21:45:00.00	3613	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T21:50:00.00	3614	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T21:55:00.00	3615	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:00:00.00	3616	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:05:00.00	3617	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:10:00.00	3618	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:15:00.00	3619	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:20:00.00	3620	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:25:00.00	3621	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:30:00.00	3622	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:35:00.00	3623	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:40:00.00	3624	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:45:00.00	3625	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:50:00.00	3626	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T22:55:00.00	3627	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:00:00.00	3628	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:05:00.00	3629	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:10:00.00	3630	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:15:00.00	3631	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:20:00.00	3632	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:25:00.00	3633	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:30:00.00	3634	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:35:00.00	3635	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:40:00.00	3636	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:45:00.00	3637	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:50:00.00	3638	D-0-0	 NAV: on land
+Y	15050075	1980-11-30T23:55:00.00	3639	D-0-0	 NAV: on land
+Y	15050075	1980-12-01T00:00:00.00	3640	D-0-0	 NAV: on land
+Y	15050075	1980-12-01T00:05:00.00	3641	D-0-0	 NAV: on land
+Y	15050075	1980-12-01T00:10:00.00	3642	D-0-0	 NAV: on land
+?	15050075	1980-12-20T10:15:00.00	5517	0-0-K	 GRAD: twt excessive
+?	15050075	1980-12-20T11:15:00.00	5529	0-0-K	 GRAD: twt excessive
+?	15050075	1980-12-20T11:55:00.00	5537	0-0-K	 GRAD: twt excessive

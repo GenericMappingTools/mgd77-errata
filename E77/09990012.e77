@@ -1,0 +1,24 @@
+# Cruise 09990012 ID SUB5862D MGD77 FILE VERSION: 19991130 N_RECS: 11669
+# Examined: Mon Aug 16 17:13:03 2010 by mtchandl
+# Arguments:  -R-8.45/175.5/66.75/90 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged one depth offset.
+# Errata: Header
+Y-E-09990012-H11-05: Invalid Leftmost Longitude: (-007) [-009]
+Y-I-09990012-depth-01: RLS m: 0.965689 b: 0 rms: 205.755 r: 0.981199 sig: 1 dec: 0
+N-E-09990012-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-E-09990012-depth-08: Extended offset from grid [1033-1419]
+# Errata: Data
+?	09990012	1354.03	1916	0-0-K	 GRAD: twt excessive
+?	09990012	2245.24	3095	0-0-K	 GRAD: twt excessive
+?	09990012	3456.23	4906	0-0-K	 GRAD: twt excessive
+?	09990012	5049.47	6850	0-0-K	 GRAD: twt excessive
+?	09990012	7703.7	9775	0-0-KL	 GRAD: twt, depth excessive
+?	09990012	8040.59	10532	0-0-K	 GRAD: twt excessive
+?	09990012	8068.39	10603	0-0-KL	 GRAD: twt, depth excessive
+?	09990012	8068.52	10604	0-0-K	 GRAD: twt excessive
+?	09990012	8070.11	10613	0-0-K	 GRAD: twt excessive
+?	09990012	8156.18	10810	0-0-K	 GRAD: twt excessive

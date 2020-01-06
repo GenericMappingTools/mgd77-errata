@@ -1,0 +1,75 @@
+# Cruise 01240001 ID SAL83 MGD77 FILE VERSION: 19961231 N_RECS: 4011
+# Examined: Fri Mar 26 20:07:10 2010 by mtchandl
+# Arguments:  -R34.55/37.85/22.75/26.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01240001-H01-06: Invalid Parameter Survey Code (Magnetics): (9) [ ]
+Y-E-01240001-H01-07: Invalid Parameter Survey Code (Gravity): (9) [ ]
+Y-E-01240001-H01-08: Invalid Parameter Survey Code (3.5 kHz): (9) [ ]
+Y-E-01240001-H01-09: Invalid Parameter Survey Code (Seismics): (9) [ ]
+Y-E-01240001-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01240001-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01240001-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01240001-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01240001-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01240001-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01240001-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01240001-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01240001-nav-00: Flagged 1.27 % of records with bad navigation
+Y-I-01240001-depth-01: RLS m: 1.00346 b: 0 rms: 43.2505 r: 0.990445 sig: 1 dec: 0
+# Errata: Data
+Y	01240001	1983-02-19T19:00:00.00	209	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-19T19:04:00.00	210	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T06:45:00.00	367	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T06:49:00.00	368	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T06:50:00.00	369	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T06:52:00.00	370	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T14:20:00.00	468	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-20T14:25:00.00	469	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T05:55:00.00	502	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T06:00:00.00	503	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T12:50:00.00	622	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T12:55:00.00	623	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T12:57:00.00	624	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-21T22:12:00.00	659	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T00:21:00.00	663	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T05:07:00.00	674	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T09:15:00.00	693	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T09:20:00.00	694	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T09:22:00.00	695	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T18:10:00.00	868	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T18:13:00.00	869	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-22T18:15:00.00	870	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-25T00:30:00.00	1442	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-25T00:34:00.00	1443	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-25T00:35:00.00	1444	C-0-0	 NAV: excessive speed
+Y	01240001	1983-02-25T00:37:00.00	1445	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-01T04:35:00.00	1649	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-01T04:39:00.00	1650	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-01T04:40:00.00	1651	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-01T04:43:00.00	1652	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-04T21:45:00.00	1812	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-04T21:46:00.00	1813	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-04T21:50:00.00	1814	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-04T21:51:00.00	1815	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-08T02:10:00.00	2065	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-08T02:15:00.00	2066	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T13:45:00.00	3451	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T13:46:00.00	3452	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T13:49:00.00	3453	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T13:50:00.00	3454	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T15:50:00.00	3478	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T15:52:00.00	3479	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T19:10:00.00	3537	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-14T19:14:00.00	3538	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-15T16:50:00.00	3574	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-15T16:52:00.00	3575	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-16T04:35:00.00	3834	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-16T04:37:00.00	3835	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-16T04:39:00.00	3836	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-16T04:40:00.00	3837	C-0-0	 NAV: excessive speed
+Y	01240001	1983-03-16T04:41:00.00	3838	C-0-0	 NAV: excessive speed

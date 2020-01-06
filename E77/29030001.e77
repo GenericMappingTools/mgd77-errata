@@ -1,0 +1,17 @@
+# Cruise 29030001 ID PEGASVII MGD77 FILE VERSION: 19921231 N_RECS: 132
+# Examined: Mon Feb 14 22:24:23 2011 by mtchandl
+# Arguments:  -R-168.75/-162/14.6/19.75 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all depth and faa records, data do not remotely correlate with grids.
+# Errata: Header
+Y-I-29030001-depth-01: RLS m: 0.996126 b: 0 rms: 952.09 r: 0.167012 sig: 0 dec: 1
+Y-I-29030001-faa-01: RLS m: 0.0151211 b: 12.267 rms: 34.1437 r: 0.00941495 sig: 0 dec: 1
+Y-I-29030001-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-E-29030001-faa-10: Invalid data records: [1-132]
+N-E-29030001-depth-08: Extended offset from grid [35-89]
+Y-E-29030001-depth-10: Invalid data records: [1-132]
+Y-W-29030001-depth-12: Integer multiple of 5 precision
+# Errata: Data

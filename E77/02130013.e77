@@ -1,0 +1,35 @@
+# Cruise 02130013 ID AT3L10 MGD77 FILE VERSION: 20031218 N_RECS: 4572
+# Examined: Fri Apr  2 16:06:29 2010 by mtchandl
+# Arguments:  -R250.75/255.8/9.75/17.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Several records not reported in chronological order.
+# Errata: Header
+Y-W-02130013-nav-00: Flagged 0.46 % of records with bad navigation
+Y-I-02130013-depth-01: RLS m: 1.0035 b: 0 rms: 67.0457 r: 0.993221 sig: 1 dec: 0
+Y-W-02130013-depth-12: Integer precision
+# Errata: Data
+Y	02130013	1997-11-05T01:05:01.98	3863	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:09:01.02	3870	B-0-0	 NAV: non-increasing time
+?	02130013	1997-11-05T01:15:55.98	3876	0-0-L	 GRAD: depth excessive
+Y	02130013	1997-11-05T01:37:13.02	3901	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:36:04.02	3902	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:39:55.02	3903	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:35:19.02	3905	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:39:04.02	3906	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:44:01.98	3910	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:40:58.98	3911	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:39:46.02	3912	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:43:01.98	3913	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:39:37.98	3914	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:47:55.98	3918	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:43:00.00	3920	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:47:00.00	3921	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:52:37.98	3928	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:55:01.02	3929	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:58:52.02	3933	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T01:56:01.02	3938	B-0-0	 NAV: non-increasing time
+Y	02130013	1997-11-05T02:04:51.00	3939	C-0-0	 NAV: excessive speed
+Y	02130013	1997-11-05T02:00:58.02	3940	B-0-0	 NAV: non-increasing time

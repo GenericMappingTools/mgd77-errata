@@ -1,0 +1,36 @@
+# Cruise J4010019 ID KH7404 MGD77 FILE VERSION: 19880219 N_RECS: 5662
+# Examined: Sun Aug  7 10:08:46 2011 by mtchandl
+# Arguments:  -R137.3/175.1/26.05/36.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Applied excessive faa gradient flags to remove outliers.
+# Errata: Header
+Y-I-J4010019-depth-01: RLS m: 0.999651 b: 0 rms: 19.7753 r: 0.999901 sig: 1 dec: 0
+Y-I-J4010019-faa-01: RLS m: 1.00091 b: -9.85132 rms: 16.6754 r: 0.993312 sig: 1 dec: 1
+Y-W-J4010019-faa-03: Regression offset -9.85132 different from 0.
+Y-W-J4010019-depth-12: Integer precision
+Y-W-J4010019-faa-12: Integer precision
+# Errata: Data
+Y	J4010019	1974-11-09T10:00:00.00	640	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-09T10:05:00.00	641	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-10T05:10:00.00	870	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-10T05:15:00.00	871	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T15:25:00.00	1257	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T15:40:00.00	1260	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T16:05:00.00	1265	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010019	1974-11-12T16:10:00.00	1266	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T17:00:00.00	1276	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T18:15:00.00	1291	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-12T18:20:00.00	1292	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-13T22:55:00.00	1627	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010019	1974-11-13T23:00:00.00	1628	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-17T15:35:00.00	2381	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-17T15:45:00.00	2383	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-17T16:45:00.00	2395	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+Y	J4010019	1974-11-17T16:50:00.00	2396	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-17T17:10:00.00	2400	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-11-17T17:20:00.00	2402	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-12-02T01:35:00.00	4877	0-0-W	 GRAD: faa excessive
+Y	J4010019	1974-12-02T01:40:00.00	4878	0-0-W	 GRAD: faa excessive

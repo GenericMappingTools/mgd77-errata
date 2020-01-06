@@ -1,0 +1,32 @@
+# Cruise 01010038 ID RC1007 MGD77 FILE VERSION: 19790619 N_RECS: 12318
+# Examined: Mon Jan 12 13:14:59 2009 by mtchandl
+# Arguments:  -R139.95/162.7/-18.25/34.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01010038-H04-03: Invalid Survey Departure Day: (29) [28]
+Y-E-01010038-H04-06: Invalid Survey Arrival Day: (27) [28]
+Y-I-01010038-depth-01: RLS m: 0.995777 b: 0 rms: 190.94 r: 0.994959 sig: 1 dec: 1
+Y-I-01010038-faa-01: RLS m: 1.01891 b: -2.86409 rms: 14.7975 r: 0.988745 sig: 1 dec: 1
+N-E-01010038-faa-02: Regression slope 1.01891 different from 1. Recommended: [1]
+Y-W-01010038-faa-03: Regression offset -2.86409 different from 0.
+Y-E-01010038-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03934 b: 51.9333 rms: 74.5239 r: 0.955362 sig: 1 dec: 1). [Recompute]
+Y-W-01010038-twt-11: More recent bathymetry correction table available
+Y-W-01010038-mtf1-12: Integer precision
+Y-W-01010038-mag-12: Integer precision
+# Errata: Data
+?	01010038	1966-05-02T05:57:00.00	1899	0-0-K	 GRAD: twt excessive
+?	01010038	1966-05-07T22:23:00.00	4409	0-0-K	 GRAD: twt excessive
+?	01010038	1966-05-07T22:43:00.00	4422	0-0-K	 GRAD: twt excessive
+?	01010038	1966-05-08T01:26:00.00	4457	0-0-K	 GRAD: twt excessive
+?	01010038	1966-05-10T17:45:00.00	5770	0-0-K	 GRAD: twt excessive
+?	01010038	1966-05-15T16:30:00.00	7599	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T16:38:00.00	7603	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T16:40:00.00	7604	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T16:45:00.00	7606	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T16:58:00.00	7614	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T17:00:00.00	7616	0-Q-0	 VAL: mag invalid
+?	01010038	1966-05-15T17:10:00.00	7621	0-Q-0	 VAL: mag invalid

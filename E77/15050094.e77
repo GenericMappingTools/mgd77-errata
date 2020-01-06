@@ -1,0 +1,31 @@
+# Cruise 15050094 ID DSDP94GC MGD77 FILE VERSION: 19840611 N_RECS: 6063
+# Examined: Fri May 30 10:31:47 2008 by mtchandl
+# Arguments:  -R286.2/341.45/36.95/53.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15050094-H11-03: Invalid Bottommost Latitude: (+37) [+36]
+Y-E-15050094-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15050094-depth-01: RLS m: 1 b: 0 rms: 79.9795 r: 0.998092 sig: 1 dec: 1
+Y-E-15050094-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.943878 b: 8.38658 rms: 120.42 r: 0.822997 sig: 1 dec: 1). [Recompute]
+Y-W-15050094-mtf1-12: Integer precision
+Y-W-15050094-mag-12: Integer precision
+# Errata: Data
+?	15050094	1983-06-27T02:50:00.00	773	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-06-27T02:55:00.00	774	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15050094	1983-06-27T03:00:00.00	775	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15050094	1983-06-27T03:05:00.00	776	0-Q-0	 VAL: mag invalid
+?	15050094	1983-06-27T03:10:00.00	777	0-Q-0	 VAL: mag invalid
+?	15050094	1983-06-27T03:15:00.00	778	0-Q-0	 VAL: mag invalid
+?	15050094	1983-06-27T03:20:00.00	779	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T00:20:00.00	2862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T00:30:00.00	2864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T01:55:00.00	2881	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T02:25:00.00	2887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T02:35:00.00	2889	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-07-12T02:40:00.00	2890	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050094	1983-08-04T18:50:00.00	4440	0-Q-0	 VAL: mag invalid
+?	15050094	1983-08-04T18:55:00.00	4441	0-Q-0	 VAL: mag invalid

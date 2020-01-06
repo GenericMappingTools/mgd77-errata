@@ -1,0 +1,18 @@
+# Cruise 67010009 ID 71003611 MGD77 FILE VERSION: 19830804 N_RECS: 6406
+# Examined: Thu Jul 28 18:38:28 2011 by mtchandl
+# Arguments:  -R5.65/11.8/-6.65/3.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010009-depth-01: RLS m: 1.00035 b: 0 rms: 13.224 r: 0.999947 sig: 1 dec: 0
+Y-I-67010009-faa-01: RLS m: 0.998791 b: -4.91028 rms: 6.07517 r: 0.986066 sig: 1 dec: 0
+Y-W-67010009-faa-03: Regression offset -4.91028 different from 0.
+Y-E-67010009-mag-07: Anomaly differs from mtf1-IGRF (m: 0.967455 b: 58.8025 rms: 64.6646 r: 0.988581 sig: 1 dec: 1). [Recompute]
+Y-W-67010009-twt-11: More recent bathymetry correction table available
+Y-W-67010009-mtf1-12: Integer precision
+Y-W-67010009-mag-12: Integer precision
+# Errata: Data
+?	67010009	1971-07-30T08:37:00.00	4138	0-0-KL	 GRAD: twt, depth excessive

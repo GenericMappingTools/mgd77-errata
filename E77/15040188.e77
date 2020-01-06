@@ -1,0 +1,278 @@
+# Cruise 15040188 ID RAIT03WT MGD77 FILE VERSION: 19910719 N_RECS: 25582
+# Examined: Mon May 26 16:45:01 2008 by mtchandl
+# Arguments:  -R235.55/255.7/12.9/32.25 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and filtering faa. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15040188-H13-10: Survey year (1988) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040188-nav-00: Flagged 0.00 % of records with excessive speed or invalid navigation
+Y-I-15040188-depth-01: RLS m: 1 b: 0 rms: 293.408 r: 0.972172 sig: 1 dec: 1
+Y-I-15040188-faa-01: RLS m: 1.06665 b: 4.28205 rms: 19.6566 r: 0.954248 sig: 1 dec: 1
+N-E-15040188-faa-02: Regression slope 1.06665 different from 1. Recommended: [1]
+Y-W-15040188-faa-03: Regression offset 4.28205 different from 0.
+N-E-15040188-faa-06: Anomaly differs from gobs - IGF80 (m: 0.59528 b: 22.3715 rms: 51.6552 r: 0.754439 sig: 1 dec: 1). [Recompute]
+N-E-15040188-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.593793 b: 32.1676 rms: 53.6703 r: 0.756853 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15040188-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00202 b: -79.0106 rms: 84.0579 r: 0.992143 sig: 1 dec: 1). [Recompute]
+Y-W-15040188-twt-11: More recent bathymetry correction table available
+Y-W-15040188-depth-12: Integer precision
+Y-W-15040188-mtf1-12: Integer precision
+# Errata: Data
+Y	15040188	1988-03-15T22:36:00.00	1	D-0-0	 NAV: on land
+?	15040188	1988-03-18T15:41:00.00	3729	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-19T12:32:00.00	4979	0-0-KL	 GRAD: twt, depth excessive
+?	15040188	1988-03-20T04:34:00.00	5941	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-20T04:39:00.00	5946	0-0-KL	 GRAD: twt, depth excessive
+?	15040188	1988-03-20T05:35:00.00	6002	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T05:41:00.00	6008	0-0-Q	 GRAD: mag excessive
+?	15040188	1988-03-20T05:45:00.00	6012	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T05:54:00.00	6021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T05:55:00.00	6022	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:21:00.00	6048	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T06:39:00.00	6066	0-0-O	 GRAD: mtf1 excessive
+?	15040188	1988-03-20T06:40:00.00	6067	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:41:00.00	6068	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:42:00.00	6069	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:43:00.00	6070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:44:00.00	6071	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:45:00.00	6072	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:50:00.00	6077	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:51:00.00	6078	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:52:00.00	6079	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T06:53:00.00	6080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:04:00.00	6091	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:05:00.00	6092	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:13:00.00	6100	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T07:14:00.00	6101	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-20T07:25:00.00	6112	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:26:00.00	6113	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:27:00.00	6114	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:28:00.00	6115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:29:00.00	6116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:37:00.00	6124	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:38:00.00	6125	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:39:00.00	6126	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:40:00.00	6127	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:41:00.00	6128	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:48:00.00	6135	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T07:51:00.00	6138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:52:00.00	6139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:53:00.00	6140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T07:54:00.00	6141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:03:00.00	6150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:04:00.00	6151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:05:00.00	6152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:06:00.00	6153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:07:00.00	6154	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:12:00.00	6159	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T08:20:00.00	6167	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:21:00.00	6168	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:22:00.00	6169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:23:00.00	6170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:24:00.00	6171	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T08:25:00.00	6172	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T09:25:00.00	6232	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T09:31:00.00	6238	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T09:55:00.00	6262	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T10:20:00.00	6287	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-20T10:26:00.00	6293	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T10:31:00.00	6298	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-20T10:45:00.00	6312	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:46:00.00	6313	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:47:00.00	6314	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:49:00.00	6316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:55:00.00	6322	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:56:00.00	6323	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T10:57:00.00	6324	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:05:00.00	6332	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T11:07:00.00	6334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:08:00.00	6335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:09:00.00	6336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:10:00.00	6337	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:11:00.00	6338	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:16:00.00	6343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:17:00.00	6344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:19:00.00	6346	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:22:00.00	6349	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:23:00.00	6350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T11:43:00.00	6370	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T12:09:00.00	6396	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T12:10:00.00	6397	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T12:16:00.00	6403	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T12:17:00.00	6404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T12:18:00.00	6405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T12:19:00.00	6406	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-20T13:08:00.00	6455	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T15:08:00.00	6573	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-20T15:14:00.00	6579	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T16:21:00.00	6646	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-20T16:59:00.00	6684	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-20T17:39:00.00	6724	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T17:40:00.00	6725	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T18:16:00.00	6761	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-20T18:19:00.00	6764	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-20T21:20:00.00	6945	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T00:12:00.00	7117	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T00:15:00.00	7120	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-21T00:40:00.00	7145	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T00:53:00.00	7158	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T01:16:00.00	7181	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T01:17:00.00	7182	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-21T03:10:00.00	7295	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-21T03:30:00.00	7315	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-21T03:32:00.00	7317	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T03:34:00.00	7319	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T03:46:00.00	7331	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T04:20:00.00	7365	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-21T05:32:00.00	7437	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T05:33:00.00	7438	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-21T07:29:00.00	7554	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T08:08:00.00	7593	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-21T11:40:00.00	7805	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T12:11:00.00	7836	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-21T12:13:00.00	7838	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T12:21:00.00	7846	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T13:51:00.00	7936	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-21T17:11:00.00	8136	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-21T21:40:00.00	8405	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-21T21:41:00.00	8406	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-21T23:56:00.00	8541	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T01:31:00.00	8636	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T03:59:00.00	8784	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T04:01:00.00	8786	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T04:02:00.00	8787	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T04:07:00.00	8792	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-22T04:21:00.00	8806	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T08:51:00.00	9076	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-22T09:00:00.00	9085	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T09:22:00.00	9107	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T09:26:00.00	9111	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T09:38:00.00	9123	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T09:56:00.00	9141	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T10:07:00.00	9152	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T10:22:00.00	9167	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T10:30:00.00	9175	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T10:43:00.00	9188	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T11:03:00.00	9208	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T11:16:00.00	9221	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T11:17:00.00	9222	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T11:18:00.00	9223	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T11:34:00.00	9239	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T12:28:00.00	9293	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T14:56:00.00	9441	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T14:57:00.00	9442	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-22T17:14:00.00	9579	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T17:23:00.00	9588	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-22T17:29:00.00	9594	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-22T20:42:00.00	9787	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T03:19:00.00	10184	0-0-KL	 GRAD: twt, depth excessive
+?	15040188	1988-03-23T03:36:00.00	10201	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-23T03:50:00.00	10215	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-23T03:51:00.00	10216	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T04:22:00.00	10247	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T04:33:00.00	10258	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T05:36:00.00	10321	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T05:37:00.00	10322	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T05:50:00.00	10335	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-23T05:52:00.00	10337	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T06:01:00.00	10346	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T06:05:00.00	10350	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T06:06:00.00	10351	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T06:36:00.00	10381	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T06:37:00.00	10382	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:03:00.00	10408	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T07:04:00.00	10409	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T07:14:00.00	10419	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:18:00.00	10423	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:32:00.00	10437	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:33:00.00	10438	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:34:00.00	10439	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:35:00.00	10440	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T07:59:00.00	10464	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T08:06:00.00	10471	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T08:07:00.00	10472	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T08:08:00.00	10473	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T11:35:00.00	10680	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T11:40:00.00	10685	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T15:24:00.00	10909	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T15:25:00.00	10910	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T15:26:00.00	10911	0-0-KUW	 GRAD: twt, gobs, faa excessive
+?	15040188	1988-03-23T15:49:00.00	10934	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-23T18:41:00.00	11106	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T19:54:00.00	11179	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T20:50:00.00	11235	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-23T22:27:00.00	11331	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T02:26:00.00	11569	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T02:39:00.00	11581	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-24T02:43:00.00	11585	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-24T03:13:00.00	11615	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T04:42:00.00	11704	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-24T05:21:00.00	11743	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T05:22:00.00	11744	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-24T05:55:00.00	11777	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-24T05:57:00.00	11779	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T06:33:00.00	11815	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T06:54:00.00	11836	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T07:54:00.00	11896	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-24T10:34:00.00	12056	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T11:10:00.00	12092	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T11:15:00.00	12097	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T11:43:00.00	12125	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T12:43:00.00	12185	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-24T12:45:00.00	12187	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T14:30:00.00	12292	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T15:16:00.00	12338	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T16:01:00.00	12383	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T16:23:00.00	12405	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T17:06:00.00	12448	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T20:17:00.00	12639	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-24T20:19:00.00	12641	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T20:34:00.00	12656	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-24T20:35:00.00	12657	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T21:41:00.00	12723	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T22:15:00.00	12757	0-0-KL	 GRAD: twt, depth excessive
+?	15040188	1988-03-24T22:18:00.00	12760	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-24T23:30:00.00	12832	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T00:29:00.00	12890	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T00:31:00.00	12892	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T01:42:00.00	12963	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T02:13:00.00	12994	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T03:58:00.00	13098	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T04:28:00.00	13128	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T06:57:00.00	13277	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T06:58:00.00	13278	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T07:20:00.00	13300	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T07:21:00.00	13301	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T07:26:00.00	13306	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T13:17:00.00	13657	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-25T13:19:00.00	13659	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T13:20:00.00	13660	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T13:25:00.00	13665	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T13:30:00.00	13670	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T13:38:00.00	13678	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T16:47:00.00	13867	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T17:02:00.00	13882	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T18:28:00.00	13968	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T19:54:00.00	14054	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T19:55:00.00	14055	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T19:56:00.00	14056	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T19:57:00.00	14057	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T20:20:00.00	14080	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T21:24:00.00	14144	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T21:26:00.00	14146	0-0-W	 GRAD: faa excessive
+?	15040188	1988-03-25T21:41:00.00	14161	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T21:42:00.00	14162	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-25T21:59:00.00	14179	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-25T22:00:00.00	14180	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-25T22:01:00.00	14181	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-03-25T23:30:00.00	14270	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-25T23:31:00.00	14271	0-0-UW	 GRAD: gobs, faa excessive
+?	15040188	1988-03-26T01:18:00.00	14378	0-0-U	 GRAD: gobs excessive
+?	15040188	1988-03-26T23:23:00.00	15703	0-0-K	 GRAD: twt excessive
+?	15040188	1988-03-28T00:27:00.00	17207	0-0-K	 GRAD: twt excessive
+?	15040188	1988-04-01T00:38:00.00	22973	0-0-K	 GRAD: twt excessive
+?	15040188	1988-04-01T20:49:00.00	24184	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040188	1988-04-01T20:50:00.00	24185	0-0-OQ	 GRAD: mtf1, mag excessive

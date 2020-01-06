@@ -1,0 +1,17 @@
+# Cruise 12040092 ID 97009 MGD77 FILE VERSION: 20010604 N_RECS: 1873
+# Examined: Mon Aug 30 15:36:15 2010 by mtchandl
+# Arguments:  -R301/316.1/48.75/63.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-12040092-H04-03: Invalid Survey Departure Day: (09) [13]
+N-E-12040092-H04-06: Invalid Survey Arrival Day: (11) [08]
+Y-E-12040092-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A5,A6,I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-12040092-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-12040092-depth-01: RLS m: 1.00031 b: 0 rms: 6.24224 r: 0.999986 sig: 1 dec: 0
+N-E-12040092-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+# Errata: Data
+Y	12040092	1997-05-28T02:05:00.00	976	B-0-0	 NAV: non-increasing time

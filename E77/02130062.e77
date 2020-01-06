@@ -1,0 +1,19 @@
+# Cruise 02130062 ID AT3L60 MGD77 FILE VERSION: 20040308 N_RECS: 4719
+# Examined: Fri Apr  9 13:04:04 2010 by mtchandl
+# Arguments:  -R298.9/318.45/30.15/38.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-02130062-depth-01: RLS m: 0.995803 b: 0 rms: 137.227 r: 0.993624 sig: 1 dec: 0
+N-E-02130062-depth-02: Regression slope 0.995803 different from 1. Recommended: [1]
+Y-W-02130062-depth-12: Integer precision
+# Errata: Data
+?	02130062	2000-11-20T21:41:01.98	601	0-0-L	 GRAD: depth excessive
+?	02130062	2000-11-24T19:46:57.00	1248	0-0-L	 GRAD: depth excessive
+?	02130062	2000-11-25T07:19:04.02	1940	0-0-L	 GRAD: depth excessive
+?	02130062	2000-12-10T00:12:07.98	3632	0-0-L	 GRAD: depth excessive
+?	02130062	2000-12-12T15:25:03.00	4671	0-0-L	 GRAD: depth excessive
+?	02130062	2000-12-12T15:27:13.02	4672	0-0-L	 GRAD: depth excessive

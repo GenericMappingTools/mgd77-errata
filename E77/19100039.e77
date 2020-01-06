@@ -1,0 +1,14 @@
+# Cruise 19100039 ID DI177 MGD77 FILE VERSION: 19931231 N_RECS: 25803
+# Examined: Mon Sep  6 13:37:58 2010 by mtchandl
+# Arguments:  -R329/347.55/25.6/38.65 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100039-H13-10: Survey year (1988) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-I-19100039-depth-01: RLS m: 1.00028 b: 0 rms: 7.46211 r: 0.999938 sig: 1 dec: 0
+Y-W-19100039-depth-12: Integer precision
+# Errata: Data
+?	19100039	1988-08-26T11:06:00.00	1	D-0-0	 NAV: on land

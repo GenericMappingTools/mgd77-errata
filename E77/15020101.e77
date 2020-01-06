@@ -1,0 +1,17 @@
+# Cruise 15020101 ID BNTH06MV MGD77 FILE VERSION: 19880608 N_RECS: 5400
+# Examined: Sat May 17 10:03:01 2008 by mtchandl
+# Arguments:  -R194.3/212/-26.05/-15.8 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020101-H04-03: Invalid Survey Departure Day: (18) [17]
+Y-E-15020101-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15020101-depth-01: RLS m: 1 b: 0 rms: 139.982 r: 0.995712 sig: 1 dec: 1
+Y-E-15020101-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.997751 b: 42.3545 rms: 48.738 r: 0.995424 sig: 1 dec: 1). [Recompute]
+Y-W-15020101-twt-11: More recent bathymetry correction table available
+Y-W-15020101-mtf1-12: Integer precision
+Y-W-15020101-mag-12: Integer precision
+# Errata: Data

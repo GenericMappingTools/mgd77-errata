@@ -1,0 +1,19 @@
+# Cruise 02020007 ID A2015L02 MGD77 FILE VERSION: 19820805 N_RECS: 14562
+# Examined: Fri Mar 26 21:17:39 2010 by mtchandl
+# Arguments:  -R44.95/79.65/6.8/25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-I-02020007-depth-01: RLS m: 0.999302 b: 0 rms: 17.1915 r: 0.999905 sig: 1 dec: 0
+N-E-02020007-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-E-02020007-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994308 b: -84.648 rms: 85.1692 r: 0.997752 sig: 1 dec: 1). [Recompute]
+Y-W-02020007-mtf1-12: Integer precision
+Y-W-02020007-mag-12: Integer precision
+# Errata: Data
+?	02020007	1965-03-15T08:32:00.00	5741	0-0-KL	 GRAD: twt, depth excessive
+?	02020007	1965-03-25T01:08:00.00	7980	0-0-K	 GRAD: twt excessive
+?	02020007	1965-03-25T01:16:00.00	7986	0-0-KL	 GRAD: twt, depth excessive
+?	02020007	1965-04-05T10:13:00.00	13019	0-0-KL	 GRAD: twt, depth excessive

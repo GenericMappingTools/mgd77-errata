@@ -1,0 +1,91 @@
+# Cruise 10020030 ID IG1601 MGD77 FILE VERSION: 19890926 N_RECS: 6981
+# Examined: Tue Aug 24 13:43:55 2010 by mtchandl
+# Arguments:  -R262.95/268.65/18.45/29.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020030-H04-03: Invalid Survey Departure Day: (24) [19]
+Y-E-10020030-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020030-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020030-nav-00: Flagged 0.89 % of records with bad navigation
+Y-I-10020030-depth-01: RLS m: 1.00035 b: 0 rms: 6.34917 r: 0.999989 sig: 1 dec: 0
+N-E-10020030-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-E-10020030-mag-07: Anomaly differs from mtf1-IGRF (m: 0.790201 b: -20.4121 rms: 40.4028 r: 0.756 sig: 1 dec: 0). [Recompute]
+Y-W-10020030-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020030-depth-12: Integer precision
+Y-W-10020030-mtf1-12: Integer precision
+Y-W-10020030-mag-12: Integer precision
+# Errata: Data
+Y	10020030	1975-11-20T09:20:00.00	145	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-20T17:50:00.00	248	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-20T17:55:00.00	249	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-20T19:10:00.00	264	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-20T22:20:00.00	302	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-20T22:25:00.00	303	C-0-0	 NAV: excessive speed
+?	10020030	1975-11-21T22:50:00.00	598	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	10020030	1975-11-21T22:55:00.00	599	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020030	1975-11-28T00:05:00.00	2350	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020030	1975-11-28T00:10:00.00	2351	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020030	1975-11-28T02:20:00.00	2377	C-0-0	 NAV: excessive speed
+?	10020030	1975-11-29T07:45:00.00	2734	0-0-L	 GRAD: depth excessive
+Y	10020030	1975-11-29T08:30:00.00	2743	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-29T19:55:00.00	2881	C-0-0	 NAV: excessive speed
+Y	10020030	1975-11-30T02:45:00.00	2963	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-02T15:20:00.00	3692	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-02T16:10:00.00	3702	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-02T20:00:00.00	3748	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-02T22:30:00.00	3778	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-03T00:15:00.00	3800	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-03T06:00:00.00	3870	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-03T11:40:00.00	3938	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-03T12:40:00.00	3950	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-03T21:20:00.00	4055	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T14:20:00.00	4260	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T14:35:00.00	4263	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T15:20:00.00	4272	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T16:50:00.00	4291	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T19:05:00.00	4318	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T20:20:00.00	4333	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-04T20:30:00.00	4335	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-06T00:05:00.00	4668	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-06T00:15:00.00	4670	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-06T00:20:00.00	4671	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T13:55:00.00	5127	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T14:40:00.00	5136	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T14:50:00.00	5138	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T16:05:00.00	5153	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T16:55:00.00	5163	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T17:15:00.00	5167	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T17:30:00.00	5170	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T17:55:00.00	5175	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-07T18:15:00.00	5179	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-08T08:55:00.00	5357	C-0-0	 NAV: excessive speed
+?	10020030	1975-12-09T02:40:00.00	5572	0-0-L	 GRAD: depth excessive
+Y	10020030	1975-12-09T03:00:00.00	5576	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T03:05:00.00	5577	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T03:10:00.00	5578	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T03:55:00.00	5587	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T22:55:00.00	5817	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T23:20:00.00	5822	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T23:25:00.00	5823	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T23:30:00.00	5824	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T23:50:00.00	5828	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-09T23:55:00.00	5829	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:00:00.00	5830	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:05:00.00	5831	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:20:00.00	5834	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:25:00.00	5835	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:30:00.00	5836	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T00:35:00.00	5837	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T01:05:00.00	5843	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T01:10:00.00	5844	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-10T01:15:00.00	5845	C-0-0	 NAV: excessive speed
+?	10020030	1975-12-10T19:55:00.00	6070	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020030	1975-12-10T20:00:00.00	6071	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	10020030	1975-12-13T23:00:00.00	6973	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-13T23:05:00.00	6974	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-13T23:10:00.00	6975	C-0-0	 NAV: excessive speed
+Y	10020030	1975-12-13T23:15:00.00	6976	C-0-0	 NAV: excessive speed

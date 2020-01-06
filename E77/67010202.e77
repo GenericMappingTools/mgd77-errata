@@ -1,0 +1,153 @@
+# Cruise 67010202 ID 89000312 MGD77 FILE VERSION: 19920924 N_RECS: 24070
+# Examined: Sun Jul 31 21:47:32 2011 by mtchandl
+# Arguments:  -R-42.65/-4.45/37.65/48.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010202-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-67010202-depth-01: RLS m: 1.00052 b: 0 rms: 16.1375 r: 0.999866 sig: 1 dec: 0
+N-E-67010202-depth-02: Regression slope 1.00052 different from 1. Recommended: [1]
+Y-I-67010202-faa-01: RLS m: 1.01142 b: -5.43251 rms: 6.29551 r: 0.988671 sig: 1 dec: 0
+N-E-67010202-faa-02: Regression slope 1.01142 different from 1. Recommended: [1]
+Y-W-67010202-faa-03: Regression offset -5.43251 different from 0.
+Y-I-67010202-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-67010202-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.603765 b: 16.084 rms: 36.4114 r: 0.763361 sig: 1 dec: 1). [Recompute]
+Y-E-67010202-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994051 b: 14.3591 rms: 30.6863 r: 0.995585 sig: 1 dec: 1). [Recompute]
+Y-W-67010202-depth-12: Integer precision
+Y-W-67010202-mtf1-12: Integer precision
+Y-W-67010202-mag-12: Integer precision
+# Errata: Data
+?	67010202	1989-04-01T08:53:00.00	8	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-01T08:55:00.00	10	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010202	1989-04-01T08:57:00.00	12	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-01T10:43:00.00	118	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T10:44:00.00	119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T10:45:00.00	120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T10:46:00.00	121	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T16:21:00.00	456	0-0-K	 GRAD: twt excessive
+?	67010202	1989-04-01T16:22:00.00	457	0-0-KL	 GRAD: twt, depth excessive
+?	67010202	1989-04-01T23:10:00.00	835	0-0-Q	 GRAD: mag excessive
+?	67010202	1989-04-01T23:11:00.00	836	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:12:00.00	837	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:13:00.00	838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:14:00.00	839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:15:00.00	840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:16:00.00	841	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-01T23:17:00.00	842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T03:59:00.00	1104	0-0-K	 GRAD: twt excessive
+?	67010202	1989-04-02T10:26:00.00	1491	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:27:00.00	1492	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:28:00.00	1493	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:29:00.00	1494	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:30:00.00	1495	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:31:00.00	1496	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:32:00.00	1497	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T10:33:00.00	1498	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:14:00.00	1539	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:30:00.00	1555	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:31:00.00	1556	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:46:00.00	1571	0-0-O	 GRAD: mtf1 excessive
+?	67010202	1989-04-02T11:47:00.00	1572	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:48:00.00	1573	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:49:00.00	1574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:50:00.00	1575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:51:00.00	1576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:52:00.00	1577	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:53:00.00	1578	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:54:00.00	1579	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T11:55:00.00	1580	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:07:00.00	1592	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:08:00.00	1593	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:09:00.00	1594	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:10:00.00	1595	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:11:00.00	1596	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:12:00.00	1597	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:15:00.00	1600	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:16:00.00	1601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:17:00.00	1602	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:18:00.00	1603	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:19:00.00	1604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:21:00.00	1606	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:22:00.00	1607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:23:00.00	1608	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:24:00.00	1609	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:25:00.00	1610	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:30:00.00	1615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:31:00.00	1616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:32:00.00	1617	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:33:00.00	1618	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:39:00.00	1624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:40:00.00	1625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:41:00.00	1626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:44:00.00	1629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:45:00.00	1630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:46:00.00	1631	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:47:00.00	1632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:48:00.00	1633	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:49:00.00	1634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:50:00.00	1635	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:51:00.00	1636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:52:00.00	1637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T12:53:00.00	1638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T13:02:00.00	1647	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T13:03:00.00	1648	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T13:04:00.00	1649	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T13:05:00.00	1650	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:15:00.00	1710	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:16:00.00	1711	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:17:00.00	1712	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:18:00.00	1713	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:19:00.00	1714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:20:00.00	1715	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:23:00.00	1718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:24:00.00	1719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:25:00.00	1720	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T14:26:00.00	1721	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T22:10:00.00	2155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T22:11:00.00	2156	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-02T22:12:00.00	2157	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-07T10:11:00.00	8406	0-0-KL	 GRAD: twt, depth excessive
+?	67010202	1989-04-07T16:51:00.00	8796	0-0-K	 GRAD: twt excessive
+?	67010202	1989-04-08T20:03:00.00	10368	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010202	1989-04-09T10:09:00.00	11184	0-0-K	 GRAD: twt excessive
+?	67010202	1989-04-10T12:33:00.00	12768	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-10T12:55:00.00	12790	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-12T11:43:00.00	15558	0-0-K	 GRAD: twt excessive
+?	67010202	1989-04-12T12:46:00.00	15621	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:47:00.00	15622	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:48:00.00	15623	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:49:00.00	15624	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:50:00.00	15625	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:51:00.00	15626	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:52:00.00	15627	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:53:00.00	15628	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-12T12:54:00.00	15629	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010202	1989-04-14T17:19:00.00	18644	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T04:44:00.00	19309	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T06:19:00.00	19404	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T06:20:00.00	19405	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T06:21:00.00	19406	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T06:25:00.00	19410	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T06:40:00.00	19425	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T11:40:00.00	19725	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T11:44:00.00	19729	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T14:01:00.00	19866	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T14:02:00.00	19867	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T14:06:00.00	19871	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T16:29:00.00	20014	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T20:13:00.00	20238	0-0-V	 GRAD: eot excessive
+?	67010202	1989-04-15T20:15:00.00	20240	0-0-V	 GRAD: eot excessive
+?	67010202	1989-04-15T20:17:00.00	20242	0-0-V	 GRAD: eot excessive
+?	67010202	1989-04-15T20:55:00.00	20280	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-15T21:05:00.00	20290	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010202	1989-04-17T19:45:00.00	23040	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-17T19:47:00.00	23042	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-18T12:49:00.00	24024	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010202	1989-04-18T12:58:00.00	24033	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-18T13:00:00.00	24035	0-0-UW	 GRAD: gobs, faa excessive
+?	67010202	1989-04-18T13:03:00.00	24038	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	67010202	1989-04-18T13:06:00.00	24041	0-0-UW	 GRAD: gobs, faa excessive
+Y	67010202	1989-04-18T13:34:00.00	24069	B-0-0	 NAV: non-increasing time

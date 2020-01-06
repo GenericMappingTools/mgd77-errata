@@ -1,0 +1,126 @@
+# Cruise 67010180 ID 87004111 MGD77 FILE VERSION: 19931231 N_RECS: 21814
+# Examined: Mon Nov  7 16:18:58 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010180-depth-01: RLS m: 1.00053 b: 0 rms: 33.0352 r: 0.999646 sig: 1 dec: 0
+N-E-67010180-depth-02: Regression slope 1.00053 different from 1. Recommended: [1]
+Y-E-67010180-mag-07: Anomaly differs from mtf1-IGRF (m: 1.01384 b: -29.3052 rms: 56.8882 r: 0.986436 sig: 1 dec: 1). [Recompute]
+Y-W-67010180-depth-12: Integer precision
+Y-W-67010180-mtf1-12: Integer precision
+Y-W-67010180-mag-12: Integer precision
+# Errata: Data
+?	67010180	1987-11-03T22:35:00.00	6651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T22:36:00.00	6652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T22:39:00.00	6655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T22:40:00.00	6656	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T22:41:00.00	6657	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T23:07:00.00	6683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T23:08:00.00	6684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-03T23:09:00.00	6685	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T01:42:00.00	6838	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T01:43:00.00	6839	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T07:51:00.00	7207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T07:52:00.00	7208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T07:53:00.00	7209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T07:54:00.00	7210	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T07:55:00.00	7211	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T08:00:00.00	7216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T08:01:00.00	7217	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T08:02:00.00	7218	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T10:25:00.00	7361	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-04T14:10:00.00	7586	0-0-O	 GRAD: mtf1 excessive
+?	67010180	1987-11-04T14:59:00.00	7635	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:00:00.00	7636	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:01:00.00	7637	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:02:00.00	7638	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:03:00.00	7639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:04:00.00	7640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:05:00.00	7641	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:06:00.00	7642	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:07:00.00	7643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:08:00.00	7644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:09:00.00	7645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:10:00.00	7646	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:17:00.00	7653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:19:00.00	7655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:20:00.00	7656	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:21:00.00	7657	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:22:00.00	7658	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:23:00.00	7659	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:25:00.00	7661	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:27:00.00	7663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:28:00.00	7664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:29:00.00	7665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:30:00.00	7666	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:31:00.00	7667	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:32:00.00	7668	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:33:00.00	7669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T15:34:00.00	7670	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T16:18:00.00	7714	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:19:00.00	7715	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:20:00.00	7716	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:21:00.00	7717	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	67010180	1987-11-04T16:22:00.00	7718	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:23:00.00	7719	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:24:00.00	7720	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:25:00.00	7721	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:26:00.00	7722	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:27:00.00	7723	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:28:00.00	7724	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:29:00.00	7725	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:30:00.00	7726	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:31:00.00	7727	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:32:00.00	7728	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:33:00.00	7729	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:34:00.00	7730	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:35:00.00	7731	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:36:00.00	7732	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:37:00.00	7733	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:38:00.00	7734	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:39:00.00	7735	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:40:00.00	7736	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:41:00.00	7737	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:42:00.00	7738	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:43:00.00	7739	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:44:00.00	7740	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:45:00.00	7741	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:46:00.00	7742	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:47:00.00	7743	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:48:00.00	7744	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:49:00.00	7745	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:50:00.00	7746	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:51:00.00	7747	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:52:00.00	7748	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:53:00.00	7749	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:54:00.00	7750	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:55:00.00	7751	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:56:00.00	7752	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:57:00.00	7753	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:58:00.00	7754	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T16:59:00.00	7755	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T17:00:00.00	7756	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T17:01:00.00	7757	0-Q-0	 VAL: mag invalid
+?	67010180	1987-11-04T23:51:00.00	8167	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-05T17:46:00.00	9242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-05T17:47:00.00	9243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-05T17:48:00.00	9244	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-05T17:49:00.00	9245	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-05T17:50:00.00	9246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-05T17:51:00.00	9247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010180	1987-11-06T02:03:00.00	9739	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-06T06:54:00.00	10030	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-06T10:32:00.00	10248	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-06T12:09:00.00	10345	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-07T22:03:00.00	12379	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-07T22:53:00.00	12429	0-0-KL	 GRAD: twt, depth excessive
+?	67010180	1987-11-07T22:54:00.00	12430	0-0-KL	 GRAD: twt, depth excessive
+?	67010180	1987-11-09T11:27:00.00	14623	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-11T18:01:00.00	17897	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-11T18:02:00.00	17898	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-14T10:25:00.00	21761	0-0-K	 GRAD: twt excessive
+?	67010180	1987-11-14T10:41:00.00	21777	0-0-K	 GRAD: twt excessive

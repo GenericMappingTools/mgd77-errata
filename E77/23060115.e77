@@ -1,0 +1,35 @@
+# Cruise 23060115 ID ODP209JR MGD77 FILE VERSION: 20041102 N_RECS: 32564
+# Examined: Thu Feb  3 14:04:46 2011 by mtchandl
+# Arguments:  -R-64.7/-34.4/-23.15/32.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060115-H04-06: Invalid Survey Arrival Day: (08) [06]
+Y-W-23060115-H13-10: Survey year (2003) outside magnetic reference field Unused time range (9999-9999)
+Y-I-23060115-depth-01: RLS m: 1.00076 b: 0 rms: 13.8231 r: 0.999951 sig: 1 dec: 0
+N-E-23060115-depth-02: Regression slope 1.00076 different from 1. Recommended: [1]
+Y-W-23060115-twt-11: More recent bathymetry correction table available
+Y-W-23060115-depth-12: Integer precision
+Y-W-23060115-mtf1-12: Integer precision
+# Errata: Data
+?	23060115	2003-06-19T01:06:59.34	20561	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:07:59.34	20562	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:08:59.40	20563	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:09:59.34	20564	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:13:59.34	20568	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:14:59.40	20569	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:31:59.34	20586	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:32:59.34	20587	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:33:59.34	20588	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:40:59.40	20595	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-06-19T01:41:59.40	20596	0-0-O	 GRAD: mtf1 excessive
+?	23060115	2003-07-06T19:51:09.06	32551	D-0-0	 NAV: on land
+?	23060115	2003-07-06T19:52:09.06	32552	D-0-0	 NAV: on land
+?	23060115	2003-07-06T19:54:09.06	32553	D-0-0	 NAV: on land
+?	23060115	2003-07-06T19:59:09.06	32554	D-0-0	 NAV: on land
+?	23060115	2003-07-06T20:00:09.12	32555	D-0-0	 NAV: on land
+?	23060115	2003-07-06T20:01:09.06	32556	D-0-0	 NAV: on land
+?	23060115	2003-07-06T20:02:09.06	32557	D-0-0	 NAV: on land

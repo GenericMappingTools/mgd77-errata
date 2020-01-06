@@ -1,0 +1,63 @@
+# Cruise 07120001 ID BAJA75 MGD77 FILE VERSION: 19840120 N_RECS: 11468
+# Examined: Mon Jul 26 15:32:13 2010 by mtchandl
+# Arguments:  -R242.45/253.55/22.25/31.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-07120001-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-07120001-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-07120001-depth-01: RLS m: 0.998166 b: 0 rms: 50.6691 r: 0.999321 sig: 1 dec: 0
+N-E-07120001-depth-02: Regression slope 0.998166 different from 1. Recommended: [1]
+Y-I-07120001-faa-01: RLS m: 0.98813 b: 1.23382 rms: 6.7521 r: 0.979254 sig: 1 dec: 0
+N-E-07120001-faa-02: Regression slope 0.98813 different from 1. Recommended: [1]
+Y-W-07120001-faa-03: Regression offset 1.23382 different from 0.
+Y-E-07120001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.982157 b: -5.58118 rms: 50.7336 r: 0.982826 sig: 1 dec: 1). [Recompute]
+Y-W-07120001-twt-11: More recent bathymetry correction table available
+Y-W-07120001-mtf1-12: Integer precision
+Y-W-07120001-mag-12: Integer precision
+# Errata: Data
+?	07120001	1975-07-06T18:40:00.00	388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-07T06:24:00.00	628	0-0-K	 GRAD: twt excessive
+?	07120001	1975-07-07T07:13:00.00	646	0-0-KL	 GRAD: twt, depth excessive
+?	07120001	1975-07-07T08:38:00.00	680	0-0-KL	 GRAD: twt, depth excessive
+?	07120001	1975-07-08T00:32:00.00	1016	0-0-KL	 GRAD: twt, depth excessive
+?	07120001	1975-07-09T07:40:00.00	1576	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-10T07:45:00.00	1952	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-10T07:50:00.00	1953	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-10T08:05:00.00	1956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-10T15:17:00.00	2068	0-0-K	 GRAD: twt excessive
+?	07120001	1975-07-10T18:25:00.00	2119	0-0-K	 GRAD: twt excessive
+?	07120001	1975-07-11T00:20:00.00	2197	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-11T12:45:00.00	2349	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07120001	1975-07-11T12:50:00.00	2350	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T12:55:00.00	2351	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	07120001	1975-07-11T13:00:00.00	2352	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T13:05:00.00	2354	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T13:10:00.00	2356	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T13:15:00.00	2357	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T13:20:00.00	2358	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T13:25:00.00	2359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-11T14:15:00.00	2369	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-11T14:20:00.00	2370	0-Q-0	 VAL: mag invalid
+?	07120001	1975-07-12T18:30:00.00	2795	0-0-K	 GRAD: twt excessive
+?	07120001	1975-07-14T02:05:00.00	3271	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-14T02:15:00.00	3273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-14T02:35:00.00	3277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-14T02:40:00.00	3278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-14T02:50:00.00	3280	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-14T11:00:00.00	3387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-15T21:35:00.00	3469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-16T10:37:00.00	3661	0-0-K	 GRAD: twt excessive
+?	07120001	1975-07-19T12:00:00.00	4342	0-0-W	 GRAD: faa excessive
+?	07120001	1975-07-22T00:10:00.00	5459	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-22T00:55:00.00	5473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-23T07:35:00.00	5992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-24T21:00:00.00	6662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-07-25T10:05:00.00	6874	0-0-OQ	 GRAD: mtf1, mag excessive
+?	07120001	1975-08-05T10:15:00.00	11079	0-Q-0	 VAL: mag invalid
+?	07120001	1975-08-05T10:20:00.00	11080	0-Q-0	 VAL: mag invalid
+?	07120001	1975-08-05T10:25:00.00	11081	0-Q-0	 VAL: mag invalid
+Y	07120001	1975-08-06T11:00:00.00	11467	B-0-0	 NAV: non-increasing time

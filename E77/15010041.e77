@@ -1,0 +1,16 @@
+# Cruise 15010041 ID MONS03AR MGD77 FILE VERSION: 19800226 N_RECS: 3841
+# Examined: Mon May 12 17:10:46 2008 by mtchandl
+# Arguments:  -R57.95/106/-19.7/-5.8 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010041-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-I-15010041-depth-01: RLS m: 1.00388 b: 0 rms: 121.552 r: 0.988308 significant: 1 decimation: 1
+Y-E-15010041-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.98433 b: 42.5072 rms: 60.3984 r: 0.978287 sig: 1 dec: 1). [Recompute]
+Y-W-15010041-mtf1-12: Integer multiple of 5 precision
+Y-W-15010041-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010041	1960-11-18T11:30:00.00	43	0-0-OQ	 GRAD: mtf1, mag excessive

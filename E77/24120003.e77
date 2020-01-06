@@ -1,0 +1,67 @@
+# Cruise 24120003 ID GA-0011 MGD77 FILE VERSION: 20080516 N_RECS: 20712
+# Examined: Mon Feb 14 22:13:32 2011 by mtchandl
+# Arguments:  -R143.45/151.55/-46.25/-42.85 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-24120003-H04-02: Invalid Survey Departure Month: (02) [01]
+Y-E-24120003-H04-03: Invalid Survey Departure Day: (16) [04]
+Y-E-24120003-H04-05: Invalid Survey Arrival Month: (03) [02]
+Y-E-24120003-H04-06: Invalid Survey Arrival Day: (23) [04]
+N-E-24120003-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24120003-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24120003-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24120003-H16-06: Ten Degree Identifier 3414 not marked in header but block was crossed
+Y-W-24120003-H16-06: Ten Degree Identifier 3415 not marked in header but block was crossed
+Y-I-24120003-depth-01: RLS m: 0.996136 b: 0 rms: 19.3187 r: 0.999925 sig: 1 dec: 0
+N-E-24120003-depth-02: Regression slope 0.996136 different from 1. Recommended: [1]
+N-E-24120003-twt-13: Encountered possible PDR wrap errors (4.0) [5.0]
+Y-W-24120003-depth-12: Integer precision
+Y-W-24120003-mtf1-12: Integer precision
+# Errata: Data
+?	24120003	1971-01-04T04:34:00.00	6	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T04:38:00.00	10	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T04:53:00.00	25	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T05:16:00.00	48	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T05:20:00.00	52	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:01:00.00	106	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:05:00.00	110	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:09:00.00	114	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:10:00.00	115	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:11:00.00	116	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:12:00.00	117	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:13:00.00	118	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:14:00.00	119	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:15:00.00	120	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:16:00.00	121	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:18:00.00	123	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:21:00.00	126	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:25:00.00	130	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:29:00.00	134	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:39:00.00	144	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:52:00.00	157	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:54:00.00	159	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T13:59:00.00	164	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:02:00.00	167	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:03:00.00	168	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:22:00.00	187	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:24:00.00	189	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:25:00.00	190	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:26:00.00	191	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:35:00.00	200	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:37:00.00	202	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:43:00.00	208	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T14:46:00.00	211	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T15:12:00.00	237	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T15:13:00.00	238	0-0-O	 GRAD: mtf1 excessive
+?	24120003	1971-01-04T22:04:00.00	649	0-0-U	 GRAD: gobs excessive
+?	24120003	1971-01-05T06:07:00.00	1132	0-0-U	 GRAD: gobs excessive
+?	24120003	1971-01-05T06:38:00.00	1163	0-0-U	 GRAD: gobs excessive
+?	24120003	1971-01-05T06:54:00.00	1179	0-0-U	 GRAD: gobs excessive
+?	24120003	1971-01-05T06:55:00.00	1180	0-0-U	 GRAD: gobs excessive
+?	24120003	1971-01-09T04:58:00.00	3445	0-0-KL	 GRAD: twt, depth excessive
+?	24120003	1971-01-14T05:40:00.00	10687	0-0-KL	 GRAD: twt, depth excessive
+?	24120003	1971-01-22T01:49:00.00	14746	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,22 @@
+# Cruise 67010064 ID 76007011 MGD77 FILE VERSION: 19800427 N_RECS: 4549
+# Examined: Mon Nov  7 15:58:03 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010064-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-67010064-depth-01: RLS m: 1 b: 0 rms: 11.8241 r: 0.999946 sig: 1 dec: 0
+Y-E-67010064-mag-07: Anomaly differs from mtf1-IGRF (m: 0.972969 b: -23.235 rms: 38.1986 r: 0.980638 sig: 1 dec: 1). [Recompute]
+Y-W-67010064-twt-11: More recent bathymetry correction table available
+Y-W-67010064-mtf1-12: Integer precision
+Y-W-67010064-mag-12: Integer precision
+# Errata: Data
+Y	67010064	1976-05-28T01:16:00.00	1183	B-0-0	 NAV: non-increasing time
+?	67010064	1976-05-28T08:46:00.00	1286	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010064	1976-05-28T08:48:00.00	1287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010064	1976-05-28T08:50:00.00	1288	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010064	1976-05-30T06:00:00.00	1834	C-0-0	 NAV: excessive speed
+Y	67010064	1976-06-05T02:54:00.00	3585	B-0-0	 NAV: non-increasing time

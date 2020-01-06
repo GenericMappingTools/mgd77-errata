@@ -1,0 +1,219 @@
+# Cruise 09050041 ID KA939014 MGD77 FILE VERSION: 19791128 N_RECS: 14575
+# Examined: Mon Aug  9 11:40:25 2010 by mtchandl
+# Arguments:  -R262.25/280.45/19.5/32.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09050041-H04-03: Invalid Survey Departure Day: (06) [08]
+Y-E-09050041-H04-05: Invalid Survey Arrival Month: (08) [09]
+Y-E-09050041-H04-06: Invalid Survey Arrival Day: (25) [09]
+Y-W-09050041-nav-00: Flagged 1.28 % of records with bad navigation
+Y-I-09050041-depth-01: RLS m: 1.00101 b: 0 rms: 15.4868 r: 0.999918 sig: 1 dec: 0
+N-E-09050041-depth-02: Regression slope 1.00101 different from 1. Recommended: [1]
+Y-W-09050041-depth-12: Integer precision
+# Errata: Data
+Y	09050041	1969-06-08T03:51:00.00	27	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-09T06:11:00.00	209	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-09T23:09:00.00	400	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-10T02:54:00.00	477	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-10T03:06:00.00	483	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-10T04:08:00.00	500	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-10T06:01:00.00	542	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-10T08:55:00.00	614	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-10T09:26:00.00	627	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-11T03:05:00.00	685	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-12T09:25:00.00	883	C-0-0	 NAV: excessive speed
+?	09050041	1969-06-12T09:52:00.00	896	0-0-KL	 GRAD: twt, depth excessive
+?	09050041	1969-06-12T10:04:00.00	901	0-0-KL	 GRAD: twt, depth excessive
+?	09050041	1969-06-12T10:24:00.00	910	0-0-K	 GRAD: twt excessive
+Y	09050041	1969-06-13T13:03:00.00	1063	B-0-K	 NAV: non-increasing time - GRAD: twt excessive
+?	09050041	1969-06-13T14:02:00.00	1103	0-0-KL	 GRAD: twt, depth excessive
+Y	09050041	1969-06-13T16:20:00.00	1181	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-18T02:41:00.00	1671	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-18T03:21:00.00	1682	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-18T03:31:00.00	1687	C-0-0	 NAV: excessive speed
+?	09050041	1969-06-18T11:39:00.00	1711	0-0-K	 GRAD: twt excessive
+Y	09050041	1969-06-19T00:19:00.00	1778	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-19T00:37:00.00	1785	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-19T07:54:00.00	1825	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-19T09:45:00.00	1850	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-20T01:04:00.00	1936	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-20T01:15:00.00	1944	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-20T01:41:00.00	1954	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-20T08:45:00.00	2027	B-0-0	 NAV: non-increasing time
+?	09050041	1969-06-20T09:20:00.00	2048	0-0-K	 GRAD: twt excessive
+?	09050041	1969-06-20T09:21:00.00	2049	0-0-KL	 GRAD: twt, depth excessive
+?	09050041	1969-06-20T09:25:00.00	2053	0-0-KL	 GRAD: twt, depth excessive
+Y	09050041	1969-06-20T14:42:00.00	2064	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-20T14:43:00.00	2065	B-0-0	 NAV: non-increasing time
+?	09050041	1969-06-21T19:12:00.00	2260	0-0-KL	 GRAD: twt, depth excessive
+Y	09050041	1969-06-21T20:08:00.00	2288	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-21T20:52:00.00	2314	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-21T21:00:00.00	2318	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-21T21:10:00.00	2323	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-22T01:18:00.00	2375	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-22T01:19:00.00	2376	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-22T01:57:00.00	2394	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-22T21:25:00.00	2412	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-22T21:26:00.00	2413	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-22T21:29:00.00	2416	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-22T21:32:00.00	2420	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-22T22:13:00.00	2451	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-25T20:30:00.00	2957	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-25T22:10:00.00	2986	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-25T22:15:00.00	2989	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-26T00:46:00.00	3047	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T00:54:00.00	3055	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T01:04:00.00	3062	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-26T01:16:00.00	3070	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T07:01:00.00	3079	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T07:27:00.00	3086	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T07:28:00.00	3087	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T10:16:00.00	3162	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-06-26T10:21:00.00	3165	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-27T05:54:00.00	3299	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-28T00:01:00.00	3454	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-28T00:05:00.00	3456	C-0-0	 NAV: excessive speed
+Y	09050041	1969-06-28T07:49:00.00	3501	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-06T06:17:00.00	3584	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-06T10:39:00.00	3662	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-07T07:49:00.00	3783	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-07T07:56:00.00	3785	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-07T10:11:00.00	3824	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-07T10:57:00.00	3842	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-07T11:07:00.00	3846	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-07T13:20:00.00	3883	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-10T23:41:00.00	4199	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-12T04:36:00.00	4386	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-12T05:05:00.00	4393	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-12T13:57:00.00	4459	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-13T13:32:00.00	4625	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-13T13:57:00.00	4639	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-13T14:13:00.00	4648	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-13T14:15:00.00	4650	B-0-0	 NAV: non-increasing time
+?	09050041	1969-07-13T14:17:00.00	4651	0-0-KL	 GRAD: twt, depth excessive
+Y	09050041	1969-07-13T14:24:00.00	4656	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-14T07:49:00.00	4727	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-14T15:22:00.00	4805	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-14T15:46:00.00	4818	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-14T20:15:00.00	4849	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-14T21:15:00.00	4879	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-15T03:02:00.00	4912	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-15T03:08:00.00	4916	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-15T16:42:00.00	5042	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-15T20:14:00.00	5087	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-15T20:39:00.00	5094	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-16T01:49:00.00	5164	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-16T14:03:00.00	5294	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-16T21:52:00.00	5388	C-0-0	 NAV: excessive speed
+?	09050041	1969-07-18T01:46:00.00	5525	0-0-K	 GRAD: twt excessive
+Y	09050041	1969-07-22T11:37:00.00	6190	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-22T16:24:00.00	6246	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-22T16:43:00.00	6255	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-22T18:34:00.00	6293	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-22T21:55:00.00	6341	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T06:44:00.00	6632	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T10:03:00.00	6701	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T10:07:00.00	6704	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T10:40:00.00	6723	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T10:45:00.00	6728	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T12:12:00.00	6776	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T12:25:00.00	6785	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T13:01:00.00	6802	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T13:37:00.00	6820	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T14:02:00.00	6834	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T14:12:00.00	6840	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T15:03:00.00	6882	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T15:08:00.00	6886	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T15:44:00.00	6897	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T16:30:00.00	6914	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T16:46:00.00	6922	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T17:16:00.00	6936	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T17:35:00.00	6943	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T18:39:00.00	6970	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T18:53:00.00	6981	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T19:40:00.00	7008	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T20:35:00.00	7041	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T20:49:00.00	7049	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T21:52:00.00	7086	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-24T23:12:00.00	7134	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-24T23:50:00.00	7157	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-25T01:37:00.00	7191	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-07-25T04:13:00.00	7233	C-0-0	 NAV: excessive speed
+Y	09050041	1969-07-25T04:21:00.00	7239	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-01T19:01:00.00	7400	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-01T19:40:00.00	7418	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-01T20:36:00.00	7446	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-01T21:05:00.00	7456	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-01T22:03:00.00	7479	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-02T12:55:00.00	7686	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-03T11:47:00.00	7785	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-03T17:17:00.00	7847	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-03T18:22:00.00	7886	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-03T18:38:00.00	7894	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-03T19:15:00.00	7909	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-03T19:28:00.00	7917	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-04T00:07:00.00	7943	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-04T00:21:00.00	7952	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-04T00:35:00.00	7958	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-05T00:05:00.00	8163	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-05T10:24:00.00	8279	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-05T11:45:00.00	8320	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-05T13:31:00.00	8365	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-06T14:16:00.00	8584	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-06T16:23:00.00	8628	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-06T16:26:00.00	8630	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-06T16:40:00.00	8640	B-0-K	 NAV: non-increasing time - GRAD: twt excessive
+Y	09050041	1969-08-06T21:17:00.00	8691	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-06T22:23:00.00	8715	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-07T08:46:00.00	8816	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-08T03:08:00.00	8969	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-08T03:09:00.00	8970	C-0-0	 NAV: excessive speed
+?	09050041	1969-08-08T03:11:00.00	8971	0-0-K	 GRAD: twt excessive
+?	09050041	1969-08-08T04:11:00.00	9013	0-0-K	 GRAD: twt excessive
+Y	09050041	1969-08-08T15:46:00.00	9210	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-08T20:01:00.00	9221	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-08T21:42:00.00	9280	B-0-K	 NAV: non-increasing time - GRAD: twt excessive
+Y	09050041	1969-08-09T10:57:00.00	9395	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-09T12:08:00.00	9432	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-09T13:25:00.00	9448	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-09T13:52:00.00	9458	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-09T14:08:00.00	9471	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-09T17:10:00.00	9509	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-10T08:47:00.00	9698	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-10T16:25:00.00	9755	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-11T09:51:00.00	9916	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-11T10:17:00.00	9925	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-11T13:15:00.00	9983	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-11T15:30:00.00	10029	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-12T00:09:00.00	10049	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-12T08:55:00.00	10114	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-13T20:00:00.00	10321	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-15T03:52:00.00	10456	C-0-0	 NAV: excessive speed
+?	09050041	1969-08-15T12:00:00.00	10605	0-0-KL	 GRAD: twt, depth excessive
+Y	09050041	1969-08-16T05:41:00.00	10701	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-16T09:31:00.00	10775	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-16T12:49:00.00	10804	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-16T13:02:00.00	10813	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-16T14:03:00.00	10851	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-16T14:25:00.00	10861	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-16T15:29:00.00	10903	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-16T15:39:00.00	10909	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-16T19:10:00.00	10934	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-16T21:07:00.00	10972	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-17T01:29:00.00	11032	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T03:27:00.00	11086	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T03:40:00.00	11093	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-17T12:05:00.00	11221	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T13:20:00.00	11254	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T14:40:00.00	11297	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T22:02:00.00	11339	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-17T22:10:00.00	11344	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-17T22:11:00.00	11345	C-0-0	 NAV: excessive speed
+Y	09050041	1969-08-18T03:35:00.00	11403	B-0-0	 NAV: non-increasing time
+Y	09050041	1969-08-18T05:42:00.00	11436	C-0-0	 NAV: excessive speed
+?	09050041	1969-09-02T02:10:00.00	13111	0-0-K	 GRAD: twt excessive
+?	09050041	1969-09-02T02:15:00.00	13112	0-0-K	 GRAD: twt excessive

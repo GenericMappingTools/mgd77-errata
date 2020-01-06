@@ -1,0 +1,50 @@
+# Cruise 06910021 ID P1085VI MGD77 FILE VERSION: 19881202 N_RECS: 7452
+# Examined: Fri Jul 16 17:13:22 2010 by mtchandl
+# Arguments:  -R294.9/296.3/17.35/19.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry data appear to be unprocessed. When predicted bathymetry > ~1000 m, reported depths tend to be close to zero, suggesting the use of an under-powered fathometer. Recommend flagging all depth data until processed by source institution. Eotvos reported twice (included in gobs and in eot column).
+# Errata: Header
+Y-W-06910021-nav-00: Flagged 0.16 % of records with bad navigation
+Y-I-06910021-depth-01: RLS m: 1 b: 0 rms: 43.9264 r: 0.994751 sig: 1 dec: 0
+Y-I-06910021-faa-01: RLS m: 1.0067 b: 3.22089 rms: 5.99673 r: 0.996827 sig: 1 dec: 0
+N-E-06910021-faa-02: Regression slope 1.0067 different from 1. Recommended: [1]
+Y-W-06910021-faa-03: Regression offset 3.22089 different from 0.
+Y-I-06910021-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910021-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.750231 b: -2.63622 rms: 34.1158 r: 0.918882 sig: 1 dec: 1). [Recompute]
+N-E-06910021-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 1.01464 b: -22.4274 rms: 23.9742 r: 0.98014 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-06910021-depth-10: Invalid data records: [1-7452]
+# Errata: Data
+?	06910021	1985-11-01T08:06:00.00	2824	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-01T10:00:00.00	2938	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-02T01:20:00.00	3858	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-02T01:21:00.00	3859	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-02T01:22:00.00	3860	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-02T01:37:00.00	3875	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-02T20:30:00.00	4427	0-0-K	 GRAD: twt excessive
+Y	06910021	1985-11-03T00:00:00.00	4637	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:01:00.00	4638	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:02:00.00	4639	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:03:00.00	4640	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:04:00.00	4641	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:05:00.00	4642	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:06:00.00	4643	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:07:00.00	4644	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:08:00.00	4645	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:09:00.00	4646	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:10:00.00	4647	C-0-0	 NAV: excessive speed
+Y	06910021	1985-11-03T00:11:00.00	4648	C-0-0	 NAV: excessive speed
+?	06910021	1985-11-03T16:14:00.00	5054	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-03T16:54:00.00	5094	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-03T17:12:00.00	5112	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-03T17:15:00.00	5115	0-0-K	 GRAD: twt excessive
+?	06910021	1985-11-03T17:16:00.00	5116	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-03T17:17:00.00	5117	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-03T17:18:00.00	5118	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-03T17:19:00.00	5119	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-03T17:20:00.00	5120	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-03T23:02:00.00	5462	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-05T03:40:00.00	6632	0-0-KL	 GRAD: twt, depth excessive
+?	06910021	1985-11-05T22:33:00.00	7366	0-0-KL	 GRAD: twt, depth excessive

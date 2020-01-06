@@ -1,0 +1,26 @@
+# Cruise 01010011 ID RC0805 MGD77 FILE VERSION: 19790619 N_RECS: 1906
+# Examined: Thu Jun 26 12:55:53 2008 by mtchandl
+# Arguments:  -R174.85/181.5/-41.75/-36.2 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010011-depth-01: RLS m: 1 b: 0 rms: 144.66 r: 0.989779 sig: 1 dec: 1
+Y-E-01010011-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00809 b: -23.3974 rms: 27.8988 r: 0.996039 sig: 1 dec: 1). [Recompute]
+Y-W-01010011-twt-11: More recent bathymetry correction table available
+Y-W-01010011-mtf1-12: Integer precision
+Y-W-01010011-mag-12: Integer precision
+# Errata: Data
+?	01010011	1964-03-09T11:17:00.00	85	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T11:18:00.00	86	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T11:34:00.00	92	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T11:37:00.00	94	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T12:05:00.00	101	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T12:12:00.00	103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T12:16:00.00	104	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01010011	1964-03-09T18:31:00.00	299	0-0-K	 GRAD: twt excessive
+?	01010011	1964-03-09T19:20:00.00	331	0-0-KL	 GRAD: twt, depth excessive
+?	01010011	1964-03-09T21:22:00.00	411	0-0-K	 GRAD: twt excessive
+?	01010011	1964-03-12T23:10:00.00	1900	0-0-KL	 GRAD: twt, depth excessive

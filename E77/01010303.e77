@@ -1,0 +1,23 @@
+# Cruise 01010303 ID RC3002 MGD77 FILE VERSION: 19900523 N_RECS: 10802
+# Examined: Fri Mar 19 01:10:34 2010 by mtchandl
+# Arguments:  -R300.35/321.55/-3.75/13.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01010303-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010303-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-01010303-H13-10: Survey year (1989) outside magnetic reference field Unused time range (9999-9999)
+Y-I-01010303-depth-01: RLS m: 0.965689 b: 0 rms: 76.3143 r: 0.999735 sig: 1 dec: 0
+N-E-01010303-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-I-01010303-faa-01: RLS m: 0.989891 b: 14.0914 rms: 14.4984 r: 0.997375 sig: 1 dec: 0
+N-E-01010303-faa-02: Regression slope 0.989891 different from 1. Recommended: [1]
+Y-W-01010303-faa-03: Regression offset 14.0914 different from 0.
+N-E-01010303-faa-06: Anomaly differs from gobs-IGF80 (m: 0.984572 b: 52.5103 rms: 53.6721 r: 0.98884 sig: 1 dec: 0). [Recompute]
+Y-I-01010303-faa-15: Anomaly equivalent to gobs-IGF80+eot (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+Y-W-01010303-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-01010303-twt-11: More recent bathymetry correction table available
+Y-W-01010303-depth-12: Integer precision
+# Errata: Data

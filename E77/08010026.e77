@@ -1,0 +1,57 @@
+# Cruise 08010026 ID 74010902 MGD77 FILE VERSION: 19830324 N_RECS: 10940
+# Examined: Mon Jul 26 15:53:42 2010 by mtchandl
+# Arguments:  -R279.6/288.95/-21.95/-12 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-08010026-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-W-08010026-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-08010026-nav-00: Flagged 0.25 % of records with bad navigation
+Y-I-08010026-depth-01: RLS m: 0.998884 b: 0 rms: 33.117 r: 0.999791 sig: 1 dec: 0
+N-E-08010026-depth-02: Regression slope 0.998884 different from 1. Recommended: [1]
+Y-I-08010026-faa-01: RLS m: 1.00133 b: -0.920282 rms: 6.95534 r: 0.992865 sig: 1 dec: 0
+Y-W-08010026-faa-03: Regression offset -0.920282 different from 0.
+Y-E-08010026-mag-07: Anomaly differs from mtf1-IGRF (m: 0.94954 b: -12.7689 rms: 29.0826 r: 0.986807 sig: 1 dec: 1). [Recompute]
+Y-W-08010026-twt-11: More recent bathymetry correction table available
+Y-W-08010026-mtf1-12: Integer precision
+Y-W-08010026-mag-12: Integer precision
+Y-W-08010026-faa-12: Integer precision
+# Errata: Data
+Y	08010026	1974-02-17T21:40:01.98	479	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-17T21:40:05.94	480	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-21T06:04:05.94	1944	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-21T07:24:05.94	1981	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-21T08:20:05.94	2008	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-21T09:12:05.94	2038	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-22T21:32:05.94	2838	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-22T23:52:05.94	2900	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-24T18:38:05.94	3667	C-0-0	 NAV: excessive speed
+Y	08010026	1974-02-24T22:16:05.94	3771	C-0-0	 NAV: excessive speed
+?	08010026	1974-02-26T19:10:15.00	4819	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010026	1974-02-26T19:10:58.02	4821	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010026	1974-02-26T19:11:41.04	4822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010026	1974-02-26T19:11:46.02	4823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010026	1974-03-01T22:08:15.96	5962	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	08010026	1974-03-01T22:13:08.94	5966	0-Q-0	 VAL: mag invalid
+?	08010026	1974-03-01T22:15:51.00	5971	0-Q-0	 VAL: mag invalid
+?	08010026	1974-03-01T22:25:25.98	5974	0-Q-0	 VAL: mag invalid
+Y	08010026	1974-03-02T02:55:05.94	6047	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-06T01:43:05.94	7337	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-06T02:18:05.94	7353	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-06T11:18:05.94	7585	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-07T03:36:05.94	7903	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-09T02:10:05.94	8909	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-10T20:04:05.94	10058	C-0-0	 NAV: excessive speed
+Y	08010026	1974-03-11T21:14:56.04	10775	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:27:44.04	10776	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:30:00.00	10777	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:44:58.02	10778	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:52:10.98	10779	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:54:49.02	10780	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:56:31.02	10781	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T21:57:17.94	10782	D-0-0	 NAV: on land
+Y	08010026	1974-03-11T22:00:00.00	10783	D-0-0	 NAV: on land
+Y	08010026	1974-03-12T06:48:05.94	10876	C-0-0	 NAV: excessive speed

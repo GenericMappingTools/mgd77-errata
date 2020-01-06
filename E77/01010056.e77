@@ -1,0 +1,22 @@
+# Cruise 01010056 ID RC1201 MGD77 FILE VERSION: 19790619 N_RECS: 8665
+# Examined: Mon Jan 26 17:18:18 2009 by mtchandl
+# Arguments:  -R262.4/288.5/9.5/40.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01010056-depth-01: RLS m: 1 b: 0 rms: 7.72729 r: 0.99999 sig: 1 dec: 0
+Y-I-01010056-faa-01: RLS m: 1.02032 b: -1.17921 rms: 11.6686 r: 0.976007 sig: 1 dec: 1
+Y-E-01010056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.894957 b: -54.4681 rms: 65.1259 r: 0.932585 sig: 1 dec: 0). [Recompute]
+Y-W-01010056-twt-11: More recent bathymetry correction table available
+Y-W-01010056-mtf1-12: Integer precision
+Y-W-01010056-mag-12: Integer precision
+# Errata: Data
+?	01010056	1968-01-16T05:48:00.00	3346	0-0-K	 GRAD: twt excessive
+?	01010056	1968-01-31T23:48:00.00	7687	0-0-K	 GRAD: twt excessive
+?	01010056	1968-02-01T00:24:00.00	7694	0-M-0	 VAL: bcc invalid
+?	01010056	1968-02-01T00:30:00.00	7695	0-M-0	 VAL: bcc invalid
+?	01010056	1968-02-01T00:36:00.00	7696	0-M-0	 VAL: bcc invalid
+?	01010056	1968-02-01T00:42:00.00	7697	0-M-0	 VAL: bcc invalid

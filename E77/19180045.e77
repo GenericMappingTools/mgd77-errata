@@ -1,0 +1,19 @@
+# Cruise 19180045 ID CD9094 MGD77 FILE VERSION: 19971208 N_RECS: 7256
+# Examined: Mon Sep 20 13:31:55 2010 by mtchandl
+# Arguments:  -R325.9/334.35/36/37.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some differences between reported and predicted bathymetry.
+# Errata: Header
+Y-W-19180045-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19180045-depth-01: RLS m: 0.99628 b: 0 rms: 84.6037 r: 0.978575 sig: 1 dec: 0
+Y-W-19180045-depth-12: Integer precision
+# Errata: Data
+Y	19180045	1994-09-17T16:30:00.00	254	C-0-0	 NAV: excessive speed
+?	19180045	1994-09-18T05:24:00.00	641	0-0-L	 GRAD: depth excessive
+?	19180045	1994-09-21T00:04:00.00	2641	0-0-L	 GRAD: depth excessive
+?	19180045	1994-09-23T09:16:00.00	4357	0-0-L	 GRAD: depth excessive
+?	19180045	1994-09-23T09:20:00.00	4359	0-0-L	 GRAD: depth excessive
+?	19180045	1994-09-23T10:16:00.00	4387	0-0-L	 GRAD: depth excessive

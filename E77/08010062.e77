@@ -1,0 +1,32 @@
+# Cruise 08010062 ID 80012102 MGD77 FILE VERSION: 19821020 N_RECS: 2657
+# Examined: Mon Jul 26 16:41:09 2010 by mtchandl
+# Arguments:  -R260.05/269.2/12.65/16.9 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08010062-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08010062-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08010062-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08010062-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08010062-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08010062-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08010062-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08010062-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08010062-nav-00: Flagged 0.23 % of records with bad navigation
+Y-I-08010062-depth-01: RLS m: 0.998361 b: 0 rms: 53.0905 r: 0.99972 sig: 1 dec: 0
+Y-W-08010062-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08010062	1980-02-18T20:14:19.98	2642	D-0-0	 NAV: on land
+Y	08010062	1980-02-18T20:17:19.98	2643	D-0-0	 NAV: on land
+Y	08010062	1980-02-18T20:20:19.98	2644	D-0-0	 NAV: on land
+Y	08010062	1980-02-18T20:23:19.98	2645	D-0-0	 NAV: on land
+Y	08010062	1980-02-18T21:06:00.00	2646	D-0-0	 NAV: on land
+Y	08010062	1980-02-18T21:32:00.00	2647	D-0-0	 NAV: on land
+?	08010062	1980-02-18T23:14:00.00	2648	D-0-0	 NAV: on land
+?	08010062	1980-02-19T09:12:00.00	2654	D-0-0	 NAV: on land
+?	08010062	1980-02-19T10:54:00.00	2655	D-0-0	 NAV: on land
+?	08010062	1980-02-19T12:58:00.00	2656	D-0-0	 NAV: on land
+?	08010062	1980-02-19T14:40:00.00	2657	D-0-0	 NAV: on land

@@ -1,0 +1,26 @@
+# Cruise 15040070 ID INDP03WT MGD77 FILE VERSION: 19800226 N_RECS: 7096
+# Examined: Thu May 22 09:55:46 2008 by mtchandl
+# Arguments:  -R121.6/144.7/10.85/24.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040070-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040070-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-15040070-depth-01: RLS m: 1.00385 b: 0 rms: 119.053 r: 0.997684 sig: 1 dec: 1
+Y-E-15040070-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.993684 b: 50.6095 rms: 59.8879 r: 0.976773 sig: 1 dec: 1). [Recompute]
+Y-W-15040070-twt-11: More recent bathymetry correction table available
+Y-W-15040070-mtf1-12: Integer precision
+Y-W-15040070-mag-12: Integer precision
+# Errata: Data
+?	15040070	1976-05-26T15:55:00.00	351	D-0-0	 NAV: on land
+Y	15040070	1976-05-26T16:00:00.00	352	D-0-0	 NAV: on land
+Y	15040070	1976-05-26T16:05:00.00	353	D-0-0	 NAV: on land
+Y	15040070	1976-05-26T16:10:00.00	354	D-0-0	 NAV: on land
+Y	15040070	1976-05-26T16:15:00.00	355	D-0-0	 NAV: on land
+?	15040070	1976-05-26T16:20:00.00	356	D-0-0	 NAV: on land
+?	15040070	1976-05-26T16:25:00.00	357	D-0-0	 NAV: on land
+?	15040070	1976-05-26T16:30:00.00	358	D-0-0	 NAV: on land
+?	15040070	1976-05-27T02:25:00.00	477	0-0-OQ	 GRAD: mtf1, mag excessive

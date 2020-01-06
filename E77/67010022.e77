@@ -1,0 +1,15 @@
+# Cruise 67010022 ID 71009011 MGD77 FILE VERSION: 19830804 N_RECS: 511
+# Examined: Thu Jul 28 18:42:20 2011 by mtchandl
+# Arguments:  -R-4.75/-1.45/45.7/48.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Insufficient depth precision for shallow survey.
+# Errata: Header
+Y-I-67010022-depth-01: RLS m: 1.0014 b: 0 rms: 1.22374 r: 0.999163 sig: 1 dec: 0
+Y-I-67010022-faa-01: RLS m: 0.804792 b: 6.71786 rms: 5.93228 r: 0.90532 sig: 1 dec: 0
+N-E-67010022-faa-02: Regression slope 0.804792 different from 1. Recommended: [1]
+Y-W-67010022-faa-03: Regression offset 6.71786 different from 0.
+Y-W-67010022-twt-11: More recent bathymetry correction table available
+# Errata: Data

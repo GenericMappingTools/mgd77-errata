@@ -1,0 +1,18 @@
+# Cruise J8010021 ID ANTAC21A MGD77 FILE VERSION: 19880322 N_RECS: 3825
+# Examined: Mon Nov  7 17:40:08 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-J8010021-nav-00: Flagged 0.08 % of records with bad navigation
+Y-I-J8010021-depth-01: RLS m: 0.999193 b: 0 rms: 15.8799 r: 0.99995 sig: 1 dec: 0
+N-E-J8010021-depth-02: Regression slope 0.999193 different from 1. Recommended: [1]
+Y-W-J8010021-twt-11: twt may be extracted from depth for Carter correction
+Y-W-J8010021-depth-12: Integer precision
+# Errata: Data
+Y	J8010021	3623.43	177	D-0-0	 NAV: on land
+Y	J8010021	3628.67	178	D-0-0	 NAV: on land
+Y	J8010021	3644.52	181	D-0-0	 NAV: on land

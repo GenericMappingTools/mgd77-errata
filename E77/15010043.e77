@@ -1,0 +1,32 @@
+# Cruise 15010043 ID MONS4BAR MGD77 FILE VERSION: 19800226 N_RECS: 2252
+# Examined: Tue May 13 08:59:53 2008 by mtchandl
+# Arguments:  -R114.6/147.5/-49.75/-31.9 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15010043-H12-01: Invalid Bathymetry Digitizing Rate: (000) [   ]
+Y-W-15010043-nav-00: Flagged 0.09 % of records with excessive speed or invalid navigation
+Y-E-15010043-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.997065 b: 39.9885 rms: 62.7601 r: 0.9824 sig: 1 dec: 1). [Recompute]
+Y-W-15010043-mtf1-12: Integer multiple of 5 precision
+Y-W-15010043-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010043	1961-01-06T17:05:00.00	158	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010043	1961-01-06T17:30:00.00	163	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010043	1961-01-07T06:50:00.00	315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010043	1961-01-07T18:35:00.00	438	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T18:40:00.00	439	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T18:45:00.00	440	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010043	1961-01-07T18:50:00.00	441	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T18:55:00.00	442	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T19:00:00.00	443	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T19:05:00.00	444	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T19:10:00.00	445	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-07T19:15:00.00	446	0-Q-0	 VAL: mag invalid
+?	15010043	1961-01-14T23:50:00.00	2212	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010043	1961-01-14T23:55:00.00	2213	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010043	1961-01-15T01:50:00.00	2236	D-0-0	 NAV: on land
+Y	15010043	1961-01-15T01:55:00.00	2237	D-0-0	 NAV: on land
+Y	15010043	1961-01-15T02:00:00.00	2238	D-0-0	 NAV: on land

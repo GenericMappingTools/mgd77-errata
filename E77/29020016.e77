@@ -1,0 +1,33 @@
+# Cruise 29020016 ID VIT33B MGD77 FILE VERSION: 19971007 N_RECS: 4565
+# Examined: Mon Feb 14 22:24:08 2011 by mtchandl
+# Arguments:  -R104.45/133.75/-13.65/41 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-29020016-depth-01: RLS m: 1.0008 b: 0 rms: 40.8107 r: 0.999834 sig: 1 dec: 0
+N-E-29020016-depth-02: Regression slope 1.0008 different from 1. Recommended: [1]
+Y-W-29020016-depth-12: Integer precision
+# Errata: Data
+?	29020016	353.565	256	0-0-L	 GRAD: depth excessive
+?	29020016	390.424	290	0-0-L	 GRAD: depth excessive
+?	29020016	735.424	473	0-0-L	 GRAD: depth excessive
+?	29020016	738.043	477	0-0-L	 GRAD: depth excessive
+?	29020016	748.914	485	0-0-L	 GRAD: depth excessive
+?	29020016	895.752	581	0-0-L	 GRAD: depth excessive
+?	29020016	4767.4	1643	0-0-L	 GRAD: depth excessive
+?	29020016	5255.43	2016	0-0-L	 GRAD: depth excessive
+?	29020016	5384.19	2131	0-0-L	 GRAD: depth excessive
+?	29020016	5441.31	2213	0-0-L	 GRAD: depth excessive
+?	29020016	5549.86	2295	0-0-L	 GRAD: depth excessive
+?	29020016	5578.31	2345	0-0-L	 GRAD: depth excessive
+?	29020016	6846.1	3138	0-0-L	 GRAD: depth excessive
+?	29020016	7980.28	3706	0-0-L	 GRAD: depth excessive
+?	29020016	8237.57	3810	0-0-L	 GRAD: depth excessive
+?	29020016	8428.43	3932	0-0-L	 GRAD: depth excessive
+?	29020016	8686.76	4073	0-0-L	 GRAD: depth excessive
+?	29020016	8919.68	4229	0-0-L	 GRAD: depth excessive
+?	29020016	9944.51	4375	0-0-L	 GRAD: depth excessive
+?	29020016	10031.1	4413	0-0-L	 GRAD: depth excessive

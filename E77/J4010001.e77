@@ -1,0 +1,48 @@
+# Cruise J4010001 ID KH6701 MGD77 FILE VERSION: 19790101 N_RECS: 2096
+# Examined: Sun Aug  7 09:57:07 2011 by mtchandl
+# Arguments:  -R141.1/181.15/37.75/54.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomnalies could be outdated, no total field data for anomaly recalculation.
+# Errata: Header
+N-E-J4010001-H04-03: Invalid Survey Departure Day: (14) [19]
+Y-W-J4010001-H16-06: Ten Degree Identifier 7418 not marked in header but block was crossed
+Y-W-J4010001-H16-06: Ten Degree Identifier 1418 marked in header but was not crossed
+Y-W-J4010001-H16-06: Ten Degree Identifier 7518 not marked in header but block was crossed
+Y-W-J4010001-H16-06: Ten Degree Identifier 1518 marked in header but was not crossed
+Y-W-J4010001-nav-00: Flagged 1.48 % of records with bad navigation
+Y-W-J4010001-mag-12: Integer precision
+# Errata: Data
+Y	J4010001	1967-07-19T23:40:00.00	89	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-19T23:50:00.00	90	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-20T00:00:00.00	91	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-20T20:00:00.00	163	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T21:10:00.00	225	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T21:20:00.00	226	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T21:30:00.00	227	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T21:40:00.00	228	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T21:50:00.00	229	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-21T22:00:00.00	230	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T00:10:00.00	243	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T00:20:00.00	244	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T00:30:00.00	245	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T00:40:00.00	246	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T00:50:00.00	247	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-22T01:00:00.00	248	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T00:40:00.00	553	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T00:50:00.00	554	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T01:20:00.00	557	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T01:30:00.00	558	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T01:40:00.00	559	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T01:50:00.00	560	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T02:00:00.00	561	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T02:10:00.00	562	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-25T02:20:00.00	563	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-07-27T21:40:00.00	880	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-08-01T07:30:00.00	1318	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-08-01T07:40:00.00	1319	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-08-01T07:50:00.00	1320	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-08-01T08:00:00.00	1321	C-0-0	 NAV: excessive speed
+Y	J4010001	1967-08-01T08:10:00.00	1322	C-0-0	 NAV: excessive speed

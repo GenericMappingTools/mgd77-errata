@@ -1,0 +1,23 @@
+# Cruise 67010060 ID 76001111 MGD77 FILE VERSION: 19800427 N_RECS: 1135
+# Examined: Fri Jul 29 16:27:54 2011 by mtchandl
+# Arguments:  -R-9.8/-5.4/46.4/48.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010060-nav-00: Flagged 0.53 % of records with bad navigation
+Y-I-67010060-depth-01: RLS m: 1.00304 b: 0 rms: 94.9791 r: 0.99686 sig: 1 dec: 0
+Y-W-67010060-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	67010060	1976-02-16T15:00:00.00	2	C-0-0	 NAV: excessive speed
+Y	67010060	1976-02-16T15:10:00.00	3	C-0-0	 NAV: excessive speed
+?	67010060	1976-02-22T09:57:00.00	812	0-0-KL	 GRAD: twt, depth excessive
+?	67010060	1976-02-22T10:37:00.00	837	0-0-K	 GRAD: twt excessive
+?	67010060	1976-02-22T10:57:00.00	848	0-0-KL	 GRAD: twt, depth excessive
+Y	67010060	1976-02-23T21:35:00.00	987	C-0-0	 NAV: excessive speed
+Y	67010060	1976-02-23T21:37:00.00	988	C-0-0	 NAV: excessive speed
+Y	67010060	1976-02-23T21:39:00.00	989	C-0-0	 NAV: excessive speed
+Y	67010060	1976-02-23T21:41:00.00	990	C-0-0	 NAV: excessive speed
+?	67010060	1976-02-23T21:59:00.00	999	0-0-KL	 GRAD: twt, depth excessive

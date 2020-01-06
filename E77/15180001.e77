@@ -1,0 +1,30 @@
+# Cruise 15180001 ID SILS01BT MGD77 FILE VERSION: 19800226 N_RECS: 4652
+# Examined: Mon Jun  2 11:15:45 2008 by mtchandl
+# Arguments:  -R140.1/155.75/31.35/41.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+Y-I-15180001-depth-01: RLS m: 1 b: 0 rms: 137.165 r: 0.997514 sig: 1 dec: 1
+Y-E-15180001-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.996372 b: -6.58868 rms: 74.6237 r: 0.943411 sig: 1 dec: 1). [Recompute]
+N-E-15180001-depth-08: Extended offset from grid [58-87]
+N-E-15180001-depth-08: Extended offset from grid [4466-4571]
+Y-E-15180001-twt-13: Encountered possible PDR wrap errors (9.5) [10.0]
+Y-W-15180001-mtf1-12: Integer multiple of 5 precision
+Y-W-15180001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15180001	1969-10-05T18:50:00.00	59	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-05T20:55:00.00	84	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-05T21:25:00.00	90	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-05T21:35:00.00	92	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-06T06:35:00.00	200	0-0-K	 GRAD: twt excessive
+?	15180001	1969-10-09T03:00:00.00	918	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-19T04:00:00.00	3525	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15180001	1969-10-22T17:00:00.00	4467	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-22T17:05:00.00	4468	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-22T17:25:00.00	4472	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-23T09:45:00.00	4554	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-23T10:20:00.00	4561	0-0-KL	 GRAD: twt, depth excessive
+?	15180001	1969-10-23T11:05:00.00	4570	0-0-KL	 GRAD: twt, depth excessive

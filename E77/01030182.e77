@@ -1,0 +1,19 @@
+# Cruise 01030182 ID V3201 MGD77 FILE VERSION: 19800908 N_RECS: 2289
+# Examined: Fri Mar 19 01:17:09 2010 by mtchandl
+# Arguments:  -R285.75/288.4/38.6/40.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-01030182-depth-01: RLS m: 1.00164 b: 0 rms: 7.19621 r: 0.999967 sig: 1 dec: 0
+N-E-01030182-depth-02: Regression slope 1.00164 different from 1. Recommended: [1]
+Y-I-01030182-faa-01: RLS m: 1.05012 b: 0.9271 rms: 3.39837 r: 0.987679 sig: 1 dec: 0
+N-E-01030182-faa-02: Regression slope 1.05012 different from 1. Recommended: [1]
+Y-W-01030182-faa-03: Regression offset 0.9271 different from 0.
+Y-W-01030182-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030182	1974-10-20T05:06:00.00	367	0-0-K	 GRAD: twt excessive
+?	01030182	1974-10-22T09:13:00.00	682	0-0-KL	 GRAD: twt, depth excessive
+?	01030182	1974-10-25T22:53:00.00	1295	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,23 @@
+# Cruise 19100029 ID DI123L1 MGD77 FILE VERSION: 19931231 N_RECS: 13174
+# Examined: Mon Sep  6 13:29:55 2010 by mtchandl
+# Arguments:  -R-14.7/3.8/49.85/62.75 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19100029-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-19100029-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-19100029-depth-01: RLS m: 0.995855 b: 0 rms: 12.3208 r: 0.999918 sig: 1 dec: 0
+N-E-19100029-depth-02: Regression slope 0.995855 different from 1. Recommended: [1]
+Y-W-19100029-depth-12: Integer precision
+# Errata: Data
+Y	19100029	1981-08-07T23:32:00.00	1677	B-0-0	 NAV: non-increasing time
+Y	19100029	1981-08-11T23:54:00.00	4569	B-0-0	 NAV: non-increasing time
+Y	19100029	1981-08-12T00:18:00.00	4581	C-0-0	 NAV: excessive speed
+Y	19100029	1981-08-16T15:26:00.00	7915	C-0-0	 NAV: excessive speed
+?	19100029	1981-08-18T04:06:00.00	9015	0-0-KL	 GRAD: twt, depth excessive
+Y	19100029	1981-08-20T11:28:00.00	10676	C-0-0	 NAV: excessive speed
+Y	19100029	1981-08-20T11:30:00.00	10677	C-0-0	 NAV: excessive speed
+?	19100029	1981-08-21T06:06:00.00	11235	0-0-KL	 GRAD: twt, depth excessive

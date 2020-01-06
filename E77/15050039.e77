@@ -1,0 +1,25 @@
+# Cruise 15050039 ID DSDP41GC MGD77 FILE VERSION: 19800226 N_RECS: 4528
+# Examined: Wed May 28 13:12:10 2008 by mtchandl
+# Arguments:  -R337.05/355.45/4.05/35.6 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050039-H04-03: Invalid Survey Departure Day: (17) [18]
+N-E-15050039-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-W-15050039-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15050039-depth-01: RLS m: 1 b: 0 rms: 78.5841 r: 0.998216 sig: 1 dec: 1
+Y-E-15050039-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.03484 b: 140.87 rms: 163.446 r: 0.886032 sig: 1 dec: 1). [Recompute]
+Y-W-15050039-twt-11: More recent bathymetry correction table available
+Y-W-15050039-mtf1-12: Integer precision
+Y-W-15050039-mag-12: Integer precision
+# Errata: Data
+?	15050039	1975-03-02T12:15:00.00	1488	0-0-K	 GRAD: twt excessive
+?	15050039	1975-03-12T13:20:00.00	2279	0-Q-0	 VAL: mag invalid
+?	15050039	1975-03-12T13:25:00.00	2280	0-Q-0	 VAL: mag invalid
+?	15050039	1975-03-12T13:30:00.00	2281	0-Q-0	 VAL: mag invalid
+?	15050039	1975-03-12T13:35:00.00	2282	0-Q-0	 VAL: mag invalid
+?	15050039	1975-03-12T13:40:00.00	2283	0-Q-0	 VAL: mag invalid
+?	15050039	1975-03-27T11:25:00.00	3652	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,19 @@
+# Cruise 15020127 ID HELI03MV MGD77 FILE VERSION: 19881130 N_RECS: 7199
+# Examined: Sat May 17 10:12:32 2008 by mtchandl
+# Arguments:  -R241/250.95/-27.15/-8.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15020127-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-15020127-depth-01: RLS m: 1 b: 0 rms: 143.522 r: 0.98341 sig: 1 dec: 1
+Y-W-15020127-twt-11: More recent bathymetry correction table available
+Y-W-15020127-depth-12: Integer precision
+# Errata: Data
+?	15020127	1987-11-26T05:16:00.00	4	D-0-0	 NAV: on land
+Y	15020127	1987-11-26T05:30:00.00	5	D-0-0	 NAV: on land
+Y	15020127	1987-11-26T05:46:00.00	6	D-0-0	 NAV: on land
+Y	15020127	1987-11-26T06:16:00.00	7	D-0-0	 NAV: on land
+?	15020127	1987-11-26T06:46:00.00	8	D-0-0	 NAV: on land

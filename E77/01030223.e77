@@ -1,0 +1,28 @@
+# Cruise 01030223 ID V3409 MGD77 FILE VERSION: 19800908 N_RECS: 8325
+# Examined: Fri Mar 19 01:20:29 2010 by mtchandl
+# Arguments:  -R54.25/68.35/-34.75/-5.2 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01030223-H04-05: Invalid Survey Arrival Month: (11) [12]
+N-E-01030223-H04-06: Invalid Survey Arrival Day: (29) [06]
+Y-W-01030223-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-01030223-depth-01: RLS m: 1.0001 b: 0 rms: 41.3143 r: 0.995838 sig: 1 dec: 0
+Y-I-01030223-faa-01: RLS m: 0.976471 b: -9.87128 rms: 13.1283 r: 0.979816 sig: 1 dec: 1
+Y-W-01030223-faa-03: Regression offset -9.87128 different from 0.
+Y-E-01030223-mag-07: Anomaly differs from mtf1-IGRF (m: 0.958087 b: -239.757 rms: 242.466 r: 0.924088 sig: 1 dec: 0). [Recompute]
+Y-W-01030223-twt-11: More recent bathymetry correction table available
+Y-W-01030223-mtf1-12: Integer precision
+Y-W-01030223-mag-12: Integer precision
+# Errata: Data
+?	01030223	1977-11-10T19:06:00.00	1988	0-0-K	 GRAD: twt excessive
+Y	01030223	1977-11-18T04:30:00.00	3699	D-0-0	 NAV: on land
+?	01030223	1977-11-19T01:06:00.00	3831	0-0-K	 GRAD: twt excessive
+?	01030223	1977-12-03T08:30:00.00	7198	0-0-K	 GRAD: twt excessive
+?	01030223	1977-12-06T13:12:00.00	8297	0-0-K	 GRAD: twt excessive
+?	01030223	1977-12-06T13:30:00.00	8301	0-0-K	 GRAD: twt excessive
+?	01030223	1977-12-06T13:54:00.00	8307	0-0-K	 GRAD: twt excessive
+?	01030223	1977-12-06T14:24:00.00	8314	0-0-K	 GRAD: twt excessive

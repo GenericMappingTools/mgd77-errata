@@ -1,0 +1,29 @@
+# Cruise 02020072 ID A2091L02 MGD77 FILE VERSION: 19820805 N_RECS: 25948
+# Examined: Fri Apr  2 14:59:16 2010 by mtchandl
+# Arguments:  -R290.2/296.35/39.6/43 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020072-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020072-depth-01: RLS m: 0.998953 b: 0 rms: 26.319 r: 0.999726 sig: 1 dec: 0
+N-E-02020072-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-E-02020072-mag-07: Anomaly differs from mtf1-IGRF (m: 0.914801 b: -319.304 rms: 334.426 r: 0.974943 sig: 1 dec: 1). [Recompute]
+Y-W-02020072-twt-11: More recent bathymetry correction table available
+Y-W-02020072-mtf1-12: Integer precision
+Y-W-02020072-mag-12: Integer precision
+# Errata: Data
+?	02020072	1975-07-26T16:39:00.00	68	0-0-K	 GRAD: twt excessive
+?	02020072	1975-07-29T00:39:00.00	2389	0-0-Q	 GRAD: mag excessive
+?	02020072	1975-07-29T01:43:00.00	2416	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-07-29T01:44:00.00	2417	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-07-29T01:45:00.00	2418	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-07-29T01:49:00.00	2419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-07-29T01:50:00.00	2420	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-07-29T22:00:00.00	3204	0-0-KL	 GRAD: twt, depth excessive
+?	02020072	1975-08-02T07:50:00.00	5430	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-08-05T16:04:00.00	9840	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020072	1975-08-05T23:20:00.00	10261	0-0-Q	 GRAD: mag excessive
+?	02020072	1975-08-16T21:36:00.00	23667	0-0-K	 GRAD: twt excessive

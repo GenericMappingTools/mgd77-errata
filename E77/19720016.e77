@@ -1,0 +1,45 @@
+# Cruise 19720016 ID JCR14 MGD77 FILE VERSION: 19991222 N_RECS: 23934
+# Examined: Mon Oct 18 15:40:41 2010 by mtchandl
+# Arguments:  -R-10.8/15.65/53.5/78.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-19720016-time-01: 1 of 23934 records contain invalid time
+N-E-19720016-H04-04: Invalid Survey Arrival Year: (1996) [-2147483648]
+N-E-19720016-H04-05: Invalid Survey Arrival Month: (08) [-2147483648]
+N-E-19720016-H04-06: Invalid Survey Arrival Day: (22) [-2147483648]
+Y-E-19720016-H16-01: Invalid Number of Ten Degree Identifiers: ( 6) [7]
+Y-W-19720016-H16-06: Ten Degree Identifier 1500 not marked in header but block was crossed
+Y-W-19720016-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-19720016-depth-01: RLS m: 1 b: 0 rms: 3.45203 r: 0.999998 sig: 1 dec: 0
+# Errata: Data
+?	19720016	1996-07-22T07:11:00.00	3631	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T05:32:00.00	5589	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T18:23:30.00	5887	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T19:32:30.00	5910	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T20:32:00.00	5928	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T20:34:30.00	5930	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T20:44:30.00	5934	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T20:48:00.00	5935	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-25T23:13:00.00	5987	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-28T14:00:30.00	8104	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-28T14:01:30.00	8105	0-0-L	 GRAD: depth excessive
+?	19720016	1996-07-30T21:17:00.00	9259	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-01T07:01:30.00	9891	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-01T07:02:00.00	9892	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-01T20:38:00.00	10147	0-0-L	 GRAD: depth excessive
+Y	19720016	1996-08-05T21:23:00.00	12068	C-0-0	 NAV: excessive speed
+Y	19720016	1996-08-05T21:23:30.00	12069	C-0-0	 NAV: excessive speed
+Y	19720016	1996-08-05T21:24:00.00	12070	C-0-0	 NAV: excessive speed
+?	19720016	1996-08-06T18:14:00.00	12943	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T01:34:30.00	13113	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T03:56:30.00	13157	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T03:57:30.00	13158	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T05:13:00.00	13182	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T06:33:30.00	13200	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T06:49:30.00	13203	0-0-L	 GRAD: depth excessive
+?	19720016	1996-08-07T06:58:00.00	13206	0-0-L	 GRAD: depth excessive
+Y	19720016	NaN	23934	E-0-0	 NAV: navigation undefined

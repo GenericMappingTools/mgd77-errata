@@ -1,0 +1,43 @@
+# Cruise 15060029 ID RISP01BD MGD77 FILE VERSION: 19800226 N_RECS: 10673
+# Examined: Sat May 31 10:23:09 2008 by mtchandl
+# Arguments:  -R241.1/282.8/-12.1/30.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060029-H04-03: Invalid Survey Departure Day: (27) [28]
+Y-W-15060029-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15060029-depth-01: RLS m: 1 b: 0 rms: 159.786 r: 0.993299 sig: 1 dec: 1
+Y-E-15060029-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.981202 b: -108.581 rms: 143.623 r: 0.915843 sig: 1 dec: 1). [Recompute]
+Y-W-15060029-twt-11: More recent bathymetry correction table available
+Y-W-15060029-mtf1-12: Integer multiple of 5 precision
+Y-W-15060029-mag-12: Integer multiple of 5 precision
+# Errata: Data
+Y	15060029	1961-11-01T18:54:00.00	1563	C-0-0	 NAV: excessive speed
+Y	15060029	1961-11-07T08:00:00.00	3499	C-0-0	 NAV: excessive speed
+?	15060029	1961-11-20T12:48:00.00	8174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-21T18:30:00.00	8601	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-21T20:36:00.00	8643	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-21T23:12:00.00	8695	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-21T23:18:00.00	8697	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-21T23:42:00.00	8705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T00:24:00.00	8719	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T01:06:00.00	8733	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T01:12:00.00	8735	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T01:30:00.00	8741	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T02:48:00.00	8767	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T02:54:00.00	8769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T03:30:00.00	8781	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T03:36:00.00	8783	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T03:48:00.00	8787	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T04:12:00.00	8795	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T04:48:00.00	8807	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T04:54:00.00	8809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T05:06:00.00	8813	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T05:36:00.00	8823	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T07:24:00.00	8859	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T09:00:00.00	8891	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T11:30:00.00	8941	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060029	1961-11-22T11:35:00.00	8943	0-0-OQ	 GRAD: mtf1, mag excessive

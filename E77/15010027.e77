@@ -1,0 +1,14 @@
+# Cruise 15010027 ID LUSI6AAR MGD77 FILE VERSION: 19810928 N_RECS: 5183
+# Examined: Mon May 12 17:04:18 2008 by mtchandl
+# Arguments:  -R54.35/76.25/-19.9/10 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15010027-depth-01: RLS m: 1.00388 b: 0 rms: 125.569 r: 0.995785 significant: 1 decimation: 1
+Y-E-15010027-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.08541 b: 58.2351 rms: 77.9112 r: 0.947803 sig: 1 dec: 1). [Recompute]
+Y-W-15010027-mtf1-12: Integer precision
+Y-W-15010027-mag-12: Integer precision
+# Errata: Data

@@ -1,0 +1,67 @@
+# Cruise 03040083 ID POL6702 MGD77 FILE VERSION: 19870305 N_RECS: 4594
+# Examined: Fri Apr 16 13:54:16 2010 by mtchandl
+# Arguments:  -R175/287.5/-41.75/-32.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and filtering gravity and magnetic data.
+# Errata: Header
+Y-W-03040083-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-03040083-depth-01: RLS m: 0.999597 b: 0 rms: 29.6643 r: 0.999654 sig: 1 dec: 0
+Y-I-03040083-faa-01: RLS m: 0.963193 b: -1.21124 rms: 11.7986 r: 0.984587 sig: 1 dec: 1
+N-E-03040083-faa-02: Regression slope 0.963193 different from 1. Recommended: [1]
+Y-E-03040083-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995717 b: -60.1477 rms: 79.3068 r: 0.978838 sig: 1 dec: 0). [Recompute]
+Y-W-03040083-mtf1-12: Integer precision
+Y-W-03040083-mag-12: Integer precision
+# Errata: Data
+?	03040083	1967-10-11T19:34:00.00	156	0-0-W	 GRAD: faa excessive
+?	03040083	1967-10-11T19:39:00.00	158	0-0-W	 GRAD: faa excessive
+?	03040083	1967-10-11T20:31:00.00	168	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-11T20:34:00.00	169	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-12T05:12:00.00	276	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-12T05:17:00.00	277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-14T09:25:00.00	699	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-14T09:30:00.00	700	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040083	1967-10-14T20:10:00.00	711	C-0-0	 NAV: excessive speed
+Y	03040083	1967-10-14T20:15:00.00	712	C-0-0	 NAV: excessive speed
+Y	03040083	1967-10-14T20:17:00.00	713	C-0-0	 NAV: excessive speed
+?	03040083	1967-10-15T11:50:00.00	906	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-15T11:55:00.00	907	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-15T20:40:00.00	955	0-0-O	 GRAD: mtf1 excessive
+?	03040083	1967-10-15T20:45:00.00	956	0-0-O	 GRAD: mtf1 excessive
+?	03040083	1967-10-15T22:10:00.00	974	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-15T22:15:00.00	975	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:20:00.00	976	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:25:00.00	977	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:30:00.00	978	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:35:00.00	979	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:40:00.00	981	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:45:00.00	982	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:50:00.00	983	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T22:55:00.00	984	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T23:00:00.00	985	0-Q-0	 VAL: mag invalid
+?	03040083	1967-10-15T23:05:00.00	986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-17T11:20:00.00	1294	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-17T11:25:00.00	1295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T18:09:00.00	1878	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T18:14:00.00	1879	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T22:56:00.00	1936	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T23:06:00.00	1938	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T23:11:00.00	1939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-19T23:16:00.00	1940	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-22T16:34:00.00	2547	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-22T16:39:00.00	2548	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-24T14:20:00.00	3079	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-24T14:25:00.00	3080	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-24T22:58:00.00	3129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-24T23:00:00.00	3130	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-25T13:23:00.00	3308	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-25T13:28:00.00	3309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-25T22:17:00.00	3419	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	03040083	1967-10-25T22:22:00.00	3420	0-0-W	 GRAD: faa excessive
+?	03040083	1967-10-27T14:17:00.00	3876	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-27T14:22:00.00	3877	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-28T19:01:00.00	4170	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040083	1967-10-29T10:02:00.00	4357	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040083	1967-10-29T10:07:00.00	4358	0-0-OQ	 GRAD: mtf1, mag excessive

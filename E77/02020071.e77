@@ -1,0 +1,20 @@
+# Cruise 02020071 ID A2091L01 MGD77 FILE VERSION: 19820805 N_RECS: 4608
+# Examined: Fri Apr  2 14:58:49 2010 by mtchandl
+# Arguments:  -R290.75/294.4/39.5/42.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-02020071-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020071-depth-01: RLS m: 0.998946 b: 0 rms: 20.5022 r: 0.999852 sig: 1 dec: 0
+Y-E-02020071-mag-07: Anomaly differs from mtf1-IGRF (m: 0.948429 b: -326.549 rms: 330.821 r: 0.952676 sig: 1 dec: 0). [Recompute]
+Y-W-02020071-mag-09: only found negative values
+Y-W-02020071-twt-11: More recent bathymetry correction table available
+Y-W-02020071-mtf1-12: Integer precision
+Y-W-02020071-mag-12: Integer precision
+# Errata: Data
+?	02020071	1975-07-15T11:30:00.00	372	0-0-K	 GRAD: twt excessive
+?	02020071	1975-07-15T11:40:00.00	373	0-0-KL	 GRAD: twt, depth excessive
+?	02020071	1975-07-15T22:01:00.00	464	0-0-K	 GRAD: twt excessive

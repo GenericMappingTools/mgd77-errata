@@ -1,0 +1,89 @@
+# Cruise 09090001 ID GIBBS072 MGD77 FILE VERSION: 19790312 N_RECS: 7049
+# Examined: Mon Aug  9 12:06:24 2010 by mtchandl
+# Arguments:  -R330.2/343.5/0/26.55 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-09090001-time-01: 1 of 7049 records contain invalid time
+N-E-09090001-H11-03: Invalid Bottommost Latitude: (+18) [+00]
+N-E-09090001-H16-01: Invalid Number of Ten Degree Identifiers: ( 4) [5]
+Y-W-09090001-H16-06: Ten Degree Identifier 7002 not marked in header but block was crossed
+Y-W-09090001-nav-00: Flagged 0.99 % of records with bad navigation
+Y-E-09090001-mag-07: Anomaly differs from mtf1-IGRF (m: -0.893684 b: -2.99139 rms: 309.546 r: 0.852807 sig: 1 dec: 0). [Recompute]
+Y-W-09090001-mtf1-12: Integer precision
+Y-W-09090001-mag-12: Integer precision
+# Errata: Data
+Y	09090001	NaN	154	E-0-0	 NAV: navigation undefined
+Y	09090001	1968-04-29T04:05:00.00	999	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:15:00.00	1001	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:20:00.00	1002	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:25:00.00	1003	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:30:00.00	1004	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:35:00.00	1005	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:40:00.00	1006	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:45:00.00	1007	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:50:00.00	1008	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T04:55:00.00	1009	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:00:00.00	1010	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:05:00.00	1011	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:10:00.00	1012	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:15:00.00	1013	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:20:00.00	1014	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:25:00.00	1015	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:30:00.00	1016	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:35:00.00	1017	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:40:00.00	1018	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:45:00.00	1019	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:50:00.00	1020	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T05:55:00.00	1021	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:00:00.00	1022	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:05:00.00	1023	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:10:00.00	1024	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:15:00.00	1025	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:20:00.00	1026	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:25:00.00	1027	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:30:00.00	1028	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:35:00.00	1029	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:40:00.00	1030	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:45:00.00	1031	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:50:00.00	1032	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T06:55:00.00	1033	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:00:00.00	1034	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:05:00.00	1035	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:10:00.00	1036	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:15:00.00	1037	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:20:00.00	1038	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:25:00.00	1039	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:30:00.00	1040	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:35:00.00	1041	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:40:00.00	1042	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:45:00.00	1043	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:50:00.00	1044	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T07:55:00.00	1045	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T08:00:00.00	1046	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T08:05:00.00	1047	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T08:10:00.00	1048	C-0-0	 NAV: excessive speed
+Y	09090001	1968-04-29T08:15:00.00	1049	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T19:45:00.00	3727	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T20:00:00.00	3730	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T20:15:00.00	3733	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T20:30:00.00	3736	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T20:45:00.00	3739	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T20:50:00.00	3740	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:00:00.00	3742	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:15:00.00	3745	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:30:00.00	3748	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:45:00.00	3751	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:50:00.00	3752	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T21:55:00.00	3753	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:00:00.00	3754	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:05:00.00	3755	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:10:00.00	3756	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:15:00.00	3757	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:20:00.00	3758	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:25:00.00	3759	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-08T22:30:00.00	3760	C-0-0	 NAV: excessive speed
+Y	09090001	1968-05-09T09:20:00.00	3890	C-0-0	 NAV: excessive speed

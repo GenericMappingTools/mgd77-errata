@@ -1,0 +1,207 @@
+# Cruise 17030004 ID EN081 MGD77 FILE VERSION: 19881206 N_RECS: 3495
+# Examined: Mon Sep  6 12:32:39 2010 by mtchandl
+# Arguments:  -R330.3/355.9/-22.6/5.15 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-17030004-H04-06: Invalid Survey Arrival Day: (08) [07]
+Y-W-17030004-H16-06: Ten Degree Identifier 5000 marked in header but was not crossed
+Y-W-17030004-H16-06: Ten Degree Identifier 7001 not marked in header but block was crossed
+Y-W-17030004-nav-00: Flagged 5.18 % of records with bad navigation
+Y-I-17030004-depth-01: RLS m: 1 b: 0 rms: 66.1819 r: 0.997865 sig: 1 dec: 0
+Y-W-17030004-depth-12: Integer precision
+# Errata: Data
+?	17030004	1981-02-13T09:00:00.00	341	0-0-KL	 GRAD: twt, depth excessive
+?	17030004	1981-02-15T11:33:00.00	674	0-0-KL	 GRAD: twt, depth excessive
+?	17030004	1981-02-17T15:45:00.00	1183	0-0-K	 GRAD: twt excessive
+?	17030004	1981-02-17T16:06:00.00	1189	0-0-KL	 GRAD: twt, depth excessive
+?	17030004	1981-02-19T01:10:00.00	1536	0-0-KL	 GRAD: twt, depth excessive
+?	17030004	1981-02-22T02:40:00.00	1603	0-0-KL	 GRAD: twt, depth excessive
+?	17030004	1981-02-22T21:30:00.00	1674	0-0-K	 GRAD: twt excessive
+Y	17030004	1981-02-25T05:40:00.00	2056	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-02-26T01:10:00.00	2158	C-0-0	 NAV: excessive speed
+Y	17030004	1981-02-28T01:30:00.00	2463	C-0-0	 NAV: excessive speed
+Y	17030004	1981-02-28T01:40:00.00	2464	C-0-0	 NAV: excessive speed
+Y	17030004	1981-02-28T01:50:00.00	2465	C-0-0	 NAV: excessive speed
+Y	17030004	1981-02-28T02:00:00.00	2466	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-01T00:00:00.00	2725	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T00:10:00.00	2726	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T00:20:00.00	2727	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T00:30:00.00	2728	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T00:40:00.00	2729	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T00:50:00.00	2730	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:00:00.00	2731	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:10:00.00	2732	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:20:00.00	2733	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:30:00.00	2734	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:40:00.00	2735	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T01:50:00.00	2736	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:00:00.00	2737	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:10:00.00	2738	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:20:00.00	2739	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:30:00.00	2740	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:40:00.00	2741	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T02:50:00.00	2742	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:00:00.00	2743	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:10:00.00	2744	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:20:00.00	2745	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:30:00.00	2746	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:40:00.00	2747	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T03:50:00.00	2748	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:00:00.00	2749	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:10:00.00	2750	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:20:00.00	2751	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:30:00.00	2752	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:40:00.00	2753	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T04:50:00.00	2754	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:00:00.00	2755	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:10:00.00	2756	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:20:00.00	2757	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:30:00.00	2758	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:40:00.00	2759	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T05:50:00.00	2760	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:00:00.00	2761	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:10:00.00	2762	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:20:00.00	2763	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:30:00.00	2764	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:40:00.00	2765	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T06:50:00.00	2766	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:00:00.00	2767	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:10:00.00	2768	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:20:00.00	2769	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:30:00.00	2770	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:40:00.00	2771	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T07:50:00.00	2772	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:00:00.00	2773	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:10:00.00	2774	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:20:00.00	2775	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:30:00.00	2776	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:40:00.00	2777	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T08:50:00.00	2778	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T09:00:00.00	2779	B-0-K	 NAV: non-increasing time - GRAD: twt excessive
+Y	17030004	1981-03-01T09:10:00.00	2780	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T09:20:00.00	2781	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T09:30:00.00	2782	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T09:40:00.00	2783	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T09:50:00.00	2784	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:00:00.00	2785	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:10:00.00	2786	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:20:00.00	2787	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:30:00.00	2788	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:40:00.00	2789	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T10:50:00.00	2790	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:00:00.00	2791	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:10:00.00	2792	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:20:00.00	2793	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:30:00.00	2794	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:40:00.00	2795	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T11:50:00.00	2796	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T12:00:00.00	2797	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T12:10:00.00	2798	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T12:30:00.00	2799	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T13:50:00.00	2800	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:00:00.00	2801	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:10:00.00	2802	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:20:00.00	2803	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:30:00.00	2804	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:40:00.00	2805	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T14:50:00.00	2806	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:00:00.00	2807	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:10:00.00	2808	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:20:00.00	2809	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:30:00.00	2810	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:40:00.00	2811	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T15:50:00.00	2812	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:00:00.00	2813	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:10:00.00	2814	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:20:00.00	2815	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:30:00.00	2816	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:40:00.00	2817	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T16:50:00.00	2818	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:00:00.00	2819	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:10:00.00	2820	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:20:00.00	2821	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:30:00.00	2822	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:40:00.00	2823	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T17:50:00.00	2824	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:00:00.00	2825	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:10:00.00	2826	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:20:00.00	2827	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:30:00.00	2828	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:40:00.00	2829	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T18:50:00.00	2830	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:00:00.00	2831	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:10:00.00	2832	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:20:00.00	2833	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:30:00.00	2834	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:40:00.00	2835	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T19:50:00.00	2836	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:00:00.00	2837	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:10:00.00	2838	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:20:00.00	2839	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:30:00.00	2840	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:40:00.00	2841	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T20:50:00.00	2842	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:00:00.00	2843	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:10:00.00	2844	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:20:00.00	2845	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:30:00.00	2846	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:40:00.00	2847	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T21:50:00.00	2848	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:00:00.00	2849	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:10:00.00	2850	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:20:00.00	2851	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:30:00.00	2852	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:40:00.00	2853	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T22:50:00.00	2854	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:00:00.00	2855	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:10:00.00	2856	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:20:00.00	2857	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:30:00.00	2858	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:40:00.00	2859	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-01T23:50:00.00	2860	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-02T00:10:00.00	2861	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T00:20:00.00	2862	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T00:30:00.00	2863	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T00:40:00.00	2864	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T00:50:00.00	2865	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:00:00.00	2866	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:10:00.00	2867	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:20:00.00	2868	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:30:00.00	2869	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:40:00.00	2870	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T01:50:00.00	2871	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:00:00.00	2872	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:10:00.00	2873	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:20:00.00	2874	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:30:00.00	2875	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:40:00.00	2876	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T02:50:00.00	2877	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:00:00.00	2878	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:10:00.00	2879	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:20:00.00	2880	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:30:00.00	2881	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:40:00.00	2882	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T03:50:00.00	2883	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:00:00.00	2884	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:10:00.00	2885	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:20:00.00	2886	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:30:00.00	2887	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:40:00.00	2888	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T04:50:00.00	2889	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:00:00.00	2890	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:10:00.00	2891	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:20:00.00	2892	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:30:00.00	2893	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:40:00.00	2894	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T05:50:00.00	2895	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T06:00:00.00	2896	C-0-0	 NAV: excessive speed
+Y	17030004	1981-03-02T06:10:00.00	2897	C-0-0	 NAV: excessive speed
+?	17030004	1981-03-02T06:20:00.00	2898	0-0-K	 GRAD: twt excessive
+?	17030004	1981-03-02T06:30:00.00	2899	0-0-K	 GRAD: twt excessive
+?	17030004	1981-03-02T14:30:00.00	2947	0-0-K	 GRAD: twt excessive
+Y	17030004	1981-03-03T23:10:00.00	3055	B-0-0	 NAV: non-increasing time
+Y	17030004	1981-03-06T12:40:00.00	3418	C-0-0	 NAV: excessive speed

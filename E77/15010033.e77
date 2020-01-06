@@ -1,0 +1,29 @@
+# Cruise 15010033 ID LUSI7BAR MGD77 FILE VERSION: 19810928 N_RECS: 4495
+# Examined: Mon May 12 17:07:31 2008 by mtchandl
+# Arguments:  -R40.4/100.1/-4.25/5.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anommalies.
+# Errata: Header
+N-E-15010033-H04-03: Invalid Survey Departure Day: (21) [23]
+Y-W-15010033-nav-00: Flagged 0.22 % of records with excessive speed or invalid navigation
+Y-I-15010033-depth-01: RLS m: 1 b: 0 rms: 75.2355 r: 0.998601 significant: 1 decimation: 1
+Y-E-15010033-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.05044 b: -25.4026 rms: 48.7246 r: 0.965479 sig: 1 dec: 1). [Recompute]
+Y-W-15010033-mtf1-12: Integer precision
+Y-W-15010033-mag-12: Integer precision
+# Errata: Data
+Y	15010033	1963-03-28T21:48:00.00	1388	D-0-0	 NAV: on land
+?	15010033	1963-03-29T09:54:00.00	1509	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010033	1963-03-29T10:00:00.00	1510	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010033	1963-03-29T10:12:00.00	1512	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010033	1963-04-11T03:00:00.00	4266	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:06:00.00	4267	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:12:00.00	4268	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:18:00.00	4269	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:24:00.00	4270	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:30:00.00	4271	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T03:36:00.00	4272	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T04:12:00.00	4278	D-0-0	 NAV: on land
+Y	15010033	1963-04-11T04:18:00.00	4279	D-0-0	 NAV: on land

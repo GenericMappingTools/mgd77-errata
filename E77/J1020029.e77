@@ -1,0 +1,24 @@
+# Cruise J1020029 ID HS8603 MGD77 FILE VERSION: 19910506 N_RECS: 11776
+# Examined: Sat Aug  6 11:32:25 2011 by mtchandl
+# Arguments:  -R138.35/140.4/32.95/34.2 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1020029-H04-06: Invalid Survey Arrival Day: (22) [21]
+Y-W-J1020029-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-J1020029-depth-01: RLS m: 0.999689 b: 0 rms: 20.8653 r: 0.999752 sig: 1 dec: 0
+Y-I-J1020029-faa-01: RLS m: 1.00957 b: -2.78171 rms: 6.29993 r: 0.99483 sig: 1 dec: 0
+N-E-J1020029-faa-02: Regression slope 1.00957 different from 1. Recommended: [1]
+Y-W-J1020029-faa-03: Regression offset -2.78171 different from 0.
+Y-I-J1020029-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J1020029-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.00015 b: 0.692144 rms: 2.15708 r: 0.999358 sig: 1 dec: 0). [Recompute]
+Y-W-J1020029-depth-12: Integer precision
+# Errata: Data
+Y	J1020029	1986-03-09T02:42:00.00	2823	C-0-0	 NAV: excessive speed
+Y	J1020029	1986-03-09T15:55:00.00	3270	C-0-0	 NAV: excessive speed
+?	J1020029	1986-03-20T21:03:00.00	11758	0-0-UW	 GRAD: gobs, faa excessive
+?	J1020029	1986-03-20T21:04:00.00	11759	0-0-UW	 GRAD: gobs, faa excessive
+Y	J1020029	1986-03-20T21:29:00.00	11775	B-0-0	 NAV: non-increasing time

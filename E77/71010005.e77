@@ -1,0 +1,48 @@
+# Cruise 71010005 ID RSA75-3 MGD77 FILE VERSION: 19870630 N_RECS: 2646
+# Examined: Mon Nov  7 16:27:13 2011 by mtchandl
+# Arguments:  -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-71010005-nav-00: Flagged 0.23 % of records with bad navigation
+Y-I-71010005-depth-01: RLS m: 1.00076 b: 0 rms: 22.238 r: 0.999746 sig: 1 dec: 0
+Y-W-71010005-twt-11: More recent bathymetry correction table available
+Y-W-71010005-mag-12: Integer precision
+# Errata: Data
+?	71010005	1975-02-22T03:00:00.00	1117	0-0-Q	 GRAD: mag excessive
+Y	71010005	1975-02-22T05:25:00.00	1146	D-0-0	 NAV: on land
+Y	71010005	1975-02-22T05:30:00.00	1147	D-0-0	 NAV: on land
+Y	71010005	1975-02-22T05:35:00.00	1148	D-0-0	 NAV: on land
+Y	71010005	1975-02-22T05:40:00.00	1149	D-0-0	 NAV: on land
+Y	71010005	1975-02-22T05:45:00.00	1150	D-0-0	 NAV: on land
+Y	71010005	1975-02-22T05:50:00.00	1151	D-0-0	 NAV: on land
+?	71010005	1975-02-22T07:10:00.00	1167	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T07:50:00.00	1175	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T08:05:00.00	1178	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T08:25:00.00	1182	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T10:40:00.00	1209	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T10:45:00.00	1210	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T10:50:00.00	1211	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-22T10:55:00.00	1212	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-22T11:05:00.00	1214	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-22T11:10:00.00	1215	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-23T22:30:00.00	1639	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-23T22:35:00.00	1640	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-23T22:55:00.00	1644	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-24T02:15:00.00	1684	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:20:00.00	1685	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:25:00.00	1686	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:30:00.00	1687	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:35:00.00	1688	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:40:00.00	1689	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:45:00.00	1690	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:50:00.00	1691	0-Q-0	 VAL: mag invalid
+?	71010005	1975-02-24T02:55:00.00	1692	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-24T03:00:00.00	1693	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-24T03:05:00.00	1694	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-24T03:10:00.00	1695	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	71010005	1975-02-24T03:15:00.00	1696	0-0-Q	 GRAD: mag excessive
+?	71010005	1975-02-24T03:20:00.00	1697	0-0-Q	 GRAD: mag excessive

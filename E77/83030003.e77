@@ -1,0 +1,17 @@
+# Cruise 83030003 ID SO92 MGD77 FILE VERSION: 20040225 N_RECS: 18241
+# Examined: Wed Aug  3 07:08:45 2011 by mtchandl
+# Arguments:  -R69.4/70.65/-26.25/-23.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Some suspect depth data, recommend processing by source institution.
+# Errata: Header
+Y-I-83030003-depth-01: RLS m: 1.00327 b: 0 rms: 85.9605 r: 0.988506 sig: 1 dec: 0
+N-E-83030003-depth-02: Regression slope 1.00327 different from 1. Recommended: [1]
+Y-W-83030003-depth-12: Integer precision
+# Errata: Data
+?	83030003	1993-12-16T16:52:52.02	2251	0-0-L	 GRAD: depth excessive
+?	83030003	1993-12-21T07:32:04.98	8883	0-0-L	 GRAD: depth excessive
+?	83030003	1993-12-23T12:49:00.00	12075	0-0-L	 GRAD: depth excessive
+?	83030003	1993-12-23T12:50:04.02	12076	0-0-L	 GRAD: depth excessive

@@ -1,0 +1,49 @@
+# Cruise 01020024 ID ELT24 MGD77 FILE VERSION: 19790127 N_RECS: 22477
+# Examined: Wed Jul  8 20:45:26 2009 by mtchandl
+# Arguments:  -R175.2/286.75/-45.3/-35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01020024-H04-06: Invalid Survey Arrival Day: (17) [09]
+Y-W-01020024-nav-00: Flagged 0.04 % of records with excessive speed or invalid navigation
+Y-I-01020024-depth-01: RLS m: 1 b: 0 rms: 8.57063 r: 0.999994 sig: 1 dec: 0
+Y-E-01020024-mag-07: Anomaly differs from mtf1-IGRF (m: 0.948302 b: -28.5167 rms: 44.8873 r: 0.981646 sig: 1 dec: 0). [Recompute]
+N-E-01020024-depth-08: Extended offset from grid [4-1846]
+N-E-01020024-depth-08: Extended offset from grid [1886-2794]
+N-E-01020024-depth-08: Extended offset from grid [2814-3291]
+N-E-01020024-depth-08: Extended offset from grid [3341-14588]
+N-E-01020024-depth-08: Extended offset from grid [14593-15251]
+N-E-01020024-depth-08: Extended offset from grid [15256-16051]
+N-E-01020024-depth-08: Extended offset from grid [16056-19865]
+N-E-01020024-depth-08: Extended offset from grid [19866-22477]
+Y-W-01020024-twt-11: More recent bathymetry correction table available
+Y-W-01020024-mtf1-12: Integer precision
+Y-W-01020024-mag-12: Integer precision
+# Errata: Data
+?	01020024	1966-07-12T13:20:00.00	1534	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-12T13:25:00.00	1536	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-12T14:30:00.00	1561	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-13T04:10:00.00	1781	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-13T06:54:00.00	1834	0-0-KL	 GRAD: twt, depth excessive
+?	01020024	1966-07-13T14:25:00.00	1912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-13T14:30:00.00	1913	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020024	1966-07-13T22:06:00.00	2063	0-0-K	 GRAD: twt excessive
+?	01020024	1966-07-15T11:45:00.00	2612	0-Q-0	 VAL: mag invalid
+?	01020024	1966-07-15T11:50:00.00	2614	0-Q-0	 VAL: mag invalid
+?	01020024	1966-07-15T11:55:00.00	2616	0-Q-0	 VAL: mag invalid
+?	01020024	1966-08-19T04:12:00.00	14021	0-0-K	 GRAD: twt excessive
+?	01020024	1966-08-28T09:17:00.00	17531	0-Q-0	 VAL: mag invalid
+?	01020024	1966-08-28T09:25:00.00	17534	0-Q-0	 VAL: mag invalid
+?	01020024	1966-08-28T09:29:00.00	17535	0-Q-0	 VAL: mag invalid
+Y	01020024	1966-09-01T19:18:00.00	19867	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:24:00.00	19868	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:30:00.00	19869	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:36:00.00	19870	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:42:00.00	19871	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:48:00.00	19872	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T19:54:00.00	19873	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T20:00:00.00	19874	C-0-0	 NAV: excessive speed
+Y	01020024	1966-09-01T20:06:00.00	19875	C-0-0	 NAV: excessive speed

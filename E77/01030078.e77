@@ -1,0 +1,17 @@
+# Cruise 01030078 ID V2201 MGD77 FILE VERSION: 19790920 N_RECS: 1745
+# Examined: Thu Jul  9 16:54:40 2009 by mtchandl
+# Arguments:  -R283.9/293.85/18.55/40.5 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030078-depth-01: RLS m: 1 b: 0 rms: 7.67876 r: 0.999995 sig: 1 dec: 0
+Y-I-01030078-faa-01: RLS m: 1.00116 b: -3.29295 rms: 9.18915 r: 0.997285 sig: 1 dec: 1
+Y-W-01030078-faa-03: Regression offset -3.29295 different from 0.
+Y-E-01030078-mag-07: Anomaly differs from mtf1-IGRF (m: 0.94175 b: -15.0309 rms: 39.3199 r: 0.960214 sig: 1 dec: 1). [Recompute]
+N-E-01030078-depth-08: Extended offset from grid [3-1745]
+Y-W-01030078-mtf1-12: Integer precision
+Y-W-01030078-mag-12: Integer precision
+# Errata: Data

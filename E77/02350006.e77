@@ -1,0 +1,19 @@
+# Cruise 02350006 ID PD688L01 MGD77 FILE VERSION: 19900821 N_RECS: 5868
+# Examined: Fri Apr  9 13:13:35 2010 by mtchandl
+# Arguments:  -R292.5/308.35/-64.5/-55.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02350006-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-02350006-depth-01: RLS m: 0.999651 b: 0 rms: 27.7394 r: 0.999831 sig: 1 dec: 0
+# Errata: Data
+Y	02350006	1988-05-17T09:20:00.00	3410	D-0-0	 NAV: on land
+Y	02350006	1988-05-17T09:25:00.00	3411	D-0-0	 NAV: on land
+Y	02350006	1988-05-17T09:30:00.00	3412	D-0-0	 NAV: on land
+?	02350006	1988-05-18T00:25:00.00	3581	0-0-K	 GRAD: twt excessive
+?	02350006	1988-05-18T09:20:00.00	3676	0-0-K	 GRAD: twt excessive
+Y	02350006	1988-05-20T04:15:00.00	4175	D-0-0	 NAV: on land
+?	02350006	1988-05-26T00:00:00.00	5547	0-0-K	 GRAD: twt excessive

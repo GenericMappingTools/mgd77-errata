@@ -1,0 +1,20 @@
+# Cruise 03020144 ID RP15SU85 MGD77 FILE VERSION: 19971215 N_RECS: 2675
+# Examined: Fri Apr 16 13:03:03 2010 by mtchandl
+# Arguments:  -R229.85/232.45/42.35/46.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-03020144-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-03020144-depth-01: RLS m: 0.998256 b: 0 rms: 52.0247 r: 0.996597 sig: 1 dec: 0
+Y-W-03020144-depth-12: Integer precision
+# Errata: Data
+?	03020144	1985-07-08T10:14:00.00	224	0-0-KL	 GRAD: twt, depth excessive
+?	03020144	1985-07-08T11:29:00.00	291	0-0-K	 GRAD: twt excessive
+?	03020144	1985-07-10T03:54:00.00	994	0-0-K	 GRAD: twt excessive
+Y	03020144	1985-07-24T06:06:46.02	2145	C-0-0	 NAV: excessive speed
+Y	03020144	1985-07-24T06:10:00.00	2147	C-0-0	 NAV: excessive speed
+?	03020144	1985-07-24T08:56:00.00	2313	0-0-K	 GRAD: twt excessive
+?	03020144	1985-07-24T10:18:58.98	2394	0-0-KL	 GRAD: twt, depth excessive

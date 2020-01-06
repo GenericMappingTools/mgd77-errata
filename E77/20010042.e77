@@ -1,0 +1,18 @@
+# Cruise 20010042 ID TT-099 MGD77 FILE VERSION: 19961230 N_RECS: 3923
+# Examined: Tue Oct 19 14:55:32 2010 by mtchandl
+# Arguments:  -R250.05/252.6/22.1/23.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-20010042-depth-01: RLS m: 1.00175 b: 0 rms: 40.3421 r: 0.99645 sig: 1 dec: 0
+Y-E-20010042-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999197 b: -30.8081 rms: 36.6959 r: 0.996132 sig: 1 dec: 1). [Recompute]
+Y-W-20010042-mtf1-12: Integer precision
+# Errata: Data
+?	20010042	1975-06-03T04:05:00.00	247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	20010042	1975-06-03T04:10:00.00	248	0-0-OQ	 GRAD: mtf1, mag excessive
+?	20010042	1975-06-03T04:15:00.00	249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	20010042	1975-06-03T08:46:00.00	313	0-0-K	 GRAD: twt excessive
+?	20010042	1975-06-07T01:26:00.00	1385	0-0-KL	 GRAD: twt, depth excessive

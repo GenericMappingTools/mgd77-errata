@@ -1,0 +1,18 @@
+# Cruise J8010023 ID ANTAC9A MGD77 FILE VERSION: 19880322 N_RECS: 1313
+# Examined: Mon Aug  8 16:05:09 2011 by mtchandl
+# Arguments:  -R48.75/119.25/-24.7/0.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-J8010023-H16-01: Invalid Number of Ten Degree Identifiers: (11) [10]
+Y-W-J8010023-H16-06: Ten Degree Identifier 1011 marked in header but was not crossed
+Y-I-J8010023-depth-01: RLS m: 1.00038 b: 0 rms: 19.7111 r: 0.99992 sig: 1 dec: 0
+Y-W-J8010023-depth-12: Integer precision
+# Errata: Data
+?	J8010023	11529.4	770	0-0-L	 GRAD: depth excessive
+?	J8010023	11534.1	771	0-0-L	 GRAD: depth excessive
+?	J8010023	21813	1137	0-0-L	 GRAD: depth excessive
+?	J8010023	22205.3	1192	0-0-L	 GRAD: depth excessive

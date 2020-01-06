@@ -1,0 +1,71 @@
+# Cruise 06780064 ID FARN0391 MGD77 FILE VERSION: 19941231 N_RECS: 17230
+# Examined: Fri Jul 16 16:49:35 2010 by mtchandl
+# Arguments:  -R195.1/205.25/4.4/19.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-06780064-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-06780064-depth-01: RLS m: 1.00028 b: 0 rms: 33.666 r: 0.999552 sig: 1 dec: 0
+Y-E-06780064-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995357 b: 34.4885 rms: 37.4864 r: 0.99943 sig: 1 dec: 1). [Recompute]
+Y-W-06780064-depth-12: Integer precision
+Y-W-06780064-mtf1-12: Integer precision
+Y-W-06780064-mag-12: Integer precision
+# Errata: Data
+?	06780064	1991-02-25T20:36:00.00	1	D-0-0	 NAV: on land
+?	06780064	1991-03-01T20:12:00.00	2859	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	06780064	1991-03-04T12:10:00.00	4778	D-0-0	 NAV: on land
+Y	06780064	1991-03-04T12:12:00.00	4779	D-0-0	 NAV: on land
+Y	06780064	1991-03-04T12:14:00.00	4780	D-0-0	 NAV: on land
+Y	06780064	1991-03-04T12:16:00.00	4781	D-0-0	 NAV: on land
+Y	06780064	1991-03-04T12:18:00.00	4782	D-0-0	 NAV: on land
+?	06780064	1991-03-04T12:20:00.00	4783	D-0-0	 NAV: on land
+?	06780064	1991-03-04T20:02:00.00	5014	0-0-O	 GRAD: mtf1 excessive
+?	06780064	1991-03-05T12:52:00.00	5518	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T12:54:00.00	5519	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T12:56:00.00	5520	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T12:58:00.00	5521	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:42:00.00	5602	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:44:00.00	5603	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:46:00.00	5604	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:48:00.00	5605	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:50:00.00	5606	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:52:00.00	5607	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:54:00.00	5608	D-0-0	 NAV: on land
+Y	06780064	1991-03-05T15:56:00.00	5609	D-0-0	 NAV: on land
+?	06780064	1991-03-06T14:40:00.00	6291	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-06T14:42:00.00	6292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-06T14:44:00.00	6293	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-06T14:46:00.00	6294	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-06T14:48:00.00	6295	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-07T23:28:00.00	7273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-07T23:30:00.00	7274	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-08T01:44:00.00	7341	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T01:46:00.00	7342	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T01:48:00.00	7343	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T01:50:00.00	7344	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T01:52:00.00	7345	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T02:24:00.00	7361	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T02:26:00.00	7362	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T02:28:00.00	7363	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:18:00.00	7418	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:20:00.00	7419	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:22:00.00	7420	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:24:00.00	7421	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:26:00.00	7422	D-0-0	 NAV: on land
+Y	06780064	1991-03-08T04:28:00.00	7423	D-0-0	 NAV: on land
+?	06780064	1991-03-14T00:02:00.00	11607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-14T00:06:00.00	11609	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-14T00:08:00.00	11610	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-14T00:10:00.00	11611	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-14T00:12:00.00	11612	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-14T00:14:00.00	11613	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-14T00:16:00.00	11614	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-14T00:18:00.00	11615	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-14T00:20:00.00	11616	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-15T15:32:00.00	12785	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-15T15:34:00.00	12786	0-Q-0	 VAL: mag invalid
+?	06780064	1991-03-19T00:42:00.00	15219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780064	1991-03-19T00:44:00.00	15220	0-0-OQ	 GRAD: mtf1, mag excessive

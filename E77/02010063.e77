@@ -1,0 +1,126 @@
+# Cruise 02010063 ID CH115L03 MGD77 FILE VERSION: 19800206 N_RECS: 15437
+# Examined: Fri Mar 26 21:07:52 2010 by mtchandl
+# Arguments:  -R-1.2/18.45/-56.75/-33.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010063-H13-10: Survey year (1974) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02010063-depth-01: RLS m: 0.999651 b: 0 rms: 29.4514 r: 0.999652 sig: 1 dec: 0
+Y-I-02010063-faa-01: RLS m: 1.00178 b: 4.83887 rms: 9.38181 r: 0.991827 sig: 1 dec: 1
+Y-W-02010063-faa-03: Regression offset 4.83887 different from 0.
+Y-E-02010063-mag-07: Anomaly differs from mtf1-IGRF (m: 0.905472 b: -353.863 rms: 369.894 r: 0.902504 sig: 1 dec: 0). [Recompute]
+N-E-02010063-twt-13: Encountered possible PDR wrap errors (8.0) [10.0]
+Y-W-02010063-twt-11: More recent bathymetry correction table available
+Y-W-02010063-mtf1-12: Integer precision
+Y-W-02010063-mag-12: Integer precision
+# Errata: Data
+?	02010063	1974-01-17T04:05:00.00	1052	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-18T20:15:00.00	2271	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-18T20:20:00.00	2272	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-19T06:53:00.00	2507	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-23T10:05:00.00	4539	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-23T12:05:00.00	4583	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-23T13:57:00.00	4625	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-24T11:25:00.00	5137	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-26T09:15:00.00	6183	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-28T03:46:00.00	7213	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-28T06:30:00.00	7290	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T07:15:00.00	7312	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-28T07:25:00.00	7320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T09:00:00.00	7365	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T09:15:00.00	7374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T09:20:00.00	7376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T09:26:00.00	7382	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-28T09:45:00.00	7400	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T10:00:00.00	7408	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T10:05:00.00	7411	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010063	1974-01-28T10:10:00.00	7412	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T09:02:00.00	7896	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-01-29T15:45:00.00	8065	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T15:50:00.00	8067	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T15:55:00.00	8070	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T16:00:00.00	8074	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T16:05:00.00	8077	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T16:10:00.00	8081	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T16:15:00.00	8084	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T16:20:00.00	8087	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T16:25:00.00	8089	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T17:30:00.00	8124	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T17:45:00.00	8132	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T17:50:00.00	8135	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T18:00:00.00	8139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T18:05:00.00	8142	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T18:25:00.00	8149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T18:30:00.00	8152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T18:40:00.00	8157	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T18:45:00.00	8159	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-29T19:35:00.00	8185	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T19:40:00.00	8188	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T19:55:00.00	8195	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:00:00.00	8198	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:05:00.00	8200	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:10:00.00	8204	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:15:00.00	8206	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:40:00.00	8213	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:45:00.00	8216	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:50:00.00	8218	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-29T20:55:00.00	8220	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T16:30:00.00	8729	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T17:55:00.00	8778	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T18:00:00.00	8781	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T18:05:00.00	8784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:10:00.00	8786	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:15:00.00	8789	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:20:00.00	8791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:25:00.00	8793	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:35:00.00	8798	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:40:00.00	8801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:45:00.00	8802	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T18:50:00.00	8804	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T18:55:00.00	8808	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T19:00:00.00	8811	0-Q-0	 VAL: mag invalid
+?	02010063	1974-01-30T19:05:00.00	8814	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T19:10:00.00	8818	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T19:15:00.00	8821	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T19:20:00.00	8824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T19:25:00.00	8827	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T20:30:00.00	8873	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-30T20:50:00.00	8887	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-01-31T02:25:00.00	8992	0-0-K	 GRAD: twt excessive
+?	02010063	1974-01-31T15:00:00.00	9321	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-01T08:09:00.00	9690	0-0-KL	 GRAD: twt, depth excessive
+?	02010063	1974-02-01T11:31:00.00	9780	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-03T12:08:00.00	10996	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-03T14:35:00.00	11103	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T14:40:00.00	11106	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-03T14:50:00.00	11115	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T15:20:00.00	11140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T16:40:00.00	11202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T16:45:00.00	11204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T17:30:00.00	11231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T17:31:00.00	11232	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-03T17:35:00.00	11234	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T17:42:00.00	11239	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-03T17:50:00.00	11243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T17:55:00.00	11246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T18:30:00.00	11257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T18:35:00.00	11259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T19:15:00.00	11278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T19:20:00.00	11281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T19:25:00.00	11283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-03T19:30:00.00	11285	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-04T07:55:00.00	11529	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-04T08:50:00.00	11547	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-04T13:15:00.00	11646	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-04T13:20:00.00	11647	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-04T13:25:00.00	11649	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-04T13:30:00.00	11652	0-Q-0	 VAL: mag invalid
+?	02010063	1974-02-06T05:32:00.00	12511	0-0-K	 GRAD: twt excessive
+?	02010063	1974-02-07T10:45:00.00	13116	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-07T10:50:00.00	13119	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-10T05:25:00.00	14965	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010063	1974-02-10T20:55:00.00	15313	0-M-KL	 VAL: bcc invalid - GRAD: twt, depth excessive
+?	02010063	1974-02-10T20:57:00.00	15314	0-0-KL	 GRAD: twt, depth excessive

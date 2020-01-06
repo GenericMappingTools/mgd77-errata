@@ -1,0 +1,42 @@
+# Cruise 67010027 ID 72000611 MGD77 FILE VERSION: 19830804 N_RECS: 6845
+# Examined: Thu Jul 28 18:43:47 2011 by mtchandl
+# Arguments:  -R-4.25/6.3/35.95/43.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Noisy gravity, flagged largest offsets. Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010027-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-67010027-depth-01: RLS m: 0.99949 b: 0 rms: 17.9785 r: 0.99973 sig: 1 dec: 0
+Y-I-67010027-faa-01: RLS m: 0.917097 b: 3.73685 rms: 6.62655 r: 0.95587 sig: 1 dec: 0
+N-E-67010027-faa-02: Regression slope 0.917097 different from 1. Recommended: [1]
+Y-W-67010027-faa-03: Regression offset 3.73685 different from 0.
+Y-E-67010027-faa-08: Extended offset from grid [83-334]
+Y-E-67010027-faa-08: Extended offset from grid [1207-1761]
+Y-E-67010027-faa-08: Extended offset from grid [2876-3031]
+Y-E-67010027-faa-08: Extended offset from grid [3074-3338]
+Y-E-67010027-faa-08: Extended offset from grid [3338-3606]
+Y-E-67010027-faa-08: Extended offset from grid [3876-4164]
+Y-E-67010027-faa-08: Extended offset from grid [5314-5542]
+Y-E-67010027-faa-08: Extended offset from grid [6057-6334]
+Y-E-67010027-faa-08: Extended offset from grid [6603-6833]
+Y-E-67010027-mag-07: Anomaly differs from mtf1-IGRF (m: 0.874647 b: -184.976 rms: 191.757 r: 0.940027 sig: 1 dec: 1). [Recompute]
+Y-W-67010027-twt-11: More recent bathymetry correction table available
+Y-W-67010027-mtf1-12: Integer precision
+Y-W-67010027-mag-12: Integer precision
+# Errata: Data
+Y	67010027	1972-05-15T23:10:00.00	507	B-0-0	 NAV: non-increasing time
+?	67010027	1972-05-17T09:26:00.00	1207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T09:35:00.00	1215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T09:41:00.00	1220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T09:44:00.00	1223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T09:52:00.00	1229	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T09:54:00.00	1231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010027	1972-05-17T10:21:00.00	1255	0-0-K	 GRAD: twt excessive
+?	67010027	1972-05-19T07:00:00.00	2756	0-0-K	 GRAD: twt excessive
+?	67010027	1972-05-21T18:31:00.00	3792	0-0-K	 GRAD: twt excessive
+?	67010027	1972-05-23T05:20:00.00	4600	0-0-KL	 GRAD: twt, depth excessive
+Y	67010027	1972-05-23T11:26:00.00	4824	B-0-0	 NAV: non-increasing time
+Y	67010027	1972-05-23T16:52:00.00	5031	B-0-0	 NAV: non-increasing time
+Y	67010027	1972-05-25T17:03:00.00	6451	B-0-0	 NAV: non-increasing time

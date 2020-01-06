@@ -1,0 +1,33 @@
+# Cruise 15040033 ID 7TOW05WT MGD77 FILE VERSION: 19830819 N_RECS: 3056
+# Examined: Wed May 21 11:36:04 2008 by mtchandl
+# Arguments:  -R181.45/188.9/-21/-11.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15040033-depth-01: RLS m: 1 b: 0 rms: 152.133 r: 0.994046 sig: 1 dec: 1
+Y-E-15040033-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.998553 b: 19.0024 rms: 23.7318 r: 0.998899 sig: 1 dec: 1). [Recompute]
+Y-W-15040033-mtf1-12: Integer multiple of 5 precision
+Y-W-15040033-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15040033	1970-05-16T07:34:00.00	44	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-16T12:10:00.00	97	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T14:15:00.00	1239	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T14:45:00.00	1245	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T16:10:00.00	1262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T16:40:00.00	1268	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T22:15:00.00	1316	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-21T23:55:00.00	1336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-23T05:55:00.00	1604	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-24T12:55:00.00	1869	0-0-Q	 GRAD: mag excessive
+?	15040033	1970-05-25T05:25:00.00	2015	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-25T09:00:00.00	2057	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-25T15:35:00.00	2136	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040033	1970-05-26T00:45:00.00	2211	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15040033	1970-05-26T04:15:00.00	2238	0-Q-0	 VAL: mag invalid
+?	15040033	1970-05-26T04:20:00.00	2239	0-Q-0	 VAL: mag invalid
+?	15040033	1970-05-26T04:25:00.00	2240	0-Q-0	 VAL: mag invalid
+?	15040033	1970-05-26T04:30:00.00	2241	0-Q-0	 VAL: mag invalid
+?	15040033	1970-05-26T04:35:00.00	2242	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive

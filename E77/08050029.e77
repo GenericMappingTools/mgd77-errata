@@ -1,0 +1,57 @@
+# Cruise 08050029 ID KI81-2 MGD77 FILE VERSION: 19860213 N_RECS: 2797
+# Examined: Mon Nov 23 15:31:57 2009 by mtchandl
+# Arguments:  -R172.6/176.55/-2.05/2.1 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Poor quality bathymetry. Recommend flagging all records until manually fixed by source institution.
+# Errata: Header
+Y-E-08050029-H11-03: Invalid Bottommost Latitude: (-02) [-03]
+Y-W-08050029-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-08050029-depth-01: RLS m: 1.06827 b: 0 rms: 843.004 r: 0.906369 sig: 1 dec: 0
+N-E-08050029-depth-02: Regression slope 1.06827 different from 1. Recommended: [1]
+Y-E-08050029-depth-10: Invalid data records: [1-2797]
+Y-W-08050029-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050029	1981-04-19T19:02:40.02	287	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-19T19:34:45.06	295	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-19T19:36:13.98	296	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-19T19:40:56.04	297	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-19T23:00:08.94	361	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-20T08:18:16.98	440	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-20T09:09:30.00	450	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-20T22:01:26.94	580	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-20T22:17:30.00	586	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-21T13:01:00.00	685	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-21T13:06:00.96	686	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-22T06:42:39.00	789	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-22T17:39:05.94	918	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-22T21:00:00.00	965	D-0-0	 NAV: on land
+?	08050029	1981-04-24T22:23:43.02	1275	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-24T22:31:21.96	1276	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-24T23:02:58.02	1282	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-25T07:32:35.04	1308	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-25T08:23:36.00	1318	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-25T08:29:19.98	1320	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-25T18:17:54.00	1440	0-0-K	 GRAD: twt excessive
+Y	08050029	1981-04-26T19:21:00.00	1545	C-0-0	 NAV: excessive speed
+?	08050029	1981-04-27T06:00:00.00	1573	D-0-0	 NAV: on land
+Y	08050029	1981-04-27T07:00:00.00	1574	D-0-0	 NAV: on land
+Y	08050029	1981-04-27T07:06:00.00	1575	D-0-0	 NAV: on land
+?	08050029	1981-04-27T07:07:16.98	1576	D-0-0	 NAV: on land
+?	08050029	1981-04-28T12:09:03.96	1742	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-28T12:25:22.98	1746	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-28T12:33:27.96	1748	0-0-K	 GRAD: twt excessive
+?	08050029	1981-04-30T16:40:02.94	2095	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-04-30T18:31:26.94	2112	0-0-K	 GRAD: twt excessive
+?	08050029	1981-05-01T02:36:00.00	2162	D-0-0	 NAV: on land
+?	08050029	1981-05-01T02:36:34.02	2163	D-0-0	 NAV: on land
+?	08050029	1981-05-01T03:00:00.00	2164	D-0-0	 NAV: on land
+?	08050029	1981-05-01T03:18:00.00	2165	D-0-0	 NAV: on land
+?	08050029	1981-05-01T19:56:34.02	2284	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-05-01T20:00:45.06	2286	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-05-01T20:29:03.96	2291	0-0-K	 GRAD: twt excessive
+?	08050029	1981-05-01T20:34:04.98	2292	0-0-KL	 GRAD: twt, depth excessive
+?	08050029	1981-05-02T19:06:22.98	2419	0-0-K	 GRAD: twt excessive
+?	08050029	1981-05-04T13:31:16.98	2746	0-0-K	 GRAD: twt excessive

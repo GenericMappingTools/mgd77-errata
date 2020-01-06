@@ -1,0 +1,14 @@
+# Cruise 35180001 ID 36283 MGD77 FILE VERSION: 19871208 N_RECS: 1868
+# Examined: Wed Jul 27 19:21:18 2011 by mtchandl
+# Arguments:  -R-139.85/-101.85/-6/14.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-35180001-H16-01: Invalid Number of Ten Degree Identifiers: ( 8) [9]
+Y-W-35180001-H16-06: Ten Degree Identifier 5011 not marked in header but block was crossed
+Y-I-35180001-depth-01: RLS m: 1.00061 b: 0 rms: 30.8141 r: 0.998343 sig: 1 dec: 0
+Y-W-35180001-depth-12: Integer precision
+# Errata: Data

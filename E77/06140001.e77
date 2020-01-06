@@ -1,0 +1,18 @@
+# Cruise 06140001 ID B170BS MGD77 FILE VERSION: 19870917 N_RECS: 1110
+# Examined: Fri May 28 15:14:14 2010 by mtchandl
+# Arguments:  -R160.3/200.25/50/63 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Very noisy magnetic data, flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-06140001-H13-01: Invalid Magnetics Digitizing Rate: (750) [750]
+Y-W-06140001-nav-00: Flagged 0.36 % of records with bad navigation
+Y-E-06140001-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00123 b: -16.3923 rms: 16.9745 r: 0.999776 sig: 1 dec: 0). [Recompute]
+# Errata: Data
+Y	06140001	1970-08-13T07:45:00.00	217	C-0-0	 NAV: excessive speed
+Y	06140001	1970-08-13T08:00:00.00	218	C-0-0	 NAV: excessive speed
+Y	06140001	1970-08-21T04:34:00.00	421	C-0-0	 NAV: excessive speed
+?	06140001	1970-09-14T22:34:00.00	907	0-Q-0	 VAL: mag invalid
+Y	06140001	1970-09-17T16:00:00.00	963	C-0-0	 NAV: excessive speed

@@ -1,0 +1,22 @@
+# Cruise 06780031 ID FRNL85-2 MGD77 FILE VERSION: 19891220 N_RECS: 15834
+# Examined: Fri May 28 16:42:21 2010 by mtchandl
+# Arguments:  -R269.35/274.9/25.05/29.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-W-06780031-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-06780031-depth-01: RLS m: 1 b: 0 rms: 12.7126 r: 0.999864 sig: 1 dec: 0
+Y-E-06780031-mag-07: Anomaly differs from mtf1-IGRF (m: 1.0102 b: -46.3268 rms: 51.628 r: 0.986238 sig: 1 dec: 1). [Recompute]
+Y-W-06780031-depth-12: Integer precision
+Y-W-06780031-mtf1-12: Integer precision
+Y-W-06780031-mag-12: Integer precision
+# Errata: Data
+?	06780031	1985-09-15T20:02:00.00	6537	0-0-L	 GRAD: depth excessive
+?	06780031	1985-09-15T20:04:00.00	6538	0-0-L	 GRAD: depth excessive
+?	06780031	1985-09-15T20:06:00.00	6539	0-0-L	 GRAD: depth excessive
+?	06780031	1985-09-17T09:08:00.00	7650	0-0-K	 GRAD: twt excessive
+Y	06780031	1985-09-27T16:46:00.00	15080	B-0-0	 NAV: non-increasing time
+?	06780031	1985-09-28T00:24:00.00	15308	0-0-K	 GRAD: twt excessive

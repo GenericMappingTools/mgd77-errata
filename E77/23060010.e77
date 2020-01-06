@@ -1,0 +1,15 @@
+# Cruise 23060010 ID ODP107JR MGD77 FILE VERSION: 19870316 N_RECS: 807
+# Examined: Tue Oct 19 15:08:48 2010 by mtchandl
+# Arguments:  -R5.85/13.95/39/42.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-23060010-depth-01: RLS m: 0.995975 b: 0 rms: 34.965 r: 0.997628 sig: 1 dec: 0
+Y-W-23060010-twt-11: More recent bathymetry correction table available
+Y-W-23060010-depth-12: Integer precision
+# Errata: Data
+?	23060010	1986-02-13T15:15:00.00	620	0-0-KL	 GRAD: twt, depth excessive
+?	23060010	1986-02-13T15:20:00.00	621	0-0-K	 GRAD: twt excessive

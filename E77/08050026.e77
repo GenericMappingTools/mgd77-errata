@@ -1,0 +1,37 @@
+# Cruise 08050026 ID PN81-2 MGD77 FILE VERSION: 19860213 N_RECS: 3141
+# Examined: Fri Jul 30 14:12:34 2010 by mtchandl
+# Arguments:  -R144.4/152.3/-4.3/-0.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08050026-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [2]
+Y-W-08050026-H16-06: Ten Degree Identifier 1014 marked in header but was not crossed
+Y-W-08050026-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-08050026-depth-01: RLS m: 1.00228 b: 0 rms: 38.9044 r: 0.998898 sig: 1 dec: 0
+N-E-08050026-depth-02: Regression slope 1.00228 different from 1. Recommended: [1]
+Y-W-08050026-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050026	1981-03-09T16:42:42.00	400	0-0-KL	 GRAD: twt, depth excessive
+?	08050026	1981-03-09T20:07:18.96	485	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-09T20:53:53.04	518	0-0-K	 GRAD: twt excessive
+Y	08050026	1981-03-10T03:26:34.02	728	D-0-0	 NAV: on land
+Y	08050026	1981-03-10T03:28:46.02	729	D-0-0	 NAV: on land
+Y	08050026	1981-03-10T03:30:00.00	730	D-0-0	 NAV: on land
+Y	08050026	1981-03-10T03:30:28.98	731	D-0-0	 NAV: on land
+Y	08050026	1981-03-10T03:33:18.96	732	D-0-0	 NAV: on land
+?	08050026	1981-03-10T14:52:33.00	971	0-0-KL	 GRAD: twt, depth excessive
+?	08050026	1981-03-16T17:58:13.98	1771	0-0-K	 GRAD: twt excessive
+Y	08050026	1981-03-17T01:30:04.98	1908	B-0-0	 NAV: non-increasing time
+?	08050026	1981-03-17T23:39:12.96	2039	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-17T23:39:21.96	2040	0-0-KL	 GRAD: twt, depth excessive
+?	08050026	1981-03-18T01:28:08.94	2078	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-18T03:04:53.04	2108	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-18T03:09:47.04	2109	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-18T04:41:27.96	2130	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-21T03:00:19.98	2372	0-0-K	 GRAD: twt excessive
+?	08050026	1981-03-21T03:50:15.00	2397	0-0-KL	 GRAD: twt, depth excessive
+?	08050026	1981-03-21T11:46:57.00	2623	0-0-KL	 GRAD: twt, depth excessive
+?	08050026	1981-03-22T00:30:10.98	2878	0-0-KL	 GRAD: twt, depth excessive

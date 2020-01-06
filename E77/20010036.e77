@@ -1,0 +1,34 @@
+# Cruise 20010036 ID TN060 MGD77 FILE VERSION: 19961015 N_RECS: 27314
+# Examined: Mon Nov 23 15:53:04 2009 by mtchandl
+# Arguments:  -R164.35/210.65/-22.45/2.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-20010036-H16-01: Invalid Number of Ten Degree Identifiers: (10) [14]
+Y-W-20010036-H16-06: Ten Degree Identifier 7015 not marked in header but block was crossed
+Y-W-20010036-H16-06: Ten Degree Identifier 7016 not marked in header but block was crossed
+Y-W-20010036-H16-06: Ten Degree Identifier 7017 not marked in header but block was crossed
+Y-W-20010036-H16-06: Ten Degree Identifier 1017 not marked in header but block was crossed
+Y-W-20010036-nav-00: Flagged 0.00 % of records with bad navigation
+Y-I-20010036-depth-01: RLS m: 1.00031 b: 0 rms: 19.6186 r: 0.999789 sig: 1 dec: 0
+N-E-20010036-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+# Errata: Data
+?	20010036	1996-04-15T10:43:00.00	109	D-0-0	 NAV: on land
+?	20010036	1996-04-15T10:44:00.00	110	D-0-0	 NAV: on land
+?	20010036	1996-04-15T10:45:00.00	111	D-0-0	 NAV: on land
+?	20010036	1996-04-15T10:55:00.00	121	D-0-0	 NAV: on land
+Y	20010036	1996-04-15T10:56:00.00	122	D-0-0	 NAV: on land
+?	20010036	1996-04-15T10:57:00.00	123	D-0-0	 NAV: on land
+?	20010036	1996-04-17T09:54:00.00	2285	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-04-18T02:53:00.00	3234	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-04-18T02:54:00.00	3235	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-04-18T13:10:00.00	3851	0-0-K	 GRAD: twt excessive
+?	20010036	1996-04-29T20:21:00.00	12554	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-05-02T01:30:00.00	14356	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-05-03T11:09:00.00	15890	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-05-03T11:11:00.00	15892	0-0-KL	 GRAD: twt, depth excessive
+?	20010036	1996-05-09T14:13:00.00	21354	0-0-K	 GRAD: twt excessive
+?	20010036	1996-05-10T09:50:00.00	21951	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,26 @@
+# Cruise 15050080 ID DSDP80GC MGD77 FILE VERSION: 19830819 N_RECS: 1343
+# Examined: Fri May 30 10:21:47 2008 by mtchandl
+# Arguments:  -R346.35/351.85/48.5/51.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15050080-H13-10: Survey year (1981) outside magnetic reference field IGRF-75 time range (1955-1980)
+Y-W-15050080-nav-00: Flagged 0.52 % of records with excessive speed or invalid navigation
+Y-I-15050080-depth-01: RLS m: 1.00388 b: 0 rms: 54.607 r: 0.999131 sig: 1 dec: 1
+Y-E-15050080-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.9842 b: -252.359 rms: 253.368 r: 0.998793 sig: 1 dec: 1). [Recompute]
+Y-W-15050080-mtf1-12: Integer precision
+Y-W-15050080-mag-12: Integer precision
+# Errata: Data
+?	15050080	1981-07-13T10:40:00.00	943	D-0-0	 NAV: on land
+?	15050080	1981-07-13T10:55:00.00	946	D-0-0	 NAV: on land
+Y	15050080	1981-07-13T11:00:00.00	947	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:20:00.00	950	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:25:00.00	951	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:30:00.00	952	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:35:00.00	953	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:40:00.00	954	D-0-0	 NAV: on land
+Y	15050080	1981-07-15T11:45:00.00	955	D-0-0	 NAV: on land
+?	15050080	1981-07-15T11:50:00.00	956	D-0-0	 NAV: on land

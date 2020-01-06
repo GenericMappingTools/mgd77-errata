@@ -1,0 +1,18 @@
+# Cruise 15050060 ID DSDP61GC MGD77 FILE VERSION: 19810325 N_RECS: 5027
+# Examined: Fri May 30 10:09:29 2008 by mtchandl
+# Arguments:  -R144.55/171.1/7.1/13.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050060-H04-06: Invalid Survey Arrival Day: (29) [28]
+Y-I-15050060-depth-01: RLS m: 1.00382 b: 0 rms: 114.642 r: 0.998273 sig: 1 dec: 1
+Y-E-15050060-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992832 b: -17.8782 rms: 29.1132 r: 0.995661 sig: 1 dec: 1). [Recompute]
+Y-W-15050060-twt-11: More recent bathymetry correction table available
+Y-W-15050060-mtf1-12: Integer precision
+Y-W-15050060-mag-12: Integer precision
+# Errata: Data
+?	15050060	1978-05-27T21:20:00.00	1651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050060	1978-05-27T21:25:00.00	1652	0-0-OQ	 GRAD: mtf1, mag excessive

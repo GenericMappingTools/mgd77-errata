@@ -1,0 +1,22 @@
+# Cruise 29040019 ID DME38 MGD77 FILE VERSION: 19921231 N_RECS: 5692
+# Examined: Mon Feb 14 22:27:52 2011 by mtchandl
+# Arguments:  -R137.05/282.1/-11.5/29.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: faa computed using IGF30, recommend recomputing as gobs-IGF80.
+# Errata: Header
+N-E-29040019-H04-03: Invalid Survey Departure Day: (26) [30]
+N-E-29040019-H04-05: Invalid Survey Arrival Month: (04) [02]
+N-E-29040019-H04-06: Invalid Survey Arrival Day: (26) [16]
+Y-I-29040019-depth-01: RLS m: 1 b: 0 rms: 9.66278 r: 0.999972 sig: 1 dec: 0
+Y-I-29040019-faa-01: RLS m: 0.995074 b: -19.3554 rms: 20.8577 r: 0.994911 sig: 1 dec: 1
+Y-W-29040019-faa-03: Regression offset -19.3554 different from 0.
+Y-E-29040019-faa-06: Anomaly differs from gobs-IGF80 (m: 1.00069 b: -16.1526 rms: 16.1614 r: 0.999987 sig: 1 dec: 0). [Recompute]
+N-E-29040019-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.415536 b: -62.2487 rms: 110.347 r: 0.940682 sig: 1 dec: 0). [Recompute]
+N-E-29040019-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.929392 b: -9.5322 rms: 10.6243 r: 0.968516 sig: 1 dec: 0). [Adjust to IGF 1980]
+N-E-29040019-faa-08: Extended offset from grid [1-1269]
+N-E-29040019-faa-08: Extended offset from grid [1270-3225]
+N-E-29040019-faa-08: Extended offset from grid [3232-5692]
+# Errata: Data

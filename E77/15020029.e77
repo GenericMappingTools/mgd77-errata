@@ -1,0 +1,17 @@
+# Cruise 15020029 ID FDRK01MV MGD77 FILE VERSION: 19800226 N_RECS: 7016
+# Examined: Thu May 15 08:21:30 2008 by mtchandl
+# Arguments:  -R242.9/293.8/-56.05/32.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15020029-H04-03: Invalid Survey Departure Day: (20) [21]
+Y-W-15020029-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020029-depth-01: RLS m: 0.996125 b: 0 rms: 114.675 r: 0.994997 sig: 1 dec: 1
+Y-E-15020029-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.828966 b: 49.8414 rms: 102.006 r: 0.809396 sig: 1 dec: 1). [Recompute]
+Y-W-15020029-twt-11: More recent bathymetry correction table available
+Y-W-15020029-mtf1-12: Integer precision
+Y-W-15020029-mag-12: Integer precision
+# Errata: Data

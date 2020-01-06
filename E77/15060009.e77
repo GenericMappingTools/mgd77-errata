@@ -1,0 +1,38 @@
+# Cruise 15060009 ID DNWB-CBD MGD77 FILE VERSION: 19800226 N_RECS: 4161
+# Examined: Sat May 31 10:12:41 2008 by mtchandl
+# Arguments:  -R278.1/289.25/-32.95/-11.95 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend fixing PDR wraps.
+# Errata: Header
+N-E-15060009-H04-06: Invalid Survey Arrival Day: (15) [14]
+Y-I-15060009-depth-01: RLS m: 1 b: 0 rms: 146.342 r: 0.99714 sig: 1 dec: 1
+N-E-15060009-depth-08: Extended offset from grid [1114-1150]
+N-E-15060009-depth-08: Extended offset from grid [1828-1856]
+Y-E-15060009-twt-13: Encountered possible PDR wrap errors (9.7) [10.0]
+# Errata: Data
+?	15060009	1957-12-31T11:12:00.00	1053	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T11:30:00.00	1059	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T14:15:00.00	1114	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T14:57:00.00	1128	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T16:15:00.00	1154	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T16:36:00.00	1161	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T16:42:00.00	1163	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1957-12-31T16:51:00.00	1166	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-02T11:24:00.00	1330	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-02T11:48:00.00	1338	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T06:15:00.00	1632	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T06:30:00.00	1637	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T06:33:00.00	1638	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T06:42:00.00	1641	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T07:15:00.00	1652	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T07:18:00.00	1653	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T07:21:00.00	1654	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T07:51:00.00	1664	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T08:00:00.00	1667	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-04T08:24:00.00	1675	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-05T10:33:00.00	1832	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-05T11:42:00.00	1855	0-0-KL	 GRAD: twt, depth excessive
+?	15060009	1958-01-06T03:36:00.00	1861	0-0-KL	 GRAD: twt, depth excessive

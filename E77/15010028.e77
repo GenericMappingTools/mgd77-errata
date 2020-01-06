@@ -1,0 +1,29 @@
+# Cruise 15010028 ID LUSI6BAR MGD77 FILE VERSION: 19810928 N_RECS: 6745
+# Examined: Mon May 12 17:04:45 2008 by mtchandl
+# Arguments:  -R56.6/115.6/-51.15/-20.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010028-H04-06: Invalid Survey Arrival Day: (28) [27]
+Y-W-15010028-nav-00: Flagged 0.10 % of records with excessive speed or invalid navigation
+Y-I-15010028-depth-01: RLS m: 1 b: 0 rms: 144.805 r: 0.996045 significant: 1 decimation: 1
+Y-E-15010028-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.942928 b: 90.2122 rms: 91.9575 r: 0.986561 sig: 1 dec: 1). [Recompute]
+Y-W-15010028-twt-11: More recent bathymetry correction table available
+Y-W-15010028-mtf1-12: Integer precision
+Y-W-15010028-mag-12: Integer precision
+# Errata: Data
+?	15010028	1962-11-12T03:18:00.00	2945	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:24:00.00	2946	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:30:00.00	2947	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:36:00.00	2948	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:42:00.00	2949	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:48:00.00	2950	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T03:54:00.00	2951	D-0-0	 NAV: on land
+Y	15010028	1962-11-12T04:00:00.00	2952	D-0-0	 NAV: on land
+?	15010028	1962-11-17T14:18:00.00	4255	0-0-K	 GRAD: twt excessive
+?	15010028	1962-11-17T14:30:00.00	4257	0-0-KL	 GRAD: twt, depth excessive
+?	15010028	1962-11-17T16:18:00.00	4275	0-0-K	 GRAD: twt excessive
+?	15010028	1962-11-17T23:54:00.00	4351	0-0-KL	 GRAD: twt, depth excessive

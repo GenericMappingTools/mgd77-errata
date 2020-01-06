@@ -1,0 +1,19 @@
+# Cruise 06780045 ID F587SC MGD77 FILE VERSION: 19910719 N_RECS: 10219
+# Examined: Fri Jul 16 16:27:24 2010 by mtchandl
+# Arguments:  -R235.5/236/34.05/34.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported depth missing many of the extrema present in the predicted bathymetry.
+# Errata: Header
+N-E-06780045-H04-03: Invalid Survey Departure Day: (30) [31]
+N-E-06780045-H04-06: Invalid Survey Arrival Day: (09) [08]
+Y-W-06780045-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-06780045-depth-01: RLS m: 1 b: 0 rms: 8.2729 r: 0.790647 sig: 1 dec: 0
+Y-W-06780045-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	06780045	1987-11-02T11:51:00.00	2116	C-0-0	 NAV: excessive speed
+Y	06780045	1987-11-02T11:52:00.00	2117	C-0-0	 NAV: excessive speed
+Y	06780045	1987-11-04T10:35:00.00	4494	C-0-0	 NAV: excessive speed
+Y	06780045	1987-11-04T10:36:00.00	4495	C-0-0	 NAV: excessive speed

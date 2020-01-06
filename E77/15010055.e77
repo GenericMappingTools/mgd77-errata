@@ -1,0 +1,48 @@
+# Cruise 15010055 ID NOVA08AR MGD77 FILE VERSION: 19800226 N_RECS: 4545
+# Examined: Tue May 13 09:09:09 2008 by mtchandl
+# Arguments:  -R177.35/190.5/-26.5/-14.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies and fixing PDR wraps.
+# Errata: Header
+N-E-15010055-H04-03: Invalid Survey Departure Day: (29) [30]
+Y-E-15010055-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-15010055-H16-06: Ten Degree Identifier 5118 not marked in header but block was crossed
+Y-W-15010055-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15010055-depth-01: RLS m: 1.00388 b: 0 rms: 128.694 r: 0.996808 sign: 1 dec: 1
+Y-E-15010055-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.986361 b: -4.43117 rms: 35.9434 r: 0.993004 sig: 1 dec: 1). [Recompute]
+Y-E-15010055-twt-13: Encountered possible PDR wrap errors (8.1) [10.0]
+Y-W-15010055-twt-11: More recent bathymetry correction table available
+Y-W-15010055-mtf1-12: Integer multiple of 5 precision
+Y-W-15010055-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010055	1967-11-03T17:00:00.00	1023	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010055	1967-11-04T04:40:00.00	1163	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010055	1967-11-04T14:35:00.00	1282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010055	1967-11-04T15:20:00.00	1291	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	15010055	1967-11-07T07:15:00.00	1856	C-0-0	 NAV: excessive speed
+?	15010055	1967-11-12T15:00:00.00	3106	0-0-KL	 GRAD: twt, depth excessive
+?	15010055	1967-11-12T16:05:00.00	3119	0-0-KL	 GRAD: twt, depth excessive
+?	15010055	1967-11-12T23:29:00.00	3183	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T04:25:00.00	3242	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T04:30:00.00	3243	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T04:35:00.00	3244	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T19:35:00.00	3351	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T19:39:00.00	3352	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T19:45:00.00	3353	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T19:49:00.00	3354	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-13T19:55:00.00	3355	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T01:10:00.00	3418	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T01:15:00.00	3419	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T01:30:00.00	3422	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T01:35:00.00	3423	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T01:39:00.00	3424	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T19:29:00.00	3563	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T19:35:00.00	3564	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-14T19:39:00.00	3565	0-Q-0	 VAL: mag invalid
+?	15010055	1967-11-18T15:55:00.00	4397	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010055	1967-11-18T16:05:00.00	4399	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15010055	1967-11-18T16:10:00.00	4400	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15010055	1967-11-18T16:20:00.00	4402	0-0-OQ	 GRAD: mtf1, mag excessive

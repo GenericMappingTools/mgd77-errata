@@ -1,0 +1,17 @@
+# Cruise 15010079 ID ZTES6BAR MGD77 FILE VERSION: 19800226 N_RECS: 1267
+# Examined: Wed May 14 08:17:35 2008 by mtchandl
+# Arguments:  -R204.3/207.45/17.3/20.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Suggest manual review of bathymetry esp. near 600-800 km along track.
+# Errata: Header
+Y-I-15010079-depth-01: RLS m: 0.996125 b: 0 rms: 233.903 r: 0.991301 sign: 1 dec: 1
+Y-E-15010079-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.00925 b: -75.9525 rms: 76.6696 r: 0.999435 sig: 1 dec: 1). [Recompute]
+Y-W-15010079-mtf1-12: Integer multiple of 5 precision
+Y-W-15010079-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010079	1966-07-16T14:57:00.00	788	0-0-K	 GRAD: twt excessive
+?	15010079	1966-07-16T15:06:00.00	791	0-0-K	 GRAD: twt excessive
+?	15010079	1966-07-16T15:12:00.00	793	0-0-K	 GRAD: twt excessive

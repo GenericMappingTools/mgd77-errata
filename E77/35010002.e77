@@ -1,0 +1,17 @@
+# Cruise 35010002 ID 12574 MGD77 FILE VERSION: 19880323 N_RECS: 737
+# Examined: Tue Jul 26 18:41:56 2011 by mtchandl
+# Arguments:  -R-117.35/-79.85/7.1/32.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-35010002-H11-02: Invalid Topmost Latitude : (+32) [+33]
+Y-W-35010002-nav-00: Flagged 0.27 % of records with bad navigation
+Y-I-35010002-depth-01: RLS m: 1.00387 b: 0 rms: 63.223 r: 0.999268 sig: 1 dec: 0
+N-E-35010002-depth-02: Regression slope 1.00387 different from 1. Recommended: [1]
+Y-W-35010002-depth-12: Integer precision
+# Errata: Data
+Y	35010002	17555.4	736	D-0-0	 NAV: on land
+Y	35010002	17597	737	D-0-0	 NAV: on land

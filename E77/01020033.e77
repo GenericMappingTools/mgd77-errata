@@ -1,0 +1,95 @@
+# Cruise 01020033 ID ELT33 MGD77 FILE VERSION: 19790205 N_RECS: 24363
+# Examined: Wed Jul  8 21:03:47 2009 by mtchandl
+# Arguments:  -R169.3/240.4/-70.15/-36.45 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01020033-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-01020033-depth-01: RLS m: 1 b: 0 rms: 0.893501 r: 1 sig: 1 dec: 0
+Y-I-01020033-faa-01: RLS m: 0.964299 b: 13.0819 rms: 19.9396 r: 0.957335 sig: 1 dec: 1
+N-E-01020033-faa-02: Regression slope 0.964299 different from 1. Recommended: [1]
+Y-W-01020033-faa-03: Regression offset 13.0819 different from 0.
+Y-E-01020033-mag-07: Anomaly differs from mtf1-IGRF (m: 0.960673 b: -73.96 rms: 110.397 r: 0.949623 sig: 1 dec: 1). [Recompute]
+N-E-01020033-depth-08: Extended offset from grid [6-434]
+N-E-01020033-depth-08: Extended offset from grid [436-9522]
+N-E-01020033-depth-08: Extended offset from grid [9587-24363]
+Y-W-01020033-mtf1-12: Integer precision
+Y-W-01020033-mag-12: Integer precision
+# Errata: Data
+?	01020033	1968-03-19T07:06:00.00	2177	0-0-Q	 GRAD: mag excessive
+?	01020033	1968-03-23T21:08:00.00	3822	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-23T22:04:00.00	3842	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-23T22:08:00.00	3844	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-23T23:00:00.00	3863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-24T00:40:00.00	3901	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-24T02:20:00.00	3939	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T06:20:00.00	6235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T11:28:00.00	6336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T11:40:00.00	6340	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T12:00:00.00	6348	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T14:36:00.00	6404	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T14:40:00.00	6405	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T15:16:00.00	6419	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T15:32:00.00	6425	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T16:36:00.00	6448	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T16:40:00.00	6449	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T16:52:00.00	6454	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-03-30T16:56:00.00	6456	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-01T02:38:00.00	6978	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-07T19:34:00.00	9508	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-18T02:48:00.00	11997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-28T07:49:00.00	15049	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T11:35:00.00	15360	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T12:07:00.00	15374	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T12:15:00.00	15378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T17:05:00.00	15500	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T23:54:00.00	15664	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-29T23:56:00.00	15665	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-30T02:07:00.00	15714	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-04-30T17:42:00.00	16054	0-0-K	 GRAD: twt excessive
+?	01020033	1968-04-30T17:48:00.00	16056	0-0-K	 GRAD: twt excessive
+?	01020033	1968-04-30T17:57:00.00	16061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-02T10:30:00.00	16780	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-02T15:30:00.00	16888	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-02T17:25:00.00	16929	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-02T17:36:00.00	16933	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-02T17:58:00.00	16942	0-0-Q	 GRAD: mag excessive
+?	01020033	1968-05-02T18:54:00.00	16962	0-0-O	 GRAD: mtf1 excessive
+?	01020033	1968-05-02T19:02:00.00	16966	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-03T07:34:00.00	17233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-03T21:18:00.00	17547	0-0-KL	 GRAD: twt, depth excessive
+?	01020033	1968-05-04T00:58:00.00	17598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-04T09:53:00.00	17804	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-04T10:05:00.00	17809	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-04T10:40:00.00	17824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-04T12:03:00.00	17853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-04T12:54:00.00	17867	0-0-K	 GRAD: twt excessive
+?	01020033	1968-05-04T13:00:00.00	17868	0-0-K	 GRAD: twt excessive
+?	01020033	1968-05-05T02:12:00.00	17994	0-0-K	 GRAD: twt excessive
+?	01020033	1968-05-05T02:18:00.00	17995	0-0-K	 GRAD: twt excessive
+?	01020033	1968-05-05T02:24:00.00	17997	0-0-K	 GRAD: twt excessive
+?	01020033	1968-05-05T02:34:00.00	18001	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-05T07:15:00.00	18114	0-0-Q	 GRAD: mag excessive
+?	01020033	1968-05-05T21:26:00.00	18428	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-07T01:24:00.00	19038	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-14T21:46:00.00	22825	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-17T10:51:00.00	24197	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020033	1968-05-17T10:55:00.00	24199	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	01020033	1968-05-17T13:54:00.00	24270	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T13:55:00.00	24271	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:00:00.00	24272	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:03:00.00	24273	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:06:00.00	24274	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:07:00.00	24275	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:11:00.00	24276	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:12:00.00	24277	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:15:00.00	24278	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:18:00.00	24279	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:19:00.00	24280	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:22:00.00	24281	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:23:00.00	24282	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:24:00.00	24283	D-0-0	 NAV: on land
+Y	01020033	1968-05-17T14:27:00.00	24284	D-0-0	 NAV: on land

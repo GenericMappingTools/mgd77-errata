@@ -1,0 +1,32 @@
+# Cruise 23060116 ID ODP210JR MGD77 FILE VERSION: 20041102 N_RECS: 13044
+# Examined: Thu Feb  3 14:05:13 2011 by mtchandl
+# Arguments:  -R-64.65/-44.35/32.35/47.6 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060116-H04-03: Invalid Survey Departure Day: (08) [11]
+N-E-23060116-H04-06: Invalid Survey Arrival Day: (07) [06]
+Y-W-23060116-H13-10: Survey year (2003) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060116-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-23060116-depth-01: RLS m: 1.00024 b: 0 rms: 5.48429 r: 0.999984 sig: 1 dec: 0
+Y-W-23060116-twt-11: More recent bathymetry correction table available
+Y-W-23060116-depth-12: Integer precision
+Y-W-23060116-mtf1-12: Integer precision
+# Errata: Data
+Y	23060116	2003-07-15T05:20:13.56	4781	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:21:14.10	4782	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:22:14.10	4783	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:23:14.10	4784	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:24:14.10	4785	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:25:14.10	4786	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:26:14.10	4787	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:27:14.16	4788	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:28:14.10	4789	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:29:14.10	4790	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:30:14.10	4791	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:31:14.10	4792	C-0-0	 NAV: excessive speed
+Y	23060116	2003-07-15T05:32:14.10	4793	C-0-0	 NAV: excessive speed
+Y	23060116	2003-09-06T01:13:03.24	12083	C-0-0	 NAV: excessive speed

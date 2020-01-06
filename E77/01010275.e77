@@ -1,0 +1,28 @@
+# Cruise 01010275 ID RC2514 MGD77 FILE VERSION: 19910924 N_RECS: 28885
+# Examined: Fri Mar 19 00:53:20 2010 by mtchandl
+# Arguments:  -R311.4/313.45/-1.45/7.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-01010275-H04-03: Invalid Survey Departure Day: (24) [27]
+Y-E-01010275-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01010275-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010275-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01010275-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010275-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010275-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010275-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010275-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01010275-nav-00: Flagged 0.02 % of records with bad navigation
+Y-I-01010275-depth-01: RLS m: 1.00035 b: 0 rms: 14.9033 r: 0.99988 sig: 1 dec: 0
+N-E-01010275-depth-02: Regression slope 1.00035 different from 1. Recommended: [1]
+Y-W-01010275-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	01010275	1984-11-29T22:36:00.00	2432	C-0-0	 NAV: excessive speed
+Y	01010275	1984-12-01T22:28:00.00	4958	C-0-0	 NAV: excessive speed
+Y	01010275	1984-12-01T23:35:00.00	5020	C-0-0	 NAV: excessive speed
+Y	01010275	1984-12-01T23:36:00.00	5021	C-0-0	 NAV: excessive speed
+Y	01010275	1984-12-11T18:16:00.00	16544	C-0-0	 NAV: excessive speed

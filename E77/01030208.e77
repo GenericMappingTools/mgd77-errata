@@ -1,0 +1,38 @@
+# Cruise 01030208 ID V2413 MGD77 FILE VERSION: 19790920 N_RECS: 6624
+# Examined: Fri Jul 10 13:43:31 2009 by mtchandl
+# Arguments:  -R279.9/330.15/-23.45/26.2 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030208-depth-01: RLS m: 1 b: 0 rms: 78.6866 r: 0.9992 sig: 1 dec: 1
+Y-I-01030208-faa-01: RLS m: 1.00542 b: -4.22824 rms: 9.27324 r: 0.995956 sig: 1 dec: 1
+Y-W-01030208-faa-03: Regression offset -4.22824 different from 0.
+Y-E-01030208-mag-07: Anomaly differs from mtf1-IGRF (m: 0.923206 b: -78.1294 rms: 92.6109 r: 0.867057 sig: 1 dec: 0). [Recompute]
+N-E-01030208-faa-08: Extended offset from grid [4566-5281]
+N-E-01030208-faa-08: Extended offset from grid [5364-5617]
+N-E-01030208-depth-08: Extended offset from grid [3-6624]
+Y-W-01030208-twt-11: More recent bathymetry correction table available
+Y-W-01030208-mtf1-12: Integer precision
+Y-W-01030208-mag-12: Integer precision
+# Errata: Data
+?	01030208	1967-11-17T14:24:00.00	23	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T15:21:00.00	32	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T15:22:00.00	33	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T15:29:00.00	36	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T15:43:00.00	39	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:02:00.00	67	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:12:00.00	69	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:19:00.00	72	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:23:00.00	73	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:27:00.00	74	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:30:00.00	75	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T18:55:00.00	83	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:00:00.00	84	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:05:00.00	86	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:10:00.00	87	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:15:00.00	88	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:40:00.00	95	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030208	1967-11-17T19:52:00.00	100	0-0-OQ	 GRAD: mtf1, mag excessive

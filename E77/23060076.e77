@@ -1,0 +1,37 @@
+# Cruise 23060076 ID LEG171BJ MGD77 FILE VERSION: 19980717 N_RECS: 51130
+# Examined: Thu Feb  3 13:47:49 2011 by mtchandl
+# Arguments:  -R-78.5/-59.7/13.15/31.9 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-23060076-H13-10: Survey year (1997) outside magnetic reference field Unused time range (9999-9999)
+Y-I-23060076-depth-01: RLS m: 1.00035 b: 0 rms: 11.9563 r: 0.999976 sig: 1 dec: 0
+Y-W-23060076-twt-11: More recent bathymetry correction table available
+Y-W-23060076-depth-12: Integer precision
+Y-W-23060076-mtf1-12: Integer precision
+# Errata: Data
+?	23060076	1997-01-09T08:43:16.02	684	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:11:52.02	5570	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:12:52.08	5571	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:13:52.08	5572	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:14:52.08	5573	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:15:52.08	5574	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:16:52.08	5575	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:17:52.08	5576	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:18:52.08	5577	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:19:52.08	5578	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:20:52.08	5579	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-12T18:21:52.08	5580	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:43:53.22	31767	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:47:53.22	31771	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:48:53.28	31772	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:56:53.34	31780	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:57:53.40	31781	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:58:53.40	31782	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T18:59:53.28	31783	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T19:01:53.46	31785	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T19:02:53.40	31786	0-0-O	 GRAD: mtf1 excessive
+?	23060076	1997-01-30T19:03:53.40	31787	0-0-O	 GRAD: mtf1 excessive

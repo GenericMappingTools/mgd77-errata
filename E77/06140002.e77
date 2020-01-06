@@ -1,0 +1,23 @@
+# Cruise 06140002 ID B172SC MGD77 FILE VERSION: 19870917 N_RECS: 784
+# Examined: Fri May 28 15:14:26 2010 by mtchandl
+# Arguments:  -R236.3/242.65/32.4/37.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Reported faa flat-lined at zero, recommend recomputing using gobs-IGF80+eot. 10 mtf1 and 10 mtf2 measurements, recompute anomalies for both.
+# Errata: Header
+Y-E-06140002-H12-01: Invalid Bathymetry Digitizing Rate: (409) [409]
+Y-E-06140002-H13-01: Invalid Magnetics Digitizing Rate: (412) [412]
+Y-E-06140002-H14-01: Invalid Gravity Digitizing Rate: (427) [427]
+Y-I-06140002-depth-01: RLS m: 1.00105 b: 0 rms: 26.1174 r: 0.999763 sig: 1 dec: 0
+Y-I-06140002-faa-01: RLS m: 0 b: 0 rms: 46.9929 r: nan sig: 0 dec: 1
+N-E-06140002-faa-06: Insignificant regression: reported versus gobs-IGF80 (m: 0 b: 0 rms: 50.7818 r: nan sig: 0 dec: 1). [Recompute]
+N-E-06140002-faa-15: Insignificant regression: reported versus gobs-IGF80+eot (m: 0 b: 0 rms: 50.7818 r: nan sig: 0 dec: 1). [Recompute]
+Y-E-06140002-mag-07: Anomaly differs from mtf2-IGRF (m: 8.00006 b: -974.627 rms: 149.316 r: 0.733348 sig: 1 dec: 0). [Recompute]
+Y-W-06140002-mag-09: only found negative values
+Y-W-06140002-faa-09: all anomalies are zero
+Y-W-06140002-twt-11: More recent bathymetry correction table available
+Y-W-06140002-eot-12: Integer multiple of 5 precision
+Y-W-06140002-faa-12: Integer multiple of 5 precision
+# Errata: Data

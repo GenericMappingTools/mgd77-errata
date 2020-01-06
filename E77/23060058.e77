@@ -1,0 +1,62 @@
+# Cruise 23060058 ID ODP155JR MGD77 FILE VERSION: 19951220 N_RECS: 15791
+# Examined: Thu Feb  3 13:39:40 2011 by mtchandl
+# Arguments:  -R-59.65/-46.55/4.55/13.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-23060058-H04-06: Invalid Survey Arrival Day: (25) [24]
+Y-I-23060058-depth-01: RLS m: 0.999651 b: 0 rms: 5.88635 r: 0.999958 sig: 1 dec: 0
+Y-E-23060058-mag-07: Anomaly differs from mtf1-IGRF (m: 0.982459 b: -36.1187 rms: 48.6006 r: 0.953111 sig: 1 dec: 1). [Recompute]
+Y-W-23060058-twt-11: More recent bathymetry correction table available
+Y-W-23060058-depth-12: Integer precision
+Y-W-23060058-mtf1-12: Integer precision
+# Errata: Data
+?	23060058	1994-03-29T08:08:00.00	947	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-03-29T09:45:00.00	1043	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T13:22:00.00	5575	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:18:00.00	5631	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:32:00.00	5645	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:40:00.00	5653	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:41:00.00	5654	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:42:00.00	5655	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:46:00.00	5659	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T14:49:00.00	5662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:07:00.00	5680	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:09:00.00	5682	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:10:00.00	5683	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:23:00.00	5696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:32:00.00	5705	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-01T15:46:00.00	5718	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T02:32:00.00	6061	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T11:42:00.00	6607	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:09:00.00	6634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:19:00.00	6644	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:41:00.00	6666	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:44:00.00	6669	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:56:00.00	6681	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T12:59:00.00	6684	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:11:00.00	6696	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:14:00.00	6699	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:15:00.00	6700	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:16:00.00	6701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:17:00.00	6702	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:21:00.00	6706	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:22:00.00	6707	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:23:00.00	6708	0-0-Q	 GRAD: mag excessive
+?	23060058	1994-04-05T13:32:00.00	6717	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-05T13:39:00.00	6724	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-10T20:56:00.00	7147	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T21:33:00.00	8051	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T22:33:00.00	8111	0-0-Q	 GRAD: mag excessive
+?	23060058	1994-04-15T22:51:00.00	8129	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T22:55:00.00	8133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T23:00:00.00	8138	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T23:10:00.00	8148	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T23:12:00.00	8150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T23:18:00.00	8156	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-15T23:19:00.00	8157	0-0-OQ	 GRAD: mtf1, mag excessive
+?	23060058	1994-04-22T15:30:00.00	8619	0-0-Q	 GRAD: mag excessive
+?	23060058	1994-04-27T08:29:00.00	8960	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,16 @@
+# Cruise 08020003 ID 74090800 MGD77 FILE VERSION: 19840223 N_RECS: 5379
+# Examined: Mon Jul 26 17:31:21 2010 by mtchandl
+# Arguments:  -R202.2/242.8/4.4/32.8 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-08020003-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-08020003-depth-01: RLS m: 1 b: 0 rms: 24.1945 r: 0.997296 sig: 1 dec: 0
+Y-W-08020003-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08020003	1974-09-17T01:44:00.00	1	D-0-0	 NAV: on land
+Y	08020003	1974-09-17T01:45:00.00	2	D-0-0	 NAV: on land
+Y	08020003	1974-09-17T01:57:00.00	3	D-0-0	 NAV: on land

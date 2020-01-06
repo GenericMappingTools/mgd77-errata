@@ -1,0 +1,90 @@
+# Cruise 02010057 ID CH100L09 MGD77 FILE VERSION: 19820805 N_RECS: 10192
+# Examined: Fri Mar 26 21:01:14 2010 by mtchandl
+# Arguments:  -R165.1/178.4/-19.1/-11.25 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-W-02010057-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-02010057-depth-01: RLS m: 1.00035 b: 0 rms: 44.6447 r: 0.99932 sig: 1 dec: 0
+Y-I-02010057-faa-01: RLS m: 0.999384 b: -2.73352 rms: 4.68513 r: 0.998725 sig: 1 dec: 0
+Y-W-02010057-faa-03: Regression offset -2.73352 different from 0.
+N-E-02010057-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02010057-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.789551 b: -24.5637 rms: 56.1041 r: 0.905218 sig: 1 dec: 1). [Recompute]
+Y-E-02010057-mag-07: Anomaly differs from mtf1-IGRF (m: 0.994838 b: 59.9097 rms: 62.2363 r: 0.998609 sig: 1 dec: 1). [Recompute]
+Y-W-02010057-mtf1-12: Integer precision
+Y-W-02010057-mag-12: Integer precision
+# Errata: Data
+?	02010057	1971-08-04T15:42:00.00	14	D-0-0	 NAV: on land
+?	02010057	1971-08-05T06:45:00.00	284	0-0-Q	 GRAD: mag excessive
+?	02010057	1971-08-05T07:30:00.00	307	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-05T07:35:00.00	309	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-05T07:50:00.00	315	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-05T07:55:00.00	317	0-Q-0	 VAL: mag invalid
+?	02010057	1971-08-05T10:45:00.00	399	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-05T20:25:00.00	545	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-05T21:00:00.00	554	0-0-V	 GRAD: eot excessive
+Y	02010057	1971-08-06T23:12:00.00	1081	C-0-0	 NAV: excessive speed
+?	02010057	1971-08-07T16:22:00.00	1440	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-07T16:26:00.00	1442	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-08T20:59:00.00	1946	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-09T01:50:00.00	2021	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-09T02:25:00.00	2028	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-09T02:50:00.00	2033	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-09T15:50:00.00	2215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-09T22:05:00.00	2389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-09T22:20:00.00	2398	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-09T22:45:00.00	2410	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-09T22:50:00.00	2412	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-10T23:44:00.00	2803	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-10T23:45:00.00	2804	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-11T03:50:00.00	2878	0-0-Q	 GRAD: mag excessive
+?	02010057	1971-08-11T12:11:00.00	3096	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-11T12:51:00.00	3114	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-12T02:55:00.00	3326	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-13T18:05:00.00	3991	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-13T18:15:00.00	3994	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-13T23:50:00.00	4086	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-14T00:16:00.00	4104	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-14T09:04:00.00	4272	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-14T10:16:00.00	4303	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-14T10:19:00.00	4305	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-15T01:20:00.00	4594	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-15T02:55:00.00	4613	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-15T07:05:00.00	4703	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-15T16:20:00.00	4872	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-15T19:45:00.00	4915	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-15T20:51:00.00	4932	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-15T21:16:00.00	4944	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-15T21:23:00.00	4949	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-15T23:32:00.00	5012	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-16T03:50:00.00	5095	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-16T12:13:00.00	5260	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-16T13:30:00.00	5283	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-17T13:20:00.00	5732	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-17T20:50:00.00	5861	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-17T22:21:00.00	5916	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-18T01:05:00.00	6004	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-18T10:38:00.00	6191	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-18T17:21:00.00	6302	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-18T17:43:00.00	6315	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-18T20:00:00.00	6389	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-19T08:03:00.00	6636	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-19T12:40:00.00	6755	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-20T08:32:00.00	7125	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-20T21:35:00.00	7373	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-20T22:01:00.00	7389	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-20T22:02:00.00	7390	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-20T22:03:00.00	7391	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-20T22:05:00.00	7393	0-0-V	 GRAD: eot excessive
+?	02010057	1971-08-20T23:21:00.00	7426	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-20T23:24:00.00	7428	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-20T23:25:00.00	7429	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-21T02:35:00.00	7473	0-0-Q	 GRAD: mag excessive
+?	02010057	1971-08-21T02:55:00.00	7477	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-21T03:45:00.00	7487	0-0-K	 GRAD: twt excessive
+?	02010057	1971-08-21T04:30:00.00	7497	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02010057	1971-08-25T15:46:00.00	9612	0-0-KL	 GRAD: twt, depth excessive
+?	02010057	1971-08-25T21:20:00.00	9791	0-0-K	 GRAD: twt excessive

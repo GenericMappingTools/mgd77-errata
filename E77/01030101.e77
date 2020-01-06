@@ -1,0 +1,30 @@
+# Cruise 01030101 ID V2501 MGD77 FILE VERSION: 19790919 N_RECS: 7300
+# Examined: Thu Jul  9 17:19:54 2009 by mtchandl
+# Arguments:  -R279.9/316.5/12.75/28.8 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-01030101-depth-01: RLS m: 1.00017 b: 0 rms: 6.73359 r: 0.999995 sig: 1 dec: 0
+N-E-01030101-depth-02: Regression slope 1.00017 different from 1. Recommended: [1]
+Y-I-01030101-faa-01: RLS m: 1.01983 b: 5.25345 rms: 10.8647 r: 0.980131 sig: 1 dec: 1
+Y-W-01030101-faa-03: Regression offset 5.25345 different from 0.
+Y-E-01030101-mag-07: Anomaly differs from mtf1-IGRF (m: 0.99927 b: -166.298 rms: 175.001 r: 0.948958 sig: 1 dec: 1). [Recompute]
+N-E-01030101-depth-08: Extended offset from grid [4-7300]
+Y-W-01030101-twt-11: More recent bathymetry correction table available
+Y-W-01030101-mtf1-12: Integer precision
+Y-W-01030101-mag-12: Integer precision
+# Errata: Data
+?	01030101	1968-01-16T03:02:00.00	2526	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-18T16:08:00.00	3135	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-18T21:42:00.00	3212	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-21T04:58:00.00	3733	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-23T01:01:00.00	4166	0-0-KL	 GRAD: twt, depth excessive
+?	01030101	1968-01-23T02:25:00.00	4184	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-23T17:30:00.00	4334	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-24T18:52:00.00	4654	0-0-KL	 GRAD: twt, depth excessive
+?	01030101	1968-01-26T00:30:00.00	4902	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-26T11:01:00.00	5038	0-0-K	 GRAD: twt excessive
+?	01030101	1968-01-29T18:16:00.00	5926	0-0-KL	 GRAD: twt, depth excessive

@@ -1,0 +1,17 @@
+# Cruise 07080008 ID WEC8402A MGD77 FILE VERSION: 19890801 N_RECS: 3441
+# Examined: Mon Jul 26 15:32:06 2010 by mtchandl
+# Arguments:  -R219.75/237.65/0.85/28.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-07080008-H16-01: Invalid Number of Ten Degree Identifiers: ( 7) [6]
+Y-W-07080008-H16-06: Ten Degree Identifier 5013 marked in header but was not crossed
+Y-I-07080008-depth-01: RLS m: 1 b: 0 rms: 17.0072 r: 0.998626 sig: 1 dec: 0
+Y-W-07080008-twt-11: More recent bathymetry correction table available
+Y-W-07080008-depth-12: Integer precision
+# Errata: Data
+?	07080008	1984-02-16T14:15:00.00	1579	0-0-K	 GRAD: twt excessive
+?	07080008	1984-02-16T14:25:00.00	1581	0-0-K	 GRAD: twt excessive

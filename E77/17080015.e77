@@ -1,0 +1,16 @@
+# Cruise 17080015 ID A118L22 MGD77 FILE VERSION: 19900702 N_RECS: 5521
+# Examined: Mon Sep  6 12:39:33 2010 by mtchandl
+# Arguments:  -R229.45/235.85/44.65/48.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-17080015-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-I-17080015-depth-01: RLS m: 0.996515 b: 0 rms: 56.5503 r: 0.995393 sig: 1 dec: 0
+N-E-17080015-depth-02: Regression slope 0.996515 different from 1. Recommended: [1]
+Y-W-17080015-depth-12: Integer precision
+# Errata: Data
+?	17080015	1987-10-12T13:58:39.00	2803	0-0-K	 GRAD: twt excessive
+?	17080015	1987-10-15T04:30:28.02	4417	0-0-K	 GRAD: twt excessive

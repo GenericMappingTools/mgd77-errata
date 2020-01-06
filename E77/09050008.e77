@@ -1,0 +1,30 @@
+# Cruise 09050008 ID KA68J MGD77 FILE VERSION: 19810713 N_RECS: 11209
+# Examined: Mon Aug  9 11:23:41 2010 by mtchandl
+# Arguments:  -R285.05/298.9/17.65/36.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Poorly merged bathymetry show a constant along-track shift compared to predicted bathymetry and should be fixed by the source institution. Flagged all depths as bad.
+# Errata: Header
+Y-I-09050008-depth-01: RLS m: 0.998209 b: 0 rms: 240.922 r: 0.976251 sig: 1 dec: 0
+Y-E-09050008-mag-07: Anomaly differs from mtf1-IGRF (m: 0.964601 b: -137.831 rms: 142.732 r: 0.980553 sig: 1 dec: 1). [Recompute]
+Y-E-09050008-depth-08: Extended offset from grid [1-11209]
+Y-W-09050008-mtf1-12: Integer precision
+# Errata: Data
+?	09050008	1968-10-13T10:26:00.00	362	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-13T13:08:00.00	522	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-13T20:39:00.00	804	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-13T20:40:00.00	805	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T20:42:00.00	807	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-13T20:43:00.00	808	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T20:44:00.00	809	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T20:45:00.00	810	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T22:28:00.00	861	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-13T23:05:00.00	898	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T23:29:00.00	922	0-0-KL	 GRAD: twt, depth excessive
+?	09050008	1968-10-13T23:53:00.00	946	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-16T03:42:00.00	2214	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-18T04:38:00.00	4751	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-19T05:31:00.00	5883	0-0-K	 GRAD: twt excessive
+?	09050008	1968-10-19T06:05:00.00	5899	0-0-K	 GRAD: twt excessive

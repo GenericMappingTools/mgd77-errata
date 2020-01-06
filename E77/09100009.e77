@@ -1,0 +1,35 @@
+# Cruise 09100009 ID KEA01-67 MGD77 FILE VERSION: 19790329 N_RECS: 1506
+# Examined: Mon Aug  9 12:11:23 2010 by mtchandl
+# Arguments:  -R280.9/285/32.95/37.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09100009-H11-02: Invalid Topmost Latitude : (+37) [+38]
+Y-W-09100009-nav-00: Flagged 1.06 % of records with bad navigation
+Y-I-09100009-depth-01: RLS m: 0.934148 b: 0 rms: 5.72307 r: 0.999277 sig: 1 dec: 0
+N-E-09100009-depth-02: Regression slope 0.934148 different from 1. Recommended: [1]
+Y-I-09100009-faa-01: RLS m: 1.01149 b: 2.49362 rms: 5.10501 r: 0.989253 sig: 1 dec: 0
+N-E-09100009-faa-02: Regression slope 1.01149 different from 1. Recommended: [1]
+Y-W-09100009-faa-03: Regression offset 2.49362 different from 0.
+Y-W-09100009-depth-12: Integer precision
+# Errata: Data
+?	09100009	1967-06-13T14:40:00.00	627	0-0-L	 GRAD: depth excessive
+Y	09100009	1967-06-20T22:05:00.00	1476	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:10:00.00	1477	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:15:00.00	1478	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:20:00.00	1479	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:25:00.00	1480	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:30:00.00	1481	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:35:00.00	1482	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:40:00.00	1483	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:45:00.00	1484	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:50:00.00	1485	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T22:55:00.00	1486	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T23:00:00.00	1487	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T23:05:00.00	1488	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T23:10:00.00	1489	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T23:20:00.00	1491	C-0-0	 NAV: excessive speed
+Y	09100009	1967-06-20T23:25:00.00	1492	C-0-0	 NAV: excessive speed

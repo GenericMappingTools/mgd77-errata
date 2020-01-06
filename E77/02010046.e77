@@ -1,0 +1,72 @@
+# Cruise 02010046 ID CH099L06 MGD77 FILE VERSION: 19820805 N_RECS: 5861
+# Examined: Fri Mar 26 20:49:04 2010 by mtchandl
+# Arguments:  -R39.95/58.1/-4.05/11.3 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-W-02010046-nav-00: Flagged 0.73 % of records with bad navigation
+Y-I-02010046-depth-01: RLS m: 0.999232 b: 0 rms: 26.8428 r: 0.999775 sig: 1 dec: 0
+N-E-02010046-depth-02: Regression slope 0.999232 different from 1. Recommended: [1]
+Y-E-02010046-mag-07: Anomaly differs from mtf1-IGRF (m: 0.985732 b: -209.643 rms: 210.141 r: 0.995878 sig: 1 dec: 1). [Recompute]
+Y-W-02010046-mtf1-12: Integer precision
+Y-W-02010046-mag-12: Integer precision
+# Errata: Data
+Y	02010046	1970-08-03T10:00:00.00	316	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:02:00.00	317	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:05:00.00	318	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:06:00.00	319	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:07:00.00	320	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:10:00.00	321	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:11:00.00	322	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:15:00.00	323	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:16:00.00	324	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:20:00.00	325	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:25:00.00	326	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:30:00.00	327	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:32:00.00	328	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T10:35:00.00	329	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:19:00.00	559	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:20:00.00	560	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:22:00.00	561	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:25:00.00	562	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:26:00.00	563	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:28:00.00	564	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:29:00.00	565	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:30:00.00	566	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:31:00.00	567	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:32:00.00	568	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:33:00.00	569	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:35:00.00	570	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:36:00.00	571	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:37:00.00	572	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:39:00.00	573	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:40:00.00	574	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:43:00.00	575	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:45:00.00	576	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:46:00.00	577	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:50:00.00	578	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:51:00.00	579	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T20:55:00.00	580	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:00:00.00	581	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:01:00.00	582	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:03:00.00	583	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:05:00.00	584	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:10:00.00	585	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:11:00.00	586	C-0-0	 NAV: excessive speed
+Y	02010046	1970-08-03T21:13:00.00	587	C-0-0	 NAV: excessive speed
+?	02010046	1970-08-04T17:17:00.00	1058	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-10T22:40:00.00	2278	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-10T23:01:00.00	2297	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-14T15:51:00.00	2683	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-14T19:55:00.00	2790	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-15T18:07:00.00	3174	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-15T18:12:00.00	3177	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-17T03:15:00.00	3619	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-17T12:22:00.00	3704	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-17T12:50:00.00	3709	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-18T07:36:00.00	3872	0-0-KL	 GRAD: twt, depth excessive
+?	02010046	1970-08-24T05:11:00.00	4861	0-0-K	 GRAD: twt excessive
+?	02010046	1970-08-28T20:01:00.00	5812	0-0-K	 GRAD: twt excessive

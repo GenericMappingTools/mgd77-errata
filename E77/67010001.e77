@@ -1,0 +1,82 @@
+# Cruise 67010001 ID 69005611 MGD77 FILE VERSION: 19830804 N_RECS: 9639
+# Examined: Thu Jul 28 18:35:25 2011 by mtchandl
+# Arguments:  -R-51.45/-5.3/48.35/56.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010001-nav-00: Flagged 0.07 % of records with bad navigation
+Y-I-67010001-depth-01: RLS m: 1.00054 b: 0 rms: 17.1623 r: 0.999888 sig: 1 dec: 0
+N-E-67010001-depth-02: Regression slope 1.00054 different from 1. Recommended: [1]
+Y-I-67010001-faa-01: RLS m: 1.00442 b: 6.2674 rms: 7.51449 r: 0.986633 sig: 1 dec: 0
+Y-W-67010001-faa-03: Regression offset 6.2674 different from 0.
+Y-E-67010001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.977102 b: 154.568 rms: 159.091 r: 0.986241 sig: 1 dec: 0). [Recompute]
+Y-W-67010001-twt-11: More recent bathymetry correction table available
+Y-W-67010001-mtf1-12: Integer precision
+Y-W-67010001-mag-12: Integer precision
+# Errata: Data
+?	67010001	1969-08-05T15:31:00.00	631	0-0-K	 GRAD: twt excessive
+Y	67010001	1969-08-07T00:00:00.00	1048	B-0-0	 NAV: non-increasing time
+?	67010001	1969-08-07T07:32:00.00	1199	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-07T07:38:00.00	1202	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-07T07:39:00.00	1203	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T06:39:00.00	3139	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T06:53:00.00	3149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T06:56:00.00	3151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T06:57:00.00	3152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T06:58:00.00	3153	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T07:01:00.00	3155	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T08:08:00.00	3195	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:45:00.00	3249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:51:00.00	3253	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:53:00.00	3254	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:55:00.00	3256	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:56:00.00	3257	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T09:59:00.00	3259	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T10:04:00.00	3262	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T10:12:00.00	3267	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T10:23:00.00	3273	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T10:40:00.00	3285	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T11:02:00.00	3299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T11:03:00.00	3300	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T11:12:00.00	3306	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T11:57:00.00	3325	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T12:15:00.00	3336	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T13:14:00.00	3364	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T13:32:00.00	3372	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T13:37:00.00	3375	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-11T23:53:00.00	3598	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-14T20:15:00.00	4909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-14T20:18:00.00	4912	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-14T20:19:00.00	4913	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010001	1969-08-14T22:42:00.00	4985	B-0-0	 NAV: non-increasing time
+Y	67010001	1969-08-15T01:00:00.00	5056	B-0-0	 NAV: non-increasing time
+?	67010001	1969-08-15T01:16:00.00	5067	0-0-K	 GRAD: twt excessive
+?	67010001	1969-08-15T22:55:00.00	5853	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-15T22:56:00.00	5854	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-15T23:00:00.00	5856	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010001	1969-08-16T01:00:00.00	5926	B-0-0	 NAV: non-increasing time
+?	67010001	1969-08-16T10:30:00.00	6240	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T10:31:00.00	6241	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T10:32:00.00	6242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T10:33:00.00	6243	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T10:40:00.00	6248	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T10:43:00.00	6251	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:13:00.00	6467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:16:00.00	6469	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:20:00.00	6473	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:21:00.00	6474	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:24:00.00	6476	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:38:00.00	6486	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:39:00.00	6487	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:41:00.00	6489	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T17:42:00.00	6490	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010001	1969-08-16T19:47:00.00	6549	0-0-K	 GRAD: twt excessive
+Y	67010001	1969-08-18T11:03:00.00	7489	B-0-0	 NAV: non-increasing time
+?	67010001	1969-08-18T13:09:00.00	7563	0-0-K	 GRAD: twt excessive
+?	67010001	1969-08-19T19:21:00.00	7801	0-0-K	 GRAD: twt excessive
+Y	67010001	1969-08-22T01:22:00.00	8739	C-0-0	 NAV: excessive speed
+?	67010001	1969-08-22T06:00:00.00	8851	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010001	1969-08-22T14:07:00.00	9053	B-0-0	 NAV: non-increasing time

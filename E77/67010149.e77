@@ -1,0 +1,19 @@
+# Cruise 67010149 ID 85002811 MGD77 FILE VERSION: 19880322 N_RECS: 5084
+# Examined: Sat Jul 30 20:12:16 2011 by mtchandl
+# Arguments:  -R144.6/166.45/-22.4/13.5 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-67010149-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-67010149-depth-01: RLS m: 1.00021 b: 0 rms: 7.11173 r: 0.999958 sig: 1 dec: 0
+Y-W-67010149-depth-12: Integer precision
+# Errata: Data
+?	67010149	1985-08-06T00:20:00.00	5079	D-0-0	 NAV: on land
+Y	67010149	1985-08-06T00:25:00.00	5080	D-0-0	 NAV: on land
+Y	67010149	1985-08-06T00:30:00.00	5081	D-0-0	 NAV: on land
+Y	67010149	1985-08-06T00:35:00.00	5082	D-0-0	 NAV: on land
+Y	67010149	1985-08-06T00:40:00.00	5083	D-0-0	 NAV: on land
+Y	67010149	1985-08-06T00:45:00.00	5084	D-0-0	 NAV: on land

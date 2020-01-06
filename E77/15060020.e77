@@ -1,0 +1,19 @@
+# Cruise 15060020 ID PAPA01BD MGD77 FILE VERSION: 19800226 N_RECS: 5324
+# Examined: Sat May 31 10:17:07 2008 by mtchandl
+# Arguments:  -R239.95/275.25/9.1/32.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-15060020-depth-01: RLS m: 1 b: 0 rms: 153.713 r: 0.989748 sig: 1 dec: 1
+Y-E-15060020-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.941217 b: -17.1169 rms: 93.8889 r: 0.80886 sig: 1 dec: 1). [Recompute]
+Y-W-15060020-twt-11: More recent bathymetry correction table available
+Y-W-15060020-mtf1-12: Integer multiple of 5 precision
+Y-W-15060020-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060020	1965-06-19T17:12:00.00	663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060020	1965-06-22T03:36:00.00	1736	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060020	1965-06-22T03:48:00.00	1740	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060020	1965-06-22T04:18:00.00	1750	0-0-OQ	 GRAD: mtf1, mag excessive

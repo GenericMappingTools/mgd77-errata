@@ -1,0 +1,77 @@
+# Cruise 15040216 ID RNDB11WT MGD77 FILE VERSION: 19930804 N_RECS: 19672
+# Examined: Tue May 27 10:03:09 2008 by mtchandl
+# Arguments:  -R158.45/171.5/-0.55/7.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-W-15040216-H13-10: Survey year (1988) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-15040216-H16-06: Ten Degree Identifier 1015 not marked in header but block was crossed
+Y-W-15040216-H16-06: Ten Degree Identifier 3016 marked in header but was not crossed
+Y-I-15040216-depth-01: RLS m: 1.00388 b: 0 rms: 186.896 r: 0.981085 sig: 1 dec: 1
+Y-I-15040216-faa-01: RLS m: 0.951803 b: 1.24953 rms: 11.9053 r: 0.98251 sig: 1 dec: 1
+N-E-15040216-faa-02: Regression slope 0.951803 different from 1. Recommended: [1]
+N-E-15040216-faa-06: Anomaly differs from gobs - IGF80 (m: 0.669564 b: 17.7792 rms: 47.5279 r: 0.840583 sig: 1 dec: 1). [Recompute]
+N-E-15040216-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.680433 b: 29.2336 rms: 50.4104 r: 0.842264 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-E-15040216-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.990598 b: -34.4041 rms: 35.0762 r: 0.999365 sig: 1 dec: 1). [Recompute]
+Y-W-15040216-twt-11: More recent bathymetry correction table available
+Y-W-15040216-depth-12: Integer precision
+Y-W-15040216-mtf1-12: Integer precision
+# Errata: Data
+?	15040216	1988-12-17T03:51:00.00	2	0-0-W	 GRAD: faa excessive
+?	15040216	1988-12-17T06:24:00.00	154	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-17T21:42:00.00	1072	0-0-KL	 GRAD: twt, depth excessive
+?	15040216	1988-12-17T21:43:00.00	1073	0-0-K	 GRAD: twt excessive
+?	15040216	1988-12-19T16:57:00.00	3666	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-21T11:43:00.00	6232	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-22T04:20:00.00	7229	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-22T11:39:00.00	7668	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-22T11:40:00.00	7669	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-22T17:44:00.00	8033	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-23T07:40:00.00	8869	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-23T12:39:00.00	9168	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-23T22:48:00.00	9777	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-23T23:04:00.00	9793	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-23T23:58:00.00	9847	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T00:00:00.00	9849	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-24T00:02:00.00	9851	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-24T00:10:00.00	9859	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T08:10:00.00	10339	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T10:34:00.00	10483	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T11:01:00.00	10510	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-24T11:18:00.00	10527	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T11:20:00.00	10529	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T11:34:00.00	10543	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-24T23:44:00.00	11273	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T02:08:00.00	11417	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T03:47:00.00	11516	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T04:51:00.00	11580	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T06:43:00.00	11692	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-25T06:44:00.00	11693	0-0-W	 GRAD: faa excessive
+?	15040216	1988-12-25T07:10:00.00	11719	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-25T12:28:00.00	12037	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-25T15:59:00.00	12248	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T16:21:00.00	12270	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T17:27:00.00	12336	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-25T23:19:00.00	12688	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-26T00:23:00.00	12752	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-26T04:06:00.00	12975	0-0-UW	 GRAD: gobs, faa excessive
+?	15040216	1988-12-26T20:45:00.00	13974	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-26T23:35:00.00	14144	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T04:16:00.00	14425	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T04:51:00.00	14460	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T08:17:00.00	14666	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T08:39:00.00	14688	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T10:05:00.00	14774	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T11:30:00.00	14859	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T11:56:00.00	14885	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-27T13:12:00.00	14961	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-29T22:19:00.00	18388	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-29T22:20:00.00	18389	0-0-U	 GRAD: gobs excessive
+?	15040216	1988-12-30T13:09:00.00	19278	0-0-KL	 GRAD: twt, depth excessive
+?	15040216	1988-12-30T17:59:00.00	19568	0-0-K	 GRAD: twt excessive
+?	15040216	1988-12-30T18:06:00.00	19575	0-0-K	 GRAD: twt excessive
+?	15040216	1988-12-30T18:18:00.00	19586	0-0-U	 GRAD: gobs excessive

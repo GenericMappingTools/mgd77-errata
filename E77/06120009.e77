@@ -1,0 +1,16 @@
+# Cruise 06120009 ID K176AR MGD77 FILE VERSION: 19880219 N_RECS: 463
+# Examined: Fri May 28 15:13:15 2010 by mtchandl
+# Arguments:  -R210.2/211.7/70.45/70.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged all bathy records.
+# Errata: Header
+N-E-06120009-H04-02: Invalid Survey Departure Month: (07) [08]
+N-E-06120009-H04-03: Invalid Survey Departure Day: (24) [27]
+N-E-06120009-H04-06: Invalid Survey Arrival Day: (26) [13]
+Y-I-06120009-depth-01: RLS m: 1.075 b: 0 rms: 1.50418 r: 0.916177 sig: 1 dec: 0
+N-E-06120009-depth-02: Regression slope 1.075 different from 1. Recommended: [1]
+Y-E-06120009-depth-10: Invalid data records: [1-463]
+# Errata: Data

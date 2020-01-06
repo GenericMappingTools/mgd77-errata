@@ -1,0 +1,29 @@
+# Cruise 19180018 ID CD6892 MGD77 FILE VERSION: 19941231 N_RECS: 14878
+# Examined: Tue Sep 14 17:25:54 2010 by mtchandl
+# Arguments:  -R330.95/341.9/24.95/27.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Bathymetry contain numerous outliers.
+# Errata: Header
+Y-E-19180018-H11-05: Invalid Leftmost Longitude: (-029) [-030]
+Y-W-19180018-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-19180018-depth-01: RLS m: 1.00029 b: 0 rms: 17.9481 r: 0.99939 sig: 1 dec: 0
+N-E-19180018-twt-13: Encountered possible PDR wrap errors (6.0) [5.0]
+Y-W-19180018-depth-12: Integer precision
+# Errata: Data
+?	19180018	1992-05-09T19:22:00.00	180	0-0-KL	 GRAD: twt, depth excessive
+?	19180018	1992-05-10T02:18:00.00	388	0-0-KL	 GRAD: twt, depth excessive
+?	19180018	1992-05-10T02:28:00.00	393	0-0-KL	 GRAD: twt, depth excessive
+Y	19180018	1992-05-10T08:44:00.00	581	C-0-0	 NAV: excessive speed
+?	19180018	1992-05-12T08:22:00.00	2010	0-0-KL	 GRAD: twt, depth excessive
+?	19180018	1992-05-12T12:14:00.00	2126	0-0-KL	 GRAD: twt, depth excessive
+?	19180018	1992-05-13T05:46:00.00	2633	0-0-K	 GRAD: twt excessive
+?	19180018	1992-05-13T10:02:00.00	2761	0-0-K	 GRAD: twt excessive
+?	19180018	1992-05-14T09:36:00.00	3468	0-0-KL	 GRAD: twt, depth excessive
+?	19180018	1992-05-14T10:54:00.00	3507	0-0-KL	 GRAD: twt, depth excessive
+Y	19180018	1992-05-18T11:18:00.00	6175	C-0-0	 NAV: excessive speed
+Y	19180018	1992-05-22T23:28:00.00	9325	C-0-0	 NAV: excessive speed
+Y	19180018	1992-05-24T17:54:00.00	10342	C-0-0	 NAV: excessive speed
+Y	19180018	1992-05-28T17:56:00.00	13053	C-0-0	 NAV: excessive speed

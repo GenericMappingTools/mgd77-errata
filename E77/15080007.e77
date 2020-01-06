@@ -1,0 +1,36 @@
+# Cruise 15080007 ID DOLP02HO MGD77 FILE VERSION: 19800226 N_RECS: 9490
+# Examined: Sun Jun  1 14:19:56 2008 by mtchandl
+# Arguments:  -R211.2/271.1/-17.05/29.7 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15080007-H04-03: Invalid Survey Departure Day: (05) [06]
+Y-E-15080007-H04-06: Invalid Survey Arrival Day: (09) [10]
+Y-I-15080007-depth-01: RLS m: 0.996125 b: 0 rms: 122.084 r: 0.993163 sig: 1 dec: 1
+Y-E-15080007-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.976644 b: -24.6266 rms: 117.5 r: 0.877258 sig: 1 dec: 1). [Recompute]
+Y-W-15080007-twt-11: More recent bathymetry correction table available
+Y-W-15080007-mtf1-12: Integer multiple of 5 precision
+Y-W-15080007-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080007	1958-05-24T00:30:00.00	3506	0-0-KL	 GRAD: twt, depth excessive
+?	15080007	1958-05-29T15:06:00.00	5476	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080007	1958-05-29T15:12:00.00	5478	0-Q-0	 VAL: mag invalid
+?	15080007	1958-05-29T15:18:00.00	5480	0-Q-0	 VAL: mag invalid
+?	15080007	1958-05-29T15:24:00.00	5482	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080007	1958-05-29T16:06:00.00	5496	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080007	1958-05-29T16:12:00.00	5498	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080007	1958-05-29T16:18:00.00	5500	0-Q-0	 VAL: mag invalid
+?	15080007	1958-05-29T16:24:00.00	5502	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080007	1958-05-29T16:30:00.00	5504	0-Q-0	 VAL: mag invalid
+?	15080007	1958-05-29T16:36:00.00	5506	0-Q-0	 VAL: mag invalid
+?	15080007	1958-05-30T14:48:00.00	5869	0-0-Q	 GRAD: mag excessive
+?	15080007	1958-05-30T17:36:00.00	5925	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080007	1958-05-30T17:42:00.00	5927	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15080007	1958-06-08T21:36:00.00	9187	0-Q-0	 VAL: mag invalid
+?	15080007	1958-06-08T21:42:00.00	9188	0-Q-0	 VAL: mag invalid
+?	15080007	1958-06-08T21:48:00.00	9189	0-Q-0	 VAL: mag invalid
+?	15080007	1958-06-08T21:54:00.00	9190	0-Q-0	 VAL: mag invalid
+?	15080007	1958-06-08T22:00:00.00	9191	0-0-OQ	 GRAD: mtf1, mag excessive

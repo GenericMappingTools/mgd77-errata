@@ -1,0 +1,24 @@
+# Cruise 01030183 ID V3202 MGD77 FILE VERSION: 19800908 N_RECS: 4142
+# Examined: Fri Mar 19 01:17:19 2010 by mtchandl
+# Arguments:  -R286.45/334.1/37.05/41.4 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01030183-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-01030183-depth-01: RLS m: 0.999608 b: 0 rms: 10.3451 r: 0.999984 sig: 1 dec: 0
+N-E-01030183-depth-02: Regression slope 0.999608 different from 1. Recommended: [1]
+Y-I-01030183-faa-01: RLS m: 0.979272 b: 0.562163 rms: 3.11763 r: 0.992198 sig: 1 dec: 0
+N-E-01030183-faa-02: Regression slope 0.979272 different from 1. Recommended: [1]
+Y-W-01030183-faa-03: Regression offset 0.562163 different from 0.
+Y-W-01030183-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	01030183	1974-11-06T07:24:00.00	385	D-0-0	 NAV: on land
+Y	01030183	1974-11-06T07:28:00.00	386	D-0-0	 NAV: on land
+Y	01030183	1974-11-06T07:30:00.00	387	D-0-0	 NAV: on land
+Y	01030183	1974-11-06T07:36:00.00	388	D-0-0	 NAV: on land
+Y	01030183	1974-11-12T05:06:00.00	2326	B-0-0	 NAV: non-increasing time
+Y	01030183	1974-11-14T05:00:00.00	2983	B-0-0	 NAV: non-increasing time
+Y	01030183	1974-11-16T03:36:00.00	3616	B-0-0	 NAV: non-increasing time

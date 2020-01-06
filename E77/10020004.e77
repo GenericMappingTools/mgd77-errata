@@ -1,0 +1,25 @@
+# Cruise 10020004 ID IG1501 MGD77 FILE VERSION: 19900913 N_RECS: 4612
+# Examined: Mon Aug 16 17:20:04 2010 by mtchandl
+# Arguments:  -R265.4/282.25/23.3/33.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+N-E-10020004-H04-06: Invalid Survey Arrival Day: (26) [25]
+Y-E-10020004-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020004-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-I-10020004-depth-01: RLS m: 1 b: 0 rms: 3.81549 r: 0.99999 sig: 1 dec: 0
+Y-E-10020004-mag-07: Anomaly differs from mtf1-IGRF (m: 0.94284 b: -383.643 rms: 391.189 r: 0.962021 sig: 1 dec: 1). [Recompute]
+Y-W-10020004-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020004-depth-12: Integer precision
+Y-W-10020004-mtf1-12: Integer precision
+Y-W-10020004-mag-12: Integer precision
+# Errata: Data
+?	10020004	1975-05-18T09:20:00.00	2467	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020004	1975-05-18T17:10:00.00	2562	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020004	1975-05-18T17:30:00.00	2566	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020004	1975-05-20T16:50:00.00	3140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020004	1975-05-24T13:45:00.00	4219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020004	1975-05-24T13:50:00.00	4220	0-0-O	 GRAD: mtf1 excessive

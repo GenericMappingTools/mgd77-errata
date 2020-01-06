@@ -1,0 +1,18 @@
+# Cruise 35340009 ID 26869H MGD77 FILE VERSION: 19880322 N_RECS: 36724
+# Examined: Wed Jul 27 19:28:17 2011 by mtchandl
+# Arguments:  -R20/35.5/35/40 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged an excessive bathymetry offset.
+# Errata: Header
+Y-I-35340009-depth-01: RLS m: 1.00388 b: 0 rms: 27.2234 r: 0.999716 sig: 1 dec: 0
+N-E-35340009-depth-02: Regression slope 1.00388 different from 1. Recommended: [1]
+Y-E-35340009-depth-08: Extended offset from grid [8528-8579]
+Y-W-35340009-depth-12: Integer precision
+# Errata: Data
+?	35340009	20227.8	8237	0-0-L	 GRAD: depth excessive
+?	35340009	20356	8481	0-0-L	 GRAD: depth excessive
+?	35340009	67002.6	33136	0-0-L	 GRAD: depth excessive
+?	35340009	67003.2	33138	0-0-L	 GRAD: depth excessive

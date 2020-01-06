@@ -1,0 +1,16 @@
+# Cruise 83030005 ID SO126 MGD77 FILE VERSION: 20010426 N_RECS: 34020
+# Examined: Wed Aug  3 07:09:10 2011 by mtchandl
+# Arguments:  -R87.1/101.25/2.7/22.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend review of bathymetry by source institution.
+# Errata: Header
+N-E-83030005-H04-03: Invalid Survey Departure Day: (18) [21]
+N-E-83030005-H04-06: Invalid Survey Arrival Day: (16) [15]
+Y-I-83030005-depth-01: RLS m: 1.00096 b: 0 rms: 19.0532 r: 0.999904 sig: 1 dec: 0
+N-E-83030005-depth-02: Regression slope 1.00096 different from 1. Recommended: [1]
+Y-W-83030005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	83030005	1997-11-27T22:19:00.00	9439	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,19 @@
+# Cruise 15050074 ID DSDP75GC MGD77 FILE VERSION: 19830819 N_RECS: 10142
+# Examined: Fri May 30 10:17:51 2008 by mtchandl
+# Arguments:  -R-73.35/12.9/-21.7/34.35 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15050074-H04-03: Invalid Survey Departure Day: (27) [28]
+Y-I-15050074-depth-01: RLS m: 0.996125 b: 0 rms: 125.469 r: 0.996124 sig: 1 dec: 1
+Y-E-15050074-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.01767 b: -205.114 rms: 288.555 r: 0.647111 sig: 1 dec: 1). [Recompute]
+Y-W-15050074-mtf1-12: Integer precision
+Y-W-15050074-mag-12: Integer precision
+# Errata: Data
+?	15050074	1980-07-29T03:50:00.00	292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050074	1980-08-19T20:00:00.00	687	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050074	1980-08-19T21:10:00.00	701	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15050074	1980-09-15T09:15:00.00	8334	0-0-K	 GRAD: twt excessive

@@ -1,0 +1,16 @@
+# Cruise 35140001 ID 02580 MGD77 FILE VERSION: 19871208 N_RECS: 999
+# Examined: Fri Nov 27 16:04:14 2009 by mtchandl
+# Arguments:  -R188.25/190.05/-14.95/-13.6 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Depths range from 3 to 65, units unknown, recommend disregarding depth until fixed by source institution.
+# Errata: Header
+Y-I-35140001-depth-01: RLS m: 0.0154963 b: 0 rms: 1450.66 r: 0.877285 sig: 1 dec: 0
+N-E-35140001-depth-02: Regression slope 0.0154963 different from 1. Recommended: [100]
+Y-E-35140001-depth-10: Invalid data records: [1-999]
+N-E-35140001-depth-08: Extended offset from grid [1-369]
+N-E-35140001-depth-08: Extended offset from grid [380-999]
+Y-W-35140001-depth-12: Integer precision
+# Errata: Data

@@ -1,0 +1,32 @@
+# Cruise 01030204 ID V3308 MGD77 FILE VERSION: 19800908 N_RECS: 10018
+# Examined: Fri Jul 10 13:36:57 2009 by mtchandl
+# Arguments:  -R78.5/112.85/-22.95/7.75 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030204-H13-10: Survey year (1976) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030204-nav-00: Flagged 0.10 % of records with excessive speed or invalid navigation
+Y-I-01030204-depth-01: RLS m: 1 b: 0 rms: 5.4386 r: 0.999998 sig: 1 dec: 0
+Y-I-01030204-faa-01: RLS m: 0.940318 b: -2.93687 rms: 12.3638 r: 0.983393 sig: 1 dec: 1
+N-E-01030204-faa-02: Regression slope 0.940318 different from 1. Recommended: [1]
+Y-W-01030204-faa-03: Regression offset -2.93687 different from 0.
+Y-E-01030204-mag-07: Anomaly differs from mtf1-IGRF (m: 0.967565 b: -62.6625 rms: 66.4989 r: 0.984305 sig: 1 dec: 0). [Recompute]
+N-E-01030204-faa-08: Extended offset from grid [1-1669]
+N-E-01030204-faa-08: Extended offset from grid [8299-8930]
+N-E-01030204-depth-08: Extended offset from grid [2-10018]
+Y-W-01030204-mtf1-12: Integer precision
+Y-W-01030204-mag-12: Integer precision
+# Errata: Data
+Y	01030204	1976-06-17T10:06:00.00	492	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:12:00.00	493	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:18:00.00	494	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:20:00.00	495	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:24:00.00	496	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:30:00.00	497	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:36:00.00	498	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:42:00.00	499	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:48:00.00	500	C-0-0	 NAV: excessive speed
+Y	01030204	1976-06-17T10:54:00.00	501	C-0-0	 NAV: excessive speed

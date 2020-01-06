@@ -1,0 +1,45 @@
+# Cruise 15010001 ID AMPH01AR MGD77 FILE VERSION: 19800226 N_RECS: 11129
+# Examined: Mon May 12 16:53:33 2008 by mtchandl
+# Arguments:  -R210.5/255.4/-18.85/30.1 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15010001-H04-03: Invalid Survey Departure Day: (03) [04]
+Y-W-15010001-nav-00: Flagged 0.22 % of records with excessive speed or invalid navigation
+Y-I-15010001-depth-01: RLS m: 1.00388 b: 0 rms: 184.956 r: 0.981688 significant: 1 decimation: 1
+Y-E-15010001-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.992325 b: -67.2121 rms: 97.9353 r: 0.911272 sig: 1 dec: 1). [Recompute]
+Y-W-15010001-mtf1-12: Integer multiple of 5 precision
+Y-W-15010001-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15010001	1963-12-19T06:15:00.00	5365	0-0-K	 GRAD: twt excessive
+Y	15010001	1963-12-20T06:57:00.00	5693	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:03:00.00	8400	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:06:00.00	8401	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:09:00.00	8402	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:12:00.00	8403	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:15:00.00	8404	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:18:00.00	8405	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:21:00.00	8406	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:24:00.00	8407	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:27:00.00	8408	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:30:00.00	8409	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:33:00.00	8410	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:36:00.00	8411	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:39:00.00	8412	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:42:00.00	8413	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:45:00.00	8414	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:48:00.00	8415	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:51:00.00	8416	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:54:00.00	8417	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T07:57:00.00	8418	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T08:00:00.00	8419	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T08:03:00.00	8420	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T08:06:00.00	8421	C-0-0	 NAV: excessive speed
+Y	15010001	1963-12-29T08:09:00.00	8422	C-0-0	 NAV: excessive speed
+?	15010001	1964-01-03T23:24:00.00	10228	0-0-K	 GRAD: twt excessive
+?	15010001	1964-01-04T10:06:00.00	10422	0-0-K	 GRAD: twt excessive
+?	15010001	1964-01-04T10:12:00.00	10424	0-0-K	 GRAD: twt excessive
+?	15010001	1964-01-04T10:18:00.00	10426	0-0-K	 GRAD: twt excessive

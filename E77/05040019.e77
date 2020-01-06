@@ -1,0 +1,17 @@
+# Cruise 05040019 ID BP7902 MGD77 FILE VERSION: 20080729 N_RECS: 1077
+# Examined: Fri Apr 30 13:31:50 2010 by mtchandl
+# Arguments:  -R175.65/178.75/-38.8/-36.5 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-05040019-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05040019-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05040019-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05040019-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-I-05040019-faa-01: RLS m: 1.01172 b: -0.25655 rms: 3.91406 r: 0.996881 sig: 1 dec: 0
+N-E-05040019-faa-02: Regression slope 1.01172 different from 1. Recommended: [1]
+Y-W-05040019-faa-03: Regression offset -0.25655 different from 0.
+# Errata: Data

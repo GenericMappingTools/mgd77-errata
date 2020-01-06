@@ -1,0 +1,72 @@
+# Cruise 01030389 ID V1609 MGD77 FILE VERSION: 19951204 N_RECS: 17868
+# Examined: Fri Mar 19 01:39:42 2010 by mtchandl
+# Arguments:  -R174.3/293.45/-62/-41.6 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01030389-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01030389-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01030389-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01030389-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01030389-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01030389-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01030389-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01030389-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01030389-nav-00: Flagged 0.17 % of records with bad navigation
+Y-I-01030389-depth-01: RLS m: 0.999272 b: 0 rms: 54.2258 r: 0.998722 sig: 1 dec: 0
+Y-W-01030389-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01030389	1960-04-18T23:12:00.00	3670	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-19T00:33:00.00	3751	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-19T18:26:00.00	4557	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-20T12:56:00.00	5665	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-20T19:01:00.00	6030	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-21T21:58:00.00	7312	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-23T05:01:00.00	9173	0-0-KL	 GRAD: twt, depth excessive
+?	01030389	1960-04-23T05:02:00.00	9174	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-23T15:07:00.00	9391	0-0-KL	 GRAD: twt, depth excessive
+?	01030389	1960-04-23T20:03:00.00	9683	0-0-KL	 GRAD: twt, depth excessive
+?	01030389	1960-04-24T00:05:00.00	9914	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-24T03:16:00.00	10105	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-24T04:28:00.00	10177	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-24T07:33:00.00	10359	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-25T13:58:00.00	11788	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-25T13:59:00.00	11789	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-25T18:23:00.00	12053	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-25T23:25:00.00	12343	0-0-K	 GRAD: twt excessive
+?	01030389	1960-04-26T03:16:00.00	12560	0-0-K	 GRAD: twt excessive
+Y	01030389	1960-05-06T04:00:00.00	15957	B-0-0	 NAV: non-increasing time
+?	01030389	1960-05-12T08:36:00.00	17837	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:40:00.00	17838	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:42:00.00	17839	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:45:00.00	17840	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:50:00.00	17841	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:51:00.00	17842	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T08:55:00.00	17843	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:00:00.00	17844	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:05:00.00	17845	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:07:00.00	17846	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:10:00.00	17847	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:11:00.00	17848	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:15:00.00	17849	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:20:00.00	17850	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:22:00.00	17851	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:23:00.00	17852	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:25:00.00	17853	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:29:00.00	17854	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:30:00.00	17855	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:31:00.00	17856	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:33:00.00	17857	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:35:00.00	17858	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:37:00.00	17859	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:38:00.00	17860	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:39:00.00	17861	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:40:00.00	17862	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:44:00.00	17863	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:45:00.00	17864	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:46:00.00	17865	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T09:49:00.00	17866	D-0-0	 NAV: on land
+Y	01030389	1960-05-12T10:58:00.00	17867	D-0-0	 NAV: on land

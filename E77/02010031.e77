@@ -1,0 +1,37 @@
+# Cruise 02010031 ID CH075L02 MGD77 FILE VERSION: 19820805 N_RECS: 8010
+# Examined: Fri Mar 26 20:38:50 2010 by mtchandl
+# Arguments:  -R300.25/317.2/11.95/14.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF.
+# Errata: Header
+Y-E-02010031-H11-03: Invalid Bottommost Latitude: (+12) [+11]
+Y-I-02010031-depth-01: RLS m: 0.997381 b: 0 rms: 64.9463 r: 0.997687 sig: 1 dec: 0
+N-E-02010031-depth-02: Regression slope 0.997381 different from 1. Recommended: [1]
+Y-E-02010031-mag-07: Anomaly differs from mtf1-IGRF (m: 0.880046 b: -97.4469 rms: 113.434 r: 0.875829 sig: 1 dec: 1). [Recompute]
+Y-W-02010031-mtf1-12: Integer precision
+Y-W-02010031-mag-12: Integer precision
+# Errata: Data
+?	02010031	1967-11-13T23:54:00.00	1997	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-13T23:59:00.00	2002	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-14T01:18:00.00	2078	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-14T01:37:00.00	2095	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-14T01:38:00.00	2096	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-14T01:45:00.00	2102	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-14T12:01:00.00	2639	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-14T17:22:00.00	2900	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-15T03:07:00.00	3442	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-15T06:26:00.00	3638	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-15T06:58:00.00	3670	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-15T13:04:00.00	3977	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-15T16:48:00.00	4150	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-18T02:35:00.00	4995	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-20T14:30:00.00	5656	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-23T04:55:00.00	6157	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-23T17:30:00.00	6261	0-0-KL	 GRAD: twt, depth excessive
+?	02010031	1967-11-23T17:35:00.00	6262	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-23T17:40:00.00	6263	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-23T17:45:00.00	6264	0-0-K	 GRAD: twt excessive
+?	02010031	1967-11-23T22:40:00.00	6296	0-0-K	 GRAD: twt excessive

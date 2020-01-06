@@ -1,0 +1,35 @@
+# Cruise 24050065 ID GA-0187 MGD77 FILE VERSION: 20080522 N_RECS: 4780
+# Examined: Mon Feb 14 21:56:29 2011 by mtchandl
+# Arguments:  -R110.05/114.05/-38.15/-32.4 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-24050065-H04-03: Invalid Survey Departure Day: (10) [11]
+N-E-24050065-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24050065-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24050065-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24050065-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-I-24050065-depth-01: RLS m: 0.996567 b: 0 rms: 71.9782 r: 0.998291 sig: 1 dec: 0
+N-E-24050065-depth-02: Regression slope 0.996567 different from 1. Recommended: [1]
+Y-W-24050065-depth-12: Integer precision
+Y-W-24050065-mtf1-12: Integer precision
+# Errata: Data
+?	24050065	1997-04-11T11:21:00.00	396	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-11T12:10:00.00	445	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-11T12:11:00.00	446	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-11T12:16:00.00	451	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-11T14:50:00.00	605	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-11T14:51:00.00	606	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-11T16:08:00.00	683	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-11T20:54:00.00	969	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-12T04:14:00.00	1409	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T05:10:00.00	1465	0-0-KL	 GRAD: twt, depth excessive
+?	24050065	1997-04-12T09:02:00.00	1697	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T09:42:00.00	1737	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T18:23:00.00	2258	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T18:24:00.00	2259	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T18:25:00.00	2260	0-0-K	 GRAD: twt excessive
+?	24050065	1997-04-12T18:26:00.00	2261	0-0-K	 GRAD: twt excessive

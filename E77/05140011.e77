@@ -1,0 +1,75 @@
+# Cruise 05140011 ID HM9105 MGD77 FILE VERSION: 20080804 N_RECS: 21538
+# Examined: Fri May 21 12:54:09 2010 by mtchandl
+# Arguments:  -R176/192.75/-42.85/-35.8 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05140011-H04-06: Invalid Survey Arrival Day: (10) [09]
+Y-W-05140011-H13-10: Survey year (1991) outside magnetic reference field IGRF-10 time range (1995-2000)
+N-E-05140011-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-05140011-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-05140011-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05140011-H16-06: Ten Degree Identifier 5316 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 5318 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 5416 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 5417 not marked in header but block was crossed
+Y-W-05140011-H16-06: Ten Degree Identifier 3417 not marked in header but block was crossed
+Y-I-05140011-depth-01: RLS m: 0.999651 b: 0 rms: 13.6378 r: 0.99994 sig: 1 dec: 0
+Y-I-05140011-faa-01: RLS m: 1.00654 b: 7.01004 rms: 8.55186 r: 0.995546 sig: 1 dec: 1
+Y-W-05140011-faa-03: Regression offset 7.01004 different from 0.
+Y-E-05140011-mag-07: Anomaly differs from mtf1-IGRF (m: 0.990035 b: -23.1979 rms: 29.5697 r: 0.998612 sig: 1 dec: 1). [Recompute]
+Y-W-05140011-depth-12: Integer precision
+Y-W-05140011-mtf1-12: Integer precision
+# Errata: Data
+?	05140011	1991-10-28T22:57:00.00	7725	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T03:39:00.00	8018	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T03:40:00.00	8019	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T03:41:00.00	8020	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T03:42:00.00	8021	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T03:45:00.00	8025	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-29T05:16:00.00	8120	0-0-OQ	 GRAD: mtf1, mag excessive
+?	05140011	1991-10-30T11:36:00.00	9720	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:37:00.00	9721	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:38:00.00	9722	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:39:00.00	9723	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:40:00.00	9724	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:41:00.00	9725	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:42:00.00	9726	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:43:00.00	9727	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:44:00.00	9728	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:45:00.00	9729	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:46:00.00	9730	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:47:00.00	9731	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:48:00.00	9732	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:49:00.00	9733	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:50:00.00	9734	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:51:00.00	9735	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:52:00.00	9736	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:53:00.00	9737	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:54:00.00	9738	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:55:00.00	9739	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:56:00.00	9741	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:57:00.00	9742	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:58:00.00	9743	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T11:59:00.00	9744	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:00:00.00	9745	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:01:00.00	9746	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:02:00.00	9747	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:03:00.00	9748	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:04:00.00	9749	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:05:00.00	9750	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:06:00.00	9751	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:07:00.00	9752	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:08:00.00	9753	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:09:00.00	9754	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:10:00.00	9755	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:12:00.00	9756	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:13:00.00	9757	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:14:00.00	9758	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:15:00.00	9759	0-Q-0	 VAL: mag invalid
+?	05140011	1991-10-30T12:16:00.00	9760	0-Q-0	 VAL: mag invalid

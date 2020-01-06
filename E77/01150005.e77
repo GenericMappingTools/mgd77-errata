@@ -1,0 +1,18 @@
+# Cruise 01150005 ID E3D78 MGD77 FILE VERSION: 19800718 N_RECS: 2196
+# Examined: Fri Mar 19 01:41:06 2010 by mtchandl
+# Arguments:  -R1.85/4.95/38.4/41.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No correlation between ship and gridded data, recommend flagging all bathymetry records.
+# Errata: Header
+Y-I-01150005-depth-01: RLS m: 0.84178 b: 0 rms: 707.825 r: 0.664221 sig: 1 dec: 0
+N-E-01150005-depth-02: Regression slope 0.84178 different from 1. Recommended: [1]
+N-E-01150005-depth-08: Extended offset from grid [234-339]
+N-E-01150005-depth-08: Extended offset from grid [1834-1915]
+Y-E-01150005-depth-10: Invalid data records: [1-2196]
+Y-W-01150005-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	01150005	1978-08-12T09:40:00.00	1001	0-0-KL	 GRAD: twt, depth excessive
+?	01150005	1978-08-17T22:15:00.00	2108	0-0-K	 GRAD: twt excessive

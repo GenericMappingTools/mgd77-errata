@@ -1,0 +1,31 @@
+# Cruise 15020087 ID PROT01MV MGD77 FILE VERSION: 19851028 N_RECS: 10797
+# Examined: Sat May 17 09:59:07 2008 by mtchandl
+# Arguments:  -R243.1/255.9/-27.15/31.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-15020087-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-I-15020087-depth-01: RLS m: 1.00388 b: 0 rms: 115.314 r: 0.976367 sig: 1 dec: 1
+Y-E-15020087-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.10845 b: 20.1887 rms: 124.066 r: 0.871312 sig: 1 dec: 1). [Recompute]
+Y-W-15020087-twt-11: More recent bathymetry correction table available
+Y-W-15020087-mtf1-12: Integer precision
+Y-W-15020087-mag-12: Integer precision
+# Errata: Data
+?	15020087	1983-09-12T14:45:00.00	1332	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T14:50:00.00	1333	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T14:55:00.00	1334	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:00:00.00	1335	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:05:00.00	1336	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:10:00.00	1337	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:15:00.00	1338	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:20:00.00	1339	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:25:00.00	1340	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:30:00.00	1341	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:35:00.00	1342	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:40:00.00	1343	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-12T15:45:00.00	1344	0-Q-0	 VAL: mag invalid
+?	15020087	1983-09-23T04:05:00.00	4356	0-0-Q	 GRAD: mag excessive
+?	15020087	1983-09-23T04:10:00.00	4357	0-Q-0	 VAL: mag invalid

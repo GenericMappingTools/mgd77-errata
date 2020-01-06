@@ -1,0 +1,32 @@
+# Cruise 01210054 ID EW9405 MGD77 FILE VERSION: 20040303 N_RECS: 30028
+# Examined: Fri Mar 26 20:05:41 2010 by mtchandl
+# Arguments:  -R255.25/258.55/9.6/11.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-01210054-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-01210054-depth-01: RLS m: 1.00344 b: 0 rms: 68.8582 r: 0.936958 sig: 1 dec: 0
+Y-W-01210054-depth-12: Integer precision
+# Errata: Data
+?	01210054	1994-04-26T21:48:58.02	7439	0-0-L	 GRAD: depth excessive
+Y	01210054	1994-04-29T08:38:57.00	10966	C-0-0	 NAV: excessive speed
+?	01210054	1994-04-29T11:02:58.02	11110	0-0-L	 GRAD: depth excessive
+?	01210054	1994-05-07T02:40:03.00	20487	0-0-L	 GRAD: depth excessive
+?	01210054	1994-05-10T01:50:55.98	24749	0-0-L	 GRAD: depth excessive
+?	01210054	1994-05-10T02:15:55.98	24774	0-0-L	 GRAD: depth excessive
+Y	01210054	1994-05-10T05:03:01.98	24941	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T05:03:04.98	29016	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:27:19.02	29996	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:28:01.02	29997	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:29:04.02	29998	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:29:58.02	29999	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:31:03.00	30000	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:31:55.98	30001	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:32:58.98	30002	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:34:01.98	30003	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:35:04.98	30004	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:35:58.02	30005	C-0-0	 NAV: excessive speed
+Y	01210054	1994-05-14T23:37:01.02	30006	C-0-0	 NAV: excessive speed

@@ -1,0 +1,37 @@
+# Cruise 23060111 ID ODP205JR MGD77 FILE VERSION: 20041102 N_RECS: 29973
+# Examined: Thu Feb  3 14:03:23 2011 by mtchandl
+# Arguments:  -R-125.4/-79.85/7/46.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060111-H04-03: Invalid Survey Departure Day: (06) [08]
+Y-E-23060111-H04-04: Invalid Survey Arrival Year: (2003) [2002]
+Y-E-23060111-H04-06: Invalid Survey Arrival Day: (06) [05]
+Y-W-23060111-H13-10: Survey year (2002) outside magnetic reference field Unused time range (9999-9999)
+Y-W-23060111-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-23060111-depth-01: RLS m: 0.996801 b: 0 rms: 28.2544 r: 0.999585 sig: 1 dec: 0
+N-E-23060111-depth-02: Regression slope 0.996801 different from 1. Recommended: [1]
+Y-W-23060111-twt-11: More recent bathymetry correction table available
+Y-W-23060111-depth-12: Integer precision
+Y-W-23060111-mtf1-12: Integer precision
+# Errata: Data
+Y	23060111	2002-09-11T04:29:14.94	4060	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:30:14.94	4061	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:31:14.94	4062	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:32:14.94	4063	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:33:14.94	4064	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:34:15.18	4065	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:35:14.94	4066	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:36:14.94	4067	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:37:14.94	4068	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:38:14.94	4069	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:39:15.48	4070	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:40:15.48	4071	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:41:15.48	4072	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-11T04:42:15.48	4073	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-13T07:11:32.28	7101	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-19T21:28:08.94	15973	C-0-0	 NAV: excessive speed
+Y	23060111	2002-09-19T21:29:08.88	15974	C-0-0	 NAV: excessive speed

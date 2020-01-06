@@ -1,0 +1,47 @@
+# Cruise 08010063 ID 80012103 MGD77 FILE VERSION: 19821020 N_RECS: 43390
+# Examined: Mon Jul 26 16:41:17 2010 by mtchandl
+# Arguments:  -R202.1/260.45/10.9/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-W-08010063-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-08010063-depth-01: RLS m: 0.999651 b: 0 rms: 23.5064 r: 0.999641 sig: 1 dec: 0
+Y-I-08010063-faa-01: RLS m: 0.958704 b: 16.3989 rms: 19.1972 r: 0.990063 sig: 1 dec: 1
+N-E-08010063-faa-02: Regression slope 0.958704 different from 1. Recommended: [1]
+Y-W-08010063-faa-03: Regression offset 16.3989 different from 0.
+Y-E-08010063-mag-07: Anomaly differs from mtf1-IGRF (m: 0.995366 b: -23.2323 rms: 54.5488 r: 0.986956 sig: 1 dec: 1). [Recompute]
+Y-W-08010063-twt-11: More recent bathymetry correction table available
+Y-W-08010063-mtf1-12: Integer precision
+Y-W-08010063-mag-12: Integer precision
+# Errata: Data
+?	08010063	1980-02-28T00:51:32.04	14477	0-0-KL	 GRAD: twt, depth excessive
+?	08010063	1980-03-04T18:30:00.00	29556	0-0-W	 GRAD: faa excessive
+?	08010063	1980-03-04T18:35:00.00	29562	0-0-W	 GRAD: faa excessive
+?	08010063	1980-03-10T15:17:00.00	43027	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T15:18:00.00	43029	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T15:19:00.00	43030	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T15:20:00.00	43031	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T15:21:00.00	43033	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T16:10:00.00	43122	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T16:31:00.00	43149	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T16:32:00.00	43150	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T16:33:00.00	43151	0-0-OQ	 GRAD: mtf1, mag excessive
+?	08010063	1980-03-10T19:23:00.00	43363	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:24:00.00	43364	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:25:00.00	43365	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:26:00.00	43366	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:27:00.00	43367	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:28:00.00	43368	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:29:00.00	43369	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:30:00.00	43370	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:31:00.00	43371	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:32:00.00	43372	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:33:00.00	43373	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:34:00.00	43374	D-0-0	 NAV: on land
+Y	08010063	1980-03-10T19:35:00.00	43375	D-0-0	 NAV: on land
+?	08010063	1980-03-10T19:36:00.00	43376	D-0-0	 NAV: on land
+?	08010063	1980-03-10T19:37:00.00	43377	D-0-0	 NAV: on land
+?	08010063	1980-03-10T19:38:00.00	43378	D-0-0	 NAV: on land

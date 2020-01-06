@@ -1,0 +1,26 @@
+# Cruise 83030001 ID S3585SP MGD77 FILE VERSION: 19881204 N_RECS: 10853
+# Examined: Wed Aug  3 07:08:18 2011 by mtchandl
+# Arguments:  -R176.85/177.85/-16.65/-13.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-83030001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.999354 b: -39.4139 rms: 40.3764 r: 0.999665 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	83030001	1985-01-19T23:56:00.00	5861	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-19T23:57:00.00	5862	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-19T23:58:00.00	5863	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-19T23:59:00.00	5864	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-20T00:00:00.00	5865	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:21:00.00	8992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:22:00.00	8993	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:23:00.00	8994	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:24:00.00	8995	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:25:00.00	8996	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:26:00.00	8997	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:27:00.00	8998	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:28:00.00	8999	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:29:00.00	9000	0-0-OQ	 GRAD: mtf1, mag excessive
+?	83030001	1985-01-23T23:30:00.00	9001	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,16 @@
+# Cruise 07010006 ID YAQ66JUN MGD77 FILE VERSION: 19840131 N_RECS: 633
+# Examined: Fri Jul 16 17:29:38 2010 by mtchandl
+# Arguments:  -R180.6/184.75/48.65/53.1 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-07010006-depth-01: RLS m: 1.0007 b: 0 rms: 37.8701 r: 0.999751 sig: 1 dec: 0
+Y-I-07010006-faa-01: RLS m: 1.00127 b: 2.36053 rms: 6.82506 r: 0.997272 sig: 1 dec: 0
+Y-W-07010006-faa-03: Regression offset 2.36053 different from 0.
+Y-W-07010006-twt-11: More recent bathymetry correction table available
+Y-W-07010006-faa-12: Integer precision
+# Errata: Data
+?	07010006	1966-06-28T19:27:00.00	458	0-0-K	 GRAD: twt excessive

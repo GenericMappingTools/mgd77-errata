@@ -1,0 +1,94 @@
+# Cruise 02030060 ID KN162L07 MGD77 FILE VERSION: 20040308 N_RECS: 36260
+# Examined: Fri Apr  2 16:04:01 2010 by mtchandl
+# Arguments:  -R8.5/23.4/-54.45/-34.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-02030060-H11-03: Invalid Bottommost Latitude: (-54) [-55]
+N-E-02030060-H11-05: Invalid Leftmost Longitude: ( 009) [+008]
+Y-W-02030060-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-02030060-depth-01: RLS m: 1.0035 b: 0 rms: 177.948 r: 0.9835 sig: 1 dec: 0
+N-E-02030060-depth-02: Regression slope 1.0035 different from 1. Recommended: [1]
+Y-W-02030060-depth-12: Integer precision
+# Errata: Data
+?	02030060	2000-12-11T07:51:00.00	1766	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T09:53:03.00	1872	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T09:54:04.02	1873	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T11:26:00.00	1951	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T11:27:51.00	1952	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T12:53:55.02	2029	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T12:55:06.00	2030	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T17:30:58.98	2282	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T18:09:58.02	2314	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-11T21:00:00.00	2469	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-11T23:59:55.02	2641	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-13T05:28:58.02	4368	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T05:35:58.02	4375	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T05:52:01.02	4390	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T05:53:04.02	4391	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T06:24:58.02	4422	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T07:34:58.98	4485	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T09:13:58.02	4574	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T09:15:06.00	4575	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T09:26:00.00	4586	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T09:26:52.98	4587	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T10:04:58.02	4621	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T10:24:06.00	4637	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T10:24:58.02	4638	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T11:53:58.02	4723	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T12:10:55.98	4739	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T13:39:01.98	4818	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T13:41:55.02	4821	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T18:10:06.00	5072	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-13T18:10:55.98	5073	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-13T23:59:58.98	5416	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-14T08:52:58.02	5944	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-14T09:38:01.98	5988	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-14T10:19:57.00	6025	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-14T23:59:55.98	6679	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-15T23:49:04.02	8105	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-16T00:00:00.00	8116	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-17T23:59:03.00	10946	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-18T00:00:01.02	10947	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-18T10:08:06.00	11555	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-19T15:36:55.02	13319	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-19T18:08:04.02	13468	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-19T18:08:55.02	13469	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-19T18:09:58.98	13470	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-20T23:59:58.02	15255	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-21T06:43:58.02	15658	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-21T23:59:58.98	16692	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-23T21:13:58.02	19402	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-23T22:53:58.98	19502	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-23T23:59:58.98	19568	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-25T00:00:01.02	21005	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-25T23:58:58.98	22443	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-26T08:25:04.02	22942	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T13:38:01.98	23247	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T13:39:10.02	23248	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T14:22:55.02	23286	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T14:51:54.00	23298	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T16:28:01.98	23364	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-26T20:28:55.98	23528	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-26T23:58:57.00	23732	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-26T23:59:55.02	23733	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-27T15:24:58.02	24649	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-27T23:13:58.02	25112	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-27T23:58:58.02	25157	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-28T08:03:58.98	25640	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-28T08:36:58.98	25673	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-28T09:42:00.00	25737	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-28T23:58:58.98	26585	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-28T23:59:55.98	26586	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-29T10:36:03.00	27214	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-29T10:36:55.98	27215	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-29T23:59:04.02	27969	C-0-0	 NAV: excessive speed
+Y	02030060	2000-12-30T00:00:00.00	27970	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-30T00:25:03.00	27995	0-0-L	 GRAD: depth excessive
+Y	02030060	2000-12-30T23:58:57.00	29397	C-0-0	 NAV: excessive speed
+?	02030060	2000-12-31T23:31:54.00	30802	0-0-L	 GRAD: depth excessive
+?	02030060	2000-12-31T23:38:55.02	30809	0-0-L	 GRAD: depth excessive
+?	02030060	2001-01-01T18:33:54.00	31835	0-0-L	 GRAD: depth excessive

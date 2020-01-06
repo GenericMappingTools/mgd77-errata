@@ -1,0 +1,57 @@
+# Cruise J1060002 ID HS99TIS2 MGD77 FILE VERSION: 20021031 N_RECS: 2818
+# Examined: Sun Aug  7 07:41:59 2011 by mtchandl
+# Arguments:  -R122.45/128.85/21.15/31.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Magnetic anomalies could be outdated, no total field data for anomaly recalculation.
+# Errata: Header
+N-E-J1060002-H04-03: Invalid Survey Departure Day: (19) [21]
+N-E-J1060002-H04-06: Invalid Survey Arrival Day: (14) [11]
+Y-E-J1060002-H15-01: Invalid Gravity Departure Base Station Value: (-10220) [ -10220]
+Y-E-J1060002-H15-03: Invalid Gravity Arrival Base Station Value: (-10255) [ -10255]
+Y-W-J1060002-nav-00: Flagged 1.28 % of records with bad navigation
+Y-I-J1060002-depth-01: RLS m: 1.00085 b: 0 rms: 40.03 r: 0.999688 sig: 1 dec: 0
+Y-I-J1060002-faa-01: RLS m: 0.998269 b: -5.3303 rms: 6.09848 r: 0.998393 sig: 1 dec: 0
+Y-W-J1060002-faa-03: Regression offset -5.3303 different from 0.
+Y-W-J1060002-depth-12: Integer precision
+Y-W-J1060002-mag-12: Integer precision
+Y-W-J1060002-faa-12: Integer precision
+# Errata: Data
+Y	J1060002	1999-04-27T20:00:00.00	902	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-04-27T20:10:00.00	903	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-04-27T20:20:00.00	904	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-04-27T20:30:00.00	905	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-04-27T20:40:00.00	906	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-04-27T20:50:00.00	907	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T12:20:00.00	2003	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T12:30:00.00	2004	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T12:40:00.00	2005	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T12:50:00.00	2006	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T13:00:00.00	2007	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T13:10:00.00	2008	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T13:20:00.00	2009	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T13:30:00.00	2010	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-05T13:40:00.00	2011	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T07:40:00.00	2271	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T07:50:00.00	2272	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T08:10:00.00	2273	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T08:20:00.00	2274	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T08:30:00.00	2275	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T08:40:00.00	2276	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T08:50:00.00	2277	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T09:00:00.00	2278	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T09:10:00.00	2279	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T09:20:00.00	2280	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-07T09:30:00.00	2281	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T22:50:00.00	2498	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T23:00:00.00	2499	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T23:10:00.00	2500	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T23:20:00.00	2501	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T23:30:00.00	2502	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-06T23:40:00.00	2503	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-09T14:20:00.00	2604	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-09T14:30:00.00	2605	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-09T14:40:00.00	2606	B-0-0	 NAV: non-increasing time
+Y	J1060002	1999-05-09T14:50:00.00	2607	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,66 @@
+# Cruise 03040056 ID POL7108 MGD77 FILE VERSION: 19800213 N_RECS: 2394
+# Examined: Fri Apr 16 13:42:48 2010 by mtchandl
+# Arguments:  -R230.35/231.9/48.25/49.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Recommend disregarding gravity data until sign error is fixed.
+# Errata: Header
+Y-W-03040056-H13-10: Survey year (1971) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-03040056-nav-00: Flagged 0.13 % of records with bad navigation
+Y-I-03040056-depth-01: RLS m: 1 b: 0 rms: 12.6875 r: 0.996503 sig: 1 dec: 0
+Y-I-03040056-faa-01: RLS m: 0.798543 b: -0.485613 rms: 4.67925 r: 0.908016 sig: 1 dec: 0
+N-E-03040056-faa-02: Regression slope 0.798543 different from 1. Recommended: [1]
+Y-W-03040056-faa-03: Regression offset -0.485613 different from 0.
+Y-E-03040056-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997117 b: 178.309 rms: 178.328 r: 0.99956 sig: 1 dec: 1). [Recompute]
+N-E-03040056-twt-13: Encountered possible PDR wrap errors (10.7) [10.0]
+Y-W-03040056-faa-09: all values less than or equal to zero
+Y-E-03040056-faa-10: Invalid data records: [1-2394]
+Y-W-03040056-mtf1-12: Integer precision
+Y-W-03040056-mag-12: Integer precision
+# Errata: Data
+?	03040056	1971-08-25T21:55:00.00	3	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-25T22:00:00.00	4	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-25T22:20:00.00	8	0-0-O	 GRAD: mtf1 excessive
+?	03040056	1971-08-25T22:25:00.00	9	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T01:00:00.00	40	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T01:10:00.00	42	0-0-Q	 GRAD: mag excessive
+?	03040056	1971-08-26T01:30:00.00	46	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T06:05:00.00	99	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T06:10:00.00	100	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T06:45:00.00	107	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T09:30:00.00	140	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T09:35:00.00	141	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T15:20:00.00	208	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T15:25:00.00	209	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T16:55:00.00	227	0-W-W	 VAL: faa invalid - GRAD: faa excessive
+?	03040056	1971-08-26T17:05:00.00	228	0-0-W	 GRAD: faa excessive
+?	03040056	1971-08-26T17:45:00.00	236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T21:25:00.00	281	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-26T21:30:00.00	282	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-08-31T16:25:00.00	1400	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-14T20:40:00.00	1487	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-14T20:55:00.00	1490	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-14T21:00:00.00	1491	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-15T01:30:00.00	1544	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-15T01:35:00.00	1545	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-15T01:40:00.00	1546	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-15T08:55:00.00	1634	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-16T01:25:00.00	1830	0-MQ-KLOQ	 VAL: bcc, mag invalid - GRAD: twt, depth, mtf1, mag excessive
+?	03040056	1971-09-16T01:30:00.00	1831	0-0-KLOQ	 GRAD: twt, depth, mtf1, mag excessive
+?	03040056	1971-09-16T05:15:00.00	1875	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-16T13:05:00.00	1943	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040056	1971-09-16T13:10:00.00	1944	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T06:25:00.00	2039	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T06:30:00.00	2040	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T06:35:00.00	2041	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T06:50:00.00	2044	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T06:55:00.00	2045	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T07:00:00.00	2046	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03040056	1971-09-17T21:10:00.00	2211	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040056	1971-09-18T03:00:00.00	2286	B-0-0	 NAV: non-increasing time
+Y	03040056	1971-09-18T03:05:00.00	2287	B-0-0	 NAV: non-increasing time
+Y	03040056	1971-09-18T03:10:00.00	2288	B-0-0	 NAV: non-increasing time
+?	03040056	1971-09-18T11:00:00.00	2380	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03040056	1971-09-18T11:05:00.00	2381	0-0-OQ	 GRAD: mtf1, mag excessive

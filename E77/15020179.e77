@@ -1,0 +1,36 @@
+# Cruise 15020179 ID RSCN01MV MGD77 FILE VERSION: 20011001 N_RECS: 4590
+# Examined: Mon May 19 04:15:12 2008 by mtchandl
+# Arguments:  -R242.25/242.8/32.6/33.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning: observed gravity not corrected for Eotvos effects and file contains no Eotvos column.
+# Recomputing faa without first accounting for Eotvos effects will introduce significant error.
+# Errata: Header
+Y-E-15020179-H15-01: Invalid Gravity Departure Base Station Value: (979535.) [9795350]
+Y-E-15020179-H15-03: Invalid Gravity Arrival Base Station Value: (979535.) [9795350]
+Y-I-15020179-depth-01: RLS m: 1 b: 0 rms: 73.8549 r: 0.944973 sig: 1 dec: 1
+Y-I-15020179-faa-01: RLS m: 0.897283 b: -3.71062 rms: 10.146 r: 0.733302 sig: 1 dec: 1
+N-E-15020179-faa-06: Anomaly differs from gobs - IGF80 (m: 0.0835257 b: -30.6834 rms: 41.7254 r: 0.291809 sig: 1 dec: 1). [Recompute]
+N-E-15020179-faa-16: Free-air anomalies may have been computed using IGF 1930 (m: 0.0962076 b: -27.7879 rms: 45.6082 r: 0.315824 sig: 1 dec: 1). [Adjust to IGF 1980]
+Y-W-15020179-twt-11: More recent bathymetry correction table available
+Y-W-15020179-depth-12: Integer precision
+# Errata: Data
+?	15020179	1997-10-13T21:40:00.00	1	D-0-0	 NAV: on land
+?	15020179	1997-10-13T21:41:00.00	2	D-0-0	 NAV: on land
+?	15020179	1997-10-13T21:42:00.00	3	D-0-0	 NAV: on land
+?	15020179	1997-10-14T02:51:00.00	312	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T03:37:00.00	358	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T03:38:00.00	359	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T04:27:00.00	408	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T05:18:00.00	459	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T09:09:00.00	654	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-14T13:21:00.00	906	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-16T21:31:00.00	4276	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-16T22:26:00.00	4331	0-0-U	 GRAD: gobs excessive
+?	15020179	1997-10-17T02:41:00.00	4586	D-0-0	 NAV: on land
+?	15020179	1997-10-17T02:42:00.00	4587	D-0-0	 NAV: on land
+?	15020179	1997-10-17T02:43:00.00	4588	D-0-0	 NAV: on land
+?	15020179	1997-10-17T02:44:00.00	4589	D-0-0	 NAV: on land
+?	15020179	1997-10-17T02:45:00.00	4590	D-0-0	 NAV: on land

@@ -1,0 +1,17 @@
+# Cruise 02350004 ID PDV87L01 MGD77 FILE VERSION: 19880928 N_RECS: 6713
+# Examined: Fri Apr  9 13:13:01 2010 by mtchandl
+# Arguments:  -R296.8/313.85/-64.7/-61.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-02350004-nav-00: Flagged 0.06 % of records with bad navigation
+Y-I-02350004-depth-01: RLS m: 0.998465 b: 0 rms: 16.849 r: 0.999919 sig: 1 dec: 0
+N-E-02350004-depth-02: Regression slope 0.998465 different from 1. Recommended: [1]
+# Errata: Data
+Y	02350004	1987-12-03T23:45:00.00	6305	B-0-0	 NAV: non-increasing time
+Y	02350004	1987-12-03T23:50:00.00	6306	B-0-0	 NAV: non-increasing time
+Y	02350004	1987-12-03T23:55:00.00	6307	B-0-0	 NAV: non-increasing time
+Y	02350004	1987-12-03T23:59:00.00	6308	B-0-0	 NAV: non-increasing time

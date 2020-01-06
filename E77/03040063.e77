@@ -1,0 +1,19 @@
+# Cruise 03040063 ID BOMEXOC MGD77 FILE VERSION: 19800213 N_RECS: 2605
+# Examined: Fri Apr 16 13:53:49 2010 by mtchandl
+# Arguments:  -R300.3/305.45/10.3/17.55 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-03040063-H12-01: Invalid Bathymetry Digitizing Rate: (584) [584]
+Y-E-03040063-H13-01: Invalid Magnetics Digitizing Rate: (517) [517]
+Y-W-03040063-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-03040063-depth-01: RLS m: 0.999602 b: 0 rms: 39.8492 r: 0.99957 sig: 1 dec: 0
+Y-E-03040063-mag-07: Anomaly differs from mtf1-IGRF (m: 0.675252 b: -16.2013 rms: 49.3706 r: 0.810632 sig: 1 dec: 1). [Recompute]
+Y-W-03040063-mtf1-12: Integer precision
+Y-W-03040063-mag-12: Integer precision
+# Errata: Data
+Y	03040063	1969-05-01T11:37:06.00	4	C-0-0	 NAV: excessive speed
+?	03040063	1969-06-20T12:45:30.00	2299	0-0-KL	 GRAD: twt, depth excessive

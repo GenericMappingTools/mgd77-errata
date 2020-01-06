@@ -1,0 +1,21 @@
+# Cruise 01030249 ID V3618 MGD77 FILE VERSION: 19850827 N_RECS: 9216
+# Examined: Fri Mar 19 01:32:55 2010 by mtchandl
+# Arguments:  -R39.35/46.05/-9.2/-0.05 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01030249-H13-06: Invalid Magnetics Reference Field Code: (80) [11]
+Y-E-01030249-H16-01: Invalid Number of Ten Degree Identifiers: ( 3) [2]
+Y-W-01030249-H16-06: Ten Degree Identifier 1004 marked in header but was not crossed
+Y-I-01030249-depth-01: RLS m: 1 b: 0 rms: 8.29482 r: 0.999976 sig: 1 dec: 0
+Y-I-01030249-faa-01: RLS m: 0.998123 b: -6.49774 rms: 7.06313 r: 0.991279 sig: 1 dec: 0
+Y-W-01030249-faa-03: Regression offset -6.49774 different from 0.
+Y-E-01030249-mag-07: Anomaly differs from mtf1-IGRF (m: 0.8602 b: -343.955 rms: 348.054 r: 0.904688 sig: 1 dec: 1). [Recompute]
+Y-W-01030249-mag-09: only found negative values
+Y-W-01030249-twt-11: More recent bathymetry correction table available
+Y-W-01030249-mtf1-12: Integer precision
+Y-W-01030249-mag-12: Integer precision
+# Errata: Data

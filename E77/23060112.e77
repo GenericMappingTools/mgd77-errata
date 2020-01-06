@@ -1,0 +1,17 @@
+# Cruise 23060112 ID ODP206JR MGD77 FILE VERSION: 20041102 N_RECS: 10955
+# Examined: Thu Feb  3 14:03:49 2011 by mtchandl
+# Arguments:  -R-91.95/-79.95/6.7/7.3 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-23060112-H04-03: Invalid Survey Departure Day: (06) [12]
+Y-E-23060112-H04-06: Invalid Survey Arrival Day: (05) [02]
+Y-W-23060112-H13-10: Survey year (2002-2003) outside magnetic reference field Unused time range (9999-9999)
+Y-I-23060112-depth-01: RLS m: 1 b: 0 rms: 9.24078 r: 0.999917 sig: 1 dec: 0
+Y-W-23060112-twt-11: More recent bathymetry correction table available
+Y-W-23060112-depth-12: Integer precision
+Y-W-23060112-mtf1-12: Integer precision
+# Errata: Data

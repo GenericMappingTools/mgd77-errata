@@ -1,0 +1,75 @@
+# Cruise 01030195 ID V3214 MGD77 FILE VERSION: 19800908 N_RECS: 7803
+# Examined: Fri Jul 10 13:24:51 2009 by mtchandl
+# Arguments:  -R139.9/178.4/-19/35.25 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-01030195-H13-10: Survey year (1975) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-01030195-nav-00: Flagged 0.27 % of records with excessive speed or invalid navigation
+Y-I-01030195-depth-01: RLS m: 1 b: 0 rms: 8.34445 r: 0.999994 sig: 1 dec: 0
+Y-I-01030195-faa-01: RLS m: 0.991311 b: -3.9837 rms: 11.6866 r: 0.995544 sig: 1 dec: 1
+Y-W-01030195-faa-03: Regression offset -3.9837 different from 0.
+Y-E-01030195-mag-07: Anomaly differs from mtf1-IGRF (m: 0.989111 b: -9.16047 rms: 48.7477 r: 0.983807 sig: 1 dec: 1). [Recompute]
+N-E-01030195-depth-08: Extended offset from grid [3-7803]
+Y-W-01030195-twt-11: More recent bathymetry correction table available
+Y-W-01030195-mtf1-12: Integer precision
+Y-W-01030195-mag-12: Integer precision
+# Errata: Data
+Y	01030195	1975-09-18T06:35:00.00	1	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T06:36:00.00	2	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T06:42:00.00	3	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T06:48:00.00	4	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T06:54:00.00	5	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:00:00.00	6	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:06:00.00	7	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:10:00.00	8	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:12:00.00	9	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:18:00.00	10	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:20:00.00	11	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:24:00.00	12	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:30:00.00	13	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:36:00.00	14	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:40:00.00	15	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:42:00.00	16	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:48:00.00	17	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:50:00.00	18	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T07:54:00.00	19	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T08:00:00.00	20	D-0-0	 NAV: on land
+Y	01030195	1975-09-18T08:06:00.00	21	D-0-0	 NAV: on land
+?	01030195	1975-09-28T01:54:00.00	2982	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T02:00:00.00	2983	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T02:06:00.00	2984	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T03:24:00.00	3004	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T03:36:00.00	3006	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T03:42:00.00	3008	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T03:48:00.00	3009	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-28T12:12:00.00	3125	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T12:24:00.00	3127	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T13:36:00.00	3143	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-28T14:12:00.00	3152	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-28T18:42:00.00	3213	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-28T18:48:00.00	3214	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T04:24:00.00	3344	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T04:36:00.00	3346	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T04:42:00.00	3348	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T04:48:00.00	3349	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T04:54:00.00	3351	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T05:00:00.00	3352	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T05:06:00.00	3353	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T13:48:00.00	3436	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T20:30:00.00	3528	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T20:36:00.00	3529	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T20:42:00.00	3531	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T20:48:00.00	3532	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T20:54:00.00	3534	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T23:24:00.00	3568	0-Q-0	 VAL: mag invalid
+?	01030195	1975-09-29T23:30:00.00	3569	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T23:36:00.00	3570	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T23:42:00.00	3572	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T23:44:00.00	3573	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	01030195	1975-09-29T23:48:00.00	3574	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-30T02:06:00.00	3605	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01030195	1975-09-30T02:18:00.00	3608	0-0-OQ	 GRAD: mtf1, mag excessive

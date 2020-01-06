@@ -1,0 +1,22 @@
+# Cruise J1010142 ID HT99T473 MGD77 FILE VERSION: 20080215 N_RECS: 120
+# Examined: Sat Aug  6 11:03:57 2011 by mtchandl
+# Arguments:  -R152.45/154.85/20.95/23.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-J1010142-H04-02: Invalid Survey Departure Month: (01) [02]
+N-E-J1010142-H04-03: Invalid Survey Departure Day: (19) [17]
+N-E-J1010142-H04-06: Invalid Survey Arrival Day: (22) [17]
+Y-E-J1010142-H15-01: Invalid Gravity Departure Base Station Value: (  -9162) [  -9162]
+Y-E-J1010142-H15-03: Invalid Gravity Arrival Base Station Value: (  -9149) [  -9149]
+Y-I-J1010142-depth-01: RLS m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1
+Y-W-J1010142-depth-02: Ship and /data/GRIDS/topo1.grd grid appear identical (m=1,b=0,s=0)
+Y-I-J1010142-faa-01: RLS m: 1 b: -5 rms: 5 r: 1 sig: 1 dec: 1
+Y-W-J1010142-faa-03: Regression offset -5 different from 0.
+Y-W-J1010142-depth-12: Integer multiple of 5 precision
+Y-W-J1010142-mag-12: Integer precision
+Y-W-J1010142-faa-12: Integer precision
+# Errata: Data

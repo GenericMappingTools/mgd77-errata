@@ -1,0 +1,14 @@
+# Cruise 15060043 ID ZAPT-1BD MGD77 FILE VERSION: 19800226 N_RECS: 2011
+# Examined: Sat May 31 10:33:35 2008 by mtchandl
+# Arguments:  -R263.3/280.1/5.25/10.4 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend flagging offset depth records 1793-1987.
+# Errata: Header
+N-E-15060043-H04-02: Invalid Survey Departure Month: (10) [11]
+N-E-15060043-H04-03: Invalid Survey Departure Day: (24) [01]
+Y-I-15060043-depth-01: RLS m: 0.996125 b: 0 rms: 135.633 r: 0.991844 sig: 1 dec: 1
+Y-E-15060043-depth-08: Extended offset from grid [1793-1987]
+# Errata: Data

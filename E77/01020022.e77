@@ -1,0 +1,42 @@
+# Cruise 01020022 ID ELT22 MGD77 FILE VERSION: 19790127 N_RECS: 12035
+# Examined: Wed Jul  8 20:41:57 2009 by mtchandl
+# Arguments:  -R289.1/345.55/-63.45/-50.7 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-E-01020022-H04-01: Invalid Survey Departure Year: (1965) [1966]
+Y-W-01020022-nav-00: Flagged 0.06 % of records with excessive speed or invalid navigation
+Y-I-01020022-depth-01: RLS m: 0.996387 b: 0 rms: 58.2793 r: 0.999506 sig: 1 dec: 0
+N-E-01020022-depth-02: Regression slope 0.996387 different from 1. Recommended: [1]
+Y-E-01020022-mag-07: Anomaly differs from mtf1-IGRF (m: 0.973905 b: -113.422 rms: 151.021 r: 0.854586 sig: 1 dec: 1). [Recompute]
+N-E-01020022-depth-08: Extended offset from grid [190-259]
+N-E-01020022-depth-08: Extended offset from grid [263-387]
+N-E-01020022-depth-08: Extended offset from grid [388-3647]
+N-E-01020022-depth-08: Extended offset from grid [3649-4187]
+N-E-01020022-depth-08: Extended offset from grid [4205-4409]
+N-E-01020022-depth-08: Extended offset from grid [4414-4633]
+N-E-01020022-depth-08: Extended offset from grid [4635-5574]
+N-E-01020022-depth-08: Extended offset from grid [5576-7040]
+N-E-01020022-depth-08: Extended offset from grid [7043-10116]
+N-E-01020022-depth-08: Extended offset from grid [10117-10999]
+N-E-01020022-depth-08: Extended offset from grid [11004-11592]
+N-E-01020022-depth-08: Extended offset from grid [11661-12035]
+Y-W-01020022-twt-11: More recent bathymetry correction table available
+Y-W-01020022-mtf1-12: Integer precision
+Y-W-01020022-mag-12: Integer precision
+# Errata: Data
+Y	01020022	1966-02-07T13:24:00.00	4407	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T13:30:00.00	4408	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T13:36:00.00	4409	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T13:42:00.00	4410	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T13:48:00.00	4411	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T17:54:00.00	4412	D-0-0	 NAV: on land
+Y	01020022	1966-02-07T18:00:00.00	4413	D-0-0	 NAV: on land
+?	01020022	1966-02-14T16:24:00.00	6103	0-0-K	 GRAD: twt excessive
+?	01020022	1966-02-14T23:12:00.00	6154	0-0-K	 GRAD: twt excessive
+?	01020022	1966-02-16T08:12:00.00	6565	0-0-OQ	 GRAD: mtf1, mag excessive
+?	01020022	1966-02-16T13:42:00.00	6673	0-0-K	 GRAD: twt excessive
+?	01020022	1966-02-18T04:21:00.00	6976	0-0-OQ	 GRAD: mtf1, mag excessive

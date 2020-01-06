@@ -1,0 +1,77 @@
+# Cruise 09780020 ID WI343413 MGD77 FILE VERSION: 19821020 N_RECS: 31443
+# Examined: Mon Aug 16 16:20:58 2010 by mtchandl
+# Arguments:  -R325.9/353.95/14.3/37.5 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Flagged offset mag and mtf1 data.
+# Errata: Header
+N-E-09780020-H04-03: Invalid Survey Departure Day: (10) [14]
+N-E-09780020-H04-06: Invalid Survey Arrival Day: (21) [18]
+Y-E-09780020-H13-03: Invalid Magnetics Sensor Tow Distance: (245+) [245]
+Y-W-09780020-H13-10: Survey year (1973) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-W-09780020-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-09780020-depth-01: RLS m: 1.0015 b: 0 rms: 18.68 r: 0.999914 sig: 1 dec: 0
+N-E-09780020-depth-02: Regression slope 1.0015 different from 1. Recommended: [1]
+Y-E-09780020-mag-07: Anomaly differs from mtf1-IGRF (m: 0.920675 b: 43.7643 rms: 118.093 r: 0.701867 sig: 1 dec: 1). [Recompute]
+Y-E-09780020-mag-10: Invalid data records: [27843-29260]
+Y-E-09780020-mtf1-10: Invalid data records: [27843-29260]
+Y-W-09780020-depth-12: Integer precision
+Y-W-09780020-mag-12: Integer precision
+# Errata: Data
+?	09780020	1973-11-14T23:17:00.00	1375	0-0-KL	 GRAD: twt, depth excessive
+Y	09780020	1973-11-20T01:06:00.00	6506	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:07:00.00	6507	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:09:00.00	6509	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:10:00.00	6510	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:14:00.00	6514	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:15:00.00	6515	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:18:00.00	6518	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:21:00.00	6521	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:23:00.00	6523	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:24:00.00	6524	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:26:00.00	6526	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:27:00.00	6527	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:29:00.00	6529	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:30:00.00	6530	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:32:00.00	6532	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:34:00.00	6534	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:35:00.00	6535	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:37:00.00	6537	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:38:00.00	6538	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:41:00.00	6541	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:44:00.00	6544	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:46:00.00	6546	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:47:00.00	6547	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:49:00.00	6549	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:50:00.00	6550	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:52:00.00	6552	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:54:00.00	6554	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:55:00.00	6555	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:57:00.00	6557	C-0-0	 NAV: excessive speed
+Y	09780020	1973-11-20T01:58:00.00	6558	C-0-0	 NAV: excessive speed
+?	09780020	1973-11-30T16:52:00.00	15940	0-0-KL	 GRAD: twt, depth excessive
+?	09780020	1973-12-09T21:15:00.00	21140	0-0-KL	 GRAD: twt, depth excessive
+?	09780020	1973-12-09T23:45:00.00	21290	0-0-K	 GRAD: twt excessive
+?	09780020	1973-12-10T01:11:00.00	21375	0-0-K	 GRAD: twt excessive
+?	09780020	1973-12-10T03:53:00.00	21537	0-0-K	 GRAD: twt excessive
+?	09780020	1973-12-10T03:54:00.00	21538	0-0-KL	 GRAD: twt, depth excessive
+?	09780020	1973-12-10T04:53:00.00	21597	0-0-KL	 GRAD: twt, depth excessive
+?	09780020	1973-12-11T23:58:00.00	23303	0-0-K	 GRAD: twt excessive
+?	09780020	1973-12-13T13:23:00.00	24773	0-0-K	 GRAD: twt excessive
+?	09780020	1973-12-15T21:21:00.00	27843	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:22:00.00	27844	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-15T21:23:00.00	27845	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:24:00.00	27846	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:25:00.00	27847	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-15T21:26:00.00	27848	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:27:00.00	27849	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:28:00.00	27850	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-15T21:29:00.00	27851	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:30:00.00	27852	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-15T21:31:00.00	27853	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	09780020	1973-12-15T21:32:00.00	27854	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	09780020	1973-12-15T21:33:00.00	27855	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-15T21:34:00.00	27856	0-Q-0	 VAL: mag invalid
+?	09780020	1973-12-16T23:36:00.00	29261	0-0-O	 GRAD: mtf1 excessive

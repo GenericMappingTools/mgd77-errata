@@ -1,0 +1,91 @@
+# Cruise J2010028 ID GH892-B MGD77 FILE VERSION: 19980512 N_RECS: 13139
+# Examined: Sun Aug  7 08:08:09 2011 by mtchandl
+# Arguments:  -R136.65/140.05/37.25/41.15 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-J2010028-H04-06: Invalid Survey Arrival Day: (29) [28]
+Y-W-J2010028-H13-09: Unknown IGRF specified (DGRF1985-90)
+Y-I-J2010028-depth-01: RLS m: 0.997525 b: 0 rms: 10.9686 r: 0.999964 sig: 1 dec: 0
+N-E-J2010028-depth-02: Regression slope 0.997525 different from 1. Recommended: [1]
+Y-I-J2010028-faa-01: RLS m: 0.948861 b: 2.04326 rms: 3.74442 r: 0.985107 sig: 1 dec: 0
+N-E-J2010028-faa-02: Regression slope 0.948861 different from 1. Recommended: [1]
+Y-W-J2010028-faa-03: Regression offset 2.04326 different from 0.
+Y-I-J2010028-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-J2010028-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.358828 b: 16.0594 rms: 40.4657 r: 0.589408 sig: 1 dec: 1). [Recompute]
+Y-E-J2010028-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00161 b: 15.7488 rms: 18.7128 r: 0.999099 sig: 1 dec: 1). [Recompute]
+Y-W-J2010028-twt-11: More recent bathymetry correction table available
+Y-W-J2010028-depth-12: Integer precision
+Y-W-J2010028-mtf1-12: Integer precision
+# Errata: Data
+?	J2010028	1989-06-15T20:22:00.00	802	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-18T13:44:00.00	3451	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-18T13:45:00.00	3452	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-18T14:05:00.00	3472	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-18T16:33:00.00	3620	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-18T17:08:00.00	3655	0-0-Q	 GRAD: mag excessive
+?	J2010028	1989-06-19T01:15:00.00	4142	0-0-K	 GRAD: twt excessive
+?	J2010028	1989-06-19T09:09:00.00	4215	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:19:00.00	4225	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:20:00.00	4226	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:25:00.00	4231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:27:00.00	4233	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:29:00.00	4235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:36:00.00	4242	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:41:00.00	4247	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:43:00.00	4249	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T09:44:00.00	4250	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:17:00.00	4283	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:21:00.00	4287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:30:00.00	4296	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:31:00.00	4297	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:32:00.00	4298	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:33:00.00	4299	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:35:00.00	4301	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T10:54:00.00	4320	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:00:00.00	4326	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:02:00.00	4328	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:07:00.00	4333	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:09:00.00	4335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:28:00.00	4354	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:31:00.00	4357	0-0-Q	 GRAD: mag excessive
+?	J2010028	1989-06-19T11:32:00.00	4358	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:33:00.00	4359	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:35:00.00	4361	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:37:00.00	4363	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:42:00.00	4368	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:44:00.00	4370	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:56:00.00	4382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-19T11:59:00.00	4385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-20T12:29:00.00	5367	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T12:09:00.00	6319	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T16:31:00.00	6581	0-0-O	 GRAD: mtf1 excessive
+?	J2010028	1989-06-21T16:37:00.00	6587	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T17:41:00.00	6651	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T17:42:00.00	6652	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:38:00.00	6768	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:39:00.00	6769	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:42:00.00	6772	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:43:00.00	6773	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:44:00.00	6774	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:45:00.00	6775	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:46:00.00	6776	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:48:00.00	6778	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:49:00.00	6779	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:52:00.00	6782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:54:00.00	6784	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T19:55:00.00	6785	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-21T20:01:00.00	6791	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-22T10:19:00.00	7133	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-22T10:20:00.00	7134	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T19:48:00.00	8610	0-0-O	 GRAD: mtf1 excessive
+?	J2010028	1989-06-23T19:49:00.00	8611	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T19:50:00.00	8612	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T19:51:00.00	8613	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T20:08:00.00	8630	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T20:09:00.00	8631	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T20:10:00.00	8632	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010028	1989-06-23T20:12:00.00	8634	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,18 @@
+# Cruise 10020043 ID IG2904 MGD77 FILE VERSION: 19890926 N_RECS: 4067
+# Examined: Tue Aug 24 13:48:41 2010 by mtchandl
+# Arguments:  -R271.75/283.95/9.1/21.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020043-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020043-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-I-10020043-depth-01: RLS m: 1 b: 0 rms: 11.3562 r: 0.999967 sig: 1 dec: 0
+Y-E-10020043-mag-07: Anomaly differs from mtf1-IGRF (m: 0.86253 b: -362.525 rms: 371.071 r: 0.888887 sig: 1 dec: 1). [Recompute]
+Y-W-10020043-depth-12: Integer precision
+Y-W-10020043-mtf1-12: Integer precision
+Y-W-10020043-mag-12: Integer precision
+# Errata: Data
+?	10020043	1978-07-25T16:35:00.00	145	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,34 @@
+# Cruise 10020033 ID IG2301 MGD77 FILE VERSION: 19890926 N_RECS: 5763
+# Examined: Tue Aug 24 13:45:06 2010 by mtchandl
+# Arguments:  -R264.15/272.15/23.15/29.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10020033-H04-03: Invalid Survey Departure Day: (04) [01]
+Y-E-10020033-H04-06: Invalid Survey Arrival Day: (19) [21]
+Y-E-10020033-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10020033-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10020033-nav-00: Flagged 0.05 % of records with bad navigation
+Y-I-10020033-depth-01: RLS m: 1.00066 b: 0 rms: 7.54839 r: 0.999985 sig: 1 dec: 0
+N-E-10020033-depth-02: Regression slope 1.00066 different from 1. Recommended: [1]
+Y-E-10020033-mag-07: Anomaly differs from mtf1-IGRF (m: 0.877434 b: 315.759 rms: 324.163 r: 0.789039 sig: 1 dec: 1). [Recompute]
+Y-W-10020033-mag-09: only found positive values
+Y-W-10020033-twt-11: twt may be extracted from depth for Carter correction
+Y-W-10020033-depth-12: Integer precision
+Y-W-10020033-mtf1-12: Integer precision
+Y-W-10020033-mag-12: Integer precision
+# Errata: Data
+Y	10020033	1976-12-01T20:42:00.00	1	D-0-0	 NAV: on land
+Y	10020033	1976-12-01T21:04:00.00	2	D-0-0	 NAV: on land
+Y	10020033	1976-12-01T22:00:00.00	3	D-0-0	 NAV: on land
+?	10020033	1976-12-01T22:28:00.00	4	D-0-0	 NAV: on land
+?	10020033	1976-12-10T19:15:00.00	2614	0-0-L	 GRAD: depth excessive
+?	10020033	1976-12-10T19:20:00.00	2615	0-0-L	 GRAD: depth excessive
+?	10020033	1976-12-12T18:55:00.00	3216	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020033	1976-12-12T20:30:00.00	3237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	10020033	1976-12-14T23:10:00.00	3855	0-0-L	 GRAD: depth excessive
+?	10020033	1976-12-14T23:15:00.00	3856	0-0-L	 GRAD: depth excessive
+?	10020033	1976-12-15T18:35:00.00	4083	0-0-L	 GRAD: depth excessive

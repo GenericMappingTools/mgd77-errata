@@ -1,0 +1,51 @@
+# Cruise J2010005 ID GH7505 MGD77 FILE VERSION: 19810916 N_RECS: 6692
+# Examined: Sun Aug  7 07:48:46 2011 by mtchandl
+# Arguments:  -R126/140/24.45/35.7 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-J2010005-nav-00: Flagged 0.25 % of records with bad navigation
+Y-I-J2010005-depth-01: RLS m: 0.999302 b: 0 rms: 22.4984 r: 0.999917 sig: 1 dec: 0
+N-E-J2010005-depth-02: Regression slope 0.999302 different from 1. Recommended: [1]
+Y-I-J2010005-faa-01: RLS m: 0.991601 b: -0.64569 rms: 5.33009 r: 0.993455 sig: 1 dec: 0
+N-E-J2010005-faa-02: Regression slope 0.991601 different from 1. Recommended: [1]
+Y-W-J2010005-faa-03: Regression offset -0.64569 different from 0.
+N-E-J2010005-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+Y-E-J2010005-mag-07: Anomaly differs from mtf1-IGRF (m: 0.984342 b: 9.80151 rms: 38.8039 r: 0.972538 sig: 1 dec: 1). [Recompute]
+N-E-J2010005-twt-13: Encountered possible PDR wrap errors (5.5) [5.0]
+Y-W-J2010005-twt-11: More recent bathymetry correction table available
+Y-W-J2010005-depth-12: Integer precision
+Y-W-J2010005-mtf1-12: Integer precision
+Y-W-J2010005-mag-12: Integer precision
+# Errata: Data
+Y	J2010005	1975-07-20T04:45:00.00	1107	C-QW-0	 NAV: excessive speed - VAL: mag, faa invalid
+Y	J2010005	1975-07-20T04:50:00.00	1108	C-Q-UW	 NAV: excessive speed - VAL: mag invalid - GRAD: gobs, faa excessive
+Y	J2010005	1975-07-21T16:10:00.00	1518	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-21T16:15:00.00	1519	C-0-0	 NAV: excessive speed
+?	J2010005	1975-07-24T04:25:00.00	2214	0-0-KL	 GRAD: twt, depth excessive
+?	J2010005	1975-07-24T07:25:00.00	2245	0-0-K	 GRAD: twt excessive
+?	J2010005	1975-07-24T07:30:00.00	2246	0-0-KL	 GRAD: twt, depth excessive
+Y	J2010005	1975-07-30T06:05:00.00	2979	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-31T22:10:00.00	3414	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-31T22:15:00.00	3415	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-31T22:20:00.00	3416	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-31T22:25:00.00	3417	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-07-31T22:30:00.00	3418	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-08-03T23:10:00.00	3825	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-08-05T13:30:00.00	4265	C-0-0	 NAV: excessive speed
+Y	J2010005	1975-08-05T13:35:00.00	4266	C-0-0	 NAV: excessive speed
+?	J2010005	1975-08-07T11:05:00.00	4801	0-0-OQ	 GRAD: mtf1, mag excessive
+?	J2010005	1975-08-08T01:05:00.00	4959	D-0-0	 NAV: on land
+Y	J2010005	1975-08-08T01:10:00.00	4960	D-0-0	 NAV: on land
+Y	J2010005	1975-08-08T01:15:00.00	4961	D-0-0	 NAV: on land
+Y	J2010005	1975-08-08T01:20:00.00	4962	D-0-0	 NAV: on land
+Y	J2010005	1975-08-08T01:25:00.00	4963	D-0-0	 NAV: on land
+?	J2010005	1975-08-14T09:50:00.00	5612	0-0-KL	 GRAD: twt, depth excessive
+?	J2010005	1975-08-17T00:30:00.00	5809	0-0-KL	 GRAD: twt, depth excessive
+?	J2010005	1975-08-20T07:15:00.00	6417	0-0-K	 GRAD: twt excessive
+?	J2010005	1975-08-20T07:20:00.00	6418	0-0-KL	 GRAD: twt, depth excessive
+?	J2010005	1975-08-20T07:35:00.00	6421	0-0-KL	 GRAD: twt, depth excessive
+?	J2010005	1975-08-21T05:35:00.00	6679	0-M-K	 VAL: bcc invalid - GRAD: twt excessive

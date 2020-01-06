@@ -1,0 +1,21 @@
+# Cruise 01010105 ID RC1509 MGD77 FILE VERSION: 19790619 N_RECS: 11278
+# Examined: Mon Jul  6 14:47:32 2009 by mtchandl
+# Arguments:  -R300.3/325.65/-8.1/13.15 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010105-H13-06: Invalid Magnetics Reference Field Code: (72) [72]
+Y-I-01010105-depth-01: RLS m: 1.0035 b: 0 rms: 135.513 r: 0.99493 sig: 1 dec: 1
+Y-I-01010105-faa-01: RLS m: 0.975124 b: -1.3823 rms: 7.66441 r: 0.992378 sig: 1 dec: 1
+N-E-01010105-faa-02: Regression slope 0.975124 different from 1. Recommended: [1]
+Y-W-01010105-faa-03: Regression offset -1.3823 different from 0.
+Y-E-01010105-mag-07: Anomaly differs from mtf1-IGRF (m: 1.04948 b: -126.479 rms: 131.536 r: 0.909623 sig: 1 dec: 0). [Recompute]
+N-E-01010105-faa-08: Extended offset from grid [7922-10212]
+N-E-01010105-depth-08: Extended offset from grid [4-11278]
+Y-W-01010105-mtf1-12: Integer precision
+Y-W-01010105-mag-12: Integer precision
+# Errata: Data
+?	01010105	1972-06-13T04:45:00.00	1933	0-0-OQ	 GRAD: mtf1, mag excessive

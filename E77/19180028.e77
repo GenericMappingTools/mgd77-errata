@@ -1,0 +1,21 @@
+# Cruise 19180028 ID CD8293 MGD77 FILE VERSION: 19941231 N_RECS: 22762
+# Examined: Mon Sep 20 13:17:49 2010 by mtchandl
+# Arguments:  -R338.1/352.85/25.4/48.45 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-19180028-depth-01: RLS m: 1 b: 0 rms: 3.3431 r: 0.99999 sig: 1 dec: 0
+Y-W-19180028-depth-12: Integer precision
+# Errata: Data
+?	19180028	1993-11-08T17:16:00.00	1718	0-0-K	 GRAD: twt excessive
+?	19180028	1993-11-25T01:22:00.00	13480	0-0-KL	 GRAD: twt, depth excessive
+?	19180028	1993-11-25T19:16:00.00	14017	0-0-K	 GRAD: twt excessive
+?	19180028	1993-11-25T20:18:00.00	14048	0-0-K	 GRAD: twt excessive
+?	19180028	1993-11-27T23:38:00.00	15328	0-0-KL	 GRAD: twt, depth excessive
+?	19180028	1993-11-28T11:50:00.00	15694	0-0-KL	 GRAD: twt, depth excessive
+?	19180028	1993-11-28T12:00:00.00	15699	0-0-K	 GRAD: twt excessive
+?	19180028	1993-12-05T09:32:00.00	20665	0-0-K	 GRAD: twt excessive
+?	19180028	1993-12-07T16:54:00.00	22326	0-0-K	 GRAD: twt excessive

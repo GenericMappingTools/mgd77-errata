@@ -1,0 +1,43 @@
+# Cruise J1010090 ID HT98T412 MGD77 FILE VERSION: 20021031 N_RECS: 2127
+# Examined: Sat Aug  6 10:42:55 2011 by mtchandl
+# Arguments:  -R152.3/157.55/23.95/27.05 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: No total field magnetics for anomaly recomputation, anomalies could be outdated.
+# Errata: Header
+N-E-J1010090-H04-03: Invalid Survey Departure Day: (04) [07]
+N-E-J1010090-H04-06: Invalid Survey Arrival Day: (29) [26]
+Y-E-J1010090-H11-03: Invalid Bottommost Latitude: ( 24) [+23]
+Y-E-J1010090-H15-01: Invalid Gravity Departure Base Station Value: (-9327) [  -9327]
+Y-E-J1010090-H15-03: Invalid Gravity Arrival Base Station Value: (-9322) [  -9322]
+Y-I-J1010090-depth-01: RLS m: 1.00018 b: 0 rms: 13.3108 r: 0.999851 sig: 1 dec: 0
+Y-I-J1010090-faa-01: RLS m: 0.964917 b: -4.13863 rms: 4.9245 r: 0.995303 sig: 1 dec: 0
+N-E-J1010090-faa-02: Regression slope 0.964917 different from 1. Recommended: [1]
+Y-W-J1010090-faa-03: Regression offset -4.13863 different from 0.
+Y-W-J1010090-depth-12: Integer precision
+Y-W-J1010090-mag-12: Integer precision
+Y-W-J1010090-faa-12: Integer precision
+# Errata: Data
+?	J1010090	1998-06-14T15:10:00.00	1101	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T15:20:00.00	1102	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T16:40:00.00	1110	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T16:50:00.00	1111	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T17:00:00.00	1112	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T17:20:00.00	1113	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T18:20:00.00	1119	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T18:30:00.00	1120	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T18:40:00.00	1121	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T18:50:00.00	1122	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T20:10:00.00	1130	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T20:20:00.00	1131	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T20:30:00.00	1132	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T20:40:00.00	1133	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T20:50:00.00	1134	0-0-Q	 GRAD: mag excessive
+?	J1010090	1998-06-14T21:20:00.00	1137	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-14T21:30:00.00	1138	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-15T01:40:00.00	1163	0-Q-Q	 VAL: mag invalid - GRAD: mag excessive
+?	J1010090	1998-06-15T01:50:00.00	1164	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-15T02:00:00.00	1165	0-Q-0	 VAL: mag invalid
+?	J1010090	1998-06-15T02:10:00.00	1166	0-0-Q	 GRAD: mag excessive

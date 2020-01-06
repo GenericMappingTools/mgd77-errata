@@ -1,0 +1,20 @@
+# Cruise 71010003 ID RSA73-2 MGD77 FILE VERSION: 19870630 N_RECS: 2952
+# Examined: Sun Jul 31 22:11:39 2011 by mtchandl
+# Arguments:  -R-3.45/18.55/-69.45/-34.8 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Total field magnetic data not reported, magnetic anomalies appear to be unreliable.
+# Errata: Header
+Y-I-71010003-depth-01: RLS m: 0.999044 b: 0 rms: 25.2585 r: 0.999709 sig: 1 dec: 0
+Y-E-71010003-mag-10: Invalid data records: [1-2952]
+Y-W-71010003-mag-12: Integer precision
+# Errata: Data
+?	71010003	1973-02-15T23:50:00.00	2759	0-0-Q	 GRAD: mag excessive
+?	71010003	1973-02-15T23:55:00.00	2760	0-Q-0	 VAL: mag invalid
+?	71010003	1973-02-16T00:00:00.00	2761	0-Q-0	 VAL: mag invalid
+?	71010003	1973-02-16T00:05:00.00	2762	0-Q-0	 VAL: mag invalid
+?	71010003	1973-02-16T00:30:00.00	2767	0-Q-0	 VAL: mag invalid
+?	71010003	1973-02-16T00:35:00.00	2768	0-Q-0	 VAL: mag invalid
+?	71010003	1973-02-16T00:40:00.00	2769	0-Q-0	 VAL: mag invalid

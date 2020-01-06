@@ -1,0 +1,20 @@
+# Cruise 19050012 ID BRST_645 MGD77 FILE VERSION: 19991208 N_RECS: 2682
+# Examined: Mon Sep  6 12:53:53 2010 by mtchandl
+# Arguments:  -R301/304/-62.75/-61.85 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050012-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19050012-H13-09: Unknown IGRF specified (DGRF)
+Y-W-19050012-nav-00: Flagged 0.19 % of records with bad navigation
+Y-I-19050012-depth-01: RLS m: 0.997879 b: 0 rms: 35.1237 r: 0.997522 sig: 1 dec: 0
+Y-W-19050012-depth-12: Integer precision
+# Errata: Data
+Y	19050012	1965-01-07T22:41:00.00	332	C-0-0	 NAV: excessive speed
+Y	19050012	1965-01-07T22:42:00.00	333	C-0-0	 NAV: excessive speed
+Y	19050012	1965-01-07T22:43:00.00	334	C-0-0	 NAV: excessive speed
+Y	19050012	1965-01-07T22:44:00.00	335	C-0-0	 NAV: excessive speed
+Y	19050012	1965-01-08T23:51:00.00	1085	C-0-0	 NAV: excessive speed

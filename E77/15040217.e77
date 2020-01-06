@@ -1,0 +1,28 @@
+# Cruise 15040217 ID RNDB14WT MGD77 FILE VERSION: 19930804 N_RECS: 9503
+# Examined: Tue May 27 10:08:28 2008 by mtchandl
+# Arguments:  -R178.35/184.9/-21.15/-17.55 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-15040217-H13-10: Survey year (1989) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15040217-depth-01: RLS m: 0.965689 b: 0 rms: 177.136 r: 0.96767 sig: 1 dec: 1
+N-E-15040217-depth-02: Regression slope 0.965689 different from 1. Recommended: [1]
+Y-E-15040217-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.990792 b: -39.6626 rms: 42.1122 r: 0.998783 sig: 1 dec: 1). [Recompute]
+Y-W-15040217-twt-11: More recent bathymetry correction table available
+Y-W-15040217-depth-12: Integer precision
+Y-W-15040217-mtf1-12: Integer precision
+# Errata: Data
+?	15040217	1989-01-25T10:01:00.00	334	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040217	1989-01-25T10:02:00.00	335	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040217	1989-01-25T10:04:00.00	337	0-0-Q	 GRAD: mag excessive
+?	15040217	1989-01-25T10:17:00.00	350	0-0-O	 GRAD: mtf1 excessive
+?	15040217	1989-01-27T01:55:00.00	2728	0-0-K	 GRAD: twt excessive
+?	15040217	1989-01-27T10:08:00.00	3219	0-0-K	 GRAD: twt excessive
+?	15040217	1989-01-30T21:02:00.00	8193	0-0-K	 GRAD: twt excessive
+?	15040217	1989-01-31T16:24:00.00	9355	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040217	1989-01-31T16:25:00.00	9356	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040217	1989-01-31T16:26:00.00	9357	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15040217	1989-01-31T16:27:00.00	9358	0-0-OQ	 GRAD: mtf1, mag excessive

@@ -1,0 +1,16 @@
+# Cruise J1010028 ID HT881101 MGD77 FILE VERSION: 19900924 N_RECS: 1942
+# Examined: Thu Aug  4 20:07:14 2011 by mtchandl
+# Arguments:  -R137.35/140.05/27/30.1 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Warning, total field magnetics not reported, anomalies could be outdated.
+# Errata: Header
+Y-I-J1010028-depth-01: RLS m: 1 b: 0 rms: 22.8023 r: 0.999574 sig: 1 dec: 0
+Y-I-J1010028-faa-01: RLS m: 0.998247 b: -1.65814 rms: 3.13748 r: 0.99285 sig: 1 dec: 0
+Y-W-J1010028-faa-03: Regression offset -1.65814 different from 0.
+Y-W-J1010028-depth-12: Integer precision
+Y-W-J1010028-mag-12: Integer precision
+Y-W-J1010028-faa-12: Integer precision
+# Errata: Data

@@ -1,0 +1,13 @@
+# Cruise 12160002 ID MK77016 MGD77 FILE VERSION: 19860717 N_RECS: 8675
+# Examined: Mon Aug 30 15:55:56 2010 by mtchandl
+# Arguments:  -R296.8/308.05/51.3/60.7 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-12160002-H12-01: Invalid Bathymetry Digitizing Rate: (459) [459]
+Y-I-12160002-depth-01: RLS m: 1.00031 b: 0 rms: 5.64773 r: 0.99999 sig: 1 dec: 0
+N-E-12160002-depth-02: Regression slope 1.00031 different from 1. Recommended: [1]
+# Errata: Data

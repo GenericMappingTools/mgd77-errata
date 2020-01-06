@@ -1,0 +1,16 @@
+# Cruise 15340002 ID SAVE02KN MGD77 FILE VERSION: 19890801 N_RECS: 6766
+# Examined: Wed Jun  4 22:12:56 2008 by mtchandl
+# Arguments:  -R-43.15/12.7/-23.15/5.15 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15340002-H04-06: Invalid Survey Arrival Day: (24) [23]
+Y-I-15340002-depth-01: RLS m: 0.996125 b: 0 rms: 119.435 r: 0.996446 sig: 1 dec: 1
+Y-W-15340002-twt-11: More recent bathymetry correction table available
+Y-W-15340002-depth-12: Integer precision
+# Errata: Data
+?	15340002	1988-01-21T17:35:00.00	6602	0-0-K	 GRAD: twt excessive
+?	15340002	1988-01-21T17:40:00.00	6603	0-0-KL	 GRAD: twt, depth excessive

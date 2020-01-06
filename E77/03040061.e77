@@ -1,0 +1,21 @@
+# Cruise 03040061 ID POL7304 MGD77 FILE VERSION: 19870305 N_RECS: 7334
+# Examined: Fri Apr 16 13:51:01 2010 by mtchandl
+# Arguments:  -R230.95/288.2/-32.9/47.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-03040061-nav-00: Flagged 0.03 % of records with bad navigation
+Y-I-03040061-depth-01: RLS m: 0.999445 b: 0 rms: 28.8322 r: 0.998808 sig: 1 dec: 0
+Y-I-03040061-faa-01: RLS m: 0.984607 b: -0.433752 rms: 7.48375 r: 0.992232 sig: 1 dec: 1
+Y-E-03040061-mag-07: Anomaly differs from mtf1-IGRF (m: 1.02401 b: -3.57828 rms: 98.0713 r: 0.876824 sig: 1 dec: 1). [Recompute]
+Y-W-03040061-mtf1-12: Integer precision
+Y-W-03040061-mag-12: Integer precision
+# Errata: Data
+?	03040061	1973-05-25T22:21:00.00	2537	0-0-KL	 GRAD: twt, depth excessive
+?	03040061	1973-05-26T23:00:00.00	2855	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03040061	1973-05-27T14:24:00.00	3054	C-0-0	 NAV: excessive speed
+Y	03040061	1973-05-30T21:19:00.00	4026	C-0-0	 NAV: excessive speed
+?	03040061	1973-06-03T22:51:00.00	5250	0-0-K	 GRAD: twt excessive

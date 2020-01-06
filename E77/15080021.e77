@@ -1,0 +1,46 @@
+# Cruise 15080021 ID NOVA1BHO MGD77 FILE VERSION: 19800226 N_RECS: 6234
+# Examined: Sun Jun  1 14:23:24 2008 by mtchandl
+# Arguments:  -R153.5/175.2/-33.25/-20.45 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15080021-H04-06: Invalid Survey Arrival Day: (29) [28]
+Y-I-15080021-depth-01: RLS m: 0.996125 b: 0 rms: 119.752 r: 0.995249 sig: 1 dec: 1
+Y-E-15080021-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.982609 b: 3.40838 rms: 15.4521 r: 0.998496 sig: 1 dec: 1). [Recompute]
+Y-W-15080021-mtf1-12: Integer multiple of 5 precision
+Y-W-15080021-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15080021	1967-05-06T13:00:00.00	1	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T00:25:00.00	714	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T00:30:00.00	715	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T00:35:00.00	716	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T08:55:00.00	816	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T09:00:00.00	817	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T09:05:00.00	818	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:30:00.00	919	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:35:00.00	920	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:40:00.00	921	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:45:00.00	922	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:50:00.00	923	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T17:55:00.00	924	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T18:00:00.00	925	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T18:05:00.00	926	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-09T18:10:00.00	927	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T00:15:00.00	1000	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T00:20:00.00	1001	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T00:25:00.00	1002	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T00:30:00.00	1003	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T00:35:00.00	1004	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T20:15:00.00	1198	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T20:20:00.00	1199	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-10T20:25:00.00	1200	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-11T01:05:00.00	1256	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-11T01:10:00.00	1257	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-11T01:15:00.00	1258	0-Q-0	 VAL: mag invalid
+?	15080021	1967-05-11T01:20:00.00	1259	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080021	1967-05-11T01:25:00.00	1260	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080021	1967-05-11T01:30:00.00	1261	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	15080021	1967-05-11T01:35:00.00	1262	0-0-OQ	 GRAD: mtf1, mag excessive

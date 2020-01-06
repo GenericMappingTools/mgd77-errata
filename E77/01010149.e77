@@ -1,0 +1,22 @@
+# Cruise 01010149 ID RC0502 MGD77 FILE VERSION: 19910924 N_RECS: 740
+# Examined: Mon Jul  6 16:11:59 2009 by mtchandl
+# Arguments:  -R298.7/305.5/14.55/26.35 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-01010149-H04-03: Invalid Survey Departure Day: (05) [09]
+Y-E-01010149-H12-01: Invalid Bathymetry Digitizing Rate: (999) [   ]
+Y-E-01010149-H12-04: Invalid Bathymetry Datum Code: (99) [  ]
+Y-E-01010149-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01010149-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01010149-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01010149-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01010149-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01010149-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-E-01010149-mag-07: Anomaly differs from mtf1-IGRF (m: 0.943821 b: -22.5804 rms: 46.1616 r: 0.951449 sig: 1 dec: 1). [Recompute]
+Y-W-01010149-mtf1-12: Integer precision
+# Errata: Data
+?	01010149	1963-04-14T04:50:00.00	698	0-0-OQ	 GRAD: mtf1, mag excessive

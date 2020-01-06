@@ -1,0 +1,45 @@
+# Cruise 16010001 ID X05761 MGD77 FILE VERSION: 19840423 N_RECS: 646
+# Examined: Mon Nov 23 15:32:43 2009 by mtchandl
+# Arguments:  -R157.3/185.05/-14.15/5.85 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing faa without reapplying eot, outdated formula used.
+# Errata: Header
+Y-W-16010001-time-01: 2 of 646 records contain invalid time
+Y-E-16010001-H04-01: Invalid Survey Departure Year: (1973) [1976]
+Y-E-16010001-H04-02: Invalid Survey Departure Month: (03) [04]
+Y-E-16010001-H04-03: Invalid Survey Departure Day: (30) [12]
+Y-E-16010001-H04-06: Invalid Survey Arrival Day: (22) [05]
+N-E-16010001-H16-01: Invalid Number of Ten Degree Identifiers: ( 5) [6]
+Y-W-16010001-H16-06: Ten Degree Identifier 1016 not marked in header but block was crossed
+Y-W-16010001-nav-00: Flagged 2.63 % of records with bad navigation
+Y-I-16010001-depth-01: RLS m: 0.995962 b: 0 rms: 46.2948 r: 0.999581 sig: 1 dec: 0
+N-E-16010001-depth-02: Regression slope 0.995962 different from 1. Recommended: [1]
+Y-I-16010001-faa-01: RLS m: 1.01846 b: 11.0264 rms: 12.5885 r: 0.997179 sig: 1 dec: 1
+N-E-16010001-faa-02: Regression slope 1.01846 different from 1. Recommended: [1]
+Y-W-16010001-faa-03: Regression offset 11.0264 different from 0.
+Y-E-16010001-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: 5 rms: 5 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-16010001-faa-15: Anomaly differs from gobs-IGF80+eot (m: 1.0051 b: 1.2841 rms: 1.80096 r: 0.999695 sig: 1 dec: 0). [Recompute]
+Y-W-16010001-depth-12: Integer precision
+# Errata: Data
+Y	16010001	1976-04-12T09:00:00.00	2	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-24T15:10:00.00	179	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T07:45:00.00	232	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T07:45:00.00	233	B-0-0	 NAV: non-increasing time
+Y	16010001	1976-04-25T14:00:00.00	250	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T14:15:00.00	251	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T14:30:00.00	252	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T14:45:00.00	253	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T15:00:00.00	254	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T15:15:00.00	255	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T15:30:00.00	256	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T15:45:00.00	257	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T16:00:00.00	258	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-25T21:50:00.00	286	B-0-0	 NAV: non-increasing time
+Y	16010001	1976-04-27T01:15:00.00	377	C-0-0	 NAV: excessive speed
+Y	16010001	1976-04-27T11:45:00.00	394	C-0-0	 NAV: excessive speed
+Y	16010001	NaN	492	E-0-0	 NAV: navigation undefined
+Y	16010001	1976-04-30T23:30:00.00	516	C-0-0	 NAV: excessive speed
+Y	16010001	NaN	632	E-0-0	 NAV: navigation undefined

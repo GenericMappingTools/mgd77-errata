@@ -1,0 +1,31 @@
+# Cruise 15060021 ID PAPA02BD MGD77 FILE VERSION: 19800226 N_RECS: 4229
+# Examined: Sat May 31 10:18:06 2008 by mtchandl
+# Arguments:  -R255.05/278.5/3.95/19.05 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15060021-H04-03: Invalid Survey Departure Day: (02) [03]
+Y-W-15060021-nav-00: Flagged 0.02 % of records with excessive speed or invalid navigation
+Y-I-15060021-depth-01: RLS m: 1 b: 0 rms: 154.3 r: 0.994357 sig: 1 dec: 1
+Y-E-15060021-mag-07: Anomaly differs from mtf1 - IGRF (m: 0.961791 b: -66.9863 rms: 117.132 r: 0.822102 sig: 1 dec: 1). [Recompute]
+Y-W-15060021-mtf1-12: Integer multiple of 5 precision
+Y-W-15060021-mag-12: Integer multiple of 5 precision
+# Errata: Data
+?	15060021	1965-07-06T05:00:00.00	385	0-0-K	 GRAD: twt excessive
+?	15060021	1965-07-06T05:18:00.00	388	0-0-K	 GRAD: twt excessive
+?	15060021	1965-07-06T19:24:00.00	459	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-06T19:30:00.00	460	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-06T19:36:00.00	461	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-06T19:48:00.00	463	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-06T19:54:00.00	464	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-06T20:00:00.00	465	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-08T03:36:00.00	639	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060021	1965-07-08T03:42:00.00	640	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060021	1965-07-08T03:54:00.00	642	0-0-KL	 GRAD: twt, depth excessive
+?	15060021	1965-07-18T19:36:00.00	2386	0-0-OQ	 GRAD: mtf1, mag excessive
+?	15060021	1965-07-18T21:20:00.00	2390	D-0-0	 NAV: on land
+Y	15060021	1965-07-18T21:42:00.00	2391	D-0-0	 NAV: on land
+?	15060021	1965-07-22T15:42:00.00	2997	0-0-K	 GRAD: twt excessive

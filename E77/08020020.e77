@@ -1,0 +1,25 @@
+# Cruise 08020020 ID 8513 MGD77 FILE VERSION: 19890113 N_RECS: 5440
+# Examined: Fri Jul 30 11:16:02 2010 by mtchandl
+# Arguments:  -R201.55/202.2/18.6/21.35 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-08020020-nav-00: Flagged 0.11 % of records with bad navigation
+Y-I-08020020-depth-01: RLS m: 0.995785 b: 0 rms: 94.5363 r: 0.998274 sig: 1 dec: 0
+N-E-08020020-depth-02: Regression slope 0.995785 different from 1. Recommended: [1]
+Y-W-08020020-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	08020020	1985-09-09T19:18:19.98	1	D-0-0	 NAV: on land
+Y	08020020	1985-09-09T19:21:19.98	2	D-0-0	 NAV: on land
+?	08020020	1985-09-12T07:59:19.98	1619	0-0-K	 GRAD: twt excessive
+?	08020020	1985-09-15T22:10:19.98	3932	0-0-K	 GRAD: twt excessive
+?	08020020	1985-09-17T09:58:19.98	4858	0-0-KL	 GRAD: twt, depth excessive
+Y	08020020	1985-09-18T06:03:19.98	5432	D-0-0	 NAV: on land
+Y	08020020	1985-09-18T06:06:19.98	5433	D-0-0	 NAV: on land
+Y	08020020	1985-09-18T06:09:19.98	5434	D-0-0	 NAV: on land
+Y	08020020	1985-09-18T06:12:19.98	5435	D-0-0	 NAV: on land
+?	08020020	1985-09-18T06:15:19.98	5436	D-0-0	 NAV: on land
+?	08020020	1985-09-18T06:18:19.98	5437	D-0-0	 NAV: on land

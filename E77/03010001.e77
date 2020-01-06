@@ -1,0 +1,52 @@
+# Cruise 03010001 ID POL6501 MGD77 FILE VERSION: 19800213 N_RECS: 1241
+# Examined: Fri Apr  9 13:16:01 2010 by mtchandl
+# Arguments:  -R173.15/186.6/23.15/52.35 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-03010001-nav-00: Flagged 2.10 % of records with bad navigation
+Y-I-03010001-depth-01: RLS m: 1 b: 0 rms: 14.038 r: 0.999725 sig: 1 dec: 0
+Y-E-03010001-mag-07: Anomaly differs from mtf1-IGRF (m: 0.996088 b: 51.7865 rms: 53.6897 r: 0.99795 sig: 1 dec: 1). [Recompute]
+Y-W-03010001-twt-11: More recent bathymetry correction table available
+Y-W-03010001-mtf1-12: Integer precision
+Y-W-03010001-mag-12: Integer precision
+# Errata: Data
+?	03010001	1965-06-17T16:20:00.00	523	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010001	1965-06-17T16:25:00.00	524	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010001	1965-06-17T18:40:00.00	551	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010001	1965-06-17T18:45:00.00	552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010001	1965-06-17T18:50:00.00	553	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	03010001	1965-06-17T18:55:00.00	554	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010001	1965-06-22T00:55:00.00	983	0-0-O	 GRAD: mtf1 excessive
+?	03010001	1965-06-22T01:00:00.00	984	0-Q-0	 VAL: mag invalid
+?	03010001	1965-06-22T01:10:00.00	986	0-0-OQ	 GRAD: mtf1, mag excessive
+?	03010001	1965-06-22T01:15:00.00	987	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	03010001	1965-06-22T21:24:00.00	1215	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:25:00.00	1216	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:30:00.00	1217	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:35:00.00	1218	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:40:00.00	1219	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:45:00.00	1220	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:50:00.00	1221	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:55:00.00	1222	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:00:00.00	1223	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:05:00.00	1224	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:10:00.00	1225	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:15:00.00	1226	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:20:00.00	1227	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:24:00.00	1228	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:25:00.00	1229	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:30:00.00	1230	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:35:00.00	1231	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:40:00.00	1232	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:45:00.00	1233	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:50:00.00	1234	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T20:55:00.00	1235	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:00:00.00	1236	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:05:00.00	1237	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:10:00.00	1238	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:15:00.00	1239	B-0-0	 NAV: non-increasing time
+Y	03010001	1965-06-22T21:20:00.00	1240	B-0-0	 NAV: non-increasing time

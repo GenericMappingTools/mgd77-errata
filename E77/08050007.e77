@@ -1,0 +1,33 @@
+# Cruise 08050007 ID SI-79-1 MGD77 FILE VERSION: 19830311 N_RECS: 4913
+# Examined: Fri Jul 30 14:10:41 2010 by mtchandl
+# Arguments:  -R156.55/160.9/-14.3/-7.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-08050007-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-08050007-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-08050007-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-08050007-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-08050007-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-08050007-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-08050007-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-08050007-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-08050007-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-08050007-depth-01: RLS m: 0.998953 b: 0 rms: 29.8836 r: 0.999527 sig: 1 dec: 0
+N-E-08050007-depth-02: Regression slope 0.998953 different from 1. Recommended: [1]
+Y-W-08050007-twt-11: More recent bathymetry correction table available
+# Errata: Data
+?	08050007	1979-02-03T20:56:25.98	745	0-0-KL	 GRAD: twt, depth excessive
+?	08050007	1979-02-03T20:59:58.02	746	0-0-K	 GRAD: twt excessive
+?	08050007	1979-02-04T00:57:31.02	805	0-0-K	 GRAD: twt excessive
+?	08050007	1979-02-04T01:48:22.98	826	0-0-KL	 GRAD: twt, depth excessive
+?	08050007	1979-02-04T18:57:36.00	933	0-0-KL	 GRAD: twt, depth excessive
+Y	08050007	1979-02-05T20:40:00.00	1301	C-0-0	 NAV: excessive speed
+Y	08050007	1979-02-06T01:00:00.00	1344	D-0-0	 NAV: on land
+Y	08050007	1979-02-06T01:24:00.00	1345	D-0-0	 NAV: on land
+Y	08050007	1979-02-15T17:46:50.04	3156	B-0-0	 NAV: non-increasing time
+Y	08050007	1979-02-16T18:03:30.00	3436	B-0-0	 NAV: non-increasing time
+?	08050007	1979-02-17T04:00:00.00	3625	0-0-K	 GRAD: twt excessive

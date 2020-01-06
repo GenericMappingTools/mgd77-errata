@@ -1,0 +1,19 @@
+# Cruise 15040208 ID DRIL01WT MGD77 FILE VERSION: 19930804 N_RECS: 2710
+# Examined: Mon May 26 17:33:29 2008 by mtchandl
+# Arguments:  -R235.2/242.8/32.6/46.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-15040208-H04-05: Invalid Survey Arrival Month: (09) [08]
+N-E-15040208-H04-06: Invalid Survey Arrival Day: (04) [23]
+Y-W-15040208-H13-10: Survey year (1990) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-E-15040208-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.02183 b: -135.365 rms: 133.623 r: 0.9975 sig: 1 dec: 1). [Recompute]
+Y-W-15040208-mtf1-12: Integer precision
+# Errata: Data
+?	15040208	1990-08-19T14:40:00.00	1	D-0-0	 NAV: on land
+?	15040208	1990-08-19T14:43:00.00	2	D-0-0	 NAV: on land
+?	15040208	1990-08-19T14:50:00.00	3	D-0-0	 NAV: on land
+?	15040208	1990-08-19T15:00:00.00	4	D-0-0	 NAV: on land

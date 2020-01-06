@@ -1,0 +1,29 @@
+# Cruise 01010022 ID RC0904 MGD77 FILE VERSION: 19790619 N_RECS: 5866
+# Examined: Thu Jun 26 13:01:54 2008 by mtchandl
+# Arguments:  -R274.05/289.5/-23.65/8.5 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies, possible Potsdam offset.
+# Errata: Header
+N-E-01010022-H04-03: Invalid Survey Departure Day: (20) [21]
+Y-I-01010022-depth-01: RLS m: 1 b: 0 rms: 156.342 r: 0.996601 sig: 1 dec: 1
+Y-I-01010022-faa-01: RLS m: 1.01053 b: -7.15688 rms: 10.9523 r: 0.996322 sig: 1 dec: 1
+Y-W-01010022-faa-03: Regression offset -7.15688 different from 0.
+Y-E-01010022-mag-07: Anomaly differs from mtf1 - IGRF (m: 1.07646 b: -95.6211 rms: 107.091 r: 0.912743 sig: 1 dec: 1). [Recompute]
+Y-W-01010022-mtf1-12: Integer precision
+Y-W-01010022-mag-12: Integer precision
+# Errata: Data
+?	01010022	1965-01-24T14:46:00.00	768	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-01-30T07:29:00.00	2428	0-0-K	 GRAD: twt excessive
+?	01010022	1965-02-03T11:43:00.00	3710	0-0-K	 GRAD: twt excessive
+?	01010022	1965-02-04T07:49:00.00	4104	0-0-K	 GRAD: twt excessive
+?	01010022	1965-02-04T22:32:00.00	4346	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-02-05T07:24:00.00	4586	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-02-05T14:16:00.00	4638	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-02-06T11:35:00.00	5130	0-0-K	 GRAD: twt excessive
+?	01010022	1965-02-07T00:38:00.00	5334	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-02-07T19:40:00.00	5712	0-0-KL	 GRAD: twt, depth excessive
+?	01010022	1965-02-08T05:31:00.00	5750	0-0-K	 GRAD: twt excessive
+?	01010022	1965-02-08T10:15:00.00	5843	0-0-K	 GRAD: twt excessive

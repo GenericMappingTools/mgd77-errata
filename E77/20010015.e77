@@ -1,0 +1,57 @@
+# Cruise 20010015 ID TT-213 MGD77 FILE VERSION: 19890801 N_RECS: 4295
+# Examined: Tue Oct 19 14:42:22 2010 by mtchandl
+# Arguments:  -R186.9/194.15/62.2/75.2 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-20010015-H04-03: Invalid Survey Departure Day: (21) [22]
+N-E-20010015-H11-02: Invalid Topmost Latitude : (+69) [+76]
+N-E-20010015-H11-05: Invalid Leftmost Longitude: (-173) [-174]
+N-E-20010015-H16-01: Invalid Number of Ten Degree Identifiers: ( 2) [3]
+Y-W-20010015-H16-06: Ten Degree Identifier 7717 not marked in header but block was crossed
+Y-W-20010015-nav-00: Flagged 0.81 % of records with bad navigation
+Y-I-20010015-depth-01: RLS m: 1.0312 b: 0 rms: 1.96511 r: 0.989351 sig: 1 dec: 0
+N-E-20010015-depth-02: Regression slope 1.0312 different from 1. Recommended: [1]
+Y-W-20010015-twt-11: twt may be extracted from depth for Carter correction
+# Errata: Data
+Y	20010015	1987-07-22T09:05:40.02	73	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-22T11:35:40.98	98	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-23T17:40:43.98	399	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-23T19:39:43.02	421	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-23T20:05:31.02	424	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-24T08:40:36.00	547	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-24T13:40:43.02	599	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-25T19:46:07.02	909	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-25T19:51:16.98	910	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-26T08:05:43.98	1028	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-26T15:30:31.98	1099	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-26T22:22:01.02	1163	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-27T17:17:16.98	1380	D-0-0	 NAV: on land
+Y	20010015	1987-07-27T17:21:39.00	1381	D-0-0	 NAV: on land
+?	20010015	1987-07-27T17:25:58.02	1382	D-0-0	 NAV: on land
+Y	20010015	1987-07-29T03:50:40.02	1730	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-29T06:46:40.02	1761	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-29T08:35:36.00	1781	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-29T13:35:43.98	1832	C-0-0	 NAV: excessive speed
+Y	20010015	1987-07-30T20:17:34.98	2137	C-0-0	 NAV: excessive speed
+?	20010015	1987-08-01T18:52:25.02	2660	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T18:56:48.00	2661	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:01:10.02	2662	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:07:37.02	2663	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:11:58.98	2664	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:16:21.00	2665	D-0-0	 NAV: on land
+?	20010015	1987-08-01T19:46:46.02	2671	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:51:09.00	2672	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T19:57:39.00	2673	D-0-0	 NAV: on land
+Y	20010015	1987-08-01T20:02:01.02	2674	D-0-0	 NAV: on land
+Y	20010015	1987-08-02T05:55:31.98	2776	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-03T20:30:36.00	3083	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-04T07:58:33.00	3202	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-08T14:20:36.00	3843	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-08T19:16:34.98	3892	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-10T02:50:34.98	4244	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-10T05:20:42.00	4268	C-0-0	 NAV: excessive speed
+Y	20010015	1987-08-10T06:07:18.00	4276	C-0-0	 NAV: excessive speed

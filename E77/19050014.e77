@@ -1,0 +1,45 @@
+# Cruise 19050014 ID BRST_678 MGD77 FILE VERSION: 19991208 N_RECS: 7581
+# Examined: Mon Sep  6 12:54:15 2010 by mtchandl
+# Arguments:  -R303.7/307.3/-62.05/-60.4 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-19050014-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19050014-H13-09: Unknown IGRF specified (DGRF)
+Y-W-19050014-nav-00: Flagged 0.41 % of records with bad navigation
+Y-I-19050014-depth-01: RLS m: 1.00167 b: 0 rms: 42.8029 r: 0.99917 sig: 1 dec: 0
+Y-W-19050014-depth-12: Integer precision
+# Errata: Data
+Y	19050014	1967-12-04T12:45:00.00	929	D-0-0	 NAV: on land
+Y	19050014	1967-12-04T12:50:00.00	930	D-0-0	 NAV: on land
+Y	19050014	1967-12-04T12:55:00.00	931	D-0-0	 NAV: on land
+Y	19050014	1967-12-04T23:31:00.00	1496	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-04T23:32:00.00	1497	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-04T23:33:00.00	1498	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-04T23:34:00.00	1499	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-09T11:57:00.00	1649	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-21T19:30:00.00	1836	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-21T23:31:00.00	2039	CD-0-0	 NAV: excessive speed, on land
+Y	19050014	1967-12-21T23:32:00.00	2040	C-0-0	 NAV: excessive speed
+Y	19050014	1967-12-21T23:33:00.00	2041	CD-0-0	 NAV: excessive speed, on land
+Y	19050014	1967-12-21T23:34:00.00	2042	C-0-0	 NAV: excessive speed
+Y	19050014	1968-01-11T16:38:00.00	4920	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:39:00.00	4921	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:40:00.00	4922	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:41:00.00	4923	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:42:00.00	4924	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:43:00.00	4925	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:44:00.00	4926	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:45:00.00	4927	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:46:00.00	4928	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:47:00.00	4929	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:48:00.00	4930	D-0-0	 NAV: on land
+Y	19050014	1968-01-11T16:49:00.00	4931	D-0-0	 NAV: on land
+?	19050014	1968-01-12T19:00:00.00	6267	0-0-L	 GRAD: depth excessive
+Y	19050014	1968-01-13T16:41:00.00	7429	C-0-0	 NAV: excessive speed
+Y	19050014	1968-01-13T16:42:00.00	7430	C-0-0	 NAV: excessive speed
+Y	19050014	1968-01-13T16:43:00.00	7431	C-0-0	 NAV: excessive speed
+Y	19050014	1968-01-13T16:44:00.00	7432	C-0-0	 NAV: excessive speed

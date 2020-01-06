@@ -1,0 +1,28 @@
+# Cruise 05080003 ID RT8601 MGD77 FILE VERSION: 20080806 N_RECS: 8216
+# Examined: Fri Nov 27 15:55:40 2009 by mtchandl
+# Arguments:  -R175.3/199.85/-36.45/-21.4 -De -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M.T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+N-E-05080003-H04-03: Invalid Survey Departure Day: (18) [27]
+N-E-05080003-H04-05: Invalid Survey Arrival Month: (05) [04]
+N-E-05080003-H04-06: Invalid Survey Arrival Day: (04) [02]
+Y-W-05080003-H13-10: Survey year (1986) outside magnetic reference field IGRF-10 time range (1995-2000)
+Y-E-05080003-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+Y-E-05080003-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+Y-E-05080003-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-05080003-H16-06: Ten Degree Identifier 5216 not marked in header but block was crossed
+Y-W-05080003-H16-06: Ten Degree Identifier 5217 not marked in header but block was crossed
+Y-W-05080003-H16-06: Ten Degree Identifier 5317 not marked in header but block was crossed
+Y-W-05080003-H16-06: Ten Degree Identifier 3317 not marked in header but block was crossed
+Y-I-05080003-depth-01: RLS m: 1.0013 b: 0 rms: 121.916 r: 0.996596 sig: 1 dec: 0
+Y-I-05080003-faa-01: RLS m: 0.987649 b: 2.32411 rms: 5.68128 r: 0.998671 sig: 1 dec: 1
+N-E-05080003-faa-02: Regression slope 0.987649 different from 1. Recommended: [1]
+Y-W-05080003-faa-03: Regression offset 2.32411 different from 0.
+Y-E-05080003-mag-07: Anomaly differs from mtf1-IGRF (m: 0.988832 b: -20.7572 rms: 24.7189 r: 0.998774 sig: 1 dec: 1). [Recompute]
+Y-W-05080003-depth-12: Integer precision
+Y-W-05080003-mtf1-12: Integer precision
+# Errata: Data

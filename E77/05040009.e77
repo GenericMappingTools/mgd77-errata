@@ -1,0 +1,17 @@
+# Cruise 05040009 ID MO9310 MGD77 FILE VERSION: 19961018 N_RECS: 4165
+# Examined: Fri Apr 30 13:28:47 2010 by mtchandl
+# Arguments:  -R173.95/181.9/-44.05/-39.15 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-05040009-nav-00: Flagged 0.10 % of records with bad navigation
+Y-I-05040009-depth-01: RLS m: 0.999096 b: 0 rms: 18.7629 r: 0.999849 sig: 1 dec: 0
+N-E-05040009-depth-02: Regression slope 0.999096 different from 1. Recommended: [1]
+# Errata: Data
+Y	05040009	1993-10-02T22:20:42.00	981	C-0-0	 NAV: excessive speed
+Y	05040009	1993-10-02T22:30:43.98	994	C-0-0	 NAV: excessive speed
+Y	05040009	1993-10-02T23:10:28.02	1050	C-0-0	 NAV: excessive speed
+Y	05040009	1993-11-22T20:53:49.02	3427	C-0-0	 NAV: excessive speed

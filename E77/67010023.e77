@@ -1,0 +1,84 @@
+# Cruise 67010023 ID 72000211 MGD77 FILE VERSION: 19830804 N_RECS: 6985
+# Examined: Thu Jul 28 18:42:29 2011 by mtchandl
+# Arguments:  -R5.5/23.65/34.7/42.95 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged largest gravity offsets, recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-W-67010023-nav-00: Flagged 0.66 % of records with bad navigation
+Y-I-67010023-depth-01: RLS m: 0.996863 b: 0 rms: 37.0201 r: 0.999584 sig: 1 dec: 0
+N-E-67010023-depth-02: Regression slope 0.996863 different from 1. Recommended: [1]
+Y-I-67010023-faa-01: RLS m: 1.01116 b: 7.79087 rms: 9.51014 r: 0.993792 sig: 1 dec: 0
+N-E-67010023-faa-02: Regression slope 1.01116 different from 1. Recommended: [1]
+Y-W-670100?-E-67010023-mag-07: Anomaly differs from mtf1-IGRF (m: 0.975458 b: -165.432 rms: 169.541 r: 0.979557 sig: 1 dec: 1). [Recompute]
+23-faa-03: Regression offset 7.79087 different from 0.
+Y-E-67010023-faa-08: Extended offset from grid [957-1402]
+Y-E-67010023-faa-08: Extended offset from grid [3068-3930]
+Y-E-67010023-faa-08: Extended offset from grid [4031-4836]
+Y-E-67010023-faa-08: Extended offset from grid [4967-5609]
+Y-E-67010023-faa-08: Extended offset from grid [6423-6591]
+Y-E-67010023-mag-07: Anomaly differs from mtf1-IGRF (m: 0.975458 b: -165.432 rms: 169.541 r: 0.979557 sig: 1 dec: 1). [Recompute]
+Y-W-67010023-twt-11: More recent bathymetry correction table available
+Y-W-67010023-mtf1-12: Integer precision
+Y-W-67010023-mag-12: Integer precision
+# Errata: Data
+Y	67010023	1972-03-26T00:01:00.00	18	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-26T00:06:00.00	24	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-26T00:08:00.00	27	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-26T00:14:00.00	32	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-27T05:40:00.00	890	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-27T06:21:00.00	926	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-27T06:26:00.00	932	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-27T06:32:00.00	938	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-27T06:47:00.00	952	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-28T14:56:00.00	1402	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-28T20:01:00.00	1622	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-03-29T01:47:00.00	1890	B-0-0	 NAV: non-increasing time
+?	67010023	1972-03-29T02:00:00.00	1902	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010023	1972-03-29T02:02:00.00	1904	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010023	1972-03-29T02:08:00.00	1909	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010023	1972-03-29T02:09:00.00	1910	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010023	1972-04-02T17:17:00.00	4619	0-0-K	 GRAD: twt excessive
+Y	67010023	1972-04-03T03:07:00.00	4823	C-0-W	 NAV: excessive speed - GRAD: faa excessive
+Y	67010023	1972-04-03T03:11:00.00	4824	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:15:00.00	4825	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:16:00.00	4826	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:18:00.00	4827	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:21:00.00	4828	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:22:00.00	4829	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:24:00.00	4830	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:26:00.00	4831	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:27:00.00	4832	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:30:00.00	4833	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:33:00.00	4834	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:37:00.00	4835	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:38:00.00	4836	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:39:00.00	4837	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:40:00.00	4838	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:43:00.00	4839	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:44:00.00	4840	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:46:00.00	4841	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:49:00.00	4842	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:50:00.00	4843	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:53:00.00	4844	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:54:00.00	4845	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:57:00.00	4846	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T03:58:00.00	4847	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T04:00:00.00	4848	C-0-0	 NAV: excessive speed
+Y	67010023	1972-04-03T04:02:00.00	4849	C-0-0	 NAV: excessive speed
+?	67010023	1972-04-05T09:16:00.00	6237	0-0-K	 GRAD: twt excessive
+?	67010023	1972-04-05T09:23:00.00	6242	0-0-K	 GRAD: twt excessive
+?	67010023	1972-04-06T06:12:00.00	6315	0-0-KL	 GRAD: twt, depth excessive
+?	67010023	1972-04-06T06:27:00.00	6326	0-0-KL	 GRAD: twt, depth excessive
+Y	67010023	1972-04-07T04:58:00.00	6615	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-04-07T05:27:00.00	6638	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-04-07T06:10:00.00	6676	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-04-07T06:22:00.00	6688	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-04-07T06:23:00.00	6690	B-0-0	 NAV: non-increasing time
+Y	67010023	1972-04-07T07:34:00.00	6742	B-0-0	 NAV: non-increasing time
+?	67010023	1972-04-07T08:17:00.00	6782	0-0-OQ	 GRAD: mtf1, mag excessive
+?	67010023	1972-04-07T08:20:00.00	6785	0-0-OQ	 GRAD: mtf1, mag excessive
+Y	67010023	1972-04-07T10:20:00.00	6885	B-0-0	 NAV: non-increasing time
+?	67010023	1972-04-07T11:07:00.00	6926	0-0-OQ	 GRAD: mtf1, mag excessive

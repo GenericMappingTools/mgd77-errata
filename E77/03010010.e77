@@ -1,0 +1,18 @@
+# Cruise 03010010 ID CMAPPI5D MGD77 FILE VERSION: 19800213 N_RECS: 486
+# Examined: Fri Apr  9 13:20:29 2010 by mtchandl
+# Arguments:  -R182.6/183.1/36/42 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies. Flagged all gravity anomalies.
+# Errata: Header
+Y-I-03010010-depth-01: RLS m: 0.99943 b: 0 rms: 29.6068 r: 0.993708 sig: 1 dec: 0
+Y-I-03010010-faa-01: RLS m: -0.046875 b: -10.5208 rms: 15.0693 r: 0.0566408 sig: 0 dec: 1
+Y-E-03010010-mag-07: Anomaly differs from mtf1-IGRF (m: 0.982326 b: -36.2593 rms: 39.0937 r: 0.994623 sig: 1 dec: 1). [Recompute]
+Y-W-03010010-faa-09: all values less than or equal to zero
+Y-E-03010010-faa-10: Invalid data records: [1-486]
+Y-W-03010010-mtf1-12: Integer precision
+Y-W-03010010-mag-12: Integer precision
+Y-W-03010010-faa-12: Integer precision
+# Errata: Data

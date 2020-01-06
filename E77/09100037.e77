@@ -1,0 +1,15 @@
+# Cruise 09100037 ID KEA03-71 MGD77 FILE VERSION: 19790329 N_RECS: 112
+# Examined: Mon Aug  9 12:17:53 2010 by mtchandl
+# Arguments:  -R334.5/335/63/63.25 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-09100037-H04-06: Invalid Survey Arrival Day: (17) [16]
+Y-E-09100037-H11-06: Invalid Rightmost Longitude: (-024) [-025]
+Y-I-09100037-faa-01: RLS m: 1.14891 b: -1.58775 rms: 6.31756 r: 0.988313 sig: 1 dec: 0
+N-E-09100037-faa-02: Regression slope 1.14891 different from 1. Recommended: [1]
+Y-W-09100037-faa-09: only found positive values
+# Errata: Data

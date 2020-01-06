@@ -1,0 +1,30 @@
+# Cruise 02020044 ID A2067L05 MGD77 FILE VERSION: 19820504 N_RECS: 13908
+# Examined: Fri Mar 26 21:29:06 2010 by mtchandl
+# Arguments:  -R-18.35/14.55/-39.25/-22.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies using the latest IGRF and not recomputing faa using IGF80.
+# Errata: Header
+Y-W-02020044-H13-10: Survey year (1972) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-02020044-depth-01: RLS m: 0.999626 b: 0 rms: 26.4153 r: 0.999755 sig: 1 dec: 0
+Y-I-02020044-faa-01: RLS m: 1.01996 b: -4.76215 rms: 6.26796 r: 0.972189 sig: 1 dec: 0
+N-E-02020044-faa-02: Regression slope 1.01996 different from 1. Recommended: [1]
+Y-W-02020044-faa-03: Regression offset -4.76215 different from 0.
+N-E-02020044-faa-06: Anomaly differs from gobs-IGF80 (m: 1 b: -15 rms: 15 r: 1 sig: 1 dec: 1). [Recompute]
+N-E-02020044-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.263494 b: 6.32727 rms: 50.2011 r: 0.528603 sig: 1 dec: 1). [Recompute]
+Y-E-02020044-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00353 b: 33.9175 rms: 52.4972 r: 0.985602 sig: 1 dec: 1). [Recompute]
+Y-W-02020044-mtf1-12: Integer precision
+Y-W-02020044-mag-12: Integer precision
+# Errata: Data
+?	02020044	1972-04-12T22:51:00.00	71	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020044	1972-04-15T11:32:00.00	1552	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020044	1972-04-19T20:56:00.00	4507	0-0-K	 GRAD: twt excessive
+?	02020044	1972-04-22T07:00:00.00	6275	0-0-V	 GRAD: eot excessive
+?	02020044	1972-04-23T12:11:00.00	6984	0-0-K	 GRAD: twt excessive
+?	02020044	1972-04-25T16:44:00.00	8570	0-0-KL	 GRAD: twt, depth excessive
+?	02020044	1972-04-25T17:30:00.00	8595	0-0-K	 GRAD: twt excessive
+?	02020044	1972-04-27T10:35:00.00	9828	0-0-K	 GRAD: twt excessive
+?	02020044	1972-05-05T21:30:00.00	13824	0-0-OQ	 GRAD: mtf1, mag excessive
+?	02020044	1972-05-05T21:50:00.00	13828	0-0-OQ	 GRAD: mtf1, mag excessive

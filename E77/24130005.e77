@@ -1,0 +1,74 @@
+# Cruise 24130005 ID GA-0018 MGD77 FILE VERSION: 20080516 N_RECS: 71391
+# Examined: Mon Feb 14 22:19:57 2011 by mtchandl
+# Arguments:  -R108.35/131.95/-35.65/-8.25 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-24130005-H04-02: Invalid Survey Departure Month: (09) [01]
+Y-E-24130005-H04-03: Invalid Survey Departure Day: (27) [02]
+Y-E-24130005-H04-05: Invalid Survey Arrival Month: (12) [03]
+Y-E-24130005-H04-06: Invalid Survey Arrival Day: (10) [15]
+N-E-24130005-H16-03-01: Invalid Ten Degree Identifier quadrant: (                                                                           )
+N-E-24130005-H16-04-01: Invalid Ten Degree Identifier latitude: (                                                                           )
+N-E-24130005-H16-06-01: Invalid Ten Degree Identifier: (                                                                           )
+Y-W-24130005-H16-06: Ten Degree Identifier 3012 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3013 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3111 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3112 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3210 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3211 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3310 not marked in header but block was crossed
+Y-W-24130005-H16-06: Ten Degree Identifier 3311 not marked in header but block was crossed
+Y-I-24130005-depth-01: RLS m: 0.996745 b: 0 rms: 19.8625 r: 0.99993 sig: 1 dec: 0
+N-E-24130005-depth-02: Regression slope 0.996745 different from 1. Recommended: [1]
+Y-W-24130005-depth-12: Integer precision
+Y-W-24130005-mtf1-12: Integer precision
+# Errata: Data
+?	24130005	1972-01-25T08:10:00.00	18104	0-0-K	 GRAD: twt excessive
+?	24130005	1972-02-27T21:25:00.00	50900	0-0-KL	 GRAD: twt, depth excessive
+?	24130005	1972-03-04T07:51:00.00	55388	0-0-K	 GRAD: twt excessive
+?	24130005	1972-03-04T07:52:00.00	55389	0-0-K	 GRAD: twt excessive
+?	24130005	1972-03-04T07:53:00.00	55390	0-0-K	 GRAD: twt excessive
+?	24130005	1972-03-05T19:00:00.00	57497	0-0-K	 GRAD: twt excessive
+?	24130005	1972-03-06T03:46:00.00	58023	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T03:54:00.00	58031	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T03:55:00.00	58032	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T03:57:00.00	58034	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T03:58:00.00	58035	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:00:00.00	58037	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:01:00.00	58038	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:10:00.00	58047	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:30:00.00	58067	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:33:00.00	58070	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:34:00.00	58071	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:35:00.00	58072	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:40:00.00	58077	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:41:00.00	58078	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:42:00.00	58079	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:43:00.00	58080	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:44:00.00	58081	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:47:00.00	58084	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T04:48:00.00	58085	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T05:37:00.00	58134	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T05:38:00.00	58135	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T05:39:00.00	58136	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T05:40:00.00	58137	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T08:20:00.00	58297	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T10:12:00.00	58409	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T10:25:00.00	58422	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T10:26:00.00	58423	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T10:31:00.00	58428	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T10:32:00.00	58429	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:50:00.00	58627	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:51:00.00	58628	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:52:00.00	58629	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:53:00.00	58630	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:54:00.00	58631	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:55:00.00	58632	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T13:56:00.00	58633	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-06T14:14:00.00	58651	0-0-O	 GRAD: mtf1 excessive
+?	24130005	1972-03-09T00:39:00.00	62156	0-0-K	 GRAD: twt excessive
+?	24130005	1972-03-09T00:40:00.00	62157	0-0-K	 GRAD: twt excessive

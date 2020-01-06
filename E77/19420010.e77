@@ -1,0 +1,17 @@
+# Cruise 19420010 ID BRAN_778 MGD77 FILE VERSION: 19991208 N_RECS: 42393
+# Examined: Mon Sep 20 13:47:06 2010 by mtchandl
+# Arguments:  -R309.7/342.75/-75.05/-48.6 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-19420010-H04-03: Invalid Survey Departure Day: (20) [21]
+Y-E-19420010-H04-05: Invalid Survey Arrival Month: (01) [02]
+Y-E-19420010-H10-02: Invalid Format Description: ((I1,A8,F5.2,4I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1, F6.1,F5.1,A8,4I1)) [(I1,A8,I3,I4,3I2,F5.3,F8.5,F9.5,I1,F6.4,F6.1,I2,I1,3F6.1,I1,F5.1,F6.0,F7.1,F6.1,F5.1,A5,A6,I1)]
+Y-W-19420010-H13-09: Unknown IGRF specified (DGRF)
+Y-I-19420010-depth-01: RLS m: 1 b: 0 rms: 5.51858 r: 0.999993 sig: 1 dec: 0
+Y-W-19420010-depth-12: Integer precision
+# Errata: Data
+?	19420010	1978-02-04T14:01:00.00	34275	D-0-0	 NAV: on land

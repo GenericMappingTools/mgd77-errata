@@ -1,0 +1,19 @@
+# Cruise 15040229 ID SEAB0BWT MGD77 FILE VERSION: 19941231 N_RECS: 5986
+# Examined: Tue May 27 10:48:27 2008 by mtchandl
+# Arguments:  -R238.8/242.6/32.5/33.3 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+N-E-15040229-H04-06: Invalid Survey Arrival Day: (23) [22]
+Y-I-15040229-depth-01: RLS m: 1 b: 0 rms: 224.793 r: 0.976455 sig: 1 dec: 1
+Y-W-15040229-twt-11: More recent bathymetry correction table available
+Y-W-15040229-depth-12: Integer precision
+# Errata: Data
+?	15040229	1981-12-20T18:05:00.00	3141	0-0-K	 GRAD: twt excessive
+?	15040229	1981-12-20T22:24:00.00	3383	0-0-KL	 GRAD: twt, depth excessive
+?	15040229	1981-12-20T22:25:00.00	3384	0-0-K	 GRAD: twt excessive
+?	15040229	1981-12-20T22:26:00.00	3385	0-0-K	 GRAD: twt excessive
+?	15040229	1981-12-22T09:06:00.00	5236	0-0-KL	 GRAD: twt, depth excessive

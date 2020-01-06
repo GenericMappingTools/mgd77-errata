@@ -1,0 +1,76 @@
+# Cruise 06910006 ID P384AT MGD77 FILE VERSION: 19870929 N_RECS: 8489
+# Examined: Fri Jul 16 17:03:07 2010 by mtchandl
+# Arguments:  -R289/293.1/42.05/42.75 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-I-06910006-faa-01: RLS m: 0.939985 b: -3.52881 rms: 4.78556 r: 0.899661 sig: 1 dec: 0
+N-E-06910006-faa-02: Regression slope 0.939985 different from 1. Recommended: [1]
+Y-W-06910006-faa-03: Regression offset -3.52881 different from 0.
+Y-I-06910006-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-06910006-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.814648 b: 34.78 rms: 42.0445 r: 0.954349 sig: 1 dec: 0). [Recompute]
+Y-E-06910006-mag-07: Anomaly differs from mtf1-IGRF (m: 0.997011 b: -115.73 rms: 118.535 r: 0.995536 sig: 1 dec: 1). [Recompute]
+# Errata: Data
+?	06910006	1984-08-20T04:04:00.00	6204	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:05:00.00	6205	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:06:00.00	6206	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:07:00.00	6207	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:23:00.00	6223	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:24:00.00	6224	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:30:00.00	6230	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:31:00.00	6231	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:35:00.00	6235	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:36:00.00	6236	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:37:00.00	6237	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:38:00.00	6238	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:45:00.00	6245	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T04:46:00.00	6246	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T05:17:00.00	6277	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T05:18:00.00	6278	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T05:19:00.00	6279	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T05:27:00.00	6287	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T06:56:00.00	6376	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T06:57:00.00	6377	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T06:58:00.00	6378	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T07:02:00.00	6382	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T07:03:00.00	6383	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T07:04:00.00	6384	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T07:05:00.00	6385	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T07:06:00.00	6386	0-0-O	 GRAD: mtf1 excessive
+?	06910006	1984-08-20T13:46:00.00	6786	0-0-O	 GRAD: mtf1 excessive
+?	06910006	1984-08-20T15:20:00.00	6880	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T16:25:00.00	6945	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T19:38:00.00	6954	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T19:39:00.00	6955	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T19:40:00.00	6956	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-20T20:16:00.00	6992	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T02:07:00.00	7343	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T02:08:00.00	7344	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T07:23:00.00	7659	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T07:24:00.00	7660	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T07:26:00.00	7662	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T07:27:00.00	7663	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T08:08:00.00	7704	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T11:06:00.00	7882	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T11:07:00.00	7883	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T11:08:00.00	7884	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T11:09:00.00	7885	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T11:10:00.00	7886	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T15:58:00.00	8174	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T15:59:00.00	8175	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:00:00.00	8176	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:01:00.00	8177	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:43:00.00	8219	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:44:00.00	8220	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:45:00.00	8221	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T16:46:00.00	8222	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:31:00.00	8387	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:32:00.00	8388	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:33:00.00	8389	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:37:00.00	8393	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:38:00.00	8394	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:39:00.00	8395	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06910006	1984-08-21T19:40:00.00	8396	0-0-OQ	 GRAD: mtf1, mag excessive

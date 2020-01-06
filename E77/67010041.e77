@@ -1,0 +1,18 @@
+# Cruise 67010041 ID 73002711 MGD77 FILE VERSION: 19830804 N_RECS: 2378
+# Examined: Fri Jul 29 16:21:55 2011 by mtchandl
+# Arguments:  -R-7.9/-4.5/47.45/49.65 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Unsure if ship depths are correct, recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-67010041-depth-01: RLS m: 2.23542 b: 0 rms: 146.894 r: 0.952458 sig: 1 dec: 0
+N-E-67010041-depth-02: Regression slope 2.23542 different from 1. Recommended: [1]
+Y-I-67010041-faa-01: RLS m: 0.997082 b: 3.33897 rms: 5.96523 r: 0.965685 sig: 1 dec: 0
+Y-W-67010041-faa-03: Regression offset 3.33897 different from 0.
+Y-E-67010041-mag-07: Anomaly differs from mtf1-IGRF (m: 1.00154 b: -86.2032 rms: 86.3124 r: 0.999241 sig: 1 dec: 0). [Recompute]
+Y-W-67010041-twt-11: More recent bathymetry correction table available
+Y-W-67010041-mtf1-12: Integer precision
+Y-W-67010041-mag-12: Integer precision
+# Errata: Data

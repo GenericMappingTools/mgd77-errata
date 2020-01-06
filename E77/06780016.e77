@@ -1,0 +1,21 @@
+# Cruise 06780016 ID FARN0386 MGD77 FILE VERSION: 19941231 N_RECS: 16920
+# Examined: Fri May 28 16:30:10 2010 by mtchandl
+# Arguments:  -R179.05/189.5/53.15/58.65 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recompute magnetic anomalies.
+# Errata: Header
+Y-W-06780016-nav-00: Flagged 0.01 % of records with bad navigation
+Y-I-06780016-depth-01: RLS m: 1 b: 0 rms: 3.19784 r: 0.99997 sig: 1 dec: 0
+Y-E-06780016-mag-07: Anomaly differs from mtf1-IGRF (m: 0.982931 b: -45.2336 rms: 49.1739 r: 0.997847 sig: 1 dec: 1). [Recompute]
+Y-W-06780016-depth-12: Integer precision
+Y-W-06780016-mtf1-12: Integer precision
+Y-W-06780016-mag-12: Integer precision
+# Errata: Data
+Y	06780016	1986-08-08T10:20:00.00	700	C-0-0	 NAV: excessive speed
+?	06780016	1986-08-09T06:02:00.00	1291	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780016	1986-08-09T06:04:00.00	1292	0-0-OQ	 GRAD: mtf1, mag excessive
+?	06780016	1986-08-18T20:22:00.00	8201	0-Q-OQ	 VAL: mag invalid - GRAD: mtf1, mag excessive
+?	06780016	1986-08-18T20:24:00.00	8202	0-0-OQ	 GRAD: mtf1, mag excessive

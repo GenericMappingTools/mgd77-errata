@@ -1,0 +1,222 @@
+# Cruise 08020044 ID MW8712 MGD77 FILE VERSION: 19910130 N_RECS: 63092
+# Examined: Fri Jul 30 12:26:33 2010 by mtchandl
+# Arguments:  -R214/250.25/-26.9/-13.05 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation. Eotvos reported twice (included in gobs and in eot column), recommend not recomputing faa.
+# Errata: Header
+Y-I-08020044-depth-01: RLS m: 0.99756 b: 0 rms: 42.0689 r: 0.996116 sig: 1 dec: 0
+N-E-08020044-depth-02: Regression slope 0.99756 different from 1. Recommended: [1]
+Y-I-08020044-faa-01: RLS m: 1.01221 b: 0.427517 rms: 4.06414 r: 0.948478 sig: 1 dec: 0
+N-E-08020044-faa-02: Regression slope 1.01221 different from 1. Recommended: [1]
+Y-W-08020044-faa-03: Regression offset 0.427517 different from 0.
+Y-I-08020044-faa-06: Anomaly equivalent to gobs-IGF80 (m: 1 b: 0 rms: 0 r: 1 sig: 1 dec: 1)
+N-E-08020044-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.177339 b: 13.6555 rms: 44.9155 r: 0.771567 sig: 1 dec: 0). [Recompute]
+Y-E-08020044-mag-07: Anomaly differs from mtf1-IGRF (m: 0.886347 b: -57.5595 rms: 76.7854 r: 0.966772 sig: 1 dec: 1). [Recompute]
+Y-W-08020044-twt-11: More recent bathymetry correction table available
+Y-W-08020044-mtf1-12: Integer precision
+# Errata: Data
+?	08020044	1987-11-20T04:39:55.02	530	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-20T07:58:16.98	935	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-20T08:56:34.98	1037	0-0-K	 GRAD: twt excessive
+?	08020044	1987-11-20T18:42:09.00	2087	0-0-K	 GRAD: twt excessive
+?	08020044	1987-11-21T07:43:00.00	3531	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-21T12:45:00.00	3921	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-21T13:27:00.00	3985	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-21T13:29:00.00	3988	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-21T13:30:00.00	3990	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-22T02:09:52.98	5073	0-0-K	 GRAD: twt excessive
+?	08020044	1987-11-22T07:59:51.00	5527	0-0-K	 GRAD: twt excessive
+?	08020044	1987-11-22T22:01:43.02	6613	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-23T18:18:15.00	8139	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-26T17:38:15.00	13699	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-27T10:57:49.02	15043	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-28T01:22:00.00	16126	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-28T01:23:00.00	16128	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-28T02:46:00.00	16150	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-28T04:18:51.00	16265	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-28T04:19:00.00	16266	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-28T04:21:00.00	16268	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-28T04:22:00.00	16269	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-28T09:07:00.00	16606	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-28T09:08:00.00	16607	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-29T03:28:00.00	17930	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-29T03:29:00.00	17931	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-29T03:30:00.00	17932	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-29T03:37:00.00	17941	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-29T05:10:00.00	18046	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-29T08:23:00.00	18291	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-29T08:25:00.00	18294	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-29T08:34:13.98	18307	0-0-K	 GRAD: twt excessive
+?	08020044	1987-11-29T18:57:09.00	19103	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-29T19:03:00.00	19112	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-29T19:04:00.00	19114	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-11-29T19:05:00.00	19115	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-29T19:06:00.00	19117	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-30T03:32:00.00	19755	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-30T03:33:00.00	19757	0-0-V	 GRAD: eot excessive
+?	08020044	1987-11-30T12:02:54.00	20417	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-30T12:06:58.98	20423	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-11-30T12:08:00.00	20425	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-11-30T16:00:30.00	20726	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-01T05:23:00.00	21809	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-01T05:24:00.00	21811	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-01T05:25:00.00	21813	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-01T05:26:00.00	21815	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-01T09:30:00.00	22125	0-0-W	 GRAD: faa excessive
+?	08020044	1987-12-01T09:31:00.00	22126	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-01T09:34:00.00	22131	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-01T09:35:00.00	22132	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-01T13:23:00.00	22414	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-01T13:26:00.00	22417	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-01T13:27:00.00	22419	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-02T02:53:00.00	23454	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-02T02:55:00.00	23457	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-02T06:07:24.00	23693	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-02T06:30:42.00	23730	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-02T20:17:21.00	24797	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-02T21:13:24.00	24886	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-02T21:21:00.00	24895	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-02T21:24:10.98	24900	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-02T22:25:00.00	24984	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-02T22:26:00.00	24986	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-02T22:27:00.00	24987	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-02T22:28:00.00	24988	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-03T02:19:31.98	25266	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T02:20:10.02	25268	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-03T02:22:00.00	25271	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-03T02:22:16.98	25272	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T02:23:00.00	25273	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-03T02:24:00.00	25274	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-03T02:24:04.02	25275	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-03T02:25:00.00	25276	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-03T02:27:10.98	25280	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T02:39:00.00	25294	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-03T06:41:00.00	25572	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T11:01:31.98	25895	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-03T11:09:25.98	25906	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T11:17:00.00	25918	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-03T11:18:00.00	25919	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-03T11:19:00.00	25920	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-03T11:29:49.98	25937	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-03T13:26:00.00	26072	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-04T03:02:55.02	26992	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-04T03:39:00.00	27044	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-04T06:31:22.02	27239	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-05T05:55:49.98	28986	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-05T09:54:00.00	29287	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-05T09:55:00.00	29289	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-05T09:56:00.00	29290	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-05T13:57:00.00	29583	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-05T13:58:00.00	29584	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-05T13:59:00.00	29586	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-05T14:00:00.00	29587	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-05T14:28:00.00	29624	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-05T14:30:00.00	29627	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-05T14:31:00.00	29629	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-06T13:51:00.00	31347	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-07T00:31:00.00	32125	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-07T04:24:00.00	32409	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-07T12:03:00.00	32958	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-07T12:04:00.00	32960	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-07T12:06:00.00	32962	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-07T12:07:00.00	32963	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-07T14:41:00.00	33142	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-08T05:34:00.00	34248	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-08T05:35:00.00	34249	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-08T05:37:00.00	34251	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-08T05:47:00.00	34264	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-08T10:14:00.00	34596	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-08T10:15:00.00	34597	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-08T10:16:00.00	34598	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-08T10:17:00.00	34600	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-09T01:38:04.98	35762	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-09T02:01:01.98	35790	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-09T05:48:00.00	36087	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-09T10:27:00.00	36460	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-09T10:28:00.00	36462	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-09T10:30:00.00	36465	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-09T10:31:00.00	36467	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-09T10:44:01.98	36486	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-09T10:59:43.02	36506	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-10T01:52:25.98	37645	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-10T07:02:34.98	38038	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-10T09:58:22.98	38258	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-11T00:55:00.00	39420	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-11T15:08:00.00	40507	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-11T21:50:58.98	40994	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-12T00:13:00.00	41159	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-12T01:27:00.00	41271	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-12T01:59:00.00	41316	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-12T02:11:22.02	41334	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-12T09:28:55.98	41935	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-12T09:38:46.98	41952	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-12T13:27:00.00	42284	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-12T13:28:00.00	42285	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-12T13:29:00.00	42286	0-0-UVW	 GRAD: gobs, eot, faa excessive
+?	08020044	1987-12-12T23:56:16.98	43026	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-13T10:11:00.00	43777	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-13T10:51:00.00	43836	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-13T13:52:00.00	44051	0-0-V	 GRAD: eot excessive
+?	08020044	1987-12-13T15:53:00.00	44225	0-0-UW	 GRAD: gobs, faa excessive
+?	08020044	1987-12-14T20:52:24.00	46593	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-15T10:47:54.00	47905	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-15T18:35:34.02	48772	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-15T23:08:52.98	49277	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-16T12:53:55.02	50722	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-16T18:46:46.98	51387	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T04:31:09.00	52331	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T06:58:07.02	52570	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-17T07:24:13.98	52619	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T07:24:28.98	52620	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T07:35:07.98	52637	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-17T07:44:48.00	52653	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T07:50:40.98	52662	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T07:57:10.98	52675	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T14:44:22.02	53344	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T16:38:24.00	53521	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T16:45:42.00	53538	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T18:36:03.00	53689	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T19:13:40.02	53740	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-17T20:56:19.98	53892	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-18T00:23:43.02	54203	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-18T18:13:27.00	55829	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-19T11:00:49.02	57346	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-19T11:50:19.02	57428	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-19T11:59:49.02	57447	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-19T20:17:10.98	58229	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-19T20:23:37.02	58245	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T01:21:37.98	58708	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T01:21:45.00	58709	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T01:22:00.00	58710	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T01:51:40.98	58765	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T03:02:16.98	58870	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T03:26:51.00	58912	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T10:56:52.02	59580	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T11:03:04.02	59595	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T11:06:22.98	59600	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T17:48:10.98	60181	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T18:40:07.98	60258	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T18:43:22.02	60266	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T19:29:51.00	60342	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T19:31:49.02	60346	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T19:40:15.00	60361	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-20T19:43:01.98	60367	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T19:50:15.00	60384	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-20T23:39:34.02	60712	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T00:01:46.98	60751	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T03:34:07.02	61113	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T03:39:12.00	61123	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T04:04:10.98	61171	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T06:21:28.98	61392	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-21T06:44:03.00	61433	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T06:53:55.98	61449	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T12:29:09.00	61944	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T20:49:49.02	62640	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T21:16:54.00	62695	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T21:20:10.02	62701	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T21:23:34.02	62707	0-0-K	 GRAD: twt excessive
+?	08020044	1987-12-21T21:27:51.00	62715	0-0-KL	 GRAD: twt, depth excessive
+?	08020044	1987-12-21T22:16:25.98	62802	0-0-KL	 GRAD: twt, depth excessive

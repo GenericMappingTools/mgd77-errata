@@ -1,0 +1,22 @@
+# Cruise 10050004 ID FM0104 MGD77 FILE VERSION: 19920727 N_RECS: 7888
+# Examined: Tue Aug 24 13:52:30 2010 by mtchandl
+# Arguments:  -R1.35/17.4/-34.7/-16.3 -De -Gdepth,/Users/data/GRIDS/topo1.grd -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Flagged magnetic anomalies for recalculation.
+# Errata: Header
+Y-E-10050004-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-10050004-H13-03: Invalid Magnetics Sensor Tow Distance: (250.) [250]
+Y-W-10050004-nav-00: Flagged 0.04 % of records with bad navigation
+Y-I-10050004-depth-01: RLS m: 1 b: 0 rms: 6.60594 r: 0.999994 sig: 1 dec: 0
+Y-E-10050004-mag-07: Anomaly differs from mtf1-IGRF (m: 1.07435 b: -22.3122 rms: 49.6647 r: 0.986104 sig: 1 dec: 1). [Recompute]
+Y-W-10050004-depth-12: Integer precision
+Y-W-10050004-mtf1-12: Integer precision
+Y-W-10050004-mag-12: Integer precision
+# Errata: Data
+Y	10050004	1979-05-16T12:38:00.00	1	D-0-0	 NAV: on land
+Y	10050004	1979-05-16T12:45:00.00	2	D-0-0	 NAV: on land
+?	10050004	1979-05-31T18:05:00.00	4604	0-0-L	 GRAD: depth excessive
+Y	10050004	1979-06-11T22:28:00.00	7887	B-0-0	 NAV: non-increasing time

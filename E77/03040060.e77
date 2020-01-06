@@ -1,0 +1,18 @@
+# Cruise 03040060 ID POL7303 MGD77 FILE VERSION: 19870305 N_RECS: 7270
+# Examined: Fri Apr 16 13:49:51 2010 by mtchandl
+# Arguments:  -R241.95/289.65/-32.95/-17.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Recommend recomputing magnetic anomalies.
+# Errata: Header
+Y-I-03040060-depth-01: RLS m: 0.999558 b: 0 rms: 34.0289 r: 0.999283 sig: 1 dec: 0
+Y-I-03040060-faa-01: RLS m: 0.989658 b: 1.86783 rms: 3.71763 r: 0.998024 sig: 1 dec: 0
+N-E-03040060-faa-02: Regression slope 0.989658 different from 1. Recommended: [1]
+Y-W-03040060-faa-03: Regression offset 1.86783 different from 0.
+Y-E-03040060-mag-07: Anomaly differs from mtf1-IGRF (m: 0.906098 b: -142.106 rms: 192.963 r: 0.805425 sig: 1 dec: 1). [Recompute]
+Y-W-03040060-mtf1-12: Integer precision
+Y-W-03040060-mag-12: Integer precision
+# Errata: Data
+?	03040060	1973-04-09T17:57:00.00	1325	0-0-K	 GRAD: twt excessive

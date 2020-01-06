@@ -1,0 +1,27 @@
+# Cruise 71040005 ID AG08 MGD77 FILE VERSION: 19880322 N_RECS: 2804
+# Examined: Wed Aug  3 06:50:53 2011 by mtchandl
+# Arguments:  -R-10/23.5/-49/-34 -De -Gdepth,/data/GRIDS/topo1.grd -gfaa,/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments: Cruise reports mtf1 but no magnetic anomalies. Flagged an excessive depth offset.
+# Errata: Header
+Y-W-71040005-nav-00: Flagged 0.25 % of records with bad navigation
+Y-I-71040005-depth-01: RLS m: 1.00022 b: 0 rms: 16.556 r: 0.99979 sig: 1 dec: 0
+Y-E-71040005-depth-08: Extended offset from grid [1190-1209]
+Y-W-71040005-depth-12: Integer precision
+Y-W-71040005-mtf1-12: Integer precision
+# Errata: Data
+?	71040005	1979-05-06T04:00:00.00	741	0-0-O	 GRAD: mtf1 excessive
+?	71040005	1979-05-07T22:25:00.00	1193	0-0-L	 GRAD: depth excessive
+?	71040005	1979-05-07T23:40:00.00	1208	0-0-L	 GRAD: depth excessive
+Y	71040005	1979-05-10T14:35:00.00	1592	C-0-0	 NAV: excessive speed
+Y	71040005	1979-05-10T14:40:00.00	1593	C-0-0	 NAV: excessive speed
+Y	71040005	1979-05-10T14:45:00.00	1594	C-0-0	 NAV: excessive speed
+Y	71040005	1979-05-10T14:50:00.00	1595	C-0-0	 NAV: excessive speed
+Y	71040005	1979-05-10T14:55:00.00	1596	C-0-0	 NAV: excessive speed
+Y	71040005	1979-05-10T15:00:00.00	1597	C-0-0	 NAV: excessive speed
+?	71040005	1979-05-11T09:45:00.00	1822	0-0-L	 GRAD: depth excessive
+?	71040005	1979-05-11T10:20:00.00	1829	0-0-L	 GRAD: depth excessive
+Y	71040005	1979-05-11T18:05:00.00	1923	B-0-0	 NAV: non-increasing time

@@ -1,0 +1,46 @@
+# Cruise 15020144 ID WEST11MV MGD77 FILE VERSION: 19951214 N_RECS: 39718
+# Examined: Sun May 18 09:50:02 2008 by mtchandl
+# Arguments:  -R141.3/147.55/-54.55/-42.85 -De -Hf -Gdepth,/data/GRIDS/S2004_hdr.i2 -gfaa,/data/GRIDS/grav.16.1.B.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-W-15020144-H13-10: Survey year (1995) outside magnetic reference field IGRF-65 time range (1955-1970)
+Y-I-15020144-depth-01: RLS m: 0.996125 b: 0 rms: 136.748 r: 0.993579 sig: 1 dec: 1
+Y-W-15020144-twt-11: More recent bathymetry correction table available
+Y-W-15020144-depth-12: Integer precision
+# Errata: Data
+?	15020144	1995-03-20T06:09:00.00	2905	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-20T16:21:00.00	3517	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-20T16:47:00.00	3543	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-20T17:00:00.00	3556	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-20T19:55:00.00	3731	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-20T21:00:00.00	3796	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-20T22:52:00.00	3908	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-20T23:38:00.00	3954	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-21T02:17:00.00	4113	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-21T02:18:00.00	4114	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-21T02:32:00.00	4128	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-21T02:40:00.00	4136	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-22T02:44:00.00	5575	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-22T15:32:00.00	6343	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-23T03:43:00.00	7070	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-24T07:42:00.00	8745	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-24T14:25:00.00	9148	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-26T03:07:00.00	11344	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-26T19:49:00.00	12346	0-0-K	 GRAD: twt excessive
+?	15020144	1995-03-26T21:09:00.00	12426	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-03-28T04:57:00.00	14331	0-0-K	 GRAD: twt excessive
+?	15020144	1995-04-01T19:11:00.00	20945	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-03T09:23:00.00	23232	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-04T06:45:00.00	24482	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-04T20:31:00.00	25308	0-0-K	 GRAD: twt excessive
+?	15020144	1995-04-06T17:50:00.00	28017	0-0-K	 GRAD: twt excessive
+?	15020144	1995-04-07T21:16:00.00	29658	0-0-K	 GRAD: twt excessive
+?	15020144	1995-04-07T23:19:00.00	29781	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-07T23:20:00.00	29782	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-08T09:41:00.00	30403	0-0-KL	 GRAD: twt, depth excessive
+?	15020144	1995-04-11T15:32:00.00	35067	0-0-K	 GRAD: twt excessive
+?	15020144	1995-04-11T23:50:00.00	35565	0-0-K	 GRAD: twt excessive

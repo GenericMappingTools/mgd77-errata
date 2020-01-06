@@ -1,0 +1,19 @@
+# Cruise 06910002 ID P383AT MGD77 FILE VERSION: 19870929 N_RECS: 8025
+# Examined: Fri Jul 16 16:57:26 2010 by mtchandl
+# Arguments:  -R278.95/279.9/28.25/29.9 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-I-06910002-depth-01: RLS m: 1.0028 b: 0 rms: 2.09064 r: 0.967696 sig: 1 dec: 0
+Y-I-06910002-faa-01: RLS m: 0.903609 b: 2.04508 rms: 2.36414 r: 0.93927 sig: 1 dec: 0
+N-E-06910002-faa-02: Regression slope 0.903609 different from 1. Recommended: [1]
+Y-W-06910002-faa-03: Regression offset 2.04508 different from 0.
+N-E-06910002-faa-06: Anomaly differs from gobs-IGF80 (m: 0.0039579 b: 23.893 rms: 56.8933 r: 0.0357643 sig: 1 dec: 0). [Recompute]
+N-E-06910002-faa-15: Anomaly differs from gobs-IGF80+eot (m: 0.999398 b: 0.839138 rms: 0.828575 r: 0.999928 sig: 1 dec: 0). [Recompute]
+Y-W-06910002-faa-15: gobs may not be corrected for Eotvos (correlation for gobs-IGF80+eot > correlation for gobs-IGF80)
+Y-W-06910002-faa-09: only found positive values
+Y-W-06910002-twt-11: More recent bathymetry correction table available
+# Errata: Data

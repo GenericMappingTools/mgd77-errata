@@ -1,0 +1,109 @@
+# Cruise 01210038 ID EW9309 MGD77 FILE VERSION: 20040304 N_RECS: 52417
+# Examined: Fri Mar 26 19:28:50 2010 by mtchandl
+# Arguments:  -R-56.15/18.45/-52.5/-33.85 -De -Gdepth,/Users/data/GRIDS/S2004_hdr.i2 -gfaa,/Users/data/GRIDS/grav.18.1.img,0.1,1,80.738008628 -Gnav,/data/GRIDS/dist_to_coast_1m_grd.i4
+Y Errata table verification status
+# mgd77manage applies corrections if the errata table is verified (toggle 'N' above to 'Y' after review)
+# For instructions on E77 format and usage, see http://gmt.soest.hawaii.edu/mgd77/errata.php
+# Verified by: M. T. Chandler
+# Comments:
+# Errata: Header
+Y-E-01210038-H13-01: Invalid Magnetics Digitizing Rate: (999) [   ]
+Y-E-01210038-H13-02: Invalid Magnetics Sampling Rate: (99) [  ]
+Y-E-01210038-H13-06: Invalid Magnetics Reference Field Code: (99) [00]
+Y-E-01210038-H14-01: Invalid Gravity Digitizing Rate: (999) [   ]
+Y-E-01210038-H14-02: Invalid Gravity Sampling Rate: (99) [  ]
+Y-E-01210038-H14-03: Invalid Gravity Theoretical Formula Code: (9) [ ]
+Y-E-01210038-H15-01: Invalid Gravity Departure Base Station Value: (9999999) [       ]
+Y-E-01210038-H15-03: Invalid Gravity Arrival Base Station Value: (9999999) [       ]
+Y-W-01210038-nav-00: Flagged 0.09 % of records with bad navigation
+Y-I-01210038-depth-01: RLS m: 1.0316 b: 0 rms: 207.317 r: 0.990247 sig: 1 dec: 0
+N-E-01210038-depth-02: Regression slope 1.0316 different from 1. Recommended: [1]
+N-E-01210038-depth-08: Extended offset from grid [9610-10500]
+N-E-01210038-depth-08: Extended offset from grid [44983-51210]
+Y-W-01210038-twt-11: More recent bathymetry correction table available
+# Errata: Data
+Y	01210038	1993-11-20T07:20:00.00	1	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:21:00.00	2	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:22:00.00	3	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:23:00.00	4	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:24:00.00	5	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:25:00.00	6	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:26:00.00	7	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:27:00.00	8	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:28:00.00	9	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:29:00.00	10	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:30:00.00	11	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:31:00.00	12	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:32:00.00	13	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:33:00.00	14	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:34:00.00	15	D-0-0	 NAV: on land
+Y	01210038	1993-11-20T07:35:00.00	16	D-0-0	 NAV: on land
+?	01210038	1993-11-20T07:36:00.00	17	D-0-0	 NAV: on land
+?	01210038	1993-11-21T21:33:00.00	2294	0-0-K	 GRAD: twt excessive
+?	01210038	1993-11-24T15:31:00.00	6252	0-0-K	 GRAD: twt excessive
+?	01210038	1993-11-25T13:30:00.00	7571	0-0-K	 GRAD: twt excessive
+?	01210038	1993-11-27T14:17:00.00	10498	0-0-K	 GRAD: twt excessive
+?	01210038	1993-11-29T03:00:58.98	12608	0-0-L	 GRAD: depth excessive
+Y	01210038	1993-12-02T23:59:54.00	17960	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:00:52.02	17961	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:02:09.00	17962	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:03:07.02	17963	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:04:06.00	17964	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:05:04.98	17965	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:06:03.00	17966	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:07:01.98	17967	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-03T00:08:55.98	17968	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-03T00:10:01.02	17969	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-03T00:10:55.98	17970	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-03T00:12:00.00	17971	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-03T00:13:04.02	17972	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-03T00:13:58.02	17973	C-0-0	 NAV: excessive speed
+?	01210038	1993-12-10T12:10:04.98	28499	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-10T12:12:04.98	28500	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-10T12:14:04.98	28502	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-10T12:16:55.02	28503	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-10T22:14:54.00	29053	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-10T22:16:03.00	29054	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-11T04:26:45.00	29412	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-11T04:27:51.00	29413	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-11T05:31:52.02	29477	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-11T05:33:00.00	29478	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-11T15:49:58.98	30082	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-12T01:25:54.00	30640	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-12T01:38:54.00	30652	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-12T01:59:07.02	30672	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-12T20:45:49.98	31742	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T00:07:04.98	31932	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T00:35:01.02	31959	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T02:06:03.00	32045	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T07:02:55.98	32330	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T07:04:01.02	32331	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-13T16:33:58.02	32843	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-14T02:30:57.00	33414	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-14T18:35:01.02	34271	0-0-L	 GRAD: depth excessive
+?	01210038	1993-12-14T18:36:04.02	34272	0-0-L	 GRAD: depth excessive
+Y	01210038	1993-12-16T00:00:00.00	35977	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:01:00.00	35978	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:02:00.00	35979	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:03:00.00	35980	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:04:00.00	35981	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:05:00.00	35982	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:06:00.00	35983	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:07:00.00	35984	B-0-0	 NAV: non-increasing time
+Y	01210038	1993-12-16T00:08:00.00	35985	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:09:00.00	35986	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:10:00.00	35987	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:11:00.00	35988	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:12:00.00	35989	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:13:00.00	35990	C-0-0	 NAV: excessive speed
+Y	01210038	1993-12-16T00:14:00.00	35991	C-0-0	 NAV: excessive speed
+?	01210038	1993-12-16T03:37:00.00	36194	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-16T12:13:00.00	36710	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-16T12:14:00.00	36711	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-16T12:20:00.00	36717	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-16T12:53:00.00	36750	0-0-KL	 GRAD: twt, depth excessive
+?	01210038	1993-12-17T21:14:00.00	38691	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-17T21:48:00.00	38725	0-0-KL	 GRAD: twt, depth excessive
+?	01210038	1993-12-17T22:50:00.00	38787	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-18T09:50:00.00	39447	0-0-K	 GRAD: twt excessive
+?	01210038	1993-12-19T11:55:00.00	41012	0-0-K	 GRAD: twt excessive
